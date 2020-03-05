@@ -116,10 +116,20 @@ label ep22_quests_office4_l1:
         if ep211_quests_photoshoot_stage == 1:
             jump ep211_quests_publicevent2_photoshoot2
         if ep211_quests_photoshoot_stage == 2:
-            call ep211_quests_publicevent2_photoshoot3()
+            jump ep211_quests_publicevent2_photoshoot3
         if ep211_quests_photoshoot_stage == 3:
             call ep211_dialogues3_photoshoot_6() # фотосессия
             call ep211_dialogues3_photoshoot_7()
+            if _return == 0:
+                $ monicaPhotoShootInProgress = False
+                $ monicaOutfitsAltEnabled = False
+                $ miniMapEnabledOnly = []
+                $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
+                $ remove_hook(label="photoshoot")
+                $ remove_hook(label="photoshoot_alex")
+                call putoff_work_clothes()
+                call change_scene("street_monica_office", "Fade_long", False)
+                return False
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     #конец фотосессии
     sound snd_fabric1

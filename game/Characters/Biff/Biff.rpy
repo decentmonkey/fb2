@@ -33,6 +33,8 @@ define PS7_shots_amount = 22
 default PS7_shoots_array = []
 define PS8_shots_amount = 16
 default PS8_shoots_array = []
+define PS9_shots_amount = 22
+default PS9_shoots_array = []
 
 define PS_Melanie_1_shots_amount = 24
 default PS_Melanie_1_shoots_array = []

@@ -8,6 +8,6 @@ label ep211_quests_load_init:
 
         if ep22_quests_monica_presentation_completed == True and ep22_quests_monica_presentation_completed_day == -1:
             $ ep22_quests_monica_presentation_completed_day = day
-            
+
         $ ep211_quests_load_init_flag = True
     return

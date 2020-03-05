@@ -14,6 +14,10 @@ default ep211_quests_guests_progress_cur = 0
 
 default ep211_quests_photoshoot_stage = 0
 
+default ep211_quests_publicevent2_completed = False
+
+default monicaOfficeFiredType1 = False
+
 # Первый разговор в втором паблик евенте
 label ep211_quests_publicevent2_1:
     call ep211_dialogues2_public_event_1()
@@ -251,6 +255,7 @@ label ep211_quests_publicevent2_3_investor1:
     $ renpy.pause (2.0, hard=True)
     $ miniMapEnabledOnly = []
     $ remove_objective("talk_investor1")
+    $ ep211_quests_publicevent2_completed = True
     $ autorun_to_object("ep211_dialogues2_public_event_42", scene="street_monica_office")
     $ remove_hook(label="public_event2")
     call putoff_work_clothes()
@@ -325,12 +330,59 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
     call ep211_dialogues3_photoshoot_6() # фотосессия
     call ep211_dialogues3_photoshoot_7()
     $ remove_hook(label="public_event2_block")
+    if _return == 0: # Моника отказалась
+        $ monicaPhotoShootInProgress = False
+        $ monicaOutfitsAltEnabled = False
+        $ miniMapEnabledOnly = []
+        $ remove_hook(label="public_event2_block")
+        $ add_hook("Biff", "ep211_quests_publicevent2_photoshoot2_biff_repeat", scene="monica_office_cabinet_table", label="photoshoot9_repeat")
+        $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
+        $ remove_hook(label="photoshoot")
+        $ remove_hook(label="photoshoot_alex")
+        call putoff_work_clothes()
+        call change_scene("street_monica_office", "Fade_long", False)
+        return False
+    if _return == -1: # Моника УВОЛИЛАСЬ
+        $ monicaPhotoShootInProgress = False
+        $ monicaOutfitsAltEnabled = False
+        $ miniMapEnabledOnly = []
+        $ remove_hook(label="public_event2_block")
+        $ add_hook("Biff", "ep211_quests_publicevent2_photoshoot2_biff_repeat", scene="monica_office_cabinet_table", label="photoshoot9_repeat")
+#        $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
+        $ remove_hook(label="photoshoot")
+        $ remove_hook(label="photoshoot_alex")
+        call putoff_work_clothes()
+        $ questLog(64, False)
+        $ questLog(63, False)
+        $ questLog(47, False)
+        $ questLog(6, False)
+        $ questLog(43, False)
+        $ questLog(46, False)
+        $ questLog(7, False)
+        $ questLog(8, False)
+        $ questLog(9, False)
+        $ questLog(67, False)
+        $ questLog(68, True)
+        $ autorun_to_object("ep211_dialogues3_photoshoot_8b", scene="street_monica_office")
+        $ add_hook("Teleport_Inside", "ep211_dialogues3_photoshoot_8b", scene="street_monica_office", label="monica_office_fired1", priority=10001)
+        $ monicaOfficeFiredType1 = True
+        call change_scene("street_monica_office", "Fade_long", False)
+        return False
     $ add_hook("before_open", "ep211_quests_publicevent2_photoshoot4", scene="monica_office_cabinet", label="photoshoot9_2")
     $ add_hook("before_open", "ep211_quests_publicevent2_photoshoot4", scene="monica_office_cabinet_table", label="photoshoot9_2")
     $ add_objective("talk_biff", _("Пойти в кабиент к Бифу и узнать, что решил инвестор."), c_blue, 105)
     $ miniMapEnabledOnly = []
     $ monicaOutfitsEnabled[8] = True # Открываем костюм для регулярной съемки
-    return
+
+    sound snd_fabric1
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    $ remove_hook(label="photoshoot_alex")
+    $ add_hook("Biff", "ep22_quests_office6", scene="monica_office_cabinet_table", label="photoshoot") #Мне надо получить деньги от Бифа
+    $ add_hook("Teleport_Monica_Office_Entrance", "ep22_dialogue6_7a", scene="monica_office_secretary", label="photoshoot", priority = 105) #Блокируем выход пока не получили деньги от Бифа
+    call change_scene("monica_office_cabinet", "Fade_long")
+    return False
 
 label ep211_quests_publicevent2_photoshoot4: # Моника возвращается к Бифу после фотосессии
     if day_time != "evening":
@@ -340,8 +392,9 @@ label ep211_quests_publicevent2_photoshoot4: # Моника возвращает
     call ep211_dialogues3_photoshoot_8()
     $ autorun_to_object("ep22_dialogue6_7a", scene="monica_office_cabinet_table")
     call change_scene("monica_office_cabinet_table")
+    $ add_corruption(monicaPhotoshoot9CorruptionAdd, "photoshoot9")
     $ ep211_quests_photoshoot_stage = 3
-    return
+    return False
 
 
 

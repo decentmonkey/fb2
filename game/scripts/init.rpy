@@ -1,4 +1,8 @@
-#v0.10
+#v11
+define monicaPhotoshoot9CorruptionRequired = 320
+define monicaPhotoshoot9CorruptionAdd = 30
+define PS9_AlexProgressEachCorruptionShot = 3
+#v10
 define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
 define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы
 define monica_philip_ask_money1_corruption = 2 # Дается за то что просит еще денег
