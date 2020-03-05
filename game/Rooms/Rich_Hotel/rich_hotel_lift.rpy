@@ -6,7 +6,7 @@ label rich_hotel_lift:
     $ miniMapData = []
     $ scene_image = "scene_RichHotel_Lift[richHotelLiftSceneSuffix]"
 
-    music Stealth_Groover
+    music Groove2_85
     return
 
 label rich_hotel_lift_init:

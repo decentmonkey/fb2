@@ -24,23 +24,32 @@ label ep211_escort_scene1_1a:
     mt "Что мне делать дальше?"
     mt "..."
     menu:
-        "Встреча с клиентом (сцена).":
+        "Встреча с клиентом (сцена)." if math.floor(monicaEscortScene1Day/7)<math.floor(day/7):
             menu:
                 "Клиент в номере отеля.":
                     # запускается сцена 1 с клиентом в отеле, начиная с лейбла ep211_escort_scene1_1 (если в первый раз)
                     # при повторном выборе начинается с лейбла ep211_escort_scene1_3 (перед лифтом + сцена)
                     $ monicaEscortClientHotel4 = True # выбор сцены 1 с клиентом в отеле
-                    return
+                    return 1
                 "Выезд к клиенту.":
                     # запускается сцена 2 - выезд к клиенту, начиная с лейбла ep211_escort_scene2_1 (если в первый раз)
                     # при повторном выборе начинается с лейбла ep211_escort_scene2_3 (служ. коридор + выезд)
                     $ monicaEscortClientHotel5 = True # выбор сцены 2 с клиентом на выезде
-                    return
+                    return 2
             return
+        "Встреча с клиентом (на следующей неделе) (disabled)" if math.floor(monicaEscortScene1Day/7)==math.floor(day/7):
+            pass
         "Ждать клиента за столиком.":
             # Моника нерешительно
             mt "Что ж... Надеюсь, [monica_hotel_name] повезет сегодня с клиентом..."
             $ monicaEscortClientHotel6 = True # выбор пункта "Ждать клиента."
+            menu:
+                "Просто ждать.":
+                    return -1
+                "Пытаться привлечь внимание. (в следующих обновлениях) (disabled)":
+                    pass
+                "Кастинг в номерах. (в следующих обновлениях) (disabled)":
+                    pass
             return
         "Уйти отсюда!":
             mt "Нет! Я не буду заниматься этим!!!"
@@ -141,8 +150,8 @@ label ep211_escort_scene1_1:
     with diss
     client "Конечно, [monica_hotel_name]."
     client "Я буду ждать тебя {c}у лифта{/c}."
-    $ log1 = _("Пойти на ресепшн к администратору.")
-    return
+#    $ log1 = _("Пойти на ресепшн к администратору.")
+    return True
 
 # Моника приходит на ресепшн
 label ep211_escort_scene1_2:
@@ -231,7 +240,7 @@ label ep211_escort_scene1_2:
     mt "!!!"
 #    img 30105
     reception "Быстро!"
-    $ log1 = _("Пойти в служебный коридор и переодеться.")
+#    $ log1 = _("Пойти в служебный коридор и переодеться.")
     return
 
 ##############################################
@@ -347,7 +356,7 @@ label ep211_escort_scene1_2_1:
     mt "Она еще и комментирует мой внешний вид!"
     mt "Мерзкая сучка!"
     mt "!!!"
-    $ log1 = _("Пойти к клиенту. Он ждет у лифта.")
+#    $ log1 = _("Пойти к клиенту. Он ждет у лифта.")
     return
 ##############################################
 
@@ -365,7 +374,7 @@ label ep211_escort_scene1_3:
     mt "А это просто обычный неудачник."
     mt "Наверное, приходит сюда раз в месяц в день зарплаты. Фи!"
     mt "Что-то пойдет не так - я просто уйду отсюда."
-    return
+    return False
 
 # Моника с клиентом в номере отеля
 label ep211_escort_scene1_4:
@@ -373,7 +382,7 @@ label ep211_escort_scene1_4:
     music stop
     img black_screen
     with diss
-    sound highheels_short_walk
+    sound snd_lift
     pause 2.0
     music Groove2_85
     img 16765
@@ -736,6 +745,7 @@ label ep211_escort_scene1_4:
     mt "700 долларов?!"
     mt "Я заработала 700 долларов, облизывая палец незнакомому мужчине!"
     mt "..."
+    $ add_money(700.0)
     img 16767
     with fade
     mt "Меньше всего хочется отдавать половину этой сучке на ресепшене..."
@@ -748,7 +758,7 @@ label ep211_escort_scene1_4:
     mt "Эта сучка больше не пустит меня в ресторан..."
     mt "Нет, мне не стоит пока терять эту возможность заработка."
 
-    $ log1 = _("Пойти на ресепшн и отдать 50 процентов от заработка администратору.")
+#    $ log1 = _("Пойти на ресепшн и отдать 50 процентов от заработка администратору.")
     return
 
 # Моника после клиента идет на ресепшен
@@ -759,6 +769,7 @@ label ep211_escort_scene1_5:
     with fadelong
     sound highheels_short_walk
     w
+    $ add_money(-700.0)
     img 30107
     with fade
     m "Клиент заплатил 700 долларов."
@@ -780,6 +791,7 @@ label ep211_escort_scene1_5:
     reception "Я все знаю..."
     reception "Это моя работа!"
     sound vjuh3
+    $ add_money(350.0)
     img 30112
     with diss
     reception "Вот твои деньги."
@@ -923,5 +935,18 @@ label ep211_escort_scene1_15:
     sound highheels_short_walk
     mt "Никчемная администраторша!"
     mt "!!!"
-	return
-    
+    return
+
+label ep211_escort_scene1_16:
+    mt "Никто ко мне не подошел, дьявол!"
+    mt "К черту всех этих неудачников!"
+    call change_scene("rich_hotel_reception")
+    return
+
+label ep211_escort_scene1_17:
+    mt "Мне надо подойти к чертовой администраторше..."
+    return False
+
+label ep211_escort_scene1_18:
+    mt "Мне надо переодеться..."
+    return False
