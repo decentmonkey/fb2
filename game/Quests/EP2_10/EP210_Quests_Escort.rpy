@@ -280,6 +280,8 @@ label ep210_quests_escort2: # Входит в отель на следующий
         # Входим в ресторан
         call change_scene("rich_hotel_restaurant_entrance", "Fade_long")
         return False
+    if _return == 2:
+        call ep211_quests_escort1()
 
     return False
 

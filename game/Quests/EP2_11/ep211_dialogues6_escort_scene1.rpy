@@ -872,8 +872,22 @@ label ep211_escort_scene1_13:
     mt "Ненавижу это место!"
     return
 
-# Моника уходит, не работая
+label ep211_escort_scene1_13a:
+    mt "Эта дверь ведет в служебный коридор, где решаются вопросы, связанные с эскортом."
+    mt "И проводятся... кастинги..."
+    return
+
+
 label ep211_escort_scene1_14:
+    menu:
+        "Уйти.":
+            return 1
+        "Остаться.":
+            return 2
+    return
+
+# Моника уходит, не работая
+label ep211_escort_scene1_15:
     # китаянка стоит за стойкой ресепшена
     music Groove2_85
     img 30106
@@ -909,4 +923,5 @@ label ep211_escort_scene1_14:
     sound highheels_short_walk
     mt "Никчемная администраторша!"
     mt "!!!"
-    return
+	return
+    

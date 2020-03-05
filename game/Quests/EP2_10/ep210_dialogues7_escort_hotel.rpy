@@ -1262,6 +1262,10 @@ label ep210_dialogues7_escort_hotel_7c:
     mt "Администратор сказала приходить завтра."
     return False
 
+label ep210_dialogues7_escort_hotel_7d:
+    mt "Я не хочу больше возвращаться туда! Не сегодня."
+    return
+
 # Моника, придя на работу в эскорт, перед отелем
 label ep210_dialogues7_escort_hotel_7e:
     # не рендерить!
@@ -1356,8 +1360,8 @@ label ep210_dialogues7_escort_hotel_8:
 
 label ep210_dialogues7_escort_hotel_8_menu:
     menu:
-        "Работать в эскорте (в следующем апдейте). (disabled)":
-            pass
+        "Работать в эскорте.":
+            return 2
         "Идти в ресторан.":
             return 1
     return

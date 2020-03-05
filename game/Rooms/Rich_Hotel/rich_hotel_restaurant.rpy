@@ -12,7 +12,7 @@ label rich_hotel_restaurant:
     $ miniMapData = []
     $ scene_image = "scene_RichHotel_Restaurant[richHotelRestaurantSceneSuffix]"
 
-    music Stealth_Groover
+    music Poppers_and_Prosecco
     return
 
 label rich_hotel_restaurant_init:
