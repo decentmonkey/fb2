@@ -103,8 +103,8 @@ label ep211_dialogues7_Phillip_home_2:
     mt "Чтобы заработать какие-то жалкие 50 долларов."
     menu:
         "Двойной минет.":
-            return
-        "Групповой секс. (в следующем обновлении)":
+            return 1
+        "Групповой секс. (в следующем обновлении) (disabled)":
             return
     return
 
@@ -198,6 +198,7 @@ label ep211_dialogues7_Phillip_home_3:
     with diss
     whore_number_1 "Иди сюда..." # и снова принимается за работу
     mt "..."
+    $ menu_corruption = [0, monicaPhilipDoubleBlowjobCorruptionRequired]
     menu:
         "Убежать!":
             # Моника смотрит с отвращением
@@ -273,7 +274,7 @@ label ep211_dialogues7_Phillip_home_3:
     w
     sound Jump1
     img 17118
-    with diss
+    with hpunch
     philip "Даааа... Вот так..."
     img 17119
     with fade
@@ -345,6 +346,7 @@ label ep211_dialogues7_Phillip_home_3:
     with diss
     w
     # Моника и шлюха номер 1 отстраняются от него, Моника брезгливо вытирает рот
+    $ add_corruption(monicaPhilipVisitDoubleBlowjobCorruption, "monicaPhilipVisitDoubleBlowjobCorruption" + str(day))
     music stop
     img black_screen
     with diss
@@ -425,6 +427,7 @@ label ep211_dialogues7_Phillip_home_4:
     with diss
     whore_number_1 "Зато мы заработали денег."
     whore_number_1 "Вот твои 50 баксов, как и договаривались..."
+    $ add_money(50.0)
     # дает ей деньги
     img 17073
     with fade

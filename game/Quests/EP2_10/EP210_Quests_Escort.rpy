@@ -11,6 +11,7 @@ default monica_philip_visit_whore1_exists = False
 default monica_philip_visits_blowjobs = 0
 default monica_philip_visits_sex = 0
 default monica_philip_visits_swallowed = 0
+default monica_philip_visits_double_blowjobs = 0
 
 default ep210_quests_escort_staff_refused = False
 
@@ -191,6 +192,7 @@ label ep210_quests_escort1_philip5_bitch1_street: # Шлюха окликает 
     if _return == False:
         $ move_object("Bitch1", "empty")
         call refresh_scene_fade_long()
+    call ep211_quests_philip()
     return False
 
 label ep210_quests_escort1_philip5_bitch1_street_leave:

@@ -1016,7 +1016,7 @@ label ep210_dialogues2_escort_start_Phillip_13:
             mt "Да еще и за 50 долларов!"
             mt "!!!"
             return False
-        "Мне нужны эти деньги (в следующем обновлении). (disabled)":
+        "Мне нужны эти деньги...":
             return
     return
 
