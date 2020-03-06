@@ -192,6 +192,7 @@ label ep210_quests_escort1_philip5_bitch1_street: # Шлюха окликает 
     if _return == False:
         $ move_object("Bitch1", "empty")
         call refresh_scene_fade_long()
+        return False
     call ep211_quests_philip()
     return False
 
