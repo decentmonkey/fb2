@@ -1164,37 +1164,107 @@ label ep211_escort_scene2_6:
     with diss
     sound snd_fabric1
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
+
     img 16694
     with fadelong
     daniel "Ммммм, какая же ты охренительная, детка..."
+
+
     img 16695
     with fade
     daniel "Я никому тебя не отдам."
     daniel "Я буду твоим постоянным клиентом."
+
     img 16696
     with diss
     daniel "Ты будешь трахаться только со мной."
     img 16697
     with fade
     mt "У тебя, неудачник, денег на меня не хватит..."
+
+
     # Дэниел входит в киску Моники и начинает двигаться
     img 16698
     with diss
     daniel "О, ты просто супер, [monica_hotel_name]!"
     daniel "Такая горячая! Такая охренительная!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_1 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_1.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_1
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_2 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_2.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16699
     with fade
     daniel "Дааа! Хочу трахать тебя каждый день!"
     daniel "Мммммм..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_3 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_3.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_3
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_4 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_4.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 16700
     with diss
     daniel "О, просто чертовски охренительно!!!"
     daniel "Даааа!"
+
+
     img 16701
     sound ahhh4
     with diss
     daniel "Ааааа!!!"
+    music stop
+    music2 stop
     # затемнение экрана, надпись "В это время в гостиной..."
     return
 
@@ -1268,22 +1338,71 @@ label ep211_escort_scene2_8:
     call textonblack(_("В соседней комнате..."))
     pause 1.5
 #    music Loved_Up
-    music Turbo_Tornado
+    music stop
+    music2 Turbo_Tornado
     img 16702
     with fadelong
     daniel "Мммммм..."
     daniel "Какие же у тебя сиськи!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_5 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_5.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_5
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_6 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_6.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16703
     with fade
     sound ahhh6
     daniel "Даааа!"
     daniel "В следующий раз я куплю тебя на всю ночь!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent1_Monica_Guy1_Sex_1_7 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_7.mkv", fps=30)
+    show videov_EscortEvent1_Monica_Guy1_Sex_1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 16704
     with diss
     daniel "И буду трахать тебя до утра!"
     daniel "Ааааа!!!"
     # в комнату заходит Марти
     # Дэниел испуганно
+    music2 stop
+    music stop
     img black_screen
     with diss
     sound man_steps
@@ -1500,39 +1619,162 @@ label ep211_escort_scene2_10:
     stop music fadeout 1.0
     call textonblack(_("В соседней комнате..."))
     pause 1.5
-    music Turbo_Tornado
+    music2 Turbo_Tornado
     img 16729
     with fadelong
     marty "Мммм, какая у тебя клевая попка!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_1 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_1.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16730
     with fade
     sound ahhh7
     marty "Такая упругая..."
     # Моника со злым лицом
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_2 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_2.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16731
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_3 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_3.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16732
     with fade
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_4 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_4.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16733
     with diss
     w
     img 16734
     with fade
     mt "Когда же он уже кончит и отстанет от меня?"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_5 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_5.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_5
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_6 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_6.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16735
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_7 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_7.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16736
     with fade
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy3_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy3_Sex_1_8 = Movie(play="video/v_EscortEvent2_Monica_Guy3_Sex_1_8.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy3_Sex_1_8
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 16737
     with diss
     marty "О, дааа!"
     marty "Мммммм..."
     # Марти он кончает
-    music Loved_Up2
+#    music2 stop
+#    music Loved_Up2
     img 16738
     sound bulk1
     show screen photoshot_screen()
@@ -1556,6 +1798,8 @@ label ep211_escort_scene2_10:
     pause 0.7
     hide screen photoshot_screen
     sound man_moan5
+    music stop
+    music2 stop
     # затемнение экрана, надпись "В это время в гостиной..."
     return
 
@@ -1683,27 +1927,150 @@ label ep211_escort_scene2_12:
     with diss
     sound snd_fabric1
     pause 1.5
-    music Turbo_Tornado
+    music2 Turbo_Tornado
     img 16753
     with fadelong
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_1 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_1.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16754
     with fade
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_2 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_2.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     img 16755
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_3 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_3.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_3
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_4 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_4.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_4
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_5 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_5.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 16756
     with fade
     ned2 "Аааа..."
-    img 16757
+
+    img black_screen
     with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_6 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_6.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_6
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_7 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_7.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_7
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+    scene black
+    image videov_EscortEvent2_Monica_Guy2_Sex_1_8 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_8.mkv", fps=30)
+    show videov_EscortEvent2_Monica_Guy2_Sex_1_8
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    img 16757
+    music Loved_Up2
+    with fadelong
     sound ahhh8
     ned2 "Аааааа..."
     img 16758
     with fade
     w
-    music Loved_Up2
+
     img 16759
     sound bulk1
     show screen photoshot_screen()
