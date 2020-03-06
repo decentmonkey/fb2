@@ -22,6 +22,7 @@ label ep211_quests_pub2_exit_with_tips: #уход с чаевыми (попыт�
     if monicaPubDanceStoleTipsStage == 0:
         $ monicaPubDanceStoleTipsDay = day
         $ add_hook("enter_scene", "ep211_quests_pub2_exit_with_tips_comment_nextday", scene="pub", label="pub_stole_dance_tips_comment")
+        $ add_hook("Teleport_Hostel_Pub", "dialogue_5_dance_strip_4m", scene="hostel_street", label="evening_time_temp")
         $ monicaPubDanceStoleTipsBankerPlanned = True
         return
     return
