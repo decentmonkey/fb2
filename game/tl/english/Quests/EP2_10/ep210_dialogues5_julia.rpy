@@ -589,7 +589,7 @@ translate english ep210_dialogues5_julia_3_a7cadb72:
     m "Julia, do you wear panties at all?"
     julia "Yes, Mrs. Buckfett ..."
     m "What color are they?"
-    julia "Mrs. Buckett, this is too personal..."
+    julia "Mrs. Buckfett, this is too personal..."
     julia "And it's too early to discuss such things..."
     m "And how much time should pass?"
     julia "I read in a book... About a relationship like this... betwwen you and me..."
@@ -1354,7 +1354,7 @@ translate english ep210_dialogues5_julia_3_341b2d4c:
 translate english ep210_dialogues5_julia_3_00b1f759:
 
     # julia "Миссис Бакфетт, это слишком личное..."
-    julia "Mrs. Buckett, this is too personal..."
+    julia "Mrs. Buckfett, this is too personal..."
 
 # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:674
 translate english ep210_dialogues5_julia_3_72c4a0c2:
@@ -1837,4 +1837,28 @@ translate english strings:
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:594
     old "Не заглядывать. (завершение сюжета с Юлией)"
     new "Don't look. (ends Julia's plot-line)"
+
+# TODO: Translation updated at 2020-03-06 23:33
+
+# game/Quests/EP2_10/ep210_dialogues5_julia.rpy:314
+translate english ep210_dialogues5_julia_2a_8fa1e171:
+
+    # mt "А где эта никчемная помощница?!"
+    # mt "Вот черт! Я совсем забыла..."
+    # mt "Я же договорилась с ней сегодня сходить в кафе."
+    # mt "Мне нужно сейчас идти на свидание с Юлией."
+    mt "And where is this worthless assistant?!"
+    mt "Damn it! I completely forgot..."
+    mt "I agreed to go to a cafe with her today."
+    mt "I need to go on a date with Julia now."
+
+translate english strings:
+
+    # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
+    old "Пригласить Юлию на второе свидание."
+    new "Пригласить Юлию на второе свидание."
+
+    # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
+    old "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
+    new "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
 

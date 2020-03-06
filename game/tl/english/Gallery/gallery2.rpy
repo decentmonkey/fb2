@@ -4434,3 +4434,15 @@ translate english gallery_10414_99bb31af:
     # betty "!!!"
     betty "!!!"
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+# game/Gallery/gallery2.rpy:3808
+translate english gallery_7675_234724e7:
+
+    # mt "!!!"
+    # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+    # mt "!!!"
+    mt "!!!"
+    bardie "You wore the right panties! Good maid!"
+    mt "!!!"
+

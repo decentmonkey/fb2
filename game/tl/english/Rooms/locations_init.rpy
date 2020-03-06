@@ -202,3 +202,23 @@ translate english strings:
     old "КЛАСС БАРДИ"
     new "BARDIE'S CLASSROOM"
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+translate english strings:
+
+    # game/Rooms/locations_init.rpy:203
+    old "Дом в трущобах"
+    new "Дом в трущобах"
+
+    # game/Rooms/locations_init.rpy:211
+    old "АПАРТАМЕНТЫ ЮЛИИ"
+    new "АПАРТАМЕНТЫ ЮЛИИ"
+
+    # game/Rooms/locations_init.rpy:219
+    old "КЛУБ КЭМПБЕЛЛА"
+    new "КЛУБ КЭМПБЕЛЛА"
+
+    # game/Rooms/locations_init.rpy:224
+    old "Lift"
+    new "Lift"
+

@@ -5944,3 +5944,25 @@ translate english gallery_12450_12e16f2d:
     # mt "Да ни за что на свете!"
     mt "No way in the world!"
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+# game/Gallery/gallery5.rpy:1158
+translate english gallery_22725_1_9ed47d46:
+
+    # mt "Какой ужас!"
+    # mt "Я, Моника Бакфетт, буду танцевать полуголая! В дешевом пабе для толпы неудачников!!!"
+    # mt "Я не могу поверить в это!"
+    mt "How horrible!"
+    mt "I, Monica Buckfett, should dance half-naked! In a cheap pub for a bunch of losers!!!"
+    mt "I can't believe it!"
+
+# game/Gallery/gallery5.rpy:2183
+translate english gallery_8493_48e9efc6:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    # citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
+    # m "Вы это о чем?"
+    m "Please, take this flyer..."
+    citizen12 "Sure, baby, don't you want something from me?"
+    m "What?"
+

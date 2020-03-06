@@ -36,7 +36,7 @@ translate english rich_hotel_reception_environment_064c07e7:
 translate english rich_hotel_reception_environment_41bbc723:
 
     # mt "Стойка Администратора."
-    mt "Administrator's counter."
+    mt "Boss's counter."
 
 # game/Rooms/Rich_Hotel/rich_hotel_reception.rpy:62
 translate english rich_hotel_reception_environment_103da57c:

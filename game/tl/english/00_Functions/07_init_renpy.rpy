@@ -422,3 +422,67 @@ translate english strings:
     old "Бариста"
     new "Barista"
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+translate english strings:
+
+    # game/00_Functions/07_init_renpy.rpy:183
+    old "Клиент"
+    new "Клиент"
+
+    # game/00_Functions/07_init_renpy.rpy:184
+    old "Нэд"
+    new "Нэд"
+
+    # game/00_Functions/07_init_renpy.rpy:186
+    old "Дэниел"
+    new "Дэниел"
+
+    # game/00_Functions/07_init_renpy.rpy:187
+    old "Марти"
+    new "Марти"
+
+    # game/00_Functions/07_init_renpy.rpy:189
+    old "Натали"
+    new "Натали"
+
+    # game/00_Functions/07_init_renpy.rpy:191
+    old "Банкир"
+    new "Банкир"
+
+    # game/00_Functions/07_init_renpy.rpy:193
+    old "Миссис Уайт"
+    new "Миссис Уайт"
+
+    # game/00_Functions/07_init_renpy.rpy:194
+    old "Грейс"
+    new "Грейс"
+
+    # game/00_Functions/07_init_renpy.rpy:195
+    old "Исаак"
+    new "Исаак"
+
+    # game/00_Functions/07_init_renpy.rpy:196
+    old "Райен"
+    new "Райен"
+
+    # game/00_Functions/07_init_renpy.rpy:197
+    old "Шарлотт"
+    new "Шарлотт"
+
+    # game/00_Functions/07_init_renpy.rpy:198
+    old "Мия"
+    new "Мия"
+
+    # game/00_Functions/07_init_renpy.rpy:199
+    old "Адриано"
+    new "Адриано"
+
+    # game/00_Functions/07_init_renpy.rpy:200
+    old "Тернер"
+    new "Тернер"
+
+    # game/00_Functions/07_init_renpy.rpy:201
+    old "Мистер Кэмпбэлл"
+    new "Мистер Кэмпбэлл"
+

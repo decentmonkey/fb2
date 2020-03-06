@@ -5044,3 +5044,119 @@ translate english gallery_6757_a7e40015:
     # m "Я поняла, спасибо..."
     m "I understand, thank you..."
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+# game/Gallery/gallery4.rpy:3790
+translate english gallery_8442_c021bc08:
+
+    # m "Моника Бакфетт хочет показать папочке грудь..."
+    m "Monica Buckfett wants to show daddy her breast..."
+
+# game/Gallery/gallery4.rpy:3801
+translate english gallery_8442_f4eb142e:
+
+    # m "Я покажу тебе грудь, потому что ты заставил меня..."
+    m "I'll show you my breasts, but only because you made me do it..."
+
+# game/Gallery/gallery4.rpy:3810
+translate english gallery_8442_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:3872
+translate english gallery_8453_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:3883
+translate english gallery_8474_4aa666b0:
+
+    # m "Девушка с календаря хочет показать папочке грудь..."
+    m "The calendar girl wants to show daddy her breasts..."
+
+# game/Gallery/gallery4.rpy:3928
+translate english gallery_8474_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:3964
+translate english gallery_9479_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4003
+translate english gallery_20187_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4086
+translate english gallery_9444_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4166
+translate english gallery_9453_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4237
+translate english gallery_9465_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4302
+translate english gallery_9492_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4370
+translate english gallery_9513_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4444
+translate english gallery_20191_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+
+# game/Gallery/gallery4.rpy:4498
+translate english gallery_20210_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, daddy's happy!"
+    biff "But he's starting to get bored of the seeing the same thing all the time..."
+

@@ -5944,3 +5944,25 @@ translate german gallery_12450_12e16f2d:
     # mt "Да ни за что на свете!"
     mt "Auf gar keinen Fall!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery5.rpy:1158
+translate german gallery_22725_1_9ed47d46:
+
+    # mt "Какой ужас!"
+    # mt "Я, Моника Бакфетт, буду танцевать полуголая! В дешевом пабе для толпы неудачников!!!"
+    # mt "Я не могу поверить в это!"
+    mt "Wie furchtbar!"
+    mt "Soll ich, Monica Buckfett, halb nackt tanzen! In einem billigen Loch für Loser!!!"
+    mt "Ich fasse es nicht!"
+
+# game/Gallery/gallery5.rpy:2183
+translate german gallery_8493_48e9efc6:
+
+    # m "Возьмите, пожалуйста, этот флаер..."
+    # citizen12 "Конечно, крошка, а ты не хочешь ничего у меня взять?"
+    # m "Вы это о чем?"
+    m "Bitte nehmen Sie diesen Flyer..."
+    citizen12 "Klar, Baby. Willst du nichts von mir dafür?"
+    m "Was soll ich wollen?"
+

@@ -1634,7 +1634,7 @@ translate english gallery_21309_297d49a6:
     m "Do You Hear?!"
     m "You're breaking the rules yourself!"
     m "You're breaking it by making deals with the warden!"
-    m "You walk here without the permission of the administration."
+    m "You walk here without the permission of the boss."
 
 # game/Gallery/gallery8.rpy:1209
 translate english gallery_21309_544c498e:

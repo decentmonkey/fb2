@@ -2466,3 +2466,17 @@ translate german gallery_ep22_photoshoot3_casting_f4e1f245_1:
     # mt "Мерзавец!"
     mt "Bastard!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery_photoshoots1.rpy:1149
+translate german gallery_ep22_photoshoot5_pose9_pre_a55f2e8a:
+
+    # melanie "Миссис Бакфетт?"
+    # mt "Похоже у меня нет выхода..."
+    # "Мне надо любой ценой узнать замешан-ли во всем этом Дик!"
+    # "И Мелани единственная надежда на это!"
+    melanie "Frau Buckfett?"
+    mt "Sieht so aus, als hätte ich keine Wahl..."
+    "Ich muss um jeden Preis wissen, ob Dick in all dem involviert ist!"
+    "Und Melanie ist meine einzige Hoffnung!"
+

@@ -2048,3 +2048,11 @@ translate german strings:
     old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
     new "Ich brauche dieses Geld (im nächsten Update). (deaktiviert)"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+translate german strings:
+
+    # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1001
+    old "Мне нужны эти деньги..."
+    new "Мне нужны эти деньги..."
+

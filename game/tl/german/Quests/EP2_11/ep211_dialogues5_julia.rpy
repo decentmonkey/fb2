@@ -868,3 +868,399 @@ translate german strings:
     old "Уйти отсюда! (завершение сюжета с Юлией)"
     new "Уйти отсюда! (завершение сюжета с Юлией)"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:149
+translate german ep211_dialogues4_julia_2_6c0cf15d:
+
+    # cafe_barista "Добрый вечер. Пожалуйста Ваше меню."
+    cafe_barista "Добрый вечер. Пожалуйста Ваше меню."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:421
+translate german ep211_dialogues4_julia_3_5ced93aa:
+
+    # mt "О Боже! Какой кошмарный дом!"
+    # mt "Как здесь можно жить?!"
+    # mt "Уверена, тут живут одни неудачники и... извращенцы!"
+    # mt "И тут небезопасно вечером..."
+    mt "О Боже! Какой кошмарный дом!"
+    mt "Как здесь можно жить?!"
+    mt "Уверена, тут живут одни неудачники и... извращенцы!"
+    mt "И тут небезопасно вечером..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:426
+translate german ep211_dialogues4_julia_3_204ee896:
+
+    # mt "Нет. Вряд ли я смогу жить в таких условиях."
+    # mt "Такая леди, как я, никогда не сможет привыкнуть к подобному."
+    # mt "..."
+    # mt "Хотя... Для меня и это место сейчас бы подошло..."
+    mt "Нет. Вряд ли я смогу жить в таких условиях."
+    mt "Такая леди, как я, никогда не сможет привыкнуть к подобному."
+    mt "..."
+    mt "Хотя... Для меня и это место сейчас бы подошло..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:436
+translate german ep211_dialogues4_julia_3b_6a28576e:
+
+    # m "Ну что? Пойдем?"
+    # julia "Да, Миссис Бакфетт."
+    m "Ну что? Пойдем?"
+    julia "Ja, Frau Buckfett."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:454
+translate german ep211_dialogues4_julia_4_34149cc1:
+
+    # mt "Хммм... Я думала, будет намного хуже."
+    # mt "Нет, здесь все, конечно, ужасно, но..."
+    # mt "В моей ситуации это могло бы стать неплохим вариантом на время."
+    mt "Хммм... Я думала, будет намного хуже."
+    mt "Нет, здесь все, конечно, ужасно, но..."
+    mt "В моей ситуации это могло бы стать неплохим вариантом на время."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:460
+translate german ep211_dialogues4_julia_4_ea5e2767:
+
+    # mt "Пожалуй, стоит обдумать вопрос аренды квартиры."
+    # mt "Наверняка жилье здесь почти ничего не стоит..."
+    # mt "И я смогу договориться с кем-нибудь о том, чтобы снимать его без лишних документов..."
+    # mt "И потом... Все равно никто не узнает, что я живу в трущобах."
+    # mt "Это ведь ненадолго."
+    mt "Пожалуй, стоит обдумать вопрос аренды квартиры."
+    mt "Наверняка жилье здесь почти ничего не стоит..."
+    mt "И я смогу договориться с кем-нибудь о том, чтобы снимать его без лишних документов..."
+    mt "И потом... Все равно никто не узнает, что я живу в трущобах."
+    mt "Это ведь ненадолго."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:471
+translate german ep211_dialogues4_julia_4a_d1f70c04:
+
+    # julia "..."
+    julia "..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:474
+translate german ep211_dialogues4_julia_4a_56467720:
+
+    # m "Юлия, милая, ты напрасно переживала."
+    # m "У тебя очень уютно."
+    m "Юлия, милая, ты напрасно переживала."
+    m "У тебя очень уютно."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:479
+translate german ep211_dialogues4_julia_4a_f9995427:
+
+    # julia "Правда?"
+    julia "Wirklich?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:484
+translate german ep211_dialogues4_julia_4a_8b3a7a11:
+
+    # m "Да, милая..."
+    # m "..."
+    m "Да, милая..."
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:512
+translate german ep211_dialogues4_julia_4a_f4b837cb:
+
+    # mt "Нет, я не буду этого делать!" 
+    # mt "Мне надоело заниматься этими глупостями!"
+    # mt "!!!"
+    mt "Nein, das mache ich nicht!" 
+    mt "Мне надоело заниматься этими глупостями!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:518
+translate german ep211_dialogues4_julia_4a_75f6e966:
+
+    # m "Знаешь, Юлия, у меня сегодня еще много дел."
+    # m "Так что, я пойду."
+    m "Знаешь, Юлия, у меня сегодня еще много дел."
+    m "Так что, я пойду."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:521
+translate german ep211_dialogues4_julia_4a_371e6a20:
+
+    # julia "Но... Миссис Бакфетт!"
+    # julia "Это из-за того, что я..."
+    # julia "Постоянно Вам отказываю?"
+    julia "Aber... Frau Buckfett!"
+    julia "Это из-за того, что я..."
+    julia "Постоянно Вам отказываю?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:527
+translate german ep211_dialogues4_julia_4a_26e013dd:
+
+    # m "Это уже не имеет значения!"
+    # m "Забудь все, что было!"
+    # m "Увидимся на работе."
+    m "Это уже не имеет значения!"
+    m "Забудь все, что было!"
+    m "Увидимся на работе."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:531
+translate german ep211_dialogues4_julia_4a_ddfee7a3:
+
+    # m "Дура!"
+    m "Дура!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:532
+translate german ep211_dialogues4_julia_4a_d1f70c04_1:
+
+    # julia "..."
+    julia "..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:555
+translate german ep211_dialogues4_julia_4a_0eeeeef0:
+
+    # mt "Вот он момент!"
+    mt "Вот он момент!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:568
+translate german ep211_dialogues4_julia_4a_1599b2d7:
+
+    # julia "!!!"
+    julia "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:570
+translate german ep211_dialogues4_julia_4a_65bbc197:
+
+    # julia "Миссис Бакфетт, я... Я еще не готова..."
+    julia "Миссис Бакфетт, я... Я еще не готова..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:577
+translate german ep211_dialogues4_julia_4a_7aea0556:
+
+    # m "Милая, я тебя просто потрогаю и не более того."
+    # m "У тебя ведь есть там трусики, правда?"
+    m "Милая, я тебя просто потрогаю и не более того."
+    m "У тебя ведь есть там трусики, правда?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:581
+translate german ep211_dialogues4_julia_4a_4ded7e00:
+
+    # julia "Да, Миссис Бакфетт... Они есть..."
+    julia "Да, Миссис Бакфетт... Они есть..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:584
+translate german ep211_dialogues4_julia_4a_72593a14:
+
+    # m "Можно я проверю это? Я только проведу там рукой, я не буду подглядывать..."
+    m "Можно я проверю это? Я только проведу там рукой, я не буду подглядывать..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:588
+translate german ep211_dialogues4_julia_4a_603bae3b:
+
+    # julia "Ну... Если только потрогать... Только совсем немного..."
+    julia "Ну... Если только потрогать... Только совсем немного..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:604
+translate german ep211_dialogues4_julia_4a_46b83ea6:
+
+    # mt "Ага! Она все-таки носит трусики!"
+    # mt "Я почти у цели!"
+    mt "Ага! Она все-таки носит трусики!"
+    mt "Я почти у цели!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:608
+translate german ep211_dialogues4_julia_4a_4a4b4386:
+
+    # mt "Осталось уговорить ее приподнять платье..."
+    mt "Осталось уговорить ее приподнять платье..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:615
+translate german ep211_dialogues4_julia_4a_5b1261ca:
+
+    # julia "Миссис Бакфетт... На сегодня этого будет достаточно..."
+    julia "Миссис Бакфетт... На сегодня этого будет достаточно..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:620
+translate german ep211_dialogues4_julia_4a_31eed58a:
+
+    # mt "Твою мать!!!"
+    # mt "!!!"
+    # mt "!!!!!!"
+    mt "Твою мать!!!"
+    mt "!!!"
+    mt "!!!!!!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:627
+translate german ep211_dialogues4_julia_4a_0a38b9ec:
+
+    # mt "Мне надоело заниматься этими глупостями!" 
+    # mt "!!!"
+    mt "Мне надоело заниматься этими глупостями!" 
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:632
+translate german ep211_dialogues4_julia_4a_75f6e966_1:
+
+    # m "Знаешь, Юлия, у меня сегодня еще много дел."
+    # m "Так что, я пойду."
+    m "Знаешь, Юлия, у меня сегодня еще много дел."
+    m "Так что, я пойду."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:635
+translate german ep211_dialogues4_julia_4a_7da40d0e:
+
+    # julia "Но... Миссис Бакфетт!"
+    # julia "Это из-за того, что я Вам отказала?"
+    julia "Aber... Frau Buckfett!"
+    julia "Это из-за того, что я Вам отказала?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:640
+translate german ep211_dialogues4_julia_4a_26e013dd_1:
+
+    # m "Это уже не имеет значения!"
+    # m "Забудь все, что было!"
+    # m "Увидимся на работе."
+    m "Это уже не имеет значения!"
+    m "Забудь все, что было!"
+    m "Увидимся на работе."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:644
+translate german ep211_dialogues4_julia_4a_ddfee7a3_1:
+
+    # m "Дура!"
+    m "Дура!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:645
+translate german ep211_dialogues4_julia_4a_d1f70c04_2:
+
+    # julia "..."
+    julia "..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:651
+translate german ep211_dialogues4_julia_4a_71454151:
+
+    # mt "Так, Моника, спокойно."
+    # mt "У тебя есть еще один вариант..."
+    mt "Так, Моника, спокойно."
+    mt "У тебя есть еще один вариант..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:656
+translate german ep211_dialogues4_julia_4a_ae2b168a:
+
+    # m "Юлия, милая. Мне нужно в туалет. Подскажи, где он?"
+    # julia "Конечно, Миссис Бакфетт. Вон та дверь, справа."
+    m "Юлия, милая. Мне нужно в туалет. Подскажи, где он?"
+    julia "Конечно, Миссис Бакфетт. Вон та дверь, справа."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:668
+translate german ep211_dialogues4_julia_6b_5d181afc:
+
+    # mt "Наверняка, здесь что-то есть из ее белья!"
+    mt "Наверняка, здесь что-то есть из ее белья!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:681
+translate german ep211_dialogues4_julia_6_2f82f10c:
+
+    # mt "Стиральная машинка... Корзина для белья... Шкафчики..."
+    # mt "Наверняка, здесь что-то есть из ее белья!"
+    mt "Стиральная машинка... Корзина для белья... Шкафчики..."
+    mt "Наверняка, здесь что-то есть из ее белья!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:686
+translate german ep211_dialogues4_julia_6_11105bb4:
+
+    # mt "Дьявол!"
+    # mt "Почему здесь ничего нет?!"
+    # mt "Где все белье?!"
+    # mt "У нее что, только одни трусики, которые сейчас на ней?!"
+    mt "Diese Teufelin!"
+    mt "Почему здесь ничего нет?!"
+    mt "Где все белье?!"
+    mt "У нее что, только одни трусики, которые сейчас на ней?!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:692
+translate german ep211_dialogues4_julia_6_076d9bcb:
+
+    # mt "Какого только хлама нет, но только не трусиков!!!"
+    # mt "Какого черта?!"
+    # mt "!!!"
+    # mt "Никчемная Юлия!!!"
+    # mt "Бесит!!!"
+    mt "Какого только хлама нет, но только не трусиков!!!"
+    mt "Was zur Hölle?"
+    mt "!!!"
+    mt "Никчемная Юлия!!!"
+    mt "Бесит!!!"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:729
+translate german ep211_dialogues4_julia_7_d10b6fdf:
+
+    # m "Мне так не хочется уходить от тебя..."
+    # m "Но у меня сегодня еще дела."
+    # m "Скоро увидимя, милая."
+    m "Мне так не хочется уходить от тебя..."
+    m "Но у меня сегодня еще дела."
+    m "Скоро увидимя, милая."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:738
+translate german ep211_dialogues4_julia_7_8d94123a:
+
+    # julia "До свидания, Миссис Бакфетт."
+    # julia "Буду очень скучать и ждать встречи с Вами."
+    julia "До свидания, Миссис Бакфетт."
+    julia "Буду очень скучать и ждать встречи с Вами."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:745
+translate german ep211_dialogues4_julia_7a_8d94123a:
+
+    # julia "До свидания, Миссис Бакфетт."
+    # julia "Буду очень скучать и ждать встречи с Вами."
+    julia "До свидания, Миссис Бакфетт."
+    julia "Буду очень скучать и ждать встречи с Вами."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:843
+translate german ep211_dialogues4_julia_11m_9f8e9999:
+
+    # mt "Какой теплый плед..."
+    # mt "Может быть украсть его у Юлии?"
+    mt "Какой теплый плед..."
+    mt "Может быть украсть его у Юлии?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:848
+translate german ep211_dialogues4_julia_11n_f6e19ba3:
+
+    # mt "Какая-то рухлядь Юлии..."
+    # mt "Зачем это ей надо, не понимаю..."
+    mt "Какая-то рухлядь Юлии..."
+    mt "Зачем это ей надо, не понимаю..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:853
+translate german ep211_dialogues4_julia_11o_2dc332e0:
+
+    # mt "Похоже в одной из этих глупых книг Юлия вычитала романтическую историю про отношения с начальницей..."
+    # mt "Это из-за той книги мне приходится притворяться перед ней."
+    # mt "Лучшее решение - это выкинуть их..."
+    mt "Похоже в одной из этих глупых книг Юлия вычитала романтическую историю про отношения с начальницей..."
+    mt "Это из-за той книги мне приходится притворяться перед ней."
+    mt "Лучшее решение - это выкинуть их..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:859
+translate german ep211_dialogues4_julia_11p_dcac5b4d:
+
+    # mt "Грязные окна. Видимо Юлия их не моет, чтобы помещение не выделялось на общем фоне..."
+    mt "Грязные окна. Видимо Юлия их не моет, чтобы помещение не выделялось на общем фоне..."
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:875
+translate german ep211_dialogues4_julia_11r_097305fc:
+
+    # mt "Заперто"
+    # mt "Юлии нет дома. Интересно, где она?"
+    mt "Заперто"
+    mt "Юлии нет дома. Интересно, где она?"
+
+# game/Quests/EP2_11/ep211_dialogues5_julia.rpy:880
+translate german ep211_dialogues4_julia_11s_cbcd0372:
+
+    # mt "Пока рано уходить отсюда..."
+    mt "Пока рано уходить отсюда..."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:360
+    old "Некоторое время спустя..."
+    new "Некоторое время спустя..."
+

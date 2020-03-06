@@ -4434,3 +4434,15 @@ translate german gallery_10414_99bb31af:
     # betty "!!!"
     betty "!!!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery2.rpy:3808
+translate german gallery_7675_234724e7:
+
+    # mt "!!!"
+    # bardie "Ты одела правильные трусики! Хорошая гувернантка!"
+    # mt "!!!"
+    mt "!!!"
+    bardie "Du hast die richtigen Höschen an, gute Dienstmagd!"
+    mt "!!!"
+

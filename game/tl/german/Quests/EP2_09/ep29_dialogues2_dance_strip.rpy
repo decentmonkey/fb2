@@ -3322,3 +3322,19 @@ translate german dialogue_5_dance_strip_16_ca1e9a08:
     # clare "Все ок. Я никому не скажу."
     clare "Alles gut. Ich werde es niemandem verraten."
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2110
+translate german dialogue_5_dance_strip_23_5aca1d7a:
+
+    # mt "Я боюсь воровать чаевые за танцы..."
+    # mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
+    mt "Я боюсь воровать чаевые за танцы..."
+    mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
+
+# game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2118
+translate german dialogue_5_dance_strip_23_98c31adc:
+
+    # mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
+    mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
+

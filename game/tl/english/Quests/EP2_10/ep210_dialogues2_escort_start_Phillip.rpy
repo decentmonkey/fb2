@@ -48,7 +48,7 @@ translate english ep210_dialogues2_escort_start_Phillip_1_518b3f93:
 translate english ep210_dialogues2_escort_start_Phillip_1_83b6e617:
 
     # philip "Я впечатлен Вашей презентацией, Миссис Бакфетт."
-    philip "I am impressed with your presentation, Mrs. Buckett."
+    philip "I am impressed with your presentation, Mrs. Buckfett."
 
 # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:30
 translate english ep210_dialogues2_escort_start_Phillip_1_da720fcf:
@@ -2047,4 +2047,12 @@ translate english strings:
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1000
     old "Мне нужны эти деньги (в следующем обновлении). (disabled)"
     new "I need the money (in the next update). (disabled)"
+
+# TODO: Translation updated at 2020-03-06 23:33
+
+translate english strings:
+
+    # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1001
+    old "Мне нужны эти деньги..."
+    new "Мне нужны эти деньги..."
 

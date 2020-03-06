@@ -344,3 +344,13 @@ translate german gallery_dialogue_5_dance_strip_5f2_51449e57:
     # customers3 "Где нормальный стриптиз?!"
     customers3 "Das ist kein normaler Striptease!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery_stripdanse.rpy:772
+translate german gallery_dialogue_5_dance_strip_4h_f5987ff8:
+
+    # mt "Если я сниму жилет, то заработаю больше денег..."
+    # mt "Они же просто будут смотреть... на голую грудь [monica_pub_name]."
+    mt "Wenn ich meine Weste ausziehe, mache ich mehr Geld..."
+    mt "Sie schauen ja nur... die nackte Brust von [monica_pub_name] an."
+

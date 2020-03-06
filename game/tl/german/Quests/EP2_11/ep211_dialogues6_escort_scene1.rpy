@@ -962,3 +962,329 @@ translate german strings:
     old "Нет, я не хочу этого делать!"
     new "Nein, das will ich bestimmt nicht!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:47
+translate german ep211_escort_scene1_1a_loop1_98200677:
+
+    # mt "Что ж... Надеюсь, [monica_hotel_name] повезет сегодня с клиентом..."
+    mt "Что ж... Надеюсь, [monica_hotel_name] повезет сегодня с клиентом..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:60
+translate german ep211_escort_scene1_1a_loop1_25ff8835:
+
+    # mt "Нет! Я не буду заниматься этим!!!"
+    # mt "Я Моника Бакфетт! Я никогда не опущусь до подобной грязи!"
+    # mt "!!!"
+    mt "Нет! Я не буду заниматься этим!!!"
+    mt "Я Моника Бакфетт! Я никогда не опущусь до подобной грязи!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:264
+translate german ep211_escort_scene1_2_1_bac9b2d3:
+
+    # mt "Это просто отвратительно!"
+    # mt "Почему я должна надевать ЭТО?!"
+    mt "Это просто отвратительно!"
+    mt "Почему я должна надевать ЭТО?!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:268
+translate german ep211_escort_scene1_2_1_5c9688be:
+
+    # mt "Еще и после того, как эти сучки работали в этой одежде!!!"
+    # mt "!!!"
+    mt "Еще и после того, как эти сучки работали в этой одежде!!!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:279
+translate german ep211_escort_scene1_2_1_77a42761:
+
+    # reception "Что ты здесь делаешь так долго?!"
+    # reception "Переоделась?"
+    # reception "Хорошо, клиенту должно понравится."
+    reception "Что ты здесь делаешь так долго?!"
+    reception "Переоделась?"
+    reception "Хорошо, клиенту должно понравится."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:284
+translate german ep211_escort_scene1_2_1_dcb7809f:
+
+    # m "!!!" 
+    # m "Почему я должна надевать нижнее белье после других девочек?"
+    m "!!!" 
+    m "Почему я должна надевать нижнее белье после других девочек?"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:288
+translate german ep211_escort_scene1_2_1_7d263dc1:
+
+    # reception "А у тебя есть какие-то другие варианты?"
+    # reception "Может, у тебя есть что-то подобное?"
+    # m "..."
+    reception "А у тебя есть какие-то другие варианты?"
+    reception "Может, у тебя есть что-то подобное?"
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:293
+translate german ep211_escort_scene1_2_1_637f09cd:
+
+    # reception "Нет?"
+    # reception "Вот и не спорь со мной!"
+    # reception "Не нравится носить белье девочек, приноси свое белье!"
+    reception "Нет?"
+    reception "Вот и не спорь со мной!"
+    reception "Не нравится носить белье девочек, приноси свое белье!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:299
+translate german ep211_escort_scene1_2_1_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:303
+translate german ep211_escort_scene1_2_1_e333cbdf:
+
+    # reception "И вообще... Не понимаю, что тебя не устраивает..."
+    # reception "Вчера клиенту так понравилось это белье на одной из девочек..."
+    # reception "Что он оставил ей неплохие чаевые."
+    reception "И вообще... Не понимаю, что тебя не устраивает..."
+    reception "Вчера клиенту так понравилось это белье на одной из девочек..."
+    reception "Что он оставил ей неплохие чаевые."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:308
+translate german ep211_escort_scene1_2_1_1b3873ff:
+
+    # mt "Надеюсь, это белье хоть постирали после вчерашнего клиента?! Фу!"
+    mt "Надеюсь, это белье хоть постирали после вчерашнего клиента?! Фу!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:311
+translate german ep211_escort_scene1_2_1_7614a538:
+
+    # reception "Все. Хватит тут возиться. Иди к клиенту!"
+    # m "Мне..."
+    # m "Мне идти в номер прямо в таком виде?"
+    reception "Все. Хватит тут возиться. Иди к клиенту!"
+    m "Ich bin..."
+    m "Мне идти в номер прямо в таком виде?"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:317
+translate german ep211_escort_scene1_2_1_068214fd:
+
+    # reception "Возможно ты привыкла ходить в таком виде, работая на улице..."
+    # m "?!?!?!"
+    # reception "Но у нас тут приличное заведение!"
+    reception "Возможно ты привыкла ходить в таком виде, работая на улице..."
+    m "?!?!?!"
+    reception "Но у нас тут приличное заведение!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:323
+translate german ep211_escort_scene1_2_1_c34b997f:
+
+    # reception "Надевай сверху свое рабочее платье!"
+    reception "Надевай сверху свое рабочее платье!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:326
+translate german ep211_escort_scene1_2_1_c2478e5e:
+
+    # m "И как я буду выглядеть?! Через это платье все видно!"
+    m "И как я буду выглядеть?! Через это платье все видно!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:329
+translate german ep211_escort_scene1_2_1_d3487997:
+
+    # reception "[monica_hotel_name]!!! Ты испытываешь мое терпение!"
+    # reception "Сейчас же прекрати со мной спорить!"
+    # reception "И делай, что Я тебе говорю!"
+    reception "[monica_hotel_name]!!! Ты испытываешь мое терпение!"
+    reception "Сейчас же прекрати со мной спорить!"
+    reception "И делай, что Я тебе говорю!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:335
+translate german ep211_escort_scene1_2_1_06ab07ec:
+
+    # reception "Быстро оделась и пошла к клиенту!!!"
+    # reception "Если он уйдет, не дождавшись тебя, ты будешь оштрафована!"
+    reception "Быстро оделась и пошла к клиенту!!!"
+    reception "Если он уйдет, не дождавшись тебя, ты будешь оштрафована!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:340
+translate german ep211_escort_scene1_2_1_cc6078a2:
+
+    # mt "Никчемная!"
+    # mt "Бесполезная!"
+    # mt "Ненавижу ее!!!"
+    # mt "!!!"
+    mt "Nutzlos!!!"
+    mt "Wertlos!"
+    mt "Ich hasse sie!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:357
+translate german ep211_escort_scene1_2_1_6e3ea938:
+
+    # reception "Не вздумай в таком виде попасться на глаза другим гостям отеля!"
+    # reception "Здесь останавливаются приличные люди и нам незачем портить свою репутацию!"
+    reception "Не вздумай в таком виде попасться на глаза другим гостям отеля!"
+    reception "Здесь останавливаются приличные люди и нам незачем портить свою репутацию!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:361
+translate german ep211_escort_scene1_2_1_a86253c9:
+
+    # mt "Она еще и комментирует мой внешний вид!"
+    # mt "Мерзкая сучка!"
+    # mt "!!!"
+    mt "Она еще и комментирует мой внешний вид!"
+    mt "Мерзкая сучка!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:405
+translate german ep211_escort_scene1_4_ad139445:
+
+    # mt "Дал бы денег просто так и отпустил бы..."
+    # mt "У меня нет никакого желания делать для него что-то."
+    # mt "..."
+    mt "Ich würde gern nur das Geld nehmen und einfach gehen..."
+    mt "Ich habe keine Lust, etwas für ihn zu tun."
+    mt "..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:866
+translate german ep211_escort_scene1_9_2e64db83:
+
+    # mt "Не могу поверить что я сижу здесь, за этим-же столом, где ужинала с Диком..."
+    # mt "Сижу для того, чтобы найти клиента..."
+    # mt "Какой ужас, Моника!"
+    # mt "Даже не хочу об этом думать!"
+    mt "Не могу поверить что я сижу здесь, за этим-же столом, где ужинала с Диком..."
+    mt "Сижу для того, чтобы найти клиента..."
+    mt "Какой ужас, Моника!"
+    mt "Даже не хочу об этом думать!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:873
+translate german ep211_escort_scene1_10_f52b60b5:
+
+    # mt "Я не собираюсь разговаривать ни с кем из них!"
+    mt "Я не собираюсь разговаривать ни с кем из них!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:877
+translate german ep211_escort_scene1_11_4c40e986:
+
+    # mt "Эта дура Администратор говорила что мне не стоит афишировать себя вне ресторана."
+    # mt "Видите-ли здесь живут приличные люди..."
+    mt "Эта дура Администратор говорила что мне не стоит афишировать себя вне ресторана."
+    mt "Видите-ли здесь живут приличные люди..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:880
+translate german ep211_escort_scene1_11_88a13ddb:
+
+    # mt "Ничтожества! Ненавижу!"
+    mt "Ничтожества! Ненавижу!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:884
+translate german ep211_escort_scene1_12_2d3a4bf0:
+
+    # mt "Этот лифт ведет на этажи с номерами отеля..."
+    mt "Этот лифт ведет на этажи с номерами отеля..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:888
+translate german ep211_escort_scene1_13_e4a47faa:
+
+    # mt "Мне нечего там делать сейчас!"
+    # mt "Ненавижу это место!"
+    mt "Мне нечего там делать сейчас!"
+    mt "Ich hasse diesen Ort!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:893
+translate german ep211_escort_scene1_13a_841dbebe:
+
+    # mt "Эта дверь ведет в служебный коридор, где решаются вопросы, связанные с эскортом."
+    # mt "И проводятся... кастинги..."
+    mt "Эта дверь ведет в служебный коридор, где решаются вопросы, связанные с эскортом."
+    mt "И проводятся... кастинги..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:916
+translate german ep211_escort_scene1_15_b84d23b6:
+
+    # m "Я на сегодня закончила работу."
+    # m "Мне не удалось найти клиента."
+    # m "Мне нужно идти."
+    m "Я на сегодня закончила работу."
+    m "Мне не удалось найти клиента."
+    m "Мне нужно идти."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:921
+translate german ep211_escort_scene1_15_9c0d1fc1:
+
+    # reception "И куда ты собралась в этом платье?"
+    # reception "Оно для работы в ВИП-эскорте."
+    # reception "В нем нельзя работать на улице!"
+    reception "И куда ты собралась в этом платье?"
+    reception "Оно для работы в ВИП-эскорте."
+    reception "В нем нельзя работать на улице!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:927
+translate german ep211_escort_scene1_15_ba567837:
+
+    # mt "!!!"
+    # mt "Сучка!"
+    mt "!!!"
+    mt "Schlampe!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:932
+translate german ep211_escort_scene1_15_a5d006e7:
+
+    # m "Я не собираюсь работать на улице!"
+    m "Я не собираюсь работать на улице!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:935
+translate german ep211_escort_scene1_15_ba0cae73:
+
+    # reception "Тогда переодевайся и приходи потом..."
+    # reception "Нечего занимать просто так место в ресторане!"
+    reception "Тогда переодевайся и приходи потом..."
+    reception "Нечего занимать просто так место в ресторане!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:941
+translate german ep211_escort_scene1_15_2c8edd61:
+
+    # mt "Никчемная администраторша!"
+    # mt "!!!"
+    mt "Никчемная администраторша!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:946
+translate german ep211_escort_scene1_16_eef41323:
+
+    # mt "Никто ко мне не подошел, дьявол!"
+    # mt "К черту всех этих неудачников!"
+    mt "Никто ко мне не подошел, дьявол!"
+    mt "К черту всех этих неудачников!"
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:952
+translate german ep211_escort_scene1_17_720d5bfa:
+
+    # mt "Мне надо подойти к чертовой администраторше..."
+    mt "Мне надо подойти к чертовой администраторше..."
+
+# game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:956
+translate german ep211_escort_scene1_18_22a32034:
+
+    # mt "Мне надо переодеться..."
+    mt "Мне надо переодеться..."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:27
+    old "Встреча с клиентом (на следующей неделе) (disabled)"
+    new "Встреча с клиентом (на следующей неделе) (disabled)"
+
+    # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
+    old "Просто ждать."
+    new "Просто ждать."
+
+    # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
+    old "Пытаться привлечь внимание. (в следующих обновлениях) (disabled)"
+    new "Пытаться привлечь внимание. (в следующих обновлениях) (disabled)"
+
+    # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
+    old "Кастинг в номерах. (в следующих обновлениях) (disabled)"
+    new "Кастинг в номерах. (в следующих обновлениях) (disabled)"
+

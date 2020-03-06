@@ -200,3 +200,27 @@ translate english strings:
     old "Лечь спать."
     new "Go to sleep."
 
+# TODO: Translation updated at 2020-03-06 23:33
+
+translate english strings:
+
+    # game/Characters/Monica/Bed_Basement.rpy:112
+    old "Пропустить до..."
+    new "Пропустить до..."
+
+    # game/Characters/Monica/Bed_Basement.rpy:137
+    old "Пропустить до Понедельника."
+    new "Пропустить до Понедельника."
+
+    # game/Characters/Monica/Bed_Basement.rpy:137
+    old "Пропустить до Вторника."
+    new "Пропустить до Вторника."
+
+    # game/Characters/Monica/Bed_Basement.rpy:137
+    old "Пропустить до Среды."
+    new "Пропустить до Среды."
+
+    # game/Characters/Monica/Bed_Basement.rpy:137
+    old "Пропустить до Четверга."
+    new "Пропустить до Четверга."
+

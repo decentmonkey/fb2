@@ -384,3 +384,335 @@ translate german strings:
     old "Почему я ничего не заработала?!"
     new "Почему я ничего не заработала?!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:120
+translate german ep211_dialogues7_Phillip_home_3_a5fb4779:
+
+    # philip "Почему так долго?"
+    # philip "И что здесь делает субботняя шлюха номер 2?"
+    # philip "Я велел этой шлюхе приходить ко мне через неделю..."
+    # philip "А субботняя шлюха номер 1 давно уже должна держать во рту мой член."
+    philip "Почему так долго?"
+    philip "И что здесь делает субботняя шлюха номер 2?"
+    philip "Я велел этой шлюхе приходить ко мне через неделю..."
+    philip "А субботняя шлюха номер 1 давно уже должна держать во рту мой член."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:126
+translate german ep211_dialogues7_Phillip_home_3_1f3ef9e3:
+
+    # mt "Козел!!!"
+    # mt "!!!"
+    mt "Козел!!!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:134
+translate german ep211_dialogues7_Phillip_home_3_63e20e11:
+
+    # mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
+    # mt "Я не могу пойти на это!"
+    mt "Dieser Bastard behandelt mich wie eine billige Straßendirne..."
+    mt "Ich schaffe das!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:138
+translate german ep211_dialogues7_Phillip_home_3_01bfbc13:
+
+    # m "Нет. Я..."
+    # m "Я не буду этого делать!"
+    # m "Я не могу!"
+    # m "!!!"
+    m "Nein. Ich..."
+    m "Das werde ich nicht tun!"
+    m "Nein!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:150
+translate german ep211_dialogues7_Phillip_home_3_e612037c:
+
+    # m "..."
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:154
+translate german ep211_dialogues7_Phillip_home_3_da42e75c:
+
+    # whore_number_1 "Я решила устроить тебе небольшой сюрприз..."
+    # whore_number_1 "Если ты, конечно, не против."
+    whore_number_1 "Я решила устроить тебе небольшой сюрприз..."
+    whore_number_1 "Если ты, конечно, не против."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:159
+translate german ep211_dialogues7_Phillip_home_3_294d2f79:
+
+    # philip "Не люблю сюрпризы."
+    # philip "Что ты там придумала?"
+    # whore_number_1 "Я думаю, тебе понравится..."
+    philip "Не люблю сюрпризы."
+    philip "Что ты там придумала?"
+    whore_number_1 "Я думаю, тебе понравится..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:175
+translate german ep211_dialogues7_Phillip_home_3_c8f0d16b:
+
+    # philip "А шлюха номер 2 будет стоять и смотреть?"
+    # philip "Это и есть твой сюрприз, шлюха номер 1?"
+    # whore_number_1 "Она тоже будет сосать твой член."
+    philip "А шлюха номер 2 будет стоять и смотреть?"
+    philip "Это и есть твой сюрприз, шлюха номер 1?"
+    whore_number_1 "Она тоже будет сосать твой член."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:180
+translate german ep211_dialogues7_Phillip_home_3_1892ff02:
+
+    # philip "Я не собираюсь ей за это платить."
+    # whore_number_1 "Она сегодня сделает это за бесплатно."
+    # whore_number_1 "Я попросила ее сделать это."
+    philip "Я не собираюсь ей за это платить."
+    whore_number_1 "Она сегодня сделает это за бесплатно."
+    whore_number_1 "Я попросила ее сделать это."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:189
+translate german ep211_dialogues7_Phillip_home_3_f235ac7f:
+
+    # mt "Фу! Это так мерзко!"
+    # mt "!!!"
+    # mt "И как мы будем делать это вдвоем?!"
+    mt "Фу! Это так мерзко!"
+    mt "!!!"
+    mt "И как мы будем делать это вдвоем?!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:199
+translate german ep211_dialogues7_Phillip_home_3_b792710f:
+
+    # whore_number_1 "Иди сюда..." 
+    # mt "..."
+    whore_number_1 "Иди сюда..." 
+    mt "..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:208
+translate german ep211_dialogues7_Phillip_home_3_685f5ba9:
+
+    # mt "Я не могу пойти на это!"
+    mt "Ich schaffe das!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:211
+translate german ep211_dialogues7_Phillip_home_3_01bfbc13_1:
+
+    # m "Нет. Я..."
+    # m "Я не буду этого делать!"
+    # m "Я не могу!"
+    # m "!!!"
+    m "Nein. Ich..."
+    m "Das werde ich nicht tun!"
+    m "Nein!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:227
+translate german ep211_dialogues7_Phillip_home_3_007936c2:
+
+    # mt "Ненавижу этого мерзавца!"
+    # mt "!!!"
+    mt "Ich hasse diesen Bastard!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:233
+translate german ep211_dialogues7_Phillip_home_3_c702abdd:
+
+    # philip "Уверен, что идея с сюрпризом принадлежала не шлюхе номер 2..."
+    # philip "Она вряд ли додумалась бы до такого..."
+    # philip "Субботняя шлюха номер 1 молодец."
+    # philip "Она старается сделать мне приятное."
+    # philip "Шлюха номер 2, чего ты ждешь? Приступай!"
+    philip "Уверен, что идея с сюрпризом принадлежала не шлюхе номер 2..."
+    philip "Она вряд ли додумалась бы до такого..."
+    philip "Субботняя шлюха номер 1 молодец."
+    philip "Она старается сделать мне приятное."
+    philip "Шлюха номер 2, чего ты ждешь? Приступай!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:262
+translate german ep211_dialogues7_Phillip_home_3_2d5aa5b6:
+
+    # mt "Это так... Грязно..."
+    # mt "Не могу поверить, что я делаю это."
+    mt "Это так... Грязно..."
+    mt "Не могу поверить, что я делаю это."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:268
+translate german ep211_dialogues7_Phillip_home_3_cffbe214:
+
+    # philip "Ммммм..."
+    philip "Mmmm..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:271
+translate german ep211_dialogues7_Phillip_home_3_7696d82f:
+
+    # philip "Как же мои субботние шлюхи стараются..."
+    philip "Как же мои субботние шлюхи стараются..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:278
+translate german ep211_dialogues7_Phillip_home_3_cce7dc36:
+
+    # philip "Даааа... Вот так..."
+    philip "Даааа... Вот так..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:281
+translate german ep211_dialogues7_Phillip_home_3_efeb8388:
+
+    # philip "Шлюхи готовы за деньги сделать все..."
+    philip "Шлюхи готовы за деньги сделать все..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:284
+translate german ep211_dialogues7_Phillip_home_3_cffbe214_1:
+
+    # philip "Ммммм..."
+    philip "Mmmm..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:287
+translate german ep211_dialogues7_Phillip_home_3_72c89929:
+
+    # philip "А теперь мои субботние шлюхи поменяются местами."
+    philip "А теперь мои субботние шлюхи поменяются местами."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:309
+translate german ep211_dialogues7_Phillip_home_3_b4b18d11:
+
+    # philip "Даааа..."
+    philip "Yeah ..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:313
+translate german ep211_dialogues7_Phillip_home_3_abbe15ee:
+
+    # philip "Еще... Еще..."
+    philip "Еще... Еще..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:316
+translate german ep211_dialogues7_Phillip_home_3_6dd57313:
+
+    # philip "Вот так..."
+    philip "Вот так..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:319
+translate german ep211_dialogues7_Phillip_home_3_dc2f3317:
+
+    # philip "Аааа..."
+    philip "Аааа..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:336
+translate german ep211_dialogues7_Phillip_home_3_5aeafe1c:
+
+    # philip "Аааааааа..."
+    philip "Аааааааа..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:344
+translate german ep211_dialogues7_Phillip_home_3_fa05adf4:
+
+    # philip "ААААААА!!!" 
+    philip "AAAAA!!!" 
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:358
+translate german ep211_dialogues7_Phillip_home_3_47af8fb2:
+
+    # whore_number_1 "Ну как тебе мой сюрприз?" 
+    whore_number_1 "Ну как тебе мой сюрприз?" 
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:361
+translate german ep211_dialogues7_Phillip_home_3_008eeddc:
+
+    # philip "Молодец, шлюха номер 1. Хорошая идея..."
+    # philip "Вот, держи 400 долларов."
+    philip "Молодец, шлюха номер 1. Хорошая идея..."
+    philip "Вот, держи 400 долларов."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:365
+translate german ep211_dialogues7_Phillip_home_3_bd96ce95:
+
+    # mt "400?! Он дал ей 400 долларов?!"
+    mt "400?! Он дал ей 400 долларов?!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:373
+translate german ep211_dialogues7_Phillip_home_3_f0c55aa5:
+
+    # philip "Это твой сегодняшний заработок."
+    # philip "Субботняя шлюха номер 1 может забрать свои деньги."
+    # philip "А субботняя шлюха номер 2 недостаточно старалась..."
+    philip "Das ist dein derzeitiger Verdienst."
+    philip "Субботняя шлюха номер 1 может забрать свои деньги."
+    philip "А субботняя шлюха номер 2 недостаточно старалась..."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:378
+translate german ep211_dialogues7_Phillip_home_3_50666dc5:
+
+    # philip "Тем более, сегодня не ее очередь получать деньги."
+    # philip "Поэтому она сегодня ничего не заработала."
+    philip "Тем более, сегодня не ее очередь получать деньги."
+    philip "Поэтому она сегодня ничего не заработала."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:381
+translate german ep211_dialogues7_Phillip_home_3_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:386
+translate german ep211_dialogues7_Phillip_home_3_feee1ba4:
+
+    # m "Филипп, я делала тоже самое, что и она!"
+    # m "Почему я не заработала денег?!"
+    # m "?!?!?!"
+    m "Филипп, я делала тоже самое, что и она!"
+    m "Почему я не заработала денег?!"
+    m "?!?!?!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:393
+translate german ep211_dialogues7_Phillip_home_3_c2386171:
+
+    # philip "???"
+    # philip "Моей субботней шлюхе номер 2 нужны деньги?"
+    # philip "Приходи через неделю."
+    philip "???"
+    philip "Моей субботней шлюхе номер 2 нужны деньги?"
+    philip "Приходи через неделю."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:400
+translate german ep211_dialogues7_Phillip_home_3_382ba24c:
+
+    # mt "Вот мерзавец!!!"
+    # mt "Жадный ублюдок!!!"
+    mt "Dieser Bastard!"
+    mt "Жадный ублюдок!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:408
+translate german ep211_dialogues7_Phillip_home_3_40fc41f1:
+
+    # philip "Можете идти."
+    philip "Sie können gehen."
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:412
+translate german ep211_dialogues7_Phillip_home_3_a9f69322:
+
+    # mt "Сволочь!"
+    # mt "!!!"
+    mt "Du Bastard!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:442
+translate german ep211_dialogues7_Phillip_home_4_6348084f:
+
+    # mt "Сучка!!!"
+    # mt "!!!"
+    mt "Schlampe!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:445
+translate german ep211_dialogues7_Phillip_home_4_b4d7f816:
+
+    # whore_number_1 "Все, мне пора."
+    # whore_number_1 "До встречи."
+    whore_number_1 "Все, мне пора."
+    whore_number_1 "Bis dann."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:104
+    old "Групповой секс. (в следующем обновлении) (disabled)"
+    new "Групповой секс. (в следующем обновлении) (disabled)"
+

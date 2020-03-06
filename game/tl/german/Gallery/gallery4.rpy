@@ -5044,3 +5044,119 @@ translate german gallery_6757_a7e40015:
     # m "Я поняла, спасибо..."
     m "Verstanden, danke..."
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery4.rpy:3790
+translate german gallery_8442_c021bc08:
+
+    # m "Моника Бакфетт хочет показать папочке грудь..."
+    m "Monica Buckfett möchte ihrem Daddy ihre Brust zeigen..."
+
+# game/Gallery/gallery4.rpy:3801
+translate german gallery_8442_f4eb142e:
+
+    # m "Я покажу тебе грудь, потому что ты заставил меня..."
+    m "Ich werde dir meine Brüste zeigen, weil du mich dazu zwingst..."
+
+# game/Gallery/gallery4.rpy:3810
+translate german gallery_8442_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:3872
+translate german gallery_8453_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:3883
+translate german gallery_8474_4aa666b0:
+
+    # m "Девушка с календаря хочет показать папочке грудь..."
+    m "Das Kalendermädchen will Daddy ihre Brüste zeigen..."
+
+# game/Gallery/gallery4.rpy:3928
+translate german gallery_8474_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:3964
+translate german gallery_9479_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4003
+translate german gallery_20187_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4086
+translate german gallery_9444_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4166
+translate german gallery_9453_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4237
+translate german gallery_9465_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4302
+translate german gallery_9492_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4370
+translate german gallery_9513_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4444
+translate german gallery_20191_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+
+# game/Gallery/gallery4.rpy:4498
+translate german gallery_20210_e4b86f27:
+
+    # biff "Хорошо, папочка доволен!"
+    # biff "Но папочке начинает надоедать одно и то же..."
+    biff "Okay, Daddy ist glücklich!"
+    biff "Aber Daddy beginnt sich immer von den gleichen Dingen zu langweilen..."
+

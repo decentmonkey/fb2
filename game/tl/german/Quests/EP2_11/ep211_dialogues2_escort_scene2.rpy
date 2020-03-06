@@ -2397,7 +2397,7 @@ translate german ep211_escort_scene2_14_d7fcb4d1:
 
     # reception "Клиент за сопровождение заплатил $500."
     # reception "Ты оштрафована за невыполнение услуг согласно прейскуранту."
-    reception "Клиент за сопровождение заплатил $500."
+    reception "Клиент за сопровождение заплатил 0."
     reception "Ты оштрафована за невыполнение услуг согласно прейскуранту."
 
 # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1243
@@ -2474,8 +2474,8 @@ translate german ep211_escort_scene2_14_ba0acbd9:
     # reception "Клиент заплатил $500 за сопровождение на вечере..."
     # reception "И $1100 за три дополнительные услуги из прейскуранта."
     # reception "Твой заработок составляет 50 процентов от суммы."
-    reception "Клиент заплатил $500 за сопровождение на вечере..."
-    reception "И $1100 за три дополнительные услуги из прейскуранта."
+    reception "Клиент заплатил 0 за сопровождение на вечере..."
+    reception "И 00 за три дополнительные услуги из прейскуранта."
     reception "Твой заработок составляет 50 процентов от суммы."
 
 # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1274
@@ -2483,7 +2483,7 @@ translate german ep211_escort_scene2_14_c2142a3e:
 
     # reception "То есть $800."
     # reception "Вот твои деньги."
-    reception "То есть $800."
+    reception "То есть 0."
     reception "Hier ist dein Geld."
 
 # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1278
@@ -2527,4 +2527,480 @@ translate german strings:
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1055
     old "Смириться, иначе меня ждет штраф или увольнение."
     new "Смириться, иначе меня ждет штраф или увольнение."
+
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:224
+translate german ep211_escort_scene2_3_90fa544e:
+
+    # reception "Ну что, ты все поняла?"
+    # reception "Будешь осуществлять эскорт, играя роль его девушки."
+    reception "Ну что, ты все поняла?"
+    reception "Будешь осуществлять эскорт, играя роль его девушки."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:227
+translate german ep211_escort_scene2_3_1c054242:
+
+    # reception "Если будешь делать это плохо, то будешь оштрафована!"
+    reception "Если будешь делать это плохо, то будешь оштрафована!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:492
+translate german ep211_escort_scene2_4_b14bb8e5:
+
+    # m "А что касается игры на пианино..."
+    m "А что касается игры на пианино..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:494
+translate german ep211_escort_scene2_4_5f1588fd:
+
+    # m "Я из высшего общества, как вы уже поняли..."
+    # m "Соответственно, у меня очень хорошее образование и воспитание."
+    m "Я из высшего общества, как вы уже поняли..."
+    m "Соответственно, у меня очень хорошее образование и воспитание."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:723
+translate german ep211_escort_scene2_5_431ec56b:
+
+    # ned2 "Да!" 
+    # m "Ч-что?" 
+    # m "???"
+    ned2 "Ja!" 
+    m "WAS?" 
+    m "???"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:744
+translate german ep211_escort_scene2_5_77221fe3:
+
+    # ned2 "Ну? Скажи им, кто ты?"
+    ned2 "Ну? Скажи им, кто ты?"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:768
+translate german ep211_escort_scene2_5_8c2fbdcb:
+
+    # ned2 "Нет! Она проститутка! Ее зовут [monica_hotel_name]."
+    # ned2 "Мы заключили пари..."
+    # ned2 "Если я приведу проститутку и ты не сможешь ее определить, то пари мое!"
+    ned2 "Нет! Она проститутка! Ее зовут [monica_hotel_name]."
+    ned2 "Мы заключили пари..."
+    ned2 "Если я приведу проститутку и ты не сможешь ее определить, то пари мое!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:774
+translate german ep211_escort_scene2_5_628606f6:
+
+    # daniel "Скажи, кто ты?"
+    # daniel "Ты ведь Луиза, правда?"
+    daniel "Und, wie geht es dir?"
+    daniel "Ты ведь Луиза, правда?"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:779
+translate german ep211_escort_scene2_5_eb6a7bdc:
+
+    # m "Да. Я Луиза."
+    # m "Я девушка Нэда..."
+    m "Да. Я Луиза."
+    m "Я девушка Нэда..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:785
+translate german ep211_escort_scene2_5_3b7462cb:
+
+    # ned2 "Ну хватит уже!"
+    # ned2 "Говори им, кто ты! Твоя игра закончена, [monica_hotel_name]!"
+    # m "..."
+    ned2 "Ну хватит уже!"
+    ned2 "Говори им, кто ты! Твоя игра закончена, [monica_hotel_name]!"
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:790
+translate german ep211_escort_scene2_5_92860151:
+
+    # ned2 "Если ты не скажешь, то я сообщу администратору сервиса эскорта..."
+    # ned2 "Что ты не выполняешь условия заказа!!!"
+    ned2 "Если ты не скажешь, то я сообщу администратору сервиса эскорта..."
+    ned2 "Что ты не выполняешь условия заказа!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:803
+translate german ep211_escort_scene2_5_301e8c88:
+
+    # m "Я БЫЛА твоей девушкой!"
+    # m "Но, после того как ты посмел устроить такое при своих друзьях!"
+    # m "Я больше не хочу тебя видеть!"
+    # ned2 "!!!"
+    m "Я БЫЛА твоей девушкой!"
+    m "Но, после того как ты посмел устроить такое при своих друзьях!"
+    m "Я больше не хочу тебя видеть!"
+    ned2 "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:819
+translate german ep211_escort_scene2_5_c7a20f44:
+
+    # ned2 "..." 
+    ned2 "..." 
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:838
+translate german ep211_escort_scene2_5_df7a8a35:
+
+    # ned2 "Ага!"
+    # ned2 "Она заговорила про условия!"
+    # ned2 "Она призналась! Видишь, Дэниел?!"
+    ned2 "Ja!"
+    ned2 "Она заговорила про условия!"
+    ned2 "Она призналась! Видишь, Дэниел?!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:844
+translate german ep211_escort_scene2_5_18cf8b77:
+
+    # daniel "Что?!"
+    # daniel "Так ты действительно работаешь в эскорте?!"
+    daniel "Was?!"
+    daniel "Так ты действительно работаешь в эскорте?!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:849
+translate german ep211_escort_scene2_5_251de18c:
+
+    # m "Я... Я действительно здесь не совсем из чувственных побуждений..."
+    m "Я... Я действительно здесь не совсем из чувственных побуждений..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:857
+translate german ep211_escort_scene2_5_5c693343:
+
+    # ned2 "Говори!"
+    ned2 "Говори!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:859
+translate german ep211_escort_scene2_5_f68e2fe2:
+
+    # m "..."
+    # m "Из... Из несколько... Меркантильных..."
+    m "..."
+    m "Из... Из несколько... Меркантильных..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:865
+translate german ep211_escort_scene2_5_28516663:
+
+    # ned2 "Да она обычная проститутка из ВИП Эскорта!"
+    # ned2 "Из отеля Ле Гранд! Я там нашел ее!"
+    # mt "!!!"
+    ned2 "Да она обычная проститутка из ВИП Эскорта!"
+    ned2 "Из отеля Ле Гранд! Я там нашел ее!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:874
+translate german ep211_escort_scene2_5_b775b5fd:
+
+    # ned2 "Она там работает совсем недавно, потому я ее и заприметил."
+    # ned2 "Я знал, что вы не могли ее там видеть."
+    # ned2 "И она держится так статно, что сложно поверить в то..."
+    # ned2 "Что она обычная проститутка."
+    ned2 "Она там работает совсем недавно, потому я ее и заприметил."
+    ned2 "Я знал, что вы не могли ее там видеть."
+    ned2 "И она держится так статно, что сложно поверить в то..."
+    ned2 "Что она обычная проститутка."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:896
+translate german ep211_escort_scene2_5_f4be201b:
+
+    # ned2 "Я знал, что ты не сможешь раскусить ее здесь, при Эмме. Аха-ха!"
+    # ned2 "Если бы я привел ее в нашу сауну, как обычно приводил других..."
+    # ned2 "То не смог бы выиграть наше пари!"
+    ned2 "Я знал, что ты не сможешь раскусить ее здесь, при Эмме. Аха-ха!"
+    ned2 "Если бы я привел ее в нашу сауну, как обычно приводил других..."
+    ned2 "То не смог бы выиграть наше пари!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:907
+translate german ep211_escort_scene2_5_79697025:
+
+    # daniel "Ты утверждаешь, что она проститутка..."
+    # daniel "И, если она проститутка, то, получается, я могу ее трахнуть?"
+    # ned2 "Конечно, можешь!"
+    daniel "Ты утверждаешь, что она проститутка..."
+    daniel "И, если она проститутка, то, получается, я могу ее трахнуть?"
+    ned2 "Конечно, можешь!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:922
+translate german ep211_escort_scene2_5_d4c877cc:
+
+    # ned2 "Твоя администраторша навязывала мне ваш прейскурант."
+    # ned2 "Она сказала, что я могу передумать в любой момент!"
+    ned2 "Твоя администраторша навязывала мне ваш прейскурант."
+    ned2 "Она сказала, что я могу передумать в любой момент!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:933
+translate german ep211_escort_scene2_5_63279887:
+
+    # ned2 "Твое агентство гарантировало мне, что с тобой не будет проблем!"
+    # ned2 "Мне позвонить твоему начальству?!"
+    ned2 "Твое агентство гарантировало мне, что с тобой не будет проблем!"
+    ned2 "Мне позвонить твоему начальству?!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:952
+translate german ep211_escort_scene2_5_7abb44b8:
+
+    # ned2 "Если честно, то нет."
+    # ned2 "Я договорился только сопровождать меня."
+    # ned2 "Доплачивать за секс $ 500 - для меня дороговато."
+    ned2 "Если честно, то нет."
+    ned2 "Я договорился только сопровождать меня."
+    ned2 "Доплачивать за секс $ 500 - для меня дороговато."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:957
+translate german ep211_escort_scene2_5_d2576a0b:
+
+    # ned2 "А вдруг бы ты раскусил ее? Тогда наше пари не покрыло бы мои расходы."
+    # ned2 "Так что с нашим пари? Ты признаешь, что я выиграл?"
+    ned2 "А вдруг бы ты раскусил ее? Тогда наше пари не покрыло бы мои расходы."
+    ned2 "Так что с нашим пари? Ты признаешь, что я выиграл?"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:980
+translate german ep211_escort_scene2_5_2f690612:
+
+    # daniel "Как там тебя зовут?"
+    # m "..."
+    # ned2 "[monica_hotel_name]."
+    # daniel "[monica_hotel_name], пойдем за мной!"
+    daniel "Как там тебя зовут?"
+    m "..."
+    ned2 "[monica_hotel_name]."
+    daniel "[monica_hotel_name], пойдем за мной!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:994
+translate german ep211_escort_scene2_5_550c673d:
+
+    # ned2 "Все! Я звоню в ВИП Эскорт!"
+    # ned2 "Скажу, что девушка отказывается работать по прейскуранту!"
+    ned2 "Все! Я звоню в ВИП Эскорт!"
+    ned2 "Скажу, что девушка отказывается работать по прейскуранту!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1006
+translate german ep211_escort_scene2_5_1169676c:
+
+    # ned2 "Добрый вечер. Да, я передумал..."
+    # ned2 "Я хочу взять некоторые пункты из вашего прейскуранта."
+    ned2 "Добрый вечер. Да, я передумал..."
+    ned2 "Я хочу взять некоторые пункты из вашего прейскуранта."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1014
+translate german ep211_escort_scene2_5_f7e7c8bb:
+
+    # ned2 "Видите ли... Эта девушка... Она..." 
+    ned2 "Видите ли... Эта девушка... Она..." 
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1021
+translate german ep211_escort_scene2_5_e9ac0575:
+
+    # ned2 "Она..."
+    # ned2 "Так ты согласна?"
+    ned2 "Она..."
+    ned2 "Так ты согласна?"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1040
+translate german ep211_escort_scene2_5_235db0c2:
+
+    # ned2 "Эй... Полегче!"
+    # ned2 "А то останешься без денег!"
+    ned2 "Эй... Полегче!"
+    ned2 "Dann wirst du ohne Geld dastehen!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1297
+translate german ep211_escort_scene2_7_d24c6596:
+
+    # ned2 "У нее началось небольшое недомогание и она ушла в туалет."
+    # ned2 "Попросила нас пока веселиться и не беспокоить ее."
+    # ned2 "Она скоро придет."
+    ned2 "У нее началось небольшое недомогание и она ушла в туалет."
+    ned2 "Попросила нас пока веселиться и не беспокоить ее."
+    ned2 "Она скоро придет."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1302
+translate german ep211_escort_scene2_7_41b373b9:
+
+    # natalie "Странно."
+    # marty "Что странного?"
+    # natalie "Что парень и девушка одновременно отсутствуют..."
+    natalie "Странно."
+    marty "Что странного?"
+    natalie "Что парень и девушка одновременно отсутствуют..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1317
+translate german ep211_escort_scene2_7_58533013:
+
+    # ned2 "..."
+    ned2 "..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1591
+translate german ep211_escort_scene2_9_6afdbad3:
+
+    # natalie "Дэниел, куда Марти ушел?"
+    natalie "Дэниел, куда Марти ушел?"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1594
+translate german ep211_escort_scene2_9_e616dbdc:
+
+    # daniel "Марти нашел меня и спросил, все ли у меня в порядке."
+    # daniel "Я как раз закончил разговор и собирался возвращаться."
+    # daniel "Тогда Марти решил зайти в туалет и я проводил его."
+    daniel "Марти нашел меня и спросил, все ли у меня в порядке."
+    daniel "Я как раз закончил разговор и собирался возвращаться."
+    daniel "Тогда Марти решил зайти в туалет и я проводил его."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1818
+translate german ep211_escort_scene2_11_14c85901:
+
+    # ned2 "Не стоит. Я сейчас сам пойду к Луизе и проверю, как она себя чувствует."
+    ned2 "Не стоит. Я сейчас сам пойду к Луизе и проверю, как она себя чувствует."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1835
+translate german ep211_escort_scene2_11_30de1d59:
+
+    # ned2 "Да, Эмма. Луиза моя девушка и я очень горжусь этим!"
+    ned2 "Да, Эмма. Луиза моя девушка и я очень горжусь этим!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1851
+translate german ep211_escort_scene2_12_adbe8ee1:
+
+    # ned2 "Черт! Пустите меня!"
+    # ned2 "Теперь моя очередь! Дайте сюда!"
+    # ned2 "Я должен ее трахнуть тоже! Все-таки, это моя девушка!!!"
+    ned2 "Черт! Пустите меня!"
+    ned2 "Теперь моя очередь! Дайте сюда!"
+    ned2 "Я должен ее трахнуть тоже! Все-таки, это моя девушка!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1864
+translate german ep211_escort_scene2_12_935d59a9:
+
+    # ned2 "$ 200! Следующий клиент стоит $ 200!!!"
+    # ned2 "Я специально подождал, чтобы получить скидку!!!"
+    ned2 "$ 200! Следующий клиент стоит $ 200!!!"
+    ned2 "Я специально подождал, чтобы получить скидку!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1868
+translate german ep211_escort_scene2_12_c03ebedc:
+
+    # ned2 "Жаль, мы не взяли с собой Джима!"
+    # ned2 "Тогда мне бы это обошлось всего в $ 100!"
+    ned2 "Жаль, мы не взяли с собой Джима!"
+    ned2 "Тогда мне бы это обошлось всего в $ 100!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1889
+translate german ep211_escort_scene2_12_235db0c2:
+
+    # ned2 "Эй... Полегче!"
+    # ned2 "А то останешься без денег!"
+    ned2 "Эй... Полегче!"
+    ned2 "Dann wirst du ohne Geld dastehen!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1911
+translate german ep211_escort_scene2_12_84bd5cf6:
+
+    # ned2 "Даааа!!!"
+    ned2 "Даааа!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1919
+translate german ep211_escort_scene2_12_f3d43e27:
+
+    # ned2 "Нет, но беги скорее, а то тебя начнут искать!"
+    # m "!!!"
+    # ned2 "Раздевайся!"
+    # ned2 "Я хочу трахнуть тебя прямо на этом пуфе!"
+    ned2 "Нет, но беги скорее, а то тебя начнут искать!"
+    m "!!!"
+    ned2 "Zieh dich aus!"
+    ned2 "Я хочу трахнуть тебя прямо на этом пуфе!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2016
+translate german ep211_escort_scene2_12_00fd8656:
+
+    # ned2 "Аааа..."
+    ned2 "Аааа..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2069
+translate german ep211_escort_scene2_12_9ed5eb94:
+
+    # ned2 "Аааааа..."
+    ned2 "Аааааа..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2080
+translate german ep211_escort_scene2_12_1a32caff:
+
+    # ned2 "Аааааааа..."
+    ned2 "Аааааааа..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2087
+translate german ep211_escort_scene2_12_6c325c8f:
+
+    # ned2 "АААААА!!!" 
+    ned2 "AAAAA!!!" 
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2132
+translate german ep211_escort_scene2_13_40870036:
+
+    # ned2 "Луиза, любимая, ты себя уже лучше чувствуешь?"
+    # m "Да..."
+    # m "Спасибо за твою заботу, дорогой..."
+    ned2 "Луиза, любимая, ты себя уже лучше чувствуешь?"
+    m "Ja."
+    m "Спасибо за твою заботу, дорогой..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2182
+translate german ep211_escort_scene2_13_88774789:
+
+    # m "..."
+    # m "По вечерам... Мы уделяем друг другу время."
+    # ned2 "Да, любимая. Мы стараемся встречаться каждый вечер."
+    m "..."
+    m "По вечерам... Мы уделяем друг другу время."
+    ned2 "Да, любимая. Мы стараемся встречаться каждый вечер."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2218
+translate german ep211_escort_scene2_13_44f737fd:
+
+    # ned2 "Луиза, дорогая. Мне кажется, тебе снова нехорошо."
+    # ned2 "Может быть, я отвезу тебя домой?"
+    # m "Да, дорогой. Я буду тебе очень благодарна."
+    ned2 "Луиза, дорогая. Мне кажется, тебе снова нехорошо."
+    ned2 "Может быть, я отвезу тебя домой?"
+    m "Да, дорогой. Я буду тебе очень благодарна."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2321
+translate german ep211_escort_scene2_14_27a79443:
+
+    # reception "Да, ни цента! И это ты еще легко отделалась!"
+    # reception "Еще хоть одно малейшее нарушение и тебя ждет увольнение!!!"
+    # reception "Тебе все понятно, [monica_hotel_name]?!"
+    # help "Увольнение будет реализовано в следующих апдейтах..."
+    reception "Да, ни цента! И это ты еще легко отделалась!"
+    reception "Еще хоть одно малейшее нарушение и тебя ждет увольнение!!!"
+    reception "Тебе все понятно, [monica_hotel_name]?!"
+    help "Увольнение будет реализовано в следующих апдейтах..."
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2335
+translate german ep211_escort_scene2_14_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2381
+translate german ep211_escort_scene2_15_f4668ba9:
+
+    # mt "Не могу поверить что я позволила сделать такое с собой..."
+    # mt "С другой стороны, это немаленькие деньги для меня сейчас."
+    # mt "И все думают что я [monica_hotel_name]."
+    # mt "Никто не знает кто я такая на самом деле..."
+    mt "Не могу поверить что я позволила сделать такое с собой..."
+    mt "С другой стороны, это немаленькие деньги для меня сейчас."
+    mt "И все думают что я [monica_hotel_name]."
+    mt "Никто не знает кто я такая на самом деле..."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1095
+    old "Несколько минут спустя..."
+    new "Несколько минут спустя..."
+
+    # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1278
+    old "В это время в гостиной..."
+    new "В это время в гостиной..."
+
+    # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1338
+    old "В соседней комнате..."
+    new "В соседней комнате..."
 

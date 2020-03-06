@@ -1776,7 +1776,7 @@ translate english ep210_dialogues7_escort_hotel_8c_c5c1c040:
     mt "Heck!"
     mt "She could've seen me on the magazine cover!"
     mt "Or in photos reporters made at some conference!"
-    mt "I don't want them to know that I am Monica Buckett!"
+    mt "I don't want them to know that I am Monica Buckfett!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:914
 translate english ep210_dialogues7_escort_hotel_8d_f6c89520:
@@ -2068,7 +2068,7 @@ translate english ep210_dialogues7_escort_hotel_11b_4ad016fe:
     # mt "Я никогда не смогу решиться на такое!"
     # mt "Я Моника Бакфетт, а не какая-то проститутка!"
     mt "I'll never be able to accept this!"
-    mt "I'm Monica Buckett, not some prostitute!"
+    mt "I'm Monica Buckfett, not some prostitute!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1127
 translate english ep210_dialogues7_escort_hotel_12_1_ab8fa91a:
@@ -2755,4 +2755,116 @@ translate english strings:
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Идти в ресторан."
     new "Go to the restaraunt."
+
+# TODO: Translation updated at 2020-03-06 23:33
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1266
+translate english ep210_dialogues7_escort_hotel_7d_45749dd2:
+
+    # mt "Я не хочу больше возвращаться туда! Не сегодня."
+    mt "I don't want to go back there! Not today."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1426
+translate english ep210_dialogues7_escort_hotel_8a2_3f1fc081:
+
+    # girl_1 "О, кто к нам пришел!"
+    # girl_1 "Сегодня у тебя не получится уводить наших клиентов..."
+    # girl_1 "Будешь работать с тем, кого мы тебе дадим!"
+    girl_1 "Oh, who came to us!"
+    girl_1 "You won't be luring our customers away today..."
+    girl_1 "You will work with the one we give to you!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1432
+translate english ep210_dialogues7_escort_hotel_8a2_d051b1f9:
+
+    # m "..."
+    # mt "Сучка. Не хочу с ней разговаривать."
+    m "..."
+    mt "Bitch. I don’t want to talk to her."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1445
+translate english ep210_dialogues7_escort_hotel_8b_3ac5372c:
+
+    # girl_2 "Привет."
+    # girl_2 "Надеюсь, мне сегодня подвернется нормальный клиент..."
+    girl_2 "Hey."
+    girl_2 "I hope I get a normal client today..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1449
+translate english ep210_dialogues7_escort_hotel_8b_c634e281:
+
+    # m "Да... И мне тоже."
+    m "Yes... Me too."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1452
+translate english ep210_dialogues7_escort_hotel_8b_a16b7cc1:
+
+    # girl_2 "Ну, не знаю... Тебе то, что останется..."
+    girl_2 "Well, I don’t know ... You get what's left from us..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1456
+translate english ep210_dialogues7_escort_hotel_8b_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1468
+translate english ep210_dialogues7_escort_hotel_8c_0111ea8a:
+
+    # girl_3 "Я тебя где-то видела раньше."
+    # girl_3 "Не в этом ресторане..."
+    # girl_3 "Хммм... Не могу вспомнить, где..."
+    girl_3 "I've seen you somewhere before."
+    girl_3 "Not in this restaurant..."
+    girl_3 "Hmmm... I can’t remember where ..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1473
+translate english ep210_dialogues7_escort_hotel_8c_d92923c4:
+
+    # m "Наверное, ты меня с кем-то путаешь."
+    m "You must be confusing me with someone."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1477
+translate english ep210_dialogues7_escort_hotel_8c_9411c94d:
+
+    # mt "Черт!"
+    # mt "Она могла видеть меня на обложке журнала!"
+    # mt "Или на фото репортеров с конференции!"
+    # mt "Я не хочу, чтобы они узнали, что я Моника Бакфетт!"
+    mt "Heck!"
+    mt "She could've seen me on the magazine cover!"
+    mt "Or in photos reporters made at some conference!"
+    mt "I don't want them to know that I am Monica Buckfett!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1492
+translate english ep210_dialogues7_escort_hotel_8d_04cfb66a:
+
+    # girl_4 "Пришла? Это хорошо."
+    # girl_4 "Это значит, что у меня сегодня не будет придурков-клиентов."
+    # girl_4 "Чего не скажешь о тебе..."
+    girl_4 "Have you come? Good."
+    girl_4 "This means that today I will not have jerks-clients."
+    girl_4 "Which can't be said about you..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1498
+translate english ep210_dialogues7_escort_hotel_8d_098f202f:
+
+    # mt "Как она со мной разговаривает?!"
+    # mt "Я поставлю эту сучку на место!"
+    mt "How is she talking to me?!"
+    mt "I'll put this bitch in her place!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1502
+translate english ep210_dialogues7_escort_hotel_8d_3754cccb:
+
+    # mt "При первой же возможности!"
+    # mt "!!!"
+    mt "At the first opportunity I get!"
+    mt "!!!"
+
+translate english strings:
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1362
+    old "Работать в эскорте."
+    new "Работать в эскорте."
 

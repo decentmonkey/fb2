@@ -1776,7 +1776,7 @@ translate german ep210_dialogues7_escort_hotel_8c_c5c1c040:
     mt "Huch!"
     mt "Sie könnte mich auf den Cover meiner Zeitschrift gesehen haben!"
     mt "Oder auf dem Foto von der Konferenz!"
-    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckett bin!"
+    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckfett bin!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:914
 translate german ep210_dialogues7_escort_hotel_8d_f6c89520:
@@ -2755,4 +2755,116 @@ translate german strings:
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1357
     old "Идти в ресторан."
     new "v"
+
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1266
+translate german ep210_dialogues7_escort_hotel_7d_45749dd2:
+
+    # mt "Я не хочу больше возвращаться туда! Не сегодня."
+    mt "Ich will da nicht mehr hin, zumindest nicht mehr heute."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1426
+translate german ep210_dialogues7_escort_hotel_8a2_3f1fc081:
+
+    # girl_1 "О, кто к нам пришел!"
+    # girl_1 "Сегодня у тебя не получится уводить наших клиентов..."
+    # girl_1 "Будешь работать с тем, кого мы тебе дадим!"
+    girl_1 "Oh, wen haben wir denn hier."
+    girl_1 "Heute kannst du unsere Kunden nicht entführen..."
+    girl_1 "Du wirst den nehmen, den wir dir geben!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1432
+translate german ep210_dialogues7_escort_hotel_8a2_d051b1f9:
+
+    # m "..."
+    # mt "Сучка. Не хочу с ней разговаривать."
+    m "..."
+    mt "Schlampe! Ich möchte nicht mit ihr reden."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1445
+translate german ep210_dialogues7_escort_hotel_8b_3ac5372c:
+
+    # girl_2 "Привет."
+    # girl_2 "Надеюсь, мне сегодня подвернется нормальный клиент..."
+    girl_2 "Hey."
+    girl_2 "Hoffentlich bekomme ich heute einen normalen Kunden...."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1449
+translate german ep210_dialogues7_escort_hotel_8b_c634e281:
+
+    # m "Да... И мне тоже."
+    m "Ja... ich hoffentlich auch."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1452
+translate german ep210_dialogues7_escort_hotel_8b_a16b7cc1:
+
+    # girl_2 "Ну, не знаю... Тебе то, что останется..."
+    girl_2 "Nun, ich weiß nicht ... Was bleibt für dich ..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1456
+translate german ep210_dialogues7_escort_hotel_8b_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1468
+translate german ep210_dialogues7_escort_hotel_8c_0111ea8a:
+
+    # girl_3 "Я тебя где-то видела раньше."
+    # girl_3 "Не в этом ресторане..."
+    # girl_3 "Хммм... Не могу вспомнить, где..."
+    girl_3 "Ich habe dich irgendwo schon einmal gesehen."
+    girl_3 "Nicht in diesem Restaurant ..."
+    girl_3 "Hmmmm... ich kann mich nur nicht genau erinnern wo...."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1473
+translate german ep210_dialogues7_escort_hotel_8c_d92923c4:
+
+    # m "Наверное, ты меня с кем-то путаешь."
+    m "Du musst mich mit jemanden verwechseln."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1477
+translate german ep210_dialogues7_escort_hotel_8c_9411c94d:
+
+    # mt "Черт!"
+    # mt "Она могла видеть меня на обложке журнала!"
+    # mt "Или на фото репортеров с конференции!"
+    # mt "Я не хочу, чтобы они узнали, что я Моника Бакфетт!"
+    mt "Huch!"
+    mt "Sie könnte mich auf den Cover meiner Zeitschrift gesehen haben!"
+    mt "Oder auf dem Foto von der Konferenz!"
+    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckfett bin!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1492
+translate german ep210_dialogues7_escort_hotel_8d_04cfb66a:
+
+    # girl_4 "Пришла? Это хорошо."
+    # girl_4 "Это значит, что у меня сегодня не будет придурков-клиентов."
+    # girl_4 "Чего не скажешь о тебе..."
+    girl_4 "Du bist gekommen. Das ist gut"
+    girl_4 "Das bedeutet, dass ich heute keinen Idioten haben werde."
+    girl_4 "Das kann man aber nicht über dich sagen..."
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1498
+translate german ep210_dialogues7_escort_hotel_8d_098f202f:
+
+    # mt "Как она со мной разговаривает?!"
+    # mt "Я поставлю эту сучку на место!"
+    mt "Wie redet sie mit mir ?!"
+    mt "Ich erledige diese Schlampe an Ort und Stelle!"
+
+# game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1502
+translate german ep210_dialogues7_escort_hotel_8d_3754cccb:
+
+    # mt "При первой же возможности!"
+    # mt "!!!"
+    mt "Sobald ich die Möglichkeit habe!"
+    mt "!!!"
+
+translate german strings:
+
+    # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1362
+    old "Работать в эскорте."
+    new "Работать в эскорте."
 

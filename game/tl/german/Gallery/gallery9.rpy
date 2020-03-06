@@ -5830,3 +5830,325 @@ translate german gallery_21180_0a5616b8_2:
     # mt "!!!"
     mt "!!!"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Gallery/gallery9.rpy:1144
+translate german gallery_8285_6cb632f1:
+
+    # secretary "Миссис Бакфетт! Я пока не видела зарплаты здесь, после Вашего ухода..."
+    # secretary "Поэтому у меня нет никаких денег сейчас, Миссис Бакфетт!"
+    # "Простите!"
+    # m "А как же Биф? Он что, не дает тебе деньги?"
+    secretary "Frau Buckfett! Seit Sie weg sind hat man mir keinen Lohn mehr gezahlt..."
+    secretary "Also habe ich derzeit kein Geld, Frau Buckfett!"
+    "Tut mir leid!"
+    m "Was ist mit Biff? Gibt er dir Geld, oder wie?"
+
+# game/Gallery/gallery9.rpy:2407
+translate german gallery_9668_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2418
+translate german gallery_9669_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2429
+translate german gallery_9670_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2441
+translate german gallery_9671_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2453
+translate german gallery_9664_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2465
+translate german gallery_9665_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2476
+translate german gallery_9666_7bbd42f6:
+
+    # mt "Эти девушки совсем не уважают себя!"
+    # "Как можно делать подобное у всех на виду?!"
+    mt "Diese Mädchen haben keinerlei Selbstrespekt!"
+    "Wie können sie sowas nur öffentlich machen?"
+
+# game/Gallery/gallery9.rpy:2532
+translate german gallery_20482_4cdbf8f3:
+
+    # m "Я хочу заказать..."
+    # m "Спагетти."
+    m "Ich will..."
+    m "Spagetti."
+
+# game/Gallery/gallery9.rpy:2538
+translate german gallery_20482_f9bc5e47:
+
+    # m "Я передумала."
+    m "Ich überdenke."
+
+# game/Gallery/gallery9.rpy:2541
+translate german gallery_20482_8bda2919:
+
+    # ashley "Ах, [monica_pub_name], у тебя нет денег!"
+    # ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
+    ashley "Аh, [monica_pub_name], du hast nicht genug Geld!"
+    ashley "Aber als Tellerwäscherin, kannst du das immer machen!"
+
+# game/Gallery/gallery9.rpy:2545
+translate german gallery_20482_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Gallery/gallery9.rpy:2550
+translate german gallery_20482_7838405b:
+
+    # joe "А выпивку?"
+    joe "Getränke?"
+
+# game/Gallery/gallery9.rpy:2552
+translate german gallery_20482_f7df0163:
+
+    # m "Спасибо, не надо!"
+    m "Danke, nein!"
+
+# game/Gallery/gallery9.rpy:2555
+translate german gallery_20482_0f5e0ae9:
+
+    # ashley "Хорошо, присаживайся за стол."
+    # ashley "Я сейчас принесу."
+    ashley "Gut, nimm Platz."
+    ashley "Ich bringe es in ein paar Minuten."
+
+# game/Gallery/gallery9.rpy:2568
+translate german gallery_20482_9b3c6a59:
+
+    # ashley "Но ты могла бы не тратить деньги."
+    # ashley "Эту еду легко заработать посудомойкой."
+    ashley "Aber du kannst Geld sparen."
+    ashley "Und das Essen durch Arbeit verdienen."
+
+# game/Gallery/gallery9.rpy:2573
+translate german gallery_20482_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Gallery/gallery9.rpy:2579
+translate german gallery_20482_9072cfe4:
+
+    # ashley "К тому же, я уже привыкла что ты моешь посуду."
+    # ashley "Мне стало как-то лень заниматься этим."
+    ashley "Ich habe mich an dich schon gewohnt."
+    ashley "Ich bin schon zu faul, es selbst zu tun."
+
+# game/Gallery/gallery9.rpy:2583
+translate german gallery_20482_27943f34:
+
+    # m "Спасибо, Эшли."
+    # m "Сегодня я не хочу... мыть посуду..."
+    m "Danke, Ashley."
+    m "Ich will das... heute nicht machen..."
+
+# game/Gallery/gallery9.rpy:2587
+translate german gallery_20482_7fec2a13:
+
+    # ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+    ashley "Gut, [monica_pub_name], du kannst kommen, wenn du es dir anders überlegt hast..."
+
+# game/Gallery/gallery9.rpy:2591
+translate german gallery_20482_5f13042f:
+
+    # mt "Эшли готовит отвратительно."
+    # mt "Это место - действительно дыра."
+    mt "Ashleys Kochkünste sind... jedenfalls keine Künste."
+    mt "Dieser Ort... wirklich ein Loch."
+
+# game/Gallery/gallery9.rpy:2597
+translate german gallery_20482_9d6a5e11:
+
+    # mt "Но это нормальная еда, а не пирожные с заправки..."
+    mt "Aber es ist bodenständiges Essen, keine Törtchen aus der Tanke..."
+
+# game/Gallery/gallery9.rpy:2605
+translate german gallery_20483_da4ae046:
+
+    # ashley "Привет, [monica_pub_name]!"
+    ashley "Hallo, [monica_pub_name]!"
+
+# game/Gallery/gallery9.rpy:2608
+translate german gallery_20483_5976537f:
+
+    # ashley "Ты пришла, чтобы мыть посуду?"
+    ashley "Kommst du, um abzuspülen?"
+
+# game/Gallery/gallery9.rpy:2611
+translate german gallery_20483_72a47e28:
+
+    # m "Нет, я хочу заказать еду!"
+    m "Nein, ich will etwas essen!"
+
+# game/Gallery/gallery9.rpy:2614
+translate german gallery_20483_7da9e47d:
+
+    # ashley "Правда?"
+    # ashley "И что же ты хочешь заказать?"
+    ashley "Wirklich?"
+    ashley "Und was?"
+
+# game/Gallery/gallery9.rpy:2618
+translate german gallery_20483_25936553:
+
+    # m "Я хочу заказать..."
+    m "Ich will..."
+
+# game/Gallery/gallery9.rpy:2633
+translate german gallery_20483_f9bc5e47:
+
+    # m "Я передумала."
+    m "Ich überdenke."
+
+# game/Gallery/gallery9.rpy:2636
+translate german gallery_20483_8bda2919:
+
+    # ashley "Ах, [monica_pub_name], у тебя нет денег!"
+    # ashley "Но ведь ты посудомойка. Ты всегда можешь помыть посуду!"
+    ashley "Аh, [monica_pub_name], du hast nicht genug Geld!"
+    ashley "Aber als Tellerwäscherin, kannst du das immer machen!"
+
+# game/Gallery/gallery9.rpy:2640
+translate german gallery_20483_0a5616b8:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Gallery/gallery9.rpy:2645
+translate german gallery_20483_7838405b:
+
+    # joe "А выпивку?"
+    joe "Getränke?"
+
+# game/Gallery/gallery9.rpy:2647
+translate german gallery_20483_f7df0163:
+
+    # m "Спасибо, не надо!"
+    m "Danke, nein!"
+
+# game/Gallery/gallery9.rpy:2650
+translate german gallery_20483_0f5e0ae9:
+
+    # ashley "Хорошо, присаживайся за стол."
+    # ashley "Я сейчас принесу."
+    ashley "Gut, nimm Platz."
+    ashley "Ich bringe es in ein paar Minuten."
+
+# game/Gallery/gallery9.rpy:2663
+translate german gallery_20483_9b3c6a59:
+
+    # ashley "Но ты могла бы не тратить деньги."
+    # ashley "Эту еду легко заработать посудомойкой."
+    ashley "Aber du kannst Geld sparen."
+    ashley "Und das Essen durch Arbeit verdienen."
+
+# game/Gallery/gallery9.rpy:2668
+translate german gallery_20483_0a5616b8_1:
+
+    # mt "!!!"
+    mt "!!!"
+
+# game/Gallery/gallery9.rpy:2674
+translate german gallery_20483_9072cfe4:
+
+    # ashley "К тому же, я уже привыкла что ты моешь посуду."
+    # ashley "Мне стало как-то лень заниматься этим."
+    ashley "Ich habe mich an dich schon gewohnt."
+    ashley "Ich bin schon zu faul, es selbst zu tun."
+
+# game/Gallery/gallery9.rpy:2678
+translate german gallery_20483_27943f34:
+
+    # m "Спасибо, Эшли."
+    # m "Сегодня я не хочу... мыть посуду..."
+    m "Danke, Ashley."
+    m "Ich will das... heute nicht machen..."
+
+# game/Gallery/gallery9.rpy:2682
+translate german gallery_20483_7fec2a13:
+
+    # ashley "Хорошо, [monica_pub_name], если надумаешь, приходи..."
+    ashley "Gut, [monica_pub_name], du kannst kommen, wenn du es dir anders überlegt hast..."
+
+# game/Gallery/gallery9.rpy:2686
+translate german gallery_20483_5f13042f:
+
+    # mt "Эшли готовит отвратительно."
+    # mt "Это место - действительно дыра."
+    mt "Ashleys Kochkünste sind... jedenfalls keine Künste."
+    mt "Dieser Ort... wirklich ein Loch."
+
+# game/Gallery/gallery9.rpy:2692
+translate german gallery_20483_9d6a5e11:
+
+    # mt "Но это нормальная еда, а не пирожные с заправки..."
+    mt "Aber es ist bodenständiges Essen, keine Törtchen aus der Tanke..."
+
+# game/Gallery/gallery9.rpy:2700
+translate german gallery_20484_da4ae046:
+
+    # ashley "Привет, [monica_pub_name]!"
+    ashley "Hallo, [monica_pub_name]!"
+
+# game/Gallery/gallery9.rpy:2703
+translate german gallery_20484_5976537f:
+
+    # ashley "Ты пришла, чтобы мыть посуду?"
+    ashley "Kommst du, um abzuspülen?"
+
+# game/Gallery/gallery9.rpy:2706
+translate german gallery_20484_72a47e28:
+
+    # m "Нет, я хочу заказать еду!"
+    m "Nein, ich will etwas essen!"
+
+# game/Gallery/gallery9.rpy:2709
+translate german gallery_20484_7da9e47d:
+
+    # ashley "Правда?"
+    # ashley "И что же ты хочешь заказать?"
+    ashley "Wirklich?"
+    ashley "Und was?"
+
+# game/Gallery/gallery9.rpy:2713
+translate german gallery_20484_25936553:
+
+    # m "Я хочу заказать..."
+    m "Ich will..."
+

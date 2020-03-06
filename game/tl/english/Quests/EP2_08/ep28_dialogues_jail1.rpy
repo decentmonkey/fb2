@@ -518,7 +518,7 @@ translate english ep28_dialogues_jail2_297d49a6:
     m "Do You Hear?!"
     m "You're breaking the rules yourself!"
     m "You're breaking it by making deals with the warden!"
-    m "You walk here without the permission of the administration."
+    m "You walk here without the permission of the boss."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:305
 translate english ep28_dialogues_jail2_544c498e:
@@ -5682,7 +5682,7 @@ translate english ep28_dialogues_monica_offending_prisoners_297d49a6:
     m "Do You Hear?!"
     m "You're breaking the rules yourself!"
     m "You're breaking it by making deals with the warden!"
-    m "You walk here without the permission of the administration."
+    m "You walk here without the permission of the boss."
 
 # game/Quests/EP2_08/ep28_dialogues_jail1.rpy:3072
 translate english ep28_dialogues_monica_offending_prisoners_544c498e:

@@ -1838,3 +1838,27 @@ translate german strings:
     old "Не заглядывать. (завершение сюжета с Юлией)"
     new "Gehe nicht hin. (Ende der Handlung mit Julia)"
 
+# TODO: Translation updated at 2020-03-06 23:31
+
+# game/Quests/EP2_10/ep210_dialogues5_julia.rpy:314
+translate german ep210_dialogues5_julia_2a_8fa1e171:
+
+    # mt "А где эта никчемная помощница?!"
+    # mt "Вот черт! Я совсем забыла..."
+    # mt "Я же договорилась с ней сегодня сходить в кафе."
+    # mt "Мне нужно сейчас идти на свидание с Юлией."
+    mt "Wo ist dieses nutzlose Helferlein?!"
+    mt "Verdammt, gaz vergessen..."
+    mt "Ich wollte mich ja heute mit ihr im Cafe treffen."
+    mt "Ich muss da jetzt hin zu diesem dummen Date mit Julia."
+
+translate german strings:
+
+    # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
+    old "Пригласить Юлию на второе свидание."
+    new "Пригласить Юлию на второе свидание."
+
+    # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
+    old "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
+    new "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
+
