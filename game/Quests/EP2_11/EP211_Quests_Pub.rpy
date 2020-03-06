@@ -52,6 +52,8 @@ label ep211_quests_pub3_fired: # увольнение из паба
     $ questLog(60, False)
     $ questLog(58, False)
     $ questLog(59, False)
+    $ clear_hooks("exit_scene", scene="pub")
+    $ clear_hooks("exit_scene", scene="pub_makeuproom")
     call change_scene("hostel_street", "Fade_long")
     return
 
