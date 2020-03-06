@@ -1,4 +1,5 @@
-
+default monicaJuliaDate2Kiss1 = False
+default monicaJuliaDate2Kiss2 = False
 default monicaJuliaApartment = False  # Моника лезла к Юлии под платье у нее дома (была у Юлии в квартире)
 
 call ep211_dialogues4_julia_1() # разговор с Юлией при выборе в меню пункта "пригласить Юлию на второе свидание"
@@ -92,7 +93,7 @@ label ep211_dialogues4_julia_1:
     m "Сегодня вечером, после работы."
     m "В том же кафе рядом с твоим домом."
     julia "Хорошо, Миссис Бакфетт. С нетерпением буду ждать вечера!"
-    $ log1 = _("После работы пойти на свидание с Юлией в кафе.")
+#    $ log1 = _("После работы пойти на свидание с Юлией в кафе.")
     return
 
 # при клике на Юлию после назначения 2-го свидания
@@ -111,7 +112,7 @@ label ep211_dialogues4_julia_2:
     img 16889
     with fadelong
     w
-    music Groove2_85
+    music Loved_Up
     img 16890
     with fade
     julia "Миссис Бакфетт! Я так рада нашей встрече!"
@@ -126,7 +127,7 @@ label ep211_dialogues4_julia_2:
             with fade
             sound snd_kiss2
             w
-            pass
+            $ monicaJuliaDate2Kiss1 = True
         "Не целовать.":
             music Pyro_Flow
             img 16892
@@ -137,7 +138,6 @@ label ep211_dialogues4_julia_2:
             with diss
             mt "Мне надоели эти глупости!"
             mt "!!!"
-            pass
     # Моника садится за столик, подходит официантка
     music Groove2_85
     img 16895
@@ -164,33 +164,35 @@ label ep211_dialogues4_julia_2:
     m "..."
     m "Это вредно для фигуры..."
     # Юлия снова смотрит в меню
-    music Groove2_85
+    music Loved_Up
     img 16900
     with diss
     julia "Тогда, может быть..."
     julia "..."
     # Моника косится на официантку
-    music Pyro_Flow
+    music Groove2_85
     img 16901
     with fade
     mt "Долбанная официанта!"
     mt "Зачем она притащила меню?!"
-    music Groove2_85
+#    music Groove2_85
     img 16902
     with diss
     cafe_barista "Мэм, а Вы что желаете?"
     # Моника высокомерно
+    music Hidden_Agenda
     img 16903
     with fade
     m "Я ничего не буду!"
     m "Я как раз недавно плотно поела и, боюсь, еще один прием пищи может сказаться на моей фигуре."
-    music Pyro_Flow
+#    music Pyro_Flow
+    music Groove2_85
     img 16904
     with diss
     mt "Не хватало еще тратить здесь свои деньги!"
     mt "Откуда вообще взялись такие цены в этой дыре?!"
     # Моника снова смотрит на Юлию
-    music Groove2_85
+    music Loved_Up
     img 16905
     with fade
     julia "Я выбрала!"
@@ -198,12 +200,12 @@ label ep211_dialogues4_julia_2:
     img 16906
     with diss
     julia "Мне, пожалуйста, этот салат. Греческий."
-    music Pyro_Flow
+    music Groove2_85
     img 16907
     with fade
     mt "Никчемная Юлия!"
     mt "Можно было выбрать что-то и подешевле!"
-    music Groove2_85
+    music Loved_Up
     img 16908
     with diss
     julia "И еще какао, пожалуйста."
@@ -212,10 +214,12 @@ label ep211_dialogues4_julia_2:
     img 16909
     with fade
     julia "Миссис Бакфетт, Вы точно ничего не хотите?"
+    music Hidden_Agenda
     img 16910
     with diss
     m "Нет, милая. Я не голодна..."
     # официантка Монике
+    music Groove2_85
     img 16911
     with fade
     cafe_barista "Может, воды?"
@@ -223,13 +227,13 @@ label ep211_dialogues4_julia_2:
     cafe_barista "Хорошо. Скоро принесу Ваш заказ."
     sound highheels_short_walk
     # официантка уходит, Моника смотрит на Юлию
-    music Pyro_Flow
+#    music Pyro_Flow
     img 16899
     with fade
     mt "Мне снова придется платить за ужин!"
     mt "А самой сидеть и смотреть, как ест эта никчемная Юлия!"
     mt "!!!"
-    music Groove2_85
+    music Loved_Up
     img 16912
     with diss
     julia "Миссис Бакфетт, Вы сегодня так хорошо выглядите..."
@@ -239,23 +243,25 @@ label ep211_dialogues4_julia_2:
     m "Ты тоже."
     m "..."
     # Юлия смущенно улыбается
-    music Pyro_Flow
+    music Groove2_85
     img 16914
     with fade
     mt "Мне даже не о чем с ней поговорить..."
     mt "И неудивительно! О чем может разговаривать с какой-то служанкой такая леди как Я?!"
     m "..."
-    music Groove2_85
+#    music Groove2_85
     img 16915
     with diss
     menu:
         "Попросить Юлию рассказать о себе.":
             pass
+    music Hidden_Agenda
     img 16916
     with diss
     m "Юлия, милая, расскажи о себе..."
     m "Я тут поняла, что совсем ничего о тебе не знаю..."
     # официанка приносит Юлии заказ
+    music Groove2_85
     sound highheels_short_walk
     img 16917
     with fade
@@ -266,9 +272,11 @@ label ep211_dialogues4_julia_2:
     img 16918
     with diss
     w
+    music Villainous_Treachery
     img 16952
     with fade
     w
+    music Loved_Up
     img 16919
     with diss
     julia "Мне приятно, что Вас это интересует, Миссис Бакфетт..."
@@ -301,7 +309,7 @@ label ep211_dialogues4_julia_2:
     julia "Должно произойти нечто экстраординарное, чтобы я вернулась к ним..."
     julia "..."
     # Моника внимательно смотрит на нее
-    music Pyro_Flow
+    music Hidden_Agenda
     img 16925
     with diss
     mt "Странно... Дома у нее богатый родственник."
@@ -318,32 +326,34 @@ label ep211_dialogues4_julia_2:
     with diss
     julia "Да, Миссис Бакфетт."
     julia "Я арендую тут квартиру."
-    # Моника задумывается
-    img 16928
-    with fade
-    mt "Хммм.."
-    mt "Арендовать квартиру в трущобах - это, наверное, недорого?"
-    mt "..."
-    music Pyro_Flow
-    img 16929
-    with diss
-    mt "Но жить в трущобах!!! Фи!"
-    mt "..."
-    music Groove2_85
-    mt "С другой стороны..."
-    mt "Не будет деревенщины Бетти и озабоченного сопляка Барди..."
-    mt "Сколько уже можно работать на эту семейку идиотов?!"
-    mt "Да еще и без оплаты!"
-    img 16930
-    with diss
-    mt "Я смогу забыть эту семейку, как страшный сон."
-    mt "Начать жить независимо ни от кого."
-    mt "Почему бы мне не попробовать?"
-    mt "..."
-    img 16931
-    with fade
-    mt "Только у кого мне узнать про аренду квартиры?"
-    mt "Мне нужно будет подумать об этом..."
+    if monicaRentApartmentsInited == False:
+        # Моника задумывается
+        music Hidden_Agenda
+        img 16928
+        with fade
+        mt "Хммм.."
+        mt "Арендовать квартиру в трущобах - это, наверное, недорого?"
+        mt "..."
+#        music Pyro_Flow
+        img 16929
+        with diss
+        mt "Но жить в трущобах!!! Фи!"
+        mt "..."
+    #    music Groove2_85
+        mt "С другой стороны..."
+        mt "Не будет деревенщины Бетти и озабоченного сопляка Барди..."
+        mt "Сколько уже можно работать на эту семейку идиотов?!"
+        mt "Да еще и без оплаты!"
+        img 16930
+        with diss
+        mt "Я смогу забыть эту семейку, как страшный сон."
+        mt "Начать жить независимо ни от кого."
+        mt "Почему бы мне не попробовать?"
+        mt "..."
+        img 16931
+        with fade
+        mt "Только у кого мне узнать про аренду квартиры?"
+        mt "Мне нужно будет подумать об этом..."
     scene black_screen
     with Dissolve(1)
     music stop
@@ -362,9 +372,11 @@ label ep211_dialogues4_julia_2:
     img 16932
     with fade
     cafe_barista "Мэм, с вас $ 20."
+    $ add_money(-20.0)
     # Моника недовольно косится на Юлию, оплачивает ужин
     # официантка уходит
-    sound highheels_short_walk
+    music Loved_Up
+    sound2 highheels_short_walk
     img 16934
     with diss
     julia "Миссис Бакфетт, спасибо за ужин."
@@ -378,7 +390,7 @@ label ep211_dialogues4_julia_2:
     with diss
     mt "!!!"
     mt "Отлично!"
-    music Groove2_85
+    music Loved_Up
     img 16937
     with fade
     julia "Только я стесняюсь, что такая леди как Вы..."
@@ -410,11 +422,21 @@ label ep211_dialogues4_julia_3:
     mt "Как здесь можно жить?!"
     mt "Уверена, тут живут одни неудачники и... извращенцы!"
     mt "И тут небезопасно вечером..."
-    mt "Нет. Вряд ли я смогу жить в таких условиях."
-    mt "Такая леди, как я, никогда не сможет привыкнуть к подобному."
-    mt "..."
-    mt "Хотя... Для меня и это место сейчас бы подошло..."
+    if monicaRentApartmentsInited == False:
+        mt "Нет. Вряд ли я смогу жить в таких условиях."
+        mt "Такая леди, как я, никогда не сможет привыкнуть к подобному."
+        mt "..."
+        mt "Хотя... Для меня и это место сейчас бы подошло..."
     return
+
+label ep211_dialogues4_julia_3b:
+    if act=="l":
+        call ep210_dialogues5_julia_3_2()
+        return False
+    m "Ну что? Пойдем?"
+    julia "Да, Миссис Бакфетт."
+    return False
+
 
 # Моника в квартире у Юлии
 label ep211_dialogues4_julia_4:
@@ -423,6 +445,8 @@ label ep211_dialogues4_julia_4:
     img black_screen
     with diss
     sound highheels_short_walk
+    pause 2.0
+    sound snd_door_open1
     pause 1.0
     music Groove2_85
     img 23570
@@ -430,13 +454,17 @@ label ep211_dialogues4_julia_4:
     mt "Хммм... Я думала, будет намного хуже."
     mt "Нет, здесь все, конечно, ужасно, но..."
     mt "В моей ситуации это могло бы стать неплохим вариантом на время."
-    img 23569
-    with fade
-    mt "Пожалуй, стоит обдумать вопрос аренды квартиры."
-    mt "Наверняка жилье здесь почти ничего не стоит..."
-    mt "И я смогу договориться с кем-нибудь о том, чтобы снимать его без лишних документов..."
-    mt "И потом... Все равно никто не узнает, что я живу в трущобах."
-    mt "Это ведь ненадолго."
+    if monicaRentApartmentsInited == False:
+        img 23569
+        with fade
+        mt "Пожалуй, стоит обдумать вопрос аренды квартиры."
+        mt "Наверняка жилье здесь почти ничего не стоит..."
+        mt "И я смогу договориться с кем-нибудь о том, чтобы снимать его без лишних документов..."
+        mt "И потом... Все равно никто не узнает, что я живу в трущобах."
+        mt "Это ведь ненадолго."
+    return
+
+label ep211_dialogues4_julia_4a:
     # Юлия смущается, пока Моника осматривается
     img 23571
     with diss
@@ -461,12 +489,14 @@ label ep211_dialogues4_julia_4:
     img 23576
     with diss
     w
+    sound snd_kiss2
     img 23577
     with diss
     w
     img 23578
     with fade
     w
+    sound snd_kiss2
     img 23579
     with diss
     w
@@ -497,6 +527,8 @@ label ep211_dialogues4_julia_4:
             m "Это уже не имеет значения!"
             m "Забудь все, что было!"
             m "Увидимся на работе."
+            if monicaBitch == True:
+                m "Дура!"
             julia "..."
             # Моника уходит, Юлия расстроена
             return False
@@ -532,8 +564,9 @@ label ep211_dialogues4_julia_4:
     music stop
     sound Jump1
     img 23588
-    with fade
+    with hpunch
     julia "!!!"
+    music Groove2_85
     julia "Миссис Бакфетт, я... Я еще не готова..."
     menu:
         "Я просто потрогаю...":
@@ -554,9 +587,13 @@ label ep211_dialogues4_julia_4:
     with diss
     julia "Ну... Если только потрогать... Только совсем немного..."
     # снова поцелуй, Моника трогает ее попу и нащупывает трусики
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 23593
-    with fade
+    with fadelong
     w
     img 23594
     with diss
@@ -571,14 +608,15 @@ label ep211_dialogues4_julia_4:
     mt "Осталось уговорить ее приподнять платье..."
     # Моника опускает руку немного ниже и пытается залезть под платье
     # но Юлия снова отстраняется
+    music Groove2_85
     sound Jump1
     img 23597
-    with diss
+    with hpunch
     julia "Миссис Бакфетт... На сегодня этого будет достаточно..."
     # Моника расстроена
     music Power_Bots_Loop
     img 23598
-    with fade
+#    with fade
     mt "Твою мать!!!"
     mt "!!!"
     mt "!!!!!!"
@@ -602,6 +640,8 @@ label ep211_dialogues4_julia_4:
             m "Это уже не имеет значения!"
             m "Забудь все, что было!"
             m "Увидимся на работе."
+            if monicaBitch == True:
+                m "Дура!"
             julia "..."
             # Моника уходит, Юлия расстроена
             return False
@@ -619,8 +659,10 @@ label ep211_dialogues4_julia_4:
 
 # Моника сказала, что нужно идти в туалет, повторный клик на Юлию
 label ep211_dialogues4_julia_5:
+    if act=="l":
+        return
     julia "Дверь в туалет справа от входной двери, Миссис Бакфетт."
-    return
+    return False
 
 label ep211_dialogues4_julia_6b:
     mt "Наверняка, здесь что-то есть из ее белья!"
@@ -671,6 +713,7 @@ label ep211_dialogues4_julia_7:
     menu:
         "Поцеловать Юлию.": #corruption
             # Моника подходит к Юлии обнимает и целует ее
+            $ monicaJuliaDate2Kiss2 = True
             pass
         "Не целовать.":
             music Pyro_Flow
@@ -695,6 +738,13 @@ label ep211_dialogues4_julia_7:
     julia "Буду очень скучать и ждать встречи с Вами."
     return
 
+label ep211_dialogues4_julia_7a:
+    if act=="l":
+        return
+    julia "До свидания, Миссис Бакфетт."
+    julia "Буду очень скучать и ждать встречи с Вами."
+    return False
+
 # Моника перед домом Юлии, вышла от нее
 # не рендерить!
 label ep211_dialogues4_julia_8:
@@ -707,19 +757,23 @@ label ep211_dialogues4_julia_8:
 # Моника перед домом Юлии, вышла от нее (если прекратился квест досрочно)
 # не рендерить!
 label ep211_dialogues4_julia_9:
+    if act=="l":
+        return
     mt "Все!"
     mt "С меня хватит!"
     mt "Пошло оно все к черту!"
     mt "!!!"
-    return
+    return False
 
 # Моника перед домом Юлии (глазик)
 # не рендерить!
 label ep211_dialogues4_julia_10:
-    mt "Тут небезопасно вечером..."
-    mt "Наверняка, здесь полно извращенцев!"
-    mt "Нужно скорее уходить отсюда!"
-    mt "!!!"
+    if day_time == "evening":
+        mt "Тут небезопасно вечером..."
+        mt "Наверняка, здесь полно извращенцев!"
+        mt "Нужно скорее уходить отсюда!"
+        mt "!!!"
+        return False
     return
 
 # мысли Моники, когда рассматривает квартиру Юлии
@@ -803,3 +857,24 @@ label ep211_dialogues4_julia_11o:
 label ep211_dialogues4_julia_11p:
     mt "Грязные окна. Видимо Юлия их не моет, чтобы помещение не выделялось на общем фоне..."
     return
+
+label ep211_dialogues4_julia_11q:
+    $ menu_price = [20,0]
+    menu:
+        "Идти на свидание к Юлии.":
+            return True
+        "Уйти.":
+            return False
+    return
+
+label ep211_dialogues4_julia_11r:
+    if act=="l":
+        return
+    sound snd_door_locked1
+    mt "Заперто"
+    mt "Юлии нет дома. Интересно, где она?"
+    return False
+
+label ep211_dialogues4_julia_11s:
+    mt "Пока рано уходить отсюда..."
+    return False

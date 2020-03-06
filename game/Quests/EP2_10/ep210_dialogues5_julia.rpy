@@ -8,8 +8,13 @@ label ep210_julia_dialogue1:
             return 3
         "Сделать Юлии массаж. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
             pass
-        "Пригласить Юлию на второе свидание. (в следующем обновлении) (disabled)":
+        "Пригласить Юлию на второе свидание." if char_info["Julia"]["level"] >= 4 and ep211_julia_second_date_inited == False:
             return 4
+        "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
+            pass
+        "Пригласить Юлию на второе свидание. (в следующем обновлении) (disabled)" if ep211_julia_second_date_completed == True:
+            pass
+
         "Уйти.":
             return 0
     return
@@ -302,6 +307,15 @@ label ep210_dialogues5_julia_2:
     mt "Я же договорилась с ней сегодня сходить в кафе."
     mt "Оно находится где-то рядом с трущобами."
     mt "Мне нужно сейчас идти на свидание с Юлией."
+    return
+
+label ep210_dialogues5_julia_2a:
+    if ep211_julia_comment_day1 != day:
+        mt "А где эта никчемная помощница?!"
+        mt "Вот черт! Я совсем забыла..."
+        mt "Я же договорилась с ней сегодня сходить в кафе."
+        mt "Мне нужно сейчас идти на свидание с Юлией."
+    $ ep211_julia_comment_day1 = day
     return
 
 # ранее:

@@ -14,6 +14,7 @@ label juliahome_bathroom:
     return
 
 label juliahome_bathroom_init:
+    $ clear_scene_from_objects("juliahome_bathroom")
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "JuliaHome_Bathroom_Monica_[cloth]_[juliaHomeBathroomMonicaSuffix]", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":10}, scene="juliahome_bathroom")
     $ add_object_to_scene("Julia", {"type" : 2, "base" : "JuliaHome_Bathroom_Julia_[juliaHomeLivingRoomJuliaCloth][juliaHomeBathroomJuliaSuffix]", "click" : "juliahome_bathroom_environment", "actions" : "lt", "zorder":10, "active":False}, scene="juliahome_bathroom")
 
@@ -27,9 +28,10 @@ label juliahome_bathroom_init:
     $ add_object_to_scene("Shower", {"type" : 2, "base" : "JulliaHome_Bathroom_TeleportShower", "click" : "juliahome_bathroom_environment", "actions" : "lw", "zorder":0, "b":0.18, "tint":[1.0, 1.0, 0.7], "group":"environment"}, scene="juliahome_bathroom")
     $ add_object_to_scene("Toilet", {"type" : 2, "base" : "JulliaHome_Bathroom_Toilet", "click" : "juliahome_bathroom_environment", "actions" : "lh", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
 
+    $ add_object_to_scene("WashMachine", {"type" : 2, "base" : "JulliaHome_Bathroom_WashMachine", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
+    return
     $ add_object_to_scene("ToiletPaper", {"type" : 2, "base" : "JulliaHome_Bathroom_ToiletPaper", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
     $ add_object_to_scene("ToiletStick", {"type" : 2, "base" : "JulliaHome_Bathroom_ToiletStick", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
-    $ add_object_to_scene("WashMachine", {"type" : 2, "base" : "JulliaHome_Bathroom_WashMachine", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
 
 
     $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_bathroom")

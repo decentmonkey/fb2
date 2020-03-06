@@ -9,9 +9,9 @@ label juliahome_livingroom:
     $ scene_image = "scene_JuliaHome_LivingRoom[day_suffix][juliaHomeLivingRoomSceneSuffix]"
 
     if day_time == "day":
-        music Stealth_Groover
+        music Groove2_85
     else:
-        music Stealth_Groover
+        music Groove2_85
     return
 
 label juliahome_livingroom_init:

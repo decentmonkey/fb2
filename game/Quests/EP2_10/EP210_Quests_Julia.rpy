@@ -143,13 +143,15 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
     if _return == 1:
         call ep210_dialogues5_julia_4_1()
         $ ep210_julia_kissed_day_day = day
-        $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_day" + str(day))
+        if char_info["Julia"]["level"] < 4:
+            $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_day" + str(day))
         call refresh_scene_fade()
         return False
     if _return == 2:
         call ep210_dialogues5_julia_4_3()
         $ ep210_julia_kissed_day_evening = day
-        $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_evening" + str(day))
+        if char_info["Julia"]["level"] < 4:
+            $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_evening" + str(day))
         call refresh_scene_fade()
         return False
     if _return == 3:
@@ -160,6 +162,11 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         $ ep210_julia_massage_day = day
         call refresh_scene_fade()
         return False
+    if _return == 4:
+        call ep211_quests_julia1() # второе свидание
+        call refresh_scene_fade()
+        return False
+
 
     return False
 
