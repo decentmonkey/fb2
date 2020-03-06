@@ -5,6 +5,14 @@ define PS9_AlexProgressEachCorruptionShot = 3
 
 define monicaEscortScene1CorruptionAdd = 20
 
+define monicaEscortScene2CorruptionRequired1 = 270 # corruption за первый секс
+define monicaEscortScene2CorruptionRequired2 = 330 # corruption за второй секс
+define monicaEscortScene2CorruptionRequired3 = 360 # corruption за третий секс
+
+define monicaEscortScene2CorruptionAdd1 = 10 # corruption за первый секс
+define monicaEscortScene2CorruptionAdd2 = 15 # corruption за второй секс
+define monicaEscortScene2CorruptionAdd3 = 20 # corruption за третий секс
+
 #v10
 define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
 define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы

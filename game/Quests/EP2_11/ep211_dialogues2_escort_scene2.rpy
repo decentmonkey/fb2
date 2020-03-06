@@ -32,81 +32,81 @@ label ep211_escort_scene2_1:
     img 30062
     with fade
     waitress "Здравствуйте, Мэм! Администратор Вас ждет на ресепшене."
+    if waitressMonicaOffended1 == False and waitressMonicaFired == False and waitressMonicaTips == False:
+        #
+        $ notif(_("У Моники хорошие отношения с официанткой."))
+        #
+        img 30063
+        with diss
+        waitress "Вы? Вы здесь работаете?!" # удивленно
+        waitress "Я, даже не думала, что..."
+        # Моника немного растеряна
+        music Hidden_Agenda
+        img 30064
+        with fade
+        m "Я..."
+        m "Я здесь не работаю... Я жду, когда мне принесут еду."
+        music Poppers_and_Prosecco
+        img 30065
+        with diss
+        waitress "Мэм, но Вы же ничего не заказывали..."
+        img 30066
+        with diss
+        mt "Вот черт!"
+        music Hidden_Agenda
+        img 30067
+        with fade
+        m "Да?"
+        m "..."
+        m "А, ну конечно. Не заказывала..." # выдавливает улыбку
+        img 30068
+        with diss
+        m "Я... Жду здесь человека."
+        m "..."
+        m "Кто там меня звал? Администратор?"
+        img 30069
+        with fade
+        waitress "Да, Мэм."
+        img 30070
+        with diss
+        m "Я сейчас подойду к ней."
+        # официантка уходит
+    else:
+        #
+        $ notif(_("У Моники плохие отношения с официанткой."))
+        #
+        img 30063
+        with diss
+        waitress "Вы?!" # удивленно
+        img 30070
+        with fade
+        m "Да, это Я!"
+        m "Удивительно, что ты все еще работаешь здесь!"
+        img 30065
+        with diss
+        waitress "Мэм..."
+        waitress "А для меня удивительно, что Вы работаете здесь..."
+        img 30071
+        with fade
+        m "!!!"
+        m "С чего ты взяла, что я здесь работаю?!" # высокомерно
+        m "По-твоему, я похожа на работника ресторана?!"
+        img 30069
+        with diss
+        waitress "Мэм... Вас администратор попросила позвать к себе..." # подозрительно
+        waitress "Она сказала, что Вы одна из..."
+        # Моника перебивает ее
+        music Power_Bots_Loop
+        img 30072
+        with hpunch
+        m "Это неважно, что она сказала!"
+        m "Я не собираюсь выслушивать от тебя всякие глупости!"
+        img 30073
+        with diss
+        m "Никчемная официантка!"
+        # официантка уходит
 
-    #
-    $ notif(_("У Моники хорошие отношения с официанткой."))
-    #
-    img 30063
-    with diss
-    waitress "Вы? Вы здесь работаете?!" # удивленно
-    waitress "Я, даже не думала, что..."
-    # Моника немного растеряна
-    music Hidden_Agenda
-    img 30064
-    with fade
-    m "Я..."
-    m "Я здесь не работаю... Я жду, когда мне принесут еду."
-    music Poppers_and_Prosecco
-    img 30065
-    with diss
-    waitress "Мэм, но Вы же ничего не заказывали..."
-    img 30066
-    with diss
-    mt "Вот черт!"
-    music Hidden_Agenda
-    img 30067
-    with fade
-    m "Да?"
-    m "..."
-    m "А, ну конечно. Не заказывала..." # выдавливает улыбку
-    img 30068
-    with diss
-    m "Я... Жду здесь человека."
-    m "..."
-    m "Кто там меня звал? Администратор?"
-    img 30069
-    with fade
-    waitress "Да, Мэм."
-    img 30070
-    with diss
-    m "Я сейчас подойду к ней."
-    # официантка уходит
-
-    #
-    $ notif(_("У Моники плохие отношения с официанткой."))
-    #
-    img 30063
-    with diss
-    waitress "Вы?!" # удивленно
-    img 30070
-    with fade
-    m "Да, это Я!"
-    m "Удивительно, что ты все еще работаешь здесь!"
-    img 30065
-    with diss
-    waitress "Мэм..."
-    waitress "А для меня удивительно, что Вы работаете здесь..."
-    img 30071
-    with fade
-    m "!!!"
-    m "С чего ты взяла, что я здесь работаю?!" # высокомерно
-    m "По-твоему, я похожа на работника ресторана?!"
-    img 30069
-    with diss
-    waitress "Мэм... Вас администратор попросила позвать к себе..." # подозрительно
-    waitress "Она сказала, что Вы одна из..."
-    # Моника перебивает ее
-    music Power_Bots_Loop
-    img 30072
-    with hpunch
-    m "Это неважно, что она сказала!"
-    m "Я не собираюсь выслушивать от тебя всякие глупости!"
-    img 30073
-    with diss
-    m "Никчемная официантка!"
-    # официантка уходит
-
-    $ log1 = _("Пойти на ресепшн к администратору.")
+#    $ log1 = _("Пойти на ресепшн к администратору.")
     return
 
 # Моника подходит к ресепшену, администратора там нет
@@ -242,6 +242,26 @@ label ep211_escort_scene2_3:
 
 # перед домом, Моника с клиентом. их встречает хозяин дома - Дэниел
 label ep211_escort_scene2_3a:
+    music stop
+    img black_screen
+    with diss
+    sound snd_car_door
+    $ renpy.pause (1.0, hard=True)
+    sound snd_car_turn_on
+    $ renpy.pause (1.0, hard=True)
+    img scene_Map_Evening
+    with fade
+    sound snd_car_engine
+    $ renpy.pause(6.0, hard=True)
+    img black_screen
+    with fade
+    sound snd_car_door
+    $ renpy.pause (2.0, hard=True)
+
+#    music stop
+#    call textonblack(_("Спустя некоторое время..."))
+#    img black_screen
+#    with Dissolve(1)
     music Groove2_85
     img 16514
     with fadelong
@@ -276,6 +296,10 @@ label ep211_escort_scene2_3a:
 # Daniel богаче заказчика (возможно его босс)
 label ep211_escort_scene2_4:
     # Заказчик знакомит Монику, представляет ее как свою девушку Луизу.
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Groove2_85
     img 16521
     with fadelong
@@ -360,7 +384,8 @@ label ep211_escort_scene2_4:
     img 16535
     with diss
     w
-    music Groove2_85
+#    music Groove2_85
+    music BossaBossa
     img 16536
     with fade
     emma "Луиза, расскажи нам, чем ты занимаешься?"
@@ -372,7 +397,7 @@ label ep211_escort_scene2_4:
     img 16538
     with hpunch
     natalie "Ого!"
-    music BossaBossa
+#    music BossaBossa
     img 16539
     with fade
     m "Да. Помимо основной деятельности, связанной с индустрией моды..."
@@ -497,7 +522,7 @@ label ep211_escort_scene2_4:
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
-    pause 1.5
+    pause 2.5
     music Prelude_in_C_BWV_846
     img 16563
     with fadelong
@@ -668,8 +693,13 @@ label ep211_escort_scene2_4:
 
 # в гостиной только Нэд, Дэниел, Марти и Моника
 label ep211_escort_scene2_5:
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     # Моника сидит с самоуверенным видом, Нэд смотрит на нее, потом поворачивается к Дэниелу, смеясь
-    music Groove2_85
+#    music Groove2_85
+    music Turbo_Tornado
     img 16592
     with fadelong
     ned "Ну что, Дэниел! Я выиграл наше пари! Аха-ха!!!"
@@ -684,9 +714,9 @@ label ep211_escort_scene2_5:
     marty "???"
     daniel "Ты про что?" # смотрит на Монику
     # ему приходит озарение
-    music Groove2_85
+    music Turbo_Tornado
     img 16594
-    with fade
+    with hpunch
     daniel "Ты про... про... Она что, проститутка?!" # с изумлением смотрит на Нэда
     img 16595
     with diss
@@ -725,7 +755,8 @@ label ep211_escort_scene2_5:
     with fade
     m "Я... Я его девушка..."
     # Дэниел смеется
-    music Groove2_85
+    music Turbo_Tornado
+#    music Groove2_85
     img 16602
     daniel "Аха-ха!"
     daniel "Ну что я говорил тебе! Я не могу ошибиться!"
@@ -744,6 +775,7 @@ label ep211_escort_scene2_5:
     daniel "Ты ведь Луиза, правда?"
     # Моника пытается сохранить хорошую мину при плохой игре
     music Hidden_Agenda
+    with fade
     m "Да. Я Луиза."
     m "Я девушка Нэда..."
     # Нэд злится на нее
@@ -800,6 +832,7 @@ label ep211_escort_scene2_5:
     m "А не доказываю обратное!!!"
     m "Я соблюдаю условия!"
     # Нэд довольно восклицает
+    music Turbo_Tornado
     img 16614
     with diss
     ned2 "Ага!"
@@ -807,11 +840,12 @@ label ep211_escort_scene2_5:
     ned2 "Она призналась! Видишь, Дэниел?!"
     # Дэниел и Марти в шоке, смотрят на Монику
     img 16615
-    with diss
+    with hpunch
     daniel "Что?!"
     daniel "Так ты действительно работаешь в эскорте?!"
     # Моника отвечает, напряженно
     music Hidden_Agenda
+    with fade
     m "Я... Я действительно здесь не совсем из чувственных побуждений..."
     music Groove2_85
     img 16616
@@ -824,7 +858,8 @@ label ep211_escort_scene2_5:
     music Hidden_Agenda
     m "..."
     m "Из... Из несколько... Меркантильных..."
-    music Groove2_85
+#    music Groove2_85
+    music Turbo_Tornado
     img 16618
     with fade
     ned2 "Да она обычная проститутка из ВИП Эскорта!"
@@ -866,6 +901,7 @@ label ep211_escort_scene2_5:
     with fade
     daniel "Ладно, твоя взяла."
     daniel "Хотя..." # задумчиво
+    music Sneaky_Snitch
     img 16625
     with diss
     daniel "Ты утверждаешь, что она проститутка..."
@@ -888,7 +924,7 @@ label ep211_escort_scene2_5:
     # Монику бомбит
     music Power_Bots_Loop
     img 16628
-    with diss
+    with hpunch
     m "Нет!"
     m "!!!"
     music Groove2_85
@@ -906,7 +942,7 @@ label ep211_escort_scene2_5:
     mt "!!!"
     # Дэниел и Марти смотрят на Монику и пускают слюни
     # Подмигивает
-    music Groove2_85
+    music Sneaky_Snitch
     img 16630
     with fade
     daniel "Нэд, скажи, ты уже далал это?"
@@ -920,6 +956,7 @@ label ep211_escort_scene2_5:
     with diss
     ned2 "А вдруг бы ты раскусил ее? Тогда наше пари не покрыло бы мои расходы."
     ned2 "Так что с нашим пари? Ты признаешь, что я выиграл?"
+    music Turbo_Tornado
     img 16612
     with fade
     daniel "Да, черт возьми!"
@@ -950,12 +987,12 @@ label ep211_escort_scene2_5:
     m "Но..."
     m "Нет... Я не пойду... Я..."
     # Нэд берет в руки телефон, говорит сердито
+    music Power_Bots_Loop
     img 16636
     with diss
     sound snd_phone1
     ned2 "Все! Я звоню в ВИП Эскорт!"
     ned2 "Скажу, что девушка отказывается работать по прейскуранту!"
-    music Power_Bots_Loop
     img 16607
     with fade
     mt "Черт! Что же мне делать?!"
@@ -987,6 +1024,7 @@ label ep211_escort_scene2_5:
     img 16640
     with diss
     m "!!!"
+    $ menu_corruption = [0, monicaEscortScene2CorruptionRequired1]
     menu:
         "Уйти!":
             # Моника встает
@@ -1032,11 +1070,13 @@ label ep211_escort_scene2_5:
     mt "Для [monica_hotel_name] важна только сумма заработка за вечер."
     mt "Поэтому [monica_hotel_name] сейчас согласится пойти с Дэниелем..."
     # Моника сквозь зубы
+    music Hidden_Agenda
     img 16617
     with diss
     m "Я все слышала и нет необходимости никого увольнять."
     m "Я согласна."
     # мужчины ехидно улыбаются
+    music Turbo_Tornado
     img 16604
     with fade
     ned "Ну вот. Другое дело."
@@ -1227,7 +1267,8 @@ label ep211_escort_scene2_8:
     stop music fadeout 1.0
     call textonblack(_("В соседней комнате..."))
     pause 1.5
-    music Loved_Up
+#    music Loved_Up
+    music Turbo_Tornado
     img 16702
     with fadelong
     daniel "Мммммм..."
@@ -1304,6 +1345,7 @@ label ep211_escort_scene2_8:
     with fade
     daniel "У меня все хорошо, как видишь."
     # Марти ухмыляется
+    music Loved_Up
     img 16710
     with diss
     marty "Вижу..."
@@ -1317,7 +1359,7 @@ label ep211_escort_scene2_8:
     # Моника возмущенно
     music Power_Bots_Loop
     img 16712
-    with diss
+    with vpunch
     m "Нет!!!"
     m "Я занималась этим с одним человеком!"
     m "Не было условия, чтобы делать это с кем-то еще!!!"
@@ -1359,6 +1401,7 @@ label ep211_escort_scene2_8:
     with fade
     marty "Ну так что? Я могу сделать это?"
     m "!!!"
+    $ menu_corruption = [0, monicaEscortScene2CorruptionRequired2]
     menu:
         "Уйти!":
             # Моника встает
@@ -1457,7 +1500,7 @@ label ep211_escort_scene2_10:
     stop music fadeout 1.0
     call textonblack(_("В соседней комнате..."))
     pause 1.5
-    music Loved_Up
+    music Turbo_Tornado
     img 16729
     with fadelong
     marty "Мммм, какая у тебя клевая попка!"
@@ -1560,7 +1603,7 @@ label ep211_escort_scene2_12:
     pause 1.5
     music Turbo_Tornado
     img 16741
-    with fade
+    with vpunch
     ned2 "Черт! Пустите меня!"
     ned2 "Теперь моя очередь! Дайте сюда!"
     ned2 "Я должен ее трахнуть тоже! Все-таки, это моя девушка!!!"
@@ -1571,7 +1614,7 @@ label ep211_escort_scene2_12:
     m "!!!"
     m "Ты..."
     # Нэд перебивает ее
-    music Groove2_85
+    music Turbo_Tornado
     img 16743
     with diss
     ned2 "$ 200! Следующий клиент стоит $ 200!!!"
@@ -1586,6 +1629,7 @@ label ep211_escort_scene2_12:
     mt "Жалкий жадный неудачник!!!"
     mt "Подонок!!!"
     m "!!!"
+    $ menu_corruption = [0, monicaEscortScene2CorruptionRequired3]
     menu:
         "Уйти!":
             # Моника встает
@@ -1617,6 +1661,7 @@ label ep211_escort_scene2_12:
     mt "!!!"
     mt "Это просто работа..."
     # Нэд хватает Монику под попу, прислоняет ее спиной к стене, расстегивает штаны, задирает ее платье и входит в нее
+    music Turbo_Tornado
     img 16747
     with diss
     ned2 "Даааа!!!"
@@ -1638,7 +1683,7 @@ label ep211_escort_scene2_12:
     with diss
     sound snd_fabric1
     pause 1.5
-    music Loved_Up
+    music Turbo_Tornado
     img 16753
     with fadelong
     w
@@ -1837,8 +1882,12 @@ label ep211_escort_scene2_13:
     return
 
 # служебный коридор ресторана в отеле Ле Гранд
-label ep211_escort_scene2_14:
+label ep211_escort_scene2_14(escort2_status):
     # разговор администраторши и Моники
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Groove2_85
     img 30016
     with fadelong
@@ -1849,106 +1898,121 @@ label ep211_escort_scene2_14:
     mt "Ненавижу эту никчемную администраторшу!"
     mt "!!!"
 
-    # Если Моника ушла от клиентов, отказавшись обслуживать любого из них, то администратор орет на Монику
-    music Power_Bots_Loop
-    img 30018
-    with diss
-    reception "[monica_hotel_name]!!!"
-    reception "Мне звонил клент!"
-    reception "Он крайне недоволен твоим поведением!"
-    reception "Какого черта ты решила, что можешь диктовать свои условия клиенту?!"
-    music Groove2_85
-    img 30020
-    with fade
-    m "Он изменил первоначальные условия..."
-    music Power_Bots_Loop
-    img 30021
-    with diss
-    reception "Да!!! И он имел на это право!!!"
-    music Groove2_85
-    img 30022
-    with fade
-    reception "Я тебя прощаю на первый раз и ограничусь только штрафом!"
-    reception "В следующий раз ты за подобное поведение вылетишь отсюда!!!"
-    img 30023
-    with diss
-    reception "У нас ВИП Эскорт! Такое отношение к клиентам недопустимо!"
-    reception "Ты поняла меня?!?!"
-    img 30024
-    with fade
-    m "Да..."
-    music Power_Bots_Loop
-    img 30025
-    with diss
-    mt "Сучка!"
-    mt "Ненавижу!"
-    music Groove2_85
-    img 30019
-    with diss
-    sound highheels_short_walk
-    w
-    sound vjuh2
-    img 30026
-    with fade
-    reception "Клиент за сопровождение заплатил $500."
-    reception "Ты оштрафована за невыполнение услуг согласно прейскуранту."
-    img 30027
-    with diss
-    reception "И с этих денег ты не получаешь ни цента!"
-    img 30028
-    with diss
-    mt "!!!"
-    m "Как?"
-    img 30029
-    with fade
-    reception "Да, ни цента! И это ты еще легко отделалась!"
-    reception "Еще хоть одно малейшее нарушение и тебя ждет увольнение!!!"
-    reception "Тебе все понятно, [monica_hotel_name]?!"
-    img 30030
-    with diss
-    m "Да..."
-    music Power_Bots_Loop
-    img 30031
-    with diss
-    mt "Гори в аду, мразь!"
+    if escort2_status != 1:
+        # Если Моника ушла от клиентов, отказавшись обслуживать любого из них, то администратор орет на Монику
+        music Power_Bots_Loop
+        img 30018
+        with diss
+        reception "[monica_hotel_name]!!!"
+        reception "Мне звонил клент!"
+        reception "Он крайне недоволен твоим поведением!"
+        reception "Какого черта ты решила, что можешь диктовать свои условия клиенту?!"
+        music Groove2_85
+        img 30020
+        with fade
+        m "Он изменил первоначальные условия..."
+        music Power_Bots_Loop
+        img 30021
+        with diss
+        reception "Да!!! И он имел на это право!!!"
+        music Groove2_85
+        img 30022
+        with fade
+        reception "Я тебя прощаю на первый раз и ограничусь только штрафом!"
+        reception "В следующий раз ты за подобное поведение вылетишь отсюда!!!"
+        img 30023
+        with diss
+        reception "У нас ВИП Эскорт! Такое отношение к клиентам недопустимо!"
+        reception "Ты поняла меня?!?!"
+        img 30024
+        with fade
+        m "Да..."
+        music Power_Bots_Loop
+        img 30025
+        with diss
+        mt "Сучка!"
+        mt "Ненавижу!"
+        music Groove2_85
+        img 30019
+        with diss
+        sound highheels_short_walk
+        w
+        sound vjuh2
+        img 30026
+        with fade
+        reception "Клиент за сопровождение заплатил $500."
+        reception "Ты оштрафована за невыполнение услуг согласно прейскуранту."
+        img 30027
+        with diss
+        reception "И с этих денег ты не получаешь ни цента!"
+        img 30028
+        with diss
+        mt "!!!"
+        m "Как?"
+        img 30029
+        with fade
+        reception "Да, ни цента! И это ты еще легко отделалась!"
+        reception "Еще хоть одно малейшее нарушение и тебя ждет увольнение!!!"
+        reception "Тебе все понятно, [monica_hotel_name]?!"
+        help "Увольнение будет реализовано в следующих апдейтах..."
+        img 30030
+        with diss
+        m "Да..."
+        music Power_Bots_Loop
+        img 30031
+        with diss
+        $ notif_monica()
+        if monicaBitch == True:
+            mt "Гори в аду, мразь!"
+        else:
+            mt "!!!"
 
-    # Если Моника обслужила клиентов
-    music Groove2_85
-    img 30032
-    with fade
-    reception "Ты хорошо справилась с сегодняшним заказом..."
-    reception "Но клиент сказал, что ты вела себя нерешительно."
-    img 30033
-    with diss
-    reception "[monica_hotel_name] должна сама предлагать услуги из прейскуранта!"
-    reception "И не заставлять клиентов уговаривать себя!"
-    img 30034
-    with diss
-    reception "Если подобное поведение будет встречено еще раз..."
-    reception "То ты будешь оштрафована, понятно?!"
-    img 30024
-    with fade
-    m "Да..."
-    mt "!!!"
-    img 30035
-    with diss
-    reception "Клиент заплатил $500 за сопровождение на вечере..."
-    reception "И $1100 за три дополнительные услуги из прейскуранта."
-    reception "Твой заработок составляет 50 процентов от суммы."
-    sound vjuh3
-    img 30036
-    with fade
-    reception "То есть $800."
-    reception "Вот твои деньги."
-    # отдает ей 800 долларов
-    img 30037
-    with diss
-    reception "Завтра можешь приходить снова."
-    reception "На сегодня все. Клиенты не любят использованный товар."
-    img 30038
-    with fade
-    sound highheels_short_walk
-    mt "Вот сучка!"
-    mt "!!!"
-    # Моника уходит
+    else:
+        # Если Моника обслужила клиентов
+        music Groove2_85
+        img 30032
+        with fade
+        reception "Ты хорошо справилась с сегодняшним заказом..."
+        reception "Но клиент сказал, что ты вела себя нерешительно."
+        img 30033
+        with diss
+        reception "[monica_hotel_name] должна сама предлагать услуги из прейскуранта!"
+        reception "И не заставлять клиентов уговаривать себя!"
+        img 30034
+        with diss
+        reception "Если подобное поведение будет встречено еще раз..."
+        reception "То ты будешь оштрафована, понятно?!"
+        img 30024
+        with fade
+        m "Да..."
+        mt "!!!"
+        img 30035
+        with diss
+        reception "Клиент заплатил $500 за сопровождение на вечере..."
+        reception "И $1100 за три дополнительные услуги из прейскуранта."
+        reception "Твой заработок составляет 50 процентов от суммы."
+        sound vjuh3
+        img 30036
+        with fade
+        reception "То есть $800."
+        reception "Вот твои деньги."
+        # отдает ей 800 долларов
+        $ add_money(800.0)
+        img 30037
+        with diss
+        reception "Завтра можешь приходить снова."
+        reception "На сегодня все. Клиенты не любят использованный товар."
+        img 30038
+        with fade
+        sound highheels_short_walk
+        mt "Вот сучка!"
+        mt "!!!"
+        # Моника уходит
+    return
+
+label ep211_escort_scene2_15:
+    mt "Не могу поверить что я позволила сделать такое с собой..."
+    mt "С другой стороны, это немаленькие деньги для меня сейчас."
+    mt "И все думают что я [monica_hotel_name]."
+    mt "Никто не знает кто я такая на самом деле..."
     return

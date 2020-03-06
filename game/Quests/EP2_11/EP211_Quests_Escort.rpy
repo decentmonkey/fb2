@@ -67,6 +67,8 @@ label ep211_quests_escort2_end_day:
     $ remove_hook(quest="work_escort")
     $ remove_hook(quest="work_escort")
     $ remove_hook(label="escort_scene1")
+    $ remove_hook(label="escort_scene2")
+    $ remove_objective("go_administrator")
     $ cloth = ep211_quests_stored_cloth
     $ cloth_type = ep211_quests_stored_cloth_type
     call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
@@ -149,7 +151,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortScene2Day = day
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
-
+        call ep211_quests_escort6_scene2a()
     return False
 
 
@@ -194,6 +196,8 @@ label ep211_quests_escort6_scene1c: #Лифт
     $ add_hook("ReceptionGirl", "ep211_quests_escort6_scene1e_admin", scene="rich_hotel_reception", label="escort_scene1")
     $ add_corruption(monicaEscortScene1CorruptionAdd, "escort_scene1")
     $ richHotelLiftMonicaSuffix = 1
+    $ richHotelLiftSceneSuffix = "_Closed"
+    $ move_object("EscortCustomer1", "empty")
     $ add_objective("go_customer", _("Пойти на ресепшн и отдать 50 процентов от заработка администратору."), c_red, 105)
     call change_scene("rich_hotel_reception", "Fade_long", "snd_lift")
 
@@ -217,5 +221,69 @@ label ep211_quests_escort6_scene1e_admin: # Отдача денег админи
     $ remove_objective("go_customer")
     call ep211_quests_escort2_end_day()
     return False
+
+
+label ep211_quests_escort6_scene2a:
+    call ep211_escort_scene2_1()
+    $ add_objective("go_administrator", _("Пойти на ресепшн к администратору."), c_orange, 105)
+    $ add_hook("MonicaTable", "ep211_escort_scene1_17", scene="rich_hotel_restaurant", label="escort_scene2")
+    $ move_object("ReceptionGirl", "empty")
+    $ add_hook("Door", "ep211_quests_escort6_scene2b", scene="rich_hotel_reception", label="escort_scene2")
+    $ add_hook("Teleport_Street_Rich_Hotel", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene2")
+    $ add_hook("before_open", "ep211_escort_scene2_2", scene="rich_hotel_reception", label="escort_scene2", once=True)
+    call refresh_scene_fade()
+    return
+
+label ep211_quests_escort6_scene2b: # служебный коридор
+    if act=="l":
+        return
+    $ remove_objective("go_administrator")
+    call ep211_quests_escort6_scene2c()
+    if day_time != "evening":
+        $ changeDayTime("evening")
+    $ move_object("ReceptionGirl", "rich_hotel_reception")
+    call ep211_quests_escort2_end_day()
+    call refresh_scene_fade()
+    return False
+
+label ep211_quests_escort6_scene2c: # сцена
+    call ep211_escort_scene2_3() #стоит заказчик (Ned) и администраторша
+    call ep211_escort_scene2_3a() # сцена
+    call ep211_escort_scene2_4()
+    call ep211_escort_scene2_5()
+    if _return == False: # отказалась совсем
+        call ep211_escort_scene2_14(0)
+        $ monicaEscortFailedScenesCount += 1
+        return False
+
+    call ep211_escort_scene2_6()
+    $ add_corruption(monicaEscortScene2CorruptionAdd1, "monicaEscortScene2CorruptionAdd1")
+    call ep211_escort_scene2_7()
+    call ep211_escort_scene2_8()
+    if _return == False: # отказалась со 2-ым
+        call ep211_escort_scene2_14(-1)
+        $ monicaEscortFailedScenesCount += 1
+        return False
+    call ep211_escort_scene2_9()
+    call ep211_escort_scene2_10()
+    $ add_corruption(monicaEscortScene2CorruptionAdd2, "monicaEscortScene2CorruptionAdd2")
+    call ep211_escort_scene2_11()
+    call ep211_escort_scene2_12()
+    if _return == False: # отказалась с 3-им
+        call ep211_escort_scene2_14(-2)
+        $ monicaEscortFailedScenesCount += 1
+        return False
+    $ add_corruption(monicaEscortScene2CorruptionAdd3, "monicaEscortScene2CorruptionAdd3")
+    call ep211_escort_scene2_13()
+    call ep211_escort_scene2_14(1)
+    $ autorun_to_object("ep211_escort_scene2_15", scene="street_rich_hotel")
+    return True
+
+
+
+
+
+
+
 
 #
