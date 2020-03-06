@@ -32,7 +32,7 @@ label ep211_escort_scene2_1:
     img 30062
     with fade
     waitress "Здравствуйте, Мэм! Администратор Вас ждет на ресепшене."
-    if waitressMonicaOffended1 == False and waitressMonicaFired == False and waitressMonicaTips == False:
+    if waitressMonicaOffended1 == False and waitressMonicaFired == False:
         #
         $ notif(_("У Моники хорошие отношения с официанткой."))
         #

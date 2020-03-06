@@ -16,6 +16,8 @@ define monicaEscortScene2CorruptionAdd3 = 20 # corruption за третий се
 define monicaPhilipDoubleBlowjobCorruptionRequired = 520
 define monicaPhilipVisitDoubleBlowjobCorruption = 20 # За минет
 
+define monicaPubDanceStoleTipsBanker = 450
+
 #v10
 define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
 define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы

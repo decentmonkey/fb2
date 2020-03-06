@@ -233,7 +233,7 @@ label ep211_dialogues5_shiny_hole_1:
     mt "Ты [monica_pub_name], а не Моника Бакфетт."
     mt "А [monica_pub_name] не леди, а обычная стриптизерша."
     mt "Она не боится танцевать голой перед всякими неудачниками."
-    $ log1 = _("Идти в подсобку барменов и станцевать приват.")
+#    $ log1 = _("Идти в подсобку барменов и станцевать приват.")
     return
 
 
@@ -245,7 +245,7 @@ label ep211_dialogues5_shiny_hole_2:
     img black_screen
     with diss
     sound highheels_short_walk
-    pause 1.5
+    pause 2.5
     music Groove2_85
     img 23316
     with fadelong
@@ -314,12 +314,15 @@ label ep211_dialogues5_shiny_hole_2:
     img 23329
     with fade
     w
+    music stop
     img 23330
     with diss
     w
+    sound snd_fabric1
     img 23331
     with diss
     w
+    music RocknRoll_loop
     img 23332
     with fade
     w
@@ -453,7 +456,7 @@ label ep211_dialogues5_shiny_hole_2:
     w
 
     img 23361
-    with fade
+    sound Jump2
 #    sound snd_fabric1
     banker "Эй, крошка."
     banker "Смотри, что у меня для тебя есть!"
@@ -523,6 +526,10 @@ label ep211_dialogues5_shiny_hole_2:
     mt "!!!"
     # Моника спускается со стола и садится к банкиру на ручки
     # тот без особого энтузиазма лапает ее, Моника напряжена как струна
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Loved_Up
     img 23369
     with fadelong
@@ -533,6 +540,32 @@ label ep211_dialogues5_shiny_hole_2:
     sound drkanje5
     img 23371
     with diss # repeat
+    w
+    sound drkanje5
+    img 23372
+    with diss
+    w
+    sound drkanje5
+    img 23371
+    with diss # repeat
+    w
+    sound drkanje5
+    img 23372
+    with diss
+    w
+    sound drkanje5
+    img 23371
+    with diss # repeat
+    w
+    sound drkanje5
+    img 23372
+    with diss
+    w
+    sound drkanje5
+    img 23371
+    with diss # repeat
+    w
+    sound drkanje5
     img 23372
     with diss
     w
@@ -589,6 +622,7 @@ label ep211_dialogues5_shiny_hole_2:
     with diss
     ashley "Но ты... то есть Вы..."
 
+    sound Jump1
     img 23384
     with fade
     banker "Эшли, прекрати! Задница Молли мне уже надоела."
@@ -823,14 +857,19 @@ label ep211_dialogues5_shiny_hole_2:
     img 23421
     with diss
     m "!!!"
+    music stop
+    img black_screen
+    with diss
     sound snd_fabric1
+    pause 1.5
+    music Loved_Up
     img 23422
     with fade
     w
     img 23423
     with diss
     ashley "Встань в лучшую позу, какую только можешь! Соблазни его!"
-    music Loved_Up
+#    music Loved_Up
     img 23424
     with fade
     mt "Что я делаю... О БОЖЕ..."
@@ -855,6 +894,31 @@ label ep211_dialogues5_shiny_hole_2:
     img 23429
     with fade #repeat
     w
+    sound drkanje5
+    img 23430
+    with diss
+    w
+    sound drkanje5
+    img 23429
+    with diss
+    w
+    sound drkanje5
+    img 23430
+    with diss
+    w
+    sound drkanje5
+    img 23429
+    with diss
+    w
+    sound drkanje5
+    img 23430
+    with diss
+    w
+    sound drkanje5
+    img 23429
+    with diss
+    w
+    sound drkanje5
     img 23430
     with diss
     w
@@ -925,6 +989,7 @@ label ep211_dialogues5_shiny_hole_2:
     img 23444
     with fade
     ashley "[monica_pub_name], ты должна удовлетворить клиента!"
+    with hpunch
     m "Что?! Я не знала о подобном правиле!"
     m "С какой стати Я..."
 
@@ -1015,6 +1080,7 @@ label ep211_dialogues5_shiny_hole_2:
 
     # банкир кончает
     img 23460
+    sound2 Jump1
     sound bulk1
     show screen photoshot_screen()
     with hpunch
@@ -1045,8 +1111,8 @@ label ep211_dialogues5_shiny_hole_2:
     banker "Эшли, жду тебя завтра у себя в банке."
     banker "Обсудим детали кредитного договора."
     img 23463
-    with fade
-    sound Jump1
+    with hpunch
+    sound snd_slap1
     banker "Пока, крошка." # хлопает Монику по голой попе
     img 23464
     with diss
@@ -1182,7 +1248,7 @@ label ep211_dialogues5_shiny_hole_2:
 #    ashley "Поняла меня, [monica_pub_name]?!"
 #    m "Я не расскажу никому."
 #    ashley "Все! Иди! Ты на сегодня свободна."
-    return
+    return True
 
 # другой день, после того, как Моника отдает чаевые
 label ep211_dialogues5_shiny_hole_3:
@@ -1265,6 +1331,8 @@ label ep211_dialogues5_shiny_hole_4:
     img 22824
     with diss
     mt "..."
+    return
+label ep211_dialogues5_shiny_hole_4b:
     # проходит к вешалке мимо Молли, та смотрит в зеркало и на Монику не обращает внимания
     menu:
         "Заговорить с Молли (в следующем обновлении)":
@@ -1272,12 +1340,14 @@ label ep211_dialogues5_shiny_hole_4:
         "Ни за что!":
             # Моника смотрит зло на Молли
             music Power_Bots_Loop
-            img 22823
-            with fade
+            if cloth == "Whore":
+                img 22823
+                with fade
             mt "Нет!!!"
             mt "Я не буду разговаривать с этой сучкой!"
-            img 22825
-            with diss
+            if cloth == "Whore":
+                img 22825
+                with diss
             mt "Мне плевать, что там Эшли говорит!"
             mt "Ей надо, пусть сама с ней и танцует!"
             pass
@@ -1287,6 +1357,41 @@ label ep211_dialogues5_shiny_hole_4:
     with fade
     molly "!!!"
     w
+    return
+
+label ep211_dialogues5_shiny_hole_5:
+    mt "Гребаная Эшли!"
+    mt "Она встала на сторону этой сучки Молли!"
+    mt "И еще сказала что ее попка для нее значит больше, чем моя!"
+    mt "Мне... конечно без разницы это, как мое прекрасное тело оценивают в каких-то грязных трущобах, но..."
+    mt "Но у меня {c}нет особого желания отдавать свои чаевые этой Эшли!{/c}"
+    return
+
+label ep211_dialogues5_shiny_hole_6:
+    mt "Кажется, Эшли не заметила что я не стала отдавать ей чаевые в прошлый раз."
+    mt "Отлично!"
+    return
+
+label ep211_dialogues5_shiny_hole_7:
+    mt "НОГИ МОЕЙ ЗДЕСЬ БОЛЬШЕ НЕ БУДЕТ В ЭТОЙ ДЫРЕ С ИЗВРАЩЕНЦАМИ!!!"
+    mt "Я ДОСТАТОЧНО УМНА, ЧТОБЫ НАЙТИ ДРУГОЙ ПУТЬ РЕШИТЬ СВОИ ПРОБЛЕМЫ!!!"
+    return False
+
+label ep211_dialogues5_shiny_hole_8:
+    mt "Мне надо надеть сценический костюм."
+    mt "Не хватало еще чтобы клиент узнал меня..."
+    return
+
+label ep211_dialogues5_shiny_hole_9:
+    mt "Это был кошмар!"
+
+    mt "Он узнал меня, узнал кто я! Я была без маски!"
+    mt "Но, с другой стороны, он узнал что я [monica_pub_name]..."
+    mt "А не кто я на самом деле."
+    mt "Все-равно, мне надо быть осторожнее!"
+    mt "И эта гребаная Эшли! Она заставила меня тереться своей попой о какой-то грязный член!"
+    mt "И еще и за бесплатно!"
+    mt "!!!"
     return
 
 # в след. апдейт

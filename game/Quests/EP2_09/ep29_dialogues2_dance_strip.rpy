@@ -2088,18 +2088,37 @@ label dialogue_5_dance_strip_22:
         img 22696
         with fade
         ashley "Завтра приходи работать еще."
+
+#    if ep211_quests_pub_dialogue1_planned == True:
+#        call ep211_quests_pub5()
+#        $ ep211_quests_pub_dialogue1_planned = False
     return
 
 
 
 # Моника может уйти, не отдавая чаевые.
 label dialogue_5_dance_strip_23:
-    menu:
-        "Уйти и не отдавать чаевые хозяевам бара. (в будущих обновлениях) (disabled)":
-            mt "Я не собираюсь отдавать никому мои чаевые!"
-            return False
-        "Остаться.":
-            return True
+    if ep211_quests_pub_started_stole_tips == True:
+        $ menu_corruption = [monicaPubDanceStoleTipsBanker]
+        menu:
+            "Уйти и не отдавать чаевые хозяевам бара.":
+                if monicaPubDanceStoleTipsStage == 0:
+                    mt "Я не собираюсь отдавать никому мои чаевые!"
+                    call ep211_quests_pub2_exit_with_tips()
+                    return False
+                if monicaPubDanceStoleTipsStage == 1:
+                    mt "Я боюсь воровать чаевые за танцы..."
+                    mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
+                return True
+            "Остаться.":
+                return True
+    else:
+        menu:
+            "Уйти и не отдавать чаевые хозяевам бара.":
+                mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
+                return True
+            "Остаться.":
+                return True
     return
 
 

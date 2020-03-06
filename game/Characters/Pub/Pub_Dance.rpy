@@ -128,7 +128,7 @@ label pub_dance1: # Обычные танцы
     return
 
 label pub_dance_end1: # Обычное завершение танцев
-    $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True)
+    $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True, label="dialogue_5_dance_strip_18")
     call pub_dance_remove_stage_visitors()
     if monicaAshleyTalkedAboutSharingTips == False: # Эшли говорила Монике о том, что та должна отдавать ей часть чаевых (танцы по желанию)
         $ monicaAshleyTalkedAboutSharingTips = True
@@ -144,6 +144,14 @@ label pub_dance_end1: # Обычное завершение танцев
         call ep210_dialogues4_dance_strip_13()
         $ ep29_quests_molly_fall_panties_planned = False
         $ ep29_quests_molly_fall_panties_completed = True
+
+    if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False: # Если Моника оправдали после Молли и она еще не крала чаевых
+        call ep211_quests_pub1()
+
+    if monicaPubDanceStoleTipsBankerPlanned == True:
+        call ep211_quests_pub3_start_banker_quest()
+        if _return == False:
+            return False
 
     $ ep29_quests_claire_dance_planned = False
     $ remove_hook(label="remove_after_dance")
