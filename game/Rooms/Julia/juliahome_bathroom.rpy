@@ -14,7 +14,6 @@ label juliahome_bathroom:
     return
 
 label juliahome_bathroom_init:
-    $ clear_scene_from_objects("juliahome_bathroom")
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "JuliaHome_Bathroom_Monica_[cloth]_[juliaHomeBathroomMonicaSuffix]", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":10}, scene="juliahome_bathroom")
     $ add_object_to_scene("Julia", {"type" : 2, "base" : "JuliaHome_Bathroom_Julia_[juliaHomeLivingRoomJuliaCloth][juliaHomeBathroomJuliaSuffix]", "click" : "juliahome_bathroom_environment", "actions" : "lt", "zorder":10, "active":False}, scene="juliahome_bathroom")
 

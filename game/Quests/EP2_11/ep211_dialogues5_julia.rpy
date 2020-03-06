@@ -671,12 +671,13 @@ label ep211_dialogues4_julia_6b:
 # Моника заходит в туалет к Юлии
 label ep211_dialogues4_julia_6:
     # осматривается
-    music stop
-    img black_screen
-    with diss
+#    music stop
+#    img black_screen
+#    with diss
     sound highheels_short_walk
-    pause 1.0
-    music Pyro_Flow
+#    pause 1.0
+#    music Pyro_Flow
+    music Hidden_Agenda
     mt "Стиральная машинка... Корзина для белья... Шкафчики..."
     mt "Наверняка, здесь что-то есть из ее белья!"
     # в ванной открывает шкафчик или машинку и ищет трусики, но не находит

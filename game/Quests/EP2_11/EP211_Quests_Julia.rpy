@@ -88,8 +88,6 @@ label ep211_quests_julia4_talk:
     $ autorun_to_object("ep211_dialogues4_julia_6b", scene="juliahome_bathroom")
     $ add_hook("WashMachine", "ep211_quests_julia5_panties_not_found", scene="juliahome_bathroom", label=["julia_date2", "julia_home_search_panties"])
     $ add_objective("search_panties", _("Осмотреть ванную комнату."), c_blue, 105)
-    call juliahome_bathroom_init()
-
     call refresh_scene_fade()
     return False
 
@@ -98,6 +96,7 @@ label ep211_quests_julia5_panties_not_found:
     call ep211_dialogues4_julia_6()
     $ remove_objective("search_panties")
     $ add_hook("Julia", "ep211_quests_julia6_talk", scene="juliahome_livingroom", label="julia_date2")
+    $ add_objective("return_julia", _("Вернуться к Юлии."), c_orange, 105)
     call refresh_scene_fade()
 
     return False
@@ -106,6 +105,7 @@ label ep211_quests_julia6_talk:
     if act=="l":
         return
     call ep211_dialogues4_julia_7()
+    $ remove_objective("return_julia")
     $ add_hook("Julia", "ep211_dialogues4_julia_7a", scene="juliahome_livingroom", label="julia_date2")
     $ remove_hook(label="julia_home_street_block")
     $ add_hook("enter_scene", "ep211_quests_julia7_end", scene="street_juliahome", label="julia_date2")
