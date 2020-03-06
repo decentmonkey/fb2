@@ -29,7 +29,6 @@ label juliahome_bathroom_init:
     $ add_object_to_scene("Toilet", {"type" : 2, "base" : "JulliaHome_Bathroom_Toilet", "click" : "juliahome_bathroom_environment", "actions" : "lh", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
 
     $ add_object_to_scene("WashMachine", {"type" : 2, "base" : "JulliaHome_Bathroom_WashMachine", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
-    return
     $ add_object_to_scene("ToiletPaper", {"type" : 2, "base" : "JulliaHome_Bathroom_ToiletPaper", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
     $ add_object_to_scene("ToiletStick", {"type" : 2, "base" : "JulliaHome_Bathroom_ToiletStick", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
 
