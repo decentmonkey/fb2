@@ -16,13 +16,17 @@ label e211_dialogues_revenge_quest1:
     fred "..."
     img 23478
     with diss
-    sound Jump2
+    sound snd_gun_charge
     m "Итак, что ты знаешь про то, что случилось со мной?"
     m "Говори!"
     img 23479
     with diss
     fred "ММффхпп... Мэм... мфхппп"
     fred "Я... Я ничего не знаю, Мэм... мфхппп..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Funk_Soul1
     img 23480
     with fade
@@ -44,7 +48,7 @@ label e211_dialogues_revenge_quest1:
     with diss
     m "За твой маленький член, Фред."
     fred "..."
-    sound vjuh3
+    sound snd_gun_charge
     music Master_Disorder
     img 23484
     with fade
@@ -59,7 +63,7 @@ label e211_dialogues_revenge_quest1:
     w
     img 23486
     with diss
-    sound Jump2
+    sound snd_gun_charge
     m "А отсюда..." # показывает на голову
     fred "..."
     music Funk_Soul1
@@ -69,6 +73,7 @@ label e211_dialogues_revenge_quest1:
     m "Поэтому, несмотря ни на что, ты корнишон, Фред..."
     m "И никогда не изменишься..."
     m "Маленькая собачка до старости щенок..."
+#    sound snd_gun_charge
     m "Но я не виню тебя..."
     fred "..."
     img 23488
@@ -128,6 +133,7 @@ label e211_dialogues_revenge_quest1:
     with hpunch
     sound Jump2
     m "Говори, Фред!"
+    sound snd_gun_charge
     m "ИЛИ, КЛЯНУСЬ! Я ОТСТРЕЛЮ ТВОИ ЯЙЦА К ЧЕРТОВОЙ МАТЕРИ!!!"
     music Master_Disorder
     fred "Я заезжал к нему, чтобы отчитаться..."
@@ -192,9 +198,10 @@ label e211_dialogues_revenge_quest1:
     # Снова приставляет пистолет
     img 23508
     with diss
-    sound Jump2
+    sound snd_gun_charge
     m "Значит ты, Фред, все-таки, бесполезный корнишон..."
     music Power_Bots_Loop
+    with hpunch
     fred "НЕТ!! Миссис Бакфетт!!!"
     fred "Я знаю про причину того, что случилось с Вами!"
     fred "Мистер Стив сказал мне!"
@@ -217,6 +224,7 @@ label e211_dialogues_revenge_quest1:
     with diss
     sound vjuh3
     m "Хм... А ты очень любишь свой член, Фред..."
+    sound snd_gun_charge
     m "Итак, откуда ты получал информацию обо мне, впоследствии?!"
     m "Откуда ты знал, что Дик хотел меня видеть?"
     m "КТО передавал тебя это?!"
@@ -230,6 +238,11 @@ label e211_dialogues_revenge_quest1:
     fred "Виктория, Миссис Бакфетт..."
     m "Ты... ты знаешь эту сучку?!"
     fred "Да, Миссис Бакфетт..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Master_Disorder
     img 23511
     with fade
     m "Я еще расспрошу тебя про нее..."
@@ -244,7 +257,7 @@ label e211_dialogues_revenge_quest1:
     fred "Да, Миссис Бакфетт..."
     fred "ММПППХХХФФФФ!!! Я ХПФМММ!"
 
-    $ log1 = _("Идти к Стиву")
+#    $ log1 = _("Идти к Стиву")
 
     return
 
@@ -259,7 +272,7 @@ label e211_dialogues_revenge_quest2:
     music stop
     img black_screen
     with diss
-    sound highheels_short_walk
+    sound snd_lift
     pause 1.0
     music Stealth_Groover
     img 23513
@@ -352,9 +365,10 @@ label e211_dialogues_revenge_quest3:
     img 23525
     with diss
     steve "..."
-    music vendetta
+    sound snd_gun_charge
     img 23526
     with fade
+    music vendetta
     m "Вместо этого, я возьму твои яйца..." # подносит пистолет
     img 23527
     with hpunch

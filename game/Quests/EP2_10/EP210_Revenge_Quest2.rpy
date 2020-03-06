@@ -73,4 +73,5 @@ label ep210_revenge_quest3_fred: # Диалог с Фредом
         return False
 
     call ep210_dialogues6_gun_monica_fred_1d()
-    return
+    jump ep211_revenge_quest1
+#    return

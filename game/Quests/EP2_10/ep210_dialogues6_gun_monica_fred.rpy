@@ -196,31 +196,17 @@ label ep210_dialogues6_gun_monica_fred_1d:
     stop music
     sound snd_cinematic_impact
 
+
+
     img black_screen
 #    pause 2.0
     $ renpy.pause(4.0, hard=True)
-    music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED IN THE NEXT UPDATE")
+    call textonblack("FASHION BUSINESS")
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
-    img black_screen
-    with Dissolve(0.5)
-    img Patreon_Game_Logo
-    with Dissolve(0.7)
-    $ renpy.pause(1.0, hard=True)
-##    pause 4.0
-    $ renpy.pause(4.0, hard=True)
-    img black_screen
-    with Dissolve(0.7)
-    $ renpy.pause(3.0, hard=True)
-##    pause 30.0
-##    music stop
-##    pause 1.0
-    call credits()
-    $ MainMenu(confirm=False)()
     return
 
 label ep210_dialogues6_gun_monica_fred_1:

@@ -9,7 +9,7 @@ label ep211_quests_load_init:
         if ep22_quests_monica_presentation_completed == True and ep22_quests_monica_presentation_completed_day == -1:
             $ ep22_quests_monica_presentation_completed_day = day
 
-        if char_info["Julia"]["level"] == 4:
+        if char_info.has_key("Julia") and char_info["Julia"]["level"] == 4:
             $ char_info["Julia"]["enabled"] = True
             $ char_info["Julia"]["caption"] = _("Юлия приняла ухаживания Моники, но еще побаивается ее.")
 

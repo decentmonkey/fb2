@@ -100,7 +100,9 @@ label ep22_quests_Dick7:
     if monicaEarnedWeeklyMoneySkip == True:
         $ monicaEarnedWeeklyMoneySkip = False
         return
-    if monicaEarnedWeeklyMoney == True: #если деньги для Виктории заработаны
+    if monicaEarnedWeeklyMoney == True or money > 5000: #если деньги для Виктории заработаны
+        if monicaEarnedWeeklyMoney != True:
+            $ add_money(-5000.0)
         $ monicaEarnedWeeklyMoney = False #Виктория их тратит
         $ monicaWeeklyMoneySpent = True
         $ notif(_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
