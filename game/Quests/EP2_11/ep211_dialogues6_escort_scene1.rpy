@@ -25,7 +25,7 @@ label ep211_escort_scene1_1a:
     mt "..."
 label ep211_escort_scene1_1a_loop1:
     menu:
-        "Встреча с клиентом (сцена)." if math.floor(monicaEscortScene1Day/7)<math.floor(day/7):
+        "Встреча с клиентом (сцена)." if math.floor(monicaEscortSceneDay/7)<math.floor(day/7):
             menu:
                 "Клиент в номере отеля.":
                     # запускается сцена 1 с клиентом в отеле, начиная с лейбла ep211_escort_scene1_1 (если в первый раз)
@@ -40,7 +40,7 @@ label ep211_escort_scene1_1a_loop1:
                 "Назад.":
                     jump ep211_escort_scene1_1a_loop1
             return
-        "Встреча с клиентом (на следующей неделе) (disabled)" if math.floor(monicaEscortScene1Day/7)==math.floor(day/7):
+        "Встреча с клиентом (на следующей неделе) (disabled)" if math.floor(monicaEscortSceneDay/7)==math.floor(day/7):
             pass
         "Ждать клиента за столиком.":
             # Моника нерешительно
