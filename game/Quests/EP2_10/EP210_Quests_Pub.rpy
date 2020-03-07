@@ -33,6 +33,7 @@ label ep210_quests_pub1:
             $ ep29_quests_molly_fall_panties_planned0 = True
     if ep29_quests_molly_fall_panties_planned0 == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") != False:
         $ ep29_quests_molly_fall_panties_planned = True
+        $ ep29_quests_molly_fall_panties_planned0 = False
         $ add_hook("Pub_StripteaseGirl2", "ep210_quests_pub8_claire_panties", scene="pub_makeuproom", label="ep210_quests_pub8_claire_panties")
         $ add_hook("exit_scene", "ep210_quests_pub8_ashley_panties", scene="pub_makeuproom", label="ep210_quests_pub8_ashley_panties")
         $ ep210_quests_stage = 5
