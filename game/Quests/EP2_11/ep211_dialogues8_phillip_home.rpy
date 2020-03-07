@@ -256,32 +256,160 @@ label ep211_dialogues7_Phillip_home_3:
     img 17113
     with diss
     w
-    music Loved_Up
+    music stop
+    music2 Loved_Up
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     img 17114
     with diss
     mt "Это так... Грязно..."
     mt "Не могу поверить, что я делаю это."
     # сама продолжает, одна берет член в рот и двигает головой, вторая облизывает мошонку (Моника)
     # Шлюха продолжает рукой направлять Монику
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17115
     with fade
     philip "Ммммм..."
     img 17116
     with diss
     philip "Как же мои субботние шлюхи стараются..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_3.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_3
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_4 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_4.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17117
     with fade
     w
-    sound Jump1
+    sound snd_slap1
     img 17118
     with hpunch
     philip "Даааа... Вот так..."
+
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Blowjob_1_5 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_5.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Blowjob_1_5
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17119
     with fade
     philip "Шлюхи готовы за деньги сделать все..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_6 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_6.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_6
+    with fade
+    wclean
+    stop music
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_1_7 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_7.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17120
     with diss
     philip "Ммммм..."
+
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Blowjob_1_8 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_1_8.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Blowjob_1_8
+        with fade
+        wclean
+    stop music
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music Groove2_85
     img 17121
     with diss
     philip "А теперь мои субботние шлюхи поменяются местами."
@@ -307,26 +435,137 @@ label ep211_dialogues7_Phillip_home_3:
     img 17126
     with diss
     philip "Даааа..."
-    music Loved_Up
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 Loved_Up
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_2_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17127
     with fade
     philip "Еще... Еще..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_2_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17128
     with diss
     philip "Вот так..."
+
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Blowjob_2_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_3.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Blowjob_2_3
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17129
     with fade
     philip "Аааа..."
-    music Loved_Up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_2_4 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_4.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_2_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    music2 Loved_Up2
     img 17130
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_2_5 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_5.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_2_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17131
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Blowjob_2_6 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_6.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Blowjob_2_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17132
     with fade
     w
+
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Blowjob_2_7 = Movie(play="video/v_Monica_WhoreN1_Philip_Blowjob_2_7.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Blowjob_2_7
+        with fade
+        wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17133
     sound bulk1
     show screen photoshot_screen()
@@ -348,6 +587,7 @@ label ep211_dialogues7_Phillip_home_3:
     # Моника и шлюха номер 1 отстраняются от него, Моника брезгливо вытирает рот
     $ add_corruption(monicaPhilipVisitDoubleBlowjobCorruption, "monicaPhilipVisitDoubleBlowjobCorruption" + str(day))
     music stop
+    music2 stop
     img black_screen
     with diss
     sound snd_fabric1

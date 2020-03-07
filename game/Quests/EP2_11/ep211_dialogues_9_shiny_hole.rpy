@@ -1034,7 +1034,7 @@ label ep211_dialogues5_shiny_hole_2:
     with diss
     sound highheels_short_walk
     pause 2.0
-    music Loved_Up
+    music2 Loved_Up
     img 23450
     with fadelong
     w
@@ -1048,15 +1048,46 @@ label ep211_dialogues5_shiny_hole_2:
     with fade
     banker "Вот так... Да."
     w
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_PrivateDance1_1.ogg"
+    scene black
+    image videov_Monica_PrivateDance1_1 = Movie(play="video/v_Monica_PrivateDance1_1.mkv", fps=30)
+    show videov_Monica_PrivateDance1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 23454
     with diss
     mt "Фу!"
     mt "!!!"
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_PrivateDance1_1.ogg"
+    scene black
+    image videov_Monica_PrivateDance1_2 = Movie(play="video/v_Monica_PrivateDance1_2.mkv", fps=30)
+    show videov_Monica_PrivateDance1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 23455
     with diss
     w
-    music Loved_Up2
+#    music Loved_Up2
     img 23456
     with diss
     banker "Хорошая девочка."
@@ -1068,6 +1099,24 @@ label ep211_dialogues5_shiny_hole_2:
     with diss
     mt "Вот он извращенец!"
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_PrivateDance1_1.ogg"
+    scene black
+    image videov_Monica_PrivateDance1_3 = Movie(play="video/v_Monica_PrivateDance1_3.mkv", fps=30)
+    show videov_Monica_PrivateDance1_3
+    with fade
+    wclean
+    stop music
+    music stop
+    music2 stop
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 23459
     sound bulk1
     show screen photoshot_screen()

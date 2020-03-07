@@ -1224,19 +1224,20 @@ label ep211_escort_scene2_6:
     daniel "Дааа! Хочу трахать тебя каждый день!"
     daniel "Мммммм..."
 
-    img black_screen
-    with diss
-    stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
-    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
-    scene black
-    image videov_EscortEvent1_Monica_Guy1_Sex_1_3 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_3.mkv", fps=30)
-    show videov_EscortEvent1_Monica_Guy1_Sex_1_3
-    with fade
-    wclean
-    stop music
-#    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+        scene black
+        image videov_EscortEvent1_Monica_Guy1_Sex_1_3 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_3.mkv", fps=30)
+        show videov_EscortEvent1_Monica_Guy1_Sex_1_3
+        with fade
+        wclean
+        stop music
+    #    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
 
     img black_screen
     with diss
@@ -1380,18 +1381,19 @@ label ep211_escort_scene2_8:
     daniel "Даааа!"
     daniel "В следующий раз я куплю тебя на всю ночь!"
 
-    img black_screen
-    with diss
-    stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
-    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
-    scene black
-    image videov_EscortEvent1_Monica_Guy1_Sex_1_7 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_7.mkv", fps=30)
-    show videov_EscortEvent1_Monica_Guy1_Sex_1_7
-    with fade
-    wclean
-    stop music
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent1_Monica_Guy1_Sex_1_1.ogg"
+        scene black
+        image videov_EscortEvent1_Monica_Guy1_Sex_1_7 = Movie(play="video/v_EscortEvent1_Monica_Guy1_Sex_1_7.mkv", fps=30)
+        show videov_EscortEvent1_Monica_Guy1_Sex_1_7
+        with fade
+        wclean
+        stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
@@ -2043,18 +2045,19 @@ label ep211_escort_scene2_12:
     stop music
 #    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
 
-    img black_screen
-    with diss
-    stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
-    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
-    scene black
-    image videov_EscortEvent2_Monica_Guy2_Sex_1_8 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_8.mkv", fps=30)
-    show videov_EscortEvent2_Monica_Guy2_Sex_1_8
-    with fade
-    wclean
-    stop music
+    if game.extra == True:
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_EscortEvent2_Monica_Guy2_Sex_1_1.ogg"
+        scene black
+        image videov_EscortEvent2_Monica_Guy2_Sex_1_8 = Movie(play="video/v_EscortEvent2_Monica_Guy2_Sex_1_8.mkv", fps=30)
+        show videov_EscortEvent2_Monica_Guy2_Sex_1_8
+        with fade
+        wclean
+        stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
