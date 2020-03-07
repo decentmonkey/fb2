@@ -4,6 +4,8 @@ label slums_basement_bed:
     if act=="l":
         return
     if act == "h":
+        $ monicaRestApartments = True
+        $ monicaRestHouse = False
         if day_time == "day":
             call slums_basement_bed_take_nap()
             return _return

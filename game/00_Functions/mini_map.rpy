@@ -98,6 +98,8 @@ label miniMapOfficeGenerate:
     return
 
 label miniMapSlumsApartmentsGenerate:
+    if monicaHomeMiniMapEnabled == False:
+        return
     $ miniMapOpened = False
     $ miniMapOpenButtonImg = "Open_Button_Slumps_Apratments_Map1"
     $ miniMapOpenButtonImg2 = "Open_Button_Slumps_Apratments_Map2"

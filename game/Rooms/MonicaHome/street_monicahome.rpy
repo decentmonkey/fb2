@@ -1,10 +1,12 @@
 default streetMonicaHomeMonicaSuffix = 0
 default streetMonicaHomeJackSuffix = 1
+default monicaHomeMiniMapEnabled = True
 
 label street_monicahome:
     $ print "enter_street_monicahome"
     $ miniMapData = []
-    call miniMapSlumsApartmentsGenerate()
+    if slumsApartmentsRentActive == True:
+        call miniMapSlumsApartmentsGenerate()
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Street_MonicaHome[day_suffix]"

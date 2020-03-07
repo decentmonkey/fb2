@@ -1,3 +1,5 @@
+default slumsApartmentsCheckInitialized = False
+
 default slumsApartmentsMiniMapActive = False
 default slumsDirtyStreetMiniMapActive = True
 
@@ -8,12 +10,25 @@ default monicaHasWhoreOutfit1 = True
 
 default monicaSlumsApartmentsCocktailDrinked = 0
 
+default slumsApartmentsShawarmaTraderDialogue1Active = False
+
+label ep211_quests_slums_apartments0_init:
+    $ add_hook("enter_scene", "ep211_quests_slums_apartments0_check", scene="hostel_street", label="slums_apartments_check")
+    $ slumsApartmentsCheckInitialized = True
+    return
+
+label ep211_quests_slums_apartments0_check:
+    if pubMonicaWorkingWaitress == True:
+        $ remove_hook()
+    call ep211_dialogues6_slum_apartment_1()
+    $ add_objective("ask_kebab", _("Спросить у продавца шавермы про аренду квартиры."), c_blue, 105)
+    $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_2", scene="whores_place_shawarma", label="slums_apartments_begin", once=True)
+    $ slumsApartmentsShawarmaTraderDialogue1Active = True
+    return
+
 label ep211_quests_slums_apartments1_init:
     call locations_init_monicahome()
     call hostel_street_init2()
-    $ slumsApartmentsMiniMapActive = True
-    $ slumsDirtyStreetMiniMapActive = False
-    $ map_objects["Teleport_Slums_Apartments"] = {"text" : _("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
     $ add_hook("HomeEnter", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label="monica_apartments_enter")
     $ add_hook("MonicaWindow", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label=["monica_apartments_enter", "monica_apartments_enter_window"])
     $ add_hook("Teleport_Street", "ep211_quests_slums_apartments3_check_exit_door", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="monica_apartments_exit")
@@ -23,8 +38,14 @@ label ep211_quests_slums_apartments1_init:
     $ add_hook("Street_MonicaHome_TeleportSlums", "dialogue_classmate_3_1_1a", scene="street_monicahome", quest="monica_apartments", label="school_outfit_slums_forbidden")
     $ add_hook("Street_MonicaHome_TeleportSlums", "ep25_quests4", scene="street_monicahome", quest="monica_apartments", label="casual_dress_slums_forbidden", priority=900)
     $ add_hook("slums_apartments_check_exit_wardrobe", "ep211_quests_slums_apartments3_check_exit_wardrobe", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="slums_apartments_check_exit_wardrobe")
-    $ move_object("Shawarma_Trader", "whores_place_shawarma")
     call ep211_quests_slums_apartments1_initb()
+    return
+
+label ep211_quests_slums_apartments1_inita:
+    $ slumsApartmentsMiniMapActive = True
+    $ slumsDirtyStreetMiniMapActive = False
+    $ map_objects["Teleport_Slums_Apartments"] = {"text" : _("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
+    $ set_active("Teleport_Slums_Apartments", True, scene="hostel_street")
     return
 
 label ep211_quests_slums_apartments1_initb:

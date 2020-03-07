@@ -1,4 +1,10 @@
 #v11
+default slumsApartmentsRentPrice = 300.0
+default slumsApartmentsRentPriceDiscount1 = 270.0
+default slumsApartmentsRentPriceDiscount2 = 240.0
+
+define slumsApartmentsRentPriceDiscountCorruption1 = 300
+
 define monicaPhotoshoot9CorruptionRequired = 320
 define monicaPhotoshoot9CorruptionAdd = 30
 define PS9_AlexProgressEachCorruptionShot = 3

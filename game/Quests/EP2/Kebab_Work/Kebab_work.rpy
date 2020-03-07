@@ -101,12 +101,24 @@ label kebab_work_trader_interact2:
             call refresh_scene_fade() from _call_refresh_scene_fade_18
             return False
         if monicaEatedLastDay == day:
+            if slumsApartmentsShawarmaTraderDialogue1Active == True:
+                call ep211_slums_apartments_quest1_menu()
+                if _return == False:
+                    return False
             call monica_shawarma_dialogue4() from _call_monica_shawarma_dialogue4 #Моника сыта
             return False
         if day_time == "evening":
+            if slumsApartmentsShawarmaTraderDialogue1Active == True:
+                call ep211_slums_apartments_quest1_menu()
+                if _return == False:
+                    return False
             call monica_shawarma_dialogue2a() from _call_monica_shawarma_dialogue2a
             return False
         if day_time == "day":
+            if slumsApartmentsShawarmaTraderDialogue1Active == True:
+                call ep211_slums_apartments_quest1_menu()
+                if _return == False:
+                    return False
             call monica_shawarma_dialogue2() from _call_monica_shawarma_dialogue2
             return False
     m "interact2"

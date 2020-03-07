@@ -171,6 +171,9 @@ label pub_dance_ashley_tips1:
     return
 
 label pub_dance_exit_check: # проверка на выход из бара
+    if slumsApartmentsCheckInitialized == False:
+        call ep211_quests_slums_apartments0_init()
+
     if monicaDancingInProgress == True:
         # Закрываем танцы
         $ monicaDancingInProgress = False

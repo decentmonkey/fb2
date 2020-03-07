@@ -11,10 +11,15 @@ default skipDaysActiveFlag = False # В данный момент пропуск
 
 default skipUntilFridayTargetDay = 5
 
+default monicaRestApartments = False
+default monicaRestHouse = False
+
 label basement_bed_hook:
     if act == "l":
         return True
     if act == "h":
+        $ monicaRestApartments = False
+        $ monicaRestHouse = True
         if day_time == "day":
             call monica_take_nap() from _call_monica_take_nap
             return _return
