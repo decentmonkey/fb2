@@ -26,6 +26,13 @@ label ep23_quests_pub1: #Моника заходит в бар первый ра
     call refresh_scene_fade() from _call_refresh_scene_fade_76
     return
 
+label ep23_quests_pub1a:
+    call ep23_dialogues1_2() from _call_ep23_dialogues1_3b
+    $ add_hook("Bartender", "ep23_quests_pub2", scene="pub", label="pub_dialogue")
+    $ add_hook("Bartender_Waitress", "ep23_quests_pub2", scene="pub", label="pub_dialogue")
+    call refresh_scene_fade() from _call_refresh_scene_fade_76bb1
+    return
+
 label ep23_quests_pub2: #при клике на бармена или барменшу
     if act=="l":
         return
