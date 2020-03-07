@@ -428,61 +428,61 @@ translate english strings:
 
     # game/00_Functions/07_init_renpy.rpy:183
     old "Клиент"
-    new "Клиент"
+    new "Client"
 
     # game/00_Functions/07_init_renpy.rpy:184
     old "Нэд"
-    new "Нэд"
+    new "Ned"
 
     # game/00_Functions/07_init_renpy.rpy:186
     old "Дэниел"
-    new "Дэниел"
+    new "Daniel"
 
     # game/00_Functions/07_init_renpy.rpy:187
     old "Марти"
-    new "Марти"
+    new "Marty"
 
     # game/00_Functions/07_init_renpy.rpy:189
     old "Натали"
-    new "Натали"
+    new "Natalie"
 
     # game/00_Functions/07_init_renpy.rpy:191
     old "Банкир"
-    new "Банкир"
+    new "Banker"
 
     # game/00_Functions/07_init_renpy.rpy:193
     old "Миссис Уайт"
-    new "Миссис Уайт"
+    new "Mrs. White"
 
     # game/00_Functions/07_init_renpy.rpy:194
     old "Грейс"
-    new "Грейс"
+    new "Grace"
 
     # game/00_Functions/07_init_renpy.rpy:195
     old "Исаак"
-    new "Исаак"
+    new "Isaac"
 
     # game/00_Functions/07_init_renpy.rpy:196
     old "Райен"
-    new "Райен"
+    new "Ryan"
 
     # game/00_Functions/07_init_renpy.rpy:197
     old "Шарлотт"
-    new "Шарлотт"
+    new "Charlotte"
 
     # game/00_Functions/07_init_renpy.rpy:198
     old "Мия"
-    new "Мия"
+    new "Mia"
 
     # game/00_Functions/07_init_renpy.rpy:199
     old "Адриано"
-    new "Адриано"
+    new "Adriano"
 
     # game/00_Functions/07_init_renpy.rpy:200
     old "Тернер"
-    new "Тернер"
+    new "Turner"
 
     # game/00_Functions/07_init_renpy.rpy:201
     old "Мистер Кэмпбэлл"
-    new "Мистер Кэмпбэлл"
+    new "Mr. Campbell"
 

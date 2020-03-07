@@ -4,5 +4,5 @@ translate english strings:
 
     # game/Rooms/Other/public_event2.rpy:12
     old "Пообщаться с Мистером Кэмпбеллом."
-    new "Пообщаться с Мистером Кэмпбеллом."
+    new "Talk to Mr. Campbell."
 

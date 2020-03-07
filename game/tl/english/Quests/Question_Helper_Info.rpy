@@ -374,17 +374,17 @@ translate english strings:
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Биф требует, чтобы я убедила этих глупых инвесторов инвестировать деньги в мой журнал. Как он предполагает я смогу это сделать?"
-    new "Биф требует, чтобы я убедила этих глупых инвесторов инвестировать деньги в мой журнал. Как он предполагает я смогу это сделать?"
+    new "Biff needs me to convince those stupid investors to pour money into my magazine. How does he think I can do it?"
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Я не собираюсь быть позорищем для всего мира! Я верну себе мою компанию, но не таким путем!"
-    new "Я не собираюсь быть позорищем для всего мира! Я верну себе мою компанию, но не таким путем!"
+    new "I'm not going to be a laughing stock for the whole world! I'll get back my company, but not like that!!"
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Я не собираюсь вилять голой попой перед посетителями этой дыры!!!"
-    new "Я не собираюсь вилять голой попой перед посетителями этой дыры!!!"
+    new "I'm not going to wiggle my naked butt before the visitorsa of this hole!!!"
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Эшли хочет чтобы я помирилась с этой сучкой Молли. Не представляю как это возможно!"
-    new "Эшли хочет чтобы я помирилась с этой сучкой Молли. Не представляю как это возможно!"
+    new "Ashley wants me to make up with this bitch Molly. How will I do that?"
 

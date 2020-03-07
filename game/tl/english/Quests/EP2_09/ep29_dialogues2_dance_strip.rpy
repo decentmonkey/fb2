@@ -3329,12 +3329,12 @@ translate english dialogue_5_dance_strip_23_5aca1d7a:
 
     # mt "Я боюсь воровать чаевые за танцы..."
     # mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
-    mt "Я боюсь воровать чаевые за танцы..."
-    mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
+    mt "I'm afraid to steal the tips..."
+    mt "I can't even imagine what this pervert Ashley will make me do next time..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2118
 translate english dialogue_5_dance_strip_23_98c31adc:
 
     # mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
-    mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
+    mt "I think Ashley watches closely so I wouldn't come off easy..."
 

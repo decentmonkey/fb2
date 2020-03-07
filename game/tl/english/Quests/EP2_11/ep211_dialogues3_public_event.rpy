@@ -1677,7 +1677,7 @@ translate english ep211_dialogues2_public_event_25_2c33916e:
     stephanie "Everything is fine."
     stephanie "You know, we couldn't miss such a party."
     stephanie "There are many interesting people to meet here."
-    mt "Andб judging by Rebecca’s outfit, find someone to sleep with ..."
+    mt "And, judging by Rebecca’s outfit, find someone to sleep with ..."
     mt "Stephanie came here to have fun."
     mt "And Rebecca clearly wants to find another moneybag."
     mt "..."
@@ -2561,14 +2561,14 @@ translate english ep211_dialogues2_public_event_1_1da6b3d8:
 
     # biff "Я жду тебя {c}завтра{/c}, цыпочка."
     # m "..."
-    biff "Я жду тебя {c}завтра{/c}, цыпочка."
+    biff "I'll be waiting for you {c}tomorrow{/c}, chick."
     m "..."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:303
 translate english ep211_dialogues2_public_event_2_26eeecee:
 
     # biff "Приходи {c}завтра вечером{/c}, кукла."
-    biff "Приходи {c}завтра вечером{/c}, кукла."
+    biff "Come {c}tomorrow evening{/c}, doll."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:617
 translate english ep211_dialogues2_public_event_9_6667586e:
@@ -3679,7 +3679,7 @@ translate english ep211_dialogues2_public_event_25_55f42eeb:
     # mt "Стефани пришла сюда развлекаться."
     # mt "А Ребекка явно хочет найти очередной мешок с деньгами."
     # mt "..."
-    mt "Andб judging by Rebecca’s outfit, find someone to sleep with ..."
+    mt "And, judging by Rebecca’s outfit, find someone to sleep with ..."
     mt "Stephanie came here to have fun."
     mt "And Rebecca clearly wants to find another moneybag."
     mt "..."
@@ -4767,8 +4767,8 @@ translate english ep211_dialogues2_public_event_40_b55f8728:
 
     # mt "Не могу выносить этого Бифа!"
     # mt "Как бы я хотела пристукнуть его!!!"
-    mt "Не могу выносить этого Бифа!"
-    mt "Как бы я хотела пристукнуть его!!!"
+    mt "I hate Biff's guts!"
+    mt "How much I'd love to hit him!!!"
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:2245
 translate english ep211_dialogues2_public_event_41_01bc1592:
@@ -4784,7 +4784,7 @@ translate english ep211_dialogues2_public_event_42_cbce3f49:
     # mt "У меня плохое предчувствие насчет этой фотосессии..."
     # mt "Я еле вытерпела этого придурка Бифа на протяжении вечера."
     # mt "С меня хватит. Пора домой!"
-    mt "У меня плохое предчувствие насчет этой фотосессии..."
-    mt "Я еле вытерпела этого придурка Бифа на протяжении вечера."
-    mt "С меня хватит. Пора домой!"
+    mt "I have a bad feeling about this photo shoot..."
+    mt "I endured this idiot Biff for an entire evening. Barely."
+    mt "I've had enough. I'm going home!"
 

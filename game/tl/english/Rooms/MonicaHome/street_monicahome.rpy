@@ -10,5 +10,5 @@ translate english strings:
 
     # game/Rooms/MonicaHome/street_monicahome.rpy:31
     old "ТРУЩОБЫ"
-    new "ТРУЩОБЫ"
+    new "SLUMS"
 

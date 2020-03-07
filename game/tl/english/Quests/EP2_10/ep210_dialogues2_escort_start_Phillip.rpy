@@ -2054,5 +2054,5 @@ translate english strings:
 
     # game/Quests/EP2_10/ep210_dialogues2_escort_start_Phillip.rpy:1001
     old "Мне нужны эти деньги..."
-    new "Мне нужны эти деньги..."
+    new "I need this money..."
 

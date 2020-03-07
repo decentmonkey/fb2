@@ -54,3 +54,11 @@ translate english strings:
     old "Entrance"
     new "Entrance"
 
+# TODO: Translation updated at 2020-03-07 23:35
+
+translate english strings:
+
+    # game/00_Functions/mini_map.rpy:82
+    old "OLD HOUSE"
+    new "OLD HOUSE"
+

@@ -206,21 +206,21 @@ translate english strings:
 
     # game/Characters/Monica/Bed_Basement.rpy:112
     old "Пропустить до..."
-    new "Пропустить до..."
+    new "Skip time..."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Понедельника."
-    new "Пропустить до Понедельника."
+    new "Skip time till Monday."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Вторника."
-    new "Пропустить до Вторника."
+    new "Skip time till Tuesday."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Среды."
-    new "Пропустить до Среды."
+    new "Skip time till Wednesday."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Четверга."
-    new "Пропустить до Четверга."
+    new "Skip time till Thursday."
 

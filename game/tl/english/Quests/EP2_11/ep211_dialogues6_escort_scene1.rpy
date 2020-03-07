@@ -150,7 +150,7 @@ translate english ep211_escort_scene1_1_cd2e32cf:
     # client "Конечно, [monica_hotel_name]."
     # client "Я буду ждать тебя {c}у лифта{/c}."
     client "Of course, [monica_hotel_name]."
-    client "I'll be waiting for you {c} at the elevator {/ c}."
+    client "I'll be waiting for you {c} at the elevator {/c}."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:114
 translate english ep211_escort_scene1_2_bcf155e3:
@@ -1153,43 +1153,43 @@ translate english ep211_escort_scene1_9_2e64db83:
     # mt "Сижу для того, чтобы найти клиента..."
     # mt "Какой ужас, Моника!"
     # mt "Даже не хочу об этом думать!"
-    mt "Не могу поверить что я сижу здесь, за этим-же столом, где ужинала с Диком..."
-    mt "Сижу для того, чтобы найти клиента..."
-    mt "Какой ужас, Моника!"
-    mt "Даже не хочу об этом думать!"
+    mt "I can't believe I'm sitting here, at the same table I was sitting with Steve..."
+    mt "In sreach of a client..."
+    mt "It's horrible, Monica!"
+    mt "I don't even want to think about it!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:873
 translate english ep211_escort_scene1_10_f52b60b5:
 
     # mt "Я не собираюсь разговаривать ни с кем из них!"
-    mt "Я не собираюсь разговаривать ни с кем из них!"
+    mt "I'm not going to talk to any of them!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:877
 translate english ep211_escort_scene1_11_4c40e986:
 
     # mt "Эта дура Администратор говорила что мне не стоит афишировать себя вне ресторана."
     # mt "Видите-ли здесь живут приличные люди..."
-    mt "Эта дура Администратор говорила что мне не стоит афишировать себя вне ресторана."
-    mt "Видите-ли здесь живут приличные люди..."
+    mt "This stupid administrator told me I shouldn't promote myself outside of the restaurant."
+    mt "Devent people live here and all that..."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:880
 translate english ep211_escort_scene1_11_88a13ddb:
 
     # mt "Ничтожества! Ненавижу!"
-    mt "Ничтожества! Ненавижу!"
+    mt "Worthless people! I hate them!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:884
 translate english ep211_escort_scene1_12_2d3a4bf0:
 
     # mt "Этот лифт ведет на этажи с номерами отеля..."
-    mt "Этот лифт ведет на этажи с номерами отеля..."
+    mt "This lift leads to the hotel room floors."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:888
 translate english ep211_escort_scene1_13_e4a47faa:
 
     # mt "Мне нечего там делать сейчас!"
     # mt "Ненавижу это место!"
-    mt "Мне нечего там делать сейчас!"
+    mt "I don't have enything to do there right now!"
     mt "I hate this place!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:893
@@ -1197,8 +1197,8 @@ translate english ep211_escort_scene1_13a_841dbebe:
 
     # mt "Эта дверь ведет в служебный коридор, где решаются вопросы, связанные с эскортом."
     # mt "И проводятся... кастинги..."
-    mt "Эта дверь ведет в служебный коридор, где решаются вопросы, связанные с эскортом."
-    mt "И проводятся... кастинги..."
+    mt "This door leads to the service hallway, where all the matters regarding escort are resolved."
+    mt "And castings... Are held..."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:916
 translate english ep211_escort_scene1_15_b84d23b6:
@@ -1206,9 +1206,9 @@ translate english ep211_escort_scene1_15_b84d23b6:
     # m "Я на сегодня закончила работу."
     # m "Мне не удалось найти клиента."
     # m "Мне нужно идти."
-    m "Я на сегодня закончила работу."
-    m "Мне не удалось найти клиента."
-    m "Мне нужно идти."
+    m "I've finished my work for today."
+    m "I couldn't find a client."
+    m "I need to go."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:921
 translate english ep211_escort_scene1_15_9c0d1fc1:
@@ -1216,9 +1216,9 @@ translate english ep211_escort_scene1_15_9c0d1fc1:
     # reception "И куда ты собралась в этом платье?"
     # reception "Оно для работы в ВИП-эскорте."
     # reception "В нем нельзя работать на улице!"
-    reception "И куда ты собралась в этом платье?"
-    reception "Оно для работы в ВИП-эскорте."
-    reception "В нем нельзя работать на улице!"
+    reception "And where do you think you're going in that dress?"
+    reception "It's your work clothes."
+    reception "You can't work outseide in them!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:927
 translate english ep211_escort_scene1_15_ba567837:
@@ -1232,15 +1232,15 @@ translate english ep211_escort_scene1_15_ba567837:
 translate english ep211_escort_scene1_15_a5d006e7:
 
     # m "Я не собираюсь работать на улице!"
-    m "Я не собираюсь работать на улице!"
+    m "I'm not going to work outside!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:935
 translate english ep211_escort_scene1_15_ba0cae73:
 
     # reception "Тогда переодевайся и приходи потом..."
     # reception "Нечего занимать просто так место в ресторане!"
-    reception "Тогда переодевайся и приходи потом..."
-    reception "Нечего занимать просто так место в ресторане!"
+    reception "Then go change and come back later..."
+    reception "Don't just occupy a table in the restaurant!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:941
 translate english ep211_escort_scene1_15_2c8edd61:
@@ -1255,36 +1255,36 @@ translate english ep211_escort_scene1_16_eef41323:
 
     # mt "Никто ко мне не подошел, дьявол!"
     # mt "К черту всех этих неудачников!"
-    mt "Никто ко мне не подошел, дьявол!"
-    mt "К черту всех этих неудачников!"
+    mt "Dman, noone approached me!"
+    mt "Fuck all those losers!"
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:952
 translate english ep211_escort_scene1_17_720d5bfa:
 
     # mt "Мне надо подойти к чертовой администраторше..."
-    mt "Мне надо подойти к чертовой администраторше..."
+    mt "I need to go to the damn administrator..."
 
 # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:956
 translate english ep211_escort_scene1_18_22a32034:
 
     # mt "Мне надо переодеться..."
-    mt "Мне надо переодеться..."
+    mt "I need to change..."
 
 translate english strings:
 
     # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:27
     old "Встреча с клиентом (на следующей неделе) (disabled)"
-    new "Встреча с клиентом (на следующей неделе) (disabled)"
+    new "Meeting with a client (next week) (disabled)"
 
     # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
     old "Просто ждать."
-    new "Просто ждать."
+    new "Just wait."
 
     # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
     old "Пытаться привлечь внимание. (в следующих обновлениях) (disabled)"
-    new "Пытаться привлечь внимание. (в следующих обновлениях) (disabled)"
+    new "Try to draw attention. (in the next update) (disabled)"
 
     # game/Quests/EP2_11/ep211_dialogues6_escort_scene1.rpy:49
     old "Кастинг в номерах. (в следующих обновлениях) (disabled)"
-    new "Кастинг в номерах. (в следующих обновлениях) (disabled)"
+    new "Casting in the hotel rooms. (in the next update) (disabled)"
 

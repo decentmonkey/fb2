@@ -1862,3 +1862,11 @@ translate german strings:
     old "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
     new "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
 
+# TODO: Translation updated at 2020-03-07 23:37
+
+translate german strings:
+
+    # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
+    old "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)"
+    new "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)"
+

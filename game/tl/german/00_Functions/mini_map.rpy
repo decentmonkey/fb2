@@ -54,3 +54,11 @@ translate german strings:
     old "Entrance"
     new "Eingang"
 
+# TODO: Translation updated at 2020-03-07 23:37
+
+translate german strings:
+
+    # game/00_Functions/mini_map.rpy:82
+    old "OLD HOUSE"
+    new "OLD HOUSE"
+

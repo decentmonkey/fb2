@@ -2816,7 +2816,7 @@ translate english ep211_escort_scene2_7_41b373b9:
     # natalie "Странно."
     # marty "Что странного?"
     # natalie "Что парень и девушка одновременно отсутствуют..."
-    natalie "Странно."
+    natalie "Strange."
     marty "What is strange?"
     natalie "That a guy and a girl are simultaneously absent ..."
 
@@ -2970,7 +2970,7 @@ translate english ep211_escort_scene2_14_27a79443:
     reception "Yes, not a cent! And you still got off easy!"
     reception "One more slightest violation and you would've been fired !!!"
     reception "Do you understand me, [monica_hotel_name] ?!"
-    help "Увольнение будет реализовано в следующих апдейтах..."
+    help "Firing will be implemented in the upcoming updates..."
 
 # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2335
 translate english ep211_escort_scene2_14_0a5616b8:
@@ -2985,22 +2985,22 @@ translate english ep211_escort_scene2_15_f4668ba9:
     # mt "С другой стороны, это немаленькие деньги для меня сейчас."
     # mt "И все думают что я [monica_hotel_name]."
     # mt "Никто не знает кто я такая на самом деле..."
-    mt "Не могу поверить что я позволила сделать такое с собой..."
-    mt "С другой стороны, это немаленькие деньги для меня сейчас."
-    mt "И все думают что я [monica_hotel_name]."
-    mt "Никто не знает кто я такая на самом деле..."
+    mt "I can't believe I let her do this to me..."
+    mt "On the other hand, that's good money for me right now."
+    mt "And everybody thinks I'm [monica_hotel_name]."
+    mt "Nobody know who I really am."
 
 translate english strings:
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1095
     old "Несколько минут спустя..."
-    new "Несколько минут спустя..."
+    new "A few minutes later..."
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1278
     old "В это время в гостиной..."
-    new "В это время в гостиной..."
+    new "At the same time, in the living room..."
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1338
     old "В соседней комнате..."
-    new "В соседней комнате..."
+    new "In a nearby room..."
 

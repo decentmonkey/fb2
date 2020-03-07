@@ -2502,3 +2502,463 @@ translate german ep211_dialogues6_slum_apartment_34_28d563be:
     mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
     mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
 
+# TODO: Translation updated at 2020-03-07 23:37
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:63
+translate german ep211_dialogues6_slum_apartment_1_84eec389:
+
+    # mt "Каждый раз, когда прихожу сюда..."
+    # mt "Боюсь, что встречу ту кошмарную лесбиянку."
+    # mt "Как вспомню этот ужас в хостеле..."
+    # mt "Нет! Даже думать об этом не хочу!"
+    # mt "Тоже мне, дешевый ночлег!"
+    # mt "!!!"
+    # mt "Хммм..."
+    # mt "Кстати, о дешевом ночлеге..."
+    mt "Каждый раз, когда прихожу сюда..."
+    mt "Боюсь, что встречу ту кошмарную лесбиянку."
+    mt "Как вспомню этот ужас в хостеле..."
+    mt "Нет! Даже думать об этом не хочу!"
+    mt "Тоже мне, дешевый ночлег!"
+    mt "!!!"
+    mt "Hmmm ..."
+    mt "Кстати, о дешевом ночлеге..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:74
+translate german ep211_dialogues6_slum_apartment_1_4324128d:
+
+    # mt "И почему я раньше об этом не задумывалась?!"
+    # mt "У меня сейчас есть работа. Заработок у меня стабильный."
+    # mt "Возможно, мне удастся арендовать какую-нибудь небольшую квартиру?"
+    # mt "По-моему, это хорошая идея!"
+    # mt "Я, наконец-то, перестану работать на эту семейку идиотов!"
+    # mt "И жить независимо ни от кого!!!"
+    # mt "Только как мне подобрать подходящую по цене квартиру?"
+    # mt "..."
+    mt "И почему я раньше об этом не задумывалась?!"
+    mt "У меня сейчас есть работа. Заработок у меня стабильный."
+    mt "Возможно, мне удастся арендовать какую-нибудь небольшую квартиру?"
+    mt "По-моему, это хорошая идея!"
+    mt "Я, наконец-то, перестану работать на эту семейку идиотов!"
+    mt "И жить независимо ни от кого!!!"
+    mt "Только как мне подобрать подходящую по цене квартиру?"
+    mt "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:85
+translate german ep211_dialogues6_slum_apartment_1_9e1cb034:
+
+    # mt "Юлия снимает квартиру в ужасном доме!"
+    # mt "Но стоит признать, что квартира у нее довольно уютная."
+    # mt "Конечно, там все старое и убогое..."
+    # mt "Но все же я была бы не против жить в подобной квартире."
+    # mt "Представь только, Моника!"
+    # mt "Никто не будет тебе указывать, что делать и какую одежду носить..."
+    # mt "Никто не будет ограничивать тебя в еде или в походах в душ..."
+    # mt "..."
+    mt "Юлия снимает квартиру в ужасном доме!"
+    mt "Но стоит признать, что квартира у нее довольно уютная."
+    mt "Конечно, там все старое и убогое..."
+    mt "Но все же я была бы не против жить в подобной квартире."
+    mt "Представь только, Моника!"
+    mt "Никто не будет тебе указывать, что делать и какую одежду носить..."
+    mt "Никто не будет ограничивать тебя в еде или в походах в душ..."
+    mt "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:95
+translate german ep211_dialogues6_slum_apartment_1_53a6570d:
+
+    # mt "Кто может знать, где найти дешевое жилье?"
+    # mt "???"
+    # mt "В прошлый раз продавец шавермы посоветовал мне хостел..."
+    # mt "Возможно, стоит спросить у него?"
+    mt "Кто может знать, где найти дешевое жилье?"
+    mt "???"
+    mt "В прошлый раз продавец шавермы посоветовал мне хостел..."
+    mt "Возможно, стоит спросить у него?"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:116
+translate german ep211_dialogues6_slum_apartment_3_aacf203c:
+
+    # mt "Не хочу вести такие разговоры посреди ночи..."
+    # mt "Лучше приду {c}завтра днем{/c}"
+    mt "Не хочу вести такие разговоры посреди ночи..."
+    mt "Лучше приду {c}завтра днем{/c}"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:151
+translate german ep211_dialogues6_slum_apartment_3_c0e012d2:
+
+    # mt "Животное!"
+    mt "So ein Tier!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:153
+translate german ep211_dialogues6_slum_apartment_3_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:417
+translate german ep211_dialogues6_slum_apartment_6_c0e012d2:
+
+    # mt "Животное!"
+    mt "So ein Tier!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:419
+translate german ep211_dialogues6_slum_apartment_6_29a4f6ab_1:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:538
+translate german ep211_dialogues6_slum_apartment_6_c0e012d2_1:
+
+    # mt "Животное!"
+    mt "So ein Tier!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:540
+translate german ep211_dialogues6_slum_apartment_6_29a4f6ab_2:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:579
+translate german ep211_dialogues6_slum_apartment_6_6bae018b:
+
+    # shawarma "Джек будет приходить {c}каждая суббота утро{/c} за деньгами."
+    # shawarma "Мадаме платить и оставаться здесь жить!"
+    # m "..."
+    shawarma "Джек будет приходить {c}каждая суббота утро{/c} за деньгами."
+    shawarma "Мадаме платить и оставаться здесь жить!"
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:905
+translate german ep211_dialogues6_slum_apartment_10_loop1_0378c1a9:
+
+    # mt "Почему бы мне не воспользоваться его предложением?"
+    # mt "Скидка мне не помешает."
+    mt "Почему бы мне не воспользоваться его предложением?"
+    mt "Скидка мне не помешает."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:909
+translate german ep211_dialogues6_slum_apartment_10_loop1_f7125ae0:
+
+    # m "И что мне сделать, чтобы получить эту скидку?"
+    m "И что мне сделать, чтобы получить эту скидку?"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:913
+translate german ep211_dialogues6_slum_apartment_10_loop1_079bc034:
+
+    # shawarma "У прекрасной Мадаме рот как лепесток роз!"
+    # shawarma "Такой же восхитительный и нежный!"
+    # shawarma "Джек будет счастлив дать в этот рот свой нефритовый стержень!"
+    shawarma "У прекрасной Мадаме рот как лепесток роз!"
+    shawarma "Такой же восхитительный и нежный!"
+    shawarma "Джек будет счастлив дать в этот рот свой нефритовый стержень!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:919
+translate german ep211_dialogues6_slum_apartment_10_loop1_83f88a4c:
+
+    # m "ЧТО?!"
+    # m "Да как ты смеешь мне подобное предлагать?!"
+    # m "!!!"
+    m "WAS?!"
+    m "Да как ты смеешь мне подобное предлагать?!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:925
+translate german ep211_dialogues6_slum_apartment_10_loop1_a6183bd0:
+
+    # shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
+    # shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
+    # shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+    shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
+    shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
+    shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:931
+translate german ep211_dialogues6_slum_apartment_10_loop1_577697c6:
+
+    # mt "Черт!"
+    # mt "И что же мне делать?"
+    # mt "10 процентов от $ 300 - это немало."
+    # mt "А у меня сейчас каждый цент на счету."
+    # m "..."
+    mt "Huch!"
+    mt "И что же мне делать?"
+    mt "10 процентов от $ 300 - это немало."
+    mt "А у меня сейчас каждый цент на счету."
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:945
+translate german ep211_dialogues6_slum_apartment_10_loop1_5fa75320:
+
+    # m "Ты что, ненормальный?!"
+    # m "Конечно, я не буду этого делать!"
+    # m "Как ты мог вообще до такого додуматься!!!"
+    m "Ты что, ненормальный?!"
+    m "Конечно, я не буду этого делать!"
+    m "Как ты мог вообще до такого додуматься!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:955
+translate german ep211_dialogues6_slum_apartment_10_loop1_c0e012d2:
+
+    # mt "Животное!"
+    mt "So ein Tier!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:957
+translate german ep211_dialogues6_slum_apartment_10_loop1_29a4f6ab:
+
+    # m "!!!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:961
+translate german ep211_dialogues6_slum_apartment_10_loop1_94d857ce:
+
+    # shawarma "Тогда Мадаме платить Джеку $ 300."
+    shawarma "Тогда Мадаме платить Джеку $ 300."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:970
+translate german ep211_dialogues6_slum_apartment_10_loop1_0378c1a9_1:
+
+    # mt "Почему бы мне не воспользоваться его предложением?"
+    # mt "Скидка мне не помешает."
+    mt "Почему бы мне не воспользоваться его предложением?"
+    mt "Скидка мне не помешает."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:974
+translate german ep211_dialogues6_slum_apartment_10_loop1_f7125ae0_1:
+
+    # m "И что мне сделать, чтобы получить эту скидку?"
+    m "И что мне сделать, чтобы получить эту скидку?"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:978
+translate german ep211_dialogues6_slum_apartment_10_loop1_4bdb10ae:
+
+    # shawarma "Красота Мадаме ослеплять Джека!"
+    # shawarma "Мадаме прекрасна как древнегреческий богинь!"
+    # shawarma "Джек будет счастлив, если она позволит..."
+    # shawarma "Проникнуть нефритовый стержень Джека в ее сладкий дырочка!"
+    shawarma "Красота Мадаме ослеплять Джека!"
+    shawarma "Мадаме прекрасна как древнегреческий богинь!"
+    shawarma "Джек будет счастлив, если она позволит..."
+    shawarma "Проникнуть нефритовый стержень Джека в ее сладкий дырочка!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:985
+translate german ep211_dialogues6_slum_apartment_10_loop1_3322673a:
+
+    # m "ЧТО-О-О-О?!"
+    # m "?!?!?!"
+    # m "Да как ты смеешь мне подобное предлагать?!"
+    # m "!!!"
+    m "ЧТО-О-О-О?!"
+    m "?!?!?!"
+    m "Да как ты смеешь мне подобное предлагать?!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:992
+translate german ep211_dialogues6_slum_apartment_10_loop1_a6183bd0_1:
+
+    # shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
+    # shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
+    # shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+    shawarma "Джек делать очень щедрый и благородный предложение Мадаме..."
+    shawarma "Но если Мадаме откажется, Джек на нее не обижаться."
+    shawarma "Тогда она может просто заплатить Джеку $ 300 за шикарный квартир."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:998
+translate german ep211_dialogues6_slum_apartment_10_loop1_cb440a78:
+
+    # mt "Черт!"
+    # mt "И что же мне делать?"
+    # mt "20 процентов от $ 300 - это немало."
+    # mt "А у меня сейчас каждый цент на счету."
+    # m "..."
+    mt "Huch!"
+    mt "И что же мне делать?"
+    mt "20 процентов от $ 300 - это немало."
+    mt "А у меня сейчас каждый цент на счету."
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1012
+translate german ep211_dialogues6_slum_apartment_10_loop1_5fa75320_1:
+
+    # m "Ты что, ненормальный?!"
+    # m "Конечно, я не буду этого делать!"
+    # m "Как ты мог вообще до такого додуматься!!!"
+    m "Ты что, ненормальный?!"
+    m "Конечно, я не буду этого делать!"
+    m "Как ты мог вообще до такого додуматься!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1021
+translate german ep211_dialogues6_slum_apartment_10_loop1_4ccfab15:
+
+    # mt "Животное!"
+    # m "!!!"
+    mt "So ein Tier!"
+    m "!!!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1027
+translate german ep211_dialogues6_slum_apartment_10_loop1_94d857ce_1:
+
+    # shawarma "Тогда Мадаме платить Джеку $ 300."
+    shawarma "Тогда Мадаме платить Джеку $ 300."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1039
+translate german ep211_dialogues6_slum_apartment_10_loop1_b4660826:
+
+    # m "Мне не нужны никакие скидки!"
+    # m "Я готова заплатить сумму полностью."
+    # m "Забирай деньги и иди!"
+    m "Мне не нужны никакие скидки!"
+    m "Я готова заплатить сумму полностью."
+    m "Забирай деньги и иди!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1046
+translate german ep211_dialogues6_slum_apartment_10_loop1_500e9ecd:
+
+    # shawarma "Отлично, Мадаме! Джек очень рад!"
+    # shawarma "Джек придет в {c}следующий суббота вечер{/c}!"
+    # shawarma "И Мадаме может не сомневаться!"
+    shawarma "Отлично, Мадаме! Джек очень рад!"
+    shawarma "Джек придет в {c}следующий суббота вечер{/c}!"
+    shawarma "И Мадаме может не сомневаться!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1051
+translate german ep211_dialogues6_slum_apartment_10_loop1_6312cc85:
+
+    # shawarma "Джек очень благородный и щедрый!"
+    # shawarma "Он снова предлагать Мадаме скидку в следующий суббота!"
+    shawarma "Джек очень благородный и щедрый!"
+    shawarma "Он снова предлагать Мадаме скидку в следующий суббота!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1056
+translate german ep211_dialogues6_slum_apartment_10_loop1_9b2830ad:
+
+    # m "Все! Иди! Мне некогда!"
+    m "Все! Иди! Мне некогда!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1062
+translate german ep211_dialogues6_slum_apartment_10_loop1_bdd5ceea:
+
+    # mt "Животное!"
+    # mt "Как хорошо, что я его целую неделю теперь не увижу!"
+    mt "So ein Tier!"
+    mt "Как хорошо, что я его целую неделю теперь не увижу!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1071
+translate german ep211_dialogues6_slum_apartment_10_loop1_5fb10af8:
+
+    # mt "Что же мне делать?"
+    # mt "У меня не хватает денег на оплату..."
+    # mt "Может, он согласится подождать несколько дней?"
+    # m "..."
+    mt "Was mache ich jetzt?"
+    mt "У меня не хватает денег на оплату..."
+    mt "Может, он согласится подождать несколько дней?"
+    m "..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1078
+translate german ep211_dialogues6_slum_apartment_10_loop1_499d1f88:
+
+    # m "Я тебе смогу заплатить за апартаменты через несколько дней."
+    # m "Ты же не выселишь такую прекрасную леди, как я, на улицу?"
+    # m "Всего лишь несколько дней и я все оплачу."
+    m "Я тебе смогу заплатить за апартаменты через несколько дней."
+    m "Ты же не выселишь такую прекрасную леди, как я, на улицу?"
+    m "Всего лишь несколько дней и я все оплачу."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1084
+translate german ep211_dialogues6_slum_apartment_10_loop1_1dfe5416:
+
+    # shawarma "Нет-нет, Мадаме!"
+    # shawarma "Джек восхищается Вашей красотой."
+    # shawarma "Но Джек с Мадаме договорился, что деньги будут каждый суббота."
+    shawarma "Нет-нет, Мадаме!"
+    shawarma "Джек восхищается Вашей красотой."
+    shawarma "Но Джек с Мадаме договорился, что деньги будут каждый суббота."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1089
+translate german ep211_dialogues6_slum_apartment_10_loop1_d01555cb:
+
+    # shawarma "Нет денег в суббота - нет шикарный апрартамент у Мадаме!"
+    # shawarma "Джеку, конечно, очень жаль..."
+    # shawarma "Но он вынужден выселять прекрасный леди прямо сейчас!"
+    shawarma "Нет денег в суббота - нет шикарный апрартамент у Мадаме!"
+    shawarma "Джеку, конечно, очень жаль..."
+    shawarma "Но он вынужден выселять прекрасный леди прямо сейчас!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1481
+translate german ep211_dialogues6_slum_apartment_17_aacf203c:
+
+    # mt "Не хочу вести такие разговоры посреди ночи..."
+    # mt "Лучше приду {c}завтра днем{/c}"
+    mt "Не хочу вести такие разговоры посреди ночи..."
+    mt "Лучше приду {c}завтра днем{/c}"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1750
+translate german ep211_dialogues6_slum_apartment_34_after_shower_dc469dc0:
+
+    # mt "Как же хорошо после душа! Я чувствую прилив сил."
+    mt "Как же хорошо после душа! Я чувствую прилив сил."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1752
+translate german ep211_dialogues6_slum_apartment_34_after_shower_7203166e:
+
+    # mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
+    mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1754
+translate german ep211_dialogues6_slum_apartment_34_after_shower_73a8c4a9:
+
+    # mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
+    mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1760
+translate german ep211_dialogues6_slum_apartment_35_f4daab46:
+
+    # mt "Как же хорошо, что я теперь сама себе хозяйка. Никакая провинциальная дура теперь не командует мною."
+    mt "Как же хорошо, что я теперь сама себе хозяйка. Никакая провинциальная дура теперь не командует мною."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1762
+translate german ep211_dialogues6_slum_apartment_35_f9573293:
+
+    # mt "Здесь так шумно. Не могу привыкнуть к этому."
+    mt "Здесь так шумно. Не могу привыкнуть к этому."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1764
+translate german ep211_dialogues6_slum_apartment_35_9ab3c7ea:
+
+    # mt "Еще один день в этой ужасной дыре... С другой стороны, здесь все МОЕ. И это не может не радовать."
+    mt "Еще один день в этой ужасной дыре... С другой стороны, здесь все МОЕ. И это не может не радовать."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1766
+translate german ep211_dialogues6_slum_apartment_35_d48faab0:
+
+    # mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
+    mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1768
+translate german ep211_dialogues6_slum_apartment_35_f1ee2f45:
+
+    # mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
+    mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1782
+translate german ep211_dialogues6_slum_apartment_36_54b0e521:
+
+    # mt "Невкусные продукты..."
+    # mt "Но, по крайней мере, мне не надо платить за них..."
+    mt "Невкусные продукты..."
+    mt "Но, по крайней мере, мне не надо платить за них..."
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1792
+translate german ep211_dialogues6_slum_apartment_37_9dc7f9a1:
+
+    # mt "Я сегодня уже ела..."
+    mt "Ich habe heute bereits gegessen..."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:111
+    old "Разговор..."
+    new "Разговор..."
+
