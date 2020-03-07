@@ -722,7 +722,7 @@ label ep211_dialogues4_julia_7:
             mt "Не хочу и не буду!"
             mt "Мне надоели эти глупости!"
             mt "!!!"
-            pass
+            return
     music Loved_Up
     img 23602
     with fade

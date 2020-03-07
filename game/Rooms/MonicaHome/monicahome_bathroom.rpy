@@ -4,6 +4,7 @@ default monicaHomeBathroomSceneSuffix = ""
 label monicahome_bathroom:
     $ print "enter_monicahome_bathroom"
     $ miniMapData = []
+    call miniMapSlumsApartmentsGenerate()
     $ scene_image = "scene_MonicaHome_Bathroom[monicaHomeBathroomSceneSuffix]"
 
     if day_time == "day":

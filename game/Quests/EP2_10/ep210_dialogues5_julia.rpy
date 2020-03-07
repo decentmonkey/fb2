@@ -12,7 +12,7 @@ label ep210_julia_dialogue1:
             return 4
         "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
             pass
-        "Пригласить Юлию на второе свидание. (в следующем обновлении) (disabled)" if ep211_julia_second_date_completed == True:
+        "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)" if ep211_julia_second_date_completed == True:
             pass
 
         "Уйти.":

@@ -3,12 +3,33 @@ default monicaHomeLivingRoomWardrobeMonicaSuffix = 1
 label monicahome_livingroomwardrobe:
     $ print "enter_monicahome_livingroomwardrobe"
     $ miniMapData = []
+    call miniMapSlumsApartmentsGenerate()
     $ scene_image = "scene_MonicaHome_LivingRoomWardrobe"
 
     if day_time == "day":
         music Mandeville
     else:
         music street13_ambulance
+
+    if monicaHasCasualDress1 == True:
+        $ set_active("Wardrobe_CasualDress1", True, scene="monicahome_livingroomwardrobe")
+    else:
+        $ set_active("Wardrobe_CasualDress1", False, scene="monicahome_livingroomwardrobe")
+
+    if monicaHasWhoreOutfit1 == True:
+        $ set_active("Wardrobe_Whore", True, scene="monicahome_livingroomwardrobe")
+    else:
+        $ set_active("Wardrobe_Whore", False, scene="monicahome_livingroomwardrobe")
+
+    if cloth != "HomeCloth4":
+        $ set_active("Wardrobe_HomeCloth4", True, scene="monicahome_livingroomwardrobe")
+    else:
+        $ set_active("Wardrobe_HomeCloth4", False, scene="monicahome_livingroomwardrobe")
+
+    if monicaHasSchoolOutfit1 == True:
+        $ set_active("Wardrobe_SchoolOutfit1", True, scene="monicahome_livingroomwardrobe")
+    else:
+        $ set_active("Wardrobe_SchoolOutfit1", False, scene="monicahome_livingroomwardrobe")
 
     $ monicaHomeLivingRoomMonicaSuffix = 1
     return
@@ -46,12 +67,29 @@ label monicahome_livingroomwardrobe_environment:
 
     if obj_name == "Picture":
         call ep211_dialogues6_slum_apartment_28()
-    if obj_name == "Wardrobe_CasualDress1":
-        return
+
     if obj_name == "Wardrobe_HomeCloth4":
+        $ cloth = "HomeCloth4"
+        $ cloth_type = "HomeCloth"
+        sound snd_fabric1
+        call refresh_scene_fade_long()
         return
-    if obj_name == "Wardrobe_SchoolOutfit1":
+
+    if obj_name == "Wardrobe_CasualDress1" or obj_name == "Wardrobe_SchoolOutfit1" or obj_name == "Wardrobe_Whore":
+        call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+        if _return == False:
+            return
+        if obj_name == "Wardrobe_CasualDress1":
+            $ cloth = "CasualDress1"
+            $ cloth_type = "CasualDress"
+        if obj_name == "Wardrobe_SchoolOutfit1":
+            $ cloth = "SchoolOutfit1"
+            $ cloth_type = "SchoolOutfit"
+        if obj_name == "Wardrobe_Whore":
+            $ cloth = "Whore"
+            $ cloth_type = "Whore"
+        sound2 snd_fabric1
+        call change_scene("street_monicahome", "Fade")
         return
-    if obj_name == "Wardrobe_Whore":
-        return
+
     return

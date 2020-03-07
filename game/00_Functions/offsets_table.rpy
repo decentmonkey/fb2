@@ -3064,7 +3064,7 @@ define offsets_table = {
     "monicahome_kitchen_monica_bathcloth1_1_overlay":(728,1046,1079,1466),
     "monicahome_kitchen_monica_homecloth4_1":(74,1145,1060,1374),
     "monicahome_kitchen_monica_homecloth4_1_overlay":(767,1043,1079,1483),
-    "monicahome_livingroomwardrobe_bathcloth1_1":(0,251,1079,614),
+    "monicahome_livingroomwardrobe_monica_bathcloth1_1":(0,251,1079,614),
     "monicahome_livingroomwardrobe_casualdress1":(183,887,757,1036),
     "monicahome_livingroomwardrobe_casualdress1_overlay":(279,810,1047,1059),
     "monicahome_livingroomwardrobe_homecloth4":(179,724,994,961),
@@ -3106,14 +3106,14 @@ define offsets_table = {
     "monicahome_livingroom_monica_bathcloth1_sleep3_eveningnight_overlay":(585,862,844,1325),
     "monicahome_livingroom_monica_bathcloth1_sleep4_eveningnight":(594,987,869,1233),
     "monicahome_livingroom_monica_bathcloth1_sleep4_eveningnight_overlay":(592,958,809,1282),
-    "monicahome_livingroom_monica_bathnude_1":(233,854,915,1348),
-    "monicahome_livingroom_monica_bathnude_1_evening":(259,1025,909,1338),
-    "monicahome_livingroom_monica_bathnude_1_evening_overlay":(638,1000,972,1382),
-    "monicahome_livingroom_monica_bathnude_1_overlay":(671,818,990,1414),
-    "monicahome_livingroom_monica_bathnude_2":(233,827,942,1133),
-    "monicahome_livingroom_monica_bathnude_2_evening":(231,768,962,1260),
-    "monicahome_livingroom_monica_bathnude_2_evening_overlay":(650,785,1010,1296),
-    "monicahome_livingroom_monica_bathnude_2_overlay":(669,779,989,1173),
+    "monicahome_livingroom_monica_bathcloth1_3":(233,854,915,1348),
+    "monicahome_livingroom_monica_bathcloth1_3_evening":(259,1025,909,1338),
+    "monicahome_livingroom_monica_bathcloth1_3_evening_overlay":(638,1000,972,1382),
+    "monicahome_livingroom_monica_bathcloth1_3_overlay":(671,818,990,1414),
+    "monicahome_livingroom_monica_bathcloth1_4":(233,827,942,1133),
+    "monicahome_livingroom_monica_bathcloth1_4_evening":(231,768,962,1260),
+    "monicahome_livingroom_monica_bathcloth1_4_evening_overlay":(650,785,1010,1296),
+    "monicahome_livingroom_monica_bathcloth1_4_overlay":(669,779,989,1173),
     "monicahome_livingroom_monica_homecloth4_1":(183,528,1053,724),
     "monicahome_livingroom_monica_homecloth4_1_evening":(204,627,1038,863),
     "monicahome_livingroom_monica_homecloth4_1_evening_overlay":(941,598,1079,1005),
@@ -3237,7 +3237,8 @@ define offsets_table = {
     "rich_hotel_reception_monica1_escortdress1":(219,905,845,1070),
     "rich_hotel_reception_monica1_escortdress1_overlay":(740,849,879,1033),
     "rich_hotel_reception_teleport_lift":(188,1236,628,1402),
-    "rich_hotel_reception_teleport_restaurant2":(61,1363,739,1558)
+    "rich_hotel_reception_teleport_restaurant2":(61,1363,739,1558),
+    "monicahome_livingroom_cocktailnight":(563,1422,651,1489)
 }
 
 init python:

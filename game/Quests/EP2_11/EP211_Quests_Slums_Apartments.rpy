@@ -1,0 +1,262 @@
+default slumsApartmentsMiniMapActive = False
+default slumsDirtyStreetMiniMapActive = True
+
+default slumsEnterClothStored = False
+default slumsEnterClothTypeStored = False
+
+default monicaHasWhoreOutfit1 = True
+
+default monicaSlumsApartmentsCocktailDrinked = 0
+
+label ep211_quests_slums_apartments1_init:
+    call locations_init_monicahome()
+    call hostel_street_init2()
+    $ slumsApartmentsMiniMapActive = True
+    $ slumsDirtyStreetMiniMapActive = False
+    $ map_objects["Teleport_Slums_Apartments"] = {"text" : _("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
+    $ add_hook("HomeEnter", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label="monica_apartments_enter")
+    $ add_hook("MonicaWindow", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label=["monica_apartments_enter", "monica_apartments_enter_window"])
+    $ add_hook("Teleport_Street", "ep211_quests_slums_apartments3_check_exit_door", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="monica_apartments_exit")
+    $ add_hook("before_open", "ep211_quests_slums_apartments4_monica_suffix", scene="street_monicahome", quest="monica_apartments", label="monica_apartments_street_enter_check")
+
+    $ add_hook("Street_MonicaHome_TeleportSlums", "ep22_dialogue1_3_slums", scene="street_monicahome", quest="monica_apartments", label="monica_governess_outfit_restrictions")
+    $ add_hook("Street_MonicaHome_TeleportSlums", "dialogue_classmate_3_1_1a", scene="street_monicahome", quest="monica_apartments", label="school_outfit_slums_forbidden")
+    $ add_hook("Street_MonicaHome_TeleportSlums", "ep25_quests4", scene="street_monicahome", quest="monica_apartments", label="casual_dress_slums_forbidden", priority=900)
+    $ add_hook("slums_apartments_check_exit_wardrobe", "ep211_quests_slums_apartments3_check_exit_wardrobe", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="slums_apartments_check_exit_wardrobe")
+    $ move_object("Shawarma_Trader", "whores_place_shawarma")
+    call ep211_quests_slums_apartments1_initb()
+    return
+
+label ep211_quests_slums_apartments1_initb:
+    $ add_hook("Cocktail", "ep211_quests_slums_apartments5_cocktail", scene="monicahome_livingroom", quest="monica_apartments", label="slums_apartments_cocktail")
+    $ add_hook("Chair1", "ep211_quests_slums_apartments6_chair", scene="monicahome_livingroom", quest="monica_apartments", label="slums_apartments_chair")
+    $ add_hook("Bed1", "slums_basement_bed", scene="monicahome_livingroom", quest="monica_apartments", label="slums_apartments_bed")
+    $ add_hook("Kitchen_Items1", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Items2", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Items3", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Items4", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Items5", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Items6", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Kitchen_Table1", "slums_basement_kitchen_eat", scene="monicahome_kitchen", quest="monica_apartments", label="slums_apartments_kitchen")
+    $ add_hook("Toilet", "ep211_quests_slums_apartments7_piss", scene="monicahome_bathroom", quest="monica_apartments", label="slums_apartments_piss")
+    $ add_hook("Shower", "ep211_quests_slums_apartments8_shower", scene="monicahome_bathroom", quest="monica_apartments", label="slums_apartments_shower")
+
+    $ add_hook("change_time_day_slums_apartments", "citizens_init_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Bardie_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Betty_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Ralph_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Fred_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Biff_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Melanie_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Dick_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "ep22_quests_falling_path2", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Pub_Life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "office_life_day", scene="global")
+    $ add_hook("change_time_day_slums_apartments", "Steve_Life_day", scene="global")
+
+    $ add_hook("change_time_evening_slums_apartments", "citizens_init_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Bardie_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Betty_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Ralph_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Fred_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Biff_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Melanie_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Dick_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Pub_Life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "office_life_evening", scene="global")
+    $ add_hook("change_time_evening_slums_apartments", "Steve_Life_evening", scene="global")
+
+    $ add_hook("slums_apartments_monica_after_nap", "slums_basement_monica_after_nap", scene="global")
+    $ add_hook("slums_basement_monica_after_nap_dialogue", "slums_basement_monica_after_nap_dialogue1", scene="global")
+
+    $ add_hook("slums_apartments_monica_after_sleep", "slums_basement_monica_after_sleep", scene="global")
+    $ add_hook("slums_basement_monica_after_sleep_dialogue", "slums_basement_monica_after_sleep_dialogue1", scene="global")
+    return
+
+label ep211_quests_slums_apartments2_check_enter:
+    if act=="l":
+        return
+    if cloth != "HomeCloth4":
+        $ slumsEnterClothStored = cloth
+        $ slumsEnterClothTypeStored = cloth_type
+        sound snd_fabric1
+        $ cloth = "HomeCloth4"
+        $ cloth_type = "HomeCloth"
+    return
+
+label ep211_quests_slums_apartments2_check_enter_minimap:
+    if cloth != "HomeCloth4":
+        $ slumsEnterClothStored = cloth
+        $ slumsEnterClothTypeStored = cloth_type
+        sound snd_fabric1
+        $ cloth = "HomeCloth4"
+        $ cloth_type = "HomeCloth"
+    return
+
+label ep211_quests_slums_apartments2_check_enter_minimap_bathroom:
+    call ep211_quests_slums_apartments2_check_enter_minimap()
+    if _return == False:
+        return False
+    if scene_name == "street_monicahome":
+        $ monicaHomeBathroomMonicaSuffix = 1
+    call change_scene("monicahome_bathroom", "Fade")
+    return
+label ep211_quests_slums_apartments2_check_enter_minimap_kitchen:
+    call ep211_quests_slums_apartments2_check_enter_minimap()
+    if _return == False:
+        return False
+    if scene_name == "street_monicahome":
+        $ monicaHomeKitchenMonicaSuffix = 1
+    call change_scene("monicahome_kitchen", "Fade")
+    return
+label ep211_quests_slums_apartments2_check_enter_minimap_livingroom:
+    call ep211_quests_slums_apartments2_check_enter_minimap()
+    if _return == False:
+        return False
+    if scene_name == "street_monicahome":
+        $ monicaHomeLivingRoomMonicaSuffix = 1
+    call change_scene("monicahome_livingroom", "Fade")
+    return
+label ep211_quests_slums_apartments2_check_enter_minimap_livingroomwardrobe:
+    call ep211_quests_slums_apartments2_check_enter_minimap()
+    if _return == False:
+        return False
+    if scene_name == "street_monicahome":
+        $ monicaHomeLivingRoomWardrobeMonicaSuffix = 1
+    call change_scene("monicahome_livingroomwardrobe", "Fade")
+    return
+
+
+label ep211_quests_slums_apartments3_check_exit_minimap:
+    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+    if _return == False:
+        return False
+    call change_scene("street_monicahome", "Fade")
+    $ streetMonicaHomeMonicaSuffix = 2
+    return
+
+
+label ep211_quests_slums_apartments3_check_exit_door:
+    if act=="l":
+        return
+    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+    if _return == False:
+        return False
+    return
+
+label ep211_quests_slums_apartments3_check_exit_wardrobe:
+    if cloth_type == "HomeCloth":
+        sound2 snd_fabric1
+        $ cloth = slumsEnterClothStored
+        $ cloth_type = slumsEnterClothTypeStored
+    $ streetMonicaHomeMonicaSuffix = 2
+    return True
+
+label ep211_quests_slums_apartments4_monica_suffix:
+    if lastSceneName != "monicahome_livingroom" and lastSceneName != "monicahome_livingroomwardrobe" and lastSceneName != "monicahome_kitchen" and lastSceneName != "monicahome_bathroom":
+        $ streetMonicaHomeMonicaSuffix = 1
+    return
+
+label ep211_quests_slums_apartments5_cocktail:
+    if act=="l":
+        return
+    call ep211_dialogues6_slum_apartment_8n()
+    $ monicaSlumsApartmentsCocktailDrinked += 1
+    $ set_active("Cocktail", False, scene="monicahome_livingroom")
+    call refresh_scene_fade()
+    return False
+
+label ep211_quests_slums_apartments6_chair:
+    if act=="l":
+        return
+    $ monicaHomeLivingRoomMonicaSuffix = 5
+    $ autorun_to_object("ep211_dialogues6_slum_apartment_35", scene="monicahome_livingroom")
+    call refresh_scene("Dissolve_05")
+    return False
+
+label ep211_quests_slums_apartments7_piss:
+    if act=="l":
+        return
+    if monicaLastPissedDay == day and monicaLastPissedDayTime == day_time:
+        mt "Я уже писала недавно. Я пока не хочу."
+        return
+    $ store_music()
+    music stop
+    if cloth == "HomeCloth4":
+        $ toilet_images = ["23617", "23618", "23619", "23620", "23621"]
+        $ images = random.sample(set(toilet_images), 3)
+    if cloth == "BathCloth1":
+        $ toilet_images = ["23612", "23613", "23614", "23615", "23616"]
+        $ images = random.sample(set(toilet_images), 3)
+
+    img images[0]
+    with fade
+    w
+    sound snd_piss
+    img images[1]
+    with diss
+    w
+    img images[2]
+    with diss
+    $ rnd = rand(1,3)
+    if rnd == 1:
+        mt "Фи! Никогда бы не подумала, что моя попа будет прикасаться к такому ужасному унитазу!"
+    if rnd == 2:
+        mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
+    if rnd == 3:
+        mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
+
+    $ monicaLastPissedDay = day
+    $ monicaLastPissedDayTime = day_time
+    $ restore_music()
+    call refresh_scene_fade()
+
+    return False
+
+label ep211_quests_slums_apartments8_shower:
+    if act=="l":
+        return
+    if monicaLastShowerDay == day and monicaLastShowerDayTime == day_time:
+        mt "Я уже принимала душ недавно..."
+        return
+    $ store_music()
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music snd_shower2
+
+    $ shower_images = ["23623", "23624", "23625", "23626", "23627", "23628", "23629", "23631", "23632", "23633"]
+    $ images = random.sample(set(shower_images), 5)
+
+    img images[0]
+    with fade
+    w
+    img images[1]
+    with diss
+    $ rnd = rand(1,3)
+    if rnd == 1:
+        mt "Я вынуждена мыть свое прекрасное тело в этом жалком подобии душа!"
+    if rnd == 2:
+        mt "Какой идиот придумал сделать душ из куска ржавой трубы?!"
+    if rnd == 3:
+        mt "По крайней мере, здесь есть горячая вода..."
+    img images[2]
+    with diss
+    w
+    img images[3]
+    with diss
+    w
+    img images[4]
+    with diss
+    w
+    $ cloth = "BathCloth1"
+    $ cloth_type = "HomeCloth"
+    $ monicaHomeBathroomMonicaSuffix = 2
+    $ autorun_to_object("ep211_dialogues6_slum_apartment_34_after_shower", scene="monicahome_bathroom")
+    $ monicaLastShowerDay = day
+    $ monicaLastShowerDayTime = day_time
+    $ restore_music()
+    call refresh_scene_fade()
+
+    return False

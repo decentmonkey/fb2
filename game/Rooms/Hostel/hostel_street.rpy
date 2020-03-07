@@ -41,7 +41,18 @@ label hostel_street_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+label hostel_street_init2:
+    $ add_object_to_scene("Teleport_Slums_Apartments", {"type":3, "text" : _("ДОМ В ТРУЩОБАХ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "hostel_street_teleport", "xpos" : 220, "ypos" : 545, "zorder":3, "teleport":True}, scene="hostel_street")
+    return
+
 label hostel_street_teleport:
+    if obj_name == "Teleport_Slums_Apartments":
+        if cloth_type == "Nude":
+            call change_scene("street_monicahome", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("street_monicahome", "Fade", "highheels_run2")
+        return
+
     if obj_name == "Teleport_Hostel_Edge_C":
         if cloth_type == "Nude":
             call change_scene("hostel_edge_1_c", "Fade", "snd_walk_barefoot") from _call_change_scene_47

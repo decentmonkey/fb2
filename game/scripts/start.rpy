@@ -66,7 +66,7 @@ label start:
 
 ###################
 
-#    call intro_questions() from _call_intro_questions #debug !!!
+    call intro_questions() from _call_intro_questions #debug !!!
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
@@ -278,24 +278,24 @@ label start_game:
     $ ep27_quests_initialized = True
     $ ep29_quests_initialized = True
     $ ep210_quests_load_init_flag = True
-    $ ep211_quests_load_init_flag = True 
+    $ ep211_quests_load_init_flag = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
 
-    $ cloth = "CasualDress1"
-    $ cloth_type = "CasualDress"
-    $ day_time = "evening"
-    $ day_suffix = "_Evening"
-    call locations_init_monicahome()
-    call locations_init_juliahome()
-    call locations_init_public_event2()
-    call locations_init_rich_hotel_restaurant2()
-    call locations_init_rich_hotel_restaurant()
-    call rich_hotel_reception_init2()
-    call rich_hotel_reception_init3()
-    call change_scene("rich_hotel_reception") #debug !!!!!
-    jump show_scene
+#    $ cloth = "CasualDress1"
+#    $ cloth_type = "CasualDress"
+#    $ day_time = "evening"
+#    $ day_suffix = "_Evening"
+#    call locations_init_monicahome()
+#    call locations_init_juliahome()
+#    call locations_init_public_event2()
+#    call locations_init_rich_hotel_restaurant2()
+#    call locations_init_rich_hotel_restaurant()
+#    call rich_hotel_reception_init2()
+#    call rich_hotel_reception_init3()
+#    call change_scene("rich_hotel_reception") #debug !!!!!
+#    jump show_scene
 #    $ renpy.pause(100, hard=True)
 
 #    $ autorun_to_object("intro_scene", "intro_scene_start")

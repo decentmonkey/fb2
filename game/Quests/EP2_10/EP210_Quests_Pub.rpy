@@ -204,6 +204,7 @@ label ep210_quests_pub8_ashley_panties: # Молли смеется Монике
     if cloth == "Whore" and ep29_quests_molly_fall_panties_completed == True:
         $ remove_hook()
         call ep210_dialogues4_dance_strip_14()
+        $ ep29_quests_molly_fall_panties_planned0 = False
     return
 
 label ep210_quests_pub8_claire_panties:

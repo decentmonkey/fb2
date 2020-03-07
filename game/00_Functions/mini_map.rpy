@@ -72,11 +72,14 @@ label miniMapHostelGenerate:
 #    $ miniMapData.append({"name":"Hostel_Edge_1_c", "caption":_("BLIND ALLEY"), "img":"Hostel_Edge_1_c_Map", "teleport_scene":"enter_hostel_edge_1_c", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Street_Whores_Place_Shawarma", "caption":_("Shawarma"), "img":"Street_Whores_Place_Shawarma_Map", "teleport_scene":"whores_place_shawarma", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Street_Whores_Place_Whores", "caption":_("Whores place"), "img":"Street_Whores_Place_Whores_Map", "teleport_scene":"whores_place", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Street_Whores_Street1", "caption":_("Dirty street"), "img":"Street_Whores_Street1_Map", "teleport_scene":"whores_place_street1", "teleport_type":"scene"})
+    if slumsDirtyStreetMiniMapActive == True:
+        $ miniMapData.append({"name":"Street_Whores_Street1", "caption":_("Dirty street"), "img":"Street_Whores_Street1_Map", "teleport_scene":"whores_place_street1", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Street_Whores_Place_Car_Stop", "caption":_("Street Edge"), "img":"Street_Whores_Place_Car_Stop_Map", "teleport_scene":"street_corner", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Hostel_Street3", "caption":_("POOR STREET"), "img":"Hostel_Street3_Map", "teleport_scene":"hostel_street3", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Hostel_Street2", "caption":_("DIRTY STREET"), "img":"Hostel_Street2_Map", "teleport_scene":"hostel_street2", "teleport_type":"scene"})
     $ miniMapData.append({"name":"Hostel_Street", "caption":_("HOSTEL STREET"), "img":"Hostel_Street_Map", "teleport_scene":"hostel_street", "teleport_type":"scene"})
+    if slumsApartmentsMiniMapActive == True:
+        $ miniMapData.append({"name":"Slums_Apartments", "caption":_("OLD HOUSE"), "img":"MonicaHome_Street_Map", "teleport_scene":"street_monicahome", "teleport_type":"scene"})
     return
 
 label miniMapOfficeGenerate:
@@ -92,6 +95,32 @@ label miniMapOfficeGenerate:
     $ miniMapData.append({"name":"Office_PhotoStudio", "caption":_("Photo Studiio"), "img":"Office_Monica_PhotoStudio", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_photostudio", "teleport_type":"function"})
     $ miniMapData.append({"name":"Office_Monica_Secretary", "caption":_("Secretary"), "img":"Office_Monica_Secretary", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_secretary", "teleport_type":"function"})
     $ miniMapData.append({"name":"Office_Entrance", "caption":_("Entrance"), "img":"Office_Entrance_Monica", "teleport_scene":"office_work_minimap_teleport", "teleport_scene_name":"monica_office_entrance", "teleport_type":"function"})
+    return
+
+label miniMapSlumsApartmentsGenerate:
+    $ miniMapOpened = False
+    $ miniMapOpenButtonImg = "Open_Button_Slumps_Apratments_Map1"
+    $ miniMapOpenButtonImg2 = "Open_Button_Slumps_Apratments_Map2"
+    $ miniMapData = []
+    $ miniMapData.append({"name":"MonicaHome_Bathroom", "caption":_("ВАННАЯ КОМНАТА"), "img":"MonicaHome_Bathroom_Map", "teleport_scene":"ep211_quests_slums_apartments2_check_enter_minimap_bathroom", "teleport_type":"function"})
+    $ miniMapData.append({"name":"MonicaHome_Kitchen", "caption":_("КУХНЯ"), "img":"MonicaHome_Kitchen_Map", "teleport_scene":"ep211_quests_slums_apartments2_check_enter_minimap_kitchen", "teleport_type":"function"})
+    $ miniMapData.append({"name":"MonicaHome_LivingRoom", "caption":_("СПАЛЬНЯ"), "img":"MonicaHome_LivingRoom_Map", "teleport_scene":"ep211_quests_slums_apartments2_check_enter_minimap_livingroom", "teleport_type":"function"})
+    $ miniMapData.append({"name":"MonicaHome_LivingRoomWardrobe", "caption":_("ГАРДЕРОБ"), "img":"MonicaHome_LivingRoomWardrobe_Map", "teleport_scene":"ep211_quests_slums_apartments2_check_enter_minimap_livingroomwardrobe", "teleport_type":"function"})
+    $ miniMapData.append({"name":"MonicaHome_Street", "caption":_("УЛИЦА"), "img":"MonicaHome_Street_Map", "teleport_scene":"ep211_quests_slums_apartments3_check_exit_minimap", "teleport_type":"function"})
+    return
+
+
+#    $ miniMapData.append({"name":"Hostel_Edge_1_c", "caption":_("BLIND ALLEY"), "img":"Hostel_Edge_1_c_Map", "teleport_scene":"enter_hostel_edge_1_c", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Street_Whores_Place_Shawarma", "caption":_("Shawarma"), "img":"Street_Whores_Place_Shawarma_Map", "teleport_scene":"whores_place_shawarma", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Street_Whores_Place_Whores", "caption":_("Whores place"), "img":"Street_Whores_Place_Whores_Map", "teleport_scene":"whores_place", "teleport_type":"scene"})
+    if slumsDirtyStreetMiniMapActive == True:
+        $ miniMapData.append({"name":"Street_Whores_Street1", "caption":_("Dirty street"), "img":"Street_Whores_Street1_Map", "teleport_scene":"whores_place_street1", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Street_Whores_Place_Car_Stop", "caption":_("Street Edge"), "img":"Street_Whores_Place_Car_Stop_Map", "teleport_scene":"street_corner", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Hostel_Street3", "caption":_("POOR STREET"), "img":"Hostel_Street3_Map", "teleport_scene":"hostel_street3", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Hostel_Street2", "caption":_("DIRTY STREET"), "img":"Hostel_Street2_Map", "teleport_scene":"hostel_street2", "teleport_type":"scene"})
+    $ miniMapData.append({"name":"Hostel_Street", "caption":_("HOSTEL STREET"), "img":"Hostel_Street_Map", "teleport_scene":"hostel_street", "teleport_type":"scene"})
+    if slumsApartmentsMiniMapActive == True:
+        $ miniMapData.append({"name":"Slums_Apartments", "caption":_("OLD HOUSE"), "img":"MonicaHome_Street_Map", "teleport_scene":"street_monicahome", "teleport_type":"scene"})
     return
 
 

@@ -4,6 +4,7 @@ default streetMonicaHomeJackSuffix = 1
 label street_monicahome:
     $ print "enter_street_monicahome"
     $ miniMapData = []
+    call miniMapSlumsApartmentsGenerate()
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Street_MonicaHome[day_suffix]"
@@ -36,12 +37,17 @@ label street_monicahome_init:
 
 label street_monicahome_teleport:
     if obj_name == "Street_MonicaHome_TeleportSlums":
-        call change_scene("", "Fade", "highheels_run2")
+        if cloth_type == "Nude":
+            call change_scene("hostel_street", "Fade", "snd_walk_barefoot")
+            return
+        call change_scene("hostel_street", "Fade", "highheels_run2")
         return
     if obj_name == "HomeEnter":
         if act=="l":
             call ep211_dialogues6_slum_apartment_4()
             return
+        call change_scene("monicahome_livingroom")
+        return
     if obj_name == "MonicaWindow":
         if act=="l":
             call ep211_dialogues6_slum_apartment_22()
