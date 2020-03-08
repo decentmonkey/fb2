@@ -10,7 +10,7 @@ default monicaAshleyTalkedAboutSharingTips = False
 default monicaAshleyTalkedAboutSharingTipsDay = 0
 default monicaDancingStage = 0 # 0 - корсет (1..3), 1 - топлесс (4..6), 2 - топлесс (7..9)
 default monicaDancingInProgress = False
-default monicaStartedStripDanceFlag = True
+default monicaStartedStripDanceFlag = False
 default monicaDanceStartHookInited = False
 
 label pub_dance_movegirls_to_makeuproom:
