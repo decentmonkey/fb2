@@ -27,6 +27,9 @@ label pub:
     $ pubStripteaseGirl1Suffix = rand(1,4)
     $ pubStripteaseGirl2Suffix = rand(1,4)
 
+    if slumsApartmentsCheckInitialized == False:
+        call ep211_quests_slums_apartments0_init()
+
     if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False or get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
         music RocknRoll_loop
     else:
