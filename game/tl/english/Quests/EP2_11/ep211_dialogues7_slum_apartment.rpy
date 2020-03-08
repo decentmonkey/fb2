@@ -2962,3 +2962,35 @@ translate english strings:
     old "Разговор..."
     new "Talk..."
 
+# TODO: Translation updated at 2020-03-08 19:33
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1050
+translate english ep211_dialogues6_slum_apartment_10_loop1_e2abff71:
+
+    # shawarma "Отлично, Мадаме! Джек очень рад!"
+    # shawarma "Джек придет в {c}следующий суббота утро{/c}!"
+    # shawarma "И Мадаме может не сомневаться!"
+    shawarma "Great, Madame! Jack is very happy!"
+    shawarma "Jack will come on {c} next Saturday afternoon{/c}!"
+    shawarma "And Madame can be sure!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1316
+translate english ep211_dialogues6_slum_apartment_11_2b054692:
+
+    # shawarma "Мадаме, мне никто не доставлял большего наслаждения, чем Вы!!!"
+    # shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 10 процент!"
+    shawarma "Madame, no one gave me more pleasure than you !!!"
+    shawarma "Jack keep his word and make Madame a 10 percent discount!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1319
+translate english ep211_dialogues6_slum_apartment_11_e612037c:
+
+    # m "..."
+    m "..."
+
+translate english strings:
+
+    # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:900
+    old "Скидка 10 процентов. (in Extra version) (disabled)"
+    new "10 percent discount. (in Extra version) (disabled)"
+

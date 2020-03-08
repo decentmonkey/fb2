@@ -2962,3 +2962,35 @@ translate german strings:
     old "Разговор..."
     new "Разговор..."
 
+# TODO: Translation updated at 2020-03-08 19:29
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1050
+translate german ep211_dialogues6_slum_apartment_10_loop1_e2abff71:
+
+    # shawarma "Отлично, Мадаме! Джек очень рад!"
+    # shawarma "Джек придет в {c}следующий суббота утро{/c}!"
+    # shawarma "И Мадаме может не сомневаться!"
+    shawarma "Отлично, Мадаме! Джек очень рад!"
+    shawarma "Джек придет в {c}следующий суббота утро{/c}!"
+    shawarma "И Мадаме может не сомневаться!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1316
+translate german ep211_dialogues6_slum_apartment_11_2b054692:
+
+    # shawarma "Мадаме, мне никто не доставлял большего наслаждения, чем Вы!!!"
+    # shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 10 процент!"
+    shawarma "Мадаме, мне никто не доставлял большего наслаждения, чем Вы!!!"
+    shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 10 процент!"
+
+# game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1319
+translate german ep211_dialogues6_slum_apartment_11_e612037c:
+
+    # m "..."
+    m "..."
+
+translate german strings:
+
+    # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:900
+    old "Скидка 10 процентов. (in Extra version) (disabled)"
+    new "Скидка 10 процентов. (in Extra version) (disabled)"
+

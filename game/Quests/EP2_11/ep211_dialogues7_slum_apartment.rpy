@@ -1904,9 +1904,9 @@ label ep211_dialogues6_slum_apartment_36:
 
 label ep211_dialogues6_slum_apartment_37:
     if cloth == "HomeCloth4":
-        img 23608
-    if cloth == "BathCloth1":
         img 23610
+    if cloth == "BathCloth1":
+        img 23608
     with fade
     mt "Я сегодня уже ела..."
     return
