@@ -2433,6 +2433,7 @@ label dialogue_classmate_8_2:
     scene black_screen
     with Dissolve(1)
     # в кабинет к Эдвардсу заходит мисс Мэнсфилд, в руках нагайка, учитель вскакивает со своего стула, широко улыбается
+    music stop
     music Groove2_85
     img 22558
     with fadelong
