@@ -203,7 +203,7 @@ label ep210_dialogues6_gun_monica_fred_1d:
     $ renpy.pause(4.0, hard=True)
     img black_screen
     with Dissolve(2.0)
-    call textonblack("FASHION BUSINESS")
+    call textonblack("FASHION BUSINESS") from _call_textonblack_51
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)

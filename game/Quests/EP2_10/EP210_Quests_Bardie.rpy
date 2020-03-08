@@ -16,7 +16,7 @@ label ep210_quests_bardie1:
     if ep210_quests_bardie_day == day or day_time != "evening":
         return
     $ remove_hook()
-    call ep210_dialogues3_bardie_erik_betty_1()
+    call ep210_dialogues3_bardie_erik_betty_1() from _call_ep210_dialogues3_bardie_erik_betty_1
     $ autorun_to_object("ep210_dialogues3_bardie_erik_betty_1a", scene="basement_laundry")
     $ add_hook("exit_scene", "ep210_quests_bardie2", scene="basement_laundry", label="ep210_quests_bardie")
     return
@@ -24,7 +24,7 @@ label ep210_quests_bardie1:
 
 label ep210_quests_bardie2:
     # Моника уходит из прачечной
-    call ep210_dialogues3_bardie_erik_betty_2()
+    call ep210_dialogues3_bardie_erik_betty_2() from _call_ep210_dialogues3_bardie_erik_betty_2
     $ ep210_quests_erik_jerk_betty_panties = True
     $ remove_hook()
     return

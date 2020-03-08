@@ -7,7 +7,7 @@ default ep22_quests_monica_presentation_completed = False
 default ep22_quests_monica_presentation_completed_day = -1
 
 label ep22_quests_biff_init:
-    call ep210_dialogues1_office_biff_1()
+    call ep210_dialogues1_office_biff_1() from _call_ep210_dialogues1_office_biff_1
     if _return == False:
         return
     $ ep22_quests_monica_agreed_change_cloth = True
@@ -24,14 +24,14 @@ label ep22_quests_biff1:
     if act=="l":
         return
     if ep22_quests_biff1_day == day:
-        call ep210_dialogues1_office_biff_2b()
-        call change_scene("monica_office_cabinet")
+        call ep210_dialogues1_office_biff_2b() from _call_ep210_dialogues1_office_biff_2b
+        call change_scene("monica_office_cabinet") from _call_change_scene_489
         return False
     $ remove_objective("visit_biff_tomorrow")
     $ remove_hook(label="ep22_quests_biff1_exit") # Разблокируем выход независимо от результата разговора
-    call ep210_dialogues1_office_biff_3()
+    call ep210_dialogues1_office_biff_3() from _call_ep210_dialogues1_office_biff_3
     if _return == False:
-        call change_scene("monica_office_cabinet")
+        call change_scene("monica_office_cabinet") from _call_change_scene_490
         return False
 
     $ ep22_quests_biff2_day = day
@@ -41,7 +41,7 @@ label ep22_quests_biff1:
     $ add_hook("Teleport_Street_Monica_Office", "ep210_dialogues1_office_biff_3a", scene="monica_office_entrance", label=["ep22_quests_biff2_exit", "ep22_quests_biff2"])
 
     $ remove_hook(label="ep22_quests_biff1")
-    call change_scene("monica_office_cabinet")
+    call change_scene("monica_office_cabinet") from _call_change_scene_491
     return False
 
 label ep22_quests_biff1_secretary: # После переодевания Моника подходит к секретарше
@@ -49,7 +49,7 @@ label ep22_quests_biff1_secretary: # После переодевания Мон�
         return
     $ remove_hook()
     if day - ep22_quests_biff1_day < 3: # Подошла к ней в ближайшие дни
-        call ep210_dialogues1_office_biff_2()
+        call ep210_dialogues1_office_biff_2() from _call_ep210_dialogues1_office_biff_2
     return False
 
 
@@ -57,8 +57,8 @@ label ep22_quests_biff2:
     # Третий день (презентация)
     if ep22_quests_biff2_day == day or get_active_objects("Biff", scene="monica_office_cabinet") == False:
         return
-    call ep210_dialogues1_office_biff_4()
-    call ep210_dialogues1_office_biff_5() # Разговор с Бифом
+    call ep210_dialogues1_office_biff_4() from _call_ep210_dialogues1_office_biff_4
+    call ep210_dialogues1_office_biff_5() from _call_ep210_dialogues1_office_biff_5 # Разговор с Бифом
     $ ep22_quests_monica_presentation_completed = True
     $ ep22_quests_monica_presentation_completed_day = day
     $ biffLevel3Opened = True
@@ -66,7 +66,7 @@ label ep22_quests_biff2:
     $ add_char_progress("Biff", 10, "ep22_quests_monica_presentation_completed")
     $ char_info["Biff"]["enabled"] = True
     $ char_info["Biff"]["caption"] = _("Мне надо развлекать этого мерзавца, чтобы он меня не выгнал с работы...")
-    call change_scene("monica_office_secretary", "Fade_long")
+    call change_scene("monica_office_secretary", "Fade_long") from _call_change_scene_492
     $ remove_hook(label="ep22_quests_biff2")
     return False
 

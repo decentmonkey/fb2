@@ -259,7 +259,7 @@ label ep210_dialogues7_escort_hotel_2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя..."))
+    call textonblack(_("Минуту спустя...")) from _call_textonblack_77
     img black_screen
     sound highheels_short_walk
     with Dissolve(2.0)
@@ -696,7 +696,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption1]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -753,7 +753,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption2]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1_1
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -781,7 +781,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption3]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1_2
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -802,7 +802,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption4]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1_3
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -833,7 +833,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption5]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1_4
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -861,7 +861,7 @@ label ep210_dialogues7_escort_hotel_6:
     $ menu_corruption = [0, monicaReceptionConversationCorruption6]
     menu:
         "Пошла она к черту!":
-            call ep210_dialogues7_escort_hotel_5_1()
+            call ep210_dialogues7_escort_hotel_5_1() from _call_ep210_dialogues7_escort_hotel_5_1_5
             return False
         "Сказать то, что требует администратор.":
             $ monicaHotelAdminAgreement1 = True # # Моника согласилась с требованиями админа (начало эскорта)
@@ -906,7 +906,7 @@ label ep210_dialogues7_escort_hotel_7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _call_textonblack_78
     img black_screen
     with Dissolve(2.0)
     music Groove2_85

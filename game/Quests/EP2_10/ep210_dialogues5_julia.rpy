@@ -387,7 +387,7 @@ label ep210_dialogues5_julia_3:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_71
     img black_screen
     with Dissolve(1)
     sound highheels_short_walk

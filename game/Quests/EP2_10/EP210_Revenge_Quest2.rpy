@@ -30,7 +30,7 @@ label ep210_revenge_quest2:
     $ scenes_data["hooks"]["global"]["basement_monica_before_sleep"] = []
 
     $ autorun_to_object("ep210_dialogues6_gun_monica_fred_1a", scene="basement_bedroom2")
-    call change_scene("basement_bedroom2")
+    call change_scene("basement_bedroom2") from _call_change_scene_501
 
     return
 
@@ -38,12 +38,12 @@ label ep210_revenge_quest2_block_daytime_hooks: # Блокируем событ�
     return False
 
 label ep210_revenge_quest2_block_exit_evening: # Не даем выйти из спальни
-    call ep210_dialogues6_gun_monica_fred_1a()
+    call ep210_dialogues6_gun_monica_fred_1a() from _call_ep210_dialogues6_gun_monica_fred_1a
     return False
 
 label ep210_revenge_quest3_morning_comment:
     $ remove_hook()
-    call ep210_dialogues6_gun_monica_fred_1b()
+    call ep210_dialogues6_gun_monica_fred_1b() from _call_ep210_dialogues6_gun_monica_fred_1b
     $ add_hook("BasementBed", "ep210_dialogues6_gun_monica_fred_1c_false", scene="basement_bedroom2", label="ep210_revenge_quest3_block")
     $ miniMapEnabledOnly = ["Basement", "Street_Yard"]
     $ move_object("Driver", "street_house_main_yard")
@@ -52,26 +52,26 @@ label ep210_revenge_quest3_morning_comment:
     $ questLog(65, True)
     $ add_objective("find_fred", _("Идти к Фреду"), c_red, 105)
     $ autorun_to_object("ep210_dialogues6_gun_monica_fred_1c", scene="bedroom2")
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _call_refresh_scene_fade_long_42
     return False
 
 label ep210_revenge_quest3_teleport_yard:
-    call change_scene("street_house_main_yard", "Fade_long")
+    call change_scene("street_house_main_yard", "Fade_long") from _call_change_scene_502
     return False
 
 label ep210_revenge_quest3_teleport_bedroom:
-    call change_scene("basement_bedroom2", "Fade_long")
+    call change_scene("basement_bedroom2", "Fade_long") from _call_change_scene_503
     return False
 
 label ep210_revenge_quest3_fred: # Диалог с Фредом
     if act=="l":
-        call ep210_dialogues6_gun_monica_fred_1d()
+        call ep210_dialogues6_gun_monica_fred_1d() from _call_ep210_dialogues6_gun_monica_fred_1d
         return False
     if cloth != "Governess":
-        call change_scene("basement_bedroom1", "Fade_long", False)
-        call wardrobePutGovernessWithoutPanties()
+        call change_scene("basement_bedroom1", "Fade_long", False) from _call_change_scene_504
+        call wardrobePutGovernessWithoutPanties() from _call_wardrobePutGovernessWithoutPanties_3
         return False
 
-    call ep210_dialogues6_gun_monica_fred_1d()
+    call ep210_dialogues6_gun_monica_fred_1d() from _call_ep210_dialogues6_gun_monica_fred_1d_1
     jump ep211_revenge_quest1
 #    return
