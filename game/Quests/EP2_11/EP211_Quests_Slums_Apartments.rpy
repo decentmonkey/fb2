@@ -18,8 +18,10 @@ label ep211_quests_slums_apartments0_init:
     return
 
 label ep211_quests_slums_apartments0_check:
-    if pubMonicaWorkingWaitress == True:
-        $ remove_hook()
+    if pubMonicaWorkingWaitress != True:
+        return
+    $ remove_hook()
+
     call ep211_dialogues6_slum_apartment_1()
     $ add_objective("ask_kebab", _("Спросить у продавца шавермы про аренду квартиры."), c_blue, 105)
     $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_2", scene="whores_place_shawarma", label="slums_apartments_begin", once=True)
