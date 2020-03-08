@@ -5,6 +5,7 @@ label slums_basement_bed:
         return
     if act == "h":
         $ monicaRestApartments = True
+        $ monicaRestApartmentsDay = day
         $ monicaRestHouse = False
         if day_time == "day":
             call slums_basement_bed_take_nap()
@@ -190,6 +191,8 @@ label slums_basement_monica_after_nap:
     return
 
 label slums_basement_monica_after_nap_dialogue:
+    if scene_name != "monicahome_livingroom":
+        return
     call process_hooks("slums_basement_monica_after_nap_dialogue", "global")
     return
 label slums_basement_monica_after_nap_dialogue1:
@@ -210,6 +213,8 @@ label slums_basement_monica_after_sleep:
     return
 
 label slums_basement_monica_after_sleep_dialogue:
+    if scene_name != "monicahome_livingroom":
+        return
     call process_hooks("slums_basement_monica_after_sleep_dialogue", "global")
     return
 label slums_basement_monica_after_sleep_dialogue1:

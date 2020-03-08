@@ -103,6 +103,7 @@ label ep211_quests_slums_apartments2_check_enter:
         sound snd_fabric1
         $ cloth = "HomeCloth4"
         $ cloth_type = "HomeCloth"
+    sound2 snd_keys_door_open
     return
 
 label ep211_quests_slums_apartments2_check_enter_minimap:
@@ -112,6 +113,7 @@ label ep211_quests_slums_apartments2_check_enter_minimap:
         sound snd_fabric1
         $ cloth = "HomeCloth4"
         $ cloth_type = "HomeCloth"
+    sound2 snd_keys_door_open
     return
 
 label ep211_quests_slums_apartments2_check_enter_minimap_bathroom:
@@ -152,7 +154,7 @@ label ep211_quests_slums_apartments3_check_exit_minimap:
     call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
     if _return == False:
         return False
-    call change_scene("street_monicahome", "Fade")
+    call change_scene("street_monicahome", "Fade", "snd_door_close1")
     $ streetMonicaHomeMonicaSuffix = 2
     return
 
@@ -163,6 +165,7 @@ label ep211_quests_slums_apartments3_check_exit_door:
     call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
     if _return == False:
         return False
+    sound2 snd_door_close1
     return
 
 label ep211_quests_slums_apartments3_check_exit_wardrobe:

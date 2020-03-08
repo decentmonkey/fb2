@@ -2,10 +2,14 @@ default slumsApartmentsStatus = 0
 default slumsApartmentsInited1 = False
 
 default slumsApartmentsRentStarted = False
+default slumsApartmentsRentStartedDay = 0
 default slumsApartmentsRentActive = False
+default slumsApartmentsRentActiveDay = 0
 default slumsApartmentsMonicaKnow = False
 
 default slumsApartmentsSkipFirstSaturdayActive = False
+
+default ep211_slums_apartments_quest5_apartments_block_count = 0
 
 label ep211_slums_apartments_quest1_menu:
     if slumsApartmentsStatus == 0: # Первый разговор
@@ -39,6 +43,28 @@ label ep211_slums_apartments_quest1_menu:
         with diss
         pause 2.0
         call change_scene("street_monicahome", "Fade_long", False)
+        return False
+
+    if slumsApartmentsStatus == 1: # Повторный разговор о заселении
+        call ep211_dialogues6_slum_apartment_17()
+        if _return == 0:
+            return True
+        $ remove_objective("talk_jack")
+        if _return == -1:
+            return False
+        # Запускаем Монику в квартиру
+        $ monicaHomeMiniMapEnabled = True
+        $ slumsApartmentsRentActive = True
+        $ slumsApartmentsRentActiveDay = day
+        $ remove_hook(label="slums_apartments_blocked")
+        $ add_objective("earn_money_rent_apartments", _("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
+        $ slumsApartmentsStatus = 2
+        return False
+
+    if slumsApartmentsStatus == 2:
+        return True
+
+
     return False
 
 label ep211_slums_apartments_quest1_jack:
@@ -51,6 +77,8 @@ label ep211_slums_apartments_quest2_enter_home:
     if act=="l":
         call ep211_dialogues6_slum_apartment_4()
         return False
+    $ slumsEnterClothStored = cloth
+    $ slumsEnterClothTypeStored = cloth_type
     $ set_active("Teleport_Bathroom", False, scene="monicahome_livingroom")
     $ set_active("Teleport_Kitchen", False, scene="monicahome_livingroom")
     $ set_active("Teleport_Wardrobe", False, scene="monicahome_livingroom")
@@ -67,10 +95,11 @@ label ep211_slums_apartments_quest2_enter_home:
 label ep211_slums_apartments_quest3_jack:
     if act=="l":
         return
+    $ define_inventory_object("keys_apartments", {"description" : _("Ключи от дома в трущобах"), "label_suffix" : "_use_keys_apartments", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/keys_apartments" + res.suffix + ".png"})
     call ep211_dialogues6_slum_apartment_6()
     if _return == 0 or _return == -1:
-        if _return == -1:
-            $ slumsApartmentsStatus = 1
+#        if _return == -1:
+#            $ slumsApartmentsStatus = 1
         $ remove_hook(label="jack_apartments1")
         $ del(map_objects["Teleport_Slums_Apartments"])
         $ set_active("Teleport_Slums_Apartments", False, scene="hostel_street")
@@ -82,7 +111,9 @@ label ep211_slums_apartments_quest3_jack:
         return False
     $ slumsApartmentsStatus = 1
     $ slumsApartmentsRentStarted = True
+    $ slumsApartmentsRentStartedDay = day
     $ slumsApartmentsRentActive = True
+    $ slumsApartmentsRentActiveDay = day
     $ questLog(71, True)
     $ add_objective("earn_money_rent_apartments", _("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
     $ remove_hook(label="jack_apartments1")
@@ -96,32 +127,98 @@ label ep211_slums_apartments_quest3_jack:
     $ cloth = "HomeCloth4"
     $ cloth_type = "HomeCloth"
     $ map_enabled = True
+    $ monicaHomeMiniMapEnabled = True
     $ autorun_to_object("ep211_dialogues6_slum_apartment_7", scene="monicahome_livingroom")
-    if week_day > 3:
+    if week_day > 3 and week_day != 7:
         $ slumsApartmentsSkipFirstSaturdayActive = True
+    $ slumsApartmentsStatus = 2
     $ add_hook_day("ep211_slums_apartments_quest4_check_payment", week_day = 6)
+
     call refresh_scene_fade_long()
     return False
 
 
 label ep211_slums_apartments_quest4_check_payment:
+    if slumsApartmentsRentActive == False:
+        return
     if slumsApartmentsSkipFirstSaturdayActive == True:
         $ slumsApartmentsSkipFirstSaturdayActive = False
         return
     if monicaRestApartments == False:
-        $ notif(_("Оплата за апартаменты в трущобах."))
-        $ slumsApartmentsRentActive = True
-        $ add_money(-slumsApartmentsRentPrice)
+        if money >= slumsApartmentsRentPrice:
+            $ notif(_("Оплата за апартаменты в трущобах."))
+            $ slumsApartmentsRentActive = True
+            $ add_money(-slumsApartmentsRentPrice)
+        else:
+            $ notif(_("Оплата за апартаменты в трущобах просрочена!"))
+            $ slumsApartmentsRentActive = False
+            $ monicaHomeMiniMapEnabled = False
+            $ add_hook("HomeEnter", "ep211_slums_apartments_quest5_apartments_block", scene="street_monicahome", label="slums_apartments_blocked")
+            $ add_hook("MonicaWindow", "ep211_slums_apartments_quest5_apartments_block", scene="street_monicahome", label="slums_apartments_blocked")
+            $ slumsApartmentsStatus = 1
+            $ remove_objective("earn_money_rent_apartments")
+        return
     else:
         # сцена оплаты
+        $ cloth = "HomeCloth4"
+        $ cloth_type = "HomeCloth"
         call ep211_dialogues6_slum_apartment_10()
         if _return == -1: # нет денег
-            pass
+            music stop
+            img black_screen
+            with diss
+            sound snd_plates2
+            $ renpy.pause(3.0, hard=True)
+            sound2 snd_door_close1
+            $ move_object("Shawarma_Trader", "monicahome_livingroom") # Продавец у Моники дома
+            # Блокировка до оплаты
+            $ add_hook("HomeEnter", "ep211_slums_apartments_quest5_apartments_block", scene="street_monicahome", label="slums_apartments_blocked")
+            $ add_hook("MonicaWindow", "ep211_slums_apartments_quest5_apartments_block", scene="street_monicahome", label="slums_apartments_blocked")
+            # Блокировка до вечера
+            $ add_hook("HomeEnter", "ep211_dialogues6_slum_apartment_14", scene="street_monicahome", label=["slums_apartments_blocked2", "day_time_temp"])
+            $ add_hook("MonicaWindow", "ep211_dialogues6_slum_apartment_14", scene="street_monicahome", label=["slums_apartments_blocked2", "day_time_temp"])
+
+            $ monicaHomeMiniMapEnabled = False
+            $ slumsApartmentsRentActive = False
+            $ map_enabled = False
+            $ add_hook("exit_scene", "ep211_slums_apartments_quest6_return_jack", scene="street_monicahome", label="slums_apartments_blocked2")
+            $ slumsApartmentsStatus = 1
+            $ remove_objective("earn_money_rent_apartments")
+            $ cloth = slumsEnterClothStored
+            $ cloth_type = slumsEnterClothTypeStored
+            $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_13", scene="street_monicahome", once=True)
+            call change_scene("street_monicahome", "Fade_long")
+            return False
         if _return == 1:
             # оплата полностью
-            pass
+            return
         if _return == 2: #скидка 10%
-            pass
-        m "here"
+            call ep211_dialogues6_slum_apartment_11()
+            $ add_corruption(slumsApartmentsRentPriceDiscount10CorruptionAdd, "slums_apartments_discount_day" + str(day))
+            return
 
+    return
+
+label ep211_slums_apartments_quest5_apartments_block: # В квартиру не зайти
+    $ ep211_slums_apartments_quest5_apartments_block_count += 1
+    if ep211_slums_apartments_quest5_apartments_block_count == 1:
+        # первый раз
+        call ep211_dialogues6_slum_apartment_15()
+        return False
+    call ep211_dialogues6_slum_apartment_16()
+    $ add_objective("talk_jack", _("Поговорить с Джеком и снова заселиться в квартиру."), c_blue, 105)
+
+    return False
+
+label ep211_slums_apartments_quest6_return_jack: # Джек возвращается к торговле
+    $ move_object("Shawarma_Trader", "whores_place_shawarma") # Продавец у Моники дома
+    $ remove_hook(label="slums_apartments_blocked2")
+    $ map_enabled = True
+    return
+
+label HomeEnter_use_keys_apartments:
+    call process_object_click_forced("HomeEnter", "w")
+    return
+label MonicaWindow_use_keys_apartments:
+    call process_object_click_forced("MonicaWindow", "w")
     return

@@ -54,6 +54,8 @@ label street_monicahome_teleport:
         if act=="l":
             call ep211_dialogues6_slum_apartment_22()
             return
+        call change_scene("monicahome_livingroom")
+        return
     return
 label street_monicahome_environment:
     if obj_name == "Monica":

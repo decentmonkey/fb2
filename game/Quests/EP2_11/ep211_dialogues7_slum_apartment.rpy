@@ -594,6 +594,7 @@ label ep211_dialogues6_slum_apartment_6:
     with diss
     shawarma "Вот ключи от Ваш шикарный апартамент!"
     # ключи кладет куда-нибудь на стол и уходит
+    $ add_inventory("keys_apartments", 1, True)
     img 16984
     with fade
     sound man_steps
@@ -897,7 +898,9 @@ label ep211_dialogues6_slum_apartment_10_loop1:
         "Заплатить со скидкой.": #corruption
             $ menu_price = [slumsApartmentsRentPriceDiscount1]
             menu:
-                "Скидка 10 процентов.":
+                "Скидка 10 процентов. (in Extra version) (disabled)" if game.extra != True:
+                    pass
+                "Скидка 10 процентов." if game.extra == True:
                     # Моника с подозрением
                     music Groove2_85
                     img 17008
@@ -933,6 +936,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
                     mt "10 процентов от $ 300 - это немало."
                     mt "А у меня сейчас каждый цент на счету."
                     m "..."
+                    $ menu_corruption = [slumsApartmentsRentPriceDiscount10Corruption]
                     menu:
                         "Согласиться.": #corruption
                             $ monicaShawarmaApartment6 = True # Моника согласилась сделать минет за скидку в 10 процентов
@@ -1044,7 +1048,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
             img 17017
             with diss
             shawarma "Отлично, Мадаме! Джек очень рад!"
-            shawarma "Джек придет в {c}следующий суббота вечер{/c}!"
+            shawarma "Джек придет в {c}следующий суббота утро{/c}!"
             shawarma "И Мадаме может не сомневаться!"
             img 17018
             with fade
@@ -1162,28 +1166,125 @@ label ep211_dialogues6_slum_apartment_11:
     img black_screen
     with diss
     pause 1.0
-    music Loved_Up
+    music2 Loved_Up
     img 17025
     with fadelong
     shawarma "О, прекрасный Мадаме!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_1 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_1.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+#    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17026
     with fade
     shawarma "Словно лепестки роз ласкают мой нефритовый стержень!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_2 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_2.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17027
     with diss
     shawarma "Такие нежный и сладкий губы и ротик у Мадаме."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_3 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_3.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17028
     with fade
     shawarma "Джек готов наслаждаться этим вечно!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_4 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_4.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17029
     with diss
     shawarma "О, Мадаме! Поласкайте мой стержень своим нежным языком!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_5 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_5.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17030
     with fade
     shawarma "Да, восхитительно!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_MonicaHome_Jack_Blowjob1_1.ogg"
+    scene black
+    image videov_MonicaHome_Jack_Blowjob1_6 = Movie(play="video/v_MonicaHome_Jack_Blowjob1_6.mkv", fps=30)
+    show videov_MonicaHome_Jack_Blowjob1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    music stop
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up2
     img 17031
-    with diss
+    with fade
     shawarma "Мммммм!!!"
     img 17032
     sound bulk1
@@ -1214,6 +1315,7 @@ label ep211_dialogues6_slum_apartment_11:
     with fadelong
     shawarma "Мадаме, мне никто не доставлял большего наслаждения, чем Вы!!!"
     shawarma "Джек сдержать свое слово и сделать для Мадаме скидку в 10 процент!"
+    $ add_money(-slumsApartmentsRentPriceDiscount1)
     m "..."
     img 17001
     with fade
@@ -1431,7 +1533,7 @@ label ep211_dialogues6_slum_apartment_13:
     mt "Ключи же остались у меня!"
     mt "!!!"
     mt "Только нужно дождаться, когда он уйдет из квартиры."
-    $ log1 = _("Вернуться в квартиру позже.")
+#    $ log1 = _("Вернуться в квартиру позже.")
     return
 
 # если Моника пытается зайти в квартиру сразу же после того, как Джек ее выставил
@@ -1439,12 +1541,16 @@ label ep211_dialogues6_slum_apartment_14:
     # не рендерить!
     mt "Мне нужно немного позже прийти сюда."
     mt "Это животное еще в квартире..."
-    return
+    return False
 
 # Моника приходит в квартиру спустя какое-то время
 label ep211_dialogues6_slum_apartment_15:
     # Моника стоит на улице перед домом
     # не рендерить!
+    sound snd_door_locked1
+    pause 1.0
+    sound snd_door_locked1
+    pause 0.5
     mt "Вот скотина!!!"
     mt "Он поменял замки в моей квартире!!!"
     mt "Сволочь!!!"
@@ -1458,16 +1564,24 @@ label ep211_dialogues6_slum_apartment_15:
         mt "Потом я пойду и поговорю с ним."
         mt "Он не сможет отказать мне."
 #        $ log1 = _("Заработать $ 300.")
+    if check_inventory("keys_apartments",1) == True:
+        $ remove_inventory("keys_apartments", 1, True)
     return
 
 # у Моники на балансе достаточно денег, чтобы заселиться в квартиру снова
 # если Моника пришла к дому, где квартира
 label ep211_dialogues6_slum_apartment_16:
+    sound snd_door_locked1
+    pause 1.0
+    sound snd_door_locked1
+    pause 0.5
     # не рендерить!
     mt "Я не могу зайти в свою квартиру..."
     mt "Эта сволочь поменяла замки!"
     mt "Мне нужно пойти к нему."
-    $ log1 = _("Поговорить с Джеком и снова заселиться в квартиру.")
+    if check_inventory("keys_apartments",1) == True:
+        $ remove_inventory("keys_apartments", 1, True)
+#    $ log1 = _("Поговорить с Джеком и снова заселиться в квартиру.")
     return
 
 # у Моники на балансе достаточно денег, чтобы заселиться в квартиру снова
@@ -1500,14 +1614,19 @@ label ep211_dialogues6_slum_apartment_17:
             shawarma "Мадаме может заплатить деньги Джеку прямо сейчас."
             shawarma "Джек даст Мадаме новый ключ."
             shawarma "И она может снова жить в шикарный апрартамент Джека!"
+            $ menu_price = [slumsApartmentsRentPrice]
             menu:
                 "Заплатить $ 300.":
+                    $ add_money(-slumsApartmentsRentPrice)
                     music DarxieLand
                     img 16947
                     with fade
                     shawarma "Отлично, Мадаме!"
                     shawarma "Джек счастлив, что прекрасный Мадаме снова будет жить в его апрартамент!"
                     shawarma "Вот Ваш ключ. С возвращенем, прекрасный леди!"
+                    if check_inventory("keys_apartments",1) == True:
+                        $ remove_inventory("keys_apartments", 1, True)
+                    $ add_inventory("keys_apartments", 1, True)
                     music Groove2_85
                     img 16950
                     with diss

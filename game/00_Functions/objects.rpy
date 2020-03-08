@@ -505,3 +505,10 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
     $ renpy.pop_call()
     jump show_scene_loop2
 #    jump show_scene
+
+label process_object_click_forced(obj_name, act):
+#label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
+    $ actions_list = get_object_actions(scenes_data["objects"][scene_name][obj_name]["actions"])
+    $ interface_blocked_flag = False
+    call process_object_click_alternate_action(scenes_data["objects"][scene_name][obj_name]["actions"].find(act), actions_list, scenes_data["objects"][scene_name][obj_name]["click"], obj_name, scenes_data["objects"][scene_name][obj_name])
+    return

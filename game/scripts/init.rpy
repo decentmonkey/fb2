@@ -4,6 +4,8 @@ default slumsApartmentsRentPriceDiscount1 = 270.0
 default slumsApartmentsRentPriceDiscount2 = 240.0
 
 define slumsApartmentsRentPriceDiscountCorruption1 = 300
+define slumsApartmentsRentPriceDiscount10Corruption = 300
+define slumsApartmentsRentPriceDiscount10CorruptionAdd = 20
 
 define monicaPhotoshoot9CorruptionRequired = 320
 define monicaPhotoshoot9CorruptionAdd = 30
