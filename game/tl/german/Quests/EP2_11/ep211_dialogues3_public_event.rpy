@@ -69,10 +69,10 @@ translate german ep211_dialogues2_public_event_1_af53d8ee:
 
     # biff "Но ты склоняешь меня к тому, чтобы сделать это прямо сейчас!"
     # biff "Понятно тебе, кукла?!"
-    # m "..." 
+    # m "..."
     biff "Aber jetzt zwingst du mich, es bereits zu tun!"
     biff "Verstanden, Puppe?!"
-    m "..." 
+    m "..."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:47
 translate german ep211_dialogues2_public_event_1_3a76f13e:
@@ -151,8 +151,8 @@ translate german ep211_dialogues2_public_event_1_891b2298:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:76
 translate german ep211_dialogues2_public_event_1_3b2e4d85:
 
-    # m "!!!" 
-    m "!!!" 
+    # m "!!!"
+    m "!!!"
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:78
 translate german ep211_dialogues2_public_event_1_2e0d5ef1:
@@ -529,8 +529,8 @@ translate german ep211_dialogues2_public_event_6_0a6b4f56:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:268
 translate german ep211_dialogues2_public_event_6_63253b7b:
 
-    # m "..." 
-    m "..." 
+    # m "..."
+    m "..."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:270
 translate german ep211_dialogues2_public_event_6_0f5a06a5:
@@ -759,14 +759,14 @@ translate german ep211_dialogues2_public_event_9_da183d03:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:390
 translate german ep211_dialogues2_public_event_9_5acef5d1:
 
-    # m "Миссис Уайт, рада встрече." 
+    # m "Миссис Уайт, рада встрече."
     # img_30134
     # guest1 "Не ожидала увидеть Вас здесь..."
     # guest1 "Вас совсем не видно в последнее время, Миссис Бакфетт."
     # guest1 "Вы пропустили несколько модных показов..."
     # guest1 "Я уже не говорю о неделе моды, где Вас тоже не было."
     # img_30135
-    m "Frau White, schön Sie zu sehen." 
+    m "Frau White, schön Sie zu sehen."
     img_30134
     guest1 "Ich habe sie hier nicht erwartet..."
     guest1 "Sie waren in letzter Zeit recht spärlich zu sehen, Frau Buckfett."
@@ -862,7 +862,7 @@ translate german ep211_dialogues2_public_event_9_d0723ce2:
     # img_30148
     # guest1 "Ни в коем случае, Миссис Бакфетт."
     # guest1 "Я никогда не стала бы сниматься в сомнительных фотосессиях."
-    # guest1 "Надеюсь, и Вы до этого не опуститесь." 
+    # guest1 "Надеюсь, и Вы до этого не опуститесь."
     # img_30149
     # mt "!!!"
     # img_30150
@@ -890,7 +890,7 @@ translate german ep211_dialogues2_public_event_9_d0723ce2:
     img_30148
     guest1 "Keinesfalls, Frau Buckfett."
     guest1 "Ich würde nie ein fragwürdiges Fotoshooting machen."
-    guest1 "Ich hoffe, ich falle nie so tief." 
+    guest1 "Ich hoffe, ich falle nie so tief."
     img_30149
     mt "!!!"
     img_30150
@@ -1138,7 +1138,7 @@ translate german ep211_dialogues2_public_event_15_a2251c3a:
     # img_30179
     # guest3 "Ваш менеджер Биф сказал, что в скором будущем планируется эротическая фотосессия, в паре."
     # guest3 "И пригласил меня поучаствовать в ней."
-    # guest3 "Конечно же, я не отказался." 
+    # guest3 "Конечно же, я не отказался."
     # img_30158
     # mt "!!!"
     # mt "Я этому Бифу яйца оторву!"
@@ -1154,7 +1154,7 @@ translate german ep211_dialogues2_public_event_15_a2251c3a:
     img_30179
     guest3 "Ihr Manager Biff sagte, dass in naher Zukunft ein Nacktshooting als Paar geplant ist."
     guest3 "Und dazu hat er mich eingeladen."
-    guest3 "Natürlich habe ich nicht abgelehnt." 
+    guest3 "Natürlich habe ich nicht abgelehnt."
     img_30158
     mt "!!!"
     mt "Ich werde Biffs Eier abreißen!"
@@ -1398,7 +1398,7 @@ translate german ep211_dialogues2_public_event_21_5e6651b7:
     # guest5 "Мия, я весьма удивлена тому факту, что Мистер Кэмпбелл..."
     # guest5 "Пригласил на этот праздничный фуршет владелицу журнала..."
     # guest5 "С сомнительной репутацией."
-    # guest6 "Я тоже удивлена." 
+    # guest6 "Я тоже удивлена."
     # guest6 "Странно, что Вы посещаете подобные мероприятия..."
     # guest6 "Я думала на праздничном фуршете Мистера Кэмпбелла..."
     # guest6 "Будут присутствовать исключительно представители высшего света."
@@ -1410,7 +1410,7 @@ translate german ep211_dialogues2_public_event_21_5e6651b7:
     guest5 "Mia, ich bin überrascht, dass Herr Campell..."
     guest5 "Ich habe den Besitzer eines Magazines zu diesem großzügigen Buffett eingeladen..."
     guest5 "Mit einem fragwürdigen Ruf."
-    guest6 "Das überrascht mich auch." 
+    guest6 "Das überrascht mich auch."
     guest6 "Seltsam, dass du an solchen Events teil nimmst..."
     guest6 "Ich dachte mir bei Herrn Campbells Banket, dass..."
     guest6 "Nur Mitglieder der High Society da sind."
@@ -1830,8 +1830,8 @@ translate german ep211_dialogues2_public_event_28_5c765e14:
     # m "Моя подруга и очень хорошая девушка."
     # mt "Я стала слишком много врать в последнее время..."
     # mt "Главное, чтобы это не вошло в привычку."
-    # guest8 "..." 
-    # guest8 "Вообще-то, я не против..." 
+    # guest8 "..."
+    # guest8 "Вообще-то, я не против..."
     # guest8 "И я прекрасно понимаю цель знакомства..."
     # m "..."
     # guest8 "Я познакомлюсь с ней при одном условии."
@@ -1856,8 +1856,8 @@ translate german ep211_dialogues2_public_event_28_5c765e14:
     m "Meine Freundin und eine sehr nette Person."
     mt "In letzter Zeit lüge ich echt zu viel..."
     mt "Hauptsache, das wird nicht zur Gewohnheit."
-    guest8 "..." 
-    guest8 "Ist mir eigentlich... egal..." 
+    guest8 "..."
+    guest8 "Ist mir eigentlich... egal..."
     guest8 "Ich weiß durchaus, wie man dated."
     m "..."
     guest8 "Ich treffe mich mit ihr unter einer Bedingung."
@@ -2135,7 +2135,7 @@ translate german ep211_dialogues2_public_event_33_ba7a0965:
     # mt "Что он несет?!"
     # mt "!!!"
     # m "Биф!"
-    # guest7 "Моника..." 
+    # guest7 "Моника..."
     # m "Адриано! Подожди!"
     # guest7 "Не знал, что ты снова вышла замуж... Я... Я рад за тебя."
     # m "Адриано!"
@@ -2143,7 +2143,7 @@ translate german ep211_dialogues2_public_event_33_ba7a0965:
     # guest7 "Биф, у меня не получится отужинать с вами."
     # biff "Жаль!"
     # biff "До свидания, Адриано!"
-    # guest7 "Всего хорошего!" 
+    # guest7 "Всего хорошего!"
     # m "Биф!!!"
     # m "Какого черта ты влез в наш разговор!"
     # m "Что еще за шуточки про мужа!!!"
@@ -2184,7 +2184,7 @@ translate german ep211_dialogues2_public_event_33_ba7a0965:
     mt "Was geht denn jetzt?!"
     mt "!!!"
     m "Biff!"
-    guest7 "Monica..." 
+    guest7 "Monica..."
     m "Adriano, warte!"
     guest7 "Ich wusste nicht, dass Sie wieder verheiratet sind... Es... es freut mich für Sie."
     m "Adriano!"
@@ -2192,7 +2192,7 @@ translate german ep211_dialogues2_public_event_33_ba7a0965:
     guest7 "Biff, ich kann mit dir nicht essen."
     biff "Das wäre eine Schande!"
     biff "Auf Wiedersehen, Adriano!"
-    guest7 "Viel Glück!" 
+    guest7 "Viel Glück!"
     m "Biff!!!"
     m "Was zum Teufel sollte das?"
     m "Was machst du für Witze über meinen Mann?"
@@ -2561,7 +2561,7 @@ translate german ep211_dialogues2_public_event_1_1da6b3d8:
 
     # biff "Я жду тебя {c}завтра{/c}, цыпочка."
     # m "..."
-    biff "Ich warte {cmorgen{/c} auf dich, Chick."
+    biff "Ich warte {c}morgen{/c} auf dich, Chick."
     m "..."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:303
@@ -2573,8 +2573,8 @@ translate german ep211_dialogues2_public_event_2_26eeecee:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:617
 translate german ep211_dialogues2_public_event_9_6667586e:
 
-    # m "Миссис Уайт, рада встрече." 
-    m "Frau White, schön Sie zu sehen." 
+    # m "Миссис Уайт, рада встрече."
+    m "Frau White, schön Sie zu sehen."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:620
 translate german ep211_dialogues2_public_event_9_dcb06018:
@@ -2697,10 +2697,10 @@ translate german ep211_dialogues2_public_event_9_6f46862a:
 
     # guest1 "Ни в коем случае, Миссис Бакфетт."
     # guest1 "Я никогда не стала бы сниматься в сомнительных фотосессиях."
-    # guest1 "Надеюсь, и Вы до этого не опуститесь." 
+    # guest1 "Надеюсь, и Вы до этого не опуститесь."
     guest1 "Keinesfalls, Frau Buckfett."
     guest1 "Ich würde nie ein fragwürdiges Fotoshooting machen."
-    guest1 "Ich hoffe, ich falle nie so tief." 
+    guest1 "Ich hoffe, ich falle nie so tief."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:704
 translate german ep211_dialogues2_public_event_9_0a5616b8_1:
@@ -2969,10 +2969,10 @@ translate german ep211_dialogues2_public_event_15_5bbe1d4a:
 
     # guest3 "Ваш менеджер Биф сказал, что в скором будущем планируется эротическая фотосессия, в паре."
     # guest3 "И пригласил меня поучаствовать в ней."
-    # guest3 "Конечно же, я не отказался." 
+    # guest3 "Конечно же, я не отказался."
     guest3 "Ihr Manager Biff sagte, dass in naher Zukunft ein Nacktshooting als Paar geplant ist."
     guest3 "Und dazu hat er mich eingeladen."
-    guest3 "Natürlich habe ich nicht abgelehnt." 
+    guest3 "Natürlich habe ich nicht abgelehnt."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:929
 translate german ep211_dialogues2_public_event_15_8334165e:
@@ -3269,8 +3269,8 @@ translate german ep211_dialogues2_public_event_21_3c748e22:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1157
 translate german ep211_dialogues2_public_event_21_9fb6c355:
 
-    # guest6 "Я тоже удивлена." 
-    guest6 "Das überrascht mich auch." 
+    # guest6 "Я тоже удивлена."
+    guest6 "Das überrascht mich auch."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1161
 translate german ep211_dialogues2_public_event_21_067b8a61:
@@ -3919,11 +3919,11 @@ translate german ep211_dialogues2_public_event_28_843f4cc6:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1623
 translate german ep211_dialogues2_public_event_28_5ee2e89a:
 
-    # guest8 "..." 
-    # guest8 "Вообще-то, я не против..." 
+    # guest8 "..."
+    # guest8 "Вообще-то, я не против..."
     # guest8 "И я прекрасно понимаю цель знакомства..."
-    guest8 "..." 
-    guest8 "Ist mir eigentlich... egal..." 
+    guest8 "..."
+    guest8 "Ist mir eigentlich... egal..."
     guest8 "Ich weiß durchaus, wie man dated."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1628
@@ -4363,11 +4363,11 @@ translate german ep211_dialogues2_public_event_33_80f60fbd:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1934
 translate german ep211_dialogues2_public_event_33_e673a51d:
 
-    # guest7 "Моника..." 
+    # guest7 "Моника..."
     # m "Адриано! Подожди!"
     # guest7 "Не знал, что ты снова вышла замуж... Я... Я рад за тебя."
     # m "Адриано!"
-    guest7 "Monica..." 
+    guest7 "Monica..."
     m "Adriano, warte!"
     guest7 "Ich wusste nicht, dass Sie wieder verheiratet sind... Es... es freut mich für Sie."
     m "Adriano!"
@@ -4395,8 +4395,8 @@ translate german ep211_dialogues2_public_event_33_3b041a60:
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1955
 translate german ep211_dialogues2_public_event_33_bd0da4ee:
 
-    # guest7 "Всего хорошего!" 
-    guest7 "Viel Glück!" 
+    # guest7 "Всего хорошего!"
+    guest7 "Viel Glück!"
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:1959
 translate german ep211_dialogues2_public_event_33_cea80a0b:
@@ -4787,4 +4787,3 @@ translate german ep211_dialogues2_public_event_42_cbce3f49:
     mt "Ich habe ein schlechtes Gefühl, was das Shooting angeht..."
     mt "Ich habe diesen Idioten Biff nun einen ganzen Abend ertragen. Fast."
     mt "Ich habe genug, ich gehe Heim!"
-
