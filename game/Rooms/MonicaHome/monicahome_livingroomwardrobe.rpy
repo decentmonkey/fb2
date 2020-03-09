@@ -32,6 +32,7 @@ label monicahome_livingroomwardrobe:
         $ set_active("Wardrobe_SchoolOutfit1", False, scene="monicahome_livingroomwardrobe")
 
     $ monicaHomeLivingRoomMonicaSuffix = 1
+    $ monicaHomeBathroomMonicaSuffix = 1
     return
 
 label monicahome_livingroomwardrobe_init:

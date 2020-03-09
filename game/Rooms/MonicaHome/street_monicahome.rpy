@@ -18,6 +18,9 @@ label street_monicahome:
             music street_evening3
         else:
             music street13_ambulance
+
+    $ monicaHomeBathroomMonicaSuffix = 1
+    $ monicaHomeLivingRoomMonicaSuffix = 1
     return
 
 label street_monicahome_init:

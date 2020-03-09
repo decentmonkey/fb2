@@ -108,13 +108,14 @@ label ep211_quests_slums_apartments2_check_enter:
     return
 
 label ep211_quests_slums_apartments2_check_enter_minimap:
-    if cloth != "HomeCloth4":
+    if cloth_type != "HomeCloth":
         $ slumsEnterClothStored = cloth
         $ slumsEnterClothTypeStored = cloth_type
         sound snd_fabric1
         $ cloth = "HomeCloth4"
         $ cloth_type = "HomeCloth"
-    sound2 snd_keys_door_open
+    if scene_name == "street_monicahome":
+        sound2 snd_keys_door_open
     return
 
 label ep211_quests_slums_apartments2_check_enter_minimap_bathroom:
@@ -123,7 +124,9 @@ label ep211_quests_slums_apartments2_check_enter_minimap_bathroom:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeBathroomMonicaSuffix = 1
-    call change_scene("monicahome_bathroom", "Fade")
+        call change_scene("monicahome_bathroom", "Fade")
+    else:
+        call change_scene("monicahome_bathroom", "Fade", "snd_walk_barefoot")
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_kitchen:
     call ep211_quests_slums_apartments2_check_enter_minimap()
@@ -131,7 +134,9 @@ label ep211_quests_slums_apartments2_check_enter_minimap_kitchen:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeKitchenMonicaSuffix = 1
-    call change_scene("monicahome_kitchen", "Fade")
+        call change_scene("monicahome_kitchen", "Fade")
+    else:
+        call change_scene("monicahome_kitchen", "Fade", "snd_walk_barefoot")
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_livingroom:
     call ep211_quests_slums_apartments2_check_enter_minimap()
@@ -139,7 +144,9 @@ label ep211_quests_slums_apartments2_check_enter_minimap_livingroom:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeLivingRoomMonicaSuffix = 1
-    call change_scene("monicahome_livingroom", "Fade")
+        call change_scene("monicahome_livingroom", "Fade")
+    else:
+        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot")
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_livingroomwardrobe:
     call ep211_quests_slums_apartments2_check_enter_minimap()
@@ -147,7 +154,9 @@ label ep211_quests_slums_apartments2_check_enter_minimap_livingroomwardrobe:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeLivingRoomWardrobeMonicaSuffix = 1
-    call change_scene("monicahome_livingroomwardrobe", "Fade")
+        call change_scene("monicahome_livingroomwardrobe", "Fade")
+    else:
+        call change_scene("monicahome_livingroomwardrobe", "Fade", "snd_walk_barefoot")
     return
 
 

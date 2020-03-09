@@ -12,6 +12,7 @@ label monicahome_kitchen:
         music street13_ambulance
 
     $ monicaHomeLivingRoomMonicaSuffix = 1
+    $ monicaHomeBathroomMonicaSuffix = 1
     return
 
 label monicahome_kitchen_init:
