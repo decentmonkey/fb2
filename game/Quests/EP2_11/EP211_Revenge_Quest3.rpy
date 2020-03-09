@@ -6,6 +6,7 @@ label ep211_revenge_quest1:
     $ day_time_suffix = ""
 #    if week_day == 7:
 #        $ day += 1
+    $ remove_hook(label="steve_office_check_evening")
     $ move_object("Steve", "steve_office_office_table")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
