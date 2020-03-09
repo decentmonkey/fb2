@@ -2468,7 +2468,7 @@ translate german ep210_dialogues7_escort_hotel_12_59c0695e:
     client_friend_2 "Die Hure ist diesmal natürlich nicht die schickste ..."
     client "Komm schon... Für ein Bier!!!! Aha Ha!!!"
     mt "!!!"
-    mt "!!!!!"
+    mt "!!!!!!!"
     mt "AAAAA!!!"
     client "Es ist kostenlos!!!!"
 

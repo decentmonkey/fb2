@@ -2626,7 +2626,7 @@ translate german ep211_dialogues6_slum_apartment_6_6bae018b:
     # shawarma "Джек будет приходить {c}каждая суббота утро{/c} за деньгами."
     # shawarma "Мадаме платить и оставаться здесь жить!"
     # m "..."
-    shawarma "Джек будет приходить {c}каждая суббота утро{/c} за деньгами."
+    shawarma "Jack will be coming {c}every Saturday morning{/c} for money."
     shawarma "Мадаме платить и оставаться здесь жить!"
     m "..."
 
@@ -2947,8 +2947,8 @@ translate german ep211_dialogues6_slum_apartment_36_54b0e521:
 
     # mt "Невкусные продукты..."
     # mt "Но, по крайней мере, мне не надо платить за них..."
-    mt "Невкусные продукты..."
-    mt "Но, по крайней мере, мне не надо платить за них..."
+    mt "Terrible foods..."
+    mt "But at least I don’t have to pay for them..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1792
 translate german ep211_dialogues6_slum_apartment_37_9dc7f9a1:
@@ -2971,7 +2971,7 @@ translate german ep211_dialogues6_slum_apartment_10_loop1_e2abff71:
     # shawarma "Джек придет в {c}следующий суббота утро{/c}!"
     # shawarma "И Мадаме может не сомневаться!"
     shawarma "Отлично, Мадаме! Джек очень рад!"
-    shawarma "Джек придет в {c}следующий суббота утро{/c}!"
+    shawarma "Джек придет в {c}следующий суббота вечер{/c}!"
     shawarma "И Мадаме может не сомневаться!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1316
@@ -2992,5 +2992,5 @@ translate german strings:
 
     # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:900
     old "Скидка 10 процентов. (in Extra version) (disabled)"
-    new "Скидка 10 процентов. (in Extra version) (disabled)"
+    new "Скидка 10 процентов."
 

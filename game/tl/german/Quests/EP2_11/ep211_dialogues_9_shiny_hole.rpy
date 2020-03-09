@@ -1254,7 +1254,7 @@ translate german ep211_dialogues5_shiny_hole_3_3a05acb5:
     # m "После того, как она меня подставила?"
     m "Was denn noch!"
     m "Я еще должна сама к ней подходить и мириться?!"
-    m "После того, как она меня подставила?"
+    m "After she set me up?"
 
 # game/Quests/EP2_11/ep211_dialogues_9_shiny_hole.rpy:1291
 translate german ep211_dialogues5_shiny_hole_3_3124d853:
