@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Rooms/Rich_Hotel/rich_hotel_restaurant.rpy:29
     old "ВЫХОД"
-    new "ВЫХОД"
+    new "AUSGANG"
 

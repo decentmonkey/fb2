@@ -1856,11 +1856,11 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Пригласить Юлию на второе свидание."
-    new "Пригласить Юлию на второе свидание."
+    new "Lade Julia auf ein zweites Date ein."
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
-    new "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)"
+    new "Lade Julia auf ein zweites Date ein. (Lvl. 4 benötigt) (disabled)"
 
 # TODO: Translation updated at 2020-03-07 23:37
 

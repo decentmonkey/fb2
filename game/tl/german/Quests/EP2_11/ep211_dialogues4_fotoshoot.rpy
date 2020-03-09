@@ -689,18 +689,18 @@ translate german ep211_dialogues3_photoshoot_7_8ba28f25:
     # m "Алекс, сделай кадр как есть, затем я уберу руки..."
     # mt "Дьявол!"
     # mt "Это все слишком далеко зашло..."
-    alex_photograph "Миссис бакфетт. Пожалуйста, уберите руки от груди, мне надо сделать кадр."
-    m "Алекс, сделай кадр как есть, затем я уберу руки..."
+    alex_photograph "Frau Buckfett. Bitte nehmen Sie ihre Hände von der Brust, ich muss ein Foto machen."
+    m "Mach so ein Foto, dann nehme ich meine Hände weg..."
     mt "Diese Teufelin!"
-    mt "Это все слишком далеко зашло..."
+    mt "Das ging alles zu weit..."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:434
 translate german ep211_photoshoot_suit9_pose1_5620b569:
 
     # alex_photograph "А теперь уберите руки, Миссис Бакфетт, пожалуйтса."
     # alex_photograph "Иначе я не смогу сделать работу, которую мне поручил мой босс и мне будет выговор."
-    alex_photograph "А теперь уберите руки, Миссис Бакфетт, пожалуйтса."
-    alex_photograph "Иначе я не смогу сделать работу, которую мне поручил мой босс и мне будет выговор."
+    alex_photograph "Und jetzt, bitte nehmen Sie ihre Hände weg, Frau Buckfett."
+    alex_photograph "Oder ich kann meinen Job nicht richtig machen und dann wird der Boss ziemlich sauer."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:440
 translate german ep211_photoshoot_suit9_pose1_ed0e86ec:
@@ -708,7 +708,7 @@ translate german ep211_photoshoot_suit9_pose1_ed0e86ec:
     # m "С меня хватит!"
     # m "Я не собираюсь завершать эту пошлую фотосессию!"
     m "Das reicht!"
-    m "Я не собираюсь завершать эту пошлую фотосессию!"
+    m "Ich werde diesen schmutzigen Fotoshoot nicht beenden!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:447
 translate german ep211_photoshoot_suit9_pose1_f31e44dc:
@@ -720,12 +720,12 @@ translate german ep211_photoshoot_suit9_pose1_f31e44dc:
     # mt "Как же до этого могло дойти?!"
     # mt "Ведь это увидит весь мир! Абсолютно весь!"
     # mt "О Боже!!!"
-    mt "Боже мой! не могу поверить что я это делаю!"
-    mt "Я, Моника Бакфетт..."
-    mt "Обнажить грудь, перед камерой..."
-    mt "В своем же собственном журнале..."
-    mt "Как же до этого могло дойти?!"
-    mt "Ведь это увидит весь мир! Абсолютно весь!"
+    mt "Oh mein Gott! Ich glaube es nicht, dass ich das mache!"
+    mt "Ich, Monica Buckfett!"
+    mt "Zeige meine Brüste vor der Kamera..."
+    mt "In meinem eigenen Magazin..."
+    mt "Wie konnte es dazu kommen?"
+    mt "Die ganze Welt wird das sehen!"
     mt "Oh mein Gott!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:456
@@ -736,7 +736,7 @@ translate german ep211_photoshoot_suit9_pose1_a5a4526d:
     # m "Точно?"
     # alex_photograph "Конечно, Миссис Бакфетт!"
     alex_photograph "Keine Sorge Frau Buckfett!"
-    alex_photograph "Я буду фотографировать так, чтобы ничего не было видно!"
+    alex_photograph "Ich mache Fotos auf eine Art, die niemand sehen sollte!"
     m "Wirklich?"
     alex_photograph "Natürlich, Frau Buckfett!"
 
@@ -754,11 +754,11 @@ translate german ep211_photoshoot_suit9_pose3_decc4993:
     # m "Но так будет все очень хорошо видно!"
     # alex_photograph "Миссис Бакфетт, не волнуйтесь!"
     # alex_photograph "Свет от софитов засвечивает снимок и видно только ваше лицо!"
-    alex_photograph "Миссис Бакфетт! Пожалуйста, сядьте пораскованнее."
-    alex_photograph "Не зажимайтесь!"
-    m "Но так будет все очень хорошо видно!"
-    alex_photograph "Миссис Бакфетт, не волнуйтесь!"
-    alex_photograph "Свет от софитов засвечивает снимок и видно только ваше лицо!"
+    alex_photograph "Frau Buckfett, bitte machen sie eine lüsternere Pose."
+    alex_photograph "Seien Sie nicht so steif!"
+    m "Aber so wäre alles so klar sichtbar!"
+    alex_photograph "Keine Sorge, Frau Buckfett!"
+    alex_photograph "Das Licht ist so hell, dass man nur Ihr Gesicht sehen kann!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:642
 translate german ep211_photoshoot_suit9_pose4_ca168741:
@@ -766,9 +766,9 @@ translate german ep211_photoshoot_suit9_pose4_ca168741:
     # alex_photograph "Миссис Бакфетт, встаньте, пожалуйста, на трон."
     # alex_photograph "Так будет лучше видно вашу королевскую фигуру!"
     # m "Алекс, только фотографируй так, чтобы ничего не было видно!"
-    alex_photograph "Миссис Бакфетт, встаньте, пожалуйста, на трон."
-    alex_photograph "Так будет лучше видно вашу королевскую фигуру!"
-    m "Алекс, только фотографируй так, чтобы ничего не было видно!"
+    alex_photograph "Frau Buckfett, bitte stellen Sie sich auf den Thron."
+    alex_photograph "So ist die Betonung mehr auf ihrer königlichen Figur!"
+    m "Mach sie aus einem Winkel, aus dem man nichts erkennen kann, Alex!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:682
 translate german ep211_photoshoot_suit9_pose4_494ea629:
@@ -776,9 +776,9 @@ translate german ep211_photoshoot_suit9_pose4_494ea629:
     # m "Алекс, не фотографируй так, чтобы были видны мои ноги или... что-нибудь выше..."
     # alex_photograph "Не переживайте, Миссис Бакфетт!"
     # alex_photograph "Я ни в коем случае не возьму такой кадр!"
-    m "Алекс, не фотографируй так, чтобы были видны мои ноги или... что-нибудь выше..."
+    m "Alex, mach keine Bilder von meinen Beinen... Oder höher!"
     alex_photograph "Keine Sorge Frau Buckfett!"
-    alex_photograph "Я ни в коем случае не возьму такой кадр!"
+    alex_photograph "Oh je, ich würde nie so ein Bild machen!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:707
 translate german ep211_photoshoot_suit9_pose5_6e0ec524:
@@ -815,10 +815,10 @@ translate german ep211_photoshoot_suit9_pose7_5126e689:
     # m "Будет все видно!"
     # alex_photograph "Не волнуйтесь, Миссис Бакфетт!"
     # alex_photograph "Я снимаю под таким углом, что форму груди будет не видно!"
-    m "Алекс, не бери близко кадр!"
-    m "Будет все видно!"
+    m "Alex, zoom nicht auch noch rein!"
+    m "Man kann alles sehen!"
     alex_photograph "Keine Sorge, Frau Buckfett."
-    alex_photograph "Я снимаю под таким углом, что форму груди будет не видно!"
+    alex_photograph "Ich nehme einen Winkel, aus dem man Ihre Brüste nicht sieht!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:902
 translate german ep211_photoshoot_suit9_pose8_0e55a651:
@@ -829,7 +829,7 @@ translate german ep211_photoshoot_suit9_pose8_0e55a651:
     # m "Ты уверен в этом, Алекс?"
     # alex_photograph "Конечно. Я Вам обещаю, Миссис Бакфетт!"
     m "So posiere ich nicht!"
-    alex_photograph "Миссис Бакфетт, это очень интересный ракурс."
+    alex_photograph "Das ist ein sehr interessanter Blickwinkel, Frau Buckfett."
     alex_photograph "Man wird auf dem Foto sonst nichts sehen, keine Sorge."
     m "Bist du da sicher, Alex?"
     alex_photograph "Natürlich. Ich verspreche es, Frau Buckfett!"
@@ -849,16 +849,16 @@ translate german ep211_photoshoot_suit9_pose9_5df35d28:
     # m "Я не собираюсь брать такие пошлые кадры!"
     # m "Фотографируй как есть, иначе я вообще сейчас уйду!"
     alex_photograph "Frau Buckfett..."
-    alex_photograph "Пожалуйста, оставьте ножки раздвинутыми, а сами откиньтесь на спинку трона."
-    alex_photograph "И примите расслабленное положение!"
-    alex_photograph "Это будет великолепный кадр!"
-    m "Алекс, ни за что!"
-    m "Ты ведь знаешь что там у меня ничего нет!"
-    m "Даже на рассчитывай на это!"
-    alex_photograph "Но Миссис Бакфетт, Мистер Биф сказал, что..."
-    m "Мне плевать что он сказал!"
-    m "Я не собираюсь брать такие пошлые кадры!"
-    m "Фотографируй как есть, иначе я вообще сейчас уйду!"
+    alex_photograph "Bitte lassen Sie ihre Beine gespreizt und den Kopf auf dem Thron..."
+    alex_photograph "Entspannen Sie sich!"
+    alex_photograph "Das wird ein so toller Shoot!"
+    m "Niemals, Alex!"
+    m "Du weißt, dass ich unten rum nichts anhabe!"
+    m "Denk nicht mal dran!"
+    alex_photograph "Aber Frau Buckfett, Biff sagte..."
+    m "Es ist mir egal, was er sagte!"
+    m "Ich posiere nicht für solche Fotos!"
+    m "Mach sie so, wie sie sind, oder lass es!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1095
 translate german ep211_photoshoot_suit9_pose10a_6d873c9c:
@@ -866,9 +866,9 @@ translate german ep211_photoshoot_suit9_pose10a_6d873c9c:
     # biff "Как проходит фотосессия, Мистер Кэмпбелл?"
     # biff "Довольны ли Вы всем?"
     # biff "Вы уже приняли окончательное решение по поводу инвестирования в журнал?"
-    biff "Как проходит фотосессия, Мистер Кэмпбелл?"
-    biff "Довольны ли Вы всем?"
-    biff "Вы уже приняли окончательное решение по поводу инвестирования в журнал?"
+    biff "Wie läuft das Shooting, Herr Campbell?"
+    biff "Bist du zufrieden?"
+    biff "Haben Sie eine endgültige Entscheidung wegen des Investmens getroffen?"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1100
 translate german ep211_photoshoot_suit9_pose10a_a4892157:
@@ -876,9 +876,9 @@ translate german ep211_photoshoot_suit9_pose10a_a4892157:
     # campbell "Вы знаете, у меня сомнения по этому поводу."
     # campbell "Вы, как личный менеджер Миссис Бакфетт, дали мне гарантию по поводу курса журнала и его содержания."
     # campbell "Однако, я вижу что Миссис Бакфетт вовсе не поддерживаю ею же задекларированный курс."
-    campbell "Вы знаете, у меня сомнения по этому поводу."
-    campbell "Вы, как личный менеджер Миссис Бакфетт, дали мне гарантию по поводу курса журнала и его содержания."
-    campbell "Однако, я вижу что Миссис Бакфетт вовсе не поддерживаю ею же задекларированный курс."
+    campbell "Wissen Sie, ich habe immer noch meine Zweifel."
+    campbell "Sie, als Frau Buckfetts Manager haben mir den Wandel im Kurs des Magazins zugesagt."
+    campbell "Aber ich sehe, dass Frau Buckfett damit Probleme hat."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1105
 translate german ep211_photoshoot_suit9_pose10a_8fb5bf53:
@@ -886,7 +886,7 @@ translate german ep211_photoshoot_suit9_pose10a_8fb5bf53:
     # biff "???"
     # campbell "Вместо этого, она стесняется и отказывается принимать некоторые позы, которые очень бы подошли моему наряду."
     biff "???"
-    campbell "Вместо этого, она стесняется и отказывается принимать некоторые позы, которые очень бы подошли моему наряду."
+    campbell "Sie ist schüchtern und dickköpfig. Sie weigert sich, angemessene Posen einzunehmen."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1109
 translate german ep211_photoshoot_suit9_pose10a_0624ed5d:
@@ -895,17 +895,17 @@ translate german ep211_photoshoot_suit9_pose10a_0624ed5d:
     # biff "Миссис Бакфетт, действительно, немного стесняется при посторонних."
     # biff "Это эмоции, вы же знаете женщин, Мистер Кэмпбелл."
     # biff "Но я сейчас ее успокою и сделаю убеждение расслабиться перед камерой."
-    biff "О, Мистер Кэмпбелл, не волнуйтесь!"
-    biff "Миссис Бакфетт, действительно, немного стесняется при посторонних."
-    biff "Это эмоции, вы же знаете женщин, Мистер Кэмпбелл."
-    biff "Но я сейчас ее успокою и сделаю убеждение расслабиться перед камерой."
+    biff "Oh, keine Sorge Herr Campbell."
+    biff "Frau Buckfett ist tatsächlich etwas schüchtern und stur vor Fremden."
+    biff "Das sind nur Gefühle, Sie wissen, Frauen..."
+    biff "Ich beruhige Sie und bringe Sie dazu..."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1115
 translate german ep211_photoshoot_suit9_pose10a_18d401c5:
 
     # biff "Ведь Миссис Бакфетт также как и я понимает всю важность вашего решения касаемо инвестиций в журнал..."
     # m "!!!"
-    biff "Ведь Миссис Бакфетт также как и я понимает всю важность вашего решения касаемо инвестиций в журнал..."
+    biff "Frau Buckfett versteht sehr gut, wie viel von Ihnen abhängt für das Magazin."
     m "!!!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1119
@@ -915,16 +915,16 @@ translate german ep211_photoshoot_suit9_pose10a_a13d7e91:
     # biff "Хотите, Миссис Бакфетт обнажится полностью и примет любую позу, которые Вы пожелаете..."
     # biff "Или, если хотите, можно пригласить мужскую модель и сделать фотосессию совокупления."
     # biff "Это может сразу повысить рейтинги нашего с Вами журнала!"
-    biff "Как Вы хотите продолжить фотосессию?"
-    biff "Хотите, Миссис Бакфетт обнажится полностью и примет любую позу, которые Вы пожелаете..."
-    biff "Или, если хотите, можно пригласить мужскую модель и сделать фотосессию совокупления."
-    biff "Это может сразу повысить рейтинги нашего с Вами журнала!"
+    biff "Wie soll das Shooting weiter gehen?"
+    biff "Frau Buckfett kann sich vollständig ausziehen und jede Pose machen, die Sie wollen."
+    biff "Oder wollen Sie ein männliches Model mit dabei haben, und beide machen ein heißes Shooting?"
+    biff "Das könnte die Verkaufszahlen in die Höhe treiben!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1126
 translate german ep211_photoshoot_suit9_pose10a_b6aabe92:
 
     # m "ЧТО?!!!"
-    m "ЧТО?!!!"
+    m "WAS?!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1130
 translate german ep211_photoshoot_suit9_pose10a_0763f086:
@@ -935,12 +935,12 @@ translate german ep211_photoshoot_suit9_pose10a_0763f086:
     # campbell "Будет достаточно лишь немного приоткрыть его."
     # campbell "В другой раз, я предоставлю соответствующий наряд и мы значительно продвинемся в направлении нового курса журнала."
     # biff "Да, Мистер Кэмпбелл, конечно!"
-    campbell "Нет, Мистер Биф. Давайте не будем торопиться."
-    campbell "Я бы не хотел портить впечатление зрителей от закрытой фотосессии, которую Вы вскоре собираетесь опубликовать."
-    campbell "И я бы не хотел, чтобы Миссис Бакфетт снимала платье, я не хочу лишаться рекламы моего бренда."
-    campbell "Будет достаточно лишь немного приоткрыть его."
-    campbell "В другой раз, я предоставлю соответствующий наряд и мы значительно продвинемся в направлении нового курса журнала."
-    biff "Да, Мистер Кэмпбелл, конечно!"
+    campbell "Nein, Biff, überstürzen wir nichts."
+    campbell "Ich will die Öffentlichkeit nicht überrumpeln mit privaten Shootings."
+    campbell "Und ich will nicht, dass Frau Buckfett das Kleid auszieht, es bewirbt ja meine Marke."
+    campbell "Sie soll nur etwas mehr von ihrem Körper zeigen."
+    campbell "Ich suche ein besseres Outfit für das nächste Mal aus, das zum neuen Kurs des Magazines passt."
+    biff "Ja, Herr Campbell, gerne!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1144
 translate german ep211_photoshoot_suit9_pose10a_84385ba2:
@@ -950,19 +950,19 @@ translate german ep211_photoshoot_suit9_pose10a_84385ba2:
     # biff "Это Мистер Кэмпбелл, один из самых богатых людей этого города!"
     # biff "Будь рада что он вообще пока еще не раскусил то, что ты поддельная резиновая кукла!"
     # biff "Потому, встань в ту позу, которую он пожелал."
-    biff "Кукла, у тебя что, совсем закончились твои куриные мозги?!"
-    biff "Ты вообще понимаешь перед кем ты здесь ломаешься?!"
-    biff "Это Мистер Кэмпбелл, один из самых богатых людей этого города!"
-    biff "Будь рада что он вообще пока еще не раскусил то, что ты поддельная резиновая кукла!"
-    biff "Потому, встань в ту позу, которую он пожелал."
+    biff "Hey Puppe, bist du schon wieder irre?!"
+    biff "Weißt du überhaupt, was du hier machst?"
+    biff "Du stehst vor Herrn Campbell, einem der reichsten Menschen der Stadt!"
+    biff "Sei froh, dass er immer noch nicht kapiert hat, dass du ein falsches Silikondouble bist!"
+    biff "Also mach die Posen, die er will!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1151
 translate german ep211_photoshoot_suit9_pose10a_408c0d2c:
 
     # biff "Отвлеки его взгляд от своей глупой кукольной модрашки, чтобы продолжить оставаться неузнанной."
     # biff "Пока он думает, что ты Моника Бакфетт, он готов инвестировать в наш журнал!"
-    biff "Отвлеки его взгляд от своей глупой кукольной модрашки, чтобы продолжить оставаться неузнанной."
-    biff "Пока он думает, что ты Моника Бакфетт, он готов инвестировать в наш журнал!"
+    biff "Versuche, seine Augen von deinem Puppengesicht auf deinen Körper zu lenken, dass er nichts merkt."
+    biff "Er wird in unser Magazin investieren, so lange er denkt, dass du Monica Buckfett bist!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1156
 translate german ep211_photoshoot_suit9_pose10a_587432e0:
@@ -972,18 +972,18 @@ translate german ep211_photoshoot_suit9_pose10a_587432e0:
     # biff "Если ты сейчас же не сделаешь что я тебе говорю, ты вылетишь отсюда и никогда больше не попадешь в этот шикарный офис!"
     # biff "Я считаю до трех!"
     # biff "Раз..."
-    m "Биф, но я..."
-    m "Это ведь публичная фотосессия!"
-    biff "Если ты сейчас же не сделаешь что я тебе говорю, ты вылетишь отсюда и никогда больше не попадешь в этот шикарный офис!"
-    biff "Я считаю до трех!"
-    biff "Раз..."
+    m "Biff, aber ich..."
+    m "Das ist ein öffentliches Shooting!"
+    biff "Wenn du nicht machst, was ich sage, werfe ich dich aus deinem luxuriösen Büro und du kannst nie wieder zurück kommen."
+    biff "Ich zähle bis drei."
+    biff "Eins..."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1163
 translate german ep211_photoshoot_suit9_pose10a_d2c7998c:
 
     # mt "О Боже! Что мне делать?!"
     # biff "Два..."
-    mt "О Боже! Что мне делать?!"
+    mt "Oh Gott! Was mache ich?"
     biff "Zwei..."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1167
@@ -991,8 +991,8 @@ translate german ep211_photoshoot_suit9_pose10a_1ad03b2b:
 
     # mt "Кэмпбелл сказал, что надо лишь немного приоткрыть платье..."
     # mt "Может быть не будет ничего видно?"
-    mt "Кэмпбелл сказал, что надо лишь немного приоткрыть платье..."
-    mt "Может быть не будет ничего видно?"
+    mt "Campbell sagte, dass ich nur das Kleid etwas mehr öffnen soll."
+    mt "Vielleicht zeigen sie ja nichts vulgäres?"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1171
 translate german ep211_photoshoot_suit9_pose10a_aa3ad08d:
@@ -1006,7 +1006,7 @@ translate german ep211_photoshoot_suit9_pose10a_2cccb84e:
     # m "Я не собираюсь участвовать в этом фарсе!"
     # m "Прощайте, мерзавцы!!!"
     m "Ich nehme an dieser Farce nicht teil!"
-    m "Прощайте, мерзавцы!!!"
+    m "Auf Wiedersehen, Bastarde!!!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1195
 translate german ep211_photoshoot_suit9_pose10a_0fce4845:
@@ -1023,9 +1023,9 @@ translate german ep211_photoshoot_suit9_pose10a_3e44a9d7:
     # mt "А там меня ждет... О Ужас!!!"
     # mt "У меня нет выбора!"
     mt "Ich habe keine Wahl!"
-    mt "Если у меня не будет денег от этих фотосессий, то Виктория скажет Дику бросить мое дело!"
-    mt "И я окажусь в руках Маркуса и тех, кто стоит за ним!"
-    mt "А там меня ждет... О Ужас!!!"
+    mt "Wenn ich kein Geld durch die Shootings mache, wird Victoria Dick dazu bringen, meinen Fall fallen zu lassen."
+    mt "Und ich ende bei Marcus!"
+    mt "Und dann..."
     mt "Ich habe keine Wahl!"
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1209
@@ -1038,13 +1038,13 @@ translate german ep211_photoshoot_suit9_pose10a_8ea741bb:
     # biff "Хотите мы снимем это платье и повесим рядом, чтобы был виден Ваш бренд?"
     # campbell "Нет, Мистер Биф. Все в порядке."
     # campbell "Так вполне достаточно. Для этого раза..."
-    biff "Мистер Кэмпбелл. я убедил Миссис Бакфетт."
-    campbell "Вы отличный личный менеджер, Биф! вы знаете подход к своему Боссу!"
-    biff "Спасибо, Мистер Кэмпбелл!"
-    biff "Вас устраивает поза Миссис Бакфетт?"
-    biff "Хотите мы снимем это платье и повесим рядом, чтобы был виден Ваш бренд?"
-    campbell "Нет, Мистер Биф. Все в порядке."
-    campbell "Так вполне достаточно. Для этого раза..."
+    biff "Herr Campbell, ich konnte Frau Buckfett überzeugen."
+    campbell "Sie sind ein toller Manager, Biff! Sie wissen, wie man ihrem Boss Honig ums Maul schmiert!"
+    biff "Danke, Herr Campbell!"
+    biff "Gefällt Ihnen diese Pose?"
+    biff "Wollen Sie, dass sie das Kleid auszieht und es daneben hin hängt, dann kann man ihre Marke noch sehen?"
+    campbell "Nein, Biff. Das passt so."
+    campbell "Das ist genug. Für heute."
 
 # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1307
 translate german ep211_photoshoot_suit9_pose11_7e7925f3:
@@ -1085,20 +1085,20 @@ translate german ep211_dialogues3_photoshoot_8b_156e1c8f:
 
     # mt "НОГИ МОЕЙ ЗДЕСЬ БОЛЬШЕ НЕ БУДЕТ, ПОКА МОЕ МЕСТО ЗАНИМАЕТ ЭТОТ МЕРЗАВЕЦ!!!"
     # mt "Я ДОСТАТОЧНО УМНА, ЧТОБЫ НАЙТИ ДРУГОЙ ПУТЬ РЕШИТЬ СВОИ ПРОБЛЕМЫ!!!"
-    mt "НОГИ МОЕЙ ЗДЕСЬ БОЛЬШЕ НЕ БУДЕТ, ПОКА МОЕ МЕСТО ЗАНИМАЕТ ЭТОТ МЕРЗАВЕЦ!!!"
-    mt "Я ДОСТАТОЧНО УМНА, ЧТОБЫ НАЙТИ ДРУГОЙ ПУТЬ РЕШИТЬ СВОИ ПРОБЛЕМЫ!!!"
+    mt "ICH SETZE HIER KEINEN FUSS MEHR REIN, SOLANGE DIESER BASTARD MEIN BÜRO BESETZT!!!"
+    mt "ICH BIN SCHLAU GENUG, EINEN ANDEREN WEG ZU FINDEN, MEINE PROBLEME ZU LÖSEN!"
 
 translate german strings:
 
     # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:436
     old "Обнажить грудь."
-    new "Обнажить грудь."
+    new "Zeige dein Brust."
 
     # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1173
     old "Сделать как требует Биф."
-    new "Сделать как требует Биф."
+    new "Mache, was Biff verlangt."
 
     # game/Quests/EP2_11/ep211_dialogues4_fotoshoot.rpy:1173
     old "Уйти (конец квестов, связанных с офисом)."
-    new "Уйти (конец квестов, связанных с офисом)."
+    new "Geh weg. (Beendet das Bürokettenquest)."
 

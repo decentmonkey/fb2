@@ -714,5 +714,5 @@ translate german strings:
 
     # game/Quests/EP2_11/ep211_dialogues8_phillip_home.rpy:104
     old "Групповой секс. (в следующем обновлении) (disabled)"
-    new "Групповой секс. (в следующем обновлении) (disabled)"
+    new "Gruppensex. (in kommenden Updates) (disabled)"
 

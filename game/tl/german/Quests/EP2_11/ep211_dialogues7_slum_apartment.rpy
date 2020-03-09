@@ -2216,7 +2216,7 @@ translate german ep211_dialogues6_slum_apartment_6_48b6c74c:
     # m "..."
     # m "А что это за убогая картина?! Это тоже от рабочих?"
     m "..."
-    m "А что это за убогая картина?! Это тоже от рабочих?"
+    m "Was soll dieses hässliche Bild? Haben das die Arbeiter hier gelassen?"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:370
 translate german ep211_dialogues6_slum_apartment_6_e8f903bd:
@@ -2241,8 +2241,8 @@ translate german ep211_dialogues6_slum_apartment_6_3652372c:
     # m "В этой!"
     # m "В этом пристанище для бомжей!!!"
     # m "!!!"
-    m "Я не буду жить в этой!"
-    m "В этой!"
+    m "Darin werde ich nicht wohnen...!"
+    m "Darin...!"
     m "In diesem Hafen für Obdachlose!!!"
     m "!!!"
 
@@ -2360,11 +2360,11 @@ translate german ep211_dialogues6_slum_apartment_20_e2a6d86e:
     # mt "Какой мерзавец посмел оставить это здесь?!"
     # mt "В месте, где живет... Стоп... Моника, лучше не называй себя по имени в этом месте."
     # mt "Никто не должен узнать кто я на самом деле. Это ведь все временно..."
-    mt "Какой жуткий мусор!"
-    mt "И прямо под моим окном!"
-    mt "Какой мерзавец посмел оставить это здесь?!"
-    mt "В месте, где живет... Стоп... Моника, лучше не называй себя по имени в этом месте."
-    mt "Никто не должен узнать кто я на самом деле. Это ведь все временно..."
+    mt "Was für widerlicher Müll!"
+    mt "Genau unter meinem Fenster!"
+    mt "Welcher Bastard lässt sowas da?"
+    mt "An einem Ort, wo... warte... nenn dich nicht selbst bei deinem echten Namen!"
+    mt "Niemand muss wissen, wer ich wirklich bin. Das ist ja nur übergangsweise.."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1624
 translate german ep211_dialogues6_slum_apartment_21_f20f8792:
@@ -2372,9 +2372,9 @@ translate german ep211_dialogues6_slum_apartment_21_f20f8792:
     # mt "Заколоченные окна..."
     # mt "Похоже, у меня нет соседей, и это хорошо."
     # mt "Меньше никчемных бездельников извращенцев!"
-    mt "Заколоченные окна..."
-    mt "Похоже, у меня нет соседей, и это хорошо."
-    mt "Меньше никчемных бездельников извращенцев!"
+    mt "Verschlossenes Fenster..."
+    mt "Anscheinend habe ich keine Nachbarn. Das ist gut."
+    mt "Hier wären eh nur nutzlose Perverse!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1630
 translate german ep211_dialogues6_slum_apartment_22_5d8a5bba:
@@ -2382,31 +2382,31 @@ translate german ep211_dialogues6_slum_apartment_22_5d8a5bba:
     # mt "Одинокое окно..."
     # mt "Не могу поверить что это мой новый дом..."
     # mt "Но, по крайней мере, у меня есть крыша над головой..."
-    mt "Одинокое окно..."
-    mt "Не могу поверить что это мой новый дом..."
-    mt "Но, по крайней мере, у меня есть крыша над головой..."
+    mt "Ein einzelnes Fenster..."
+    mt "Ich fasse es nicht, dass das mein neues Zuhause sein soll..."
+    mt "Wenigstens habe ich ein Dach über dem Kopf..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1636
 translate german ep211_dialogues6_slum_apartment_23_ee50028e:
 
     # mt "Это что, рыба?!"
-    mt "Это что, рыба?!"
+    mt "Was ist das, ein Fisch?!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1640
 translate german ep211_dialogues6_slum_apartment_24_d953fe70:
 
     # mt "Этот маленький светильник светит ночью для меня."
     # mt "Он как маленький лучик солнца в моей кошмарной жизни..."
-    mt "Этот маленький светильник светит ночью для меня."
-    mt "Он как маленький лучик солнца в моей кошмарной жизни..."
+    mt "Diese kleine Lampe scheint für mich am Abend."
+    mt "Es ist wie ein kleiner Lichtstrahl in meinem Alptraumleben..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1645
 translate german ep211_dialogues6_slum_apartment_25_ccbd5748:
 
     # mt "Какие жуткие лампы..."
     # mt "Они напоминают мне освещение в камере у Маркуса..."
-    mt "Какие жуткие лампы..."
-    mt "Они напоминают мне освещение в камере у Маркуса..."
+    mt "Gruselige Lampen..."
+    mt "Sie erinnern mich an das Zimmer bei Marcus..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1650
 translate german ep211_dialogues6_slum_apartment_26_f62961bd:
@@ -2414,15 +2414,15 @@ translate german ep211_dialogues6_slum_apartment_26_f62961bd:
     # mt "Какая безвкусица!"
     # mt "Но я не буду трогать эту картину, боюсь что эта стена держится на ней..."
     # mt "Или за картиной окажется огромная дыра или что-нибудь еще..."
-    mt "Какая безвкусица!"
-    mt "Но я не буду трогать эту картину, боюсь что эта стена держится на ней..."
-    mt "Или за картиной окажется огромная дыра или что-нибудь еще..."
+    mt "Absolut kein Geschmack hier!"
+    mt "Ich werde das Bild nicht anfassen. Möglicherweise ist es für die Wand tragend..."
+    mt "Oder es ist ein riesen Loch dahinter oder sowas..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1656
 translate german ep211_dialogues6_slum_apartment_27_0d567a80:
 
     # mt "В этом столе больше ничего нет..."
-    mt "В этом столе больше ничего нет..."
+    mt "Da gibt’s sonst nichts mehr interessantes auf dem Tisch..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1660
 translate german ep211_dialogues6_slum_apartment_28_2ebf21ad:
@@ -2430,43 +2430,43 @@ translate german ep211_dialogues6_slum_apartment_28_2ebf21ad:
     # mt "Жираф..."
     # mt "Это портрет хозяина апартаментов?"
     # mt "Поражает натуральность визуального сходства!"
-    mt "Жираф..."
-    mt "Это портрет хозяина апартаментов?"
-    mt "Поражает натуральность визуального сходства!"
+    mt "Giraffe..."
+    mt "Ist das ein Bilder Apartementarbeiter?"
+    mt "Die Ähnlichkeit ist verblüffend!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1666
 translate german ep211_dialogues6_slum_apartment_29_ae2e93b4:
 
     # mt "Выход на улицу... На кошмарную улицу..."
-    mt "Выход на улицу... На кошмарную улицу..."
+    mt "Ausgang nach Draußen... zu dieser Alptraumstraße..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1670
 translate german ep211_dialogues6_slum_apartment_30_cb4da71d:
 
     # mt "Здесь осталась какая-то еда..."
     # mt "Возможно я смогу что-то приготовить себе..."
-    mt "Здесь осталась какая-то еда..."
-    mt "Возможно я смогу что-то приготовить себе..."
+    mt "Da ist noch etwas Essen..."
+    mt "Vielleicht kann ich mir was kochen..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1675
 translate german ep211_dialogues6_slum_apartment_31_18cf8ec0:
 
     # mt "Какое-то грязное полотенце..."
     # mt "Я не буду его трогать, у меня есть хорошее чистое."
-    mt "Какое-то грязное полотенце..."
-    mt "Я не буду его трогать, у меня есть хорошее чистое."
+    mt "Ein dreckiges Handtuch..."
+    mt "Das fasse ich nicht an, ich habe ein sauberes dabei."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1679
 translate german ep211_dialogues6_slum_apartment_32_cb6055ca:
 
     # mt "В это мутное зеркало ничего не видно..."
-    mt "В это мутное зеркало ничего не видно..."
+    mt "In diesem schmutzigen Spiegel kann man gar nichts erkennen..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1682
 translate german ep211_dialogues6_slum_apartment_33_2c0053a6:
 
     # mt "Не удивлюсь если в этих ящиках живут тараканы..."
-    mt "Не удивлюсь если в этих ящиках живут тараканы..."
+    mt "Es würde mich nicht wundern, wenn Kakerlaken in diesen Kisten leben würden..."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1688
 translate german ep211_dialogues6_slum_apartment_34_28d563be:
@@ -2486,21 +2486,21 @@ translate german ep211_dialogues6_slum_apartment_34_28d563be:
     # mt "Как же хорошо после душа! Я чувствую прилив сил."
     # mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
     # mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
-    mt "Как же хорошо, что я теперь сама себе хозяйка. Никакая провинциальная дура теперь не командует мною."
-    mt "Здесь так шумно. Не могу привыкнуть к этому."
-    mt "Я немного задремала, а на улице уже вечер. Что мне сегодня еще нужно сделать?"
-    mt "Еще один день в этой ужасной дыре... С другой стороны, здесь все МОЕ. И это не может не радовать."
-    mt "Ужасно неудобное спальное место! У меня такое чувство, что я спала на полу."
-    mt "Если бы у меня получилось сделать здесь ремонт и обновить мебель, здесь стало бы довольно уютно."
-    mt "Фи! Никогда бы не подумала, что моя попа будет прикасаться к такому ужасному унитазу!"
-    mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
-    mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
-    mt "Я вынуждена мыть свое прекрасное тело в этом жалком подобии душа!"
-    mt "Какой идиот придумал сделать душ из куска ржавой трубы?!"
-    mt "По крайней мере, здесь есть горячая вода..."
-    mt "Как же хорошо после душа! Я чувствую прилив сил."
-    mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
-    mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
+    mt "Es ist so gut, dass ich nun mein eigener Chef bin. Kein Trottel wird mich mehr rumkommandieren."
+    mt "Es ist so laut hier. Daran kann ich mich nicht gewöhnen."
+    mt "Ich bin ein genickt, und es ist schon fast Abend. Was könnte ich heute noch tun?"
+    mt "Ein weiterer Tag in diesem Loch hier... Andererseits, das alles ist MEINS. Darüber freue ich mich."
+    mt "Ein furchtbar unbequemer Schlafplatz! Fühlt sich an, als hätte ich am Boden geschlafen."
+    mt "Wenn ich nur ein paar Reparaturen hier machen könnte und ein paar neue Möbel hätte. Dann wäre es gleich viel wohnlicher."
+    mt "Wah! Ich hätte nie gedacht, dass mein Hintern eine so eklige Toilette jemals berühren würde!"
+    mt "Eine so schöne Frau wie ich verdient diese Dinge einfach nicht."
+    mt "Ich werde nicht lange in diesem Loch bleiben! Bald habe ich alles wieder zurück!"
+    mt "Ich bin gezwungen, meinen wunderbaren Körper in dieser Möchtegerndusche zu waschen. Einfach widerlich."
+    mt "Welcher Idiot macht denn eine Dusche aus einem rostigen Rohr?!"
+    mt "Wenigstens gibt's warmes Wasser..."
+    mt "Es fühlt sich so gut an, geduscht zu haben."
+    mt "Meine Haut ist so weich und schön. Es braucht königliche Pflege, nicht diese furchtbare Dusche!"
+    mt "Warum gibt es keinen einzigen Spiegel in diesem Loch? Ich kann mir meine Schönheit nicht mal anschauen."
 
 # TODO: Translation updated at 2020-03-07 23:37
 
@@ -2898,49 +2898,49 @@ translate german ep211_dialogues6_slum_apartment_17_aacf203c:
 translate german ep211_dialogues6_slum_apartment_34_after_shower_dc469dc0:
 
     # mt "Как же хорошо после душа! Я чувствую прилив сил."
-    mt "Как же хорошо после душа! Я чувствую прилив сил."
+    mt "Es fühlt sich so gut an, geduscht zu haben."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1752
 translate german ep211_dialogues6_slum_apartment_34_after_shower_7203166e:
 
     # mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
-    mt "Моя кожа такая нежная и такая красивая. Она нуждается в королевском уходе, а не в мытье под этим ужасным душем!"
+    mt "Meine Haut ist so weich und schön. Es braucht königliche Pflege, nicht diese furchtbare Dusche!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1754
 translate german ep211_dialogues6_slum_apartment_34_after_shower_73a8c4a9:
 
     # mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
-    mt "И почему в этой ужасной дыре нет ни одного нормального зеркала? Я даже не могу посмотреть на свое прекрасное тело."
+    mt "Warum gibt es keinen einzigen Spiegel in diesem Loch? Ich kann mir meine Schönheit nicht mal anschauen."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1760
 translate german ep211_dialogues6_slum_apartment_35_f4daab46:
 
     # mt "Как же хорошо, что я теперь сама себе хозяйка. Никакая провинциальная дура теперь не командует мною."
-    mt "Как же хорошо, что я теперь сама себе хозяйка. Никакая провинциальная дура теперь не командует мною."
+    mt "Es ist so gut, dass ich nun mein eigener Chef bin. Kein Trottel wird mich mehr rumkommandieren."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1762
 translate german ep211_dialogues6_slum_apartment_35_f9573293:
 
     # mt "Здесь так шумно. Не могу привыкнуть к этому."
-    mt "Здесь так шумно. Не могу привыкнуть к этому."
+    mt "Es ist so laut hier. Daran kann ich mich nicht gewöhnen."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1764
 translate german ep211_dialogues6_slum_apartment_35_9ab3c7ea:
 
     # mt "Еще один день в этой ужасной дыре... С другой стороны, здесь все МОЕ. И это не может не радовать."
-    mt "Еще один день в этой ужасной дыре... С другой стороны, здесь все МОЕ. И это не может не радовать."
+    mt "Ein weiterer Tag in diesem Loch hier... Andererseits, das alles ist MEINS. Darüber freue ich mich."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1766
 translate german ep211_dialogues6_slum_apartment_35_d48faab0:
 
     # mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
-    mt "Такая красивая женщина, как я, не заслуживает всего, что со мной произошло."
+    mt "Eine so schöne Frau wie ich verdient diese Dinge einfach nicht."
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1768
 translate german ep211_dialogues6_slum_apartment_35_f1ee2f45:
 
     # mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
-    mt "Я не собираюсь оставаться в этой ужасной дыре надолго! Скоро я верну себе все!"
+    mt "Ich werde nicht lange in diesem Loch bleiben! Bald habe ich alles wieder zurück!"
 
 # game/Quests/EP2_11/ep211_dialogues7_slum_apartment.rpy:1782
 translate german ep211_dialogues6_slum_apartment_36_54b0e521:

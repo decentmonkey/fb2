@@ -206,21 +206,21 @@ translate german strings:
 
     # game/Characters/Monica/Bed_Basement.rpy:112
     old "Пропустить до..."
-    new "Пропустить до..."
+    new "Überspringe Zeit..."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Понедельника."
-    new "Пропустить до Понедельника."
+    new "Überspringe Zeit bis Montag."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Вторника."
-    new "Пропустить до Вторника."
+    new "Überspringe Zeit bis Dienstag."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Среды."
-    new "Пропустить до Среды."
+    new "Überspringe Zeit bis Mittwoch."
 
     # game/Characters/Monica/Bed_Basement.rpy:137
     old "Пропустить до Четверга."
-    new "Пропустить до Четверга."
+    new "Überspringe Zeit bis Donnerstag."
 

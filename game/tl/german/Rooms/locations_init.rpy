@@ -208,15 +208,15 @@ translate german strings:
 
     # game/Rooms/locations_init.rpy:203
     old "Дом в трущобах"
-    new "Дом в трущобах"
+    new "Haus in den Slums"
 
     # game/Rooms/locations_init.rpy:211
     old "АПАРТАМЕНТЫ ЮЛИИ"
-    new "АПАРТАМЕНТЫ ЮЛИИ"
+    new "JULIAS WOHNUNG"
 
     # game/Rooms/locations_init.rpy:219
     old "КЛУБ КЭМПБЕЛЛА"
-    new "КЛУБ КЭМПБЕЛЛА"
+    new "CAMPBELLS CLUB"
 
     # game/Rooms/locations_init.rpy:224
     old "Lift"

@@ -2816,7 +2816,7 @@ translate german ep211_escort_scene2_7_41b373b9:
     # natalie "Странно."
     # marty "Что странного?"
     # natalie "Что парень и девушка одновременно отсутствуют..."
-    natalie "Странно."
+    natalie "Seltsam."
     marty "Ist was komisch?"
     natalie "Ja, dass ein Typ und eine Frau gleichzeitig weg sin..."
 
@@ -2970,7 +2970,7 @@ translate german ep211_escort_scene2_14_27a79443:
     reception "Genau, keinen Cent! Und das war noch gnädig!"
     reception "Noch einmal auch nur dir kleinste Verfehlung, und du fliegst raus!!!"
     reception "Hast du mich verstanden, [monica_hotel_name]?!"
-    help "Увольнение будет реализовано в следующих апдейтах..."
+    help "Die Möglichkeit, gefeuert zu werden, kommt im nächsten Update..."
 
 # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:2335
 translate german ep211_escort_scene2_14_0a5616b8:
@@ -2985,22 +2985,22 @@ translate german ep211_escort_scene2_15_f4668ba9:
     # mt "С другой стороны, это немаленькие деньги для меня сейчас."
     # mt "И все думают что я [monica_hotel_name]."
     # mt "Никто не знает кто я такая на самом деле..."
-    mt "Не могу поверить что я позволила сделать такое с собой..."
-    mt "С другой стороны, это немаленькие деньги для меня сейчас."
-    mt "И все думают что я [monica_hotel_name]."
-    mt "Никто не знает кто я такая на самом деле..."
+    mt "Ich fasse es nicht, dass ich sie das machen habe lassen..."
+    mt "Andererseits, das ist gutes Geld für jetzt."
+    mt "Jeder denkt, ich bin [monica_hotel_name]."
+    mt "Niemand weiß, wer ich wirklich bin."
 
 translate german strings:
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1095
     old "Несколько минут спустя..."
-    new "Несколько минут спустя..."
+    new "Einige Minuten später..."
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1278
     old "В это время в гостиной..."
-    new "В это время в гостиной..."
+    new "Zur selben Zeit, im Wohnzimmer..."
 
     # game/Quests/EP2_11/ep211_dialogues2_escort_scene2.rpy:1338
     old "В соседней комнате..."
-    new "В соседней комнате..."
+    new "In einem nahegelegenen Raum..."
 

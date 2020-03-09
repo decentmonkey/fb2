@@ -220,6 +220,7 @@ label ep211_dialogues7_Phillip_home_3:
         "Сделать Филппу минет вместе с шлюхой номер 1.":
             $ monicaShlut1PhillipBlowjob2 = True # Моника делала минет Филиппу со шлюхой номер 1
             pass
+    $ renpy.free_memory()
     # Моника смотрит на то, как шлюха номер 1 облизывает член
     music Groove2_85
     img 17090

@@ -3329,12 +3329,12 @@ translate german dialogue_5_dance_strip_23_5aca1d7a:
 
     # mt "Я боюсь воровать чаевые за танцы..."
     # mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
-    mt "Я боюсь воровать чаевые за танцы..."
-    mt "Не представляю что меня еще заставить делать эта извращенка Эшли..."
+    mt "Ich habe Angst, die Trinkgelder zu klauen..."
+    mt "Ich will mir gar nicht vorstellen, was diese perverse Ashley das nächste Mal mit mir macht..."
 
 # game/Quests/EP2_09/ep29_dialogues2_dance_strip.rpy:2118
 translate german dialogue_5_dance_strip_23_98c31adc:
 
     # mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
-    mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
+    mt "Ich glaube, Ashley schaut genau hin und ich hätte Hundstage..."
 

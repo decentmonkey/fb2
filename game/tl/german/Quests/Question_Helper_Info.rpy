@@ -374,17 +374,17 @@ translate german strings:
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Биф требует, чтобы я убедила этих глупых инвесторов инвестировать деньги в мой журнал. Как он предполагает я смогу это сделать?"
-    new "Биф требует, чтобы я убедила этих глупых инвесторов инвестировать деньги в мой журнал. Как он предполагает я смогу это сделать?"
+    new "Biff will, dass ich die Investoren überzeuge, mehr Geld in das Magazin zu stecken. Was denkt er, wie ich das machen soll?"
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Я не собираюсь быть позорищем для всего мира! Я верну себе мою компанию, но не таким путем!"
-    new "Я не собираюсь быть позорищем для всего мира! Я верну себе мою компанию, но не таким путем!"
+    new "Ich mache mich vor der ganzen Welt nicht zum Affen. Ich werde meine Firma zurück bekommen, aber nicht so."
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Я не собираюсь вилять голой попой перед посетителями этой дыры!!!"
-    new "Я не собираюсь вилять голой попой перед посетителями этой дыры!!!"
+    new "Ich wackle mit meinem Hintern nicht vor den Besuchern dieses Lochs!!!"
 
     # game/Quests/Question_Helper_Info.rpy:131
     old "Эшли хочет чтобы я помирилась с этой сучкой Молли. Не представляю как это возможно!"
-    new "Эшли хочет чтобы я помирилась с этой сучкой Молли. Не представляю как это возможно!"
+    new "Ashley will, dass ich mit dieser Bitch Molly klar komme. Aber wie?"
 

@@ -1677,7 +1677,7 @@ translate german ep211_dialogues2_public_event_25_2c33916e:
     stephanie "Alles ist gut."
     stephanie "Weißt du, so eine Party können wir doch nicht verpassen."
     stephanie "Es gibt so viele interessante Leute zu treffen."
-    mt "И, судя по наряду Ребекки, найти, с кем бы переспать..."
+    mt "Und, Rebeccas Outfit zu urteilen, jemanden, mit dem sie schlafen kann."
     mt "Stephanie ist gekommen, um Spaß zu haben."
     mt "Und Rebecca will eindeutig einen anderen Sugardaddy finden."
     mt "..."
@@ -2561,14 +2561,14 @@ translate german ep211_dialogues2_public_event_1_1da6b3d8:
 
     # biff "Я жду тебя {c}завтра{/c}, цыпочка."
     # m "..."
-    biff "Я жду тебя {c}завтра{/c}, цыпочка."
+    biff "Ich warte {cmorgen{/c} auf dich, Chick."
     m "..."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:303
 translate german ep211_dialogues2_public_event_2_26eeecee:
 
     # biff "Приходи {c}завтра вечером{/c}, кукла."
-    biff "Приходи {c}завтра вечером{/c}, кукла."
+    biff "Komme {c}Morgen Abend{/c}, Puppe."
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:617
 translate german ep211_dialogues2_public_event_9_6667586e:
@@ -3679,7 +3679,7 @@ translate german ep211_dialogues2_public_event_25_55f42eeb:
     # mt "Стефани пришла сюда развлекаться."
     # mt "А Ребекка явно хочет найти очередной мешок с деньгами."
     # mt "..."
-    mt "И, судя по наряду Ребекки, найти, с кем бы переспать..."
+    mt "Und, Rebeccas Outfit zu urteilen, jemanden, mit dem sie schlafen kann."
     mt "Stephanie ist gekommen, um Spaß zu haben."
     mt "Und Rebecca will eindeutig einen anderen Sugardaddy finden."
     mt "..."
@@ -4767,8 +4767,8 @@ translate german ep211_dialogues2_public_event_40_b55f8728:
 
     # mt "Не могу выносить этого Бифа!"
     # mt "Как бы я хотела пристукнуть его!!!"
-    mt "Не могу выносить этого Бифа!"
-    mt "Как бы я хотела пристукнуть его!!!"
+    mt "Ich hasse Biffs Eier!"
+    mt "Wie sehr ich sie zerquetschen will!!!"
 
 # game/Quests/EP2_11/ep211_dialogues3_public_event.rpy:2245
 translate german ep211_dialogues2_public_event_41_01bc1592:
@@ -4784,7 +4784,7 @@ translate german ep211_dialogues2_public_event_42_cbce3f49:
     # mt "У меня плохое предчувствие насчет этой фотосессии..."
     # mt "Я еле вытерпела этого придурка Бифа на протяжении вечера."
     # mt "С меня хватит. Пора домой!"
-    mt "У меня плохое предчувствие насчет этой фотосессии..."
-    mt "Я еле вытерпела этого придурка Бифа на протяжении вечера."
-    mt "С меня хватит. Пора домой!"
+    mt "Ich habe ein schlechtes Gefühl, was das Shooting angeht..."
+    mt "Ich habe diesen Idioten Biff nun einen ganzen Abend ertragen. Fast."
+    mt "Ich habe genug, ich gehe Heim!"
 

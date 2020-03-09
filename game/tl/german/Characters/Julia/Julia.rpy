@@ -12,9 +12,9 @@ translate german strings:
 
     # game/Characters/Julia/Julia.rpy:17
     old "Юлия приняла ухаживания Моники, но еще побаивается ее."
-    new "Юлия приняла ухаживания Моники, но еще побаивается ее."
+    new "Julia ging auf Monicas Anmache ein, aber sie ist noch skeptisch."
 
     # game/Characters/Julia/Julia.rpy:20
     old "Юлия влюбляется в Монику, но еще не доверяет ей."
-    new "Юлия влюбляется в Монику, но еще не доверяет ей."
+    new "Julia verliebt sich in Monica, aber sie vertraut ihr noch nicht."
 

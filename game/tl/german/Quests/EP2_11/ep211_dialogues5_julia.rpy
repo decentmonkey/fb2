@@ -874,7 +874,7 @@ translate german strings:
 translate german ep211_dialogues4_julia_2_6c0cf15d:
 
     # cafe_barista "Добрый вечер. Пожалуйста Ваше меню."
-    cafe_barista "Добрый вечер. Пожалуйста Ваше меню."
+    cafe_barista "Guten Abend, hier ist die Karte."
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:421
 translate german ep211_dialogues4_julia_3_5ced93aa:
@@ -1002,7 +1002,7 @@ translate german ep211_dialogues4_julia_4a_26e013dd:
 translate german ep211_dialogues4_julia_4a_ddfee7a3:
 
     # m "Дура!"
-    m "Дура!"
+    m "Idiot!"
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:532
 translate german ep211_dialogues4_julia_4a_d1f70c04_1:
@@ -1122,7 +1122,7 @@ translate german ep211_dialogues4_julia_4a_26e013dd_1:
 translate german ep211_dialogues4_julia_4a_ddfee7a3_1:
 
     # m "Дура!"
-    m "Дура!"
+    m "Idiot!"
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:645
 translate german ep211_dialogues4_julia_4a_d1f70c04_2:
@@ -1217,16 +1217,16 @@ translate german ep211_dialogues4_julia_11m_9f8e9999:
 
     # mt "Какой теплый плед..."
     # mt "Может быть украсть его у Юлии?"
-    mt "Какой теплый плед..."
-    mt "Может быть украсть его у Юлии?"
+    mt "Was für eine warme Decke..."
+    mt "Vielleicht sollte ich sie von Julia klauen?"
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:848
 translate german ep211_dialogues4_julia_11n_f6e19ba3:
 
     # mt "Какая-то рухлядь Юлии..."
     # mt "Зачем это ей надо, не понимаю..."
-    mt "Какая-то рухлядь Юлии..."
-    mt "Зачем это ей надо, не понимаю..."
+    mt "Julias Müll..."
+    mt "Warum braucht sie ihn überhaupt?"
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:853
 translate german ep211_dialogues4_julia_11o_2dc332e0:
@@ -1234,33 +1234,33 @@ translate german ep211_dialogues4_julia_11o_2dc332e0:
     # mt "Похоже в одной из этих глупых книг Юлия вычитала романтическую историю про отношения с начальницей..."
     # mt "Это из-за той книги мне приходится притворяться перед ней."
     # mt "Лучшее решение - это выкинуть их..."
-    mt "Похоже в одной из этих глупых книг Юлия вычитала романтическую историю про отношения с начальницей..."
-    mt "Это из-за той книги мне приходится притворяться перед ней."
-    mt "Лучшее решение - это выкинуть их..."
+    mt "Anscheinend hat Julia ein Buch gelesen, in dem es um eine Beziehung zwischen Chef und Angestellten geht..."
+    mt "Ich muss wegen dem Buch nett zu ihr sein."
+    mt "Vielleicht sollte ich das einfach wegwerfen..."
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:859
 translate german ep211_dialogues4_julia_11p_dcac5b4d:
 
     # mt "Грязные окна. Видимо Юлия их не моет, чтобы помещение не выделялось на общем фоне..."
-    mt "Грязные окна. Видимо Юлия их не моет, чтобы помещение не выделялось на общем фоне..."
+    mt "Schmutzige Fenster. Julia reinigt sie wahrscheinlich nie."
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:875
 translate german ep211_dialogues4_julia_11r_097305fc:
 
     # mt "Заперто"
     # mt "Юлии нет дома. Интересно, где она?"
-    mt "Заперто"
-    mt "Юлии нет дома. Интересно, где она?"
+    mt "Verschlossen."
+    mt "Julia ist nicht zu Hause. Wo kann sie nur sein?"
 
 # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:880
 translate german ep211_dialogues4_julia_11s_cbcd0372:
 
     # mt "Пока рано уходить отсюда..."
-    mt "Пока рано уходить отсюда..."
+    mt "Zu früh, um zu gehen..."
 
 translate german strings:
 
     # game/Quests/EP2_11/ep211_dialogues5_julia.rpy:360
     old "Некоторое время спустя..."
-    new "Некоторое время спустя..."
+    new "Etwas später..."
 

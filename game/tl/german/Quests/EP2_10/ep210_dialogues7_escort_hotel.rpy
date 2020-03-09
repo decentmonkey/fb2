@@ -2866,5 +2866,5 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1362
     old "Работать в эскорте."
-    new "Работать в эскорте."
+    new "Arbeite als Escort"
 

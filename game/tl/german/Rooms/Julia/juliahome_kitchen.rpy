@@ -4,5 +4,5 @@ translate german strings:
 
     # game/Rooms/Julia/juliahome_kitchen.rpy:30
     old "СПАЛЬНЯ"
-    new "СПАЛЬНЯ"
+    new "SCHLAFZIMMER"
 
