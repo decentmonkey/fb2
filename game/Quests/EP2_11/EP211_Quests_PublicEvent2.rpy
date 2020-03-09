@@ -301,8 +301,10 @@ label ep211_quests_publicevent2_photoshoot2: # Моника одела плат�
         call putoff_work_clothes() from _rcall_putoff_work_clothes_2
         call change_scene("street_monica_office", "Fade_long", False) from _rcall_change_scene_22
         return False
+
     call change_scene("monica_office_cabinet_table") from _rcall_change_scene_23
-    return False
+    jump ep211_quests_publicevent2_photoshoot3
+#    return False
 
 label ep211_quests_publicevent2_photoshoot2_biff_repeat: # Повтор подхода к Бифу насчет фотосессии
     if act=="l":
@@ -351,6 +353,7 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
 #        $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
         $ remove_hook(label="photoshoot")
         $ remove_hook(label="photoshoot_alex")
+        $ remove_objective("reports_to_biff")
         call putoff_work_clothes() from _rcall_putoff_work_clothes_5
         $ questLog(64, False)
         $ questLog(63, False)
