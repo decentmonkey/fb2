@@ -4,8 +4,9 @@ label ep211_revenge_quest1:
     $ add_objective("go_to_steve", _("Идти к Стиву"), c_red, 125)
     $ day_time = "day"
     $ day_time_suffix = ""
-    if week_day == 7:
-        $ day += 1
+#    if week_day == 7:
+#        $ day += 1
+    $ move_object("Steve", "steve_office_office_table")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ map_enabled = False
