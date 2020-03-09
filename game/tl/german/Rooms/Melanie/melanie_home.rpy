@@ -4,5 +4,4 @@ translate german strings:
 
     # game/Rooms/Melanie/melanie_home.rpy:33
     old "В ГОРОД"
-    new "IN DER STADT"
-
+    new "IN DIE STADT"

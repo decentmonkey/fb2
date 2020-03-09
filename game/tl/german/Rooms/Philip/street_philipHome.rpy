@@ -7,4 +7,3 @@ translate german street_philiphome_environment_71fefb01:
     # mt "Как можно пасть так низко, Фу!"
     mt "Billige Hure, die zu Philip geht."
     mt "Wie konntest du so tief fallen, fix?!"
-
