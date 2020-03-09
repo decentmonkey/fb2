@@ -52,5 +52,5 @@ translate german strings:
 
     # game/Quests/EP2_11/EP211_Quests_Slums_Apartments.rpy:47
     old "ДОМ В ТРУЩОБАХ"
-    new "ДОМ В ТРУЩОБАХ"
+    new "HAUS IN DEN SLUMS"
 

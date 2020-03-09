@@ -1868,5 +1868,5 @@ translate german strings:
 
     # game/Quests/EP2_10/ep210_dialogues5_julia.rpy:4
     old "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)"
-    new "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)"
+    new "Lade Julia auf ein zweites Date ein (in kommenden Updates) (disabled)"
 

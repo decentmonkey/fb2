@@ -164,7 +164,7 @@ translate german ep22_photoshoot1_casting_f4e1f245_1:
 translate german corruption_required_9bce411b:
 
     # empty_name "[required1] corruption required!"
-    empty_name "[required1] corruption required!"
+    empty_name "[required1] Korruption benötigt!"
 
 translate german strings:
 

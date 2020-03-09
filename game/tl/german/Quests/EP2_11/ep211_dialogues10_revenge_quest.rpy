@@ -20,7 +20,7 @@ translate german e211_dialogues_revenge_quest1_9accd843:
     # m "Итак, что ты знаешь про то, что случилось со мной?"
     # m "Говори!"
     m "Итак, что ты знаешь про то, что случилось со мной?"
-    m "Говори!"
+    m "Sprich!"
 
 # game/Quests/EP2_11/ep211_dialogues10_revenge_quest.rpy:24
 translate german e211_dialogues_revenge_quest1_6759213a:

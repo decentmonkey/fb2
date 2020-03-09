@@ -1776,7 +1776,7 @@ translate german ep210_dialogues7_escort_hotel_8c_c5c1c040:
     mt "Huch!"
     mt "Sie könnte mich auf den Cover meiner Zeitschrift gesehen haben!"
     mt "Oder auf dem Foto von der Konferenz!"
-    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckfett bin!"
+    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckett bin!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:914
 translate german ep210_dialogues7_escort_hotel_8d_f6c89520:
@@ -2468,7 +2468,7 @@ translate german ep210_dialogues7_escort_hotel_12_59c0695e:
     client_friend_2 "Die Hure ist diesmal natürlich nicht die schickste ..."
     client "Komm schon... Für ein Bier!!!! Aha Ha!!!"
     mt "!!!"
-    mt "!!!!!!!"
+    mt "!!!!!"
     mt "AAAAA!!!"
     client "Es ist kostenlos!!!!"
 
@@ -2834,7 +2834,7 @@ translate german ep210_dialogues7_escort_hotel_8c_9411c94d:
     mt "Huch!"
     mt "Sie könnte mich auf den Cover meiner Zeitschrift gesehen haben!"
     mt "Oder auf dem Foto von der Konferenz!"
-    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckfett bin!"
+    mt "Ich möchte nicht, dass sie wissen, dass ich Monica Buckett bin!"
 
 # game/Quests/EP2_10/ep210_dialogues7_escort_hotel.rpy:1492
 translate german ep210_dialogues7_escort_hotel_8d_04cfb66a:

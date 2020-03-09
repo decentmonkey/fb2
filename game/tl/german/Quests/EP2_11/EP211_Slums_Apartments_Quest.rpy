@@ -12,9 +12,9 @@ translate german strings:
 
     # game/Quests/EP2_11/EP211_Slums_Apartments_Quest.rpy:98
     old "Ключи от дома в трущобах"
-    new "Ключи от дома в трущобах"
+    new "Wohnungsschlüssel in den Slums."
 
     # game/Quests/EP2_11/EP211_Slums_Apartments_Quest.rpy:153
     old "Оплата за апартаменты в трущобах просрочена!"
-    new "Оплата за апартаменты в трущобах просрочена!"
+    new "Die Miete für das Apartement in den Slums ist überfällig!"
 
