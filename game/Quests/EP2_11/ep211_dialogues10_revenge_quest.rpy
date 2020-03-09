@@ -1,7 +1,7 @@
-call e211_dialogues_revenge_quest1() # комната Моники в подвале, разговор с Фредом
-call e211_dialogues_revenge_quest1a() # мысли, что надо к Стиву
-call e211_dialogues_revenge_quest2() # Моника у секретарши Стива
-call e211_dialogues_revenge_quest3() # Моника в кабинете Стива
+#call e211_dialogues_revenge_quest1() # комната Моники в подвале, разговор с Фредом
+#call e211_dialogues_revenge_quest1a() # мысли, что надо к Стиву
+#call e211_dialogues_revenge_quest2() # Моника у секретарши Стива
+#call e211_dialogues_revenge_quest3() # Моника в кабинете Стива
 
 label e211_dialogues_revenge_quest1:
     # Затемнение, Фред сидит голый с шариком во рту

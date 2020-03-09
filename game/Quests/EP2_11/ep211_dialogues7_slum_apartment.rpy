@@ -24,37 +24,37 @@ label check_skip_scene(skip_scene_check_name):
     $ skip_scenes_list.append(skip_scene_check_name)
     return False
 
-call ep211_dialogues6_slum_apartment_1() # мысли Моники об аренде квартиры, она стоит возле хостела
-call ep211_dialogues6_slum_apartment_2() # мысли перед разговором с Джеком о съеме квартиры
-call ep211_dialogues6_slum_apartment_3() # разговор с Джеком об аренде
-call ep211_dialogues6_slum_apartment_4() # мысли Моники (глазик) возле дома, где квартира
-call ep211_dialogues6_slum_apartment_5() # Моника с Джеком возле дома, где квартира
-call ep211_dialogues6_slum_apartment_6() # квартира, разговор с Джеком, оплата, осмотр своих владений
-call ep211_dialogues6_slum_apartment_7() # квартира, мысли Моники после ухода Джека
-call ep211_dialogues6_slum_apartment_8a() # мысли, осматривает квартиру - стены, пол
-call ep211_dialogues6_slum_apartment_8b() # мысли, осматривает квартиру - мусор, грязь в квартире
-call ep211_dialogues6_slum_apartment_8c() # мысли, осматривает квартиру - раскладушка
-call ep211_dialogues6_slum_apartment_8d() # мысли, осматривает квартиру - деревянная мебель, стул, рыбка
-call ep211_dialogues6_slum_apartment_8m() # мысли, осматривает квартиру - окно
-call ep211_dialogues6_slum_apartment_8f() # мысли, осматривает кухню - стены, пол
-call ep211_dialogues6_slum_apartment_8g() # мысли, осматривает кухню - кухонная утварь
-call ep211_dialogues6_slum_apartment_8h() # мысли, осматривает ванную - стены, пол
-call ep211_dialogues6_slum_apartment_8i() # мысли, осматривает ванную - унитаз
-call ep211_dialogues6_slum_apartment_8j() # мысли, осматривает ванную - раковина
-call ep211_dialogues6_slum_apartment_8k() # мысли, осматривает ванную - душ
-call ep211_dialogues6_slum_apartment_8l() # мысли, осматривает квартиру - мохито на столике (глазик)
-call ep211_dialogues6_slum_apartment_8n() # мысли, мохито на столике в комнате (hand)
-call ep211_dialogues6_slum_apartment_9() # Моника в квартире в домашней одежде (глазик)
-call ep211_dialogues6_slum_apartment_10() # суббота, приходит Джек за деньгами
-call ep211_dialogues6_slum_apartment_11() # сцена минета, когда выбран пункт меню 'Скидка 10 процентов' и 'Согласиться'
-call ep211_dialogues6_slum_apartment_12() # сцена секса, когда выбран пункт меню 'Скидка 20 процентов' и 'Согласиться'
-call ep211_dialogues6_slum_apartment_13() # мысли Моники перед домом, выбран пункт меню 'У меня нет денег' и Джек ее выселил
-call ep211_dialogues6_slum_apartment_14() # мысли, Моника пытается зайти в квартиру сразу же после того, как Джек ее выставил
-call ep211_dialogues6_slum_apartment_15() # мысли, Моника перед домом спустя какое-то время после выселения, Джек поменял замки
-call ep211_dialogues6_slum_apartment_16() # мысли, у Моники достаточно денег, чтобы заселиться в квартиру снова, пришла к дому
-call ep211_dialogues6_slum_apartment_17() # у Моники достаточно денег, чтобы заселиться в квартиру снова, пришла к шаверме, разговор с Джеком
-call ep211_dialogues6_slum_apartment_18() # мысли, Моника вернулась в квартиру после ее выселения
-call ep211_dialogues6_slum_apartment_19() # после оплаты аренды в субботу, перед уходом Джек предлагает ремонт и мебель в квартире
+#call ep211_dialogues6_slum_apartment_1() # мысли Моники об аренде квартиры, она стоит возле хостела
+#call ep211_dialogues6_slum_apartment_2() # мысли перед разговором с Джеком о съеме квартиры
+#call ep211_dialogues6_slum_apartment_3() # разговор с Джеком об аренде
+#call ep211_dialogues6_slum_apartment_4() # мысли Моники (глазик) возле дома, где квартира
+#call ep211_dialogues6_slum_apartment_5() # Моника с Джеком возле дома, где квартира
+#call ep211_dialogues6_slum_apartment_6() # квартира, разговор с Джеком, оплата, осмотр своих владений
+#call ep211_dialogues6_slum_apartment_7() # квартира, мысли Моники после ухода Джека
+#call ep211_dialogues6_slum_apartment_8a() # мысли, осматривает квартиру - стены, пол
+#call ep211_dialogues6_slum_apartment_8b() # мысли, осматривает квартиру - мусор, грязь в квартире
+#call ep211_dialogues6_slum_apartment_8c() # мысли, осматривает квартиру - раскладушка
+#call ep211_dialogues6_slum_apartment_8d() # мысли, осматривает квартиру - деревянная мебель, стул, рыбка
+#call ep211_dialogues6_slum_apartment_8m() # мысли, осматривает квартиру - окно
+#call ep211_dialogues6_slum_apartment_8f() # мысли, осматривает кухню - стены, пол
+#call ep211_dialogues6_slum_apartment_8g() # мысли, осматривает кухню - кухонная утварь
+#call ep211_dialogues6_slum_apartment_8h() # мысли, осматривает ванную - стены, пол
+#call ep211_dialogues6_slum_apartment_8i() # мысли, осматривает ванную - унитаз
+#call ep211_dialogues6_slum_apartment_8j() # мысли, осматривает ванную - раковина
+#call ep211_dialogues6_slum_apartment_8k() # мысли, осматривает ванную - душ
+#call ep211_dialogues6_slum_apartment_8l() # мысли, осматривает квартиру - мохито на столике (глазик)
+#call ep211_dialogues6_slum_apartment_8n() # мысли, мохито на столике в комнате (hand)
+#call ep211_dialogues6_slum_apartment_9() # Моника в квартире в домашней одежде (глазик)
+#call ep211_dialogues6_slum_apartment_10() # суббота, приходит Джек за деньгами
+#call ep211_dialogues6_slum_apartment_11() # сцена минета, когда выбран пункт меню 'Скидка 10 процентов' и 'Согласиться'
+#call ep211_dialogues6_slum_apartment_12() # сцена секса, когда выбран пункт меню 'Скидка 20 процентов' и 'Согласиться'
+#call ep211_dialogues6_slum_apartment_13() # мысли Моники перед домом, выбран пункт меню 'У меня нет денег' и Джек ее выселил
+#call ep211_dialogues6_slum_apartment_14() # мысли, Моника пытается зайти в квартиру сразу же после того, как Джек ее выставил
+#call ep211_dialogues6_slum_apartment_15() # мысли, Моника перед домом спустя какое-то время после выселения, Джек поменял замки
+#call ep211_dialogues6_slum_apartment_16() # мысли, у Моники достаточно денег, чтобы заселиться в квартиру снова, пришла к дому
+#call ep211_dialogues6_slum_apartment_17() # у Моники достаточно денег, чтобы заселиться в квартиру снова, пришла к шаверме, разговор с Джеком
+#call ep211_dialogues6_slum_apartment_18() # мысли, Моника вернулась в квартиру после ее выселения
+#call ep211_dialogues6_slum_apartment_19() # после оплаты аренды в субботу, перед уходом Джек предлагает ремонт и мебель в квартире
 
 
 # улица Хостела, рядом с пабом, после работы

@@ -5,14 +5,14 @@ default monicaBiffPhotoshootInvestor2 = False  # Моника со 2-го раз
 
 default photoshoot9MonicaShowedAss = False
 
-call ep211_dialogues3_photoshoot_1() # мысли, пришла в офис в день фотосесии
-call ep211_dialogues3_photoshoot_2() # встреча с инвестором в кабинете Бифа, разговор с Бифом
-call ep211_dialogues3_photoshoot_3() # фотостудия, разговор с Алексом, переодевается
-call ep211_dialogues3_photoshoot_4() # переоделась, разговор с Бифом в его кабинете
-call ep211_dialogues3_photoshoot_5() # Моника отказалась от фотосессии, оказалась на улице, но потом передумала и пришла к Бифу
-call ep211_dialogues3_photoshoot_6() # фотостудия, разговор с Алексом, приходит инвестор
-call ep211_dialogues3_photoshoot_7() # фотосессия
-call ep211_dialogues3_photoshoot_8() # кабинет Бифа, после фотосессии
+#call ep211_dialogues3_photoshoot_1() # мысли, пришла в офис в день фотосесии
+#call ep211_dialogues3_photoshoot_2() # встреча с инвестором в кабинете Бифа, разговор с Бифом
+#call ep211_dialogues3_photoshoot_3() # фотостудия, разговор с Алексом, переодевается
+#call ep211_dialogues3_photoshoot_4() # переоделась, разговор с Бифом в его кабинете
+#call ep211_dialogues3_photoshoot_5() # Моника отказалась от фотосессии, оказалась на улице, но потом передумала и пришла к Бифу
+#call ep211_dialogues3_photoshoot_6() # фотостудия, разговор с Алексом, приходит инвестор
+#call ep211_dialogues3_photoshoot_7() # фотосессия
+#call ep211_dialogues3_photoshoot_8() # кабинет Бифа, после фотосессии
 
 # другой день после паблик ивента, Моника приходит на работу в офис
 label ep211_dialogues3_photoshoot_1:
