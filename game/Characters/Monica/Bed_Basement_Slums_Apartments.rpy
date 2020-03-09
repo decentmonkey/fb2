@@ -1,5 +1,6 @@
 default monicaHomeLivingRoomMonicaSuffixStored = 0
-
+default afterNapSuffix = 3
+default afterSleepSuffix = 3
 label slums_basement_bed:
     if act=="l":
         return
