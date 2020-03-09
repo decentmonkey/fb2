@@ -510,5 +510,5 @@ label process_object_click_forced(obj_name, act):
 #label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
     $ actions_list = get_object_actions(scenes_data["objects"][scene_name][obj_name]["actions"])
     $ interface_blocked_flag = False
-    call process_object_click_alternate_action(scenes_data["objects"][scene_name][obj_name]["actions"].find(act), actions_list, scenes_data["objects"][scene_name][obj_name]["click"], obj_name, scenes_data["objects"][scene_name][obj_name])
+    call process_object_click_alternate_action(scenes_data["objects"][scene_name][obj_name]["actions"].find(act), actions_list, scenes_data["objects"][scene_name][obj_name]["click"], obj_name, scenes_data["objects"][scene_name][obj_name]) from _rcall_process_object_click_alternate_action
     return

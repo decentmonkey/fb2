@@ -351,7 +351,7 @@ label ep211_dialogues2_public_event_5:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("Несколько минут спустя..."))
+    call textonblack(_("Несколько минут спустя...")) from _rcall_textonblack_1
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

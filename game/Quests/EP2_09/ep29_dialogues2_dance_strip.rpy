@@ -2104,7 +2104,7 @@ label dialogue_5_dance_strip_23:
             "Уйти и не отдавать чаевые хозяевам бара.":
                 if monicaPubDanceStoleTipsStage == 0:
                     mt "Я не собираюсь отдавать никому мои чаевые!"
-                    call ep211_quests_pub2_exit_with_tips()
+                    call ep211_quests_pub2_exit_with_tips() from _rcall_ep211_quests_pub2_exit_with_tips
                     return False
                 if monicaPubDanceStoleTipsStage == 1:
                     mt "Я боюсь воровать чаевые за танцы..."

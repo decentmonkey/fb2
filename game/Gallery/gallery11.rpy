@@ -167,7 +167,7 @@ label gallery_11566:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя..."))
+    call textonblack(_("Минуту спустя...")) from _rcall_textonblack_16
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -620,8 +620,8 @@ label gallery_11629:
     with diss
     sound snd_door_close1
     pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_1() from _rcall_gallery_20385_1 # Стив кончает
+    call gallery_20385_2() from _rcall_gallery_20385_2 # Моника уходит
     return
 
 label gallery_11664:
@@ -665,8 +665,8 @@ label gallery_11664:
     with diss
     sound snd_door_close1
     pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_1() from _rcall_gallery_20385_1_1 # Стив кончает
+    call gallery_20385_2() from _rcall_gallery_20385_2_1 # Моника уходит
     return
 
 label gallery_11645:
@@ -740,8 +740,8 @@ label gallery_11645:
     with diss
     sound snd_door_close1
     pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_1() from _rcall_gallery_20385_1_2 # Стив кончает
+    call gallery_20385_2() from _rcall_gallery_20385_2_2 # Моника уходит
     return
 
 label gallery_11669:
@@ -892,12 +892,12 @@ label gallery_11669:
     with fade
     w
     stop music fadeout 1.0
-    call textonblack(_("СПУСТЯ 15 МИНУТ..."))
+    call textonblack(_("СПУСТЯ 15 МИНУТ...")) from _rcall_textonblack_17
     img black_screen
     with Dissolve(1)
 # Моника зло продолжает сосать член.
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_1() from _rcall_gallery_20385_1_3 # Стив кончает
+    call gallery_20385_2() from _rcall_gallery_20385_2_3 # Моника уходит
     return
 
 label gallery_11659:
@@ -999,8 +999,8 @@ label gallery_11659:
     with diss
     sound snd_door_close1
     pause 2.0
-    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_1() from _rcall_gallery_20385_1_4 # Стив кончает
+    call gallery_20385_2() from _rcall_gallery_20385_2_4 # Моника уходит
     return
 
 label gallery_11699:
@@ -1132,7 +1132,7 @@ label gallery_11699:
     sound snd_door_close1
     pause 2.0
 #    call gallery_20385_1() # Стив кончает
-    call gallery_20385_2() # Моника уходит
+    call gallery_20385_2() from _rcall_gallery_20385_2_5 # Моника уходит
     return
 
 label gallery_12633:

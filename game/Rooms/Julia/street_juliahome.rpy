@@ -35,9 +35,9 @@ label street_juliahome_init:
 label street_juliahome_teleport:
     if obj_name == "Teleport_StreetCorner":
         if cloth_type == "Nude":
-            call change_scene("street_corner", "Fade", "snd_walk_barefoot")
+            call change_scene("street_corner", "Fade", "snd_walk_barefoot") from _rcall_change_scene_69
             return
-        call change_scene("street_corner", "Fade", "highheels_run2")
+        call change_scene("street_corner", "Fade", "highheels_run2") from _rcall_change_scene_70
         return
     return
 

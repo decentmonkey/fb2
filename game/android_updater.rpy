@@ -52,5 +52,5 @@ label android_assets_updater_check:
                     downloading_assets_list.append(asset_name)
 
     if len(downloading_assets_list) > 0:
-        call android_assets_updater(downloading_assets_list)
+        call android_assets_updater(downloading_assets_list) from _rcall_android_assets_updater
     return

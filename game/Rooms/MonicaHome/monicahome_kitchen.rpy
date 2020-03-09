@@ -3,7 +3,7 @@ default monicaHomeKitchenSceneSuffix = ""
 label monicahome_kitchen:
     $ print "enter_monicahome_kitchen"
     $ miniMapData = []
-    call miniMapSlumsApartmentsGenerate()
+    call miniMapSlumsApartmentsGenerate() from _rcall_miniMapSlumsApartmentsGenerate_2
     $ scene_image = "scene_MonicaHome_Kitchen[monicaHomeKitchenSceneSuffix]"
 
     if day_time == "day":
@@ -37,19 +37,19 @@ label monicahome_kitchen_init:
 
 label monicahome_kitchen_teleport:
     if obj_name == "Teleport_LivingRoom":
-        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_47
         return
     return
 label monicahome_kitchen_environment:
     if obj_name == "Monica":
-        call ep211_dialogues6_slum_apartment_8f()
+        call ep211_dialogues6_slum_apartment_8f() from _rcall_ep211_dialogues6_slum_apartment_8f
     if obj_name == "Kitchen_Items1" or obj_name == "Kitchen_Items2" or obj_name == "Kitchen_Items3" or obj_name == "Kitchen_Items4" or obj_name == "Kitchen_Items5" or obj_name == "Kitchen_Items6":
-        call ep211_dialogues6_slum_apartment_8g()
+        call ep211_dialogues6_slum_apartment_8g() from _rcall_ep211_dialogues6_slum_apartment_8g
     if obj_name == "Kitchen_Towel1":
-        call ep211_dialogues6_slum_apartment_8g()
+        call ep211_dialogues6_slum_apartment_8g() from _rcall_ep211_dialogues6_slum_apartment_8g_1
     if obj_name == "Kitchen_Table1":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_30()
+            call ep211_dialogues6_slum_apartment_30() from _rcall_ep211_dialogues6_slum_apartment_30
             return
         return
     return

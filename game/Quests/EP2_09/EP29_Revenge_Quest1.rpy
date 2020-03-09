@@ -138,8 +138,8 @@ label ep29_revenge_quest1_table_box_opening:
     if check_inventory("revenge_keys",1) != True:
         return
     if cloth != "Governess":
-        call change_scene("basement_bedroom1", "Fade_long", False)
-        call wardrobePutGovernessWithoutPanties()
+        call change_scene("basement_bedroom1", "Fade_long", False) from _rcall_change_scene_38
+        call wardrobePutGovernessWithoutPanties() from _rcall_wardrobePutGovernessWithoutPanties
         return False
     music stop
     img black_screen
@@ -159,14 +159,14 @@ label ep29_revenge_quest1_table_gun:
     if act=="l":
         return
     if cloth != "Governess":
-        call change_scene("basement_bedroom1", "Fade_long", False)
-        call wardrobePutGovernessWithoutPanties()
+        call change_scene("basement_bedroom1", "Fade_long", False) from _rcall_change_scene_39
+        call wardrobePutGovernessWithoutPanties() from _rcall_wardrobePutGovernessWithoutPanties_1
         return
     call ep29_dialogues5_gun_monica_10b() from _call_ep29_dialogues5_gun_monica_10b
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_232
         return False
-    call ep210_revenge_quest2()
+    call ep210_revenge_quest2() from _rcall_ep210_revenge_quest2
     return False
 
 label ep29_revenge_quest1_exit_nap: # Выход из квеста, через кровать
@@ -213,8 +213,8 @@ label Box_use_revenge_keys:
         if check_inventory("revenge_keys",1) != True:
             return
         if cloth != "Governess":
-            call change_scene("basement_bedroom1", "Fade_long", False)
-            call wardrobePutGovernessWithoutPanties()
+            call change_scene("basement_bedroom1", "Fade_long", False) from _rcall_change_scene_40
+            call wardrobePutGovernessWithoutPanties() from _rcall_wardrobePutGovernessWithoutPanties_2
             return
         if ep210_revenge_quest2_box_blocked_fred == True:
             return

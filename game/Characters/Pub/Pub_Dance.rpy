@@ -43,21 +43,21 @@ label pub_dance_init:
     return
 
 label pub_dance_start: # Начало танцев (выбор в меню)
-    call dialogue_5_dance_strip_20() # Разговор о начале танцев
+    call dialogue_5_dance_strip_20() from _rcall_dialogue_5_dance_strip_20 # Разговор о начале танцев
     if _return == False:
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_44
         return
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
     $ monicaDancingInProgress = True
     if pubMakeupRoomGirlsRandomSuffix == True:
         $ pub_makeuproom_claire_suffix= rand(1,7)
         $ pub_makeuproom_molly_suffix = rand(1,8)
-    call pub_dance_movegirls_to_makeuproom()
+    call pub_dance_movegirls_to_makeuproom() from _rcall_pub_dance_movegirls_to_makeuproom
     if monicaDanceStartHookInited == False:
         $ add_hook("start_dance_event", "pub_dance_start_event_hook", scene="global", label="pub_dance_start_event_hook")
         $ monicaDanceStartHookInited = True
-    call process_hooks("start_dance_event", "global")
-    call refresh_scene_fade()
+    call process_hooks("start_dance_event", "global") from _rcall_process_hooks_19
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_45
     return
 
 label pub_dance_close: # Закрывание гримерки
@@ -72,7 +72,7 @@ label pub_dance_scene_return:
     # Моника заходит к сцене после танцев
     if cloth_type == "StripOutfit" and monicaDancedLastDay == day: # Моника выходит к сцене сразу после танцев
         sound snd_applause1
-        call dialogue_5_dance_strip_5ca()
+        call dialogue_5_dance_strip_5ca() from _rcall_dialogue_5_dance_strip_5ca
     return
 
 label pub_dance_ashley_after:
@@ -80,14 +80,14 @@ label pub_dance_ashley_after:
         return
     if monicaDancedLastDay != day:
         if monicaDancingInProgress == True:
-            call dialogue_5_dance_strip_4na()
+            call dialogue_5_dance_strip_4na() from _rcall_dialogue_5_dance_strip_4na
             return False
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day:
-        call dialogue_5_dance_strip_22()
+        call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22
         $ monica_shared_tips_with_ashley_last_day = day
         return False
-    call dialogue_5_dance_strip_4m()
+    call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m_2
     return False
 
 label pub_dance_joe_after:
@@ -95,14 +95,14 @@ label pub_dance_joe_after:
         return
     if monicaDancedLastDay != day:
         if monicaDancingInProgress == True:
-            call dialogue_5_dance_strip_4na()
+            call dialogue_5_dance_strip_4na() from _rcall_dialogue_5_dance_strip_4na_1
             return False
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day:
-        call dialogue_5_dance_strip_22()
+        call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22_1
         $ monica_shared_tips_with_ashley_last_day = day
         return False
-    call dialogue_5_dance_strip_4m()
+    call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m_3
     return False
 
 label pub_dance_remove_stage_visitors:
@@ -115,7 +115,7 @@ label pub_dance1: # Обычные танцы
     $ monica_strip_tips_today = 0
     $ pubDanceCount += 1
 
-    call pub_dance1_stage_start1()
+    call pub_dance1_stage_start1() from _rcall_pub_dance1_stage_start1
 #    m "Танцы"
 #    if pubDanceCount == 1:
 #        $ monica_strip_tips_today = 0
@@ -129,27 +129,27 @@ label pub_dance1: # Обычные танцы
 
 label pub_dance_end1: # Обычное завершение танцев
     $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True, label="dialogue_5_dance_strip_18")
-    call pub_dance_remove_stage_visitors()
+    call pub_dance_remove_stage_visitors() from _rcall_pub_dance_remove_stage_visitors
     if monicaAshleyTalkedAboutSharingTips == False: # Эшли говорила Монике о том, что та должна отдавать ей часть чаевых (танцы по желанию)
         $ monicaAshleyTalkedAboutSharingTips = True
         $ add_hook("Teleport_Pub", "pub_dance_ashley_tips1", scene="pub_makeuproom", label="monica_dance_ashley_tips1", quest="monica_dance_pub")
 
     if monicaDancingJoeAskedAboutPrivate == False and monicaDancingStage >= 2:
         # Джо спрашивает о приватных танцах
-        call dialogue_5_dance_strip_24()
+        call dialogue_5_dance_strip_24() from _rcall_dialogue_5_dance_strip_24
         $ monicaDancingJoeAskedAboutPrivate = True
     if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True:
         # Падают трусики
-        call ep210_dialogues4_dance_strip_12()
-        call ep210_dialogues4_dance_strip_13()
+        call ep210_dialogues4_dance_strip_12() from _rcall_ep210_dialogues4_dance_strip_12
+        call ep210_dialogues4_dance_strip_13() from _rcall_ep210_dialogues4_dance_strip_13
         $ ep29_quests_molly_fall_panties_planned = False
         $ ep29_quests_molly_fall_panties_completed = True
 
     if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False: # Если Моника оправдали после Молли и она еще не крала чаевых
-        call ep211_quests_pub1()
+        call ep211_quests_pub1() from _rcall_ep211_quests_pub1
 
     if monicaPubDanceStoleTipsBankerPlanned == True:
-        call ep211_quests_pub3_start_banker_quest()
+        call ep211_quests_pub3_start_banker_quest() from _rcall_ep211_quests_pub3_start_banker_quest
         if _return == False:
             return False
 
@@ -159,14 +159,14 @@ label pub_dance_end1: # Обычное завершение танцев
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ pubDanceGirlsBlockedDay = day
     $ pub_makeuproom_monica_suffix = 2
-    call change_scene("pub_makeuproom", "Fade_long")
+    call change_scene("pub_makeuproom", "Fade_long") from _rcall_change_scene_76
     return False
 
 label pub_dance_ashley_tips1:
     if cloth_type == "StripOutfit":
         return
     $ remove_hook()
-    call dialogue_5_dance_strip_21() # Эшли говорит о том, что Моника должна делиться чаевыми
+    call dialogue_5_dance_strip_21() from _rcall_dialogue_5_dance_strip_21 # Эшли говорит о том, что Моника должна делиться чаевыми
     $ monicaAshleyTalkedAboutSharingTipsDay = day
     return
 
@@ -176,13 +176,13 @@ label pub_dance_exit_check: # проверка на выход из бара
         # Закрываем танцы
         $ monicaDancingInProgress = False
         $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
-        call pub_dance_movegirls_to_stage()
+        call pub_dance_movegirls_to_stage() from _rcall_pub_dance_movegirls_to_stage
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day and monicaDancedLastDay == day:
         # Моника сегодня танцевала и не отдавала чаевые
-        call dialogue_5_dance_strip_23()
+        call dialogue_5_dance_strip_23() from _rcall_dialogue_5_dance_strip_23
         if _return == True:
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_46
             return False
     return
 
@@ -190,6 +190,6 @@ label pub_dance_exit_check: # проверка на выход из бара
 label pub_dance_start_event_hook:
     # Начало события (после разговора с Эшли/Джо)
     if monicaDancingJoeAskedAboutPrivate == True: # Если Джо уже спрашивал о приватах
-        call ep210_quests_pub1() # Проверяем на события
+        call ep210_quests_pub1() from _rcall_ep210_quests_pub1 # Проверяем на события
 
     return

@@ -13,16 +13,16 @@ default ep211_slums_apartments_quest5_apartments_block_count = 0
 
 label ep211_slums_apartments_quest1_menu:
     if slumsApartmentsStatus == 0: # Первый разговор
-        call ep211_dialogues6_slum_apartment_3()
+        call ep211_dialogues6_slum_apartment_3() from _rcall_ep211_dialogues6_slum_apartment_3
         if _return == 0:
             return True
         if _return == -1:
             return False
         if slumsApartmentsInited1 == False:
-            call ep211_quests_slums_apartments1_init()
-            call ep211_quests_slums_apartments1_inita()
+            call ep211_quests_slums_apartments1_init() from _rcall_ep211_quests_slums_apartments1_init
+            call ep211_quests_slums_apartments1_inita() from _rcall_ep211_quests_slums_apartments1_inita
         else:
-            call ep211_quests_slums_apartments1_inita()
+            call ep211_quests_slums_apartments1_inita() from _rcall_ep211_quests_slums_apartments1_inita_1
         $ slumsApartmentsMonicaKnow = True
         $ remove_objective("ask_kebab")
         $ add_hook("HomeEnter", "ep211_slums_apartments_quest2_enter_home", scene="street_monicahome", label="jack_apartments1")
@@ -42,11 +42,11 @@ label ep211_slums_apartments_quest1_menu:
         img black_screen
         with diss
         pause 2.0
-        call change_scene("street_monicahome", "Fade_long", False)
+        call change_scene("street_monicahome", "Fade_long", False) from _rcall_change_scene_4
         return False
 
     if slumsApartmentsStatus == 1: # Повторный разговор о заселении
-        call ep211_dialogues6_slum_apartment_17()
+        call ep211_dialogues6_slum_apartment_17() from _rcall_ep211_dialogues6_slum_apartment_17
         if _return == 0:
             return True
         $ remove_objective("talk_jack")
@@ -70,12 +70,12 @@ label ep211_slums_apartments_quest1_menu:
 label ep211_slums_apartments_quest1_jack:
     if act=="l":
         return
-    call ep211_dialogues6_slum_apartment_5()
+    call ep211_dialogues6_slum_apartment_5() from _rcall_ep211_dialogues6_slum_apartment_5
     return False
 
 label ep211_slums_apartments_quest2_enter_home:
     if act=="l":
-        call ep211_dialogues6_slum_apartment_4()
+        call ep211_dialogues6_slum_apartment_4() from _rcall_ep211_dialogues6_slum_apartment_4
         return False
     $ slumsEnterClothStored = cloth
     $ slumsEnterClothTypeStored = cloth_type
@@ -89,14 +89,14 @@ label ep211_slums_apartments_quest2_enter_home:
     $ add_hook("Cocktail", "ep211_dialogues6_slum_apartment_4", scene="monicahome_livingroom", label="jack_apartments1")
     $ add_hook("Monica", "ep211_dialogues6_slum_apartment_4", scene="monicahome_livingroom", label="jack_apartments1")
     $ add_hook("Shawarma_Trader", "ep211_slums_apartments_quest3_jack", scene="monicahome_livingroom", label="jack_apartments1")
-    call change_scene("monicahome_livingroom", "Fade_long", "snd_door_open1")
+    call change_scene("monicahome_livingroom", "Fade_long", "snd_door_open1") from _rcall_change_scene_5
     return False
 
 label ep211_slums_apartments_quest3_jack:
     if act=="l":
         return
     $ define_inventory_object("keys_apartments", {"description" : _("Ключи от дома в трущобах"), "label_suffix" : "_use_keys_apartments", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/keys_apartments" + res.suffix + ".png"})
-    call ep211_dialogues6_slum_apartment_6()
+    call ep211_dialogues6_slum_apartment_6() from _rcall_ep211_dialogues6_slum_apartment_6
     if _return == 0 or _return == -1:
 #        if _return == -1:
 #            $ slumsApartmentsStatus = 1
@@ -107,7 +107,7 @@ label ep211_slums_apartments_quest3_jack:
         $ slumsApartmentsMiniMapActive = False
         $ slumsDirtyStreetMiniMapActive = True
         $ map_enabled = True
-        call change_scene("hostel_street", "Fade_long")
+        call change_scene("hostel_street", "Fade_long") from _rcall_change_scene_6
         return False
     $ slumsApartmentsStatus = 1
     $ slumsApartmentsRentStarted = True
@@ -134,7 +134,7 @@ label ep211_slums_apartments_quest3_jack:
     $ slumsApartmentsStatus = 2
     $ add_hook_day("ep211_slums_apartments_quest4_check_payment", week_day = 6)
 
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_3
     return False
 
 
@@ -162,7 +162,7 @@ label ep211_slums_apartments_quest4_check_payment:
         # сцена оплаты
         $ cloth = "HomeCloth4"
         $ cloth_type = "HomeCloth"
-        call ep211_dialogues6_slum_apartment_10()
+        call ep211_dialogues6_slum_apartment_10() from _rcall_ep211_dialogues6_slum_apartment_10
         if _return == -1: # нет денег
             music stop
             img black_screen
@@ -187,13 +187,13 @@ label ep211_slums_apartments_quest4_check_payment:
             $ cloth = slumsEnterClothStored
             $ cloth_type = slumsEnterClothTypeStored
             $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_13", scene="street_monicahome", once=True)
-            call change_scene("street_monicahome", "Fade_long")
+            call change_scene("street_monicahome", "Fade_long") from _rcall_change_scene_7
             return False
         if _return == 1:
             # оплата полностью
             return
         if _return == 2: #скидка 10%
-            call ep211_dialogues6_slum_apartment_11()
+            call ep211_dialogues6_slum_apartment_11() from _rcall_ep211_dialogues6_slum_apartment_11
             $ add_corruption(slumsApartmentsRentPriceDiscount10CorruptionAdd, "slums_apartments_discount_day" + str(day))
             return
 
@@ -203,9 +203,9 @@ label ep211_slums_apartments_quest5_apartments_block: # В квартиру не
     $ ep211_slums_apartments_quest5_apartments_block_count += 1
     if ep211_slums_apartments_quest5_apartments_block_count == 1:
         # первый раз
-        call ep211_dialogues6_slum_apartment_15()
+        call ep211_dialogues6_slum_apartment_15() from _rcall_ep211_dialogues6_slum_apartment_15
         return False
-    call ep211_dialogues6_slum_apartment_16()
+    call ep211_dialogues6_slum_apartment_16() from _rcall_ep211_dialogues6_slum_apartment_16
     $ add_objective("talk_jack", _("Поговорить с Джеком и снова заселиться в квартиру."), c_blue, 105)
 
     return False
@@ -217,8 +217,8 @@ label ep211_slums_apartments_quest6_return_jack: # Джек возвращает
     return
 
 label HomeEnter_use_keys_apartments:
-    call process_object_click_forced("HomeEnter", "w")
+    call process_object_click_forced("HomeEnter", "w") from _rcall_process_object_click_forced
     return
 label MonicaWindow_use_keys_apartments:
-    call process_object_click_forced("MonicaWindow", "w")
+    call process_object_click_forced("MonicaWindow", "w") from _rcall_process_object_click_forced_1
     return

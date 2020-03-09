@@ -5,7 +5,7 @@ default monicaHomeLivingRoomSceneSuffix2 = ""
 label monicahome_livingroom:
     $ print "enter_monicahome_livingroom"
     $ miniMapData = []
-    call miniMapSlumsApartmentsGenerate()
+    call miniMapSlumsApartmentsGenerate() from _rcall_miniMapSlumsApartmentsGenerate_3
     $ scene_image = "scene_MonicaHome_LivingRoom[day_suffix][monicaHomeLivingRoomSceneSuffix][monicaHomeLivingRoomSceneSuffix2]"
 
     if day_time == "day":
@@ -43,50 +43,50 @@ label monicahome_livingroom_init:
 
 label monicahome_livingroom_teleport:
     if obj_name == "Teleport_Bathroom":
-        call change_scene("monicahome_bathroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_bathroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_48
         return
     if obj_name == "Teleport_Kitchen":
-        call change_scene("monicahome_kitchen", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_kitchen", "Fade", "snd_walk_barefoot") from _rcall_change_scene_49
         return
     if obj_name == "Teleport_Wardrobe":
-        call change_scene("monicahome_livingroomwardrobe", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroomwardrobe", "Fade", "snd_walk_barefoot") from _rcall_change_scene_50
         return
     return
 label monicahome_livingroom_environment:
     if obj_name == "Monica":
-        call ep211_dialogues6_slum_apartment_8a()
+        call ep211_dialogues6_slum_apartment_8a() from _rcall_ep211_dialogues6_slum_apartment_8a_1
     if obj_name == "Shawarma_Trader":
         if act=="l":
             mt "Грязный продавец. Я не выношу даже его вида! Фу!"
     if obj_name == "Cocktail":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_8l()
+            call ep211_dialogues6_slum_apartment_8l() from _rcall_ep211_dialogues6_slum_apartment_8l
         if act=="h":
-            call ep211_dialogues6_slum_apartment_8n()
+            call ep211_dialogues6_slum_apartment_8n() from _rcall_ep211_dialogues6_slum_apartment_8n_1
         return
     if obj_name == "Bed1":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_8c()
+            call ep211_dialogues6_slum_apartment_8c() from _rcall_ep211_dialogues6_slum_apartment_8c
         if act=="w":
             return
     if obj_name == "Chair1":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_8d()
+            call ep211_dialogues6_slum_apartment_8d() from _rcall_ep211_dialogues6_slum_apartment_8d
         if act=="w":
-            call ep211_dialogues6_slum_apartment_8a()
+            call ep211_dialogues6_slum_apartment_8a() from _rcall_ep211_dialogues6_slum_apartment_8a_2
             return
     if obj_name == "Commode":
-        call ep211_dialogues6_slum_apartment_8db()
+        call ep211_dialogues6_slum_apartment_8db() from _rcall_ep211_dialogues6_slum_apartment_8db
     if obj_name == "Fish":
-        call ep211_dialogues6_slum_apartment_23()
+        call ep211_dialogues6_slum_apartment_23() from _rcall_ep211_dialogues6_slum_apartment_23
     if obj_name == "Lamp1":
-        call ep211_dialogues6_slum_apartment_24()
+        call ep211_dialogues6_slum_apartment_24() from _rcall_ep211_dialogues6_slum_apartment_24
     if obj_name == "Lamp2" or obj_name == "Lamp3":
-        call ep211_dialogues6_slum_apartment_25()
+        call ep211_dialogues6_slum_apartment_25() from _rcall_ep211_dialogues6_slum_apartment_25
     if obj_name == "Picture1" or obj_name == "Picture2":
-        call ep211_dialogues6_slum_apartment_26()
+        call ep211_dialogues6_slum_apartment_26() from _rcall_ep211_dialogues6_slum_apartment_26
     if obj_name == "Table1":
-        call ep211_dialogues6_slum_apartment_27()
+        call ep211_dialogues6_slum_apartment_27() from _rcall_ep211_dialogues6_slum_apartment_27
     if obj_name == "Window":
-        call ep211_dialogues6_slum_apartment_8m()
+        call ep211_dialogues6_slum_apartment_8m() from _rcall_ep211_dialogues6_slum_apartment_8m
     return

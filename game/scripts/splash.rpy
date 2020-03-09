@@ -1,5 +1,5 @@
 label splashscreen:
-    call init_launch()
+    call init_launch() from _rcall_init_launch
     if debugMode == True:
         return
 

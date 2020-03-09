@@ -28,7 +28,7 @@ label pub:
     $ pubStripteaseGirl2Suffix = rand(1,4)
 
     if slumsApartmentsCheckInitialized == False:
-        call ep211_quests_slums_apartments0_init()
+        call ep211_quests_slums_apartments0_init() from _rcall_ep211_quests_slums_apartments0_init
 
     if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False or get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
         music RocknRoll_loop
@@ -95,7 +95,7 @@ label pub_teleport:
         if cloth == "Whore":
             $ pub_makeuproom_monica_suffix = 1
         music2 stop
-        call change_scene("pub_makeuproom", "Fade_long")
+        call change_scene("pub_makeuproom", "Fade_long") from _rcall_change_scene_75
     return
 label pub_environment:
     if obj_name == "Bartender":
@@ -151,12 +151,12 @@ label pub_environment:
             with fade
             w
             if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-                call dialogue_5_dance_strip_25()
-                call refresh_scene_fade()
+                call dialogue_5_dance_strip_25() from _rcall_dialogue_5_dance_strip_25_1
+                call refresh_scene_fade() from _rcall_refresh_scene_fade_30
                 return
             if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-                call dialogue_5_dance_strip_26()
-                call refresh_scene_fade()
+                call dialogue_5_dance_strip_26() from _rcall_dialogue_5_dance_strip_26_1
+                call refresh_scene_fade() from _rcall_refresh_scene_fade_31
                 return
             mt "Эти девушки совсем не уважают себя!"
             "Как можно делать подобное у всех на виду?!"

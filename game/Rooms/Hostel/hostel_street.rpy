@@ -48,9 +48,9 @@ label hostel_street_init2:
 label hostel_street_teleport:
     if obj_name == "Teleport_Slums_Apartments":
         if cloth_type == "Nude":
-            call change_scene("street_monicahome", "Fade", "snd_walk_barefoot")
+            call change_scene("street_monicahome", "Fade", "snd_walk_barefoot") from _rcall_change_scene_55
             return
-        call change_scene("street_monicahome", "Fade", "highheels_run2")
+        call change_scene("street_monicahome", "Fade", "highheels_run2") from _rcall_change_scene_56
         return
 
     if obj_name == "Teleport_Hostel_Edge_C":
@@ -74,7 +74,7 @@ label hostel_street_teleport:
             mt "Я не могу зайти туда одетой в рекламу кебеба..."
             mt "Я просто застряну в проходе!"
             return
-        call ep29_quests_pub1_begin_dance_quest_check() # проверяем условия старта квеста на танцы в баре
+        call ep29_quests_pub1_begin_dance_quest_check() from _rcall_ep29_quests_pub1_begin_dance_quest_check # проверяем условия старта квеста на танцы в баре
         call change_scene("pub") from _call_change_scene_192
         return
     return

@@ -6,7 +6,7 @@ label street_monicahome:
     $ print "enter_street_monicahome"
     $ miniMapData = []
     if slumsApartmentsRentActive == True:
-        call miniMapSlumsApartmentsGenerate()
+        call miniMapSlumsApartmentsGenerate() from _rcall_miniMapSlumsApartmentsGenerate_4
     $ sceneIsStreet = True
 
     $ scene_image = "scene_Street_MonicaHome[day_suffix]"
@@ -43,31 +43,31 @@ label street_monicahome_init:
 label street_monicahome_teleport:
     if obj_name == "Street_MonicaHome_TeleportSlums":
         if cloth_type == "Nude":
-            call change_scene("hostel_street", "Fade", "snd_walk_barefoot")
+            call change_scene("hostel_street", "Fade", "snd_walk_barefoot") from _rcall_change_scene_51
             return
-        call change_scene("hostel_street", "Fade", "highheels_run2")
+        call change_scene("hostel_street", "Fade", "highheels_run2") from _rcall_change_scene_52
         return
     if obj_name == "HomeEnter":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_4()
+            call ep211_dialogues6_slum_apartment_4() from _rcall_ep211_dialogues6_slum_apartment_4_1
             return
-        call change_scene("monicahome_livingroom")
+        call change_scene("monicahome_livingroom") from _rcall_change_scene_53
         return
     if obj_name == "MonicaWindow":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_22()
+            call ep211_dialogues6_slum_apartment_22() from _rcall_ep211_dialogues6_slum_apartment_22
             return
-        call change_scene("monicahome_livingroom")
+        call change_scene("monicahome_livingroom") from _rcall_change_scene_54
         return
     return
 label street_monicahome_environment:
     if obj_name == "Monica":
-        call ep211_dialogues6_slum_apartment_4()
+        call ep211_dialogues6_slum_apartment_4() from _rcall_ep211_dialogues6_slum_apartment_4_2
     if obj_name == "Shawarma_Trader":
         if act=="l":
             mt "Грязный продавец. Я не выношу даже его вида! Фу!"
     if obj_name == "ClosedWindow1" or obj_name == "ClosedWindow2":
-        call ep211_dialogues6_slum_apartment_21()
+        call ep211_dialogues6_slum_apartment_21() from _rcall_ep211_dialogues6_slum_apartment_21
     if obj_name == "Trash":
-        call ep211_dialogues6_slum_apartment_20()
+        call ep211_dialogues6_slum_apartment_20() from _rcall_ep211_dialogues6_slum_apartment_20
     return

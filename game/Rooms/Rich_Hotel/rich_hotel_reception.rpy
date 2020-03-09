@@ -58,7 +58,7 @@ label rich_hotel_reception_teleport:
         call change_scene("rich_hotel_restaurant_entrance", "Fade_long") from _call_change_scene_332
         return
     if obj_name == "Teleport_Lift":
-        call change_scene("rich_hotel_lift", "Fade_long")
+        call change_scene("rich_hotel_lift", "Fade_long") from _rcall_change_scene_59
         return
 
     return

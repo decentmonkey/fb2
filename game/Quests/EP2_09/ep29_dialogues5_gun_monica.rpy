@@ -460,7 +460,7 @@ label ep29_dialogues5_gun_monica_10b:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack("FASHION BUSINESS")
+    call textonblack("FASHION BUSINESS") from _rcall_textonblack_13
     img black_screen
     with Dissolve(2.0)
     return

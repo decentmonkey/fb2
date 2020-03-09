@@ -27,7 +27,7 @@ label gallery_10416:
     with fade
     bardie "Я лишь проверю, что ты соблюдаешь правила этого дома!"
         #random
-    call showRandomImagesDiss([10416, 10417, 10418, 10419], 2)
+    call showRandomImagesDiss([10416, 10417, 10418, 10419], 2) from _rcall_showRandomImagesDiss
 #        w
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -95,7 +95,7 @@ label gallery_10435:
     img 10434
     with diss
     w
-    call showRandomImagesDiss([10435, 10436, 10437, 10438], 2)
+    call showRandomImagesDiss([10435, 10436, 10437, 10438], 2) from _rcall_showRandomImagesDiss_1
 
 #    bardie "Я лишь проверю, что у тебя все в порядке с твоими трусиками!"
     #
@@ -162,7 +162,7 @@ label gallery_10459:
     with fade
     w
     #random
-    call showRandomImagesDiss([10456, 10457, 10458], 1)
+    call showRandomImagesDiss([10456, 10457, 10458], 1) from _rcall_showRandomImagesDiss_2
 #    img 10456
 #    img 10457
 #    img 10458
@@ -186,7 +186,7 @@ label gallery_10459:
     with diss
     w
     #random
-    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3)
+    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3) from _rcall_showRandomImagesDiss_3
 #    img 10463
 #    img 10464
 #    img 10465
@@ -230,7 +230,7 @@ label gallery_10463:
     with fade
     w
     #random
-    call showRandomImagesDiss([10456, 10457, 10458], 1)
+    call showRandomImagesDiss([10456, 10457, 10458], 1) from _rcall_showRandomImagesDiss_4
 #    img 10456
 #    img 10457
 #    img 10458
@@ -254,7 +254,7 @@ label gallery_10463:
     with diss
     w
     #random
-    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3)
+    call showRandomImagesDiss([10463, 10464, 10465, 10466, 10467, 10468], 3) from _rcall_showRandomImagesDiss_5
 #    img 10463
 #    img 10464
 #    img 10465
@@ -369,7 +369,7 @@ label gallery_10498:
     w
 
     #random
-    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
+    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4)) from _rcall_showRandomImagesDiss_6
     #
 
     img 10506
@@ -399,7 +399,7 @@ label gallery_10498:
     w
 
     #random
-    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
+    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4)) from _rcall_showRandomImagesDiss_7
 #        img 10514
 #        img 10515
 #        img 10516
@@ -460,7 +460,7 @@ label gallery_10515:
     w
 
     #random
-    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4))
+    call showRandomImagesDiss([10498, 10499, 10500, 10501, 10502, 10503, 10504, 10505], rand(3,4)) from _rcall_showRandomImagesDiss_8
     #
 
     img 10506
@@ -490,7 +490,7 @@ label gallery_10515:
     w
 
     #random
-    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4))
+    call showRandomImagesDiss([10514, 10515, 10516, 10517, 10518, 10519, 10520, 10521], rand(3,4)) from _rcall_showRandomImagesDiss_9
 #        img 10514
 #        img 10515
 #        img 10516
@@ -555,7 +555,7 @@ label gallery_10539:
     with diss
     w
     #random
-    call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3)
+    call showRandomImagesDiss([10530, 10531, 10532, 10533, 10534, 10535], 3) from _rcall_showRandomImagesDiss_10
 #        img 10530
 #        img 10531
 #        img 10532
@@ -580,7 +580,7 @@ label gallery_10539:
     with diss
     w
     #random
-    call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3)
+    call showRandomImagesDiss([10540, 10541, 10542, 10543, 10544, 10545], 3) from _rcall_showRandomImagesDiss_11
 #        img 10540
 #        img 10541
 #        img 10542
@@ -1636,7 +1636,7 @@ label gallery_14600:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер..."))
+    call textonblack(_("Вечер...")) from _rcall_textonblack_24
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -1835,7 +1835,7 @@ label gallery_14612:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _rcall_textonblack_25
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
@@ -2235,7 +2235,7 @@ label gallery_15130:
     betty "Давай, быстрее!"
     betty "Только одно фото!"
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_159
     w
     # Барди с довольным видом делает фотку
     img 15130
@@ -2243,24 +2243,24 @@ label gallery_15130:
     betty "Все?"
     bardie "Подождите, что-то не получилось фото. Ну-ка еще раз."
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_160
     w
     # Барди делет еще несколько кадров
     img 15131
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_161
     w
     img 15132
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_162
     w
     img 15133
     with diss
     betty "Все! Хватит!"
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_163
     w
     # Бетти опускает юбку, Моника следом за ней
     music stop
@@ -2394,7 +2394,7 @@ label gallery_15147: # если ушла от учителя
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _rcall_textonblack_26
     img black_screen
     with Dissolve(2.0)
     music Groove2_85

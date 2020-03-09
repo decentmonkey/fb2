@@ -774,15 +774,15 @@ label gallery_14891:
     img 14916
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_155
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_156
     w
     # Барди злорадно ухмыляется за дверью и делает несколько кадров
     img 14908
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_157
     w
     bardie_t "!!!"
     bardie_t "Отлично! Теперь она от меня никуда не денется!"
@@ -942,7 +942,7 @@ label gallery_14891:
     img 14939
     with fadelong
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_158
     w
     # Бетти встает и одевается, препод тоже
     music stop
@@ -2282,7 +2282,7 @@ label gallery_22574:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_23
     scene black_screen
     with Dissolve(1)
     # в кабинет к Эдвардсу заходит мисс Мэнсфилд, в руках нагайка, учитель вскакивает со своего стула, широко улыбается

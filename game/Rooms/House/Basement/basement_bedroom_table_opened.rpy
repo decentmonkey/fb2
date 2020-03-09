@@ -19,7 +19,7 @@ label basement_bedroom_table_opened_init:
 
 label basement_bedroom_table_opened_teleport:
     if obj_name == "Teleport_Basement_Bedroom2":
-        call change_scene("basement_bedroom2", "Fade_long", "desk_close")
+        call change_scene("basement_bedroom2", "Fade_long", "desk_close") from _rcall_change_scene_61
         return
 
     return

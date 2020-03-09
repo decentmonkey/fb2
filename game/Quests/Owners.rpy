@@ -33,7 +33,7 @@ label change_owner_default:
         $ hud_preset_default = "melanie"
         $ minimap_coords_preset = 1
         $ melanie_control_active = True
-        call define_hudpresets()
+        call define_hudpresets() from _rcall_define_hudpresets
     else:
         $ melanie_control_active = False
 

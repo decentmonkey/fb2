@@ -110,7 +110,7 @@ label ep211_dialogues7_Phillip_home_2:
 
 # если выбран пункт 'Двойной минет'
 label ep211_dialogues7_Phillip_home_3:
-    call check_skip_scene("ep211_dialogues7_Phillip_home_2")
+    call check_skip_scene("ep211_dialogues7_Phillip_home_2") from _rcall_check_skip_scene
     if _return == True:
         return True
     # Филипп сидит на диване перед телеком, Моника и шлюха стоят перед ним

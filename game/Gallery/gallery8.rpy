@@ -1160,7 +1160,7 @@ label gallery_21244:
     sound man_steps
     img black_screen
     with Dissolve(1.5)
-    call textonblack(_("День 1"))
+    call textonblack(_("День 1")) from _rcall_textonblack_14
     img black_screen
     with Dissolve(2.0)
     return
@@ -1483,7 +1483,7 @@ label gallery_21624:
 # Если поставить на место, то Моника говорит чтобы они заткнулись!
 # Они сами нарушают правила тем, что заключают сделки с надзирателем.
 # Гуляют здесь без разрешения администрации.
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309
             return
 
 # Если притворяться шлюхой
@@ -1603,7 +1603,7 @@ label gallery_21624:
         "Извиниться перед заключенными.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_1
             return
 
 # Мне надо делать что они говорят, иначе конец!
@@ -1677,7 +1677,7 @@ label gallery_21624:
         "Показать грудь.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_2
             return
 
 # Моника показывает грудь, закрывая другой рукой киску.
@@ -1746,7 +1746,7 @@ label gallery_21624:
         "Показать свою киску.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_3
             return
 
 # Моника поднимает вторую руку вверх, держа робу.
@@ -1813,7 +1813,7 @@ label gallery_21624:
         "Попросить разрешение показать свою попу.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_4
             return
 
 # Я... Я прошу...
@@ -2004,7 +2004,7 @@ label gallery_21624:
         "Подойти к заключенным.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_5
             return
 
     music stop
@@ -2253,7 +2253,7 @@ label gallery_21446:
         "Притворяться шлюхой.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_6
             return
 
 # Я... Я хорошая шлюха...
@@ -2332,7 +2332,7 @@ label gallery_21446:
         "Сделать как велят заключенные.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_7
             return
 
     mt "У меня нет другого выхода..."
@@ -2355,7 +2355,7 @@ label gallery_21446:
         "Сесть ближе к заключенным.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_8
             return
 # Моника встает на колени, голой попой к заключенным.
     mt "Я пододвинусь к ним... Аккуратно..."
@@ -2417,7 +2417,7 @@ label gallery_21446:
         "Сказать, что Моника шлюха и что ее задница принадлежит заключенным.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_9
             return
 
 # Главное - понтянуть время, Моника! Я скажу им все что угодно, чтобы выиграть время...
@@ -2460,7 +2460,7 @@ label gallery_21446:
         "Положить палец на свою киску и раздвинуть ее.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_10
             return
     music stop
     music2 stop
@@ -2495,7 +2495,7 @@ label gallery_21446:
         "Сказать, что попа Моники всегда к услугам заключенных.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_11
             return
 
 # Как я могу сказать такое?! Неужели я это сделаю?!
@@ -2612,7 +2612,7 @@ label gallery_21446:
         "Сказать, что Моника ждет члены заключенных в своей попе.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_12
             return
 
 # Я... Я жду ваши члены...
@@ -2741,7 +2741,7 @@ label gallery_21446:
         "Сказать, что завтра Моника будет сосать члены заключенных.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_13
             return
 
 # Я... Я буду сосать Ваши члены... Завтра...
@@ -2810,7 +2810,7 @@ label gallery_21523:
     music stop
     music2 stop
     sound man_steps
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_15
     img black_screen
     with Dissolve(1)
     music2 prison_yell_music
@@ -2981,7 +2981,7 @@ label gallery_21523:
         "Сделать, что они хотят.":
             pass
         "Поставить их на место!":
-            call gallery_21309()
+            call gallery_21309() from _rcall_gallery_21309_14
             return
 
 # Я... Я...

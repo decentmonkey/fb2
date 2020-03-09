@@ -24,12 +24,12 @@ label ep211_quests_slums_apartments0_check:
     $ add_objective("ask_kebab", _("Спросить у продавца шавермы про аренду квартиры."), c_blue, 105)
     $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_2", scene="whores_place_shawarma", label="slums_apartments_begin", once=True)
     $ slumsApartmentsShawarmaTraderDialogue1Active = True
-    call ep211_dialogues6_slum_apartment_1()
+    call ep211_dialogues6_slum_apartment_1() from _rcall_ep211_dialogues6_slum_apartment_1
     return
 
 label ep211_quests_slums_apartments1_init:
-    call locations_init_monicahome()
-    call hostel_street_init2()
+    call locations_init_monicahome() from _rcall_locations_init_monicahome
+    call hostel_street_init2() from _rcall_hostel_street_init2
     $ add_hook("HomeEnter", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label="monica_apartments_enter")
     $ add_hook("MonicaWindow", "ep211_quests_slums_apartments2_check_enter", scene="street_monicahome", quest="monica_apartments", label=["monica_apartments_enter", "monica_apartments_enter_window"])
     $ add_hook("Teleport_Street", "ep211_quests_slums_apartments3_check_exit_door", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="monica_apartments_exit")
@@ -39,7 +39,7 @@ label ep211_quests_slums_apartments1_init:
     $ add_hook("Street_MonicaHome_TeleportSlums", "dialogue_classmate_3_1_1a", scene="street_monicahome", quest="monica_apartments", label="school_outfit_slums_forbidden")
     $ add_hook("Street_MonicaHome_TeleportSlums", "ep25_quests4", scene="street_monicahome", quest="monica_apartments", label="casual_dress_slums_forbidden", priority=900)
     $ add_hook("slums_apartments_check_exit_wardrobe", "ep211_quests_slums_apartments3_check_exit_wardrobe", scene="monicahome_livingroomwardrobe", quest="monica_apartments", label="slums_apartments_check_exit_wardrobe")
-    call ep211_quests_slums_apartments1_initb()
+    call ep211_quests_slums_apartments1_initb() from _rcall_ep211_quests_slums_apartments1_initb
     return
 
 label ep211_quests_slums_apartments1_inita:
@@ -119,52 +119,52 @@ label ep211_quests_slums_apartments2_check_enter_minimap:
     return
 
 label ep211_quests_slums_apartments2_check_enter_minimap_bathroom:
-    call ep211_quests_slums_apartments2_check_enter_minimap()
+    call ep211_quests_slums_apartments2_check_enter_minimap() from _rcall_ep211_quests_slums_apartments2_check_enter_minimap
     if _return == False:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeBathroomMonicaSuffix = 1
-        call change_scene("monicahome_bathroom", "Fade")
+        call change_scene("monicahome_bathroom", "Fade") from _rcall_change_scene_29
     else:
-        call change_scene("monicahome_bathroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_bathroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_30
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_kitchen:
-    call ep211_quests_slums_apartments2_check_enter_minimap()
+    call ep211_quests_slums_apartments2_check_enter_minimap() from _rcall_ep211_quests_slums_apartments2_check_enter_minimap_1
     if _return == False:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeKitchenMonicaSuffix = 1
-        call change_scene("monicahome_kitchen", "Fade")
+        call change_scene("monicahome_kitchen", "Fade") from _rcall_change_scene_31
     else:
-        call change_scene("monicahome_kitchen", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_kitchen", "Fade", "snd_walk_barefoot") from _rcall_change_scene_32
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_livingroom:
-    call ep211_quests_slums_apartments2_check_enter_minimap()
+    call ep211_quests_slums_apartments2_check_enter_minimap() from _rcall_ep211_quests_slums_apartments2_check_enter_minimap_2
     if _return == False:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeLivingRoomMonicaSuffix = 1
-        call change_scene("monicahome_livingroom", "Fade")
+        call change_scene("monicahome_livingroom", "Fade") from _rcall_change_scene_33
     else:
-        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_34
     return
 label ep211_quests_slums_apartments2_check_enter_minimap_livingroomwardrobe:
-    call ep211_quests_slums_apartments2_check_enter_minimap()
+    call ep211_quests_slums_apartments2_check_enter_minimap() from _rcall_ep211_quests_slums_apartments2_check_enter_minimap_3
     if _return == False:
         return False
     if scene_name == "street_monicahome":
         $ monicaHomeLivingRoomWardrobeMonicaSuffix = 1
-        call change_scene("monicahome_livingroomwardrobe", "Fade")
+        call change_scene("monicahome_livingroomwardrobe", "Fade") from _rcall_change_scene_35
     else:
-        call change_scene("monicahome_livingroomwardrobe", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroomwardrobe", "Fade", "snd_walk_barefoot") from _rcall_change_scene_36
     return
 
 
 label ep211_quests_slums_apartments3_check_exit_minimap:
-    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe") from _rcall_process_hooks
     if _return == False:
         return False
-    call change_scene("street_monicahome", "Fade", "snd_door_close1")
+    call change_scene("street_monicahome", "Fade", "snd_door_close1") from _rcall_change_scene_37
     $ streetMonicaHomeMonicaSuffix = 2
     return
 
@@ -172,7 +172,7 @@ label ep211_quests_slums_apartments3_check_exit_minimap:
 label ep211_quests_slums_apartments3_check_exit_door:
     if act=="l":
         return
-    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+    call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe") from _rcall_process_hooks_1
     if _return == False:
         return False
     sound2 snd_door_close1
@@ -194,10 +194,10 @@ label ep211_quests_slums_apartments4_monica_suffix:
 label ep211_quests_slums_apartments5_cocktail:
     if act=="l":
         return
-    call ep211_dialogues6_slum_apartment_8n()
+    call ep211_dialogues6_slum_apartment_8n() from _rcall_ep211_dialogues6_slum_apartment_8n
     $ monicaSlumsApartmentsCocktailDrinked += 1
     $ set_active("Cocktail", False, scene="monicahome_livingroom")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_23
     return False
 
 label ep211_quests_slums_apartments6_chair:
@@ -205,7 +205,7 @@ label ep211_quests_slums_apartments6_chair:
         return
     $ monicaHomeLivingRoomMonicaSuffix = 5
     $ autorun_to_object("ep211_dialogues6_slum_apartment_35", scene="monicahome_livingroom")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _rcall_refresh_scene
     return False
 
 label ep211_quests_slums_apartments7_piss:
@@ -243,7 +243,7 @@ label ep211_quests_slums_apartments7_piss:
     $ monicaLastPissedDay = day
     $ monicaLastPissedDayTime = day_time
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_24
 
     return False
 
@@ -291,6 +291,6 @@ label ep211_quests_slums_apartments8_shower:
     $ monicaLastShowerDay = day
     $ monicaLastShowerDayTime = day_time
     $ restore_music()
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_25
 
     return False

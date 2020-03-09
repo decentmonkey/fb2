@@ -24,16 +24,16 @@ label rich_hotel_lift_init:
 
 label rich_hotel_lift_teleport:
     if obj_name == "Teleport_Reception":
-        call change_scene("rich_hotel_reception", "Fade_long")
+        call change_scene("rich_hotel_reception", "Fade_long") from _rcall_change_scene_60
     return
 label rich_hotel_lift_environment:
     if obj_name == "Monica":
-        call ep211_escort_scene1_11()
+        call ep211_escort_scene1_11() from _rcall_ep211_escort_scene1_11
 
     if obj_name == "Lift":
         if act=="l":
-            call ep211_escort_scene1_12()
+            call ep211_escort_scene1_12() from _rcall_ep211_escort_scene1_12
             return
-        call ep211_escort_scene1_13()
+        call ep211_escort_scene1_13() from _rcall_ep211_escort_scene1_13_2
         return
     return

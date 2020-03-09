@@ -794,7 +794,7 @@ label gallery_22251:
     with diss
     mt "Ну наконец-то!"
 
-    call gallery_22268()
+    call gallery_22268() from _rcall_gallery_22268
     # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
     music stop
     img black_screen
@@ -917,7 +917,7 @@ label gallery_6215:
     label gallery_6215_1:
         menu:
             "Приставать к Дику. (low corruption, required [monicaTryToDickBlowjobRequiredCorruption]) (disabled)" if corruption < monicaTryToDickBlowjobRequiredCorruption:
-                call low_corruption(monicaTryToDickBlowjobRequiredCorruption)
+                call low_corruption(monicaTryToDickBlowjobRequiredCorruption) from _rcall_low_corruption
                 jump gallery_6215_1
             "Приставать к Дику. (corruption)" if corruption >= monicaTryToDickBlowjobRequiredCorruption:
                 #corruption check!!!
@@ -1277,7 +1277,7 @@ label gallery_8002:
                 dick_secretary "Правильный ответ..."
                 # Щелчок фотоаппарата
                 img 8011
-                call photoshop_flash()
+                call photoshop_flash() from _rcall_photoshop_flash_164
                 w
                 sound snd_woman_laugh
                 img 8012
@@ -1965,7 +1965,7 @@ label gallery_8137:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя..."))
+    call textonblack(_("5 минут спустя...")) from _rcall_textonblack_27
     img black_screen
     with Dissolve(2.0)
     music Gearhead
@@ -2209,7 +2209,7 @@ label gallery_8249:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_28
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -2418,7 +2418,7 @@ label gallery_14070:
     with Dissolve(1)
     stop music fadeout 1.0
     music m80s_Things
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_29
     scene black_screen
     with Dissolve(1)
 #    music Groove2_85
@@ -3138,7 +3138,7 @@ label gallery_14070:
         img 14068
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_165
     w
     if monicaShowedBoobsToVictoriaCamera == True:
         img 14071
@@ -3146,7 +3146,7 @@ label gallery_14070:
         img 14070
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_166
     w
     music Groove2_85
     img 14068

@@ -35,21 +35,21 @@ label rich_hotel_restaurant_init:
 
 label rich_hotel_restaurant_teleport:
     if obj_name == "Teleport_Reception":
-        call change_scene("rich_hotel_reception", "Fade_long")
+        call change_scene("rich_hotel_reception", "Fade_long") from _rcall_change_scene_58
     return
 label rich_hotel_restaurant_environment:
     if obj_name == "Monica":
-        call ep211_escort_scene1_9()
+        call ep211_escort_scene1_9() from _rcall_ep211_escort_scene1_9
     if obj_name == "Visitor1":
-        call ep211_escort_scene1_10()
+        call ep211_escort_scene1_10() from _rcall_ep211_escort_scene1_10
     if obj_name == "Visitor2":
-        call ep211_escort_scene1_10()
+        call ep211_escort_scene1_10() from _rcall_ep211_escort_scene1_10_1
     if obj_name == "Visitor3":
-        call ep211_escort_scene1_10()
+        call ep211_escort_scene1_10() from _rcall_ep211_escort_scene1_10_2
     if obj_name == "Visitor4":
-        call ep211_escort_scene1_10()
+        call ep211_escort_scene1_10() from _rcall_ep211_escort_scene1_10_3
     if obj_name == "Visitor5":
-        call ep211_escort_scene1_10()
+        call ep211_escort_scene1_10() from _rcall_ep211_escort_scene1_10_4
 
     if obj_name == "MonicaTable":
         pass

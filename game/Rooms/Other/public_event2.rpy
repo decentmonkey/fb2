@@ -45,54 +45,54 @@ label public_event2_init:
 
 label public_event2_teleport:
     if obj_name == "Teleport_Bathroom":
-        call change_scene("juliahome_bathroom")
+        call change_scene("juliahome_bathroom") from _rcall_change_scene_57
     return
 label public_event2_environment:
     if obj_name == "Monica":
         if publicEvent2MonicaCommentCount%4 == 0:
-            call ep211_dialogues2_public_event_36()
+            call ep211_dialogues2_public_event_36() from _rcall_ep211_dialogues2_public_event_36
         if publicEvent2MonicaCommentCount%4 == 1:
-            call ep211_dialogues2_public_event_37()
+            call ep211_dialogues2_public_event_37() from _rcall_ep211_dialogues2_public_event_37
         if publicEvent2MonicaCommentCount%4 == 2:
-            call ep211_dialogues2_public_event_38()
+            call ep211_dialogues2_public_event_38() from _rcall_ep211_dialogues2_public_event_38
         if publicEvent2MonicaCommentCount%4 == 3:
-            call ep211_dialogues2_public_event_39()
+            call ep211_dialogues2_public_event_39() from _rcall_ep211_dialogues2_public_event_39
         $ publicEvent2MonicaCommentCount += 1
     if obj_name == "Biff":
         if act=="l":
-            call ep211_dialogues2_public_event_40()
+            call ep211_dialogues2_public_event_40() from _rcall_ep211_dialogues2_public_event_40
     if obj_name == "FitnessRebecca":
         if act=="l":
-            call ep211_dialogues2_public_event_24()
+            call ep211_dialogues2_public_event_24() from _rcall_ep211_dialogues2_public_event_24
     if obj_name == "FitnessStephanie":
         if act=="l":
-            call ep211_dialogues2_public_event_24()
+            call ep211_dialogues2_public_event_24() from _rcall_ep211_dialogues2_public_event_24_1
     if obj_name == "Investor1":
         if act=="l":
-            call ep211_dialogues2_public_event_34()
+            call ep211_dialogues2_public_event_34() from _rcall_ep211_dialogues2_public_event_34
     if obj_name == "PublicGuest1":
         if act=="l":
-            call ep211_dialogues2_public_event_8()
+            call ep211_dialogues2_public_event_8() from _rcall_ep211_dialogues2_public_event_8
     if obj_name == "PublicGuest2":
         if act=="l":
-            call ep211_dialogues2_public_event_11()
+            call ep211_dialogues2_public_event_11() from _rcall_ep211_dialogues2_public_event_11
     if obj_name == "PublicGuest3":
         if act=="l":
-            call ep211_dialogues2_public_event_14()
+            call ep211_dialogues2_public_event_14() from _rcall_ep211_dialogues2_public_event_14
     if obj_name == "PublicGuest4":
         if act=="l":
-            call ep211_dialogues2_public_event_17()
+            call ep211_dialogues2_public_event_17() from _rcall_ep211_dialogues2_public_event_17
     if obj_name == "PublicGuest5":
         if act=="l":
-            call ep211_dialogues2_public_event_20()
+            call ep211_dialogues2_public_event_20() from _rcall_ep211_dialogues2_public_event_20
     if obj_name == "PublicGuest6":
         if act=="l":
-            call ep211_dialogues2_public_event_20()
+            call ep211_dialogues2_public_event_20() from _rcall_ep211_dialogues2_public_event_20_1
     if obj_name == "PublicGuest7":
         if act=="l":
-            call ep211_dialogues2_public_event_32()
+            call ep211_dialogues2_public_event_32() from _rcall_ep211_dialogues2_public_event_32
 
     if obj_name == "PublicGuest8":
         if act=="l":
-            call ep211_dialogues2_public_event_27()
+            call ep211_dialogues2_public_event_27() from _rcall_ep211_dialogues2_public_event_27
     return

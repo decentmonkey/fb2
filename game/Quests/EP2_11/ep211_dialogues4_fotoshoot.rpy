@@ -474,7 +474,7 @@ label ep211_photoshoot_suit9_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -485,7 +485,7 @@ label ep211_photoshoot_suit9_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_1
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -496,7 +496,7 @@ label ep211_photoshoot_suit9_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_2
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot1_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -531,7 +531,7 @@ label ep211_photoshoot_suit9_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_3
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -542,7 +542,7 @@ label ep211_photoshoot_suit9_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_4
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -553,7 +553,7 @@ label ep211_photoshoot_suit9_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_5
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot2_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -595,7 +595,7 @@ label ep211_photoshoot_suit9_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_6
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -606,7 +606,7 @@ label ep211_photoshoot_suit9_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_7
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -617,7 +617,7 @@ label ep211_photoshoot_suit9_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_8
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot3_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -658,7 +658,7 @@ label ep211_photoshoot_suit9_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_9
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -669,7 +669,7 @@ label ep211_photoshoot_suit9_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_10
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -683,7 +683,7 @@ label ep211_photoshoot_suit9_pose4:
         alex_photograph "Не переживайте, Миссис Бакфетт!"
         alex_photograph "Я ни в коем случае не возьму такой кадр!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_11
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot4_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -725,7 +725,7 @@ label ep211_photoshoot_suit9_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_12
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -736,7 +736,7 @@ label ep211_photoshoot_suit9_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_13
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -747,7 +747,7 @@ label ep211_photoshoot_suit9_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_14
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot5_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -790,7 +790,7 @@ label ep211_photoshoot_suit9_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_15
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -801,7 +801,7 @@ label ep211_photoshoot_suit9_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_16
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -812,7 +812,7 @@ label ep211_photoshoot_suit9_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_17
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot6_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -855,7 +855,7 @@ label ep211_photoshoot_suit9_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_18
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -866,7 +866,7 @@ label ep211_photoshoot_suit9_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_19
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -877,7 +877,7 @@ label ep211_photoshoot_suit9_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_20
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot7_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -924,7 +924,7 @@ label ep211_photoshoot_suit9_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_21
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -935,7 +935,7 @@ label ep211_photoshoot_suit9_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_22
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -946,7 +946,7 @@ label ep211_photoshoot_suit9_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_23
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot8_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -995,7 +995,7 @@ label ep211_photoshoot_suit9_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_24
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1006,7 +1006,7 @@ label ep211_photoshoot_suit9_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_25
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1017,7 +1017,7 @@ label ep211_photoshoot_suit9_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_26
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot9_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -1051,7 +1051,7 @@ label ep211_photoshoot_suit9_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_27
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1062,7 +1062,7 @@ label ep211_photoshoot_suit9_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_28
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1073,7 +1073,7 @@ label ep211_photoshoot_suit9_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_29
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot10_progress")
         $ PS9_shoots_array.append(photoImage)
         w
@@ -1240,14 +1240,14 @@ label ep211_photoshoot_suit9_pose11:
         img 23261
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash
         w
         sound camera_lens1
         $ photoImage = 23262
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_30
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1257,20 +1257,20 @@ label ep211_photoshoot_suit9_pose11:
         img 23263
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_1
         w
         sound camera_lens1
         img 23264
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_2
         w
         sound camera_lens1
         $ photoImage = 23265
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_31
         $ PS9_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1280,65 +1280,65 @@ label ep211_photoshoot_suit9_pose11:
         img 23266
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_3
         w
         sound camera_lens1
         img 23267
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_4
         w
         sound camera_lens1
         img 23268
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_5
         w
         sound camera_lens1
         img 23269
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_6
         w
         sound camera_lens1
         img 23270
         with Dissolve(0.2)
         w
         mt "Мне нужно, чтобы он согласился вложить деньги в журнал..."
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_7
         w
         sound camera_lens1
         img 23271
         with Dissolve(0.2)
         w
         mt "Если я сорву эту фотосессию, то этот неудачник просто откажется."
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_8
         w
         sound camera_lens1
         img 23272
         with Dissolve(0.2)
         w
         mt "Биф сказал, что выгонит меня с работы, если хоть одни из инвесторов откажется..."
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_9
         w
         sound camera_lens1
         img 23273
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_10
         w
         sound camera_lens1
         img 23274
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_11
         w
         sound camera_lens1
         $ photoImage = 23275
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_32
         $ photoshoot9MonicaShowedAss = True
         $ add_char_progress("AlexPhotograph", PS9_AlexProgressEachCorruptionShot, "PS9_monica_shot11_progress")
         $ PS9_shoots_array.append(photoImage)

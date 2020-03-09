@@ -1154,10 +1154,10 @@ label gallery_8285:
 
 
         "Дорогуша, ты не видела Мелани?" if melanieDisappeared == True:
-            call gallery_8285_1()
+            call gallery_8285_1() from _rcall_gallery_8285_1
 
         "Заставить секретаршу показать грудь в трущобах. (bitchiness)" if game.extra == True and ep27_quests_secretary1_show_boobs_active == True and pylonpart4startsCompleted == True and monicaWorkingAtBiffOffice == True:
-            call gallery_13869()
+            call gallery_13869() from _rcall_gallery_13869
             if _return == False:
                 return
         "Уйти.":
@@ -2285,9 +2285,9 @@ label gallery_9638:
     music stop
     sound snd_washing_dishes
     $ monicaWashingDishesImages = [9637, 9638, 9639]
-    call showRandomImagesFirstFade(monicaWashingDishesImages, 1)
+    call showRandomImagesFirstFade(monicaWashingDishesImages, 1) from _rcall_showRandomImagesFirstFade
     $ monicaWashingDishesImages2 = [9640, 9641, 9642]
-    call showRandomImagesFirstFade(monicaWashingDishesImages2, 1)
+    call showRandomImagesFirstFade(monicaWashingDishesImages2, 1) from _rcall_showRandomImagesFirstFade_1
     $ rand1 = rand(1,4)
     if rand1 == 1:
         mt "Никогда бы не подумала что буду мыть посуду в подобной дыре..."
@@ -2407,7 +2407,7 @@ label gallery_9668:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-        call gallery_9667_1()
+        call gallery_9667_1() from _rcall_gallery_9667_1
     return
 
 label gallery_9669:
@@ -2418,7 +2418,7 @@ label gallery_9669:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-        call gallery_9667_1()
+        call gallery_9667_1() from _rcall_gallery_9667_1_1
     return
 
 label gallery_9670:
@@ -2429,7 +2429,7 @@ label gallery_9670:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-        call gallery_9667_1()
+        call gallery_9667_1() from _rcall_gallery_9667_1_2
     return
 
 
@@ -2441,7 +2441,7 @@ label gallery_9671:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_molly == True and obj_name == "Pub_StripteaseGirl1":
-        call gallery_9667_1()
+        call gallery_9667_1() from _rcall_gallery_9667_1_3
     return
 
 
@@ -2453,7 +2453,7 @@ label gallery_9664:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-        call gallery_9667_2()
+        call gallery_9667_2() from _rcall_gallery_9667_2
     return
 
 
@@ -2465,7 +2465,7 @@ label gallery_9665:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-        call gallery_9667_2()
+        call gallery_9667_2() from _rcall_gallery_9667_2_1
     return
 
 label gallery_9666:
@@ -2476,7 +2476,7 @@ label gallery_9666:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-        call gallery_9667_2()
+        call gallery_9667_2() from _rcall_gallery_9667_2_2
     return
 
 label gallery_9667:
@@ -2487,7 +2487,7 @@ label gallery_9667:
     mt "Эти девушки совсем не уважают себя!"
     "Как можно делать подобное у всех на виду?!"
     if ep29_quests_pub_monica_knows_claire == True and obj_name == "Pub_StripteaseGirl2":
-        call gallery_9667_2()
+        call gallery_9667_2() from _rcall_gallery_9667_2_3
     return
 
 

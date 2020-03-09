@@ -193,7 +193,7 @@ label ep210_quests_escort1_philip5_bitch1_street: # Шлюха окликает 
         $ move_object("Bitch1", "empty")
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_38
         return False
-    call ep211_quests_philip()
+    call ep211_quests_philip() from _rcall_ep211_quests_philip
     return False
 
 label ep210_quests_escort1_philip5_bitch1_street_leave:
@@ -268,7 +268,7 @@ label ep210_quests_escort1_reception: # Разговор с рецепшин о 
     $ add_hook("Teleport_Restaurant", "ep210_quests_escort2", scene="rich_hotel_reception", label="ep210_quests_escort2")
     $ add_hook("ReceptionGirl", "ep210_quests_escort2_reception", scene="rich_hotel_reception", label="ep210_quests_escort2")
 
-    call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1")
+    call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _rcall_change_scene_2
 
     return False
 
@@ -284,7 +284,7 @@ label ep210_quests_escort2: # Входит в отель на следующий
         call change_scene("rich_hotel_restaurant_entrance", "Fade_long") from _call_change_scene_486
         return False
     if _return == 2:
-        call ep211_quests_escort1()
+        call ep211_quests_escort1() from _rcall_ep211_quests_escort1
 
     return False
 

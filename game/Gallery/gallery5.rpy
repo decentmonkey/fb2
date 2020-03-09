@@ -4515,7 +4515,7 @@ label gallery_12396:
     img 12396
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_191
     w
     music Power_Bots_Loop
     img 12397

@@ -47,67 +47,67 @@ label pub_makeuproom_init3:
 label pub_makeuproom_teleport:
     if obj_name == "Teleport_Pub":
         if cloth_type == "StripOutfit":
-            call change_scene("pub_stage1", "Fade_long")
+            call change_scene("pub_stage1", "Fade_long") from _rcall_change_scene_73
             return
-        call change_scene("pub", "Fade_long")
+        call change_scene("pub", "Fade_long") from _rcall_change_scene_74
     return
 
 label pub_makeuproom_environment:
     if obj_name == "Monica":
-        call dialogue_5_dance_strip_30a()
+        call dialogue_5_dance_strip_30a() from _rcall_dialogue_5_dance_strip_30a
         return
     if obj_name == "Pub_StripteaseGirl1":
         if act=="l":
             if ep29_quests_pub_forgiveness_dancing_stage == 0:
-                call dialogue_5_dance_strip_25a()
+                call dialogue_5_dance_strip_25a() from _rcall_dialogue_5_dance_strip_25a
             if ep29_quests_pub_forgiveness_dancing_stage > 0:
-                call dialogue_5_dance_strip_25()
+                call dialogue_5_dance_strip_25() from _rcall_dialogue_5_dance_strip_25
             return
 
         if ep29_quests_pub_monica_knows_molly == False:
-            call dialogue_5_dance_strip_2b()
+            call dialogue_5_dance_strip_2b() from _rcall_dialogue_5_dance_strip_2b
         else:
-            call dialogue_5_dance_strip_27()
-            call refresh_scene_fade()
+            call dialogue_5_dance_strip_27() from _rcall_dialogue_5_dance_strip_27
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_26
             return
         return
 
     if obj_name == "Pub_StripteaseGirl2":
         if act=="l":
             if ep29_quests_pub_monica_knows_claire == False:
-                call dialogue_5_dance_strip_8a()
+                call dialogue_5_dance_strip_8a() from _rcall_dialogue_5_dance_strip_8a
             else:
-                call dialogue_5_dance_strip_26()
+                call dialogue_5_dance_strip_26() from _rcall_dialogue_5_dance_strip_26
             return
         return
 
     if obj_name == "Carpet":
-        call dialogue_5_dance_strip_30k()
+        call dialogue_5_dance_strip_30k() from _rcall_dialogue_5_dance_strip_30k
     if obj_name == "Cloth1":
-        call dialogue_5_dance_strip_30d()
+        call dialogue_5_dance_strip_30d() from _rcall_dialogue_5_dance_strip_30d
     if obj_name == "Cloth2":
         if act=="l":
-            call dialogue_5_dance_strip_30d()
+            call dialogue_5_dance_strip_30d() from _rcall_dialogue_5_dance_strip_30d_1
     if obj_name == "Journals":
-        call dialogue_5_dance_strip_30e()
+        call dialogue_5_dance_strip_30e() from _rcall_dialogue_5_dance_strip_30e
     if obj_name == "JOY":
-        call dialogue_5_dance_strip_30o()
+        call dialogue_5_dance_strip_30o() from _rcall_dialogue_5_dance_strip_30o
     if obj_name == "MoulinRouge":
-        call dialogue_5_dance_strip_30j()
+        call dialogue_5_dance_strip_30j() from _rcall_dialogue_5_dance_strip_30j
     if obj_name == "Picture":
-        call dialogue_5_dance_strip_30c()
-        call refresh_scene_fade()
+        call dialogue_5_dance_strip_30c() from _rcall_dialogue_5_dance_strip_30c
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_27
         return
     if obj_name == "TableClaire":
-        call dialogue_5_dance_strip_30h()
-        call refresh_scene_fade()
+        call dialogue_5_dance_strip_30h() from _rcall_dialogue_5_dance_strip_30h
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_28
         return
     if obj_name == "TableMolly":
-        call dialogue_5_dance_strip_30g()
-        call refresh_scene_fade()
+        call dialogue_5_dance_strip_30g() from _rcall_dialogue_5_dance_strip_30g
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_29
         return
     if obj_name == "Trash1":
-        call dialogue_5_dance_strip_30f()
+        call dialogue_5_dance_strip_30f() from _rcall_dialogue_5_dance_strip_30f
     if obj_name == "Vents":
-        call dialogue_5_dance_strip_30b()
+        call dialogue_5_dance_strip_30b() from _rcall_dialogue_5_dance_strip_30b
     return

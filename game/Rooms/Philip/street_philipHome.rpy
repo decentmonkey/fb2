@@ -22,16 +22,16 @@ label street_philiphome_init:
 
 label street_philiphome_teleport:
     if obj_name == "Teleport_Map":
-        call map_show()
+        call map_show() from _rcall_map_show
         return
     return
 
 label street_philiphome_environment:
     if obj_name == "Monica":
         if monica_philip_visited_last_day == day:
-            call ep210_dialogues2_escort_start_Phillip_20()
+            call ep210_dialogues2_escort_start_Phillip_20() from _rcall_ep210_dialogues2_escort_start_Phillip_20
             return
-        call ep210_dialogues2_escort_start_Phillip_10()
+        call ep210_dialogues2_escort_start_Phillip_10() from _rcall_ep210_dialogues2_escort_start_Phillip_10
 
     if obj_name == "Bitch1":
         mt "Дешевая шлюха, которая приходит к Филиппу."

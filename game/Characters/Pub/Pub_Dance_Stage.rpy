@@ -24,7 +24,7 @@ label pub_dance1_stage_start1:
     $ stageMusicControlEnabled = True
     music stop
     music2 stop
-    call dialogue_5_dance_strip_scene_menu() # выбор музыки
+    call dialogue_5_dance_strip_scene_menu() from _rcall_dialogue_5_dance_strip_scene_menu # выбор музыки
     $ stage_Monica_Excitement_Current = 0
     $ stage_Monica_Excitement_Last = 0
     $ stage_achievements_list = []
@@ -93,7 +93,7 @@ label pub_dance1_stage_start1:
         music stageCurrentMusicLoop
     else:
         music stageCurrentMusicIntro
-    call pub_dance_dialogues_start_dancing() # Комментарий при начале танца
+    call pub_dance_dialogues_start_dancing() from _rcall_pub_dance_dialogues_start_dancing # Комментарий при начале танца
 
 
     $ shotsTotalAmount = stage_shoots_total_amount_cur
@@ -132,7 +132,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_A1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_A1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react
         $ stage_achievements_list.append("v_Monica_Strip_A1_end")
     if result == "side":
         scene black
@@ -142,7 +142,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_A2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_A2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_1
         $ stage_achievements_list.append("v_Monica_Strip_A2_end")
     if result == "down":
         scene black
@@ -152,7 +152,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_A3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_A3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_2
         $ stage_achievements_list.append("v_Monica_Strip_A3_end")
 
     $ arrowUp = True
@@ -179,7 +179,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_B1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_B1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_3
         $ stage_achievements_list.append("v_Monica_Strip_B1_end")
     if result == "side":
         scene black
@@ -189,7 +189,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_B2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_B2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_4
         $ stage_achievements_list.append("v_Monica_Strip_B2_end")
     if result == "down":
         scene black
@@ -199,7 +199,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_B3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_B3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_5
         $ stage_achievements_list.append("v_Monica_Strip_B3_end")
 
     $ arrowUp = True
@@ -226,7 +226,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_C1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_C1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_6
         $ stage_achievements_list.append("v_Monica_Strip_C1_end")
     if result == "side":
         scene black
@@ -236,7 +236,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_C2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_C2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_7
         $ stage_achievements_list.append("v_Monica_Strip_C2_end")
     if result == "down":
         scene black
@@ -246,7 +246,7 @@ label pub_dance1_stage_start1:
         hide videov_Monica_Strip_C3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_C3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_8
         $ stage_achievements_list.append("v_Monica_Strip_C3_end")
 
     $ menu_corruption = [monicaPutStripClothToplessStage]
@@ -258,9 +258,9 @@ label pub_dance1_stage_start1:
                 hide screen love_bar_screen
                 hide screen poledance_shoot
                 hide screen poledance_coins
-                call dialogue_5_dance_strip_4g()
+                call dialogue_5_dance_strip_4g() from _rcall_dialogue_5_dance_strip_4g
                 jump pub_dance1_stage_end
-            call dialogue_5_dance_strip_4h()
+            call dialogue_5_dance_strip_4h() from _rcall_dialogue_5_dance_strip_4h
         "Завершить танец." if ep29_quests_claire_dance_planned == False:
             jump pub_dance1_stage_stop
 
@@ -346,7 +346,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_D1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_D1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_9
         $ stage_achievements_list.append("v_Monica_Strip_D1_end")
     if result == "side":
         scene black
@@ -356,7 +356,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_D2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_D2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_10
         $ stage_achievements_list.append("v_Monica_Strip_D2_end")
     if result == "down":
         scene black
@@ -366,7 +366,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_D3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_D3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_11
         $ stage_achievements_list.append("v_Monica_Strip_D3_end")
 
     $ arrowUp = True
@@ -393,7 +393,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_E1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_E1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_12
         $ stage_achievements_list.append("v_Monica_Strip_E1_end")
     if result == "side":
         scene black
@@ -403,7 +403,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_E2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_E2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_13
         $ stage_achievements_list.append("v_Monica_Strip_E2_end")
     if result == "down":
         scene black
@@ -413,7 +413,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_E3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_E3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_14
         $ stage_achievements_list.append("v_Monica_Strip_E3_end")
 
     $ arrowUp = True
@@ -440,7 +440,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_F1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_F1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_15
         $ stage_achievements_list.append("v_Monica_Strip_F1_end")
     if result == "side":
         scene black
@@ -450,7 +450,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_F2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_F2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_16
         $ stage_achievements_list.append("v_Monica_Strip_F2_end")
     if result == "down":
         scene black
@@ -460,7 +460,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_F3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_F3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_17
         $ stage_achievements_list.append("v_Monica_Strip_F3_end")
 
     $ arrowUp = True
@@ -475,7 +475,7 @@ label pub_dance1_stage_start1_topless:
     if result == "stop":
         jump pub_dance1_stage_stop
     if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
-        call dialogue_5_dance_strip_4k()
+        call dialogue_5_dance_strip_4k() from _rcall_dialogue_5_dance_strip_4k
         jump pub_dance1_stage_end
     if monicaDancingStage < 2:
         $ monicaDancingStage = 2
@@ -493,7 +493,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_G1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_G1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_18
         $ stage_achievements_list.append("v_Monica_Strip_G1_end")
     if result == "side":
         scene black
@@ -503,7 +503,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_G2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_G2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_19
         $ stage_achievements_list.append("v_Monica_Strip_G2_end")
     if result == "down":
         scene black
@@ -513,7 +513,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_G3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_G3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_20
         $ stage_achievements_list.append("v_Monica_Strip_G3_end")
 
     $ arrowUp = True
@@ -540,7 +540,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_H1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_H1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_21
         $ stage_achievements_list.append("v_Monica_Strip_H1_end")
     if result == "side":
         scene black
@@ -550,7 +550,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_H2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_H2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_22
         $ stage_achievements_list.append("v_Monica_Strip_H2_end")
     if result == "down":
         scene black
@@ -560,7 +560,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_H3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_H3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_23
         $ stage_achievements_list.append("v_Monica_Strip_H3_end")
 
     $ arrowUp = True
@@ -587,7 +587,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_I1
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_I1_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_24
         $ stage_achievements_list.append("v_Monica_Strip_I1_end")
     if result == "side":
         scene black
@@ -597,7 +597,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_I2
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_I2_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_25
         $ stage_achievements_list.append("v_Monica_Strip_I2_end")
     if result == "down":
         scene black
@@ -607,7 +607,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_I3
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_I3_end.jpg")
         wclean
-        call pub_dance_dialogues_react(pose, result)
+        call pub_dance_dialogues_react(pose, result) from _rcall_pub_dance_dialogues_react_26
         $ stage_achievements_list.append("v_Monica_Strip_I3_end")
 
 
@@ -634,7 +634,7 @@ label pub_dance1_stage_start1_topless:
 
 label pub_dance1_stage_stop:
     # Прерывание танца
-    call dialogue_5_dance_strip_4m()
+    call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m_1
     jump pub_dance1_stage_end
 
 label pub_dance1_stage_end:

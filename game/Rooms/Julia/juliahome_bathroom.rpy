@@ -40,33 +40,33 @@ label juliahome_bathroom_init:
 
 label juliahome_bathroom_teleport:
     if obj_name == "Teleport_Kitchen":
-        call change_scene("juliahome_kitchen", "Fade", "highheels_run2")
+        call change_scene("juliahome_kitchen", "Fade", "highheels_run2") from _rcall_change_scene_63
     return
 label juliahome_bathroom_environment:
     if obj_name == "Monica":
-        call ep211_dialogues4_julia_6b()
+        call ep211_dialogues4_julia_6b() from _rcall_ep211_dialogues4_julia_6b
     if obj_name == "Basket1" or obj_name == "Basket2":
-        call ep211_dialogues4_julia_11l()
+        call ep211_dialogues4_julia_11l() from _rcall_ep211_dialogues4_julia_11l
     if obj_name == "WashMachine":
-        call ep211_dialogues4_julia_11l()
+        call ep211_dialogues4_julia_11l() from _rcall_ep211_dialogues4_julia_11l_1
     if obj_name == "ToiletPaper":
-        call ep211_dialogues4_julia_11l()
+        call ep211_dialogues4_julia_11l() from _rcall_ep211_dialogues4_julia_11l_2
     if obj_name == "ToiletStick":
-        call ep211_dialogues4_julia_11l()
+        call ep211_dialogues4_julia_11l() from _rcall_ep211_dialogues4_julia_11l_3
     if obj_name == "TableItems":
-        call ep211_dialogues4_julia_11i()
+        call ep211_dialogues4_julia_11i() from _rcall_ep211_dialogues4_julia_11i
     if obj_name == "Items1" or obj_name == "Items2" or obj_name == "Items3" or obj_name == "Items4":
-        call ep211_dialogues4_julia_11l()
+        call ep211_dialogues4_julia_11l() from _rcall_ep211_dialogues4_julia_11l_4
     if obj_name == "Toilet":
         if act=="l":
-            call ep211_dialogues4_julia_11h()
+            call ep211_dialogues4_julia_11h() from _rcall_ep211_dialogues4_julia_11h
             return
-        call ep211_dialogues4_julia_11h()
+        call ep211_dialogues4_julia_11h() from _rcall_ep211_dialogues4_julia_11h_1
         return
     if obj_name == "Shower":
         if act=="l":
-            call ep211_dialogues4_julia_11j()
+            call ep211_dialogues4_julia_11j() from _rcall_ep211_dialogues4_julia_11j
             return
-        call change_scene("juliahome_bathroomshower")
+        call change_scene("juliahome_bathroomshower") from _rcall_change_scene_64
         return
     return

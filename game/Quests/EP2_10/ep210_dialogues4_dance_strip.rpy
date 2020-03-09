@@ -1136,7 +1136,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash
     customers1 "ДА! ДААААА!!!"
     w
     img 23191
@@ -1148,7 +1148,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_1
     customers2 "СНИМИ ИХ! СНИМИ!!!"
     w
     sound2 fx_coins_b1
@@ -1158,7 +1158,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_2
     customers3 "ПОКАЖИ НАМ СВОЮ КИСКУ! ВАУ!!!"
     w
     img 23191
@@ -1170,7 +1170,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_3
     customers4 "Я ХОЧУ ТРАХНУТЬ ЭТУ СТРИПТИЗЕРШУ! Я ПЕРВЫЙ!!!"
     w
     sound2 fx_coins_b1
@@ -1180,7 +1180,7 @@ label ep210_dialogues4_dance_strip_12:
     $ idx = rand(1,3)
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_4
     customers4 "НУ ЖЕ! СНИМИ ТРУСИКИ! СНИМИ ИХ ПОЛНОСТЬЮ!!!"
     w
     img 23185

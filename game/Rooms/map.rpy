@@ -174,13 +174,13 @@ label map_environment:
         call process_drive_teleport("College", "street_college") from _call_process_drive_teleport_15
         return
     if obj_name == "Teleport_PhilipHome":
-        call process_drive_teleport("PhilipHome", "street_philiphome")
+        call process_drive_teleport("PhilipHome", "street_philiphome") from _rcall_process_drive_teleport
         return
     if obj_name == "Teleport_JuliaHome":
-        call process_drive_teleport("JuliaHome", "street_juliahome")
+        call process_drive_teleport("JuliaHome", "street_juliahome") from _rcall_process_drive_teleport_1
         return
     if obj_name == "Teleport_Slums_Apartments":
-        call process_drive_teleport("Slums_Apartments", "street_monicahome")
+        call process_drive_teleport("Slums_Apartments", "street_monicahome") from _rcall_process_drive_teleport_2
         return
     m "drive!"
     return
@@ -207,7 +207,7 @@ label process_drive_teleport(in_target_map_scene, in_target_scene):
         if mapTeleportForcedCarSound == False:
             call start_walk_direct() from _call_start_walk_direct
         else:
-            call start_drive_direct()
+            call start_drive_direct() from _rcall_start_drive_direct
     $ mapChangedFlag = True
     return
 

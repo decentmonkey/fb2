@@ -357,7 +357,7 @@ label ep211_dialogues4_julia_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("Некоторое время спустя..."))
+    call textonblack(_("Некоторое время спустя...")) from _rcall_textonblack_4
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -431,7 +431,7 @@ label ep211_dialogues4_julia_3:
 
 label ep211_dialogues4_julia_3b:
     if act=="l":
-        call ep210_dialogues5_julia_3_2()
+        call ep210_dialogues5_julia_3_2() from _rcall_ep210_dialogues5_julia_3_2
         return False
     m "Ну что? Пойдем?"
     julia "Да, Миссис Бакфетт."

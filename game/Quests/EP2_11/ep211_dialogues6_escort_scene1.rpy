@@ -256,7 +256,7 @@ label ep211_escort_scene1_2_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Несколько минут спустя..."))
+    call textonblack(_("Несколько минут спустя...")) from _rcall_textonblack_3
     pause 1.5
     music Power_Bots_Loop
     img 17092
@@ -945,7 +945,7 @@ label ep211_escort_scene1_15:
 label ep211_escort_scene1_16:
     mt "Никто ко мне не подошел, дьявол!"
     mt "К черту всех этих неудачников!"
-    call change_scene("rich_hotel_reception")
+    call change_scene("rich_hotel_reception") from _rcall_change_scene_17
     return
 
 label ep211_escort_scene1_17:

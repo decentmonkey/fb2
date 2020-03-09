@@ -6,7 +6,7 @@ label process_gallery(gallery_label):
     call expression gallery_label
     hide screen photoshoot_camera_icon
     hide screen photoshoot
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_5
     return
 
 
@@ -19,7 +19,7 @@ label gallery_7293:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_18
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -578,7 +578,7 @@ label gallery_8563:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро..."))
+    call textonblack(_("Утро...")) from _rcall_textonblack_19
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -1325,7 +1325,7 @@ label gallery_10147:
     w
     img 10149
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_14
     w
     img 10148
     betty "Хорошо..."
@@ -1414,7 +1414,7 @@ label gallery_10162:
     img 10164
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_15
     W
 
     # Занимается без лифчика
@@ -1435,22 +1435,22 @@ label gallery_10162:
     img 10169
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_16
     w
     img 10170
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_17
     w
     img 10171
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_18
     w
     img 10172
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_19
     w
 
     #Барди
@@ -1507,7 +1507,7 @@ label gallery_10206:
     img 10178
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_20
     w
     img 10179
     with fadelong
@@ -1582,7 +1582,7 @@ label gallery_10206:
     img 10198
     with Dissolve(0.5)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_21
     w
     img 10199
     w
@@ -1595,12 +1595,12 @@ label gallery_10206:
     img 10202
     with Dissolve(0.5)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_22
     w
     img 10203
     with fade
     betty "Так хорошо?"
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_23
     w
     fitness_instructor "Да, Бетти. Давай продолжим."
     img 10204
@@ -1612,7 +1612,7 @@ label gallery_10206:
     img 10206
     with fade
     betty "Да, я правда смогла поднять ногу выше..."
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_24
     w
     img 10207
     with diss
@@ -1621,7 +1621,7 @@ label gallery_10206:
     img 10208
     with diss
     betty "Да..."
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_25
     w
 
     img 10209
@@ -1673,28 +1673,28 @@ label gallery_10245:
     img 10217
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_26
     w
     img 10218
     with diss
 #    sound kiss2
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_27
     w
     img 10219
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_28
     w
     img 10220
     with diss
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_29
     w
     img 10221
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_30
     w
     sound snd_fabric1
     img 10223
@@ -1709,7 +1709,7 @@ label gallery_10245:
     #Барди
     img 10225
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_31
     w
 
 
@@ -1760,7 +1760,7 @@ label gallery_10245:
     with diss
     sound Jump2
     fitness_instructor "Ты поймешь что такое настоящий Дзен..."
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_32
     w
 
     img 10238
@@ -1769,7 +1769,7 @@ label gallery_10245:
     w
     img 10237
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_33
     w
 
     img 10239
@@ -2018,7 +2018,7 @@ label gallery_10245:
 ######
     music stop
     music Power_Bots_Loop
-    call gallery_10245_1()
+    call gallery_10245_1() from _rcall_gallery_10245_1
     music stop
     img black_screen
     with Dissolve(1.0)
@@ -2051,7 +2051,7 @@ label gallery_20385:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_20
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -2206,8 +2206,8 @@ label gallery_20385:
             with diss
             sound snd_door_close1
             pause 2.0
-            call gallery_20385_1() # Стив кончает
-            call gallery_20385_2() # Моника уходит
+            call gallery_20385_1() from _rcall_gallery_20385_1_5 # Стив кончает
+            call gallery_20385_2() from _rcall_gallery_20385_2_6 # Моника уходит
             return
 
     # Бетти подходит и берет Стива за член
@@ -2294,8 +2294,8 @@ label gallery_20385:
             with diss
             sound snd_door_close1
             pause 2.0
-            call gallery_20385_1() # Стив кончает
-            call gallery_20385_2() # Моника уходит
+            call gallery_20385_1() from _rcall_gallery_20385_1_6 # Стив кончает
+            call gallery_20385_2() from _rcall_gallery_20385_2_7 # Моника уходит
             return
     # Бетти снимает трусы
     music Loved_Up
@@ -2688,7 +2688,7 @@ label gallery_20385_2:
     m "Мы закрыли контракт!"
     if monicaSteveContractPenaltyActive == True:
         $ monicaSteveContractPenaltyActive = False
-        call gallery_20385_3()
+        call gallery_20385_3() from _rcall_gallery_20385_3
     else:
         img 11718
         with diss
@@ -3353,7 +3353,7 @@ label gallery_10698:
     cashier "Да, кстати."
     # щелкает ее на телефон
     img 10732
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_34
     w
     cashier "И только попробуй что-нибудь украсть."
     cashier "Этот снимок сразу отправится в полицию!"
@@ -3468,7 +3468,7 @@ label gallery_10819:
     mt "Где же она?"
 
     music stop
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_21
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -3632,7 +3632,7 @@ label gallery_10819:
                     cashier "Хорошая девочка..."
                     # приводит покупателя
                     music stop
-                    call textonblack(_("Спустя некоторое время..."))
+                    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_22
                     img black_screen
                     with Dissolve(1)
                     music Groove2_85

@@ -1092,7 +1092,7 @@ label ep211_escort_scene2_6:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("Несколько минут спустя..."))
+    call textonblack(_("Несколько минут спустя...")) from _rcall_textonblack_5
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -1276,7 +1276,7 @@ label ep211_escort_scene2_7:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("В это время в гостиной..."))
+    call textonblack(_("В это время в гостиной...")) from _rcall_textonblack_6
     pause 1.5
     music Groove2_85
     img 16645
@@ -1336,7 +1336,7 @@ label ep211_escort_scene2_8:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("В соседней комнате..."))
+    call textonblack(_("В соседней комнате...")) from _rcall_textonblack_7
     pause 1.5
 #    music Loved_Up
     music stop
@@ -1584,7 +1584,7 @@ label ep211_escort_scene2_9:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("В это время в гостиной..."))
+    call textonblack(_("В это время в гостиной...")) from _rcall_textonblack_8
     pause 1.0
     music Groove2_85
     # все в сборе, кроме Марти и Моники, Натали смотрит вопросительно на Дэниела
@@ -1619,7 +1619,7 @@ label ep211_escort_scene2_10:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("В соседней комнате..."))
+    call textonblack(_("В соседней комнате...")) from _rcall_textonblack_9
     pause 1.5
     music2 Turbo_Tornado
     img 16729
@@ -1812,7 +1812,7 @@ label ep211_escort_scene2_11:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("В это время в гостиной..."))
+    call textonblack(_("В это время в гостиной...")) from _rcall_textonblack_10
     pause 1.5
     music Marty_Gots_a_Plan
     img 16657
@@ -1845,7 +1845,7 @@ label ep211_escort_scene2_12:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("В соседней комнате..."))
+    call textonblack(_("В соседней комнате...")) from _rcall_textonblack_11
     pause 1.5
     music Turbo_Tornado
     img 16741
@@ -2105,7 +2105,7 @@ label ep211_escort_scene2_13:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Несколько минут спустя..."))
+    call textonblack(_("Несколько минут спустя...")) from _rcall_textonblack_12
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

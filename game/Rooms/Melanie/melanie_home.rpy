@@ -37,7 +37,7 @@ label melanie_home_init2:
 
 label melanie_home_teleport:
     if obj_name == "Teleport_Map":
-        call map_show()
+        call map_show() from _rcall_map_show_1
     return
 
 label melanie_home_environment:

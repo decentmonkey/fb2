@@ -332,7 +332,7 @@ label ep29_quests_pub1_day4_claire:
     $ pubMakeupRoomSkipMusicOnce = True
     call refresh_scene_fade() from _call_refresh_scene_fade_226
 #    mt "Черт! Снова эта сцена! И толпа пьяных неудачников!"
-    call ep210_quests_pub9_claire_offer_check()
+    call ep210_quests_pub9_claire_offer_check() from _rcall_ep210_quests_pub9_claire_offer_check
     $ add_objective("go_dance", _("Выйти на сцену паба и танцевать."), c_orange, 110)
     $ remove_objective("go_to_makeuproom")
     return False

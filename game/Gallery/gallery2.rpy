@@ -796,14 +796,14 @@ label gallery_15521:
     img 15719
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_153
     w
     img 15652
     with fade
     sound lick10
     victoria "Подружки знают, что мне это нравится..."
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_154
     w
     # Виктория делает селфи, держа телефон над собой на вытянутой руке, на фото видно головы Моники и Мелани
     victoria "Подружки не должны останавляваться, иначе я огорчусь."
@@ -3421,7 +3421,7 @@ label gallery_7159:
     img 7153
     with fade
     mt "Это трусики Бетти..."
-    call showRandomImages(images, 5)
+    call showRandomImages(images, 5) from _rcall_showRandomImages
     return
 
 #### исправлено
@@ -3438,11 +3438,11 @@ label gallery_7433:
         img 7419
         w
     img 7421
-    call showRandomImages(images, 4, True)
+    call showRandomImages(images, 4, True) from _rcall_showRandomImages_1
     img 7432
     w
 
-    call gallery_7433_1()
+    call gallery_7433_1() from _rcall_gallery_7433_1
     return
 
 label gallery_7433_1:
@@ -4178,7 +4178,7 @@ label gallery_10615:
     with fade
     $ images = [10613, 10614, 10615, 10616]
     mt "Я... Не привыкла..."
-    call showRandomImages(images, 2)
+    call showRandomImages(images, 2) from _rcall_showRandomImages_2
     mt "Ходить без трусиков..."
 
     return

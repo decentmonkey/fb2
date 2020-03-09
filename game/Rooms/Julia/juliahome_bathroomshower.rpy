@@ -25,7 +25,7 @@ label juliahome_bathroomshower_init:
 
 label juliahome_bathroomshower_teleport:
     if obj_name == "Teleport_Bathroom":
-        call change_scene("juliahome_bathroom")
+        call change_scene("juliahome_bathroom") from _rcall_change_scene_68
     return
 label juliahome_bathroomshower_environment:
     return

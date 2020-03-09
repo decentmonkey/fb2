@@ -613,7 +613,7 @@ label ep211_dialogues6_slum_apartment_6:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Несколько минут спустя..."))
+    call textonblack(_("Несколько минут спустя...")) from _rcall_textonblack_2
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -1100,7 +1100,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
 
 # если выбран пункт меню 'Скидка 10 процентов' и 'Согласиться'
 label ep211_dialogues6_slum_apartment_11:
-    call check_skip_scene("ep211_dialogues6_slum_apartment_11")
+    call check_skip_scene("ep211_dialogues6_slum_apartment_11") from _rcall_check_skip_scene_1
     if _return == True:
         return True
 
@@ -1344,7 +1344,7 @@ label ep211_dialogues6_slum_apartment_11:
 
 # если выбран пункт меню 'Скидка 20 процентов' и 'Согласиться'
 label ep211_dialogues6_slum_apartment_12:
-    call check_skip_scene("ep211_dialogues6_slum_apartment_12")
+    call check_skip_scene("ep211_dialogues6_slum_apartment_12") from _rcall_check_skip_scene_2
     if _return == True:
         return True
 

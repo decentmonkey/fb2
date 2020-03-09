@@ -22,9 +22,9 @@ label pub_dance_dialogues_start_dancing:
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
-            call dialogue_5_dance_strip_4a()
+            call dialogue_5_dance_strip_4a() from _rcall_dialogue_5_dance_strip_4a
         if rand1 == 2:
-            call dialogue_5_dance_strip_4b()
+            call dialogue_5_dance_strip_4b() from _rcall_dialogue_5_dance_strip_4b
 
     if monicaDancingStage == 1:
         if cloth == "StripOutfit1":
@@ -34,9 +34,9 @@ label pub_dance_dialogues_start_dancing:
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
-            call dialogue_5_dance_strip_4c()
+            call dialogue_5_dance_strip_4c() from _rcall_dialogue_5_dance_strip_4c
         if rand1 == 2:
-            call dialogue_5_dance_strip_4d()
+            call dialogue_5_dance_strip_4d() from _rcall_dialogue_5_dance_strip_4d
 
     if monicaDancingStage == 2:
         if cloth == "StripOutfit1":
@@ -46,9 +46,9 @@ label pub_dance_dialogues_start_dancing:
         with fadelong
         $ rand1 = rand(1,2)
         if rand1 == 1:
-            call dialogue_5_dance_strip_4e()
+            call dialogue_5_dance_strip_4e() from _rcall_dialogue_5_dance_strip_4e
         if rand1 == 2:
-            call dialogue_5_dance_strip_4f()
+            call dialogue_5_dance_strip_4f() from _rcall_dialogue_5_dance_strip_4f
     return
 
 label pub_dance_dialogues_react(pose, zone): # Реакция зала
@@ -73,50 +73,50 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
             $ notif(_("Моника делала это движение в прошлый раз"))
         if zoneRepeated == True:
             $ notif(_("Моника повторяет направления танца"))
-        call pub_dance_dialogues_excitement_down(pose, zone)
+        call pub_dance_dialogues_excitement_down(pose, zone) from _rcall_pub_dance_dialogues_excitement_down
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,4)
         $ crowdSound = "snd_crowd_uuu" + str(idx)
         sound crowdSound
         if zone == "up":
             if pose < 4:
-                call dialogue_5_dance_strip_5a1()
+                call dialogue_5_dance_strip_5a1() from _rcall_dialogue_5_dance_strip_5a1
             else:
-                call dialogue_5_dance_strip_5d2()
+                call dialogue_5_dance_strip_5d2() from _rcall_dialogue_5_dance_strip_5d2
         if zone == "side":
             if pose < 4:
-                call dialogue_5_dance_strip_5b2()
+                call dialogue_5_dance_strip_5b2() from _rcall_dialogue_5_dance_strip_5b2
             else:
-                call dialogue_5_dance_strip_5e2()
+                call dialogue_5_dance_strip_5e2() from _rcall_dialogue_5_dance_strip_5e2
         if zone == "down":
             if pose < 4:
-                call dialogue_5_dance_strip_5c2()
+                call dialogue_5_dance_strip_5c2() from _rcall_dialogue_5_dance_strip_5c2
             else:
-                call dialogue_5_dance_strip_5f2()
+                call dialogue_5_dance_strip_5f2() from _rcall_dialogue_5_dance_strip_5f2
     else:
         # Движение понравилось
-        call pub_dance_dialogues_excitement_up(pose, zone)
+        call pub_dance_dialogues_excitement_up(pose, zone) from _rcall_pub_dance_dialogues_excitement_up
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
-        call pub_dance_dialogues_excitement_tips()
+        call pub_dance_dialogues_excitement_tips() from _rcall_pub_dance_dialogues_excitement_tips
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
-        call pub_dance_stage_flash()
+        call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_6
         if zone == "up":
             if pose < 4:
-                call dialogue_5_dance_strip_5a()
+                call dialogue_5_dance_strip_5a() from _rcall_dialogue_5_dance_strip_5a
             else:
-                call dialogue_5_dance_strip_5d()
+                call dialogue_5_dance_strip_5d() from _rcall_dialogue_5_dance_strip_5d
         if zone == "side":
             if pose < 4:
-                call dialogue_5_dance_strip_5b()
+                call dialogue_5_dance_strip_5b() from _rcall_dialogue_5_dance_strip_5b
             else:
-                call dialogue_5_dance_strip_5e()
+                call dialogue_5_dance_strip_5e() from _rcall_dialogue_5_dance_strip_5e
         if zone == "down":
             if pose < 4:
-                call dialogue_5_dance_strip_5c()
+                call dialogue_5_dance_strip_5c() from _rcall_dialogue_5_dance_strip_5c
             else:
-                call dialogue_5_dance_strip_5f()
+                call dialogue_5_dance_strip_5f() from _rcall_dialogue_5_dance_strip_5f
 
 
 #    wclean
@@ -147,22 +147,22 @@ label pub_dance_claire_dialogues_react(pose, zone): # Реакция зала
             $ notif(_("Моника с Клэр делали это движение в прошлый раз"))
         if zoneRepeated == True:
             $ notif(_("Моника с Клэр повторяют направления танца"))
-        call pub_dance_dialogues_excitement_down(pose, zone)
+        call pub_dance_dialogues_excitement_down(pose, zone) from _rcall_pub_dance_dialogues_excitement_down_1
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,4)
         $ crowdSound = "snd_crowd_uuu" + str(idx)
         sound crowdSound
-        call ep210_dialogue_5_dance_strip_5aa1()
+        call ep210_dialogue_5_dance_strip_5aa1() from _rcall_ep210_dialogue_5_dance_strip_5aa1
     else:
         # Движение понравилось
-        call pub_dance_dialogues_excitement_up(pose, zone)
+        call pub_dance_dialogues_excitement_up(pose, zone) from _rcall_pub_dance_dialogues_excitement_up_1
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
-        call pub_dance_dialogues_excitement_tips()
+        call pub_dance_dialogues_excitement_tips() from _rcall_pub_dance_dialogues_excitement_tips_1
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
-        call pub_dance_stage_flash()
-        call ep210_dialogue_5_dance_strip_5a()
+        call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_7
+        call ep210_dialogue_5_dance_strip_5a() from _rcall_ep210_dialogue_5_dance_strip_5a
 
 
 #    wclean

@@ -32,26 +32,26 @@ label pub_stage1_init:
 
 label pub_stage1_teleport:
     if obj_name == "Teleport_MakeupRoom":
-        call change_scene("pub_makeuproom", "Fade_long")
+        call change_scene("pub_makeuproom", "Fade_long") from _rcall_change_scene_72
     return
 
 label pub_stage1_environment:
     if obj_name == "Monica":
-        call dialogue_5_dance_strip_4n()
+        call dialogue_5_dance_strip_4n() from _rcall_dialogue_5_dance_strip_4n
         return
     if obj_name == "Bartender" or obj_name == "Bartender_Waitress":
         jump pub_environment
     if obj_name == "Stage":
         if act=="l":
-            call dialogue_5_dance_strip_4n()
+            call dialogue_5_dance_strip_4n() from _rcall_dialogue_5_dance_strip_4n_1
             return
         if monicaDancedLastDay == day:
             if monicaDancingTopless == False:
-                call dialogue_5_dance_strip_4m()
+                call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m
             else:
-                call dialogue_5_dance_strip_11()
+                call dialogue_5_dance_strip_11() from _rcall_dialogue_5_dance_strip_11
             return
-        call process_hooks("monica_pole_dance", "global")
-        call process_hooks("monica_pole_dance_end", "global")
+        call process_hooks("monica_pole_dance", "global") from _rcall_process_hooks_7
+        call process_hooks("monica_pole_dance_end", "global") from _rcall_process_hooks_8
         return
     return

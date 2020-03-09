@@ -164,7 +164,7 @@ label monica_gosleep1a:
                     return False
                 "Не ложиться.":
                     $ basementBedroomMonicaSleepGfx = False
-                    call refresh_scene_fade()
+                    call refresh_scene_fade() from _rcall_refresh_scene_fade_32
                     return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
@@ -224,7 +224,7 @@ label monica_gosleep1b:
                     return False
                 "Не ложиться.":
                     $ basementBedroomMonicaSleepGfx = False
-                    call refresh_scene_fade()
+                    call refresh_scene_fade() from _rcall_refresh_scene_fade_33
                     return False
         "Не ложиться.":
             $ basementBedroomMonicaSleepGfx = False
@@ -378,7 +378,7 @@ label basement_bed_skip_until_day1:
     img black_screen
     with Dissolve(0.2)
     $ basementBedroomMonicaSleepGfx = False
-    call monica_skip_until_friday()
+    call monica_skip_until_friday() from _rcall_monica_skip_until_friday
     return False
     return
 
@@ -393,5 +393,5 @@ label basement_bed_skip_until_day2:
         $ monicaBettyPanties = False
     img black_screen
     with Dissolve(0.2)
-    call monica_skip_until_friday()
+    call monica_skip_until_friday() from _rcall_monica_skip_until_friday_1
     return False

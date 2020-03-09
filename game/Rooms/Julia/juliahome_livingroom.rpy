@@ -38,36 +38,36 @@ label juliahome_livingroom_init:
 
 label juliahome_livingroom_teleport:
     if obj_name == "Teleport_Kitchen":
-        call change_scene("juliahome_kitchen")
+        call change_scene("juliahome_kitchen") from _rcall_change_scene_71
         return
     return
 label juliahome_livingroom_environment:
     if obj_name == "Monica":
-        call ep211_dialogues4_julia_11a()
+        call ep211_dialogues4_julia_11a() from _rcall_ep211_dialogues4_julia_11a
     if obj_name == "Julia":
         if act=="l":
-            call ep210_dialogues5_julia_3_2()
+            call ep210_dialogues5_julia_3_2() from _rcall_ep210_dialogues5_julia_3_2_1
             return
     if obj_name == "Picture1" or obj_name == "Picture2":
-        call ep211_dialogues4_julia_11b()
+        call ep211_dialogues4_julia_11b() from _rcall_ep211_dialogues4_julia_11b_1
     if obj_name == "Bed1":
         if act=="l":
-            call ep211_dialogues4_julia_11c()
+            call ep211_dialogues4_julia_11c() from _rcall_ep211_dialogues4_julia_11c
             return
     if obj_name == "Table1":
-        call ep211_dialogues4_julia_11d()
+        call ep211_dialogues4_julia_11d() from _rcall_ep211_dialogues4_julia_11d_1
     if obj_name == "Wardrobe":
-        call ep211_dialogues4_julia_11e()
+        call ep211_dialogues4_julia_11e() from _rcall_ep211_dialogues4_julia_11e
     if obj_name == "Plaid":
-        call ep211_dialogues4_julia_11m()
+        call ep211_dialogues4_julia_11m() from _rcall_ep211_dialogues4_julia_11m
         return
     if obj_name == "Cupboard":
-        call ep211_dialogues4_julia_11n()
+        call ep211_dialogues4_julia_11n() from _rcall_ep211_dialogues4_julia_11n
     if obj_name == "Books":
-        call ep211_dialogues4_julia_11o()
+        call ep211_dialogues4_julia_11o() from _rcall_ep211_dialogues4_julia_11o
     if obj_name == "KitchenItem1":
-        call ep211_dialogues4_julia_11g()
+        call ep211_dialogues4_julia_11g() from _rcall_ep211_dialogues4_julia_11g_1
         return
     if obj_name == "Windows":
-        call ep211_dialogues4_julia_11p()
+        call ep211_dialogues4_julia_11p() from _rcall_ep211_dialogues4_julia_11p
     return

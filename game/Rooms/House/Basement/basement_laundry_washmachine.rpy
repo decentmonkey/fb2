@@ -15,7 +15,7 @@ label basement_laundry_washmachine_init:
 
 label basement_laundry_washmachine_teleport:
     if obj_name == "Teleport_Basement_Laundry":
-        call change_scene("basement_laundry")
+        call change_scene("basement_laundry") from _rcall_change_scene_62
         return
 
     return

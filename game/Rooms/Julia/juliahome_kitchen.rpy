@@ -36,20 +36,20 @@ label juliahome_kitchen_init:
 
 label juliahome_kitchen_teleport:
     if obj_name == "Teleport_Street":
-        call change_scene("street_juliahome", "Fade", "highheels_run2")
+        call change_scene("street_juliahome", "Fade", "highheels_run2") from _rcall_change_scene_65
     if obj_name == "Teleport_LivingRoom":
-        call change_scene("juliahome_livingroom")
+        call change_scene("juliahome_livingroom") from _rcall_change_scene_66
     if obj_name == "Teleport_Bathroom":
-        call change_scene("juliahome_bathroom")
+        call change_scene("juliahome_bathroom") from _rcall_change_scene_67
 
     return
 label juliahome_kitchen_environment:
     if obj_name == "Monica":
-        call ep211_dialogues4_julia_11f()
+        call ep211_dialogues4_julia_11f() from _rcall_ep211_dialogues4_julia_11f
     if obj_name == "Kitchen_Item1" or obj_name == "Kitchen_Item2" or obj_name == "Kitchen_Item3" or obj_name == "Kitchen_Item4" or obj_name == "Kitchen_Item5":
-        call ep211_dialogues4_julia_11g()
+        call ep211_dialogues4_julia_11g() from _rcall_ep211_dialogues4_julia_11g
     if obj_name == "Picture1":
-        call ep211_dialogues4_julia_11b()
+        call ep211_dialogues4_julia_11b() from _rcall_ep211_dialogues4_julia_11b
     if obj_name == "Flower1" or obj_name == "Flower2":
-        call ep211_dialogues4_julia_11d()
+        call ep211_dialogues4_julia_11d() from _rcall_ep211_dialogues4_julia_11d
     return

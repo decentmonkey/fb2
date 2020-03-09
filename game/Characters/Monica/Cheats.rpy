@@ -15,10 +15,10 @@ label monica_cheats:
         "Добавить $ 100.":
             $ add_money(100)
         "Увеличить Bitchiness.":
-            call bitch(20, "cheat_bitchiness_" + str(monica_cheats_iteration_count))
+            call bitch(20, "cheat_bitchiness_" + str(monica_cheats_iteration_count)) from _rcall_bitch_2
             $ monica_cheats_iteration_count += 1
         "Уменьшить Bitchiness.":
-            call bitch(-20, "cheat_bitchiness_" + str(monica_cheats_iteration_count))
+            call bitch(-20, "cheat_bitchiness_" + str(monica_cheats_iteration_count)) from _rcall_bitch_3
             $ monica_cheats_iteration_count += 1
         "Увеличить Corruption.":
             $ add_corruption(30, "cheat_corruption_" + str(monica_cheats_iteration_count))

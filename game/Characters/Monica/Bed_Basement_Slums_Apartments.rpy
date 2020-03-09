@@ -8,10 +8,10 @@ label slums_basement_bed:
         $ monicaRestApartmentsDay = day
         $ monicaRestHouse = False
         if day_time == "day":
-            call slums_basement_bed_take_nap()
+            call slums_basement_bed_take_nap() from _rcall_slums_basement_bed_take_nap
             return _return
         if day_time == "evening":
-            call slums_basement_bed_gosleep()
+            call slums_basement_bed_gosleep() from _rcall_slums_basement_bed_gosleep
             return _return
 
     return False
@@ -21,7 +21,7 @@ label slums_basement_bed_take_nap:
     $ monicaHomeLivingRoomMonicaSuffix = "Nap" + str(day%4 + 1)
     $ set_active("Bed1", False)
     $ autorun_to_object("slums_basement_bed_take_nap1")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _rcall_refresh_scene_1
     return
 
 label slums_basement_bed_take_nap1:
@@ -32,21 +32,21 @@ label slums_basement_bed_take_nap1:
             img black_screen
             with Dissolve(0.2)
             #транзиция на отдых
-            call process_hooks("slums_apartments_monica_before_nap", "global")
+            call process_hooks("slums_apartments_monica_before_nap", "global") from _rcall_process_hooks_9
             $ set_active("Bed1", True)
             if _return == False:
                 $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _rcall_refresh_scene_fade_34
                 return False
             $ monicaHomeLivingRoomMonicaSuffix = afterNapSuffix
             $ changeDayTimeSlumsApartments("evening")
-            call process_hooks("slums_apartments_monica_after_nap", "global")
-            call refresh_scene_fade()
+            call process_hooks("slums_apartments_monica_after_nap", "global") from _rcall_process_hooks_10
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_35
             return False
         "Не ложиться.":
             $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
             $ set_active("Bed1", True)
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_36
             return False
     return
 
@@ -56,7 +56,7 @@ label slums_basement_bed_gosleep:
     $ monicaHomeLivingRoomSceneSuffix2 = "Night"
     $ set_active("Bed1", False)
     $ autorun_to_object("slums_basement_bed_gosleep1")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _rcall_refresh_scene_2
     return
 
 label slums_basement_bed_gosleep1:
@@ -69,7 +69,7 @@ label slums_basement_bed_gosleep1:
             $ set_active("Bed1", True)
             $ monicaHomeLivingRoomSceneSuffix2 = ""
             $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_37
             return False
 
         else:
@@ -77,14 +77,14 @@ label slums_basement_bed_gosleep1:
 
     menu:
         "Лечь спать." if monicaEatedLastDay == day:
-            call slums_basement_bed_gosleep2()
+            call slums_basement_bed_gosleep2() from _rcall_slums_basement_bed_gosleep2
             return
         "Поесть и лечь спать." if monicaEatedLastDay < day:
-            call slums_basement_kitchen_eat_before_sleep()
-            call slums_basement_bed_gosleep2()
+            call slums_basement_kitchen_eat_before_sleep() from _rcall_slums_basement_kitchen_eat_before_sleep
+            call slums_basement_bed_gosleep2() from _rcall_slums_basement_bed_gosleep2_1
             return
         "Лечь спать голодной." if monicaEatedLastDay < day:
-            call slums_basement_bed_gosleep2()
+            call slums_basement_bed_gosleep2() from _rcall_slums_basement_bed_gosleep2_2
             return
         "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5 and week_day != 4:
             menu:
@@ -104,19 +104,19 @@ label slums_basement_bed_gosleep1:
                     img black_screen
                     with Dissolve(0.2)
                     $ skipUntilFridayTargetDay = 5
-                    call slums_monica_skip_until_friday()
+                    call slums_monica_skip_until_friday() from _rcall_slums_monica_skip_until_friday
                     return False
                 "Не ложиться.":
                     $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
                     $ monicaHomeLivingRoomSceneSuffix2 = ""
                     $ set_active("Bed1", True)
-                    call refresh_scene_fade()
+                    call refresh_scene_fade() from _rcall_refresh_scene_fade_38
                     return False
         "Не ложиться.":
             $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
             $ monicaHomeLivingRoomSceneSuffix2 = ""
             $ set_active("Bed1", True)
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_39
             return False
 
     return
@@ -127,24 +127,24 @@ label slums_basement_bed_gosleep2:
     img black_screen
     with Dissolve(0.2)
     #транзиция на отдых
-    call process_hooks("slums_apartments_monica_before_sleep", "global")
+    call process_hooks("slums_apartments_monica_before_sleep", "global") from _rcall_process_hooks_11
     $ set_active("Bed1", True)
     if _return == False:
         $ monicaHomeLivingRoomSceneSuffix2 = ""
         $ monicaHomeLivingRoomMonicaSuffix = monicaHomeLivingRoomMonicaSuffixStored
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_40
         return False
     $ monicaHomeLivingRoomSceneSuffix2 = ""
     $ monicaHomeLivingRoomMonicaSuffix = afterNapSuffix
     $ changeDayTimeSlumsApartments("day")
-    call process_hooks("slums_apartments_monica_after_sleep", "global")
-    call refresh_scene_fade()
+    call process_hooks("slums_apartments_monica_after_sleep", "global") from _rcall_process_hooks_12
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_41
     return
 
 label slums_basement_bed_skip_until_day1:
     img black_screen
     with Dissolve(0.2)
-    call slums_monica_skip_until_friday()
+    call slums_monica_skip_until_friday() from _rcall_slums_monica_skip_until_friday_1
     return
 
 label slums_monica_skip_until_friday: # Пропуск дней до пятницы
@@ -154,16 +154,16 @@ label slums_monica_skip_until_friday: # Пропуск дней до пятни�
     $ skipDaysActiveFlag = True
     label slums_monica_skip_until_friday_loop1:
         if day_time == "day":
-            call process_hooks("slums_apartments_monica_before_nap", "global")
+            call process_hooks("slums_apartments_monica_before_nap", "global") from _rcall_process_hooks_13
             if _return == False:
                 $ monicaHomeLivingRoomSceneSuffix2 = ""
                 $ monicaHomeLivingRoomMonicaSuffix = afterNapSuffix
                 $ skipDaysInterrupted = True
             else:
                 $ changeDayTimeSlumsApartments("evening")
-                call process_hooks("slums_apartments_monica_after_nap", "global")
+                call process_hooks("slums_apartments_monica_after_nap", "global") from _rcall_process_hooks_14
         if day_time == "evening":
-            call process_hooks("slums_apartments_monica_before_sleep", "global")
+            call process_hooks("slums_apartments_monica_before_sleep", "global") from _rcall_process_hooks_15
             if _return == False:
                 $ monicaHomeLivingRoomSceneSuffix2 = ""
                 $ monicaHomeLivingRoomMonicaSuffix = afterNapSuffix
@@ -171,7 +171,7 @@ label slums_monica_skip_until_friday: # Пропуск дней до пятни�
             else:
                 #call processHouseCleaningEvening()
                 $ changeDayTimeSlumsApartments("day")
-                call process_hooks("slums_apartments_monica_after_sleep", "global")
+                call process_hooks("slums_apartments_monica_after_sleep", "global") from _rcall_process_hooks_16
         if week_day != skipUntilFridayTargetDay and skipDaysInterrupted == False:
             jump slums_monica_skip_until_friday_loop1
 
@@ -183,7 +183,7 @@ label slums_monica_skip_until_friday: # Пропуск дней до пятни�
     $ set_active("Bed1", True)
     $ skipDaysActiveFlag = False
     $ skipDaysInterrupted = False
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_42
     return False
 
 label slums_basement_monica_after_nap:
@@ -193,7 +193,7 @@ label slums_basement_monica_after_nap:
 label slums_basement_monica_after_nap_dialogue:
     if scene_name != "monicahome_livingroom":
         return
-    call process_hooks("slums_basement_monica_after_nap_dialogue", "global")
+    call process_hooks("slums_basement_monica_after_nap_dialogue", "global") from _rcall_process_hooks_17
     return
 label slums_basement_monica_after_nap_dialogue1:
     $ rnd = rand(1,3)
@@ -215,7 +215,7 @@ label slums_basement_monica_after_sleep:
 label slums_basement_monica_after_sleep_dialogue:
     if scene_name != "monicahome_livingroom":
         return
-    call process_hooks("slums_basement_monica_after_sleep_dialogue", "global")
+    call process_hooks("slums_basement_monica_after_sleep_dialogue", "global") from _rcall_process_hooks_18
     return
 label slums_basement_monica_after_sleep_dialogue1:
     $ rnd = rand(1,3)
@@ -233,16 +233,16 @@ label slums_basement_kitchen_eat:
     if act=="l":
         return
     if day == monicaEatedLastDay:
-        call ep211_dialogues6_slum_apartment_37()
+        call ep211_dialogues6_slum_apartment_37() from _rcall_ep211_dialogues6_slum_apartment_37
     else:
-        call ep211_dialogues6_slum_apartment_36()
+        call ep211_dialogues6_slum_apartment_36() from _rcall_ep211_dialogues6_slum_apartment_36
         $ monica_eated()
     $ set_active("Cocktail", True, scene="monicahome_livingroom")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_43
     return False
 
 label slums_basement_kitchen_eat_before_sleep:
-    call ep211_dialogues6_slum_apartment_36()
+    call ep211_dialogues6_slum_apartment_36() from _rcall_ep211_dialogues6_slum_apartment_36_1
     $ monica_eated()
     $ set_active("Cocktail", True, scene="monicahome_livingroom")
     return

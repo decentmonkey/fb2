@@ -12,8 +12,8 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
     if act=="l":
         return
     if monicaOutfitsEnabled[7] == True and monicaWorkingAtBiffOffice == True and ep22_quests_biff_init_flag == False: # Если Моника открыла костюм и если работает в офисе
-        call ep22_quests_biff_init() # Инициализируем разговор о первой презентации
-        call change_scene("monica_office_cabinet")
+        call ep22_quests_biff_init() from _rcall_ep22_quests_biff_init # Инициализируем разговор о первой презентации
+        call change_scene("monica_office_cabinet") from _rcall_change_scene
         return
 
     call ep22_dialogue6_3() from _call_ep22_dialogue6_3
@@ -118,8 +118,8 @@ label ep22_quests_office4_l1:
         if ep211_quests_photoshoot_stage == 2:
             jump ep211_quests_publicevent2_photoshoot3
         if ep211_quests_photoshoot_stage == 3:
-            call ep211_dialogues3_photoshoot_6() # фотосессия
-            call ep211_dialogues3_photoshoot_7()
+            call ep211_dialogues3_photoshoot_6() from _rcall_ep211_dialogues3_photoshoot_6 # фотосессия
+            call ep211_dialogues3_photoshoot_7() from _rcall_ep211_dialogues3_photoshoot_7
             if _return == 0:
                 $ monicaPhotoShootInProgress = False
                 $ monicaOutfitsAltEnabled = False
@@ -127,8 +127,8 @@ label ep22_quests_office4_l1:
                 $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
                 $ remove_hook(label="photoshoot")
                 $ remove_hook(label="photoshoot_alex")
-                call putoff_work_clothes()
-                call change_scene("street_monica_office", "Fade_long", False)
+                call putoff_work_clothes() from _rcall_putoff_work_clothes
+                call change_scene("street_monica_office", "Fade_long", False) from _rcall_change_scene_1
                 return False
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     #конец фотосессии

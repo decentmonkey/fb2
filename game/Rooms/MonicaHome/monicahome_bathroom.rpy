@@ -4,7 +4,7 @@ default monicaHomeBathroomSceneSuffix = ""
 label monicahome_bathroom:
     $ print "enter_monicahome_bathroom"
     $ miniMapData = []
-    call miniMapSlumsApartmentsGenerate()
+    call miniMapSlumsApartmentsGenerate() from _rcall_miniMapSlumsApartmentsGenerate_1
     $ scene_image = "scene_MonicaHome_Bathroom[monicaHomeBathroomSceneSuffix]"
 
     if day_time == "day":
@@ -34,28 +34,28 @@ label monicahome_bathroom_init:
 
 label monicahome_bathroom_teleport:
     if obj_name == "Teleport_LivingRoom":
-        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_46
         return
     return
 label monicahome_bathroom_environment:
     if obj_name == "Monica":
-        call ep211_dialogues6_slum_apartment_8h()
+        call ep211_dialogues6_slum_apartment_8h() from _rcall_ep211_dialogues6_slum_apartment_8h
     if obj_name == "Toilet":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_8i()
+            call ep211_dialogues6_slum_apartment_8i() from _rcall_ep211_dialogues6_slum_apartment_8i
             return
     if obj_name == "Sink":
-        call ep211_dialogues6_slum_apartment_8j()
+        call ep211_dialogues6_slum_apartment_8j() from _rcall_ep211_dialogues6_slum_apartment_8j
         return
     if obj_name == "Shower":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_8k()
+            call ep211_dialogues6_slum_apartment_8k() from _rcall_ep211_dialogues6_slum_apartment_8k
             return
         return
     if obj_name == "Towel":
-        call ep211_dialogues6_slum_apartment_31()
+        call ep211_dialogues6_slum_apartment_31() from _rcall_ep211_dialogues6_slum_apartment_31
     if obj_name == "Mirror":
-        call ep211_dialogues6_slum_apartment_32()
+        call ep211_dialogues6_slum_apartment_32() from _rcall_ep211_dialogues6_slum_apartment_32
     if obj_name == "Boxes":
-        call ep211_dialogues6_slum_apartment_33()
+        call ep211_dialogues6_slum_apartment_33() from _rcall_ep211_dialogues6_slum_apartment_33
     return

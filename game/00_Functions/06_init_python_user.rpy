@@ -65,7 +65,7 @@ label changeDayTime_day_hooks:
         $ monica_eated()
     $ remove_hook(label="evening_time_temp")
     call process_hooks("change_time_day", "global") from _call_process_hooks_19
-    call process_hooks("change_time_day_global", "global")
+    call process_hooks("change_time_day_global", "global") from _rcall_process_hooks_2
     call process_hooks("week_day_" + str(week_day), "global_week_day") from _call_process_hooks_20
     call process_hooks("day_" + str(day), "global_day") from _call_process_hooks_21
     return
@@ -74,7 +74,7 @@ label changeDayTime_evening_hooks:
         $ monica_eated()
     $ remove_hook(label="day_time_temp")
     call process_hooks("change_time_evening", "global") from _call_process_hooks_22
-    call process_hooks("change_time_evening_global", "global")
+    call process_hooks("change_time_evening_global", "global") from _rcall_process_hooks_3
     call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _call_process_hooks_23
     call process_hooks("day_" + str(day) + "_evening", "global_day") from _call_process_hooks_24
     return
@@ -85,7 +85,7 @@ label changeDayTime_day_hooks_slums_apartments:
         $ monica_eated()
     $ remove_hook(label="evening_time_temp")
     call process_hooks("change_time_day_slums_apartments", "global") from _call_process_hooks_19b
-    call process_hooks("change_time_day_global", "global")
+    call process_hooks("change_time_day_global", "global") from _rcall_process_hooks_4
     call process_hooks("week_day_" + str(week_day), "global_week_day") from _call_process_hooks_20b
     call process_hooks("day_" + str(day), "global_day") from _call_process_hooks_21b
     return
@@ -94,7 +94,7 @@ label changeDayTime_evening_hooks_slums_apartments:
         $ monica_eated()
     $ remove_hook(label="day_time_temp")
     call process_hooks("change_time_evening_slums_apartments", "global") from _call_process_hooks_22b
-    call process_hooks("change_time_evening_global", "global")
+    call process_hooks("change_time_evening_global", "global") from _rcall_process_hooks_5
     call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _call_process_hooks_23b
     call process_hooks("day_" + str(day) + "_evening", "global_day") from _call_process_hooks_24b
     return

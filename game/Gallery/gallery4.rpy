@@ -795,7 +795,7 @@ label gallery_8986:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("У МЕЛАНИ ДОМА..."))
+    call textonblack(_("У МЕЛАНИ ДОМА...")) from _rcall_textonblack_30
     scene black_screen
     with Dissolve(1)
     music ZigZag
@@ -948,107 +948,107 @@ label gallery_8986:
     img 8999
     with fadelong
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_167
     w
     img 9000
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_168
     w
     img 9001
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_169
     w
     img 9002
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_170
     w
     img 9003
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_171
     w
     img 9004
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_172
     w
     img 9005
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_173
     w
     img 9006
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_174
     w
     img 9007
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_175
     w
     img 9008
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_176
     w
     img 9009
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_177
     w
     img 9010
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_178
     w
     img 9011
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_179
     w
     img 9012
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_180
     w
     img 9013
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_181
     w
     img 9014
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_182
     w
     img 9015
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_183
     w
     img 9016
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_184
     w
     img 9017
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_185
     w
     img 9018
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_186
     w
     img 9019
     with fade
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_187
     w
     label gallery_9023:
     img 9020
@@ -1068,12 +1068,12 @@ label gallery_8986:
         img 9023
         with Dissolve(0.8)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_188
         w
 
     else:
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_189
         w
 
     #end_photo
@@ -2726,7 +2726,7 @@ label gallery_20723:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("АПАРТАМЕНТЫ МЕЛАНИ"))
+    call textonblack(_("АПАРТАМЕНТЫ МЕЛАНИ")) from _rcall_textonblack_31
     img black_screen
     with Dissolve(2.0)
 #    music Groove2_85
@@ -2931,7 +2931,7 @@ label gallery_20723:
     img 20662 #photo
     with Dissolve(0.2)
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_190
     w
 
     #
@@ -4666,7 +4666,7 @@ label gallery_6700:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(_("Несколько часов спустя..."))
+            call textonblack(_("Несколько часов спустя...")) from _rcall_textonblack_32
             img black_screen
             with Dissolve(2.0)
             music Gearhead
@@ -4691,7 +4691,7 @@ label gallery_6700:
             sound snd_woman_scream2
             m "НЕЕЕЕЕТ!!!"
             music stop
-            call textonblack(_("Продолжение следует..."))
+            call textonblack(_("Продолжение следует...")) from _rcall_textonblack_33
             img black_screen
             with Dissolve(1)
             return

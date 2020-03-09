@@ -312,7 +312,7 @@ label gallery_13247:
     w
     img 13250
     with diss
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_12
     w
     music Groove2_85
     img 13251
@@ -2301,7 +2301,7 @@ label gallery_13675:
     with diss
     citizen9 "О да! Это видео непременно пойдет в мою коллекцию..."
     img 13670
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_13
     w
     sound snd_fabric1
     img 13671

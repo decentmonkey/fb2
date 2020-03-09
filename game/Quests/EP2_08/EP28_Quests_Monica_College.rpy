@@ -312,5 +312,5 @@ label ep28_monica_college_bardie_betty_lesbian_scene: # Лесби сцена Б
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
     $ autorun_to_object("dialogue_4_classmate_lesbian_1a", scene="floor2")
     $ monicaBettyLesbian = True
-    call ep210_quests_bardie_init()
+    call ep210_quests_bardie_init() from _rcall_ep210_quests_bardie_init
     return False

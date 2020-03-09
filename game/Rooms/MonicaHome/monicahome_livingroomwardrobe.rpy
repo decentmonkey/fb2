@@ -3,7 +3,7 @@ default monicaHomeLivingRoomWardrobeMonicaSuffix = 1
 label monicahome_livingroomwardrobe:
     $ print "enter_monicahome_livingroomwardrobe"
     $ miniMapData = []
-    call miniMapSlumsApartmentsGenerate()
+    call miniMapSlumsApartmentsGenerate() from _rcall_miniMapSlumsApartmentsGenerate
     $ scene_image = "scene_MonicaHome_LivingRoomWardrobe"
 
     if day_time == "day":
@@ -54,30 +54,30 @@ label monicahome_livingroomwardrobe_init:
 label monicahome_livingroomwardrobe_teleport:
     if obj_name == "Teleport_Street":
         if act=="l":
-            call ep211_dialogues6_slum_apartment_29()
+            call ep211_dialogues6_slum_apartment_29() from _rcall_ep211_dialogues6_slum_apartment_29
             return
-        call change_scene("street_monicahome", "Fade")
+        call change_scene("street_monicahome", "Fade") from _rcall_change_scene_43
         return
     if obj_name == "Teleport_LivingRoom":
-        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot")
+        call change_scene("monicahome_livingroom", "Fade", "snd_walk_barefoot") from _rcall_change_scene_44
         return
     return
 label monicahome_livingroomwardrobe_environment:
     if obj_name == "Monica":
-        call ep211_dialogues6_slum_apartment_8a()
+        call ep211_dialogues6_slum_apartment_8a() from _rcall_ep211_dialogues6_slum_apartment_8a
 
     if obj_name == "Picture":
-        call ep211_dialogues6_slum_apartment_28()
+        call ep211_dialogues6_slum_apartment_28() from _rcall_ep211_dialogues6_slum_apartment_28
 
     if obj_name == "Wardrobe_HomeCloth4":
         $ cloth = "HomeCloth4"
         $ cloth_type = "HomeCloth"
         sound snd_fabric1
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_6
         return
 
     if obj_name == "Wardrobe_CasualDress1" or obj_name == "Wardrobe_SchoolOutfit1" or obj_name == "Wardrobe_Whore":
-        call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe")
+        call process_hooks("slums_apartments_check_exit_wardrobe", "monicahome_livingroomwardrobe") from _rcall_process_hooks_6
         if _return == False:
             return
         if obj_name == "Wardrobe_CasualDress1":
@@ -90,7 +90,7 @@ label monicahome_livingroomwardrobe_environment:
             $ cloth = "Whore"
             $ cloth_type = "Whore"
         sound2 snd_fabric1
-        call change_scene("street_monicahome", "Fade")
+        call change_scene("street_monicahome", "Fade") from _rcall_change_scene_45
         return
 
     return

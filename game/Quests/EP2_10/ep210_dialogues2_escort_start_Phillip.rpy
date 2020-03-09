@@ -377,7 +377,7 @@ label ep210_dialogues2_escort_start_Phillip_2:
             sound snd_kick_fred1
             img 16101
             with diss
-            call bitch(20, "kickPhilipHotel")
+            call bitch(20, "kickPhilipHotel") from _rcall_bitch
             m "Сволочь!"
             m "!!!"
             sound snd_fred_argh
@@ -478,7 +478,7 @@ label ep210_dialogues2_escort_start_Phillip_2:
             sound snd_kick_fred1
             img 16101
             with diss
-            call bitch(20, "kickPhilipHotel")
+            call bitch(20, "kickPhilipHotel") from _rcall_bitch_1
             m "Сволочь!"
             m "!!!"
             sound snd_fred_argh

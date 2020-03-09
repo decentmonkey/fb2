@@ -318,7 +318,7 @@ label ep27_dialogues4_biff5:
 
                 "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
                     $ store_music()
-                    call ep210_dialogues1_office_biff_1a()
+                    call ep210_dialogues1_office_biff_1a() from _rcall_ep210_dialogues1_office_biff_1a_1
                     $ restore_music()
                     img 8445
                     biff "Хорошо, папочка доволен!"
@@ -329,7 +329,7 @@ label ep27_dialogues4_biff5:
                     pass
                 "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
                     $ store_music()
-                    call ep210_dialogues1_office_biff_1b()
+                    call ep210_dialogues1_office_biff_1b() from _rcall_ep210_dialogues1_office_biff_1b_1
                     $ restore_music()
                     img 8445
                     biff "Хорошо, папочка доволен!"
@@ -340,7 +340,7 @@ label ep27_dialogues4_biff5:
                     pass
                 "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
                     $ store_music()
-                    call ep210_dialogues1_office_biff_1c()
+                    call ep210_dialogues1_office_biff_1c() from _rcall_ep210_dialogues1_office_biff_1c_1
                     $ restore_music()
                     img 8445
                     biff "Хорошо, папочка доволен!"

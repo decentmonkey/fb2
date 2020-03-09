@@ -31,7 +31,7 @@ label ep211_quests_pub2_exit_with_tips_comment_nextday:
     if day == monicaPubDanceStoleTipsDay:
         return
     $ remove_hook()
-    call ep211_dialogues5_shiny_hole_6()
+    call ep211_dialogues5_shiny_hole_6() from _rcall_ep211_dialogues5_shiny_hole_6
     return
 
 label ep211_quests_pub3_fired: # увольнение из паба
@@ -55,7 +55,7 @@ label ep211_quests_pub3_fired: # увольнение из паба
     $ questLog(59, False)
     $ clear_hooks("exit_scene", scene="pub")
     $ clear_hooks("exit_scene", scene="pub_makeuproom")
-    call change_scene("hostel_street", "Fade_long")
+    call change_scene("hostel_street", "Fade_long") from _rcall_change_scene_3
     return
 
 label ep211_quests_pub3_start_banker_quest:
@@ -66,24 +66,24 @@ label ep211_quests_pub3_start_banker_quest:
 label ep211_quests_pub3_start_banker_questb:
     $ monicaPubDanceStoleTipsBankerPlanned = False
     $ remove_hook()
-    call ep211_dialogues5_shiny_hole_1()
+    call ep211_dialogues5_shiny_hole_1() from _rcall_ep211_dialogues5_shiny_hole_1
     if _return == False:
-        call ep211_quests_pub3_fired()
+        call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired
         return False
     $ add_objective("go_dance_private", _("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
     $ add_hook("Teleport_Pub", "ep211_quests_pub4_teleport", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_1
     return
 
 label ep211_quests_pub4_teleport:
     if cloth_type != "StripOutfit":
-        call ep211_dialogues5_shiny_hole_8()
+        call ep211_dialogues5_shiny_hole_8() from _rcall_ep211_dialogues5_shiny_hole_8
         return False
     # сцена
     $ remove_objective("go_dance_private")
-    call ep211_dialogues5_shiny_hole_2()
+    call ep211_dialogues5_shiny_hole_2() from _rcall_ep211_dialogues5_shiny_hole_2
     if _return == False:
-        call ep211_quests_pub3_fired()
+        call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_1
         return False
     $ monicaPubDanceStoleTipsBankerCompleted = True
     $ monicaPubDanceStoleTipsStage = 1
@@ -91,14 +91,14 @@ label ep211_quests_pub4_teleport:
     $ autorun_to_object("ep211_dialogues5_shiny_hole_9", scene="pub_makeuproom")
     $ remove_hook(label="pub_private_dance1")
     $ add_hook("Teleport_Pub", "ep211_quests_pub5", scene="pub_makeuproom", label="pub_private_dance1")
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long
     return False
 
 label ep211_quests_pub5: # Диалог о том что Моника должна просить прощения у Молли
     if cloth == "StripOutfit" or ep29_quests_dancing_with_claire_last_day <= 0:
         return
     $ remove_hook(label="pub_private_dance1")
-    call ep211_dialogues5_shiny_hole_3()
+    call ep211_dialogues5_shiny_hole_3() from _rcall_ep211_dialogues5_shiny_hole_3
     $ questLog(70, True)
     $ add_hook("before_open", "ep211_quests_pub6", scene="pub_makeuproom", label="monica_pub_molly_forgive_dialogue_comment")
     $ add_hook("Pub_StripteaseGirl1", "ep211_quests_pub7_molly", scene="pub_makeuproom", label="monica_pub_molly_forgive_dialogue")
@@ -108,11 +108,11 @@ label ep211_quests_pub5: # Диалог о том что Моника должн
 label ep211_quests_pub6:
     if get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") != False:
         $ remove_hook()
-        call ep211_dialogues5_shiny_hole_4()
+        call ep211_dialogues5_shiny_hole_4() from _rcall_ep211_dialogues5_shiny_hole_4
     return
 
 label ep211_quests_pub7_molly:
     if act=="l":
         return
-    call ep211_dialogues5_shiny_hole_4b()
+    call ep211_dialogues5_shiny_hole_4b() from _rcall_ep211_dialogues5_shiny_hole_4b
     return False
