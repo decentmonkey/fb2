@@ -1544,12 +1544,12 @@ screen choice(items):
             priceListLen = len(menu_price)
             # creating native buttons list
             idx = 0
-            for i in items:
-                if i.action:
-                    str1 = i.caption
-                    button_obj = {"priority": priority, "native":True, "caption":str1, "action":i.action, "active":True}
-                    if " (disabled)" in i.caption:
-                        str1 = __(i.caption)
+            for imenu in items:
+                if imenu.action:
+                    str1 = imenu.caption
+                    button_obj = {"priority": priority, "native":True, "caption":str1, "action":imenu.action, "active":True}
+                    if " (disabled)" in imenu.caption:
+                        str1 = __(imenu.caption)
                         str1 = str1.replace(" (disabled)", "")
                         button_obj["caption"] = str1
                         button_obj["active"] = False
@@ -1557,11 +1557,11 @@ screen choice(items):
                         # corruption
                         if menu_corruption[idx] >0:
                             if corruption >= menu_corruption[idx]:
-                                str1 = __(i.caption)
+                                str1 = __(imenu.caption)
                                 str1 = str1 + "{color=#31e8b1}" + __(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
                                 button_obj["caption"] = str1
                             else:
-                                str1 = __(i.caption)
+                                str1 = __(imenu.caption)
                                 str1 = str1 + __(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
@@ -1569,11 +1569,11 @@ screen choice(items):
                         # price
                         if menu_price[idx] >0:
                             if money >= menu_price[idx]:
-                                str1 = __(i.caption)
+                                str1 = __(imenu.caption)
                                 str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                             else:
-                                str1 = __(i.caption)
+                                str1 = __(imenu.caption)
                                 str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
@@ -1588,15 +1588,15 @@ screen choice(items):
                 menu_hooks_list = get_hooks_for_object(menuName, "menu")
 
                 # creating hooks buttons list
-                for i in menu_hooks_list:
-                    button_obj = {"priority":i["priority"], "native":False, "caption": i["caption"] if i.has_key("caption") else i["hook_label"], "active": i["active"] if i.has_key("active") else True, "action":i["hook_label"]}
+                for ihooks in menu_hooks_list:
+                    button_obj = {"priority":ihooks["priority"], "native":False, "caption": ihooks["caption"] if ihooks.has_key("caption") else ihooks["hook_label"], "active": ihooks["active"] if ihooks.has_key("active") else True, "action":ihooks["hook_label"]}
                     if isinstance(button_obj["active"], basestring):
                         button_obj["active"] = globals()[button_obj["active"]]()
                     len1 = len(buttons_list)
                     if len1>0:
-                        for j in reversed(range(0,len1)):
-                            if buttons_list[j]["caption"] == button_obj["caption"]:
-                                del buttons_list[j]
+                        for jmenu in reversed(range(0,len1)):
+                            if buttons_list[jmenu]["caption"] == button_obj["caption"]:
+                                del buttons_list[jmenu]
                     buttons_list.append(button_obj)
 
             # sorting priority
