@@ -40,7 +40,7 @@ label start:
     $ after_load_ready_to_render = True
     $ refresh_list_files_forced()
     $ episode = 2
-    $ debugMode = True
+#    $ debugMode = True
 
     $ cloth_type = "Nude"
     $ cloth = "Nude"

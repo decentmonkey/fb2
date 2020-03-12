@@ -422,6 +422,9 @@ default char_data = False
 default dialogue_active_flag = False
 
 define imagesSizesCache = {}
+default sceneSpriteSurfacesCacheIdle = {}
+default sceneSpriteSurfacesCache = {}
+default sceneSpriteSurfacesCacheSceneName = False
 default assetsStorageDirectory = False
 default menuName = False
 default char_info = {}

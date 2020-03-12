@@ -15,6 +15,8 @@ init python:
             week_day = (day)%7
             if week_day == 0:
                 week_day = 7
+            if week_day == 6:
+                renpy.free_memory()
 
             renpy.call("changeDayTime_day_hooks")
             return
@@ -36,6 +38,8 @@ init python:
             week_day = (day)%7
             if week_day == 0:
                 week_day = 7
+            if week_day == 6:
+                renpy.free_memory()
 
             renpy.call("changeDayTime_day_hooks_slums_apartments")
             return

@@ -11,8 +11,11 @@ python early:
             imagePathExt = img_find_path_ext(renpy.eval(s))
         except:
             imagePathExt = img_find_path_ext(s)
+        if imagePathExt[0] == False:
+            imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
+        else:
+            imagePath = imagePathExt[0]
 
-        imagePath = imagePathExt[0]
         check_achievement(imagePathExt[1])
 
         if (renpy.get_screen("say") != None or renpy.get_screen("choice") != None or renpy.get_screen("window") != None or dialogue_active_flag == True) and persistent.pause_before_change_slide == True:
@@ -32,7 +35,10 @@ python early:
             imagePathExt = img_find_path_ext(renpy.eval(s))
         except:
             imagePathExt = img_find_path_ext(s)
-        imagePath = imagePathExt[0]
+        if imagePathExt[0] == False:
+            imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
+        else:
+            imagePath = imagePathExt[0]
         return [Image(imagePath)]
     renpy.register_statement("img", parse=img_disp, execute=img_exec, predict=img_pred) #кастомный scene
 

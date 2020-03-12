@@ -162,7 +162,11 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ scene_label = scenes_data["objects"][scene_name]["data"]["label"]
     $ api_scene_name = new_scene_name
 
+    if sceneSpriteSurfacesCacheSceneName != scene_name:
+        $ sceneSpriteSurfacesCacheIdle = {}
+        $ sceneSpriteSurfacesCache = {}
     call process_hooks("before_open", scene_name) from _call_process_hooks_15 #хук до инициализации сцены
+#    $ renpy.free_memory()
     call expression scene_label from _call_expression_7
     call process_hooks("open", scene_name) from _call_process_hooks_16 #хук сразу после инициализации сцены
     return
@@ -170,6 +174,10 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
 label refresh_scene(fade_param = False):
     if fade_param != False:
         $ scene_transition = fade_param
+
+    if sceneSpriteSurfacesCacheSceneName != scene_name:
+        $ sceneSpriteSurfacesCacheIdle = {}
+        $ sceneSpriteSurfacesCache = {}
 
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True

@@ -49,11 +49,15 @@ python early:
 #            list_files = renpy.list_files()
         list_files = renpy.list_files()
         for filename in list_files:
-            baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
-            list_files_dict[baseName] = filename
+            ext = os.path.splitext(filename)[1]
+            if (ext == ".jpg" or ext == ".png" or ext == ".webp" or ext == ".jpeg" or ext == ".ogg" or ext == ".mp3") and (os.path.dirname(os.path.splitext(filename)[0]) != "images/Slides"):
+                baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
+                list_files_dict[baseName] = filename
+#            print os.path.dirname(os.path.splitext(filename)[0]) == "images/Slides"
         list_files_parsed = True
         list_files_scene_drop_flag = True
         list_files_active = False
+        list_files = []
         return
 
     def refresh_list_files_forced():
@@ -61,11 +65,19 @@ python early:
         global list_files_dict, list_files_parsed, list_files_scene_drop_flag, last_renpy_files_list_crc
 
         for filename in list_files:
-            baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
-            list_files_dict[baseName] = filename
+            ext = os.path.splitext(filename)[1]
+            if (ext == ".jpg" or ext == ".png" or ext == ".webp" or ext == ".jpeg" or ext == ".ogg" or ext == ".mp3") and (os.path.dirname(os.path.splitext(filename)[0]) != "images/Slides"):
+                baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
+                list_files_dict[baseName] = filename
         list_files_parsed = True
         list_files_scene_drop_flag = True
+        list_files = []
         return
+
+    def image_filename_clear_cache():
+        global list_files_dict
+        list_files_dict = {}
+        return None
 
     def get_image_filename(in_filename, warning=False, retry=False):
         in_filename = in_filename.lower()
@@ -103,7 +115,6 @@ python early:
 #        print renpy.loadable("Sprites/DickSecretary_Dick_Secretary.png")
         return False
 
-
     def img_find_path(var):
 #        print "here"
         checkPath = get_image_filename("img_" + str(var))
@@ -137,7 +148,7 @@ python early:
         if checkPath != False: return [checkPath, "zimg_" + str(var)]
         checkPath = get_image_filename(str(var))
         if checkPath != False: return [checkPath, str(var)]
-        return str(var)
+        return [False, str(var)]
 
     def sortBySceneDataZOrder(obj_name):
         return obj_name
