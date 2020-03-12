@@ -84,6 +84,9 @@ label show_scene_now:
     $ makeDump()
     $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
     $ scene_data = process_character_info_buttons(scene_data) #добавляем кнопки info для персонажей со свойствами
+    if sceneSpriteSurfacesCacheSceneName != scene_name:
+        $ sceneSpriteSurfacesCacheIdle = {}
+        $ sceneSpriteSurfacesCache = {}
     show screen screen_sprites(scene_data)
     if parse_transition_flag == True:
 #        $ _dismiss_pause = False
@@ -163,6 +166,7 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
     $ api_scene_name = new_scene_name
 
     call process_hooks("before_open", scene_name) from _call_process_hooks_15 #хук до инициализации сцены
+#    $ renpy.free_memory()
     call expression scene_label from _call_expression_7
     call process_hooks("open", scene_name) from _call_process_hooks_16 #хук сразу после инициализации сцены
     return

@@ -215,20 +215,14 @@ screen screen_sprites(data):
         #                        $ print data[i]
                                 $ spriteImageStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else scene_image_file
                                 $ maskName = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
+
         #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
         #                        if data[i].has_key("name") and data[i]["name"] == "Spot":
         #                            $ print data[i]
                                 if pass_num == 2:
-                                    if canvas_offset != False and spriteImageStr == scene_image_file:
-            #                            $ idleImg = Image(spriteImageStr)
-                                        $ maskImage = Image(maskName)
-                                        $ maskImageSize = getImageSize(maskImage, maskName)
-                                        $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
-                                        $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
-                                        $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
-                                        $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
-                                    else:
-                                        if canvas_offset != False and spriteImageStr != scene_image_file and maskName != False:
+                                    if sceneSpriteSurfacesCacheIdle.has_key(i) == False:
+                                        if canvas_offset != False and spriteImageStr == scene_image_file:
+                #                            $ idleImg = Image(spriteImageStr)
                                             $ maskImage = Image(maskName)
                                             $ maskImageSize = getImageSize(maskImage, maskName)
                                             $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
@@ -236,7 +230,19 @@ screen screen_sprites(data):
                                             $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
                                             $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
                                         else:
-                                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+                                            if canvas_offset != False and spriteImageStr != scene_image_file and maskName != False:
+                                                $ maskImage = Image(maskName)
+                                                $ maskImageSize = getImageSize(maskImage, maskName)
+                                                $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                                                $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                                                $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                                                $ idleImg = im.AlphaMask(croppedImg, maskImage) if maskName != False else Image(spriteImageStr)
+                                            else:
+                                                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
+#                                        $ idleImg = Flatten(idleImg)
+                                        $ sceneSpriteSurfacesCacheIdle[i] = Flatten(idleImg)
+                                    else:
+                                        $ idleImg = sceneSpriteSurfacesCacheIdle[i]
                                     $ hoverImg = idleImg
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
                                 if pass_num == 1:
@@ -280,16 +286,21 @@ screen screen_sprites(data):
                                     $ tint_adjustment = False
                                     $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
                                     if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
-                                        if tint_adjustment != False:
-                                            $ hoveredImage = im.MatrixColor(
-                                                idleImg,
-                                                im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-                                            )
+                                        if sceneSpriteSurfacesCache.has_key(i) == False:
+                                            if tint_adjustment != False:
+                                                $ hoveredImage = im.MatrixColor(
+                                                    idleImg,
+                                                    im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+                                                )
+                                            else:
+                                                $ hoveredImage = im.MatrixColor(
+                                                    hoverImg,
+                                                    im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
+                                                )
+                                            $ hoveredImage = Flatten(hoveredImage)
+                                            $ sceneSpriteSurfacesCache[i] = hoveredImage
                                         else:
-                                            $ hoveredImage = im.MatrixColor(
-                                                hoverImg,
-                                                im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
-                                            )
+                                            $ hoveredImage = sceneSpriteSurfacesCache[i]
                                         imagebutton:
                                             if canvas_offset != False:
                                                 xpos canvas_offset[1]
@@ -384,12 +395,12 @@ screen screen_sprites(data):
 
                                         if highSpriteHover == False:
                                             hovered [
-                                                Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
+                                                Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,i)
             #                                   With(dissolve)
                                             ]
                                         else:
                                             hovered [
-                                                Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset)
+                                                Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,i)
             #                                   With(dissolve)
                                             ]
                                         if highSpriteHover == False:
@@ -405,27 +416,35 @@ screen screen_sprites(data):
                                     $ spriteImageStr = spriteStr if spriteStr != False else scene_image_file
             #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
             #                        $ idleImg = Image(spriteImageStr)
-                                    if maskStr != False:
-                                        if mask_canvas_offset != False and spriteImageStr == scene_image_file:
-            #                                $ idleImg = Image(spriteImageStr)
-                                            $ maskImage = Image(maskStr)
-                                            $ maskImageSize = getImageSize(maskImage, maskStr)
-                                            $ mask_canvas_offset[2] = mask_canvas_offset[0] + maskImageSize[1] - 1
-                                            $ mask_canvas_offset[3] = mask_canvas_offset[1] + maskImageSize[0] - 1
-                                            $ croppedImg = im.Crop(spriteImageStr, (mask_canvas_offset[1], mask_canvas_offset[0], mask_canvas_offset[3]-mask_canvas_offset[1]+1, mask_canvas_offset[2] - mask_canvas_offset[0]+1))
-                                            $ idleImg = im.AlphaMask(croppedImg, maskImage)
+                                    if sceneSpriteSurfacesCacheIdle.has_key(i) == False:
+                                        if maskStr != False:
+                                            if mask_canvas_offset != False and spriteImageStr == scene_image_file:
+                #                                $ idleImg = Image(spriteImageStr)
+                                                $ maskImage = Image(maskStr)
+                                                $ maskImageSize = getImageSize(maskImage, maskStr)
+                                                $ mask_canvas_offset[2] = mask_canvas_offset[0] + maskImageSize[1] - 1
+                                                $ mask_canvas_offset[3] = mask_canvas_offset[1] + maskImageSize[0] - 1
+                                                $ croppedImg = im.Crop(spriteImageStr, (mask_canvas_offset[1], mask_canvas_offset[0], mask_canvas_offset[3]-mask_canvas_offset[1]+1, mask_canvas_offset[2] - mask_canvas_offset[0]+1))
+                                                $ idleImg = im.AlphaMask(croppedImg, maskImage)
+                                            else:
+                                                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
+
+    #                                        else:
+    #                                            $ idleImg = Image(spriteImageStr)
                                         else:
-                                            $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskStr)) if maskStr != False else Image(spriteImageStr)
-
-#                                        else:
-#                                            $ idleImg = Image(spriteImageStr)
+                                            $ idleImg = Image(spriteImageStr)
+                                        $ sceneSpriteSurfacesCacheIdle[i] = Flatten(idleImg)
                                     else:
-                                        $ idleImg = Image(spriteImageStr)
+                                        $ idleImg = sceneSpriteSurfacesCacheIdle[i]
 
-                                    $ spriteImage = im.MatrixColor(
-                                        idleImg,
-                                        im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-                                    )
+                                    if sceneSpriteSurfacesCache.has_key(i) == False:
+                                        $ spriteImage = im.MatrixColor(
+                                            idleImg,
+                                            im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+                                        )
+                                        $ sceneSpriteSurfacesCache[i] = Flatten(spriteImage)
+                                    else:
+                                        $ spriteImage = sceneSpriteSurfacesCache[i]
 
                                     if spriteStr != False or maskStr != False or overlayName != False:
                                         imagebutton:
@@ -452,7 +471,7 @@ screen screen_sprites(data):
                                             action Call("process_object_click", data[i]["click"], i, data[i])
 
 
-screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset):
+screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i):
     layer "master"
 #    zorder 10
 
@@ -462,25 +481,33 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
 #        $ print spriteImageStr
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
 
-        if maskImageStr != False:
-            if canvas_offset != False and spriteImageStr == scene_image_file:
-                $ maskImage = Image(maskImageStr)
-                $ maskImageSize = getImageSize(maskImage, maskImageStr)
-                $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
-                $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
-                $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
-                $ idleImg = im.AlphaMask(croppedImg, maskImage)
+        if sceneSpriteSurfacesCacheIdle.has_key(i) == False or sceneSpriteSurfacesCache.has_key(i) == False:
+            if maskImageStr != False:
+                if canvas_offset != False and spriteImageStr == scene_image_file:
+                    $ maskImage = Image(maskImageStr)
+                    $ maskImageSize = getImageSize(maskImage, maskImageStr)
+                    $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                    $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                    $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                    $ idleImg = im.AlphaMask(croppedImg, maskImage)
+                else:
+                    $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+    #                $ idleImg = Image(spriteImageStr)
             else:
-                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-#                $ idleImg = Image(spriteImageStr)
+                $ idleImg = Image(spriteImageStr)
+    #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+            $ sceneSpriteSurfacesCacheIdle[i] = Flatten(idleImg)
         else:
-            $ idleImg = Image(spriteImageStr)
-#        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+            $ idleImg = sceneSpriteSurfacesCacheIdle[i]
 
-        $ spriteImage = im.MatrixColor(
-            idleImg,
-            im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-        )
+        if sceneSpriteSurfacesCache.has_key(i) == False:
+            $ spriteImage = im.MatrixColor(
+                idleImg,
+                im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+            )
+            $ sceneSpriteSurfacesCache[i] = Flatten(spriteImage)
+        else:
+            $ spriteImage = sceneSpriteSurfacesCache[i]
         fixed:
             add spriteImage at hover_text_sprite_transform:
                 if canvas_offset != False:
@@ -492,7 +519,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
                 if data.has_key("sprite_align"):
                     if data["sprite_align"] == "dc":
                         anchor (0.5, 1.0)
-screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset):
+screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i):
     layer "master"
     zorder 100
 
@@ -500,25 +527,33 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
         $ spriteImageStr = spriteImageStr if spriteImageStr != False else scene_image_file
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
 
-        if maskImageStr != False:
-            if canvas_offset != False and spriteImageStr == scene_image_file:
-                $ maskImage = Image(maskImageStr)
-                $ maskImageSize = getImageSize(maskImage, maskImageStr)
-                $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
-                $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
-                $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
-                $ idleImg = im.AlphaMask(croppedImg, maskImage)
+        if sceneSpriteSurfacesCacheIdle.has_key(i) == False:
+            if maskImageStr != False:
+                if canvas_offset != False and spriteImageStr == scene_image_file:
+                    $ maskImage = Image(maskImageStr)
+                    $ maskImageSize = getImageSize(maskImage, maskImageStr)
+                    $ canvas_offset[2] = canvas_offset[0] + maskImageSize[1] - 1
+                    $ canvas_offset[3] = canvas_offset[1] + maskImageSize[0] - 1
+                    $ croppedImg = im.Crop(spriteImageStr, (canvas_offset[1], canvas_offset[0], canvas_offset[3]-canvas_offset[1]+1, canvas_offset[2] - canvas_offset[0]+1))
+                    $ idleImg = im.AlphaMask(croppedImg, maskImage)
+                else:
+                    $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+                    #$ idleImg = Image(spriteImageStr)
             else:
-                $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-                #$ idleImg = Image(spriteImageStr)
+                $ idleImg = Image(spriteImageStr)
+    #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+            $ sceneSpriteSurfacesCacheIdle[i] = Flatten(idleImg)
         else:
-            $ idleImg = Image(spriteImageStr)
-#        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
+            $ idleImg = sceneSpriteSurfacesCacheIdle[i]
 
-        $ spriteImage = im.MatrixColor(
-            idleImg,
-            im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
-        )
+        if sceneSpriteSurfacesCache.has_key(i) == False:
+            $ spriteImage = im.MatrixColor(
+                idleImg,
+                im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
+            )
+            $ sceneSpriteSurfacesCache[i] = Flatten(spriteImage)
+        else:
+            $ spriteImage = sceneSpriteSurfacesCache[i]
         fixed:
             add spriteImage at hover_text_sprite_transform:
                 if canvas_offset != False:
