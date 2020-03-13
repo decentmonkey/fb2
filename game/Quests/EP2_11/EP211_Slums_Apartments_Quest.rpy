@@ -186,7 +186,7 @@ label ep211_slums_apartments_quest4_check_payment:
             $ remove_objective("earn_money_rent_apartments")
             $ cloth = slumsEnterClothStored
             $ cloth_type = slumsEnterClothTypeStored
-            if cloth == "SchoolOutfit":
+            if cloth_type == "SchoolOutfit":
                 $ cloth = "Whore"
                 $ cloth_type = "Whore"
             $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_13", scene="street_monicahome", once=True)

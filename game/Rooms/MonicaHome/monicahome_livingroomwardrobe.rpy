@@ -26,7 +26,7 @@ label monicahome_livingroomwardrobe:
     else:
         $ set_active("Wardrobe_HomeCloth4", False, scene="monicahome_livingroomwardrobe")
 
-    if monicaHasSchoolOutfit1 == True:
+    if monicaHasSchoolOutfit1 == True and day_time != "evening":
         $ set_active("Wardrobe_SchoolOutfit1", True, scene="monicahome_livingroomwardrobe")
     else:
         $ set_active("Wardrobe_SchoolOutfit1", False, scene="monicahome_livingroomwardrobe")
