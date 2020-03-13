@@ -73,14 +73,6 @@ label start:
     call start_game() from _call_start_game
     return
 
-label menu_test1:
-    m "menu_test1!"
-    return
-
-label menu_test2:
-    m "menu_test2!"
-    return
-
 label start_saved_game:
     if scene_name != "basement_bedroom1" and scene_name != "basement_bedroom2":
         img black_screen
