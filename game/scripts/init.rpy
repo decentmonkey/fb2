@@ -428,6 +428,7 @@ default sceneSpriteSurfacesCacheSceneName = False
 default assetsStorageDirectory = False
 default menuName = False
 default char_info = {}
+default i = 0
 
 label characters_init:
     $ char_info = {
