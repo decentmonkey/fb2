@@ -11,6 +11,9 @@ label rich_hotel_reception:
 
     $ scene_image = "scene_Rich_Hotel_Reception"
 
+    if richHotelReceptionMonicaSuffix == 2 and cloth == "EscortDress1":
+        $ richHotelReceptionMonicaSuffix = 1
+
     if richHotelReceptionSkipMusicOnce == False:
         music Stealth_Groover
     $ richHotelReceptionSkipMusicOnce = False

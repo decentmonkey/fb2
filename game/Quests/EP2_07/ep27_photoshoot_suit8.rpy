@@ -1,5 +1,6 @@
 default photoshoot8_count = 0
 default photoshoot8_melanie_forced = False # Мелани принуждает Монику делать фотосессию
+default photoshoot8_nude_completed = False # Монику сфотографировали полностью
 
 label ep27_photoshoot_suit8:
     music Groove2_85
@@ -1018,6 +1019,7 @@ label ep27_photoshoot_suit8_pose8:
         img black_screen
         with diss
         pause 2.0
+        $ photoshoot8_nude_completed = True
         return
 
 
