@@ -23,10 +23,15 @@ python early:
     list_files_active = True
 
     def missing_filename_callback(image):
-        global episode
+        global episode, list_files_dict
         if episode == 1:
 #            emptyFileName = get_image_filename("empty.png")
             return im.Image("images/icons/empty.png")
+        refresh_list_files()
+        baseName = os.path.basename(os.path.splitext(image)[0]).lower()
+        in_filename = baseName.lower()
+        if list_files_dict.has_key(in_filename):
+            return im.Image(list_files_dict[in_filename])
         return None
 
     def refresh_list_files():
@@ -93,6 +98,7 @@ python early:
         if warning == True:
             ui.text("Image not found!\n" + in_filename + "\nScene name: " + scene_name, size=40, xalign=0.5, yalign=0.5)
             renpy.pause()
+        print in_filename
         return False
 
     def get_filename(in_filename, retry=False):
