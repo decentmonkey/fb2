@@ -725,7 +725,7 @@ screen sprite_hovered_caption_screen(caption_text):
             hbox:
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
-                text caption_text style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
+                text t__(caption_text) style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
 
@@ -805,11 +805,11 @@ screen character_info_screen(obj_name, x, y):
         $ y = int((300*gui.resolution.koeff))
 
     if char_info[obj_name]["enabled"] == True:
-        $ captionText = char_info[obj_name]["caption"]
+        $ captionText = t__(char_info[obj_name]["caption"])
         $ barSuffix = char_info[obj_name]["bar_suffix"]
         $ barValue = (100.0 / char_info[obj_name]["max_progress"] * char_info[obj_name]["current_progress"]) / 100.0
     else:
-        $ captionText = char_info[obj_name]["caption_diabled"]
+        $ captionText = t__(char_info[obj_name]["caption_diabled"])
         $ barSuffix = "disabled"
         $ barValue = 1.0
     layer "master"
@@ -867,7 +867,7 @@ screen character_info_screen(obj_name, x, y):
                 bar_vertical False
                 right_bar "/icons/bar/bar2_empty" + res.suffix + ".png"
                 left_bar "/icons/bar/bar2_full_" + barSuffix + res.suffix + ".png"
-            text captionText style "char_face_style_caption":
+            text t__(captionText) style "char_face_style_caption":
                 xsize int(width1 / 1.94594595)
                 justify True
 #                thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
@@ -964,7 +964,7 @@ screen hud_minimap(minimapData):
                                     add get_image_filename(minimapCell["img"] + res.suffix)
                                 else:
                                     add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
-                                text minimapCell["caption"]:
+                                text t__(minimapCell["caption"]):
                                     ypos 0.5
                                     xanchor 0.5
                                     xpos 0.465
@@ -1187,7 +1187,7 @@ screen hud_screen(hud_presets):
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
 #            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()
-            text bitchmeter_description:
+            text t__(bitchmeter_description):
                 xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
                 xanchor 0.5
@@ -1208,7 +1208,7 @@ screen hud_screen(hud_presets):
                 at bitchmeter_style_transform
 
             $ corruption_description = "Corruption: " + str(corruption) + ""
-            text corruption_description:
+            text t__(corruption_description):
                 xpos config.screen_width - gui.resolution.hud_screen.corruption_desc_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
                 xanchor 0.5
@@ -1499,7 +1499,7 @@ screen input(prompt):
             xsize gui.dialogue_width
             ypos gui.dialogue_ypos
 
-            text prompt style "input_prompt"
+            text t__(prompt) style "input_prompt"
             input id "input"
 
 style input_prompt is default
