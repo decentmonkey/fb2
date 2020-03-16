@@ -240,7 +240,7 @@ label show_questlog:
             if str(questLogLine[0]) in questLogDataEnabled and questLogDataEnabled[str(questLogLine[0])] == True and questLogLine[2] == True:
                 if t__(questLogLine[3]) != lastCategory:
                     lastCategory = t__(questLogLine[3])
-                    inText = inText + "{=questlog_text_category_style}{u}" + lastCategory + "{/u}{/=questlog_text_category_style}\n{vspace=5}"
+                    inText = inText + "{=questlog_text_category_style}{u}" + t__(lastCategory) + "{/u}{/=questlog_text_category_style}\n{vspace=5}"
                 if str(questLogLine[0]) in questLogLinesUpdated:
                     inText = inText + "{b}{color=#002810}" + t__(questLogLine[1]) + "{/color}{/b}\n\n"
                 else:

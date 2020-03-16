@@ -98,7 +98,7 @@ python early:
             who = last_dialogue_character
         else:
             last_dialogue_character = who
-        who = eval(who)
+        who = t__(eval(who).name)
         what = what[1:-1]
 #        what = re.sub(r'\n' , '\s', what)
         dialogue_active_flag = True

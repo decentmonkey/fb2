@@ -11,11 +11,12 @@ python early:
                 str1 = str1.replace("[" + var1 + "]", str(globals()[var1]))
         return str1
     def t_(s):
-        global _preferences, language_fields, language_dict
-        lang = _preferences.language
-        if language_dict.has_key(s):
-            s = language_dict[s][language_fields[lang]]
-        return parse_tstr(s)
+        return s
+#        global _preferences, language_fields, language_dict
+#        lang = _preferences.language
+#        if language_dict.has_key(s):
+#            s = language_dict[s][language_fields[lang]]
+#        return parse_tstr(s)
     def t__(s):
         global _preferences, language_fields, language_dict
         lang = _preferences.language
