@@ -2803,7 +2803,8 @@ screen notify(message):
     if message != "notifList":
         frame at notify_appear:
             ypos 0.2
-            text "[message!tq]"
+#            text "[message!tq]"
+            text t__(message)
         timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
     else:
         $ notifOffset = 0
@@ -2811,7 +2812,8 @@ screen notify(message):
             frame at notify_appear:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+#                text "[msg!tq]"
+                text t__(message)
             $ notifOffset += notifyLineOffset
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
