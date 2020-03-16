@@ -20,7 +20,7 @@ label ep24_quests_bardie1:
         $ add_hook("Bardie", "ep24_quests_bardie2", scene="bedroom_bardie")
     else:
         $ questLog(34, True)
-        $ add_hook("floor2_betty_fitness_dialogue", "ep24_quests_bardie3", scene="menu", caption=_("Согласиться и предупредить Барди..."), priority=95, active=True)
+        $ add_hook("floor2_betty_fitness_dialogue", "ep24_quests_bardie3", scene="menu", caption=t_("Согласиться и предупредить Барди..."), priority=95, active=True)
         $ add_hook("enter_scene", "ep24_quests_bardie1a", scene="basement_bedroom2")
         $ add_hook("Bardie_Life_day", "Bardie_Life_day4", scene="global", priority = 101, label="bardie_fitness_global")
         $ add_hook("Bardie_Life_evening", "Bardie_Life_evening4", scene="global", priority = 101, label="bardie_fitness_global")

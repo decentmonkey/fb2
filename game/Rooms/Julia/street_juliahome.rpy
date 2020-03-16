@@ -29,7 +29,7 @@ label street_juliahome_init:
     $ add_object_to_scene("JuliaHome", {"type":2, "base":"Street_JuliaHome_JuliaHome", "click" : "street_juliahome_teleport", "actions" : "lw", "zorder" : 0, "group":"environment", "teleport":True, "active":False, "b":0.2, "s":1.3, "tint":[1.0, 1.0, 0.8]}, scene="street_juliahome")
     $ add_object_to_scene("JuliaCafe", {"type":2, "base":"Street_JuliaHome_Cafe", "click" : "street_juliahome_teleport", "actions" : "lw", "zorder" : 0, "group":"environment", "teleport":True, "b":0.2, "s":1.3, "tint":[1.0, 1.0, 0.8]}, scene="street_juliahome")
 
-    $ add_object_to_scene("Teleport_StreetCorner", {"type":3, "text" : _("УГОЛ УЛИЦЫ"), "larrow" : "arrow_right_2", "base":"Street_JuliaHome_Teleport_StreetEdge", "click" : "street_juliahome_teleport", "xpos" : 1613, "ypos" : 1003, "zorder":15, "teleport":True}, scene="street_juliahome")
+    $ add_object_to_scene("Teleport_StreetCorner", {"type":3, "text" : t_("УГОЛ УЛИЦЫ"), "larrow" : "arrow_right_2", "base":"Street_JuliaHome_Teleport_StreetEdge", "click" : "street_juliahome_teleport", "xpos" : 1613, "ypos" : 1003, "zorder":15, "teleport":True}, scene="street_juliahome")
     return
 
 label street_juliahome_teleport:

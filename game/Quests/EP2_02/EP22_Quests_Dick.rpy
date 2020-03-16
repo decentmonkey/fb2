@@ -69,7 +69,7 @@ label ep22_quests_Dick6:
     $ dickOfficeHallMonicaSuffix = 1
     $ dickOfficeSecretaryMonicaSuffix = 4
 
-    $ add_objective("money_for_victoria", _("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
+    $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
 
     #Инициализация регулярного поведения Виктории
     $ add_hook_day("ep22_quests_Dick7", week_day = 6) #каждую субботу утром будет проверка на деньги для Виктории
@@ -105,9 +105,9 @@ label ep22_quests_Dick7:
             $ add_money(-5000.0)
         $ monicaEarnedWeeklyMoney = False #Виктория их тратит
         $ monicaWeeklyMoneySpent = True
-        $ notif(_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
+        $ notif(t_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
         $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
-        $ add_objective("money_for_victoria", _("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
+        $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
     else:
         #если деньги не заработаны
         $ monicaVictoriaPunishmentPlanned = True # Моника заслужила наказание

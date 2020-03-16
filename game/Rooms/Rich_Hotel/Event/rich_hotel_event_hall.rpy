@@ -29,9 +29,9 @@ label rich_hotel_event_hall_init:
 
 #    $ add_object_to_scene("Logo", {"type":2, "base":"Street_Rich_Hotel_Logo", "click" : "street_rich_hotel_environment", "actions" : "l", "zorder" : 3, "tint":[1.0, 1.0, 0.3], "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Rich_Hotel_Reception", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"Rich_Hotel_Event_Hall_Exit", "click" : "rich_hotel_event_hall_teleport", "xpos" : 319, "ypos" : 230, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Rich_Hotel_Tables", {"type":3, "text" : _("СТОЛИКИ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow", "click" : "rich_hotel_event_hall_teleport", "xpos" : 264, "ypos" : 581, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Rich_Hotel_Sofa", {"type":3, "text" : _("ВИП ЗОНА"), "rarrow" : "arrow_right_2", "base":"Rich_Hotel_Event_Hall_Teleport_Sofa", "click" : "rich_hotel_event_hall_teleport", "xpos" : 1517, "ypos" : 1038, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Rich_Hotel_Reception", {"type":3, "text" : t_("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"Rich_Hotel_Event_Hall_Exit", "click" : "rich_hotel_event_hall_teleport", "xpos" : 319, "ypos" : 230, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Rich_Hotel_Tables", {"type":3, "text" : t_("СТОЛИКИ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow", "click" : "rich_hotel_event_hall_teleport", "xpos" : 264, "ypos" : 581, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Rich_Hotel_Sofa", {"type":3, "text" : t_("ВИП ЗОНА"), "rarrow" : "arrow_right_2", "base":"Rich_Hotel_Event_Hall_Teleport_Sofa", "click" : "rich_hotel_event_hall_teleport", "xpos" : 1517, "ypos" : 1038, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

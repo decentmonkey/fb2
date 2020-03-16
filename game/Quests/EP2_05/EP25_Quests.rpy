@@ -15,7 +15,7 @@ label ep25_quests1:
         $ ep25_quests1Flag2 = True
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop1", scene="street_cloth_shop")
 
-    $ add_objective("find_casual_dress", _("Найти нормальную одежду"), c_orange, 15)
+    $ add_objective("find_casual_dress", t_("Найти нормальную одежду"), c_orange, 15)
     call ep25_dialogues1_shop1a() from _call_ep25_dialogues1_shop1a
     return False
 

@@ -24,10 +24,10 @@ label floor1_stairs_init:
     $ add_object_to_scene("Furniture", {"type":2, "base":"Floor1_Stairs_Furniture", "click" : "floor1_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Lamps", {"type":2, "base":"Floor1_Stairs_Lamps", "click" : "floor2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Basement_Pool", {"type":3, "text" : _("ЛЕСТНИЦА В ПОДВАЛ"), "rarrow" : "arrow_down_2", "base":"Floor1_Stairs_StairsDown", "click" : "floor1_stairs_teleport", "xpos" : 635, "ypos" : 365, "zorder":9, "teleport":True}, {"floor1_stairs_Teleport_Basement_Pool_offset":{"v":True, "xpos" : 535, "ypos" : 365}})
+    $ add_object_to_scene("Teleport_Basement_Pool", {"type":3, "text" : t_("ЛЕСТНИЦА В ПОДВАЛ"), "rarrow" : "arrow_down_2", "base":"Floor1_Stairs_StairsDown", "click" : "floor1_stairs_teleport", "xpos" : 635, "ypos" : 365, "zorder":9, "teleport":True}, {"floor1_stairs_Teleport_Basement_Pool_offset":{"v":True, "xpos" : 535, "ypos" : 365}})
 
-    $ add_object_to_scene("Teleport_Floor1", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "floor1_stairs_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Floor2_Stairs", {"type":3, "text" : _("ЛЕСТНИЦА ВВЕРХ"), "rarrow" : "arrow_up_2", "base":"Floor1_Stairs_StairsUp", "click" : "floor1_stairs_teleport", "xpos" : 857, "ypos" : 250, "zorder":9, "teleport":True}, {"floor1_stairs_Teleport_Basement_Pool_offset":{"v":True, "xpos" : 857, "ypos" : 240}})
+    $ add_object_to_scene("Teleport_Floor1", {"type":3, "text" : t_("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "floor1_stairs_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Floor2_Stairs", {"type":3, "text" : t_("ЛЕСТНИЦА ВВЕРХ"), "rarrow" : "arrow_up_2", "base":"Floor1_Stairs_StairsUp", "click" : "floor1_stairs_teleport", "xpos" : 857, "ypos" : 250, "zorder":9, "teleport":True}, {"floor1_stairs_Teleport_Basement_Pool_offset":{"v":True, "xpos" : 857, "ypos" : 240}})
     return
 
 label floor1_stairs_init2:

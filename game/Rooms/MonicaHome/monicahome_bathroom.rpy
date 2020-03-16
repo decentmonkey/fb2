@@ -25,7 +25,7 @@ label monicahome_bathroom_init:
     $ add_object_to_scene("Toilet", {"type" : 2, "base" : "MonicaHome_Bathroom_Toilet", "click" : "monicahome_bathroom_environment", "actions" : "lh", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_bathroom")
     $ add_object_to_scene("Towel", {"type" : 2, "base" : "MonicaHome_Bathroom_Towel", "click" : "monicahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_bathroom")
 
-    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : _("СПАЛЬНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monicahome_bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="monicahome_bathroom")
+    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : t_("СПАЛЬНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monicahome_bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="monicahome_bathroom")
 
     return
 #                            $ brightness_adjustment = 0.1

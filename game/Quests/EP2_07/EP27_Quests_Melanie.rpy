@@ -35,8 +35,8 @@ label ep27_quests_melanie2_dialogue_aftersleep:
 label ep27_quests_melanie2_init_map: # Инициализация посещения Мелани (карта)
     $ remove_hook()
     call locations_init_melanie_home() from _call_locations_init_melanie_home
-    $ add_objective("go_to_melanie", _("Идти к Мелани домой"), c_red, 30)
-    $ map_objects["Teleport_Melanie_Home"] = {"text" : _("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible"}
+    $ add_objective("go_to_melanie", t_("Идти к Мелани домой"), c_red, 30)
+    $ map_objects["Teleport_Melanie_Home"] = {"text" : t_("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible"}
     $ add_hook("map_teleport", "ep27_quests_melanie4_melanie_check_whore_cloth", scene="global", priority = 2000, label="melanie_home_checkcloth")
     $ add_hook("open", "ep27_quests_melanie3_melanie_home_scene", scene="melanie_home")
     return

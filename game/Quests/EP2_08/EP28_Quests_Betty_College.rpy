@@ -52,7 +52,7 @@ label ep28_betty_college2:
     call locations_init_college() from _call_locations_init_college
     call ep28_betty_init() from _call_ep28_betty_init
     $ move_object("Ralph", "living_room")
-    $ add_objective("bardie_college", _("Уладить проблему Барди в колледже"), c_green, 15)
+    $ add_objective("bardie_college", t_("Уладить проблему Барди в колледже"), c_green, 15)
     return
 
 label ep28_betty_college2_building:
@@ -172,7 +172,7 @@ label ep28_betty_college2_teacher_day2: # Инициализация 2-го дн
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_39
+    call textonblack(t_("Утро...")) from _call_textonblack_39
     img black_screen
     with Dissolve(2.0)
 
@@ -251,7 +251,7 @@ label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_40
+    call textonblack(t_("Утро...")) from _call_textonblack_40
     img black_screen
     with Dissolve(2.0)
 
@@ -303,7 +303,7 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
     $ set_active("Betty", True, scene="House", recursive=True)
     $ add_hook("Teleport_BedroomBardie", "ep28_betty_college2_teacher_day3c", scene="floor2", label=["betty_college_day3"], owner="Betty")
     $ move_object("Bardie", "empty")
-    $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
+    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату"), c_orange, 45)
     $ minimapBettyFloor2Enabled = True
     call refresh_scene_fade() from _call_refresh_scene_fade_181
     return

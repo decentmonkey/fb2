@@ -11,7 +11,7 @@ label ep210_dialogues3_bardie_erik_betty_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_52
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_52
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

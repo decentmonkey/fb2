@@ -106,7 +106,7 @@ label EP22_Quests_Bardie4: #второй разговор с Барди
     $ bardieBlackmailStage = 3
     $ questLog(0, False)
     $ questLog(1, True)
-    $ char_info["Bardie"]["caption"] = _("Барди имеет полный доступ к трусикам Моники.")
+    $ char_info["Bardie"]["caption"] = t_("Барди имеет полный доступ к трусикам Моники.")
     $ basement_bedroom2_MonicaSuffix = 2
     $ add_hook("Bardie", "bardie_comment5a", scene="bedroom_bardie")
     $ autorun_to_object("ep22_dialogues3_7", scene="basement_bedroom2")

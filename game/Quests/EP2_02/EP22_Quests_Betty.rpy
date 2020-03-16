@@ -77,9 +77,9 @@ label EP22_Quests_Betty4: #инитим улицу у фитнеса
     $ scene_image = "scene_Fitness_Street_Driver"
     $ autorun_to_object("ep22_dialogues4_1a", scene="street_fitness")
     if ep22_fitness_gym_inited == False:
-        $ add_location("fitness_gym", caption=_("Fitness Gym"), label="fitness_gym", init_label="fitness_gym_init", parent="Fitness")
-        $ add_location("fitness_locker_1", caption=_("Fitness Gym"), label="fitness_locker_1", init_label="fitness_locker_1_init", parent="Fitness")
-        $ add_location("fitness_locker_2", caption=_("Fitness Gym"), label="fitness_locker_2", init_label="fitness_locker_2_init", parent="Fitness")
+        $ add_location("fitness_gym", caption=t_("Fitness Gym"), label="fitness_gym", init_label="fitness_gym_init", parent="Fitness")
+        $ add_location("fitness_locker_1", caption=t_("Fitness Gym"), label="fitness_locker_1", init_label="fitness_locker_1_init", parent="Fitness")
+        $ add_location("fitness_locker_2", caption=t_("Fitness Gym"), label="fitness_locker_2", init_label="fitness_locker_2_init", parent="Fitness")
 #        call fitness_gym_init()
 #        call fitness_locker_1_init()
 #        call fitness_locker_2_init()

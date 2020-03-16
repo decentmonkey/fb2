@@ -29,8 +29,8 @@ label bedroom2_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
-    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("КРОВАТЬ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "bedroom2_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("ХОЛЛ"), "rarrow" : "arrow_right_2", "base":"Bedroom2_Teleport_Floor2", "click" : "bedroom2_teleport", "xpos" : 1330, "ypos" : 1005, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : t_("КРОВАТЬ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "bedroom2_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : t_("ХОЛЛ"), "rarrow" : "arrow_right_2", "base":"Bedroom2_Teleport_Floor2", "click" : "bedroom2_teleport", "xpos" : 1330, "ypos" : 1005, "zorder":11, "teleport":True})
 
     return
 #    jump show_scene

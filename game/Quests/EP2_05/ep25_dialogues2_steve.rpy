@@ -14,7 +14,7 @@ label ep25_dialogues2_steve1:
     img 11295
     with diss
     if janeTiffanyFirePlanned == True:
-        $ notif(_("Моника планировала уволить Джейн"))
+        $ notif(t_("Моника планировала уволить Джейн"))
         m "Стив еще не уволил тебя?!"
         m "Он обещал мне сделать это!"
     else:
@@ -39,7 +39,7 @@ label ep25_dialogues2_steve1:
     img 11300
     with fade
     if steveOffended1 == True:
-        $ notif(_("Моника называет Стива мешком с дерьмом"))
+        $ notif(t_("Моника называет Стива мешком с дерьмом"))
         m "Когда будет на месте этот мешок с дерьмом?!"
     else:
         m "Когда этот бездельник будет на месте?!"
@@ -177,7 +177,7 @@ label ep25_dialogues2_steve2:
     with fade
     tiffany "Меня зовут Тиффани, Мэм..."
     if janeTiffanyFirePlanned == True:
-        $ notif(_("Моника планировала уволить Тиффани"))
+        $ notif(t_("Моника планировала уволить Тиффани"))
         img 11331
         with diss
         m "Насколько я помню, тебя я тоже собиралась уволить!"
@@ -1327,7 +1327,7 @@ label ep25_dialogues2_steve10:
 
     if steveOffended1 == True:
         img 11434
-        $ notif(_("Моника сказала Стиву по телефону что он мешок с дерьмом.."))
+        $ notif(t_("Моника сказала Стиву по телефону что он мешок с дерьмом.."))
         m "Ты мешок с дерьмом, а не бизнесмен!"
 
 label ep25_dialogues2_steve10_loop1:

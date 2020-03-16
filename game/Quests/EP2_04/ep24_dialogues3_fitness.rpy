@@ -53,7 +53,7 @@ label ep24_dialogues3_fitness2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _call_textonblack_17
+    call textonblack(t_("5 минут спустя...")) from _call_textonblack_17
     img black_screen
     with Dissolve(2.0)
     music Hidden_Agenda

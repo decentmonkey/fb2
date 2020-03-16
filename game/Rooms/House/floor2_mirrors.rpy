@@ -20,7 +20,7 @@ label floor2_mirrors_init:
     $ add_object_to_scene("Perfume2", {"type":2, "base":"Floor2_Mirrors_Perfume2", "click" : "floor2_mirrors_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Mirror2", {"type":2, "base":"Floor2_Mirrors_Mirror2", "click" : "floor2_mirrors_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "floor2_mirrors_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "floor2_mirrors_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 #    $ add_object_to_scene("Mirrors", {"type":2, "base":"Floor2_Mirrors", "click" : "floor2_environment", "actions" : "l", "zorder" : 0})

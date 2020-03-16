@@ -15,7 +15,7 @@ label rich_hotel_lift_init:
 
     $ add_object_to_scene("Lift", {"type" : 2, "base" : "RichHotel_Lift_TeleportLift", "click" : "rich_hotel_lift_environment", "actions" : "lw", "b":0.15, "zorder":1}, scene="rich_hotel_lift")
 
-    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "rich_hotel_lift_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="rich_hotel_lift")
+    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "rich_hotel_lift_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="rich_hotel_lift")
 
     return
 #                            $ brightness_adjustment = 0.1

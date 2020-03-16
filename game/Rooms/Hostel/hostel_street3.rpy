@@ -26,8 +26,8 @@ label hostel_street3_init:
     $ add_object_to_scene("Citizen_4", {"type" : 2, "base" : "Hostel_Street3_Citizen_4[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder":5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
     $ add_object_to_scene("Citizen_7", {"type" : 2, "base" : "Hostel_Street3_Citizen_7[day_suffix]", "click" : "citizens_dialogue", "actions" : "lt", "zorder":5, "icon_t":"/Icons/talk" + res.suffix +".png", "group":"citizens"})
 
-    $ add_object_to_scene("Teleport_Hostel_Street_Corner", {"type":3, "text" : _("УГОЛ УЛИЦЫ"), "rarrow" : "arrow_right_2", "base":"Hostel_Street3_Teleport_Street_Corner", "click" : "hostel_street3_teleport", "xpos" : 1661, "ypos" : 1012, "zorder":15, "teleport":True, "high_sprite_hover":True})
-    $ add_object_to_scene("Teleport_Hostel_Street2", {"type":3, "text" : _("ГРЯЗНАЯ УЛИЦА"), "larrow" : "arrow_left_2", "base":"Hostel_Street3_Teleport_Hostel_Street2", "click" : "hostel_street3_teleport", "xpos" : 329, "ypos" : 1035, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Hostel_Street_Corner", {"type":3, "text" : t_("УГОЛ УЛИЦЫ"), "rarrow" : "arrow_right_2", "base":"Hostel_Street3_Teleport_Street_Corner", "click" : "hostel_street3_teleport", "xpos" : 1661, "ypos" : 1012, "zorder":15, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Hostel_Street2", {"type":3, "text" : t_("ГРЯЗНАЯ УЛИЦА"), "larrow" : "arrow_left_2", "base":"Hostel_Street3_Teleport_Hostel_Street2", "click" : "hostel_street3_teleport", "xpos" : 329, "ypos" : 1035, "zorder":15, "teleport":True, "high_sprite_hover":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

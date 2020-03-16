@@ -30,7 +30,7 @@ label monica_office_photostudio_init:
     $ add_object_to_scene("SpotLight4", {"type" : 2, "base" : "Office_Monica_PhotoStudio_SpotLight4", "click" : "monica_office_photostudio_environment", "actions" : "l", "zorder":2 ,"b":0.15, "group":"environment"})
     $ add_object_to_scene("Top_Spotlights", {"type" : 2, "base" : "Office_Monica_PhotoStudio_Top_Spotlights", "click" : "monica_office_photostudio_environment", "actions" : "l", "zorder":0 ,"b":0.15, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : _("К СЕКРЕТАРЮ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_photostudio_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : t_("К СЕКРЕТАРЮ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_photostudio_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

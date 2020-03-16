@@ -134,7 +134,7 @@ label ep26_dialogues6_office2_2:
 
     if juliaFirePlanned == True and juliaFireCancelled == False: # Моника уволила Юлию
 # Если Моника уволила Юлию
-        $ notif(_("Моника уволила Юлию."))
+        $ notif(t_("Моника уволила Юлию."))
         music Pyro_Flow
         img 20233
         with fade
@@ -181,14 +181,14 @@ label ep26_dialogues6_office2_2:
         m "Ты что, спишь с ним?!"
         # если Юлия имела секс
         if juliaHasSexInPool == True:
-            $ notif(_("Юлии пришлось переспать с Фредом."))
+            $ notif(t_("Юлии пришлось переспать с Фредом."))
             music Hidden_Agenda
             img 20243
             with fadelong
             julia "..." # (напряженно смотрит)
         else:
             # если не имела секс
-            $ notif(_("Юлия отказалась от секса с Фредом, ни смотря ни на что."))
+            $ notif(t_("Юлия отказалась от секса с Фредом, ни смотря ни на что."))
             music Power_Bots_Loop
             img 20244
             with fadelong
@@ -197,9 +197,9 @@ label ep26_dialogues6_office2_2:
     else:
         # Если Моника не увольняла Юлию
         if juliaFireCancelled == True:
-            $ notif(_("Моника решила уволить Юлию, но затем пожалела ее."))
+            $ notif(t_("Моника решила уволить Юлию, но затем пожалела ее."))
         else:
-            $ notif(_("Моника не выгоняла Юлию с работы."))
+            $ notif(t_("Моника не выгоняла Юлию с работы."))
         music stop
         img black_screen
         with diss

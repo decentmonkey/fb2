@@ -151,7 +151,7 @@ label ep28_dialogues_jail1:
     sound man_steps
     img black_screen
     with Dissolve(1.5)
-    call textonblack(_("День 1")) from _call_textonblack_33
+    call textonblack(t_("День 1")) from _call_textonblack_33
     img black_screen
     with Dissolve(2.0)
     return
@@ -478,7 +478,7 @@ label ep28_dialogues_jail4:
     with diss
     menu:
         "Назвать свое имя.":
-            $ monica_jail_name = __("Моника Бакфетт")
+            $ monica_jail_name = t__("Моника Бакфетт")
             pass
         "Назваться [monica_pub_name]" if monicaWorkingAsDishwasher == True:
             $ monica_jail_name = monica_pub_name
@@ -1164,7 +1164,7 @@ label ep28_dialogues_jail7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 2")) from _call_textonblack_35
+    call textonblack(t_("День 2")) from _call_textonblack_35
     img black_screen
     with Dissolve(2.0)
     music Malicious
@@ -1863,7 +1863,7 @@ label ep28_dialogues_jail11:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 3")) from _call_textonblack_36
+    call textonblack(t_("День 3")) from _call_textonblack_36
     img black_screen
     with Dissolve(2.0)
     music Malicious
@@ -1974,7 +1974,7 @@ label ep28_dialogues_jail14:
     music stop
     music2 stop
     sound man_steps
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_37
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_37
     img black_screen
     with Dissolve(1)
     music2 prison_yell_music
@@ -2952,7 +2952,7 @@ label ep28_dialogues_jail16:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("День 4")) from _call_textonblack_38
+    call textonblack(t_("День 4")) from _call_textonblack_38
     img black_screen
     with Dissolve(2.0)
     music Power_Bots_Loop
@@ -2988,7 +2988,7 @@ label ep28_dialogues_jail17:
 # Моника идет вдоль заключенных. Они кричат хорошая шлюха (или молчат)
     # идет если поставила заключенных на место
 label ep28_dialogues_jail18:
-    $ notif(_("Моника поставила заключенных на место."))
+    $ notif(t_("Моника поставила заключенных на место."))
     sound snd_jail_door
     music stop
     img black_screen
@@ -3009,7 +3009,7 @@ label ep28_dialogues_jail18:
 
 label ep28_dialogues_jail19:
     # идет если поддалась
-    $ notif(_("Моника подчинилась заключенным."))
+    $ notif(t_("Моника подчинилась заключенным."))
     sound snd_jail_door
     music stop
     img black_screen

@@ -795,7 +795,7 @@ label gallery_8986:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("У МЕЛАНИ ДОМА...")) from _rcall_textonblack_30
+    call textonblack(t_("У МЕЛАНИ ДОМА...")) from _rcall_textonblack_30
     scene black_screen
     with Dissolve(1)
     music ZigZag
@@ -2726,7 +2726,7 @@ label gallery_20723:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("АПАРТАМЕНТЫ МЕЛАНИ")) from _rcall_textonblack_31
+    call textonblack(t_("АПАРТАМЕНТЫ МЕЛАНИ")) from _rcall_textonblack_31
     img black_screen
     with Dissolve(2.0)
 #    music Groove2_85
@@ -3560,7 +3560,7 @@ label gallery_15390:
     with diss
     melanie_t "Сейчас мне нужно ехать в офис Дика."
     # встает со стула
-#    $ log1 = _("Пойти в офис Дика и узнать, что нужно Виктории")
+#    $ log1 = t_("Пойти в офис Дика и узнать, что нужно Виктории")
     return
 
 label gallery_15410:
@@ -3644,7 +3644,7 @@ label gallery_15410:
     sound2 snd_door_close1
     pause 2.0
     # у Моники в заданиях появляется "Пойти вечером к Мелани домой на встречу с 'другом'"
-    #$ log1 = _("Пойти вечером к Мелани домой на встречу с 'другом'")
+    #$ log1 = t_("Пойти вечером к Мелани домой на встречу с 'другом'")
     return
 
 label gallery_15443:
@@ -3771,7 +3771,7 @@ label gallery_15443:
     with diss
     melanie_t "Нужно пойти в фотостудию. Надеюсь, Алекс на месте."
     # в заданиях появляется "Провести фотосессию"
-#    $ log1 = _("Провести фотосессию")
+#    $ log1 = t_("Провести фотосессию")
     return
 
 ############ BiffCastings 1############
@@ -4666,7 +4666,7 @@ label gallery_6700:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(_("Несколько часов спустя...")) from _rcall_textonblack_32
+            call textonblack(t_("Несколько часов спустя...")) from _rcall_textonblack_32
             img black_screen
             with Dissolve(2.0)
             music Gearhead
@@ -4691,7 +4691,7 @@ label gallery_6700:
             sound snd_woman_scream2
             m "НЕЕЕЕЕТ!!!"
             music stop
-            call textonblack(_("Продолжение следует...")) from _rcall_textonblack_33
+            call textonblack(t_("Продолжение следует...")) from _rcall_textonblack_33
             img black_screen
             with Dissolve(1)
             return

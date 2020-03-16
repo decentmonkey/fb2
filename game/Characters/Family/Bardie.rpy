@@ -98,7 +98,7 @@ label bardieProgressLevelUp1:
         $ add_hook("monica_cleaning_end", "EP22_Quests_Bardie_Monica_Rest_After_Cleaning", scene="global", label="EP22_Quests_Bardie_Monica_Rest_After_Cleaning")
         if ep22_started == False:
             $ char_data["enabled"] = False
-            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
 #        $ char_data["enabled"] = False #закрываем прогресс до следующей версии
     if char_data["level"] == 3 and bardieBlackmailStage < 3:
@@ -108,25 +108,25 @@ label bardieProgressLevelUp1:
         return
     if char_data["level"] == 3:
 #        $ char_data["enabled"] = False
-#        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+#        $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
 #        $ char_data["show_caption_diabled"] = True
-#        $ char_data["caption_diabled"] = _("Work in progress...")
+#        $ char_data["caption_diabled"] = t_("Work in progress...")
         return
     if char_data["level"] == 4:
         call ep24_quests_bardie1b() from _call_ep24_quests_bardie1b_2
 #        $ char_data["enabled"] = False
-#        $ char_data["caption_diabled"] = _("Work in progress...")
+#        $ char_data["caption_diabled"] = t_("Work in progress...")
     if char_data["level"] == 5:
         if char_info["Betty"]["level"] < 5:
             $ char_data["enabled"] = False
-            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
             return
         call ep24_quests_betty5() from _call_ep24_quests_betty5_1
     if char_data["level"] == 6:
         $ char_data["enabled"] = False
         $ char_data["show_caption_diabled"] = False
-        $ char_data["caption_diabled"] = _("Work in progress...")
+        $ char_data["caption_diabled"] = t_("Work in progress...")
         help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
     return
 

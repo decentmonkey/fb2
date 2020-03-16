@@ -21,7 +21,7 @@ label ep211_quests_slums_apartments0_check:
     if pubMonicaWorkingWaitress != True:
         return
     $ remove_hook()
-    $ add_objective("ask_kebab", _("Спросить у продавца шавермы про аренду квартиры."), c_blue, 105)
+    $ add_objective("ask_kebab", t_("Спросить у продавца шавермы про аренду квартиры."), c_blue, 105)
     $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_2", scene="whores_place_shawarma", label="slums_apartments_begin", once=True)
     $ slumsApartmentsShawarmaTraderDialogue1Active = True
     call ep211_dialogues6_slum_apartment_1() from _rcall_ep211_dialogues6_slum_apartment_1
@@ -45,7 +45,7 @@ label ep211_quests_slums_apartments1_init:
 label ep211_quests_slums_apartments1_inita:
     $ slumsApartmentsMiniMapActive = True
     $ slumsDirtyStreetMiniMapActive = False
-    $ map_objects["Teleport_Slums_Apartments"] = {"text" : _("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
+    $ map_objects["Teleport_Slums_Apartments"] = {"text" : t_("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
     $ set_active("Teleport_Slums_Apartments", True, scene="hostel_street")
     return
 

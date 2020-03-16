@@ -172,9 +172,9 @@ label ep29_quests_melanie_control1_init:
 
     call change_owner("Melanie") from _call_change_owner_6
     $ map_objects = {
-            "Teleport_Monica_Office" : {"text" : _("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "active", "owner":"Melanie"},
-            "Teleport_Dick_Office" : {"text" : _("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "visible", "owner":"Melanie"},
-            "Teleport_Melanie_Home" : {"text" : _("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible", "owner":"Melanie"}
+            "Teleport_Monica_Office" : {"text" : t_("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "active", "owner":"Melanie"},
+            "Teleport_Dick_Office" : {"text" : t_("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "visible", "owner":"Melanie"},
+            "Teleport_Melanie_Home" : {"text" : t_("АПАРТАМЕНТЫ МЕЛАНИ"), "xpos" : 1726, "ypos" : 791, "base" : "map_marker", "state" : "visible", "owner":"Melanie"}
     }
     $ hudDaySkipToEveningEnabled = False
     $ miniMapTurnedOff2 = True # выключаем minimap

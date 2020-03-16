@@ -17,7 +17,7 @@ label monica_office_secretary_teatable_init:
     $ add_object_to_scene("Sofa", {"type" : 2, "base" : "Office_Monica_Secretary_Teatable_Sofa", "click" : "monica_office_secretary_teatable_environment", "actions" : "l", "zorder":-1, "group":"environment"})
     $ add_object_to_scene("TableBooks", {"type" : 2, "base" : "Office_Monica_Secretary_Teatable_TableBooks", "click" : "monica_office_secretary_teatable_environment", "actions" : "l", "zorder":0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_secretary_teatable_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Monica_Office_Secretary", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "monica_office_secretary_teatable_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

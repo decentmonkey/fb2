@@ -16,7 +16,7 @@ label street_house_gate_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Street_House_Gate_Monica_[cloth][day_suffix]", "click" : "street_house_gate_environment", "actions" : "l", "zorder":10, "tint": monica_tint})
 
     $ add_object_to_scene("Gates", {"type":2, "base":"Street_House_Gate_Teleport_Outside", "click" : "street_house_gate_environment", "actions" : "lw", "zorder" : 0, "b":0.2, "tint":[1.0, 1.0, 0.7], "teleport":True, "house_out_teleport":True})
-    $ add_object_to_scene("Teleport_House_Yard", {"type":3, "text" : _("НАЗАД ВО ДВОР"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "street_house_gate_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_House_Yard", {"type":3, "text" : t_("НАЗАД ВО ДВОР"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "street_house_gate_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

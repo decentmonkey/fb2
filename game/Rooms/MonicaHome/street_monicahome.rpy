@@ -34,7 +34,7 @@ label street_monicahome_init:
     $ add_object_to_scene("HomeEnter", {"type" : 2, "base" : "Street_MonicaHome_Enter", "click" : "street_monicahome_teleport", "actions" : "lw", "zorder":0, "b":0.15, "group":"teleport"}, scene="street_monicahome")
     $ add_object_to_scene("MonicaWindow", {"type" : 2, "base" : "Street_MonicaHome_MonicaWindow", "click" : "street_monicahome_teleport", "actions" : "lw", "zorder":0, "b":0.15, "group":"teleport"}, scene="street_monicahome")
 
-    $ add_object_to_scene("Street_MonicaHome_TeleportSlums", {"type":3, "text" : _("ТРУЩОБЫ"), "rarrow" : "arrow_right_2", "base":"Street_MonicaHome_TeleportSlums", "click" : "street_monicahome_teleport", "xpos" : 1574, "ypos" : 1003, "zorder":3, "teleport":True}, scene="street_monicahome")
+    $ add_object_to_scene("Street_MonicaHome_TeleportSlums", {"type":3, "text" : t_("ТРУЩОБЫ"), "rarrow" : "arrow_right_2", "base":"Street_MonicaHome_TeleportSlums", "click" : "street_monicahome_teleport", "xpos" : 1574, "ypos" : 1003, "zorder":3, "teleport":True}, scene="street_monicahome")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

@@ -8,7 +8,7 @@ label ep211_quests_julia1:
     # инициализация второго свидания
     call ep211_dialogues4_julia_1() from _rcall_ep211_dialogues4_julia_1
     $ ep211_julia_second_date_inited = True
-    $ add_objective("go_date_julia", _("После работы пойти на свидание с Юлией в кафе."), c_orange, 105)
+    $ add_objective("go_date_julia", t_("После работы пойти на свидание с Юлией в кафе."), c_orange, 105)
     $ ep210_julia_evening_at_work = False
     $ ep210_julia_not_at_work = True
     $ move_object("Julia", "empty")
@@ -76,7 +76,7 @@ label ep211_quests_julia4_talk:
         $ add_hook("JuliaHome", "ep211_dialogues4_julia_9", scene="street_juliahome", label="evening_time_temp")
         $ char_info["Julia"]["level"] = 1
         $ char_info["Julia"]["progress"] = 0
-        $ char_info["Julia"]["caption"] = _("Юлия боится Монику")
+        $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
         $ autorun_to_object("ep211_dialogues4_julia_9", scene="street_juliahome")
         $ remove_objective("find_julia_panties_color")
         call change_scene("street_juliahome", "Fade_long") from _rcall_change_scene_16
@@ -87,7 +87,7 @@ label ep211_quests_julia4_talk:
     $ add_hook("Teleport_Street", "ep211_dialogues4_julia_11s", scene="juliahome_kitchen", label="julia_home_street_block")
     $ autorun_to_object("ep211_dialogues4_julia_6b", scene="juliahome_bathroom")
     $ add_hook("WashMachine", "ep211_quests_julia5_panties_not_found", scene="juliahome_bathroom", label=["julia_date2", "julia_home_search_panties"])
-    $ add_objective("search_panties", _("Осмотреть ванную комнату."), c_blue, 105)
+    $ add_objective("search_panties", t_("Осмотреть ванную комнату."), c_blue, 105)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_8
     return False
 
@@ -96,7 +96,7 @@ label ep211_quests_julia5_panties_not_found:
     call ep211_dialogues4_julia_6() from _rcall_ep211_dialogues4_julia_6
     $ remove_objective("search_panties")
     $ add_hook("Julia", "ep211_quests_julia6_talk", scene="juliahome_livingroom", label="julia_date2")
-    $ add_objective("return_julia", _("Вернуться к Юлии."), c_orange, 105)
+    $ add_objective("return_julia", t_("Вернуться к Юлии."), c_orange, 105)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_9
 
     return False

@@ -52,7 +52,7 @@ label ep29_quests_monica_college_visit2_teacher:
     $ remove_hook(label="bardie_eric_quest_day1")
     $ remove_hook(label="bardie_eric_quest_day2")
     $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1_college_block", scene="street_college", label=["evening_time_temp", "bardie_eric_quest_day2block"]) # Блокируем колледж на сегодня
-    $ add_objective("go_to_bardie", _("Сообщить Барди о визите в колледж"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Сообщить Барди о визите в колледж"), c_orange, 85)
     call change_scene("street_college","Fade_long", "highheels_run2") from _call_change_scene_435
 
     return False
@@ -126,7 +126,7 @@ label ep29_quests_monica_college_visit3_teacher: #учитель, третье �
     $ streetCollegeMonicaSuffix = 2
     $ remove_hook(label="bardie_eric_quest_day3")
     $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1_college_block", scene="street_college", label=["evening_time_temp", "bardie_eric_quest_day3block"]) # Блокируем колледж на сегодня
-    $ add_objective("go_to_bardie", _("Сообщить Барди о визите в колледж"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Сообщить Барди о визите в колледж"), c_orange, 85)
     call change_scene("street_college","Fade_long", "highheels_run2") from _call_change_scene_438
     return False
 
@@ -171,7 +171,7 @@ label ep29_quests_monica_college_visit4_init_bardie1:
 
     $ autorun_to_object("dialogue_classmate_1b", scene="basement_bedroom2")
 #    $ add_hook("basement_monica_after_nap_dialogue", "dialogue_classmate_1b", scene="global", once=True)
-    $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату"), c_orange, 85)
     $ move_object("Betty", "empty")
     $ move_object("Ralph", "empty")
 
@@ -206,7 +206,7 @@ label ep29_quests_monica_college_visit4_init_bardie2:
     $ add_hook("enter_scene", "dialogue_classmate_13", scene="street_college", once=True)
     $ add_hook("College", "ep29_quests_monica_college_visit4", scene="street_college", label=["bardie_eric_quest_college", "bardie_eric_quest_day4"])
     $ add_hook("Teacher", "ep29_quests_monica_college_visit4_teacher", scene="college_class", label=["bardie_eric_quest_college_teacher", "bardie_eric_quest_day4"])
-    $ add_objective("eric_college", _("Уладить проблему Эрика в колледже"), c_blue, 45)
+    $ add_objective("eric_college", t_("Уладить проблему Эрика в колледже"), c_blue, 45)
     call refresh_scene_fade() from _call_refresh_scene_fade_208
     return False
 
@@ -237,7 +237,7 @@ label ep29_quests_monica_college_visit4_teacher:
         $ monica_college_teacher_kicked1 = True
     $ add_hook("enter_scene", "dialogue_classmate_14_1", scene="street_college", once=True)
     $ remove_objective("eric_college")
-    $ add_objective("go_to_bardie", _("Сообщить Барди о визите в колледж"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Сообщить Барди о визите в колледж"), c_orange, 85)
     $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit4_bardie", scene="floor2", label="bardie_eric_quest_college_teacher")
     call change_scene("street_college","Fade_long", "highheels_run2") from _call_change_scene_441
     return False

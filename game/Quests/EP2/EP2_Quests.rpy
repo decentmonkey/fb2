@@ -53,7 +53,7 @@ label fred_talk_monica1c:
 
 label fred_talk_monica1d:
     call monica_fred_about_dick_dialogue2() from _call_monica_fred_about_dick_dialogue2
-    $ add_objective("go_dick", _("Отправиться на встречу с Диком"), c_green, 30)
+    $ add_objective("go_dick", t_("Отправиться на встречу с Диком"), c_green, 30)
     call refresh_scene_fade() from _call_refresh_scene_fade
     return False
 
@@ -113,7 +113,7 @@ label dick_secretary_talk2:
     if act == "l":
         return
     call monica_dick_secretary_dialogue2() from _call_monica_dick_secretary_dialogue2
-    $ add_objective("dicksecretary_find_money", _("Принести Виктории $ 5000 до вечера пятницы"), c_red, 30)
+    $ add_objective("dicksecretary_find_money", t_("Принести Виктории $ 5000 до вечера пятницы"), c_red, 30)
     $ questLog(10, True)
     $ add_char_progress("DickSecretary", 20, "dick_secretary_talk2")
     $ remove_hook(label="secretary1")
@@ -433,7 +433,7 @@ label monica_after_charity_event_dick_entrance_talk1:
     $ remove_hook()
     call monica_dick_office_entrance_dialogue1() from _call_monica_dick_office_entrance_dialogue1
     $ remove_objective("dicksecretary_find_money")
-    $ add_objective("dick_money_tomorrow", _("Принести деньги Дику завтра"), c_blue, 40)
+    $ add_objective("dick_money_tomorrow", t_("Принести деньги Дику завтра"), c_blue, 40)
     $ unfocus_map()
     $ move_object("Biff", "empty")
     $ move_object("AlexPhotograph", "empty")

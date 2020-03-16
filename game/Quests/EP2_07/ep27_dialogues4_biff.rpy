@@ -406,7 +406,7 @@ label ep27_dialogues4_biff6:
     with fade
     biff "Ленивая цыпочка не будет работать у папочки!" #+
     biff "Цыпочка должна сама шевелить своей попой и только тогда она сможет понравиться папочке!"
-    $ notif(_("Моника не сама собирала отчеты"))
+    $ notif(t_("Моника не сама собирала отчеты"))
 
     $ add_char_progress("Biff", biffFlashCardQuestReportNoSelf, "biffFlashCardQuestReportNoSelf" + str(day))
     return
@@ -414,7 +414,7 @@ label ep27_dialogues4_biff6:
 
 label ep27_dialogues4_biff7:
     # Моника долго не сдавала отчеты
-    $ notif(_("Моника давно не сдавала отчеты."))
+    $ notif(t_("Моника давно не сдавала отчеты."))
     img 13910
     with fade
     biff "Да, и цыпочка! Ты уже давно не сдавала отчеты!" #+

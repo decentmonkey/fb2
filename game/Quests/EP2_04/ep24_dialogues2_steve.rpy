@@ -161,7 +161,7 @@ label ep24_dialogues2_steve3:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_4
+    call textonblack(t_("Утро...")) from _call_textonblack_4
     img black_screen
     with Dissolve(2.0)
 
@@ -244,7 +244,7 @@ label ep24_dialogues2_steve5:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_5
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_5
     scene black_screen
     with Dissolve(1)
     music Backbay_Lounge high
@@ -292,7 +292,7 @@ label ep24_dialogues2_steve5a:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_6
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_6
     scene black_screen
     with Dissolve(1)
     sound pour_wine
@@ -431,7 +431,7 @@ label ep24_dialogues2_steve6:
     stop music fadeout 1.0
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("ПОЗДНИЙ ВЕЧЕР...")) from _call_textonblack_7
+    call textonblack(t_("ПОЗДНИЙ ВЕЧЕР...")) from _call_textonblack_7
     scene black_screen
     with Dissolve(1)
     music BossaBossa
@@ -955,7 +955,7 @@ label ep24_dialogues3_steve10:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_8
+    call textonblack(t_("Утро...")) from _call_textonblack_8
     img black_screen
     with Dissolve(2.0)
     img 9863
@@ -1606,7 +1606,7 @@ label ep24_dialogues3_steve10f:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер...")) from _call_textonblack_9
+    call textonblack(t_("Вечер...")) from _call_textonblack_9
     img black_screen
     with Dissolve(2.0)
     # Спустя время
@@ -1873,7 +1873,7 @@ label ep24_dialogues3_steve10g:
     m "Да как ты смеешь, Стив!"
     m "Ты не забыл кто Ты и кто Я?!?"
     if monicaSteveLivingRoomOffended == True:
-        $ notif(_("Моника угрожала Стиву вилкой"))
+        $ notif(t_("Моника угрожала Стиву вилкой"))
         music Villainous_Treachery
         img 10042
         with fade
@@ -2204,7 +2204,7 @@ label ep24_dialogues3_steve10g:
 
 # Если Моника ругалась на Стива, то говорит что он мешок с дерьмом, а не бизнесмен.
     if steveOffended1 == True:
-        $ notif(_("Моника сказала Стиву по телефону что он мешок с дерьмом.."))
+        $ notif(t_("Моника сказала Стиву по телефону что он мешок с дерьмом.."))
         img 10090
         m "Ты мешок с дерьмом, а не бизнесмен!"
 

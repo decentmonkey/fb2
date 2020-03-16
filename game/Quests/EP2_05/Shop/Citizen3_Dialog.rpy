@@ -433,7 +433,7 @@ label cit3_dialog_3:
             mt "Мне надо было с самого начала так и поступить."
             mt "Ни к чему было терпеть все эти унижения..."
             music stop
-            call textonblack(_("Спустя некоторое время...")) from _call_textonblack_28
+            call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_28
             img black_screen
             with Dissolve(1)
             return True
@@ -601,7 +601,7 @@ label cit3_dialog_3:
     $ renpy.music.set_volume(1.0, 0.0, 'music2')
 
     music stop
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_22
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_22
     img black_screen
     with Dissolve(1)
 

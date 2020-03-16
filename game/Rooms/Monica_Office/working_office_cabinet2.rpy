@@ -36,7 +36,7 @@ label working_office_cabinet2_init:
     $ add_object_to_scene("TableBook", {"type" : 2, "base" : "WorkingOfficeCabinet2_TableBook", "click" : "working_office_cabinet2_environment", "actions" : "l", "zorder":5, "group":"environment"}, scene="working_office_cabinet2")
     $ add_object_to_scene("TableFlower", {"type" : 2, "base" : "WorkingOfficeCabinet2_TableFlower", "click" : "working_office_cabinet2_environment", "actions" : "l", "zorder":5, "group":"environment"}, scene="working_office_cabinet2")
 
-    $ add_object_to_scene("Teleport_Working_Office_Cabinet", {"type":3, "text" : _("РАБОЧЕЕ МЕСТО"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office_cabinet2_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet2")
+    $ add_object_to_scene("Teleport_Working_Office_Cabinet", {"type":3, "text" : t_("РАБОЧЕЕ МЕСТО"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office_cabinet2_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet2")
 
     return
 #                            $ brightness_adjustment = 0.1

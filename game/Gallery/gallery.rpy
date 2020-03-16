@@ -19,7 +19,7 @@ label gallery_7293:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_18
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_18
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -578,7 +578,7 @@ label gallery_8563:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _rcall_textonblack_19
+    call textonblack(t_("Утро...")) from _rcall_textonblack_19
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -2051,7 +2051,7 @@ label gallery_20385:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_20
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_20
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -3468,7 +3468,7 @@ label gallery_10819:
     mt "Где же она?"
 
     music stop
-    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_21
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_21
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -3632,7 +3632,7 @@ label gallery_10819:
                     cashier "Хорошая девочка..."
                     # приводит покупателя
                     music stop
-                    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_22
+                    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_22
                     img black_screen
                     with Dissolve(1)
                     music Groove2_85

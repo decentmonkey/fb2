@@ -12,7 +12,7 @@ label dialogue_classmate_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_41
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_41
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
@@ -1117,7 +1117,7 @@ label dialogue_classmate_3_1:
         sound highheels_short_walk
         img 22235
         with diss
-        $ notif(_("Моника работала манекеном"))
+        $ notif(t_("Моника работала манекеном"))
         cashier "О, это ты? Хочешь 'купить' одежду, как в прошлый раз?"
         mt "На что эта лесбиянка намекает?"
         mt "???"
@@ -1144,10 +1144,10 @@ label dialogue_classmate_3_1:
         #
     if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
         $ schoolOutfitPrice = monicaEricCollegeDressPriceDiscount
-        $ notif(_("Моника вела себя с Вивиан вежливо."))
+        $ notif(t_("Моника вела себя с Вивиан вежливо."))
     else:
         $ schoolOutfitPrice = monicaEricCollegeDressPriceRegular
-        $ notif(_("Моника была недостаточно добра к продавцу."))
+        $ notif(t_("Моника была недостаточно добра к продавцу."))
     $ menu_price = [schoolOutfitPrice, 0, monicaEricCollegeDressPriceLickingDiscount]
     music Groove2_85
     menu:
@@ -1168,7 +1168,7 @@ label dialogue_classmate_3_1:
             # Если Моника вела себя хорошо с Вивиан
             img 22270
             if clothShopCashierOffended2 == False and clothShopCashierOffended3ReturnDress == False and clothShopCashierFirstNightOffended == False:
-                $ notif(_("Моника вела себя с Вивиан вежливо."))
+                $ notif(t_("Моника вела себя с Вивиан вежливо."))
                 cashier "Специально для Вас скидка 50 процентов."
             $ add_money(-schoolOutfitPrice)
 
@@ -1821,7 +1821,7 @@ label dialogue_classmate_5:
     teacher "До свидания, миссис Бейкер."
     teacher "Приятно было с вами познакомиться."
     # Моника уходит
-#    $ log1 = _("Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!")
+#    $ log1 = t_("Барди совсем обнаглел и заставляет меня быть мамой для своего одноклассника. Такого же неудачника как он сам!")
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
@@ -1891,7 +1891,7 @@ label dialogue_classmate_5_1b: # если ушла от учителя
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _call_textonblack_42
+    call textonblack(t_("5 минут спустя...")) from _call_textonblack_42
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -2416,7 +2416,7 @@ label dialogue_classmate_8:
     teacher "До свидания, миссис Бейкер."
     teacher "Буду рад видеть вас снова."
 
-    $ log1 = _("Идти в колледж, притворившись мамой Эрика")
+    $ log1 = t_("Идти в колледж, притворившись мамой Эрика")
     return
 
 # Город. Школьный двор. Моника, выйдя с колледжа.
@@ -2431,7 +2431,7 @@ label dialogue_classmate_8_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_45
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_45
     scene black_screen
     with Dissolve(1)
     # в кабинет к Эдвардсу заходит мисс Мэнсфилд, в руках нагайка, учитель вскакивает со своего стула, широко улыбается

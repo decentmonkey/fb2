@@ -32,10 +32,10 @@ label working_office_init:
     $ add_object_to_scene("Teleport_Cabinet", {"type" : 2, "base" : "WorkingOffice_Teleport_Cabinet", "click" : "working_office_teleport", "actions" : "lw", "zorder":0, "b":0.15, "teleport":True}, scene="working_office")
 
 
-#    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office_teleport", "xpos" : 1730, "ypos" : 920, "zorder":11, "teleport":True}, scene="working_office")
-#    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : _("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "working_office_teleport", "xpos" : 1790, "ypos" : 920, "zorder":11, "teleport":True}, scene="working_office")
-    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : _("ЛИФТ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="working_office")
-    $ add_object_to_scene("Teleport_Monica_WorkingOffice2", {"type":3, "text" : _("ИДТИ ДАЛЬШЕ"), "rarrow" : "arrow_up_2", "base":"WorkingOffice_Teleport_WorkingOffice2", "click" : "working_office_teleport", "xpos" : 1310, "ypos" : 896, "zorder":3, "teleport":True}, scene="working_office")
+#    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : t_("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office_teleport", "xpos" : 1730, "ypos" : 920, "zorder":11, "teleport":True}, scene="working_office")
+#    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : t_("ЛИФТ"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "working_office_teleport", "xpos" : 1790, "ypos" : 920, "zorder":11, "teleport":True}, scene="working_office")
+    $ add_object_to_scene("Teleport_Monica_Office_Lift", {"type":3, "text" : t_("ЛИФТ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="working_office")
+    $ add_object_to_scene("Teleport_Monica_WorkingOffice2", {"type":3, "text" : t_("ИДТИ ДАЛЬШЕ"), "rarrow" : "arrow_up_2", "base":"WorkingOffice_Teleport_WorkingOffice2", "click" : "working_office_teleport", "xpos" : 1310, "ypos" : 896, "zorder":3, "teleport":True}, scene="working_office")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

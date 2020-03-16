@@ -42,7 +42,7 @@ label ep28_monica_bardie_eric_meeting_a:
     $ miniMapEnabledOnly = ["Floor2", "Basement"]
     call refresh_scene_fade() from _call_refresh_scene_fade_184
     $ autorun_to_object("dialogue_classmate_1b", scene="basement_bedroom2")
-    $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
+    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату"), c_orange, 45)
     $ move_object("Betty", "empty")
 
     $ add_hook("Teleport_Basement_Side", "dialogue_classmate_1c", scene="basement_hole", label="monica_bardie_eric_meeting_block")
@@ -89,7 +89,7 @@ label ep28_monica_bardie_eric_college1:
     $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor1", label="bardie_eric_quest_college", once=True)
     $ add_hook("enter_scene", "dialogue_classmate_1b", scene="basement_pool", label="bardie_eric_quest_college", once=True)
     $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor1_stairs", label="bardie_eric_quest_college", once=True)
-    $ add_objective("go_to_bardie", _("Идти к Барди в комнату"), c_orange, 45)
+    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату"), c_orange, 45)
     $ move_object("Betty", "bedroom1")
     call refresh_scene_fade() from _call_refresh_scene_fade_186
     $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college2", scene="floor2", label="bardie_eric_quest_college")
@@ -101,10 +101,10 @@ label ep28_monica_bardie_eric_college2:
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["bardie_eric_quest_college", "evening_time_temp"]) # Разблокируем комнату Барди на след.день
     $ autorun_to_object("dialogue_classmate_2_1", scene="floor2") # Моника комментирует
     $ remove_objective("go_to_bardie")
-    $ add_objective("find_dress_for_college", _("Найти наряд, чтобы притвориться мамой Эрика"), c_green, 45)
+    $ add_objective("find_dress_for_college", t_("Найти наряд, чтобы притвориться мамой Эрика"), c_green, 45)
     $ add_hook("enter_scene", "dialogue_classmate_3", scene="street_cloth_shop")
     $ add_hook("Teleport_Cloth_Shop_Entrance", "ep28_monica_bardie_eric_college3_shop", scene="street_cloth_shop", label="bardie_eric_quest_college_shop")
-    $ map_objects ["Teleport_College"] = {"text" : _("КОЛЛЕДЖ"), "xpos" : 174, "ypos" : 579, "base" : "map_marker", "state" : "visible"}
+    $ map_objects ["Teleport_College"] = {"text" : t_("КОЛЛЕДЖ"), "xpos" : 174, "ypos" : 579, "base" : "map_marker", "state" : "visible"}
     call street_college_init() from _call_street_college_init
     $ move_object("Betty", "bedroom1")
     $ add_hook("enter_scene", "ep28_monica_bardie_eric_college2_enter_regular", scene="street_college", label="bardie_eric_quest_college_regular")
@@ -148,7 +148,7 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
     if _return == 1 or _return == 4:
         # Моника получила костюм мамы, можно идти в колледж
         $ remove_objective("find_dress_for_college")
-        $ add_objective("eric_college", _("Уладить проблему Эрика в колледже"), c_blue, 45)
+        $ add_objective("eric_college", t_("Уладить проблему Эрика в колледже"), c_blue, 45)
         $ remove_hook(label="bardie_eric_quest_college_shop")
         $ monicaHasSchoolOutfit1Day = day
         $ monicaHasSchoolOutfit1 = True
@@ -243,11 +243,11 @@ label ep28_monica_bardie_eric_college4_visit1_teacher:
     else:
         $ add_hook("enter_scene", "dialogue_classmate_5_1", scene="street_college", once=True)
         $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_completed", scene="floor2", label="bardie_eric_quest_day1b")
-        $ add_objective("check_teacher", _("Сходить к Мистеру Эдвардсу, чтобы узнать решил-ли он проблему Эрика"), c_white, 55)
+        $ add_objective("check_teacher", t_("Сходить к Мистеру Эдвардсу, чтобы узнать решил-ли он проблему Эрика"), c_white, 55)
         $ monicaEricQuest1Stage = 1
         $ add_corruption(monicaTeacherAddCorruption1, "monicaTeacherAddCorruption1")
 
-    $ add_objective("go_to_bardie", _("Поговорить с Барди (он бывает в своей комнате вечером)"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Поговорить с Барди (он бывает в своей комнате вечером)"), c_orange, 85)
     $ move_object("Bardie", "empty")
     $ remove_hook(label="bardie_eric_quest_day1")
     $ add_hook("College", "ep28_monica_bardie_eric_college4_visit1_college_block", scene="street_college", label=["evening_time_temp", "bardie_eric_quest_day1block"]) # Блокируем колледж на сегодня

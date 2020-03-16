@@ -48,10 +48,10 @@ label biffProgressLevelUp1:
     $ char_data["level"] = char_data["level"] + 1
     if char_data["level"] == 2 and biffLevel3Opened == False:
         $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+        $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
     if char_data["level"] == 3:
         $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Work in progress...")
+        $ char_data["caption_diabled"] = t_("Work in progress...")
     return
 
 label biffInitOutfitIcons:

@@ -257,7 +257,7 @@ label e211_dialogues_revenge_quest1:
     fred "Да, Миссис Бакфетт..."
     fred "ММПППХХХФФФФ!!! Я ХПФМММ!"
 
-#    $ log1 = _("Идти к Стиву")
+#    $ log1 = t_("Идти к Стиву")
 
     return
 

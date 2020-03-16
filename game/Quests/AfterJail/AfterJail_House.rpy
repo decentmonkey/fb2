@@ -83,7 +83,7 @@ label afterJailHouse_dialogue20:
     $ miniMapEnabledOnly = ["none"]
 
 
-    $ add_objective("take_journal", _("Там на столике что-то лежит..."), c_white, 15)
+    $ add_objective("take_journal", t_("Там на столике что-то лежит..."), c_white, 15)
 
 #    call refresh_scene_fade()
     return

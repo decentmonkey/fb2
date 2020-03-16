@@ -113,7 +113,7 @@ python early:
         if keyPressed[pygame.K_SLASH]:
             return
 
-        what = __(what)
+        what = t__(what)
         what = re.sub("\!\s{1,}", "!\n", what)
         what = re.sub("\?\s{1,}", "?\n", what)
         what = re.sub("\.\s{1,}", ".\n", what)

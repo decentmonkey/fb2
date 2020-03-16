@@ -14,7 +14,7 @@ label kebab_work_init:
 
 label reduce_flyers:
     $ kebabWorkFlyersLeft = kebabWorkFlyersLeft - 1
-    $ notif(_("Флаеры убавлено"))
+    $ notif(t_("Флаеры убавлено"))
     call kebab_work_objective_refresh() from _call_kebab_work_objective_refresh
     if kebabWorkFlyersLeft == 0:
         $ autorun_to_object("monica_shawarma_dialogue3a")
@@ -87,7 +87,7 @@ label kebab_work_objective_refresh:
     $ print kebabWorkFlyersLeft
     if kebabWorkFlyersLeft > 0:
         $ remove_objective("give_flyers")
-        $ add_objective("give_flyers", __("Осталось флаеров") + " " + str(kebabWorkFlyersLeft), c_orange, 20)
+        $ add_objective("give_flyers", t__("Осталось флаеров") + " " + str(kebabWorkFlyersLeft), c_orange, 20)
     else:
         $ remove_objective("give_flyers")
     return

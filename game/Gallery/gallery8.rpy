@@ -1160,7 +1160,7 @@ label gallery_21244:
     sound man_steps
     img black_screen
     with Dissolve(1.5)
-    call textonblack(_("День 1")) from _rcall_textonblack_14
+    call textonblack(t_("День 1")) from _rcall_textonblack_14
     img black_screen
     with Dissolve(2.0)
     return
@@ -1524,7 +1524,7 @@ label gallery_21624:
     with diss
     menu:
         "Назвать свое имя.":
-            $ monica_jail_name = __("Моника Бакфетт")
+            $ monica_jail_name = t__("Моника Бакфетт")
             pass
         "Назваться [monica_pub_name]" if monicaWorkingAsDishwasher == True:
             $ monica_jail_name = monica_pub_name
@@ -2810,7 +2810,7 @@ label gallery_21523:
     music stop
     music2 stop
     sound man_steps
-    call textonblack(_("Спустя некоторое время...")) from _rcall_textonblack_15
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_15
     img black_screen
     with Dissolve(1)
     music2 prison_yell_music

@@ -1636,7 +1636,7 @@ label gallery_14600:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер...")) from _rcall_textonblack_24
+    call textonblack(t_("Вечер...")) from _rcall_textonblack_24
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -1835,7 +1835,7 @@ label gallery_14612:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Утро...")) from _rcall_textonblack_25
+    call textonblack(t_("Утро...")) from _rcall_textonblack_25
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch
@@ -2394,7 +2394,7 @@ label gallery_15147: # если ушла от учителя
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _rcall_textonblack_26
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_26
     img black_screen
     with Dissolve(2.0)
     music Groove2_85

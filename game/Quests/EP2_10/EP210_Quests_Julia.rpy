@@ -47,10 +47,10 @@ label ep210_quests_julia1c: # Юлии нет в офисе (надо идти �
     $ remove_hook()
     $ remove_hook(label="ep210_quests_julia1b")
     call ep210_dialogues5_julia_2() from _call_ep210_dialogues5_julia_2
-    $ add_objective("go_to_julia", _("Пойти на свидание с Юлией."), c_green, 80)
+    $ add_objective("go_to_julia", t_("Пойти на свидание с Юлией."), c_green, 80)
 
     # Инициализируем локацию Юлии
-    $ map_objects ["Teleport_JuliaHome"] = {"text" : _("ДОМ ЮЛИИ"), "xpos" : 521, "ypos" : 1014, "base" : "map_marker", "state" : "visible"}
+    $ map_objects ["Teleport_JuliaHome"] = {"text" : t_("ДОМ ЮЛИИ"), "xpos" : 521, "ypos" : 1014, "base" : "map_marker", "state" : "visible"}
     call locations_init_julia_street() from _call_locations_init_julia_street
     call street_corner_init2() from _call_street_corner_init2
     $ add_hook("JuliaCafe", "ep210_quests_julia2_cafe_regular", scene="street_juliahome", label="julia_cafe_regular")
@@ -90,7 +90,7 @@ label ep210_quests_julia2_cafe: # Клик на кафе
     $ add_money(-15.0)
     $ move_object("Julia", "street_juliahome")
     $ char_info["Julia"]["enabled"] = True
-    $ char_info["Julia"]["caption"] = _("Мне надо притворяться что Юлия мне нравится.")
+    $ char_info["Julia"]["caption"] = t_("Мне надо притворяться что Юлия мне нравится.")
     $ add_hook("office_work_process", "ep210_quests_julia3_massage", scene="global", label="julia_massage")
     $ add_hook("change_time_day", "ep210_quests_julia2_cafe_after", scene="global", once=True)
     $ streetJuliaHomeMonicaSuffix = 2

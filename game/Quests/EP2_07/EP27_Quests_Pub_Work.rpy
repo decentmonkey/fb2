@@ -91,7 +91,7 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
     with diss
     sound snd_fabric1
     pause 1.0
-    $ notif(_("Моника украла чаевые из Shiny Hole"))
+    $ notif(t_("Моника украла чаевые из Shiny Hole"))
     call change_scene("hostel_street", "Fade_long") from _call_change_scene_367
     return False
 
@@ -118,7 +118,7 @@ label ep27_quests_pub_work5:
     with diss
     sound snd_fabric1
     pause 1.0
-    $ notif(_("Моника закончила смену официантки"))
+    $ notif(t_("Моника закончила смену официантки"))
     $ set_var("Monica", zorder = 200, scene="pub") # Делаем Монику снова спереди
     call change_scene("hostel_street", "Fade_long") from _call_change_scene_368
     return

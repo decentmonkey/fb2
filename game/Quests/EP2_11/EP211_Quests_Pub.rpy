@@ -70,7 +70,7 @@ label ep211_quests_pub3_start_banker_questb:
     if _return == False:
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired
         return False
-    $ add_objective("go_dance_private", _("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
+    $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
     $ add_hook("Teleport_Pub", "ep211_quests_pub4_teleport", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_1
     return

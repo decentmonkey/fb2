@@ -193,7 +193,7 @@ label ep22_dialogues5_2:
 
     # Если Моника опоздала
     if monicaLateToDick == True:
-        $ notif (_("Моника опоздала, потому что терла пятно"))
+        $ notif (t_("Моника опоздала, потому что терла пятно"))
         img 7970
         with fade
         dick_secretary "Только Вы слишком сильно опоздали, Миссис Бакфетт!"
@@ -1113,7 +1113,7 @@ label ep22_dialogues5_7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _call_textonblack_10
+    call textonblack(t_("5 минут спустя...")) from _call_textonblack_10
     img black_screen
     with Dissolve(2.0)
     music Gearhead
@@ -1557,7 +1557,7 @@ label ep22_dialogues5_14:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_11
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_11
     scene black_screen
     with Dissolve(1)
     music Loved_Up

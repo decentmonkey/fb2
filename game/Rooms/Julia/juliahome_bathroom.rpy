@@ -32,7 +32,7 @@ label juliahome_bathroom_init:
     $ add_object_to_scene("ToiletStick", {"type" : 2, "base" : "JulliaHome_Bathroom_ToiletStick", "click" : "juliahome_bathroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_bathroom")
 
 
-    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_bathroom")
+    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : t_("КУХНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_bathroom")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

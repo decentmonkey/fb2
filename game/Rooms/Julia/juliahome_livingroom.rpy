@@ -30,7 +30,7 @@ label juliahome_livingroom_init:
     $ add_object_to_scene("Wardrobe", {"type" : 2, "base" : "JulliaHome_LivingRoom_Wardrobe", "click" : "juliahome_livingroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_livingroom")
     $ add_object_to_scene("Windows", {"type" : 2, "base" : "JulliaHome_LivingRoom_Windows", "click" : "juliahome_livingroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_livingroom")
 
-    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_livingroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_livingroom")
+    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : t_("КУХНЯ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_livingroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_livingroom")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

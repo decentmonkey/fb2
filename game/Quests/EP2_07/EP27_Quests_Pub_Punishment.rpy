@@ -15,7 +15,7 @@ label ep22_quests_pub_punishment_joe:
     call ep27_dialogues7_pub9a() from _call_ep27_dialogues7_pub9a
     $ sceneIdx = _return
     music stop
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_26
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_26
     img black_screen
     with Dissolve(1)
     if sceneIdx == 1:
@@ -81,7 +81,7 @@ label ep22_quests_pub_punishment_ashley:
     call ep27_dialogues7_pub14b() from _call_ep27_dialogues7_pub14b
     $ sceneIdx = _return
     music stop
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_27
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_27
     img black_screen
     with Dissolve(1)
     if sceneIdx == 1:

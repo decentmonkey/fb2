@@ -24,8 +24,8 @@ label kitchen2_init:
     $ add_object_to_scene("Small_Chairs", {"type":2, "base":"Kitchen2_Small_Chairs", "click" : "kitchen2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Windows", {"type":2, "base":"Kitchen2_Windows", "click" : "floor1_environment", "actions" : "l", "zorder" : 0, "b":0.03, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "kitchen_teleport", "xpos" : 210, "ypos" : 520, "zorder":11})
-    $ add_object_to_scene("Teleport_Floor1", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "kitchen_teleport", "xpos" : 960, "ypos" : 956, "zorder":12, "teleport":True})
+    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : t_("КУХНЯ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "kitchen_teleport", "xpos" : 210, "ypos" : 520, "zorder":11})
+    $ add_object_to_scene("Teleport_Floor1", {"type":3, "text" : t_("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "kitchen_teleport", "xpos" : 960, "ypos" : 956, "zorder":12, "teleport":True})
 
     return
 

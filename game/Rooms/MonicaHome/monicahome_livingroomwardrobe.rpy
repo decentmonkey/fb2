@@ -45,7 +45,7 @@ label monicahome_livingroomwardrobe_init:
     $ add_object_to_scene("Picture", {"type" : 2, "base" : "MonicaHome_LivingRoomWardrobe_Picture", "click" : "monicahome_livingroomwardrobe_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroomwardrobe")
     $ add_object_to_scene("Teleport_Street", {"type" : 2, "base" : "MonicaHome_LivingRoomWardrobe_TeleportStreet", "click" : "monicahome_livingroomwardrobe_teleport", "actions" : "lw", "zorder":0, "b":0.15, "group":"teleport", "teleport":True}, scene="monicahome_livingroomwardrobe")
 
-    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : _("СПАЛЬНЯ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "monicahome_livingroomwardrobe_teleport", "xpos" : 1630, "ypos" : 545, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : t_("СПАЛЬНЯ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "monicahome_livingroomwardrobe_teleport", "xpos" : 1630, "ypos" : 545, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

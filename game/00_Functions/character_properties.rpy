@@ -51,9 +51,9 @@ init python:
             char_progress_stored[char_name][progress_name] = 0
         if char_info[char_name]["enabled"] == False:
             if char_info[char_name].has_key("show_caption_diabled") and char_info[char_name]["show_caption_diabled"] == True:
-                notif(__(char_info[char_name]["name_orig"]) + ". " + __(char_info[char_name]["caption_diabled"]))
+                notif(t__(char_info[char_name]["name_orig"]) + ". " + t__(char_info[char_name]["caption_diabled"]))
                 return
-            notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс максимален, ждите следующих обновлений игры!"))
+            notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс максимален, ждите следующих обновлений игры!"))
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value
@@ -62,7 +62,7 @@ init python:
         char_data = char_info[char_name]
         if char_info[char_name]["current_progress"] >= char_info[char_name]["max_progress"]:
 #            char_info[char_name]["current_progress"] = char_info[char_name]["max_progress"]
-            notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс перешел на следующий уровень!"))
+            notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс перешел на следующий уровень!"))
             char_info[char_name]["current_progress"] = 0
             renpy.play("Sounds/level_up.ogg", channel="sound")
             if char_info[char_name]["uplevel_label"] != False and renpy.has_label(char_info[char_name]["uplevel_label"]) == True:
@@ -70,10 +70,10 @@ init python:
                 renpy.call(progressFuncName)
         else:
             if progress_value > 0:
-                notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс увеличен!"))
+                notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс увеличен!"))
             else:
                 if char_info[char_name]["current_progress"] > 0:
-                    notif(__(char_info[char_name]["name_orig"]) + " " + __("прогресс понижен!"))
+                    notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс понижен!"))
             if char_info[char_name]["progress_label"] != False and renpy.has_label(char_info[char_name]["progress_label"]) == True:
                 progressFuncName = char_info[char_name]["progress_label"]
                 renpy.call(progressFuncName)
@@ -97,9 +97,9 @@ init python:
             corruption = corruptionMax
 
         if amount > 0:
-            notif(_("Corruption +") + str(amount))
+            notif(t_("Corruption +") + str(amount))
         else:
-            notif(_("Corruption -") + str(amount))
+            notif(t_("Corruption -") + str(amount))
 
         renpy.call("process_hooks", "corruption", "global") #процессим хуки
         return

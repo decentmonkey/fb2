@@ -41,10 +41,10 @@ label ep23_dialogues5_2:
 
         # Если Моника была злой с Мелани
         if melanieOffended2 == False and melanieOffended1 == False:
-            $ notif(_("У Моники хорошие отношения с Мелани"))
+            $ notif(t_("У Моники хорошие отношения с Мелани"))
             pass
         else:
-            $ notif(_("У Моники плохие отношения с Мелани"))
+            $ notif(t_("У Моники плохие отношения с Мелани"))
             music Groove2_85
             img 8694
             with fade
@@ -181,7 +181,7 @@ label ep23_dialogues5_2:
 
         #Если Дик признавался что хочет Мелани
         if richHotelRestaurantDickOffended1 == True or dickWantFuckMelanie == True:
-            $ notif(_("Дик признавался что хочет Мелани"))
+            $ notif(t_("Дик признавался что хочет Мелани"))
             img 8713
             m "Еще он как-то проговорился о том что мечтает о тебе..."
             melanie "Ой, Миссис Бакфетт..."

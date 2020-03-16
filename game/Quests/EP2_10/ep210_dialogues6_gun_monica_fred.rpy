@@ -39,7 +39,7 @@ label ep210_dialogues6_gun_monica_fred_1b:
     mt "Он знал про все, что случилось со мной!"
     mt "Откуда?!"
     mt "Я начну с Фреда, с этого мерзавца..."
-#    $ log1 = _("Идти к Фреду")
+#    $ log1 = t_("Идти к Фреду")
     return
 
 label ep210_dialogues6_gun_monica_fred_1c:

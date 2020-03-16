@@ -21,7 +21,7 @@ label gas_station_view1_init:
 
     $ add_object_to_scene("Logo", {"type":2, "base":"Gas_Station_View1_Logo", "click" : "street_gas_station2_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Street_Gas_Station", {"type":3, "text" : _("НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Street_Gas_Station", {"type":3, "text" : t_("НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
@@ -121,7 +121,7 @@ label gas_station_view2_init:
     $ add_object_to_scene("Book19", {"type":2, "base":"Gas_Station_View2_Book19", "click" : "gas_station_view2_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Book20", {"type":2, "base":"Gas_Station_View2_Book20", "click" : "gas_station_view2_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view2_environment:
@@ -168,7 +168,7 @@ label gas_station_view3_init:
     $ add_object_to_scene("Cakes8", {"type":2, "base":"Gas_Station_View3_Cakes8", "click" : "gas_station_view3_environment", "actions" : "l", "zorder" : 1, "group":"environment"})
     $ add_object_to_scene("Cakes9", {"type":2, "base":"Gas_Station_View3_Cakes9", "click" : "gas_station_view3_environment", "actions" : "l", "zorder" : 1, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view3_environment:
@@ -236,7 +236,7 @@ label gas_station_view4_init:
     $ add_object_to_scene("Wine12", {"type":2, "base":"Gas_Station_View4_Wine12", "click" : "gas_station_view4_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
     $ add_object_to_scene("Wine13", {"type":2, "base":"Gas_Station_View4_Wine13", "click" : "gas_station_view4_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view4_environment:
@@ -322,7 +322,7 @@ label gas_station_view5_init:
     $ add_object_to_scene("Juice", {"type":2, "base":"Gas_Station_View5_Juice", "click" : "gas_station_view5_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Desk", {"type":2, "base":"Gas_Station_View5_Desk", "click" : "gas_station_view5_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view5_environment:
@@ -382,7 +382,7 @@ label gas_station_view6_init:
     $ add_object_to_scene("Beer12", {"type":2, "base":"Gas_Station_View6_Beer12", "click" : "gas_station_view6_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
 
     $ add_object_to_scene("Bottle1", {"type":2, "base":"Gas_Station_View6_Bottle1", "click" : "gas_station_view6_environment", "actions" : "l", "zorder" : 0, "b":0.15, "group":"environment"})
-    $ add_object_to_scene("Teleport_Gas_Station_View5", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view6_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View5", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view6_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view6_teleport:
@@ -407,7 +407,7 @@ label gas_station_view_cashier:
     $ miniMapData = []
 
     $ scene_name = "gas_station_view_cashier"
-    $ scene_caption = _("Gas Station")
+    $ scene_caption = t_("Gas Station")
     if gasStationSaleswomanMischiefed == True:
         $ scene_image = "scene_Gas_Station_View_CashierCashier_Sorry_Hard"
     else:
@@ -449,7 +449,7 @@ label gas_station_view_cashier_init:
 
     $ add_object_to_scene("Logo", {"type":2, "base":"Gas_Station_View_Cashier_Logo", "click" : "street_gas_station_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View1", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
 
 label gas_station_view_cashier_teleport:
@@ -503,7 +503,7 @@ label gas_station_view_door_init:
     $ add_object_to_scene("Cashier", {"type":2, "base":"Gas_Station_View_Door_Cashier", "click" : "gas_station_view1_environment", "actions" : "lw", "zorder" : 0})
     $ add_object_to_scene("Door", {"type":2, "base":"Gas_Station_View_Door_Door", "click" : "gas_station_view_door_environment", "actions" : "lt", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Gas_Station_View_Cashier", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view_door_environment", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Gas_Station_View_Cashier", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "gas_station_view_door_environment", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
 
     return
 label gas_station_view_door_environment:

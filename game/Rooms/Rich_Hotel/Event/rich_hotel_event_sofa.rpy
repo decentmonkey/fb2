@@ -17,7 +17,7 @@ label rich_hotel_event_sofa_init:
 
 #    $ add_object_to_scene("Logo", {"type":2, "base":"Street_Rich_Hotel_Logo", "click" : "street_rich_hotel_environment", "actions" : "l", "zorder" : 3, "tint":[1.0, 1.0, 0.3], "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Rich_Hotel_Hall", {"type":3, "text" : _("ИДТИ КО СЦЕНЕ"), "larrow" : "arrow_left_2", "base":"Rich_Hotel_Event_Sofa_Teleport_Hall", "click" : "rich_hotel_event_sofa_teleport", "xpos" : 767, "ypos" : 1014, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Rich_Hotel_Hall", {"type":3, "text" : t_("ИДТИ КО СЦЕНЕ"), "larrow" : "arrow_left_2", "base":"Rich_Hotel_Event_Sofa_Teleport_Hall", "click" : "rich_hotel_event_sofa_teleport", "xpos" : 767, "ypos" : 1014, "zorder":11, "teleport":True})
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

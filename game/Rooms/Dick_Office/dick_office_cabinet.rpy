@@ -26,7 +26,7 @@ label dick_office_cabinet_init:
     $ add_object_to_scene("Vase", {"type":2, "base":"Office_Dick_Cabinet_Vase", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 0, "active":False, "group":"environment"})
     $ add_object_to_scene("Portrait", {"type":2, "base":"Office_Dick_Cabinet_Portrait", "click" : "dick_office_cabinet_environment", "actions" : "l", "zorder" : 0, "active":False, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Secretary", {"type":3, "text" : _("СЕКРЕТАРЬ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "dick_office_cabinet_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Secretary", {"type":3, "text" : t_("СЕКРЕТАРЬ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "dick_office_cabinet_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True})
 
     return
     #                            $ brightness_adjustment = 0.1

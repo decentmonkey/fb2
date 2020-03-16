@@ -27,7 +27,7 @@ label pub_stage1_init:
 
     $ add_object_to_scene("Stage", {"type" : 2, "base" : "Pub_Stage1_Stage", "click" : "pub_stage1_environment", "actions" : "lw", "zorder":0, "group":"environment"}, scene="pub_stage1")
 
-    $ add_object_to_scene("Teleport_MakeupRoom", {"type":3, "text" : _("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "pub_stage1_teleport", "xpos" : 782, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="pub_stage1")
+    $ add_object_to_scene("Teleport_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "pub_stage1_teleport", "xpos" : 782, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="pub_stage1")
     return
 
 label pub_stage1_teleport:

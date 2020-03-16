@@ -47,7 +47,7 @@ label ep29_revenge_quest1_buttplug:
         return
     $ remove_hook()
     call ep29_dialogues5_gun_monica_2() from _call_ep29_dialogues5_gun_monica_2
-    $ add_objective("find_key", _("Найти ключ от прикроватной тумбочки"), c_green, 120)
+    $ add_objective("find_key", t_("Найти ключ от прикроватной тумбочки"), c_green, 120)
     # Инициализируем среду поиска ключа и открытого стола
     call locations_init_laundry_wash_machine() from _call_locations_init_laundry_wash_machine
     call locations_init_basement_bedroom_table_opened() from _call_locations_init_basement_bedroom_table_opened
@@ -59,7 +59,7 @@ label ep29_revenge_quest1_buttplug:
     $ add_hook("RevengeKeys", "ep29_revenge_quest1_laundry_revenge_keys", scene="basement_laundry_washmachine", label="revenge_quest_keys", quest="revenge_quest")
     $ add_hook("Gun", "ep29_revenge_quest1_table_gun", scene="basement_bedroom_table_opened", label="ep29_revenge_quest1_table_gun", quest="revenge_quest")
     $ add_hook("Teleport_Basement_Bedroom2", "ep29_revenge_quest1_move_buttplug", scene="basement_bedroom_table_opened", label="ep29_revenge_quest1_move_buttplug", quest="revenge_quest")
-    $ define_inventory_object("revenge_keys", {"description" : _("Ключи"), "label_suffix" : "_use_revenge_keys", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/revenge_keys" + res.suffix + ".png"})
+    $ define_inventory_object("revenge_keys", {"description" : t_("Ключи"), "label_suffix" : "_use_revenge_keys", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/revenge_keys" + res.suffix + ".png"})
 
     # Комментарии
     $ autorun_to_object("ep29_dialogues5_gun_monica_3", scene="basement_bedroom2")
@@ -132,7 +132,7 @@ label ep29_revenge_quest1_laundry_revenge_keys:
     $ remove_hook(label="ep29_revenge_quest1_comment")
     $ remove_hook(label="ep29_revenge_quest1_nap")
 
-    $ add_objective("open_table", _("Открыть запертый ящик"), c_red, 120)
+    $ add_objective("open_table", t_("Открыть запертый ящик"), c_red, 120)
     call refresh_scene_fade() from _call_refresh_scene_fade_231
     return
 

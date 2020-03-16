@@ -19,13 +19,13 @@ label ep29_quests_melanie_check:
     $ add_hook("basement_monica_before_sleep", "ep29_quests_melanie_monica_sleep_restrict", scene="global", label="ep29_quests_melanie")
     $ add_hook("before_open", "ep29_quests_melanie_monica_come_melanie", scene="melanie_home", label="ep29_quests_melanie")
     $ remove_hook(label="melanie_home_restrict")
-    $ add_objective("go_to_melanie", _("Пойти вечером к Мелани домой на встречу с 'другом'"), c_red, 95)
+    $ add_objective("go_to_melanie", t_("Пойти вечером к Мелани домой на встречу с 'другом'"), c_red, 95)
     return
 
 label ep29_quests_melanie_init1:
     call ep29_dialogues3_melanie_monica_victoria_7() from _call_ep29_dialogues3_melanie_monica_victoria_7
     if cloth != "Whore":
-        $ add_objective("go_to_melanie_dress", _("Нужно переодеться и ехать к Мелани"), c_blue, 105)
+        $ add_objective("go_to_melanie_dress", t_("Нужно переодеться и ехать к Мелани"), c_blue, 105)
 
     return
 
@@ -83,7 +83,7 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
 
     call ep29_quests_melanie_control1_init() from _call_ep29_quests_melanie_control1_init
     $ money = 125000.0
-    $ add_objective("go_to_victoria", _("Пойти в офис Дика и узнать, что нужно Виктории"), c_blue, 105)
+    $ add_objective("go_to_victoria", t_("Пойти в офис Дика и узнать, что нужно Виктории"), c_blue, 105)
 
     music stop
     sound snd_fabric1
@@ -124,7 +124,7 @@ label ep29_quests_melanie_alex2: # фотосессия
         call  ep29_photoshoot_melanie1() from _call_ep29_photoshoot_melanie1
         call ep29_dialogues3_melanie_monica_victoria_5a0() from _call_ep29_dialogues3_melanie_monica_victoria_5a0
     $ remove_objective("go_photoshoot")
-    $ add_objective("go_home", _("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
+    $ add_objective("go_home", t_("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
     $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6", scene="monica_office_makeup_room", owner="Melanie", label="melanie_popup_messages", once=True)
     music stop
     img black_screen
@@ -167,10 +167,10 @@ label ep29_quests_melanie_biff2: # клик на Бифа рядом
     call ep29_dialogues3_melanie_monica_victoria_4() from _call_ep29_dialogues3_melanie_monica_victoria_4
     if _return == False:
         pass
-        $ add_objective("go_home", _("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
+        $ add_objective("go_home", t_("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6", scene="monica_office_cabinet", owner="Melanie", label="melanie_popup_messages", once=True)
     else:
-        $ add_objective("go_photoshoot", _("Провести фотосессию"), c_green, 85)
+        $ add_objective("go_photoshoot", t_("Провести фотосессию"), c_green, 85)
         $ add_hook("AlexPhotograph", "ep29_quests_melanie_alex2", scene="monica_office_photostudio", owner="Melanie", label=["melanie_dialogues", "melanie_photoshoot"])
 
     $ remove_objective("go_to_biff")
@@ -199,7 +199,7 @@ label ep29_quests_melanie_monica1: # Клик на Монику в кабине�
         $ remove_objective("go_to_monica")
         $ move_object("Julia", "empty")
         $ move_object("Biff", "monica_office_cabinet")
-        $ add_objective("go_to_biff", _("Пойти в кабинет Бифа и поговорить с ним"), c_orange, 85)
+        $ add_objective("go_to_biff", t_("Пойти в кабинет Бифа и поговорить с ним"), c_orange, 85)
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6a", scene="street_monica_office", owner="Melanie", label="melanie_popup_messages", once=True)
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_1hh", scene="melanie_home", owner="Melanie", label="melanie_popup_messages", once=True)
         $ add_hook("Teleport_Cabinet", "ep29_dialogues3_melanie_monica_victoria_1rr", scene="working_office", owner="Melanie", label="melanie_teleports_monica_restrict")
@@ -245,7 +245,7 @@ label ep29_quests_melanie_victoria1: # диалог с Викторией
     $ melanieHomeMelanieSuffix = "2"
     $ add_hook("Teleport_Secretary", "ep29_dialogues3_melanie_monica_victoria_1pp", scene="dick_office_hall1", owner="Melanie", label="melanie_block_to_victoria")
     $ remove_objective("go_to_victoria")
-    $ add_objective("go_to_monica", _("Вернуться в студию и поговорить с Миссис Бакфетт"), c_orange, 75)
+    $ add_objective("go_to_monica", t_("Вернуться в студию и поговорить с Миссис Бакфетт"), c_orange, 75)
     $ remove_hook(label="melanie_teleports_monica_restrict")
     call change_scene("dick_office_hall1", "Fade_long") from _call_change_scene_429
     return False

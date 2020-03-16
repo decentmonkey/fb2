@@ -38,7 +38,7 @@ label ep26_quests_steve2:
 #        $ monicaSteveContractPenaltyActive = False
         $ janeContractCompletedThisWeek = True
         $ janeContractsCount += 1
-#        $ notif(_("Стив перевел деньги Виктории."))
+#        $ notif(t_("Стив перевел деньги Виктории."))
 #        $ monicaEarnedWeeklyMoney = True
 #        $ remove_objective("money_for_victoria")
         call ep25_quests_steve19() from _call_ep25_quests_steve19_7# Блокируем офис на сегодня (день)

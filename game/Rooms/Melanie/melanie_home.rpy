@@ -30,7 +30,7 @@ label melanie_home_init2:
     $ add_object_to_scene("TV", {"type" : 2, "base" : "MelanieHome_TV", "click" : "melanie_home_environment", "actions" : "l", "zorder":0 ,"b":0.15, "group":"environment"}, scene="melanie_home")
     $ add_object_to_scene("Wine", {"type" : 2, "base" : "MelanieHome_Wine1", "click" : "melanie_home_environment", "actions" : "l", "zorder":0 ,"b":0.15, "group":"environment", "active":False}, scene="melanie_home")
 
-    $ add_object_to_scene("Teleport_Map", {"type":3, "text" : _("В ГОРОД"), "larrow" : "arrow_left_2", "base":"empty", "click" : "melanie_home_teleport", "xpos" : 170, "ypos" : 986, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="melanie_home")
+    $ add_object_to_scene("Teleport_Map", {"type":3, "text" : t_("В ГОРОД"), "larrow" : "arrow_left_2", "base":"empty", "click" : "melanie_home_teleport", "xpos" : 170, "ypos" : 986, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="melanie_home")
     $ melanieHomeInit2_completed = True
 
     return

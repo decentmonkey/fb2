@@ -68,8 +68,8 @@ label start:
 
     call intro_questions() from _call_intro_questions #debug !!!
     $ ralphAskedAboutPayment = False
-    $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
-    $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
+    $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
+    $ add_objective("freedom", t_("Избежать наказания"), c_red, 0)
     call start_game() from _call_start_game
     return
 
@@ -90,8 +90,8 @@ label start_saved_game:
     call intro_questions_save() from _call_intro_questions_save
     $ objectives_list = []
     if ralphAskedAboutPayment == False:
-        $ add_objective("ask_ralph", _("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
-    $ add_objective("freedom", _("Избежать наказания"), c_red, 0)
+        $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
+    $ add_objective("freedom", t_("Избежать наказания"), c_red, 0)
     $ teleportHomeFredBlowjobFlag = False
     call start_game() from _call_start_game_1
     return
@@ -131,19 +131,19 @@ label start_game:
 #            print i
 
     $ map_objects = {
-            "Teleport_Monica_Office" : {"text" : _("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : 124, "ypos" : 476, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Dick_Office" : {"text" : _("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Gas_Station" : {"text" : _("ЗАПРАВКА"), "xpos" : 1125, "ypos" : 910, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Police" : {"text" : _("ПОЛИЦИЯ"), "xpos" : 912, "ypos" : 809, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Rich_Hotel" : {"text" : _("ОТЕЛЬ ЛЯ ГРАНД"), "xpos" : 1782, "ypos" : 593, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Fitness" : {"text" : _("ФИТНЕСС"), "xpos" : 356, "ypos" : 411, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Steve_Office" : {"text" : _("ОФИС СТИВА"), "xpos" : 1333, "ypos" : 724, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Bank" : {"text" : _("БАНК"), "xpos" : 1212, "ypos" : 439, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Cloth_Shop" : {"text" : _("МАГАЗИН ОДЕЖДЫ"), "xpos" : 340, "ypos" : 901, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Street_Corner" : {"text" : _("УГОЛ УЛИЦЫ"), "xpos" : (88+15), "ypos" : 942, "base" : "map_marker", "state" : "visible"},
-            "Teleport_Hostel2" : {"text" : _("ГРЯЗНАЯ УЛИЦА"), "xpos" : 259, "ypos" : 1046, "base" : "map_marker", "state" : "invisible"},
-            "Teleport_House" : {"text" : _("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
+            "Teleport_Monica_Office" : {"text" : t_("ОФИС МОНИКИ"), "xpos" : 882, "ypos" : 320, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Street_Corner" : {"text" : t_("УГОЛ УЛИЦЫ"), "xpos" : 124, "ypos" : 476, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Dick_Office" : {"text" : t_("ОФИС ДИКА"), "xpos" : 1370, "ypos" : 127, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Gas_Station" : {"text" : t_("ЗАПРАВКА"), "xpos" : 1125, "ypos" : 910, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Police" : {"text" : t_("ПОЛИЦИЯ"), "xpos" : 912, "ypos" : 809, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Rich_Hotel" : {"text" : t_("ОТЕЛЬ ЛЯ ГРАНД"), "xpos" : 1782, "ypos" : 593, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Fitness" : {"text" : t_("ФИТНЕСС"), "xpos" : 356, "ypos" : 411, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Steve_Office" : {"text" : t_("ОФИС СТИВА"), "xpos" : 1333, "ypos" : 724, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Bank" : {"text" : t_("БАНК"), "xpos" : 1212, "ypos" : 439, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Cloth_Shop" : {"text" : t_("МАГАЗИН ОДЕЖДЫ"), "xpos" : 340, "ypos" : 901, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Street_Corner" : {"text" : t_("УГОЛ УЛИЦЫ"), "xpos" : (88+15), "ypos" : 942, "base" : "map_marker", "state" : "visible"},
+            "Teleport_Hostel2" : {"text" : t_("ГРЯЗНАЯ УЛИЦА"), "xpos" : 259, "ypos" : 1046, "base" : "map_marker", "state" : "invisible"},
+            "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
     }
 #mousedown_3, hide_windows
 #    $ print(config.keymap["game_menu"])
@@ -259,7 +259,7 @@ label start_game:
 
     $ add_hook("before_open", "food_basement_room_init", scene="basement_bedroom2", label="food_basement_room_init", priority = 200)
     $ add_hook("before_open", "food_basement_room_init2", scene="basement_bedroom_table", label="food_basement_room_init", priority = 200)
-    $ define_inventory_object("food_package", {"description" : _("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
+    $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
     $ ep23_quests_initialized = True
 
     call floor2_init_addition1() from _call_floor2_init_addition1_1 #Барди floor2
@@ -310,7 +310,7 @@ label start_game:
 label start_new_game:
     music casualMusic
 #    $ map_enabled = True
-#    $ add_objective("dress_homecloth", _("Одеть домашнюю одежду"), c_blue, 0)
+#    $ add_objective("dress_homecloth", t_("Одеть домашнюю одежду"), c_blue, 0)
 
 #    $ miniMapDisabled = ["Basement"]
 

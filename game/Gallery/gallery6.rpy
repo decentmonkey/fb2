@@ -1965,7 +1965,7 @@ label gallery_8137:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _rcall_textonblack_27
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_27
     img black_screen
     with Dissolve(2.0)
     music Gearhead
@@ -2209,7 +2209,7 @@ label gallery_8249:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_28
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_28
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -2418,7 +2418,7 @@ label gallery_14070:
     with Dissolve(1)
     stop music fadeout 1.0
     music m80s_Things
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_29
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_29
     scene black_screen
     with Dissolve(1)
 #    music Groove2_85
@@ -3814,7 +3814,7 @@ label gallery_15472:
     melanie "..."
     # Мелани бросает на нее непроницаемый взгляд, разворачивается и уходит
     # в заданиях появляется "Вернуться в студию и поговорить с Миссис Бакфетт"
-#    $ log1 = _("Вернуться в студию и поговорить с Миссис Бакфетт")
+#    $ log1 = t_("Вернуться в студию и поговорить с Миссис Бакфетт")
     return
 
 label gallery_15500:

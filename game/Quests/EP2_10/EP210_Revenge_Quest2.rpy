@@ -50,7 +50,7 @@ label ep210_revenge_quest3_morning_comment:
     $ move_object("Bardie", "empty")
     $ move_object("Betty", "empty")
     $ questLog(65, True)
-    $ add_objective("find_fred", _("Идти к Фреду"), c_red, 105)
+    $ add_objective("find_fred", t_("Идти к Фреду"), c_red, 105)
     $ autorun_to_object("ep210_dialogues6_gun_monica_fred_1c", scene="bedroom2")
     call refresh_scene_fade_long() from _call_refresh_scene_fade_long_42
     return False

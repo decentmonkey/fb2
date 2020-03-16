@@ -219,11 +219,11 @@ label ep25_quests_shop7:
     $ add_hook("change_time_day", "ep25_quests_shop9", scene="global", label=["cloth_shop_quests"]) # Обнуление блокировки входа в магазин
 
     $ remove_objective("find_casual_dress")
-    $ add_objective("find_casual_dress", _("Продать платье в магазине одежды"), c_blue, 15)
+    $ add_objective("find_casual_dress", t_("Продать платье в магазине одежды"), c_blue, 15)
 
     call change_scene("street_cloth_shop", "Fade_long", False) from _call_change_scene_260
     $ char_info["Cashier"]["enabled"] = True
-    $ char_info["Cashier"]["caption"] = _("Вивиан ждет что Моника продаст платье.")
+    $ char_info["Cashier"]["caption"] = t_("Вивиан ждет что Моника продаст платье.")
     $ add_char_progress("Cashier", 100, "cloth_shop_cashier_steal_lesbian1" + str(day), duplicate=True)
 
     return

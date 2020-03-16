@@ -34,8 +34,8 @@ label ep28_betty_init:
 
     call change_owner("Betty") from _call_change_owner_5
     $ map_objects = {
-            "Teleport_College" : {"text" : _("КОЛЛЕДЖ"), "xpos" : 174, "ypos" : 579, "base" : "map_marker", "state" : "visible", "owner":"Betty"},
-            "Teleport_House" : {"text" : _("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
+            "Teleport_College" : {"text" : t_("КОЛЛЕДЖ"), "xpos" : 174, "ypos" : 579, "base" : "map_marker", "state" : "visible", "owner":"Betty"},
+            "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
     }
     $ set_active("Betty", True, scene="House", recursive=True)
 

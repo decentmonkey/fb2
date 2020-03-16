@@ -400,7 +400,7 @@ label ep26_dialogues2_steve2:
     steve "Моника."
     steve "У нас сейчас нет деловых отношений."
     steve "Но ты знаешь что надо сделать, чтобы возобновить их!" # Подмигивает
-    $ notif(_("Стив ждет что Моника заключит контракт на общение с Джейн"))
+    $ notif(t_("Стив ждет что Моника заключит контракт на общение с Джейн"))
     return
 
 label ep26_dialogues2_steve3:
@@ -796,7 +796,7 @@ label ep26_dialogues2_steve3:
     with fade
     steve "Моника!"
     steve "Ты жестокая женщина!"
-    $ define_inventory_object("legrand_certificate", {"description" : _("Le Grand Certificate"), "label_suffix" : "_use_legrand_certificate", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/certificate" + res.suffix + ".png"})
+    $ define_inventory_object("legrand_certificate", {"description" : t_("Le Grand Certificate"), "label_suffix" : "_use_legrand_certificate", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/certificate" + res.suffix + ".png"})
     $ add_inventory("legrand_certificate", 1, True)
     sound snd_take_paper
     img 12653
@@ -816,7 +816,7 @@ label ep26_dialogues2_steve4:
 # Стив говорит что на Монике висит неустойка и этот раз будет бесплатным.
 # Моника шипит что не собирается делать это за бесплатно!
 # Стив отвечает что это свободная страна и Моника может заключать любой контракт, либо не делать этого.
-    $ notif(_("Моника должна Стиву неустойку на сорванный контракт"))
+    $ notif(t_("Моника должна Стиву неустойку на сорванный контракт"))
     music Groove2_85
     img 12655
     with fadelong
@@ -901,7 +901,7 @@ label ep26_dialogues2_steve5:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_23
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_23
     scene black_screen
     with Dissolve(1)
     music Loved_Up

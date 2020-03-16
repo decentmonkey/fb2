@@ -9,7 +9,7 @@ label ep23_Quests_init:
     $ add_hook("before_open", "food_basement_room_init", scene="basement_bedroom_table", label="food_basement_room_init", priority = 200)
     call basement_bedroom_table_init() from _call_basement_bedroom_table_init
     call basement_bedroom2_init() from _call_basement_bedroom2_init
-    $ define_inventory_object("food_package", {"description" : _("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
+    $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
     if str(13) in questLogDataEnabled:
         $ questLog(13, False)
         $ questLog(13, True)

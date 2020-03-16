@@ -1804,8 +1804,8 @@ label ep26_dialogues1_bardie10:
 
     $ bettyOffendedBardieKitchen = False
     $ bardieCalledBettyForPunishment = True
-    $ add_objective("call_betty", _("Позвать Бетти к Барди."), c_blue, 35)
-    $ notif(_("Позвать Бетти к Барди."))
+    $ add_objective("call_betty", t_("Позвать Бетти к Барди."), c_blue, 35)
+    $ notif(t_("Позвать Бетти к Барди."))
 #    help "Позвать Бетти к Барди." # setobjective
 
     return 3
