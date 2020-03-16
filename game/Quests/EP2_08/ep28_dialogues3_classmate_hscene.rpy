@@ -1186,6 +1186,8 @@ label dialogue_classmate_3_1:
         "Получить скидку на костюм." if monicaNeedToSellDress == True:
             # если Моника работала манекеном
             pass
+        "Уйти.":
+            return -1
 
     # Моника подозрительно
     img 22239

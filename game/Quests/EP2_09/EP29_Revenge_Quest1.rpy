@@ -16,9 +16,14 @@ label ep29_revenge_quest1_init:
         call basement_bedroom2_init2() from _call_basement_bedroom2_init2 # Оставляем в basement_bedroom2 анальную пробку
         return
     return
+label ep29_revenge_quest1_init_repeat: # костыль
+    $ add_hook("before_open", "ep29_revenge_quest1_check", scene="basement_bedroom2", label="ep29_revenge_quest1_check", quest="revenge_quest")
+    return
+
 label ep29_revenge_quest1_check:
     if cloth != "Governess" or day_time != "day":
         return
+    $ print "CHECK REVENGE QUEST"
     if marcus_visit1_completed != True or ep29_victoria_melanie_licking != True or monica_teacher_sex != True or day-monica_teacher_sex_day < 2 or day - ep29_revenge_quest_last_try_day < ep29_revenge_quest_retry_days or ep29_revenge_quest_blocked == True or ep29_revenge_quest_started == True:
         return
     # Начинаем revenge quest
@@ -35,7 +40,6 @@ label ep29_revenge_quest1_check:
         return
     $ ep29_revenge_quest_started = True
     $ add_hook("ButtPlug", "ep29_revenge_quest1_buttplug", scene="basement_bedroom2", label="revenge_quest_buttplug", quest="revenge_quest")
-    $ ep29_revenge_quest_started = True
     return
 
 label ep29_revenge_quest1_buttplug:

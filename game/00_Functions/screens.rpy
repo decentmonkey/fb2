@@ -471,7 +471,7 @@ screen screen_sprites(data):
                                             action Call("process_object_click", data[i]["click"], i, data[i])
 
 
-screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i):
+screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i=""):
     layer "master"
 #    zorder 10
 
@@ -519,7 +519,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
                 if data.has_key("sprite_align"):
                     if data["sprite_align"] == "dc":
                         anchor (0.5, 1.0)
-screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i):
+screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i=""):
     layer "master"
     zorder 100
 

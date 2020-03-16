@@ -98,7 +98,7 @@ python early:
         if warning == True:
             ui.text("Image not found!\n" + in_filename + "\nScene name: " + scene_name, size=40, xalign=0.5, yalign=0.5)
             renpy.pause()
-        print in_filename
+#        print in_filename
         return False
 
     def get_filename(in_filename, retry=False):

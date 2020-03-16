@@ -41,8 +41,8 @@ label basement_bedroom2:
     if basementBedroomMonicaNapGfx == True and cloth == "Governess" and monicaUnder == "Nude":
         $ basementBedNapSuffix2 = "_UnderNude"
 
-
-
+    if ep29_revenge_quest1_inited == True and check_hook("before_open", "ep29_revenge_quest1_check", scene="basement_bedroom2") == False: # костыль на старт revenge quest
+        call ep29_revenge_quest1_init_repeat() from __rcall_ep29_revenge_quest1_init_repeat1
 #    music Sneak_n_Get_Caught
     music Stealth_Groover
 

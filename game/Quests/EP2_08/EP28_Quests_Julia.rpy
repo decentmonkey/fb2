@@ -11,6 +11,7 @@ label ep28_quests_julia_fred_catch1: # Фред ловит Монику на в�
     with diss
     pause 1.0
     if _return == False:
+        $ remove_objective("find_julia_panties_color")
         $ juliaQuestMonicaRefusedFred = True
     else:
         $ juliaQuestStage1_Progress = 1

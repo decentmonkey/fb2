@@ -142,6 +142,9 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
     call dialogue_classmate_3_1() from _call_dialogue_classmate_3_1
     if _return == 0: # Моника отказалась заходить в магазин
         return False
+    if _return == -1:
+        call refresh_scene_fade_long()
+        return False
     if _return == 1 or _return == 4:
         # Моника получила костюм мамы, можно идти в колледж
         $ remove_objective("find_dress_for_college")
