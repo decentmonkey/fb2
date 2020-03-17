@@ -216,11 +216,15 @@ screen screen_sprites(data):
                                 $ spriteImageStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else scene_image_file
                                 $ maskName = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
 
+                                $ cacheName = spriteImageStr
+                                if spriteImageStr == scene_image_file:
+                                    $ cacheName = maskName
         #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
         #                        if data[i].has_key("name") and data[i]["name"] == "Spot":
         #                            $ print data[i]
                                 if pass_num == 2:
-                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + cacheName) == False:
+                                        $ print "no cache1!"
                                         if canvas_offset != False and spriteImageStr == scene_image_file:
                 #                            $ idleImg = Image(spriteImageStr)
                                             $ maskImage = Image(maskName)
@@ -240,9 +244,10 @@ screen screen_sprites(data):
                                             else:
                                                 $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
 #                                        $ idleImg = Flatten(idleImg)
-                                        $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+                                        $ sceneSpriteSurfacesCacheIdle[scene_name + cacheName] = Flatten(idleImg)
                                     else:
-                                        $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
+#                                        $ print "cache hit!"
+                                        $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + cacheName]
                                     $ hoverImg = idleImg
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
                                 if pass_num == 1:
@@ -286,7 +291,8 @@ screen screen_sprites(data):
                                     $ tint_adjustment = False
                                     $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
                                     if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
-                                        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+                                        if sceneSpriteSurfacesCache.has_key(scene_name + cacheName) == False:
+                                            $ print "no cache2!"
                                             if tint_adjustment != False:
                                                 $ hoveredImage = im.MatrixColor(
                                                     idleImg,
@@ -298,9 +304,10 @@ screen screen_sprites(data):
                                                     im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
                                                 )
                                             $ hoveredImage = Flatten(hoveredImage)
-                                            $ sceneSpriteSurfacesCache[scene_name + i] = hoveredImage
+                                            $ sceneSpriteSurfacesCache[scene_name + cacheName] = hoveredImage
                                         else:
-                                            $ hoveredImage = sceneSpriteSurfacesCache[scene_name + i]
+#                                            $ print "cache hit!"
+                                            $ hoveredImage = sceneSpriteSurfacesCache[scene_name + cacheName]
                                         imagebutton:
                                             if canvas_offset != False:
                                                 xpos canvas_offset[1]
@@ -342,7 +349,12 @@ screen screen_sprites(data):
                                 $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
                                 $ spriteStr = data[i]["img" + day_time_suffix] if data[i]["img" + day_time_suffix] != False else data[i]["img"] if data[i]["img"] != False else False
                                 $ maskStr = data[i]["img" + day_time_suffix + "_mask"] if data[i]["img" + day_time_suffix + "_mask"] != False else data[i]["img" +"_mask"] if data[i]["img" +"_mask"] != False else False
-                                $ if spriteStr != False: maskStr = False #убираем маску если есть спрайт
+                                if spriteStr != False:
+                                    $ maskStr = False #убираем маску если есть спрайт
+                                    $ cacheName = spriteStr
+                                else:
+                                    $ cacheName = maskStr
+
                                 $ overlayName = data[i]["img" + day_time_suffix + "_overlay"] if data[i]["img" + day_time_suffix + "_overlay"] != False else data[i]["img" + "_overlay"] if data[i]["img" + "_overlay"] != False else False
 
                                 $ left_arrow = data[i]["larrow"]
@@ -395,12 +407,12 @@ screen screen_sprites(data):
 
                                         if highSpriteHover == False:
                                             hovered [
-                                                Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,i)
+                                                Show("hover_text_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,cacheName)
             #                                   With(dissolve)
                                             ]
                                         else:
                                             hovered [
-                                                Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,i)
+                                                Show("hover_text_sprite_high_hover_sprite", None, spriteStr, maskStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data[i], canvas_offset,cacheName)
             #                                   With(dissolve)
                                             ]
                                         if highSpriteHover == False:
@@ -416,7 +428,8 @@ screen screen_sprites(data):
                                     $ spriteImageStr = spriteStr if spriteStr != False else scene_image_file
             #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
             #                        $ idleImg = Image(spriteImageStr)
-                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + cacheName) == False:
+                                        $ print "no cache3!"
                                         if maskStr != False:
                                             if mask_canvas_offset != False and spriteImageStr == scene_image_file:
                 #                                $ idleImg = Image(spriteImageStr)
@@ -433,18 +446,21 @@ screen screen_sprites(data):
     #                                            $ idleImg = Image(spriteImageStr)
                                         else:
                                             $ idleImg = Image(spriteImageStr)
-                                        $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+                                        $ sceneSpriteSurfacesCacheIdle[scene_name + cacheName] = Flatten(idleImg)
                                     else:
-                                        $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
+#                                        $ print "cache hit!"
+                                        $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + cacheName]
 
-                                    if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCache.has_key(scene_name + cacheName) == False:
+                                        $ print "no cache4!"
                                         $ spriteImage = im.MatrixColor(
                                             idleImg,
                                             im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
                                         )
-                                        $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+                                        $ sceneSpriteSurfacesCache[scene_name + cacheName] = Flatten(spriteImage)
                                     else:
-                                        $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
+#                                        $ print "cache hit!"
+                                        $ spriteImage = sceneSpriteSurfacesCache[scene_name + cacheName]
 
                                     if spriteStr != False or maskStr != False or overlayName != False:
                                         imagebutton:
@@ -471,17 +487,22 @@ screen screen_sprites(data):
                                             action Call("process_object_click", data[i]["click"], i, data[i])
 
 
-screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i=""):
+screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, cacheName=""):
     layer "master"
 #    zorder 10
 
     if disableSprite == False:
         $ spriteImageStr = spriteImageStr if spriteImageStr != False else scene_image_file
+        $ cacheName = spriteImageStr
+        if maskImageStr != False:
+            $ cacheName = maskImageStr
+
 #        $ print maskImageStr
 #        $ print spriteImageStr
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
 
-        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + cacheName) == False or sceneSpriteSurfacesCache.has_key(scene_name + cacheName) == False:
+            $ print "no cache5!" + "<" + str(scene_name + cacheName) + ">"
             if maskImageStr != False:
                 if canvas_offset != False and spriteImageStr == scene_image_file:
                     $ maskImage = Image(maskImageStr)
@@ -496,18 +517,22 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
             else:
                 $ idleImg = Image(spriteImageStr)
     #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-            $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+            $ sceneSpriteSurfacesCacheIdle[scene_name + cacheName] = Flatten(idleImg)
         else:
-            $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
+#            $ print "cache hit!"
+#            $ print "no cache5!" + "<" + str(scene_name + cacheName) + ">"
+            $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + cacheName]
 
-        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCache.has_key(scene_name + cacheName) == False:
+            $ print "no cache6!"
             $ spriteImage = im.MatrixColor(
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
             )
-            $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+            $ sceneSpriteSurfacesCache[scene_name + cacheName] = Flatten(spriteImage)
         else:
-            $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
+#            $ print "cache hit!"
+            $ spriteImage = sceneSpriteSurfacesCache[scene_name + cacheName]
         fixed:
             add spriteImage at hover_text_sprite_transform:
                 if canvas_offset != False:
@@ -519,15 +544,19 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
                 if data.has_key("sprite_align"):
                     if data["sprite_align"] == "dc":
                         anchor (0.5, 1.0)
-screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i=""):
+screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, cacheName=""):
     layer "master"
     zorder 100
 
     if disableSprite == False:
         $ spriteImageStr = spriteImageStr if spriteImageStr != False else scene_image_file
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
+        $ cacheName = spriteImageStr
+        if maskImageStr != False:
+            $ cacheName = maskImageStr
 
-        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + cacheName) == False:
+            $ print "no cache7!" + "<" + str(scene_name + cacheName) + ">"
             if maskImageStr != False:
                 if canvas_offset != False and spriteImageStr == scene_image_file:
                     $ maskImage = Image(maskImageStr)
@@ -542,18 +571,21 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
             else:
                 $ idleImg = Image(spriteImageStr)
     #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-            $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+            $ sceneSpriteSurfacesCacheIdle[scene_name + cacheName] = Flatten(idleImg)
         else:
-            $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
+#            $ print "cache hit!"
+            $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + cacheName]
 
-        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCache.has_key(scene_name + cacheName) == False:
+#            $ print "no cache8!"
             $ spriteImage = im.MatrixColor(
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
             )
-            $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+            $ sceneSpriteSurfacesCache[scene_name + cacheName] = Flatten(spriteImage)
         else:
-            $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
+#            $ print "cache hit!"
+            $ spriteImage = sceneSpriteSurfacesCache[scene_name + cacheName]
         fixed:
             add spriteImage at hover_text_sprite_transform:
                 if canvas_offset != False:

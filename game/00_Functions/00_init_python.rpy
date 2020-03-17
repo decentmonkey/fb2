@@ -198,6 +198,40 @@ python early:
         splittedFileName[-2] = splittedFileName[-2] + res.suffix
         return ".".join(splittedFileName)
 
+    def sceneSpriteCacheClearAll():
+        global sceneSpriteList, sceneSpriteSurfacesCache, sceneSpriteSurfacesCacheIdle
+        sceneSpriteList = []
+        sceneSpriteSurfacesCache = {}
+        sceneSpriteSurfacesCacheIdle = {}
+        return
+
+    def sceneSpriteCacheClearScene(in_scene_name):
+        global sceneSpriteList, sceneSpriteSurfacesCache, sceneSpriteSurfacesCacheIdle
+        keys = sceneSpriteSurfacesCache.keys()
+        for key in keys:
+            if in_scene_name == key[:len(in_scene_name)]:
+                del(sceneSpriteSurfacesCache[key])
+                print "clear cache " + key
+
+        keys = sceneSpriteSurfacesCacheIdle.keys()
+        for key in keys:
+            if in_scene_name == key[:len(in_scene_name)]:
+                del(sceneSpriteSurfacesCacheIdle[key])
+                print "clear cache " + key
+        if in_scene_name in sceneSpriteList:
+            print "clear scene cache: " + in_scene_name
+            sceneSpriteList.remove(in_scene_name)
+        return
+
+    def sceneSpriteCacheAddScene(in_scene_name):
+        global sceneSpriteList, sceneSpriteSurfacesCache, sceneSpriteSurfacesCacheIdle
+        sceneSpriteList.append(in_scene_name)
+        if len(sceneSpriteSurfacesCache) + len(sceneSpriteSurfacesCacheIdle) > sceneSpritesCacheLimit:
+            print "cache limit exceeded!"
+            delete_scene_name = sceneSpriteList.pop(0)
+            sceneSpriteCacheClearScene(delete_scene_name)
+        return
+
 init -3 python:
     if persistent.lang is None:
         persistent.lang = "english"
