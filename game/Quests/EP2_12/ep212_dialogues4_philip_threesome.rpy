@@ -245,6 +245,7 @@ label ep212_dialogues4_philip_threesome_1:
     mt "Какая мерзость!!!"
     img 17209
     philip "Ну?!"
+    img 17254
     # Моника с отвращением на лице
     img 17210
     m "..."
@@ -318,6 +319,8 @@ label ep212_dialogues4_philip_threesome_1:
     img 17230
     w
     img 17231
+    w
+    img 17255
     w
     img 17232
     w
