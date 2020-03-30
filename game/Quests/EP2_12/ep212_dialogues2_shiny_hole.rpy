@@ -475,7 +475,7 @@ label ep212_dialogues2_shiny_hole_3:
     m "Этого никогда не будет!!!"
     customer3 "Иди уже."
     mt "!!!"
-    return
+    return True
 
 
 
