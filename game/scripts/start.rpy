@@ -54,8 +54,21 @@ label start:
 ###################
 
 #    call ep210_dialogues6_gun_monica_fred_1b()
-#    call ()
-#    call ()
+#    call ep212_dialogues5_julia_1()
+#    call ep212_dialogues5_julia_2()
+#    call ep212_dialogues5_julia_2_1()
+#    call ep212_dialogues5_julia_2_2()
+#    call ep212_dialogues5_julia_3()
+#    call ep212_dialogues5_julia_4()
+#    call ep212_dialogues5_julia_5()
+#    call ep212_dialogues5_julia_5_1()
+#    call ep212_dialogues5_julia_5_2()
+#    call ep212_dialogues5_julia_5_3()
+#    call ep212_dialogues5_julia_6()
+
+#    call ep212_dialogues4_philip_threesome_1()
+#    call ep212_dialogues4_philip_threesome_2()
+#    call ep212_dialogues4_philip_threesome_3()
 ###################
 
     call intro_questions() from _call_intro_questions
