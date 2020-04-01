@@ -104,6 +104,7 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Что на этот раз?"
     # шлюха номер 1 снимает с себя футболку, проводит по своей груди руками и улыбается игриво Филиппу
     # потом смотрит на Монику и подходит к ней
+    music Loved_Up
     sound snd_fabric1
     img 17158
     with fade
@@ -251,6 +252,9 @@ label ep212_dialogues4_philip_threesome_1:
     mt "Ненавижу их всех!"
     mt "!!!"
     # Моника начинает лизать киску
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 17187
     with diss
@@ -339,6 +343,7 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Открывай свой рот, шлюха номер 2."
     philip "Приглашай мой член войти в него."
     # Моника парится и с отвращением смотрит на его член, который он только что вытащил из попы шлюхи номер 1
+    music Groove2_85
     img 17208
     with diss
     mt "Что?!"

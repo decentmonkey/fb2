@@ -99,7 +99,7 @@ label ep212_dialogues5_julia_1:
     m "СТОП!"
     # Фред останавливается и с улыбочкой смотрит на Монику
     # Моника бесится
-    music Groove2_85
+    music Pyro_Flow
     img 30311
     with diss
     mt "Сволочь!!!"
@@ -111,7 +111,7 @@ label ep212_dialogues5_julia_1:
     menu:
         "Выгнать этого мерзавца! (прерывание квеста)":
             # Моника орет на Фреда
-            music Pyro_Flow
+            music Stealth_Groover
             img 30312
             with fade
             m "ФРЕД!!!"
@@ -127,6 +127,7 @@ label ep212_dialogues5_julia_1:
             img 30314
             with fade
             fred "Миссис Бакфетт, я..."
+            music Pyro_Flow
             img 30315
             with hpunch
             m "Молчать!"
@@ -142,11 +143,12 @@ label ep212_dialogues5_julia_1:
         "Попытаться договориться с Фредом.":
             $ monicaFredPhoto1 = True # Моника попросила Фреда дождаться ее ответа и не показывать фото никому
             pass
-    music Groove2_85
+    music Pyro_Flow
     img 30317
     with diss
     mt "Я не могу допустить, чтобы эту фотографию кто-либо увидел!"
     mt "Никто не должен знать о моих временных трудностях..."
+    music Groove2_85
     img 30318
     with fade
     m "Фред..."
@@ -166,9 +168,10 @@ label ep212_dialogues5_julia_1:
     fred "Хорошо, Миссис Бакфетт."
     fred "Я готов пойти Вам навстречу, но только потому, что хорошо к Вам отношусь."
     fred "Более того, чем требует мой профессионализм."
-    img 30313
-    with diss
+#    img 30313
+#    with diss
     mt "Мерзавец!"
+    music Groove2_85
     img 30322
     with fade
     fred "Я дам Вам последний шанс."
@@ -320,11 +323,11 @@ label ep212_dialogues5_julia_2:
     julia "Конечно, Миссис Бакфетт."
     # снова поцелуй
     music Loved_Up
+    sound snd_kiss2
     img 30334
     with fade
-    sound snd_kiss2
     w
-    sound Groove2_85
+    music Groove2_85
     img 16489
     with diss
     sound highheels_short_walk
@@ -402,13 +405,14 @@ label ep212_dialogues5_julia_3:
     # Юлия снова отстраняется
     music stop
     sound plastinka1b
-    img 23588
-    with diss
     sound Jump2
+    img 23588
+    with hpunch
+
     w
     music Groove2_85
     img 30343
-    with fade
+    with diss
     julia "Миссис Бакфетт, Вы..."
     julia "Вы снова хотите потрогать мои трусики?"
     img 30344
@@ -436,6 +440,7 @@ label ep212_dialogues5_julia_3:
     with fade
     julia "Это просто предлог, чтобы попробовать мою... мою киску?"
     # Моника притворно улыбается
+    music Pyro_Flow
     img 30349
     with diss
     mt "О Боже! Какая гадость!"
@@ -504,6 +509,7 @@ label ep212_dialogues5_julia_3:
     with fade
     m "Именно поэтому я простила тебе тогда за то пятно на ковре."
     m "И не стала тебя наказывать."
+
     music Groove2_85
     img 30356
     with diss
@@ -531,13 +537,13 @@ label ep212_dialogues5_julia_3:
     julia "Миссис Бакфетт..."
     julia "Я правда, правда начинаю Вам доверять намного больше..."
     # Моника про себя торжествует
-    music Loved_Up
+    music Stealth_Groover
     img 30361
     with fade
     mt "Неужели?! Наконец-то!!!"
     mt "Этот цирк сегодня закончится!!!"
     # Пытается ее обнять и поднять юбку
-    music vjuh3
+    music Loved_Up
     img 30362
     with diss
     w
@@ -669,17 +675,18 @@ label ep212_dialogues5_julia_4:
     menu:
         "Черт! Нет, я не передумала!":
             pass
-    music Groove2_85
+    music Hidden_Agenda
     img 30387
     with diss
     m "Конечно, не передумала..."
     m "Милая, а где твои трусики? Я хочу на них посмотреть..."
     # Юлия удивленно
+    music Groove2_85
     img 30388
     with fade
     julia "Миссис Бакфетт, я же только что вышла из душа..."
     # Моника перебивает ее, смотрит в сторону ванной, камера издалека
-    music Turbo_Tornado
+    music Hidden_Agenda
     img 30389
     with diss
     m "Значит, твои трусики в ванной?"
@@ -881,7 +888,7 @@ label ep212_dialogues5_julia_4:
     julia "Я боялась, что Вы скажете, что это мои глупые мечты..."
     julia "Я так рада, Миссис Бакфетт!"
     julia "!!!"
-    music vjuh3
+    sound vjuh3
     img 30421
     with diss
     m "..."
