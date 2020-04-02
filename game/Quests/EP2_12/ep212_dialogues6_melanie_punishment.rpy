@@ -870,6 +870,8 @@ label ep212_dialogues6_melanie_punishment_7:
     img 17397
     w
     img 17398
+    victoria "Подружка Моника, отойди отсюда."
+    m "..."
     w
     img 17399
     melanie "!!!"
