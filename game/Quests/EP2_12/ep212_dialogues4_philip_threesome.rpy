@@ -407,6 +407,8 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Хорошо, хватит."
     # после этого он снова входит в попу шлюхи номер 1
     # это повторяется несколько раз
+    img 17427
+    w
     img 17219
     with diss
     w
