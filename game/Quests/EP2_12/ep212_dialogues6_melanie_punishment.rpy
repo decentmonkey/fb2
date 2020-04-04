@@ -25,7 +25,7 @@ label ep212_dialogues6_melanie_punishment_1:
     img 17256
     melanie "Здравствуйте, Миссис Бакфетт."
     # Моника заметно пугается, вскакивает со стула
-    img 172557
+    img 17257
     w
     img 15414
     w
