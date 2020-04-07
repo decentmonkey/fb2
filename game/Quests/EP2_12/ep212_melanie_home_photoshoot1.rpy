@@ -1,120 +1,120 @@
 label ep212_melanie_home_photoshoot1a:
 
     #кадр
-	img 23856
+    img 23856
     #up
-	img 23857
+    img 23857
     #side
-	img 23858
+    img 23858
     #down
-	img 23859
+    img 23859
 
     #кадр
-	img 23860
+    img 23860
     #up
-	img 23861
+    img 23861
     #side
-	img 23862
+    img 23862
     #down
-	img 23863
+    img 23863
 
     #кадр
-	img 23864
+    img 23864
     #up
-	img 23865
+    img 23865
     #side
-	img 23866
+    img 23866
     #down
-	img 23867
+    img 23867
 
     #кадр
-	img 23868
+    img 23868
     #up
-	img 23869
+    img 23869
     #side
-	img 23870
+    img 23870
     #down
-	img 23871
+    img 23871
 
     #кадр
-	img 23872
+    img 23872
     #up
-	img 23873
+    img 23873
     #side
-	img 23874
+    img 23874
     #down
-	img 23875
+    img 23875
 
     #кадр
-	img 23876
+    img 23876
     #up
-	img 23877
+    img 23877
     #side
-	img 23878
+    img 23878
     #down
-	img 23879
+    img 23879
 
     #кадр
-	img 23880
+    img 23880
     #up
-	img 23881
+    img 23881
     #side
-	img 23882
+    img 23882
     #down
-	img 23883
+    img 23883
 
     #кадр
-	img 23884
+    img 23884
     #up
-	img 23885
+    img 23885
     #side
-	img 23886
+    img 23886
     #down
-	img 23887
+    img 23887
 
     #кадр
-	img 23888
+    img 23888
     #up
-	img 23889
+    img 23889
     #side
-	img 23890
-	img 23891
+    img 23890
+    img 23891
     #down
-	img 23892
-	
-    #кадр
-	img 23893
-    #up
-	img 23894
-    #side
-	img 23895
-    #down
-	img 23896
-	img 23897
+    img 23892
 
     #кадр
-	img 23898
+    img 23893
     #up
-	img 23900
-	img 23899
+    img 23894
     #side
-	img 23902
-	img 23901
+    img 23895
     #down
-	img 23903
-	img 23904
-	img 23905
+    img 23896
+    img 23897
 
     #кадр
-	img 23906
+    img 23898
     #up
-	img 23907
+    img 23900
+    img 23899
     #side
-	img 23909
-	img 23908
+    img 23902
+    img 23901
     #down
-	img 23910
-	img 23911
-	img 23912
+    img 23903
+    img 23904
+    img 23905
+
+    #кадр
+    img 23906
+    #up
+    img 23907
+    #side
+    img 23909
+    img 23908
+    #down
+    img 23910
+    img 23911
+    img 23912
 
     return
