@@ -180,3 +180,6 @@ define cafe_visitor1 = Character(_("Посетитель кафе"), who_color=c
 define cafe_visitor2 = Character(_("Посетитель кафе"), who_color=c_red)
 define cafe_barista = Character(_("Бариста"), who_color=c_pink)
 #
+
+define wife = Character(_("Жена"), who_color=c_red)
+define husband = Character(_("Муж"), who_color=c_blue)
