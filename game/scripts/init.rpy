@@ -1,3 +1,8 @@
+#v0.12
+define ep212_private_dance1 = 400 # Моника согласилась пойти в приват
+define ep212_private_dance2 = 420 # Моника согласилась назвать себя шлюхой за 50 долларов
+define ep212_private_dance3 = 460 # Моника согласилась потереться об клиента попой
+
 #v0.10
 define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
 define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы

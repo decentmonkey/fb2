@@ -55,7 +55,7 @@ label start:
 
 
 
-#    call ep212_dialogues3_escort_hotel_3()
+#    call ep212_dialogues2_shiny_hole_1() # гримерка, разговор с Джо перед приватом
 
 
 
