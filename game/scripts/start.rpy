@@ -55,7 +55,9 @@ label start:
 
 
 
-#    call ep212_dialogues2_shiny_hole_1() # гримерка, разговор с Джо перед приватом
+
+#    call ep212_dialogues1_bardie_ralph12() # Моника убирается без трусиков
+
 
 
 
