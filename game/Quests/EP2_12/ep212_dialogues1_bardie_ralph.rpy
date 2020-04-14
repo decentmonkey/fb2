@@ -426,7 +426,7 @@ label ep212_dialogues1_bardie_ralph1:
     bardie "Это может быть полезный навык для моей игрушки!"
     bardie "Так она сможет принести больше пользы хозяину!"
     music Power_Bots_Loop
-    img 7684
+    img 9677
     with diss
     mt "Малявка!!!"
     music Sneaky_Snitch
