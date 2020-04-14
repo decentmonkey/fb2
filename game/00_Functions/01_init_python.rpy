@@ -1,4 +1,40 @@
 python early:
+    def overlay_parse(lex):
+        img = lex.simple_expression()
+        overlay = lex.simple_expression()
+        return (img, overlay)
+    def overlay_exec(o):
+        imgName, overlayName = o
+        try:
+            imagePathExt = img_find_path_ext(str(renpy.eval(imgName)) + "_oversprite")
+        except:
+            imagePathExt = img_find_path_ext(str(imgName) + "_oversprite")
+        if imagePathExt[0] == False:
+            imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
+        else:
+            imagePath = imagePathExt[0]
+            imgName = imagePathExt[1]
+        try:
+            overlayName = renpy.eval(overlayName)
+        except:
+            overlayName = overlayName
+        canvas_offsets = get_overlay_canvas_offset(imgName)
+        renpy.show_screen("show_image_screen_image_overlay", imagePath, canvas_offsets, overlayName)
+        return
+
+    def overlay_pred(o):
+        imgName, overlayName = o
+        try:
+            imagePathExt = img_find_path_ext(str(renpy.eval(imgName)) + "_oversprite")
+        except:
+            imagePathExt = img_find_path_ext(str(imgName) + "_oversprite")
+        if imagePathExt[0] == False:
+            imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
+        else:
+            imgName = imagePathExt[1]
+            imagePath = imagePathExt[0]
+        return [Image(imagePath)]
+    renpy.register_statement("overlay", parse=overlay_parse, execute=overlay_exec, predict=overlay_pred) #кастомный overlay
 
     def img_disp(l):
         return l.simple_expression()

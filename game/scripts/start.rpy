@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -49,7 +49,6 @@ label start:
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
-
 
 
 ###################

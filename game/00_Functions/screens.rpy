@@ -95,6 +95,15 @@ screen show_image_screen_image(image_name):
 #            add image_name at convert_resolution_transform
             add image_name
 
+screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
+    layer "master"
+    zorder 16
+    $ canvas_data = canvas_offsets[str(overlayName)]
+    $ croppedOverlay = im.Crop(image_name, (getRes(canvas_data[3]), getRes(canvas_data[2]), getRes(canvas_data[1]), getRes(canvas_data[0])))
+    add croppedOverlay:
+        xpos getRes(canvas_data[5])
+        ypos getRes(canvas_data[4])
+
 screen show_image_screen(image_name):
     layer "master"
     if assetsStorageDirectory == False:

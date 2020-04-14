@@ -55,7 +55,8 @@ python early:
         list_files = renpy.list_files()
         for filename in list_files:
             ext = os.path.splitext(filename)[1]
-            if (ext == ".jpg" or ext == ".png" or ext == ".webp" or ext == ".jpeg" or ext == ".ogg" or ext == ".mp3") and (os.path.dirname(os.path.splitext(filename)[0]) != "images/Slides"):
+#            if (ext == ".jpg" or ext == ".png" or ext == ".webp" or ext == ".jpeg" or ext == ".ogg" or ext == ".mp3") and (os.path.dirname(os.path.splitext(filename)[0]) != "images/Slides"):
+            if (ext == ".jpg" or ext == ".png" or ext == ".webp" or ext == ".jpeg" or ext == ".ogg" or ext == ".mp3"):
                 baseName = os.path.basename(os.path.splitext(filename)[0]).lower()
                 list_files_dict[baseName] = filename
 #            print os.path.dirname(os.path.splitext(filename)[0]) == "images/Slides"
