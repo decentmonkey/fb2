@@ -19,8 +19,8 @@ label dick_office_entrance_init:
     $ add_object_to_scene("Vase", {"type":2, "base":"Office_Dick_Entrance_Vase", "click" : "dick_office_entrance_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Chandelier", {"type":2, "base":"Office_Dick_Entrance_Chandelier", "click" : "dick_office_entrance_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Inside", {"type":3, "text" : _("ОФИСЫ"), "rarrow" : "arrow_right_2", "base":"Office_Dick_Entrance_Teleport_Inside", "click" : "dick_office_entrance_teleport", "xpos" : 1530, "ypos" : 190, "zorder":9, "teleport":True})
-    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : _("НА УЛИЦУ"), "larrow" : "arrow_left_2", "base":"Office_Dick_Entrance_Teleport_Street", "click" : "dick_office_entrance_teleport", "xpos" : 647, "ypos" : 190, "zorder":9, "teleport":True})
+    $ add_object_to_scene("Teleport_Inside", {"type":3, "text" : t_("ОФИСЫ"), "rarrow" : "arrow_right_2", "base":"Office_Dick_Entrance_Teleport_Inside", "click" : "dick_office_entrance_teleport", "xpos" : 1530, "ypos" : 190, "zorder":9, "teleport":True})
+    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : t_("НА УЛИЦУ"), "larrow" : "arrow_left_2", "base":"Office_Dick_Entrance_Teleport_Street", "click" : "dick_office_entrance_teleport", "xpos" : 647, "ypos" : 190, "zorder":9, "teleport":True})
     return
     #                            $ brightness_adjustment = 0.1
     #                            $ saturation_adjustment = 1.07

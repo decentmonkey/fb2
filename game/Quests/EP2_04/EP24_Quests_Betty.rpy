@@ -14,20 +14,20 @@ label ep24_quests_betty1:
     $ add_hook("Bardie", "ep24_quests_bardie14", scene="bedroom1", group="dialogue_regular", priority=105)
     $ add_hook("Bardie_Life_day", "Bardie_Life_day5", scene="global")
 
-    $ add_hook("ep24_quests_betty2_menu1", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 90)
-    $ add_hook("monica_betty_dialogue_floor2_end_menu", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=_("Миссис Робертс, я бы хотела проверить Ваши трусики..."))
-    $ add_hook("floor2_betty_fitness_dialogue", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 80)
-    $ add_hook("betty_bedroom_dialogue_regular_menu", "ep24_quests_betty7", scene="menu", label="menu_betty_panties_show_to_monica", caption=_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 104, active="checkTimeDay")
-    $ add_hook("betty_bedroom_dialogue_regular_menu", "Betty_Life_Dialogue_Bedroom1", scene="menu", label="menu_betty_regular_dialogue", caption=_("Говорить."), priority = 105)
+    $ add_hook("ep24_quests_betty2_menu1", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=t_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 90)
+    $ add_hook("monica_betty_dialogue_floor2_end_menu", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=t_("Миссис Робертс, я бы хотела проверить Ваши трусики..."))
+    $ add_hook("floor2_betty_fitness_dialogue", "ep24_quests_betty3", scene="menu", label="menu_betty_panties_show_to_monica", caption=t_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 80)
+    $ add_hook("betty_bedroom_dialogue_regular_menu", "ep24_quests_betty7", scene="menu", label="menu_betty_panties_show_to_monica", caption=t_("Миссис Робертс, я бы хотела проверить Ваши трусики..."), priority = 104, active="checkTimeDay")
+    $ add_hook("betty_bedroom_dialogue_regular_menu", "Betty_Life_Dialogue_Bedroom1", scene="menu", label="menu_betty_regular_dialogue", caption=t_("Говорить."), priority = 105)
 
-    $ add_hook("floor2_bardie_dialogue_regular_menu", "ep24_quests_betty8", scene="menu", label="menu_betty_panties_show_to_bardie", caption=_("Смотреть."), active="checkTimeDay")
-    $ add_hook("bedroom1_bardie_dialogue_regular_menu", "ep24_quests_betty9", scene="menu", label="menu_betty_panties_show_to_bardie", caption=_("Смотреть."), active="checkTimeDay")
+    $ add_hook("floor2_bardie_dialogue_regular_menu", "ep24_quests_betty8", scene="menu", label="menu_betty_panties_show_to_bardie", caption=t_("Смотреть."), active="checkTimeDay")
+    $ add_hook("bedroom1_bardie_dialogue_regular_menu", "ep24_quests_betty9", scene="menu", label="menu_betty_panties_show_to_bardie", caption=t_("Смотреть."), active="checkTimeDay")
 
     $ add_hook("betty_showed_panties_to_monica", "ep24_quests_betty4", scene="misc", label="menu_betty_panties_show_to_monica_progress")
     $ bettyPantiesFloor2TalkFlag = True
 
     $ char_info["Betty"]["enabled"] = True
-    $ char_info["Betty"]["caption"] = _("Бетти должна показать, если я спрошу ее об этом....")
+    $ char_info["Betty"]["caption"] = t_("Бетти должна показать, если я спрошу ее об этом....")
     $ questLog(20, False)
     $ questLog(35, False)
     $ questLog(36, True)
@@ -193,8 +193,8 @@ label ep24_quests_betty11:
 
     $ char_info["Betty"]["enabled"] = True
     $ char_info["Bardie"]["enabled"] = True
-    $ char_info["Betty"]["caption"] = _("Бетти запрещено носить трусики....")
-    $ add_hook("wardrobe_menu", "wardrobePutGovernessWithoutPanties", scene="menu", label="menu_governess_without_panties", caption = _("Униформа гувернантки (без трусиков)"), active="checkGovernessWithoutPantiesActive", priority = 80)
+    $ char_info["Betty"]["caption"] = t_("Бетти запрещено носить трусики....")
+    $ add_hook("wardrobe_menu", "wardrobePutGovernessWithoutPanties", scene="menu", label="menu_governess_without_panties", caption = t_("Униформа гувернантки (без трусиков)"), active="checkGovernessWithoutPantiesActive", priority = 80)
 
 #    $ add_hook("change_time_day", "ep24_quests_steve9", scene="global")
 

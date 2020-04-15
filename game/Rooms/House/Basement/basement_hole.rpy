@@ -21,9 +21,9 @@ label basement_hole_init:
     $ add_object_to_scene("Trash4", {"type":2, "base":"Basement_Hole_Trash4", "click" : "basement_hole_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Trash5", {"type":2, "base":"Basement_Hole_Trash5", "click" : "basement_hole_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Basement_Bedroom", {"type":3, "text" : _("СПАЛЬНЯ ДЛЯ ПРИСЛУГИ"), "rarrow" : "arrow_right_2", "base":"Basement_Hole_Teleport_Bedroom", "click" : "basement_hole_teleport", "xpos" : 1334, "ypos" : 232, "zorder":15, "high_sprite_hover": True, "teleport":True})
-    $ add_object_to_scene("Teleport_Basement_Laundry", {"type":3, "text" : _("ПРАЧЕЧНАЯ"), "larrow" : "arrow_down_2", "base":"Basement_Hole_Teleport_Laundry", "click" : "basement_hole_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover": True, "teleport":True})
-    $ add_object_to_scene("Teleport_Basement_Side", {"type":3, "text" : _("ТЕМНЫЙ ПРОХОД"), "rarrow" : "arrow_right_2", "base":"Basement_Hole_Teleport_Side", "click" : "basement_hole_teleport", "xpos" : 693, "ypos" : 184, "zorder":15, "high_sprite_hover": True, "teleport":True})
+    $ add_object_to_scene("Teleport_Basement_Bedroom", {"type":3, "text" : t_("СПАЛЬНЯ ДЛЯ ПРИСЛУГИ"), "rarrow" : "arrow_right_2", "base":"Basement_Hole_Teleport_Bedroom", "click" : "basement_hole_teleport", "xpos" : 1334, "ypos" : 232, "zorder":15, "high_sprite_hover": True, "teleport":True})
+    $ add_object_to_scene("Teleport_Basement_Laundry", {"type":3, "text" : t_("ПРАЧЕЧНАЯ"), "larrow" : "arrow_down_2", "base":"Basement_Hole_Teleport_Laundry", "click" : "basement_hole_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover": True, "teleport":True})
+    $ add_object_to_scene("Teleport_Basement_Side", {"type":3, "text" : t_("ТЕМНЫЙ ПРОХОД"), "rarrow" : "arrow_right_2", "base":"Basement_Hole_Teleport_Side", "click" : "basement_hole_teleport", "xpos" : 693, "ypos" : 184, "zorder":15, "high_sprite_hover": True, "teleport":True})
     return
 
 #                            $ brightness_adjustment = 0.1

@@ -22,7 +22,7 @@ label ep25_dialogues3_steve1(steve_status):
     img 11492
     with fade
     if monicaEarnedWeeklyMoney == True:
-        $ notif(_("Моника уже заработала деньги для Виктории."))
+        $ notif(t_("Моника уже заработала деньги для Виктории."))
     if steve_status == 2:
         jane "Нет, Миссис Бакфетт, Мистер Стив будет только на следующей неделе."
     if steve_status == 1:
@@ -258,7 +258,7 @@ label ep25_dialogues3_steve1b:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя...")) from _call_textonblack_20
+    call textonblack(t_("Минуту спустя...")) from _call_textonblack_20
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -1446,7 +1446,7 @@ label ep25_dialogues3_steve4b:
     with fade
     w
     stop music fadeout 1.0
-    call textonblack(_("СПУСТЯ 15 МИНУТ...")) from _call_textonblack_21
+    call textonblack(t_("СПУСТЯ 15 МИНУТ...")) from _call_textonblack_21
     img black_screen
     with Dissolve(1)
 # Моника зло продолжает сосать член.

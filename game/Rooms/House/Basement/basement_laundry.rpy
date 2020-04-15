@@ -34,8 +34,8 @@ label basement_laundry_init:
     $ add_object_to_scene("Teleport_Box5", {"type":2, "base":"Basement_Laundry_Box5", "click" : "basement_laundry_teleport", "actions" : "l", "zorder" : 0, "group":"laundry_teleport", "active":False})
     $ add_object_to_scene("Teleport_Box6", {"type":2, "base":"Basement_Laundry_Box6", "click" : "basement_laundry_teleport", "actions" : "l", "zorder" : 0, "group":"laundry_teleport", "active":False})
 
-    $ add_object_to_scene("Teleport_Basement_Hole", {"type":3, "text" : _("В ПОДВАЛ"), "larrow" : "arrow_dl", "base":"empty", "click" : "basement_laundry_teleport", "xpos" : 183, "ypos" : 873, "zorder":11, "teleport":True})
-    $ add_object_to_scene("Teleport_Basement_Pool", {"type":3, "text" : _("НАЗАД К БАССЕЙНУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_laundry_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Basement_Hole", {"type":3, "text" : t_("В ПОДВАЛ"), "larrow" : "arrow_dl", "base":"empty", "click" : "basement_laundry_teleport", "xpos" : 183, "ypos" : 873, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Basement_Pool", {"type":3, "text" : t_("НАЗАД К БАССЕЙНУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_laundry_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
 
     return
 

@@ -32,9 +32,9 @@ label monicahome_livingroom_init:
     $ add_object_to_scene("Table1", {"type" : 2, "base" : "MonicaHome_LivingRoom_Table1", "click" : "monicahome_livingroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroom")
     $ add_object_to_scene("Window", {"type" : 2, "base" : "MonicaHome_LivingRoom_Window", "click" : "monicahome_livingroom_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="monicahome_livingroom")
 
-    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : _("ВАННАЯ КОМНАТА"), "rarrow" : "arrow_right_2", "base":"Street_MonicaHome_TeleportSlums", "click" : "monicahome_livingroom_teleport", "xpos" : 1525, "ypos" : 1006, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
-    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : _("КУХНЯ"), "rarrow" : "arrow_down_2", "base":"MonicaHome_LivingRoom_TeleportKitchen", "click" : "monicahome_livingroom_teleport", "xpos" : 244, "ypos" : 1006, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
-    $ add_object_to_scene("Teleport_Wardrobe", {"type":3, "text" : _("ГАРДЕРОБ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "monicahome_livingroom_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
+    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : t_("ВАННАЯ КОМНАТА"), "rarrow" : "arrow_right_2", "base":"Street_MonicaHome_TeleportSlums", "click" : "monicahome_livingroom_teleport", "xpos" : 1525, "ypos" : 1006, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
+    $ add_object_to_scene("Teleport_Kitchen", {"type":3, "text" : t_("КУХНЯ"), "rarrow" : "arrow_down_2", "base":"MonicaHome_LivingRoom_TeleportKitchen", "click" : "monicahome_livingroom_teleport", "xpos" : 244, "ypos" : 1006, "zorder":15, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
+    $ add_object_to_scene("Teleport_Wardrobe", {"type":3, "text" : t_("ГАРДЕРОБ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "monicahome_livingroom_teleport", "xpos" : 220, "ypos" : 545, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="monicahome_livingroom")
     return
 
 #                            $ brightness_adjustment = 0.1

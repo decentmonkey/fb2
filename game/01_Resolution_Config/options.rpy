@@ -10,10 +10,10 @@ define build.include_update = True
 ## A human-readable name of the game. This is used to set the default window
 ## title, and shows up in the interface and error reports.
 ##
-## The _() surrounding the string marks it as eligible for translation.
+## The t_() surrounding the string marks it as eligible for translation.
 define config.default_language = "english"
 
-#define config.name = _("FashionBusinessEP1")
+#define config.name = t_("FashionBusinessEP1")
 
 ## Determines if the title given above is shown on the main menu screen. Set
 ## this to False to hide the title.

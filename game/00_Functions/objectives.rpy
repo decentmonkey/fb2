@@ -27,7 +27,7 @@ init python:
     def questLog(questLogIdx, status):
         global questLogDataEnabled, questLogLinesUpdated, questLogJustUpdated
         if status == True and (questLogDataEnabled.has_key(str(questLogIdx)) == False or questLogDataEnabled[str(questLogIdx)] != True):
-            notif(_("Журнал обновлен"))
+            notif(t_("Журнал обновлен"))
             questLogLinesUpdated.append(str(questLogIdx))
             questLogJustUpdated = True
         questLogDataEnabled[str(questLogIdx)] = status

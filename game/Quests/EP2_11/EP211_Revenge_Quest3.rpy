@@ -1,7 +1,7 @@
 label ep211_revenge_quest1:
     call e211_dialogues_revenge_quest1() from _rcall_e211_dialogues_revenge_quest1
     $ remove_objective("find_fred")
-    $ add_objective("go_to_steve", _("Идти к Стиву"), c_red, 125)
+    $ add_objective("go_to_steve", t_("Идти к Стиву"), c_red, 125)
     $ day_time = "day"
     $ day_time_suffix = ""
 #    if week_day == 7:

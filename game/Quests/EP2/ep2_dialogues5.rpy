@@ -247,7 +247,7 @@ label monica_charity_event_dialogue2a:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(_("Несколько часов спустя...")) from _call_textonblack
+            call textonblack(t_("Несколько часов спустя...")) from _call_textonblack
             img black_screen
             with Dissolve(2.0)
             music Gearhead
@@ -272,7 +272,7 @@ label monica_charity_event_dialogue2a:
             sound snd_woman_scream2
             m "НЕЕЕЕЕТ!!!"
             music stop
-            call textonblack(_("Продолжение следует...")) from _call_textonblack_1
+            call textonblack(t_("Продолжение следует...")) from _call_textonblack_1
             img black_screen
             with Dissolve(1)
             $ renpy.full_restart(transition=Fade(1.0, 1.0, 1.0))
@@ -1198,7 +1198,7 @@ label monica_charity_event_dialogue16:
     with fade
     m "Я буду исправно сниматься в фотосессиях и..."
     if monkeysOffended2 == True:
-        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
+        $ notif(t_("Моника заставляла моделей проходить обнаженный кастинг"))
         "И пройду твой кастинг перед следующей съемкой..."
     "Буду послушной..."
 
@@ -1211,7 +1211,7 @@ label monica_charity_event_dialogue16:
 
 
     if melanieOffended2 == False and melanieOffended1 == False:
-        $ notif(_("У Моники хорошие отношения с Мелани"))
+        $ notif(t_("У Моники хорошие отношения с Мелани"))
         #Моника была добра к Мелани
         music stop
         img 6760
@@ -1225,7 +1225,7 @@ label monica_charity_event_dialogue16:
         #
 
     else:
-        $ notif(_("У Моники плохие отношения с Мелани"))
+        $ notif(t_("У Моники плохие отношения с Мелани"))
         #Моника была зла к Мелани
         img 6761
         with fade
@@ -1969,7 +1969,7 @@ label monica_charity_event_dialogue18:
 
     #если Моника была добра к нему
     if hotelStaffOffended1 == False:
-        $ notif(_("Моника была добра к нему"))
+        $ notif(t_("Моника была добра к нему"))
         img 6990
         hotel_staff "Сэр!"
         "Но я не могу этого сделать!"
@@ -1991,7 +1991,7 @@ label monica_charity_event_dialogue18:
         jump monica_charity_event_dialogue18_end_scene
 
     #если Моника была зла к нему
-    $ notif(_("Моника обещала уволить его"))
+    $ notif(t_("Моника обещала уволить его"))
     img 6993
     hotel_staff "А ведь она собиралась уволить меня!"
     philip "Ха-ха!"
@@ -2420,7 +2420,7 @@ label monica_office_biff_dialogue_evening1:
 
 
     if monkeysOffended2 == True:
-        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
+        $ notif(t_("Моника заставляла моделей проходить обнаженный кастинг"))
         #Если Моника раздевала мартышек
         img 7055
         biff "А попа! Ты собираешься мне ее показывать или нет?"

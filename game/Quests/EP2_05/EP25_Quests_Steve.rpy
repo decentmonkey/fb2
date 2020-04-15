@@ -125,7 +125,7 @@ label ep25_quests_steve9:
         # Секса со Стивом не было
         call ep25_dialogues2_steve10() from _call_ep25_dialogues2_steve10
         if _return == True: # Моника сделала минет Стиву
-            $ notif(_("Стив перевел деньги Виктории."))
+            $ notif(t_("Стив перевел деньги Виктории."))
             $ monicaEarnedWeeklyMoney = True
             $ remove_objective("money_for_victoria")
             $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
@@ -152,7 +152,7 @@ label ep25_quests_steve10:
         # Моника не делала минет. Добилась денег угрозой
         $ questLog(40, False)
         $ questLog(42, True)
-        $ notif(_("Стив перевел деньги Виктории."))
+        $ notif(t_("Стив перевел деньги Виктории."))
         $ monicaEarnedWeeklyMoney = True
         $ remove_objective("money_for_victoria")
         $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
@@ -169,7 +169,7 @@ label ep25_quests_steve10:
         call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_284
         $ add_hook("Teleport_Building", "ep25_dialogues2_steve5a", scene="street_steve_office", label="need_check_steve_money1") # Блокируем вход в здание пока не проверили деньги
         $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
-        $ add_hook("DickSecretary_Dialogue1_Menu", "ep25_quests_steve11", scene="menu", label="need_check_steve_money_victoria1", caption=_("Стив прислал деньги."), priority=95) # У Виктории спрашиваем про деньги Стива (новый диалог)
+        $ add_hook("DickSecretary_Dialogue1_Menu", "ep25_quests_steve11", scene="menu", label="need_check_steve_money_victoria1", caption=t_("Стив прислал деньги."), priority=95) # У Виктории спрашиваем про деньги Стива (новый диалог)
 
     return
 
@@ -279,7 +279,7 @@ label ep25_quests_steve18:
 
         $ monicaSteveCumDealActive = False
         $ monicaSteveCumDealCompleted = True
-        $ notif(_("Стив перевел деньги Виктории."))
+        $ notif(t_("Стив перевел деньги Виктории."))
         $ monicaEarnedWeeklyMoney = True
         $ remove_objective("money_for_victoria")
         $ questLog(40, False)
@@ -352,7 +352,7 @@ label ep25_quests_steve18:
             if choosedMoney == 1:
                 $ add_money(50.0)
                 $ monicaSteveBlowjob50DollarsCount +=1
-            $ notif(_("Стив перевел деньги Виктории."))
+            $ notif(t_("Стив перевел деньги Виктории."))
             $ monicaEarnedWeeklyMoney = True
             $ remove_objective("money_for_victoria")
 

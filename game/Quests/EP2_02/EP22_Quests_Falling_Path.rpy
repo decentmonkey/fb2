@@ -75,7 +75,7 @@ label ep22_quests_falling_path4:
     call expression funcName from _call_expression_13
     $ restore_music()
     if _return != False:
-        $ notif(_("Моника обслужила 'Клиента'"))
+        $ notif(t_("Моника обслужила 'Клиента'"))
         call falling_path_store_customer() from _call_falling_path_store_customer
     call refresh_scene_fade() from _call_refresh_scene_fade_189
     return False
@@ -105,7 +105,7 @@ label ep22_quests_falling_path5:
     $ remove_hook(label="monica_kebab_offend")
     $ autorun_to_object("citizen6_dialogue_after_offend4", scene="hostel_edge_1_a")
     $ add_hook("change_time_day", "ep22_quests_falling_path2", scene="global")
-    $ notif(_("Falling Path started..."))
+    $ notif(t_("Falling Path started..."))
     $ questLog(16, False)
     $ questLog(17, True)
     call ep23_quests_pub_init() from _call_ep23_quests_pub_init #Инициализируем бар

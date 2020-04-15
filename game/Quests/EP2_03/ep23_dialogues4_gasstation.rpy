@@ -16,7 +16,7 @@ default gasStationComputerNotWorkingDayTime = ""
 
 label ep23_dialogues4_1:
     if gasStationFoodInited == False:
-        $ add_location("gas_station_buy_food", caption=_("Gas Station"), label="gas_station_buy_food", init_label="gas_station_buy_food_init", parent="street_gas_station")
+        $ add_location("gas_station_buy_food", caption=t_("Gas Station"), label="gas_station_buy_food", init_label="gas_station_buy_food_init", parent="street_gas_station")
         $ gasStationFoodInited = True
     # Моника заходит
     $ gasStationFoodBought = False

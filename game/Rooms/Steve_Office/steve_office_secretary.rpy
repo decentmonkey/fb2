@@ -19,8 +19,8 @@ label steve_office_secretary_init:
     $ add_object_to_scene("Flower3", {"type":2, "base":"steve_office_secretary_Flower3", "click" : "steve_office_secretary_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="steve_office_secretary")
     $ add_object_to_scene("Flower4", {"type":2, "base":"steve_office_secretary_Flower4", "click" : "steve_office_secretary_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="steve_office_secretary")
 
-    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : _("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "steve_office_secretary_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover":True, "teleport":True}, scene="steve_office_secretary")
-    $ add_object_to_scene("Teleport_Steve_Office_Office", {"type":3, "text" : _("КАБИНЕТ СТИВА"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "steve_office_secretary_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True}, scene="steve_office_secretary")
+    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : t_("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "steve_office_secretary_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover":True, "teleport":True}, scene="steve_office_secretary")
+    $ add_object_to_scene("Teleport_Steve_Office_Office", {"type":3, "text" : t_("КАБИНЕТ СТИВА"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "steve_office_secretary_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True}, scene="steve_office_secretary")
 
     return
 

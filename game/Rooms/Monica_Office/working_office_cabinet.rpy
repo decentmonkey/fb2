@@ -65,8 +65,8 @@ label working_office_cabinet_init:
     $ add_object_to_scene("Requisite", {"type" : 2, "base" : "WorkingOfficeCabinet_Requisite", "click" : "working_office_cabinet_environment", "actions" : "l", "zorder":5, "group":"environment"}, scene="working_office_cabinet")
     $ add_object_to_scene("Tree", {"type" : 2, "base" : "WorkingOfficeCabinet_Tree", "click" : "working_office_cabinet_environment", "actions" : "l", "zorder":5, "group":"environment"}, scene="working_office_cabinet")
 
-    $ add_object_to_scene("Teleport_WorkingOffice_Cabinet2", {"type":3, "text" : _("ЗОНА ОТДЫХА"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "working_office_cabinet_teleport", "xpos" : 220, "ypos" : 845, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet")
-    $ add_object_to_scene("Teleport_Monica_WorkingOffice", {"type":3, "text" : _("ВЫЙТИ К РАБОТНИКАМ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office_cabinet_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet")
+    $ add_object_to_scene("Teleport_WorkingOffice_Cabinet2", {"type":3, "text" : t_("ЗОНА ОТДЫХА"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "working_office_cabinet_teleport", "xpos" : 220, "ypos" : 845, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet")
+    $ add_object_to_scene("Teleport_Monica_WorkingOffice", {"type":3, "text" : t_("ВЫЙТИ К РАБОТНИКАМ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office_cabinet_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="working_office_cabinet")
 
     return
 #                            $ brightness_adjustment = 0.1

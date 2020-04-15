@@ -26,8 +26,8 @@ label working_office2_init:
     $ add_object_to_scene("Folders1", {"type" : 2, "base" : "WorkingOffice2_Folders1", "click" : "working_office_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="working_office2")
     $ add_object_to_scene("Folders2", {"type" : 2, "base" : "WorkingOffice2_Folders2", "click" : "working_office_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="working_office2")
 
-    $ add_object_to_scene("Teleport_Cabinet", {"type":3, "text" : _("В КАБИНЕТ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office2_teleport", "xpos" : 1680, "ypos" : 906, "zorder":11, "teleport":True}, scene="working_office2")
-    $ add_object_to_scene("Teleport_WorkingOffice", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="working_office2")
+    $ add_object_to_scene("Teleport_Cabinet", {"type":3, "text" : t_("В КАБИНЕТ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "working_office2_teleport", "xpos" : 1680, "ypos" : 906, "zorder":11, "teleport":True}, scene="working_office2")
+    $ add_object_to_scene("Teleport_WorkingOffice", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "working_office2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="working_office2")
 
     return
 #                            $ brightness_adjustment = 0.1

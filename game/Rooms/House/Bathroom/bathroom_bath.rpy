@@ -16,8 +16,8 @@ label bathroom_bath_init:
 
     $ add_object_to_scene("Bath", {"type":2, "base":"Bathroom_Bath_Bath", "click" : "bathroom_environment", "actions" : "lh", "zorder" : 0})
 
-    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover": True, "teleport":True})
-    $ add_object_to_scene("Teleport_Bathroom_Shower", {"type":3, "text" : _("ДУШ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "bathroom_teleport", "xpos" : 1650, "ypos" : 520, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bathroom_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover": True, "teleport":True})
+    $ add_object_to_scene("Teleport_Bathroom_Shower", {"type":3, "text" : t_("ДУШ"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "bathroom_teleport", "xpos" : 1650, "ypos" : 520, "zorder":11, "teleport":True})
     return
 
 #    $ add_object_to_scene("Mirrors", {"type":2, "base":"Floor2_Mirrors", "click" : "floor2_environment", "actions" : "l", "zorder" : 0})

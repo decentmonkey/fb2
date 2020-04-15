@@ -6,7 +6,7 @@ label dialogue_betty_college_0_1:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Вечер...")) from _call_textonblack_43
+    call textonblack(t_("Вечер...")) from _call_textonblack_43
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -223,7 +223,7 @@ label dialogue_betty_college_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("Утро...")) from _call_textonblack_44
+    call textonblack(t_("Утро...")) from _call_textonblack_44
     scene black_screen
     with Dissolve(1)
     music Sneaky_Snitch

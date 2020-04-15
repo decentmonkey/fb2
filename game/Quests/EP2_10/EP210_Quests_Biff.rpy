@@ -11,7 +11,7 @@ label ep22_quests_biff_init:
     if _return == False:
         return
     $ ep22_quests_monica_agreed_change_cloth = True
-    $ add_objective("visit_biff_tomorrow", _("Зайти завтра к Бифу, узнать про работу."), c_blue, 35)
+    $ add_objective("visit_biff_tomorrow", t_("Зайти завтра к Бифу, узнать про работу."), c_blue, 35)
     $ add_hook("Biff", "ep22_quests_biff1", scene="monica_office_cabinet_table", label="ep22_quests_biff1")
     $ add_hook("Secretary", "ep22_quests_biff1_secretary", scene="monica_office_secretary", label="ep22_quests_biff1_secretary")
     $ add_hook("Teleport_Street_Monica_Office", "ep210_dialogues1_office_biff_2a", scene="monica_office_entrance", label=["ep22_quests_biff1_exit", "ep22_quests_biff1"])
@@ -35,7 +35,7 @@ label ep22_quests_biff1:
         return False
 
     $ ep22_quests_biff2_day = day
-    $ add_objective("visit_biff_presentation", _("Провести презентацию журнала в кабинете Бифа."), c_orange, 55)
+    $ add_objective("visit_biff_presentation", t_("Провести презентацию журнала в кабинете Бифа."), c_orange, 55)
     $ add_hook("before_open", "ep22_quests_biff2", scene="monica_office_cabinet_table", label="ep22_quests_biff2")
     $ add_hook("before_open", "ep22_quests_biff2", scene="monica_office_cabinet", label="ep22_quests_biff2")
     $ add_hook("Teleport_Street_Monica_Office", "ep210_dialogues1_office_biff_3a", scene="monica_office_entrance", label=["ep22_quests_biff2_exit", "ep22_quests_biff2"])
@@ -65,7 +65,7 @@ label ep22_quests_biff2:
     $ remove_objective("visit_biff_presentation")
     $ add_char_progress("Biff", 10, "ep22_quests_monica_presentation_completed")
     $ char_info["Biff"]["enabled"] = True
-    $ char_info["Biff"]["caption"] = _("Мне надо развлекать этого мерзавца, чтобы он меня не выгнал с работы...")
+    $ char_info["Biff"]["caption"] = t_("Мне надо развлекать этого мерзавца, чтобы он меня не выгнал с работы...")
     call change_scene("monica_office_secretary", "Fade_long") from _call_change_scene_492
     $ remove_hook(label="ep22_quests_biff2")
     return False

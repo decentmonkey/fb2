@@ -35,7 +35,7 @@ label ep210_dialogues7_escort_hotel_1:
         with diss
         mt "Я помню этого неудачника!"
         #
-        $ notif(_("Моника делала минет Филиппу в туалете"))
+        $ notif(t_("Моника делала минет Филиппу в туалете"))
         #
         mt "Это он тогда был в туалете, когда я..."
         mt "Когда мерзавец Филипп заставил меня..."
@@ -180,7 +180,7 @@ label ep210_dialogues7_escort_hotel_1:
         m "И ты после этого не сможешь устроиться на работу даже..."
         # если работала в пабе посудомойщицей
         #
-        $ notif(_("Моника работает посудомойщицей в Shiny Hole"))
+        $ notif(t_("Моника работает посудомойщицей в Shiny Hole"))
         #
         m "Даже посудомойщиком в какой-нибудь грязной дыре в трущобах!"
 
@@ -259,7 +259,7 @@ label ep210_dialogues7_escort_hotel_2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя...")) from _call_textonblack_77
+    call textonblack(t_("Минуту спустя...")) from _call_textonblack_77
     img black_screen
     sound highheels_short_walk
     with Dissolve(2.0)
@@ -310,7 +310,7 @@ label ep210_dialogues7_escort_hotel_2:
         with diss
         hotel_staff "У Вас очень удобный для члена ротик..."
         #
-        $ notif(_("Моника по приказу Филиппа делала служащему отеля минет в туалете"))
+        $ notif(t_("Моника по приказу Филиппа делала служащему отеля минет в туалете"))
         #
         hotel_staff "Мне в прошлый раз очень понравилось..."
         hotel_staff "И мне хочется повторить..."
@@ -321,7 +321,7 @@ label ep210_dialogues7_escort_hotel_2:
         with diss
         hotel_staff "У Вас очень удобный для члена ротик..."
         #
-        $ notif(_("Моника была вежлива со служащим отеля и он не остался в туалете, как предлагал ему Филипп."))
+        $ notif(t_("Моника была вежлива со служащим отеля и он не остался в туалете, как предлагал ему Филипп."))
         #
         music Power_Bots_Loop
         # Моника возмущенно
@@ -906,7 +906,7 @@ label ep210_dialogues7_escort_hotel_7:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("5 минут спустя...")) from _call_textonblack_78
+    call textonblack(t_("5 минут спустя...")) from _call_textonblack_78
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -1216,19 +1216,19 @@ label ep210_dialogues7_escort_hotel_7:
     img 16328
     with diss
     m "Меня зовут..."
-    $ monica_hotel_name = _("Снежанна")
+    $ monica_hotel_name = t_("Снежанна")
     if renpy.android == True:
         call screen input_softkeyboard
         $ monica_hotel_name = _return
     else:
-        $ monica_hotel_name = renpy.input(__("Меня зовут... (enter для ввода)"), monica_hotel_name)
+        $ monica_hotel_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_hotel_name)
     m "Меня зовут [monica_hotel_name]."
     # девочки разошлись, админ обращается к Монике
     img 16329
     with fade
     reception "Завтра жду тебя на работе, [monica_hotel_name]!"
-#    $ log1 = _("Прийти в отель ЛеГранд завтра.")
-#    $ log1 = _("Мне предложили работу в эскорте! Неужели я решусь на такое?! Хотя... Там можно неплохо заработать.") # квест лог
+#    $ log1 = t_("Прийти в отель ЛеГранд завтра.")
+#    $ log1 = t_("Мне предложили работу в эскорте! Неужели я решусь на такое?! Хотя... Там можно неплохо заработать.") # квест лог
     return
 
 # Моника, выйдя из отеля после того, как согласилась работать в эскорте
@@ -1651,7 +1651,7 @@ label ep210_dialogues7_escort_hotel_10:
     mt "С другой стороны, здесь я за вечер могу заработать такие большие деньги."
     mt "А она меня больше не пустит в ресторан."
     mt "Нет, мне не стоит пока терять эту возможность заработка."
-    $ log1 = _("Пойти на ресепшн и отдать 50 процентов от заработка администратору.")
+    $ log1 = t_("Пойти на ресепшн и отдать 50 процентов от заработка администратору.")
     return
 
 # Моника после клиента идет на ресепшен
@@ -1725,7 +1725,7 @@ label ep210_dialogues7_escort_hotel_12_1:
     mt "Мне предстоит сопровождать клиента на мероприятии?"
     mt "???"
     mt "Ну что ж... Если мне что-то не понравится, я просто уйду из кафе."
-    $ log1 = _("Вызов к клиенту. Он ждет в кафе.")
+    $ log1 = t_("Вызов к клиенту. Он ждет в кафе.")
     return
 
 # Моника на выезде к клиенту

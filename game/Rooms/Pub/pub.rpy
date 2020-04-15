@@ -75,12 +75,12 @@ label pub_init:
 
 #    $ add_object_to_scene("Car", {"type":2, "base":"pub_Car", "click" : "pub_environment", "actions" : "l", "zorder" : 0})
 
-    $ add_object_to_scene("Teleport_Hostel_Street", {"type":3, "text" : _("ВЫХОД ИЗ HOLE"), "rarrow" : "arrow_right_2", "base":"Pub_Teleport_Hostel_Street", "click" : "pub_teleport", "xpos" : 1379, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
+    $ add_object_to_scene("Teleport_Hostel_Street", {"type":3, "text" : t_("ВЫХОД ИЗ HOLE"), "rarrow" : "arrow_right_2", "base":"Pub_Teleport_Hostel_Street", "click" : "pub_teleport", "xpos" : 1379, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
 
     return
 
 label pub_ini2:
-    $ add_object_to_scene("Teleport_Pub_MakeupRoom", {"type":3, "text" : _("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "pub_teleport", "xpos" : 225, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
+    $ add_object_to_scene("Teleport_Pub_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "pub_teleport", "xpos" : 225, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
     return
 
 #                            $ brightness_adjustment = 0.1

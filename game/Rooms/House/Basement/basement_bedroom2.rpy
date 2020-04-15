@@ -80,7 +80,7 @@ label basement_bedroom2_init:
     $ add_object_to_scene("cookie with nuts", {"type":2, "base":"Basement_Bedroom2_Cake8", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 3, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
     $ add_object_to_scene("waffles", {"type":2, "base":"Basement_Bedroom2_Cake9", "click" : "basement_bedroom2_teleport_to_table", "actions" : "l", "zorder" : 4, "group":"environment", "label":"food", "active":False}, scene="basement_bedroom2")
 
-    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : _("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom2")
+    $ add_object_to_scene("Teleport_Bedroom1", {"type":3, "text" : t_("ШКАФ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom2_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom2")
 
     return
 

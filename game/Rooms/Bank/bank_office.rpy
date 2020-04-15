@@ -18,7 +18,7 @@ label bank_office_init:
     $ add_object_to_scene("Folder1", {"type":2, "base":"Bank_Office_Folder1", "click" : "bank_office_environment", "actions" : "l", "zorder" : 0})
     $ add_object_to_scene("Folder2", {"type":2, "base":"Bank_Office_Folder2", "click" : "bank_office_environment", "actions" : "l", "zorder" : 0})
 
-    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : _("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bank_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : t_("НАЗАД НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bank_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "teleport":True})
     return
 
 #                            $ brightness_adjustment = 0.1

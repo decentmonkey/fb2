@@ -1,8 +1,0 @@
-﻿# TODO: Translation updated at 2019-06-01 03:20
-
-# game/Rooms/Cloth_Shop/cloth_shop_dressing_room.rpy:20
-translate english cloth_shop_dressing_room_teleport_0f91c7a1:
-
-    # mt "Эта примерочная... Я помню как спала здесь!"
-    mt "Changing room... I remember how I spent a night there!"
-

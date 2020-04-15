@@ -792,9 +792,9 @@ label gallery_pub_dance_dialogues_react(pose, zone): # Реакция зала
 #    if moveRepeated == True or zoneRepeated == True: # движение не понравилось
     if zoneRepeated == True: # движение не понравилось
         if moveRepeated == True:
-            $ notif(_("Моника делала это движение в прошлый раз"))
+            $ notif(t_("Моника делала это движение в прошлый раз"))
         if zoneRepeated == True:
-            $ notif(_("Моника повторяет направления танца"))
+            $ notif(t_("Моника повторяет направления танца"))
         call gallery_pub_dance_dialogues_excitement_down(pose, zone) from _rcall_gallery_pub_dance_dialogues_excitement_down
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,4)

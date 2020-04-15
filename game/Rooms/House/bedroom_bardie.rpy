@@ -23,7 +23,7 @@ label bedroom_bardie_init:
     $ add_object_to_scene("Trash1", {"type":2, "base":"House_BedroomBardie_Trash1", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment", "cleaning_group":True}, {"monicaCleaningInProgress":{"v":True, "base":"House_BedroomBardie_Trash1_Dust"}})
     $ add_object_to_scene("Notebook", {"type":2, "base":"House_BedroomBardie_Notebook", "click" : "bedroom_bardie_environment", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : _("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bedroom_bardie_teleport", "xpos" : 960, "ypos" : 956, "zorder":20, "teleport":True, "high_sprite_hover":True})
+    $ add_object_to_scene("Teleport_Floor2", {"type":3, "text" : t_("ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "bedroom_bardie_teleport", "xpos" : 960, "ypos" : 956, "zorder":20, "teleport":True, "high_sprite_hover":True})
     return
 
 #    $ add_object_to_scene("Mirrors", {"type":2, "base":"Floor2_Mirrors", "click" : "floor2_environment", "actions" : "l", "zorder" : 0})

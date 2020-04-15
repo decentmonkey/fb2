@@ -393,7 +393,7 @@ screen screen_sprites(data):
                                                         yalign 0.5
                                                 null:
                                                     width text_button_layouts[button_layout]["text_button.spacing2"]
-                                                text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                                text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
                                                 null:
                                                     width text_button_layouts[button_layout]["text_button.spacing2"]
                                                 if right_arrow != False:
@@ -595,7 +595,7 @@ screen hover_sprite_text(name, data, left_arrow, right_arrow, button_layout):
                         yalign 0.5
                 null:
                     width text_button_layouts[button_layout]["text_button.spacing2"]
-                text __(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
+                text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
                 null:
                     width text_button_layouts[button_layout]["text_button.spacing2"]
                 if right_arrow != False:
@@ -734,7 +734,7 @@ screen sprite_hovered_caption_screen(caption_text):
             hbox:
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
-                text caption_text style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
+                text t__(caption_text) style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
 
@@ -793,7 +793,7 @@ screen action_menu_tooltip_screen(in_x, in_y, item_offset, tooltip_text, in_text
         ypos in_y
         xanchor 0.5
         background Frame("gui/frame2.png", left=2, top=0, right=2, bottom=2)
-        text __(tooltip_text):
+        text t__(tooltip_text):
             size gui.resolution.action_menu.tooltip.font_size
 #            color "#ffc9c9"
             color in_text_color
@@ -814,11 +814,11 @@ screen character_info_screen(obj_name, x, y):
         $ y = int((300*gui.resolution.koeff))
 
     if char_info[obj_name]["enabled"] == True:
-        $ captionText = char_info[obj_name]["caption"]
+        $ captionText = t__(char_info[obj_name]["caption"])
         $ barSuffix = char_info[obj_name]["bar_suffix"]
         $ barValue = (100.0 / char_info[obj_name]["max_progress"] * char_info[obj_name]["current_progress"]) / 100.0
     else:
-        $ captionText = char_info[obj_name]["caption_diabled"]
+        $ captionText = t__(char_info[obj_name]["caption_diabled"])
         $ barSuffix = "disabled"
         $ barValue = 1.0
     layer "master"
@@ -862,9 +862,9 @@ screen character_info_screen(obj_name, x, y):
                 ypos 0.5
                 anchor(0.5,0.5)
 
-#            text __(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
-            text __(char_info[obj_name]["name"]) style (style1 + "_head")
-            text __(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress"
+#            text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+            text t__(char_info[obj_name]["name"]) style (style1 + "_head")
+            text t__(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress"
             text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2"
             bar:
                 xpos 0.52
@@ -876,7 +876,7 @@ screen character_info_screen(obj_name, x, y):
                 bar_vertical False
                 right_bar "/icons/bar/bar2_empty" + res.suffix + ".png"
                 left_bar "/icons/bar/bar2_full_" + barSuffix + res.suffix + ".png"
-            text captionText style "char_face_style_caption":
+            text t__(captionText) style "char_face_style_caption":
                 xsize int(width1 / 1.94594595)
                 justify True
 #                thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
@@ -973,7 +973,7 @@ screen hud_minimap(minimapData):
                                     add get_image_filename(minimapCell["img"] + res.suffix)
                                 else:
                                     add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
-                                text minimapCell["caption"]:
+                                text t__(minimapCell["caption"]):
                                     ypos 0.5
                                     xanchor 0.5
                                     xpos 0.465
@@ -1037,7 +1037,7 @@ screen hud_screen(hud_presets):
                         add "icons/calendar" + res.suffix + ".png":
                             yoffset -3
                         $ current_calendar_day = calendar_days[(day-1)%7]
-                        text __(current_calendar_day):
+                        text t__(current_calendar_day):
                             xalign gui.resolution.hud_screen.calendar_text_x_align
                             yalign gui.resolution.hud_screen.calendar_text_y_align
                             font "fonts/montserrat-bold.ttf"
@@ -1110,7 +1110,7 @@ screen hud_screen(hud_presets):
                         height gui.resolution.hud_screen.height1
                     if hud_presets["display_objectives"] == True:
                         for objective in objectives_list:
-                            text "- " + __(objective[1]):
+                            text "- " + t__(objective[1]):
                                 color objective[2]
                                 font objectivesFont
                                 size gui.resolution.hud_screen.font2_size
@@ -1153,7 +1153,7 @@ screen hud_screen(hud_presets):
         vbox:
             hbox:
                 if hud_presets["display_scene_caption"] == True:
-                    text scene_caption:
+                    text t__(scene_caption):
 #                        font "fonts/baskerville_bold_win95bt.ttf"
 #                        font "fonts/bebasneue book.ttf"
                         font "fonts/bebasneue regular.ttf"
@@ -1196,7 +1196,7 @@ screen hud_screen(hud_presets):
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
 #            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()
-            text bitchmeter_description:
+            text t__(bitchmeter_description):
                 xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
                 xanchor 0.5
@@ -1217,7 +1217,7 @@ screen hud_screen(hud_presets):
                 at bitchmeter_style_transform
 
             $ corruption_description = "Corruption: " + str(corruption) + ""
-            text corruption_description:
+            text t__(corruption_description):
                 xpos config.screen_width - gui.resolution.hud_screen.corruption_desc_x_pos
                 ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
                 xanchor 0.5
@@ -1351,7 +1351,7 @@ screen textonblack_screen(in_text):
         xfill True
         yfill True
         background Solid("#000000")
-        text __(in_text) style "text_on_black_style":
+        text t__(in_text) style "text_on_black_style":
             xanchor 0.5
             yanchor 0.5
             xalign 0.5
@@ -1508,7 +1508,7 @@ screen input(prompt):
             xsize gui.dialogue_width
             ypos gui.dialogue_ypos
 
-            text prompt style "input_prompt"
+            text t__(prompt) style "input_prompt"
             input id "input"
 
 style input_prompt is default
@@ -1558,7 +1558,7 @@ screen choice(items):
                     str1 = imenu.caption
                     button_obj = {"priority": priority, "native":True, "caption":str1, "action":imenu.action, "active":True}
                     if " (disabled)" in imenu.caption:
-                        str1 = __(imenu.caption)
+                        str1 = t__(imenu.caption)
                         str1 = str1.replace(" (disabled)", "")
                         button_obj["caption"] = str1
                         button_obj["active"] = False
@@ -1566,23 +1566,23 @@ screen choice(items):
                         # corruption
                         if menu_corruption[idx] >0:
                             if corruption >= menu_corruption[idx]:
-                                str1 = __(imenu.caption)
-                                str1 = str1 + "{color=#31e8b1}" + __(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
+                                str1 = t__(imenu.caption)
+                                str1 = str1 + "{color=#31e8b1}" + t__(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
                                 button_obj["caption"] = str1
                             else:
-                                str1 = __(imenu.caption)
-                                str1 = str1 + __(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
+                                str1 = t__(imenu.caption)
+                                str1 = str1 + t__(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
                     if priceListLen>idx:
                         # price
                         if menu_price[idx] >0:
                             if money >= menu_price[idx]:
-                                str1 = __(imenu.caption)
+                                str1 = t__(imenu.caption)
                                 str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                             else:
-                                str1 = __(imenu.caption)
+                                str1 = t__(imenu.caption)
                                 str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
@@ -1616,7 +1616,7 @@ screen choice(items):
         for button_data in buttons_list:
             if button_data["native"] == True:
                 if button_data["active"] == True:
-                    textbutton button_data["caption"]:
+                    textbutton t__(button_data["caption"]):
                         action [
                             SetVariable("menu_corruption", False),
                             SetVariable("menu_price", False),
@@ -1625,11 +1625,11 @@ screen choice(items):
                             button_data["action"]
                         ]
                 else:
-                    textbutton button_data["caption"] text_style "choice_button_disabled_text"
+                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
             else:
                 if button_data["active"] == True:
                     $ menuLastName = menuName
-                    textbutton button_data["caption"]:
+                    textbutton t__(button_data["caption"]):
                         action [
                             SetVariable("menu_corruption", False),
                             SetVariable("menu_price", False),
@@ -1638,7 +1638,7 @@ screen choice(items):
                             Call("call_hook", button_data["action"], menuLastName),
                         ]
                 else:
-                    textbutton button_data["caption"] text_style "choice_button_disabled_text"
+                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
 
 
 
@@ -1648,7 +1648,7 @@ screen temp_old_data():
             $ print get_hooks_for_object(menuName, "menu")
             if i.action:
                 if " (disabled)" in i.caption:
-                    $ str1 = __(i.caption)
+                    $ str1 = t__(i.caption)
 #                    $ print str1
 
 #                    textbutton i.caption text_style "choice_button_disabled_text"
@@ -1703,14 +1703,14 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            textbutton t_("Back") action Rollback()
+            textbutton t_("History") action ShowMenu('history')
+            textbutton t_("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton t_("Auto") action Preference("auto-forward", "toggle")
+            textbutton t_("Save") action ShowMenu('save')
+            textbutton t_("Q.Save") action QuickSave()
+            textbutton t_("Q.Load") action QuickLoad()
+            textbutton t_("Prefs") action ShowMenu('preferences')
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -1751,48 +1751,48 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Start") action Start()
+            textbutton t_("Start") action Start()
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            textbutton t_("History") action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton t_("Save") action ShowMenu("save")
 
-        textbutton _("Load") action ShowMenu("load")
+        textbutton t_("Load") action ShowMenu("load")
 
         if renpy.android != True:
-            textbutton _("UPDATE GAME") action Start("show_game_updater") text_color "#31e8b1" text_hover_color "#9ff5dd"
+            textbutton t_("UPDATE GAME") action Start("show_game_updater") text_color "#31e8b1" text_hover_color "#9ff5dd"
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+        textbutton t_("Preferences") action ShowMenu("preferences")
 
         if _in_replay:
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            textbutton t_("End Replay") action EndReplay(confirm=True)
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton t_("Main Menu") action MainMenu()
 
-        textbutton _("New Episodes") action OpenURL("http://decent-monkey.com/news/")
-        textbutton _("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
+        textbutton t_("New Episodes") action OpenURL("http://decent-monkey.com/news/")
+        textbutton t_("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
         textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
         $ flag1 = False
         if game.extra == True and renpy.current_screen().screen_name[0] == "load":
             if check_saves_for_migration() == True:
-                textbutton _("MIGRATE FROM 720p") action Start("migrate_saves") text_color "#e8b131" text_hover_color "#f8f131"
+                textbutton t_("MIGRATE FROM 720p") action Start("migrate_saves") text_color "#e8b131" text_hover_color "#f8f131"
                 $ flag1 = True
         if flag1 == False:
-            textbutton _("My Thanks") action ShowMenu("about")
+            textbutton t_("My Thanks") action ShowMenu("about")
 
 
         if renpy.variant("pc"):
 
             ## Help isn't necessary or relevant to mobile devices.
-#            textbutton _("Help") action ShowMenu("help")
+#            textbutton t_("Help") action ShowMenu("help")
 
             ## The quit button is banned on iOS and unnecessary on Android.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+            textbutton t_("Quit") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -1955,7 +1955,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     use navigation
 
-    textbutton _("Return"):
+    textbutton t_("Return"):
         style "return_button"
 
         action Return()
@@ -2028,21 +2028,21 @@ screen about():
     ## This use statement includes the game_menu screen inside this one. The
     ## vbox child is then included inside the viewport inside the game_menu
     ## screen.
-    use game_menu(_("About"), scroll="viewport"):
+    use game_menu(t_("About"), scroll="viewport"):
 
         style_prefix "about"
 
         vbox:
 
             label "[config.name!t]"
-            text _("Version [config.version!t]\n")
+            text t_("Version [config.version!t]\n")
 
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
                 text "[gui.about]\n"
 
-#            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+#            text t_("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
 
 
 ## This is redefined in options.rpy to add text to the about screen.
@@ -2075,19 +2075,19 @@ screen save():
                 order_reverse True
             text "Save disabled during dialogues.\nIt causes major bugs with the game.\nI'm sorry :("
     else:
-        use file_slots(_("Save"))
+        use file_slots(t_("Save"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(t_("Load"))
 
 
 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    default page_name_value = FilePageNameInputValue(pattern=t_("Page {}"), auto=t_("Automatic saves"), quick=t_("Quick saves"))
 
     use game_menu(title):
 
@@ -2131,7 +2131,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=t_("{#file_time}%A, %B %d %Y, %H:%M"), empty=t_("empty slot")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -2148,19 +2148,19 @@ screen file_slots(title):
 
                 spacing gui.page_spacing
 
-                textbutton _("<") action FilePagePrevious()
+                textbutton t_("<") action FilePagePrevious()
 
                 if config.has_autosave:
-                    textbutton _("{#auto_page}A") action FilePage("auto")
+                    textbutton t_("{#auto_page}A") action FilePage("auto")
 
                 if config.has_quicksave:
-                    textbutton _("{#quick_page}Q") action FilePage("quick")
+                    textbutton t_("{#quick_page}Q") action FilePage("quick")
 
                 ## range(1, 10) gives the numbers from 1 to 9.
                 for page in range(1, 10):
                     textbutton "[page]" action FilePage(page)
 
-                textbutton _(">") action FilePageNext()
+                textbutton t_(">") action FilePageNext()
 
 
 style page_label is gui_label
@@ -2206,7 +2206,7 @@ screen preferences():
 
     tag menu
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+    use game_menu(t_("Preferences"), scroll="viewport"):
 
         vbox:
 
@@ -2217,9 +2217,9 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        label t_("Display")
+                        textbutton t_("Window") action Preference("display", "window")
+                        textbutton t_("Fullscreen") action Preference("display", "fullscreen")
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -2233,34 +2233,34 @@ screen preferences():
                     xminimum gui.resolution.menu_pause_before_change_slide.value
 
                     style_prefix "radio"
-                    label _("Pause before change slide")
-                    textbutton _("Enable") action SetField(persistent, "pause_before_change_slide", True)
-                    textbutton _("Disable") action SetField(persistent, "pause_before_change_slide", False)
+                    label t_("Pause before change slide")
+                    textbutton t_("Enable") action SetField(persistent, "pause_before_change_slide", True)
+                    textbutton t_("Disable") action SetField(persistent, "pause_before_change_slide", False)
 
                 vbox:
                     xmaximum gui.resolution.preferences1
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label t_("Music Volume")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label t_("Sound Volume")
 
                         hbox:
                             bar value Preference("sound volume")
 
                             if config.sample_sound:
-                                textbutton _("Test") action Play("sound", config.sample_sound)
+                                textbutton t_("Test") action Play("sound", config.sample_sound)
 
 
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton t_("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
@@ -2270,7 +2270,7 @@ screen preferences():
                     xminimum gui.resolution.menu_pause_before_change_slide.value
                     style_prefix "pref"
 
-                    label _("Language")
+                    label t_("Language")
                     textbutton "English" action Language("english")
                     textbutton "German" action Language("german")
                     textbutton "Russian" action Language(None)
@@ -2278,8 +2278,8 @@ screen preferences():
                 vbox:
                     style_prefix "radio"
                     label "Auto Clipboard"
-                    textbutton _("Enable") action SetField(persistent, "auto_clipboard", True)
-                    textbutton _("Disable") action SetField(persistent, "auto_clipboard", False)
+                    textbutton t_("Enable") action SetField(persistent, "auto_clipboard", True)
+                    textbutton t_("Disable") action SetField(persistent, "auto_clipboard", False)
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text
@@ -2367,7 +2367,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+    use game_menu(t_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
 
         style_prefix "history"
 
@@ -2393,7 +2393,7 @@ screen history():
                 text what
 
         if not _history_list:
-            label _("The dialogue history is empty.")
+            label t_("The dialogue history is empty.")
 
 screen Rain_overlay:
     layer "master"
@@ -2527,7 +2527,7 @@ screen help():
 
     default device = "keyboard"
 
-    use game_menu(_("Help"), scroll="viewport"):
+    use game_menu(t_("Help"), scroll="viewport"):
 
         style_prefix "help"
 
@@ -2536,11 +2536,11 @@ screen help():
 
             hbox:
 
-                textbutton _("Keyboard") action SetScreenVariable("device", "keyboard")
-                textbutton _("Mouse") action SetScreenVariable("device", "mouse")
+                textbutton t_("Keyboard") action SetScreenVariable("device", "keyboard")
+                textbutton t_("Mouse") action SetScreenVariable("device", "mouse")
 
                 if GamepadExists():
-                    textbutton _("Gamepad") action SetScreenVariable("device", "gamepad")
+                    textbutton t_("Gamepad") action SetScreenVariable("device", "gamepad")
 
             if device == "keyboard":
                 use keyboard_help
@@ -2553,101 +2553,101 @@ screen help():
 screen keyboard_help():
 
     hbox:
-        label _("Enter")
-        text _("Advances dialogue and activates the interface.")
+        label t_("Enter")
+        text t_("Advances dialogue and activates the interface.")
 
     hbox:
-        label _("Space")
-        text _("Advances dialogue without selecting choices.")
+        label t_("Space")
+        text t_("Advances dialogue without selecting choices.")
 
     hbox:
-        label _("Arrow Keys")
-        text _("Navigate the interface.")
+        label t_("Arrow Keys")
+        text t_("Navigate the interface.")
 
     hbox:
-        label _("Escape")
-        text _("Accesses the game menu.")
+        label t_("Escape")
+        text t_("Accesses the game menu.")
 
     hbox:
-        label _("Ctrl")
-        text _("Skips dialogue while held down.")
+        label t_("Ctrl")
+        text t_("Skips dialogue while held down.")
 
     hbox:
-        label _("Tab")
-        text _("Toggles dialogue skipping.")
+        label t_("Tab")
+        text t_("Toggles dialogue skipping.")
 
     hbox:
-        label _("Page Up")
-        text _("Rolls back to earlier dialogue.")
+        label t_("Page Up")
+        text t_("Rolls back to earlier dialogue.")
 
     hbox:
-        label _("Page Down")
-        text _("Rolls forward to later dialogue.")
+        label t_("Page Down")
+        text t_("Rolls forward to later dialogue.")
 
     hbox:
         label "H"
-        text _("Hides the user interface.")
+        text t_("Hides the user interface.")
 
     hbox:
         label "S"
-        text _("Takes a screenshot.")
+        text t_("Takes a screenshot.")
 
     hbox:
         label "V"
-        text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+        text t_("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
 
 
 screen mouse_help():
 
     hbox:
-        label _("Left Click")
-        text _("Advances dialogue and activates the interface.")
+        label t_("Left Click")
+        text t_("Advances dialogue and activates the interface.")
 
     hbox:
-        label _("Middle Click")
-        text _("Hides the user interface.")
+        label t_("Middle Click")
+        text t_("Hides the user interface.")
 
     hbox:
-        label _("Right Click")
-        text _("Accesses the game menu.")
+        label t_("Right Click")
+        text t_("Accesses the game menu.")
 
     hbox:
-        label _("Mouse Wheel Up\nClick Rollback Side")
-        text _("Rolls back to earlier dialogue.")
+        label t_("Mouse Wheel Up\nClick Rollback Side")
+        text t_("Rolls back to earlier dialogue.")
 
     hbox:
-        label _("Mouse Wheel Down")
-        text _("Rolls forward to later dialogue.")
+        label t_("Mouse Wheel Down")
+        text t_("Rolls forward to later dialogue.")
 
 
 screen gamepad_help():
 
     hbox:
-        label _("Right Trigger\nA/Bottom Button")
-        text _("Advances dialogue and activates the interface.")
+        label t_("Right Trigger\nA/Bottom Button")
+        text t_("Advances dialogue and activates the interface.")
 
     hbox:
-        label _("Left Trigger\nLeft Shoulder")
-        text _("Rolls back to earlier dialogue.")
+        label t_("Left Trigger\nLeft Shoulder")
+        text t_("Rolls back to earlier dialogue.")
 
     hbox:
-        label _("Right Shoulder")
-        text _("Rolls forward to later dialogue.")
+        label t_("Right Shoulder")
+        text t_("Rolls forward to later dialogue.")
 
 
     hbox:
-        label _("D-Pad, Sticks")
-        text _("Navigate the interface.")
+        label t_("D-Pad, Sticks")
+        text t_("Navigate the interface.")
 
     hbox:
-        label _("Start, Guide")
-        text _("Accesses the game menu.")
+        label t_("Start, Guide")
+        text t_("Accesses the game menu.")
 
     hbox:
-        label _("Y/Top Button")
-        text _("Hides the user interface.")
+        label t_("Y/Top Button")
+        text t_("Hides the user interface.")
 
-    textbutton _("Calibrate") action GamepadCalibrate()
+    textbutton t_("Calibrate") action GamepadCalibrate()
 
 
 style help_button is gui_button
@@ -2704,7 +2704,7 @@ screen confirm(message, yes_action, no_action):
             yalign .5
             spacing 45
 
-            label _(message):
+            label t_(message):
                 style "confirm_prompt"
                 xalign 0.5
 
@@ -2712,8 +2712,8 @@ screen confirm(message, yes_action, no_action):
                 xalign 0.5
                 spacing 150
 
-                textbutton _("Yes") action yes_action
-                textbutton _("No") action no_action
+                textbutton t_("Yes") action yes_action
+                textbutton t_("No") action no_action
 
     ## Right-click and escape answer "no".
     key "game_menu" action no_action
@@ -2759,7 +2759,7 @@ screen skip_indicator():
         hbox:
             spacing 9
 
-            text _("Skipping")
+            text t_("Skipping")
 
             text "▸" at delayed_blink(0.0, 1.0) style "skip_triangle"
             text "▸" at delayed_blink(0.2, 1.0) style "skip_triangle"
@@ -2994,10 +2994,10 @@ screen quick_menu():
         xalign 0.5
         yalign 1.0
 
-        textbutton _("Back") action Rollback()
-        textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-        textbutton _("Auto") action Preference("auto-forward", "toggle")
-        textbutton _("Menu") action ShowMenu()
+        textbutton t_("Back") action Rollback()
+        textbutton t_("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+        textbutton t_("Auto") action Preference("auto-forward", "toggle")
+        textbutton t_("Menu") action ShowMenu()
 
 
 style window:

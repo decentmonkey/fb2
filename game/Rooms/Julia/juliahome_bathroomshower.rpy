@@ -17,7 +17,7 @@ label juliahome_bathroomshower_init:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "JuliaHome_BathroomShower_Monica_[cloth]_[juliaHomeBathroomShowerMonicaSuffix]", "click" : "juliahome_bathroomshower_environment", "actions" : "l", "zorder":10, "active":False}, scene="juliahome_bathroomshower")
     $ add_object_to_scene("Julia", {"type" : 2, "base" : "JuliaHome_BathroomShower_Julia_[juliaHomeBathroomJuliaCloth][juliaHomeBathroomShowerJuliaSuffix]", "click" : "juliahome_bathroomshower_environment", "actions" : "lt", "zorder":10, "active":False}, scene="juliahome_bathroomshower")
 
-    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_bathroomshower_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_bathroomshower")
+    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_bathroomshower_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_bathroomshower")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

@@ -21,7 +21,7 @@ label rich_hotel_restaurant_entrance_init:
 
     $ add_object_to_scene("RestaurantVisitor3", {"type" : 2, "base" : "Rich_Hotel_Restaurant_Entrance_v3[richHotelRestaurantEntranceV3Suffix]", "click" : "rich_hotel_restaurant_entrance_environment", "actions" : "lt", "zorder":7}, scene="rich_hotel_restaurant_entrance")
 
-    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : _("РЕЦЕПШИН"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "rich_hotel_restaurant_entrance_teleport", "xpos" : 220, "ypos" : 795, "zorder":11, "teleport":True}, scene="rich_hotel_restaurant_entrance")
+    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : t_("РЕЦЕПШИН"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "rich_hotel_restaurant_entrance_teleport", "xpos" : 220, "ypos" : 795, "zorder":11, "teleport":True}, scene="rich_hotel_restaurant_entrance")
 
     return
 #                            $ brightness_adjustment = 0.1

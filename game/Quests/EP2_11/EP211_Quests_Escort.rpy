@@ -130,7 +130,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         if _return == False:
             call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_2
             return False
-        $ add_objective("go_administrator", _("Пойти на ресепшн к администратору."), c_orange, 105)
+        $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)
         $ move_object("EscortCustomer1", "rich_hotel_lift")
         $ add_hook("EscortCustomer1", "ep211_escort_scene1_3", scene="rich_hotel_lift", label="escort_scene1")
         $ add_hook("Monica", "ep211_escort_scene1_3", scene="rich_hotel_lift", label="escort_scene1")
@@ -160,7 +160,7 @@ label ep211_quests_escort6_scene1a:
         return
     $ remove_objective("go_administrator")
     call ep211_escort_scene1_2() from _rcall_ep211_escort_scene1_2
-    $ add_objective("change_clothes", _("Пойти в служебный коридор и переодеться."), c_pink, 105)
+    $ add_objective("change_clothes", t_("Пойти в служебный коридор и переодеться."), c_pink, 105)
     $ add_hook("Teleport_Lift", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Restaurant", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("ReceptionGirl", "ep211_escort_scene1_18", scene="rich_hotel_reception", label="escort_scene1")
@@ -175,7 +175,7 @@ label ep211_quests_escort6_scene1b:
     $ remove_objective("change_clothes")
     call ep211_escort_scene1_2_1() from _rcall_ep211_escort_scene1_2_1
     $ richHotelLiftMonicaSuffix = 2
-    $ add_objective("go_customer", _("Пойти к клиенту. Он ждет у лифта."), c_blue, 105)
+    $ add_objective("go_customer", t_("Пойти к клиенту. Он ждет у лифта."), c_blue, 105)
     call change_scene("rich_hotel_lift", "Fade_long", "snd_lift") from _rcall_change_scene_13
     return False
 
@@ -198,7 +198,7 @@ label ep211_quests_escort6_scene1c: #Лифт
     $ richHotelLiftMonicaSuffix = 1
     $ richHotelLiftSceneSuffix = "_Closed"
     $ move_object("EscortCustomer1", "empty")
-    $ add_objective("go_customer", _("Пойти на ресепшн и отдать 50 процентов от заработка администратору."), c_red, 105)
+    $ add_objective("go_customer", t_("Пойти на ресепшн и отдать 50 процентов от заработка администратору."), c_red, 105)
     call change_scene("rich_hotel_reception", "Fade_long", "snd_lift") from _rcall_change_scene_14
 
 
@@ -225,7 +225,7 @@ label ep211_quests_escort6_scene1e_admin: # Отдача денег админи
 
 label ep211_quests_escort6_scene2a:
     call ep211_escort_scene2_1() from _rcall_ep211_escort_scene2_1
-    $ add_objective("go_administrator", _("Пойти на ресепшн к администратору."), c_orange, 105)
+    $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)
     $ add_hook("MonicaTable", "ep211_escort_scene1_17", scene="rich_hotel_restaurant", label="escort_scene2")
     $ move_object("ReceptionGirl", "empty")
     $ add_hook("Door", "ep211_quests_escort6_scene2b", scene="rich_hotel_reception", label="escort_scene2")

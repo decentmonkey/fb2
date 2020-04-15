@@ -155,12 +155,12 @@ label ep23_dialogues1_2b:
     m "Меня зовут..."
     img 9600
     with fade
-    $ monica_pub_name = __("Мэрилин")
+    $ monica_pub_name = t__("Мэрилин")
     if renpy.android == True:
         call screen input_softkeyboard
         $ monica_pub_name = _return
     else:
-        $ monica_pub_name = renpy.input(__("Меня зовут... (enter для ввода)"), monica_pub_name)
+        $ monica_pub_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_pub_name)
     with fadelong
     m "Меня зовут... [monica_pub_name]..."
     $ pubLocationInitializedForced = True
@@ -692,7 +692,7 @@ label ep23_dialogues1_6:
     mt "!!!"
 
     if monicaPubWashingDishesCount > 5:
-        $ notif(_("Моника часто мыла посуду."))
+        $ notif(t_("Моника часто мыла посуду."))
         # если часто мыла
         img images_list[1]
         #Shiny Бургер.
@@ -751,7 +751,7 @@ label ep23_dialogues1_7: # Смена имени
         call screen input_softkeyboard
         $ monica_pub_name = _return
     else:
-        $ monica_pub_name = renpy.input(__("Меня зовут... (enter для ввода)"), monica_pub_name)
+        $ monica_pub_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_pub_name)
     m "Меня зовут... [monica_pub_name]..."
     return
 

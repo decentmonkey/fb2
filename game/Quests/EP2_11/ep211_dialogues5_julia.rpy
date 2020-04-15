@@ -93,7 +93,7 @@ label ep211_dialogues4_julia_1:
     m "Сегодня вечером, после работы."
     m "В том же кафе рядом с твоим домом."
     julia "Хорошо, Миссис Бакфетт. С нетерпением буду ждать вечера!"
-#    $ log1 = _("После работы пойти на свидание с Юлией в кафе.")
+#    $ log1 = t_("После работы пойти на свидание с Юлией в кафе.")
     return
 
 # при клике на Юлию после назначения 2-го свидания
@@ -357,7 +357,7 @@ label ep211_dialogues4_julia_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("Некоторое время спустя...")) from _rcall_textonblack_4
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_4
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

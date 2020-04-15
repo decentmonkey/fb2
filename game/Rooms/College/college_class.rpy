@@ -25,7 +25,7 @@ label college_class_init:
     $ add_object_to_scene("College_Class_Windows", {"type":2, "base":"College_Class_Windows", "click" : "college_class_environment", "actions" : "l", "zorder" : 0}, scene="college_class")
     $ add_object_to_scene("College_Class_WorldMap", {"type":2, "base":"College_Class_WorldMap", "click" : "college_class_environment", "actions" : "l", "zorder" : 0}, scene="college_class")
 
-    $ add_object_to_scene("Teleport_Street_College", {"type":3, "text" : _("НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "college_class_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="college_class")
+    $ add_object_to_scene("Teleport_Street_College", {"type":3, "text" : t_("НА УЛИЦУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "college_class_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="college_class")
     return
 
 #                            $ brightness_adjustment = 0.1

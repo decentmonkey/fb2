@@ -144,7 +144,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("РАНЕЕ В ЭТОТ ДЕНЬ...")) from _call_textonblack_47
+    call textonblack(t_("РАНЕЕ В ЭТОТ ДЕНЬ...")) from _call_textonblack_47
     scene black_screen
     with Dissolve(1)
     # появляется затемнение экрана "Ранее в этот день..."
@@ -158,7 +158,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("СЕЙЧАС...")) from _call_textonblack_48
+    call textonblack(t_("СЕЙЧАС...")) from _call_textonblack_48
     scene black_screen
     with Dissolve(1)
     # Виктория смотрит на Монику с ухмылкой

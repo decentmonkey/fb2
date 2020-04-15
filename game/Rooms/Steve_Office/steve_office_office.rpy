@@ -19,7 +19,7 @@ label steve_office_office_init:
     $ add_object_to_scene("Sofa", {"type":2, "base":"steve_office_office_Sofa", "click" : "steve_office_office_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="steve_office_office")
     $ add_object_to_scene("Table", {"type":2, "base":"steve_office_office_Table_Object", "click" : "steve_office_office_teleport", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="steve_office_office")
 
-    $ add_object_to_scene("Teleport_Steve_Office_Secretary", {"type":3, "text" : _("НАЗАД К СЕКРЕТАРШЕ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "steve_office_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover":True, "teleport":True}, scene="steve_office_office")
+    $ add_object_to_scene("Teleport_Steve_Office_Secretary", {"type":3, "text" : t_("НАЗАД К СЕКРЕТАРШЕ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "steve_office_office_teleport", "xpos" : 960, "ypos" : 956, "zorder":15, "high_sprite_hover":True, "teleport":True}, scene="steve_office_office")
 
     return
 

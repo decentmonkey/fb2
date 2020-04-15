@@ -229,7 +229,7 @@ label ep28_quests_police_final: # Завершение тюремного кве
     $ add_hook("enter_scene", "ep28_dialogues_jail2_marcus3", scene="street_police", once=True)
 
     $ add_money(moneyStored)
-    $ define_inventory_object("butt_plug", {"description" : _("Анальная пробка"), "label_suffix" : "_use_butt_plug", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/butt_plug" + res.suffix + ".png"})
+    $ define_inventory_object("butt_plug", {"description" : t_("Анальная пробка"), "label_suffix" : "_use_butt_plug", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/butt_plug" + res.suffix + ".png"})
     $ questLog(54, False)
     $ questLog(56, True)
     $ add_inventory("butt_plug", 1, True)

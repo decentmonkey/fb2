@@ -34,7 +34,7 @@ label pub_makeuproom_init:
     $ add_object_to_scene("Trash1", {"type" : 2, "base" : "Pub_MakeupRoom_Trash1", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
     $ add_object_to_scene("Vents", {"type" : 2, "base" : "Pub_MakeupRoom_Vents", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":0, "group":"environment"}, scene="pub_makeuproom")
 
-    $ add_object_to_scene("Teleport_Pub", {"type":3, "text" : _("ВЫХОД ИЗ ГРИМЕРНОЙ КОМНАТЫ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "pub_makeuproom_teleport", "xpos" : 1101, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="pub_makeuproom")
+    $ add_object_to_scene("Teleport_Pub", {"type":3, "text" : t_("ВЫХОД ИЗ ГРИМЕРНОЙ КОМНАТЫ"), "rarrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "pub_makeuproom_teleport", "xpos" : 1101, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="pub_makeuproom")
     return
 
 label pub_makeuproom_init2:

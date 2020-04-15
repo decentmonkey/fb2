@@ -15,7 +15,7 @@ label ep23_dialogues7:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("У МЕЛАНИ ДОМА...")) from _call_textonblack_12
+    call textonblack(t_("У МЕЛАНИ ДОМА...")) from _call_textonblack_12
     scene black_screen
     with Dissolve(1)
     music ZigZag
@@ -281,7 +281,7 @@ label ep23_dialogues7:
     melanie "Я разрешаю сделать Вам последний кадр..."
 
     if richHotelRestaurantDickOffended1 == True or dickWantFuckMelanie == True:
-        $ notif(_("Дик признавался что хочет Мелани"))
+        $ notif(t_("Дик признавался что хочет Мелани"))
         img 9022 #nophoto
         with fade
         w

@@ -368,7 +368,7 @@ label ep23_dialogues3_5:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_14
+    call textonblack(t_("Утро...")) from _call_textonblack_14
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -744,7 +744,7 @@ label ep23_dialogues3_5a:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Минуту спустя...")) from _call_textonblack_15
+    call textonblack(t_("Минуту спустя...")) from _call_textonblack_15
     img black_screen
     with Dissolve(2.0)
     music Groove2_85

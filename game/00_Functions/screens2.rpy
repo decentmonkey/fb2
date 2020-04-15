@@ -506,7 +506,7 @@ screen achievements_screen():
             $ curY = 0
             for category in achievements_categories:
 #                text category[1] style "char_face_style_caption":
-                text category[1]:
+                text t__(category[1]):
                     pos(rowOffset, curY)
                     font "fonts/BebasNeue Regular.ttf"
                     color category[2]
@@ -539,7 +539,7 @@ screen achievements_screen():
                             pos(posX, posY + curY)
                         add "gui/gallery_frame" + res.suffix + ".png":
                             pos(posX-gui.resolution.gallery.frame.offset, posY-gui.resolution.gallery.frame.offset + curY)
-                    text cellsList[i][1] style "gallery_caption_text":
+                    text t__(cellsList[i][1]) style "gallery_caption_text":
                         pos(posX + getRes(244/2), posY + curY + getRes(137+15))
                         anchor (0.5, 0.5)
                 $ curY += int(math.ceil(float(len(cellsList))/float(cellsInRow))) * cellSizeY + gui.resolution.gallery.category_margin_down

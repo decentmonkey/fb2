@@ -149,7 +149,7 @@ label ep27_dialogues1_melanie2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("АПАРТАМЕНТЫ МЕЛАНИ")) from _call_textonblack_30
+    call textonblack(t_("АПАРТАМЕНТЫ МЕЛАНИ")) from _call_textonblack_30
     img black_screen
     with Dissolve(2.0)
 #    music Groove2_85

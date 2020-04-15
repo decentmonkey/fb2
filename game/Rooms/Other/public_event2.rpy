@@ -9,13 +9,13 @@ label public_event2:
     if len(ep211_quests_guests_progress) == 0:
         $ set_active("Investor1", True)
         $ remove_objective("talk_people")
-        $ add_objective("talk_investor1", _("Пообщаться с Мистером Кэмпбеллом."), c_blue, 95)
+        $ add_objective("talk_investor1", t_("Пообщаться с Мистером Кэмпбеллом."), c_blue, 95)
     else:
         if len(ep211_quests_guests_progress) == 1:
             $ set_active("PublicGuest7", True) # появляется дизайнер
 
         $ ep211_quests_guests_progress_cur = 9-len(ep211_quests_guests_progress)
-        $ add_objective("talk_people", _("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
+        $ add_objective("talk_people", t_("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
 
     music crowd10
     show screen Reporters_Shoots_Screen4_low()

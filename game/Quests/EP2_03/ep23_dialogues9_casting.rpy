@@ -26,7 +26,7 @@ label ep23_dialogue9_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_2
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_2
     scene black_screen
     with Dissolve(1)
     music Groove2_85

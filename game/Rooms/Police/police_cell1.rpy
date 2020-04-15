@@ -17,7 +17,7 @@ label police_cell1_init:
     $ add_object_to_scene("Bed", {"type":2, "base":"Police_Cell_1_Bed", "click" : "police_cell1_environment", "actions" : "lh", "zorder" : 0, "group":"environment"}, scene="police_cell1")
     $ add_object_to_scene("Sortir", {"type":2, "base":"Police_Cell_1_Sortir", "click" : "police_cell1_environment", "actions" : "lh", "zorder" : 0, "group":"environment"}, scene="police_cell1")
 
-    $ add_object_to_scene("Teleport_Cage2", {"type":3, "text" : _("РЕШЕТКА"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "police_cell1_teleport", "xpos" : 1680, "ypos" : 233, "zorder":5, "teleport":True}, scene="police_cell1")
+    $ add_object_to_scene("Teleport_Cage2", {"type":3, "text" : t_("РЕШЕТКА"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "police_cell1_teleport", "xpos" : 1680, "ypos" : 233, "zorder":5, "teleport":True}, scene="police_cell1")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

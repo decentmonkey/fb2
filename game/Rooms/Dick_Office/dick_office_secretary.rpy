@@ -19,7 +19,7 @@ label dick_office_secretary_init:
 
     $ add_object_to_scene("Door", {"type":2, "base":"Office_Dick_Secretary_Door", "click" : "dick_office_secretary_teleport", "actions" : "lw", "zorder" : 0, "teleport":True})
 
-    $ add_object_to_scene("Teleport_Hall", {"type":3, "text" : _("НАЗАД В ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "dick_office_secretary_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
+    $ add_object_to_scene("Teleport_Hall", {"type":3, "text" : t_("НАЗАД В ХОЛЛ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "dick_office_secretary_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True})
     return
     #                            $ brightness_adjustment = 0.1
     #                            $ saturation_adjustment = 1.07

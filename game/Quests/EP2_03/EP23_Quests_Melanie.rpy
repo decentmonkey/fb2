@@ -19,10 +19,10 @@ label ep23_quests_melanie1: # Моника подходит первый раз 
         $ monicaOutfitsEnabled[4] = True # Открываем фотосессию с Мелани
     $ add_hook("Melanie", "ep23_quests_melanie2", scene="monica_office_photostudio")
 
-    $ add_object_to_scene("Teleport_Monica_Office_MakeupRoom", {"type":3, "text" : _("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "monica_office_photostudio_teleport", "xpos" : 276, "ypos" : 983, "zorder":12, "teleport":True})
-    $ add_location("monica_office_makeup_room", caption=_("ГРИМЕРНАЯ КОМНАТА"), label="monica_office_makeup_room", init_label="monica_office_makeup_room_init", parent="monica_office_entrance")
+    $ add_object_to_scene("Teleport_Monica_Office_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "monica_office_photostudio_teleport", "xpos" : 276, "ypos" : 983, "zorder":12, "teleport":True})
+    $ add_location("monica_office_makeup_room", caption=t_("ГРИМЕРНАЯ КОМНАТА"), label="monica_office_makeup_room", init_label="monica_office_makeup_room_init", parent="monica_office_entrance")
     $ char_info["Melanie"]["enabled"] = True
-    $ char_info["Melanie"]["caption"] = _("Мелани очень любит себя.")
+    $ char_info["Melanie"]["caption"] = t_("Мелани очень любит себя.")
     $ add_char_progress("Melanie", 10, "Melanie_help1")
     call questLog_init() from _call_questLog_init_2
     $ questLog(13, False)

@@ -134,7 +134,7 @@ python early:
             who = last_dialogue_character
         else:
             last_dialogue_character = who
-        who = eval(who)
+        who = t__(eval(who).name)
         what = what[1:-1]
 #        what = re.sub(r'\n' , '\s', what)
         dialogue_active_flag = True
@@ -149,7 +149,7 @@ python early:
         if keyPressed[pygame.K_SLASH]:
             return
 
-        what = __(what)
+        what = t__(what)
         what = re.sub("\!\s{1,}", "!\n", what)
         what = re.sub("\?\s{1,}", "?\n", what)
         what = re.sub("\.\s{1,}", ".\n", what)

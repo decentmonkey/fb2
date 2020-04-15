@@ -17,7 +17,7 @@ label police_cell3_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Police_Cell3_Monica_[cloth]_[monicaPoliceCell3Suffix]", "click" : "police_cell3_environment", "actions" : "l", "zorder" : 10}, scene="police_cell3")
 
     $ add_object_to_scene("Cage", {"type":2, "base":"Police_Cell_3_Cage", "click" : "police_cell3_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="police_cell3")
-    $ add_object_to_scene("Teleport_Cage2", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "police_cell3_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="police_cell3")
+    $ add_object_to_scene("Teleport_Cage2", {"type":3, "text" : t_("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "police_cell3_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True}, scene="police_cell3")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

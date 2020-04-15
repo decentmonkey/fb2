@@ -48,7 +48,7 @@ label ep211_quests_publicevent2_2: # второй день
     $ add_hook("Teleport_Monica_Office_Entrance", "ep211_dialogues2_public_event_4", scene="monica_office_secretary", label="public_event2_block")
     $ add_hook("AlexPhotograph", "ep211_quests_publicevent2_3_alex", scene="monica_office_photostudio", label="public_event2")
     $ move_object("Melanie", "empty")
-    $ add_objective("get_dress", _("Переодеться в вечернее платье."), c_orange, 95)
+    $ add_objective("get_dress", t_("Переодеться в вечернее платье."), c_orange, 95)
     $ ep211_quests_publicevent2_2_flag = True
     call refresh_scene_fade() from _rcall_refresh_scene_fade_12
 
@@ -82,7 +82,7 @@ label ep211_quests_publicevent2_3_alex:
     $ add_hook("PublicGuest8", "ep211_quests_publicevent2_3_guest8", scene="public_event2", label="public_event2")
     $ ep211_quests_guests_progress = ["PublicGuest1", "PublicGuest2", "PublicGuest3", "PublicGuest4", "PublicGuest5", "PublicGuest6", "PublicGuest7", "PublicGuest8", "Girlfriends"]
     call change_scene("public_event2", "Fade_long") from _rcall_change_scene_19
-    $ add_objective("talk_people", _("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
+    $ add_objective("talk_people", t_("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
     return False
 
 label ep211_quests_publicevent2_3_guest1:
@@ -190,7 +190,7 @@ label ep211_quests_publicevent2_3_guest_girlfriends:
         call ep211_dialogues2_public_event_25() from _rcall_ep211_dialogues2_public_event_25
         $ ep211_quests_publicevent2_3_guest_girlfriends_stage = 1
         $ set_active("PublicGuest8", True)
-        $ add_objective("talk_terner", _("Поговорить с Тернером."), c_blue, 105)
+        $ add_objective("talk_terner", t_("Поговорить с Тернером."), c_blue, 105)
         call refresh_scene_fade() from _rcall_refresh_scene_fade_20
         return False
     if ep211_quests_publicevent2_3_guest_girlfriends_stage == 1:
@@ -218,7 +218,7 @@ label ep211_quests_publicevent2_3_guest8: #звезда
         music2 stop
         call ep211_dialogues2_public_event_28() from _rcall_ep211_dialogues2_public_event_28
         $ remove_objective("talk_terner")
-        $ add_objective("talk_girlfriends", _("Вернуться к Ребекке и Стефани."), c_pink, 105)
+        $ add_objective("talk_girlfriends", t_("Вернуться к Ребекке и Стефани."), c_pink, 105)
         $ ep211_quests_publicevent2_3_guest8_flag = True
         $ ep211_quests_publicevent2_3_guest_girlfriends_stage = 2
         if "PublicGuest8" in ep211_quests_guests_progress:
@@ -272,7 +272,7 @@ label ep211_quests_publicevent2_photoshoot1: # Моника заходит в к
     $ remove_hook(label="photoshoot9_1")
     call ep211_dialogues3_photoshoot_2() from _rcall_ep211_dialogues3_photoshoot_2
     $ move_object("Melanie", "empty")
-    $ add_objective("change_cloth", _("Идти в фотостудию и переодеться."), c_orange, 105)
+    $ add_objective("change_cloth", t_("Идти в фотостудию и переодеться."), c_orange, 105)
     $ miniMapEnabledOnly = ["Office_Biff_Cabinet", "Office_PhotoStudio", "Office_Monica_Secretary"]
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
     $ add_hook("AlexPhotograph", "ep22_quests_office4", scene="monica_office_photostudio", label="photoshoot_alex") # Алекс стартует фотосессию
@@ -317,7 +317,7 @@ label ep211_quests_publicevent2_photoshoot2_biff_repeat: # Повтор подх
         return False
     $ monicaOutfitsAltEnabled = True
     $ remove_hook(label="photoshoot9_repeat")
-    $ add_objective("change_cloth", _("Идти в фотостудию и переодеться."), c_orange, 105)
+    $ add_objective("change_cloth", t_("Идти в фотостудию и переодеться."), c_orange, 105)
     $ miniMapEnabledOnly = ["Office_Biff_Cabinet", "Office_PhotoStudio", "Office_Monica_Secretary"]
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
     $ add_hook("AlexPhotograph", "ep22_quests_office4", scene="monica_office_photostudio", label="photoshoot_alex") # Алекс стартует фотосессию
@@ -373,7 +373,7 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
         return False
     $ add_hook("before_open", "ep211_quests_publicevent2_photoshoot4", scene="monica_office_cabinet", label="photoshoot9_2")
     $ add_hook("before_open", "ep211_quests_publicevent2_photoshoot4", scene="monica_office_cabinet_table", label="photoshoot9_2")
-    $ add_objective("talk_biff", _("Пойти в кабиент к Бифу и узнать, что решил инвестор."), c_blue, 105)
+    $ add_objective("talk_biff", t_("Пойти в кабиент к Бифу и узнать, что решил инвестор."), c_blue, 105)
     $ miniMapEnabledOnly = []
     $ monicaOutfitsEnabled[8] = True # Открываем костюм для регулярной съемки
 

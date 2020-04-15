@@ -22,7 +22,7 @@ label street_police_init:
     $ add_object_to_scene("Car4", {"type":2, "base":"Street_Police_Car4", "click" : "street_police_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Car5", {"type":2, "base":"Street_Police_Car5", "click" : "street_police_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Map", {"type":3, "text" : _("БЕЖАТЬ ОТСЮДА!"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "street_police_teleport2", "xpos" : 1713, "ypos" : 828, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Map", {"type":3, "text" : t_("БЕЖАТЬ ОТСЮДА!"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "street_police_teleport2", "xpos" : 1713, "ypos" : 828, "zorder":15, "teleport":True})
 
     return
 #                            $ brightness_adjustment = 0.1

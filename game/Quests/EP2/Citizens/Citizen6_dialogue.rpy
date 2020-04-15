@@ -147,7 +147,7 @@ label citizen6_dialogue_after_offend:
     $ questWhorePlaceSearchingStage = 1
     $ autorun_to_object("needToFindWhorePlace", scene="hostel_street2")
     $ autorun_to_object("citizen6_dialogue_after_offend_place_found", scene="hostel_edge_1_a")
-    $ add_objective("find_place", _("Найти тихое место для обслуживания 'Клиентов'"), c_orange, 50)
+    $ add_objective("find_place", t_("Найти тихое место для обслуживания 'Клиентов'"), c_orange, 50)
     call refresh_scene_fade() from _call_refresh_scene_fade_41
     return
 

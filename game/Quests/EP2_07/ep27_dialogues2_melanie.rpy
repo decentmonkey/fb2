@@ -6,7 +6,7 @@ label ep27_dialogues2_melanie1:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_24
+    call textonblack(t_("Утро...")) from _call_textonblack_24
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -108,7 +108,7 @@ label ep27_dialogues2_melanie2:
     with Dissolve(1)
     stop music fadeout 1.0
     music m80s_Things
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_25
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_25
     scene black_screen
     with Dissolve(1)
 #    music Groove2_85

@@ -29,8 +29,8 @@ label basement_bedroom1_init:
     $ add_object_to_scene("Picture7", {"type":2, "base":"basement_bedroom1_Picture7", "click" : "basement_bedroom2_environment", "actions" : "l", "zorder" : 0, "group":"environment"}, scene="basement_bedroom1")
     $ add_object_to_scene("Table", {"type":2, "base":"basement_bedroom1_Table", "click" : "basement_bedroom1_environment", "actions" : "lw", "zorder" : 0, "group":"environment"}, scene="basement_bedroom1")
 
-    $ add_object_to_scene("Teleport_Basement_Hole", {"type":3, "text" : _("КОРИДОР"), "larrow" : "arrow_left_2", "base":"Basement_Bedroom1_Teleport_Hole", "click" : "basement_bedroom1_teleport", "xpos" : 459, "ypos" : 877, "zorder":11, "teleport":True}, scene="basement_bedroom1")
-    $ add_object_to_scene("Teleport_Basement_Bedroom2", {"type":3, "text" : _("КРОВАТЬ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom1")
+    $ add_object_to_scene("Teleport_Basement_Hole", {"type":3, "text" : t_("КОРИДОР"), "larrow" : "arrow_left_2", "base":"Basement_Bedroom1_Teleport_Hole", "click" : "basement_bedroom1_teleport", "xpos" : 459, "ypos" : 877, "zorder":11, "teleport":True}, scene="basement_bedroom1")
+    $ add_object_to_scene("Teleport_Basement_Bedroom2", {"type":3, "text" : t_("КРОВАТЬ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "basement_bedroom1_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "high_sprite_hover":True}, scene="basement_bedroom1")
 
     return
 

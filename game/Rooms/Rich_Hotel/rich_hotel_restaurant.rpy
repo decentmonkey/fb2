@@ -26,7 +26,7 @@ label rich_hotel_restaurant_init:
 
     $ add_object_to_scene("MonicaTable", {"type" : 2, "base" : "Rich_Hotel_Restaurant_MonicaTable1", "click" : "rich_hotel_restaurant_environment", "b":0.15, "actions" : "l", "zorder":2}, scene="rich_hotel_restaurant")
 
-    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : _("ВЫХОД"), "larrow" : "arrow_left_2", "base":"RichHotel_Restaurant_TeleportReception", "click" : "rich_hotel_restaurant_teleport", "xpos" : 752, "ypos" : 114, "zorder":1, "teleport":True}, scene="rich_hotel_restaurant")
+    $ add_object_to_scene("Teleport_Reception", {"type":3, "text" : t_("ВЫХОД"), "larrow" : "arrow_left_2", "base":"RichHotel_Restaurant_TeleportReception", "click" : "rich_hotel_restaurant_teleport", "xpos" : 752, "ypos" : 114, "zorder":1, "teleport":True}, scene="rich_hotel_restaurant")
 
     return
 #                            $ brightness_adjustment = 0.1

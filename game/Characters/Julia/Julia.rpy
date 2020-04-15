@@ -8,19 +8,19 @@ default juliaOfficeOffendedDay = 0
 label juliaProgressLevelUp:
     $ char_data["level"] = char_data["level"] + 1
     if char_data["level"] == 2:
-        $ char_data["caption"] = _("Юлия стесняется комплиментов Моники и боится ее.")
+        $ char_data["caption"] = t_("Юлия стесняется комплиментов Моники и боится ее.")
     if char_data["level"] == 3:
         $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+        $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
     if char_data["level"] == 4:
         $ char_data["enabled"] = True
-        $ char_data["caption"] = _("Юлия приняла ухаживания Моники, но еще побаивается ее.")
+        $ char_data["caption"] = t_("Юлия приняла ухаживания Моники, но еще побаивается ее.")
     if char_data["level"] == 5:
         $ char_data["enabled"] = True
-        $ char_data["caption"] = _("Юлия влюбляется в Монику, но еще не доверяет ей.")
+        $ char_data["caption"] = t_("Юлия влюбляется в Монику, но еще не доверяет ей.")
 #        $ char_data["enabled"] = False
-#        $ char_data["caption_diabled"] = _("Work in progress...")
-#    $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+#        $ char_data["caption_diabled"] = t_("Work in progress...")
+#    $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
 #    $ char_data["show_caption_diabled"] = True
 #    if char_data["level"] == 4:
     return

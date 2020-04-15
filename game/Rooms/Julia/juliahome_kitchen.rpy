@@ -26,9 +26,9 @@ label juliahome_kitchen_init:
     $ add_object_to_scene("Flower1", {"type" : 2, "base" : "JulliaHome_Kitchen_Flower1", "click" : "juliahome_kitchen_environment", "actions" : "l", "zorder":0, "b":0.21, "tint":[1.0, 1.0, 0.7], "group":"environment"}, scene="juliahome_kitchen")
     $ add_object_to_scene("Flower2", {"type" : 2, "base" : "JulliaHome_Kitchen_Flower2", "click" : "juliahome_kitchen_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_kitchen")
 
-    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : _("ВАННАЯ КОМНАТА"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "juliahome_kitchen_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True}, scene="juliahome_kitchen")
-    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : _("СПАЛЬНЯ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "juliahome_kitchen_teleport", "xpos" : 220, "ypos" : 920, "zorder":11, "teleport":True}, scene="juliahome_kitchen")
-    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : _("УЛИЦА"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_kitchen_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_kitchen")
+    $ add_object_to_scene("Teleport_Bathroom", {"type":3, "text" : t_("ВАННАЯ КОМНАТА"), "rarrow" : "arrow_right_2", "base":"Screen_Right_Arrow_Tight", "click" : "juliahome_kitchen_teleport", "xpos" : 1630, "ypos" : 920, "zorder":11, "teleport":True}, scene="juliahome_kitchen")
+    $ add_object_to_scene("Teleport_LivingRoom", {"type":3, "text" : t_("СПАЛЬНЯ"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "juliahome_kitchen_teleport", "xpos" : 220, "ypos" : 920, "zorder":11, "teleport":True}, scene="juliahome_kitchen")
+    $ add_object_to_scene("Teleport_Street", {"type":3, "text" : t_("УЛИЦА"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "juliahome_kitchen_teleport", "xpos" : 960, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="juliahome_kitchen")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

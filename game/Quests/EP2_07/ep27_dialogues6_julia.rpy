@@ -52,7 +52,7 @@ label ep27_dialogues6_julia1:
     # несколько минут спустя
     sound highheels_run1
     music stop
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_29
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_29
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -460,11 +460,11 @@ label ep27_dialogues6_julia3:
     with diss
     if juliaHasSexInPool == True:
         # Если Юлия спала с фредом
-        $ notif(_("Юлия имела секс с Фредом."))
+        $ notif(t_("Юлия имела секс с Фредом."))
         fred "Юлия иногда доверяется моему... профессиональному мнению."
     else:
         # Юлия не имела секса с Фредом
-        $ notif(_("Юлия не имела секс с Фредом."))
+        $ notif(t_("Юлия не имела секс с Фредом."))
         fred "Юлия немного стесняется меня, но иногда спрашивает моего совета."
         fred "Дополнительное доверие ко мне поможет ей расслабиться в будущем."
     #
@@ -914,7 +914,7 @@ label ep27_dialogues6_julia11:
         img 20920
         with fade
         m "Ничего!" # смущенно и уходит
-        $ notif(_("Требуется отношения с Юлией ур.2"))
+        $ notif(t_("Требуется отношения с Юлией ур.2"))
         music stop
         img black_screen
         with diss

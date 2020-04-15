@@ -254,7 +254,7 @@ label ep210_dialogues5_julia_1:
         #
         img 16485
         with fade
-        $ notif(_("Моника работает в пабе Shiny Hole"))
+        $ notif(t_("Моника работает в пабе Shiny Hole"))
         mt "Надеюсь, не рядом с Shiny Hole..."
         #
     music Hidden_Agenda
@@ -286,7 +286,7 @@ label ep210_dialogues5_julia_1:
     with fade
     mt "Фи... На какие жертвы приходится идти из-за этой глупой просьбы Фреда..."
     # далее обычный рабочий день.
-#    $ log1 = _("Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков.") # квест лог
+#    $ log1 = t_("Я решила подыграть этой никчемной Юлии. Отличный способ узнать цвет ее трусиков.") # квест лог
     return
 
 # при клике на Юлию после назначения 1-го свидания
@@ -387,7 +387,7 @@ label ep210_dialogues5_julia_3:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(_("Спустя некоторое время...")) from _call_textonblack_71
+    call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_71
     img black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -557,7 +557,7 @@ label ep210_dialogues5_julia_3:
         img 23112
         with fade
         julia "Почему тогда Вы так со мной обращались, Миссис Бакфетт?"
-        $ notif(_("Моника заставляла Юлию оттирать пятно на ковре"))
+        $ notif(t_("Моника заставляла Юлию оттирать пятно на ковре"))
         img 23113
         with diss
         mt "Черт!"
@@ -851,7 +851,7 @@ label ep210_dialogues5_julia_3:
     img 23165
     with fade
     cafe_barista "Хорошо, мэм. Тогда $ 15."
-#    $ log1 = _("Мне нужно каждый день целовать Юлию и говорить ей комплименты.") # квест лог
+#    $ log1 = t_("Мне нужно каждый день целовать Юлию и говорить ей комплименты.") # квест лог
     return
 
 # если Моника все делает правильно, то уровень Юлии повышается

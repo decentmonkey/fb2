@@ -26,7 +26,7 @@ label take_trash_bottle:
                     sound bottle1
                     #take bottle
                     $ vodkaTaken = True
-                    $ define_inventory_object("vodka", {"description" : _("Водка"), "label_suffix" : "_use_bottle", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/vodka" + res.suffix + ".png"})
+                    $ define_inventory_object("vodka", {"description" : t_("Водка"), "label_suffix" : "_use_bottle", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/vodka" + res.suffix + ".png"})
                     $ add_inventory("vodka", 1, True)
                     $ set_active("Bottle", False, scene="hostel_edge_1_b")
 #    if check_inventory("vodka"):

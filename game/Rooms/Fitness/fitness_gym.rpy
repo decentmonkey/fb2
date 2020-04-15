@@ -15,8 +15,8 @@ label fitness_gym_init:
     $ add_object_to_scene("Fitness_Equipment", {"type":2, "base":"Fitness_Gym_Fitness_Equipment", "click" : "fitness_gym_environment", "actions" : "l", "zorder" : 0, "tint": [1.0, 1.0, 0.8]}, scene="fitness_gym")
     $ add_object_to_scene("Yoga_Carpet", {"type":2, "base":"Fitness_Gym_Yoga_Carpet", "click" : "fitness_gym_environment", "actions" : "l", "zorder" : 0}, scene="fitness_gym")
 
-    $ add_object_to_scene("Teleport_Locker_1", {"type":3, "text" : _("В РАЗДЕВАЛКУ"), "rarrow" : "arrow_right_2", "base":"Fitness_Teleport_Locker_1", "click" : "fitness_gym_teleport", "xpos" : 609, "ypos" : 117, "zorder":11}, scene="fitness_gym")
-    $ add_object_to_scene("Teleport_Outside", {"type":3, "text" : _("НА УЛИЦУ"), "larrow" : "arrow_left_2", "base":"Fitness_Teleport_Outside", "click" : "fitness_gym_teleport", "xpos" : 1278, "ypos" : 91, "zorder":11}, scene="fitness_gym")
+    $ add_object_to_scene("Teleport_Locker_1", {"type":3, "text" : t_("В РАЗДЕВАЛКУ"), "rarrow" : "arrow_right_2", "base":"Fitness_Teleport_Locker_1", "click" : "fitness_gym_teleport", "xpos" : 609, "ypos" : 117, "zorder":11}, scene="fitness_gym")
+    $ add_object_to_scene("Teleport_Outside", {"type":3, "text" : t_("НА УЛИЦУ"), "larrow" : "arrow_left_2", "base":"Fitness_Teleport_Outside", "click" : "fitness_gym_teleport", "xpos" : 1278, "ypos" : 91, "zorder":11}, scene="fitness_gym")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

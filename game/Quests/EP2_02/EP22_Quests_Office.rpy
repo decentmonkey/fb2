@@ -2,7 +2,7 @@ label ep22_quests_office_init:
     $ biffDisabled = True
     if monkeysOffended2 == True:
         $ biffMonicaCastingsEnabled = True
-#        $ notif(_("Моника заставляла моделей проходить обнаженный кастинг"))
+#        $ notif(t_("Моника заставляла моделей проходить обнаженный кастинг"))
     $ add_hook_day("ep22_quests_office2", week_day = 6, label="photoshoot_regular") #Обновляем возможность фотосессии раз в неделю по субботам
     $ add_hook("Biff", "ep22_quests_office1", scene="monica_office_cabinet_table")
     $ add_hook("AlexPhotograph", "ep22_quests_office3", scene="monica_office_photostudio", label="photoshoot_regular")

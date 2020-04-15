@@ -42,7 +42,7 @@ label ep27_quests_office2:
 label ep27_quests_office3:
     # Разговор с секретаршей о флешке
     $ remove_hook()
-    $ define_inventory_object("flash_card", {"description" : _("Флеш Карта"), "label_suffix" : "_use_flash_card", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/flash_card" + res.suffix + ".png"})
+    $ define_inventory_object("flash_card", {"description" : t_("Флеш Карта"), "label_suffix" : "_use_flash_card", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/flash_card" + res.suffix + ".png"})
 
     call ep27_dialogues4_biff3() from _call_ep27_dialogues4_biff3
 
@@ -88,7 +88,7 @@ label ep27_quests_office6_return_reports_teleport: # Перехват возвр
     call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports_1 # Сбрасываем отчеты
     call change_scene("monica_office_secretary") from _call_change_scene_375
     $ remove_objective("reports_to_biff")
-    $ add_objective("reports_to_biff", _("Биф просил зайти к нему после сдачи отчетов."), c_orange, 20)
+    $ add_objective("reports_to_biff", t_("Биф просил зайти к нему после сдачи отчетов."), c_orange, 20)
     return False
 
 label ep27_quests_office6b: # Перехват возвращения отчетов в офисе Бифа по миникарте
@@ -121,7 +121,7 @@ label ep27_quests_office8_julia: # Моника заставляет собир�
     $ monicaWorkFlashCardQuestReportsNeedTalkBiff = True
     $ monicaWorkFlashCardReportLastDay = day
     $ remove_objective("reports_to_biff")
-    $ add_objective("reports_to_biff", _("Отдать собранные отчеты для Бифа."), c_green, 20)
+    $ add_objective("reports_to_biff", t_("Отдать собранные отчеты для Бифа."), c_green, 20)
     $ changeDayTime("evening") # Изменяем на вечер
     $ add_office_working_day(True) # Отмечаем рабочий день
     $ monicaOfficeWorkedToday = True

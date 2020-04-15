@@ -2,7 +2,7 @@ label intro_scene:
     $ print "enter_intro_scene"
 
     $ scene_name = "intro_scene"
-    $ scene_caption = _("Bedroom")
+    $ scene_caption = t_("Bedroom")
 
     $ scene_image = "scene_Intro"
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Intro_Monica", "click" : "intro_environment", "actions" : "lh", "zorder":10})

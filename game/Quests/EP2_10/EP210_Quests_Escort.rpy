@@ -66,7 +66,7 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
     sound2 fx_coins
     # Инициализируем дом Филиппа
     call locations_init_philip_home() from _call_locations_init_philip_home
-    $ map_objects ["Teleport_PhilipHome"] = {"text" : _("ДОМ ФИЛИППА"), "xpos" : 1767, "ypos" : 242, "base" : "map_marker", "state" : "visible"}
+    $ map_objects ["Teleport_PhilipHome"] = {"text" : t_("ДОМ ФИЛИППА"), "xpos" : 1767, "ypos" : 242, "base" : "map_marker", "state" : "visible"}
     $ add_hook("map_teleport", "ep210_quests_escort1_philip3_map", scene="global", label="philiphome_outfit_restrict")
     $ add_hook("Teleport_Building", "ep210_quests_escort1_philip4_enter", scene="street_philiphome")
 
@@ -257,7 +257,7 @@ label ep210_quests_escort1_reception: # Разговор с рецепшин о 
     $ monica_escort_service_started_day = day
     $ remove_hook(label="ep210_quests_escort1_reception")
     $ remove_hook(label="reception_capturing_monica")
-    $ add_objective("start_escort", _("Прийти в отель ЛеГранд завтра."), c_pink, 90)
+    $ add_objective("start_escort", t_("Прийти в отель ЛеГранд завтра."), c_pink, 90)
     $ questLog(62, True)
     $ autorun_to_object("ep210_dialogues7_escort_hotel_7a", scene="street_rich_hotel")
 

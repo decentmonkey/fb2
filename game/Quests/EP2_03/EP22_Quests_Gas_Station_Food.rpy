@@ -11,15 +11,15 @@ define gasStationGoodsPrices = {
 }
 
 define gasStationGoodsNames = {
-    "donut": _("Пончик"),
-    "cookies cherry filled": _("Печенье с вишневой начинкой"),
-    "chocolate cake": _("Шоколадный торт"),
-    "cannoli": _("Канноли"),
-    "napoleon": _("Наполеон"),
-    "brownie": _("Пирожное"),
-    "cupcake": _("Кекс"),
-    "cookie with nuts": _("Печенье с орехами"),
-    "waffles": _("Вафли"),
+    "donut": t_("Пончик"),
+    "cookies cherry filled": t_("Печенье с вишневой начинкой"),
+    "chocolate cake": t_("Шоколадный торт"),
+    "cannoli": t_("Канноли"),
+    "napoleon": t_("Наполеон"),
+    "brownie": t_("Пирожное"),
+    "cupcake": t_("Кекс"),
+    "cookie with nuts": t_("Печенье с орехами"),
+    "waffles": t_("Вафли"),
 }
 
 label ep22_quests_Gas_Station_Food1_buy_food:

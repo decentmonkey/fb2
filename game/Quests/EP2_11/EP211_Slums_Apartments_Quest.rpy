@@ -57,7 +57,7 @@ label ep211_slums_apartments_quest1_menu:
         $ slumsApartmentsRentActive = True
         $ slumsApartmentsRentActiveDay = day
         $ remove_hook(label="slums_apartments_blocked")
-        $ add_objective("earn_money_rent_apartments", _("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
+        $ add_objective("earn_money_rent_apartments", t_("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
         $ slumsApartmentsStatus = 2
         return False
 
@@ -95,7 +95,7 @@ label ep211_slums_apartments_quest2_enter_home:
 label ep211_slums_apartments_quest3_jack:
     if act=="l":
         return
-    $ define_inventory_object("keys_apartments", {"description" : _("Ключи от дома в трущобах"), "label_suffix" : "_use_keys_apartments", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/keys_apartments" + res.suffix + ".png"})
+    $ define_inventory_object("keys_apartments", {"description" : t_("Ключи от дома в трущобах"), "label_suffix" : "_use_keys_apartments", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/keys_apartments" + res.suffix + ".png"})
     call ep211_dialogues6_slum_apartment_6() from _rcall_ep211_dialogues6_slum_apartment_6
     if _return == 0 or _return == -1:
 #        if _return == -1:
@@ -115,7 +115,7 @@ label ep211_slums_apartments_quest3_jack:
     $ slumsApartmentsRentActive = True
     $ slumsApartmentsRentActiveDay = day
     $ questLog(71, True)
-    $ add_objective("earn_money_rent_apartments", _("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
+    $ add_objective("earn_money_rent_apartments", t_("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
     $ remove_hook(label="jack_apartments1")
     $ set_active("Teleport_Bathroom", True, scene="monicahome_livingroom")
     $ set_active("Teleport_Kitchen", True, scene="monicahome_livingroom")
@@ -146,11 +146,11 @@ label ep211_slums_apartments_quest4_check_payment:
         return
     if monicaRestApartments == False:
         if money >= slumsApartmentsRentPrice:
-            $ notif(_("Оплата за апартаменты в трущобах."))
+            $ notif(t_("Оплата за апартаменты в трущобах."))
             $ slumsApartmentsRentActive = True
             $ add_money(-slumsApartmentsRentPrice)
         else:
-            $ notif(_("Оплата за апартаменты в трущобах просрочена!"))
+            $ notif(t_("Оплата за апартаменты в трущобах просрочена!"))
             $ slumsApartmentsRentActive = False
             $ monicaHomeMiniMapEnabled = False
             $ add_hook("HomeEnter", "ep211_slums_apartments_quest5_apartments_block", scene="street_monicahome", label="slums_apartments_blocked")
@@ -209,7 +209,7 @@ label ep211_slums_apartments_quest5_apartments_block: # В квартиру не
         call ep211_dialogues6_slum_apartment_15() from _rcall_ep211_dialogues6_slum_apartment_15
         return False
     call ep211_dialogues6_slum_apartment_16() from _rcall_ep211_dialogues6_slum_apartment_16
-    $ add_objective("talk_jack", _("Поговорить с Джеком и снова заселиться в квартиру."), c_blue, 105)
+    $ add_objective("talk_jack", t_("Поговорить с Джеком и снова заселиться в квартиру."), c_blue, 105)
 
     return False
 

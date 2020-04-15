@@ -124,7 +124,7 @@ label ep24_quests_steve7:
 
     call question_helper_enable("question_steve_ask_ralph") from _call_question_helper_enable_1
 
-    $ add_objective("ask_ralph", _("Спросить у Ральфа по поводу Стива."), c_white, 55)
+    $ add_objective("ask_ralph", t_("Спросить у Ральфа по поводу Стива."), c_white, 55)
 
 #    $ add_hook_day("ep24_quests_steve35", day=day+30)
 #    $ add_hook("monica_cleaning_end", "ep24_quests_bardie1", scene="global")
@@ -241,7 +241,7 @@ label ep24_quests_steve14:
 label ep24_quests_steve15:
     # Срабатывание на floor1, вторая часть визита Стива (зовут Монику в первый раз)
     $ remove_hook()
-    $ add_objective("steve_maid", _("Обслуживать гостей"), c_orange, 15)
+    $ add_objective("steve_maid", t_("Обслуживать гостей"), c_orange, 15)
     call ep24_dialogues3_steve10a() from _call_ep24_dialogues3_steve10a
     $ add_hook("Teleport_LivingRoom", "ep24_quests_steve17", scene="floor1")
     return
@@ -433,7 +433,7 @@ label ep24_quests_steve25:
     if monicaHasSexWithSteveBasement == True:
         $ questLog(31, False)
         $ questLog(32, True)
-        $ add_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu", label="dicksecretary_steve_money1", caption=_("Стив прислал деньги."), priority=95)
+        $ add_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu", label="dicksecretary_steve_money1", caption=t_("Стив прислал деньги."), priority=95)
         $ add_hook("DickSecretary", "ep22_quests_Dick8a", scene="dick_office_secretary", label="dicksecretary_alternative_dialogue1")
         $ add_hook("basement_monica_after_sleep_dialogue", "ep24_quests_steve29", scene="global")
     $ add_hook("Teleport_Building", "ep24_quests_steve30", scene="street_steve_office", label="steve_office_blocked_update")
@@ -509,7 +509,7 @@ label ep24_quests_steve34:
         return False
     $ remove_objective("ask_ralph")
     call question_helper_disable() from _rcall_question_helper_disable
-    $ add_objective("wait_for_steve", _("Дождаться второго прихода Стива в субботу."), c_blue, 55)
+    $ add_objective("wait_for_steve", t_("Дождаться второго прихода Стива в субботу."), c_blue, 55)
 
     $ remove_hook(label="steve_ralph_visit2")
     if monicaCleaningInProgressEngineWorkingFlag == True:

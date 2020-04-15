@@ -27,7 +27,7 @@ label monica_office_makeup_room_init:
     $ add_object_to_scene("Table2", {"type" : 2, "base" : "Office_Monica_MakeupRoom_Table2", "click" : "monica_office_makeup_room_environment", "actions" : "l", "zorder":3,"b":0.15, "group":"environment"}, scene="monica_office_makeup_room")
     $ add_object_to_scene("Table3", {"type" : 2, "base" : "Office_Monica_MakeupRoom_Table3", "click" : "monica_office_makeup_room_environment", "actions" : "l", "zorder":4,"b":0.15, "group":"environment"}, scene="monica_office_makeup_room")
 
-    $ add_object_to_scene("Teleport_Monica_Office_Photostudio", {"type":3, "text" : _("ФОТОСТУДИЯ"), "rarrow" : "arrow_down_2", "base":"Office_Monica_MakeupRoom_Teleport_Photostudio", "click" : "monica_office_makeup_room_teleport", "xpos" : 1688, "ypos" : 846, "zorder":11, "teleport":True}, scene="monica_office_makeup_room")
+    $ add_object_to_scene("Teleport_Monica_Office_Photostudio", {"type":3, "text" : t_("ФОТОСТУДИЯ"), "rarrow" : "arrow_down_2", "base":"Office_Monica_MakeupRoom_Teleport_Photostudio", "click" : "monica_office_makeup_room_teleport", "xpos" : 1688, "ypos" : 846, "zorder":11, "teleport":True}, scene="monica_office_makeup_room")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07

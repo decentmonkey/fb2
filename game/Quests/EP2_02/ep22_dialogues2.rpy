@@ -618,7 +618,7 @@ label ep22_dialogue2_8:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_3
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _call_textonblack_3
     scene black_screen
     with Dissolve(1)
     if bettyFredLandrySexPlanned == True:

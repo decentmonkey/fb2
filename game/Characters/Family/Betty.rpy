@@ -71,34 +71,34 @@ label bettyProgressLevelUp1:
     if char_data["level"] == 2:
         if ep22_started == False:
             $ char_data["enabled"] = False
-            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
         $ move_object("Betty", "floor2")
         $ add_hook("Betty_Life_day", "Betty_Life_day1_lower", scene="global", priority=50, label="betty_level2_onetime")
     if char_data["level"] == 3:
         $ char_data["enabled"] = True
-        $ char_data["caption"] = _("Бетти хочет чтобы я носила ее сумку с вещами на фитнесс...")
+        $ char_data["caption"] = t_("Бетти хочет чтобы я носила ее сумку с вещами на фитнесс...")
         $ char_data["show_caption_diabled"] = False
         call EP22_Quests_Betty1() from _call_EP22_Quests_Betty1
     if char_data["level"] == 4:
         $ char_data["enabled"] = False
-        $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+        $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
         $ char_data["show_caption_diabled"] = True
-#        $ char_data["caption_diabled"] = _("Work in progress...")
+#        $ char_data["caption_diabled"] = t_("Work in progress...")
         call ep24_quests_bardie1b() from _call_ep24_quests_bardie1b
 
 
     if char_data["level"] == 5:
         if char_info["Bardie"]["level"] < 5:
             $ char_data["enabled"] = False
-            $ char_data["caption_diabled"] = _("Ожидание дальнейшего прогресса сюжета игры...")
+            $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
             return
         call ep24_quests_betty5() from _call_ep24_quests_betty5
     if char_data["level"] == 6:
         $ char_data["enabled"] = False
         $ char_data["show_caption_diabled"] = False
-        $ char_data["caption_diabled"] = _("Work in progress...")
+        $ char_data["caption_diabled"] = t_("Work in progress...")
         help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
 
     return

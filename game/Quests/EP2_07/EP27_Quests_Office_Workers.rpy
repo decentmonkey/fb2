@@ -31,7 +31,7 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
         $ monicaWorkFlashCardQuestReportsNeedTalkBiff = True
         $ monicaWorkFlashCardReportLastDay = day
         $ remove_objective("reports_to_biff")
-        $ add_objective("reports_to_biff", _("Отдать собранные отчеты для Бифа."), c_green, 20)
+        $ add_objective("reports_to_biff", t_("Отдать собранные отчеты для Бифа."), c_green, 20)
         $ autorun_to_object("ep27_dialogues6_julia2", scene=scene_name)
         $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
         $ changeDayTime("evening") # Изменяем на вечер

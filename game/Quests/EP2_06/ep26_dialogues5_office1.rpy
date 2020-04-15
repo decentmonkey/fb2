@@ -144,7 +144,7 @@ label ep26_dialogues5_office1_2:
     # Если Моника обещала быть хорошей цыпочкой, то она отвечает это. Иначе: промолчать
         if monicaSaidBiffSheIsWillBeAGoodChick == True:
             music Hidden_Agenda
-            $ notif(_("Моника обещала быть хорошей цыпочкой."))
+            $ notif(t_("Моника обещала быть хорошей цыпочкой."))
             img 12840
             m "Я... Я хорошая цыпочка, Биф..."
 
@@ -571,7 +571,7 @@ label ep26_dialogues5_office1_2b:
 #    music stop
 #    img black_screen
 #    with Dissolve(2.0)
-#    call textonblack(_("5 минут спустя..."))
+#    call textonblack(t_("5 минут спустя..."))
 #    img black_screen
 #    with Dissolve(2.0)
     music Power_Bots_Loop

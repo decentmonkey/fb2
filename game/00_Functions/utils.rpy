@@ -80,9 +80,9 @@ init python:
     def notif_monica():
         global monicaBitch
         if monicaBitch:
-            notif(_("Моника стерва"))
+            notif(t_("Моника стерва"))
         else:
-            notif(_("Моника приличная"))
+            notif(t_("Моника приличная"))
 
         return
 

@@ -38,9 +38,9 @@ label whores_place_shawarma_init:
     $ add_object_to_scene("Trash7", {"type":2, "base":"Street_whores_place_shawarma_Trash7", "click" : "whores_place_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
     $ add_object_to_scene("Trash8", {"type":2, "base":"Street_whores_place_shawarma_Trash8", "click" : "whores_place_environment2", "actions" : "l", "zorder" : 0, "group":"environment"})
 
-    $ add_object_to_scene("Teleport_Clothing_Shop", {"type":3, "text" : _("К МАГАЗИНУ ОДЕЖДЫ"), "larrow" : "arrow_down_2", "base":"Street_whores_place_shawarma_Teleport_Clothing_Shop", "click" : "whores_place_shawarma_teleport2", "xpos" : 304, "ypos" : 856, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Street_Hostel", {"type":3, "text" : _("ПОДВОРОТНЯ"), "larrow" : "arrow_left_2", "base":"Street_whores_place_shawarma_Teleport_Street_Hostel", "click" : "whores_place_shawarma_teleport2", "xpos" : 182, "ypos" : 376, "zorder":15, "teleport":True})
-    $ add_object_to_scene("Teleport_Whores_Place", {"type":3, "text" : _("К ПЕРЕКРЕСТКУ"), "rarrow" : "arrow_right_2", "base":"Street_whores_place_shawarma_Teleport_Whores_Place", "click" : "whores_place_shawarma_teleport2", "xpos" : 1375, "ypos" : 1022, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Clothing_Shop", {"type":3, "text" : t_("К МАГАЗИНУ ОДЕЖДЫ"), "larrow" : "arrow_down_2", "base":"Street_whores_place_shawarma_Teleport_Clothing_Shop", "click" : "whores_place_shawarma_teleport2", "xpos" : 304, "ypos" : 856, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Street_Hostel", {"type":3, "text" : t_("ПОДВОРОТНЯ"), "larrow" : "arrow_left_2", "base":"Street_whores_place_shawarma_Teleport_Street_Hostel", "click" : "whores_place_shawarma_teleport2", "xpos" : 182, "ypos" : 376, "zorder":15, "teleport":True})
+    $ add_object_to_scene("Teleport_Whores_Place", {"type":3, "text" : t_("К ПЕРЕКРЕСТКУ"), "rarrow" : "arrow_right_2", "base":"Street_whores_place_shawarma_Teleport_Whores_Place", "click" : "whores_place_shawarma_teleport2", "xpos" : 1375, "ypos" : 1022, "zorder":15, "teleport":True})
 
 
     return

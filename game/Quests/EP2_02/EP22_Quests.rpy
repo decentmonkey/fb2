@@ -23,14 +23,14 @@ label ep22_init:
     $ replace_hook("AlexPhotograph", "monica_office_photostudio_alex_dialogue1", "ep22_dialogue6_4", scene="monica_office_photostudio")
 
     $ remove_objective("dick_money_tomorrow")
-    $ add_objective("dick_money_tomorrow", _("Срочно принести деньги Дику!"), c_pink, 40)
+    $ add_objective("dick_money_tomorrow", t_("Срочно принести деньги Дику!"), c_pink, 40)
     $ add_hook("basement_monica_after_sleep_dialogue", "ep22_dialogues2_3", scene="global")
 
 
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(_("Утро...")) from _call_textonblack_13
+    call textonblack(t_("Утро...")) from _call_textonblack_13
     img black_screen
     with Dissolve(2.0)
     call ep22_dialogues2_1() from _call_ep22_dialogues2_1
@@ -97,7 +97,7 @@ label ep22_betty_catch_process:
         $ autorun_to_object("ep22_dialogues2_5", scene="floor2")
         $ add_char_progress("Betty", -100, "refuse_to_clean_spot1")
         $ char_info["Betty"]["level"] = 1
-        $ notif(__(char_info["Betty"]["name_orig"]) + " " + __("прогресс понижен!"))
+        $ notif(t__(char_info["Betty"]["name_orig"]) + " " + t__("прогресс понижен!"))
         call change_scene("floor2") from _call_change_scene_220
         return False
     else:
