@@ -180,6 +180,7 @@ define cafe_visitor1 = Character(t_("Посетитель кафе"), who_color=
 define cafe_visitor2 = Character(t_("Посетитель кафе"), who_color=c_red)
 define cafe_barista = Character(t_("Бариста"), who_color=c_pink)
 #
+
 define client = Character(t_("Клиент"), who_color=c_green)
 define ned = Character(t_("Нэд"), who_color=c_green)
 define ned2 = Character(t_("Нэд"), who_color=c_red)
@@ -199,3 +200,6 @@ define guest6 = Character(t_("Мия"), who_color=c_pink)
 define guest7 = Character(t_("Адриано"), who_color=c_blue)
 define guest8 = Character(t_("Тернер"), who_color=c_green)
 define campbell = Character(t_("Мистер Кэмпбэлл"), who_color=c_green)
+
+define wife = Character(t_("Жена"), who_color=c_red)
+define husband = Character(t_("Муж"), who_color=c_blue)

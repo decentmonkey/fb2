@@ -1,3 +1,8 @@
+#v0.12
+define ep212_private_dance1 = 400 # Моника согласилась пойти в приват
+define ep212_private_dance2 = 420 # Моника согласилась назвать себя шлюхой за 50 долларов
+define ep212_private_dance3 = 460 # Моника согласилась потереться об клиента попой
+
 #v11
 default slumsApartmentsRentPrice = 300.0
 default slumsApartmentsRentPriceDiscount1 = 270.0
@@ -27,6 +32,8 @@ define monicaPhilipVisitDoubleBlowjobCorruption = 20 # За минет
 define monicaPubDanceStoleTipsBanker = 450 # Требуется для того, чтобы украсть чаевые от танцев (приват1)
 
 #v10
+=======
+
 define monicaPhilipHotelSexCorruption = 250 # Моника соглашается заняться сексом с Филиппом
 define monica_philip_visits_swallowed_corruption = 5 # Дается за глотание спермы
 define monica_philip_ask_money1_corruption = 2 # Дается за то что просит еще денег
