@@ -157,17 +157,14 @@ label change_scene(new_scene_name, in_transition_name="Fade", in_sound_name="hig
 #    $ scene_label = get_scene_label(scene_label)
     $ lastSceneName = scene_name
     $ scene_name = new_scene_name
-
     $ refreshed_scene_name = False
     $ scene_caption = scenes_data["objects"][scene_name]["data"]["caption"]
     $ scene_label = scenes_data["objects"][scene_name]["data"]["label"]
     $ api_scene_name = new_scene_name
 
-#    if sceneSpriteSurfacesCacheSceneName != scene_name:
-#        $ sceneSpriteSurfacesCacheIdle = {}
-#        $ sceneSpriteSurfacesCache = {}
-    $ sceneSpriteCacheAddScene(new_scene_name)
-
+    if sceneSpriteSurfacesCacheSceneName != scene_name:
+        $ sceneSpriteSurfacesCacheIdle = {}
+        $ sceneSpriteSurfacesCache = {}
     call process_hooks("before_open", scene_name) from _call_process_hooks_15 #хук до инициализации сцены
 #    $ renpy.free_memory()
     call expression scene_label from _call_expression_7
@@ -178,9 +175,9 @@ label refresh_scene(fade_param = False):
     if fade_param != False:
         $ scene_transition = fade_param
 
-#    if sceneSpriteSurfacesCacheSceneName != scene_name:
-#        $ sceneSpriteSurfacesCacheIdle = {}
-#        $ sceneSpriteSurfacesCache = {}
+    if sceneSpriteSurfacesCacheSceneName != scene_name:
+        $ sceneSpriteSurfacesCacheIdle = {}
+        $ sceneSpriteSurfacesCache = {}
 
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
@@ -210,7 +207,6 @@ label remove_dialogue():
 
 label after_load():
 #    $ renpy.free_memory()
-    $ sceneSpriteCacheClearAll()
     $ list_files_active = True
     $ refresh_list_files ()
     if renpy.get_screen("show_image_screen") or renpy.get_screen("screen_sprites"):
