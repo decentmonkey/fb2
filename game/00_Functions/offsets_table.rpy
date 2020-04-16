@@ -2980,12 +2980,15 @@ define offsets_table = {
     "rich_hotel_reception_philip1_overlay":(462,1413,1011,1793),
     "street_whores_place_car_stop_teleport_juliahome":(917,1542,1079,1919),
     "workingofficecabinet2_monica_workingoutfit1_2":(336,661,1079,1919),
+}
+
+
+
     "richhotel_lift_monica_escortdress1_3":(282,517,1079,736),
     "richhotel_lift_monica_escortdress1_3_overlay":(982,560,1079,768),
     "richhotel_lift_monica_visitor3":(282,517,1079,977),
     "richhotel_lift_visitor3_1":(304,756,1079,977),
     "richhotel_lift_visitor3_1_overlay":(1018,779,1079,996)
-}
 
 define overlays_offsets_table = {
     "img_23779_oversprite": {"1":[159,238,0,0,331,744],"2":[159,238,0,238,331,744],"3":[159,238,0,476,331,744],"4":[159,238,0,714,331,744]},

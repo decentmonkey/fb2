@@ -24,13 +24,13 @@ label street_monicahome:
     return
 
 label street_monicahome_init:
-
+    $ clear_scene_from_objects("street_monicahome")
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Street_MonicaHome_Monica_[cloth]_[streetMonicaHomeMonicaSuffix][day_suffix]", "click" : "street_monicahome_environment", "actions" : "l", "zorder":10}, scene="street_monicahome")
-    $ add_object_to_scene("Shawarma_Trader", {"type" : 2, "base" : "Street_MonicaHome_Jack1_[streetMonicaHomeJackSuffix][day_suffix]", "click" : "street_monicahome_environment", "actions" : "lt", "zorder":9}, scene="street_monicahome")
+#    $ add_object_to_scene("Shawarma_Trader", {"type" : 2, "base" : "Street_MonicaHome_Jack1_[streetMonicaHomeJackSuffix][day_suffix]", "click" : "street_monicahome_environment", "actions" : "lt", "zorder":9}, scene="street_monicahome")
     $ add_object_to_scene("ClosedWindow1", {"type" : 2, "base" : "Street_MonicaHome_ClosedWindow1", "click" : "street_monicahome_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="street_monicahome")
+    return
     $ add_object_to_scene("ClosedWindow2", {"type" : 2, "base" : "Street_MonicaHome_ClosedWindow2", "click" : "street_monicahome_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="street_monicahome")
     $ add_object_to_scene("Trash", {"type" : 2, "base" : "Street_MonicaHome_Trash", "click" : "street_monicahome_environment", "actions" : "l", "zorder":0, "b":0.15, "group":"environment"}, scene="street_monicahome")
-
     $ add_object_to_scene("HomeEnter", {"type" : 2, "base" : "Street_MonicaHome_Enter", "click" : "street_monicahome_teleport", "actions" : "lw", "zorder":0, "b":0.15, "group":"teleport"}, scene="street_monicahome")
     $ add_object_to_scene("MonicaWindow", {"type" : 2, "base" : "Street_MonicaHome_MonicaWindow", "click" : "street_monicahome_teleport", "actions" : "lw", "zorder":0, "b":0.15, "group":"teleport"}, scene="street_monicahome")
 

@@ -1,20 +1,20 @@
 # при условии, что у Барди достигнут максимальный уровень (8-?) и были сцены с одноклассником и не запущен ревендж-квест
 # после уборки Барди ловит Монику
 
-call ep212_dialogues1_bardie_ralph1() # разговор с Барди с подвале
-call ep212_dialogues1_bardie_ralph2() # Моника думает после разговора с Барди
-call ep212_dialogues1_bardie_ralph3() # Моника 1-й раз приходит убираться в гостиную, меню
-call ep212_dialogues1_bardie_ralph4() # Моника убирается в трусиках Юлии
-call ep212_dialogues1_bardie_ralph5() # разговор с Барди после 1-й уборки
-call ep212_dialogues1_bardie_ralph6() # мысли Моники после ухода Барди
-call ep212_dialogues1_bardie_ralph7() # Моника 2-й раз приходит убираться в гостиную, мысли
-call ep212_dialogues1_bardie_ralph8() # Моника убирается в трусиках Бетти
-call ep212_dialogues1_bardie_ralph9() # разговор с Барди после 2-й уборки
-call ep212_dialogues1_bardie_ralph10() # мысли Моники после ухода Барди
-call ep212_dialogues1_bardie_ralph11() # Моника 3-й раз приходит убираться в гостиную
-call ep212_dialogues1_bardie_ralph12() # Моника убирается без трусиков
-call ep212_dialogues1_bardie_ralph13() # разговор с Барди после 3-й уборки
-call ep212_dialogues1_bardie_ralph14() # мысли Моники после ухода Барди
+#call ep212_dialogues1_bardie_ralph1() # разговор с Барди с подвале
+#call ep212_dialogues1_bardie_ralph2() # Моника думает после разговора с Барди
+#call ep212_dialogues1_bardie_ralph3() # Моника 1-й раз приходит убираться в гостиную, меню
+#call ep212_dialogues1_bardie_ralph4() # Моника убирается в трусиках Юлии
+#call ep212_dialogues1_bardie_ralph5() # разговор с Барди после 1-й уборки
+#call ep212_dialogues1_bardie_ralph6() # мысли Моники после ухода Барди
+#call ep212_dialogues1_bardie_ralph7() # Моника 2-й раз приходит убираться в гостиную, мысли
+#call ep212_dialogues1_bardie_ralph8() # Моника убирается в трусиках Бетти
+#call ep212_dialogues1_bardie_ralph9() # разговор с Барди после 2-й уборки
+#call ep212_dialogues1_bardie_ralph10() # мысли Моники после ухода Барди
+#call ep212_dialogues1_bardie_ralph11() # Моника 3-й раз приходит убираться в гостиную
+#call ep212_dialogues1_bardie_ralph12() # Моника убирается без трусиков
+#call ep212_dialogues1_bardie_ralph13() # разговор с Барди после 3-й уборки
+#call ep212_dialogues1_bardie_ralph14() # мысли Моники после ухода Барди
 
 label ep212_dialogues1_bardie_ralph1:
     img black_screen

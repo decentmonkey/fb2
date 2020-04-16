@@ -114,6 +114,7 @@ label ep27_quests_office8_julia: # Моника заставляет собир�
     call ep27_dialogues6_julia1() from _call_ep27_dialogues6_julia1
     call process_hooks("office_work_process", "global") from _call_process_hooks_73
     call ep29_quests_melanie_check() from _call_ep29_quests_melanie_check # Проверка продолжения квеста с Мелани
+    call ep212_quests_melanie_check() # Проверка продолжения квеста с Мелани
 
     $ monicaWorkFlashCardQuestReportsCollectedBySelf = False
     $ monicaWorkFlashCardQuestNeedGiveReports = True

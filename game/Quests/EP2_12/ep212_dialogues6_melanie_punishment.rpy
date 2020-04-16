@@ -118,66 +118,67 @@ label ep212_dialogues6_melanie_punishment_1:
     mt "..."
 
     # если есть отношения с Юлией и Моника уже сказала ей, что та ей нравится
-    $ notif(t_("У Моники с Юлией отношения"))
-    img 17261
-#    with diss
-    m "Юлия, мне нужно обсудить с Мелани важный рабочий момент."
-    # Юлия бросает на Мелани ревнивый взгляд
-    img 17262
-    with diss
-    julia "!!!"
-    img 17263
-    with fade
-    m "..."
-    music Groove2_85
-    img 20800
-    with diss
-    julia "Я... Мне выйти, Миссис Бакфетт? "
-    img 22288
-    with diss
-    m "Да, выйди ненадолго."
-    # Юлия недовольная выходит из кабинета
-    sound highheels_short_walk
-    img 17266
-    with fade
-    w
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    sound2 snd_door_close1
-    pause 1.0
-
-    # если нет отношений с Юлией
-    music Stealth_Groover
-    img 20810
-    with fade
-    m "Юлия!"
-    m "Я смотрю, наш разговор с Мелани тебя интересует больше, чем работа?!"
-    img 17264
-    with diss
-    julia "Н-нет, Миссис Бакфетт..."
-    julia "Извините..."
-    img 20811
-    with fade
-    m "Выйди из кабинета!"
-    img 17265
-    with diss
-    julia "Д-да, конечно."
-    img 20798
-    with diss
-    m "Быстро!"
-    # Юлия недовольная выходит из кабинета
-    sound highheels_short_walk
-    img 17266
-    with fade
-    w
-    music stop
-    img black_screen
-    with diss
-    sound highheels_short_walk
-    sound2 snd_door_close1
-    pause 1.0
+    if ep210_julia_first_date_begin_day > 0:
+        $ notif(t_("У Моники с Юлией отношения"))
+        img 17261
+    #    with diss
+        m "Юлия, мне нужно обсудить с Мелани важный рабочий момент."
+        # Юлия бросает на Мелани ревнивый взгляд
+        img 17262
+        with diss
+        julia "!!!"
+        img 17263
+        with fade
+        m "..."
+        music Groove2_85
+        img 20800
+        with diss
+        julia "Я... Мне выйти, Миссис Бакфетт? "
+        img 22288
+        with diss
+        m "Да, выйди ненадолго."
+        # Юлия недовольная выходит из кабинета
+        sound highheels_short_walk
+        img 17266
+        with fade
+        w
+        music stop
+        img black_screen
+        with diss
+        sound highheels_short_walk
+        sound2 snd_door_close1
+        pause 1.0
+    else:
+        # если нет отношений с Юлией
+        music Stealth_Groover
+        img 20810
+        with fade
+        m "Юлия!"
+        m "Я смотрю, наш разговор с Мелани тебя интересует больше, чем работа?!"
+        img 17264
+        with diss
+        julia "Н-нет, Миссис Бакфетт..."
+        julia "Извините..."
+        img 20811
+        with fade
+        m "Выйди из кабинета!"
+        img 17265
+        with diss
+        julia "Д-да, конечно."
+        img 20798
+        with hpunch
+        m "Быстро!"
+        # Юлия недовольная выходит из кабинета
+        sound highheels_short_walk
+        img 17266
+        with fade
+        w
+        music stop
+        img black_screen
+        with diss
+        sound highheels_short_walk
+        sound2 snd_door_close1
+        pause 1.0
 
     # Моника, как только Юлия выходит из кабинета, вскакивает со своего стула
     music Master_Disorder
@@ -188,8 +189,8 @@ label ep212_dialogues6_melanie_punishment_1:
     m "Я даже слышать об этом ничего не хочу!"
     img 17268
     with fade
-    m "Какая-то выскочка решила поиграть со мной, Моникой Бакфетт, в свои извращенские игры!!!"
-    m "И думает, что ей это просто так сойдет с рук!!!"
+    mt "Какая-то выскочка решила поиграть со мной, Моникой Бакфетт, в свои извращенские игры!!!"
+    mt "И думает, что ей это просто так сойдет с рук!!!"
     # Мелани спокойно смотрит на Монику
     music ZigZag
     img 15418
@@ -230,7 +231,7 @@ label ep212_dialogues6_melanie_punishment_1:
             melanie_t "Миссис Бакфетт, конечно, не самая умная женщина..."
             melanie_t "И в такие моменты я в этом убеждаюсь лишний раз..."
             # Мелани выходит из кабинета
-            return
+            return False
     # Моника садится на свой стул
     music ZigZag
     img 17271
@@ -345,7 +346,11 @@ label ep212_dialogues6_melanie_punishment_1:
     mt "Надеюсь, что никаких проблем этот никчемный фотограф не доставит."
     mt "В конце концов, давно пора поставить сучку Викторию на место!"
     mt "Ненавижу эту тварь!"
-    $ log1 = t_("Пойти домой к Мелани вечером")
+#    $ log1 = t_("Пойти домой к Мелани вечером")
+    return True
+
+label ep212_dialogues6_melanie_punishment_1a:
+    mt "Сегодня вечером, после работы."
     return
 
 # Моника в конце рабочего дня
@@ -682,7 +687,7 @@ label ep212_dialogues6_melanie_punishment_4:
             scene black_screen
             with Dissolve(1)
             # затемнение экрана
-            return
+            return False
     music Master_Disorder
     img 17328
     with fade
@@ -1113,7 +1118,7 @@ label ep212_dialogues6_melanie_punishment_6:
             scene black_screen
             with Dissolve(1)
             # затемнение экрана
-            return
+            return False
     music Master_Disorder
     img 17369
     with diss
@@ -1213,6 +1218,7 @@ label ep212_dialogues6_melanie_punishment_6:
             img 17392
             with fade
             w
+            $ ep212_quests_alex_cummed_area = 1
             pass
         "Кончить на лицо Мелани.":
             img 17387
@@ -1234,6 +1240,7 @@ label ep212_dialogues6_melanie_punishment_6:
             img 17391
             with fade
             w
+            $ ep212_quests_alex_cummed_area = 2
             pass
         "Кончить на грудь Мелани.":
             img 17388
@@ -1255,6 +1262,7 @@ label ep212_dialogues6_melanie_punishment_6:
             img 17389
             with fade
             w
+            $ ep212_quests_alex_cummed_area = 3
             pass
     music Groove2_85
     img 17385
@@ -1387,6 +1395,13 @@ label ep212_dialogues6_melanie_punishment_9:
     mt "Ненавижу ее!"
     mt "!!!"
     return
+
+label ep212_dialogues6_melanie_punishment_9a:
+    if act=="l":
+        return
+    melanie "Миссис Бакфетт... Пожалуйста..."
+    melanie "Я хочу побыть одна!"
+    return False
 
 # через несколько дней после фотосессии в наряде "Королева сердец"
 # Моника заходит в свой отдел отчетов
