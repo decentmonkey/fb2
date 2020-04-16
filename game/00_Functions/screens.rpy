@@ -1425,12 +1425,13 @@ screen say(who, what):
             action [
 #                Notify("click!"),
                 Return(True)
-            ],
+            ]
             alternate [
 #                Notify("hide!"),
-                Hide("say")
+                #Hide("say")
+                Function(check_hide_text)
             ]
-    key "h" action Hide("say")
+    key "h" action Function(check_hide_text)
     key "c" action [
         Call("mycopytext_label" ,what),
     ]

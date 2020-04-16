@@ -95,6 +95,11 @@ init python:
     def round_down(x, a):
         return math.floor(x / a) * a
 
+    def check_hide_text():
+        if not renpy.get_screen("screen_sprites"):
+            renpy.hide_screen("say")
+        return
+
 label mycopytext_label(txt):
     $ mycopytext(txt)
     return

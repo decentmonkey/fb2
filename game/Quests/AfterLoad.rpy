@@ -10,4 +10,5 @@ label process_afterload:
     call monica_cheats_init() from _rcall_monica_cheats_init
     call ep210_quests_load_init() from _rcall_ep210_quests_load_init
     call ep211_quests_load_init() from _rcall_ep211_quests_load_init
+    call ep212_quests_load_init()
     return

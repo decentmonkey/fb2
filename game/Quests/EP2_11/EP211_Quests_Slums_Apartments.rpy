@@ -25,6 +25,7 @@ label ep211_quests_slums_apartments0_check:
     $ add_hook("enter_scene", "ep211_dialogues6_slum_apartment_2", scene="whores_place_shawarma", label="slums_apartments_begin", once=True)
     $ slumsApartmentsShawarmaTraderDialogue1Active = True
     call ep211_dialogues6_slum_apartment_1() from _rcall_ep211_dialogues6_slum_apartment_1
+    $ print "hook finished!"
     return
 
 label ep211_quests_slums_apartments1_init:

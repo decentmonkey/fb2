@@ -250,6 +250,8 @@ label ep29_quests_monica_college_visit4_bardie:
     $ autorun_to_object("dialogue_classmate_15a", scene="floor2")
     $ remove_objective("go_to_bardie")
     $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_check_next", scene="floor2", label="ep29_quests_monica_college_check_next")
+    $ monicaCollege1FinishedDay = day
+    call ep212_quests_bardie_ralph1()
     call refresh_scene_fade() from _call_refresh_scene_fade_209
     return False
 
