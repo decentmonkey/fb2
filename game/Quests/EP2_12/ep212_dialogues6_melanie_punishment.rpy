@@ -527,7 +527,7 @@ label ep212_dialogues6_melanie_punishment_4:
     # Виктория смотрит на портрет Мелани, который она разрисовывала на девичнике, помада стерта
     sound Jump2
     img 17304
-    with diss
+#    with diss
     victoria "???"
     # потом снова смотрит на Мелани
     music Groove2_85
