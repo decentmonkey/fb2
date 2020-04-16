@@ -363,7 +363,7 @@ label ep212_dialogues6_melanie_punishment_2:
     mt "И у нас будет компромат на сучку Викторию!"
     mt "Не могу дождаться этого момента!"
     mt "!!!"
-    return
+    return False
 
 # Моника пытается пойти к Мелани в любом наряде, кроме одежды шлюхи
 # мысли
@@ -377,6 +377,11 @@ label ep212_dialogues6_melanie_punishment_4:
     # Моника заходит в квартиру Мелани, садится на диван (или стул)
     # Мелани в красном пеньюаре
     # Моника переживает
+    music stop
+    sound highheels_run2
+    img black_screen
+    with diss
+    pause 2.0
     music ZigZag
     img 17283
     with fadelong
@@ -450,7 +455,7 @@ label ep212_dialogues6_melanie_punishment_4:
     alex_photograph "Привет, Мелани!"
     melanie "Здравствуй, Алекс."
     img 17291
-    with fade
+    with vpunch
     m "Алекс?!" # удивленно
     # Алекс переводит взгляд на Монику и удивленно
     img 17292
@@ -736,76 +741,6 @@ label ep212_dialogues6_melanie_punishment_5:
     melanie "..."
     alex_photograph "Ну что, начнем."
 
-    # поза 1
-    alex_photograph "Отличная поза, Мелани."
-    melanie "Алекс, старайся не брать крупным планом..."
-    victoria "Нет-нет. Так не пойдет."
-    victoria "Нужно что-то более раскрепощенное, подружка Мелани."
-    melanie_t "!!!"
-
-    # поза 2
-    victoria "Подружка Мелани сейчас перестанет прикрываться."
-    victoria "Не забывай, что у нас откровенная фотосессия."
-    alex_photograph "О, отличный ракурс! Это будут шедевральные кадры!"
-    melanie_t "Алекс так радуется..."
-    melanie_t "Как-будто я позволю ему оставить эти кадры себе..."
-
-    # поза 3
-    victoria "Алекс, возьми еще с этого ракурса."
-    melanie "Алекс, думаю, что это перебор."
-    alex_photograph "Что ты, Мелани! В кадре все смотрится прекрасно!"
-    melanie_t "!!!"
-
-    # поза 4
-    victoria "Подружка Мелани, расставь ноги пошире."
-    victoria "Это будет смотреться более изысканно."
-    melanie "Алекс, ты помнишь, что я тебе говорила про кадры крупным планом?"
-    alex_photograph "Да, Мелани, конечно."
-    alex_photograph "Не беспокойся."
-    melanie_t "Дрянь!"
-
-    # поза 5
-    victoria "Думаю, если подружка Мелани снимет свои трусики..."
-    victoria "Кадры станут намного интереснее."
-    victoria "Что скажешь, Алекс?"
-    alex_photograph "О, да! Это отличная идея, Мисс Виктория!"
-    melanie "Алекс, недостаточно того, что у меня грудь практически не прикрыта?"
-    alex_photograph "Мелани,  не переживай."
-    alex_photograph "Я буду брать такие ракурсы, что ничего лишнего не будет видно."
-    melanie_t "Он думает, что меня также легко обмануть, как Миссис Бакфетт..."
-    # Виктория пристально смотрит на нее
-    img 17429
-    with fade
-    victoria "Ну? Мы ждем, подружка..."
-    melanie_t "!!!"
-    # Мелани снимает трусики и остается в одном прозрачном пеньюаре
-    sound snd_fabric1
-    img 17430
-    with diss
-    # поза 6
-    victoria "По-моему, отличная поза."
-    victoria "Не останавливайся, Алекс. Продолжай работать."
-    melanie "Алекс, мы делаем кадры для порножурнала?"
-    alex_photograph "Нет, конечно, Мелани!"
-    melanie "Тогда не нужно делать кадры в такой позе."
-    melanie_t "!!!"
-
-    # поза 7
-    victoria "Алекс, возьми еще с этого ракурса крупным планом."
-    victoria "Получится отличный кадр."
-    melanie_t "Сучка!"
-
-    # поза 8
-    melanie "Алекс, думаю, что пора заканчивать."
-    alex_photograph "Еще несколько кадров, Мелани!"
-    alex_photograph "Ты не представляешь, какие шикарные кадры получаются!"
-    melanie_t "Тебе осталось недолго радоваться этим кадрам..."
-
-    # поза 9
-    victoria "Нужно сделать снимки еще в этой позе."
-    victoria "И с этого ракурса."
-    melanie_t "!!!"
-    alex_photograph "Отличная идея, Мисс Виктория!"
 
     # завершения фотосессии
     # Алекс доволен
@@ -1142,7 +1077,8 @@ label ep212_dialogues6_melanie_punishment_6:
     img black_screen
     with diss
     sound highheels_short_walk
-    pause 1.0
+    sound snd_zip
+    pause 2.0
     music Groove2_85
     img 17372
     with fadelong
@@ -1171,6 +1107,10 @@ label ep212_dialogues6_melanie_punishment_6:
     with diss
     alex_photograph "Ну? Отрабатывай свои деньги!"
     # делает минет Алексу
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 17377
     with fade
@@ -1375,6 +1315,10 @@ label ep212_dialogues6_melanie_punishment_7:
     melanie "Я сотру стерву Викторию в порошок!"
     melanie "Я сделаю для этого абсолютно все!"
     melanie "!!!"
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     return
 
 # мысли Моники, после того как ушла от Мелани, если Мелани отказала Виктории
