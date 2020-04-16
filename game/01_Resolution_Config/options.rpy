@@ -255,6 +255,9 @@ init python:
     build.documentation('*.txt')
 
 #    config.keymap["game_menu"].remove("mouseup_3")
+#    config.keymap["button_ignore"] = []
+#    config.keymap["button_select"] = ["mousedown_1"]
+
     config.keymap["hide_windows"] = []
     config.keymap["rollback"] = []
     config.keymap["rollforward"] = []

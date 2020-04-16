@@ -53,8 +53,7 @@ python early:
             imagePath = imagePathExt[0]
 
         check_achievement(imagePathExt[1])
-
-        if (renpy.get_screen("say") != None or renpy.get_screen("choice") != None or renpy.get_screen("window") != None or dialogue_active_flag == True) and persistent.pause_before_change_slide == True:
+        if (renpy.get_screen("say") != None or renpy.get_screen("choice") != None or renpy.get_screen("window") != None or dialogue_active_flag == True) and persistent.pause_before_change_slide == True and renpy.get_screen("show_image_screen_image") != None:
             renpy.hide_screen("say")
             renpy.hide_screen("choice")
             renpy.hide("window")
