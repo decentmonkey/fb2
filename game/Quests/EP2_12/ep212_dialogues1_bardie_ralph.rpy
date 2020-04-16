@@ -531,7 +531,7 @@ label ep212_dialogues1_bardie_ralph4: # Моника убирается в тр�
     # не рендерить
     music stop high
     scene black_screen
-    with Dissolve(1)
+    with diss
     sound highheels_short_walk
     pause 1.5
     music Hidden_Agenda high
@@ -702,7 +702,7 @@ label ep212_dialogues1_bardie_ralph8: # Моника убирается в тр�
     # не рендерить
     music stop high
     scene black_screen
-    with Dissolve(1)
+    with diss
     sound highheels_short_walk
     pause 1.5
     music Hidden_Agenda high
@@ -1206,7 +1206,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     # не рендерить
     music stop
     scene black_screen
-    with Dissolve(1)
+    with diss
     sound highheels_short_walk
     pause 1.5
     music Hidden_Agenda high
