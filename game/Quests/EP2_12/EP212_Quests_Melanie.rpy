@@ -35,6 +35,7 @@ label ep212_quests_melanie1_check_teleport:
     return False
 
 label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
+    $ hud_preset_current = map_source_scene_hud_preset
     $ remove_objective("go_to_melanie")
     $ remove_hook(label="melanie_disappeared_after_victoria") # Включаем Мелани
     $ add_hook("Melanie", "ep212_dialogues6_melanie_punishment_9a", scene="monica_office_makeup_room", label="ep212_quests_melanie_block")
@@ -45,7 +46,7 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
         call ep212_quests_melanie3_go_monica_home()
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
-    # call фотосессия
+    call ep212_melanie_home_photoshoot1a()
     $ ep212_quests_melanie_made_private_photoshoot1 = True
     call ep212_dialogues6_melanie_punishment_5()
     call ep212_dialogues6_melanie_punishment_6()
@@ -57,16 +58,18 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
     call ep212_dialogues6_melanie_punishment_7()
-    $ autorun_to_object("ep212_dialogues6_melanie_punishment_9", scene=_return)
     $ ep212_quests_melanie_completed = True
     $ ep212_quests_melanie_completed_day = day
     $ remove_hook(label="ep212_quests_melanie")
     call ep212_quests_melanie3_go_monica_home()
+    $ autorun_to_object("ep212_dialogues6_melanie_punishment_9", scene=_return)
     return False
 
 label ep212_quests_melanie3_go_monica_home: # Завершение квеста
     if slumsApartmentsRentActive == True:
+        call process_change_map_location("Slums_Apartments")
         call change_scene("street_monicahome", "Fade_long", False)
         return "street_monicahome"
+    call process_change_map_location("House")
     call change_scene("street_house_outside", "Fade_long", False)
     return "street_house_outside"

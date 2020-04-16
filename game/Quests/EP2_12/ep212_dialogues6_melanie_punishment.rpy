@@ -2,16 +2,16 @@ default monicaMelanieVictoriaPunishment1 = False  # Моника согласи�
 default monicaMelanieVictoriaPunishment2 = False  # Мелани согласилась на откровенную фотосессию
 default monicaMelanieVictoriaPunishment3 = False  # Мелани согласилась на секс с Алексом на камеру
 
-call ep212_dialogues6_melanie_punishment_1() # кабинет Моники, пришла Мелани
-call ep212_dialogues6_melanie_punishment_2() # Моника в конце рабочего дня (мысли)
-call ep212_dialogues6_melanie_punishment_3() # Моника пытается пойти к Мелани в любом наряде, кроме одежды шлюхи (мысли)
-call ep212_dialogues6_melanie_punishment_4() # квартира Мелани, приходят Алекс и Виктория
-call ep212_dialogues6_melanie_punishment_5() # фотосессия
-call ep212_dialogues6_melanie_punishment_6() # сцена с блоуджобом
-call ep212_dialogues6_melanie_punishment_7() # Алекс ушел, Виктория рисует на портрете
-call ep212_dialogues6_melanie_punishment_8() # мысли Моники, после того как ушла от Мелани, если Мелани отказала Виктории
-call ep212_dialogues6_melanie_punishment_9() # мысли Моники, после того как ушла от Мелани, если сцена была проиграна полностью
-call ep212_dialogues6_melanie_punishment_10() # офис, сотрудники рассматривают обложку журнала
+#call ep212_dialogues6_melanie_punishment_1() # кабинет Моники, пришла Мелани
+#call ep212_dialogues6_melanie_punishment_2() # Моника в конце рабочего дня (мысли)
+#call ep212_dialogues6_melanie_punishment_3() # Моника пытается пойти к Мелани в любом наряде, кроме одежды шлюхи (мысли)
+#call ep212_dialogues6_melanie_punishment_4() # квартира Мелани, приходят Алекс и Виктория
+#call ep212_dialogues6_melanie_punishment_5() # фотосессия
+#call ep212_dialogues6_melanie_punishment_6() # сцена с блоуджобом
+#call ep212_dialogues6_melanie_punishment_7() # Алекс ушел, Виктория рисует на портрете
+#call ep212_dialogues6_melanie_punishment_8() # мысли Моники, после того как ушла от Мелани, если Мелани отказала Виктории
+#call ep212_dialogues6_melanie_punishment_9() # мысли Моники, после того как ушла от Мелани, если сцена была проиграна полностью
+#call ep212_dialogues6_melanie_punishment_10() # офис, сотрудники рассматривают обложку журнала
 
 
 
@@ -725,6 +725,15 @@ label ep212_dialogues6_melanie_punishment_4:
     with diss
     victoria "Эта одежда вполне сойдет для фотосессии..."
     victoria "Ну что? Приступим?"
+
+#    music ZigZag
+    music Molten_Alloy
+    img 17428
+    with fadelong
+    alex_photograph "Мелани, я так рад, что ты согласилась на эту фотосессию."
+    # смотрит на него холодно
+    melanie "..."
+    alex_photograph "Ну что, начнем."
     return
 
 
@@ -733,13 +742,7 @@ label ep212_dialogues6_melanie_punishment_4:
 label ep212_dialogues6_melanie_punishment_5:
     # Моника наблюдает со стороны, Мелани позирует
     # Виктория комментирует и заставляет принимать максимально открытые позы и брать соотв. ракурсы
-    music ZigZag
-    img 17428
-    with fadelong
-    alex_photograph "Мелани, я так рад, что ты согласилась на эту фотосессию."
-    # смотрит на него холодно
-    melanie "..."
-    alex_photograph "Ну что, начнем."
+
 
 
     # завершения фотосессии
@@ -1111,31 +1114,108 @@ label ep212_dialogues6_melanie_punishment_6:
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     img 17377
     with fade
     w
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Melanie_Alex_Blowjob1_1 = Movie(play="video/v_Melanie_Alex_Blowjob1_1.mkv", fps=30)
+    show videov_Melanie_Alex_Blowjob1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17378
     with diss
     alex_photograph "Ооооо, Меланиииии!!!"
     img 17379
     with fade
     w
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Melanie_Alex_Blowjob1_2 = Movie(play="video/v_Melanie_Alex_Blowjob1_2.mkv", fps=30)
+    show videov_Melanie_Alex_Blowjob1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17384
     with diss
     alex_photograph "Ааааааа!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Melanie_Alex_Blowjob1_3 = Movie(play="video/v_Melanie_Alex_Blowjob1_3.mkv", fps=30)
+    show videov_Melanie_Alex_Blowjob1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17380
     with fade
     alex_photograph "Возьми его глубже!"
     img 17381
     with diss
+    w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Melanie_Alex_Blowjob1_4 = Movie(play="video/v_Melanie_Alex_Blowjob1_4.mkv", fps=30)
+    show videov_Melanie_Alex_Blowjob1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Blowjob_1_1.ogg"
+    scene black
+    image videov_Melanie_Alex_Blowjob1_5 = Movie(play="video/v_Melanie_Alex_Blowjob1_5.mkv", fps=30)
+    show videov_Melanie_Alex_Blowjob1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     alex_photograph "Ещеееее!!!"
     img 17382
     with fade
+    w
     alex_photograph "Быстрее! Быстрее!!!"
+    music2 stop
     music Loved_up2
     img 17383
     with diss
+    w
     # Алекс кончает
     menu:
         "Кончить в рот Мелани.":
