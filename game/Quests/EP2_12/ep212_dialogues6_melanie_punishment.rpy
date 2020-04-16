@@ -118,7 +118,7 @@ label ep212_dialogues6_melanie_punishment_1:
     mt "..."
 
     # если есть отношения с Юлией и Моника уже сказала ей, что та ей нравится
-    $ notif(_("У Моники с Юлией отношения"))
+    $ notif(t_("У Моники с Юлией отношения"))
     img 17261
 #    with diss
     m "Юлия, мне нужно обсудить с Мелани важный рабочий момент."
@@ -345,7 +345,7 @@ label ep212_dialogues6_melanie_punishment_1:
     mt "Надеюсь, что никаких проблем этот никчемный фотограф не доставит."
     mt "В конце концов, давно пора поставить сучку Викторию на место!"
     mt "Ненавижу эту тварь!"
-    $ log1 = _("Пойти домой к Мелани вечером")
+    $ log1 = t_("Пойти домой к Мелани вечером")
     return
 
 # Моника в конце рабочего дня
@@ -845,7 +845,7 @@ label ep212_dialogues6_melanie_punishment_6:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("Минуту спустя..."))
+    call textonblack(t_("Минуту спустя..."))
     scene black_screen
     with Dissolve(1)
     music Master_Disorder
@@ -1271,7 +1271,7 @@ label ep212_dialogues6_melanie_punishment_7:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время..."))
     scene black_screen
     with Dissolve(1)
     music Groove2_85

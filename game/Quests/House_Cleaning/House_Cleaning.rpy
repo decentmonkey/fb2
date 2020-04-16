@@ -8,6 +8,7 @@ default monicaCleaningInProgressEngineWorkingFlag = False
 
 default monicaHouseCleaningBettyAffection = True
 
+default houseCleaningShortEnd = False
 #default houseCleaningCurrent = 3
 #default houseCleaningCurrentList = []
 
@@ -34,6 +35,7 @@ label house_cleaning:
 
 label house_cleaning_start:
     # старт уборки
+    $ houseCleaningShortEnd = False
     $ miniMapEnabledOnly = ["none"]
     if monicaCleaningInProgressEngineWorkingFlag == False:
         $ houseCleaningStoredScene = store_scene("House", recursive=True)
@@ -57,7 +59,6 @@ label house_cleaning_start:
 
     $ store_music()
     music Sugar_plum high
-
 
     call house_cleaning_start3() from _call_house_cleaning_start3
 
@@ -181,6 +182,8 @@ label house_cleaning_clean_object:
         call refresh_scene("Dissolve_fast") from _call_refresh_scene_6
         return False
 
+    if houseCleaningShortEnd == True:
+        jump house_cleaning_room_finished_short
     $ autorun_to_object("house_cleaning_room_finished")
     call refresh_scene("Dissolve_fast") from _call_refresh_scene_7
     return False
@@ -199,6 +202,7 @@ label house_cleaning_room_finished:
             call refresh_scene("Dissolve_fast") from _call_refresh_scene_8
             return False
 
+label house_cleaning_room_finished_short:
     if spotCleaning == True:
         call house_cleaning_spot() from _call_house_cleaning_spot
         return False

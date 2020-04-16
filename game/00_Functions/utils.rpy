@@ -98,6 +98,12 @@ init python:
     def check_hide_text():
         if not renpy.get_screen("screen_sprites"):
             renpy.hide_screen("say")
+            return
+        return True
+
+    def cleaning_sound():
+        cleanSound = "cleaning" + str(renpy.random.randint(1, 3))
+        sound_exec(cleanSound)
         return
 
 label mycopytext_label(txt):

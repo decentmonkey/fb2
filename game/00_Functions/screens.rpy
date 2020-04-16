@@ -98,11 +98,12 @@ screen show_image_screen_image(image_name):
 screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
     layer "master"
     zorder 16
-    $ canvas_data = canvas_offsets[str(overlayName)]
-    $ croppedOverlay = im.Crop(image_name, (getRes(canvas_data[3]), getRes(canvas_data[2]), getRes(canvas_data[1]), getRes(canvas_data[0])))
-    add croppedOverlay:
-        xpos getRes(canvas_data[5])
-        ypos getRes(canvas_data[4])
+    if canvas_offsets != False and canvas_offsets.has_key(str(overlayName)) != False:
+        $ canvas_data = canvas_offsets[str(overlayName)]
+        $ croppedOverlay = im.Crop(image_name, (getRes(canvas_data[3]), getRes(canvas_data[2]), getRes(canvas_data[1]), getRes(canvas_data[0])))
+        add croppedOverlay:
+            xpos getRes(canvas_data[5])
+            ypos getRes(canvas_data[4])
 
 screen show_image_screen(image_name):
     layer "master"
@@ -1385,38 +1386,38 @@ screen say(who, what):
     zorder 200
     style_prefix "say"
 
-    $ in_who = who
-    $ in_what = what
-
-#    python:
-#        global last_dialogue_character
-#        global dialogue_active_flag, screenActionHappened
-#        print who
-#        if who == "Noone":
-#            who = last_dialogue_character
-#        else:
-#            last_dialogue_character = who
-#        dialogue_active_flag = True
-#        screenActionHappened = True
-
-#        what = re.sub("\!\s{1,}", "!\n", what)
-#        what = re.sub("\?\s{1,}", "?\n", what)
-#        what = re.sub("\.\s{1,}", ".\n", what)
-#        what = re.sub("Mr\.\\n", "Mr. ", what)
-#        what = re.sub("Mrs\.\\n", "Mrs. ", what)
-#        mycopytext(what)
-
+    python:
+        try:
+            eWho = eval(who)
+            who_color = eWho.who_args["color"] if eWho.who_args.has_key("color") else False
+            what_color = eWho.what_args["color"] if eWho.what_args.has_key("color") else False
+            what_italic = eWho.what_args["italic"] if eWho.what_args.has_key("italic") else False
+            who_name = eWho.name
+        except:
+            who_color = False
+            what_color = False
+            what_italic = False
+            who_name = who
     window:
         id "window"
-
         if who is not None:
 
             window:
                 id "namebox"
                 style "namebox"
-                text who id "who"
+                if who_color != False:
+                    text t__(who_name) id "who":
+                        color who_color
+                else:
+                    text t__(who_name) id "who"
 
-        text what id "what"
+        if what_color != False:
+            text what id "what":
+                color what_color
+                italic what_italic
+        else:
+            text what id "what":
+                italic what_italic
 
     fixed:
         button:

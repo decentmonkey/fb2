@@ -151,7 +151,7 @@ label ep212_dialogues1_bardie_ralph1:
     bardie "Тогда я иду к Мистеру Маркусу прямо сейчас!"
     music Master_Disorder
     img 9691
-    with diss
+    with hpunch
     mt "Дьявол!"
     mt "Это конец!"
     img 17604
@@ -331,7 +331,7 @@ label ep212_dialogues1_bardie_ralph1:
     with fade
     bardie "Я имею ввиду мою игрушку, которая сделает эти материалы для хозяина."
     img 9683
-    with diss
+#    with diss
     m "Ты имеешь ввиду - Меня?!"
     img 9674
     with fade
@@ -346,7 +346,7 @@ label ep212_dialogues1_bardie_ralph1:
     bardie "Я делаю с тобой все что хочу!"
     music Power_Bots_Loop
     img 9680
-    with diss
+#    with diss
     m "ТЫ..."
     m "ТЫ... ТЫ..."
     music Sneaky_Snitch
@@ -455,6 +455,9 @@ label ep212_dialogues1_bardie_ralph1:
 
 label ep212_dialogues1_bardie_ralph2:
     # Моника думает
+    music stop
+    img black_screen
+    pause 1.5
     music Groove2_85
     img 15844
     with fadelong
@@ -477,17 +480,23 @@ label ep212_dialogues1_bardie_ralph2:
     mt "Точно, Моника!"
     mt "Как тебе это не пришло в голову сразу?!"
     mt "Ну все, держитесь!"
-    $ log1 = _("Соблазнить Ральфа.")
-    $ log1 = _("Барди хочет, чтобы я соблазнила Ральфа и сделала для него материалы... Но, может быть, это мой шанс вернуть назад свой дом?")
+#    $ log1 = t_("Соблазнить Ральфа.")
+#    $ log1 = t_("Барди хочет, чтобы я соблазнила Ральфа и сделала для него материалы... Но, может быть, это мой шанс вернуть назад свой дом?")
     return
 
 label ep212_dialogues1_bardie_ralph3: # Моника приходит убираться в гостиную
     # не рендерить
+    if monicaBardieRalphSeducingStage == 1:
+        $ menu_corruption = [ep212_seduce_ralph1]
+    if monicaBardieRalphSeducingStage == 2:
+        $ menu_corruption = [ep212_seduce_ralph2]
+    if monicaBardieRalphSeducingStage == 3:
+        $ menu_corruption = [ep212_seduce_ralph4]
     menu:
         "Соблазнять Ральфа.":
-            pass
+            return True
         "Убираться как обычно.":
-            pass
+            return False
 #    menu:
 #        "Убираться на виду Ральфа в трусиках Юлии.":
 #            pass
@@ -495,6 +504,8 @@ label ep212_dialogues1_bardie_ralph3: # Моника приходит убира
 #            pass
 #        "Убираться на виду Ральфа без трусиков":
 #            pass
+
+label ep212_dialogues1_bardie_ralph3a: # Моника приходит убираться в гостиную в первый раз
     mt "Вот и Ральф..."
     mt "Легкая жертва для такой красивой девушки как я..."
     mt "Уверена, что он никогда не сталкивался с красотой, подобной моей..."
@@ -504,65 +515,87 @@ label ep212_dialogues1_bardie_ralph3: # Моника приходит убира
     mt "И я верну назад этот дом!"
 
     # если нет трусиков или одеты трусики Бетти
-    mt "Однако, не думаю что стоит делать это без трусиков."
-    mt "Однако, не думаю что стоит делать это в трусиках Бетти."
-    mt "Для такого как он будет достаточно надеть [трусики Юлии]..."
-    mt "Сделаю это в следующую уборку."
+    if monicaUnder == "Nude":
+        mt "Однако, не думаю что стоит делать это без трусиков."
+        return False
+    if monicaBettyPanties == True:
+        mt "Однако, не думаю что стоит делать это в трусиках Бетти."
+        mt "Для такого как он будет достаточно надеть [трусики Юлии]..."
+        mt "Сделаю это в следующую уборку."
+        return False
     #
-
-    return
+    return True
 
 
 label ep212_dialogues1_bardie_ralph4: # Моника убирается в трусиках Юлии
     # не рендерить
-    music stop
+    music stop high
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
-    music Hidden_Agenda
+    music Hidden_Agenda high
     img 23765
     with fadelong
     mt "Мистер Робертс, разрешите мне убрать в этой комнате?"
     ralph "Конечно, Моника. Можешь убираться."
 
+label ep212_dialogues1_bardie_ralph4a: # Моника убирается в трусиках Юлии
     # Ральф уперся в книгу и не замечает Монику
-    img 23766
-    with fade
-    w
-    img 23767
+    if obj_name == "Chair3":
+        img 23766
+        with fade
+        $ cleaning_sound()
+        w
+        $ cleaning_sound()
+        img 23767
+        with diss
+        mt "Он смотрит или нет?"
+
+    if obj_name == "Chair4":
+        img 23768
+        with fade
+        $ cleaning_sound()
+        w
+        $ cleaning_sound()
+        img 23769
+        with diss
+        mt "Ну же!"
+
+    if obj_name == "Sofa":
+        img 23770
+        with fade
+        mt "Мистер Робертс, я протру и здесь тоже!"
+        $ cleaning_sound()
+        img 23771
+        with diss
+        ralph "Да, Моника. Протирай везде..."
+
+    if obj_name == "TableLamp1":
+        img 23772
+        with fade
+        $ cleaning_sound()
+        mt "Он что, даже не смотрит?!"
+    return
+
+label ep212_dialogues1_bardie_ralph4b:
+    img black_screen
     with diss
-    mt "Он смотрит или нет?"
-
-
-    img 23768
-    with fade
-    w
-    img 23769
-    with diss
-    mt "Ну же!"
-
-    img 23770
-    with fade
-    mt "Мистер Робертс, я протру и здесь тоже!"
-    img 23771
-    with diss
-    ralph "Да, Моника. Протирай везде..."
-
-    img 23772
-    with fade
-    mt "Он что, даже не смотрит?!"
-
+    pause 1.5
+    $ cleaning_sound()
     img 23773
     with diss
     w
+    $ cleaning_sound()
     img 23774
     with fade
     w
+    $ cleaning_sound()
     img 23775
     with diss
     mt "Я не понимаю..."
 
+    $ restore_music()
     # Конец
     music Groove2_85
     sound highheels_short_walk
@@ -657,77 +690,114 @@ label ep212_dialogues1_bardie_ralph7: # Моника приходит убира
     mt "Но, в трусиках Бетти, он меня явно заметит."
     mt "У него нет никаких шансов устоять против меня..."
 
-    # если нет трусиков или одеты трусики Юлии
-    mt "Мне надо будет [надеть трусики Бетти]."
-    mt "Сделаю это в следующую уборку."
+    if monicaBettyPanties != True:
+        # если нет трусиков или одеты трусики Юлии
+        mt "Мне надо будет [надеть трусики Бетти]."
+        mt "Сделаю это в следующую уборку."
+        return False
     #
-    return
+    return True
 
 label ep212_dialogues1_bardie_ralph8: # Моника убирается в трусиках Бетти
     # не рендерить
-    music stop
+    music stop high
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
-    music Hidden_Agenda
+    music Hidden_Agenda high
     img 23778
     with fadelong
     mt "Мистер Робертс, разрешите мне убрать в этой комнате?"
     ralph "Конечно, Моника. Можешь убираться."
 
-    img 23779 #over1, over2, over3, over4
-    with fade
-    mt "Трусики Бетти должны сработать..."
-    img 23780
-    with diss
-    w
+label ep212_dialogues1_bardie_ralph8a:
+    $ monicaBettyPantiesOverlayId = monicaBettyPantiesId - 1
+    if obj_name == "Chair3":
+        img 23779 #over1, over2, over3, over4
+        overlay 23779 monicaBettyPantiesOverlayId
+        with fade
+        $ cleaning_sound()
+        mt "Трусики Бетти должны сработать..."
+        $ cleaning_sound()
+        img 23780
+        with diss
+        w
 
-    img 23781 #over1, over2, over3, over4
-    with fade
-    w
-    img 23782
-    with diss
-    mt "Смотрит он или нет?"
-    img 23783 #over1, over2, over3, over4
-    with fade
+    if obj_name == "Chair4":
+        img 23781 #over1, over2, over3, over4
+        overlay 23781 monicaBettyPantiesOverlayId
+        with fade
+        $ cleaning_sound()
+        w
+        $ cleaning_sound()
+        img 23782
+        with diss
+        mt "Смотрит он или нет?"
+        img 23783 #over1, over2, over3, over4
+        overlay 23783 monicaBettyPantiesOverlayId
+        with fade
+        $ cleaning_sound()
+        w
 
-    img 23784 #over1 over2 over3 over4
-    with diss
-    w
-    img 23786 #over1, over2, over3, over4
-    with fade
-    mt "Мистер Робертс, скажите, здесь тоже на протирать в этот раз?"
-    img 23785
-    with diss
-    ralph "Да, Моника протирай везде и тщательно..."
+    if obj_name == "Sofa":
+        $ cleaning_sound()
+        img 23786 #over1, over2, over3, over4
+        overlay 23786 monicaBettyPantiesOverlayId
+        with fade
+        mt "Мистер Робертс, скажите, здесь тоже на протирать в этот раз?"
+        $ cleaning_sound()
+        img 23785
+        with diss
+        ralph "Да, Моника протирай везде и тщательно..."
+        img 23784 #over1 over2 over3 over4
+        overlay 23784 monicaBettyPantiesOverlayId
+        with diss
+        w
 
-    img 23789 #over1, over2, over3, over4
-    with fade
-    w
-    img 23787 # over1, over2, over3, over4
-    with diss
-    w
-    img 23788
-    with diss
-    mt "Он что, не смотрит?!"
+    if obj_name == "TableLamp1":
+        img 23789 #over1, over2, over3, over4
+        overlay 23789 monicaBettyPantiesOverlayId
+        with fade
+        $ cleaning_sound()
+        w
+        $ cleaning_sound()
+        img 23787 # over1, over2, over3, over4
+        overlay 23787 monicaBettyPantiesOverlayId
+        with diss
+        w
+        $ cleaning_sound()
+        img 23788
+        with diss
+        mt "Он что, не смотрит?!"
+    return
 
+label ep212_dialogues1_bardie_ralph8b:
+    img black_screen
+    with diss
+    pause 1.5
+    $ cleaning_sound()
     img 23790 # over1, over2, over3, over4
+    overlay 23790 monicaBettyPantiesOverlayId
     with fade
     w
+    $ cleaning_sound()
     img 23791
     with diss
     w
+    $ cleaning_sound()
     img 23792 #over1, over2, over3, over4
+    overlay 23792 monicaBettyPantiesOverlayId
     with diss
     mt "Да он совсем обнаглел?!"
     mt "Как можно не смотреть на то что перед ним?!"
 
+    $ menu_corruption = [ep212_seduce_ralph3]
     menu:
         "Убираться перед Ральфом.":
             pass
         "Закончить уборку.":
-            pass
+            return False
     # подходит к Ральфу
     sound highheels_short_walk
     img 23793
@@ -735,15 +805,21 @@ label ep212_dialogues1_bardie_ralph8: # Моника убирается в тр�
     m "Мистер Робертс, разрешите я здесь тоже протру, я вижу пыль..."
     ralph "Да, Моника, конечно, можешь протирать..."
 
+    $ cleaning_sound()
     img 23794
     with diss
     w
+    $ cleaning_sound()
     img 23795 #over1, over2, over3, over4
+    overlay 23795 monicaBettyPantiesOverlayId
     with fade
     w
+    $ cleaning_sound()
     img 23796 #iover1, over2, over3, over4
+    overlay 23796 monicaBettyPantiesOverlayId
     with diss
     mt "Он что, снова пялится в свою книгу, а не на меня?!"
+    $ restore_music()
     music Groove2_85
     img 23797
     with diss
@@ -752,13 +828,14 @@ label ep212_dialogues1_bardie_ralph8: # Моника убирается в тр�
     mt "Перед ним самая красивая девушка этого города!"
     mt "Он что, импотент?!"
 
+label ep212_dialogues1_bardie_ralph8c:
     sound highheels_short_walk
+    music Groove2_85
     img 23776
     with fade
     mt "Мистер Робертс, я закончила уборку здесь..."
     ralph "Да, Моника, конечно. Можешь продолжать уборку в других комнатах."
-
-    return
+    return True
 
 
 label ep212_dialogues1_bardie_ralph9: # После второй уборки
@@ -785,7 +862,7 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     with fade
     bardie "Ну что, гувернантка, у тебя получилось?"
     # Моника зло и обиженно
-    img 17812
+    img 15812
     with diss
     m "Нет! Он импотент, он даже не смотрит на меня!"
     img 15811
@@ -795,7 +872,7 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     with fade
     bardie "Ты показала ему свою киску?"
     img 15830
-    with diss
+#    with diss
     m "Да, я показала ему!"
     m "Видимо у него нет члена, раз он никак не реагирует на меня!"
     m "Это жалкое бесполое существо, не имеющее вкуса!"
@@ -808,7 +885,7 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     with diss
     bardie "Ты уверена что показала ему свою киску?"
     img 15834
-    with fade
+#    with fade
     m "Да!"
     img 17621
     with diss
@@ -836,31 +913,16 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     sound snd_fabric1
     pause 1.0
     music Loved_Up
-    img 15819
+#    img 15819
+#    with fadelong
+#    w
+#    img 15820
+#    with fade
+    $ monicaBettyPantiesOverlayId = monicaBettyPantiesId - 1
+    img 17625
+    overlay 17625 monicaBettyPantiesOverlayId
     with fadelong
     w
-    img 15820
-    with fade
-
-    w
-    img 17625
-    with fade
-
-    w
-    img 17626
-    with fade
-
-    w
-    img 17627
-    with fade
-
-    w
-    img 17628
-    with fade
-
-    w
-    img 17629
-    with fade
     # возвращает юбку как было
     music stop
     img black_screen
@@ -875,24 +937,207 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     bardie "Это бы сработало! Я видел это в кино!"
     music Groove2_85
     img 15830
-    with fade
+    with hpunch
     m "Нет! Я не буду показывать свою голую попу какому-то старикашке!"
 
-    # не рендерить (видео наказания)
+    music Power_Bots_Loop
+    img 10287
+    with fadelong
     bardie "Ты плохая гувернантка!"
     bardie "Ты нарушаешь правила и будешь наказана!"
 
+    img 10288
+    with diss
+    bardie "Не испытывай моего терпения и быстро ложись для получения наказания!"
+
+    music Groove2_85
+    img 10289
+    with fade
+    w
+    img 10290
+    with fade
+    w
+    img 10291
+    with fade
+    w
+    sound snd_fabric1
+    if monicaBettyPanties == False:
+        if monicaUnder != "Nude":
+            #governess
+            img 10292
+            with diss
+            w
+            img 10293
+            with diss
+            w
+    else:
+        if monicaBettyPantiesId == 1:
+            #betty
+            img 10295
+            with diss
+            w
+            img 10294
+            with diss
+            w
+            img 10305
+            with diss
+            w
+    #
+        if monicaBettyPantiesId == 2:
+            img 10296
+            with diss
+            w
+            img 10297
+            with diss
+            w
+            img 10306
+            with diss
+            w
+    #
+        if monicaBettyPantiesId == 3:
+            img 10299
+            with diss
+            w
+            img 10298
+            with diss
+            w
+            img 10307
+            with diss
+            w
+    #
+        if monicaBettyPantiesId == 4:
+            img 10300
+            with diss
+            w
+            img 10301
+            with diss
+            w
+            img 10308
+            with diss
+            w
+    #
+        if monicaBettyPantiesId == 5:
+            img 10303
+            with diss
+            w
+            img 10302
+            with diss
+            w
+            img 10304
+            with diss
+            w
+
+    #
+    img 10309
+    with fade
+    w
+    img 10310
+    with fade
+    w
+    img 10311
+    with fade
+    w
+    img 10312
+    with fade
+    w
+    img 10313
+    with fade
+    w
+    img 10314
+    with fade
+    w
+    img 10315
+    with fade
+    w
+    img 10316
+    with fade
+    w
+    img 10317
+    with fade
+    w
+    img 10318
+    with fade
+    w
+    img 10319
+    with fade
+    w
+    # не рендерить (видео наказания)
+
+label ep212_dialogues1_bardie_ralph9_loop1:
+    music stop
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_1 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_1.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_1
+    bardie "Получай!"
+    wclean
+    stop music
+
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_2 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_2.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_2
+    bardie "Получай!"
+    bardie "Нерадивая гувернантка!"
+    bardie "Я научу тебя соблюдать правила дома!"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_3 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_3.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_3
     bardie "Плохая гувернантка! Плохая!"
+    wclean
+#    stop music
+#    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+#    scene black
+#    image videov_Basement_Bardie_Monica_Spanking_1_4 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_4.mkv", fps=30)
+#    show videov_Basement_Bardie_Monica_Spanking_1_4
+#    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_5 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_5.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_5
     bardie "Плохая гувернантка нарушает правила дома!"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_6 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_6.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_6
     bardie "Ходит по дому в трусиках!"
     bardie "Получай!"
+    wclean
+    stop music
+    play music "<from " + str((rand(1,6)*1.5)) + " loop 0.0>Sounds/audio_Basement_Bardie_Monica_Spanking_1.mp3"
+    scene black
+    image videov_Basement_Bardie_Monica_Spanking_1_7 = Movie(play="video/v_Basement_Bardie_Monica_Spanking_1_7.mkv", fps=30)
+    show videov_Basement_Bardie_Monica_Spanking_1_7
     bardie "Будет гувернантка слушаться хозяина?"
     bardie "Будет гувернантка соблазнять моего отца голой попой?"
     bardie "Покажет гувернантка Ральфу свою киску?"
+    wclean
+    stop music
 
+    music Power_Bots_Loop
+    menu:
+        "Отпусти меня немедленно, малявка!":
+            img 10320
+            with fade
+            m "Отпусти меня немедленно, малявка!"
+            jump ep212_dialogues1_bardie_ralph9_loop1
+        "Я поняла! Я буду слушаться хозяина!":
+            pass
+
+    music Groove2_85
+    img 10321
+    with fade
     m "Да, я покажу Ральфу свою киску!"
     m "Я буду хорошей гувернанткой!"
     m "Пожалуйста, хватит!"
+
 
     # рендерить (взять арты после наказания, где Моника держится за красную попу)
     music Groove2_85
@@ -919,6 +1164,8 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
 
 label ep212_dialogues1_bardie_ralph10: #autorun
     # не рендерить
+    music stop
+    music Stealth_Groover
     mt "Это отвратительно!"
     mt "Этот малявка снова отшлепал меня!"
     mt "..."
@@ -944,15 +1191,16 @@ label ep212_dialogues1_bardie_ralph11: # Моника приходит убир�
     img 23800
     with diss
     mt "Похоже он слепой, как крот, раз не обратил внимание на меня в прошлый раз..."
-    mt "Но, в трусиках Бетти, он меня явно заметит."
+    mt "Но, без трусиков, он меня явно заметит."
     mt "У него нет никаких шансов устоять против моих женственных форм..."
 
     # если одеты любые трусики
-
-    mt "Мне надо будет [придти без трусиков]."
-    mt "Сделаю это в следующую уборку."
+    if monicaUnder != "Nude":
+        mt "Мне надо будет [придти без трусиков]."
+        mt "Сделаю это в следующую уборку."
+        return False
     #
-    return
+    return True
 
 label ep212_dialogues1_bardie_ralph12: # Моника убирается без трусиков
     # не рендерить
@@ -961,57 +1209,95 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
-    music Hidden_Agenda
+    music Hidden_Agenda high
     img 23801
     with fadelong
     mt "Мистер Робертс, разрешите мне убрать в этой комнате?"
     ralph "Конечно, Моника. Можешь убираться."
+    return
 
-    img 23802
-    with fade
-    mt "Ну что, Моника..."
-    img 23803
-    with diss
-    mt "Ты задействовала самое сильное оружие, которое у тебя есть..."
-    img 23804
-    with diss
-    w
+label ep212_dialogues1_bardie_ralph12a:
+    music Loved_Up high
+    if obj_name == "Chair3":
+        $ imgArr = [23802, 23803, 23804]
 
-    img 23805
-    with fade
-    w
-    img 23806
-    with diss
-    mt "Ни один мужчина в мире не устоит перед таким..."
-    img 23807
-    with diss
-    w
+    if obj_name == "Chair4":
+        $ imgArr = [23805, 23806, 23807]
 
-    img 23808
-    with fade
-    mt "Черт! Не могу поверить что я делаю это..."
-    img 23809
-    with diss
-    mt "Соблазняю свой голой попой какого-то старикашку..."
-    img 23810
-    with fade
-    mt "В своем совственном доме!"
-    mt "Ужас!"
+    if obj_name == "Sofa":
+        $ imgArr = [23808, 23809, 23810]
 
-    img 23811
-    with diss
-    w
-    img 23812
-    with fade
-    mt "Но мне надо сделать это!"
-    mt "Я в шаге от того чтобы вернуть мой дом назад..."
-    img 23813
-    with diss
-    w
+    if obj_name == "TableLamp1":
+        $ imgArr = [23811, 23812, 23813]
 
+    if monicaBardieRalphSeducingCleaningItemsCount == 4:
+        img imgArr[0]
+        with fade
+        $ cleaning_sound()
+        mt "Ну что, Моника..."
+        img imgArr[1]
+        with diss
+        $ cleaning_sound()
+        mt "Ты задействовала самое сильное оружие, которое у тебя есть..."
+        $ cleaning_sound()
+        img imgArr[2]
+        with diss
+        w
+
+    if monicaBardieRalphSeducingCleaningItemsCount == 3:
+        img imgArr[0]
+        with fade
+        $ cleaning_sound()
+        w
+        img imgArr[1]
+        with diss
+        $ cleaning_sound()
+        mt "Ни один мужчина в мире не устоит перед таким..."
+        $ cleaning_sound()
+        img imgArr[2]
+        with diss
+        w
+    if monicaBardieRalphSeducingCleaningItemsCount == 2:
+        img imgArr[0]
+        with fade
+        $ cleaning_sound()
+        mt "Черт! Не могу поверить что я делаю это..."
+        img imgArr[1]
+        with diss
+        $ cleaning_sound()
+        mt "Соблазняю свой голой попой какого-то старикашку..."
+        $ cleaning_sound()
+        img imgArr[2]
+        with diss
+        mt "В своем совственном доме!"
+        mt "Ужас!"
+    if monicaBardieRalphSeducingCleaningItemsCount == 1:
+        img imgArr[0]
+        with fade
+        $ cleaning_sound()
+        w
+        img imgArr[1]
+        with diss
+        $ cleaning_sound()
+        mt "Но мне надо сделать это!"
+        mt "Я в шаге от того чтобы вернуть мой дом назад..."
+        $ cleaning_sound()
+        img imgArr[2]
+        with diss
+        w
+    return
+
+label ep212_dialogues1_bardie_ralph12b:
     # autorun
     mt "Мне надо привлечь его внимание..."
+    return False
 
+label ep212_dialogues1_bardie_ralph12c:
+    music stop high
+    img black_screen
+    with diss
+    pause 1.5
+    music Hidden_Agenda high
     img 23814
     with fade
     m "Мистер Робертс, скажите, здесь тоже протирать?"
@@ -1022,6 +1308,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     img 23816
     with fade
     w
+    $ restore_music()
     music Groove2_85
     img 23817
     with diss
@@ -1029,12 +1316,12 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     mt "Не смотрит на то, что ему показывает самая чуть-ли ни самая красивая девушка в этом мире!"
     mt "Сама Моника Бакфетт соблазняет его!"
     mt "А он не смотрит! Урод!"
-
+    $ menu_corruption = [ep212_seduce_ralph5]
     menu:
         "Убираться перед Ральфом.":
             pass
         "Закончить уборку.":
-            pass
+            return False
     # подходит к Ральфу
     music Hidden_Agenda
     sound highheels_short_walk
@@ -1048,6 +1335,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     with diss
     m "Спасибо, Мистер Робертс!"
 
+    music Loved_Up
     img 23820
     with fade
     m "Скажите, здесь тоже протирать?"
@@ -1060,6 +1348,11 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     with diss
     ralph "Да..."
 
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up2
     img 23823
     with fade
     m "И здесь тоже протирать?"
@@ -1076,6 +1369,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     img 23826
     with diss
     w
+    sound Jump1
     img 23827 #diss
     with diss
     w
@@ -1102,6 +1396,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     img 23832
     with fade
     w
+    music stop
     img 23833
     with diss
     sound snd_boot1
@@ -1109,12 +1404,13 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     w
     sound scream_steve
     img 23834
-    with diss
+    with vpunch
     # звук ральф кричит ай!
     w
 
     # дает ее
-    music Groove2_85
+    music Loved_Up
+#    music Groove2_85
     img 23835
     with fade
     m "Вот, Мистер Робертс, Ваша книга..."
@@ -1204,6 +1500,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     ralph "Ты согласна со мной?"
     mt "!!!"
     # стоит потупившись
+    music Hidden_Agenda
     img 23850
     with diss
     m "Да, Мистер Робертс... Я согласна..."
@@ -1235,7 +1532,7 @@ label ep212_dialogues1_bardie_ralph12: # Моника убирается без 
     img 23855
     with fade
     m "Спасибо, Мистер Робертс..."
-    return
+    return True
 
 
 

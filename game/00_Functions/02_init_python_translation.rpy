@@ -10,7 +10,7 @@ python early:
             if globals().has_key(var1):
                 str1 = str1.replace("[" + var1 + "]", str(globals()[var1]))
             else:
-                str1 = str1.replace("{c}" + var1 + "{/c}")
+                str1 = str1.replace("[" + var1 + "]", "{c}" + var1 + "{/c}")
         return str1
     def t_(s):
         return s
@@ -25,8 +25,8 @@ python early:
         st = s
         if language_dict.has_key(s):
             st = language_dict[s][language_fields[lang]]
-            if not st:
+            if st == "":
                 st = language_dict[s][language_fields["english"]]
-                if not s:
+                if st == "":
                     st = s
         return parse_tstr(st)

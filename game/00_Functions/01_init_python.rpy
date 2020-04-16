@@ -126,15 +126,13 @@ python early:
     def saywrapper_execute(o):
         global last_dialogue_character
         global dialogue_active_flag, screenActionHappened, config
-#        config.has_autosave = False
-#        config.autosave_on_choice = False
 
         who, what = o
         if who == "Noone":
             who = last_dialogue_character
         else:
             last_dialogue_character = who
-        who = t__(eval(who).name)
+#        who = t__(eval(who).name)
         what = what[1:-1]
 #        what = re.sub(r'\n' , '\s', what)
         dialogue_active_flag = True
@@ -327,7 +325,7 @@ python early:
             currentMusic1 = storedMusic.pop(0)
             currentMusicPriority1 = storedMusicPriority.pop(0)
         if currentMusic1 == False:
-            renpy.music.stop(channel='music', fadeout=1.0)
+#            renpy.music.stop(channel='music', fadeout=1.0)
             return
         if currentMusic1 == currentMusic:
             return
@@ -336,6 +334,11 @@ python early:
         checkPath = "Music/" + str(currentMusic) + ".ogg"
         if renpy.loadable(checkPath):
             renpy.music.play(checkPath, channel="music", loop=True, fadeout=1.0, fadein=1.0)
+        return
+
+    def clear_music_stack():
+        storedMusic = []
+        currentMusicPriority = 0
         return
 
     def music2_exec(ob1):
