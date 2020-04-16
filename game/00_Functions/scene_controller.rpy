@@ -52,15 +52,15 @@ label show_scene_now:
 #        $ _dismiss_pause = False
         if scene_transition == "Fade" or scene_transition == "Fade_fast":
             if refreshed_scene_name == scene_name and scene_transition != "Fade_fast":
-                scene black_screen at convert_resolution_transform
+                scene black_screen
                 with Dissolve(0.2)
 #                $ renpy.pause(0.2, hard=True)
             else:
-                scene black_screen at convert_resolution_transform
+                scene black_screen
                 with Dissolve(0.1)
     #            $ renpy.pause(0.2, hard=True)
         if scene_transition == "Fade_long":
-            scene black_screen at convert_resolution_transform
+            scene black_screen
             with Dissolve(0.7)
 #            $ renpy.pause(0.7, hard=True)
 #        $ _dismiss_pause = True

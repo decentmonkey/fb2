@@ -229,8 +229,10 @@ screen screen_sprites(data):
         #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskName)),zoom_factor) if maskName != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
         #                        if data[i].has_key("name") and data[i]["name"] == "Spot":
         #                            $ print data[i]
+                                $ screenCache = True
                                 if pass_num == 2:
-                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or 1==1:
+                                        $ screenCache = False
                                         if canvas_offset != False and spriteImageStr == scene_image_file:
                 #                            $ idleImg = Image(spriteImageStr)
                                             $ maskImage = Image(maskName)
@@ -296,7 +298,7 @@ screen screen_sprites(data):
                                     $ tint_adjustment = False
                                     $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
                                     if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
-                                        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+                                        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or screenCache == False:
                                             if tint_adjustment != False:
                                                 $ hoveredImage = im.MatrixColor(
                                                     idleImg,
