@@ -18,6 +18,18 @@ label juliaProgressLevelUp:
     if char_data["level"] == 5:
         $ char_data["enabled"] = True
         $ char_data["caption"] = t_("Юлия влюбляется в Монику, но еще не доверяет ей.")
+    if char_data["level"] == 6:
+        $ char_data["enabled"] = True
+#        $ char_data["caption"] = t_("Юлия влюбляется в Монику, но еще не доверяет ей.")
+    if char_data["level"] == 7:
+        $ char_data["enabled"] = True
+        $ char_data["caption"] = t_("Юлия влюбилась в Монику, но боится обжечься в отношениях.")
+
+    if char_data["level"] == 8:
+        $ char_data["enabled"] = True
+#        $ char_data["caption"] = t_("Юлия любит Монику и хочет быть с ней.")
+
+
 #        $ char_data["enabled"] = False
 #        $ char_data["caption_diabled"] = t_("Work in progress...")
 #    $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")

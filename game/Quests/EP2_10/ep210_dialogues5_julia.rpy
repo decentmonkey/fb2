@@ -12,7 +12,11 @@ label ep210_julia_dialogue1:
             return 4
         "Пригласить Юлию на второе свидание. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
             pass
-        "Пригласить Юлию на третье свидание. (в следующем обновлении) (disabled)" if ep211_julia_second_date_completed == True:
+        "Пригласить Юлию на третье свидание. (требуется ур.6) (disabled)" if ep211_julia_second_date_completed == True and char_info["Julia"]["level"] < 6 and ep212_julia_third_date_inited == False and ep212_julia_third_date_active == True:
+            pass
+        "Пригласить Юлию на третье свидание. (требуется ур.6)" if ep211_julia_second_date_completed == True and char_info["Julia"]["level"] >= 6 and ep212_julia_third_date_inited == False and ep212_julia_third_date_active == True:
+            return 5
+        "Предложить Юлии жить вместе. (в следующем обновлении) (disabled)" if ep212_monica_julia_quest2_started == True:
             pass
 
         "Уйти.":
@@ -972,11 +976,12 @@ label ep210_dialogues5_julia_4_2:
     with fade
     sound snd_kiss2
     w
-    music Hidden_Agenda
-    img 16509
-    with diss
-    mt "Ого! Даже так?!"
-    mt "Чувствую, я на верном пути..."
+    if ep212_monica_julia_quest2_started == False:
+        music Hidden_Agenda
+        img 16509
+        with diss
+        mt "Ого! Даже так?!"
+        mt "Чувствую, я на верном пути..."
     # Юлия садится на свое место
     return True
 
@@ -1082,6 +1087,20 @@ label ep210_dialogues5_julia_5:
     with diss
     m "А так?"
     julia "Да..."
+    if ep212_monica_julia_quest2_started == True:
+        img 23064
+        with fade
+        m "Все, Юлия!"
+        img 23065
+        with diss
+        julia "Да, Миссис Бакфетт..."
+        julia "Спасибо за массаж. Мне очень понравилось."
+        # уходит и садится на свое место
+        sound highheels_short_walk
+        img 23066
+        with fade
+        w
+        return False
     img 23063
     with diss
     menu:

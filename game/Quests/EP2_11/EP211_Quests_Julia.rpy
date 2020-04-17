@@ -120,6 +120,8 @@ label ep211_quests_julia7_end:
     $ ep211_julia_second_date_completed = True
     $ ep211_julia_second_date_completed_day = day
     $ add_char_progress("Julia", 100, "julia_second_date")
+    $ add_hook("before_open", "ep212_quests_julia2_fred_catch", scene="working_office", recursive=True, label="ep212_quests_julia2_fred_catch", priority=1000)
+    $ add_hook("before_open", "ep212_quests_julia2_fred_catch", scene="working_office_cabinet", recursive=True, label="ep212_quests_julia2_fred_catch", priority=1000)
     call ep211_dialogues4_julia_8() from _rcall_ep211_dialogues4_julia_8
     $ remove_hook(label="julia_date2")
     return False

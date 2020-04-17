@@ -1600,6 +1600,3 @@ label ep212_dialogues1_bardie_ralph14: # autorun
     mt "Мерзавец!"
     mt "Бесполезный, никчемный неудачник!"
     return
-
-#
-7456

@@ -746,11 +746,12 @@ label gallery_16503:
     with fade
     sound snd_kiss2
     w
-    music Hidden_Agenda
-    img 16509
-    with diss
-    mt "Ого! Даже так?!"
-    mt "Чувствую, я на верном пути..."
+    if ep212_monica_julia_quest2_started == False:
+        music Hidden_Agenda
+        img 16509
+        with diss
+        mt "Ого! Даже так?!"
+        mt "Чувствую, я на верном пути..."
     # Юлия садится на свое место
     return
 

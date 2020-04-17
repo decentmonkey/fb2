@@ -16,6 +16,8 @@ label street_juliahome:
         else:
             music street13_ambulance
 
+    if streetJuliaHomeMonicaSuffix == 1 and get_active_objects("Julia", scene="street_juliahome") != False:
+        $ move_object("Julia", "empty")
     if cloth != "CasualDress1" and streetJuliaHomeMonicaSuffix == 2 and get_active_objects("Julia", scene="street_juliahome") != False:
         $ move_object("Julia", "empty")
         $ streetJuliaHomeMonicaSuffix = 1

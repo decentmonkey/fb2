@@ -143,14 +143,14 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
     if _return == 1:
         call ep210_dialogues5_julia_4_1() from _call_ep210_dialogues5_julia_4_1
         $ ep210_julia_kissed_day_day = day
-        if char_info["Julia"]["level"] < 4:
+        if char_info["Julia"]["level"] < 4 or char_info["Julia"]["level"] == 5 or char_info["Julia"]["level"] == 7:
             $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_day" + str(day))
         call refresh_scene_fade() from _call_refresh_scene_fade_254
         return False
     if _return == 2:
         call ep210_dialogues5_julia_4_3() from _call_ep210_dialogues5_julia_4_3
         $ ep210_julia_kissed_day_evening = day
-        if char_info["Julia"]["level"] < 4:
+        if char_info["Julia"]["level"] < 4 or char_info["Julia"]["level"] == 5 or char_info["Julia"]["level"] == 7:
             $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaKissProgress_evening" + str(day))
         call refresh_scene_fade() from _call_refresh_scene_fade_255
         return False
@@ -158,6 +158,9 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         call ep210_dialogues5_julia_5() from _call_ep210_dialogues5_julia_5
         if _return == True:
             $ ep210_monica_julia_massage_peek_try_count += 1
+        else:
+            if char_info["Julia"]["level"] < 4 or char_info["Julia"]["level"] == 5 or char_info["Julia"]["level"] == 7:
+                $ add_char_progress("Julia", monicaJuliaKissProgress, "monicaJuliaMassageProgress_day" + str(day))
         $ ep210_monica_julia_massage_count += 1
         $ ep210_julia_massage_day = day
         call refresh_scene_fade() from _call_refresh_scene_fade_256
@@ -166,7 +169,10 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         call ep211_quests_julia1() from _rcall_ep211_quests_julia1 # второе свидание
         call refresh_scene_fade() from _rcall_refresh_scene_fade
         return False
-
+    if _return == 5: # Третье свидание
+        call ep212_quests_julia1_third_date_init()
+        call refresh_scene_fade()
+        return False
 
     return False
 

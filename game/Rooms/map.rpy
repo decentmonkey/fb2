@@ -177,6 +177,7 @@ label map_environment:
         call process_drive_teleport("PhilipHome", "street_philiphome") from _rcall_process_drive_teleport
         return
     if obj_name == "Teleport_JuliaHome":
+        $ streetJuliaHomeMonicaSuffix = 1
         call process_drive_teleport("JuliaHome", "street_juliahome") from _rcall_process_drive_teleport_1
         return
     if obj_name == "Teleport_Slums_Apartments":

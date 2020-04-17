@@ -139,7 +139,7 @@ label ep212_dialogues5_julia_1:
             with fade
             sound man_steps
             fred "..." # Фред уходит
-            return
+            return False
         "Попытаться договориться с Фредом.":
             $ monicaFredPhoto1 = True # Моника попросила Фреда дождаться ее ответа и не показывать фото никому
             pass
@@ -196,7 +196,7 @@ label ep212_dialogues5_julia_1:
     mt "Я убью этого никчемного корнишона!"
     mt "Сначала оторву ему яйца, а потом убью!"
     mt "!!!"
-    return
+    return True
 
 # Кабинет Моники
 # частично взять из имеющихся артов
@@ -332,26 +332,28 @@ label ep212_dialogues5_julia_2:
     with diss
     sound highheels_short_walk
     mt "На этот раз ты от меня не отвертишься, никчемная Юлия."
-    $ log1 = t_("Пойти к Юлии домой после работы.")
+#    $ log1 = t_("Пойти к Юлии домой после работы.")
     return
 
 # при клике на Юлию после назначения встречи
 label ep212_dialogues5_julia_2_1:
+    if act=="l":
+        return
     music Loved_Up
     img 16468
     with fadelong
     julia "Миссис Бакфетт, я не могу дождаться вечера!"
     julia "Так хочется побыть с Вами наедине!"
-    return
+    return False
 
 # Кабинет Моники
 label ep212_dialogues5_julia_2_2:
     # не рендерить!!
     # вечер, конец рабочего дня, Юлии нет на месте
-
-    mt "Сейчас мне нужно идти к Юлии домой."
-    mt "Если я сегодня не узнаю цвет ее никчемных трусиков, то Фред покажет всем мое фото..."
-    mt "Я даже боюсь думать о последствиях!"
+    if day_time == "evening":
+        mt "Сейчас мне нужно идти к Юлии домой."
+        mt "Если я сегодня не узнаю цвет ее никчемных трусиков, то Фред покажет всем мое фото..."
+        mt "Я даже боюсь думать о последствиях!"
     return
 
 # Квартира Юлии
@@ -481,7 +483,7 @@ label ep212_dialogues5_julia_3:
             with diss
             julia "..."
             # Моника уходит, Юлия расстроена
-            return
+            return False
     music Hidden_Agenda
     img 30353
     with fade
@@ -494,21 +496,22 @@ label ep212_dialogues5_julia_3:
     m "Да, еще с того времени."
 
     # если заставляла оттирать ковер
-    $ notif(t_("Моника заставляла Юлию оттирать пятно на ковре"))
-    music Hidden_Agenda
-    img 30355
-    with fade
-    m "Я не понимала тогда своих чувств..."
-    m "Поэтому иногда злилась на тебя."
-    m "Я просто была растеряна и не знала, что мне делать."
-
-    # если НЕ заставляла оттирать ковер
-    $ notif(t_("Моника не заставляла Юлию оттирать пятно на ковре"))
-    music Hidden_Agenda
-    img 30355
-    with fade
-    m "Именно поэтому я простила тебе тогда за то пятно на ковре."
-    m "И не стала тебя наказывать."
+    if juliaPunished == True or juliaPunishedVoluntarily == True:
+        $ notif(t_("Моника заставляла Юлию оттирать пятно на ковре"))
+        music Hidden_Agenda
+        img 30355
+        with fade
+        m "Я не понимала тогда своих чувств..."
+        m "Поэтому иногда злилась на тебя."
+        m "Я просто была растеряна и не знала, что мне делать."
+    else:
+        # если НЕ заставляла оттирать ковер
+        $ notif(t_("Моника не заставляла Юлию оттирать пятно на ковре"))
+        music Hidden_Agenda
+        img 30355
+        with fade
+        m "Именно поэтому я простила тебе тогда за то пятно на ковре."
+        m "И не стала тебя наказывать."
 
     music Groove2_85
     img 30356
@@ -580,7 +583,7 @@ label ep212_dialogues5_julia_3:
     img 30369
     with diss
     mt "Да кто она такая, чтобы сама Моника Бакфетт говорила с ней о каких-то чувствах! Фи!"
-    return
+    return True
 
 # Квартира Юлии
 label ep212_dialogues5_julia_4:
@@ -590,7 +593,10 @@ label ep212_dialogues5_julia_4:
     # Моника протягивает ей руку
     music stop
     img black_screen
-    with diss
+    with Dissolve(2.0)
+    call textonblack(t_("5 минут спустя..."))
+    img black_screen
+    with Dissolve(2.0)
     sound barefoot_walk2
     pause 1.0
     music Groove2_85
@@ -619,11 +625,13 @@ label ep212_dialogues5_julia_4:
     with diss
     sound snd_kiss2
     w
+    music stop
     img black_screen
     with diss
+    pause 2.0
     music Groove2_85
     img 30376
-    with fade
+    with fadelong
     w
     img 30377
     with diss
@@ -839,7 +847,7 @@ label ep212_dialogues5_julia_4:
             julia "Но... Миссис Бакфетт!"
             music Stealth_Groover
             img 30413
-            with fade
+            with vpunch
             m "Никаких 'но', Юлия!"
             m "Не хочу больше ничего слышать! Мне это все надоело."
             m "Межу нами не было никаких отношений и никога не будет!"
@@ -862,7 +870,7 @@ label ep212_dialogues5_julia_4:
             julia "Д-да, М-Миссис Бакфетт..."
             julia "..."
             # Моника уходит, Юлия расстроена
-            return
+            return False
     music RnB3_65
     img 30417
     with fade
@@ -877,9 +885,13 @@ label ep212_dialogues5_julia_4:
     mt "Моника, это твой шанс!"
     mt "Просто продолжай притворяться..."
     # Моника смотрит на Юлию, улыбается ей
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 30419
-    with fade
+    with fadelong
     m "Я тоже мечтаю быть с тобой вдвоем, милая."
     m "Только ты и я."
     img 30420
@@ -888,16 +900,17 @@ label ep212_dialogues5_julia_4:
     julia "Я боялась, что Вы скажете, что это мои глупые мечты..."
     julia "Я так рада, Миссис Бакфетт!"
     julia "!!!"
-    sound vjuh3
+#    sound vjuh3
     img 30421
     with diss
     m "..."
     img 30422
     with diss
     julia "..." # Смотря на Монику и на свою киску
+    mt "Если я не сделаю это, Юлия не станет мне доверять..."
     img 30423
     with fade
-    m "!!!"
+    mt "Между этих ног гребаные ворота к моей свободе!"
     img 30424
     with diss
     julia "Миссис Бакфетт, так Вы останетесь сегодня у меня?.."
@@ -905,7 +918,11 @@ label ep212_dialogues5_julia_4:
     m "Да, Юлия... Я останусь у тебя сегодня..."
     # Моника снова смотрит на киску Юлии, наклоняется к ней и прикасается губами
     # Моника делает Юлии куни
-    music Loved_up2
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 Loved_up2
     img 30425
     with fade
     mt "Боже! Я не верю, что целую киску своей бывшей гувернантки..."
@@ -914,20 +931,80 @@ label ep212_dialogues5_julia_4:
     with diss
     mt "!!!"
     mt "Но если я не стану делать этого, то эта Юлия не поверит мне и мой план не сработает..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_1 = Movie(play="video/v_Monica_Julia_Licking1_1.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30427
     with fade
     mt "А мне нужен этот шанс! Шанс решить свои проблемы..."
     julia "О, Миссис Бакфетт! Еще!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_2 = Movie(play="video/v_Monica_Julia_Licking1_2.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30428
     with diss
     julia "О Боже, как же хорошо!"
     julia "Миссис... мммммм... Бакфетт..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_3 = Movie(play="video/v_Monica_Julia_Licking1_3.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30429
     with fade
     w
     img 30445
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_4 = Movie(play="video/v_Monica_Julia_Licking1_4.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30446
     with fade
     w
@@ -945,6 +1022,22 @@ label ep212_dialogues5_julia_4:
     with fade
     julia "Я... Ооооо... Скоро кончу..."
     julia "Да... О, да!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_5 = Movie(play="video/v_Monica_Julia_Licking1_5.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30431
     show screen photoshot_screen()
     with hpunch
@@ -956,6 +1049,7 @@ label ep212_dialogues5_julia_4:
     # Юлия лежит практически в отключке, балдеет
     # Моника вытирает рот, недовольно смотрит на нее
     music stop
+    music2 stop
     img black_screen
     with diss
     pause 1.0
@@ -968,6 +1062,10 @@ label ep212_dialogues5_julia_4:
     mt "Фу!"
     mt "Надеюсь, мне нечасто придется делать это!"
     # Моника ложится рядом с Юлией
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 30434
     with fade
@@ -988,7 +1086,7 @@ label ep212_dialogues5_julia_4:
     mt "..."
     # они целуются
     # Моника остается на ночь
-    $ log1 = t_("У меня появилась возможность сбежать из страны. Для этого мне всего лишь нужно притворяться влюбленной дурочкой перед никчемной Юлией.") # квест-лог
+#    $ log1 = t_("У меня появилась возможность сбежать из страны. Для этого мне всего лишь нужно притворяться влюбленной дурочкой перед никчемной Юлией.") # квест-лог
     return
 
 # Квартира Юлии
@@ -1066,17 +1164,18 @@ label ep212_dialogues5_julia_5_2:
     mt "..."
     mt "Теперь мне нужно как-то уговорить ее, чтобы она связалась со своим дядей..."
     mt "Мне нужны документы..."
-    return
+    return False
 
 
 # клик на Монику (глазик)
 label ep212_dialogues5_julia_5_3:
-    # не рендерить!!
-    mt "Поздравляю тебя, Моника. Теперь ты вынуждена притворяться какой-то лесбиянкой..."
-    mt "Моника Бакфетт и ее бывшая гувернантка Юлия - влюбленная парочка. Фи!"
-    mt "!!!"
-    mt "Но я готова поиграть перед этой дурочкой Юлией."
-    mt "Это стоит того, чтобы забыть Маркуса и его Ферму как страшный сон."
+    if act == "l":
+        # не рендерить!!
+        mt "Поздравляю тебя, Моника. Теперь ты вынуждена притворяться какой-то лесбиянкой..."
+        mt "Моника Бакфетт и ее бывшая гувернантка Юлия - влюбленная парочка. Фи!"
+        mt "!!!"
+        mt "Но я готова поиграть перед этой дурочкой Юлией."
+        mt "Это стоит того, чтобы забыть Маркуса и его Ферму как страшный сон."
     return
 
 # Офис Моники
