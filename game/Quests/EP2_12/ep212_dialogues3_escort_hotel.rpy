@@ -3,19 +3,22 @@ default monicaEscortAngryWife2 = False  # Моника согласилась д
 default monicaEscortAngryWife3 = False  # Моника сказала жене, что ей не нравится секс с ее мужем
 default monicaEscortAngryWife4 = False  # Моника ударила жену
 
-call ep212_dialogues3_escort_hotel_1() # Моника за столиком в ресторане, разговор с официанткой
-call ep212_dialogues3_escort_hotel_2() # ресепшн, разговор с китаянкой и брюнеткой
-call ep212_dialogues3_escort_hotel_2_1() # возле лифта
-call ep212_dialogues3_escort_hotel_3() # в номере отеля
-call ep212_dialogues3_escort_hotel_4() # ресепшн, после сцены в номере
-call ep212_dialogues3_escort_hotel_5() # разговор с админом после ухода компании
-call ep212_dialogues3_escort_hotel_5_1() # разговор с админом, если ударила жену
-call ep212_dialogues3_escort_hotel_6() # вышла на улицу после ресепшена, мысли
-call ep212_dialogues3_escort_hotel_7() # вышла на улицу если отказалась работать, мысли
-call ep212_dialogues3_escort_hotel_7_1() # вышла на улицу если ударила жену, мысли
-call ep212_dialogues3_escort_hotel_7_2() # пытается зайти в отель после увольнения, мысли
-call ep212_dialogues3_escort_hotel_7_3() # встречает в ресторане брюнетку после сцены в номере
-call ep212_dialogues3_escort_hotel_8() # ресторан, разговор со служащим отеля
+default escort3MonicaLikeSex = False
+default monicaEscort3CumZone = 0
+
+#call ep212_dialogues3_escort_hotel_1() # Моника за столиком в ресторане, разговор с официанткой
+#call ep212_dialogues3_escort_hotel_2() # ресепшн, разговор с китаянкой и брюнеткой
+#call ep212_dialogues3_escort_hotel_2_1() # возле лифта
+#call ep212_dialogues3_escort_hotel_3() # в номере отеля
+#call ep212_dialogues3_escort_hotel_4() # ресепшн, после сцены в номере
+#call ep212_dialogues3_escort_hotel_5() # разговор с админом после ухода компании
+#call ep212_dialogues3_escort_hotel_5_1() # разговор с админом, если ударила жену
+#call ep212_dialogues3_escort_hotel_6() # вышла на улицу после ресепшена, мысли
+#call ep212_dialogues3_escort_hotel_7() # вышла на улицу если отказалась работать, мысли
+#call ep212_dialogues3_escort_hotel_7_1() # вышла на улицу если ударила жену, мысли
+#call ep212_dialogues3_escort_hotel_7_2() # пытается зайти в отель после увольнения, мысли
+#call ep212_dialogues3_escort_hotel_7_3() # встречает в ресторане брюнетку после сцены в номере
+#call ep212_dialogues3_escort_hotel_8() # ресторан, разговор со служащим отеля
 
 # при выборе пункта меню "Встреча с клиентом (сцена)" (лейбл ep211_escort_scene1_1a), подпункт "Клиент в номере отеля"
 
@@ -52,46 +55,48 @@ label ep212_dialogues3_escort_hotel_1:
     with fade
     waitress "Здравствуйте, Мэм! Администратор Вас ждет на ресепшене."
 
-    #
-    $ notif(t_("У Моники хорошие отношения с официанткой."))
-    #
-    music Groove2_85
-    img 30087
-    with diss
-    mt "Черт!"
+    if waitressMonicaOffended1 == False and waitressMonicaFired == False:
+        #
+        $ notif(t_("У Моники хорошие отношения с официанткой."))
+        #
+        music Groove2_85
+        img 30087
+        with diss
+        mt "Черт!"
 
-    # если была сцена с выездом к клиенту Нэду
-    img 30077
-    with fade
-    mt "Надеюсь, это не выезд к клиенту в какой-нибудь гостевой дом..."
-    mt "Где его друзья с женами..."
-    m "Я сейчас подойду к ней."
+        # если была сцена с выездом к клиенту Нэду
+        img 30077
+        with fade
+        mt "Надеюсь, это не выезд к клиенту в какой-нибудь гостевой дом..."
+        mt "Где его друзья с женами..."
+        m "Я сейчас подойду к ней."
 
     # официантка уходит
 
-    #
-    $ notif(t_("У Моники плохие отношения с официанткой."))
-    #
-    music Groove2_85
-    img 30070
-    with diss
-    mt "Снова она!"
-    img 30071
-    with diss
-    m "Что?"
-    music Poppers_and_Prosecco
-    img 30062
-    with fade
-    waitress "Мэм... Вас администратор попросила позвать к себе..."
-    waitress "Обычно она так зовет к себе проститу... Кхм... Девочек из эскорта..." # подозрительно
-    # Моника перебивает ее
-    music Stealth_Groover
-    img 30072
-    with diss
-    m "Меня не интересует, что в вашем никчемном ресторане обычно происходит!"
-    m "Я не собираюсь выслушивать всякие глупости от какой-то официантки!"
-    # официантка уходит
-    $ log1 = t_("Пойти на ресепшн к администратору.")
+    else:
+        #
+        $ notif(t_("У Моники плохие отношения с официанткой."))
+        #
+        music Groove2_85
+        img 30070
+        with diss
+        mt "Снова она!"
+        img 30071
+        with diss
+        m "Что?"
+        music Poppers_and_Prosecco
+        img 30062
+        with fade
+        waitress "Мэм... Вас администратор попросила позвать к себе..."
+        waitress "Обычно она так зовет к себе проститу... Кхм... Девочек из эскорта..." # подозрительно
+        # Моника перебивает ее
+        music Stealth_Groover
+        img 30072
+        with diss
+        m "Меня не интересует, что в вашем никчемном ресторане обычно происходит!"
+        m "Я не собираюсь выслушивать всякие глупости от какой-то официантки!"
+        # официантка уходит
+#    $ log1 = t_("Пойти на ресепшн к администратору.")
     return
 
 # ресепшн
@@ -99,6 +104,10 @@ label ep212_dialogues3_escort_hotel_2:
     # Моника приходит на ресепшн
     # там стоит девочка из эскорта (брюнетка, карэ) и администраторша
     # они смотрят на Монику
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Groove2_85
     img 17515
     with fadelong
@@ -160,6 +169,11 @@ label ep212_dialogues3_escort_hotel_2:
     img 17525
     with fade
     reception "Поторопитесь!"
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 3.0
     return
 
 # возле лифта
@@ -172,7 +186,7 @@ label ep212_dialogues3_escort_hotel_2_1:
     girl_1 "Я зайду следом за тобой..."
     # Моника бросает на нее высокомерный взгляд и заходит в лифт
     m "..."
-    return
+    return False
 
 # номер отеля
 label ep212_dialogues3_escort_hotel_3:
@@ -180,9 +194,14 @@ label ep212_dialogues3_escort_hotel_3:
     # семейная пара стоит посреди номера
     # женщина зло смотрит на вошедших девушек
     # мужчина стоит, скукожившись, видно, что боится ее
-    music Soul4_100
+    music stop
+    img black_screen
+    with diss
+    sound snd_lift
+    pause 3.0
+#    music Soul4_100
 #    music Modern_Jazz_Samba
-#    music Groove2_85
+    music Pyro_Flow
     sound highheels_short_walk
     img 17431
     with fadelong
@@ -228,12 +247,12 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     sound snd_fabric1
     pause 1.0
-    music Soul4_100
+    music Groove2_85
     img 17435
     with fadelong
     w
     img 17436
-    with fade
+    with diss
     wife "Ну?! Чего ты молчишь?!"
     wife "Говори, к кому из них ты постоянно бегаешь, а?!"
     # муж смотрит на брюнетку, потом на Монику
@@ -287,10 +306,11 @@ label ep212_dialogues3_escort_hotel_3:
     w
     img 17443
     with fade
-    girl_1 "Молчи!"
     girl_1 "!!!"
+    girl_1 "Только попробуй!"
+#    girl_1 "Молчи!"
     # жена дает ему подзатыльник, у него очки немного сползают с носа и сидят криво
-    music Soul4_100
+    music Pyro_Flow
     img 17444
     with diss
     wife "Говори, скотина! Не скажешь ты, я сама узнаю это у их сутенерши!"
@@ -300,6 +320,7 @@ label ep212_dialogues3_escort_hotel_3:
     img 17445
     with vpunch
     wife "!!!"
+    sound Jump1
     img 17446
 #    with diss
     w
@@ -307,7 +328,7 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     husband "Я ходил к... к ней..."
     # указыват пальцем на Монику
-    stop music
+    music stop
     sound plastinka1b
     img 17455
     with hpunch
@@ -321,13 +342,14 @@ label ep212_dialogues3_escort_hotel_3:
     m "Я его первый раз вижу!"
     m "!!!"
     # жена смотрит на Монику презрительно
-    music Soul4_100
+    music Pyro_Flow
     img 17457
     with fade
     wife "Молчи!"
     wife "Продажная девка!"
     wife "Чтобы я от тебя ни слова не слышала!"
-    music Pyro_Flow
+    music Groove2_85
+
     img 17458
     with diss
     m "!!!"
@@ -339,16 +361,17 @@ label ep212_dialogues3_escort_hotel_3:
     mt "Жалкий никчемный неудачник!"
     mt "!!!"
     # жена встает, руки в боки
-    music Groove2_85
+    music Pyro_Flow
     img 17460
     with fade
     wife "Так!"
     wife "Ты снимаешь свои тряпки и ложишься сюда!" # отдает Монике приказ и указывает на пуф возле кровати
     img 17461
-    with diss
+    with hpunch
     mt "!!!"
     wife "А ты можешь проваливать отсюда, если хочешь!"
     # ехидно
+    music Groove2_85
     girl_1 "Можно я посмотрю?"
     img 17462
     with fade
@@ -356,7 +379,6 @@ label ep212_dialogues3_escort_hotel_3:
     girl_1 "Ладно. Только я оденусь сначала..."
     # несколько минут спустя брюнетка стоит одетая и ехидно улыбается Монике
     # Моника зло смотрит на нее, с ненавистью
-    music Pyro_Flow
     img 17463
     with diss
     m "!!!"
@@ -369,7 +391,7 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     sound snd_fabric1
     pause 1.0
-    music Soul4_100
+    music Pyro_Flow
     img 17465
     with fade
     wife "И ты, сволочь, раздевайся! Чего стоишь?!"
@@ -377,7 +399,7 @@ label ep212_dialogues3_escort_hotel_3:
     wife "Покажешь мне, как ты делал с ней ЭТО!"
     husband "В с-смысле?.." # испуганно
     img 17466
-    with diss
+    with vpunch
     wife "Я посмотрю, как ты с ней трахаешься, козел!"
     img 17467
     with fade
@@ -424,7 +446,7 @@ label ep212_dialogues3_escort_hotel_3:
             with diss
             mt "Сборище жалких неудачников!!!"
             mt "!!!"
-            return
+            return 0
         "Сделать, как требует клиент.":
             $ monicaEscortAngryWife1 = True # Моника согласилась раздеться и лечь на пуф
             pass
@@ -473,12 +495,18 @@ label ep212_dialogues3_escort_hotel_3:
     mt "..."
     # Моника опирается руками и коленями на пуф
     # муж в ужасе смотрит на нее
-    sound highheels_short_walk
-    img 17480
+    music stop
+    img black_screen
     with diss
+    sound highheels_short_walk
+    pause 1.5
+    music Hidden_Agenda
+    img 17480
+    with fade
     husband "Д-дорогая, д-давай пойдем домой..."
     husband "Т-там и п-поговорим."
     husband "П-пойдем, а?"
+    music Pyro_Flow
     img 17481
     with fade
     wife "А ну-ка замолчи!"
@@ -490,14 +518,16 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     mt "Скорее бы это закончилось!"
     mt "Кошмар!"
-    music Groove2_85
+    music Hidden_Agenda
     img 17483
     with fade
     husband "Д-дорогая..."
     husband "М-можно я не буду этого делать?"
+    music Pyro_Flow
     img 17484
     with diss
     wife "Нет! Ты сделаешь сейчас это!!!"
+    music Hidden_Agenda
     img 17485
     with fade
     husband "Н-но..."
@@ -506,6 +536,7 @@ label ep212_dialogues3_escort_hotel_3:
     img 17486
     with diss
     w
+    music Pyro_Flow
     img 17487
     with diss
     wife "!!!"
@@ -551,7 +582,7 @@ label ep212_dialogues3_escort_hotel_3:
             mt "Сборище жалких неудачников!!!"
             mt "!!!"
             # Моника уходит
-            return
+            return 0
         "Ударить эту дуру и уйти отсюда! (прерывание сцены и увольнение с эскорта)":
             # Монику бомбит, она подходит к жене и орет на нее
             music Power_Bots_Loop
@@ -595,7 +626,7 @@ label ep212_dialogues3_escort_hotel_3:
             m "Да пошел ты, придурок!"
             m "!!!"
             $ monicaEscortAngryWife4 = True # Моника ударила жену
-            return
+            return -1
         "Сделать, как требует клиент.":
             $ monicaEscortAngryWife2 = True # Моника согласилась дрочить клиенту
             pass
@@ -618,7 +649,7 @@ label ep212_dialogues3_escort_hotel_3:
     with fade
     w
     img 17503
-    with diss
+    with vpunch
     wife "Ну же, шлюха!"
     wife "Через тебя в день проходят десятки членов!"
     img 17504
@@ -650,17 +681,20 @@ label ep212_dialogues3_escort_hotel_3:
     img 17563
     with fadelong
     w
+    music Hidden_Agenda
     img 17564
     with fade
     husband "Д-дорогая..."
     husband "У м-меня все равно н-не получается..."
     husband "Д-давай, п-прекратим это?"
+    music Pyro_Flow
     img 17565
-    with diss
+    with vpunch
     wife "Засунь!"
     wife "В нее!"
     wife "Свой член!!!"
     wife "!!!"
+    music Groove2_85
     # он снова пытается войти в нее
     img 17566
     with fade
@@ -672,7 +706,8 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     mt "Сучка!"
     mt "!!!"
-    music Groove2_85
+    music stop
+    music2 Groove2_85
     img 17568
     with fade
     m "У него не получается!"
@@ -685,10 +720,48 @@ label ep212_dialogues3_escort_hotel_3:
     wife "Что эта грязная потаскуха делает такого, что ты к ней бегаешь?!"
     wife "И тратишь на это наши деньги!"
     # муж шпилит Монику, брюнетка с женой наблюдают
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 Turbo_Tornado
+    img 17577
+    with hpunch
+    husband "Вошел!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_1 = Movie(play="video/v_Monica_Escort3_Sex1_1.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17570
     with fade
     husband "Д-дорогая, м-может этого д-достаточно?"
     wife "Нет, сволочь! Продолжай!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_2 = Movie(play="video/v_Monica_Escort3_Sex1_2.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     # жена подходит с другой стороны, так чтобы смотреть на лицо Моники
     img 17571
     with diss
@@ -706,18 +779,62 @@ label ep212_dialogues3_escort_hotel_3:
     wife "Ну и что, кобель?!"
     wife "Тебе нравится?!"
     # тот продолжает секс
-    music Loved_Up
+#    music2 Loved_Up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_3 = Movie(play="video/v_Monica_Escort3_Sex1_3.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17574
     with fade
     husband "Н-нет, дорогая..."
     husband "М-мне с-совсем не н-нравится..."
-    music Groove2_85
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_4 = Movie(play="video/v_Monica_Escort3_Sex1_4.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+#    music2 Groove2_85
     img 17575
     with diss
     wife "..."
     wife "Скажи мне, кто лучше?"
     wife "Эта грязная шлюха или я?"
-    music Loved_Up
+#    music2 Loved_Up
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_6 = Movie(play="video/v_Monica_Escort3_Sex1_6.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17576
     with fade
     husband "К-конечно же ты, л-любимая..."
@@ -728,7 +845,7 @@ label ep212_dialogues3_escort_hotel_3:
     husband "М-мне нравится т-только с тобой, д-дорогая..."
     husband "Т-ты самая л-лучшая..."
     husband "Д-дорогая... М-может, уже достаточно?"
-    music Groove2_85
+#    music2 Groove2_85
     img 17578
     with fade
     wife "Нет, кобель!"
@@ -738,6 +855,27 @@ label ep212_dialogues3_escort_hotel_3:
     wife "Давай, трахай эту дрянь!"
     wife "Я хочу увидеть, насколько она тебе 'не нравится'!"
     # жена снова смотрит на Монику
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+    scene black
+    image videov_Monica_Escort3_Sex1_5 = Movie(play="video/v_Monica_Escort3_Sex1_5.mkv", fps=30)
+    show videov_Monica_Escort3_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+#    music Groove2_85
+    music2 Turbo_Tornado
     img 17580
     with fade
     wife "Ну что, шлюха?!"
@@ -746,7 +884,7 @@ label ep212_dialogues3_escort_hotel_3:
     wife "Уверена, для тебя это редкость!"
     wife "Отвечай!"
     # Моника зло смотрит на нее
-    music Pyro_Flow
+#    music Pyro_Flow
     img 17581
     with diss
     mt "Черт!"
@@ -755,7 +893,7 @@ label ep212_dialogues3_escort_hotel_3:
     mt "!!!"
     menu:
         "Да, нравится.":
-            music Soul4_100
+#            music Groove2_85
             img 17582
             with fade
             m "Да..."
@@ -770,15 +908,16 @@ label ep212_dialogues3_escort_hotel_3:
             wife "И как тебе не стыдно после этого вообще смотреть мне в глаза!"
             wife "Дрянь!"
             wife "!!!"
-            music Power_Bots_Loop
+#            music Power_Bots_Loop
             img 17585
             with diss
             mt "Дура!"
             mt "Никчемная жирная овца!"
             mt "!!!"
+            $ escort3MonicaLikeSex = True
             pass
         "Не нравится.":
-            music Soul4_100
+#            music Groove2_85
             img 17582
             with fade
             m "Нет..."
@@ -786,13 +925,29 @@ label ep212_dialogues3_escort_hotel_3:
             img 17583
             with diss
             wife "Смотри, кобель!"
+            img black_screen
+            with diss
+            stop music
+            $ renpy.music.set_volume(0.5, 0.5, channel="music")
+            $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Escort3_Sex1_1.ogg"
+            scene black
+            image videov_Monica_Escort3_Sex1_5 = Movie(play="video/v_Monica_Escort3_Sex1_5.mkv", fps=30)
+            show videov_Monica_Escort3_Sex1_5
+            with fade
             wife "Ты ее трахаешь! Даешь ей за это деньги!"
             wife "А ей еще и не нравится!!!"
+            wclean
+            stop music
+            music stop
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+#            music Groove2_85
             img 17584
             with fade
             wife "Вот к такой грязной и бессовестной шлюхе ты бегал все это время?!"
             wife "!!!"
-            music Power_Bots_Loop
+#            music Power_Bots_Loop
             img 17585
             with diss
             mt "Дура!"
@@ -801,7 +956,11 @@ label ep212_dialogues3_escort_hotel_3:
             $ monicaEscortAngryWife3 = True # Моника сказала жене, что ей не нравится секс с ее мужем
             pass
     # Моника зло смотрит на жену, муж делает еще несколько движений и кончает
-    music Loved_Up
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up2
     img 17587
     with fade
     husband "Ахххххх..."
@@ -820,12 +979,27 @@ label ep212_dialogues3_escort_hotel_3:
             with hpunch
             pause 0.7
             hide screen photoshot_screen
+            w
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            w
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            w
             sound man_moan6
             husband "Ах..."
             husband "Аааах..."
             img 17590
             with fade
             w
+            $ monicaEscort3CumZone = 1
+            $ monicaCumInside += 1
             pass
         "Кончить на попу Моники.":
             img 17589
@@ -842,16 +1016,26 @@ label ep212_dialogues3_escort_hotel_3:
             with hpunch
             pause 0.7
             hide screen photoshot_screen
+            w
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             sound man_moan6
             w
             img 17592
             with fade
             w
+            $ monicaEscort3CumZone = 2
             pass
-    music Pyro_Flow
+    music Groove2_85
     img 17586
     with diss
-    mt "Наконец-то, это безумие закончилось!"
+    if monicaEscort3CumZone == 1:
+        mt "Этот придурок что, кончил в МЕНЯ?!"
+    else:
+        mt "Наконец-то, это безумие закончилось!"
     mt "Теперь эта провинциальная дура довольна?!"
     mt "Сняла мужу эскортницу, чтобы посмотреть, как он занимается с ней сексом!"
     mt "Идиотка!"
@@ -861,7 +1045,7 @@ label ep212_dialogues3_escort_hotel_3:
     img black_screen
     with diss
     pause 1.0
-    music Soul4_100
+    music Pyro_Flow
     img 17593
     with hpunch
     wife "ЧТОООООО??!!!"
@@ -870,17 +1054,20 @@ label ep212_dialogues3_escort_hotel_3:
     with diss
     husband "Н-нет... Я..."
     wife "Ты мне врал, что она тебе не нравится!"
+    music Hidden_Agenda
     img 17595
     with fade
     husband "Я нечаянно, д-дорогая..."
     husband "П-прости..."
     # Накидывается на него с кулаками
+    music Turbo_Tornado
     img 17596
     with diss
     wife "Ах ты мерзавец!!!"
     # затемнение
     # вставить фразы бабах бах!
 #    music stop
+#    music Turbo_Tornado
     img black_screen
     with diss
     sound snd_kick_fred1
@@ -893,21 +1080,21 @@ label ep212_dialogues3_escort_hotel_3:
     pause 1.5
     husband "Ой!! АЙ! Ну больно же!"
     husband "(BASH!!! BASH!!!)"
-    return
+    return 1
 
 # ресепшн
 label ep212_dialogues3_escort_hotel_4:
     # китаянка стоит за стойкой ресепшена, вся наша компания стоит перед стойкой
     # жена такая же злая, муж зашуганный, брюнетка довольная собой, Моника злая
-    scene black_screen
+    music stop
+    img black_screen
     with Dissolve(1)
-
     call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
-    music Soul4_100
+    music Pyro_Flow
     img 17536
     with fadelong
     wife "Эта ваша проститутка ни на что не годна!"
@@ -939,7 +1126,7 @@ label ep212_dialogues3_escort_hotel_4:
     m "Что?!"
     m "Это..."
     # Моника пытается возразить, но жена на нее рявкает
-    music Soul4_100
+    music Pyro_Flow
     img 17542
     with fade
     wife "Заткнись!!!"
@@ -983,7 +1170,7 @@ label ep212_dialogues3_escort_hotel_4:
     m "Но..."
     wife "Молчать!!!"
     mt "!!!"
-    music Soul4_100
+    music Pyro_Flow
     img 17550
     with fade
     wife "Ну что, грязная шлюха?"
@@ -994,6 +1181,7 @@ label ep212_dialogues3_escort_hotel_4:
     img 17551
     with diss
     m "Не буду!"
+    m "Жирная овца!!!"
     m "!!!"
     # переводит взгляд на брюнетку, та стоит, подмигивает мужу и ехидно улыбается
     # занавес
@@ -1002,6 +1190,10 @@ label ep212_dialogues3_escort_hotel_4:
 # ресепшн
 # компания разошлась, Моника одна с админом
 label ep212_dialogues3_escort_hotel_5:
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Groove2_85
     img 17552
     with fadelong
@@ -1025,6 +1217,8 @@ label ep212_dialogues3_escort_hotel_5:
     reception "У нас ВИП Эскорт! Такое отношение к клиентам недопустимо!"
     reception "Ты поняла меня?!?!"
     m "Да..."
+    if char_info["ReceptionGirl"]["level"] == 1 and ep212_escort3_completed == True:
+        $ add_char_progress("ReceptionGirl", 25, "ReceptionGirl_escort_scene3")
     music Pyro_Flow
     img 17555
     with fade
@@ -1144,7 +1338,7 @@ label ep212_dialogues3_escort_hotel_7_2:
     # не рендерить!!
     mt "Мне нечего делать в этом никчемном отеле!"
     mt "Не хочу видеть ни этих сучек из эскорта, ни администраторшу!"
-    return
+    return False
 
 # Моника встречает в ресторане брюнетку после того, как была сцена в номере
 label ep212_dialogues3_escort_hotel_7_3:
@@ -1176,7 +1370,7 @@ label ep212_dialogues3_escort_hotel_7_3:
     girl_1 "Я и сейчас с ним... встречаюсь..."
     music Power_Bots_Loop
     img 17532
-    with diss
+    with vpunch
     m "Сучка! Никчемная проститутка!"
     music Poppers_and_Prosecco
     img 17533
@@ -1241,60 +1435,60 @@ label ep212_dialogues3_escort_hotel_8:
     m "?!?!?!"
     m "Ты?!"
     m "Что тебе от меня нужно?!"
-
-    #
-    $ notif(t_("Моника делала минет служащему отеля в служебном коридоре"))
-    #
-    img 30087
-    with fade
-    mt "Снова хочет предложить пойти с ним в уединенное место?!"
-    mt "За 50 долларов!!!"
-    mt "!!!"
-    music Poppers_and_Prosecco
-    img 22987
-    with diss
-    hotel_staff "Мэм, я скопил сумму денег, достаточную для того, чтобы..."
-    hotel_staff "Кхм..."
-    img 17558
-    with diss
-    m "Что?"
-    hotel_staff "Чтобы уединиться с Вами..."
-    m "..."
-    menu:
-        "Нет! Мне не нужны проблемы с администратором.":
-            # Моника высокомерно
-            music Stealth_Groover
-            img 17559
-            with fade
-            m "!!!"
-            m "Нет!"
-            m "Во-первых, это запрещено правилами ВИП-эскорта!"
-            img 17560
-            with diss
-            m "Во-вторых, я не хочу с тобой идти после того..."
-            m "Как ты бросил тогда меня с администратором!"
-            #
-            $ notif(t_("Служащий отеля убежал, когда администратор их застукала"))
-            #
-            music Poppers_and_Prosecco
-            img 17561
-            with fade
-            hotel_staff "Мэм, этого больше не повторится!"
-            hotel_staff "Я Вам обещаю!"
-            hotel_staff "Мэм..."
-            hotel_staff "Я могу заплатить Вам целых 100 баксов за минет!"
-            music Stealth_Groover
-            img 17562
-            with diss
-            m "!!!"
-            m "Мне не нужны проблемы с администратором из-за тебя!"
-            m "Халдей!"
-            m "Я леди! И не собираюсь продаваться такому ничтожеству!"
-            img 30070
-            with fade
-            mt "Никчемный неудачник!"
-            # Моника зло на него смотрит, тот смутившись, уходит
-            return
-        "Сколько денег ты скопил?! (в следующем обновлении)":
-            return
+    if monicaHotelStaffEscort2 == True:
+        #
+        $ notif(t_("Моника делала минет служащему отеля в служебном коридоре"))
+        #
+        img 30087
+        with fade
+        mt "Снова хочет предложить пойти с ним в уединенное место?!"
+        mt "За 50 долларов!!!"
+        mt "!!!"
+        music Poppers_and_Prosecco
+        img 22987
+        with diss
+        hotel_staff "Мэм, я скопил сумму денег, достаточную для того, чтобы..."
+        hotel_staff "Кхм..."
+        img 17558
+        with diss
+        m "Что?"
+        hotel_staff "Чтобы уединиться с Вами..."
+        m "..."
+        menu:
+            "Нет! Мне не нужны проблемы с администратором.":
+                # Моника высокомерно
+                music Stealth_Groover
+                img 17559
+                with fade
+                m "!!!"
+                m "Нет!"
+                m "Во-первых, это запрещено правилами ВИП-эскорта!"
+                img 17560
+                with diss
+                m "Во-вторых, я не хочу с тобой идти после того..."
+                m "Как ты бросил тогда меня с администратором!"
+                #
+                $ notif(t_("Служащий отеля убежал, когда администратор их застукала"))
+                #
+                music Poppers_and_Prosecco
+                img 17561
+                with fade
+                hotel_staff "Мэм, этого больше не повторится!"
+                hotel_staff "Я Вам обещаю!"
+                hotel_staff "Мэм..."
+                hotel_staff "Я могу заплатить Вам целых 100 баксов за минет!"
+                music Stealth_Groover
+                img 17562
+                with diss
+                m "!!!"
+                m "Мне не нужны проблемы с администратором из-за тебя!"
+                m "Халдей!"
+                m "Я леди! И не собираюсь продаваться такому ничтожеству!"
+                img 30070
+                with fade
+                mt "Никчемный неудачник!"
+                # Моника зло на него смотрит, тот смутившись, уходит
+                return False
+            "Сколько денег ты скопил?! (в следующем обновлении) (disabled)":
+                return True
     return

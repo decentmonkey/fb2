@@ -4,6 +4,8 @@ default monicaEscortClientHotel3 = False  # Моника согласилась 
 default monicaEscortClientHotel4 = False  # выбор сцены 1 с клиентом в отеле
 default monicaEscortClientHotel5 = False  # выбор сцены 2 с клиентом на выезде
 default monicaEscortClientHotel6 = False  # выбор пункта "Ждать клиента."
+default monicaEscortClientHotel7 = False # выбор сцены3
+default monicaEscortClientHotel8 = False # выбор сцены4
 
 #call ep211_escort_scene1_1a() # меню выбора, когда приходит на работу в эскорт (сцена, ждать клиента или уйти)
 #call ep211_escort_scene1_1() # ресторан, Моника сидит за столиком, приходит клиент
@@ -37,6 +39,12 @@ label ep211_escort_scene1_1a_loop1:
                     # при повторном выборе начинается с лейбла ep211_escort_scene2_3 (служ. коридор + выезд)
                     $ monicaEscortClientHotel5 = True # выбор сцены 2 с клиентом на выезде
                     return 2
+                "Провинившийся завсегдатай." if monicaEscortClientHotel5 == True:
+                    $ monicaEscortClientHotel7 = True
+                    return 3
+                "Обслуживание персонала." if monicaEscortClientHotel7 == True and monicaHotelStaffEscort2 == True:
+                    $ monicaEscortClientHotel8 = True
+                    return 4
                 "Назад.":
                     jump ep211_escort_scene1_1a_loop1
             return
@@ -806,6 +814,8 @@ label ep211_escort_scene1_5:
     reception "Завтра можешь приходить снова."
     reception "На сегодня все."
     reception "Клиенты не любят использованный товар."
+    if char_info["ReceptionGirl"]["level"] = 1:
+        $ add_char_progress("ReceptionGirl", 25, "ReceptionGirl_escort_scene1")
     img 30114
     with diss
     mt "Вот сучка!"

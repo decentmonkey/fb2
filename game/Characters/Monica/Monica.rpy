@@ -1,4 +1,4 @@
-
+default monicaCumInside = 0 # Сколько раз кончили внутрь Моники
 default monicaEatedLastDay = 0
 default monicaEatedLastDayTime = "day"
 default monicaFoodInventory = {} #какая еда есть у Моники с собой

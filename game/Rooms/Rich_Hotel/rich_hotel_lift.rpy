@@ -1,5 +1,6 @@
 default richHotelLiftMonicaSuffix = 1
 default richHotelLiftSceneSuffix = "" # default lift open
+default richHotelListVisitor3Suffix = 1
 
 label rich_hotel_lift:
     $ print "enter_rich_hotel_lift"
@@ -21,6 +22,10 @@ label rich_hotel_lift_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label rich_hotel_lift_init2:
+    $ add_object_to_scene("Visitor3", {"type" : 2, "base" : "RichHotel_Lift_Visitor3_[richHotelListVisitor3Suffix]", "click" : "rich_hotel_lift_environment", "actions" : "l", "b":0.15, "zorder":9, "active":False}, scene="rich_hotel_lift")
+    return
 
 label rich_hotel_lift_teleport:
     if obj_name == "Teleport_Reception":

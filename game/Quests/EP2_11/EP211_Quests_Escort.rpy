@@ -8,9 +8,13 @@ default monicaEscortLastDay = 0 # Когда крайний раз Моника 
 default monicaEscortSceneDay = 0
 default monicaEscortScene1Day = 0
 default monicaEscortScene2Day = 0
+default monicaEscortScene3Day = 0
+default monicaEscortScene4Day = 0
 
 default monicaEscortScenesCount = 0
 default monicaEscortFailedScenesCount = 0
+
+default escortRestaurantEnterForced = 0
 
 label ep211_quests_escort1:
     if ep211_quests_escort1_inited == False:
@@ -33,6 +37,10 @@ label ep211_quests_escort1:
     $ add_hook("Teleport_Restaurant", "ep211_quests_escort4_restaurant", scene="rich_hotel_reception", quest="work_escort")
     $ add_hook("MonicaTable", "ep211_quests_escort5_restaurant_wait_customer", scene="rich_hotel_restaurant", quest="work_escort")
     $ monicaEscortLastDay = day
+    if char_info["ReceptionGirl"]["level"] == 1:
+        $ char_info["ReceptionGirl"]["enabled"] = True
+        $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
+
     music stop
     img black_screen
     with diss
@@ -93,8 +101,14 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     with diss
     pause 1.5
     $ rnd1 = rand(1,4)
+    if escortRestaurantEnterForced > 0:
+        $ rnd1 = escortRestaurantEnterForced
+        $ escortRestaurantEnterForced = 0
     if rnd1 == 1:
-        call ep210_dialogues7_escort_hotel_8a2() from _rcall_ep210_dialogues7_escort_hotel_8a2
+        if ep212_escort3_completed == True:
+            call ep212_dialogues3_escort_hotel_7_3()
+        else:
+            call ep210_dialogues7_escort_hotel_8a2() from _rcall_ep210_dialogues7_escort_hotel_8a2
     if rnd1 == 2:
         call ep210_dialogues7_escort_hotel_8b() from _rcall_ep210_dialogues7_escort_hotel_8b
     if rnd1 == 3:
@@ -152,6 +166,17 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
         call ep211_quests_escort6_scene2a() from _rcall_ep211_quests_escort6_scene2a
+    if _return == 3: # Эскорт сцена 3
+        $ monicaEscortScene3Day = day
+        $ monicaEscortSceneDay = day
+        $ monicaEscortScenesCount += 1
+        call ep212_escort3_1()
+    if _return == 4:
+#        $ monicaEscortScene4Day = day
+#        $ monicaEscortSceneDay = day
+#        $ monicaEscortScenesCount += 1
+        call ep212_escort4_1()
+
     return False
 
 
