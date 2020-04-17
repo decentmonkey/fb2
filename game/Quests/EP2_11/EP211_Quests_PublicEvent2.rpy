@@ -15,6 +15,7 @@ default ep211_quests_guests_progress_cur = 0
 default ep211_quests_photoshoot_stage = 0
 
 default ep211_quests_publicevent2_completed = False
+default ep211_quests_photoshot8_opened_day = 0
 
 default monicaOfficeFiredType1 = False
 
@@ -376,7 +377,8 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
     $ add_objective("talk_biff", t_("Пойти в кабиент к Бифу и узнать, что решил инвестор."), c_blue, 105)
     $ miniMapEnabledOnly = []
     $ monicaOutfitsEnabled[8] = True # Открываем костюм для регулярной съемки
-
+    $ ep211_quests_photoshot8_opened_day = day
+    call ep212_quests_photoshoot8_after_init()
     sound snd_fabric1
     img black_screen
     with Dissolve(1.0)
