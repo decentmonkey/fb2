@@ -258,106 +258,132 @@ label ep27_dialogues4_biff5:
             img 13905
             with diss
             biff "Что цыпочка-Босс решила показать сегодня папочке?" #+
-            $ menu_corruption = [biffFlashCardQuestReportBoobsCorruptionRequired, biffFlashCardQuestReportAssCorruptionRequired]
-            menu:
-                "Показать грудь.": # corruption
-                    img 12783
-                    with fade
-                    m "Сегодня цыпочка-Босс пришла показать папочке свою грудь..." #-
-                    # Показывает грудь (нексолько кадров)
-                    music Loved_Up
-                    sound snd_fabric1
-                    img 13917
-                    with fadelong
-                    w
-                    img 13918
-                    with diss
-                    w
-                    img 13919
-                    with diss
-                    w
-                    img 13920
-                    with diss
-                    w
-                    img 12844
-                    with fade
-                    biff "Папочка доволен." #+
-                    $ add_corruption(7, "flash_card_quest_biff_reports_day_" + str(day))
-                    $ add_char_progress("Biff", biffFlashCardQuestReportBoobs, "biffFlashCardQuestReportBoobs" + str(day))
+            label ep27_dialogues4_biff5_loop1:
+                $ menu_corruption = [biffFlashCardQuestReportBoobsCorruptionRequired, biffFlashCardQuestReportAssCorruptionRequired]
+                menu:
+                    "Показать грудь.": # corruption
+                        img 12783
+                        with fade
+                        m "Сегодня цыпочка-Босс пришла показать папочке свою грудь..." #-
+                        # Показывает грудь (нексолько кадров)
+                        music Loved_Up
+                        sound snd_fabric1
+                        img 13917
+                        with fadelong
+                        w
+                        img 13918
+                        with diss
+                        w
+                        img 13919
+                        with diss
+                        w
+                        img 13920
+                        with diss
+                        w
+                        img 12844
+                        with fade
+                        biff "Папочка доволен." #+
+                        $ add_corruption(7, "flash_card_quest_biff_reports_day_" + str(day))
+                        $ add_char_progress("Biff", biffFlashCardQuestReportBoobs, "biffFlashCardQuestReportBoobs" + str(day))
 
-                "Показать попу.": #corruption
-                    img 12783
-                    with fade
-                    m "Сегодня цыпочка-Босс пришла показать папочке свою попу..." #-
-                    # Показывает Бифу попу (несколько кадров)
-                    music Loved_Up
-                    sound snd_fabric1
-                    img 20595
-                    with fadelong
-                    w
-                    img 20596
-                    with diss
-                    w
-                    img 20597
-                    with diss
-                    w
-                    img 20598
-                    with diss
-                    w
-                    img 20599
-                    with diss
-                    w
-                    img 20600
-                    with diss
-                    w
-                    img 12844
-                    with diss
-                    biff "Папочка доволен." #+
-                    $ add_corruption(10, "flash_card_quest_biff_reports_day_" + str(day))
-                    $ add_char_progress("Biff", biffFlashCardQuestReportAss, "biffFlashCardQuestReportAss" + str(day))
+                    "Показать попу.": #corruption
+                        img 12783
+                        with fade
+                        m "Сегодня цыпочка-Босс пришла показать папочке свою попу..." #-
+                        # Показывает Бифу попу (несколько кадров)
+                        music Loved_Up
+                        sound snd_fabric1
+                        img 20595
+                        with fadelong
+                        w
+                        img 20596
+                        with diss
+                        w
+                        img 20597
+                        with diss
+                        w
+                        img 20598
+                        with diss
+                        w
+                        img 20599
+                        with diss
+                        w
+                        img 20600
+                        with diss
+                        w
+                        img 12844
+                        with diss
+                        biff "Папочка доволен." #+
+                        $ add_corruption(10, "flash_card_quest_biff_reports_day_" + str(day))
+                        $ add_char_progress("Biff", biffFlashCardQuestReportAss, "biffFlashCardQuestReportAss" + str(day))
 
-                "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
-                    $ store_music()
-                    call ep210_dialogues1_office_biff_1a() from _rcall_ep210_dialogues1_office_biff_1a_1
-                    $ restore_music()
-                    img 8445
-                    biff "Хорошо, папочка доволен!"
-                    if biffCastingStage < 1:
-                        $ biffCastingStage = 1
-                    $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
-                "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
-                    pass
-                "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
-                    $ store_music()
-                    call ep210_dialogues1_office_biff_1b() from _rcall_ep210_dialogues1_office_biff_1b_1
-                    $ restore_music()
-                    img 8445
-                    biff "Хорошо, папочка доволен!"
-                    if biffCastingStage < 2:
-                        $ biffCastingStage = 2
-                    $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
-                "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
-                    pass
-                "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
-                    $ store_music()
-                    call ep210_dialogues1_office_biff_1c() from _rcall_ep210_dialogues1_office_biff_1c_1
-                    $ restore_music()
-                    img 8445
-                    biff "Хорошо, папочка доволен!"
-                    if biffCastingStage < 3:
-                        $ biffCastingStage = 3
-                    $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
-                "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
-                    pass
-
-                "Ничего.":
-                    img 12789
-                    with fade
-                    m "Сегодня цыпочка пришла только показать папочке отчеты." #-
-                    img 12875
-                    with diss
-                    biff "Ладно, цыпочка, у папочки все-равно сейчас нет времени." #+
-                    $ add_char_progress("Biff", biffFlashCardQuestReportNone, "biffFlashCardQuestReportNone" + str(day))
+                    "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
+                        $ store_music()
+                        call ep210_dialogues1_office_biff_1a() from _rcall_ep210_dialogues1_office_biff_1a_1
+                        $ restore_music()
+                        img 8445
+                        biff "Хорошо, папочка доволен!"
+                        if biffCastingStage < 1:
+                            $ biffCastingStage = 1
+                        $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
+                    "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
+                        pass
+                    "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
+                        $ store_music()
+                        call ep210_dialogues1_office_biff_1b() from _rcall_ep210_dialogues1_office_biff_1b_1
+                        $ restore_music()
+                        img 8445
+                        biff "Хорошо, папочка доволен!"
+                        if biffCastingStage < 2:
+                            $ biffCastingStage = 2
+                        $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
+                    "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
+                        pass
+                    "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
+                        $ store_music()
+                        call ep210_dialogues1_office_biff_1c() from _rcall_ep210_dialogues1_office_biff_1c_1
+                        $ restore_music()
+                        img 8445
+                        biff "Хорошо, папочка доволен!"
+                        if biffCastingStage < 3:
+                            $ biffCastingStage = 3
+                        $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
+                    "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
+                        pass
+                    "Раздеться и сесть на стол." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
+                        menu:
+                            "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
+                                $ store_music()
+                                call ep212_dialogues7_biff1()
+                                $ restore_music()
+                                img 8445
+                                biff "Хорошо, папочка доволен!"
+                                if biffCastingStage < 4:
+                                    $ biffCastingStage = 4
+                                $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
+                            "Поставить на стол одну ногу. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 3:
+                                pass
+                            "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
+                                $ store_music()
+                                call ep212_dialogues7_biff2()
+                                $ restore_music()
+                                img 8445
+                                biff "Хорошо, папочка доволен!"
+                                if biffCastingStage < 5:
+                                    $ biffCastingStage = 5
+                                $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
+                            "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
+                                pass
+                            "Назад.":
+                                jump ep27_dialogues4_biff5_loop1
+                    "Ничего.":
+                        img 12789
+                        with fade
+                        m "Сегодня цыпочка пришла только показать папочке отчеты." #-
+                        img 12875
+                        with diss
+                        biff "Ладно, цыпочка, у папочки все-равно сейчас нет времени." #+
+                        $ add_char_progress("Biff", biffFlashCardQuestReportNone, "biffFlashCardQuestReportNone" + str(day))
 
 
         "Не притворяться." if monicaSaidBiffSheIsWillBeAGoodChick == False:

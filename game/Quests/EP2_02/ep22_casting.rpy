@@ -671,9 +671,28 @@ label ep22_casting:
                 pass
             "Раздеться и сесть на стол.":
                 menu:
-                    "Поставить на стол одну ногу. (disabled)":
+                    "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
+                        $ store_music()
+                        call ep212_dialogues7_biff1()
+                        $ restore_music()
+                        img 8445
+                        biff "Хорошо, папочка доволен!"
+                        if biffCastingStage < 4:
+                            $ biffCastingStage = 4
+                        $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
+
+                    "Поставить на стол одну ногу. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 3:
                         pass
-                    "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)":
+                    "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
+                        $ store_music()
+                        call ep212_dialogues7_biff2()
+                        $ restore_music()
+                        img 8445
+                        biff "Хорошо, папочка доволен!"
+                        if biffCastingStage < 5:
+                            $ biffCastingStage = 5
+                        $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
+                    "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
                         pass
                     "Сесть на стол спиной к Бифу. (disabled)":
                         pass

@@ -1,5 +1,5 @@
-call ep212_dialogues7_biff1() # нога на столе
-call ep212_dialogues7_biff2() # сидит на столе
+#call ep212_dialogues7_biff1() # нога на столе
+#call ep212_dialogues7_biff2() # сидит на столе
 
 
 label ep212_dialogues7_biff1: #Поставить на стол одну ногу.
@@ -96,6 +96,11 @@ label ep212_dialogues7_biff2: #Сесть на стол лицом к Бифу, 
     menu:
         "Я хорошая цыпочка...":
             pass
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up
     img 23754
     with fade
     m "Я хорошая цыпочка..."
@@ -115,6 +120,11 @@ label ep212_dialogues7_biff2: #Сесть на стол лицом к Бифу, 
     menu:
         "Я хорошая цыпочка...":
             pass
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
+    music Loved_Up
     img 23759
     with fade
     m "Я хорошая цыпочка..."

@@ -339,6 +339,8 @@ define biffFlashCardQuestReportAss = 5 # Показала попу
 define biffFlashCardQuestReportPose1 = 6 # Показала другие позы
 define biffFlashCardQuestReportPose2 = 7
 define biffFlashCardQuestReportPose3 = 8
+define biffFlashCardQuestReportPose4 = 8
+define biffFlashCardQuestReportPose5 = 10
 
 define biffFlashCardQuestReportBoobsCorruptionRequired = 220
 define biffFlashCardQuestReportAssCorruptionRequired = 240
