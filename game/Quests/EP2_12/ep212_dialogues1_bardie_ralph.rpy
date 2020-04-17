@@ -33,7 +33,7 @@ label ep212_dialogues1_bardie_ralph1:
     sound highheels_short_walk
     pause 1.5
     music Groove2_85
-    img 15806
+    img 7456
     with fadelong
     w
     img 15808
@@ -855,7 +855,7 @@ label ep212_dialogues1_bardie_ralph9: # После второй уборки
     sound highheels_short_walk
     pause 1.5
     music Groove2_85
-    img 15806
+    img 15809
     with fadelong
     w
     img 15813
@@ -1602,3 +1602,4 @@ label ep212_dialogues1_bardie_ralph14: # autorun
     return
 
 #
+7456
