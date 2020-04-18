@@ -6,6 +6,9 @@ default customer3_serve2Event2Count = 0
 
 default customer3_dance_comment_stage = 0
 
+default customer3_after_private = False
+default customer3_after_private_agree_count = 0
+
 label customer3_1stmeeting:
     music Hidden_Agenda
     sound highheels_short_walk

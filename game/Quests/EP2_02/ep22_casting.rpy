@@ -644,7 +644,8 @@ label ep22_casting:
                 biff "Хорошо, папочка доволен!"
                 if biffCastingStage < 1:
                     $ biffCastingStage = 1
-                $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
+                if char_info["Biff"]["level"] <= 2:
+                    $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
             "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
                 pass
             "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
@@ -655,7 +656,8 @@ label ep22_casting:
                 biff "Хорошо, папочка доволен!"
                 if biffCastingStage < 2:
                     $ biffCastingStage = 2
-                $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
+                if char_info["Biff"]["level"] <= 2:
+                    $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
             "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
                 pass
             "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
@@ -666,7 +668,8 @@ label ep22_casting:
                 biff "Хорошо, папочка доволен!"
                 if biffCastingStage < 3:
                     $ biffCastingStage = 3
-                $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
+                if char_info["Biff"]["level"] <= 2:
+                    $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
             "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                 pass
             "Раздеться и сесть на стол.":
@@ -679,7 +682,8 @@ label ep22_casting:
                         biff "Хорошо, папочка доволен!"
                         if biffCastingStage < 4:
                             $ biffCastingStage = 4
-                        $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
 
                     "Поставить на стол одну ногу. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 3:
                         pass
@@ -691,7 +695,8 @@ label ep22_casting:
                         biff "Хорошо, папочка доволен!"
                         if biffCastingStage < 5:
                             $ biffCastingStage = 5
-                        $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
                     "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
                         pass
                     "Сесть на стол спиной к Бифу. (disabled)":

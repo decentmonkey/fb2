@@ -12,6 +12,10 @@ default monicaDancingStage = 0 # 0 - корсет (1..3), 1 - топлесс (4.
 default monicaDancingInProgress = False
 default monicaStartedStripDanceFlag = False
 default monicaDanceStartHookInited = False
+default dancePrivateMenuEnabled = True
+default dancePrivateLastDay = 0
+
+default pubDanceAfterBlockEvents = False
 
 label pub_dance_movegirls_to_makeuproom:
     # перемещение стриптизерш в гримерку (вызывается при начале танцев)
@@ -140,20 +144,25 @@ label pub_dance_end1: # Обычное завершение танцев
         $ monicaDancingJoeAskedAboutPrivate = True
     if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True:
         # Падают трусики
+        $ pubDanceAfterBlockEvents = True
         call ep210_dialogues4_dance_strip_12() from _rcall_ep210_dialogues4_dance_strip_12
         call ep210_dialogues4_dance_strip_13() from _rcall_ep210_dialogues4_dance_strip_13
         $ ep29_quests_molly_fall_panties_planned = False
         $ ep29_quests_molly_fall_panties_completed = True
 
-    if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False: # Если Моника оправдали после Молли и она еще не крала чаевых
+    if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False and pubDanceAfterBlockEvents == False: # Если Моника оправдали после Молли и она еще не крала чаевых
         call ep211_quests_pub1() from _rcall_ep211_quests_pub1
 
-    if monicaPubDanceStoleTipsBankerPlanned == True:
+    if monicaPubDanceStoleTipsBankerPlanned == True and pubDanceAfterBlockEvents == False:
         call ep211_quests_pub3_start_banker_quest() from _rcall_ep211_quests_pub3_start_banker_quest
         if _return == False:
             return False
-
+    if monicaPubPrivatDance1 == True and dancePrivateMenuEnabled == True and math.floor(dancePrivateLastDay/7)<math.floor(day/7) and pubDanceAfterBlockEvents == False:
+        call ep212_quests_pub_menu_private()
+        if _return == False:
+            return False
     $ ep29_quests_claire_dance_planned = False
+    $ pubDanceAfterBlockEvents = False
     $ remove_hook(label="remove_after_dance")
     $ move_object("Pub_StripteaseGirl2", "empty")
     $ move_object("Pub_StripteaseGirl1", "empty")

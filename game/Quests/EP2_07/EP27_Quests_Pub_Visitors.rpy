@@ -39,16 +39,22 @@ label ep27_pub_visitors_click:
         $ autorun_to_object("customer2_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor3":
-        if visitsCount == 0:
-            call customer3_1stmeeting() from _call_customer3_1stmeeting
+        if customer3_after_private == True:
+            call ep212_dialogues2_shiny_hole_3()
             $ pubVisitor3Suffix = "_Food"
-        if visitsCount > 0:
-            if visitsCount%2 == 1:
-                call customer3_serve1() from _call_customer3_serve1
+            if _return != False:
+                $ customer3_after_private_agree_count += 1
+        else:
+            if visitsCount == 0:
+                call customer3_1stmeeting() from _call_customer3_1stmeeting
                 $ pubVisitor3Suffix = "_Food"
-            else:
-                call customer3_serve2() from _call_customer3_serve2
-                # nofood
+            if visitsCount > 0:
+                if visitsCount%2 == 1:
+                    call customer3_serve1() from _call_customer3_serve1
+                    $ pubVisitor3Suffix = "_Food"
+                else:
+                    call customer3_serve2() from _call_customer3_serve2
+                    # nofood
         $ autorun_to_object("customer3_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor4":

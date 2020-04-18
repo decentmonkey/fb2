@@ -2,11 +2,25 @@ default monicaPubPrivatDanceJoe1 = False # Моника согласилась �
 default monicaPubPrivatDanceJoe2 = False # Моника согласилась назвать себя шлюхой
 default monicaPubPrivatDanceJoe3 = False # Моника согласилась потереться об клиента попой
 
-call ep212_dialogues2_shiny_hole_1() # гримерка, разговор с Джо перед приватом
-call ep212_dialogues2_shiny_hole_2() # подсобка барменов, приват
-call ep212_dialogues2_shiny_hole_3() # работая официанткой, подошла к клиенту после привата с ним
+#call ep212_dialogues2_shiny_hole_1() # гримерка, разговор с Джо перед приватом
+#call ep212_dialogues2_shiny_hole_2() # подсобка барменов, приват
+#call ep212_dialogues2_shiny_hole_3() # работая официанткой, подошла к клиенту после привата с ним
+
+default monicaPubPrivate1CumZone = 0
 
 # приват будет доступен один раз в неделю
+label ep212_dialogues2_shiny_hole_menu_private:
+    img scene_Pub_Stage1
+    with fadelong
+    menu:
+        "Танец для Мистера Беркельбауха.":
+            return 0
+        "Приватный танец 1":
+            return 1
+        "Ничего.":
+            return -1
+    return -1
+
 
 # Паб. Моника находится в гримерке после выступления на сцене.
 # в гримерку заходит Джо.
@@ -59,9 +73,10 @@ label ep212_dialogues2_shiny_hole_1:
     m "Нет!"
     m "!!!"
 
-    #
-    $ notif(t_("Моника танцевала приват для Мистера Беркельбауха"))
-    #
+    if monicaPubPrivatDance1 == True:
+        #
+        $ notif(t_("Моника танцевала приват для Мистера Беркельбауха"))
+        #
     music Stealth_Groover
     img 22877
     with fade
@@ -100,9 +115,10 @@ label ep212_dialogues2_shiny_hole_1:
     joe "Ты ведь уже танцевала в привате для какого-то клиента..."
     joe "Мне Эшли говорила, что он остался тобой очень доволен."
 
-    #
-    $ notif(t_("Эшли показала свою голую попу Мистеру Беркельбауху"))
-    #
+    if monicaPubDanceStoleTipsBankerCompleted == True:
+        #
+        $ notif(t_("Эшли показала свою голую попу Мистеру Беркельбауху"))
+        #
     music Groove2_85
     img 30458
     with fade
@@ -130,16 +146,17 @@ label ep212_dialogues2_shiny_hole_1:
     joe "Я пообещал тебе, что все будет гладко."
     joe "Поэтому лично прослежу за этим!"
 
-    # если Моника просила прощения у Джо и показывала ему свою попу
-    $ notif(t_("Моника просила прощения у Джо"))
-    #
-    music Marty_Gots_a_Plan
-    img 22875
-    with fade
-    joe "Тем более, я уже видел твою попку..."
-    joe "И не откажусь еще раз посмотреть на нее." # подмигивает
+    if pubMonicaWaitressTipsPunishmentJoeStage >= 2:
+        # если Моника просила прощения у Джо и показывала ему свою попу
+        $ notif(t_("Моника просила прощения у Джо"))
+        #
+        music Marty_Gots_a_Plan
+        img 22875
+        with fade
+        joe "Тем более, я уже видел твою попку..."
+        joe "И не откажусь еще раз посмотреть на нее." # подмигивает
 
-    m "!!!"
+        m "!!!"
 
     # Подмигивает
     music Groove2_85
@@ -204,23 +221,25 @@ label ep212_dialogues2_shiny_hole_1:
     mt "..."
     mt "Черт!"
 
-    # если Моника уже работает в эскорте
-    $ notif(t_("Моника зарабатывает деньги, обслуживая клиентов в эскорте"))
-    #
-    img 30470
-    with diss
-    mt "Я столько за один вечер не всегда могу заработать даже в эскорте..."
-    mt "Обслуживая разных извращенцев..."
-    mt "А здесь.. Просто раздеться..."
-    mt "Без секса и других мерзостей..."
+    if monica_escort_service_started == True:
+        # если Моника уже работает в эскорте
+        $ notif(t_("Моника зарабатывает деньги, обслуживая клиентов в эскорте"))
+        #
+        img 30470
+        with diss
+        mt "Я столько за один вечер не всегда могу заработать даже в эскорте..."
+        mt "Обслуживая разных извращенцев..."
+        mt "А здесь.. Просто раздеться..."
+        mt "Без секса и других мерзостей..."
 
-    # если Моника уже арендует шикарный апартамент
-    $ notif(t_("Моника арендует апартаменты у продавца кебабов"))
-    #
-    img 30471
-    with fade
-    mt "Этих денег хватит с лихвой, чтобы продлить мои апартаменты на целую неделю..."
-    mt "Без всяких скидок от этого грязного Джека!"
+    if slumsApartmentsRentStarted == True:
+        # если Моника уже арендует шикарный апартамент
+        $ notif(t_("Моника арендует апартаменты у продавца кебабов"))
+        #
+        img 30471
+        with fade
+        mt "Этих денег хватит с лихвой, чтобы продлить мои апартаменты на целую неделю..."
+        mt "Без всяких скидок от этого грязного Джека!"
     img 30465
     with diss
     m "Джо, я не пойду!"
@@ -258,7 +277,7 @@ label ep212_dialogues2_shiny_hole_1:
     with fade
     mt "Если мне что-то не понравится, я пошлю Джо к черту и уйду оттуда."
     mt "И этот никчемный Джо мне ничего не сможет сделать."
-    $ log1 = t_("Пойти в подсобку барменов.")
+#    $ log1 = t_("Пойти в подсобку барменов.")
     return True
 
 # подсобка барменов
@@ -451,14 +470,15 @@ label ep212_dialogues2_shiny_hole_2:
     with diss
     m "Я не..."
     music Groove2_85
-    # если с клиентом уже был диалог, что он видел ее на сцене, а Моника-официантка это отрицала
-    $ notif(t_("Моника говорила клиенту, что не танцует на сцене."))
-    #
-    img 30507
-    with fade
-    customer3 "Ну да, ну да..."
-    customer3 "Ты не работаешь здесь официанткой... Бла-бла-бла..."
-    customer3 "Неважно..."
+    if customer3_dance_comment_stage >= 1:
+        # если с клиентом уже был диалог, что он видел ее на сцене, а Моника-официантка это отрицала
+        $ notif(t_("Моника говорила клиенту, что не танцует на сцене."))
+        #
+        img 30507
+        with fade
+        customer3 "Ну да, ну да..."
+        customer3 "Ты не работаешь здесь официанткой... Бла-бла-бла..."
+        customer3 "Неважно..."
     img 30508
     with diss
     customer3 "Снимай одежду..."
@@ -520,7 +540,7 @@ label ep212_dialogues2_shiny_hole_2:
     with fade
     w
     img 30521
-    with diss
+    with hpunch
     customer3 "Эй ты, смотри что у меня для тебя есть!"
     customer3 "Иди сюда, я хочу потрогать тебя..."
     music Power_Bots_Loop
@@ -681,21 +701,51 @@ label ep212_dialogues2_shiny_hole_2:
     with diss
     sound Jump2
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     img 30548
     with fadelong
     customer3 "Вооот, другое дело!"
     customer3 "Вот так мне нравится больше."
     customer3 "Теперь я могу рассмотреть твою задницу поближе..."
+
     img 30549
     with fade
     w
     img 30554
     with diss
     w
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Private2_Teasing1_1 = Movie(play="video/v_Monica_Private2_Teasing1_1.mkv", fps=30)
+    show videov_Monica_Private2_Teasing1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30550
     with fade
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Private2_Teasing1_2 = Movie(play="video/v_Monica_Private2_Teasing1_2.mkv", fps=30)
+    show videov_Monica_Private2_Teasing1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30551
     with diss
     w
@@ -705,17 +755,65 @@ label ep212_dialogues2_shiny_hole_2:
     img 30553
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Private2_Teasing1_3 = Movie(play="video/v_Monica_Private2_Teasing1_3.mkv", fps=30)
+    show videov_Monica_Private2_Teasing1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 30555
     with fade
     mt "Долбанный извращенец!"
     mt "!!!"
+
+
+    music2 Loved_up2
     img 30556
     with diss
     customer3 "Давай, шустрее шевели своей задницей!"
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Private2_Teasing1_4 = Movie(play="video/v_Monica_Private2_Teasing1_4.mkv", fps=30)
+    show videov_Monica_Private2_Teasing1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
     customer3 "Дааа..."
     customer3 "Еще быстрей..."
     # Моника со злым лицом трется о клиента
-    music Loved_up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Private2_Teasing1_5 = Movie(play="video/v_Monica_Private2_Teasing1_5.mkv", fps=30)
+    show videov_Monica_Private2_Teasing1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 30557
     with fade
     customer3 "Мммммм..."
@@ -765,6 +863,7 @@ label ep212_dialogues2_shiny_hole_2:
             mt "Джо сволочь!!!"
             mt "Твоя жена тебя не видит!"
             mt "!!!"
+            $ monicaPubPrivate1CumZone = 1
             pass
         "Кончить на лицо Моники.":
             img 30564
@@ -814,15 +913,18 @@ label ep212_dialogues2_shiny_hole_2:
             joe "Оооох..."
             joe "Ммммммм..."
             # Моника зло на него смотрит
-            img 30563
+            img 30566
+#            img 30563
             with fade
             mt "Джо сволочь!!!"
             mt "Твоя жена тебя не видит!"
             mt "!!!"
+            $ monicaPubPrivate1CumZone = 2
             pass
     # смена кадра
     # клиент стоит одетый, клиент и Джо расслабленные и довольные, Моника стоит в трусиках, злая
     music stop
+    music2 stop
     img black_screen
     with diss
     sound snd_fabric1
@@ -891,7 +993,7 @@ label ep212_dialogues2_shiny_hole_2:
     mt "АААААА!!!"
     mt "Ненавижу!"
     mt "!!!"
-    return
+    return 1
 
 # если Моника в другой день работает официанткой и подходит к этому клиенту и приват с ним уже был
 label ep212_dialogues2_shiny_hole_3:
@@ -1035,6 +1137,7 @@ label ep212_dialogues2_shiny_hole_3:
     img 23733
     with diss
     w
+    $ add_tips(10.0)
     img 23734
     with diss
     customer3 "Отличная задница!"

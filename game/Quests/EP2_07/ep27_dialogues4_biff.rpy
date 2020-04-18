@@ -284,7 +284,8 @@ label ep27_dialogues4_biff5:
                         with fade
                         biff "Папочка доволен." #+
                         $ add_corruption(7, "flash_card_quest_biff_reports_day_" + str(day))
-                        $ add_char_progress("Biff", biffFlashCardQuestReportBoobs, "biffFlashCardQuestReportBoobs" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportBoobs, "biffFlashCardQuestReportBoobs" + str(day))
 
                     "Показать попу.": #corruption
                         img 12783
@@ -315,7 +316,8 @@ label ep27_dialogues4_biff5:
                         with diss
                         biff "Папочка доволен." #+
                         $ add_corruption(10, "flash_card_quest_biff_reports_day_" + str(day))
-                        $ add_char_progress("Biff", biffFlashCardQuestReportAss, "biffFlashCardQuestReportAss" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportAss, "biffFlashCardQuestReportAss" + str(day))
 
                     "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
                         $ store_music()
@@ -325,7 +327,8 @@ label ep27_dialogues4_biff5:
                         biff "Хорошо, папочка доволен!"
                         if biffCastingStage < 1:
                             $ biffCastingStage = 1
-                        $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportPose1, "biffFlashCardQuestReportPose1" + str(day))
                     "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
                         pass
                     "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
@@ -336,7 +339,8 @@ label ep27_dialogues4_biff5:
                         biff "Хорошо, папочка доволен!"
                         if biffCastingStage < 2:
                             $ biffCastingStage = 2
-                        $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportPose2, "biffFlashCardQuestReportPose2" + str(day))
                     "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
                         pass
                     "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
@@ -347,7 +351,8 @@ label ep27_dialogues4_biff5:
                         biff "Хорошо, папочка доволен!"
                         if biffCastingStage < 3:
                             $ biffCastingStage = 3
-                        $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportPose3, "biffFlashCardQuestReportPose3" + str(day))
                     "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                         pass
                     "Раздеться и сесть на стол." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
@@ -360,7 +365,8 @@ label ep27_dialogues4_biff5:
                                 biff "Хорошо, папочка доволен!"
                                 if biffCastingStage < 4:
                                     $ biffCastingStage = 4
-                                $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
+                                if char_info["Biff"]["level"] <= 2:
+                                    $ add_char_progress("Biff", biffFlashCardQuestReportPose4, "biffFlashCardQuestReportPose4" + str(day))
                             "Поставить на стол одну ногу. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 3:
                                 pass
                             "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
@@ -371,7 +377,8 @@ label ep27_dialogues4_biff5:
                                 biff "Хорошо, папочка доволен!"
                                 if biffCastingStage < 5:
                                     $ biffCastingStage = 5
-                                $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
+                                if char_info["Biff"]["level"] <= 2:
+                                    $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
                             "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
                                 pass
                             "Назад.":
@@ -383,7 +390,8 @@ label ep27_dialogues4_biff5:
                         img 12875
                         with diss
                         biff "Ладно, цыпочка, у папочки все-равно сейчас нет времени." #+
-                        $ add_char_progress("Biff", biffFlashCardQuestReportNone, "biffFlashCardQuestReportNone" + str(day))
+                        if char_info["Biff"]["level"] <= 2:
+                            $ add_char_progress("Biff", biffFlashCardQuestReportNone, "biffFlashCardQuestReportNone" + str(day))
 
 
         "Не притворяться." if monicaSaidBiffSheIsWillBeAGoodChick == False:
