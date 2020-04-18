@@ -207,6 +207,8 @@ label ep212_quests_pub_reset_pub: # Сброс квеста shiny hole
     $ questLog(58, False)
     $ questLog(70, False)
     $ questLog(59, False)
+    $ questLog(30, False)
+
     call ep23_quests_pub_init()
     music stop
     music2 stop

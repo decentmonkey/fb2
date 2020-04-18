@@ -153,6 +153,18 @@ label ep212_dialogues4_philip_threesome_1:
     img 17168
     with diss
 
+
+    w
+    img 17169
+    with diss
+    w
+    img 17170
+    with diss
+    mt "!!!"
+    mt "Она не просто шлюха, она еще и лесбиянка! Фи!"
+    mt "Ей действительно все это нравится?!"
+    mt "Как же все это омерзительно!"
+
     img black_screen
     with diss
     stop music
@@ -168,16 +180,6 @@ label ep212_dialogues4_philip_threesome_1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    w
-    img 17169
-    with diss
-    w
-    img 17170
-    with diss
-    mt "!!!"
-    mt "Она не просто шлюха, она еще и лесбиянка! Фи!"
-    mt "Ей действительно все это нравится?!"
-    mt "Как же все это омерзительно!"
     # Моника стоит голая, Филипп расстегивает брюки и начинает подрачивать свой член
     # шлюха номер 1 убирает руку от киски Моники и говорит ей
     img 17171
@@ -281,27 +283,73 @@ label ep212_dialogues4_philip_threesome_1:
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     img 17187
     with diss
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Licking1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Licking1_1 = Movie(play="video/v_Monica_WhoreN1_Licking1_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Licking1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17188
     with fade
     whore_number_1 "Ммммм..."
     img 17189
     with diss
     whore_number_1 "Как приятно..."
-    img 17190
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Licking1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Licking1_2 = Movie(play="video/v_Monica_WhoreN1_Licking1_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Licking1_2
     with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     whore_number_1 "А у тебя хорошо получается, шлюха номер 2..."
     img 17191
     with diss
+    w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.333333333333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Licking1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Licking1_3 = Movie(play="video/v_Monica_WhoreN1_Licking1_3.mkv", fps=30)
+    show videov_Monica_WhoreN1_Licking1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img 17190
+    with fade
     whore_number_1 "Чувствуется, что у тебя уже есть опыт с кисками..."
     img 17192
     with fade
     whore_number_1 "Ммммм..."
     # немного позже Филипп прерывает их
-    music Groove2_85
+    music2 Groove2_85
     img 17193
     with diss
     philip "Достаточно!"
@@ -316,7 +364,7 @@ label ep212_dialogues4_philip_threesome_1:
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     img 17196
     with fadelong
     w
@@ -325,15 +373,20 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Нет, не так."
     philip "Сегодня я хочу трахнуть тебя в твою упругую задницу, шлюха номер 1."
     # та делает так, как говорит Филипп и насаживается на его член попой
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 Loved_Up
     sound chpok6
     img 17198
-    with diss
+    with vpunch
     philip "Дааа. Вот тааак."
     img 17199
     with fade
     philip "А шлюха номер 2 сядет рядом с нами и будет держать лицо около моего члена."
     # Моника непонимающе смотрит на него
-    music Groove2_85
+    music2 Groove2_85
     img 17200
     with diss
     mt "???"
@@ -346,7 +399,7 @@ label ep212_dialogues4_philip_threesome_1:
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     img 17202
     with fadelong
     whore_number_1 "Ооооо, как же хорошоооо!"
