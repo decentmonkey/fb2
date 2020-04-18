@@ -211,6 +211,7 @@ label ep212_dialogues_revenge_quest1:
     steve "ААААААААААА!!!"
     steve "ЧТО ЭТО?!! АААААААА!!!"
 
+    $ renpy.music.set_volume(0.0, 0.5, channel="music2")
     # Моника затыкает Стиву рот
     img 23671
     with fade
@@ -218,6 +219,7 @@ label ep212_dialogues_revenge_quest1:
     m "Наш общий друг возражает против твоей точки зрения, Стив."
     m "И я решила дать ему слово."
 #    sound scream_steve2
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
     img 23672
     with diss
     show screen photoshot_screen()
@@ -263,11 +265,11 @@ label ep212_dialogues_revenge_quest1:
     m "Это твой последний шанс..."
 
     music stop
-    music2 stop
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
+    music2 stop
     sound switch_steve
     pause 1.5
     music Groove2_85
