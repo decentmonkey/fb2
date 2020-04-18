@@ -162,7 +162,7 @@ label ep23_dialogues1_2b:
     else:
         $ monica_pub_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_pub_name)
     with fadelong
-    if monica_pub_name == False or monica_pub_name == "False":
+    if bool(monica_pub_name) == False or str(monica_pub_name) == "False":
         $ monica_pub_name = t__("Мэрилин")
     m "Меня зовут... [monica_pub_name]..."
     $ pubLocationInitializedForced = True

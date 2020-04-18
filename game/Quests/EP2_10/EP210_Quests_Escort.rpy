@@ -12,6 +12,7 @@ default monica_philip_visits_blowjobs = 0
 default monica_philip_visits_sex = 0
 default monica_philip_visits_swallowed = 0
 default monica_philip_visits_double_blowjobs = 0
+default monica_philip_visits_threesomes = 0
 
 default ep210_quests_escort_staff_refused = False
 

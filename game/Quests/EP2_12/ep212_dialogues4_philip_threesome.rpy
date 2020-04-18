@@ -1,5 +1,6 @@
 default monicaShlut1PhillipThreesome1 = False  # Моника делала куни шлюхе № 1 по приказу Филиппа
 default monicaShlut1PhillipThreesome2 = False  # Моника согласилась на ass to mouth
+default monicaPhillipThreesome1_cum_zone = 0
 
 call ep212_dialogues4_philip_threesome_1() # гостиница у Филиппа дома, секс втроем
 call ep212_dialogues4_philip_threesome_2() # Филипп оплачивает работу шлюхе номер 1
@@ -83,6 +84,7 @@ label ep212_dialogues4_philip_threesome_1:
     whore_number_1 "Да точно-точно. Сколько уже можно спрашивать об этом..."
     whore_number_1 "Пошли!"
     # Филипп со скучающим видом обращается к шлюхе номер 1
+    music stop
     img black_screen
     with diss
     pause 1.5
@@ -146,6 +148,21 @@ label ep212_dialogues4_philip_threesome_1:
     w
     img 17168
     with diss
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    scene black
+    image videov_Monica_Julia_Licking1_1 = Movie(play="video/v_Monica_Julia_Licking1_1.mkv", fps=30)
+    show videov_Monica_Julia_Licking1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     w
     img 17169
     with diss
@@ -245,7 +262,7 @@ label ep212_dialogues4_philip_threesome_1:
             $ monicaShlut1PhillipThreesome1 = True # Моника делала куни шлюхе № 1 по приказу Филиппа
             pass
     # Моника смотрит на киску шлюхи номер 1 в нерешительности
-    music Pyro_Flow
+    music Groove2_85
     img 17194
     with fade
     mt "Долбанные извращенцы!"
@@ -336,94 +353,96 @@ label ep212_dialogues4_philip_threesome_1:
     img 17206
     with diss
     whore_number_1 "Ещееее!!!"
-    # немного позже шлюха 1 привстает и Филипп говорит Монике
-    sound hlup25
-    img 17207
-    with fade
-    philip "Открывай свой рот, шлюха номер 2."
-    philip "Приглашай мой член войти в него."
-    # Моника парится и с отвращением смотрит на его член, который он только что вытащил из попы шлюхи номер 1
-    music Groove2_85
-    img 17208
-    with diss
-    mt "Что?!"
-    mt "О, нет!!!"
-    mt "Фууу!!!"
-    mt "Какая мерзость!!!"
-    img 17209
-    with diss
-    philip "Ну?!"
-    img 17254
-    with fade
-    w
-    # Моника с отвращением на лице
-    img 17210
-    with diss
-    m "..."
-    menu:
-        "Убежать!":
-            # Моника смотрит с отвращением
-            music Pyro_Flow
-            img 17211
-            with fade
-            mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
-            mt "Я не могу пойти на это!"
-            music Groove2_85
-            img 17212
-            with diss
-            m "Нет. Я..."
-            m "Я не буду этого делать!"
-            m "Я не могу!"
-            m "!!!"
-            # Моника уходит
-            img 16418
-            with fade
-            sound highheels_short_walk
-            return False
-        "Сделать, как требует Филипп.":
-            $ monicaShlut1PhillipThreesome2 = True # Моника согласилась на ass to mouth
-            pass
-    # Моника открывает рот и Филипп засовывает туда свой член
-    music Loved_Up
-    img 17213
-    with fade
-    sound hlup21
-    w
-    img 17214
-    with diss
-    philip "Соси, шлюха номер 2!"
-    # Моника делает несколько движений
-    img 17215
-    with fade
-    philip "Дааа..."
-    img 17216
-    with diss
-    w
-    img 17217
-    with diss
-    w
-    img 17218
-    with fade
-    philip "Хорошо, хватит."
-    # после этого он снова входит в попу шлюхи номер 1
-    # это повторяется несколько раз
-    img 17427
-    w
-    img 17219
-    with diss
-    w
-    img 17220
-    with fade
-    philip "Мне нравится, что мои субботние шлюхи стараются для меня..."
-    img 17221
-    with diss
-    philip "Сегодня субботние шлюхи хорошо работают..."
-    # Моника смотрит на все происходящее с отвращением
-    music Groove2_85
-    img 17222
-    with fade
-    mt "Мерзкий грязный извращенец!!!"
-    mt "!!!"
+
+    if game.extra == True:
+        # немного позже шлюха 1 привстает и Филипп говорит Монике
+        sound hlup25
+        img 17207
+        with fade
+        philip "Открывай свой рот, шлюха номер 2."
+        philip "Приглашай мой член войти в него."
+        # Моника парится и с отвращением смотрит на его член, который он только что вытащил из попы шлюхи номер 1
+        music Groove2_85
+        img 17208
+        with diss
+        mt "Что?!"
+        mt "О, нет!!!"
+        mt "Фууу!!!"
+        mt "Какая мерзость!!!"
+        img 17209
+        with diss
+        philip "Ну?!"
+        img 17254
+        with fade
+        w
+        # Моника с отвращением на лице
+        img 17210
+        with diss
+        m "..."
+        menu:
+            "Убежать!":
+                # Моника смотрит с отвращением
+                music Pyro_Flow
+                img 17211
+                with fade
+                mt "Этот мерзавец обращается со мной, как с дешевой шлюхой..."
+                mt "Я не могу пойти на это!"
+                music Groove2_85
+                img 17212
+                with diss
+                m "Нет. Я..."
+                m "Я не буду этого делать!"
+                m "Я не могу!"
+                m "!!!"
+                # Моника уходит
+                img 16418
+                with fade
+                sound highheels_short_walk
+                return False
+            "Сделать, как требует Филипп.":
+                $ monicaShlut1PhillipThreesome2 = True # Моника согласилась на ass to mouth
+                pass
+        # Моника открывает рот и Филипп засовывает туда свой член
+        music Loved_Up
+        img 17213
+        with fade
+        sound hlup21
+        w
+        img 17214
+        with diss
+        philip "Соси, шлюха номер 2!"
+        # Моника делает несколько движений
+        img 17215
+        with fade
+        philip "Дааа..."
+        img 17216
+        with diss
+        w
+        img 17217
+        with diss
+        w
+        img 17218
+        with fade
+        philip "Хорошо, хватит."
+        # после этого он снова входит в попу шлюхи номер 1
+        # это повторяется несколько раз
+        img 17427
+        w
+        img 17219
+        with diss
+        w
+        img 17220
+        with fade
+        philip "Мне нравится, что мои субботние шлюхи стараются для меня..."
+        img 17221
+        with diss
+        philip "Сегодня субботние шлюхи хорошо работают..."
+        # Моника смотрит на все происходящее с отвращением
+        music Groove2_85
+        img 17222
+        with fade
+        mt "Мерзкий грязный извращенец!!!"
+        mt "!!!"
     img 17223
     with diss
     philip "А теперь очередь шлюхи номер 2 быть оттраханной!"
@@ -541,6 +560,7 @@ label ep212_dialogues4_philip_threesome_1:
             hide screen photoshot_screen
             sound man_moan18
             philip "ААААААА!!!"
+            $ monicaPhillipThreesome1_cum_zone = 1
             pass
         "Кончить на киску Моники.":
             img 17244
@@ -572,6 +592,7 @@ label ep212_dialogues4_philip_threesome_1:
             img 17253
             with fade
             whore_number_1 "Ммммм..."
+            $ monicaPhillipThreesome1_cum_zone = 2
             pass
         "Кончить на грудь Моники.":
             img 17244
@@ -602,6 +623,7 @@ label ep212_dialogues4_philip_threesome_1:
             img 17250
             with fade
             whore_number_1 "Ммммм..."
+            $ monicaPhillipThreesome1_cum_zone = 3
             pass
     img 17251
     with diss
@@ -651,6 +673,7 @@ label ep212_dialogues4_philip_threesome_2:
         "Почему я ничего не заработала?!":
             img 17141
             with fade
+            call bitch(5, "philip_threesome1")
             m "Филипп, я делала все, что ты мне говорил!"
             m "Почему я не заработала денег?!"
             m "?!?!?!"
@@ -667,19 +690,20 @@ label ep212_dialogues4_philip_threesome_2:
             with fade
             mt "Вот мерзавец!!!"
             mt "Жадный ублюдок!!!"
-            return
+            return True
         "Уйти.":
             pass
     music Groove2_85
     img 17144
     with fade
     philip "Можете идти."
+    call bitch(-5, "philip_threesome1")
     music Pyro_Flow
     img 16386
     with diss
     mt "Сволочь!"
     mt "!!!"
-    return
+    return True
 
 # на улице после сцены у Филиппа (диалог такой же, только сумма денег разная)
 label ep212_dialogues4_philip_threesome_3:
@@ -692,6 +716,7 @@ label ep212_dialogues4_philip_threesome_3:
     img 17072
     with fade
     whore_number_1 "Зато мы заработали денег."
+    $ add_money(200.0)
     whore_number_1 "Вот твои 200 баксов, как и договаривались..."
     # дает ей деньги
     music Pyro_Flow

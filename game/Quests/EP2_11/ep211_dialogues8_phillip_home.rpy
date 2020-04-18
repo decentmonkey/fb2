@@ -101,11 +101,12 @@ label ep211_dialogues7_Phillip_home_2:
     with fade
     mt "Мне даже думать противно о том, что мне предстоит сейчас сделать..."
     mt "Чтобы заработать какие-то жалкие 50 долларов."
+    $ menu_corruption = [0, philipThreesomeCorruptionRequired]
     menu:
         "Двойной минет.":
             return 1
-        "Групповой секс. (в следующем обновлении) (disabled)":
-            return
+        "Групповой секс." if monicaShlut1PhillipBlowjob2 == True:
+            return 2
     return
 
 # если выбран пункт 'Двойной минет'
