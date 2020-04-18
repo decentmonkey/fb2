@@ -1,5 +1,6 @@
 #v0.12
 define philipThreesomeCorruptionRequired = 500 # За сцену со шлюхой 1 втроем
+define philipThreesomeCorruptionRequired2 = 500 # Чтобы взять член шлюхи1 в рот
 
 define ep212_seduce_ralph1 = 300 # соблазнять Ральфа в трусиках Юлии
 define ep212_seduce_ralph2 = 310 # соблазнять Ральфа в трусиках Бетти

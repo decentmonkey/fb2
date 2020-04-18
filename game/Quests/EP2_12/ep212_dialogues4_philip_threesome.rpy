@@ -323,11 +323,13 @@ label ep212_dialogues4_philip_threesome_1:
     stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
 
-    whore_number_1 "А у тебя хорошо получается, шлюха номер 2..."
     img 17191
     with diss
-    w
+    whore_number_1 "А у тебя хорошо получается, шлюха номер 2..."
 
+    img 17190
+    with fade
+    w
     img black_screen
     with diss
     stop music
@@ -341,12 +343,11 @@ label ep212_dialogues4_philip_threesome_1:
     wclean
     stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    img 17190
-    with fade
-    whore_number_1 "Чувствуется, что у тебя уже есть опыт с кисками..."
     img 17192
     with fade
+    whore_number_1 "Чувствуется, что у тебя уже есть опыт с кисками..."
     whore_number_1 "Ммммм..."
     # немного позже Филипп прерывает их
     music2 Groove2_85
@@ -382,6 +383,51 @@ label ep212_dialogues4_philip_threesome_1:
     img 17198
     with vpunch
     philip "Дааа. Вот тааак."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex1_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex1_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex1_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex1_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex1_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex1_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex1_3.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     img 17199
     with fade
     philip "А шлюха номер 2 сядет рядом с нами и будет держать лицо около моего члена."
@@ -403,28 +449,60 @@ label ep212_dialogues4_philip_threesome_1:
     img 17202
     with fadelong
     whore_number_1 "Ооооо, как же хорошоооо!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex2_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
     img 17203
     with fade
     whore_number_1 "О, Филипп, я обожаю когда ты во мне!"
-    img 17204
+
+    img black_screen
     with diss
-    whore_number_1 "Давай, еще!"
-    img 17205
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex2_2= Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex2_2
     with fade
-    whore_number_1 "Трахай меня!!!"
-    img 17206
-    with diss
-    whore_number_1 "Ещееее!!!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     if game.extra == True:
         # немного позже шлюха 1 привстает и Филипп говорит Монике
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_3_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_3_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_3_1_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_3_1
+        pause 2.5
+        wclean
         sound hlup25
+        music2 Groove2_85
         img 17207
-        with fade
+        with hpunch
         philip "Открывай свой рот, шлюха номер 2."
         philip "Приглашай мой член войти в него."
         # Моника парится и с отвращением смотрит на его член, который он только что вытащил из попы шлюхи номер 1
-        music Groove2_85
+#        music2 Groove2_85
         img 17208
         with diss
         mt "Что?!"
@@ -441,9 +519,14 @@ label ep212_dialogues4_philip_threesome_1:
         img 17210
         with diss
         m "..."
+        $ menu_corruption = [0, philipThreesomeCorruptionRequired2]
         menu:
             "Убежать!":
                 # Моника смотрит с отвращением
+                music2 stop
+                img black_screen
+                with diss
+                pause 1.5
                 music Pyro_Flow
                 img 17211
                 with fade
@@ -460,20 +543,41 @@ label ep212_dialogues4_philip_threesome_1:
                 img 16418
                 with fade
                 sound highheels_short_walk
+                w
                 return False
             "Сделать, как требует Филипп.":
                 $ monicaShlut1PhillipThreesome2 = True # Моника согласилась на ass to mouth
                 pass
         # Моника открывает рот и Филипп засовывает туда свой член
-        music Loved_Up
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+        music2 Loved_Up
         img 17213
-        with fade
         sound hlup21
+        with hpunch
         w
         img 17214
         with diss
         philip "Соси, шлюха номер 2!"
         # Моника делает несколько движений
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_4_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex_4_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_4_1.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex_4_1
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
         img 17215
         with fade
         philip "Дааа..."
@@ -483,16 +587,271 @@ label ep212_dialogues4_philip_threesome_1:
         img 17217
         with diss
         w
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_4_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex_4_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_4_2.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex_4_2
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
         img 17218
         with fade
         philip "Хорошо, хватит."
+        philip "Шлюха номер 2, верни мой член на место!"
+
         # после этого он снова входит в попу шлюхи номер 1
         # это повторяется несколько раз
-        img 17427
-        w
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_5_1
+        pause 3.0
+        sound hlup25
+        pause 0.5
+        with hpunch
+        music2 Loved_Up2
+        wclean
         img 17219
         with diss
         w
+#        img 17427
+#        with diss
+#        w
+
+        img 17204
+        with diss
+        whore_number_1 "Давай, еще!"
+
+        ######### цикл2
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex2_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_3.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex2_3
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex2_4 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_4.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex2_4
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_3_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_3_2.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_3_2_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_3_2
+        pause 2.5
+        sound hlup25
+        music2 Loved_Up2
+        with hpunch
+        philip "Соси, шлюха номер 2!"
+        philip "Соси его!"
+        w
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_4_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex_4_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_4_3.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex_4_3
+        with fade
+        wclean
+        philip "Вставляй его назад, шлюха!"
+        philip "Назад в ее задницу!"
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+#        music2 Loved_Up2
+
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_5_1
+        pause 3.0
+        sound hlup25
+        pause 0.5
+        with hpunch
+        music2 Loved_Up2
+        wclean
+
+        ############ Цикл 3
+
+        img 17205
+        with fade
+        whore_number_1 "Трахай меня!!!"
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex2_5 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_5.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex2_5
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+
+
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_3_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_3_3.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_3_3_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_3_3
+        pause 2.5
+        sound hlup25
+        with hpunch
+        philip "Давай, тупая шлюха, лижи его!"
+        philip "Не жди команды!"
+        wclean
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_4_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex_4_4 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_4_4.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex_4_4
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_4_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex_4_5 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_4_5.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex_4_5
+        with fade
+        wclean
+        philip "Вставляй его, шлюха! Другая шлюха тоже хочет мой член!"
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+
+        scene black
+        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_5_1
+        pause 3.0
+        sound hlup25
+        pause 0.5
+        with hpunch
+        music2 Loved_Up2
+        wclean
+
+
+        img 17206
+        with diss
+        whore_number_1 "Ещееее!!!"
+
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex1_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex1_3.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex1_3
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex2_6 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_6.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex2_6
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+        scene black
+        image videov_Monica_WhoreN1_Philip_Sex2_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex2_2.mkv", fps=30)
+        show videov_Monica_WhoreN1_Philip_Sex2_2
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        music2 stop
+        img black_screen
+        with diss
+        pause 1.5
+        music Groove2_85
         img 17220
         with fade
         philip "Мне нравится, что мои субботние шлюхи стараются для меня..."
@@ -500,7 +859,7 @@ label ep212_dialogues4_philip_threesome_1:
         with diss
         philip "Сегодня субботние шлюхи хорошо работают..."
         # Моника смотрит на все происходящее с отвращением
-        music Groove2_85
+#        music Groove2_85
         img 17222
         with fade
         mt "Мерзкий грязный извращенец!!!"
@@ -509,10 +868,12 @@ label ep212_dialogues4_philip_threesome_1:
     with diss
     philip "А теперь очередь шлюхи номер 2 быть оттраханной!"
     # он выходит из шлюхи номер 1, они оба встают и смотрят на Монику
+    music stop
+    music2 stop
     img black_screen
     with diss
     pause 1.5
-    music Groove2_85
+    music2 Groove2_85
     img 17224
     with fade
     philip "Ложись, подставляй мне свое отверстие..."
@@ -526,6 +887,11 @@ label ep212_dialogues4_philip_threesome_1:
     mt "!!!"
     mt "Не могу поверить, что это происходит со мной..."
     # Моника ложится на спину и раздвигает ноги
+    music2 stop
+    img black_screen
+    with diss
+    pause 1.5
+    music2 Groove2_85
     img 17225
     with fade
     philip "Шлюха номер 1, проверь, готова ли шлюха номер 2 принять мой член?"
@@ -539,10 +905,13 @@ label ep212_dialogues4_philip_threesome_1:
     whore_number_1 "Ее киска недостаточно влажная, но я сейчас подготовлю ее для тебя."
     # она водит пальцами туда-сюда в киске Монике, Филипп стоит смотрит на это и трется членом о попу шлюхи номер 1
     # та поглядывает на него, улыбается игриво
-    music Loved_Up
+    music2 Loved_Up
     img 17230
     with fade
     w
+
+
+
     img 17231
     with diss
     w
@@ -564,10 +933,11 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Я хочу, чтобы ты села на лицо шлюхи номер 2."
     # шлюха номер 1 садится на лицо Моники
     # Филипп раздвигает ноги Моники шире и входит в нее
+    music2 stop
     img black_screen
     with diss
     pause 1.5
-    music Loved_Up2
+    music2 Loved_Up2
     img 17234
     with fadelong
     philip "Ммммм..."
@@ -577,10 +947,46 @@ label ep212_dialogues4_philip_threesome_1:
     with hpunch
     philip "Шлюха номер 1 молодец, она старается для меня."
     # шлюха номер 1 елозит у нее по лицу своей киской, трогает свою грудь, игриво смотрит на Филиппа
+
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex7_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex7_4 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex7_4.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex7_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
+
     img 17236
     with fade
     whore_number_1 "О, как прикольно!!!"
     whore_number_1 "Даааа...."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex7_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex7_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex7_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex7_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17237
     with diss
     whore_number_1 "Ооооо... Какой каааайф!"
@@ -591,9 +997,41 @@ label ep212_dialogues4_philip_threesome_1:
     img 17239
     with diss
     mt "!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex7_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex7_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex7_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex7_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17240
     with fade
     mt "Моника, никогда бы не подумала, что ты опустишься до подобного!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex7_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex7_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex7_3.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex7_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17241
     with diss
     mt "И ради чего?! Из-за 200 долларов?!"
@@ -602,6 +1040,23 @@ label ep212_dialogues4_philip_threesome_1:
     mt "!!!"
     img 17243
     with diss
+    w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex7_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex7_5 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex7_5.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex7_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Филипп кончает
     menu:
         "Кончить внутрь Моники.":
@@ -646,13 +1101,17 @@ label ep212_dialogues4_philip_threesome_1:
             with diss
             w
             # Филипп отстраняется от Моники и смотрит на сперму на ее киске
-            music Loved_Up
+            music2 stop
+            img black_screen
+            with diss
+            pause 1.5
+            music2 Loved_Up
             img 17252
             with fadelong
             philip "А теперь я хочу, чтобы шлюха номер 1 слизала это все со шлюхи номер 2."
             # та слезает с лица Моники и выполняет приказ Филиппа, с довольным видом
             img 17253
-            with fade
+            with fadelong
             whore_number_1 "Ммммм..."
             $ monicaPhillipThreesome1_cum_zone = 2
             pass
@@ -676,19 +1135,29 @@ label ep212_dialogues4_philip_threesome_1:
             philip "ААААААА!!!"
             img 17248
             with diss
+            w
             # Филипп отстраняется от Моники и смотрит на сперму на ее груди
-            music Loved_Up
+            music2 stop
+            img black_screen
+            with diss
+            pause 1.5
+            music2 Loved_Up
             img 17249
             with fadelong
             philip "А теперь я хочу, чтобы шлюха номер 1 слизала это все со шлюхи номер 2."
             # та слезает с лица Моники и выполняет приказ Филиппа, с довольным видом
             img 17250
-            with fade
+            with fadelong
             whore_number_1 "Ммммм..."
             $ monicaPhillipThreesome1_cum_zone = 3
             pass
-    img 17251
+    music2 stop
+    img black_screen
     with diss
+    pause 1.5
+    music Groove2_85
+    img 17251
+    with fade
     mt "Наконец-то, этот кошмар закончился!"
     mt "!!!"
     return
@@ -701,7 +1170,7 @@ label ep212_dialogues4_philip_threesome_2:
     img black_screen
     with diss
     sound snd_fabric1
-    pause 1.0
+    pause 2.0
     music Groove2_85
     img 17136
     with fadelong
