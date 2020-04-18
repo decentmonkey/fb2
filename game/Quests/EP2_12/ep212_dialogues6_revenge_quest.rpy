@@ -20,13 +20,14 @@ label ep212_dialogues_revenge_quest1:
     pause 1.5
     music Groove2_85
     img 23635
-    with fade
+    with vpunch
     steve "Моника! Что все это значит?!!"
     steve "Что это за место?!"
     img 23636
     with diss
     steve "И что это за штука передо мной???"
 
+    music Master_Disorder
     img 23637
     with fade
     m "Здравствуй, Стив."
@@ -38,7 +39,7 @@ label ep212_dialogues_revenge_quest1:
     m "ГДЕ МНЕ ПРИХОДИТСЯ НОЧЕВАТЬ, МАТЬ ТВОЮ!!!"
 
 # Указывает на аккумулятор
-    music Groove2_85
+    music Master_Disorder
     img 23639
     with fade
     m "А это..."
@@ -50,15 +51,16 @@ label ep212_dialogues_revenge_quest1:
     with diss
     m "То я дам слово ему..." # указывает на аккумулятор
 
+    music Groove2_85
     img 23641
-    with fade
+    with vpunch
     steve "Моника! Ты захватила меня!"
     steve "Это преступление!"
     steve "Отпусти меня! Все еще можно изменить! И..."
     m "Заткнись, слизняк!"
 
     music Master_Disorder
-    sound Jump1
+    sound snd_gun_charge
     img 23642
     with diss
 
@@ -101,6 +103,7 @@ label ep212_dialogues_revenge_quest1:
     steve "Но Моника! Ты неспособна на такое!"
     steve "Я был добр к тебе и поддерживал тебя все время!"
 
+    music Master_Disorder
     img 23648
     with fade
     m "Значит ты не хочешь заключать сделку, Стив?"
@@ -110,6 +113,7 @@ label ep212_dialogues_revenge_quest1:
     steve "..."
     steve "Моника..."
     steve "Я бы не очень хотел заключать такую сделку... Я..."
+    music Groove2_85
     img 23650
     with diss
     steve "Моника, между прочим у нас не закрыта предыдущая сделка!"
@@ -152,7 +156,10 @@ label ep212_dialogues_revenge_quest1:
     with diss
     steve "Моника, ты знаешь, что это сфера ответственности твоей стороны договора!"
     steve "Ты ведь знаешь что с этим сделать, чтобы успешно закрыть эту сделку!" # ухмыляется
-
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
     music Loved_Up
     img 23661
     with fade
@@ -193,7 +200,10 @@ label ep212_dialogues_revenge_quest1:
     with hpunch
     pause 0.7
     hide screen photoshot_screen
-    sound scream_steve2
+#    sound scream_steve2
+
+    $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+    music2 scream_steve2
     # Моника вешает электрод на Стива
     # Электричество, вспышки
     img 23670
@@ -207,13 +217,17 @@ label ep212_dialogues_revenge_quest1:
     sound chpok8
     m "Наш общий друг возражает против твоей точки зрения, Стив."
     m "И я решила дать ему слово."
-    sound scream_steve2
+#    sound scream_steve2
     img 23672
     with diss
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     steve "ААААААААААА!!!"
 
     # Снимает кляп с Фреда
-    sound scream_steve2
+#    sound scream_steve2
     img 23673
     with fade
     m "Ну что, корнишончик."
@@ -226,29 +240,30 @@ label ep212_dialogues_revenge_quest1:
     fred "Миссис Бакфетт!"
     fred "Пожалуйста! Я сказал все что знал!"
 
-    sound Jump1
+    sound snd_gun_charge
     img 23675
     with fade
     m "Эх, ты снова за старое..."
     m "Мне будет не хватать тебя..." # Направляет пистолет
 
-    sound scream_steve2
+#    sound scream_steve2
     img 23676
     with diss
     fred "Миссис Бакфетт! Прошу!"
     fred "Дайте мне поговорить с Мистером Стивом!"
     fred "Он все расскажет Вам! Клянусь!"
-    sound scream_steve2
+#    sound scream_steve2
     steve "ААААААААААА!!!"
     steve "ААААААААААА!!! ААААААААААА!!!"
 
-    sound Jump1
+    sound snd_gun_charge
     img 23677
     with fade
     m "Хорошо, корнишончик..."
     m "Это твой последний шанс..."
 
     music stop
+    music2 stop
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -256,6 +271,7 @@ label ep212_dialogues_revenge_quest1:
     sound switch_steve
     pause 1.5
     music Groove2_85
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     # Моника убирает электрод, у Стива стоит член
     img 23678
     with fadelong
@@ -266,7 +282,7 @@ label ep212_dialogues_revenge_quest1:
     m "Я смотрю твоему члену это понравилось!"
 
     img 23680
-    with diss
+    with hpunch
     steve "Моника! Что ты наделала!"
     steve "Мой член... Это какая-то необъяснимая реакция!"
 
@@ -276,7 +292,7 @@ label ep212_dialogues_revenge_quest1:
     m "Наша сделка закрыта."
     m "Ты удовлетворен этой сделкой или мне надо еще тшательнее выполнить ее условия?"
     img 23682
-    with diss
+    with hpunch
     steve "Сделка закрыта, Моника! Она закрыта!"
     steve "Пожалуйста, не надо!"
 
@@ -293,7 +309,7 @@ label ep212_dialogues_revenge_quest1:
     m "Фред, скажи что-нибудь..."
     m "Иначе ты знаешь что сейчас будет..."
 
-    music Master_Disorder
+#    music Master_Disorder
     img 23685
     with fade
     fred "Мистер Стив!"
@@ -317,7 +333,7 @@ label ep212_dialogues_revenge_quest1:
     m "Наш общий друг снова просит слово..." # Указывает на аккумулятор
     steve "!!!"
 
-    music Groove2_85
+    music Master_Disorder
     img 23690
     with fade
     steve "Я точно не знаю, Моника..."
@@ -364,8 +380,11 @@ label ep212_dialogues_revenge_quest1:
     mt "Где я была в тот день?"
     mt "Это было так давно... У меня та жизнь как в тумане..."
     # черно-белые кадры
-    img 1649_bw
+    img black_screen
     with diss
+    pause 1.5
+    img "1649_bw"
+    with fadelong
     mt "Банк..."
     mt "Кто-то из клерков?"
     mt "Помню, что я накричала на них..."
@@ -373,32 +392,46 @@ label ep212_dialogues_revenge_quest1:
     mt "Одна из них оказалось дочерью одного из самых могущественных людей в мире?"
     mt "Да ну, это чушь..."
     # продавец, Моника бросает платье
-    img 1924_bw
+    img black_screen
     with diss
+    pause 1.5
+    img "1924_bw"
+    with fadelong
     mt "Чертова лесбиянка в магазине..."
     mt "Нет, точно не то..."
     # офис Стива
-    img 1703_bw
+    img black_screen
     with diss
+    pause 1.5
+    img "1703_bw"
+    with fadelong
     mt "Офис у Стива..."
     mt "Джейн..."
     mt "Эта проститутка... Неужели она замешана в этом?"
     mt "Но нет..."
     mt "Я давно ее знаю. Она обычная карьеристка..."
     # Тиффани
-    img 1755_bw
+    img black_screen
     with diss
+    pause 1.5
+    img "1755_bw"
+    with fadelong
     mt "..."
     mt "Хм... Эта новенькая..."
     mt "Я ее раньше не встречала..."
     mt "Ничего не знаю про нее..."
     mt "Она смотрела на меня так странно... Как дьявол..."
     mt "Возможно ее подослали туда специально и..."
+    music stop
+    img black_screen
+    with diss
+    pause 1.5
 
     # Моника поворачивается к Стиву
-    sound Jump1
+    music Power_Bots_Loop
+    sound snd_gun_charge
     img 23697
-    with fade
+    with hpunch
     m "Это Тиффани?!"
     m "Та гребаная проститутка, которая работает у тебя, Стив?!"
     m "Значит ты заменшан в этом?!"
@@ -411,11 +444,12 @@ label ep212_dialogues_revenge_quest1:
     fred "Мистер Стив замешан в этом!"
 
     img 23699
-    with fade
+    with vpunch
     steve "Что?! Моника, нет!"
     steve "Тиффани точно ни при чем!"
     steve "Я заприметил ее еще на кампусе в университете, который посещал, как спонсор..."
 
+    music Master_Disorder
     img 23700
     with diss
     m "Заткнись, Стив!"
@@ -432,16 +466,24 @@ label ep212_dialogues_revenge_quest1:
 
 
     #чб, Моника наезжает на проститутку, либо подбадривает ее
-    img 1880_bw
+    img black_screen
     with diss
-    m "Девочка, вот твое место."
-    m "Стой тут и наслаждайся карьерой."
+    pause 1.5
+    img "1880_bw"
+    with fadelong
+    if grayMouse2WhoreOffended == True:
+        m "Девочка, вот твое место."
+        m "Стой тут и наслаждайся карьерой."
     #
-    m "Я тебя знаю."
-    m "Ты та модель, которая приходила ко мне на кастинг."
+    else:
+        m "Я тебя знаю."
+        m "Ты та модель, которая приходила ко мне на кастинг."
     # крупным планом другая проститутка
-    img 1882_bw
+    img black_screen
     with diss
+    pause 1.5
+    img "1882_bw"
+    with fadelong
     w
 
     # Стив
@@ -450,24 +492,28 @@ label ep212_dialogues_revenge_quest1:
     with fade
     steve "Моника, вспомни, может быть ты что-то сказала кому-то не то что надо..."
     steve "Я знаю твой характер! Тебе нельзя общаться с людьми в обычном мире!"
+    music Power_Bots_Loop
     img 23704
-    with diss
+    with hpunch
     m "Потому что я привыкла жить в другом мире, Стив!"
     m "Не в вашем мире никчемных неудачников!"
 
+    music Master_Disorder
     img 23705
     with fade
     m "Улица..."
     m "Да, я была на улице в тот день..."
     m "Когда Фред высадил меня за милю от того чертова магазина!"
 
+    music Turbo_Tornado
     img 23706
     with diss
     steve "Фред... Высадил..."
+    with vpunch
     steve "Да, Моника!"
     steve "Я уверен, во всем виноват твой водитель!"
     img 23707
-    with diss
+    with vpunch
     fred "!!!"
     img 23708
     with fade
@@ -475,7 +521,7 @@ label ep212_dialogues_revenge_quest1:
     steve "Он главный мерзавец здесь, Моника!"
     steve "И мы с тобой вместе разоблачили негодяя!"
     img 23709
-    with diss
+    with hpunch
     fred "ЧТО?! НЕТ!"
     img 23710
     with diss
@@ -487,11 +533,11 @@ label ep212_dialogues_revenge_quest1:
     # Моника думает
     music Master_Disorder
     img 23705
-    with fade
+    with fadelong
     mt "Улица..."
     mt "Значит улица..."
     # Смотрит на Монику
-    music Groove2_85
+    music Turbo_Tornado
     img 23711
     with diss
     steve "Но я рад что мы объединили свои силы и вывели мерзавца на чистую воду!"
@@ -504,9 +550,9 @@ label ep212_dialogues_revenge_quest1:
     mt "С кем я разговаривала?"
     mt "Я разговаривала с той горе моделью, которая пришла устраиваться ко мне..."
     mt "Но не может эта горстка неудачников, которая была вокруг меня, как-то повлиять на мою жизнь..."
-    music Groove2_85
+    music Turbo_Tornado
     img 23713
-    with diss
+    with vpunch
     fred "Миссис Бакфетт! Он лжет!"
     fred "Это он главный злодей!"
 
@@ -520,7 +566,7 @@ label ep212_dialogues_revenge_quest1:
     mt "Как один известный король..."
     mt "Этого не может быть... Но все-же..."
 
-    music Groove2_85
+    music Turbo_Tornado
     img 23715
     with diss
     fred "Он рассказывает неправду про то что за этим еще кто-то стоит!"
@@ -529,7 +575,7 @@ label ep212_dialogues_revenge_quest1:
 
     music Master_Disorder
     img 23716
-    with diss
+    with fadelong
     mt "Другие варианты еще более безумные."
     mt "Но, если представить что Стив не врет..."
     mt "Хотя того, чтобы Стив не врал, быть не может..."
@@ -537,18 +583,27 @@ label ep212_dialogues_revenge_quest1:
     mt "Я знаю эту трущобы уже наизусть..."
     mt "Однако, если приглядеться повнимательнее..."
     mt "Возможно там что-то есть, чего я не замечала ранее..."
-
+    music stop
+    img black_screen
+    with diss
+    pause 2.0
     music Groove2_85
     img 23717
-    with fade
+    with fadelong
+    sound snd_gun_charge
     m "Итак, корнишоны..."
     m "Я скоро вернусь, а вы будете сидеть смирно..."
     m "Попробуете друг друга освободить, вам же будет хуже."
     m "Для вас, на этот случай, есть сюрприз..."
     m "Мой дружок будет приглядывать за вами, мальчики..."
     m "Сидите тихо."
-    img 23718
+    music stop
+    img black_screen
     with diss
+    pause 2.0
+    music Master_Disorder
+    img 23718
+    with fadelong
     sound highheels_short_walk
     mt "Что-ж, вперед, Моника!"
     mt "Пришла пора проверить что от меня скрывает это место!"

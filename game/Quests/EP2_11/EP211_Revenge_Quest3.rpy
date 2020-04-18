@@ -23,6 +23,21 @@ label ep211_revenge_quest2:
 
     stop music
     sound snd_cinematic_impact
+
+    img black_screen
+#    pause 2.0
+    $ renpy.pause(2.0, hard=True)
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack("FASHION BUSINESS")
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+
+    call ep212_dialogues_revenge_quest1()
+
+    stop music
+    sound snd_cinematic_impact
     img black_screen
     $ renpy.pause(4.0, hard=True)
     music Continue_Life
