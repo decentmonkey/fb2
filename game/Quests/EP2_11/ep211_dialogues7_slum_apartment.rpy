@@ -898,10 +898,15 @@ label ep211_dialogues6_slum_apartment_10_loop1:
         "Заплатить со скидкой.": #corruption
             $ menu_price = [slumsApartmentsRentPriceDiscount1]
             menu:
-                "Скидка 10 процентов. (in Extra version) (disabled)" if game.extra != True:
-                    pass
-                "Скидка 10 процентов." if game.extra == True:
+#                "Скидка 10 процентов. (in Extra version) (disabled)" if game.extra != True:
+#                    pass
+#                "Скидка 10 процентов." if game.extra == True:
+                "Скидка 10 процентов.":
                     # Моника с подозрением
+                    call check_skip_scene("ep211_dialogues6_slum_apartment_10_discount10")
+                    if _return == True:
+                        return True
+
                     music Groove2_85
                     img 17008
                     with fade
