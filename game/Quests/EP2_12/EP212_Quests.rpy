@@ -11,5 +11,8 @@ label ep212_quests_load_init:
         if monicaOutfitsEnabled[8] == True and ep211_quests_photoshot8_opened_day == 0:
             $ ep211_quests_photoshot8_opened_day = day
             call ep212_quests_photoshoot8_after_init()
+        if pubInited == True:
+            $ add_hook("enter_scene", "ep212_quests_pub_reset_pub", scene="pub", once=True, priority = 10000, label="pub_reset")
+
 
     return
