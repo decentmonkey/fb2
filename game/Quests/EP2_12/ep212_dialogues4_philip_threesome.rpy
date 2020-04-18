@@ -106,8 +106,12 @@ label ep212_dialogues4_philip_threesome_1:
     philip "Что на этот раз?"
     # шлюха номер 1 снимает с себя футболку, проводит по своей груди руками и улыбается игриво Филиппу
     # потом смотрит на Монику и подходит к ней
-    music Loved_Up
+    music stop
+    img black_screen
+    with diss
     sound snd_fabric1
+    pause 1.5
+    music2 Loved_Up
     img 17158
     with fade
     w
@@ -142,7 +146,7 @@ label ep212_dialogues4_philip_threesome_1:
     img 17166
     with diss
     w
-    music Loved_Up
+    music2 Loved_Up
     img 17167
     with fade
     w
@@ -154,14 +158,15 @@ label ep212_dialogues4_philip_threesome_1:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.666666666666667) + " loop 0.0>Sounds/v_Monica_Julia_Licking1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
     scene black
-    image videov_Monica_Julia_Licking1_1 = Movie(play="video/v_Monica_Julia_Licking1_1.mkv", fps=30)
-    show videov_Monica_Julia_Licking1_1
+    image videov_Monica_WhoreN1_Petting1_1 = Movie(play="video/v_Monica_WhoreN1_Petting1_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Petting1_1
     with fade
     wclean
     stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     w
     img 17169
@@ -182,7 +187,7 @@ label ep212_dialogues4_philip_threesome_1:
     with diss
     whore_number_1 "А теперь твоя очередь сделать мне приятное..."
     # Моника смотрит на нее непонимающе
-    music Groove2_85
+    music2 Groove2_85
     img 17173
     with fade
     m "Я? Тебе?"
@@ -195,7 +200,7 @@ label ep212_dialogues4_philip_threesome_1:
     menu:
         "Раздеть шлюху номер 1.":
             pass
-    music Loved_Up
+    music2 Loved_Up
     img 17175
     with fade
     w
@@ -218,12 +223,12 @@ label ep212_dialogues4_philip_threesome_1:
     img 17180
     with fade
     whore_number_1 "Теперь поиграй с моей киской своим язычком."
-    music Power_Bots_Loop
+    music2 Power_Bots_Loop
     img 17181
     with hpunch
     mt "?!?!?!"
     # Моника возмущенно
-    music Groove2_85
+    music2 Groove2_85
     img 17182
     with fade
     m "Нет, мы так не договаривались."
@@ -242,6 +247,10 @@ label ep212_dialogues4_philip_threesome_1:
     menu:
         "Убежать!":
             # Моника смотрит с отвращением
+            music2 stop
+            img black_screen
+            with diss
+            pause 1.5
             music Groove2_85
             img 17185
             with fade
@@ -262,7 +271,7 @@ label ep212_dialogues4_philip_threesome_1:
             $ monicaShlut1PhillipThreesome1 = True # Моника делала куни шлюхе № 1 по приказу Филиппа
             pass
     # Моника смотрит на киску шлюхи номер 1 в нерешительности
-    music Groove2_85
+    music2 Groove2_85
     img 17194
     with fade
     mt "Долбанные извращенцы!"
