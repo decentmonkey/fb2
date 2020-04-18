@@ -282,7 +282,7 @@ init python:
 # define build.itch_project = "renpytom/test-project"
 
 #define config.mouse = {"default" : [("gui/mouse_pointer_default.png", 0, 0)],}
-    config.layers = [ 'zero', 'master', 'transient', 'belowmid', 'midlayer', 'abovemid', 'screens', 'overlay', 'hud']
+    config.layers = [ 'zero', 'master', 'transient', 'belowmid', 'midlayer', 'abovemid', 'screens', 'overlay', 'hud', 'special']
 
 define config.missing_image_callback = missing_filename_callback
 

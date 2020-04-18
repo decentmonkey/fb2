@@ -199,10 +199,10 @@ python early:
         splittedFileName[-2] = splittedFileName[-2] + res.suffix
         return ".".join(splittedFileName)
 
+
 init -3 python:
     if persistent.lang is None:
         persistent.lang = "english"
-
 
     lang = persistent.lang
 

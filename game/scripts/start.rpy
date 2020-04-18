@@ -50,7 +50,13 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-
+#    call game_init()
+#    $ renpy.show_screen("IW_exception", True, False, _transient=True)
+#    $ rv = renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
+#    m "here"
+#    img ergergereg
+#    $ reg = regergregr
+#    geerg "[gergergergegr]"
 ###################
 
 

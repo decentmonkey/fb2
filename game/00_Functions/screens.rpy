@@ -378,7 +378,7 @@ screen screen_sprites(data):
                                 if pass_num == 2:
                                     $ object_z_order = int(data[i]["zorder"])
                                     $ highSpriteHover = False
-                                    $ if data[i].has_key("high_sprite_hover") and data[i]["high_sprite_hover"] == True: highSpriteHover = True #ебаный костыль из-за тупого ренпи!!!
+                                    $ if data[i].has_key("high_sprite_hover") and data[i]["high_sprite_hover"] == True: highSpriteHover = True #костыль
                                     button:
                                         xpos int(float(data[i]["xpos"]) / 1920.0 * config.screen_width)
                                         ypos int(float(data[i]["ypos"]) / 1080.0 * config.screen_height)
