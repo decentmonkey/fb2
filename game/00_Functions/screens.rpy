@@ -78,6 +78,7 @@ style frame:
 screen show_image_screen_image(image_name):
     layer "master"
     zorder 15
+
     if assetsStorageDirectory == False:
         $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
     if image_name.find(assetsStorageDirectory) != -1:
@@ -94,6 +95,16 @@ screen show_image_screen_image(image_name):
         fixed:
 #            add image_name at convert_resolution_transform
             add image_name
+
+
+    if renpy.android:
+        button:
+            xfill True
+            yfill True
+            action [
+                Return()
+            ]
+            alternate ShowMenu("save")
 
 screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
     layer "master"
@@ -185,6 +196,9 @@ screen screen_sprites(data):
                     Hide("action_menu_screen"),
                     Hide("action_menu_tooltip_screen")
                 ]
+                if renpy.android:
+                    alternate ShowMenu("save")
+
 #                alternate [
 #                    Hide("say"),
 #                    Hide("dialogue_image_left"),
