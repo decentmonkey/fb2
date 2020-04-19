@@ -616,7 +616,7 @@ label ep212_dialogues4_philip_threesome_1:
         pause 1.5
 
         scene black
-        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        sound v_Monica_WhoreN1_Philip_Sex_5_1
         image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
         show videov_Monica_WhoreN1_Philip_Sex_5_1
         pause 3.0
@@ -702,11 +702,11 @@ label ep212_dialogues4_philip_threesome_1:
         music2 stop
         img black_screen
         with diss
-        pause 1.5
+        pause 0.5
 #        music2 Loved_Up2
 
         scene black
-        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        sound v_Monica_WhoreN1_Philip_Sex_5_1
         image videov_Monica_WhoreN1_Philip_Sex_5_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_2.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_2_end.jpg")
         show videov_Monica_WhoreN1_Philip_Sex_5_2
         pause 3.0
@@ -783,10 +783,10 @@ label ep212_dialogues4_philip_threesome_1:
         music2 stop
         img black_screen
         with diss
-        pause 1.5
+        pause 0.5
 
         scene black
-        sound v_Monica_WhoreN1_Philip_Sex_3_1
+        sound v_Monica_WhoreN1_Philip_Sex_5_1
         image videov_Monica_WhoreN1_Philip_Sex_5_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_3.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_3_end.jpg")
         show videov_Monica_WhoreN1_Philip_Sex_5_3
         pause 3.0
@@ -913,9 +913,9 @@ label ep212_dialogues4_philip_threesome_1:
     img black_screen
     with diss
     stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.8, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_6_1.ogg"
     scene black
     image videov_Monica_WhoreN1_Philip_Sex_6_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_6_1.mkv", fps=30)
     show videov_Monica_WhoreN1_Philip_Sex_6_1
@@ -943,9 +943,9 @@ label ep212_dialogues4_philip_threesome_1:
     img black_screen
     with diss
     stop music
-    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.8, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex_6_1.ogg"
     scene black
     image videov_Monica_WhoreN1_Philip_Sex_6_2= Movie(play="video/v_Monica_WhoreN1_Philip_Sex_6_2.mkv", fps=30)
     show videov_Monica_WhoreN1_Philip_Sex_6_2
