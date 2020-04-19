@@ -6,7 +6,7 @@ default ep212_monica_said_fred_panties_color = False
 
 label ep212_quests_julia1_third_date_init: # Инициализация третьего свидания
     $ ep212_julia_third_date_inited = True
-    call ep212_dialogues5_julia_2()
+    call ep212_dialogues5_julia_2() from _rcall_ep212_dialogues5_julia_2
     $ add_objective("go_date_julia", t_("Пойти к Юлии домой после работы."), c_green, 115)
     $ add_hook("Julia", "ep212_dialogues5_julia_2_1", scene="working_office_cabinet", label="julia_third_date")
     $ ep210_julia_evening_at_work = False # вечером Юлии на работе нет
@@ -23,7 +23,7 @@ label ep212_quests_julia2_fred_catch: # Фред перехватывает Мо
     music stop
     sound snd_lift
     pause 1.0
-    call ep212_dialogues5_julia_1()
+    call ep212_dialogues5_julia_1() from _rcall_ep212_dialogues5_julia_1
     music stop
     img black_screen
     with diss
@@ -39,21 +39,21 @@ label ep212_quests_julia2_fred_catch: # Фред перехватывает Мо
         $ remove_hook(label="julia_dating_regular")
     else:
         $ ep212_julia_third_date_active = True
-    call change_scene("working_office")
+    call change_scene("working_office") from _rcall_change_scene_83
     return
 
 label ep212_quests_julia3_third_date_start: # Начало свидания
     if day_time != "evening":
         return
     if act=="l":
-        call ep210_dialogues5_julia_3_2()
+        call ep210_dialogues5_julia_3_2() from _rcall_ep210_dialogues5_julia_3_2_2
         return False
     if cloth != "CasualDress1":
-        call ep210_dialogues5_julia_3_4a()
+        call ep210_dialogues5_julia_3_4a() from _rcall_ep210_dialogues5_julia_3_4a_1
         return False
     $ remove_objective("go_date_julia")
     $ remove_hook(label="julia_third_date")
-    call ep212_dialogues5_julia_3() # Встречаются, Юлия уходит в ванную
+    call ep212_dialogues5_julia_3() from _rcall_ep212_dialogues5_julia_3 # Встречаются, Юлия уходит в ванную
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
@@ -63,10 +63,10 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
         $ questLog(64, False)
         $ questLog(63, False)
         $ remove_hook(label="ep29_quests_julia3_workers")
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_11
         return False
 
-    call ep212_dialogues5_julia_4() # Юлия возвращается из ванной
+    call ep212_dialogues5_julia_4() from _rcall_ep212_dialogues5_julia_4 # Юлия возвращается из ванной
     $ ep212_monica_known_julia_panties_color = True
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
@@ -77,13 +77,13 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
         $ questLog(63, False)
         $ questLog(64, False)
         $ remove_hook(label="ep29_quests_julia3_workers")
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_12
         return False
     else:
         $ ep212_monica_julia_quest2_started = True
 
     $ remove_objective("find_julia_panties_color")
-    call ep212_dialogues5_julia_5() # Просыпаются с утра
+    call ep212_dialogues5_julia_5() from _rcall_ep212_dialogues5_julia_5 # Просыпаются с утра
     $ ep210_julia_evening_at_work = True
     $ questLog(73, True)
     $ questLog(63, False)
@@ -95,7 +95,7 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
     $ add_hook("before_open", "ep212_quests_julia4_fred_catch", scene="working_office_cabinet", label="ep212_quests_julia4_fred_catch", priority=1000)
     $ remove_hook(label="ep29_quests_julia3_workers")
     $ changeDayTime("day")
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_13
     return False
 
 label ep212_quests_julia4_fred_catch: # Фред перехватывает Монику
@@ -103,9 +103,9 @@ label ep212_quests_julia4_fred_catch: # Фред перехватывает Мо
         return
     if juliaFredCatchFromDay == day or week_day == 7 or day_time != "day" or scene_name == "monica_office_entrance":
         return
-    call ep212_dialogues5_julia_6() # Моника говорит Фреду цвет трусиков
+    call ep212_dialogues5_julia_6() from _rcall_ep212_dialogues5_julia_6 # Моника говорит Фреду цвет трусиков
     $ ep212_monica_said_fred_panties_color = True
     $ questLog(47, False)
 #    $ remove_hook(label="ep212_quests_julia4_fred_catch")
-    call change_scene("working_office")
+    call change_scene("working_office") from _rcall_change_scene_84
     return

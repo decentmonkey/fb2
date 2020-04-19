@@ -378,7 +378,7 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
     $ miniMapEnabledOnly = []
     $ monicaOutfitsEnabled[8] = True # Открываем костюм для регулярной съемки
     $ ep211_quests_photoshot8_opened_day = day
-    call ep212_quests_photoshoot8_after_init()
+    call ep212_quests_photoshoot8_after_init() from _rcall_ep212_quests_photoshoot8_after_init
     sound snd_fabric1
     img black_screen
     with Dissolve(1.0)

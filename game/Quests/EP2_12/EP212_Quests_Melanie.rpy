@@ -13,7 +13,7 @@ label ep212_quests_melanie_check: # Проверка на приход Мела�
     if ep211_quests_publicevent2_completed != True or ep29_quests_victoria_event_completed != True:
         return
     $ ep212_quests_melanie_inited = True
-    call ep212_dialogues6_melanie_punishment_1()
+    call ep212_dialogues6_melanie_punishment_1() from _rcall_ep212_dialogues6_melanie_punishment_1
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
         return
@@ -26,12 +26,12 @@ label ep212_quests_melanie_check: # Проверка на приход Мела�
 
 label ep212_quests_melanie1_check_teleport:
     if day_time != "evening":
-        call ep212_dialogues6_melanie_punishment_1a()
+        call ep212_dialogues6_melanie_punishment_1a() from _rcall_ep212_dialogues6_melanie_punishment_1a
         return False
     if cloth != "Whore":
-        call ep212_dialogues6_melanie_punishment_3()
+        call ep212_dialogues6_melanie_punishment_3() from _rcall_ep212_dialogues6_melanie_punishment_3
         return False
-    call ep212_quests_melanie2_enter_melanie_home()
+    call ep212_quests_melanie2_enter_melanie_home() from _rcall_ep212_quests_melanie2_enter_melanie_home
     return False
 
 label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
@@ -39,37 +39,37 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
     $ remove_objective("go_to_melanie")
     $ remove_hook(label="melanie_disappeared_after_victoria") # Включаем Мелани
     $ add_hook("Melanie", "ep212_dialogues6_melanie_punishment_9a", scene="monica_office_makeup_room", label="ep212_quests_melanie_block")
-    call ep212_dialogues6_melanie_punishment_4() # Приход к Мелани
+    call ep212_dialogues6_melanie_punishment_4() from _rcall_ep212_dialogues6_melanie_punishment_4 # Приход к Мелани
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
         $ remove_hook(label="ep212_quests_melanie")
-        call ep212_quests_melanie3_go_monica_home()
+        call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
-    call ep212_melanie_home_photoshoot1a()
+    call ep212_melanie_home_photoshoot1a() from _rcall_ep212_melanie_home_photoshoot1a
     $ ep212_quests_melanie_made_private_photoshoot1 = True
-    call ep212_dialogues6_melanie_punishment_5()
-    call ep212_dialogues6_melanie_punishment_6()
+    call ep212_dialogues6_melanie_punishment_5() from _rcall_ep212_dialogues6_melanie_punishment_5
+    call ep212_dialogues6_melanie_punishment_6() from _rcall_ep212_dialogues6_melanie_punishment_6
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
         $ ep212_quests_melanie_refused2 = True
         $ remove_hook(label="ep212_quests_melanie")
-        call ep212_quests_melanie3_go_monica_home()
+        call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home_1
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
-    call ep212_dialogues6_melanie_punishment_7()
+    call ep212_dialogues6_melanie_punishment_7() from _rcall_ep212_dialogues6_melanie_punishment_7
     $ ep212_quests_melanie_completed = True
     $ ep212_quests_melanie_completed_day = day
     $ remove_hook(label="ep212_quests_melanie")
-    call ep212_quests_melanie3_go_monica_home()
+    call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home_2
     $ autorun_to_object("ep212_dialogues6_melanie_punishment_9", scene=_return)
     return False
 
 label ep212_quests_melanie3_go_monica_home: # Завершение квеста
     if slumsApartmentsRentActive == True:
-        call process_change_map_location("Slums_Apartments")
-        call change_scene("street_monicahome", "Fade_long", False)
+        call process_change_map_location("Slums_Apartments") from _rcall_process_change_map_location
+        call change_scene("street_monicahome", "Fade_long", False) from _rcall_change_scene_85
         return "street_monicahome"
-    call process_change_map_location("House")
-    call change_scene("street_house_outside", "Fade_long", False)
+    call process_change_map_location("House") from _rcall_process_change_map_location_1
+    call change_scene("street_house_outside", "Fade_long", False) from _rcall_change_scene_86
     return "street_house_outside"

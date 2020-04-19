@@ -1,24 +1,24 @@
 default pubPrivate1Count = 0
 
 label ep212_quests_pub_menu_private: # Меню приватов
-    call ep212_dialogues2_shiny_hole_menu_private()
+    call ep212_dialogues2_shiny_hole_menu_private() from _rcall_ep212_dialogues2_shiny_hole_menu_private
     if _return == -1: # Танцев не выбрано
 #        $ dancePrivateLastDay = day
         return
     if _return == 0: # Танец для Мистера Беркельбауха.
-        call ep211_dialogues5_shiny_hole_1()
+        call ep211_dialogues5_shiny_hole_1() from _rcall_ep211_dialogues5_shiny_hole_1_1
         if _return == False:
-            call ep211_quests_pub3_fired()
+            call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_2
             return False
-        call ep211_dialogues5_shiny_hole_2()
+        call ep211_dialogues5_shiny_hole_2() from _rcall_ep211_dialogues5_shiny_hole_2_1
         if _return == False:
-            call ep211_quests_pub3_fired()
+            call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_3
             return False
         $ autorun_to_object("ep211_dialogues5_shiny_hole_9", scene="pub_makeuproom")
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_14
         return
     if _return == 1: # Приват1
-        call ep212_dialogues2_shiny_hole_1()
+        call ep212_dialogues2_shiny_hole_1() from _rcall_ep212_dialogues2_shiny_hole_1
         if _return == False:
             return
         $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
@@ -28,20 +28,20 @@ label ep212_quests_pub_menu_private: # Меню приватов
 
 label ep212_quests_pub_private1_1: # Приват 1
     if cloth_type != "StripOutfit":
-        call ep211_dialogues5_shiny_hole_8()
+        call ep211_dialogues5_shiny_hole_8() from _rcall_ep211_dialogues5_shiny_hole_8_1
         return False
     # сцена
     $ remove_objective("go_dance_private")
     $ remove_hook(label="pub_private_dance1")
     $ pubPrivate1Count += 1
     $ dancePrivateLastDay = day
-    call ep212_dialogues2_shiny_hole_2()
+    call ep212_dialogues2_shiny_hole_2() from _rcall_ep212_dialogues2_shiny_hole_2
     if _return == -1:
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_15
         return
 
     $ customer3_after_private = True
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_16
     return
 
 label ep212_quests_pub_reset_pub: # Сброс квеста shiny hole
@@ -181,8 +181,8 @@ label ep212_quests_pub_reset_pub: # Сброс квеста shiny hole
         pubInited = False
         monicaPubWashingDishesCount = 0 # Кол-во раз Моника мыла посуду
         pubFoodHistory = []
-    call characters_pub_init()
-    call characters_pub_init2()
+    call characters_pub_init() from _rcall_characters_pub_init
+    call characters_pub_init2() from _rcall_characters_pub_init2
     $ clear_hooks("start_dance_event", scene="global")
     $ clear_hooks("monica_pole_dance_end", scene="global")
     $ clear_hooks("monica_pole_dance", scene="global")
@@ -209,11 +209,11 @@ label ep212_quests_pub_reset_pub: # Сброс квеста shiny hole
     $ questLog(59, False)
     $ questLog(30, False)
 
-    call ep23_quests_pub_init()
+    call ep23_quests_pub_init() from _rcall_ep23_quests_pub_init
     music stop
     music2 stop
     img black_screen
     with diss
     pause 3.0
-    call change_scene("hostel_street", "Fade_long")
+    call change_scene("hostel_street", "Fade_long") from _rcall_change_scene_88
     return False

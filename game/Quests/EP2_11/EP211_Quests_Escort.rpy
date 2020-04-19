@@ -106,7 +106,7 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
         $ escortRestaurantEnterForced = 0
     if rnd1 == 1:
         if ep212_escort3_completed == True:
-            call ep212_dialogues3_escort_hotel_7_3()
+            call ep212_dialogues3_escort_hotel_7_3() from _rcall_ep212_dialogues3_escort_hotel_7_3
         else:
             call ep210_dialogues7_escort_hotel_8a2() from _rcall_ep210_dialogues7_escort_hotel_8a2
     if rnd1 == 2:
@@ -170,12 +170,12 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortScene3Day = day
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
-        call ep212_escort3_1()
+        call ep212_escort3_1() from _rcall_ep212_escort3_1
     if _return == 4:
 #        $ monicaEscortScene4Day = day
 #        $ monicaEscortSceneDay = day
 #        $ monicaEscortScenesCount += 1
-        call ep212_escort4_1()
+        call ep212_escort4_1() from _rcall_ep212_escort4_1
 
     return False
 

@@ -594,7 +594,7 @@ label ep212_dialogues5_julia_4:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("5 минут спустя..."))
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_36
     img black_screen
     with Dissolve(2.0)
     sound barefoot_walk2
@@ -1096,7 +1096,7 @@ label ep212_dialogues5_julia_5:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Утром..."))
+    call textonblack(t_("Утром...")) from _rcall_textonblack_37
     img black_screen
     with Dissolve(1)
     music Loved_Up

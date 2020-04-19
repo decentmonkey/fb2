@@ -40,7 +40,7 @@ label ep27_pub_visitors_click:
         pass
     if obj_name == "Pub_Visitor3":
         if customer3_after_private == True:
-            call ep212_dialogues2_shiny_hole_3()
+            call ep212_dialogues2_shiny_hole_3() from _rcall_ep212_dialogues2_shiny_hole_3
             $ pubVisitor3Suffix = "_Food"
             if _return != False:
                 $ customer3_after_private_agree_count += 1

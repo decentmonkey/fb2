@@ -88,7 +88,7 @@ label changeDayTime_day_hooks_slums_apartments:
     if monica_cheats_hungry_enabled == False:
         $ monica_eated()
     $ remove_hook(label="evening_time_temp")
-    call process_hooks("change_time_day", "global")
+    call process_hooks("change_time_day", "global") from _rcall_process_hooks_20
 #    call process_hooks("change_time_day_slums_apartments", "global") from _call_process_hooks_19b
     call process_hooks("change_time_day_global", "global") from _rcall_process_hooks_4
     call process_hooks("week_day_" + str(week_day), "global_week_day") from _call_process_hooks_20b

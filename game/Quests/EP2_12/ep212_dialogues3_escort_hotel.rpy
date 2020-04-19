@@ -1089,7 +1089,7 @@ label ep212_dialogues3_escort_hotel_4:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_35
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

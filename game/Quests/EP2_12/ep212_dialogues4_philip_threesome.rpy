@@ -2,9 +2,9 @@ default monicaShlut1PhillipThreesome1 = False  # Моника делала ку�
 default monicaShlut1PhillipThreesome2 = False  # Моника согласилась на ass to mouth
 default monicaPhillipThreesome1_cum_zone = 0
 
-call ep212_dialogues4_philip_threesome_1() # гостиница у Филиппа дома, секс втроем
-call ep212_dialogues4_philip_threesome_2() # Филипп оплачивает работу шлюхе номер 1
-call ep212_dialogues4_philip_threesome_3() # разговор со шлюхой номер 1 на улице
+#call ep212_dialogues4_philip_threesome_1() from _rcall_ep212_dialogues4_philip_threesome_1_1 # гостиница у Филиппа дома, секс втроем
+#call ep212_dialogues4_philip_threesome_2() from _rcall_ep212_dialogues4_philip_threesome_2_1 # Филипп оплачивает работу шлюхе номер 1
+#call ep212_dialogues4_philip_threesome_3() from _rcall_ep212_dialogues4_philip_threesome_3_1 # разговор со шлюхой номер 1 на улице
 
 
 # если у Филиппа шлюха номер 1 и Моника оказалась на улице
@@ -16,7 +16,7 @@ call ep212_dialogues4_philip_threesome_3() # разговор со шлюхой 
 
 # если выбран пункт "Групповой секс"
 label ep212_dialogues4_philip_threesome_1:
-    call check_skip_scene("ep211_dialogues7_Phillip_home_2")
+    call check_skip_scene("ep211_dialogues7_Phillip_home_2") from _rcall_check_skip_scene_3
     if _return == True:
         return True
     # Филипп сидит на диване перед телеком, Моника и шлюха стоят в гостиной возле двери
@@ -1232,7 +1232,7 @@ label ep212_dialogues4_philip_threesome_2:
         "Почему я ничего не заработала?!":
             img 17141
             with fade
-            call bitch(5, "philip_threesome1")
+            call bitch(5, "philip_threesome1") from _rcall_bitch_4
             m "Филипп, я делала все, что ты мне говорил!"
             m "Почему я не заработала денег?!"
             m "?!?!?!"
@@ -1256,7 +1256,7 @@ label ep212_dialogues4_philip_threesome_2:
     img 17144
     with fade
     philip "Можете идти."
-    call bitch(-5, "philip_threesome1")
+    call bitch(-5, "philip_threesome1") from _rcall_bitch_5
     music Pyro_Flow
     img 16386
     with diss

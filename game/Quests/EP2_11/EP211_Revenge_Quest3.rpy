@@ -29,12 +29,12 @@ label ep211_revenge_quest2:
     $ renpy.pause(2.0, hard=True)
     img black_screen
     with Dissolve(2.0)
-    call textonblack("FASHION BUSINESS")
+    call textonblack("FASHION BUSINESS") from _rcall_textonblack_34
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
 
-    call ep212_dialogues_revenge_quest1()
+    call ep212_dialogues_revenge_quest1() from _rcall_ep212_dialogues_revenge_quest1
 
     stop music
     sound snd_cinematic_impact

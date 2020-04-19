@@ -143,7 +143,7 @@ label ep28_monica_bardie_eric_college3_shop: # Моника заходит в м
     if _return == 0: # Моника отказалась заходить в магазин
         return False
     if _return == -1:
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_7
         return False
     if _return == 1 or _return == 4:
         # Моника получила костюм мамы, можно идти в колледж

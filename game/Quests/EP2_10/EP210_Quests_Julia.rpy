@@ -170,8 +170,8 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         call refresh_scene_fade() from _rcall_refresh_scene_fade
         return False
     if _return == 5: # Третье свидание
-        call ep212_quests_julia1_third_date_init()
-        call refresh_scene_fade()
+        call ep212_quests_julia1_third_date_init() from _rcall_ep212_quests_julia1_third_date_init
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_47
         return False
 
     return False

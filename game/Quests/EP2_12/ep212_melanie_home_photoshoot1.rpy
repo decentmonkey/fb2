@@ -60,7 +60,7 @@ label ep212_melanie_home_photoshoot1a_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_279
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -71,7 +71,7 @@ label ep212_melanie_home_photoshoot1a_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_280
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -82,7 +82,7 @@ label ep212_melanie_home_photoshoot1a_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_281
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -129,7 +129,7 @@ label ep212_melanie_home_photoshoot1a_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_282
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -140,7 +140,7 @@ label ep212_melanie_home_photoshoot1a_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_283
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -156,7 +156,7 @@ label ep212_melanie_home_photoshoot1a_pose2:
         alex_photograph "Что ты, Мелани! В кадре все смотрится прекрасно!"
         melanie_t "!!!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_284
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -209,7 +209,7 @@ label ep212_melanie_home_photoshoot1a_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_285
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -220,7 +220,7 @@ label ep212_melanie_home_photoshoot1a_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_286
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -231,7 +231,7 @@ label ep212_melanie_home_photoshoot1a_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_287
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -296,7 +296,7 @@ label ep212_melanie_home_photoshoot1a_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_288
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -307,7 +307,7 @@ label ep212_melanie_home_photoshoot1a_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_289
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -318,7 +318,7 @@ label ep212_melanie_home_photoshoot1a_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_290
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -362,7 +362,7 @@ label ep212_melanie_home_photoshoot1a_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_291
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -373,7 +373,7 @@ label ep212_melanie_home_photoshoot1a_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_292
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -388,7 +388,7 @@ label ep212_melanie_home_photoshoot1a_pose5:
         melanie "Тогда не нужно делать кадры в такой позе."
         melanie_t "!!!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_293
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -432,7 +432,7 @@ label ep212_melanie_home_photoshoot1a_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_294
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -443,7 +443,7 @@ label ep212_melanie_home_photoshoot1a_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_295
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -454,7 +454,7 @@ label ep212_melanie_home_photoshoot1a_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_296
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -506,7 +506,7 @@ label ep212_melanie_home_photoshoot1a_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_297
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -517,7 +517,7 @@ label ep212_melanie_home_photoshoot1a_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_298
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -528,7 +528,7 @@ label ep212_melanie_home_photoshoot1a_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_299
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -577,7 +577,7 @@ label ep212_melanie_home_photoshoot1a_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_300
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -588,7 +588,7 @@ label ep212_melanie_home_photoshoot1a_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_301
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -599,7 +599,7 @@ label ep212_melanie_home_photoshoot1a_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_302
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -648,7 +648,7 @@ label ep212_melanie_home_photoshoot1a_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_303
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -658,14 +658,14 @@ label ep212_melanie_home_photoshoot1a_pose9:
         img 23890
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_192
         w
         sound camera_lens1
         $ photoImage = 23891
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_304
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -676,7 +676,7 @@ label ep212_melanie_home_photoshoot1a_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_305
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -724,7 +724,7 @@ label ep212_melanie_home_photoshoot1a_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_306
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -735,7 +735,7 @@ label ep212_melanie_home_photoshoot1a_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_307
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -745,14 +745,14 @@ label ep212_melanie_home_photoshoot1a_pose10:
         img 23896
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_193
         w
         sound camera_lens1
         $ photoImage = 23897
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_308
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -804,14 +804,14 @@ label ep212_melanie_home_photoshoot1a_pose11:
         sound camera_lens1
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_194
         w
         sound camera_lens1
         $ photoImage = 23899
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_309
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -821,14 +821,14 @@ label ep212_melanie_home_photoshoot1a_pose11:
         sound camera_lens1
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_195
         w
         sound camera_lens1
         $ photoImage = 23901
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_310
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -842,20 +842,20 @@ label ep212_melanie_home_photoshoot1a_pose11:
         victoria "Получится отличный кадр."
         melanie_t "Сучка!"
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_196
         w
         sound camera_lens1
         img 23904
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_197
         w
         sound camera_lens1
         $ photoImage = 23905
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_311
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -897,7 +897,7 @@ label ep212_melanie_home_photoshoot1a_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_312
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -907,14 +907,14 @@ label ep212_melanie_home_photoshoot1a_pose12:
         sound camera_lens1
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_198
         w
         sound camera_lens1
         $ photoImage = 23908
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_313
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -924,20 +924,20 @@ label ep212_melanie_home_photoshoot1a_pose12:
         sound camera_lens1
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_199
         w
         sound camera_lens1
         img 23911
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_200
         w
         sound camera_lens1
         $ photoImage = 23912
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_314
         $ MelanieHome_Photoshoot1_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel

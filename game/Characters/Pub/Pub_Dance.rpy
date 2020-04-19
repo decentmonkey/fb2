@@ -158,7 +158,7 @@ label pub_dance_end1: # Обычное завершение танцев
         if _return == False:
             return False
     if monicaPubPrivatDance1 == True and dancePrivateMenuEnabled == True and math.floor(dancePrivateLastDay/7)<math.floor(day/7) and pubDanceAfterBlockEvents == False:
-        call ep212_quests_pub_menu_private()
+        call ep212_quests_pub_menu_private() from _rcall_ep212_quests_pub_menu_private
         if _return == False:
             return False
     $ ep29_quests_claire_dance_planned = False

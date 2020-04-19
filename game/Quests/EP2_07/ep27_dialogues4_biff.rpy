@@ -359,7 +359,7 @@ label ep27_dialogues4_biff5:
                         menu:
                             "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                                 $ store_music()
-                                call ep212_dialogues7_biff1()
+                                call ep212_dialogues7_biff1() from _rcall_ep212_dialogues7_biff1_1
                                 $ restore_music()
                                 img 8445
                                 biff "Хорошо, папочка доволен!"
@@ -371,7 +371,7 @@ label ep27_dialogues4_biff5:
                                 pass
                             "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
                                 $ store_music()
-                                call ep212_dialogues7_biff2()
+                                call ep212_dialogues7_biff2() from _rcall_ep212_dialogues7_biff2_1
                                 $ restore_music()
                                 img 8445
                                 biff "Хорошо, папочка доволен!"

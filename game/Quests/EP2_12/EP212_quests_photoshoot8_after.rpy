@@ -14,7 +14,7 @@ label ep212_quests_photoshoot8_after_check:
     if day - ep211_quests_photoshot8_opened_day < 7 or week_day == 7 or day_time != "day":
         return
     $ remove_hook(label="ep212_quests_photoshoot8_after")
-    call ep212_dialogues6_melanie_punishment_10()
+    call ep212_dialogues6_melanie_punishment_10() from _rcall_ep212_dialogues6_melanie_punishment_10
     $ ep212_quests_photoshoot8_after_completed_day = day
-    call change_scene("working_office")
+    call change_scene("working_office") from _rcall_change_scene_87
     return False

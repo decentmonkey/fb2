@@ -792,7 +792,7 @@ label ep212_dialogues6_melanie_punishment_6:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(t_("Минуту спустя..."))
+    call textonblack(t_("Минуту спустя...")) from _rcall_textonblack_38
     scene black_screen
     with Dissolve(1)
     music Master_Disorder
@@ -1303,7 +1303,7 @@ label ep212_dialogues6_melanie_punishment_7:
     music stop
     scene black_screen
     with Dissolve(1)
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_39
     scene black_screen
     with Dissolve(1)
     music Groove2_85
