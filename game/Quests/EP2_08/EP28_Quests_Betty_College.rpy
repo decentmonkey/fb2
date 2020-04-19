@@ -19,6 +19,8 @@ label ep28_betty_college_init:
     return
 
 label ep28_betty_college2:
+    if monicaRestHouse != False:
+        return
     if check_scene_parent(scene_name, "House", recursive=True) == False:
         return
     $ remove_hook()
@@ -123,7 +125,7 @@ label ep28_betty_college2_teacher_day1b: # Бетти возвращается �
     return False
 
 label ep28_betty_college2_teacher_day1_resume: # Возобновляем квест с Бетти после наказания от Барди
-    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", once=True, label="ep28_betty_college2", priority=99)
+    $ add_hook("change_time_day", "ep28_betty_college2", scene="global", label="ep28_betty_college2", priority=99)
     return
 
 label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (переход управления к Монике)
@@ -146,10 +148,15 @@ label ep28_betty_college2_teacher_day1c: # Бетти заходит в дом (
     return False
 
 label ep28_betty_college2_teacher_day1d: # Квест остановлен
+    if monicaRestHouse != False:
+        return
     return
 
 
 label ep28_betty_college2_teacher_day2: # Инициализация 2-го дня похода к учителю
+    if monicaRestHouse != False:
+        return
+
     if week_day == 7:
         return
     if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)
@@ -229,6 +236,8 @@ label ep28_betty_college2_teacher_day2b: # Разговор с Барди пос
 #    $ add_hook("change_time_day", "ep28_betty_college2_teacher_day3", scene="global", label="betty_college_day3", priority=99)
 #    return
 label ep28_betty_college2_teacher_day3: # Инициализация дня 3
+    if monicaRestHouse != False:
+        return
     if week_day == 7 or ep28_day_var1 >= day:
         return
     if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)

@@ -137,6 +137,8 @@ label ep24_quests_steve8:
     return
 
 label ep24_quests_steve9:
+    if monicaRestHouse != False:
+        return
     # Инициализация второго посещения Стива (вешается у Бетти в квестах)
     if week_day == 6: #Если суббота, то пропускаем до следующей субботы
         return
@@ -428,6 +430,8 @@ label ep24_quests_steve24b:
     return False
 
 label ep24_quests_steve25:
+    if monicaRestHouse != False:
+        return
     # Следующее утро
     $ remove_hook()
     if monicaHasSexWithSteveBasement == True:

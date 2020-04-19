@@ -163,6 +163,8 @@ label ep24_quests_betty5:
     return
 
 label ep24_quests_betty10:
+    if monicaRestHouse != False:
+        return
     # Инициализация catch Бетти Моники с утра
     $ remove_hook()
     $ add_hook("map_teleport", "ep24_quests_betty11", scene="global", label="betty_catch2", priority = 1001)
