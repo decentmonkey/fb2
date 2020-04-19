@@ -295,17 +295,17 @@ label start_cleaning_dialogue1a:
     python:
         for obj1 in rooms_dirty:
             if obj1 == "floor2":
-                renpy.say(mt, t_("Верхний холл."))
+                renpy.say(mt, t__("Верхний холл."))
             if obj1 == "floor1":
-                renpy.say(mt, t_("Нижний холл."))
+                renpy.say(mt, t__("Нижний холл."))
             if obj1 == "bedroom_bardie":
-                renpy.say(mt, t_("Спальню Барди."))
+                renpy.say(mt, t__("Спальню Барди."))
             if obj1 == "bedroom_second":
-                renpy.say(mt, t_("Спальню для гостей."))
+                renpy.say(mt, t__("Спальню для гостей."))
             if obj1 == "living_room":
-                renpy.say(mt, t_("Гостиную."))
+                renpy.say(mt, t__("Гостиную."))
             if obj1 == "bedroom1":
-                renpy.say(mt, t_("Мою бывшую спальню."))
+                renpy.say(mt, t__("Мою бывшую спальню."))
 
     $ rooms_dirty.pop(0)
     call start_cleaning_dialogue1() from _call_start_cleaning_dialogue1
