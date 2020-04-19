@@ -2,11 +2,11 @@
 define philipThreesomeCorruptionRequired = 500 # За сцену со шлюхой 1 втроем
 define philipThreesomeCorruptionRequired2 = 500 # Чтобы взять член шлюхи1 в рот
 
-define ep212_seduce_ralph1 = 300 # соблазнять Ральфа в трусиках Юлии
-define ep212_seduce_ralph2 = 310 # соблазнять Ральфа в трусиках Бетти
-define ep212_seduce_ralph3 = 320 # соблазнять Ральфа в трусиках Бетти (убираться перед носом)
-define ep212_seduce_ralph4 = 330 # соблазнять Ральфа без трусиков
-define ep212_seduce_ralph5 = 340 # соблазнять Ральфа без трусиков (перед носом)
+define ep212_seduce_ralph1 = 350 # соблазнять Ральфа в трусиках Юлии
+define ep212_seduce_ralph2 = 360 # соблазнять Ральфа в трусиках Бетти
+define ep212_seduce_ralph3 = 370 # соблазнять Ральфа в трусиках Бетти (убираться перед носом)
+define ep212_seduce_ralph4 = 400 # соблазнять Ральфа без трусиков
+define ep212_seduce_ralph5 = 450 # соблазнять Ральфа без трусиков (перед носом)
 
 define ep212_private_dance1 = 400 # Моника согласилась пойти в приват
 define ep212_private_dance2 = 420 # Моника согласилась назвать себя шлюхой за 50 долларов
