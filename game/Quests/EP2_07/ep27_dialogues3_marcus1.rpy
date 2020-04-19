@@ -489,7 +489,7 @@ label ep27_dialogues_marcus1_11:
 
 #    img black_screen
 #    with Dissolve(2.0)
-#    call textonblack(t_("Узнайте что ждет Монику\nв грядущем обновлении игры!")) from _call_textonblack_33
+#    call textonblack(ts__("Узнайте что ждет Монику\nв грядущем обновлении игры!")) from _call_textonblack_33
 #    pause 2.0
     img black_screen
     with Dissolve(1.0)

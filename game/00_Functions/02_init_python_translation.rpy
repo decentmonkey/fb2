@@ -28,7 +28,6 @@ python early:
                     str1 = str1.replace("[" + var1 + "]", "{c}" + t__(var2) + "{/c}")
                 else:
                     str1 = str1.replace("[" + var1 + "]", "{c}" + var2 + "{/c}")
-
         return str1
     def t_(s):
         return s
@@ -38,6 +37,20 @@ python early:
 #            s = language_dict[s][language_fields[lang]]
 #        return parse_tstr(s)
     def t__(s):
+        global _preferences, language_fields, language_dict
+        lang = _preferences.language
+        s = re.sub(r'(\n\s*)', " ", s)
+        print s
+        st = s
+        if language_dict.has_key(s):
+            st = language_dict[s][language_fields[lang]]
+            if st == "":
+                st = language_dict[s][language_fields["english"]]
+                if st == "":
+                    st = s
+        return parse_tstr(st)
+
+    def ts__(s):
         global _preferences, language_fields, language_dict
         lang = _preferences.language
         st = s
