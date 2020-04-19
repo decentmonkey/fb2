@@ -16,8 +16,11 @@ screen IW_exception(can_return, traceback_fn):
 
     vbox:
         xanchor 0.5
-        xpos 700
-        yalign 0.8
+        xpos getRes(700)
+        if gui.flag720 == False:
+            yalign 0.8
+        else:
+            yalign 0.9
         hbox:
             vbox:
                 xalign 0.0
@@ -27,7 +30,7 @@ screen IW_exception(can_return, traceback_fn):
                         frame:
                             background Solid("#18181a")
                             margin (0,0)
-                            padding (30,30)
+                            padding (getRes(30),getRes(30))
                             style "sprite_textbutton_frm"
                             text t__("Try to continue") style text_button_layouts["default"]["text_button.style"]
                         action Return("continue")
@@ -37,7 +40,7 @@ screen IW_exception(can_return, traceback_fn):
                     frame:
                         background Solid("#18181a")
                         margin (0,0)
-                        padding (30,30)
+                        padding (getRes(30),getRes(30))
                         style "sprite_textbutton_frm"
                         text t__("Return to main menu") style text_button_layouts["default"]["text_button.style"]
                     action Return("menu")
@@ -46,12 +49,12 @@ screen IW_exception(can_return, traceback_fn):
                     frame:
                         background Solid("#18181a")
                         margin (0,0)
-                        padding (30,30)
+                        padding (getRes(30),getRes(30))
                         style "sprite_textbutton_frm"
                         text t__("Exit the game") style text_button_layouts["default"]["text_button.style"]
                     action Return("exit")
             null:
-                width 100
+                width getRes(100)
 
             vbox:
                 xalign 0.0
@@ -61,7 +64,7 @@ screen IW_exception(can_return, traceback_fn):
                         frame:
                             background Solid("#18181a")
                             margin (0,0)
-                            padding (30,30)
+                            padding (getRes(30),getRes(30))
                             style "sprite_textbutton_frm"
                             text t__("Send report") style text_button_layouts["default"]["text_button.style"]
                         action ToggleScreenVariable("reportSent", False, True), _sendPOST(traceback_fn)
@@ -71,7 +74,7 @@ screen IW_exception(can_return, traceback_fn):
                         frame:
                             background Solid("#18181a")
                             margin (0,0)
-                            padding (30,30)
+                            padding (getRes(30),getRes(30))
                             style "sprite_textbutton_frm"
                             text t__("Done") style text_button_layouts["default"]["text_button.style"]
                         action ToggleScreenVariable("reportSent", False, True)
@@ -80,7 +83,7 @@ screen IW_exception(can_return, traceback_fn):
                     frame:
                         background Solid("#18181a")
                         margin (0,0)
-                        padding (30,30)
+                        padding (getRes(30),getRes(30))
                         style "sprite_textbutton_frm"
                         text t__("Copy error text") style text_button_layouts["default"]["text_button.style"]
                     action _CopyCollapsedMarkdown(traceback_fn)
@@ -89,7 +92,7 @@ screen IW_exception(can_return, traceback_fn):
                     frame:
                         background Solid("#18181a")
                         margin (0,0)
-                        padding (30,30)
+                        padding (getRes(30),getRes(30))
                         style "sprite_textbutton_frm"
                         text t__("Open the folder with error file") style text_button_layouts["default"]["text_button.style"]
                     action _OpenFolder(traceback_fn)
@@ -185,8 +188,6 @@ init 1000 python:
                 pass
 
     def handle_exception(short, full, filename):
-#        print "here!!!"
-#        renpy.pause()
         try:
             import sys
             is_unhandlable = sys.exc_info()[0] is renpy.script.ScriptError
@@ -198,6 +199,8 @@ init 1000 python:
                 old_quit = renpy.config.quit_action
                 try:
                     config.quit_action = None
+#                    print "here!!!"
+#                    renpy.pause()
                     renpy.show_screen("IW_exception", can_return, traceback_fn, _transient=True)
                     rv = renpy.ui.interact(mouse="screen", type="screen", suppress_overlay=True, suppress_underlay=True)
                     return rv

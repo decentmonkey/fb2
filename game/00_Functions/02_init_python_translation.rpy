@@ -7,11 +7,11 @@ python early:
     def parse_tstr(str1):
         global item1
         result = re.findall(r'\[(.*?)\]', str1)
-        str1 = str1.replace("{c}", "{")
-        str1 = str1.replace("{/c}", "}")
-        str1 = str1.replace("{", "{c}")
-        str1 = str1.replace("}", "{/c}")
-        str1 = str1.replace("{c{/c}", "{c}")
+#        str1 = str1.replace("{c}", "{")
+#        str1 = str1.replace("{/c}", "}")
+#        str1 = str1.replace("{", "{c}")
+#        str1 = str1.replace("}", "{/c}")
+#        str1 = str1.replace("{c{/c}", "{c}")
         for var1 in result:
             var2 = var1
             translateVarFlag = False
