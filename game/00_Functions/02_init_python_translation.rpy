@@ -5,12 +5,30 @@ python early:
 
 #    open(config.basedir + "/game/update_data.json", "wb").write(str)
     def parse_tstr(str1):
+        global item1
         result = re.findall(r'\[(.*?)\]', str1)
+        str1 = str1.replace("{c}", "{")
+        str1 = str1.replace("{/c}", "}")
+        str1 = str1.replace("{", "{c}")
+        str1 = str1.replace("}", "{/c}")
+        str1 = str1.replace("{c{/c}", "{c}")
         for var1 in result:
-            if globals().has_key(var1):
-                str1 = str1.replace("[" + var1 + "]", str(globals()[var1]))
+            var2 = var1
+            translateVarFlag = False
+            if var2[-2:] == "!t":
+                var2 = var2[:-2]
+                translateVarFlag = True
+            if globals().has_key(var2):
+                if translateVarFlag == True:
+                    str1 = str1.replace("[" + var1 + "]", str(t__((globals()[var2]))))
+                else:
+                    str1 = str1.replace("[" + var1 + "]", str(globals()[var2]))
             else:
-                str1 = str1.replace("[" + var1 + "]", "{c}" + var1 + "{/c}")
+                if translateVarFlag == True:
+                    str1 = str1.replace("[" + var1 + "]", "{c}" + t__(var2) + "{/c}")
+                else:
+                    str1 = str1.replace("[" + var1 + "]", "{c}" + var2 + "{/c}")
+
         return str1
     def t_(s):
         return s

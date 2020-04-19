@@ -58,9 +58,6 @@ label start:
 #    call ()
 #    call ()
 
-
-
-
 ###################
 
     call intro_questions() from _call_intro_questions #debug !!!
