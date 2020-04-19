@@ -84,7 +84,7 @@ label show_game_updater:
     $ updateDownloadCode = renpy.input("Download code: (enter to confirm)", "")
     hide screen game_updater_background
 
-    $ URL = "http://update.decent-monkey.com/repo/" + updateDownloadCode + "/game/"
+    $ URL = "http://update.decent-monkey.com/repo2/" + updateDownloadCode + "/game/"
     $ updateDataURL = URL + "update_data.json"
 
     $ updaterProgressBarValue = 50
