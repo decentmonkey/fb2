@@ -692,49 +692,49 @@ screen poledance_coins(coinsArr):
             frame at coin_appear1:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 1:
             frame at coin_appear2:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 2:
             frame at coin_appear3:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 3:
             frame at coin_appear4:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 4:
             frame at coin_appear5:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 5:
             frame at coin_appear6:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
         if idx == 6:
             frame at coin_appear7:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
                 $ notifOffset += notifyLineOffset
                 $ idx1 += 1
     timer (3.25) action [Hide('poledance_coins')]

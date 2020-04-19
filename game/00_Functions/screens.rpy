@@ -227,7 +227,7 @@ screen screen_sprites(data):
                             $ contrast_adjustment = 1.2
                             if data[i]["type"] == 0 :
                                 $ varName = data[i]["text"]
-                                text "[varName]"
+                                text t__(varName)
 
                             $ mask_canvas_offset = data[i]["canvas_img" + day_time_suffix + "_mask"] if data[i].has_key("canvas_img" + day_time_suffix + "_mask") != False else data[i]["canvas_img_mask"] if data[i].has_key("canvas_img_mask") != False else False
                             $ canvas_offset = data[i]["canvas_img" + day_time_suffix] if data[i].has_key("canvas_img" + day_time_suffix) != False else data[i]["canvas_img"] if data[i].has_key("canvas_img") else False
@@ -2830,7 +2830,7 @@ screen notify(message):
     if message != "notifList":
         frame at notify_appear:
             ypos 0.2
-            text "[message!tq]"
+            text t__(message)
         timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
     else:
         $ notifOffset = 0
@@ -2838,7 +2838,7 @@ screen notify(message):
             frame at notify_appear:
                 ypos 0.2
                 yoffset notifOffset
-                text "[msg!tq]"
+                text t__(msg)
             $ notifOffset += notifyLineOffset
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
