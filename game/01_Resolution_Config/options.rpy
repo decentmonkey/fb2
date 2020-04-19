@@ -74,6 +74,12 @@ The big Dog
 
 희국 강
 
+Bill Lee
+
+Kurt
+
+강민석
+
 for great support!
 
 Ragnaroekr, Meli_x3, Koskesh, GND53 and ColdBlade for English correction
