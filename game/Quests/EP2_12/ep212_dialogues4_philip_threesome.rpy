@@ -707,8 +707,8 @@ label ep212_dialogues4_philip_threesome_1:
 
         scene black
         sound v_Monica_WhoreN1_Philip_Sex_3_1
-        image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
-        show videov_Monica_WhoreN1_Philip_Sex_5_1
+        image videov_Monica_WhoreN1_Philip_Sex_5_2 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_2.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_2_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_5_2
         pause 3.0
         sound hlup25
         pause 0.5
@@ -787,8 +787,8 @@ label ep212_dialogues4_philip_threesome_1:
 
         scene black
         sound v_Monica_WhoreN1_Philip_Sex_3_1
-        image videov_Monica_WhoreN1_Philip_Sex_5_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_1.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_1_end.jpg")
-        show videov_Monica_WhoreN1_Philip_Sex_5_1
+        image videov_Monica_WhoreN1_Philip_Sex_5_3 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_5_3.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_WhoreN1_Philip_Sex_5_3_end.jpg")
+        show videov_Monica_WhoreN1_Philip_Sex_5_3
         pause 3.0
         sound hlup25
         pause 0.5
@@ -910,11 +910,25 @@ label ep212_dialogues4_philip_threesome_1:
     with fade
     w
 
-
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex_6_1 = Movie(play="video/v_Monica_WhoreN1_Philip_Sex_6_1.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex_6_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     img 17231
     with diss
     w
+
     img 17255
     with diss
     w
@@ -924,6 +938,23 @@ label ep212_dialogues4_philip_threesome_1:
     img 17233
     with diss
     w
+
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Philip_Sex2_1.ogg"
+    scene black
+    image videov_Monica_WhoreN1_Philip_Sex_6_2= Movie(play="video/v_Monica_WhoreN1_Philip_Sex_6_2.mkv", fps=30)
+    show videov_Monica_WhoreN1_Philip_Sex_6_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 17226
     with fade
     whore_number_1 "Теперь она готова принять твой член."
@@ -963,9 +994,6 @@ label ep212_dialogues4_philip_threesome_1:
     stop music
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-
-
 
     img 17236
     with fade
