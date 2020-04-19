@@ -3,14 +3,16 @@
 screen IW_exception(can_return, traceback_fn):
     default reportSent = False
     layer "special"
+    add "images/Help/error_screen.jpg"
     fixed:
-        pos (180, 100)
+        pos (getRes(170), getRes(50))
         fit_first True
         fixed:
-            area (50, 50, 900, 300)
-            text _("Oops, something went wrong...\n\nPlease, email me {b}decentmonkeybox@gmail.com{/b} and send me the {b}traceback.txt{/b} file located in the game folder. \n\nIf you need more information, be sure to check out my {a=https://www.patreon.com/decentmonkey/overview}Patreon{/a} page, {a=http://decent-monkey.com/}Website{/a} or {a=http://wiki.decent-monkey.com/}Wiki{/a}. Thanks!"):
-                size 35
-                align (0.5, 0.3)
+            area (getRes(50), getRes(50), getRes(900), getRes(300))
+            frame:
+                background Solid("#18181a")
+                padding (getRes(50),getRes(50))
+                text _("Oops, something went wrong...\n\nPlease, email me {b}decentmonkeybox@gmail.com{/b} and send me the {b}traceback.txt{/b} file located in the game folder. \n\nIf you need more information, be sure to check out my {a=https://www.patreon.com/decentmonkey/overview}Patreon{/a} page, {a=http://decent-monkey.com/}Website{/a} or {a=http://wiki.decent-monkey.com/}Wiki{/a}. Thanks!") style "error_messsage_header_style"
 
     vbox:
         xanchor 0.5

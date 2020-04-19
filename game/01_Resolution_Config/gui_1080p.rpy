@@ -310,6 +310,11 @@ style gallery_caption_text:
     color "#808080"
 
 
+style error_messsage_header_style:
+    size 35
+    align (0.5, 0.3)
+
+
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42
 define gui.credits.offset3 = 40
