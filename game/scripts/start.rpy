@@ -60,7 +60,7 @@ label start:
 
 ###################
 
-    call intro_questions() from _call_intro_questions #debug !!!
+    call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", t_("Избежать наказания"), c_red, 0)
