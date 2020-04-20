@@ -39,8 +39,6 @@ python early:
     def t__(s):
         global _preferences, language_fields, language_dict
         lang = _preferences.language
-        s = re.sub(r'(\n\s*)', " ", s)
-        print s
         st = s
         if language_dict.has_key(s):
             st = language_dict[s][language_fields[lang]]
