@@ -814,7 +814,7 @@ label ep211_escort_scene1_5:
     reception "Завтра можешь приходить снова."
     reception "На сегодня все."
     reception "Клиенты не любят использованный товар."
-    if char_info["ReceptionGirl"]["level"] = 1:
+    if char_info["ReceptionGirl"]["level"] == 1:
         $ add_char_progress("ReceptionGirl", 25, "ReceptionGirl_escort_scene1")
     img 30114
     with diss

@@ -2372,7 +2372,7 @@ label ep211_escort_scene2_14(escort2_status):
         with diss
         reception "Завтра можешь приходить снова."
         reception "На сегодня все. Клиенты не любят использованный товар."
-        if char_info["ReceptionGirl"]["level"] = 1:
+        if char_info["ReceptionGirl"]["level"] == 1:
             $ add_char_progress("ReceptionGirl", 25, "ReceptionGirl_escort_scene2")
         img 30038
         with fade

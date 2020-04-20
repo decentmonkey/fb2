@@ -104,6 +104,8 @@ init python:
         return
 
     def clear_scene_from_objects(scene):
+        if scenes_data["objects"].has_key(scene) != True:
+            return
         list1 = []
         for key1 in scenes_data["objects"][scene]:
             list1.append(key1)
