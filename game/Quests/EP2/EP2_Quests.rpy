@@ -5,7 +5,7 @@ default monica_office_cabinet_biff_dialogue3Flag = False
 default charityEventCompleted = False
 
 label fred_talk_monica1:
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     $ add_hook("before_open", "fred_talk_monica1a", scene="street_house_main_yard", label="fred_talk1")
     $ add_hook("map_teleport", "fred_talk_monica1aMap", scene="global", label="fred_talk1")

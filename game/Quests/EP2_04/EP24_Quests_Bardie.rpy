@@ -169,7 +169,7 @@ label ep24_quests_bardie9a:
 
 label ep24_quests_bardie10:
     # Инициализация хуков разговора Моники и Бетти о том что Моника может проверять трусики Бетти
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     $ remove_hook()
     $ remove_hook(label="bardie_fitness_global")

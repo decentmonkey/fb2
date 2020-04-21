@@ -26,7 +26,7 @@ label ep23_quests_fred_talking_street_yard:
 
 
 label ep23_quests_fred_betty_sex:
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     $ remove_hook()
     if bettyTouchedFredDick == False:

@@ -111,7 +111,7 @@ label ep23_quests_melanie8 : #Разговор с Мелани после Дик
     return False
 
 label ep23_quests_melanie9: # Комментарий Моники с утра
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     $ remove_hook()
     call ep23_dialogues8_3() from _call_ep23_dialogues8_3
@@ -156,7 +156,7 @@ label ep23_quests_melanie_disappeared: # Мелани пропала
     return
 
 label ep23_quests_melanie_disappeared2:
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     if day - melanieDisappearedDay >= 2:
         $ remove_hook()

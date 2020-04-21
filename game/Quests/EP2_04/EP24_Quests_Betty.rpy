@@ -163,7 +163,7 @@ label ep24_quests_betty5:
     return
 
 label ep24_quests_betty10:
-    if monicaRestHouse != False:
+    if monicaRestHouse != True:
         return
     # Инициализация catch Бетти Моники с утра
     $ remove_hook()
