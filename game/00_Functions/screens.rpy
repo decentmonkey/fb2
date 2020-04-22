@@ -111,6 +111,7 @@ screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
     zorder 16
     if canvas_offsets != False and canvas_offsets.has_key(str(overlayName)) != False:
         $ canvas_data = canvas_offsets[str(overlayName)]
+
         $ croppedOverlay = im.Crop(image_name, (getRes(canvas_data[3]), getRes(canvas_data[2]), getRes(canvas_data[1]), getRes(canvas_data[0])))
         add croppedOverlay:
             xpos getRes(canvas_data[5])
