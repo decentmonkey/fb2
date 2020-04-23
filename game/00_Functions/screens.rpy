@@ -1079,7 +1079,7 @@ screen hud_screen(hud_presets):
                             yoffset gui.resolution.hud_screen.yoffset3
                             outlines [(3, "#000000", 0, 0)]
                     else:
-                        if money < 10000:
+                        if money < 10000000:
 
                             if money == 0:
                                 pass
