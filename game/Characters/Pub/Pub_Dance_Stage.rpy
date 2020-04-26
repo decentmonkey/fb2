@@ -18,6 +18,8 @@ default stage_shoots_total_amount_default = 27
 default stage_shoots_total_amount_claire = 24
 default stage_shoots_total_amount_cur = 27
 default stage_achievements_list = []
+
+default arrowStop = True
 #monicaDancingStage
 
 label pub_dance1_stage_start1:
