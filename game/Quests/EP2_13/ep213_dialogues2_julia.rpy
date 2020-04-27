@@ -1,9 +1,28 @@
-
 default monicaJuliaLoveStory1 = False # Моника согласилась сделать Юлии массаж
 default monicaJuliaLoveStory2 = False # Моника согласилась поцеловать Юлии грудь
 default monicaJuliaLoveStory3 = False  # Моника согласилась подыграть Юлии, еще не зная, что ее ждет секс на ее рабочем столе
 default monicaJuliaLoveStory4 = False # Моника согласилась приласкать Юлию на ее рабочем столе
 default monicaJuliaLoveStory5 = False # Моника согласилась пойти с Юлией в комнату отдыха
+default monicaJuliaLoveStory6 = False # Моника согласилась залезть к Юлии под стол
+default monicaJuliaLoveStory7 = False # Моника согласилась делать куни на столе у близняшек
+default monicaJuliaLoveStory8 = False # Моника предложила Юлии жить вместе
+default monicaJuliaLoveStory9 = False # Моника согласилась надеть трусики Юлии
+default monicaJuliaLoveStory10 = False # Моника разбудила Юлию поцелуем
+default monicaJuliaLoveStory11 = False # Моника утром начала целовать грудь Юлии
+default monicaJuliaLoveStory12 = False # Моника утром ласкает Юлию пальцами
+default monicaJuliaLoveStory13 = False # Моника утром делает куни
+default monicaJuliaLoveStory14 = False # Моника утром решила еще поспать и не будить Юлию
+default monicaJuliaLoveStory15 = False # Моника утром пошла готовить завтрак
+default monicaJuliaLoveStory16 = False # Моника утром решила уйти, пока Юлия спит
+default monicaJuliaLoveStory17 = False # Моника целует Юлию на кухне
+default monicaJuliaLoveStory18 = False # Моника ласкает Юлию на кухне
+default monicaJuliaLoveStory19 = False # Моника согласилась на 69 на кухне
+default monicaJuliaLoveStory20 = False # Моника зашла в душ к Юлии
+default monicaJuliaLoveStory21 = False # Моника согласилась на золотой дождь
+default monicaJuliaLoveStory22 = False # Моника открыла рот для золотого дождя
+default monicaJuliaLoveStory23 = False # Моника целует Юлию перед сном
+default monicaJuliaLoveStory24 = False # Моника ласкает Юлию перед сном
+default monicaJuliaLoveStory25 = False # Моника соглашается на дилдо перед сном
 
 
 # уровень отношений с Юлией будет увеличиваться с каждым новым действием
