@@ -1014,6 +1014,14 @@ label ep213_dialogues2_escort_6:
     w
     img 18181
     w
+    img 18198
+    w
+    img 18199
+    w
+    img 18200
+    w
+    img 18201
+    w
     img 18182
     investor3 "Грязной шлюшке нравится чувствовать в себе члены?"
     img 18183
