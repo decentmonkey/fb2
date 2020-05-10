@@ -865,6 +865,8 @@ label ep213_dialogues2_escort_6:
     img 18148
     w
     img 18149
+    w
+    img 18148
     investor3 "Нравится тебе, шлюшка?"
     investor3 "Хочешь его?"
     investor3 "Смотри, какой он твердый..."
