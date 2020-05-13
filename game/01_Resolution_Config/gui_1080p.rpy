@@ -332,3 +332,7 @@ define gui.credits.offset3 = 40
 define gui.credits.offset4 = 50
 define gui.credits.offset5 = 45
 define gui.credits.timeout = 170.0
+
+define gui.text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
+define gui.name_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
+define gui.interface_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"

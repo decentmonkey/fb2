@@ -414,7 +414,7 @@ screen screen_sprites(data):
                                                 if _preferences.language != "chinese":
                                                     text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
                                                 else:
-                                                    text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                                    text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]:
                                                         font gui.text_font_chinese
                                                 null:
                                                     width text_button_layouts[button_layout]["text_button.spacing2"]
@@ -620,7 +620,7 @@ screen hover_sprite_text(name, data, left_arrow, right_arrow, button_layout):
                 if _preferences.language != "chinese":
                     text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
                 else:
-                    text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
+                    text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]:
                         font gui.text_font_chinese
                 null:
                     width text_button_layouts[button_layout]["text_button.spacing2"]
@@ -1753,37 +1753,55 @@ screen choice(items):
         for button_data in buttons_list:
             if button_data["native"] == True:
                 if button_data["active"] == True:
-                    textbutton t__(button_data["caption"]):
-                        if _preferences.language == "chinese":
-                            font gui.text_font_chinese
-                        action [
-                            SetVariable("menu_corruption", False),
-                            SetVariable("menu_price", False),
-                            SetVariable("dialogue_active_flag", False),
-                            SetVariable("menuName", False),
-                            button_data["action"]
-                        ]
+                    if _preferences.language != "chinese":
+                        textbutton t__(button_data["caption"]):
+                            action [
+                                SetVariable("menu_corruption", False),
+                                SetVariable("menu_price", False),
+                                SetVariable("dialogue_active_flag", False),
+                                SetVariable("menuName", False),
+                                button_data["action"]
+                            ]
+                    else:
+                        textbutton t__(button_data["caption"]) text_style "text_chinese":
+                            action [
+                                SetVariable("menu_corruption", False),
+                                SetVariable("menu_price", False),
+                                SetVariable("dialogue_active_flag", False),
+                                SetVariable("menuName", False),
+                                button_data["action"]
+                            ]
                 else:
-                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text":
-                        if _preferences.language == "chinese":
-                            font gui.text_font_chinese
+                    if _preferences.language != "chinese":
+                        textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
+                    else:
+                        textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text_chinese"
             else:
                 if button_data["active"] == True:
                     $ menuLastName = menuName
-                    textbutton t__(button_data["caption"]):
-                        if _preferences.language == "chinese":
-                            font gui.text_font_chinese
-                        action [
-                            SetVariable("menu_corruption", False),
-                            SetVariable("menu_price", False),
-                            SetVariable("dialogue_active_flag", False),
-                            SetVariable("menuName", False),
-                            Call("call_hook", button_data["action"], menuLastName),
-                        ]
+                    if _preferences.language != "chinese":
+                        textbutton t__(button_data["caption"]):
+                            action [
+                                SetVariable("menu_corruption", False),
+                                SetVariable("menu_price", False),
+                                SetVariable("dialogue_active_flag", False),
+                                SetVariable("menuName", False),
+                                Call("call_hook", button_data["action"], menuLastName),
+                            ]
+                    else:
+                        textbutton t__(button_data["caption"]) text_style "text_chinese":
+                            action [
+                                SetVariable("menu_corruption", False),
+                                SetVariable("menu_price", False),
+                                SetVariable("dialogue_active_flag", False),
+                                SetVariable("menuName", False),
+                                Call("call_hook", button_data["action"], menuLastName),
+                            ]
                 else:
-                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text":
-                        if _preferences.language == "chinese":
-                            font gui.text_font_chinese
+                    if _preferences.language != "chinese":
+                        textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
+                    else:
+                        textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text_chinese"
 
 
 
@@ -2525,16 +2543,19 @@ screen history():
                     yfit True
 
                 if h.who:
+                    if _preferences.language != "chinese":
+                        label t__(h.who):
+                            style "history_name"
 
-                    label t__(h.who):
-                        style "history_name"
-
-                        ## Take the color of the who text from the Character, if
-                        ## set.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-                        if _preferences.language == "chinese":
-                            font gui.text_font_chinese
+                            ## Take the color of the who text from the Character, if
+                            ## set.
+                            if "color" in h.who_args:
+                                text_color h.who_args["color"]
+                    else:
+                        label t__(h.who) text_style "text_chinese":
+                            style "history_name"
+                            if "color" in h.who_args:
+                                text_color h.who_args["color"]
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
                 if _preferences.language != "chinese":
@@ -3048,10 +3069,9 @@ screen nvl(dialogue, items=None):
                     action i.action
                     style "nvl_button"
             else:
-                textbutton t__(i.caption):
+                textbutton t__(i.caption) text_style "text_chinese":
                     action i.action
                     style "nvl_button"
-                    font gui.text_font_chinese
 
     add SideImage() xalign 0.0 yalign 1.0
 
