@@ -411,7 +411,11 @@ screen screen_sprites(data):
                                                         yalign 0.5
                                                 null:
                                                     width text_button_layouts[button_layout]["text_button.spacing2"]
-                                                text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                                if _preferences.language != "chinese":
+                                                    text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                                else:
+                                                    text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
+                                                        font gui.text_font_chinese
                                                 null:
                                                     width text_button_layouts[button_layout]["text_button.spacing2"]
                                                 if right_arrow != False:
@@ -613,7 +617,11 @@ screen hover_sprite_text(name, data, left_arrow, right_arrow, button_layout):
                         yalign 0.5
                 null:
                     width text_button_layouts[button_layout]["text_button.spacing2"]
-                text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
+                if _preferences.language != "chinese":
+                    text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
+                else:
+                    text t__(data["text"]) style text_button_layouts[button_layout]["text_button.force_hovered.style"]
+                        font gui.text_font_chinese
                 null:
                     width text_button_layouts[button_layout]["text_button.spacing2"]
                 if right_arrow != False:
@@ -752,7 +760,11 @@ screen sprite_hovered_caption_screen(caption_text):
             hbox:
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
-                text t__(caption_text) style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
+                if _preferences.language != "chinese":
+                    text t__(caption_text) style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]
+                else:
+                    text t__(caption_text) style text_button_layouts[text_button_default_layout]["text_button.force_hovered.style"]:
+                        font gui.text_font_chinese
                 null:
                     width text_button_layouts[text_button_default_layout]["text_button.spacing2"]
 
@@ -811,10 +823,16 @@ screen action_menu_tooltip_screen(in_x, in_y, item_offset, tooltip_text, in_text
         ypos in_y
         xanchor 0.5
         background Frame("gui/frame2.png", left=2, top=0, right=2, bottom=2)
-        text t__(tooltip_text):
-            size gui.resolution.action_menu.tooltip.font_size
-#            color "#ffc9c9"
-            color in_text_color
+        if _preferences.language != "chinese":
+            text t__(tooltip_text):
+                size gui.resolution.action_menu.tooltip.font_size
+    #            color "#ffc9c9"
+                color in_text_color
+        else:
+            text t__(tooltip_text):
+                size gui.resolution.action_menu.tooltip.font_size
+                color in_text_color
+                font gui.text_font_chinese
 
 screen character_info_screen(obj_name, x, y):
     $ width1 = int(720 * gui.resolution.koeff)
@@ -881,9 +899,17 @@ screen character_info_screen(obj_name, x, y):
                 anchor(0.5,0.5)
 
 #            text t__(data[i]["text"]) style text_button_layouts[button_layout]["text_button.style"]
-            text t__(char_info[obj_name]["name"]) style (style1 + "_head")
-            text t__(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress"
-            text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2"
+            if _preferences.language != "chinese":
+                text t__(char_info[obj_name]["name"]) style (style1 + "_head")
+                text t__(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress"
+                text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2"
+            else:
+                text t__(char_info[obj_name]["name"]) style (style1 + "_head"):
+                    font gui.text_font_chinese
+                text t__(char_info[obj_name]["progress_caption"]) + "{c}" + str(char_info[obj_name]["level"]) + "{/c}" style "char_face_style_progress":
+                    font gui.text_font_chinese
+                text str(char_info[obj_name]["current_progress"]) + " / " + str(char_info[obj_name]["max_progress"]) style "char_face_style_progress2":
+                    font gui.text_font_chinese
             bar:
                 xpos 0.52
                 ypos 0.61
@@ -894,9 +920,15 @@ screen character_info_screen(obj_name, x, y):
                 bar_vertical False
                 right_bar "/icons/bar/bar2_empty" + res.suffix + ".png"
                 left_bar "/icons/bar/bar2_full_" + barSuffix + res.suffix + ".png"
-            text t__(captionText) style "char_face_style_caption":
-                xsize int(width1 / 1.94594595)
-                justify True
+            if _preferences.language != "chinese":
+                text t__(captionText) style "char_face_style_caption":
+                    xsize int(width1 / 1.94594595)
+                    justify True
+            else:
+                text t__(captionText) style "char_face_style_caption":
+                    xsize int(width1 / 1.94594595)
+                    justify True
+                    font gui.text_font_chinese
 #                thumb "/icons/bar/bar_thumb" + res.suffix + ".png"
             imagebutton:
                 xpos 1.0
@@ -991,11 +1023,18 @@ screen hud_minimap(minimapData):
                                     add get_image_filename(minimapCell["img"] + res.suffix)
                                 else:
                                     add get_image_filename(minimapCell["img"] + "_Disabled" + res.suffix)
-                                text t__(minimapCell["caption"]):
-                                    ypos 0.5
-                                    xanchor 0.5
-                                    xpos 0.465
-                                    style "minimap_button_text"
+                                if _preferences.language != "chinese":
+                                    text t__(minimapCell["caption"]):
+                                        ypos 0.5
+                                        xanchor 0.5
+                                        xpos 0.465
+                                        style "minimap_button_text"
+                                else:
+                                    text t__(minimapCell["caption"]):
+                                        ypos 0.5
+                                        xanchor 0.5
+                                        xpos 0.465
+                                        style "minimap_button_text_chinese"
                                 if locationDisabledFlag == False:
                                     action [
                                         Call("miniMapHouseGenerateTeleport", minimapCell["name"], minimapCell)
@@ -1055,14 +1094,24 @@ screen hud_screen(hud_presets):
                         add "icons/calendar" + res.suffix + ".png":
                             yoffset -3
                         $ current_calendar_day = calendar_days[(day-1)%7]
-                        text t__(current_calendar_day):
-                            xalign gui.resolution.hud_screen.calendar_text_x_align
-                            yalign gui.resolution.hud_screen.calendar_text_y_align
-                            font "fonts/montserrat-bold.ttf"
-                            color "#303030"
-                            kerning -1
-                            size gui.resolution.hud_screen.font1_size
-                            outlines [(1, "#ffffff", -0.5,0.5), (1, "#e0e0e0", 0.5, -0.5)]
+                        if _preferences.language != "chinese":
+                            text t__(current_calendar_day):
+                                xalign gui.resolution.hud_screen.calendar_text_x_align
+                                yalign gui.resolution.hud_screen.calendar_text_y_align
+                                font "fonts/montserrat-bold.ttf"
+                                color "#303030"
+                                kerning -1
+                                size gui.resolution.hud_screen.font1_size
+                                outlines [(1, "#ffffff", -0.5,0.5), (1, "#e0e0e0", 0.5, -0.5)]
+                        else:
+                            text t__(current_calendar_day):
+                                xalign gui.resolution.hud_screen.calendar_text_x_align
+                                yalign gui.resolution.hud_screen.calendar_text_y_align
+                                font "fonts/NotoSerifCJKsc-Regular.otf"
+                                color "#303030"
+                                kerning -1
+                                size gui.resolution.hud_screen.font1_size
+                                outlines [(1, "#ffffff", -0.5,0.5), (1, "#e0e0e0", 0.5, -0.5)]
 
                 if hud_presets["display_money"] == True:
                     if gui.flag720 != True:
@@ -1128,11 +1177,18 @@ screen hud_screen(hud_presets):
                         height gui.resolution.hud_screen.height1
                     if hud_presets["display_objectives"] == True:
                         for objective in objectives_list:
-                            text "- " + t__(objective[1]):
-                                color objective[2]
-                                font objectivesFont
-                                size gui.resolution.hud_screen.font2_size
-                                outlines [(2, "#000000", 0, 0)]
+                            if _preferences.language != "chinese":
+                                text "- " + t__(objective[1]):
+                                    color objective[2]
+                                    font objectivesFont
+                                    size gui.resolution.hud_screen.font2_size
+                                    outlines [(2, "#000000", 0, 0)]
+                            else:
+                                text "- " + t__(objective[1]):
+                                    color objective[2]
+                                    font gui.text_font_chinese
+                                    size gui.resolution.hud_screen.font2_size
+                                    outlines [(2, "#000000", 0, 0)]
                     null:
                         height gui.resolution.hud_screen.height1
                     imagebutton:
@@ -1171,18 +1227,26 @@ screen hud_screen(hud_presets):
         vbox:
             hbox:
                 if hud_presets["display_scene_caption"] == True:
-                    text t__(scene_caption):
-#                        font "fonts/baskerville_bold_win95bt.ttf"
-#                        font "fonts/bebasneue book.ttf"
-                        font "fonts/bebasneue regular.ttf"
-#                        font "fonts/linotte-semibold.otf"
-#                        font "fonts/ubuntu-condensed.ttf"
-#                        font "fonts/tahoma.ttf"
-#                        font "fonts/montserrat-bold.ttf"
-                        size gui.resolution.hud_screen.font3_size
-                        outlines [(2, "#000000", 0, 0)]
-                        yoffset gui.resolution.hud_screen.yoffset2
-                        xoffset gui.resolution.hud_screen.xoffset2
+                    if _preferences.language != "chinese":
+                        text t__(scene_caption):
+    #                        font "fonts/baskerville_bold_win95bt.ttf"
+    #                        font "fonts/bebasneue book.ttf"
+                            font "fonts/bebasneue regular.ttf"
+    #                        font "fonts/linotte-semibold.otf"
+    #                        font "fonts/ubuntu-condensed.ttf"
+    #                        font "fonts/tahoma.ttf"
+    #                        font "fonts/montserrat-bold.ttf"
+                            size gui.resolution.hud_screen.font3_size
+                            outlines [(2, "#000000", 0, 0)]
+                            yoffset gui.resolution.hud_screen.yoffset2
+                            xoffset gui.resolution.hud_screen.xoffset2
+                    else:
+                        text t__(scene_caption):
+                            font gui.text_font_chinese
+                            size gui.resolution.hud_screen.font3_size
+                            outlines [(2, "#000000", 0, 0)]
+                            yoffset gui.resolution.hud_screen.yoffset2_chinese
+                            xoffset gui.resolution.hud_screen.xoffset2
 
                 if hud_presets["display_scene_map"] == True:
                     if map_enabled == True and mapStreetCheckShowing == True and map_disabled_forced == False:
@@ -1214,25 +1278,39 @@ screen hud_screen(hud_presets):
         if hud_presets.has_key("display_bitchmeter") and hud_presets["display_bitchmeter"] == True:
 #            $ bitchmeter_description = get_bitchmeter_description() + " (" + str(bitchmeterValue) + ")"
             $ bitchmeter_description = get_bitchmeter_description()
-            text t__(bitchmeter_description):
-                xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
-                ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
-                xanchor 0.5
-                yanchor 0.5
-                xalign 0.5
-                yalign 0.5
-#                    color c_blue
-#                    color "#d3ea5f" #white green
-#                    color "#e0e85c"
-                color "#c8da2b"
-#                    color "#6383c2"
-#                    font "fonts/arial.ttf"
-                font "fonts/linotte-semibold.otf"
-#                        font "fonts/ubuntu-condensed.ttf"
-#                        font "fonts/tahoma.ttf"
-                size gui.resolution.hud_screen.bitchmeter_desc_font_size
-                outlines [(2, "#808080", -1, 1), (2, "#404040", 0, 0)]
-                at bitchmeter_style_transform
+            if _preferences.language != "chinese":
+                text t__(bitchmeter_description):
+                    xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
+                    ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
+                    xanchor 0.5
+                    yanchor 0.5
+                    xalign 0.5
+                    yalign 0.5
+    #                    color c_blue
+    #                    color "#d3ea5f" #white green
+    #                    color "#e0e85c"
+                    color "#c8da2b"
+    #                    color "#6383c2"
+    #                    font "fonts/arial.ttf"
+                    font "fonts/linotte-semibold.otf"
+    #                        font "fonts/ubuntu-condensed.ttf"
+    #                        font "fonts/tahoma.ttf"
+                    size gui.resolution.hud_screen.bitchmeter_desc_font_size
+                    outlines [(2, "#808080", -1, 1), (2, "#404040", 0, 0)]
+                    at bitchmeter_style_transform
+            else:
+                text t__(bitchmeter_description):
+                    xpos config.screen_width - gui.resolution.hud_screen.bitchmeter_desc_x_pos
+                    ypos gui.resolution.hud_screen.bitchmeter_desc_y_pos
+                    xanchor 0.5
+                    yanchor 0.5
+                    xalign 0.5
+                    yalign 0.5
+                    color "#c8da2b"
+                    font gui.text_font_chinese
+                    size gui.resolution.hud_screen.bitchmeter_desc_font_size
+                    outlines [(2, "#808080", -1, 1), (2, "#404040", 0, 0)]
+                    at bitchmeter_style_transform
 
             $ corruption_description = "Corruption: " + str(corruption) + ""
             text t__(corruption_description):
@@ -1330,9 +1408,15 @@ screen questlog_screen(inText):
             ymaximum getRes(878)
             mousewheel True
             pagekeys True
-            text inText:
-                xsize getRes(580)
-                style "questlog_text_style"
+            if _preferences.language != "chinese":
+                text inText:
+                    xsize getRes(580)
+                    style "questlog_text_style"
+            else:
+                text inText:
+                    xsize getRes(580)
+                    style "questlog_text_style"
+                    font gui.text_font_chinese
 #        vbar value YScrollValue("questlog_viewport")
 #                    xpos getRes(700)
 #                    ypos getRes(95)
@@ -1369,11 +1453,19 @@ screen textonblack_screen(in_text):
         xfill True
         yfill True
         background Solid("#000000")
-        text t__(in_text) style "text_on_black_style":
-            xanchor 0.5
-            yanchor 0.5
-            xalign 0.5
-            yalign 0.5
+        if _preferences.language != "chinese":
+            text t__(in_text) style "text_on_black_style":
+                xanchor 0.5
+                yanchor 0.5
+                xalign 0.5
+                yalign 0.5
+        else:
+            text t__(in_text) style "text_on_black_style":
+                xanchor 0.5
+                yanchor 0.5
+                xalign 0.5
+                yalign 0.5
+                font gui.text_font_chinese
 
 screen intro_image(image_name):
     zorder 190
@@ -1422,19 +1514,39 @@ screen say(who, what):
             window:
                 id "namebox"
                 style "namebox"
-                if who_color != False:
-                    text t__(who_name) id "who":
-                        color who_color
+                if _preferences.language != "chinese":
+                    if who_color != False:
+                        text t__(who_name) id "who":
+                            color who_color
+                    else:
+                        text t__(who_name) id "who"
                 else:
-                    text t__(who_name) id "who"
+                    if who_color != False:
+                        text t__(who_name) id "who":
+                            color who_color
+                            font gui.text_font_chinese
+                    else:
+                        text t__(who_name) id "who":
+                            font gui.text_font_chinese
 
-        if what_color != False:
-            text what id "what":
-                color what_color
-                italic what_italic
+        if _preferences.language != "chinese":
+            if what_color != False:
+                text what id "what":
+                    color what_color
+                    italic what_italic
+            else:
+                text what id "what":
+                    italic what_italic
         else:
-            text what id "what":
-                italic what_italic
+            if what_color != False:
+                text what id "what":
+                    color what_color
+                    italic what_italic
+                    font gui.text_font_chinese
+            else:
+                text what id "what":
+                    italic what_italic
+                    font gui.text_font_chinese
 
     fixed:
         button:
@@ -1527,8 +1639,14 @@ screen input(prompt):
             xsize gui.dialogue_width
             ypos gui.dialogue_ypos
 
-            text t__(prompt) style "input_prompt"
-            input id "input"
+            if _preferences.language != "chinese":
+                text t__(prompt) style "input_prompt"
+                input id "input"
+            else:
+                text t__(prompt) style "input_prompt":
+                    font gui.text_font_chinese
+                input id "input":
+                    font gui.text_font_chinese
 
 style input_prompt is default
 
@@ -1636,6 +1754,8 @@ screen choice(items):
             if button_data["native"] == True:
                 if button_data["active"] == True:
                     textbutton t__(button_data["caption"]):
+                        if _preferences.language == "chinese":
+                            font gui.text_font_chinese
                         action [
                             SetVariable("menu_corruption", False),
                             SetVariable("menu_price", False),
@@ -1644,11 +1764,15 @@ screen choice(items):
                             button_data["action"]
                         ]
                 else:
-                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
+                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text":
+                        if _preferences.language == "chinese":
+                            font gui.text_font_chinese
             else:
                 if button_data["active"] == True:
                     $ menuLastName = menuName
                     textbutton t__(button_data["caption"]):
+                        if _preferences.language == "chinese":
+                            font gui.text_font_chinese
                         action [
                             SetVariable("menu_corruption", False),
                             SetVariable("menu_price", False),
@@ -1657,7 +1781,9 @@ screen choice(items):
                             Call("call_hook", button_data["action"], menuLastName),
                         ]
                 else:
-                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text"
+                    textbutton t__(button_data["caption"]) text_style "choice_button_disabled_text":
+                        if _preferences.language == "chinese":
+                            font gui.text_font_chinese
 
 
 
@@ -2400,16 +2526,22 @@ screen history():
 
                 if h.who:
 
-                    label h.who:
+                    label t__(h.who):
                         style "history_name"
 
                         ## Take the color of the who text from the Character, if
                         ## set.
                         if "color" in h.who_args:
                             text_color h.who_args["color"]
+                        if _preferences.language == "chinese":
+                            font gui.text_font_chinese
 
                 $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what
+                if _preferences.language != "chinese":
+                    text t__(what)
+                else:
+                    text t__(what):
+                        font gui.text_font_chinese
 
         if not _history_list:
             label t_("The dialogue history is empty.")
@@ -2831,7 +2963,10 @@ screen notify(message):
     if message != "notifList":
         frame at notify_appear:
             ypos 0.2
-            text t__(message)
+            if _preferences.language != "chinese":
+                text t__(message)
+            else:
+                text t__(message) style "text_chinese"
         timer 3.25 action [Hide('notify'), SetVariable("notifList", [])]
     else:
         $ notifOffset = 0
@@ -2839,7 +2974,10 @@ screen notify(message):
             frame at notify_appear:
                 ypos 0.2
                 yoffset notifOffset
-                text t__(msg)
+                if _preferences.language != "chinese":
+                    text t__(msg)
+                else:
+                    text t__(msg) style "text_chinese"
             $ notifOffset += notifyLineOffset
 #        timer (3.25*len(notifList)) action [Hide('notify'), SetVariable("notifList", [])]
         if len(notifList) > 2:
@@ -2905,9 +3043,15 @@ screen nvl(dialogue, items=None):
         ## config.narrator_menu is set to True, as it is above.
         for i in items:
 
-            textbutton i.caption:
-                action i.action
-                style "nvl_button"
+            if _preferences.language != "chinese":
+                textbutton t__(i.caption):
+                    action i.action
+                    style "nvl_button"
+            else:
+                textbutton t__(i.caption):
+                    action i.action
+                    style "nvl_button"
+                    font gui.text_font_chinese
 
     add SideImage() xalign 0.0 yalign 1.0
 
@@ -2924,11 +3068,21 @@ screen nvl_dialogue(dialogue):
 
                 if d.who is not None:
 
-                    text d.who:
-                        id d.who_id
+                    if _preferences.language != "chinese":
+                        text t__(d.who):
+                            id d.who_id
+                    else:
+                        text t__(d.who):
+                            id d.who_id
+                            font gui.text_font_chinese
 
-                text d.what:
-                    id d.what_id
+                if _preferences.language != "chinese":
+                    text t__(d.what):
+                        id d.what_id
+                else:
+                    text t__(d.what):
+                        id d.what_id
+                        font gui.text_font_chinese
 
 
 ## This controls the maximum number of NVL-mode entries that can be displayed at
