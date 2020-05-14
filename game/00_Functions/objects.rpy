@@ -377,8 +377,11 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
         return
 #    $ print renpy.get_screen("say")
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        $ renpy.pop_call()
-        jump show_scene_loop2
+        if engine2_inited_flag == True:
+            return
+        else:
+            $ renpy.pop_call()
+            jump show_scene_loop2
     if scenes_data["substs"].has_key(scene_name) and scenes_data["substs"][scene_name].has_key(obj_name):
         if scenes_data["substs"][scene_name][obj_name] != False:
             $ func_name = scenes_data["substs"][scene_name][obj_name]
@@ -409,8 +412,11 @@ label process_object_click(func_name, obj_name_source, obj_data_source):
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
     call remove_dialogue() from _call_remove_dialogue
-    $ renpy.pop_call()
-    jump show_scene_loop2
+    if engine2_inited_flag == True:
+        return
+    else:
+        $ renpy.pop_call()
+        jump show_scene_loop2
 
 label process_object_click_alternate_action(idx, actions_list, click_label, name, data):
 #    $ config.has_autosave = False
@@ -419,8 +425,11 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     if interface_blocked_flag == True:
         return
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        $ renpy.pop_call()
-        jump show_scene_loop2
+        if engine2_inited_flag == True:
+            return
+        else:
+            $ renpy.pop_call()
+            jump show_scene_loop2
     if idx == 0:
         $ func_name = click_label
     else:
@@ -464,19 +473,29 @@ label process_object_click_alternate_action(idx, actions_list, click_label, name
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
     call remove_dialogue() from _call_remove_dialogue_1
-    $ renpy.pop_call()
-    jump show_scene_loop2
+
+    if engine2_inited_flag == True:
+        return
+    else:
+        $ renpy.pop_call()
+        jump show_scene_loop2
 
 label process_object_click_alternate_inventory(idx, inventory_data, click_label, name, data):
 #    $ config.has_autosave = False
 #    $ config.autosave_on_choice = False
 
     if interface_blocked_flag == True:
-        $ renpy.pop_call()
-        jump show_scene_loop2
+        if engine2_inited_flag == True:
+            return
+        else:
+            $ renpy.pop_call()
+            jump show_scene_loop2
     if renpy.get_screen("say") != None or renpy.get_screen("choice") != None:
-        $ renpy.pop_call()
-        jump show_scene_loop2
+        if engine2_inited_flag == True:
+            return
+        else:
+            $ renpy.pop_call()
+            jump show_scene_loop2
     $ func_name = name + inventory_data["label_suffix"]
     $ shortFunction = True
     if renpy.has_label(func_name) == False:
@@ -504,8 +523,11 @@ label process_object_click_alternate_inventory(idx, inventory_data, click_label,
 #        jump show_scene
     $ show_scene_loop_flag = True
     $ parse_transition_flag = False
-    $ renpy.pop_call()
-    jump show_scene_loop2
+    if engine2_inited_flag == True:
+        return
+    else:
+        $ renpy.pop_call()
+        jump show_scene_loop2
 #    jump show_scene
 
 label process_object_click_forced(obj_name, act):

@@ -23,10 +23,11 @@ python early:
     list_files_active = True
 
     def missing_filename_callback(image):
-        global episode, list_files_dict
+        global episode, list_files_dict, list_files_active
         if episode == 1:
 #            emptyFileName = get_image_filename("empty.png")
             return im.Image("images/icons/empty.png")
+        list_files_active = True
         refresh_list_files()
         baseName = os.path.basename(os.path.splitext(image)[0]).lower()
         in_filename = baseName.lower()

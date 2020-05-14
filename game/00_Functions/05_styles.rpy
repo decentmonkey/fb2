@@ -154,6 +154,18 @@ style choice_button_disabled_text:
     color "#666666"
     xalign 0.5
 
+style choice_button_disabled_text_chinese:
+    color "#666666"
+    xalign 0.5
+    font gui.text_font_chinese
+
+style choice_button_text_chinese:
+    xalign 0.5
+    font gui.text_font_chinese
+
+style text_chinese:
+    font gui.text_font_chinese
+
 transform credits_black_overlay:
     alpha 0.0
     linear 5.0 alpha 0.8

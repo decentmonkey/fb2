@@ -61,6 +61,7 @@ define gui.resolution.map.text_button.spacing1 = 12 #, 12
 define gui.resolution.map.text_button.spacing2 = 10 #, 10
 define gui.resolution.map.text_button.padding = (0,10)
 define gui.resolution.map.text_button.style = "sprite_textbutton_map_text"
+define gui.resolution.map.text_button.style_chinese = "sprite_textbutton_map_text_chinese"
 define gui.resolution.map.text_button.force_hovered.style = "sprite_textbutton_map_force_hovered_text"
 define gui.resolution.map.text_button_disabled.style = "sprite_textbutton_disabled_map_text"
 define gui.resolution.map.text_button_disabled.force_hovered.style = "sprite_textbutton_disabled_map_force_hovered_text"
@@ -73,6 +74,8 @@ define gui.resolution.choice_box.y_pos = 405 #405, 270
 define gui.choice_button_text_size = 34 #25
 
 define gui.resolution.koeff = 1
+
+define gui.resolution.hud_screen.yoffset2_chinese = -13
 
 define gui.resolution.preferences1 = 400
 
@@ -180,6 +183,14 @@ style minimap_button_text:
     hover_size 40
     text_align 0.5
 
+style minimap_button_text_chinese:
+    font "fonts/NotoSerifCJKsc-Regular.otf"
+    hover_outlines [(2, "#000000", 0, 0)]
+    size 0
+    color (0,0,0,0)
+    hover_color "#e0e0e0ff"
+    hover_size 40
+    text_align 0.5
 
 style credits_line1:
     font "fonts/OpenSans-Regular.ttf"
@@ -321,3 +332,7 @@ define gui.credits.offset3 = 40
 define gui.credits.offset4 = 50
 define gui.credits.offset5 = 45
 define gui.credits.timeout = 170.0
+
+define gui.text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
+define gui.name_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
+define gui.interface_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
