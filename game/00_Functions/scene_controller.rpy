@@ -9,6 +9,7 @@ default scene_caption = ""
 default exitHookCalled = False
 default scene_name = "none"
 default api_scene_name = "none"
+default engine2_inited_flag = False
 #default sprites_hover_dummy_screen_flag = False
 
 label show_scene:
@@ -126,7 +127,35 @@ label show_scene_now:
 
 label show_scene_loop:
     $ pause_enter += 1
+    $ engine2_inited_flag = True
+    $ interact_data = None
     $ interact_data = ui.interact()
+    if interact_data != None:
+        if interact_data[0] == "process_object_click":
+            call process_object_click(interact_data[1], interact_data[2], interact_data[3]) from _rcall_sprites_action1
+        if interact_data[0] == "process_object_click_alternate_action":
+            call process_object_click_alternate_action(interact_data[1], interact_data[2], interact_data[3], interact_data[4], interact_data[5]) from _rcall_sprites_action2
+        if interact_data[0] == "process_object_click_alternate_inventory":
+            call process_object_click_alternate_inventory(interact_data[1], interact_data[2], interact_data[3], interact_data[4], interact_data[5]) from _rcall_sprites_action3
+        if interact_data[0] == "time_management_street_wait_until_evening":
+            call time_management_street_wait_until_evening() from _rcall_sprites_action4
+        if interact_data[0] == "show_questlog":
+            call show_questlog() from _rcall_sprites_action5
+        if interact_data[0] == "question_helper_call":
+            call question_helper_call() from _rcall_sprites_action6
+        if interact_data[0] == "map_show":
+            call map_show() from _rcall_sprites_action7
+        if interact_data[0] == "call_hook":
+            call call_hook(interact_data[1], interact_data[2]) from _rcall_sprites_action8
+        if interact_data[0] == "miniMapHouseGenerateTeleport":
+            call miniMapHouseGenerateTeleport(interact_data[1], interact_data[2]) from _rcall_sprites_action9
+        if interact_data[0] == "miniMapDisabled":
+            call miniMapDisabled(interact_data[1], interact_data[2]) from _rcall_sprites_action10
+        if interact_data[0] == "show_achievements":
+            call show_achievements() from _rcall_sprites_action11
+
+
+
 label show_scene_loop2:
 #    pause
     $ pause_exit += 1
