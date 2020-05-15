@@ -59,7 +59,6 @@ label start:
 #    call ()
 
 ###################
-
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
