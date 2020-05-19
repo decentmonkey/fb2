@@ -52,11 +52,15 @@ label start:
 
 ###################
 
-#    call ()
-#    call ()
-#    call ()
-#    call ()
-#    call ()
+#    call ep213_dialogues2_escort_1() # Моника за столиком в ресторане, разговор с девочками
+#    call ep213_dialogues2_escort_2() # Моника за столиком, разговор с официанткой
+#    call ep213_dialogues2_escort_3() # Моника на ресепшене с администратором и Линдой
+#    call ep213_dialogues2_escort_4() # Моника и Линда возле лифта
+#    call ep213_dialogues2_escort_5() # Моника, Линда и инвестор в номере отеля
+#    call ep213_dialogues2_escort_6() # Моника c инвестором вдвоем в номере
+#    call ep213_dialogues2_escort_7() # ресепшн, если отработала с клиентом
+#    call ep213_dialogues2_escort_8() # Моника вышла на улицу после того, как админ ей отдала деньги, мысли
+#    call ep213_dialogues2_escort_9() # разговор с Линдой и брюнеткой в ресторане после сцены с инвестором
 
 ###################
     call intro_questions() from _call_intro_questions
