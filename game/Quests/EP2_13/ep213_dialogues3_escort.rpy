@@ -31,11 +31,13 @@ label ep213_dialogues2_escort_1:
     mt "Дьявол!"
     mt "Сколько уже можно сидеть тут и ждать очередного извращенца?!"
     mt "?!"
+
     # поменять предлог. сделать пару мысле в женском туалете
     imgf 30085
     mt "..."
     mt "Думаю, если я отлучусь ненадолго, никто не заметит."
     # встает со стула и идет к выходу
+
 
     music stop
     img black_screen
@@ -147,6 +149,7 @@ label ep213_dialogues2_escort_1:
     m "Наказать МЕНЯ?!"
     m "?!?!?! "
     m "Еще чего!"
+
     # брюнетка игнорирует и продолжает разговаривать с Линдой
     music Hidden_Agenda
     imgd 17992
@@ -638,8 +641,7 @@ label ep213_dialogues2_escort_5:
     music stop
     img black_screen
     with diss
-    sound snd_plates1
-    pause 2.0
+    pause 1.0
     music Groove2_85
     # кадр меняется, Моника со злым лицом также стоит, эти двое сидят за "столиком"
     # клиент держит руку Линды в своей руке
@@ -826,7 +828,7 @@ label ep213_dialogues2_escort_5:
     linda "У меня устали ножки."
     investor3 "Да, любимая. Сейчас."
     # он убирает поднос, она складывает свои ноги Монике на спинку, вытягивается
-    sound man_steps
+    sound snd_plates1
     imgd 18106
     w
     sound Jump1

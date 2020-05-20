@@ -342,6 +342,20 @@ python early:
 
     renpy.register_statement("music", parse=music_parse, execute=music_exec) #music - оператор воспроизведения музыки
 
+    def fadeblack_parse(l):
+        return (l.rest())
+    def fadeblack_exec(ob1):
+        music_exec(("stop", ""))
+        img_exec(("black_screen", "d"))
+        try:
+            if float(ob1) > 0:
+                renpy.pause(float(ob1))
+        except:
+            return
+        return
+
+    renpy.register_statement("fadeblack", parse=fadeblack_parse, execute=fadeblack_exec) #fadeblack - оператор затухания экрана
+
     def store_music():
         global storedMusic, currentMusic, currentMusicPriority
         storedMusic.insert(0, currentMusic)

@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -52,25 +52,9 @@ label start:
 
 ###################
 
-#    call ep213_dialogues2_escort_1() # Моника за столиком в ресторане, разговор с девочками
-#    call ep213_dialogues2_escort_2() # Моника за столиком, разговор с официанткой
-#    call ep213_dialogues2_escort_3() # Моника на ресепшене с администратором и Линдой
-#    call ep213_dialogues2_escort_4() # Моника и Линда возле лифта
-#    call ep213_dialogues2_escort_5() # Моника, Линда и инвестор в номере отеля
-#    call ep213_dialogues2_escort_6() # Моника c инвестором вдвоем в номере
-#    call ep213_dialogues2_escort_7() # ресепшн, если отработала с клиентом
-#    call ep213_dialogues2_escort_8() # Моника вышла на улицу после того, как админ ей отдала деньги, мысли
-#    call ep213_dialogues2_escort_9() # разговор с Линдой и брюнеткой в ресторане после сцены с инвестором
-#    call ep213_dialogues4_biff_1() # Моника в кабинете у Бифа
-#    call ep213_dialogues4_biff_2() # день презентации, мысли Моники
-#    call ep213_dialogues4_biff_3() # презентация
-#    call ep213_dialogues4_biff_4() # мысли Моники, когда идет на любую другую локацию, кроме фотостудии
-#    call ep213_dialogues4_biff_5() # если кликнуть на Алекса до того, как переоделась
-#    call ep213_dialogues4_biff_6() # гримерка
-#    call ep213_dialogues5_photoshoot_7() # если Моника отказалась фотографироваться, потом передумала и пришла к Бифу
-#    call ep213_dialogues4_biff_8() # фотосессия
-#    call ep211_dialogues3_photoshoot_9() # если Моника отказалась сдвигать трусики перед инвестором, потом передумала и пришла к Бифу
-#    call ep213_dialogues4_biff_10() # если после фотосессии заходит к Бифу в кабинет
+
+
+
 #    call ep213_dialogues4_biff_11() # мысли Моники, когда вышла из офиса после проведения фотосессии
 
 ###################
