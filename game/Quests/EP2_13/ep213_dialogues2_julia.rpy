@@ -113,14 +113,14 @@ label ep213_dialogues5_julia_2:
     music Groove2_85
     imgd 30584
     julia "Миссис Бакфетт, у меня так затекла шея..."
-    imgf 21989
+    imgd 21989
     mt "Так разомни сама!"
     mt "Зачем меня отвлекать от работы?!"
     mt "?!?!?!"
-    imgd 30585
+    imgf 30585
     m "..."
     julia "..."
-    imgf 30586
+    imgd 30586
     julia "Миссис Бакфетт, можно Вас попросить сделать мне массаж?"
     imgd 21987
     mt "Боже!"
@@ -153,7 +153,7 @@ label ep213_dialogues5_julia_2:
             $ monicaJuliaLoveStory1 = True # Моника согласилась сделать Юлии массаж
             pass
     # Моника недовольно
-    music Pyro_Flow
+    music Stealth_Groover
     imgf 30587
     mt "Почему Я должна делать ей массаж, а не наоборот?!"
     mt "Или она и правда думает, что мне доставляет удовольствие делать ей приятно?"
@@ -185,6 +185,7 @@ label ep213_dialogues5_julia_2:
     imgd 30595
     julia "Миссис Бакфетт, у Вас такие нежные руки..."
     mt "И?"
+    sound vjuh3
     imgd 30596
     julia "Я так хочу, чтобы Вы прикоснулись ко мне... здесь."
     julia "Хочу, чтобы Вы взяли мои груди в свои ладони и..."
@@ -229,7 +230,7 @@ label ep213_dialogues5_julia_2:
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory2 = True # Моника согласилась поцеловать Юлии грудь
             pass
-    music Pyro_Flow
+    music Groove2_85
     imgf 16472
     mt "Дьявол!"
     mt "Если я сейчас ей откажу, она усомнится в моих чувствах к ней!"
@@ -254,10 +255,12 @@ label ep213_dialogues5_julia_2:
 #    w
     music Loved_Up
     imgd 30606
+    sound snd_kiss2
     w
     imgf 30607
     w
     imgd 30608
+    sound snd_kiss2
     w
     imgf 30609
     m "Ты такая красивая, Юлия..."
@@ -337,6 +340,7 @@ label ep213_dialogues5_julia_2:
     m "И никто не сможет нам помешать."
 
     # Юлия прибалдевшая, поправляет платье
+    sound snd_fabric1
     imgd 30619
     julia "Да, Миссис Бакфетт."
     julia "Это было так здорово!"
@@ -392,7 +396,7 @@ label ep213_dialogues5_julia_3:
     mt "Она что, пытается намекнуть мне на какое-нибудь очередное извращение?!"
     mt "Здесь, в офисе?!"
     mt "?!"
-    music Pyro_Flow
+    music Stealth_Groover
     imgf 22009
     mt "Нет!"
     mt "Я ни за что не буду делать этого, тем более здесь!"
@@ -412,7 +416,7 @@ label ep213_dialogues5_julia_3:
     julia "..."
 
     # Моника смотрит на нее с недоумением
-    music Pyro_Flow
+#    music Stealth_Groover
     imgf 30625
     m "..."
     mt "Что за бред?!"
@@ -427,7 +431,7 @@ label ep213_dialogues5_julia_3:
     imgf 30627
     julia "А в животе такое ощущение..."
     julia "Как-будто бабочки порхают."
-    music Pyro_Flow
+    music Stealth_Groover
     imgd 20270
     mt "О Боже!"
     mt "Это что, признание в любви?"
@@ -742,6 +746,7 @@ label ep213_dialogues5_julia_4:
     mt "Я ослышалась или она и правда предложила мне свою помощь в расслаблении?"
     mt "Или это просто такая уловка и все закончится тем, что я буду у нее между ног?"
     mt "???"
+    music Stealth_Groover
     imgd 20269
     mt "С другой стороны, мое согласие сделает меня на шаг ближе к моей цели."
     mt "А моя цель - использовать эту дурочку, чтобы закончить то недоразумение, в котором я оказалась..."
@@ -853,7 +858,7 @@ label ep213_dialogues5_julia_4:
     w
     imgd 30686
     w
-    music Pyro_Flow
+    music Groove2_85
     imgf 30687
     mt "Это становится все сильнее и сильнее!"
     mt "Надо это оcтановить! Немедленно!"
@@ -868,7 +873,7 @@ label ep213_dialogues5_julia_4:
     imgf 30689
     m "Я уже достаточно отдохнула и расслабилась."
     m "Спасибо тебе. Милая."
-    music Groove2_85
+#    music Groove2_85
     imgd 30690
     julia "Точно?"
     julia "Вм понравилось, Миссис Бакфетт?"
@@ -904,14 +909,12 @@ label ep213_dialogues5_julia_5:
     julia "..."
 
     # Моника косится на Юлию
-    music Pyro_Flow
     imgf 30580
     mt "Когда эта дурочка Юлия на меня так смотрит..."
     mt "Это не предвещает ничего хорошего!"
     mt "!!!"
 
     # Юлия откидывается на спинку своего кресла
-    music Groove2_85
     imgd 30694
     julia "Миссис Бакфетт..."
     mt "Оооо, нееет!"
@@ -964,7 +967,7 @@ label ep213_dialogues5_julia_5:
     imgd 30587
     mt "Я, конечно, понимаю, что эта Юлия - мой путь к свободе..."
     mt "Но это переходит уже все рамки приличия!"
-    music Pyro_Flow
+    music Stealth_Groover
     mt "Она моя подчиненная!"
     mt "Просто одна из толпы никчемных людишек, которые сидят тут и перебирают бумажки!"
     mt "А я Моника Бакфетт! Я ее начальник!"
@@ -1653,8 +1656,8 @@ label ep213_dialogues5_julia_7:
     # Моника смущается
     music Hidden_Agenda
     imgf 30357
-    mt "Милая, я... Я перевезу свой гардероб немного позже..."
-    mt "Может быть, у тебя найдется что-нибудь из одежды, чтобы я ее носила здесь?"
+    m "Милая, я... Я перевезу свой гардероб немного позже..."
+    m "Может быть, у тебя найдется что-нибудь из одежды, чтобы я ее носила здесь?"
     music Groove2_85
     imgd 30786
     sound highheels_short_walk
@@ -1666,7 +1669,7 @@ label ep213_dialogues5_julia_7:
     julia "Я помню, Вы говорили, что Вам нравится носить мои трусики..."
     mt "!!!"
     m "Да, милая..."
-    juliad "Они сейчас на мне, но если Вы хотите, я могу снять их и отдать Вам..."
+    julia "Они сейчас на мне, но если Вы хотите, я могу снять их и отдать Вам..."
     music Power_Bots_Loop
     img 30788 hpunch
     mt "ЧТО?!"
@@ -1703,7 +1706,7 @@ label ep213_dialogues5_julia_7:
     fadeblack
     sound snd_fabric1
     pause 2.0
-    music Pyro_Flow
+    music Stealth_Groover
     imgfl 30791
     w
     imgf 30792
@@ -1747,7 +1750,7 @@ label ep213_dialogues5_julia_8:
             menu:
                 "Поцеловать Юлию.": # уровень отношений повышается
                     $ monicaJuliaLoveStory10 = True # Моника разбудила Юлию поцелуем
-                    music Pyro_Flow
+                    music Stealth_Groover
                     imgd 30797
                     mt "Я даже видеть ее не хочу, не то что разговаривать или делать еще что-то."
                     mt "Бесит!"
@@ -1854,7 +1857,7 @@ label ep213_dialogues5_julia_8:
                                     return
                                 "Приласкать ее киску.": # уровень отношений повышается
                                     $ monicaJuliaLoveStory12 = True # Моника утром ласкает Юлию пальцами
-                                    music Pyro_Flow
+                                    music Groove2_85
                                     imgf 30816
                                     mt "Черт!"
                                     mt "Чувствую, мне придется начинать свой день между ног никчемной Юлии!"
@@ -2085,7 +2088,8 @@ label ep213_dialogues5_julia_9:
     imgd 30844
     sound snd_walk_barefoot
     w
-    music Pyro_Flow
+    music stop
+    sound plastinka1b
     img 30845 hpunch
     mt "Дьявол!"
     mt "!!!"
@@ -2105,7 +2109,7 @@ label ep213_dialogues5_julia_9:
     menu:
         "Поцеловать Юлию.":
             $ monicaJuliaLoveStory17 = True # Моника целует Юлию на кухне
-            music Pyro_Flow
+            music Stealth_Groover
             imgd 30848
             mt "Ну вот!"
             mt "Снова она ко мне лезет!"
@@ -2164,8 +2168,8 @@ label ep213_dialogues5_julia_9:
                     sound snd_fabric1
                     w
                     imgd 30858
-                    m "ЧЕРТ!"
-                    m "!!!"
+                    mt "ЧЕРТ!"
+                    mt "!!!"
 
                     fadeblack
                     music Loved_Up
@@ -2578,8 +2582,11 @@ label ep213_dialogues5_julia_10:
             w
             imgf 30925
             w
+            fadeblack
             sound vjuh3
-            imgd 30926
+            pause 1.0
+            music Groove2_85
+            imgfl 30926
             julia "Миссис Бакфетт, я хотела бы сделать приятное Вам..."
             julia "Вы же позволите?"
             music Stealth_Groover
@@ -2631,7 +2638,7 @@ label ep213_dialogues5_julia_10:
             imgf 30938
             julia "Мммм, как же это приятно..."
             julia "Вам нравится, Миссис Бакфетт?"
-            music Pyro_Flow
+            music Stealth_Groover
             imgd 30937
             mt "Нет!"
             mt "Как ЭТО может нравится нормальному человеку?!"
@@ -2652,6 +2659,7 @@ label ep213_dialogues5_julia_10:
             m "Спасибо..."
             imgf 30941
             sound snd_walk_barefoot
+            w
             # Юлия довольно улыбается
             # Моника выходит из душа
             music2 stop
@@ -2675,6 +2683,7 @@ label ep213_dialogues5_julia_10a:
     pause 1.0
     music Groove2_85
     imgfl 30986
+    sound snd_piss
     w
     imgf 30987
     m "Ой, я не знала, что ты здесь!"
@@ -2707,7 +2716,7 @@ label ep213_dialogues5_julia_10a:
             imgd 30992
             m "Да, Юлия."
             m "Мне очень нравится это делать..."
-            music Pyro_Flow
+            music Stealth_Groover
             mt "!!!"
             mt "Боже! Только слепой не увидит, что мне омерзительно это!"
             mt "Как можно быть такой никчемной, безмозглой дурочкой?!"
@@ -3129,6 +3138,7 @@ label ep213_dialogues5_julia_10b:
     mt "!!!"
     mt "Как такие гадкие вещи могут приносить удовольствие?!"
     mt "?!?!?!"
+    music2 stop
     return
 
 
@@ -3220,7 +3230,7 @@ label ep213_dialogues5_julia_11:
                     return
                 "Приласкать ее киску.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory24 = True # Моника ласкает Юлию перед сном
-                    music Pyro_Flow
+                    music Stealth_Groover
                     imgd 31033
                     mt "Неужели эта дурочка не замечает, что мне неприятно?!"
                     mt "Как можно быть такой глупой?!"

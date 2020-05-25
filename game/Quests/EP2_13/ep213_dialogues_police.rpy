@@ -312,11 +312,11 @@ label ep213_dialogues_police7:
     overseer "Куда уж тебе?!"
     overseer "Детектив сказал, что заберет тебя завтра!"
     overseer "И сказал, что тебя нельзя наказывать!"
-<<<<<<< HEAD
+#<<<<<<< HEAD
     img 18458
-=======
+#=======
 
->>>>>>> MonicaPoliceDay2
+#>>>>>>> MonicaPoliceDay2
     prisoner1 "Но Боб, как они узнают?!"
     overseer "У них там ентот... Тщательный досмотр..."
     overseer "Вот значит!"
