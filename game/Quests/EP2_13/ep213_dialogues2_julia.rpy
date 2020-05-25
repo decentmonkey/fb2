@@ -3581,6 +3581,29 @@ label ep213_dialogues5_julia_15e:
 
 # у Моники дневной отдых на кровати (утро, вечер)
 
+
+# JuliaHome_LivingRoom_Monica_JuliaCloth1_1 - Моника спит голая + вечер
+# JuliaHome_LivingRoom_Julia_JuliaCloth2_1 - Юлия спит голая + вечер
+# JuliaHome_LivingRoom_Monica_JuliaCloth1_2 - Моника стоит у кровати в домашнем аутфите
+# JuliaHome_LivingRoom_Julia_JuliaCloth2_2 - Юлия спит голая, одна
+
+
+# JuliaHome_LivingRoom_Monica_JuliaCloth1_3 - Моника стоит у кровати
+# JuliaHome_LivingRoom_Julia_JuliaCloth2_3 - Юлия стоит у кровати
+
+# JuliaHome_LivingRoom_Monica_JuliaCloth1_4 - Моника отдыхает в кровати + вечер
+
+# JuliaHome_Bathroom_Monica_JuliaCloth1_1 - Моника у входа
+# JuliaHome_Bathroom_Julia_JuliaCloth1_1 - Юлия в душе
+# JuliaHome_Bathroom_Julia_JuliaCloth1_2 - Юлия писает
+# JuliaHome_Bathroom_Monica_JuliaCloth1_2 - Моника писает
+# JuliaHome_Bathroom_Monica_JuliaCloth1_3 - Моника вышла из душа
+
+# JuliaHome_Kitchen_Monica_JuliaCloth1_1 - Моника на кухне
+# JuliaHome_Kitchen_Julia_JuliaCloth2_1 - Юлия на кухне рядом с Моникой
+
+#
+
 #####################
 # ЛОГИКА
 # если в меню из лейбла ep213_dialogues5_julia_8 выбран пункт "Поцеловать Юлию." и далее пункты до секса включительно, то Моника с Юлией встают с постели вместе
