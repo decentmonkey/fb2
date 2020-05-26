@@ -251,16 +251,16 @@ label ep213_dialogues5_julia_2:
     imgf 30605
     julia "О, Миссис Бакфетт..."
     w
-#    img 30328 #-?
+#    img 30328 #-?   
 #    w
     music Loved_Up
     imgd 30606
-    sound snd_kiss2
+    sound kiss2
     w
     imgf 30607
     w
     imgd 30608
-    sound snd_kiss2
+    sound kiss1
     w
     imgf 30609
     m "Ты такая красивая, Юлия..."
@@ -320,9 +320,11 @@ label ep213_dialogues5_julia_2:
     imgf 30622
     julia "Мммм..."
     # потом наклоняется и целует сосок сначала на одной груди, потом на второй
+    sound kiss1
     imgd 30615
     julia "Ооо, дааа..."
     w
+    sound kiss1
     imgf 30616
     julia "А теперь сожмите мой сосок зубами, Миссис Ба-а-акфетт!"
     julia "Аааааа!!!"
@@ -1819,14 +1821,14 @@ label ep213_dialogues5_julia_8:
                             imgf 30811
                             julia "Боже, как же хорошо..."
                             imgd 30812
-                            sound snd_kiss2
+                            sound kiss1
                             w
                             imgf 30813
                             julia "Ммммм..."
                             imgd 30814
                             w
                             imgd 30815
-                            sound snd_kiss2
+                            sound kiss1
                             w
                             music Groove2_85
                             imgf 30816
@@ -2123,10 +2125,10 @@ label ep213_dialogues5_julia_9:
             fadeblack
             music Loved_Up
             imgfl 30849
-            sound snd_kiss2
+            sound kiss1
             w
             imgf 30850
-            sound snd_kiss2
+            sound kiss2
             w
             imgd 30851
             julia "Ммммм..."
@@ -2572,13 +2574,16 @@ label ep213_dialogues5_julia_10:
             fadeblack
             music Loved_Up
             imgfl 30921
-            sound snd_kiss2
+            sound kiss2
             w
             imgf 30922
+            sound kiss1
             w
             imgd 30923
+            sound kiss2
             w
             imgd 30924
+            sound kiss1
             w
             imgf 30925
             w
@@ -2982,9 +2987,10 @@ label ep213_dialogues5_julia_10b:
     # поцелуй
     music Loved_Up
     imgf 30951
+    sound kiss1
     w
     imgd 30952
-    sound snd_kiss2
+    sound kiss2
     w
     music Groove2_85
     imgf 30953
@@ -3194,7 +3200,7 @@ label ep213_dialogues5_julia_11:
             # Моника целует Юлию взасос
             music Loved_Up
             imgd 31031
-            sound snd_kiss2
+            sound kiss2
             w
             imgf 31030
             julia "Ммммм..."
@@ -3202,7 +3208,7 @@ label ep213_dialogues5_julia_11:
             julia "Миссис, Бакфетт, а можно еще разочек?"
             # Моника улыбается и снова ее целует
             imgd 31031
-            sound snd_kiss2
+            sound kiss2
             w
             imgf 31032
             julia "Миссис Бакфетт, моя киска уже вся влажная..."

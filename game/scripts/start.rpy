@@ -1,4 +1,4 @@
-define debugMode = True
+define debugMode = False
 
 default gameStage = 0
 default gameSubStage = 0
@@ -53,7 +53,8 @@ label start:
 ###################
 
 
-#    call ep213_dialogues5_julia_15e() # мысли Моники, вышла из дома, когда Юлия спала
+
+#    call ep213_dialogues1_victoria_14()
 
 ###################
     call intro_questions() from _call_intro_questions
