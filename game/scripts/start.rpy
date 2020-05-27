@@ -52,9 +52,8 @@ label start:
 
 ###################
 
+#    call ep213_dialogues3_pub_16() # подсобка барменов, приват
 
-
-#    call ep213_dialogues1_victoria_14()
 
 ###################
     call intro_questions() from _call_intro_questions
