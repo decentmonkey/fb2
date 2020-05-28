@@ -50,10 +50,9 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-###################
+##################
 
-#    call ep213_dialogues3_pub_16() # подсобка барменов, приват
-
+#    call ep213_dialogues_police17() # Моника просит у Боба еду
 
 ###################
     call intro_questions() from _call_intro_questions
