@@ -52,7 +52,10 @@ label start:
 
 ##################
 
-#    call ep213_dialogues_police17() # Моника просит у Боба еду
+
+#    call ep213_dialogues_marcus1a()
+
+
 
 ###################
     call intro_questions() from _call_intro_questions
