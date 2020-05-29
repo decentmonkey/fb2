@@ -1130,104 +1130,106 @@ label ep213_dialogues_police12:
     mt "Одно его слово и я отправлюсь на эту ужасную ферму!"
 
     menu:
-        "Сделать как требует заключенный.":
+        "Сделать как требует заключенный." if game.extra == True:
             $ monicaPrisonerLiveTogether11 = True # Моника согласилась сделать минет заключенному
             pass
+        "Сделать как требует заключенный. (in Extra version) (disabled)" if game.extra != True:
+            return
         "Поставить его на место!":
             return False
-
-    # Моника садится
-    fadeblack
-    music Malicious
-    imgfl 18534
-    mt "Мне надо притвориться, что я делаю это..."
-    mt "Ведь я на самом деле этого не делаю..."
-    mt "А просто притворяюсь..."
-    imgf 18535
-    prisoner1 "Давай, шлюха, скажи кто ты и проси разрешения пососать мной член!"
-    imgd 18536
-    m "!!!"
-    m "Я... Я хорошая шлюха..."
-    m "И я прошу разрешения взять в рот твой член..."
-    imgf 18537
-    prisoner1 "Я разрешаю шлюхе взять его..."
-    prisoner1 "Можешь приступать!"
-    mt "Я с трудом представляю, как можно дотронуться до этого грязного вонючего отростка..."
-    imgd 18538
-    prisoner1 "Делай это тихо! Боб не должен услышать!"
-    prisoner1 "Если Боб услышит и выгонит меня, то это будет твоя вина!"
-    prisoner1 "А это значит, что шлюха станет плохой! Со всеми последствиями для нее!"
-    music Loved_Up
-    imgf 18539
-    m "!!!"
-    imgd 18540
-    w
-    # Моника берет его член в рот
-    imgf 18541
-    w
-    imgd 18542
-    prisoner1 "Да, вот так..."
-    imgf 18543
-    w
-    imgd 18544
-    prisoner1 "Хорошая шлюха... Соси..."
-    music Loved_Up2
-    imgf 18545
-    w
-    imgd 18546
-    prisoner1 "Соси еще... Да..."
-    w
-    img 18547
-    sound bulk1
-    show screen photoshot_screen()
-    with hpunch
-    pause 0.7
-    hide screen photoshot_screen
-    w
-    img 18548
-    sound bulk1
-    show screen photoshot_screen()
-    with hpunch
-    pause 0.7
-    hide screen photoshot_screen
-    w
-    img 18549
-    sound bulk1
-    show screen photoshot_screen()
-    with hpunch
-    pause 0.7
-    hide screen photoshot_screen
-    w
-    # заключенный кончает
-    # Монику рвет в туалет (со спины)
-    imgf 18550
-    mt "О БОЖЕ! МЕНЯ СЕЙЧАС ВЫРВЕТ!"
-    fadeblack
-    music Gearhead
-    imgfl 18551
-    sound chavc26
-    w
-    # Появляется надзиратель
-    sound man_steps
-    imgf 18552
-    overseer "Эй! Что за шум!"
-    overseer "Вы нарушаете мой приказ?"
-    # Моника поворачивается и смотрит на заключенного, тот на нее
-    music Villainous_Treachery
-    imgd 18553
-    w
-    imgd 18554
-    w
-    # Моника смотрит на Боба
-    imgf 18555
-    m "Нет, сэр..."
-    m "Меня просто вырвало..."
-    m "Видимо, я съела что-то не то..."
-    # Поворачивается к заключенному
-    music Power_Bots_Loop
-    imgd 18556
-    m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
-    # затемнение
+    if game.extra == True:
+        # Моника садится
+        fadeblack
+        music Malicious
+        imgfl 18534
+        mt "Мне надо притвориться, что я делаю это..."
+        mt "Ведь я на самом деле этого не делаю..."
+        mt "А просто притворяюсь..."
+        imgf 18535
+        prisoner1 "Давай, шлюха, скажи кто ты и проси разрешения пососать мной член!"
+        imgd 18536
+        m "!!!"
+        m "Я... Я хорошая шлюха..."
+        m "И я прошу разрешения взять в рот твой член..."
+        imgf 18537
+        prisoner1 "Я разрешаю шлюхе взять его..."
+        prisoner1 "Можешь приступать!"
+        mt "Я с трудом представляю, как можно дотронуться до этого грязного вонючего отростка..."
+        imgd 18538
+        prisoner1 "Делай это тихо! Боб не должен услышать!"
+        prisoner1 "Если Боб услышит и выгонит меня, то это будет твоя вина!"
+        prisoner1 "А это значит, что шлюха станет плохой! Со всеми последствиями для нее!"
+        music Loved_Up
+        imgf 18539
+        m "!!!"
+        imgd 18540
+        w
+        # Моника берет его член в рот
+        imgf 18541
+        w
+        imgd 18542
+        prisoner1 "Да, вот так..."
+        imgf 18543
+        w
+        imgd 18544
+        prisoner1 "Хорошая шлюха... Соси..."
+        music Loved_Up2
+        imgf 18545
+        w
+        imgd 18546
+        prisoner1 "Соси еще... Да..."
+        w
+        img 18547
+        sound bulk1
+        show screen photoshot_screen()
+        with hpunch
+        pause 0.7
+        hide screen photoshot_screen
+        w
+        img 18548
+        sound bulk1
+        show screen photoshot_screen()
+        with hpunch
+        pause 0.7
+        hide screen photoshot_screen
+        w
+        img 18549
+        sound bulk1
+        show screen photoshot_screen()
+        with hpunch
+        pause 0.7
+        hide screen photoshot_screen
+        w
+        # заключенный кончает
+        # Монику рвет в туалет (со спины)
+        imgf 18550
+        mt "О БОЖЕ! МЕНЯ СЕЙЧАС ВЫРВЕТ!"
+        fadeblack
+        music Gearhead
+        imgfl 18551
+        sound chavc26
+        w
+        # Появляется надзиратель
+        sound man_steps
+        imgf 18552
+        overseer "Эй! Что за шум!"
+        overseer "Вы нарушаете мой приказ?"
+        # Моника поворачивается и смотрит на заключенного, тот на нее
+        music Villainous_Treachery
+        imgd 18553
+        w
+        imgd 18554
+        w
+        # Моника смотрит на Боба
+        imgf 18555
+        m "Нет, сэр..."
+        m "Меня просто вырвало..."
+        m "Видимо, я съела что-то не то..."
+        # Поворачивается к заключенному
+        music Power_Bots_Loop
+        imgd 18556
+        m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
+        # затемнение
     fadeblack
     music Master_Disorder
     # Моника ложится спать, член заключенного снова упирается в нее

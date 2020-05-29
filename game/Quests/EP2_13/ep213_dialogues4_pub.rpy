@@ -1490,156 +1490,159 @@ label ep213_dialogues3_pub_16:
     mt "Сволочь!!!"
     mt "!!!"
     menu:
-        "Потереться о Джо.": # corruption
-            $ monicaPubSecondPrivatDanceJoe3 = True # Моника согласилась потереться об Джо
-            music Pyro_Flow
-            imgf 18345
-            mt "Грязное животное!"
-            mt "Ненавижу его!"
-            mt "!!!"
-            mt "Но мне нужны эти деньги!"
-            mt "Что же делать?!"
-            mt "???"
-            # Моника в сомнении
-            music Hidden_Agenda
-            imgd 18346
-            joe "Ну что, [monica_pub_name], пошли на стол?"
-            joe "Нам надо поторопиться, пока Эшли сюда не пришла."
-            # Моника подозрительно
-            music Groove2_85
-            imgf 18347
-            m "Если я сейчас сделаю это, ты мне отдашь всю сумму?"
-            m "Или придумаешь еще какой-нибудь предлог, чтобы не платить мне?!"
-            joe "[monica_pub_name], я заплачу тебе 400 баксов и ни центом меньше."
-            joe "Для этого тебе нужно всего лишь немного потереться своей киской о мой член."
-            # Джо подходит к столу и ложится, спустив штаны
-            fadeblack
-            sound snd_fabric1
-            pause 2.0
-            music Groove2_85
-            imgfl 18348
-            w
-            imgf 18349
-            mt "Дьявол!"
-            mt "!!!"
-            mt "Гребанный Джо!!!"
-            # Моника пристраивается над Джо, чтобы можно было тереться об его член
-            music Loved_Up
-            imgd 18350
-            w
-            imgd 18351
-            w
-            imgf 18352
-            w
-            imgd 18353
-            w
-            imgf 18354
-            joe "Ооооо!!! [monica_pub_name]!!!"
-            imgd 18355
-            joe "Какая ты горячая!!!"
-            # кладет ладони ей на попу
-            # Моника перестает двигаться и рычит на него
-            imgf 18356
-            m "Не прикасайся ко мне!!!"
-            m "!!!"
-            # Джо убирает руки
-            imgd 18357
-            joe "Хорошо, хорошо!"
-            joe "Продолжай, не останавливайся..."
-            imgd 18358
-            mt "Ублюдок!"
-            mt "!!!"
-            # Моника продолжает тереться
-            imgf 31154
-            w
-            imgd 31155
-            joe "Даааа..."
-            imgd 31156
-            w
-            imgf 31157
-            joe "Аааа..."
-            imgd 31158
-            w
-            music Loved_up2
-            imgf 31159
-            joe "Еще..."
-            # Моника со злым лицом трется о Джо
-            imgd 31160
-            joe "Мммммм..."
-            joe "Оооооо..."
-            imgd 31162
-            joe "Дааааа..."
-            menu:
-                "Кончить на попу Моники.":
-                    img 31163
-                    sound bulk1
-                    show screen photoshot_screen()
-                    with hpunch
-                    pause 0.7
-                    hide screen photoshot_screen
-                    w
-                    img 31164
-                    sound bulk1
-                    show screen photoshot_screen()
-                    with hpunch
-                    pause 0.7
-                    hide screen photoshot_screen
-                    sound man_moan1
-                    joe "Оооох..."
-                    imgd 31165
-                    joe "Ммммммм..."
-                    # Моника зло на него смотрит
-                    imgf 31166
-                    mt "Твоя жена тебя не видит!"
-                    mt "Мерзавец!"
-                    mt "!!!"
-                    pass
-                # не может кончить внутрь! "кончить на киску."
-                "Кончить внутрь Моники.":
-                    img 31167
-                    sound bulk1
-                    show screen photoshot_screen()
-                    with hpunch
-                    pause 0.7
-                    hide screen photoshot_screen
-                    w
-                    img 31161
-                    sound bulk1
-                    show screen photoshot_screen()
-                    with hpunch
-                    pause 0.7
-                    hide screen photoshot_screen
-                    sound man_moan1
-                    joe "Оооох..."
-                    imgd 31167
-                    joe "Ммммммм..."
-                    # Моника зло на него смотрит
-                    imgf 31166
-                    mt "Твоя жена тебя не видит!"
-                    mt "Мерзавец!"
-                    mt "!!!"
-                    pass
-            # смена кадра
-            # Джо стоит с довольной улыбкой
-            fadeblack
-            sound snd_fabric1
-            pause 2.0
-            music Groove2_85
-            imgfl 18359
-            joe "[monica_pub_name], вот твои 400 баксов."
-            $ add_money(400.0)
-            joe "И не забудь отдать Эшли процент."
-            # Джо уходит, Моника злая
-            sound man_steps
-            imgf 30575
-            w
-            music Power_Bots_Loop
-            imgd 30577
-            mt "Грязное похотливое животное!"
-            mt "Прямо за спиной у своей жены!"
-            mt "Пока она работает!!!"
-            mt "Мерзкий подонок!!!"
-            mt "!!!"
+        "Потереться о Джо. (in Extra version) (disabled)" if game.extra != True:
+            return
+        "Потереться о Джо." if game.extra == True: # corruption
+            if game.extra == True:
+                $ monicaPubSecondPrivatDanceJoe3 = True # Моника согласилась потереться об Джо
+                music Pyro_Flow
+                imgf 18345
+                mt "Грязное животное!"
+                mt "Ненавижу его!"
+                mt "!!!"
+                mt "Но мне нужны эти деньги!"
+                mt "Что же делать?!"
+                mt "???"
+                # Моника в сомнении
+                music Hidden_Agenda
+                imgd 18346
+                joe "Ну что, [monica_pub_name], пошли на стол?"
+                joe "Нам надо поторопиться, пока Эшли сюда не пришла."
+                # Моника подозрительно
+                music Groove2_85
+                imgf 18347
+                m "Если я сейчас сделаю это, ты мне отдашь всю сумму?"
+                m "Или придумаешь еще какой-нибудь предлог, чтобы не платить мне?!"
+                joe "[monica_pub_name], я заплачу тебе 400 баксов и ни центом меньше."
+                joe "Для этого тебе нужно всего лишь немного потереться своей киской о мой член."
+                # Джо подходит к столу и ложится, спустив штаны
+                fadeblack
+                sound snd_fabric1
+                pause 2.0
+                music Groove2_85
+                imgfl 18348
+                w
+                imgf 18349
+                mt "Дьявол!"
+                mt "!!!"
+                mt "Гребанный Джо!!!"
+                # Моника пристраивается над Джо, чтобы можно было тереться об его член
+                music Loved_Up
+                imgd 18350
+                w
+                imgd 18351
+                w
+                imgf 18352
+                w
+                imgd 18353
+                w
+                imgf 18354
+                joe "Ооооо!!! [monica_pub_name]!!!"
+                imgd 18355
+                joe "Какая ты горячая!!!"
+                # кладет ладони ей на попу
+                # Моника перестает двигаться и рычит на него
+                imgf 18356
+                m "Не прикасайся ко мне!!!"
+                m "!!!"
+                # Джо убирает руки
+                imgd 18357
+                joe "Хорошо, хорошо!"
+                joe "Продолжай, не останавливайся..."
+                imgd 18358
+                mt "Ублюдок!"
+                mt "!!!"
+                # Моника продолжает тереться
+                imgf 31154
+                w
+                imgd 31155
+                joe "Даааа..."
+                imgd 31156
+                w
+                imgf 31157
+                joe "Аааа..."
+                imgd 31158
+                w
+                music Loved_up2
+                imgf 31159
+                joe "Еще..."
+                # Моника со злым лицом трется о Джо
+                imgd 31160
+                joe "Мммммм..."
+                joe "Оооооо..."
+                imgd 31162
+                joe "Дааааа..."
+                menu:
+                    "Кончить на попу Моники.":
+                        img 31163
+                        sound bulk1
+                        show screen photoshot_screen()
+                        with hpunch
+                        pause 0.7
+                        hide screen photoshot_screen
+                        w
+                        img 31164
+                        sound bulk1
+                        show screen photoshot_screen()
+                        with hpunch
+                        pause 0.7
+                        hide screen photoshot_screen
+                        sound man_moan1
+                        joe "Оооох..."
+                        imgd 31165
+                        joe "Ммммммм..."
+                        # Моника зло на него смотрит
+                        imgf 31166
+                        mt "Твоя жена тебя не видит!"
+                        mt "Мерзавец!"
+                        mt "!!!"
+                        pass
+                    # не может кончить внутрь! "кончить на киску."
+                    "Кончить внутрь Моники.":
+                        img 31167
+                        sound bulk1
+                        show screen photoshot_screen()
+                        with hpunch
+                        pause 0.7
+                        hide screen photoshot_screen
+                        w
+                        img 31161
+                        sound bulk1
+                        show screen photoshot_screen()
+                        with hpunch
+                        pause 0.7
+                        hide screen photoshot_screen
+                        sound man_moan1
+                        joe "Оооох..."
+                        imgd 31167
+                        joe "Ммммммм..."
+                        # Моника зло на него смотрит
+                        imgf 31166
+                        mt "Твоя жена тебя не видит!"
+                        mt "Мерзавец!"
+                        mt "!!!"
+                        pass
+                # смена кадра
+                # Джо стоит с довольной улыбкой
+                fadeblack
+                sound snd_fabric1
+                pause 2.0
+                music Groove2_85
+                imgfl 18359
+                joe "[monica_pub_name], вот твои 400 баксов."
+                $ add_money(400.0)
+                joe "И не забудь отдать Эшли процент."
+                # Джо уходит, Моника злая
+                sound man_steps
+                imgf 30575
+                w
+                music Power_Bots_Loop
+                imgd 30577
+                mt "Грязное похотливое животное!"
+                mt "Прямо за спиной у своей жены!"
+                mt "Пока она работает!!!"
+                mt "Мерзкий подонок!!!"
+                mt "!!!"
             return
         "Я оторву ему яйца!!!":
             pass
