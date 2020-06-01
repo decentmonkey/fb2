@@ -5,6 +5,8 @@ default juliaHomeBathroomShowerSceneSuffix = ""
 label juliahome_bathroomshower:
     $ print "enter_juliahome_bathroom"
     $ miniMapData = []
+    call miniMapJuliaHomeGenerate()
+
     $ scene_image = "scene_JuliaHome_BathroomShower[juliaHomeBathroomShowerSceneSuffix]"
 
     if day_time == "day":
@@ -23,9 +25,15 @@ label juliahome_bathroomshower_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+label juliahome_bathroomshower_init2:
+    $ add_object_to_scene("Shower", {"type" : 2, "base" : "JulliaHome_Bathroom_Shower_Shower", "click" : "juliahome_bathroomshower_environment", "actions" : "lh", "zorder":10}, scene="juliahome_bathroomshower")
+    return
+
 label juliahome_bathroomshower_teleport:
     if obj_name == "Teleport_Bathroom":
         call change_scene("juliahome_bathroom") from _rcall_change_scene_68
     return
 label juliahome_bathroomshower_environment:
+    if obj_name == "Shower":
+        call ep213_dialogues5_julia_15c()
     return

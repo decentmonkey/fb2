@@ -251,7 +251,7 @@ label ep213_dialogues5_julia_2:
     imgf 30605
     julia "О, Миссис Бакфетт..."
     w
-#    img 30328 #-?   
+#    img 30328 #-?
 #    w
     music Loved_Up
     imgd 30606
@@ -1595,7 +1595,7 @@ label ep213_dialogues5_julia_7:
     imgd 30785
     julia "У меня тут немного вещей. Я их быстро соберу."
     julia "..."
-    imgf 30340
+    img 30340
     m "???"
     mt "Какого черта?! Куда она собралась?!"
     mt "?!"
@@ -1603,7 +1603,7 @@ label ep213_dialogues5_julia_7:
     julia "Миссис Бакфетт, мы переезжаем к Вам сегодня? Прямо сейчас?"
     music stop
     sound plastinka1b
-    imgf 30361
+    img 30361 hpunch
     mt "Что?!"
     mt "Ко мне?!"
     mt "?!?!?!"
@@ -3541,18 +3541,29 @@ label ep213_dialogues5_julia_15b:
     mt "Я не голодна."
     mt "Если я буду так много есть, я испорчу свою превосходную фигуру."
     return
-label ep213_dialogues5_julia_15с:
+label ep213_dialogues5_julia_15c:
     # в ванной комнате, душ
     mt "Наконец-то, я могу помыться в нормальном душе."
     mt "Нет, здесь все, конечно, убогое и старое..."
     mt "Но это лучше, чем прятаться от этой провинциалки Бетти и мыться тайком!"
     return
+label ep213_dialogues5_julia_15c2:
+    # в ванной комнате, душ
+    music snd_shower
+    imgf 31044
+    mt "Наконец-то, я могу помыться в нормальном душе."
+    imgf 31045
+    mt "Нет, здесь все, конечно, убогое и старое..."
+    mt "Но это лучше, чем прятаться от этой провинциалки Бетти и мыться тайком!"
+    return
+
+
 label ep213_dialogues5_julia_15d:
     # в ванной комнате, унитаз (писает)
     fadeblack
     sound snd_fabric1
     pause 1.5
-    music snd_piss
+    sound snd_piss
     imgfl 23913
     mt "Такая шикарная женщина, как я, заслуживате большего."
     imgf 23914
@@ -3565,6 +3576,51 @@ label ep213_dialogues5_julia_15e:
     mt "Без этой назойливой дурочки."
     mt "Как же она меня раздражает!"
     mt "!!!"
+    return
+
+
+label ep213_dialogues5_julia_16:
+    # Моника думает о том, что надо предложить Юлии жить вместе (в офисе)
+    mt "Что бы такого придумать, чтобы завоевать доверии этой никчемной Юлии?"
+    mt "Может быть предложить ей жить вместе?"
+    mt "Для нее будет неслыханной удачей то, что сама Моника Бакфетт будет жить с какой-то гувернанткой."
+    mt "Разумеется, об этом никто не будет знать..."
+    mt "И мне не помешало бы бесплатное жилье."
+    mt "Но как сказать ей об этом?"
+    mt "Просто прийти к ней вечером домой?"
+    return
+
+label ep213_dialogues5_julia_16a:
+    mt "Не хочу подходить к этой дурацкой гувернантке!"
+    return
+
+label ep213_dialogues5_julia_17: # смотрит на гардероб
+    m "гардероб"
+    return
+
+label ep213_dialogues5_julia_18_wardrobe:
+    mt "Что мне одеть?"
+    menu:
+        "Красивое платье." if monicaHasCasualDress1 == True:
+#            call wardrobeBasementCasualDressMiniMap1()
+            $ cloth = "CasualDress1"
+            $ cloth_type = "CasualDress"
+            sound2 snd_fabric1
+            img black_screen
+            with Dissolve(0.5)
+            return 1
+
+        "Одежда шлюхи.":
+#            call wardrobeBasementCasualDressMiniMap2()
+            $ cloth = "Whore"
+            $ cloth_type = "Whore"
+            sound2 snd_fabric1
+            img black_screen
+            with Dissolve(0.5)
+            return 2
+
+        "Уйти.":
+            return 0
     return
 
 #####################

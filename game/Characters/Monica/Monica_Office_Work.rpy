@@ -91,12 +91,12 @@ label office_life_evening:
 label office_life_day1:
     $ monicaOfficeWorkedToday = False
     if week_day != 7: # Если не воскресенье
-        if ep210_julia_not_at_work == False:
+        if ep210_julia_not_at_work == False and monicaRestJuliaHome != True:
             $ move_object("Julia", "working_office_cabinet") # Юлия идет на работу
         $ set_active(True, group="workers", scene="working_office") # Сотрудники на работе
         $ set_active(True, group="workers", scene="working_office2")
     else:
-        if ep210_julia_not_at_work == False:
+        if ep210_julia_not_at_work == False and monicaRestJuliaHome != True:
             $ move_object("Julia", "empty") # Юлия отдыхает
 
 

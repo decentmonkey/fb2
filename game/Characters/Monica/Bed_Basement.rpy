@@ -15,12 +15,15 @@ default monicaRestApartments = False
 default monicaRestApartmentsDay = 0
 default monicaRestHouse = False
 default monicaRestHouseDay = 0
+default monicaRestJuliaHome = False
+default monicaRestJuliaHomeDay = 0
 
 label basement_bed_hook:
     if act == "l":
         return True
     if act == "h":
         $ monicaRestApartments = False
+        $ monicaRestJuliaHome = False
         $ monicaRestHouse = True
         $ monicaRestHouseDay = day
         if day_time == "day":

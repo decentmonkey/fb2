@@ -12,6 +12,7 @@ default miniMapOpenButtonImg2 = "Open_Button_Map2"
 default miniMapHousePreset = "default"
 
 default minimapBettyFloor2Enabled = False
+default minimapJuliaGenerateEnabled = False
 
 label miniMapOpen:
     hide screen hud_minimap
@@ -111,19 +112,21 @@ label miniMapSlumsApartmentsGenerate:
     $ miniMapData.append({"name":"MonicaHome_Street", "caption":t_("УЛИЦА"), "img":"MonicaHome_Street_Map", "teleport_scene":"ep211_quests_slums_apartments3_check_exit_minimap", "teleport_type":"function"})
     return
 
-
-#    $ miniMapData.append({"name":"Hostel_Edge_1_c", "caption":t_("BLIND ALLEY"), "img":"Hostel_Edge_1_c_Map", "teleport_scene":"enter_hostel_edge_1_c", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Street_Whores_Place_Shawarma", "caption":t_("Shawarma"), "img":"Street_Whores_Place_Shawarma_Map", "teleport_scene":"whores_place_shawarma", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Street_Whores_Place_Whores", "caption":t_("Whores place"), "img":"Street_Whores_Place_Whores_Map", "teleport_scene":"whores_place", "teleport_type":"scene"})
-    if slumsDirtyStreetMiniMapActive == True:
-        $ miniMapData.append({"name":"Street_Whores_Street1", "caption":t_("Dirty street"), "img":"Street_Whores_Street1_Map", "teleport_scene":"whores_place_street1", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Street_Whores_Place_Car_Stop", "caption":t_("Street Edge"), "img":"Street_Whores_Place_Car_Stop_Map", "teleport_scene":"street_corner", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Hostel_Street3", "caption":t_("POOR STREET"), "img":"Hostel_Street3_Map", "teleport_scene":"hostel_street3", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Hostel_Street2", "caption":t_("DIRTY STREET"), "img":"Hostel_Street2_Map", "teleport_scene":"hostel_street2", "teleport_type":"scene"})
-    $ miniMapData.append({"name":"Hostel_Street", "caption":t_("HOSTEL STREET"), "img":"Hostel_Street_Map", "teleport_scene":"hostel_street", "teleport_type":"scene"})
-    if slumsApartmentsMiniMapActive == True:
-        $ miniMapData.append({"name":"Slums_Apartments", "caption":t_("OLD HOUSE"), "img":"MonicaHome_Street_Map", "teleport_scene":"street_monicahome", "teleport_type":"scene"})
     return
+
+label miniMapJuliaHomeGenerate:
+    if monicaHomeMiniMapEnabled == False or minimapJuliaGenerateEnabled == False:
+        return
+    $ miniMapOpened = False
+    $ miniMapOpenButtonImg = "Open_Button_JuliaHome_Map1"
+    $ miniMapOpenButtonImg2 = "Open_Button_JuliaHome_Map2"
+    $ miniMapData = []
+    $ miniMapData.append({"name":"JuliaHome_LivingRoom", "caption":t_("СПАЛЬНЯ"), "img":"JuliaHome_LivingRoom_Map", "teleport_scene":"ep213_quests_julia8_minimap_teleport", "teleport_type":"function"})
+    $ miniMapData.append({"name":"JuliaHome_Kitchen", "caption":t_("КУХНЯ"), "img":"JuliaHome_Kitchen_Map", "teleport_scene":"ep213_quests_julia8_minimap_teleport", "teleport_type":"function"})
+    $ miniMapData.append({"name":"JuliaHome_Bathroom", "caption":t_("ВАННАЯ КОМНАТА"), "img":"JuliaHome_Bathroom_Map", "teleport_scene":"ep213_quests_julia8_minimap_teleport", "teleport_type":"function"})
+    $ miniMapData.append({"name":"JuliaHome_Street", "caption":t_("УЛИЦА"), "img":"Street_JuliaHome_Map", "teleport_scene":"ep213_quests_julia8_minimap_teleport", "teleport_type":"function"})
+    return
+
 
 
 label miniMapDisabled(name, minimapCell):
@@ -166,6 +169,7 @@ label miniMapHouseGenerateTeleport(name, minimapCell):
         call expression miniMapSubst[name] from _call_expression_10
     if _return != False:
         if minimapCell["teleport_type"] == "function":
+            $ minimapTeleportButtonName = name
             call expression minimapCell["teleport_scene"] from _call_expression_11
         if minimapCell["teleport_type"] == "scene":
             call change_scene(minimapCell["teleport_scene"]) from _call_change_scene_150

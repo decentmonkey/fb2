@@ -5,6 +5,11 @@ default juliaHomeBathroomSceneSuffix = ""
 label juliahome_bathroom:
     $ print "enter_juliahome_bathroom"
     $ miniMapData = []
+    call miniMapJuliaHomeGenerate()
+
+    if lastSceneName != "juliahome_bathroomshower":
+        $ juliaHomeBathroomMonicaSuffix = 1
+
     $ scene_image = "scene_JuliaHome_Bathroom[juliaHomeBathroomSceneSuffix]"
 
     if day_time == "day":

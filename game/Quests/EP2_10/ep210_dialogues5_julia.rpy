@@ -16,8 +16,10 @@ label ep210_julia_dialogue1:
             pass
         "Пригласить Юлию на третье свидание. (требуется ур.6)" if ep211_julia_second_date_completed == True and char_info["Julia"]["level"] >= 6 and ep212_julia_third_date_inited == False and ep212_julia_third_date_active == True:
             return 5
-        "Предложить Юлии жить вместе. (в следующем обновлении) (disabled)" if ep212_monica_julia_quest2_started == True:
-            pass
+        "Предложить Юлии жить вместе." if ep212_monica_julia_quest2_started == True and ep213_quests_julia_stage == 0:
+            return 6
+#        "Предложить Юлии жить вместе. (в следующем обновлении) (disabled)" if ep212_monica_julia_quest2_started == True:
+#            pass
 
         "Уйти.":
             return 0

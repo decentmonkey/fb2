@@ -173,6 +173,9 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         call ep212_quests_julia1_third_date_init() from _rcall_ep212_quests_julia1_third_date_init
         call refresh_scene_fade() from _rcall_refresh_scene_fade_47
         return False
+    if _return == 6: # Предложение жить вместе
+        call ep213_quests_julia1()
+        return False
 
     return False
 

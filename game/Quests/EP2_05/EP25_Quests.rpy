@@ -61,6 +61,7 @@ label ep25_quests4:
 
 label ep25_quests4a:
     # Переодевание перед перемещением в трущобы
+    m "here!!!!!"
     if cloth == "CasualDress1" or cloth_type == "CasualDress":
         if obj_name == "Teleport_Street_Corner" or obj_name == "Teleport_Hostel2":
             call ep25_dialogues4_map1() from _call_ep25_dialogues4_map1_1

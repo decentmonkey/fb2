@@ -226,7 +226,10 @@ label locations_init_rich_hotel_restaurant2:
     return
 
 
-
+label world:
+    return
+label world_init:
+    return
 
 
 #

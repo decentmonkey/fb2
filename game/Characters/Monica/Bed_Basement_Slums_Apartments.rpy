@@ -8,6 +8,7 @@ label slums_basement_bed:
         $ monicaRestApartments = True
         $ monicaRestApartmentsDay = day
         $ monicaRestHouse = False
+        $ monicaRestJuliaHome = False
         if day_time == "day":
             call slums_basement_bed_take_nap() from _rcall_slums_basement_bed_take_nap
             return _return

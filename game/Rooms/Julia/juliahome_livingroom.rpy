@@ -6,6 +6,8 @@ default juliaHomeLivingRoomSceneSuffix = ""
 label juliahome_livingroom:
     $ print "enter_juliahome_livingroom"
     $ miniMapData = []
+    call miniMapJuliaHomeGenerate()
+    
     $ scene_image = "scene_JuliaHome_LivingRoom[day_suffix][juliaHomeLivingRoomSceneSuffix]"
 
     if day_time == "day":

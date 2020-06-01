@@ -5,6 +5,8 @@ default juliaHomeKitchenSceneSuffix = ""
 label juliahome_kitchen:
     $ print "enter_juliahome_kitchen"
     $ miniMapData = []
+    call miniMapJuliaHomeGenerate()
+    
     $ scene_image = "scene_JuliaHome_Kitchen[juliaHomeKitchenSceneSuffix]"
 
     if day_time == "day":
@@ -34,6 +36,10 @@ label juliahome_kitchen_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+label juliahome_kitchen_init2:
+    $ add_object_to_scene("Kitchen", {"type" : 2, "base" : "JulliaHome_Kitchen_Kitchen", "click" : "juliahome_kitchen_environment", "actions" : "lh", "zorder":-1, "b":0.1, "group":"environment"}, scene="juliahome_kitchen")
+
+    return
 label juliahome_kitchen_teleport:
     if obj_name == "Teleport_Street":
         call change_scene("street_juliahome", "Fade", "highheels_run2") from _rcall_change_scene_65
@@ -52,4 +58,6 @@ label juliahome_kitchen_environment:
         call ep211_dialogues4_julia_11b() from _rcall_ep211_dialogues4_julia_11b
     if obj_name == "Flower1" or obj_name == "Flower2":
         call ep211_dialogues4_julia_11d() from _rcall_ep211_dialogues4_julia_11d
+    if obj_name == "Kitchen":
+        call ep211_dialogues4_julia_11g()
     return
