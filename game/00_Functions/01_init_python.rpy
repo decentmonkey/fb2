@@ -37,12 +37,22 @@ python early:
     renpy.register_statement("overlay", parse=overlay_parse, execute=overlay_exec, predict=overlay_pred) #кастомный overlay
 
     def img_disp(l):
-        return l.simple_expression()
+        return (l.simple_expression(), l.rest())
 #        return l.string()
-    def img_exec(s):
+
+    def imgd_disp(l):
+        return (l.simple_expression(), "d")
+    def imgf_disp(l):
+        return (l.simple_expression(), "f")
+    def imgfl_disp(l):
+        return (l.simple_expression(), "fl")
+
+    def img_exec(s_in):
         global dialogue_active_flag, screenActionHappened, config
 #        config.has_autosave = False
 #        config.autosave_on_choice = False
+        s = s_in[0]
+        transition = s_in[1]
         try:
             imagePathExt = img_find_path_ext(renpy.eval(s))
         except:
@@ -65,7 +75,24 @@ python early:
         renpy.show_screen("show_image_screen_image", imagePath)
         image_screen_scene_flag = False
         screenActionHappened = True
-    def img_pred(s):
+        if transition and transition != "":
+            transitions_dict = {
+                "f": fade,
+                "d": diss,
+                "fl": fadelong
+            }
+            if transitions_dict.has_key(transition):
+                transition = transitions_dict[transition]
+            else:
+                try:
+                    transition = renpy.eval(transition)
+                except:
+                    transition = transition
+            renpy.with_statement(transition)
+        return
+
+    def img_pred(s_in):
+        s, transition = s_in
         try:
             imagePathExt = img_find_path_ext(renpy.eval(s))
         except:
@@ -76,6 +103,9 @@ python early:
             imagePath = imagePathExt[0]
         return [Image(imagePath)]
     renpy.register_statement("img", parse=img_disp, execute=img_exec, predict=img_pred) #кастомный scene
+    renpy.register_statement("imgd", parse=imgd_disp, execute=img_exec, predict=img_pred)
+    renpy.register_statement("imgf", parse=imgf_disp, execute=img_exec, predict=img_pred)
+    renpy.register_statement("imgfl", parse=imgfl_disp, execute=img_exec, predict=img_pred)
 
     def imgl_exec(s):
         global dialogue_active_flag, screenActionHappened
@@ -311,6 +341,20 @@ python early:
         return
 
     renpy.register_statement("music", parse=music_parse, execute=music_exec) #music - оператор воспроизведения музыки
+
+    def fadeblack_parse(l):
+        return (l.rest())
+    def fadeblack_exec(ob1):
+        music_exec(("stop", ""))
+        img_exec(("black_screen", "d"))
+        try:
+            if float(ob1) > 0:
+                renpy.pause(float(ob1))
+        except:
+            return
+        return
+
+    renpy.register_statement("fadeblack", parse=fadeblack_parse, execute=fadeblack_exec) #fadeblack - оператор затухания экрана
 
     def store_music():
         global storedMusic, currentMusic, currentMusicPriority
