@@ -25,6 +25,9 @@ default monicaJuliaLoveStory24 = False # Моника ласкает Юлию п
 default monicaJuliaLoveStory25 = False # Моника соглашается на дилдо перед сном
 
 default ep213_dialogues5_julia_15e_day = 0
+default ep213_dialogues5_julia_13_day = 0
+
+default ep213_dialogues5_sleep_more_flag = False
 
 #call ep213_dialogues5_julia_1() # меню выбора действий с Юлией на работе днем
 #call ep213_dialogues5_julia_1a() # меню выбора действий на работе вечером
@@ -65,21 +68,29 @@ default ep213_dialogues5_julia_15e_day = 0
 # пункты открываются последовательно
 label ep213_dialogues5_julia_1: # на работе днем
     menu:
-        "Массаж для Юлии.":
+        "Поцеловать Юлию" if ep210_julia_kissed_day_day != day:
+            return 0
+        "Массаж для Юлии." if juliahome_work_action_day != day:
             return 1
-        "На рабочем столе Моники.":
+        "На рабочем столе Моники." if juliahome_work_action_day != day:
             return 2
-        "На диване в комнате отдыха.":
+        "На диване в комнате отдыха." if juliahome_work_action_day != day:
             return 3
-        "Под столом Юлии.":
+        "Под столом Юлии." if juliahome_work_action_day != day:
             return 4
+        "Уйти.":
+            return -1
     return
 
 
 label ep213_dialogues5_julia_1a: # на работе вечером
     menu:
-        "В отделе отчетов.":
-            return 1
+        "Поцеловать Юлию" if ep210_julia_kissed_day_evening != day:
+            return 0
+        "В отделе отчетов." if juliahome_work_action_evening_day != day:
+            return 5
+        "Уйти.":
+            return -1
     return
 
 
@@ -149,6 +160,7 @@ label ep213_dialogues5_julia_2:
             imgd 20269
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(0, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory1 = True # Моника согласилась сделать Юлии массаж
@@ -227,6 +239,7 @@ label ep213_dialogues5_julia_2:
             imgf 16494
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(0, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory2 = True # Моника согласилась поцеловать Юлии грудь
@@ -366,6 +379,7 @@ label ep213_dialogues5_julia_2:
     mt "Потом все в офисе говорили бы, что Моника Бакфетт лесбиянка!"
     mt "Кошмар!"
     mt "!!!"
+    call ep213_quests_julia18_progress(0, True)
     return
 
 
@@ -471,6 +485,7 @@ label ep213_dialogues5_julia_3:
             imgf 22339
             julia "Да, Миссис Бакфетт..."
             julia "Как скажете."
+            call ep213_quests_julia18_progress(1, False)
             return
         "Подыграть Юлии.":
             $ monicaJuliaLoveStory3 = True # Моника согласилась подыграть Юлии, еще не зная, что ее ждет секс на ее рабочем столе
@@ -540,6 +555,7 @@ label ep213_dialogues5_julia_3:
             imgf 22340
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(1, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory4 = True # Моника согласилась приласкать Юлию на ее рабочем столе
@@ -674,6 +690,7 @@ label ep213_dialogues5_julia_3:
     mt "Все-таки Я здесь начальник!"
     mt "И командую здесь только Я!"
     mt "!!!"
+    call ep213_quests_julia18_progress(1, True)
     return
 
 # третий пункт меню "На диване в комнате отдыха."
@@ -739,6 +756,7 @@ label ep213_dialogues5_julia_4:
             imgf 22340
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(2, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory5 = True # Моника согласилась пойти с Юлией в комнату отдыха
@@ -896,6 +914,7 @@ label ep213_dialogues5_julia_4:
     mt "Не стоит так переживать."
     mt "..."
     mt "Да, это всего лишь нервы."
+    call ep213_quests_julia18_progress(2, True)
     return
 
 
@@ -1001,6 +1020,7 @@ label ep213_dialogues5_julia_5:
             imgd 16494
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(3, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory6 = True # Моника согласилась залезть к Юлии под стол
@@ -1156,7 +1176,7 @@ label ep213_dialogues5_julia_5:
     imgfl 30720
     w
     music Power_Bots_Loop
-    imgf 30721
+    img 30721 hpunch
     mt "ДЬЯВОЛ!!!"
     mt "!!!!!"
     sound Jump1
@@ -1205,10 +1225,10 @@ label ep213_dialogues5_julia_5:
     # Моника зло на нее смотрит, потом принимается снова за дело
     # Считаю, что слишком быстро согласилась продолжать
     imgd 30731
-    m "Надо быстрее заканчивать с этим!"
-    m "Гребаная Юлия!"
-    m "Как же она меня бесит!!!"
-    m "!!!"
+    mt "Надо быстрее заканчивать с этим!"
+    mt "Гребаная Юлия!"
+    mt "Как же она меня бесит!!!"
+    mt "!!!"
 
     menu:
         "Продолжить ласкать киску Юлии.":
@@ -1270,6 +1290,7 @@ label ep213_dialogues5_julia_5:
     mt "Даже представлять не хочу, что бы он подумал про меня!"
     mt "!!!"
     mt "!!!!!!"
+    call ep213_quests_julia18_progress(3, True)
     return
 
 # вечерний офис
@@ -1375,6 +1396,7 @@ label ep213_dialogues5_julia_6:
             imgd 30755
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            call ep213_quests_julia18_progress(4, False)
             return
         "Подыграть Юлии.":  # уровень отношений повышается
             $ monicaJuliaLoveStory7 = True # Моника согласилась делать куни на столе у близняшек
@@ -1534,6 +1556,7 @@ label ep213_dialogues5_julia_6:
     mt "Фууу!"
     mt "!!!"
     mt "!!!!!!"
+    call ep213_quests_julia18_progress(4, True)
     return
 
 
@@ -1803,7 +1826,8 @@ label ep213_dialogues5_julia_8:
                             mt "Я не собираюсь тратить свое драгоценное время на всякую чушь!"
                             mt "!!!"
                             # Моника встает с постели
-                            return
+                            call ep213_quests_julia18_progress(5, False)
+                            return 1
                         "Приласкать ее грудь.": # уровень отношений повышается
                             $ monicaJuliaLoveStory11 = True # Моника утром начала целовать грудь Юлии
                             # Моника целует ее снова
@@ -1857,7 +1881,8 @@ label ep213_dialogues5_julia_8:
                                     mt "Я не собираюсь тратить свое драгоценное время на всякую чушь!"
                                     mt "!!!"
                                     # Моника встает с постели
-                                    return
+                                    call ep213_quests_julia18_progress(5, False)
+                                    return 1
                                 "Приласкать ее киску.": # уровень отношений повышается
                                     $ monicaJuliaLoveStory12 = True # Моника утром ласкает Юлию пальцами
                                     music Groove2_85
@@ -1929,7 +1954,8 @@ label ep213_dialogues5_julia_8:
                                             mt "Я не собираюсь тратить свое драгоценное время на всякую чушь!"
                                             mt "!!!"
                                             # Моника встает с постели
-                                            return
+                                            call ep213_quests_julia18_progress(5, False)
+                                            return 1
                                         "Продолжить ласкать Юлию.": # уровень отношений повышается
                                             $ monicaJuliaLoveStory13 = True # Моника утром делает куни
                                             music Groove2_85
@@ -2025,9 +2051,10 @@ label ep213_dialogues5_julia_8:
                                             sound snd_kiss2
                                             m "Доброе утро, милая..."
                                             # Юлия улыбается и смотрит на нее влюбленными глазами
-                                            return
+                                            call ep213_quests_julia18_progress(5, True)
+                                            return 1
                 "Уйти.":
-                    return
+                    return 0
         "Не будить Юлию.":
             # Моника смотрит на Юлию
             music Stealth_Groover
@@ -2040,22 +2067,24 @@ label ep213_dialogues5_julia_8:
             mt "Главное, не задеть ее случайно."
             mt "Не хочу, чтобы она сейчас проснулась."
             mt "..."
-            return
-        "Поспать еще немного.":
-            # Моника смотрит на Юлию
-            music Groove2_85
-            if monicaJuliaLoveStory14 == False:
-                imgd 30797
-                mt "Я совсем не выспалась."
-                mt "Как же это неудобно - спать с кем-то в одной кровати."
+            return 0
+        "Поспать еще немного." if juliaHomeLivingRoomMonicaSuffix == 1:
+            if ep213_dialogues5_sleep_more_flag == False:
+                # Моника смотрит на Юлию
+                music Groove2_85
+                if monicaJuliaLoveStory14 == False:
+                    imgd 30797
+                    mt "Я совсем не выспалась."
+                    mt "Как же это неудобно - спать с кем-то в одной кровати."
+                    mt "..."
+                imgf 30840
+                mt "Я лучше еще немного посплю."
+                mt "Надеюсь, когда я проснусь, Юлии уже не будет дома."
                 mt "..."
-            imgf 30840
-            mt "Я лучше еще немного посплю."
-            mt "Надеюсь, когда я проснусь, Юлии уже не будет дома."
-            mt "..."
-            # закрывает глаза
-            $ monicaJuliaLoveStory14 = True # Моника утром решила еще поспать и не будить Юлию
-            return
+                # закрывает глаза
+                $ monicaJuliaLoveStory14 = True # Моника утром решила еще поспать и не будить Юлию
+                $ ep213_dialogues5_sleep_more_flag = True
+            return 2
     return
 
 
@@ -2071,7 +2100,7 @@ label ep213_dialogues5_julia_9:
             $ monicaJuliaLoveStory15 = True # Моника утром пошла готовить завтрак
             pass
         "Заняться другими делами.":
-            return
+            return False
     mt "Думаю, что самое время приготовить себе завтрак."
     mt "..."
     # Моника идет на кухню
@@ -2152,7 +2181,8 @@ label ep213_dialogues5_julia_9:
                     imgd 30855
                     w
                     # Юлия отходит от Моники
-                    return
+                    call ep213_quests_julia18_progress(6, False)
+                    return True
                 "Продолжить ласкать Юлию.": # уровень отношений повышается
                     $ monicaJuliaLoveStory18 = True # Моника ласкает Юлию на кухне
                     music Groove2_85
@@ -2279,7 +2309,8 @@ label ep213_dialogues5_julia_9:
                             imgd 30855
                             w
                             # Юлия отходит от Моники
-                            return
+                            call ep213_quests_julia18_progress(6, False)
+                            return True
                         "Заняться сексом.": # уровень отношений повышается
                             $ monicaJuliaLoveStory19 = True # Моника согласилась на 69 на кухне
                             # Моника встает, снимает трусики
@@ -2404,7 +2435,8 @@ label ep213_dialogues5_julia_9:
                             mt "Надеюсь, это не станет традицией!"
                             mt "Я не смогу долго терпеть это!"
                             mt "!!!"
-                            return
+                            call ep213_quests_julia18_progress(6, True)
+                            return True
         "Просто поговорить с Юлией.":
             # Моника отворачивается от губ Юлии
             music Groove2_85
@@ -2437,7 +2469,7 @@ label ep213_dialogues5_julia_9:
             mt "И сделать это как можно непринужденнее..."
             mt "..."
             menu:
-                "Ты сегодня идешь на работу?":
+                "Ты сегодня идешь на работу?" if week_day != 7:
                     imgf 30897
                     m "Милая, ты сегодня идешь на работу?"
                     julia "Да, конечно, Миссис Бакфетт."
@@ -2498,8 +2530,141 @@ label ep213_dialogues5_julia_9:
                             mt "Да она издевается!"
                             mt "Что мне еще сделать, чтобы она перестала ломаться?!"
                             mt "!!!"
-                            return
-    return
+                            return True
+                        "Уйти.":
+                            return True
+
+                "Помнишь, ты как-то говорила, что хочешь уехать из страны?" if week_day == 7:
+                    music Hidden_Agenda
+                    imgf 30856
+                    m "Милая, мне так нравится жить с тобой вместе."
+                    julia "Мне тоже очень хорошо с Вами, Миссис Бакфетт!"
+                    m "Помнишь, ты говорила, что хочешь уехать вместе со мной из страны?"
+                    julia "Да, Миссис Бакфетт. Я мечтаю об этом!"
+                    # Моника воодушевленно
+                    imgd 30902
+                    m "Милая, мне кажется, что уже пришло время осуществить эту твою мечту..."
+                    m "Ты не хочешь позвонить своему дяде и договориться с ним о документах для меня?"
+                    # Юлия мнется
+                    music Groove2_85
+                    imgf 30903
+                    julia "Я..."
+                    julia "Я еще не готова, Миссис Бакфетт..."
+                    julia "..."
+                    julia "Я все еще не могу поверить в то, что это правда..."
+                    imgd 30904
+                    m "Юлия, ты мне не веришь, милая?"
+                    julia "Конечно, верю!"
+                    julia "Просто..."
+                    julia "Мне нужно еще немного времени..."
+                    music Power_Bots_Loop
+                    imgf 30900
+                    mt "Да она издевается!"
+                    mt "Что мне еще сделать, чтобы она перестала ломаться?!"
+                    mt "!!!"
+                    return True
+                "Уйти.":
+                    return True
+    return True
+
+label ep213_dialogues5_julia_9b:
+    menu:
+        "Ты сегодня идешь на работу?" if week_day != 7:
+            imgf 30897
+            m "Милая, ты сегодня идешь на работу?"
+            julia "Да, конечно, Миссис Бакфетт."
+            julia "У меня сегодня очень много работы."
+            music Stealth_Groover
+            imgd 30898
+            mt "Какая отличная новость!"
+            mt "Если я не пойду сегодня в офис..."
+            mt "То смогу провести целый день без этой дурочки и ее мерзких приставаний!"
+            # Юлия обиженно говрит
+            music Groove2_85
+            imgf 30899
+            julia "Миссис Бакфетт, а почему мы с Вами больше никуда не ходим?"
+            julia "Только на работу и домой. И все."
+            julia "Почему бы нам не сходить хотя бы в то кафе, где мы ужинали с Вами."
+            # Моника недовольна
+            music Power_Bots_Loop
+            imgd 30900
+            mt "Потому что я не собираюсть тратить свои деньги на ТЕБЯ!"
+            mt "!!!"
+            music Groove2_85
+            imgf 30901
+            m "Мы как-нибудь выберем время и сходим туда, милая..."
+            julia "Правда?! Это будет здорово!"
+            julia "Я очень хочу еще раз поужинать в этом кафе с Вами!"
+            imgd 30900
+            mt "И чего эта дурочка так радуется?!"
+            mt "Отвратительная забегаловка!"
+            mt "Мне снова придется сидеть и смотреть, как она ест..."
+            mt "И слушать ее глупую и никому неинтересную болтовню!"
+            mt "!!!"
+            menu:
+                "Помнишь, ты как-то говорила, что хочешь уехать из страны?":
+                    music Hidden_Agenda
+                    imgf 30856
+                    m "Милая, мне так нравится жить с тобой вместе."
+                    julia "Мне тоже очень хорошо с Вами, Миссис Бакфетт!"
+                    m "Помнишь, ты говорила, что хочешь уехать вместе со мной из страны?"
+                    julia "Да, Миссис Бакфетт. Я мечтаю об этом!"
+                    # Моника воодушевленно
+                    imgd 30902
+                    m "Милая, мне кажется, что уже пришло время осуществить эту твою мечту..."
+                    m "Ты не хочешь позвонить своему дяде и договориться с ним о документах для меня?"
+                    # Юлия мнется
+                    music Groove2_85
+                    imgf 30903
+                    julia "Я..."
+                    julia "Я еще не готова, Миссис Бакфетт..."
+                    julia "..."
+                    julia "Я все еще не могу поверить в то, что это правда..."
+                    imgd 30904
+                    m "Юлия, ты мне не веришь, милая?"
+                    julia "Конечно, верю!"
+                    julia "Просто..."
+                    julia "Мне нужно еще немного времени..."
+                    music Power_Bots_Loop
+                    imgf 30900
+                    mt "Да она издевается!"
+                    mt "Что мне еще сделать, чтобы она перестала ломаться?!"
+                    mt "!!!"
+                "Уйти.":
+                    return False
+
+
+        "Помнишь, ты как-то говорила, что хочешь уехать из страны?" if week_day == 7:
+            music Hidden_Agenda
+            imgf 30856
+            m "Милая, мне так нравится жить с тобой вместе."
+            julia "Мне тоже очень хорошо с Вами, Миссис Бакфетт!"
+            m "Помнишь, ты говорила, что хочешь уехать вместе со мной из страны?"
+            julia "Да, Миссис Бакфетт. Я мечтаю об этом!"
+            # Моника воодушевленно
+            imgd 30902
+            m "Милая, мне кажется, что уже пришло время осуществить эту твою мечту..."
+            m "Ты не хочешь позвонить своему дяде и договориться с ним о документах для меня?"
+            # Юлия мнется
+            music Groove2_85
+            imgf 30903
+            julia "Я..."
+            julia "Я еще не готова, Миссис Бакфетт..."
+            julia "..."
+            julia "Я все еще не могу поверить в то, что это правда..."
+            imgd 30904
+            m "Юлия, ты мне не веришь, милая?"
+            julia "Конечно, верю!"
+            julia "Просто..."
+            julia "Мне нужно еще немного времени..."
+            music Power_Bots_Loop
+            imgf 30900
+            mt "Да она издевается!"
+            mt "Что мне еще сделать, чтобы она перестала ломаться?!"
+            mt "!!!"
+        "Уйти.":
+            return False
+    return True
 
 # при клике на ванную
 label ep213_dialogues5_julia_10:
@@ -2669,7 +2834,8 @@ label ep213_dialogues5_julia_10:
             # Юлия довольно улыбается
             # Моника выходит из душа
             music2 stop
-            return
+            call ep213_quests_julia18_progress(7, True)
+            return True
         "Уйти из ванной комнаты.":
             music Groove2_85
             imgf 30907
@@ -2677,7 +2843,8 @@ label ep213_dialogues5_julia_10:
             mt "!!!"
             # выходит
             music2 stop
-            return
+            call ep213_quests_julia18_progress(7, False)
+            return False
     return
 
 
@@ -2761,6 +2928,7 @@ label ep213_dialogues5_julia_10a:
                     m "К тому же..."
                     m "Я себя не очень хорошо чувствую, устала очень."
                     # Моника выходит
+                    call ep213_quests_julia18_progress(8, False)
                     return
                 "Подыграть Юлии.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory21 = True # Моника согласилась на золотой дождь
@@ -2838,6 +3006,7 @@ label ep213_dialogues5_julia_10a:
                     m "Нет..."
                     m "Я пока не готова к такому, милая."
                     # Моника выходит
+                    call ep213_quests_julia18_progress(8, False)
                     return
                 "Открыть рот.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory22 = True # Моника открыла рот для золотого дождя
@@ -2923,6 +3092,7 @@ label ep213_dialogues5_julia_10a:
             mt "Моника! Да что с тобой такое происходит?!"
             mt "Как ТЫ могла согласиться на подобное?!"
             mt "АААААА!!!!!"
+            call ep213_quests_julia18_progress(8, True)
             return
         "Уйти из ванной комнаты.":
             music Groove2_85
@@ -2931,6 +3101,7 @@ label ep213_dialogues5_julia_10a:
             m "Нет-нет, милая."
             m "!!!"
             m "Я зайду позже."
+            call ep213_quests_julia18_progress(8, False)
             # выходит
             return
     return
@@ -3146,6 +3317,7 @@ label ep213_dialogues5_julia_10b:
     mt "Как такие гадкие вещи могут приносить удовольствие?!"
     mt "?!?!?!"
     music2 stop
+    call ep213_quests_julia18_progress(9, True)
     return
 
 
@@ -3190,6 +3362,7 @@ label ep213_dialogues5_julia_11:
             mt "Бесит!"
             mt "!!!"
             # Моника закрывает глаза
+            call ep213_quests_julia18_progress(10, False)
             return
         "Поцеловать Юлию.":  # уровень отношений повышается
             $ monicaJuliaLoveStory23 = True # Моника целует Юлию перед сном
@@ -3234,6 +3407,7 @@ label ep213_dialogues5_julia_11:
                     mt "Бесит!"
                     mt "!!!"
                     # Моника закрывает глаза
+                    call ep213_quests_julia18_progress(10, False)
                     return
                 "Приласкать ее киску.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory24 = True # Моника ласкает Юлию перед сном
@@ -3296,6 +3470,7 @@ label ep213_dialogues5_julia_11:
                             mt "Бесит!"
                             mt "!!!"
                             # Моника закрывает глаза
+                            call ep213_quests_julia18_progress(10, False)
                             return
                         "Засунуть в нее дилдо.":  # уровень отношений повышается
                             # Лежат целуются, одеяло скинуто (висит на ступнях)
@@ -3395,6 +3570,7 @@ label ep213_dialogues5_julia_11:
                             m "Спокойной ночи, милая..."
                             mt "Бесишь меня!"
                             mt "!!!"
+                            call ep213_quests_julia18_progress(10, True)
                             return
     return
 
@@ -3573,7 +3749,7 @@ label ep213_dialogues5_julia_15d:
     return
 label ep213_dialogues5_julia_15e:
     # вышла из дома, когда Юлия спала
-    if ep213_dialogues5_julia_15e_day != day:
+    if ep213_dialogues5_julia_15e_day != day and get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
         mt "Наконец-то, я могу побыть одна."
         mt "Без этой назойливой дурочки."
         mt "Как же она меня раздражает!"

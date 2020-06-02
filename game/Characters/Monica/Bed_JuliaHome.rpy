@@ -51,7 +51,13 @@ label juliahome_bed_take_nap1:
 
 label juliahome_bed_gosleep:
     $ juliaHomeNapSuffixStored = juliaHomeLivingRoomMonicaSuffix
-    $ juliaHomeLivingRoomMonicaSuffix = 4
+    $ juliaHomeNapJuliaSuffixStored = juliaHomeLivingRoomJuliaSuffix
+    if get_active_objects("Julia", scene="juliahome_livingroom") != False:
+        $ juliaHomeLivingRoomMonicaSuffix = 1
+        $ juliaHomeLivingRoomJuliaSuffix = 1
+    else:
+        $ juliaHomeLivingRoomMonicaSuffix = 4
+
     $ set_active("Bed1", False)
     $ autorun_to_object("juliahome_bed_gosleep1")
     call refresh_scene("Dissolve_05")
@@ -66,13 +72,21 @@ label juliahome_bed_gosleep1:
             "Я ХОЧУ ЕСТЬ!!!"
             $ set_active("Bed1", True)
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
+            $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
             call refresh_scene_fade()
             return False
 
         else:
             mt "Я сегодня ничего не ела! Лечь спать голодной?"
 
+
+label juliahome_bed_gosleep1_loop1:
     menu:
+        "Поцелуй перед сном." if juliahome_evening_sleep_event_active == True and get_active_objects("Julia", scene="juliahome_livingroom") != False:
+            call ep213_quests_julia19_evening_scene()
+            call juliahome_bed_gosleep2()
+            return
+
         "Лечь спать." if monicaEatedLastDay == day:
             call juliahome_bed_gosleep2()
             return
@@ -110,6 +124,7 @@ label juliahome_bed_gosleep1:
                     return False
         "Не ложиться.":
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
+            $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
             $ set_active("Bed1", True)
             call refresh_scene_fade()
             return False
@@ -125,6 +140,7 @@ label juliahome_bed_gosleep2:
 #    $ set_active("Bed1", True)
     if _return == False:
         $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
+        $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
         call refresh_scene_fade()
         return False
     $ juliaHomeLivingRoomMonicaSuffix = 1

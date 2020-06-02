@@ -106,6 +106,11 @@ init python:
         sound_exec(cleanSound)
         return
 
+    def check_julia_progress(progress_amount):
+        if char_info.has_key("Julia") and char_info["Julia"]["level"] == 7 and char_info["Julia"]["current_progress"] >= progress_amount:
+            return True
+        return False
+
 label mycopytext_label(txt):
     $ mycopytext(txt)
     return

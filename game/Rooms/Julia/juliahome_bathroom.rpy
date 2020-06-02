@@ -1,5 +1,5 @@
 default juliaHomeBathroomMonicaSuffix = 1
-default juliaHomeBathroomJuliaSuffix = 1
+default juliaHomeBathroomJuliaSuffix = 2
 
 default juliaHomeBathroomSceneSuffix = ""
 label juliahome_bathroom:
@@ -11,6 +11,17 @@ label juliahome_bathroom:
         $ juliaHomeBathroomMonicaSuffix = 1
 
     $ scene_image = "scene_JuliaHome_Bathroom[juliaHomeBathroomSceneSuffix]"
+
+    if get_active_objects("Julia", scene="juliahome_bathroom") != False and juliaHomeBathroomJuliaSuffix == 1:
+        $ set_active("Shower", False)
+        sound2 snd_shower
+    else:
+        $ set_active("Shower", True)
+
+    if get_active_objects("Julia", scene="juliahome_bathroom") != False and juliaHomeBathroomJuliaSuffix == 2:
+        $ set_active("Toilet", False)
+    else:
+        $ set_active("Toilet", True)
 
     if day_time == "day":
         music Stealth_Groover

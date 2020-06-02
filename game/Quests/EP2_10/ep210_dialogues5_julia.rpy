@@ -4,7 +4,7 @@ label ep210_julia_dialogue1:
     menu:
         "Поцеловать Юлию" if day_time == "day" and ep210_julia_kissed_day_day != day:
             return 1
-        "Сделать Юлии массаж." if char_info["Julia"]["level"] >= 4 and ep210_julia_massage_day != day:
+        "Сделать Юлии массаж." if char_info["Julia"]["level"] >= 4 and ep210_julia_massage_day != day and char_info["Julia"]["level"] < 7:
             return 3
         "Сделать Юлии массаж. (требуется ур.4) (disabled)" if char_info["Julia"]["level"] < 4:
             pass

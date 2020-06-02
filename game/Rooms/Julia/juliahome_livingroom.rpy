@@ -7,13 +7,16 @@ label juliahome_livingroom:
     $ print "enter_juliahome_livingroom"
     $ miniMapData = []
     call miniMapJuliaHomeGenerate()
-    
+
     $ scene_image = "scene_JuliaHome_LivingRoom[day_suffix][juliaHomeLivingRoomSceneSuffix]"
 
+    if juliaHomeLivingRoomJuliaSuffix != 1 and juliaHomeLivingRoomJuliaSuffix != 2 and juliaHomeLivingRoomMonicaSuffix != 1 and juliaHomeLivingRoomMonicaSuffix != 4:
+        $ set_active("Bed1", True)
+
     if day_time == "day":
-        music Groove2_85
+        music Mandeville
     else:
-        music Groove2_85
+        music street13_ambulance
     return
 
 label juliahome_livingroom_init:

@@ -6,8 +6,13 @@ label juliahome_kitchen:
     $ print "enter_juliahome_kitchen"
     $ miniMapData = []
     call miniMapJuliaHomeGenerate()
-    
+
     $ scene_image = "scene_JuliaHome_Kitchen[juliaHomeKitchenSceneSuffix]"
+
+    if get_active_objects("Julia", scene="juliahome_livingroom") != False and juliaHomeLivingRoomJuliaSuffix != 1 and juliaHomeLivingRoomJuliaSuffix != 2:
+        $ set_active("Julia", True, scene="juliahome_kitchen")
+    else:
+        $ set_active("Julia", False, scene="juliahome_kitchen")
 
     if day_time == "day":
         music Stealth_Groover

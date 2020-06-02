@@ -120,6 +120,7 @@ label changeDayTime_evening_hooks_slums_apartments:
     if monica_cheats_hungry_enabled == False:
         $ monica_eated()
     $ remove_hook(label="day_time_temp")
+    call process_hooks("change_time_evening", "global")
     call process_hooks("change_time_evening_slums_apartments", "global") from _call_process_hooks_22b
     call process_hooks("change_time_evening_global", "global") from _rcall_process_hooks_5
     call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _call_process_hooks_23b
@@ -141,7 +142,7 @@ label changeDayTime_evening_hooks_juliahome:
     if monica_cheats_hungry_enabled == False:
         $ monica_eated()
     $ remove_hook(label="day_time_temp")
-    call process_hooks("change_time_evening_juliahome", "global")
+    call process_hooks("change_time_evening", "global")
     call process_hooks("change_time_evening_global", "global")
     call process_hooks("day_" + str(week_day) + "_evening", "global_week_day")
     call process_hooks("day_" + str(day) + "_evening", "global_day")
