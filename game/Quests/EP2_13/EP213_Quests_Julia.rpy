@@ -62,6 +62,7 @@ label ep213_quests_julia2: # Заходит вечером в дом
     $ add_hook("exit_scene", "ep213_quests_julia12_exit_livingroom", scene="juliahome_livingroom", label="juliahome_livingroom_exit")
     $ add_hook("before_open", "ep213_quests_julia13_enter_livingroom", scene="juliahome_livingroom", label="juliahome_livingroom_enter")
     $ add_hook("map_teleport", "ep213_quests_julia14_map_teleport", scene="global", label="juliahome_map_teleport", priority=10000)
+    $ add_hook("map_teleport_after", "ep213_quests_julia16_exit_house", scene="global", label="juliahome_map_teleport", priority=10000)
 
     call change_scene("juliahome_livingroom", "Fade_long", False)
     return False
@@ -102,6 +103,8 @@ label ep213_quests_julia5_exit_street: # Моника выходит на ули
 #    $ juliaHomeLivingRoomJuliaSuffix = 3
     if scene_name == "juliahome_kitchen":
         $ autorun_to_object("ep213_dialogues5_julia_15e", scene="street_juliahome")
+
+    call ep213_quests_julia17_life()
     call change_scene("street_juliahome", "Fade_long", "snd_door_close1")
     return False
 
@@ -201,16 +204,22 @@ label ep213_quests_julia13_enter_livingroom:
 
     return
 
-label ep213_quests_julia15_map_teleport_check_teleport_completed: # проверка на то, что мы телепортировались
-    $ remove_hook(label="juliahome_teleport_completed_check")
-    if check_scene_parent(scene_name, "street_juliahome") == True:
-        m "here1"
-        return
+label ep213_quests_julia14_map_teleport: # вызов перед уходом по карте
+    # переодеваем Монику назад
+    if lastSceneName == "juliahome_livingroom":
+        $ cloth = monica_juliahome_outside_cloth
+        $ cloth_type = monica_juliahome_outside_cloth_type
     return
-    call ep213_quests_julia16_exit_house()
-    return
-#
+
 
 label ep213_quests_julia16_exit_house: # Жизнь Юлии при выходе из дома
-#    m "julia life"
+    if previous_map_scene == "JuliaHome":
+        if check_scene_parent(scene_name, "street_juliahome") == True:
+            return
+        call ep213_quests_julia17_life()
+    return
+
+label ep213_quests_julia17_life:
+    if week_day != 7 and day_time != "evening":
+        $ move_object("Julia", "working_office_cabinet") # Юлия уходит на работу
     return

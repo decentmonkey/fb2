@@ -210,6 +210,7 @@ label process_drive_teleport(in_target_map_scene, in_target_scene):
         else:
             call start_drive_direct() from _rcall_start_drive_direct
     $ mapChangedFlag = True
+    call process_hooks("map_teleport_after", "global")
     return
 
 label process_drive_teleport_direct(in_target_map_scene, in_target_scene):
@@ -228,6 +229,7 @@ label process_drive_teleport_direct(in_target_map_scene, in_target_scene):
         return
     $ visitedPlaces[target_map_scene] = True
     $ mapChangedFlag = True
+    call process_hooks("map_teleport_after", "global")
     return
 label process_change_map_location(target_map_scene):
     $ map_objects["Teleport_" + map_scene]["state"] = "visible"

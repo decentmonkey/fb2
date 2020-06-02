@@ -24,6 +24,7 @@ default monicaJuliaLoveStory23 = False # Моника целует Юлию пе
 default monicaJuliaLoveStory24 = False # Моника ласкает Юлию перед сном
 default monicaJuliaLoveStory25 = False # Моника соглашается на дилдо перед сном
 
+default ep213_dialogues5_julia_15e_day = 0
 
 #call ep213_dialogues5_julia_1() # меню выбора действий с Юлией на работе днем
 #call ep213_dialogues5_julia_1a() # меню выбора действий на работе вечером
@@ -3572,10 +3573,12 @@ label ep213_dialogues5_julia_15d:
     return
 label ep213_dialogues5_julia_15e:
     # вышла из дома, когда Юлия спала
-    mt "Наконец-то, я могу побыть одна."
-    mt "Без этой назойливой дурочки."
-    mt "Как же она меня раздражает!"
-    mt "!!!"
+    if ep213_dialogues5_julia_15e_day != day:
+        mt "Наконец-то, я могу побыть одна."
+        mt "Без этой назойливой дурочки."
+        mt "Как же она меня раздражает!"
+        mt "!!!"
+        $ ep213_dialogues5_julia_15e_day = day
     return
 
 
