@@ -207,7 +207,7 @@ label ep213_quests_julia8_minimap_teleport: # Телепорт по миника
     if minimapTeleportButtonName == "JuliaHome_Kitchen":
         call change_scene("juliahome_kitchen", "Fade", "snd_walk_barefoot")
     if minimapTeleportButtonName == "JuliaHome_Bathroom":
-        call change_scene("JuliaHome_Bathroom", "Fade", "snd_walk_barefoot")
+        call change_scene("juliahome_bathroom", "Fade", "snd_walk_barefoot")
 
     call ep213_quests_julia20_check_julia_movement()
 
@@ -352,7 +352,7 @@ label ep213_quests_julia19_evening_scene: # вечерняя сцена
     return
 
 label ep213_quests_julia20_check_julia_movement:
-    if day_time == "evening" and get_active_objects("Julia", scene="juliahome_livingroom") != False and juliahome_julia_shower_day != day:
+    if day_time == "evening" and get_active_objects("Julia", scene="juliahome_livingroom") != False and juliahome_julia_shower_day != day and scene_name != "juliahome_livingroom":
         $ notif(t_("Юлия ушла в душ."))
         $ juliahome_julia_shower_day = day
         $ move_object("Julia", "juliahome_bathroom")

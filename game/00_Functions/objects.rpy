@@ -329,14 +329,21 @@ init python:
     def get_rooms_recursive_up(start_room):
         rooms_list = [start_room]
 #        parent = start_room
-        cnt = 1
-        while cnt > 0:
-            cnt = 0
-            for room_name in scenes_data["objects"]:
-                if scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True:
-                    if (scenes_data["objects"][room_name]["data"]["parent"] not in rooms_list):
-                        cnt = cnt + 1
-                        rooms_list.append(scenes_data["objects"][room_name]["data"]["parent"])
+        room_ptr = start_room
+        while scenes_data["objects"].has_key(room_ptr) and scenes_data["objects"][room_ptr].has_key("data") == True and scenes_data["objects"][room_ptr]["data"].has_key("parent") == True:
+            parent_room = scenes_data["objects"][room_ptr]["data"]["parent"]
+            if parent_room != "none":
+                rooms_list.append(parent_room)
+            room_ptr = parent_room
+
+#        cnt = 1
+#        while cnt > 0:
+#            cnt = 0
+#            for room_name in scenes_data["objects"]:
+#                if scenes_data["objects"][room_name].has_key("data") == True and scenes_data["objects"][room_name]["data"].has_key("parent") == True:
+#                    if (scenes_data["objects"][room_name]["data"]["parent"] not in rooms_list):
+#                        cnt = cnt + 1
+#                        rooms_list.append(scenes_data["objects"][room_name]["data"]["parent"])
 
         return rooms_list
 
