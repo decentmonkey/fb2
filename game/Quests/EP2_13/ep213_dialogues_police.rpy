@@ -941,8 +941,8 @@ label ep213_dialogues_police10:
 # Затем он перекладывается к ней. Моника против, но он настаивает. Ложится сзади, обнимая и член упирается Монике в попу.
     # заключенный ложится сзади Моники, приобнимая ее
     fadeblack
-    sound drkanje5
-    pause 1.5
+    sound snd_masturbation1
+    pause 2.0
     music Malicious
     imgfl 31204
     w

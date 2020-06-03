@@ -1369,29 +1369,41 @@ label ep213_dialogues3_pub_16:
     w
     imgf 31142
     customer9 "Как же охренительно хорошо!"
+    sound drkanje5
     imgd 31143
     w
+    sound drkanje5
     imgd 31144
     w
+    sound drkanje5
     imgd 31143
     w
+    sound drkanje5
     imgd 31144
     w
+    sound drkanje5
     imgd 31143
     w
+    sound drkanje5
     imgd 31144
     customer9 "Двигай ножками быстрее, детка!"
     music Loved_up2
+    sound drkanje5
     imgf 31145
     w
+    sound drkanje5
     imgd 31146
     w
+    sound drkanje5
     imgd 31145
     w
+    sound drkanje5
     imgd 31146
     w
+    sound drkanje5
     imgd 31145
     w
+    sound drkanje5
     img 31146
 #    sound bulk1
     show screen photoshot_screen()
@@ -1532,17 +1544,20 @@ label ep213_dialogues3_pub_16:
                 w
                 imgd 18351
                 w
+                sound highheels_short_walk
                 imgf 18352
                 w
                 imgd 18353
                 w
-                imgf 18354
+                fadeblack
+                music Loved_Up
+                imgfl 18354
                 joe "Ооооо!!! [monica_pub_name]!!!"
-                imgd 18355
+                imgf 18355
                 joe "Какая ты горячая!!!"
                 # кладет ладони ей на попу
                 # Моника перестает двигаться и рычит на него
-                imgf 18356
+                imgd 18356
                 m "Не прикасайся ко мне!!!"
                 m "!!!"
                 # Джо убирает руки

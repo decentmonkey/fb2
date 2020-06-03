@@ -56,7 +56,14 @@ default ep213_dialogues5_sleep_more_flag = False
 #call ep213_dialogues5_julia_15e() # мысли Моники, вышла из дома, когда Юлия спала
 
 
-
+# 1. "Массаж для Юлии"
+# 2. утренняя сцена в постели у Юлии дома (с постепенным раскрытием пунктов меню)
+# 3. "На рабочем столе Моники"
+# 4. при клике на ванную, в душе Юлия
+# 5. кухня, если не разбудить ее утром (с постепенным раскрытием пунктов меню)
+# 6. "На диване в комнате отдыха"
+# 7. в душ к Монике приходит Юлия
+# 8. "Под столом Юлии"
 
 # уровень отношений с Юлией будет увеличиваться с каждым новым действием
 # при отказе Моники от какого-либо действия уровень отнимается
@@ -198,7 +205,7 @@ label ep213_dialogues5_julia_2:
     imgd 30595
     julia "Миссис Бакфетт, у Вас такие нежные руки..."
     mt "И?"
-    sound vjuh3
+    sound grabbing9
     imgd 30596
     julia "Я так хочу, чтобы Вы прикоснулись ко мне... здесь."
     julia "Хочу, чтобы Вы взяли мои груди в свои ладони и..."
@@ -294,30 +301,8 @@ label ep213_dialogues5_julia_2:
     w
     imgd 30612
     w
-    imgd 30611
-    w
-    imgd 30612
-    w
-    imgd 30611
-    w
-    imgd 30612
-    w
-    imgd 30611
-    w
     imgf 30621
     julia "Оооо..."
-    w
-    imgd 30613
-    w
-    imgd 30614
-    w
-    imgd 30613
-    w
-    imgd 30614
-    w
-    imgd 30613
-    w
-    imgd 30614
     w
     imgd 30613
     w
@@ -845,28 +830,22 @@ label ep213_dialogues5_julia_4:
     imgd 30680
     mt "Это щекотно... Но приятно..."
     mt "Особенно, когда она вот так делает языком."
+    sound lick3
     imgf 30681
     w
+    sound lick3
     imgd 30682
     w
+    sound lick3
     imgd 30681
     w
+    sound lick3
     imgd 30682
     w
+    sound lick3
     imgd 30681
     w
-    imgd 30682
-    w
-    imgd 30681
-    w
-    imgd 30682
-    w
-    imgd 30681
-    w
-    imgd 30682
-    w
-    imgd 30681
-    w
+    sound lick3
     imgd 30682
     m "Аааах..."
     imgf 30683
@@ -1137,30 +1116,24 @@ label ep213_dialogues5_julia_5:
     w
     imgd 30717
     w
+    sound lick3
     imgf 30718
     julia "ММММММММ!"
     w
+    sound lick3
     imgd 30719
     julia "Еще!!"
     w
+    sound lick3
     imgd 30718
     w
+    sound lick3
     imgd 30719
     w
+    sound lick3
     imgd 30718
     w
-    imgd 30719
-    w
-    imgd 30718
-    w
-    imgd 30719
-    w
-    imgd 30718
-    w
-    imgd 30719
-    w
-    imgd 30718
-    w
+    sound lick3
     imgd 30719
     w
     fadeblack
@@ -1237,27 +1210,25 @@ label ep213_dialogues5_julia_5:
     music Loved_Up
     imgfl 30732
     julia "О-о-о-о..."
+    sound lick3
     imgd 30733
     w
+    sound lick3
     imgd 30734
     w
+    sound lick3
     imgd 30733
     w
+    sound lick3
     imgd 30734
     w
+    sound lick3
     imgd 30733
     w
+    sound lick3
     imgd 30734
     w
-    imgd 30733
-    w
-    imgd 30734
-    w
-    music Loved_up2
-    imgd 30733
-    w
-    imgd 30734
-    w
+    sound lick3
     imgd 30733
     julia "О, дааааа!!!"
     # кончает
@@ -1451,40 +1422,23 @@ label ep213_dialogues5_julia_6:
     w
     imgd 30762
     w
-    imgd 30761
-    w
-    imgd 30762
-    w
-    imgd 30761
-    w
-    imgd 30762
-    w
     imgf 30766
     julia "Ох..."
     julia "Ммммм!"
     # потом вводит палец или два в ее дырочку
     imgd 30763
     w
+    sound chpok3
     imgd 30764
     w
     imgd 30765
     w
+    sound chpok3
     imgd 30764
     w
     imgd 30765
     w
-    imgd 30764
-    w
-    imgd 30765
-    w
-    imgd 30764
-    w
-    imgd 30765
-    w
-    imgd 30764
-    w
-    imgd 30765
-    w
+    sound chpok3
     imgd 30764
     w
     imgd 30765
@@ -1500,24 +1454,22 @@ label ep213_dialogues5_julia_6:
     w
     imgd 30770
     julia "А-а-а-а!!!"
+    sound lick3
     imgf 30771
     w
+    sound lick3
     imgd 30772
     w
+    sound lick3
     imgd 30771
     w
+    sound lick3
     imgd 30772
     w
+    sound lick3
     imgd 30771
     w
-    imgd 30772
-    w
-    imgd 30771
-    w
-    imgd 30772
-    w
-    imgd 30771
-    w
+    sound lick3
     imgd 30772
     w
     imgf 30773
@@ -1911,20 +1863,8 @@ label ep213_dialogues5_julia_8:
                                     w
                                     imgd 30823
                                     w
-                                    imgd 30822
-                                    w
-                                    imgd 30823
-                                    w
                                     imgf 30824
                                     julia "Аааа..."
-                                    w
-                                    imgd 30822
-                                    w
-                                    imgd 30823
-                                    w
-                                    imgd 30822
-                                    w
-                                    imgd 30823
                                     w
                                     imgd 30822
                                     w
@@ -1978,53 +1918,41 @@ label ep213_dialogues5_julia_8:
                                             w
                                             imgf 30830
                                             julia "М-миссис Бак-кфетт..."
+                                            sound lick3
                                             imgd 30831
                                             w
+                                            sound lick3
                                             imgd 30832
                                             w
+                                            sound lick3
                                             imgd 30831
                                             w
+                                            sound lick3
                                             imgd 30832
                                             w
+                                            sound lick3
                                             imgd 30831
                                             w
+                                            sound lick3
                                             imgd 30832
                                             julia "Только не останавливайтесь..."
-                                            imgf 30831
-                                            w
-                                            imgd 30832
-                                            w
-                                            imgd 30831
-                                            w
-                                            imgd 30832
-                                            w
-                                            imgd 30831
-                                            w
-                                            imgd 30832
                                             julia "Пож-жалустаааа..."
                                             music Loved_up2
                                             imgf 30833
                                             w
+                                            sound lick3
                                             imgd 30834
                                             julia "О-о-о-о..."
+                                            sound lick3
                                             imgd 30833
                                             w
+                                            sound lick3
                                             imgd 30834
                                             w
+                                            sound lick3
                                             imgd 30833
                                             w
-                                            imgd 30834
-                                            w
-                                            imgd 30833
-                                            w
-                                            imgd 30834
-                                            w
-                                            imgd 30833
-                                            w
-                                            imgd 30834
-                                            w
-                                            imgd 30833
-                                            w
+                                            sound lick3
                                             imgd 30834
                                             julia "О, дааааа!!!"
                                             # кончает
@@ -2220,48 +2148,45 @@ label ep213_dialogues5_julia_9:
                     julia "М-миссис Бак-кфетт..."
                     imgd 30865
                     w
+                    sound chpok3
                     imgf 30866
                     julia "Только не останавливайтесь..."
+                    sound lick3
                     imgd 30867
                     w
+                    sound lick3
                     imgd 30866
                     w
+                    sound lick3
                     imgd 30867
                     julia "Пож-жалустаааа..."
                     w
-                    imgd 30866
-                    w
-                    imgd 30867
-                    w
-                    imgd 30866
-                    w
-                    imgd 30867
-                    w
+                    sound lick3
                     imgd 30866
                     w
                     music Loved_up2
+                    sound lick3
                     imgd 30867
                     w
+                    sound lick3
                     imgd 30868
                     w
+                    sound lick3
                     imgd 30867
                     w
+                    sound lick3
                     imgd 30868
                     w
+                    sound lick3
                     imgd 30867
                     w
+                    sound lick3
                     imgd 30868
                     w
+                    sound lick3
                     imgd 30867
                     w
-                    imgd 30868
-                    w
-                    imgd 30867
-                    w
-                    imgd 30868
-                    w
-                    imgd 30867
-                    w
+                    sound lick3
                     imgd 30866
                     w
                     img 30869
@@ -2368,50 +2293,42 @@ label ep213_dialogues5_julia_9:
                             imgd 30888
                             mt "!!!"
                             mt "!!!!!!"
+                            sound lick3
                             imgf 30889
                             w
+                            sound lick3
                             imgd 30890
                             w
+                            sound lick3
                             imgd 30889
                             w
+                            sound lick3
                             imgd 30890
                             w
+                            sound lick3
                             imgd 30889
                             w
-                            imgd 30890
-                            w
-                            imgd 30889
-                            w
-                            imgd 30890
-                            w
-                            imgd 30889
-                            w
+                            sound lick3
                             imgd 30890
                             w
                             imgf 30891
                             julia "МММММММ!!!"
+                            sound lick3
                             imgd 30892
                             w
+                            sound lick3
                             imgd 30893
                             w
+                            sound lick3
                             imgd 30892
                             w
+                            sound lick3
                             imgd 30893
                             w
+                            sound lick3
                             imgd 30892
                             w
-                            imgd 30893
-                            w
-                            imgd 30892
-                            w
-                            imgd 30893
-                            w
-                            imgd 30892
-                            w
-                            imgd 30893
-                            w
-                            imgd 30892
-                            w
+                            sound lick3
                             img 30893
                             show screen photoshot_screen()
                             with hpunch
@@ -2673,7 +2590,7 @@ label ep213_dialogues5_julia_10:
     sound snd_walk_barefoot
     pause 1.0
     music Groove2_85
-    music2 snd_shower
+    music2 snd_shower3
 
     imgfl 30905
     w
@@ -2780,24 +2697,22 @@ label ep213_dialogues5_julia_10:
             w
             imgf 30933
             w
+            sound lick3
             imgd 30934
             w
+            sound lick3
             imgd 30935
             w
+            sound lick3
             imgd 30934
             w
+            sound lick3
             imgd 30935
             w
+            sound lick3
             imgd 30934
             w
-            imgd 30935
-            w
-            imgd 30934
-            w
-            imgd 30935
-            w
-            imgd 30934
-            w
+            sound lick3
             imgd 30935
             julia "Ммммм..."
             imgf 30936
@@ -3113,7 +3028,7 @@ label ep213_dialogues5_julia_10b:
     sound snd_walk_barefoot
     pause 1.0
     music Groove2_85
-    music2 snd_shower
+    music2 snd_shower3
     imgfl 30942
     w
     imgf 30943
@@ -3253,34 +3168,32 @@ label ep213_dialogues5_julia_10b:
     w
     imgd 30976
     julia "Мммммм..."
+    sound lick3
     imgf 30977
     w
     imgd 30978
     w
+    sound lick3
     imgd 30979
     w
     imgd 30978
     w
+    sound lick3
     imgd 30977
     w
     imgd 30978
     w
+    sound lick3
     imgd 30979
     w
     imgd 30978
     w
+    sound lick3
     imgd 30977
     w
     imgd 30978
     w
-    imgd 30979
-    w
-    imgd 30978
-    w
-    imgd 30977
-    w
-    imgd 30978
-    w
+    sound lick3
     imgd 30979
     w
     imgf 30980
@@ -3495,7 +3408,8 @@ label ep213_dialogues5_julia_11:
                             w
                             imgd 31063
                             w
-                            imgd 31064
+                            sound chpok3
+                            img 31064 hpunch
                             w
                             imgf 31065
                             julia "О-о-о-о..."
@@ -3510,26 +3424,22 @@ label ep213_dialogues5_julia_11:
                             julia "М-миссис Бак-кфетт..."
                             imgd 31071
                             w
+                            sound chpok3
                             imgf 31070
                             julia "Еще! Еще-о-о-о..."
                             imgd 31069
                             w
+                            sound chpok3
                             imgd 31070
                             julia "Быстрее!"
                             imgd 31069
                             w
+                            sound chpok3
                             imgd 31070
                             w
                             imgd 31069
                             w
-                            imgd 31070
-                            w
-                            imgd 31069
-                            w
-                            imgd 31070
-                            w
-                            imgd 31069
-                            w
+                            sound chpok3
                             imgd 31070
                             julia "Быстрее!!"
                             img 31072
@@ -3726,7 +3636,7 @@ label ep213_dialogues5_julia_15c:
     return
 label ep213_dialogues5_julia_15c2:
     # в ванной комнате, душ
-    music snd_shower
+    music snd_shower3
     imgf 31044
     mt "Наконец-то, я могу помыться в нормальном душе."
     imgf 31045

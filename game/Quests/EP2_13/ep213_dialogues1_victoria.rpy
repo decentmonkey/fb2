@@ -1616,10 +1616,13 @@ label ep213_dialogues1_victoria_13:
     melanie "!!!!!"
     imgd 17916
     m "?!?!?!"
-
     # Мелани снимает сапог с ноги Виктории, с правой!
     imgd 17917
     melanie "..."
+
+    fadeblack
+    sound snd_found_dress
+    pause 2.0
     music Groove2_85
     imgf 17918
     victoria "Я разрешаю подружке Мелани взять в рот мой пальчик."
@@ -1645,7 +1648,7 @@ label ep213_dialogues1_victoria_13:
 
     # Мелани одевает сапог и снимает с другой ноги
     # Берет палец на другой ноге
-
+    sound snd_fabric1
     imgd 17923
     w
     imgf 17924
@@ -1653,6 +1656,8 @@ label ep213_dialogues1_victoria_13:
     imgd 17925
     w
     fadeblack
+    sound snd_found_dress
+    pause 2.0
     music Groove2_85
     # пока Мелани держит во рту палец Виктории, она говорит Мелани
     imgfl 17926
@@ -1684,26 +1689,17 @@ label ep213_dialogues1_victoria_13:
     imgf 17932
     victoria "Для этого я хочу дать совет своей подружке Мелани."
     victoria "Я знаю, что она прислушается к моим словам."
+    sound lick3
     imgd 17933
     w
     imgd 17934
     w
+    sound lick3
     imgd 17933
     w
     imgd 17934
     w
-    imgd 17933
-    w
-    imgd 17934
-    w
-    imgd 17933
-    w
-    imgd 17934
-    w
-    imgd 17933
-    w
-    imgd 17934
-    w
+    sound lick3
     imgd 17933
     w
     imgd 17934
