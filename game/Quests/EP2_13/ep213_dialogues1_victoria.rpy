@@ -1704,6 +1704,11 @@ label ep213_dialogues1_victoria_13:
     w
     imgd 17934
     w
+    sound lick3
+    imgd 17933
+    w
+    imgd 17934
+    w
     imgf 17935
     victoria "Я советую своей подружке Мелани пригласить Алекса к себе домой на свидание..."
     victoria "Признаться в своих чувствах..."

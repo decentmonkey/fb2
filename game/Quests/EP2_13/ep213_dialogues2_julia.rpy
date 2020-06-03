@@ -303,8 +303,16 @@ label ep213_dialogues5_julia_2:
     w
     imgd 30612
     w
+    imgd 30611
+    w
+    imgd 30612
+    w
     imgf 30621
     julia "Оооо..."
+    w
+    imgd 30613
+    w
+    imgd 30614
     w
     imgd 30613
     w
@@ -849,6 +857,12 @@ label ep213_dialogues5_julia_4:
     w
     sound lick3
     imgd 30682
+    w
+    sound lick3
+    imgd 30681
+    w
+    sound lick3
+    imgd 30682
     m "Аааах..."
     imgf 30683
     mt "О, Боже!"
@@ -1138,6 +1152,12 @@ label ep213_dialogues5_julia_5:
     sound lick3
     imgd 30719
     w
+    sound lick3
+    imgd 30718
+    w
+    sound lick3
+    imgd 30719
+    w
     fadeblack
     sound snd_door_open1
     pause 1.0
@@ -1212,6 +1232,12 @@ label ep213_dialogues5_julia_5:
     music Loved_Up
     imgfl 30732
     julia "О-о-о-о..."
+    sound lick3
+    imgd 30733
+    w
+    sound lick3
+    imgd 30734
+    w
     sound lick3
     imgd 30733
     w
@@ -1424,11 +1450,20 @@ label ep213_dialogues5_julia_6:
     w
     imgd 30762
     w
+    imgd 30761
+    w
+    imgd 30762
+    w
     imgf 30766
     julia "Ох..."
     julia "Ммммм!"
     # потом вводит палец или два в ее дырочку
     imgd 30763
+    w
+    sound chpok3
+    imgd 30764
+    w
+    imgd 30765
     w
     sound chpok3
     imgd 30764
@@ -1458,6 +1493,12 @@ label ep213_dialogues5_julia_6:
     julia "А-а-а-а!!!"
     sound lick3
     imgf 30771
+    w
+    sound lick3
+    imgd 30772
+    w
+    sound lick3
+    imgd 30771
     w
     sound lick3
     imgd 30772
@@ -1942,6 +1983,12 @@ label ep213_dialogues5_julia_8:
                                             w
                                             sound lick3
                                             imgd 30832
+                                            w
+                                            sound lick3
+                                            imgd 30831
+                                            w
+                                            sound lick3
+                                            imgd 30832
                                             julia "Только не останавливайтесь..."
                                             julia "Пож-жалустаааа..."
                                             music Loved_up2
@@ -1950,6 +1997,12 @@ label ep213_dialogues5_julia_8:
                                             sound lick3
                                             imgd 30834
                                             julia "О-о-о-о..."
+                                            sound lick3
+                                            imgd 30833
+                                            w
+                                            sound lick3
+                                            imgd 30834
+                                            w
                                             sound lick3
                                             imgd 30833
                                             w
@@ -2169,12 +2222,24 @@ label ep213_dialogues5_julia_9:
                     w
                     sound lick3
                     imgd 30867
+                    w
+                    sound lick3
+                    imgd 30866
+                    w
+                    sound lick3
+                    imgd 30867
                     julia "Пож-жалустаааа..."
                     w
                     sound lick3
                     imgd 30866
                     w
                     music Loved_up2
+                    sound lick3
+                    imgd 30867
+                    w
+                    sound lick3
+                    imgd 30868
+                    w
                     sound lick3
                     imgd 30867
                     w
@@ -2323,8 +2388,20 @@ label ep213_dialogues5_julia_9:
                             sound lick3
                             imgd 30890
                             w
+                            sound lick3
+                            imgd 30889
+                            w
+                            sound lick3
+                            imgd 30890
+                            w
                             imgf 30891
                             julia "МММММММ!!!"
+                            sound lick3
+                            imgd 30892
+                            w
+                            sound lick3
+                            imgd 30893
+                            w
                             sound lick3
                             imgd 30892
                             w
@@ -2709,6 +2786,12 @@ label ep213_dialogues5_julia_10:
             imgd 30932
             w
             imgf 30933
+            w
+            sound lick3
+            imgd 30934
+            w
+            sound lick3
+            imgd 30935
             w
             sound lick3
             imgd 30934
@@ -3453,6 +3536,11 @@ label ep213_dialogues5_julia_11:
                             sound chpok3
                             imgd 31070
                             julia "Быстрее!"
+                            imgd 31069
+                            w
+                            sound chpok3
+                            imgd 31070
+                            w
                             imgd 31069
                             w
                             sound chpok3

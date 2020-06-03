@@ -1108,6 +1108,12 @@ label ep213_dialogues2_escort_6:
     sound drkanje5
     imgd 18149
     w
+    sound drkanje5
+    imgd 18148
+    w
+    sound drkanje5
+    imgd 18149
+    w
     investor3 "Нравится тебе, шлюшка?"
     investor3 "Хочешь его?"
     investor3 "Смотри, какой он твердый..."

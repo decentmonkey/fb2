@@ -1386,10 +1386,22 @@ label ep213_dialogues3_pub_16:
     w
     sound drkanje5
     imgd 31144
+    w
+    sound drkanje5
+    imgd 31143
+    w
+    sound drkanje5
+    imgd 31144
     customer9 "Двигай ножками быстрее, детка!"
     music Loved_up2
     sound drkanje5
     imgf 31145
+    w
+    sound drkanje5
+    imgd 31146
+    w
+    sound drkanje5
+    imgd 31145
     w
     sound drkanje5
     imgd 31146
