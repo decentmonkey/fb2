@@ -1,3 +1,38 @@
+#v0.13
+define juliaMonicaRelationshipRequiredScene1 = 0 # Массаж для Юлии. 0 : +10
+define juliaMonicaRelationshipRequiredScene2 = 10 # утро с Юлией, Приласкать ее грудь. 10 : +3
+define juliaMonicaRelationshipRequiredScene5 = 10 # кухня, Поцеловать Юлию. 10 : +3
+define juliaMonicaRelationshipRequiredScene8 = 10 # Вечером в постели с Юлией, Поцеловать Юлию. 10 : +3
+#+19
+define juliaMonicaRelationshipRequiredScene3 = 19 # На рабочем столе Моники. 19 : + 10
+#29
+
+define juliaMonicaRelationshipRequiredScene2b = 29 # утро с Юлией, Приласкать ее киску. +3
+define juliaMonicaRelationshipRequiredScene8b = 29 # Вечером в постели с Юлией, Приласкать ее киску. +3
+# 35
+
+define juliaMonicaRelationshipRequiredScene6 = 35 # На диване в комнате отдыха 35 : +10
+# 45
+
+define juliaMonicaRelationshipRequiredScene4 = 45 # при клике на ванную, в душе Юлия +10
+define juliaMonicaRelationshipRequiredScene5b = 45 # кухня, Продолжить ласкать Юлию. +3
+
+# 58
+define juliaMonicaRelationshipRequiredScene7 = 58 # Под столом Юлии + 10
+
+# 68
+
+define juliaMonicaRelationshipRequiredScene2c = 68 # утро с Юлией, Продолжить ласкать Юлию. +4
+define juliaMonicaRelationshipRequiredScene5c = 68 # кухня, Заняться сексом. +4
+define juliaMonicaRelationshipRequiredScene8c = 68 # Вечером в постели с Юлией, Засунуть в нее дилдо. +4
+
+# 80
+
+#12
+#define juliaMonicaRelationshipRequiredScene9 = 0
+#define juliaMonicaRelationshipRequiredScene10 = 0
+#define juliaMonicaRelationshipRequiredScene11 = 0
+
 #v0.12
 define philipThreesomeCorruptionRequired = 500 # За сцену со шлюхой 1 втроем
 define philipThreesomeCorruptionRequired2 = 590 # Чтобы взять член шлюхи1 в рот

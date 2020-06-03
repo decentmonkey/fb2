@@ -27,6 +27,7 @@ default lastNotifTime = 0
 default menu_corruption = []
 default menu_price = []
 default menu_bitchiness = []
+default menu_required = {}
 
 default hud_preset_current = "default"
 default hud_preset_default = "default"

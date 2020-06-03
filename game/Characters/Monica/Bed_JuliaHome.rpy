@@ -82,7 +82,7 @@ label juliahome_bed_gosleep1:
 
 label juliahome_bed_gosleep1_loop1:
     menu:
-        "Поцелуй перед сном." if juliahome_evening_sleep_event_active == True and get_active_objects("Julia", scene="juliahome_livingroom") != False:
+        "Поцелуй перед сном." if get_active_objects("Julia", scene="juliahome_livingroom") != False:
             call ep213_quests_julia19_evening_scene()
             call juliahome_bed_gosleep2()
             return

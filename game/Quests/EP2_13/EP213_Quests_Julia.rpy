@@ -9,7 +9,7 @@ default juliahome_evening_sleep_event_active = False
 default juliahome_julia_shower_day = 0
 default juliahome_work_action_day = 0
 default juliahome_work_action_evening_day = 0
-default julia_progress_list = [False, False, False, False, False, False, False, False, False, False, False]
+default julia_progress_list = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
 
 label ep213_quests_julia1: # Моника предлагает Юлии жить вместе
     call ep213_dialogues5_julia_16()
@@ -82,6 +82,29 @@ label ep213_quests_julia2: # Заходит вечером в дом
 
     $ questLog(74, True)
 
+    python:
+        menu_required["julia_work1"] = {
+            "Массаж для Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene1},
+            "На рабочем столе Моники.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene3},
+            "На диване в комнате отдыха.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene6},
+            "Под столом Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene7},
+            "В отделе отчетов.":{"name":"Julia", "level":7, "current_progress":0},
+            "Приласкать ее грудь.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2},
+            "Приласкать ее киску.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2b},
+            "Продолжить ласкать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2c},
+            "Поцеловать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5}
+        }
+
+        menu_required["julia_work2"] = {
+            "Продолжить ласкать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5b},
+            "Заняться сексом.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5c},
+            "Зайти в душ к Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene4},
+            "Поцеловать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8},
+            "Приласкать ее киску.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8b},
+            "Засунуть в нее дилдо.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8c}
+        }
+
+
     call change_scene("juliahome_livingroom", "Fade_long", False)
     return False
 
@@ -113,7 +136,7 @@ label ep213_quests_julia4_kitchen: # клик на кухню (еда)
     if act=="l":
         return
 
-    if get_active_objects("Julia", scene="street_juliahome", recursive=True) != False and juliaHomeLivingRoomJuliaSuffix == 2: # Если Юлия дома и спит
+    if get_active_objects("Julia", scene="street_juliahome", recursive=True) != False and juliaHomeLivingRoomJuliaSuffix == 2 and week_day != 7: # Если Юлия дома и спит
         call ep213_dialogues5_julia_9()
         if _return != False:
             $ monica_eated()
@@ -279,6 +302,11 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
             call refresh_scene_fade()
             return False
 
+    if scene_name == "juliahome_livingroom" and juliaHomeLivingRoomJuliaSuffix == 3 and week_day == 7 and day_time != "evening":
+        call ep213_dialogues5_julia_12a()
+        $ move_object("Julia", "empty")
+        call refresh_scene_fade()
+        return False
     call ep213_dialogues5_julia_16a()
     return False
 
@@ -336,14 +364,14 @@ label ep213_quests_julia17_life_evening:
     return
 
 
-label ep213_quests_julia18_progress(scene_idx, status):
+label ep213_quests_julia18_progress(scene_idx, status, amount):
     python:
         if status != julia_progress_list[scene_idx]:
             julia_progress_list[scene_idx] = status
             if status == True:
-                add_char_progress("Julia", 10, "julia_relations_progress_idx_" + str(scene_idx), duplicate = True)
+                add_char_progress("Julia", amount, "julia_relations_progress_idx_" + str(scene_idx), duplicate = True)
             else:
-                add_char_progress("Julia", -10, "julia_relations_progress_idx_" + str(scene_idx), duplicate = True)
+                add_char_progress("Julia", -amount, "julia_relations_progress_idx_" + str(scene_idx), duplicate = True)
     return
 
 

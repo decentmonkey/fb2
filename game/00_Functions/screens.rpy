@@ -1724,6 +1724,26 @@ screen choice(items):
                                 button_obj["caption"] = str1
                                 button_obj["active"] = False
 
+                    if menuName != False and menu_required.has_key(menuName) and menu_required[menuName].has_key(imenu.caption):
+                        menuCellData = menu_required[menuName][imenu.caption]
+                        if menuCellData.has_key("level"):
+                            charData = char_info[menuCellData["name"]]
+                            if charData["level"] >= menuCellData["level"] and charData["current_progress"] >= menuCellData["current_progress"]:
+                                str1 = t__(imenu.caption)
+                                if menuCellData["current_progress"] > 0 and 1==2:
+                                    str1 = str1 + "  {color=#31e8b1} " + t_("Ур. отношений") + ": " + str(menuCellData["level"]) + ", " + t_("прогресс") + ": " + str(menuCellData["current_progress"]) + "/100 {/color}"
+                                else:
+                                    str1 = str1 + "  {color=#31e8b1} " + t_("Ур. отношений") + ": " + str(menuCellData["level"]) + " {/color}"
+                                button_obj["caption"] = str1
+                            else:
+                                str1 = t__(imenu.caption)
+                                if menuCellData["current_progress"] > 0:
+                                    str1 = str1 + "  {color=#880000} " + t_("Ур. отношений") + ": " + str(menuCellData["level"]) + ", " + t_("прогресс") + ": " + str(menuCellData["current_progress"]) + "/100 {/color}"
+                                else:
+                                    str1 = str1 + "  {color=#880000} " + t_("Ур. отношений") + ": " + str(menuCellData["level"]) + " {/color}"
+                                button_obj["caption"] = str1
+                                button_obj["active"] = False
+
 
 
                     buttons_list.append(button_obj)
