@@ -319,12 +319,14 @@ label ep213_dialogues_police4:
     # решетка
     mt "Я не хочу подходить туда..."
     mt "Там только этот дебил Боб и куча заключенных извращенцев..."
-    return
+    return False
 
     # туалет.
 label ep213_dialogues_police5:
+    if act=="l":
+        return
     mt "Я пока не хочу писать..."
-    return
+    return False
 
 label ep213_dialogues_police6:
     # нажимает на пробку, которая валяется на кровати или полу после осмотра попы полицейскими
@@ -347,7 +349,6 @@ label ep213_dialogues_police7:
     mt "Все снова станет таким, как было раньше..."
     mt "Спокойной ночи, Моника..."
     mt "Я сплю..."
-
     # затемнение
 
     # резкое прерывание сна
@@ -448,12 +449,12 @@ label ep213_dialogues_police7:
     overseer "Это еще почему?"
     imgd 18469
     prisoner1 "Боб, она сама хочет, чтобы я побыл с ней!"
-    imgd 18470
+    img 18470
     overseer "Сама?! Брехня!"
 
     # заключенный нагибается через решетку и шепчет Монике
     music Master_Disorder
-    imgf 18471
+    img 18471
     prisoner1 "Шлюха, быстро говори что ты хочешь, чтобы я подсел к тебе!"
     prisoner1 "Иначе ты станешь плохой шлюхой, и ты знаешь что тогда будет!"
     music Power_Bots_Loop
@@ -470,7 +471,41 @@ label ep213_dialogues_police7:
     menu:
         "Попросить Боба подсадить заключенного к себе в камеру.":
             $ monicaPrisonerLiveTogether2 = True # Моника попросила Боба подселить к ней в камеру заключенного
-            pass
+            music Villainous_Treachery
+            imgf 18479
+            mt "Я не верю... Я не верю в то, что прошу подселить ко мне какого-то заключенного..."
+            mt "Это кошмар... Это сон..."
+            imgd 18480
+            m "Мммистер... Боб..."
+            overseer "Да?!"
+            # Моника смотрит затравленно на заключенного
+            imgd 18481
+            m "..."
+            # заключенный смотрит угрожающе
+            img 18482
+            prisoner1 "!!!"
+            imgd 18483
+            m "Я... Я..."
+            overseer "Ну, говори!"
+            overseer "Когда я жду, у меня еще больше начинает болеть голова!"
+        #    music Master_Disorder
+            imgf 18484
+            m "Мистер Боб..."
+            m "Я... Я хотела бы, чтобы этот заключенный был здесь, в моей камере..."
+            music Groove2_85
+            imgd 18485
+            overseer "Что, правда? Ты сама этого просишь?"
+            imgf 18486
+            prisoner1 "!!!"
+            m "Да, Мистер Боб... Я... Я уверена..."
+            imgd 18487
+            overseer "..." # думает
+            overseer "Хорошо, но чтобы на ней не было никаких следов! Тебе ясно?!"
+            imgf 18488
+            prisoner1 "Да, Боб!"
+            prisoner1 "Конечно!"
+            imgd 18489
+            overseer "Иди в свою камеру, я позову тебя!"
         "Поставить заключенного на место.":
             music Pyro_Flow
             imgf 18474
@@ -486,51 +521,18 @@ label ep213_dialogues_police7:
             m "Как ты подбиваешь стража порядка к тому, чтобы нарушить приказ!"
             m "Только представь, что с тобой будет после этого!"
             # Если Моника била заключенных
-            imgd 18477
-            m "К тому же, тебе показалось мало в прошлый раз?"
-            m "Только попробуй еще раз сделать подобное..."
-            m "Я постараюсь получше и твои яйца вытекут на пол целиком..."
+            if ep28_quests_monica_kicked_prisoners == True:
+                imgd 18477
+                m "К тому же, тебе показалось мало в прошлый раз?"
+                m "Только попробуй еще раз сделать подобное..."
+                m "Я постараюсь получше и твои яйца вытекут на пол целиком..."
             imgf 18478
             prisoner1 "Ладно, ладно..." # испуганно
             prisoner1 "Это совершенно необязательно..."
 
             # разговор об одежде
-            return
-    music Villainous_Treachery
-    imgf 18479
-    mt "Я не верю... Я не верю в то, что прошу подселить ко мне какого-то заключенного..."
-    mt "Это кошмар... Это сон..."
-    imgd 18480
-    m "Мммистер... Боб..."
-    overseer "Да?!"
-    # Моника смотрит затравленно на заключенного
-    imgd 18481
-    m "..."
-    # заключенный смотрит угрожающе
-    imgf 18482
-    prisoner1 "!!!"
-    imgd 18483
-    m "Я... Я..."
-    overseer "Ну, говори!"
-    overseer "Когда я жду, у меня еще больше начинает болеть голова!"
-#    music Master_Disorder
-    imgf 18484
-    m "Мистер Боб..."
-    m "Я... Я хотела бы, чтобы этот заключенный был здесь, в моей камере..."
-    music Groove2_85
-    imgd 18485
-    overseer "Что, правда? Ты сама этого просишь?"
-    imgf 18486
-    prisoner1 "!!!"
-    m "Да, Мистер Боб... Я... Я уверена..."
-    imgd 18487
-    overseer "..." # думает
-    overseer "Хорошо, но чтобы на ней не было никаких следов! Тебе ясно?!"
-    imgf 18488
-    prisoner1 "Да, Боб!"
-    prisoner1 "Конечно!"
-    imgd 18489
-    overseer "Иди в свою камеру, я позову тебя!"
+#            return
+
     imgf 18490
     w
     fadeblack
@@ -548,17 +550,19 @@ label ep213_dialogues_police7:
     # Моника убеждающе
     # Если диалог при заключенном
     music Hidden_Agenda
-    imgf 18492
-    m "Но Мистер Боб..."
-    m "Этот заключенный... Если я буду без одежды... Я боюсь, что он может нарушить свое обещание..."
-    m "А ведь вы знаете, что приказал Мистер Детектив..."
-    # Если далог без заключенного (поставила на место)
-    imgf 18492
-    m "Но Мистер Боб..."
-    m "В таком виде я... Я могу замерзнуть здесь..."
-    m "А Мистер Детектив сказал, что меня должны будут куда-то везти..."
-    m "Живой..."
-    #
+    if monicaPrisonerLiveTogether2 == True:
+        imgf 18492
+        m "Но Мистер Боб..."
+        m "Этот заключенный... Если я буду без одежды... Я боюсь, что он может нарушить свое обещание..."
+        m "А ведь вы знаете, что приказал Мистер Детектив..."
+    else:
+        # Если далог без заключенного (поставила на место)
+        imgf 18492
+        m "Но Мистер Боб..."
+        m "В таком виде я... Я могу замерзнуть здесь..."
+        m "А Мистер Детектив сказал, что меня должны будут куда-то везти..."
+        m "Живой..."
+        #
     music Groove2_85
     imgd 18493
     overseer "Хммм..."
@@ -582,7 +586,7 @@ label ep213_dialogues_police7:
     img black_screen
     with Dissolve(1)
     music Groove2_85
-    imgfl 18496
+    img 18496 hpunch
     m "Что это, Боб?!"
     m "Почему... Почему вся одежда порвана?!"
     imgf 18497
@@ -612,6 +616,10 @@ label ep213_dialogues_police7:
     m "Я не буду шуметь, обещаю..."
     # конец диалога
 
+    if monicaPrisonerLiveTogether2 == False:
+        return False
+
+
     # появляется заключенный
     sound snd_walk_barefoot
     imgd 18502
@@ -635,7 +643,7 @@ label ep213_dialogues_police7:
     # затемнение
     # заключенный перед Моникой
     # Моника на кровати, зажата, смотрит зло
-    return
+    return True
 
 # день1
 label ep213_dialogues_police8:
@@ -681,32 +689,7 @@ label ep213_dialogues_police8:
         "Поставить его на место!":
             # Моника толкает заключенного и тот падает на землю
             # Моника ставит ногу на его шею
-            fadeblack
-            sound snd_walk_barefoot
-            pause 1.0
-            music Power_Bots_Loop
-            imgfl 31220
-            w
-            sound snd_bodyfall
-            img 31221 hpunch
-            w
-            imgd 31222
-            m "Слушай меня внимательно, мерзкий червь!"
-            imgf 31223
-            m "Если ты хоть раз дотронешься до меня или поднимешь на меня взгляд..."
-            m "То я расскажу Мистер Маркусу о том, что вы коррумпируете местного надзирателя."
-            m "Расскажу, про то, что ты, ничтожество, пытался прикоснуться ко мне!"
-            imgd 31224
-            m "Я пришла сюда по просьбе Мистера Маркуса."
-            m "И, если он узнает про то что здесь происходит, он отправит тебя в такое место..."
-            m "Где ты будешь молить о конце своей жалкой никчемной жизни!"
-            m "Ты меня понял, червь?!"
-            imgf 31225
-            prisoner1 "Аггхмм... Ммммм..."
-            prisoner1 "Я понял... Отпусти меня..."
-            prisoner1 "Аггхмм... Ммммм..."
-            prisoner1 "Пожалуйста..."
-            m "То-то же!"
+            call ep213_dialogues_prisoner1_offended()
             return False
     music Malicious
     imgd 18512
@@ -728,6 +711,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether4 = True # Моника попросила разрешения показать свою грудь
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
 
     imgf 18515
@@ -742,6 +726,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether5 = True # Моника попросила разрешения показать свою грудь и сказала, что она шлюха
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     music Malicious
     imgf 18517
@@ -761,6 +746,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether6 = True # Моника показала свою грудь заключенному
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
 
     # Моника задирает майку и показывает грудь.
@@ -791,6 +777,16 @@ label ep213_dialogues_police8:
     return
 
 # День2
+label ep213_dialogues_police9a:
+    imgfl 31178
+    music Groove2_85
+    mt "Наконец-то наступило завтра!"
+    mt "Мне нужно увидеться с Маркусом и убираться отсюда!"
+    mt "Детектив что-то говорил о том, что меня должны отправить на объект..."
+    mt "Но, я уверена, это было актуально до того, как я пришла сама к Маркусу."
+    mt "Я ничего не нарушала и, уверена, после встречи с Маркусом меня отпустят..."
+    return
+
 label ep213_dialogues_police9:
     # Моника просыпается
     # Заключенный спит на другой кровати
@@ -810,7 +806,9 @@ label ep213_dialogues_police9:
     mt "Кажется, это мерзкое насекомое еще спит..."
     mt "Мне надо быть тихой и не разбудить его."
     mt "Надо позвать Боба и убираться отсюда!"
+    return
 
+label ep213_dialogues_police9b:
     # Моника подходит к решетке нормально
     sound snd_walk_barefoot
     imgf 31181
@@ -902,6 +900,7 @@ label ep213_dialogues_police10:
             $ monicaPrisonerLiveTogether7 = True # Моника помогла заключенному пописать
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     fadeblack
     sound vjuh3
@@ -942,6 +941,7 @@ label ep213_dialogues_police10:
             $ monicaPrisonerLiveTogether8 = True # Моника сказала Бобу, что помогает писать заключенному
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     imgd 31202
     m "Мистер Боб, Я..."
@@ -1007,6 +1007,7 @@ label ep213_dialogues_police10:
             $ monicaPrisonerLiveTogether9 = True # Моника легла к заключенному
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     imgf 31214
     m "Стой!"
@@ -1085,6 +1086,7 @@ label ep213_dialogues_police11:
             $ monicaPrisonerLiveTogether10 = True # Моника сказала Бобу, что все ок, когда заключенный заставил делать минет
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     music Malicious
     imgf 18565
@@ -1152,6 +1154,7 @@ label ep213_dialogues_police12:
         "Сделать как требует заключенный. (in Extra version) (disabled)" if game.extra != True:
             return
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
     if game.extra == True:
         # Моника садится
@@ -1350,6 +1353,7 @@ label ep213_dialogues_police13:
             $ monicaPrisonerLiveTogether12 = True # Моника попросила заключенного о сексе
             pass
         "Поставить его на место!":
+            call ep213_dialogues_prisoner1_offended()
             return False
 
     # заключенный отворачивается
@@ -1506,39 +1510,47 @@ label ep213_dialogues_police13:
 
 # Моника писает
 label ep213_dialogues_police14:
+    if act=="l" or monicaLastPissedDay == day:
+        return
+    $ monicaLastPissedDay = day
     # Моника садится на туалет, заключенный стоит перед ней и смотрит в упор
     fadeblack
-    music Villainous_Treachery
-    imgfl 31271
-    m "Я хочу писать, отвернись!"
-    prisoner1 "Ты наша шлюха! Я буду смотреть на тебя когда хочу!"
-    m "Я не могу писать, когда кто-то смотрит!"
-    prisoner1 "Писай! Хорошая шлюха хочет писать!"
+    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False:
+        music Villainous_Treachery
+        imgfl 31271
+        m "Я хочу писать, отвернись!"
+        prisoner1 "Ты наша шлюха! Я буду смотреть на тебя когда хочу!"
+        m "Я не могу писать, когда кто-то смотрит!"
+        prisoner1 "Писай! Хорошая шлюха хочет писать!"
     # Моника писает
     sound snd_piss
     imgf 31272
     mt "О БОЖЕ!"
     mt "Какой стыд!"
     mt "Как мне вынести все это..."
-    return
+    return False
 
 
 # не рендерить
 label ep213_dialogues_police15:
     # смотрит на заключенного после того, как поставила на место
-    mt "Жалкий червь!"
-    # говорит
-    mt "Мне не о чем общаться с этим червяком!"
+    if act=="l":
+        mt "Жалкий червь!"
+    else:
+        # говорит
+        mt "Мне не о чем общаться с этим червяком!"
     return
 
 label ep213_dialogues_police16:
 # не рендерить
-    # смотрит на заключенного в обычном режиме
-    mt "Мне надо что-то придумать!"
-    mt "Я не могу постоянно поддаваться на его гнусный шантаж!"
-    # говорит
-    mt "Отвратительное существо!"
-    mt "Я хочу держаться от него подальше!"
+    if act=="l":
+        # смотрит на заключенного в обычном режиме
+        mt "Мне надо что-то придумать!"
+        mt "Я не могу постоянно поддаваться на его гнусный шантаж!"
+    else:
+        # говорит
+        mt "Отвратительное существо!"
+        mt "Я хочу держаться от него подальше!"
     return
 
 # еда
@@ -1570,3 +1582,36 @@ label ep213_dialogues_police17:
     mt "Что?! Ела эту ужасную кошачью еду?!"
     return
 #
+
+label ep213_dialogues_prisoner1_offended:
+    fadeblack
+    sound snd_walk_barefoot
+    pause 1.0
+    music Power_Bots_Loop
+    imgfl 31220
+    w
+    sound snd_bodyfall
+    img 31221 hpunch
+    w
+    imgd 31222
+    m "Слушай меня внимательно, мерзкий червь!"
+    imgf 31223
+    m "Если ты хоть раз дотронешься до меня или поднимешь на меня взгляд..."
+    m "То я расскажу Мистер Маркусу о том, что вы коррумпируете местного надзирателя."
+    m "Расскажу, про то, что ты, ничтожество, пытался прикоснуться ко мне!"
+    imgd 31224
+    m "Я пришла сюда по просьбе Мистера Маркуса."
+    m "И, если он узнает про то что здесь происходит, он отправит тебя в такое место..."
+    m "Где ты будешь молить о конце своей жалкой никчемной жизни!"
+    m "Ты меня понял, червь?!"
+    imgf 31225
+    prisoner1 "Аггхмм... Ммммм..."
+    prisoner1 "Я понял... Отпусти меня..."
+    prisoner1 "Аггхмм... Ммммм..."
+    prisoner1 "Пожалуйста..."
+    m "То-то же!"
+    $ ep213_quests_prisoner1_offended = True
+    $ monicaPoliceCell1Suffix = 2
+    $ prisoner1Cell1Suffix = 4
+    $ police_cell1_monica_breath = False
+    return

@@ -6,7 +6,6 @@ python early:
 #    open(config.basedir + "/game/update_data.json", "wb").write(str)
     def parse_tstr(str1):
         global item1
-        str1 = str1.split("#")[0]
         result = re.findall(r'\[(.*?)\]', str1)
 #        str1 = str1.replace("{c}", "{")
 #        str1 = str1.replace("{/c}", "}")
@@ -47,6 +46,8 @@ python early:
                 st = language_dict[s][language_fields["english"]]
                 if st == "":
                     st = s
+            st = st.split("#")[0]
+
         return parse_tstr(st)
 
     def ts__(s):
@@ -59,4 +60,5 @@ python early:
                 st = language_dict[s][language_fields["english"]]
                 if st == "":
                     st = s
+            st = st.split("#")[0]
         return parse_tstr(st)

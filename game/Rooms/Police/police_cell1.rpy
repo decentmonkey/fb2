@@ -1,11 +1,15 @@
 default monicaPoliceCell1Suffix = 1
+default police_cell1_monica_breath = True
+
+default prisoner1Cell1Suffix = 1
 
 label police_cell1:
     $ print "enter_police_cell1"
     $ miniMapData = []
 
     music Jail_Clock
-    music2 audio_woman_breathing_painfully
+    if police_cell1_monica_breath == True:
+        music2 audio_woman_breathing_painfully
 
     $ scene_image = "scene_Police_Cell1"
     return
@@ -19,9 +23,15 @@ label police_cell1_init:
 
     $ add_object_to_scene("Teleport_Cage2", {"type":3, "text" : t_("РЕШЕТКА"), "rarrow" : "arrow_right_2", "base":"empty", "click" : "police_cell1_teleport", "xpos" : 1680, "ypos" : 233, "zorder":5, "teleport":True}, scene="police_cell1")
     return
+
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label police_cell1_init2:
+    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell1_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 10, "active":False}, scene="police_cell1")
+    return
+
 
 label police_cell1_teleport:
     if obj_name == "Teleport_Cage2":

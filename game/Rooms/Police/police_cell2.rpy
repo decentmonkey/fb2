@@ -1,4 +1,5 @@
 default monicaPoliceCell2Suffix = 2
+default monicaPoliceCellSuffixMode = 0
 
 label police_cell2:
     $ print "enter_police_cell2"
@@ -7,11 +8,21 @@ label police_cell2:
     $ scene_image = "scene_Police_Cell2_Prisoners"
 
     music Jail_Clock
-    music2 audio_woman_breathing_painfully
+    if police_cell1_monica_breath == True:
+        music2 audio_woman_breathing_painfully
+    if monicaPoliceCellSuffixMode == 0:
+        if monicaPoliceCell2Suffix == 2 or monicaPoliceCell2Suffix == 3:
+            $ rand1 = rand(2,3)
+            $ monicaPoliceCell2Suffix = rand1
 
-    if monicaPoliceCell2Suffix == 2 or monicaPoliceCell2Suffix == 3:
-        $ rand1 = rand(2,3)
+    if monicaPoliceCellSuffixMode == 1:
+        $ rand1 = rand(1,2)
         $ monicaPoliceCell2Suffix = rand1
+
+    if get_active_objects("Prisoner1", scene="police_cell1") != False:
+        $ set_active("Prisoner1", True)
+    else:
+        $ set_active("Prisoner1", False)
     return
 
 label police_cell2_init:
@@ -25,6 +36,10 @@ label police_cell2_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+
+label police_cell2_init2:
+    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell2_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 10, "active":False}, scene="police_cell2")
+    return
 
 label police_cell2_teleport:
     if obj_name == "Teleport_Cage1":

@@ -7,7 +7,8 @@ label police_cell3:
     $ miniMapData = []
 
     music Jail_Clock
-    music2 audio_woman_breathing_painfully
+    if police_cell1_monica_breath == True:
+        music2 audio_woman_breathing_painfully
 
     $ cageInteractCnt = cageInteractAmount
     $ scene_image = "scene_Police_Cell3"
