@@ -10,6 +10,7 @@ default juliahome_julia_shower_day = 0
 default juliahome_work_action_day = 0
 default juliahome_work_action_evening_day = 0
 default julia_progress_list = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
+default juliahome_julia_shower_time = 0
 
 label ep213_quests_julia1: # Моника предлагает Юлии жить вместе
     call ep213_dialogues5_julia_16()
@@ -388,7 +389,21 @@ label ep213_quests_julia20_check_julia_movement:
         $ juliahome_julia_shower_day = day
         $ move_object("Julia", "juliahome_bathroom")
         $ juliaHomeBathroomJuliaSuffix = 1
+        python:
+            rooms_list1 = get_rooms_recursive("street_juliahome")
+            for room1 in rooms_list1:
+                add_hook("before_open", "ep213_quests_julia20_check_julia_movement_after_shower", scene=room1, label=["evening_time_temp", "juliahome_aftershower"])
+            juliahome_julia_shower_time = 0
 
+    return
+
+label ep213_quests_julia20_check_julia_movement_after_shower:
+    $ juliahome_julia_shower_time += 1
+    if juliahome_julia_shower_time > 2:
+        if get_active_objects("Julia", scene="juliahome_bathroom") != False and juliaHomeBathroomJuliaSuffix == 1: # Если Юлия в душе
+            $ move_object("Julia", "juliahome_livingroom")
+            $ juliaHomeLivingRoomJuliaSuffix = 3
+        $ remove_hook(label="juliahome_aftershower")
     return
 
 label ep213_quests_julia21_monica_click:

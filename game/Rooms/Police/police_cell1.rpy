@@ -29,7 +29,7 @@ label police_cell1_init:
 #                            $ contrast_adjustment = 1.3
 
 label police_cell1_init2:
-    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell1_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 10, "active":False}, scene="police_cell1")
+    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell1_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 12, "active":False}, scene="police_cell1")
     return
 
 

@@ -119,12 +119,19 @@ label juliahome_bed_gosleep1_loop1:
                     return False
                 "Не ложиться.":
                     $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
+                    $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
+                    if get_active_objects("Julia", scene="juliahome_bathroom") != False and juliaHomeBathroomJuliaSuffix == 1: # Если Юлия в душе
+                        $ move_object("Julia", "juliahome_livingroom")
+                        $ juliaHomeLivingRoomJuliaSuffix = 3
                     $ set_active("Bed1", True)
                     call refresh_scene_fade()
                     return False
         "Не ложиться.":
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
             $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
+            if get_active_objects("Julia", scene="juliahome_bathroom") != False and juliaHomeBathroomJuliaSuffix == 1: # Если Юлия в душе
+                $ move_object("Julia", "juliahome_livingroom")
+                $ juliaHomeLivingRoomJuliaSuffix = 3
             $ set_active("Bed1", True)
             call refresh_scene_fade()
             return False

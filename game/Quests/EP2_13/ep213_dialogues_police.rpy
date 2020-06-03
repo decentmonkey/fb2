@@ -650,7 +650,8 @@ label ep213_dialogues_police8:
 # заставляет показать грудь и сказать что шлюха хорошая. и что ей очень жаль, что ей запретили трахаться с заключенным
 # ложатся спать отдельно
     fadeblack
-    music Villainous_Treachery
+    music Groove2_85
+    music2 stop
     imgfl 18504
     prisoner1 "Ну что, шлюха..."
     prisoner1 "Шлюха сама попросила Боба о том, чтобы я с тобой жил!"
@@ -714,6 +715,9 @@ label ep213_dialogues_police8:
             call ep213_dialogues_prisoner1_offended()
             return False
 
+    fadeblack
+    pause 1.5
+    music Groove2_85
     imgf 18515
     m "Я..."
     m "Я прошу разрешения показать свою грудь..."
@@ -728,6 +732,8 @@ label ep213_dialogues_police8:
         "Поставить его на место!":
             call ep213_dialogues_prisoner1_offended()
             return False
+    fadeblack
+    pause 1.5
     music Malicious
     imgf 18517
     m "Я... Я хорошая шлюха..."
@@ -749,6 +755,8 @@ label ep213_dialogues_police8:
             call ep213_dialogues_prisoner1_offended()
             return False
 
+    fadeblack
+    pause 1.5
     # Моника задирает майку и показывает грудь.
     music Loved_Up
     imgf 18520
@@ -764,13 +772,16 @@ label ep213_dialogues_police8:
     img 18524 hpunch
     m "ЧТО?! НЕТ!"
     music Groove2_85
-    imgf 18525
+    img 18525 hpunch
     overseer "Эй! Что вы там шумите?!"
     overseer "Я сказал отбой! Быстро спать!"
     sound snd_walk_barefoot
     imgd 18526
     w
+    fadeblack
     sound man_steps
+    pause 2.0
+    music Hidden_Agenda
     imgf 18527
     w
     # Заключенный убегает на другую кровать.
@@ -838,13 +849,21 @@ label ep213_dialogues_police9b:
     fadeblack
     sound snd_jail_door
     pause 1.5
-    music Gearhead
-    music2 prison_yell_music
-    imgfl 31184
-    w
-    imgf 31185
-    prisoners "Хорошая шлюха! Шлюха хорошая!"
+    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False:
+        music Gearhead
+        music2 prison_yell_music
+        imgfl 31184
+        w
+        imgf 31185
+        prisoners "Хорошая шлюха! Шлюха хорошая!"
     music2 stop
+    return
+
+label ep213_dialogues_police10b:
+    mt "Это было ужасно!"
+    mt "У меня есть шанс снова выбраться отсюда, но он очень призрачный..."
+    mt "Я не думала, что все так плохо на этот раз!"
+    mt "Мне надо стараться изо всех сил!"
     return
 
 label ep213_dialogues_police10:
@@ -862,10 +881,15 @@ label ep213_dialogues_police10:
     mt "Я не думала, что все так плохо на этот раз!"
     mt "Мне надо стараться изо всех сил!"
     mt "Хорошо, что хоть это ничтожество, которое поселилось в моей камере, уже спит..."
+    return
+
+label ep213_dialogues_police10c:
     fadeblack
     music Malicious
     imgfl 31188
     w
+    if ep213_quests_prisoner == False or ep213_quests_prisoner1_offended == True:
+        return
     # затемнение
 # Ложится спать, просыпается от того, что заключенный собирается на нее писать.
 # Моника в шоке, ей приходится держать член заключенного
@@ -886,8 +910,10 @@ label ep213_dialogues_police10:
     m "ДЕЛАЙ ЭТО КУДА ПОЛОЖЕНО!!!"
     imgd 31193
     prisoner1 "Если шлюха чего-то хочет, то пусть она сама делает это!"
+    with hpunch
     m "ЧТО ТЫ ИМЕЕШЬ ВИДУ?! УБЕРИ ЭТО ОТ МЕНЯ!!!"
     prisoner1 "Пусть шлюха возьмет мой член в руку и сама направит его!"
+    with hpunch
     m "ЧТО?! Я НЕ СОБИРАЮСЬ ТРОГАТЬ ЕГО!!!"
     imgf 31194
     prisoner1 "Тогда член будет писать туда, куда захочет!"
@@ -903,12 +929,13 @@ label ep213_dialogues_police10:
             call ep213_dialogues_prisoner1_offended()
             return False
     fadeblack
-    sound vjuh3
-    pause 1.0
+#    sound vjuh3
+    pause 2.0
     music Loved_Up
     imgfl 31196
     w
     imgf 31197
+    sound snd_piss
     w
     imgd 31198
     mt "О БОЖЕ! НЕ МОГУ ПОВЕРИТЬ ЧТО Я ДЕЛАЮ ЭТО!"
@@ -943,32 +970,44 @@ label ep213_dialogues_police10:
         "Поставить его на место!":
             call ep213_dialogues_prisoner1_offended()
             return False
-    imgd 31202
+    fadeblack 1.5
+    music Hidden_Agenda
+    imgfl 31202
     m "Мистер Боб, Я..."
     m "Я просто помогаю ему... писать..."
     music Groove2_85
     imgf 31203
     overseer "Что ты помогаешь ему делать?!"
+    sound snd_piss
+    music Hidden_Agenda
     imgd 31202
     m "Я... Я помогаю ему писать, сэр..."
-    imgf 31203
+    music Groove2_85
+    img 31203 hpunch
     overseer "Хватит там шуметь! Быстро спать!"
+
+    return True
+
+label ep213_dialogues_police10d:
 
 # Затем он перекладывается к ней. Моника против, но он настаивает. Ложится сзади, обнимая и член упирается Монике в попу.
     # заключенный ложится сзади Моники, приобнимая ее
     fadeblack
     sound snd_masturbation1
-    pause 2.0
-    music Malicious
+    pause 4.0
+    music Hidden_Agenda
     imgfl 31204
     w
     imgf 31205
     w
+    img black_screen
+    with diss
+    pause 1.5
     sound snd_walk_barefoot
     imgd 31206
     w
     sound Jump2
-    imgd 31207
+    img 31207 hpunch
     m "Эй! Иди спать на свое место!"
     m "Что ты себе позволяешь, мерзавец!?"
     # Моника вскакивает
@@ -977,23 +1016,26 @@ label ep213_dialogues_police10:
     prisoner1 "Я пришел спать со своей шлюхой!"
     prisoner1 "Хорошая шлюха должна быть рада этому!"
     prisoner1 "Хорошая шлюха ляжет назад на место и скажет, что ей это нравится!"
-    imgd 31209
+    img 31209 hpunch
+
     m "Нет! Я не буду спать рядом с тобой!"
     music Villainous_Treachery
     prisoner1 "Тогда ты станешь плохой шлюхой!"
     prisoner1 "Мне нельзя трахать тебя!"
     prisoner1 "От этой шлюхи нет никакого толка!"
     prisoner1 "Я лучше расскажу про плохую шлюху и получу дополнительный паек!"
-    imgf 31210
+    img 31210 hpunch
     m "Ты не посмеешь!"
     prisoner1 "Быстро ложись ко мне или станешь плохой шлюхой!"
     prisoner1 "Говорю последний раз!"
     prisoner1 "Или прямо сейчас зову Боба и возвращаюсь назад к себе в камеру!"
     imgd 31211
     prisoner1 "Считаю до трех!"
+    with vpunch
     prisoner1 "Раз!"
-    imgf 31212
+    img 31212
     m "!!!"
+    with vpunch
     prisoner1 "Два!"
     music Master_Disorder
     imgd 31213
@@ -1001,6 +1043,7 @@ label ep213_dialogues_police10:
     mt "Я не могу спать рядом с этим животным!"
     mt "Но я не представляю что случиться, если он расскажет обо мне!"
     mt "Это конец!"
+    with vpunch
     prisoner1 "Три!"
     menu:
         "Лечь к заключенному.":
@@ -1515,7 +1558,7 @@ label ep213_dialogues_police14:
     $ monicaLastPissedDay = day
     # Моника садится на туалет, заключенный стоит перед ней и смотрит в упор
     fadeblack
-    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False:
+    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False and prisoner1Cell1Suffix != 3:
         music Villainous_Treachery
         imgfl 31271
         m "Я хочу писать, отвернись!"
@@ -1614,4 +1657,13 @@ label ep213_dialogues_prisoner1_offended:
     $ monicaPoliceCell1Suffix = 2
     $ prisoner1Cell1Suffix = 4
     $ police_cell1_monica_breath = False
+    $ policeCell2PrisonersYell = False
+    return
+
+label ep213_dialogues_police18:
+    # заключенные кричат
+    music2 prison_yell_music
+    prisoners "Шлюха! Нам нужна наша шлюха!"
+    prisoners "Шлюха!"
+    music2 stop
     return

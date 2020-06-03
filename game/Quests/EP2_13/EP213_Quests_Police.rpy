@@ -87,17 +87,21 @@ label ep213_quests_police5_day1_bed:
     if act=="l":
         return
     $ remove_hook(label="police_day1")
-    call ep213_dialogues_police7()
     call police_cell1_init2()
     call police_cell2_init2()
+    call ep213_dialogues_police7()
     $ ep213_quests_prisoner = _return
     if _return == True:
         $ police_cell1_monica_breath = True
+        $ move_object("Prisoner1", "police_cell1")
         $ add_hook("Prisoner1", "ep213_quests_police6_prisoner1_regular", scene="police_cell1", label="police_prisoner1_regular", quest="police2")
         $ add_hook("Prisoner1", "ep213_quests_police6_prisoner1_regular", scene="police_cell2", label="police_prisoner1_regular", quest="police2")
+        $ add_hook("Prisoner1", "ep213_quests_police7_day1_action1", scene="police_cell1", label="police_day1", quest="police2")
         $ add_hook("Prisoner1", "ep213_quests_police7_day1_action1", scene="police_cell2", label="police_day1", quest="police2")
         $ monicaPoliceCell1Suffix = 1
         $ prisoner1Cell1Suffix = 2
+        $ add_hook("cage_interact", "ep213_quests_police8_cage_prisoners", scene="police", label="cage_interact2_prisoners")
+        $ policeCell2PrisonersYell = True
     else:
         $ monicaPoliceCell1Suffix = 2
     $ cloth = "Jail_Cloth3"
@@ -107,7 +111,7 @@ label ep213_quests_police5_day1_bed:
     return False
 
 label ep213_quests_police6_prisoner1_regular:
-    if ep213_quests_prisoner1_offended == False:
+    if ep213_quests_prisoner1_offended == True:
         call ep213_dialogues_police15()
     else:
         call ep213_dialogues_police16()
@@ -124,11 +128,11 @@ label ep213_quests_police7_day1_bed2:
 label ep213_quests_police7_day1_action1:
     if act=="l":
         return
+    music2 stop
     if ep213_quests_prisoner == True:
         call ep213_dialogues_police8()
         call refresh_scene_fade()
 
-    music2 stop
     fadeblack
     music stop
     img black_screen
@@ -145,18 +149,91 @@ label ep213_quests_police7_day1_action1:
     else:
         call ep213_dialogues_police9a()
 
+    $ add_hook("cage_interact", "ep213_quests_police9_day2_cage", scene="police", label="police_day2")
+
     call refresh_scene_fade()
+    return False
+
+label ep213_quests_police8_cage_prisoners:
+    if ep213_quests_prisoner == False or ep213_quests_prisoner1_offended == True:
+        return
+    music2 stop
+    call ep213_dialogues_police18()
+    call change_scene("police_cell2", "Fade_long")
     return False
 
 
 
 
+label ep213_quests_police9_day2_cage:
+    $ remove_hook(label="police_day2")
+    music2 stop
+    call ep213_dialogues_police9b()
+    call ep213_police_marcus_day2() # Маркус день1
+
+    $ prisoner1Cell1Suffix = 3
+
+    if ep213_quests_prisoner == False: # Если заключенного нет
+        $ autorun_to_object("ep213_dialogues_police10b", scene="police_cell1")
+    else:
+        call ep213_dialogues_police10() # Моника возвращается, заключенный спит
+
+    $ add_hook("Bed", "ep213_quests_police9_day2_bed", scene="police_cell1", label="police_day2", quest="police2")
+    call change_scene("police_cell1", "Fade_long", False)
+    return False
+
+label ep213_quests_police9_day2_bed:
+    if act=="l":
+        return
+    music2 stop
+    call ep27_dialogues_marcus1_10()
+    if _return == True:
+        call ep213_dialogues_police10c()
+        if ep213_quests_prisoner == False or ep213_quests_prisoner1_offended == True:
+            jump ep213_quests_police10_day3_start
+        $ add_hook("Bed", "ep213_quests_police9_day2_bed2", scene="police_cell1", label="police_day2", quest="police2")
+
+    call refresh_scene_fade()
+    return False
+
+label ep213_quests_police9_day2_bed2:
+    if act=="l":
+        return
+    music2 stop
+    call ep27_dialogues_marcus1_10()
+    if _return == True:
+        call ep213_dialogues_police10d()
+        jump ep213_quests_police10_day3_start
+    return False
+
+label ep213_quests_police10_day3_start:
+    music2 stop
+    fadeblack
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(t_("День 3"))
+    img black_screen
+    with Dissolve(2.0)
+    $ remove_hook(label="police_day2")
+
+    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False:
+        call ep213_dialogues_police11() # Заключенный пихает свой член с утра
+    if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False:
+        $ prisoner1Cell1Suffix = 1
+
+    $ add_hook("cage_interact", "ep213_quests_police10_day3_cage", scene="police", label="police_day3")
+    call refresh_scene_fade()
+    return
+
+label ep213_quests_police10_day3_cage:
+    music2 stop
+    call ep213_dialogues_police9b()
+    call ep213_police_marcus_day3() # Маркус день1
 
 
-
-
-
-
+    call refresh_scene_fade()
+    return False
 
 
 

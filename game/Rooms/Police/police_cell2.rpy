@@ -1,6 +1,8 @@
 default monicaPoliceCell2Suffix = 2
 default monicaPoliceCellSuffixMode = 0
 
+default policeCell2PrisonersYell = False
+
 label police_cell2:
     $ print "enter_police_cell2"
     $ miniMapData = []
@@ -10,6 +12,8 @@ label police_cell2:
     music Jail_Clock
     if police_cell1_monica_breath == True:
         music2 audio_woman_breathing_painfully
+    if policeCell2PrisonersYell == True:
+        music2 prison_yell_music
     if monicaPoliceCellSuffixMode == 0:
         if monicaPoliceCell2Suffix == 2 or monicaPoliceCell2Suffix == 3:
             $ rand1 = rand(2,3)
@@ -21,6 +25,7 @@ label police_cell2:
 
     if get_active_objects("Prisoner1", scene="police_cell1") != False:
         $ set_active("Prisoner1", True)
+
     else:
         $ set_active("Prisoner1", False)
     return
@@ -38,7 +43,7 @@ label police_cell2_init:
 #                            $ contrast_adjustment = 1.3
 
 label police_cell2_init2:
-    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell2_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 10, "active":False}, scene="police_cell2")
+    $ add_object_to_scene("Prisoner1", {"type":2, "base":"Police_Cell2_Prisoner1_[prisoner1Cell1Suffix]", "click" : "police_cell1_environment", "actions" : "lt", "zorder" : 12, "active":False}, scene="police_cell2")
     return
 
 label police_cell2_teleport:
