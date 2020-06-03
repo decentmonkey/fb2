@@ -90,6 +90,7 @@ label start_saved_game:
     return
 
 label start_game:
+
     $ gameStage = 0
     $ gameSubStage = 0
     $ afterJail = True

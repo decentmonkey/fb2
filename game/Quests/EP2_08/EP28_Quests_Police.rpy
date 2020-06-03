@@ -8,6 +8,7 @@ default ep28_quests_monica_kicked_prisoners = False # Моника ударил�
 default ep28_quests_monica_called_monicapubname = False
 default ep28_quests_bob_dick = False # Боб запихнул член Монике в рот
 default marcus_visit1_completed = False
+default ep28_quests_completed_day = 0
 
 default moneyStored = 0
 
@@ -253,6 +254,7 @@ label ep28_quests_police_final_home:
     $ remove_inventory("butt_plug", 1, True)
     $ rain = False
     $ lightning = False
+    $ ep28_quests_completed_day = day
     call ep29_revenge_quest1_init() from _call_ep29_revenge_quest1_init_1 # Запускаем проверку на revenge quest
     call basement_bedroom2_init2() from _call_basement_bedroom2_init2_1 # Оставляем в basement_bedroom2 анальную пробку
     sound chpok2
