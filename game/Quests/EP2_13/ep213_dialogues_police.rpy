@@ -12,6 +12,7 @@ default monicaPrisonerLiveTogether11 = False  # Моника согласила�
 default monicaPrisonerLiveTogether12 = False  # Моника попросила заключенного о сексе
 
 
+default monicaPrisonerLiveTogetherCumZone = 0
 #call ep213_dialogues_police1() # мысли Моники при клике на полицию
 #call ep213_dialogues_police2() # зашла в полицию, общение с детективом и копами, камера
 #call ep213_dialogues_police3() # Моника голая на кровати в камере, мысли
@@ -1004,6 +1005,7 @@ label ep213_dialogues_police10d:
     with diss
     pause 1.5
     sound snd_walk_barefoot
+    sound2 Jump1
     imgd 31206
     w
     sound Jump2
@@ -1055,8 +1057,8 @@ label ep213_dialogues_police10d:
     imgf 31214
     m "Стой!"
     # Моника ложится к заключенному
-    fadeblack
-    music Malicious
+    fadeblack 1.5
+    music Groove2_85
     imgfl 31215
     m "Только не дыши на меня своим смрадом!"
     prisoner1 "Шлюхе нравится спать со мной?"
@@ -1082,6 +1084,7 @@ label ep213_dialogues_police10d:
     prisoner1 "Ладно, ладно..."
     prisoner1 "Шлюхе должно нравиться, что мой член оказывает ей внимание!"
     prisoner1 "И вообще, шлюха! Не мешай мне спать!"
+    fadeblack 2.0
     music Master_Disorder
     imgf 31219
     mt "Боже! Я не знаю, как мне вынести все это!"
@@ -1096,7 +1099,8 @@ label ep213_dialogues_police11:
     music Loved_Up
     imgfl 18557
     w
-    imgf 18558
+    sound hlup2
+    imgd 18558
     w
     music stop
     sound plastinka1b
@@ -1113,10 +1117,10 @@ label ep213_dialogues_police11:
     sound man_steps
     pause 1.0
     music Gearhead
-    imgfl 18561
-    w
-    imgf 18562
+    img 18561 hpunch
     overseer "Что здесь за шум?!"
+    imgd 18562
+    w
     # заключенный говорит Монике тихо
     music Villainous_Treachery
     imgd 18563
@@ -1161,23 +1165,26 @@ label ep213_dialogues_police12:
     mt "Все это какой-то сюр, это не может быть реальным!"
     mt "Это все сон! Я проснусь!"
     mt "Я должна проснуться и все это исчезнет!"
+    return
+label ep213_dialogues_police12a:
 
     # рендерить
     # Моника видит заключенного, тот сидит на ее кровати без штанов
     fadeblack
     sound snd_walk_barefoot
     pause 1.5
-    music Villainous_Treachery
+    music Groove2_85
     imgfl 18528
     m "Что?! Что это?!"
     m "Почему ты сидишь в таком виде?!"
     m "Ты знаешь, что приказал Боб!"
-    imgf 18529
+    img 18529
     prisoner1 "Мне плевать, что приказал Боб!"
     prisoner1 "Мой член хочет, чтобы хорошая шлюха взяла его в рот!"
-    imgd 18530
+    img 18530
     m "Но Боб увидит!"
-    imgf 18531
+    music Villainous_Treachery
+    imgd 18531
     prisoner1 "Ты сделаешь это тихо!"
     prisoner1 "Если Боб хоть что-то заподозрит, ты знаешь что с тобой будет!"
     # Если Моника уже делала групповой blowjob
@@ -1195,7 +1202,19 @@ label ep213_dialogues_police12:
             $ monicaPrisonerLiveTogether11 = True # Моника согласилась сделать минет заключенному
             pass
         "Сделать как требует заключенный. (in Extra version) (disabled)" if game.extra != True:
-            return
+            pass
+        "Продолжить." if game.extra == False:
+            sound man_steps
+            imgf 18566
+            overseer "Эй! Что за шум!"
+            overseer "Вы нарушаете мой приказ?"
+            imgd 18555
+            m "Нет, сэр..."
+            music Power_Bots_Loop
+            imgf 18556
+            m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
+            return True
+
         "Поставить его на место!":
             call ep213_dialogues_prisoner1_offended()
             return False
@@ -1207,9 +1226,12 @@ label ep213_dialogues_police12:
         mt "Мне надо притвориться, что я делаю это..."
         mt "Ведь я на самом деле этого не делаю..."
         mt "А просто притворяюсь..."
+        music Groove2_85
         imgf 18535
         prisoner1 "Давай, шлюха, скажи кто ты и проси разрешения пососать мной член!"
-        imgd 18536
+        fadeblack 1.5
+        music Groove2_85
+        imgf 18536
         m "!!!"
         m "Я... Я хорошая шлюха..."
         m "И я прошу разрешения взять в рот твой член..."
@@ -1221,7 +1243,9 @@ label ep213_dialogues_police12:
         prisoner1 "Делай это тихо! Боб не должен услышать!"
         prisoner1 "Если Боб услышит и выгонит меня, то это будет твоя вина!"
         prisoner1 "А это значит, что шлюха станет плохой! Со всеми последствиями для нее!"
-        music Loved_Up
+        fadeblack 1.5
+        music stop
+        music2 Loved_Up
         imgf 18539
         m "!!!"
         imgd 18540
@@ -1229,18 +1253,98 @@ label ep213_dialogues_police12:
         # Моника берет его член в рот
         imgf 18541
         w
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        scene black
+        image videov_Monica_Prisoner1_Blowjob1_1 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_1.mkv", fps=30)
+        show videov_Monica_Prisoner1_Blowjob1_1
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
         imgd 18542
         prisoner1 "Да, вот так..."
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        scene black
+        image videov_Monica_Prisoner1_Blowjob1_2 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_2.mkv", fps=30)
+        show videov_Monica_Prisoner1_Blowjob1_2
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
         imgf 18543
         w
         imgd 18544
         prisoner1 "Хорошая шлюха... Соси..."
-        music Loved_Up2
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        scene black
+        image videov_Monica_Prisoner1_Blowjob1_3 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_3.mkv", fps=30)
+        show videov_Monica_Prisoner1_Blowjob1_3
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        music2 Loved_Up2
         imgf 18545
         w
         imgd 18546
         prisoner1 "Соси еще... Да..."
         w
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        scene black
+        image videov_Monica_Prisoner1_Blowjob1_4 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_4.mkv", fps=30)
+        show videov_Monica_Prisoner1_Blowjob1_4
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        img black_screen
+        with diss
+        stop music
+        $ renpy.music.set_volume(0.5, 0.5, channel="music")
+        $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        scene black
+        image videov_Monica_Prisoner1_Blowjob1_5 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_5.mkv", fps=30)
+        show videov_Monica_Prisoner1_Blowjob1_5
+        with fade
+        wclean
+        stop music
+        $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+        $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
         img 18547
         sound bulk1
         show screen photoshot_screen()
@@ -1267,6 +1371,7 @@ label ep213_dialogues_police12:
         imgf 18550
         mt "О БОЖЕ! МЕНЯ СЕЙЧАС ВЫРВЕТ!"
         fadeblack
+        music2 stop
         music Gearhead
         imgfl 18551
         sound chavc26
@@ -1292,7 +1397,10 @@ label ep213_dialogues_police12:
         imgd 18556
         m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
         # затемнение
-    fadeblack
+    return
+
+label ep213_dialogues_police12b:
+    fadeblack 1.5
     music Master_Disorder
     # Моника ложится спать, член заключенного снова упирается в нее
     imgfl 31215
@@ -1329,7 +1437,7 @@ label ep213_dialogues_police13:
     m "ЭЙ! ТЫ СОВСЕМ ОХРЕНЕЛ?!"
     # Моника вскакивает
     sound Jump1
-    imgd 31230
+    img 31230 vpunch
     m "ТВАРЬ!!!"
     m "НЕ СМЕЙ ПРИКАСАТЬСЯ КО МНЕ ТАМ!"
     # Заключенный зло шипит, он очень слой и грозный
@@ -1339,7 +1447,7 @@ label ep213_dialogues_police13:
     prisoner1 "Ты решила сегодня сбежать от меня, да?!"
     prisoner1 "Значит, моя очередь быть с женщиной пройдет и мне придется ждать еще не один месяц..."
     prisoner1 "И ты хочешь вот так просто уйти отсюда?!"
-    imgd 31232
+    img 31232
     m "Мерзавец, ты знаешь что приказал Боб!"
     m "Тебе запрещено прикасаться ко мне!"
     imgf 31233
@@ -1378,18 +1486,18 @@ label ep213_dialogues_police13:
     mt "Неужели тебе придется заниматься этим с..."
     mt "Я даже не знаю как это назвать, это не человек..."
     mt "Это самый жалкий отброс, который только можно представить!"
-    imgd 31238
+    img 31238 vpunch
     prisoner1 "Раз..."
     imgf 31241
     mt "Может быть, мне что-то придумать?"
     mt "Как-то потянуть время?"
-    imgd 31239
+    img 31239 vpunch
     prisoner1 "Два..."
     imgf 31242
     mt "Но как?!"
     mt "Мои мысли путаются..."
     mt "Я... Я ничего не могу придумать..."
-    imgd 31240
+    img 31240 vpunch
     prisoner1 "Три!"
     menu:
         "Снять одежду и просить заключенного о сексе...":
@@ -1421,10 +1529,10 @@ label ep213_dialogues_police13:
     prisoners "Трахать шлюху! Да!"
     music2 stop
     # Моника раздевается, встает на унитаз, поворачиваясь попой к заключенному
-    fadeblack
+    fadeblack 2.0
     sound snd_fabric1
     pause 2.0
-    music Malicious
+    music Groove2_85
     imgfl 31246
     w
     imgf 31247
@@ -1444,6 +1552,8 @@ label ep213_dialogues_police13:
     prisoner1 "И да, заткни свой рот!"
     prisoner1 "Если Боб услышит тебя, то пеняй на себя!"
     prisoner1 "Ну же! Говори кто ты! Проси меня трахнуть тебя!"
+    fadeblack 1.5
+    music Groove2_85
     imgd 31251
     m "Я... хорошая шлюха..."
     m "Я... Я прошу войти в меня..."
@@ -1452,42 +1562,171 @@ label ep213_dialogues_police13:
 
     # Моника зажимает рукой рот
     # Заключенный начинает в нее входить (сцена)
-    fadeblack
-    music Loved_Up
+    fadeblack 2.0
+    music stop
+    music2 Loved_Up
     imgfl 31252
     w
     imgf 31253
     w
-    imgd 31254
+    sound chavc26
+    img 31254 hpunch
     w
     imgf 31255
     prisoner1 "Да, шлюха!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_1 = Movie(play="video/v_Monica_Prisoner1_Sex1_1.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_1
+    with fade
     prisoner1 "Да! Как я ждал этот момент!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_2 = Movie(play="video/v_Monica_Prisoner1_Sex1_2.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_2
+    with fade
     prisoner1 "Не могу поверить, что трахаю такую богатую шлюху!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31256
     mt "Не могу поверить в то, что происходит..."
     mt "Меня трахает какой-то грязный заключенный..." # вряд ли Моника будет думать такое грубое слово в отношении себя...
     mt "На грязном унитазе..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_4 = Movie(play="video/v_Monica_Prisoner1_Sex1_4.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_4
+    with fade
     mt "И мне приходится зажимать рот, чтобы скрыть это от надзирателя..."
     mt "Какой ужас..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgf 31257
     prisoner1 "Ребята будут завидовать мне!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_3 = Movie(play="video/v_Monica_Prisoner1_Sex1_3.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31258
     prisoner1 "Мне даже придется поделиться тобой в следующий раз!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_5 = Movie(play="video/v_Monica_Prisoner1_Sex1_5.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31259
     prisoner1 "У тебя там так комфортно!"
     imgf 31260
     prisoner1 "Уверен, их членам понравится в тебе!"
-    music Loved_Up2
+    music2 Loved_Up2
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_6 = Movie(play="video/v_Monica_Prisoner1_Sex1_6.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31261
     prisoner1 "Жаль, что они не влезут все сразу!"
+
+
     imgd 31262
     prisoner1 "Но несколько влезет точно!"
 
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_7 = Movie(play="video/v_Monica_Prisoner1_Sex1_7.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Prisoner1_Sex1_8 = Movie(play="video/v_Monica_Prisoner1_Sex1_8.mkv", fps=30)
+    show videov_Monica_Prisoner1_Sex1_8
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Заключенный собирается кончать
-    imgf 31263
+    img 31263 hpunch
     prisoner1 "АААААААХХХХ!!!"
-    imgd 31264
+    img 31264 vpunch
     m "Не в меня!!!"
     # Заключенный кончает куда-нибудь в сторону
 
@@ -1506,6 +1745,7 @@ label ep213_dialogues_police13:
             with hpunch
             pause 0.7
             hide screen photoshot_screen
+            $ monicaPrisonerLiveTogetherCumZone = 1
             pass
         "Кончить на спину Моники.":
             img 31265
@@ -1522,7 +1762,9 @@ label ep213_dialogues_police13:
             pause 0.7
             hide screen photoshot_screen
             pass
+            $ monicaPrisonerLiveTogetherCumZone = 2
     w
+    music2 stop
     music Power_Bots_Loop
     img 31268 hpunch
     m "Мерзавец! Ничтожество!"
@@ -1539,6 +1781,8 @@ label ep213_dialogues_police13:
     prisoner1 "Шлюха, ты знаешь что ответить..."
     prisoner1 "И ты знаешь, что будет, если ты ответишь неправильно..."
     m "!!!"
+    fadeblack 1.5
+    music Hidden_Agenda
     imgf 31270
     m "Нет, сэр... Я..."
     m "Я решила раздеться чтобы..."
