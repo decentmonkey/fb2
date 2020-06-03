@@ -23,6 +23,9 @@ label ep213_quests_julia1: # Моника предлагает Юлии жить
 label ep213_quests_julia2: # Заходит вечером в дом
     if act=="l" or day_time != "evening":
         return
+    if cloth != "CasualDress1":
+        call ep210_dialogues5_julia_3_4a()
+        return False
     $ remove_hook()
     call ep213_dialogues5_julia_7()
     # Инициализируем жизнь в доме

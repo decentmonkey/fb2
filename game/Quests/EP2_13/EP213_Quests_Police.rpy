@@ -32,8 +32,6 @@ label ep213_quests_police1_check_init:
 
 
 label ep213_quests_police2_talk_reception:
-    if act=="l":
-        return
 label ep213_quests_police2_turniket:
     call ep213_dialogues_police2b()
     $ ep213_quests_police_money_stored = money
@@ -41,6 +39,10 @@ label ep213_quests_police2_turniket:
     $ ep213_quests_police_inventory_stored = inventory
     $ inventory = []
     $ add_inventory("butt_plug", 1, False)
+    fadeblack
+    pause 2.0
+
+    call change_scene("police_cell1", "Fade_long", False)
 
     return False
 
@@ -54,6 +56,8 @@ label ep213_quests_police3_takeplug: # взять пробку
     sound chpok2
     pause 1.5
     $ add_inventory("butt_plug", 1, True)
+    $ cloth = "NudePlug"
+    $ cloth_type = "Nude"
     call refresh_scene_fade()
     return False
 
@@ -62,3 +66,28 @@ label ep213_quests_police4_enter_police:
         return
     call change_scene("police_entrance", "Fade_long")
     return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

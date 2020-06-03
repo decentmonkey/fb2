@@ -52,6 +52,15 @@ label ep213_dialogues_police1:
         mt "Боюсь представить что будет, если этот извращенец попросит показать ее... #ее - it"
         mt "Ведь он не разрешал мне ее вынимать... #ее - it"
         return 1
+    if day_time == "evening":
+        call ep27_dialogues_marcus1_1b()
+        return 0
+    if cloth != "CasualDress1":
+        call ep27_dialogues_marcus1_1c()
+        return 0
+    call ep27_dialogues_marcus1_1a()
+    if _return == False:
+        return 0
     #
     return 2
 
