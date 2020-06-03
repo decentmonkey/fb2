@@ -641,7 +641,7 @@ label ep213_dialogues2_escort_5:
     music stop
     img black_screen
     with diss
-    pause 1.0
+    pause 1.5
     music Groove2_85
     # кадр меняется, Моника со злым лицом также стоит, эти двое сидят за "столиком"
     # клиент держит руку Линды в своей руке

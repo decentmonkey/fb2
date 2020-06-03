@@ -194,7 +194,7 @@ label ep213_dialogues5_julia_2:
     # кладет ей на плечи руки
     fadeblack
     sound highheels_short_walk
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 30593
     julia "Оох, Миссис Бакфетт, это так приятно!"
@@ -264,7 +264,7 @@ label ep213_dialogues5_julia_2:
     # наклоняеся к ее лицу, целует в губы
     # Юлия тает
     # отрывается от ее губ и берет в ладони груди, проводит пальцами по соскам, сжимает их
-    fadeblack
+    fadeblack 2.0
     music Hidden_Agenda
     imgfl 30604
     m "Ну конечно, милая."
@@ -606,7 +606,7 @@ label ep213_dialogues5_julia_3:
             mt "Черт!"
             pass
     # Моника приближает лицо к киске Юлии и начинает лизать
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 30647
     w
@@ -1029,7 +1029,7 @@ label ep213_dialogues5_julia_5:
     # Моника встает со стула, подходит к столу Юлии, та радостная
     # Моника притворно улыбаясь опускается на колени перед столом Юлии
     # после этого улыбка с ее лица исчезает, она злая
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 30591
     w
@@ -1069,7 +1069,7 @@ label ep213_dialogues5_julia_5:
     # Юлия сидит работает, потом смотрит вниз под стол, смущается
     fadeblack
     sound vjuh3
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 30706
     julia "Миссис Бакфетт, Вы же это себе представляли в прошлый раз?"
@@ -1160,7 +1160,7 @@ label ep213_dialogues5_julia_5:
     w
     fadeblack
     sound snd_door_open1
-    pause 1.0
+    pause 1.5
     sound snd_door_locked1
     sound2 man_steps
     pause 2.0
@@ -1203,7 +1203,7 @@ label ep213_dialogues5_julia_5:
     fadeblack
     sound man_steps
     sound2 snd_door_close1
-    pause 1.0
+    pause 1.5
     music Groove2_85
     # Юлия смотрит вниз под стол, Моника злая
     imgfl 30729
@@ -1228,7 +1228,7 @@ label ep213_dialogues5_julia_5:
     menu:
         "Продолжить ласкать киску Юлии.":
             pass
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 30732
     julia "О-о-о-о..."
@@ -1269,7 +1269,7 @@ label ep213_dialogues5_julia_5:
     julia "ААААААА!!!"
     julia "!!!"
 
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     # Моника отстраняется, Юлия, расслабленная и довольная, сидит в своем кресле
     imgfl 30736
@@ -1536,7 +1536,7 @@ label ep213_dialogues5_julia_6:
     julia "!!!"
 
     # Моника отстраняется, Юлия довольная
-    fadeblack
+    fadeblack 2.0
     music Groove2_85
     imgfl 30777
     julia "Миссис Бакфетт..."
@@ -1757,7 +1757,7 @@ label ep213_dialogues5_julia_7:
 # УТРО
 # Моника с Юлией лежат голые в постели
 label ep213_dialogues5_julia_8:
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 30796
     w
@@ -1780,7 +1780,7 @@ label ep213_dialogues5_julia_8:
                     mt "..."
                     # Моника приобнимает Юлию и целует плечи, лицо
                     # Счита, что целовать Юлю Моника не будет, так как негативно к ней относится (просто поглаживания)
-                    fadeblack
+                    fadeblack 1.5
                     music Groove2_85
                     imgfl 30798
                     w
@@ -1831,7 +1831,7 @@ label ep213_dialogues5_julia_8:
                             sound snd_kiss2
                             m "..."
                             # Моника берет в ладони грудь Юлии, целует соски, Юлия балдеет
-                            fadeblack
+                            fadeblack 1.5
                             music Loved_Up
                             imgfl 30808
                             w
@@ -1952,7 +1952,7 @@ label ep213_dialogues5_julia_8:
                                             mt "Ты просто используешь эту глупую дурочку."
                                             mt "..."
                                             # Моника спускается ниже и начинает лизать киску Юлии
-                                            fadeblack
+                                            fadeblack 1.5
                                             music Loved_Up
                                             imgfl 30825
                                             w
@@ -2031,7 +2031,7 @@ label ep213_dialogues5_julia_8:
                                             julia "ААААААА!!!"
                                             julia "!!!"
                                             # Юлия лежит прибалдевшая, Моника целует ее в губы
-                                            fadeblack
+                                            fadeblack 1.5
                                             music Groove2_85
                                             imgfl 30837
                                             w
@@ -2078,7 +2078,7 @@ label ep213_dialogues5_julia_8:
 
 # если выбран пункт меню "Не будить Юлию" и Моника зашла на кухню
 label ep213_dialogues5_julia_9:
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 30841
     mt "Что мне лучше сделать, пока эта никчемная Юлия спит?"
@@ -2141,7 +2141,7 @@ label ep213_dialogues5_julia_9:
             mt "..."
             # Моника наклоняется к лицу Юлии и они целуются взасос
             # Юлия опускает свою руку с талии Моники ей на попу
-            fadeblack
+            fadeblack 1.5
             music Loved_Up
             imgfl 30849
             sound kiss1
@@ -2195,7 +2195,7 @@ label ep213_dialogues5_julia_9:
                     mt "ЧЕРТ!"
                     mt "!!!"
 
-                    fadeblack
+                    fadeblack 1.5
                     music Loved_Up
                     imgfl 30859
                     w
@@ -2279,7 +2279,7 @@ label ep213_dialogues5_julia_9:
                     julia "О-о-о-о..."
                     call ep213_quests_julia18_progress(14, True, 3)
 
-                    fadeblack
+                    fadeblack 1.5
                     music Groove2_85
                     imgfl 30871
                     julia "О, Миссис Бакфетт! Это было потрясающе!"
@@ -2352,9 +2352,9 @@ label ep213_dialogues5_julia_9:
                             w
                             fadeblack
                             sound snd_walk_barefoot
-                            pause 1.0
+                            pause 1.5
                             sound snd_fabric1
-                            pause 1.0
+                            pause 1.5
                             music Loved_Up
                             imgfl 30884
                             julia "Миссис Бакфетт, идите ко мне..."
@@ -2432,7 +2432,7 @@ label ep213_dialogues5_julia_9:
                             sound woman_moan11
                             julia "АААААААА!!!"
                             # Юлия кончает, потом лежит довольная
-                            fadeblack
+                            fadeblack 1.5
                             call ep213_quests_julia18_progress(15, True, 4)
                             music Groove2_85
                             imgfl 30837
@@ -2677,7 +2677,7 @@ label ep213_dialogues5_julia_10:
     # если в душе Юлия
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Groove2_85
     music2 snd_shower3
 
@@ -2744,7 +2744,7 @@ label ep213_dialogues5_julia_10:
             mt "!!!"
             # поцелуй взасос
             # Юлия опускается перед Моникой на колени
-            fadeblack
+            fadeblack 1.5
             music Loved_Up
             imgfl 30921
             sound kiss2
@@ -2762,7 +2762,7 @@ label ep213_dialogues5_julia_10:
             w
             fadeblack
             sound vjuh3
-            pause 1.0
+            pause 1.5
             music Groove2_85
             imgfl 30926
             julia "Миссис Бакфетт, я хотела бы сделать приятное Вам..."
@@ -2864,7 +2864,7 @@ label ep213_dialogues5_julia_10a:
     # если Юлия сидит в туалете
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 30986
     sound snd_piss
@@ -3084,7 +3084,7 @@ label ep213_dialogues5_julia_10a:
                     mt "!!!!!"
                     pass
             # Юлия подходит к Монике и обнимает ее
-            fadeblack
+            fadeblack 1.5
             music Groove2_85
             imgfl 31020
             julia "Вам понравилось, Миссис Бакфетт?"
@@ -3125,7 +3125,7 @@ label ep213_dialogues5_julia_10b:
     # Моника заходит в душ и моется
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Groove2_85
     music2 snd_shower3
     imgfl 30942
@@ -3223,7 +3223,7 @@ label ep213_dialogues5_julia_10b:
     julia "Я так рада, Миссис Бакфетт!"
     # они снова целуются, потом Моника опускается на колени
     # целует сначала киску
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 30961
     sound snd_kiss2
@@ -3314,7 +3314,7 @@ label ep213_dialogues5_julia_10b:
     hide screen photoshot_screen
     sound woman_moan11
     julia "!!!"
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     # Юлия стоит довольная
     imgfl 30984
@@ -3336,7 +3336,7 @@ label ep213_dialogues5_julia_10b:
 # ВЕЧЕР
 label ep213_dialogues5_julia_11:
     # лежат вдвоем с Юлией в постели под одеялом
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 31023
     w
@@ -3494,7 +3494,7 @@ label ep213_dialogues5_julia_11:
                             # Юлия на спине
                             # Моника вставляет дилдо рукой
                             $ monicaJuliaLoveStory25 = True # Моника соглашается на дилдо перед сном
-                            fadeblack
+                            fadeblack 1.5
                             music Groove2_85
                             imgfl 31059
                             w
@@ -3568,7 +3568,7 @@ label ep213_dialogues5_julia_11:
                             julia "!!!"
                             # Юлия довольная
                             # Моника чмокает ее, отшвыривает дилдо
-                            fadeblack
+                            fadeblack 1.5
                             music Groove2_85
                             imgfl 30837
                             w
@@ -3580,7 +3580,7 @@ label ep213_dialogues5_julia_11:
                             mt "Какая мерзость!"
                             mt "!!!"
                             # ложится на подушку и закрывает глаза
-                            fadeblack
+                            fadeblack 1.5
                             call ep213_quests_julia18_progress(18, True, 4)
                             music Groove2_85
                             imgfl 31024
@@ -3600,7 +3600,7 @@ label ep213_dialogues5_julia_11:
 # при клике на кровать и выборе дневного отдыха (первый раз, однократно)
 label ep213_dialogues5_julia_12:
     # Моника лежит на кровати (нога на ногу), Юлия подходит и спрашивает
-    fadeblack
+    fadeblack 1.5
     music Stealth_Groover
     imgfl 31046
     w
@@ -3627,7 +3627,7 @@ label ep213_dialogues5_julia_12:
 # при клике на кровать и выборе дневного отдыха (первый раз, однократно)
 label ep213_dialogues5_julia_12a:
     # Моника лежит на кровати (нога на ногу), Юлия подходит и спрашивает
-    fadeblack
+    fadeblack 1.5
     music Stealth_Groover
     imgfl 31046
     w
@@ -3658,7 +3658,7 @@ label ep213_dialogues5_julia_13:
     # Юлия подходит к Монике
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 31050
     julia "Миссис Бакфетт, Вы уже уходите в офис?"
@@ -3680,7 +3680,7 @@ label ep213_dialogues5_julia_13a:
     # Юлия подходит к Монике
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 31050
     julia "Миссис Бакфетт, Вы уже уходите в офис?"

@@ -22,7 +22,7 @@
 label ep213_dialogues1_victoria_1:
     # возле лифта в холле стоят Виктория и Алекс и разговаривают (Алекс ждет лифт и стоит к ней спиной, она к нему лезет со своими вопросами)
     # Виктория себя ведет с ним заискивающе
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 17633
     victoria "Алекс, ну пожалуйста!"
@@ -176,7 +176,7 @@ label ep213_dialogues1_victoria_2:
     # у Моники злое лицо, но она делает шаг к Виктории и чмокает ее в щечку
     fadeblack
     sound highheels_short_walk
-    pause 1.0
+    pause 1.5
     music Loved_Up
     if cloth == "CasualDress":
         imgfl 17663
@@ -373,7 +373,7 @@ label ep213_dialogues1_victoria_3:
     # Моника раздвигает ноги и неуклюже засовывает руку с помадой себе под юбку
     fadeblack
     sound snd_fabric1
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 17692
     m "Черт. Не получается!"
@@ -892,7 +892,7 @@ label ep213_dialogues1_victoria_9:
     # Виктория поворачивается к программисту, который все это время с любопытством на нее глазел
     fadeblack
     sound Jump1
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 17783
     victoria "А вам тоже нравится работать здесь?"
@@ -1159,7 +1159,7 @@ label ep213_dialogues1_victoria_10:
     m "Подружка не против." # зло
 
     # Виктория садится на ее кресло, вальяжно
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 17832
     victoria "А то кресло удобнее, чем это..."
@@ -1563,7 +1563,7 @@ label ep213_dialogues1_victoria_13:
     # Мелани садится на стул справа, где сидела Юлия
 
     # Виктория спрашивает у Мелани
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 17904
     victoria "Как дела у моей подружки Мелани?"
@@ -1793,7 +1793,7 @@ label ep213_dialogues1_victoria_13:
 
     # смена кадра, все сидят на тех же местах
     # Моника с Мелани злые, зато Виктория крайне довольна
-    fadeblack
+    fadeblack 2.0
     music Groove2_85
     imgfl 17949
     victoria "Сейчас мы с подружкой Мелани пойдем подбирать ей наряд для свидания."
@@ -1846,9 +1846,9 @@ label ep213_dialogues1_victoria_14:
     # после ухода Виктории и Мелани, Моника сидит на диване одна
     fadeblack
     sound snd_door_open1
-    pause 1.0
+    pause 1.5
     sound snd_door_locked1
-    pause 1.0
+    pause 1.5
     music Master_Disorder
     imgfl 17957
     mt "Скорее, Моника!"

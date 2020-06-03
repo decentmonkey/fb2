@@ -137,7 +137,7 @@ label ep213_dialogues3_pub_3:
     # после танца Моника заходит в гримерку, там уже нет Молли
     # Моника уже переоделась в костюм шлюхи, при клике на выход из гримерки
     # Моника медлит и смотрит на банку с чаевыми на столе Молли
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 18206
     w
@@ -184,7 +184,7 @@ label ep213_dialogues3_pub_3:
     mt "Может стоит взять еще одну..."
     mt "И еще..."
     $ add_money(50.0)
-    fadeblack
+    fadeblack 1.5
     music Stealth_Groover
     imgfl 18209
     # затемнение
@@ -205,7 +205,7 @@ label ep213_dialogues3_pub_3:
 label ep213_dialogues3_pub_4:
     # вернувшись со сцены в пустую гримерку и переодевшись, при клике на выход
     # Моника стоит в одежде шлюхи и смотрит на банку с чаевыми
-    fadeblack
+    fadeblack 1.5
     music Marty_Gots_a_Plan
     #
     $ notif(_("Моника украла у Молли $ 50."))
@@ -597,7 +597,7 @@ label ep213_dialogues3_pub_6:
 # в конце этого лейбла Эшли ей говорит
 label ep213_dialogues3_pub_7:
     # использовать имеющиеся арты
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     music2 pub_noise1_low
     imgfl 20964
@@ -1018,7 +1018,7 @@ label ep213_dialogues3_pub_15:
             m "Ничтожество!"
             m "!!!"
             # Моника гордо уходит
-            fadeblack
+            fadeblack 1.5
             music Groove2_85
             imgfl 30468
             sound highheels_short_walk
@@ -1051,7 +1051,7 @@ label ep213_dialogues3_pub_15:
     imgf 18240
     joe "Пошли." # выходит из гримерки
     # Моника в сомнениях
-    fadeblack
+    fadeblack 1.5
     music Stealth_Groover
     imgfl 18241
     mt "Мерзкий извращенец!"
@@ -1281,7 +1281,7 @@ label ep213_dialogues3_pub_16:
             # и прямо в туфле ставит ногу на его член, припечатывая его каблуком
             fadeblack
             sound highheels_short_walk
-            pause 1.0
+            pause 1.5
             music Stealth_Groover
             img 31124 hpunch
             sound scream_steve
@@ -1308,7 +1308,7 @@ label ep213_dialogues3_pub_16:
             m "!!!"
             fadeblack
             sound snd_fabric1
-            pause 1.0
+            pause 1.5
             music Stealth_Groover
             imgfl 31130
             sound highheels_short_walk
@@ -1467,7 +1467,7 @@ label ep213_dialogues3_pub_16:
 
     # Моника остается с Джо вдвоем
     # она протягивает к нему руку
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 18334
     m "Джо, давай мне мои 400 долларов и я пойду!"
@@ -1561,7 +1561,7 @@ label ep213_dialogues3_pub_16:
                 w
                 imgd 18353
                 w
-                fadeblack
+                fadeblack 1.5
                 music Loved_Up
                 imgfl 18354
                 joe "Ооооо!!! [monica_pub_name]!!!"
@@ -1952,7 +1952,7 @@ label ep213_dialogues3_pub_16:
             return
     # Моника поворачивается к Эшли спиной
     # та смотрит на ее попу и кладет на нее ладонь
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 18407
     w
@@ -2025,7 +2025,7 @@ label ep213_dialogues3_pub_17:
             mt "Этот неудачник не такой жадный, как остальные..."
             mt "Его чаевые не будут лишними."
             # садится к нему на колени
-            fadeblack
+            fadeblack 1.5
             music Loved_Up
             imgfl 14484
             customer9 "Умничка... Вот тебе денежка..."
@@ -2049,7 +2049,7 @@ label ep213_dialogues3_pub_17:
 
                     # Моника засовывает пуки под юбку, чтобы снять трусики
                     # Моника сидит на коленях у клиента, на ногах у нее видны приспущенные трусики
-                    fadeblack
+                    fadeblack 1.5
                     music Loved_Up
                     imgfl 31175
                     w
@@ -2078,7 +2078,7 @@ label ep213_dialogues3_pub_17:
                     m "Нет!"
                     m "Я не буду этого делать!"
                     # Моника встает
-                    fadeblack
+                    fadeblack 1.5
                     music Groove2_85
                     imgfl 14411
                     m "Что вам принести?"
@@ -2106,7 +2106,7 @@ label ep213_dialogues3_pub_17:
     # Моника уходит и возвращается с пивом
     fadeblack
     sound highheels_run2
-    pause 1.0
+    pause 1.5
     music Groove2_85
     sound snd_beer_table
     imgfl 31174
