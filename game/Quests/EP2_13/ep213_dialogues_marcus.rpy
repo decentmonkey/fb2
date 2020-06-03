@@ -33,7 +33,7 @@ label ep213_dialogues_marcus1:
     # У того на коленях лежит кот
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Malicious
     imgfl 23915
     mt "Боже! Каждый раз, когда я оказываюсь здесь, я вся трясусь от страха!"
@@ -194,7 +194,7 @@ label ep213_dialogues_marcus1:
     mt "Если я не придумаю, как убедить его играть со мной дальше, то мне конец!"
 
     # Показывает пробку
-    fadeblack
+    fadeblack 1.5
     music Villainous_Treachery
     imgfl 23947
     m "Мистер Маркус..."
@@ -720,7 +720,7 @@ label ep213_dialogues_marcus1:
     imgf 24051
     w
     # затемнение
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24052
     marcus "Хорошо, идем дальше!"
@@ -752,7 +752,7 @@ label ep213_dialogues_marcus1:
     marcus "Давайте попробуем еще раз."
     # затемнение
     # Моника сидит как надо
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24059
     w
@@ -801,7 +801,7 @@ label ep213_dialogues_marcus1:
     marcus "Вы можете утолить свой голод."
 
 # Моника садится и пытается есть
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24071
     sound cat_eating
@@ -855,7 +855,7 @@ label ep213_dialogues_marcus1:
     marcus "Хорошо, Миссис Бакфетт. Ешьте, не отвлекайтесь."
 
 # затемнение
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24086
     marcus "Достаточно!"
@@ -879,7 +879,7 @@ label ep213_dialogues_marcus1:
 
 # затемнение
     # Моника делает правильно
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24091
     marcus "Да, это правильная поза."
@@ -963,7 +963,7 @@ label ep213_dialogues_marcus2:
     # затемнение
 
 # Моника ложится правильно
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24111
     marcus "Да, Миссис Бакфетт, именно так."
@@ -1096,7 +1096,7 @@ label ep213_dialogues_marcus2:
     mt "Нет!!!"
     mt "И НИКОГДА НЕТ!!!"
     # Сменяется кадр
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24134
     m "Мяяяууу..."
@@ -1212,7 +1212,7 @@ label ep213_dialogues_marcus3:
     w
     imgd 24161
     marcus "Теперь возвращайте игрушку на место."
-    fadeblack
+    fadeblack 1.5
     music Malicious
     imgfl 24162
     mt "!!!"
@@ -1230,7 +1230,7 @@ label ep213_dialogues_marcus3:
     imgd 24166 # вставила с тряской и звуком
     sound chpok10
     w
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24167
     marcus "Хорошо."
@@ -1259,7 +1259,7 @@ label ep213_dialogues_marcus3:
     # затемнение
     # Моника становится правильно #06
     # звук лижет ботинки
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 24173
     marcus "Да, Миссис Бакфетт."

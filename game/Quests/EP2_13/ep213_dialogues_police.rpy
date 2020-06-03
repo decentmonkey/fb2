@@ -201,7 +201,7 @@ label ep213_dialogues_police2b:
     # полицейские грубо общаются с Моникой
     fadeblack
     sound man_steps
-    pause 1.0
+    pause 1.5
     sound snd_jail_door
     pause 2.0
     music Villainous_Treachery
@@ -218,7 +218,7 @@ label ep213_dialogues_police2b:
     # Моника раздевается, видна пробка
     fadeblack
     sound snd_fabric1
-    pause 1.0
+    pause 1.5
     music Gearhead
     imgfl 18428
     policeman2 "Что это там у тебя?"
@@ -271,7 +271,7 @@ label ep213_dialogues_police2b:
     policeman1 "Аха-ха-ха!!!"
 
     # Сменяется на детектива и Боба
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 18421
     detective "Боб, завтра эта заключенная встретится с Мистером Маркусом, если тот успеет вернуться."
@@ -303,7 +303,7 @@ label ep213_dialogues_police2b:
 label ep213_dialogues_police3:
     # Моника голая
     # Сжавшись у кровати
-    fadeblack
+    fadeblack 1.5
     music Master_Disorder
     imgfl 18445
     mt "Мерзкие халдеи!!!"
@@ -338,7 +338,7 @@ label ep213_dialogues_police7:
     # рендерить
     # кровать
     # Моника лежит на кровати, голая
-    fadeblack
+    fadeblack 1.5
     music Malicious
     imgfl 18447
     mt "Удивительно, но я начинаю привыкать к этому месту..."
@@ -631,7 +631,7 @@ label ep213_dialogues_police7:
     # Боб снаружи
     fadeblack
     sound man_steps
-    pause 1.0
+    pause 1.5
     sound snd_jail_door
     pause 2.0
     music Groove2_85
@@ -650,7 +650,7 @@ label ep213_dialogues_police7:
 label ep213_dialogues_police8:
 # заставляет показать грудь и сказать что шлюха хорошая. и что ей очень жаль, что ей запретили трахаться с заключенным
 # ложатся спать отдельно
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     music2 stop
     imgfl 18504
@@ -802,7 +802,7 @@ label ep213_dialogues_police9a:
 label ep213_dialogues_police9:
     # Моника просыпается
     # Заключенный спит на другой кровати
-    fadeblack
+    fadeblack 1.5
     music Master_Disorder
     imgfl 31178
     w
@@ -812,7 +812,7 @@ label ep213_dialogues_police9:
     mt "Детектив что-то говорил о том, что меня должны отправить на объект..."
     mt "Но, я уверена, это было актуально до того, как я пришла сама к Маркусу."
     mt "Я ничего не нарушала и, уверена, после встречи с Маркусом меня отпустят..."
-    fadeblack
+    fadeblack 1.5
     music Groove2_85
     imgfl 31180
     mt "Кажется, это мерзкое насекомое еще спит..."
@@ -885,7 +885,7 @@ label ep213_dialogues_police10:
     return
 
 label ep213_dialogues_police10c:
-    fadeblack
+    fadeblack 1.5
     music Malicious
     imgfl 31188
     w
@@ -952,7 +952,7 @@ label ep213_dialogues_police10c:
     # Подходит Боб
     fadeblack
     sound man_steps
-    pause 1.0
+    pause 1.5
     music Groove2_85
     imgfl 31200
     overseer "Эй! Что вы там делаете!"
@@ -1095,7 +1095,7 @@ label ep213_dialogues_police10d:
 label ep213_dialogues_police11:
 # день3
 # После сна Моника обнаруживает что у нее во рту член заключенного.
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 18557
     w
@@ -1115,7 +1115,7 @@ label ep213_dialogues_police11:
     # Подбегает Боб
     fadeblack
     sound man_steps
-    pause 1.0
+    pause 1.5
     music Gearhead
     img 18561 hpunch
     overseer "Что здесь за шум?!"
@@ -1220,7 +1220,7 @@ label ep213_dialogues_police12a:
             return False
     if game.extra == True:
         # Моника садится
-        fadeblack
+        fadeblack 1.5
         music Malicious
         imgfl 18534
         mt "Мне надо притвориться, что я делаю это..."
@@ -1370,7 +1370,7 @@ label ep213_dialogues_police12a:
         # Монику рвет в туалет (со спины)
         imgf 18550
         mt "О БОЖЕ! МЕНЯ СЕЙЧАС ВЫРВЕТ!"
-        fadeblack
+        fadeblack 1.0
         music2 stop
         music Gearhead
         imgfl 18551
@@ -1422,7 +1422,7 @@ label ep213_dialogues_police12b:
 # день4
 label ep213_dialogues_police13:
 # После сна Моника обнаруживает что заключенный стянул с нее одежду и хочет войти в нее. (лежа сзади, как вечером)
-    fadeblack
+    fadeblack 1.5
     music Loved_Up
     imgfl 31226
     w
@@ -1801,7 +1801,7 @@ label ep213_dialogues_police14:
         return
     $ monicaLastPissedDay = day
     # Моника садится на туалет, заключенный стоит перед ней и смотрит в упор
-    fadeblack
+    fadeblack 1.5
     if ep213_quests_prisoner == True and ep213_quests_prisoner1_offended == False and prisoner1Cell1Suffix != 3:
         music Villainous_Treachery
         imgfl 31271
@@ -1859,7 +1859,7 @@ label ep213_dialogues_police17:
     music Groove2_85
     imgfl 31274
     overseer "На, жри!"
-    fadeblack
+    fadeblack 1.5
     sound snd_eating
 
     # либо
@@ -1873,7 +1873,7 @@ label ep213_dialogues_police17:
 label ep213_dialogues_prisoner1_offended:
     fadeblack
     sound snd_walk_barefoot
-    pause 1.0
+    pause 1.5
     music Power_Bots_Loop
     imgfl 31220
     w
