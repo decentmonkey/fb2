@@ -11,6 +11,7 @@ default juliahome_work_action_day = 0
 default juliahome_work_action_evening_day = 0
 default julia_progress_list = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]
 default juliahome_julia_shower_time = 0
+default juliahome_kitchen_events_activated = False
 
 label ep213_quests_julia1: # Моника предлагает Юлии жить вместе
     call ep213_dialogues5_julia_16()
@@ -141,6 +142,7 @@ label ep213_quests_julia4_kitchen: # клик на кухню (еда)
         return
 
     if get_active_objects("Julia", scene="street_juliahome", recursive=True) != False and juliaHomeLivingRoomJuliaSuffix == 2 and week_day != 7: # Если Юлия дома и спит
+        $ juliahome_kitchen_events_activated = True
         call ep213_dialogues5_julia_9()
         if _return != False:
             $ monica_eated()
@@ -289,6 +291,8 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
         if _return == 0: # Просыпается только Моника
             $ juliaHomeLivingRoomMonicaSuffix = 2
             $ juliaHomeLivingRoomJuliaSuffix = 2
+            if juliahome_kitchen_events_activated == False:
+                $ autorun_to_object("ep213_dialogues5_julia_19_about_kitchen")
             call refresh_scene_fade()
             return False
 
