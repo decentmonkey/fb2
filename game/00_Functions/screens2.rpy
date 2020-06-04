@@ -739,6 +739,35 @@ screen poledance_coins(coinsArr):
                 $ idx1 += 1
     timer (3.25) action [Hide('poledance_coins')]
 
+
+screen screen_marcus_cat_training1(numb):
+    modal True
+    fixed:
+        imagebutton:
+            xpos 0.5
+            ypos 0.5
+            xanchor 0.5
+            yanchor 0.5
+            idle "Icons2/" + marcusCatTrainingButtons[numb] + ".png"
+            hover "Icons2/" + marcusCatTrainingButtons[numb] + "_hover.png"
+            action Return(True)
+
+screen screen_marcus_cat_training2():
+    modal True
+    fixed:
+        xpos getRes(312-153)
+        ypos getRes(210)
+        $ offsetIdx = 0
+        for commandIdx in range(0,len(marcusCatTrainingButtons)):
+            hbox:
+                imagebutton:
+                    xpos (offsetIdx%5 * getRes(340))
+                    ypos (int(offsetIdx/5) * getRes(340))
+                    idle "Icons2/" + marcusCatTrainingButtons[commandIdx] + ".png"
+                    hover "Icons2/" + marcusCatTrainingButtons[commandIdx] + "_hover.png"
+                    action Return(commandIdx)
+                $ offsetIdx += 1
+
 transform coin_appear1:
     on show:
         alpha 0

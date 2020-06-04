@@ -31,10 +31,11 @@ default monicaMarcusCat3 = False  # Моника предложила Марку
 label ep213_dialogues_marcus1:
     # Моника входит в одежде к Маркусу
     # У того на коленях лежит кот
-    fadeblack
+    fadeblack 2.0
     sound snd_walk_barefoot
     pause 1.5
     music Malicious
+#    music2 Audioblocks_-_Heartbeat_Horror_Ambience
     imgfl 23915
     mt "Боже! Каждый раз, когда я оказываюсь здесь, я вся трясусь от страха!"
     music Master_Disorder
@@ -48,21 +49,23 @@ label ep213_dialogues_marcus1:
     imgf 23918
     marcus "О, мне нравится ваш образ, Миссис Бакфетт!"
     marcus "Эта одежда мне напоминает то, в чем была одета Мальвина, когда согласилась прийти сюда."
+    music2 stop
     imgd 23919
     marcus "Это не та же одежда, Миссис Бакфетт?"
     marcus "Вы ведь знатная леди, вы должны быть уникальны..."
-    music2 stop
+#    music2 stop
     music Malicious
     imgf 23920
     m "Ма... Мальвина?"
     m "Кто... Кто это?"
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgd 23921
     marcus "Это девушка, которая была здесь до вашего прихода."
     marcus "Прошу прощения, что не смог уделить вам время вчера."
     marcus "Я имел хлопоты по доставке этой девушки на известную вам Ферму 218."
     marcus "Мальвина - это ее новое имя."
+    music2 cat_purr
     imgd 23922
     marcus "Ее старое имя было широко известно, как и ваше, но теперь это не имеет значения."
     music2 stop
@@ -75,18 +78,20 @@ label ep213_dialogues_marcus1:
     m "Хххотите... Я... Я сниму это..."
 
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgd 23925
     marcus "Что вы, Миссис Бакфетт..."
     marcus "Сегодня здесь прохладнее. И не стоит снимать верхнюю одежду."
+    music2 cat_purr
     imgd 23926
     marcus "Я попросил заботиться о вас и не хочу, чтобы вы простыли."
     marcus "Вам также, как и той девушке, предстоит дорога на Ферму 218."
     marcus "Собственно, для этого мне и пришлось прервать наблюдение за ее тренировкой и вернуться сюда."
     music2 stop
 
-    music Power_Bots_Loop
-    imgf 23927
+    fadeblack 2.0
+    music Malicious
+    img 23927 hpunch
     m "ЧТО?!"
     m "На ферму?!"
     m "Но Мистер Маркус! Вы сказали мне прийти сюда..."
@@ -99,7 +104,8 @@ label ep213_dialogues_marcus1:
     marcus "Я благодарю вас за то, что вы пришли сами. Вы оказали мне честь."
     marcus "Но, честно говоря, сегодня вы были бы здесь независимо от этого."
 
-    imgf 23929
+    music2 stop
+    img 23929
     m "Как?"
     m "Почему?!"
     imgd 23930
@@ -108,13 +114,14 @@ label ep213_dialogues_marcus1:
     marcus "Вас очень ждут, Миссис Бакфетт."
     marcus "И эти люди уже устали слышать о причинах, по которым вы все еще не там."
 
-    imgf 23931
+    img 23931
     m "Нет!"
     m "Мистер Маркус! Но вы говорили, что..."
 
     imgd 23932
     marcus "Миссис Бакфетт, я говорил вам, что нашел способ обойти защиту вашего друга Дика."
     marcus "Более того, я могу спровоцировать ситуацию, при которой вы нарушите закон."
+    music2 cat_purr
     imgd 23933
     marcus "По большому счету, у вас нет причин оставаться на свободе."
     marcus "Ваш случай и так уже слишком уникален."
@@ -127,7 +134,7 @@ label ep213_dialogues_marcus1:
     m "Вы можете дать мне побыть на свободе еще чуть-чуть!"
 
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgd 23935
     marcus "Миссис Бакфетт. Я действую не один."
     marcus "Информация, которая стекается сюда, попадает в руки не только ко мне."
@@ -143,12 +150,14 @@ label ep213_dialogues_marcus1:
     mt "О БОЖЕ!"
 
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgd 23938
     marcus "Я рад, что вы вошли в мое положение, Миссис Бакфетт."
     marcus "На этом наши приватные встречи будут закончены."
     marcus "Мне было приятно общаться с вами, Миссис Бакфетт."
     marcus "И я рад, что вы, в итоге, стали считать меня другом."
+    fadeblack 1.5
+    music Master_Disorder
     imgf 23939
     marcus "Ведь это так?"
 
@@ -159,11 +168,12 @@ label ep213_dialogues_marcus1:
     m "Вы... Вы мой друг!"
     m "Вы мой единственный друг!"
 
+    music2 cat_purr
     imgf 23941
     marcus "..." # улыбается зловеще
     music2 stop
 
-    imgd 23942
+    img 23942
     m "Мистер Маркус!"
     m "Я прошу вас!"
     m "Пожалуйста! Давайте встречаться еще!"
@@ -171,13 +181,14 @@ label ep213_dialogues_marcus1:
     m "Ведь вы... вы..."
     m "Вы имеете интерес ко мне!"
 
-    music2 cat_purr
+#    music2 cat_purr
     imgf 23944
     m "Я... Я интересна вам!"
     m "Вы еще можете играть со мной!"
     m "Я буду к вам регулярно приходить!"
     m "Придумывать что-то новое!"
 
+    fadeblack 2.0
     music Master_Disorder
     imgd 23945
     marcus "Правда? И что вы придумали новое на этот раз?"
@@ -195,7 +206,7 @@ label ep213_dialogues_marcus1:
 
     # Показывает пробку
     fadeblack 1.5
-    music Villainous_Treachery
+    music Loved_Up
     imgfl 23947
     m "Мистер Маркус..."
     m "Я... Я ношу это..."
@@ -203,10 +214,12 @@ label ep213_dialogues_marcus1:
     m "Мне это... очень нравится..."
 
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgd 23949
     marcus "..." # улыбается
 
+    fadeblack 1.5
+    music Master_Disorder
     imgf 23950
     m "Вы открыли мне глаза, Мистер Маркус!"
     m "Вы... вы настоящий друг!"
@@ -268,12 +281,12 @@ label ep213_dialogues_marcus1:
     imgf 23962
     marcus "Подумайте хорошенько, прежде чем ответить, Миссис Бакфетт"
 
-    music stop
+    music Audioblocks_-_Heartbeat_Horror_Ambience
     imgd 23963
     menu:
         "Я пришла, потому что вы приказали мне.":
-            m "Я пришла, потому что вы приказали мне сделать это..."
             music2 stop
+            m "Я пришла, потому что вы приказали мне сделать это..."
             music Master_Disorder
             imgf 23964
             marcus "Хороший ответ, Миссис Бакфетт."
@@ -287,8 +300,8 @@ label ep213_dialogues_marcus1:
             return False
 
         "Я пришла, потому что боюсь последствий.":
-            m "Я пришла, потому что иначе вы отправите меня на ферму."
             music2 stop
+            m "Я пришла, потому что иначе вы отправите меня на ферму."
             music Master_Disorder
             imgf 23964
             marcus "Вам не стоит бояться страха, Миссис Бакфетт."
@@ -299,13 +312,15 @@ label ep213_dialogues_marcus1:
             img 23965 hpunch
             m "ЧТО?! О НЕТ!!!"
             # ферма
-            return
+            return False
 
         "Я пришла, потому что люблю вас.":
+            music2 stop
             $ monicaMarcusCat1 = True # Моника сказала Маркусу, что пришла к нему, потому что любит его
             pass
 
-    music Loved_Up
+    fadeblack 2.0
+    music Malicious
     imgf 23966
     m "Я пришла, потому что..."
     m "Потому что я люблю вас, Мистер Маркус!"
@@ -335,10 +350,11 @@ label ep213_dialogues_marcus1:
     imgf 23972
     marcus "Миссис Бакфетт, вы также меркантильны, как и все остальные женщины."
 
-    music Power_Bots_Loop
+    music Malicious
     img 23973 hpunch
     m "!!!"
 
+    music2 cat_purr
     music Master_Disorder
     imgf 23974
     marcus "Однако, я не считаю это недостатком..."
@@ -346,6 +362,7 @@ label ep213_dialogues_marcus1:
     marcus "Даже забавляете..."
     marcus "А вы уже знаете, что скука - это проблема, с которой мне приходится бороться ежедневно..."
 
+    music2 stop
     music Malicious
     imgd 23975
     m "Мистер Маркус! Я..."
@@ -377,7 +394,7 @@ label ep213_dialogues_marcus1:
     m "Я буду очень стараться!"
 
     music Master_Disorder
-    music2 cat_purr
+#    music2 cat_purr
     imgf 23981
     marcus "Видите ли, Миссис Бакфетт..."
     marcus "Через пару дней я собираюсь на встречу знатных господ."
@@ -385,7 +402,7 @@ label ep213_dialogues_marcus1:
     marcus "Они ждут, чтобы вы прошли инициацию у них на глазах."
     marcus "И я не могу обмануть доверие, оказанное мне."
 
-    imgd 23982
+    img 23982 vpunch
     m "!!!"
 
     imgf 23983
@@ -412,8 +429,8 @@ label ep213_dialogues_marcus1:
     imgd 23987
     sound cat_grooming
     w
-    music Power_Bots_Loop
-    imgf 23988
+    music Malicious
+    img 23988 vpunch
     m "ЧТО?!"
     m "О НЕТ!!! НЕТ!!!"
 
@@ -428,6 +445,7 @@ label ep213_dialogues_marcus1:
     img 23991 hpunch
     m "НЕЕЕЕТ!"
 
+    fadeblack 1.5
     music Master_Disorder
     imgf 23992
     marcus "Однако, мне пришла в голову одна идея, как помочь вам..."
@@ -517,6 +535,7 @@ label ep213_dialogues_marcus1:
     marcus "К тому же, у вас есть призрачный шанс получить одобрение для продолжения тренировок на воле."
     marcus "Но для этого требуется солидное усердие."
 
+    fadeblack 1.5
     music I_Feel_You
     imgf 24010
     m "Я... Я буду бороться, Мистер Маркус!"
@@ -596,8 +615,9 @@ label ep213_dialogues_marcus1:
     marcus "Она заслужила того, чтобы занять ваше место и обслужить всех питомцев вместо вас?"
     marcus "Готовы ли вы уступить ей свое место?"
 
-    music Malicious
-    imgd 24028
+    fadeblack 2.0
+    music Audioblocks_-_Heartbeat_Horror_Ambience
+    imgfl 24028
     m "Я... Я..."
 
     imgf 24029
@@ -605,8 +625,9 @@ label ep213_dialogues_marcus1:
 
     imgd 24030
     menu:
-        "Она заслужила это!":
+        "Она заслужила это!" if monicaBitch == True:
             $ monicaMarcusCat2 = True # Моника сказала Маркусу, что Мальвина заслужила отправиться на Ферму вместо нее
+            fadeblack 1.5
             music Groove2_85
             imgf 24031
             m "Да, она заслужила это!"
@@ -621,13 +642,15 @@ label ep213_dialogues_marcus1:
             marcus "Мне нравится ваш подход!"
             marcus "Он весьма... многообещающий..."
             pass
-        "Она заслужила это! (Моника слишком приличная) (disabled)":
+        "Она заслужила это! (Моника слишком приличная) (disabled)" if monicaBitch == False:
             pass
-        "Это недостаточно для того, чтобы так страдать...":
+        "Это недостаточно для того, чтобы так страдать..." if monicaBitch == False:
             imgf 24034
             mt "Это то же самое, что люди говорили про меня..."
             mt "Это какая-то ловушка..."
-            imgd 24035
+            fadeblack 1.5
+            music I_Feel_You
+            imgfl 24035
             m "Мистер Маркус..."
             m "Я считаю, что этой девушке надо исправиться..."
             m "Но она не заслужила того, чтобы так страдать..."
@@ -643,7 +666,7 @@ label ep213_dialogues_marcus1:
             marcus "Это небольшой акт моего эгоизма, так как я бы хотел поиграть с вами..."
             marcus "Еще разок..."
             pass
-        "Это недостаточно для того, чтобы так страдать... (Моника недостаточно приличная) (disabled)":
+        "Это недостаточно для того, чтобы так страдать... (Моника недостаточно приличная) (disabled)" if monicaBitch == True:
             pass
 
     fadeblack
@@ -694,6 +717,7 @@ label ep213_dialogues_marcus1:
     marcus "Вам нужно встать на четыре лапы, Миссис Бакфетт."
     marcus "И ползать вокруг!"
 
+    fadeblack 1.5
     music Villainous_Treachery
     imgf 24045
 
@@ -706,8 +730,11 @@ label ep213_dialogues_marcus1:
     imgd 24046
     marcus "Вы ползаете как человек, Миссис Бакфетт!"
     marcus "Двигайтесь грациозно, по-кошачьи!"
-
+    call screen screen_marcus_cat_training1(0)
+    sound click1
     # Моника делает правильно
+    fadeblack 1.5
+    music Groove2_85
     imgf 24047
     w
     imgd 24048
@@ -751,6 +778,9 @@ label ep213_dialogues_marcus1:
     marcus "Нет, Миссис Бакфетт, не так."
     marcus "Давайте попробуем еще раз."
     # затемнение
+
+    call screen screen_marcus_cat_training1(9)
+    sound click1
     # Моника сидит как надо
     fadeblack 1.5
     music Groove2_85
@@ -813,6 +843,10 @@ label ep213_dialogues_marcus1:
     marcus "Ведь животное будет радо, если хозяин решит обратить свое внимание на него."
     marcus "Перенесите вес на передние лапы и приподнимите хвост."
     # Моника делает правильно
+    call screen screen_marcus_cat_training1(1)
+    sound click1
+    fadeblack 1.5
+    music Groove2_85
     imgd 24073
     sound cat_growling
     w
@@ -857,7 +891,7 @@ label ep213_dialogues_marcus1:
 # затемнение
     fadeblack 1.5
     music Groove2_85
-    imgfl 24086
+    img 24086 vpunch
     marcus "Достаточно!"
     marcus "Животное! Тебе нельзя так много есть!"
     marcus "Брысь!"
@@ -878,6 +912,8 @@ label ep213_dialogues_marcus1:
     marcus "Как хорошо дрессированное животное, вы всегда должны знать, что делать."
 
 # затемнение
+    call screen screen_marcus_cat_training1(8)
+    sound click1
     # Моника делает правильно
     fadeblack 1.5
     music Groove2_85
@@ -894,6 +930,7 @@ label ep213_dialogues_marcus1:
     marcus "Хорошо, на сегодня дрессировка окончена."
     marcus "Мы продолжим завтра."
     marcus "Можете идти!"
+    fadeblack 1.5
     music Malicious
     imgf 24094
     m "Ддддосвидания, Мистер Маркус..."
@@ -902,7 +939,8 @@ label ep213_dialogues_marcus1:
     marcus "..."
     imgf 24096
     m "Мяяяууу!"
-    return
+    fadeblack 3.0
+    return True
 
 
 label ep213_dialogues_marcus2:
@@ -912,7 +950,7 @@ label ep213_dialogues_marcus2:
 #03 - Потягушки от удовольствия (доработать руки как лапки). Когда хвалят или говорят что-то хорошее про тебя (чешут за ухом), то кошка должна показывать как она рада и предлагать себя.
     fadeblack
     sound snd_walk_barefoot
-    pause 1.5
+    pause 2.5
     music Master_Disorder
     imgfl 24097
     w
@@ -945,6 +983,7 @@ label ep213_dialogues_marcus2:
     imgd 24105
     w
     # Моника ложится, свернувшись
+    fadeblack 2.0
     music Groove2_85
     imgf 24106
     w
@@ -963,6 +1002,8 @@ label ep213_dialogues_marcus2:
     # затемнение
 
 # Моника ложится правильно
+    call screen screen_marcus_cat_training1(3)
+    sound click1
     fadeblack 1.5
     music Groove2_85
     imgfl 24111
@@ -1052,7 +1093,7 @@ label ep213_dialogues_marcus2:
     marcus "Я могу понять вас. У вас затекли мышцы."
     marcus "Обычно во время сна мышцы животного разминаются за счет того, что кто-то из проходящих использует его."
 
-    music Power_Bots_Loop
+    music Malicious
     imgd 24124
     mt "О БОЖЕ!"
 
@@ -1066,9 +1107,10 @@ label ep213_dialogues_marcus2:
     mt "О НЕТ!!!"
 
     # Моника неуклюже садится
-    imgf 24127
-    w
+    fadeblack 1.5
     music Groove2_85
+    imgfl 24127
+    w
     imgd 24128
     marcus "Итак, после того, как животное проснулось, оно должно потягиваться от удовольствия."
     marcus "Для этого кошечка должна сесть на четвереньки ногами к хозяину."
@@ -1082,6 +1124,10 @@ label ep213_dialogues_marcus2:
     w
     marcus "Затем, вытягивает задние. Полностью."
     # Моника вытягивется правильно
+    call screen screen_marcus_cat_training1(6)
+    sound click1
+    fadeblack 1.5
+    music Groove2_85
     imgf 24131
     w
     marcus "Да, вот так."
@@ -1107,6 +1153,10 @@ label ep213_dialogues_marcus2:
     marcus "Хозяин доволен животным и гладит его."
     marcus "Животное должно радоваться и быть благодарным за похвалу хозяина."
     # Моника встает как надо
+    call screen screen_marcus_cat_training1(2)
+    sound click1
+    fadeblack 1.5
+    music Groove2_85
     imgf 24137
     marcus "Да, Миссис Бакфетт, вот так."
     marcus "Благодарное животное должно предлагать себя."
@@ -1136,6 +1186,9 @@ label ep213_dialogues_marcus2:
     m "Мяяяууу!"
 
     # затемнение
+    fadeblack 3.0
+    sound snd_jail_door
+    pause 2.0
 
     return
 
@@ -1144,7 +1197,7 @@ label ep213_dialogues_marcus3:
 #09 - Играет с игрушкой
 #07 - Покажи себя. Должна сразу вставать в эту позу.
 #06 - Кошка провинилась, просит прощения. Ласкает ботинки.
-    fadeblack
+    fadeblack 2.0
     sound snd_walk_barefoot
     pause 2.0
     music Groove2_85
@@ -1203,8 +1256,11 @@ label ep213_dialogues_marcus3:
     imgfl 24157
     w
 
+    call screen screen_marcus_cat_training1(7)
+    sound click1
     # Моника играет, правильно
-    imgf 24158
+    music Groove2_85
+    imgfl 24158
     marcus "Да, Миссис Бакфетт, вот так."
     imgd 24159
     w
@@ -1238,7 +1294,11 @@ label ep213_dialogues_marcus3:
     marcus "Животное должно показать себя."
 
     # Моника встает правильно #07
-    imgf 24168
+    call screen screen_marcus_cat_training1(5)
+    sound click1
+    fadeblack 1.5
+    music Groove2_85
+    imgfl 24168
     marcus "Да, Миссис Бакфетт."
     marcus "Наконец-то, у вас получилось."
     imgd 24169
@@ -1259,6 +1319,8 @@ label ep213_dialogues_marcus3:
     # затемнение
     # Моника становится правильно #06
     # звук лижет ботинки
+    call screen screen_marcus_cat_training1(4)
+    sound click1
     fadeblack 1.5
     music Groove2_85
     imgfl 24173
@@ -1305,6 +1367,9 @@ label ep213_dialogues_marcus3:
     imgf 24182
     marcus "На сегодня вы свободны, Миссис Бакфетт!"
     marcus "Можете идти!"
+    fadeblack 3.0
+    sound snd_jail_door
+    pause 2.0
     return
 
 
@@ -1320,7 +1385,7 @@ label ep213_dialogues_marcus4:  # Экзамен
 #10 - Ждет команду. Либо ждет после команды брысь.
 #11 - Просит разрешения покушать. (без разрешения кушать нельзя)
     # Моника заходит, ползая
-    fadeblack
+    fadeblack 3.0
     sound snd_walk_barefoot
     pause 2.0
     music Malicious
@@ -1345,63 +1410,104 @@ label ep213_dialogues_marcus4:  # Экзамен
     imgd 24187
     marcus "Я дам вам несколько попыток, Миссис Бакфетт."
     marcus "Каждый раз, когда вы ошибетесь, мы будем начинать сначала."
+    jump ep213_dialogues_marcus4_exam
+
+label ep213_dialogues_marcus4_loop1:
+    fadeblack 2.0
+    music Groove2_85
+    imgfl 24187
+    marcus "Начинаем сначала, Миссис Бакфетт."
+label ep213_dialogues_marcus4_exam:
 
     music Groove2_85
     imgd 24188
     marcus "Итак, кошка пришла к хозяину."
     # выбор что сделать
+label ep213_dialogues_marcus4_loop2:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
 
-    # что сделано (когда неправильно)
-    marcus "Вы показываете, как кошка [передвигается]." #01
-    marcus "Вы показываете, как кошка [ест]." #02
-    marcus "Вы показываете, как кошка [потягивается от удовольствия]." #03
-    marcus "Вы показываете, как кошка [спит]." #04
-    marcus "Вы показываете, как кошка [провинилась и просит прощения]" #06
-    marcus "Вы демонстрируете, как кошка [показывает себя перед гостями]." #07
-    marcus "Вы показываете, как кошка [проснулась и потягивается после сна]." #08
-    marcus "Вы показываете, как кошка [играет с игрушкой]." #09
-    marcus "Вы показываете, как кошка [ждет команду]." #10
-    marcus "Вы показываете, как кошка [просит разрешения поесть]." #11
-
-    # что надо сделать
-    marcus "А надо показывать, как кошка [передвигается]." #01
-    marcus "А надо показать, как кошка [ест]." #02
-    marcus "А надо показать, как кошка [потягивается от удовольствия]." #03
-    marcus "А надо показать, как кошка [спит]." #04
-    marcus "А надо показать, как пошка [просит прощения за провинность]." #06
-    marcus "А надо показать, как кошка [знакомится с гостями]." #07
-    marcus "А надо показать, как кошка [проснулась и потягивается после сна]." #08
-    marcus "А надо показать, как кошка [играет с игрушкой]." #09
-    marcus "А надо показать, как дрессированная кошка [сидит и ждет команду]." #10
-    marcus "А надо показать, как кошка [просит разрешения поесть]." #11
-
-    music Groove2_85
-    imgf 24187
-    marcus "Начинаем сначала, Миссис Бакфетт."
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 8:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 8)
+        jump ep213_dialogues_marcus4_loop1
 
     # Моника ждет команду #10
-    imgd 24189
+    fadeblack 1.5
+    music Groove2_85
+    imgfl 24189
     marcus "Правильно. Кошка ждет, когда хозяин что-нибудь прикажет ей."
     m "Мяяяууу..."
 
     marcus "Кошка может погулять. Хозяин занят."
 
+label ep213_dialogues_marcus4_loop3:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 0:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 0)
+        jump ep213_dialogues_marcus4_loop1
+
     # Моника ползает #01
-    imgf 24190
+    imgfl 24190
     marcus "Хорошо."
     marcus "Кошла долго гуляет и уже проголодалась."
 
+
+label ep213_dialogues_marcus4_loop4:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 9:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 9)
+        jump ep213_dialogues_marcus4_loop1
+
     # Моника просит разрешения поесть #11
-    imgd 24192
+    imgfl 24192
     m "Мяяяууу..."
     marcus "Кошка хочет кушать?"
     imgd 24191
     m "Мяяяууу..."
     marcus "Хорошо, хозяин разрешает кошке поесть."
 
+label ep213_dialogues_marcus4_loop12:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 1:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 1)
+        jump ep213_dialogues_marcus4_loop1
     # Моника ест #02
     sound cat_eating
-    imgf 24193
+    imgfl 24193
     w
     music Power_Bots_Loop
     imgd 24194
@@ -1413,8 +1519,22 @@ label ep213_dialogues_marcus4:  # Экзамен
     imgf 24187
     marcus "Итак, кошка поела и ложится спать."
 
+label ep213_dialogues_marcus4_loop5:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 3:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 3)
+        jump ep213_dialogues_marcus4_loop1
     # Моника ложится спать #04
-    imgd 24195
+    imgfl 24195
     marcus "Хорошо."
     marcus "Кошка демонстрирует всем вокруг, что она доступна даже когда спит."
 
@@ -1423,14 +1543,42 @@ label ep213_dialogues_marcus4:  # Экзамен
     imgd 24196
     marcus "Кошка услышала какой-то звук и проснулась."
 
+label ep213_dialogues_marcus4_loop6:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 6:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 6)
+        jump ep213_dialogues_marcus4_loop1
     # Моника просыпается и потягивается после сна #08
-    imgf 24197
+    imgfl 24197
     marcus "Хорошо."
     marcus "Кошка потягивается после сна и разминает затекшие мышцы."
     marcus "Итак, к хозяину пришел гость."
 
+label ep213_dialogues_marcus4_loop7:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 5:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 5)
+        jump ep213_dialogues_marcus4_loop1
     # Моника знакомится с гостями #07
-    imgd 24198
+    imgfl 24198
     marcus "Правильно."
     marcus "Кошка знакомится с гостем и предлагает себя."
     marcus "Возможно гостю кошка понравится и он приведет своего питомца для случки."
@@ -1453,8 +1601,22 @@ label ep213_dialogues_marcus4:  # Экзамен
     marcus "Гость решил рассмотреть кошку получше и бросил ей игрушку."
 
 
+label ep213_dialogues_marcus4_loop8:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 7:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 7)
+        jump ep213_dialogues_marcus4_loop1
     # Моника играет с игрушкой #09
-    imgd 24202
+    imgfl 24202
     mt "Боже... Что это такое?"
     mt "С чем я играю?"
     imgf 24203
@@ -1462,17 +1624,45 @@ label ep213_dialogues_marcus4:  # Экзамен
     marcus "Хозяин рассержен."
 
 
+label ep213_dialogues_marcus4_loop9:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 4:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 4)
+        jump ep213_dialogues_marcus4_loop1
     # Моника просит прощения #06
-    imgd 24204
+    imgfl 24204
     marcus "Хорошо."
     imgf 24205
     marcus "Хозяин видит, что кошка старалась и прощает ее."
 
+label ep213_dialogues_marcus4_loop10:
+    music Master_Disorder
+    show screen screen_marcus_cat_training2()
+    with diss
+    $ result = ui.interact()
+    if result == -1:
+        sound click_denied
+        jump ep213_dialogues_marcus4_loop2
+
+    sound click1
+    hide screen screen_marcus_cat_training2
+    if result != 2:
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 2)
+        jump ep213_dialogues_marcus4_loop1
     # Моника потягивается от удовольствия #03
-    imgd 24206
+    imgfl 24206
     m "Мяяяууу..."
 
-    imgf 24207
+    imgd 24207
     m "Мяяяууу..."
 
     imgd 24208
@@ -1486,14 +1676,14 @@ label ep213_dialogues_marcus4:  # Экзамен
     marcus "Вы можете встать."
 
     # Моника встает
-    imgf 24210
+    imgfl 24210
     marcus "Вы можете вынуть игрушку, к которой так привыкли."
 
     # Моника вынимает игрушку
     fadeblack
     sound snd_fabric1
     pause 2.0
-    music Malicious
+    music Groove2_85
     imgfl 24211
     w
     imgf 24212
@@ -1526,11 +1716,11 @@ label ep213_dialogues_marcus4:  # Экзамен
     imgf 24217
     marcus "В мои невесты..."
 
-    music Power_Bots_Loop
+    music Villainous_Treachery
     img 24218 hpunch
     m "!!!"
 
-    music Master_Disorder
+#    music Master_Disorder
     imgf 24219
     marcus "Сейчас вы поедете со мной."
     marcus "Нас ждет один многоуважаемый человек."
@@ -1541,35 +1731,57 @@ label ep213_dialogues_marcus4:  # Экзамен
     imgd 24220
     marcus "Но, Миссис Бакфетт, все зависит от вас."
 
-    music Malicious
+#    music Malicious
     imgf 24221
     w
     # затемнение
 
-    $ log1 = t_("ПРОДОЛЖЕНИЕ СЛЕДУЕТ")
+    stop music
+    sound snd_cinematic_impact
+    img black_screen
+    $ renpy.pause(4.0, hard=True)
+    music Continue_Life
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack("TO BE CONTINUED...")
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+    img black_screen
+    with Dissolve(0.5)
+    img Patreon_Game_Logo
+    with Dissolve(0.7)
+    $ renpy.pause(1.0, hard=True)
+##    pause 4.0
+    $ renpy.pause(4.0, hard=True)
+    img black_screen
+    with Dissolve(0.7)
+    $ renpy.pause(3.0, hard=True)
+##    pause 30.0
+##    music stop
+##    pause 1.0
+    call credits()
+    $ MainMenu(confirm=False)()
+
+#    $ log1 = t_("ПРОДОЛЖЕНИЕ СЛЕДУЕТ")
 
 
     return
 
 label ep213_dialogues_marcus5:  # bad end (ферма)
-    fadeblack
-    sound snd_car_door
-    $ renpy.pause (1.0, hard=True)
-    sound snd_car_turn_on
-    $ renpy.pause (1.0, hard=True)
-    img scene_Map_Evening
-    with fade
-    sound snd_car_engine
-    $ renpy.pause(6.0, hard=True)
+    fadeblack 3.0
+    call textonblack(t_("Спустя некоторое время..."))
     img black_screen
-    with fade
-    sound snd_car_door
-    $ renpy.pause (2.0, hard=True)
+    with Dissolve(1)
+    music dream
+    imgfl img_farm1
+    w
+    fadeblack 4.0
     img black_screen
     with fade
     sound snd_woman_scream2
     pause 1.5
-    sound snd_bodyfall
+    sound2 snd_bodyfall
     pause 1.0
     music Gearhead
     imgfl 24222
@@ -1583,7 +1795,7 @@ label ep213_dialogues_marcus5:  # bad end (ферма)
     sound man_steps
     imgd 24225
     m "Неееет!!!!!!"
-    sound snd_ironing_2
+    sound2 snd_ironing_2
     img 24227
     show screen photoshot_screen()
     with hpunch
@@ -1591,16 +1803,101 @@ label ep213_dialogues_marcus5:  # bad end (ферма)
     hide screen photoshot_screen
     sound snd_woman_scream2
     m "ААААААААААААААААААААААААААА!!!!"
-    imgd 24228
+    img 24228 hpunch
     w
-    imgf 24229
+    img 24229
+    show screen photoshot_screen()
+    pause 0.7
+    hide screen photoshot_screen
     w
 
-    $ log1 = t_("ПРОДОЛЖЕНИЕ СЛЕДУЕТ")
+    stop music
+    sound snd_cinematic_impact
+    img black_screen
+    $ renpy.pause(4.0, hard=True)
+    music Continue_Life
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack("TO BE CONTINUED...")
+    img black_screen
+    with Dissolve(2.0)
+    $ renpy.pause(2.0, hard=True)
+    img black_screen
+    with Dissolve(0.5)
+    img Patreon_Game_Logo
+    with Dissolve(0.7)
+    $ renpy.pause(1.0, hard=True)
+##    pause 4.0
+    $ renpy.pause(4.0, hard=True)
+    img black_screen
+    with Dissolve(0.7)
+    $ renpy.pause(3.0, hard=True)
+##    pause 30.0
+##    music stop
+##    pause 1.0
+    call credits()
+    $ MainMenu(confirm=False)()
+
     return
 
+label ep213_dialogues_marcus4_exam_wrong_answer(result_cur, result_need):
+    # что сделано (когда неправильно)
+    fadeblack 1.5
+    music Groove2_85
 
+    if result_cur == 0:
+        imgf 24190
+        marcus "Вы показываете, как кошка [передвигается]." #01
+    if result_cur == 1:
+        imgf 24193
+        marcus "Вы показываете, как кошка [ест]." #02
+    if result_cur == 2:
+        imgf 24206
+        marcus "Вы показываете, как кошка [потягивается от удовольствия]." #03
+    if result_cur == 3:
+        imgf 24195
+        marcus "Вы показываете, как кошка [спит]." #04
+    if result_cur == 4:
+        imgf 24204
+        marcus "Вы показываете, как кошка [провинилась и просит прощения]" #06
+    if result_cur == 5:
+        imgf 24198
+        marcus "Вы демонстрируете, как кошка [показывает себя перед гостями]." #07
+    if result_cur == 6:
+        imgf 24197
+        marcus "Вы показываете, как кошка [проснулась и потягивается после сна]." #08
+    if result_cur == 7:
+        imgf 24202
+        marcus "Вы показываете, как кошка [играет с игрушкой]." #09
+    if result_cur == 8:
+        imgf 24189
+        marcus "Вы показываете, как кошка [ждет команду]." #10
+    if result_cur == 9:
+        imgf 24192
+        marcus "Вы показываете, как кошка [просит разрешения поесть]." #11
 
+    # что надо сделать
+    if result_need == 0:
+        marcus "А надо показывать, как кошка [передвигается]." #01
+    if result_need == 1:
+        marcus "А надо показать, как кошка [ест]." #02
+    if result_need == 2:
+        marcus "А надо показать, как кошка [потягивается от удовольствия]." #03
+    if result_need == 3:
+        marcus "А надо показать, как кошка [спит]." #04
+    if result_need == 4:
+        marcus "А надо показать, как пошка [просит прощения за провинность]." #06
+    if result_need == 5:
+        marcus "А надо показать, как кошка [знакомится с гостями]." #07
+    if result_need == 6:
+        marcus "А надо показать, как кошка [проснулась и потягивается после сна]." #08
+    if result_need == 7:
+        marcus "А надо показать, как кошка [играет с игрушкой]." #09
+    if result_need == 8:
+        marcus "А надо показать, как дрессированная кошка [сидит и ждет команду]." #10
+    if result_need == 9:
+        marcus "А надо показать, как кошка [просит разрешения поесть]." #11
+    return
 
 
 
