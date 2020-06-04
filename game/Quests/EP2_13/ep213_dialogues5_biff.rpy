@@ -153,7 +153,7 @@ label ep213_dialogues4_biff_1:
             mt "Да пошел ты!"
             mt "Я найду другой способ зарабатывать деньги!"
             # Моника уходит. В след. визит к Бифу разговор возобновляется (Биф не дает ей фотосессии)
-            return
+            return False
     # Моника медлит
     music Groove2_85
     imgf 15891
@@ -195,16 +195,22 @@ label ep213_dialogues4_biff_1:
     mt "Безмоглый кретин!"
     mt "!!!"
     # меню кастинга, кастинг.
+
+    call ep213_dialogues4_biff_12()
+label ep213_dialogues4_biff_1b:
     # после кастинга
     imgd 15904
     biff "Я жду тебя завтра, цыпочка."
     m "..."
-    return
+    return True
 
 # след. рабочий день
 # мысли Моники (из лейбла ep210_dialogues1_office_biff_3a)
 label ep213_dialogues4_biff_2:
     # не рендерить!!
+    if ep213_dialogues4_biff_2_day == day:
+        return
+    $ remove_hook()
     mt "Мне нужно идти к Бифу и провести эту чертову презентацию!"
     return
 
@@ -296,23 +302,25 @@ label ep213_dialogues4_biff_3:
     mt "..."
 
     # если Моника работала реквизитом Линды в номере отеля
-    #
-    $ notif(_("Моника работала реквизитом Линды в номере отеля Ле Гранд."))
-    #
-    imgf 18264
-    mt "Почему этот неудачник так смотрит на меня?!"
-    mt "Вдруг он меня узнает?!"
-    mt "А потом расскажет об этом всем!"
-    mt "!!!"
-    # если Моника ударила инвестора в номере отеля
-    #
-    $ notif(_("Моника ударила инвестора и убежала из номера."))
-    #
-    music Power_Bots_Loop
-    imgd 18264
-    mt "Надо было ударить его не только по яйцам, но и по голове!"
-    mt "Чтобы у него отшибло память!"
-    mt "!!!"
+    if monicaEscortLindaTable1 == True:
+        #
+        $ notif(_("Моника работала реквизитом Линды в номере отеля Ле Гранд."))
+        #
+        imgf 18264
+        mt "Почему этот неудачник так смотрит на меня?!"
+        mt "Вдруг он меня узнает?!"
+        mt "А потом расскажет об этом всем!"
+        mt "!!!"
+    if monicaEscortLindaTable3 == True:
+        # если Моника ударила инвестора в номере отеля
+        #
+        $ notif(_("Моника ударила инвестора и убежала из номера."))
+        #
+        music Power_Bots_Loop
+        imgd 18264
+        mt "Надо было ударить его не только по яйцам, но и по голове!"
+        mt "Чтобы у него отшибло память!"
+        mt "!!!"
 
     # Моника переводит взгляд на Бифа, тот самодовольно улыбается
     music Groove2_85
@@ -325,24 +333,26 @@ label ep213_dialogues4_biff_3:
     imgf 18267
     philip "Да, Миссис Бакфетт."
     philip "Мы с нетерпением ждем Вашей презентации."
+    if monica_philip_visited_last_day > 0:
+        # если Моника работает у него субботней шлюхой
+        #
+        $ notif(_("Моника работает у Филиппа субботней шлюхой номер 2."))
+        #
+        music Power_Bots_Loop
+        imgd 18268
+        mt "Ненавижу мерзавца Филиппа!"
+        mt "Отвратительный самодовольный жадный извращенец! Как и все они!"
+        mt "!!!"
+    else:
+        # если не работает шлюхой, и не было сцены в туалете ресторана
 
-    # если Моника работает у него субботней шлюхой
-    #
-    $ notif(_("Моника работает у Филиппа субботней шлюхой номер 2."))
-    #
-    music Power_Bots_Loop
-    imgd 18268
-    mt "Ненавижу мерзавца Филиппа!"
-    mt "Отвратительный самодовольный жадный извращенец! Как и все они!"
-    mt "!!!"
-    # если не работает шлюхой, и не было сцены в туалете ресторана
-    #
-    $ notif(_("Филипп предлагал Монике деньги за секс в ресторане Ле Гранд."))
-    #
-    imgd 18268
-    mt "Это тот мерзкий тип, который постоянно пытается предложить мне какую-нибудь извращенскую гадость!"
-    mt "Какой же он отвратительный!"
-    #
+        #
+        $ notif(_("Филипп предлагал Монике деньги за секс в ресторане Ле Гранд."))
+        #
+        imgd 18268
+        mt "Это тот мерзкий тип, который постоянно пытается предложить мне какую-нибудь извращенскую гадость!"
+        mt "Какой же он отвратительный!"
+        #
 
     # Моника смотрит на экран
     # экран investors_1_2, меняется на
@@ -565,7 +575,7 @@ label ep213_dialogues4_biff_3:
 label ep213_dialogues4_biff_4:
     # не рендерить!!
     mt "Мне нужно идти в гримерную комнату и переодеться."
-    return
+    return False
 
 # если кликнуть на Алекса до того, как переоделась
 label ep213_dialogues4_biff_5:
@@ -653,7 +663,7 @@ label ep213_dialogues4_biff_6:
             mt "Я найду другой способ зарабатывать деньги!"
             # Моника оказывается на улице
             # Биф не дает ей работу, пока она не сделает эту фотосессию
-            return
+            return False
     # Моника медлит
     music Pyro_Flow
     imgf 18295
@@ -724,7 +734,7 @@ label ep213_dialogues5_photoshoot_7:
             mt "!!!"
             # Моника оказывается на улице
             # Биф не дает ей работу, пока она не сделает эту фотосессию
-            return
+            return False
     music Pyro_Flow
     imgf 15892
     mt "Дъявол!"
@@ -740,7 +750,7 @@ label ep213_dialogues5_photoshoot_7:
     biff "Иди переодевайся."
     biff "Я пока позвоню инвесторам, чтобы они приехали на съемку."
     mt "..."
-    $ log1 = _("Идти в фотостудию и провести фотосессию.")
+    #$ log1 = t_("Идти в фотостудию и провести фотосессию.")
     return
 
 
@@ -1035,4 +1045,120 @@ label ep213_dialogues4_biff_11:
     mt "Я должна отомстить ему!"
     mt "И забрать обратно МОЙ журнал!!!"
     mt "!!!"
+    return
+
+
+label ep213_dialogues4_biff_12:
+    $ menu_corruption = [biffFlashCardQuestReportBoobsCorruptionRequired, biffFlashCardQuestReportAssCorruptionRequired]
+    menu:
+        "Показать грудь.": # corruption
+            img 12783
+            with fade
+#            m "Сегодня цыпочка-Босс пришла показать папочке свою грудь..." #-
+            # Показывает грудь (нексолько кадров)
+            music Loved_Up
+            sound snd_fabric1
+            img 13917
+            with fadelong
+            w
+            img 13918
+            with diss
+            w
+            img 13919
+            with diss
+            w
+            img 13920
+            with diss
+            w
+            img 12844
+            with fade
+            biff "Папочка доволен." #+
+
+        "Показать попу.": #corruption
+            img 12783
+            with fade
+            w
+#            m "Сегодня цыпочка-Босс пришла показать папочке свою попу..." #-
+            # Показывает Бифу попу (несколько кадров)
+            music Loved_Up
+            sound snd_fabric1
+            img 20595
+            with fadelong
+            w
+            img 20596
+            with diss
+            w
+            img 20597
+            with diss
+            w
+            img 20598
+            with diss
+            w
+            img 20599
+            with diss
+            w
+            img 20600
+            with diss
+            w
+            img 12844
+            with diss
+            biff "Папочка доволен." #+
+
+        "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
+            $ store_music()
+            call ep210_dialogues1_office_biff_1a()
+            $ restore_music()
+            img 8445
+            biff "Хорошо, папочка доволен!"
+            if biffCastingStage < 1:
+                $ biffCastingStage = 1
+        "Раздеться и принимать различные модельные позы. (требуется ур.2) (disabled)" if char_info["Biff"]["level"] < 2 or biffLevel3Opened != True:
+            pass
+        "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
+            $ store_music()
+            call ep210_dialogues1_office_biff_1b()
+            $ restore_music()
+            img 8445
+            biff "Хорошо, папочка доволен!"
+            if biffCastingStage < 2:
+                $ biffCastingStage = 2
+        "Раздеться и встать на колени задом к Бифу. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 1:
+            pass
+        "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
+            $ store_music()
+            call ep210_dialogues1_office_biff_1c()
+            $ restore_music()
+            img 8445
+            biff "Хорошо, папочка доволен!"
+            if biffCastingStage < 3:
+                $ biffCastingStage = 3
+        "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
+            pass
+        "Раздеться и сесть на стол." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
+            menu:
+                "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
+                    $ store_music()
+                    call ep212_dialogues7_biff1()
+                    $ restore_music()
+                    img 8445
+                    biff "Хорошо, папочка доволен!"
+                    if biffCastingStage < 4:
+                        $ biffCastingStage = 4
+                "Поставить на стол одну ногу. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 3:
+                    pass
+                "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
+                    $ store_music()
+                    call ep212_dialogues7_biff2()
+                    $ restore_music()
+                    img 8445
+                    biff "Хорошо, папочка доволен!"
+                    if biffCastingStage < 5:
+                        $ biffCastingStage = 5
+                "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
+                    pass
+    return
+
+label ep213_dialogues4_biff_13:
+    mt "Эта сволочь Бифф совсем сдурел?!"
+    mt "Что он себе позволяет?!!!"
     return

@@ -320,6 +320,9 @@ label ep22_dialogue6_3:
         if biffWeeklyPhotoShootEnabled == True: # Если Моника может сделать фотосессию
             call ep211_quests_publicevent2_1() # from _rcall_ep211_quests_publicevent2_1 # Первый разговор о втором паблик евенте
             return False
+    if ep211_quests_photoshot8_opened_day != 0 and biffWeeklyPhotoShootEnabled == True and ep213_quests_biff1_inited == False:
+        call ep213_quests_biff1_init()
+        return False
 
     if cloth == "Whore":
         img 8287
