@@ -113,7 +113,7 @@ label ep213_dialogues4_biff_1:
     #
     # Резко указывает на Монику зло
     music Groove2_85
-    imgd 12787
+    img 12787
     biff "Не смей спорить со мной!!!"
     biff "Ты должна сделать так, чтобы согласились ВСЕ инвесторы!"
     biff "Конечно, если ты хочешь остаться на этой работе, бесполезная кукла!"
@@ -132,15 +132,16 @@ label ep213_dialogues4_biff_1:
     biff "Перед инвесторами, конечно! Кукла безмозглая!"
     biff "Больше от тебя ничего не требуется... Пока что..."
     biff "Тебе все понятно?!"
-    imgd 15899
+    img 15899
     m "!!!"
+    $ menu_corruption = [monicaPresentation2Choice1]
     menu:
         "Да, понятно.": #corruption
             $ monicaBiffInvestorsPhotoshoot1 = True # Моника согласилась провести презентацию перед инвесторами
             pass
         "НЕТ!":
             music Power_Bots_Loop
-            imgf 15900
+            img 15900 vpunch
             m "Я не тебе не кукла!"
             m "И я не буду кривляться перед инвесторами!!!"
             m "!!!"
@@ -260,7 +261,7 @@ label ep213_dialogues4_biff_3:
     biff "Ну или другими талантами, которых у тебя не так много..."
     biff "Кроме сосания членов за 20 баксов."
     music Power_Bots_Loop
-    imgd 18257
+    img 18257
     mt "Мерзавец!"
     mt "!!!"
     # Биф поворачивается к входящим инвесторам и улыбается
@@ -362,6 +363,7 @@ label ep213_dialogues4_biff_3:
     imgf 18269
     mt "Черт!"
     mt "И как я должна комментировать эти кадры?!"
+    music Loved_Up
     imgd 18270
     m "..."
     m "Господа, взгляните на экран..."
@@ -371,7 +373,7 @@ label ep213_dialogues4_biff_3:
     m "Черный лебедь." # кадр
     # меняется на investors_1_3
     sound camera_lens1
-    imgf 18272
+    imgd 18272
     m "Посмотрите на то, как прекрасно он смотрится. #он - it" # кадр
     # меняется на investors_1_4
     sound camera_lens1
@@ -379,7 +381,7 @@ label ep213_dialogues4_biff_3:
     m "Какие плавные линии..." # кадр
     # меняется на investors_1_5
     sound camera_lens1
-    imgf 18274
+    imgd 18274
     m "Какое внимание к деталям..." # кадр
     # меняется на investors_1_6
     sound camera_lens1
@@ -387,8 +389,10 @@ label ep213_dialogues4_biff_3:
     m "Этот костюм подчеркивает всю изящность и плавность линий моей... Кхм... Фигуры модели..." # кадр
     # откровенный кадр
     # меняется на investors_1_7
+    music Groove2_85
     sound camera_lens1
-    imgf 18276
+    imgd 18276
+    with hpunch
     investor2 "Ого!"
     investor4 "Ух ты!"
     music Power_Bots_Loop
@@ -405,7 +409,7 @@ label ep213_dialogues4_biff_3:
     m "Раскрывается вся... Вся красота и женственность модели..."
     m "А этот изысканный костюм ее выгодно подчеркивает... #ее - it" # кадр
     m "!!!"
-    imgd 18280
+    img 18280 hpunch
     mt "Я убью мерзавца Бифа!!!"
 
     # кадры фотосессии в костюме Черный лебедь меняются на кадры в платье Королева сердец
@@ -421,7 +425,7 @@ label ep213_dialogues4_biff_3:
     m "Посмотрите на экран..."
     # меняется на investors_1_9
     sound camera_lens1
-    imgf 18302
+    imgd 18302
     m "Мы видим перед собой уверенную в себе, красивую, современную женщину без комплексов..."
     # меняется на investors_1_10
     sound camera_lens1
@@ -429,7 +433,7 @@ label ep213_dialogues4_biff_3:
     m "Такой, как она, в глубине души мечтает стать любая женщина." # новый кадр
     # меняется на investors_1_11
     sound camera_lens1
-    imgf 18304
+    imgd 18304
     m "Такой женщиной, как она, мечтает обладать любой мужчина." # новый кадр
     m "Посмотрите на следующий кадр..."
     # меняется на investors_1_12
@@ -438,7 +442,7 @@ label ep213_dialogues4_biff_3:
     m "На следующем кадре мы видим, что она постепенно раскрывается..." # новый кадр, откровеннее
     # меняется на investors_1_13
     sound camera_lens1
-    imgf 18306
+    imgd 18306
     m "Показывая нам свою уверенность, раскованность и сексуальность." # новый кадр
     music Loved_Up
     imgd 18307
@@ -453,12 +457,13 @@ label ep213_dialogues4_biff_3:
     imgf 18310
     m "Благодарю вас, господа..."
     music Power_Bots_Loop
-    imgd 18311
+    img 18311 hpunch
     mt "О БОЖЕ!"
     mt "Они рассматривают эти ужасные кадры!"
     mt "!!!"
+    fadeblack 2.0
     music Groove2_85
-    imgf 18312
+    imgfl 18312
     m "На этом кадре очень удачно выбран ракурс, раскрывающий всю красоту и оригинальность платья." # новый кадр
     imgd 18314
     mt "Моника, какой бред ты несешь!"
@@ -468,11 +473,11 @@ label ep213_dialogues4_biff_3:
     m "Тираж разошелся в кратчайшие сроки."
     m "И рост продаж продолжает увеличиваться с каждым новым номером."
     m "..."
-    imgd 18315
+    img 18315
     biff "???"
     m "!!!"
     # Шепчет
-    imgf 18316
+    img 18316 vpunch
     biff "Ну же, кукла! Ты помнишь сценарий!"
     imgd 18317
     m "В ближайшем будущем мы планируем провести фотосессию с привлечением модели мужчины."
@@ -520,7 +525,7 @@ label ep213_dialogues4_biff_3:
     campbell "Хочу сказать, что остался очень доволен работой команды этого журнала."
     # Моника зло смотрит на Бифа, он довольно улыбается
     music Power_Bots_Loop
-    imgd 18325
+    img 18325
     mt "Биф! Ублюдок!"
     mt "!!!"
     # Биф подходит к Кэмпбеллу
@@ -547,8 +552,9 @@ label ep213_dialogues4_biff_3:
     menu:
         "Это не притворство.":
             pass
+    fadeblack 1.5
     music Groove2_85
-    imgf 18331
+    imgfl 18331
     m "..."
     m "Это не притворство, Мистер Филипп, я..."
     # Биф снова ее перебивает
@@ -562,7 +568,7 @@ label ep213_dialogues4_biff_3:
     biff "Вы можете идти переодеваться к фотосессии."
     # Моника зло на него смотрит
     music Power_Bots_Loop
-    imgf 18333
+    img 18333
     mt "Я заставлю тебя, сволочь, молить у меня прощения!"
     mt "За каждый откровенный кадр!"
     mt "И за эти унизительные презентации!"
@@ -599,20 +605,21 @@ label ep213_dialogues4_biff_6:
     img black_screen
     with diss
     sound snd_fabric1
-    pause 2.0
+    pause 4.0
     img 18281 hpunch
     sound plastinka1b
     mt "Это что такое?"
     mt "Это костюм?!"
     music Power_Bots_Loop
-    imgfl 18282
+    img 18282
     mt "?!?!?!"
     mt "Биф совсем охренел?!"
     mt "!!!"
     # заходит Биф
-    music Groove2_85
     sound man_steps
-    imgf 18283
+    fadeblack 2.0
+    music Groove2_85
+    imgfl 18283
     biff "Цыпочка уже переоделась?"
     biff "Отлично!"
     # Монику бомбит
@@ -632,8 +639,9 @@ label ep213_dialogues4_biff_6:
     biff "И только попробуй открыть свой рот и что-то возразить во время фотосессии!"
     biff "Заставлю отсасывать у инвесторов за 5 центов!"
     biff "Шлюха!"
-    imgd 18288
+    img 18288
     m "!!!"
+    $ menu_corruption = [monicaPresentation2Choice2]
     menu:
         "Понятно!": #corruption
             $ monicaBiffInvestorsPhotoshoot2 = True # Моника согласилась на фотосессию перед инвесторами
@@ -641,7 +649,7 @@ label ep213_dialogues4_biff_6:
         "Пошел он к черту!":
             music Power_Bots_Loop
             sound anger2
-            imgf 18289
+            img 18289
             w
             sound snd_punch_face1
             imgd 18290
@@ -653,7 +661,7 @@ label ep213_dialogues4_biff_6:
             m "Никакой фотосессии не будет!!!"
             m "!!!"
             music Groove2_85
-            imgd 18293
+            img 18293 vpunch
             biff "Ты не получишь никакую другую работу!"
             biff "Пока не сделаешь то, что Я тебе говорю!"
             music Power_Bots_Loop
@@ -665,7 +673,7 @@ label ep213_dialogues4_biff_6:
             # Биф не дает ей работу, пока она не сделает эту фотосессию
             return False
     # Моника медлит
-    music Pyro_Flow
+    music Hidden_Agenda
     imgf 18295
     mt "Дъявол!"
     mt "Он вышвырнет меня с работы, если я откажусь."
@@ -682,6 +690,7 @@ label ep213_dialogues4_biff_6:
     sound man_steps
     imgd 18298
     w
+    fadeblack 1.5
     music Power_Bots_Loop
     imgf 18299
     mt "Мерзкий ублюдок!!!"
@@ -713,6 +722,7 @@ label ep213_dialogues5_photoshoot_7:
     imgd 15904
     biff "Ты согласна?"
     mt "!!!"
+    $ menu_corruption = [monicaPresentation2Choice2]
     menu:
         "Согласна.": #corruption
             $ monicaBiffPhotoshootInvestor3 = True # Моника со 2-го раза согласилась фотографироваться перед инвесторами
@@ -1054,6 +1064,7 @@ label ep213_dialogues4_biff_12:
         "Показать грудь.": # corruption
             img 12783
             with fade
+            w
 #            m "Сегодня цыпочка-Босс пришла показать папочке свою грудь..." #-
             # Показывает грудь (нексолько кадров)
             music Loved_Up

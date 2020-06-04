@@ -1,4 +1,8 @@
 #v0.13
+define monicaPresentation2Choice1 = 0 # Моника согласилась провести презентацию перед инвесторами
+define monicaPresentation2Choice2 = 0 # Моника согласилась на фотосессию перед инвесторами
+define monicaPresentation2Choice3 = 500 # Моника согласилась сдвинуть трусики на фотосессии
+
 define juliaMonicaRelationshipRequiredScene1 = 0 # Массаж для Юлии. 0 : +10
 define juliaMonicaRelationshipRequiredScene2 = 10 # утро с Юлией, Приласкать ее грудь. 10 : +3
 define juliaMonicaRelationshipRequiredScene5 = 10 # кухня, Поцеловать Юлию. 10 : +3
