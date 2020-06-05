@@ -1,5 +1,6 @@
 default ep213_quests_biff1_inited = False
 default ep213_dialogues4_biff_2_day = 0
+default ep213_presentation2_completed_day = 0
 label ep213_quests_biff1_init: # инициализация второй презентации
     call ep213_dialogues4_biff_1()
     if _return == False:
@@ -57,6 +58,31 @@ label ep213_quests_biff5_makeup_room:
         return False
     # фотосессия
     call ep213_photoshoot10()
+    if _return == False:
+        $ remove_hook(label="monica_presentation2")
+        $ remove_hook(label="presentation2_block")
+        $ remove_objective("go_photostudio")
+        $ add_hook("Biff", "ep213_quests_biff8_repeat2", scene="monica_office_cabinet_table", label="monica_presentation2")
+        $ miniMapEnabledOnly = []
+        call putoff_work_clothes()
+        $ autorun_to_object("ep213_dialogues4_biff_13", scene="street_monica_office")
+        fadeblack 2.0
+        call change_scene("street_monica_office", "Fade_long")
+        return False
+
+label ep213_quests_biff5_makeup_room_photoshoot_completed:
+#    $ miniMapEnabledOnly = []
+    $ ep213_presentation2_completed_day = day
+    $ monicaOutfitsEnabled[9] = True # активируем регулярную фотосессию
+    $ remove_hook(label="monica_presentation2")
+    $ remove_hook(label="presentation2_block")
+    $ remove_objective("go_photostudio")
+    fadeblack 2.0
+    $ autorun_to_object("ep213_dialogues4_biff_11", scene="street_monica_office")
+    $ add_hook("Biff", "ep22_quests_office6", scene="monica_office_cabinet_table", label="photoshoot") #Мне надо получить деньги от Бифа
+    $ add_hook("Biff", "ep213_quests_biff7_biff_after_photoshoot", scene="monica_office_cabinet_table", label="monica_presentation2")
+    $ add_hook("Teleport_Monica_Office_Entrance", "ep22_dialogue6_7a", scene="monica_office_secretary", label="photoshoot", priority = 105) #Блокируем выход пока не получили деньги от Бифа
+    call change_scene("monica_office_cabinet", "Fade_long")
     return False
 
 label ep213_quests_biff6_biff_repeat: # Повторный разговор с Бифом о работе
@@ -64,6 +90,7 @@ label ep213_quests_biff6_biff_repeat: # Повторный разговор с �
         return
     call ep213_dialogues5_photoshoot_7()
     if _return == False:
+        $ miniMapEnabledOnly = []
         call putoff_work_clothes()
         $ autorun_to_object("ep213_dialogues4_biff_13", scene="street_monica_office")
         call change_scene("street_monica_office", "Fade_long")
@@ -77,3 +104,27 @@ label ep213_quests_biff6_biff_repeat: # Повторный разговор с �
     call change_scene("monica_office_secretary", "Fade_long")
 
     return False
+
+
+label ep213_quests_biff7_biff_after_photoshoot:
+    if act=="l":
+        return
+    $ remove_hook()
+    call ep213_dialogues4_biff_10()
+    $ miniMapEnabledOnly = []
+    return
+
+label ep213_quests_biff8_repeat2: # Повторный приход для завершения фотосессии
+    if act=="l":
+        return
+    call ep211_dialogues3_photoshoot_9()
+    if _return == False:
+        call putoff_work_clothes()
+        fadeblack 2.0
+        $ autorun_to_object("ep213_dialogues4_biff_13", scene="street_monica_office")
+        call change_scene("street_monica_office", "Fade_long")
+        return False
+
+    $ remove_hook()
+    call ep213_photoshoot10_repeat_end()
+    jump ep213_quests_biff5_makeup_room_photoshoot_completed

@@ -1,3 +1,10 @@
+default photoshoot10_count = 0
+
+label ep213_photoshoot10_repeat_end: # повтор концовки
+    $ shotsAmount = 2
+    $ shotsTotalAmount = 42
+    jump ep213_photoshoot10_repeat_end_photoshoot
+
 label ep213_photoshoot10:
     $ shotsAmount = PS10_shots_amount
     $ shotsTotalAmount = 42
@@ -12,9 +19,6 @@ label ep213_photoshoot10:
     with diss
     pause 1.5
     music Groove2_85
-    img 23205
-    with fadelong
-    w
     # Моника стоит, прикрывая грудь
     imgfl 24230
     w
@@ -192,7 +196,9 @@ label ep213_photoshoot_suit10_pose3:
         $ arrowDown = True
         music Groove2_85
         imgfl 24246
-        alex_photograph "Следующая поза, Миссис Бакфетт!"
+        m "Может, мне стоит немного прикрыть здесь руками?"
+        biff "Миссис Бакфетт, отличная поза. Ничего не надо прикрывать!"
+        m "!!!"
         music stop
         jump expression photoPoseNextLabel
 
@@ -578,9 +584,7 @@ label ep213_photoshoot_suit10_pose9:
         $ arrowDown = True
         music Groove2_85
         imgfl 24270
-        m "Может, мне стоит немного прикрыть здесь руками?"
-        biff "Миссис Бакфетт, отличная поза. Ничего не надо прикрывать!"
-        m "!!!"
+        alex_photograph "Следующая поза, Миссис Бакфетт!"
         music stop
         jump expression photoPoseNextLabel
 
@@ -1116,6 +1120,7 @@ label ep213_photoshoot10b:
     m "Я сделаю это..."
 
 # с этого момента начнется повторно, если Моника в первые раз сорвала фотосессию
+label ep213_photoshoot10_repeat_end_photoshoot:
     fadeblack 2.0
     music Loved_Up
     # Биф радостно

@@ -131,6 +131,9 @@ label ep22_quests_office4_l1:
                 call change_scene("street_monica_office", "Fade_long", False) from _rcall_change_scene_1
                 return False
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
+    if monicaPhotoShootOutfitIdx == 10:
+        call ep213_photoshoot10()
+        $ photoshoot10_count += 1
     #конец фотосессии
     sound snd_fabric1
     img black_screen

@@ -60,13 +60,13 @@ screen screen_betty_panties_select2():
 screen choose_photoshoot_outfit():
     modal True
     fixed:
-        xpos getRes(480)
+        xpos getRes(480-200)
         ypos getRes(220)
         $ offsetYIdx = 0
         $ idx = 0
         for row1 in range(0,2):
             $ offsetXIdx = 0
-            for col1 in range(0,5):
+            for col1 in range(0,7):
                 imagebutton:
                     xpos (offsetXIdx * getRes(200))
                     ypos (offsetYIdx * getRes(330))
