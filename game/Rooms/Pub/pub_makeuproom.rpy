@@ -3,11 +3,16 @@ default pubMakeupRoomSkipMusicOnce = False
 default pub_makeuproom_monica_suffix = 1
 default pub_makeuproom_claire_suffix = 1
 default pub_makeuproom_molly_suffix = 1
+
+default pub_makeuproom_tips_initialized = False
+
 label pub_makeuproom:
     $ print "enter_pub_makeuproom"
     $ miniMapData = []
 
     $ scene_image = "scene_Pub_MakeupRoom"
+    if pub_makeuproom_tips_initialized == True:
+        $ scene_image = "scene_Pub_MakeupRoom_notips"
     if pubMakeupRoomSkipMusicOnce == True:
         $ pubMakeupRoomSkipMusicOnce = False
     else:
@@ -42,6 +47,11 @@ label pub_makeuproom_init2:
     return
 label pub_makeuproom_init3:
     $ add_object_to_scene("Picture", {"type" : 2, "base" : "Pub_MakeupRoom_Picture_Marked", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
+    return
+
+label pub_makeuproom_init4:
+    $ pub_makeuproom_tips_initialized = True
+    $ add_object_to_scene("Tips", {"type" : 2, "base" : "Pub_MakeupRoom_Tips", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
     return
 
 label pub_makeuproom_teleport:

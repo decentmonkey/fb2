@@ -16,14 +16,24 @@ default stage_Monica_Excitement_Last = 0
 
 default stage_shoots_total_amount_default = 27
 default stage_shoots_total_amount_claire = 24
+default stage_shoots_total_amount_nude = 25
 default stage_shoots_total_amount_cur = 27
 default stage_achievements_list = []
+
+default stage_low_tips = False
+
+default stage_dance_nude_planned = False
+default stage_dance_nude_last_day = 0
 
 default arrowStop = True
 #monicaDancingStage
 
 label pub_dance1_stage_start1:
     $ stageMusicControlEnabled = True
+    if stage_low_tips == True:
+        $ pub_dance_dialogues_tips_list = 1
+    else:
+        $ pub_dance_dialogues_tips_list = 0
     music stop
     music2 stop
     call dialogue_5_dance_strip_scene_menu() from _rcall_dialogue_5_dance_strip_scene_menu # выбор музыки
@@ -42,6 +52,32 @@ label pub_dance1_stage_start1:
 
             [10,9,15], #7 - бар от 54 до 69 - 11 баксов чаевых
             [15,10,15], #8 - бар от 69 до 84 - 20 баксов
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
             [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
             # от 29 до 45
             # итого: от 61 до
@@ -64,6 +100,36 @@ label pub_dance1_stage_start1:
 
             [7,7,7], #7
             [8,8,8], #8
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
+            [9,9,9], #9
             [9,9,9], #9
         ]
         musicList = [
@@ -615,6 +681,410 @@ label pub_dance1_stage_start1_topless:
 
     if ep29_quests_claire_dance_planned == True:
         jump pub_dance2_claire_dance
+
+    if stage_dance_nude_planned != True:
+        jump pub_dance1_stage_end
+
+    music stageCurrentMusicIntro
+    with fadelong
+    call ep213_dialogues3_pub_9() # Диалог о том чтобы полностью раздеться
+    if _return == False:
+        jump pub_dance1_stage_end
+
+    $ stage_dance_nude_last_day = day
+    $ pub_dance_dialogues_tips_list = 0
+    # Танец обнаженной
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    # Поза1
+    # H
+    $ pose = 18
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    fadeblack 1.0
+    music stageCurrentMusicLoop
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_01 = Movie(play="video/v_Monica_Strip_Nude_01.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_01_end.jpg")
+        show videov_Monica_Strip_Nude_01
+        pause 1.8
+        hide videov_Monica_Strip_Nude_01
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_01_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_01_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_02 = Movie(play="video/v_Monica_Strip_Nude_02.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_02_end.jpg")
+        show videov_Monica_Strip_Nude_02
+        pause 1.8
+        hide videov_Monica_Strip_Nude_02
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_02_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_02_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_03 = Movie(play="video/v_Monica_Strip_Nude_03.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_03_end.jpg")
+        show videov_Monica_Strip_Nude_03
+        pause 1.8
+        hide videov_Monica_Strip_Nude_03
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_03_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_03_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 19
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_04 = Movie(play="video/v_Monica_Strip_Nude_04.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_04_end.jpg")
+        show videov_Monica_Strip_Nude_04
+        pause 1.8
+        hide videov_Monica_Strip_Nude_04
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_04_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_04_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_05 = Movie(play="video/v_Monica_Strip_Nude_05.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_05_end.jpg")
+        show videov_Monica_Strip_Nude_05
+        pause 1.8
+        hide videov_Monica_Strip_Nude_05
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_05_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_05_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_06 = Movie(play="video/v_Monica_Strip_Nude_06.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_06_end.jpg")
+        show videov_Monica_Strip_Nude_06
+        pause 1.8
+        hide videov_Monica_Strip_Nude_06
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_06_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_06_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 20
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_07 = Movie(play="video/v_Monica_Strip_Nude_07.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_07_end.jpg")
+        show videov_Monica_Strip_Nude_07
+        pause 1.8
+        hide videov_Monica_Strip_Nude_07
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_07_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_07_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_08 = Movie(play="video/v_Monica_Strip_Nude_08.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_08_end.jpg")
+        show videov_Monica_Strip_Nude_08
+        pause 1.8
+        hide videov_Monica_Strip_Nude_08
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_08_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_08_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_09 = Movie(play="video/v_Monica_Strip_Nude_09.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_09_end.jpg")
+        show videov_Monica_Strip_Nude_09
+        pause 1.8
+        hide videov_Monica_Strip_Nude_09
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_09_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_09_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 21
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_10 = Movie(play="video/v_Monica_Strip_Nude_10.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_10_end.jpg")
+        show videov_Monica_Strip_Nude_10
+        pause 1.8
+        hide videov_Monica_Strip_Nude_10
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_10_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_10_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_11 = Movie(play="video/v_Monica_Strip_Nude_11.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_11_end.jpg")
+        show videov_Monica_Strip_Nude_11
+        pause 1.8
+        hide videov_Monica_Strip_Nude_11
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_11_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_11_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_12 = Movie(play="video/v_Monica_Strip_Nude_12.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_12_end.jpg")
+        show videov_Monica_Strip_Nude_12
+        pause 1.8
+        hide videov_Monica_Strip_Nude_12
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_12_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_12_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 22
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_13 = Movie(play="video/v_Monica_Strip_Nude_13.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_13_end.jpg")
+        show videov_Monica_Strip_Nude_13
+        pause 1.8
+        hide videov_Monica_Strip_Nude_13
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_13_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_13_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_14 = Movie(play="video/v_Monica_Strip_Nude_14.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_14_end.jpg")
+        show videov_Monica_Strip_Nude_14
+        pause 1.8
+        hide videov_Monica_Strip_Nude_14
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_14_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_14_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_15 = Movie(play="video/v_Monica_Strip_Nude_15.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_15_end.jpg")
+        show videov_Monica_Strip_Nude_15
+        pause 1.8
+        hide videov_Monica_Strip_Nude_15
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_15_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_15_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 23
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_16 = Movie(play="video/v_Monica_Strip_Nude_16.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_16_end.jpg")
+        show videov_Monica_Strip_Nude_16
+        pause 1.8
+        hide videov_Monica_Strip_Nude_16
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_16_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_16_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_17 = Movie(play="video/v_Monica_Strip_Nude_17.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_17_end.jpg")
+        show videov_Monica_Strip_Nude_17
+        pause 1.8
+        hide videov_Monica_Strip_Nude_17
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_17_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_17_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_18 = Movie(play="video/v_Monica_Strip_Nude_18.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_18_end.jpg")
+        show videov_Monica_Strip_Nude_18
+        pause 1.8
+        hide videov_Monica_Strip_Nude_18
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_18_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_18_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 24
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_19 = Movie(play="video/v_Monica_Strip_Nude_19.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_19_end.jpg")
+        show videov_Monica_Strip_Nude_19
+        pause 1.8
+        hide videov_Monica_Strip_Nude_19
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_19_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_19_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_20 = Movie(play="video/v_Monica_Strip_Nude_20.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_20_end.jpg")
+        show videov_Monica_Strip_Nude_20
+        pause 1.8
+        hide videov_Monica_Strip_Nude_20
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_20_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_20_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_21 = Movie(play="video/v_Monica_Strip_Nude_21.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_21_end.jpg")
+        show videov_Monica_Strip_Nude_21
+        pause 1.8
+        hide videov_Monica_Strip_Nude_21
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_21_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_21_end")
+
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ pose = 25
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    show screen poledance()
+    $ result = ui.interact()
+    if result == "stop":
+        jump pub_dance1_stage_stop
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    if result == "up":
+        scene black
+        image videov_Monica_Strip_Nude_22 = Movie(play="video/v_Monica_Strip_Nude_22.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_22_end.jpg")
+        show videov_Monica_Strip_Nude_22
+        pause 1.8
+        hide videov_Monica_Strip_Nude_22
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_22_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_22_end")
+    if result == "side":
+        scene black
+        image videov_Monica_Strip_Nude_23 = Movie(play="video/v_Monica_Strip_Nude_23.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_23_end.jpg")
+        show videov_Monica_Strip_Nude_23
+        pause 1.8
+        hide videov_Monica_Strip_Nude_23
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_23_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_23_end")
+    if result == "down":
+        scene black
+        image videov_Monica_Strip_Nude_24 = Movie(play="video/v_Monica_Strip_Nude_24.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_24_end.jpg")
+        show videov_Monica_Strip_Nude_24
+        pause 1.8
+        hide videov_Monica_Strip_Nude_24
+        show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_24_end.jpg")
+        wclean
+        call pub_dance_nude_dialogues_react(pose, result)
+        $ stage_achievements_list.append("v_Monica_Strip_Nude_24_end")
+
+    if result == "up":
+        $ pose = 26
+        $ arrowUp = False
+        $ arrowSide = True
+        $ arrowDown = False
+        show screen poledance_camera_icon(stage_Monica_shoots_array)
+        show screen poledance()
+        $ result = ui.interact()
+        if result == "stop":
+            jump pub_dance1_stage_stop
+        hide screen poledance
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        $ result = "side"
+        if result == "side":
+            scene black
+            image videov_Monica_Strip_Nude_25 = Movie(play="video/v_Monica_Strip_Nude_25.mkv", fps=25, loop=False, image="/images/Slides/v_Monica_Strip_Nude_25_end.jpg")
+            show videov_Monica_Strip_Nude_25
+            pause 1.8
+            hide videov_Monica_Strip_Nude_25
+            show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_25_end.jpg")
+            wclean
+            call pub_dance_nude_dialogues_react(pose, result)
+            $ stage_achievements_list.append("v_Monica_Strip_Nude_25_end")
+
 
     jump pub_dance1_stage_end
 

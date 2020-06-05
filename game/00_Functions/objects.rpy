@@ -290,10 +290,10 @@ init python:
             kwargs.pop("recursive", None)
             flag1 = False
             for room_name in rooms_list:
-                for obj_name in scenes_data["objects"][room_name]:
-                    if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
-                        scenes_data["objects"][room_name][obj_name]["active"] = active_state
-                        flag1 = True
+                    for obj_name in scenes_data["objects"][room_name]:
+                        if check_filter(kwargs, scenes_data["objects"][room_name][obj_name]) == True:
+                            scenes_data["objects"][room_name][obj_name]["active"] = active_state
+                            flag1 = True
             return flag1
 
     def check_scene_parent(room_name, parent, **kwargs): #recursive=True

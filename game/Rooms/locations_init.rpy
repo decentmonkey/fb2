@@ -180,6 +180,9 @@ label locations_init_pub_stage:
     $ add_location("pub_stage1", caption=t_("SHINY HOLE"), label="pub_stage1", init_label="pub_stage1_init", parent="pub")
     return
 
+label locations_init_pub_makeuptoom_mollytable:
+    $ add_location("pub_makeuproom_mollytable", caption=t_("СТОЛИК МОЛЛИ"), label="pub_makeuproom_mollytable", init_label="pub_makeuproom_mollytable_init", parent="pub_makeuproom")
+    return
 
 label locations_init_laundry_wash_machine:
     $ add_location("basement_laundry_washmachine", caption=t_("Laundry"), label="basement_laundry_washmachine", init_label="basement_laundry_washmachine_init", parent="basement_laundry")

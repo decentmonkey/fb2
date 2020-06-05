@@ -18,7 +18,10 @@ default monicaPubSecondPrivatDanceJoe5 = False # Моника согласила
 default monicaPubSecondPrivatDanceJoe6 = False # Моника согласилась сесть к клиенту на руки, работая официанткой
 default monicaPubSecondPrivatDanceJoe7 = False # Моника согласилась снять трусики, сидя на коленях у клиента
 
-
+default ep213_dialogues3_pub_7_planned = False
+default ep213_dialogues3_pub_8_planned = False
+default ep213_dialogues3_pub_12_planned = False
+default pub_dance_dialogues_up_list5 = []
 #call ep213_dialogues3_pub_1() # разговор Моники с Молли в гримерке
 #call ep213_dialogues3_pub_2() # повторный клик на Молли после первого разговора в гримерке
 #call ep213_dialogues3_pub_3() # после танца Моника заходит в гримерку и ворует чаевые
@@ -72,9 +75,9 @@ label ep213_dialogues3_pub_1:
             mt "Я не хочу связываться с этой сучкой!"
             mt "Не хватало еще, чтобы она снова подставила меня перед Эшли!"
             mt "!!!"
-            return
+            return False
     music Power_Bots_Loop
-    imgd 16134
+    img 16134 vpunch
     mt "Вот дрянь!"
     mt "!!!"
     # Моника зло смотрит на Молли, потом подходит к ней
@@ -123,13 +126,17 @@ label ep213_dialogues3_pub_1:
     imgf 22825
     mt "Давно пора было поставить эту шлюшку на место!"
     mt "!!!"
-    return
+    return True
 
 # если после этого диалога повторный клик на Молли, Моника говорит свою обычную фразу (из лейбла dialogue_5_dance_strip_27)
 label ep213_dialogues3_pub_2:
     # не рендерить!!
     mt "Я не хочу разговаривать с этой хамкой. Она провоцирует меня."
     mt "Я... боюсь не сдержаться и ударить ее..."
+    return
+
+label ep213_dialogues3_pub_2a:
+    mt "Я не хочу подходить туда при свидетелях..."
     return
 
 # гримерка, в этот же день после сцены
@@ -169,10 +176,21 @@ label ep213_dialogues3_pub_3:
             mt "Я Моника Бакфетт! Я леди, а не какая-то воровка!"
             mt "!!!"
             # выходит из гримерки
-            return
+            return False
     imgd 18209
     mt "Нужно сделать это быстро, чтобы никто не заметил!"
     mt "!!!"
+    return True
+
+label ep213_dialogues3_pub_3c:
+    mt "Нужно сделать это быстро, чтобы никто не заметил!"
+    return False
+
+label ep213_dialogues3_pub_3a:
+    mt "Эта рыжая сучка не заслуживает своих чаевых!"
+    return False
+
+label ep213_dialogues3_pub_3b:
     # подходит к столику Молли и берет одну купюру
     # Показать со спины
     sound highheels_short_walk
@@ -180,10 +198,12 @@ label ep213_dialogues3_pub_3:
     w
     imgd 18252
     mt "Хм... Почти незаметно..."
+    $ add_money(10.0)
     imgf 18210
     mt "Может стоит взять еще одну..."
+    $ add_money(20.0)
     mt "И еще..."
-    $ add_money(50.0)
+    $ add_money(20.0)
     fadeblack 1.5
     music Stealth_Groover
     imgfl 18209
@@ -194,7 +214,37 @@ label ep213_dialogues3_pub_3:
     mt "Если бы эта рыжая сучка не вела себя, как последняя дрянь, я никогда не стала бы брать ее деньги!"
     mt "Наверное..."
     # выходит из гримерки
-    return
+    return True
+
+label ep213_dialogues3_pub_4a:
+    fadeblack 1.5
+    music Marty_Gots_a_Plan
+    #
+    $ notif(_("Моника украла у Молли $ 50."))
+    #
+    imgfl 18207
+    mt "Как я и думала, рыжая сучка даже не заметила пропажи $ 50..."
+    mt "..."
+    menu:
+        "Взять еще немного денег из банки Молли.": # corruption
+            $ monicaPubMollyDanceNude3 = True # Моника еще раз хочет украсть деньги из банки Молли
+            pass
+        "Уйти.":
+            return False
+    imgf 18208
+    mt "..."
+    mt "Если я снова возьму еще пару купюр, она этого тоже не заметит."
+    $ add_money(50.0)
+    fadeblack 1.5
+    music Stealth_Groover
+    imgfl 18209
+    # затемнение
+    mt "Отлично!"
+    mt "Никто ничего не видел, а у меня в кармане стало на $ 50 больше!"
+    mt "..."
+    mt "Если бы эта рыжая сучка не вела себя, как последняя дрянь, я никогда не стала бы брать ее деньги!"
+    mt "Наверное..."
+    return True
 
 # в следующий раз Моника приходит в паб и работает в прежнем режиме
 # если на работе Клэр - обычный обмен фразами
@@ -217,6 +267,8 @@ label ep213_dialogues3_pub_4:
         "Взять еще немного денег из банки Молли.": # corruption
             $ monicaPubMollyDanceNude3 = True # Моника еще раз хочет украсть деньги из банки Молли
             pass
+        "Уйти.":
+            return False
     imgf 18208
     mt "..."
     mt "Если я снова возьму еще пару купюр, она этого тоже не заметит."
@@ -224,7 +276,8 @@ label ep213_dialogues3_pub_4:
     # в этот момент в гримерку заходит Эшли
     imgd 18210
     w
-    imgf 18211
+    fadeblack 1.5
+    img 18211 hpunch
     ashley "[monica_pub_name]!!!"
     # Моника резко отдергивает руку от банки
     music stop
@@ -233,7 +286,7 @@ label ep213_dialogues3_pub_4:
     mt "!!!"
     # Эшли встает руки в боки и орет
     music Power_Bots_Loop
-    imgf 18213
+    img 18213 vpunch
     ashley "Вот ты и попалась!!!"
     ashley "Воровка!!!"
     # Моника в растерянности
@@ -266,7 +319,9 @@ label ep213_dialogues3_pub_4:
     sound man_steps
     w
     # Молли злобно усмехается и смотрит на Монику
-    imgd 18221
+    fadeblack 1.5
+    music Groove2_85
+    imgf 18221
     molly "Так тебе и надо, сучка!"
     # Молли выходит следом за Эшли
     sound highheels_short_walk
@@ -278,7 +333,7 @@ label ep213_dialogues3_pub_4:
     mt "Я ни за что не буду унижаться перед этой стервой!"
     mt "Ненавижу!!!"
     mt "!!!"
-    return
+    return True
 
 
 # Моника отдает Эшли чаевые (все чаевые, наказана после воровства денег у Молли) - регулярно, пока не станцует ню
@@ -286,6 +341,9 @@ label ep213_dialogues3_pub_4:
 label ep213_dialogues3_pub_5:
     # использовать имеющиеся арты
     # Эшли требовательно
+    if ep213_dialogues3_pub_12_planned == True:
+        call ep213_dialogues3_pub_12()
+        return
     fadeblack
     sound highheels_short_walk
     pause 2.0
@@ -294,14 +352,16 @@ label ep213_dialogues3_pub_5:
     imgfl 22651
     ashley "[monica_pub_name], сколько ты заработала сегодня?"
 
-    # если ничего не заработала
-    imgf 22655
-    m "Сегодня я ничего не заработала..."
-    # если заработала
-    imgf 22899
-    m "Сегодня я заработала [monica_strip_tips_today]."
+    if monica_strip_tips_today == 0:
+        # если ничего не заработала
+        imgf 22655
+        m "Сегодня я ничего не заработала..."
+    else:
+        # если заработала
+        imgf 22899
+        m "Сегодня я заработала [monica_strip_tips_today]."
 
-    $ add_money(-monica_strip_tips_today)
+        $ add_money(-monica_strip_tips_today)
     # отдает все заработанные деньги Эшли
     imgd 20988
     ashley "Будешь отдавать мне все свои чаевые, пока не попросишь прощения у Молли!"
@@ -321,6 +381,14 @@ label ep213_dialogues3_pub_5:
     mt "Ненавижу!"
     mt "!!!"
     music2 stop
+    if ep213_dialogues3_pub_7_planned == True:
+        call ep213_dialogues3_pub_7()
+        $ ep213_dialogues3_pub_7_planned = False
+    return
+
+label ep213_dialogues3_pub_5a:
+    mt "Мне пока не стоит брать чаевые этой сучки..."
+    mt "Это несправедливо!"
     return
 
 # в другой рабочий день, когда в гримерке сидит Молли
@@ -384,12 +452,13 @@ label ep213_dialogues3_pub_6:
     molly "Понаедут сюда из своих деревень... Даже двух слов связать не могут!"
     # Монику бомбит
     music Pyro_Flow
-    imgd 18224
+    img 18224 vpunch
     mt "Сучка!"
     mt "Как эта грязная шлюха смеет говорить мне такое?!"
     mt "Тупая провинциальная дура!"
     mt "!!!"
     # Молли отворачивается от нее к своему зеркалу и равнодушно говорит
+    fadeblack 1.5
     music Groove2_85
     imgf 22678
     molly "У меня есть несколько условий."
@@ -425,7 +494,7 @@ label ep213_dialogues3_pub_6:
             sound highheels_short_walk
             imgf 16131
             w
-            return
+            return 0
     music Pyro_Flow
     imgf 18226
     mt "Что?!"
@@ -481,7 +550,7 @@ label ep213_dialogues3_pub_6:
             m "Пошла ты!"
             m "!!!"
             # уходит к своей вешалке
-            return
+            return 0
     imgd 18229
     molly "Ну?"
     molly "Чего ты молчишь? Я жду."
@@ -574,7 +643,7 @@ label ep213_dialogues3_pub_6:
             sound highheels_short_walk
             imgd 18250
             w
-            return
+            return 1
         "Не делать этого.":
             # Моника смотрит зло на Молли
             music Pyro_Flow
@@ -589,7 +658,7 @@ label ep213_dialogues3_pub_6:
     mt "Пошла эта стерва к черту!!!"
     mt "Ненавижу ее!!!"
     mt "!!!"
-    return
+    return 2
 
 # если повторный клик на Молли, то Моника с ней не разговаривает (ep213_dialogues3_pub_2)
 
@@ -615,6 +684,8 @@ label ep213_dialogues3_pub_7:
     imgf 22694
     mt "И эта извращенка туда же!!!"
     mt "!!!"
+    $ stage_dance_nude_planned = True
+    $ stage_shoots_total_amount_cur = stage_shoots_total_amount_cur + stage_shoots_total_amount_nude
     music2 stop
     return
 
@@ -642,6 +713,7 @@ label ep213_dialogues3_pub_8:
 # Моника во время выступления
 # во время того, как танцеует топлесс, появляется меню
 label ep213_dialogues3_pub_9:
+    $ menu_corruption = [monicaPutStripClothNudeStage]
     menu:
         "Раздеться догола.": # corruption
             $ monicaPubMollyDanceNude6 = True # Моника решила раздеться догола на сцене
@@ -652,25 +724,46 @@ label ep213_dialogues3_pub_9:
             mt "Пошла эта сучка Молли к черту!"
             mt "!!!"
             # танец заканчивается
-            return
+            return False
+    if len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToDanceNude:
+        help "Окрыты не все движения. Требуется [monicaPosesOpenedToDanceNude]."
+        return False
+
+    if stage_dance_nude_last_day == 0: # Первый раз танец обнаженной
+        call ep213_quests_pub8_first_dance_nude()
+
     mt "Не могу поверить, что я делаю это!!!"
     mt "Моника, неужели для тебя это становится нормой?!"
     mt "?!?!?!"
     # далее Моника снимает трусики, танец
-    return
+    return True
 
 # крики из зала во время танца без трусиков
 label ep213_dialogues3_pub_10:
-    customers3 "ОООО, ДЕТКА! ВАУ!!!"
-    ashley "ДАВАЙ! ДАВАЙ ЖЕ!!!"
-    customers1 "ДА! ДААААА!!!"
-    customers4 "ВАУ!!!"
-    customers3 "РАЗДВИНЬ НОЖКИ! ПОКАЖИ НАМ СЕБЯ, ДЕТКА!"
-    customers1 "ИДИ СЮДА! КО МНЕ!!!"
-    customers4 "ДААА!!! ПОВЕРНИСЬ, ПОКАЖИ СВОЮ ПОПКУ!"
-    ashley "ДА! ПОКАЖИ НАМ СВОЮ ПОПКУ!"
-    customers2 "А ТЕПЕРЬ НАГНИСЬ! ДАВАЙ!!!"
-    customers1 "ДАААААААА!!!"
+    if len(pub_dance_dialogues_up_list5) == 0:
+        $ pub_dance_dialogues_up_list5 = random.sample(set([1,2,3,4,5,6,7,8,9,10]), 10)
+    $ idx = pub_dance_dialogues_up_list5.pop()
+    # правильные стрелки
+    if idx == 1:
+        customers3 "ОООО, ДЕТКА! ВАУ!!!"
+    if idx == 2:
+        ashley "ДАВАЙ! ДАВАЙ ЖЕ!!!"
+    if idx == 3:
+        customers1 "ДА! ДААААА!!!"
+    if idx == 4:
+        customers4 "ВАУ!!!"
+    if idx == 5:
+        customers3 "РАЗДВИНЬ НОЖКИ! ПОКАЖИ НАМ СЕБЯ, ДЕТКА!"
+    if idx == 6:
+        customers1 "ИДИ СЮДА! КО МНЕ!!!"
+    if idx == 7:
+        customers4 "ДААА!!! ПОВЕРНИСЬ, ПОКАЖИ СВОЮ ПОПКУ!"
+    if idx == 8:
+        ashley "ДА! ПОКАЖИ НАМ СВОЮ ПОПКУ!"
+    if idx == 9:
+        customers2 "А ТЕПЕРЬ НАГНИСЬ! ДАВАЙ!!!"
+    if idx == 10:
+        customers1 "ДАААААААА!!!"
     # Моника зарабатывает 130 баксов чаевых
     return
 
@@ -690,7 +783,7 @@ label ep213_dialogues3_pub_11:
     mt "Чтобы отдать их Эшли! Черт!"
     mt "!!!"
     # выходит из гримерки
-    return
+    return False
 
 # отдает Эшли чаевые после танца без трусиков
 label ep213_dialogues3_pub_12:
@@ -699,11 +792,10 @@ label ep213_dialogues3_pub_12:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Groove2_85
+    music Loved_Up
     music2 pub_noise1_low
     imgfl 20982
     ashley "[monica_pub_name], я тебе давно говорила, что надо повертеть на сцене голой попкой!"
-    music Loved_Up
     ashley "Мне понравилось!" # игриво
     ashley "Надеюсь, что буду чаще видеть ее на сцене! #ее - it"
     music Power_Bots_Loop
@@ -719,12 +811,17 @@ label ep213_dialogues3_pub_12:
     m "Сегодня я заработала [monica_strip_tips_today]."
 
     # отдает все заработанные деньги Эшли
+    $ add_money(-monica_strip_tips_today)
     imgd 22696
     ashley "Молли мне сказала, что это было условием для ее прощения."
     imgd 20979
     m "!!!"
     imgf 21010
     ashley "Теперь будешь отдавать мне только процент от заработка."
+    $ tipsBack = round_down(float(monica_strip_tips_today)*pubMonicaDanceTipsKoeff, 0.05)
+    if tipsBack == 0.0:
+        $ tipsBack = 0.05
+    $ add_money(tipsBack)
     ashley "Вот твои деньги, [monica_pub_name]."
     # отдает ей процент
     imgd 20986
@@ -738,6 +835,7 @@ label ep213_dialogues3_pub_12:
     mt "Я не воровала, а брала то, что мне полагается как хоть какая-то компенсация за мое сложное положение!"
     mt "!!!"
     music2 stop
+    $ ep213_quests_monica_punished_for_stealing_molly_tips = False
     return
 
 # другой рабочий день
@@ -900,13 +998,13 @@ label ep213_dialogues3_pub_14:
             imgd 18248
             w
             imgf 18249
-            mt "К черту эту грязную дыру вместе со всеми жалкими неудачниками!"
-            mt "!!!"
+            m "К черту эту грязную дыру вместе со всеми жалкими неудачниками!"
+            m "!!!"
             # уходит
             sound highheels_short_walk
             imgd 18250
             w
-            return
+            return False
         "Не делать этого.":
             # Моника смотрит зло на Молли
             music Pyro_Flow
@@ -923,7 +1021,7 @@ label ep213_dialogues3_pub_14:
     mt "Но сначала я заставлю ее ползать у меня в ногах и молить меня о прощении!"
     mt "НЕНАВИЖУ ЕЕ!"
     mt "!!!"
-    return
+    return True
 
 
 # если Моника ударила Молли стулом

@@ -44,6 +44,8 @@ label pub:
         $ set_active("Pub_Washbasin", False, scene="pub")
         $ pubLocationInitializedForced = True
 
+    if ep213_quests_pub1_inited == False:
+        call ep213_quests_pub1() # Проверка на продолжение квестов
     return
 label pub_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"pub_Monica_[cloth][pubMonicaSuffix]", "click" : "pub_environment", "actions" : "l", "zorder" : 200}, scene="pub")

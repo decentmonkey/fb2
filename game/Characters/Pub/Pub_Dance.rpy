@@ -21,6 +21,9 @@ label pub_dance_movegirls_to_makeuproom:
     # перемещение стриптизерш в гримерку (вызывается при начале танцев)
     if get_active_objects("Pub_StripteaseGirl1", scene="pub") != False:
         $ move_object("Pub_StripteaseGirl1", "pub_makeuproom")
+        if ep213_quests_molly_earning_tips == True and pub_makeuproom_mollytable_initialized == True:
+            $ set_active("Tips", True, scene="pub_makeuproom")
+            $ set_active("Tips", True, scene="pub_makeuproom_mollytable")
     if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
         $ move_object("Pub_StripteaseGirl2", "pub_makeuproom")
     return
@@ -88,7 +91,10 @@ label pub_dance_ashley_after:
             return False
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day:
-        call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22
+        if ep213_quests_monica_punished_for_stealing_molly_tips == True:
+            call ep213_dialogues3_pub_5()
+        else:
+            call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22
         $ monica_shared_tips_with_ashley_last_day = day
         return False
     call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m_2
@@ -103,7 +109,10 @@ label pub_dance_joe_after:
             return False
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day:
-        call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22_1
+        if ep213_quests_monica_punished_for_stealing_molly_tips == True:
+            call ep213_dialogues3_pub_5()
+        else:
+            call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22_1
         $ monica_shared_tips_with_ashley_last_day = day
         return False
     call dialogue_5_dance_strip_4m() from _rcall_dialogue_5_dance_strip_4m_3

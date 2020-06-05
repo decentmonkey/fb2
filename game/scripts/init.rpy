@@ -1,4 +1,7 @@
 #v0.13
+define monicaPutStripClothNudeStage = 500
+define monicaPosesOpenedToDanceNude = 30
+
 define monicaPresentation2Choice1 = 0 # Моника согласилась провести презентацию перед инвесторами
 define monicaPresentation2Choice2 = 0 # Моника согласилась на фотосессию перед инвесторами
 define monicaPresentation2Choice3 = 500 # Моника согласилась сдвинуть трусики на фотосессии

@@ -12,6 +12,8 @@ default pub_dance_dialogues_side_list4 = []
 default pub_dance_dialogues_down_list3 = []
 default pub_dance_dialogues_down_list4 = []
 
+default pub_dance_dialogues_tips_list = 0
+
 label pub_dance_dialogues_start_dancing:
     # Моника вышла на сцену
     if monicaDancingStage == 0:
@@ -44,6 +46,10 @@ label pub_dance_dialogues_start_dancing:
         if cloth == "StripOutfit2":
             img 22903
         with fadelong
+        if ep213_dialogues3_pub_8_planned == True:
+            call ep213_dialogues3_pub_8()
+            $ ep213_dialogues3_pub_8_planned = False
+            return
         $ rand1 = rand(1,2)
         if rand1 == 1:
             call dialogue_5_dance_strip_4e() from _rcall_dialogue_5_dance_strip_4e
@@ -125,6 +131,61 @@ label pub_dance_dialogues_react(pose, zone): # Реакция зала
     return
 
 
+label pub_dance_nude_dialogues_react(pose, zone): # Реакция зала
+
+    show screen poledance_camera_icon(stage_Monica_shoots_array)
+    python:
+        checkZoneKey = str(pose) + zone
+        moveRepeated = False
+        if checkZoneKey in stage_Monica_last_shoots_array:
+            moveRepeated = True
+        zoneRepeated = False
+        if zone == stage_Monica_last_zone:
+            zoneRepeated = True
+
+        stage_Monica_shoots_array_current.append(checkZoneKey)
+        stage_Monica_shoots_array.append(checkZoneKey)
+        stage_Monica_last_zone = zone
+
+#    if moveRepeated == True or zoneRepeated == True: # движение не понравилось
+    if zoneRepeated == True: # движение не понравилось
+        if moveRepeated == True:
+            $ notif(t_("Моника делала это движение в прошлый раз"))
+        if zoneRepeated == True:
+            $ notif(t_("Моника повторяет направления танца"))
+        call pub_dance_dialogues_excitement_down(pose, zone)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
+        $ idx = rand(1,4)
+        $ crowdSound = "snd_crowd_uuu" + str(idx)
+        sound crowdSound
+        if zone == "up":
+            call dialogue_5_dance_strip_5d2()
+        if zone == "side":
+            call dialogue_5_dance_strip_5f2()
+        if zone == "down":
+            call dialogue_5_dance_strip_5f2()
+    else:
+        # Движение понравилось
+        call pub_dance_dialogues_excitement_up(pose, zone)
+        show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
+        call pub_dance_dialogues_excitement_tips()
+        $ idx = rand(1,3)
+        $ applauseSound = "snd_applause" + str(idx)
+        sound applauseSound
+        call pub_dance_stage_flash()
+        if zone == "up":
+            call ep213_dialogues3_pub_10()
+        if zone == "side":
+            call ep213_dialogues3_pub_10()
+        if zone == "down":
+            call ep213_dialogues3_pub_10()
+
+
+#    wclean
+    $ notif_clean()
+
+    return
+
 label pub_dance_claire_dialogues_react(pose, zone): # Реакция зала
 
     show screen poledance_camera_icon(stage_Monica_shoots_array)
@@ -204,7 +265,10 @@ label pub_dance_dialogues_excitement_down(pose, zone):
 
 label pub_dance_dialogues_excitement_tips():
 #    $ kupury = [1,2,5,10,20,50]
-    $ kupury = [20,10,5,2,1]
+    if pub_dance_dialogues_tips_list == 0:
+        $ kupury = [20,10,5,2,1]
+    if pub_dance_dialogues_tips_list == 1:
+        $ kupury = [10,5,2,2,1]
     if stage_Monica_Excitement_Current <= 27:
         $ moneyTips1 = rand(2,4)
     else:
