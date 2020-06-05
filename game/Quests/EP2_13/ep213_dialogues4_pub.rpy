@@ -1097,6 +1097,7 @@ label ep213_dialogues3_pub_15:
     joe "Я тебе их отдам сразу же, как ты закончишь работать с этим клиентом." # хитро подмигивает
     imgd 30474
     m "..."
+    $ menu_corruption = [monicaPrivate2Corrution]
     menu:
         "Сколько денег ты взял у клиента?":
             pass
@@ -1118,10 +1119,10 @@ label ep213_dialogues3_pub_15:
             # Моника гордо уходит
             fadeblack 1.5
             music Groove2_85
-            imgfl 30468
-            sound highheels_short_walk
-            w
-            return
+#            imgfl 30468
+#            sound highheels_short_walk
+#            w
+            return False
     # Моника подозрительно
     music Groove2_85
     imgf 18234
@@ -1134,6 +1135,7 @@ label ep213_dialogues3_pub_15:
     m "И ты мне их отдашь сразу после того, как я закончу приват?"
     imgd 30451
     joe "Конечно, [monica_pub_name]!"
+    sound Jump1
     imgd 18236
     joe "Разве я тебя когда-нибудь обманывал?" # подмигивает и улыбается хитро
     imgf 18237
@@ -1143,6 +1145,7 @@ label ep213_dialogues3_pub_15:
     music Hidden_Agenda
     imgd 18238
     joe "Эшли не заметит моего отсутствия."
+    sound Jump1
     imgd 18239
     joe "Она ведь не знает про то, что я тебе помогаю." # похотливо подмигивает
     sound man_steps
@@ -1161,17 +1164,19 @@ label ep213_dialogues3_pub_15:
     mt "400 долларов..."
     mt "Деньги уже у Джо."
 
-    # если Моника уже работает в эскорте
-    $ notif(_("Моника зарабатывает деньги, обслуживая клиентов в эскорте"))
-    #
-    imgd 30471
-    mt "Я столько за один вечер не всегда могу заработать даже в эскорте..."
+    if monica_escort_service_started == True:
+        # если Моника уже работает в эскорте
+        $ notif(_("Моника зарабатывает деньги, обслуживая клиентов в эскорте"))
+        #
+        imgd 30471
+        mt "Я столько за один вечер не всегда могу заработать даже в эскорте..."
 
-    # если Моника уже арендует шикарный апартамент
-    $ notif(_("Моника арендует апартаменты у продавца кебабов"))
-    #
-    imgd 30471
-    mt "Этих денег хватит с лихвой, чтобы продлить мои апартаменты на целую неделю..."
+    if slumsApartmentsRentStarted == True:
+        # если Моника уже арендует шикарный апартамент
+        $ notif(_("Моника арендует апартаменты у продавца кебабов"))
+        #
+        imgd 30471
+        mt "Этих денег хватит с лихвой, чтобы продлить мои апартаменты на целую неделю..."
 
     mt "..."
     menu:
@@ -1181,14 +1186,14 @@ label ep213_dialogues3_pub_15:
     imgf 30471
     mt "Если Джо не заплатит мне эти $ 400, я оторву ему яйца!"
 #    $ log1 = _("Пойти в подсобку барменов.")
-    return
+    return True
 
 # подсобка барменов
 label ep213_dialogues3_pub_16:
     # Моника в костюме для стриптиза, с жилетом
     # Моника приходит в подсобку, там сидит клиент, который ей давал 20-ку чаевых, если садилась к нему на колени
     # Джо, как и в прошлый раз, стоит в стороне и хитро улыбается
-    fadeblack
+    fadeblack 2.0
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
@@ -1201,17 +1206,19 @@ label ep213_dialogues3_pub_16:
     mt "Очередной жалкий неудачник!"
     mt "Ненавижу их всех!"
     mt "!!!"
-
-    # если этот клиент давал ей 20-ку чаевых
-    $ notif(_("Клиент платил Монике щедрые чаевые."))
-    #
-    imgf 31077
-    w
-    imgd 30482
-    mt "Я помню его..."
-    mt "Этот неудачник хотя бы не такой жадный, как остальные..."
+    if corruption_places.has_key("pubCustomer9_serve1_Corruption") != False and corruption_places["pubCustomer9_serve1_Corruption"] > 0:
+        # если этот клиент давал ей 20-ку чаевых
+        $ notif(_("Клиент платил Монике щедрые чаевые."))
+        #
+        imgf 31077
+        w
+        imgd 30482
+        mt "Я помню его..."
+        mt "Этот неудачник хотя бы не такой жадный, как остальные..."
 
     # клиент сидит с самодовольной мордой
+    fadeblack 1.5
+    music Loved_Up
     imgf 31079
     customer9 "А вот и моя девочка пришла..."
     m "..."
@@ -1226,8 +1233,9 @@ label ep213_dialogues3_pub_16:
             pass
     # Моника залезает на стол и начинает танцевать
     # танцует, раздевается
+    fadeblack 2.0
     music Road_Trip
-    imgf 31081
+    imgfl 31081
     w
     imgd 31082
     w
@@ -1301,15 +1309,17 @@ label ep213_dialogues3_pub_16:
     imgf 31111
     w
 #    sound vjuh2
+    sound Jump1
     imgd 31112
     joe "..."
     # Моника смотрит на расстегнутые штаны клиента
     music Groove2_85
-    imgf 31113
+    img 31113 vpunch
     mt "!!!"
     mt "Надеюсь, мне не придется прикасаться своей..."
     mt "Своей голой попой к нему!"
     mt "!!!"
+    music Loved_Up
     imgd 31110
     customer9 "Даа..."
     customer9 "Какая хорошая девочка!"
@@ -1319,6 +1329,7 @@ label ep213_dialogues3_pub_16:
     customer9 "Теперь сними с себя туфли..."
     customer9 "Он очень хочет, чтобы ты потрогала его своими ножками."
     # Моника удивленно смотрит на него
+    music Groove2_85
     imgd 31115
     m "Снять туфли?"
     mt "И что сделать?!"
@@ -1357,6 +1368,7 @@ label ep213_dialogues3_pub_16:
     joe "Да-да, [monica_pub_name]..."
     joe "Очень щедро!"
     m "..."
+    $ menu_corruption = [monicaPrivate2FootjobCorruption]
     menu:
         "Потрогать своей ногой член клиента.": # corruption
             $ monicaPubSecondPrivatDanceJoe2 = True # Моника согласилась потрогать ногой член клиента
@@ -1400,7 +1412,7 @@ label ep213_dialogues3_pub_16:
             joe "Ты не получишь ни цента!"
             # Моника убирает ногу
             music Stealth_Groover
-            imgf 31129
+            img 31129 vpunch
             m "Да пошел ты, Джо!"
             m "Ничтожество!"
             m "!!!"
@@ -1412,7 +1424,7 @@ label ep213_dialogues3_pub_16:
             sound highheels_short_walk
             w
             # Моника гордо уходит
-            return
+            return False
     # Моника медлит
     music Pyro_Flow
     imgf 30522
@@ -1437,13 +1449,15 @@ label ep213_dialogues3_pub_16:
     fadeblack
     sound snd_fabric1
     pause 2.0
-    music Loved_Up
+    music stop
+    music2 Loved_Up
     imgfl 31132
     w
     imgf 31133
     w
     imgd 31134
     w
+    sound drkanje5
     imgd 31135
     customer9 "Ооооо!!!"
     imgf 31136
@@ -1459,63 +1473,137 @@ label ep213_dialogues3_pub_16:
     imgf 31138
     joe "Делай..."
     # Моника протягивает к клиенту вторую ногу и зажимает его член между своими ступнями
+
+    music2 stop
+    fadeblack 2.0
+    music2 Loved_Up
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_1 = Movie(play="video/v_Monica_Private_Visitor9_Footjob1_1.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31139
     w
     imgf 31140
     customer9 "Даааа!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_2 = Movie(play="video/v_Monica_Private_Visitor9_Footjob1_2.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 31141
     w
     imgf 31142
     customer9 "Как же охренительно хорошо!"
-    sound drkanje5
-    imgd 31143
-    w
-    sound drkanje5
-    imgd 31144
-    w
-    sound drkanje5
-    imgd 31143
-    w
-    sound drkanje5
-    imgd 31144
-    w
-    sound drkanje5
-    imgd 31143
-    w
-    sound drkanje5
-    imgd 31144
-    w
-    sound drkanje5
-    imgd 31143
-    w
-    sound drkanje5
-    imgd 31144
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_3= Movie(play="video/v_Monica_Private_Visitor9_Footjob1_3.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     customer9 "Двигай ножками быстрее, детка!"
-    music Loved_up2
-    sound drkanje5
-    imgf 31145
-    w
-    sound drkanje5
-    imgd 31146
-    w
-    sound drkanje5
-    imgd 31145
-    w
-    sound drkanje5
-    imgd 31146
-    w
-    sound drkanje5
-    imgd 31145
-    w
-    sound drkanje5
-    imgd 31146
-    w
-    sound drkanje5
-    imgd 31145
-    w
-    sound drkanje5
+    music2 Loved_up2
+#    sound drkanje5
+#    imgf 31145
+#    w
+#    sound drkanje5
+#    imgd 31146
+#    w
+#    sound drkanje5
+#    imgd 31145
+#    w
+#    sound drkanje5
+#    imgd 31146
+#    w
+#    sound drkanje5
+#    imgd 31145
+#    w
+#    sound drkanje5
+#    imgd 31146
+#    w
+#    sound drkanje5
+#    imgd 31145
+#    w
+#    sound drkanje5
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_4 = Movie(play="video/v_Monica_Private_Visitor9_Footjob1_4.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_5 = Movie(play="video/v_Monica_Private_Visitor9_Footjob1_5.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,3))*2.4) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Private_Visitor9_Footjob1_6 = Movie(play="video/v_Monica_Private_Visitor9_Footjob1_6.mkv", fps=25)
+    show videov_Monica_Private_Visitor9_Footjob1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 31146
-#    sound bulk1
+    sound bulk1
     show screen photoshot_screen()
     with hpunch
     pause 0.7
@@ -1539,6 +1627,7 @@ label ep213_dialogues3_pub_16:
 #    img 31149
     joe "Ммммммм..."
     # Моника зло на него смотрит
+    music2 stop
     music Power_Bots_Loop
     imgf 30526
     mt "Сволочь!!!"
@@ -1611,6 +1700,7 @@ label ep213_dialogues3_pub_16:
     imgd 18344
     mt "Сволочь!!!"
     mt "!!!"
+    $ menu_corruption = [monicaPrivate2JoeTeasingCorruption]
     menu:
         "Потереться о Джо. (in Extra version) (disabled)" if game.extra != True:
             return
@@ -1649,6 +1739,7 @@ label ep213_dialogues3_pub_16:
                 mt "!!!"
                 mt "Гребанный Джо!!!"
                 # Моника пристраивается над Джо, чтобы можно было тереться об его член
+                music2 stop
                 music Loved_Up
                 imgd 18350
                 w
@@ -1660,14 +1751,31 @@ label ep213_dialogues3_pub_16:
                 imgd 18353
                 w
                 fadeblack 1.5
-                music Loved_Up
+                music2 Loved_Up
+
+                img black_screen
+                with diss
+                stop music
+                $ renpy.music.set_volume(0.5, 0.5, channel="music")
+                $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+                play music "<from " + str(float(rand(1,4))*1.33333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+                scene black
+                image videov_Monica_Private_Bartender_Teasing1_1 = Movie(play="video/v_Monica_Private_Bartender_Teasing1_1.mkv", fps=25)
+                show videov_Monica_Private_Bartender_Teasing1_1
+                with fade
+                wclean
+                stop music
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 imgfl 18354
+                sound Jump1
                 joe "Ооооо!!! [monica_pub_name]!!!"
                 imgf 18355
                 joe "Какая ты горячая!!!"
                 # кладет ладони ей на попу
                 # Моника перестает двигаться и рычит на него
-                imgd 18356
+                img 18356 vpunch
                 m "Не прикасайся ко мне!!!"
                 m "!!!"
                 # Джо убирает руки
@@ -1677,6 +1785,22 @@ label ep213_dialogues3_pub_16:
                 imgd 18358
                 mt "Ублюдок!"
                 mt "!!!"
+
+                img black_screen
+                with diss
+                stop music
+                $ renpy.music.set_volume(0.5, 0.5, channel="music")
+                $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+                play music "<from " + str(float(rand(1,4))*1.33333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+                scene black
+                image videov_Monica_Private_Bartender_Teasing1_2 = Movie(play="video/v_Monica_Private_Bartender_Teasing1_2.mkv", fps=25)
+                show videov_Monica_Private_Bartender_Teasing1_2
+                with fade
+                wclean
+                stop music
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 # Моника продолжает тереться
                 imgf 31154
                 w
@@ -1684,17 +1808,49 @@ label ep213_dialogues3_pub_16:
                 joe "Даааа..."
                 imgd 31156
                 w
+                music2 Loved_up2
                 imgf 31157
                 joe "Аааа..."
-                imgd 31158
-                w
-                music Loved_up2
-                imgf 31159
                 joe "Еще..."
+#                imgd 31158
+#                w
+#                imgf 31159
+
+                img black_screen
+                with diss
+                stop music
+                $ renpy.music.set_volume(0.5, 0.5, channel="music")
+                $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+                play music "<from " + str(float(rand(1,4))*1.33333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+                scene black
+                image videov_Monica_Private_Bartender_Teasing1_3 = Movie(play="video/v_Monica_Private_Bartender_Teasing1_3.mkv", fps=25)
+                show videov_Monica_Private_Bartender_Teasing1_3
+                with fade
+                wclean
+                stop music
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 # Моника со злым лицом трется о Джо
                 imgd 31160
                 joe "Мммммм..."
                 joe "Оооооо..."
+
+                img black_screen
+                with diss
+                stop music
+                $ renpy.music.set_volume(0.5, 0.5, channel="music")
+                $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+                play music "<from " + str(float(rand(1,4))*1.33333333) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+                scene black
+                image videov_Monica_Private_Bartender_Teasing1_4 = Movie(play="video/v_Monica_Private_Bartender_Teasing1_4.mkv", fps=25)
+                show videov_Monica_Private_Bartender_Teasing1_4
+                with fade
+                wclean
+                stop music
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 imgd 31162
                 joe "Дааааа..."
                 menu:
@@ -1723,7 +1879,7 @@ label ep213_dialogues3_pub_16:
                         mt "!!!"
                         pass
                     # не может кончить внутрь! "кончить на киску."
-                    "Кончить внутрь Моники.":
+                    "Кончить на киску Моники.":
                         img 31167
                         sound bulk1
                         show screen photoshot_screen()
@@ -1749,6 +1905,7 @@ label ep213_dialogues3_pub_16:
                         pass
                 # смена кадра
                 # Джо стоит с довольной улыбкой
+                music2 stop
                 fadeblack
                 sound snd_fabric1
                 pause 2.0
@@ -1756,6 +1913,7 @@ label ep213_dialogues3_pub_16:
                 imgfl 18359
                 joe "[monica_pub_name], вот твои 400 баксов."
                 $ add_money(400.0)
+                $ monica_strip_tips_today += 400.0
                 joe "И не забудь отдать Эшли процент."
                 # Джо уходит, Моника злая
                 sound man_steps
@@ -1768,7 +1926,8 @@ label ep213_dialogues3_pub_16:
                 mt "Пока она работает!!!"
                 mt "Мерзкий подонок!!!"
                 mt "!!!"
-            return
+                fadeblack 2.0
+            return True
         "Я оторву ему яйца!!!":
             pass
     # Монику бомбит
@@ -1838,18 +1997,19 @@ label ep213_dialogues3_pub_16:
     joe "А что сразу Джо?!"
     joe "Я, между прочим, работаю!"
     music Groove2_85
-    imgd 18375
+    img 18375 vpunch
     ashley "Ты должен быть за барной стойкой, сволочь!"
     ashley "Какого хрена ты здесь делаешь?!"
     imgd 18376
     joe "У [monica_pub_name] был приват с клиентом, а я..."
     joe "Я пришел, чтобы убрать за ними! Вот!"
     # Эшли смотрит на Монику, потом на Джо возмущенно и подозрительно
-    imgf 18377
-    ashley "С каких это пор ты убираешь после приватов?! А?!"
     imgd 18378
+    ashley "С каких это пор ты убираешь после приватов?! А?!"
+    imgd 18377
     ashley "Нашел предлог поглазеть на эту шлюху [monica_pub_name] без трусиков?!"
     ashley "?!?!?!"
+    imgd 18378
     ashley "Говори, мерзавец!!!"
     # Джо испуганно
     music Hidden_Agenda
@@ -1894,6 +2054,8 @@ label ep213_dialogues3_pub_16:
             mt "Но мне нужны эти чертовы 400 долларов!"
             mt "Пусть только попробует не отдать их мне!"
             mt "!!!"
+            call bitch(-20, "private2_joe1")
+            music Hidden_Agenda
             imgd 18387
             m "Он..."
             m "Он только что зашел сюда."
@@ -1942,13 +2104,14 @@ label ep213_dialogues3_pub_16:
             sound vjuh3
             joe "Ладно, [monica_pub_name], вот твои деньги. Только не говори ничего Эшли!"
             $ add_money(400.0)
+            $ monica_strip_tips_today += 400.0
             joe "И не забудь отдать процент."
             music Power_Bots_Loop
             imgf 18397
             m "Ничтожество!"
             m "!!!"
             # Моника гордо уходит
-            return
+            return True
     # Моника медлит
     music Pyro_Flow
     imgf 18386
@@ -1957,6 +2120,7 @@ label ep213_dialogues3_pub_16:
     mt "Но еще больше мне хочется наказать Джо!"
     mt "Пусть Эшли знаешь, какой ее муж мерзавец!"
     mt "!!!"
+    call bitch(20, "private2_joe1")
     imgd 18387
     m "Он..."
     m "Он уже не первый раз приходит на мой приват с клиентом."
@@ -1979,7 +2143,7 @@ label ep213_dialogues3_pub_16:
     w
     # Эшли в бешенстве
     sound snd_kick_fred1
-    imgf 31170
+    img 31170 vpunch
     ashley "Ах ты козел!!!" # пинок
     joe "АЙ!!!"
     sound running
@@ -1987,11 +2151,11 @@ label ep213_dialogues3_pub_16:
     ashley "Сволочь неблагодарная!!!" # пинок
     ashley "Зачем я только вышла за тебя!"
     sound snd_kick_fred1
-    imgf 31172
+    img 31172 vpunch
     ashley "Кобель!!!"
     joe "Да больно же!!!"
     sound snd_kick_fred1
-    imgd 31173
+    img 31173 vpunch
     ashley "Мерзавец!!!" # пинок
     joe "АЙ!!!"
     # Джо смывается
@@ -2047,7 +2211,8 @@ label ep213_dialogues3_pub_16:
             m "Как же вы меня все достали!!!"
             m "!!!"
             # уходит
-            return
+            fadeblack 2.0
+            return True
     # Моника поворачивается к Эшли спиной
     # та смотрит на ее попу и кладет на нее ладонь
     fadeblack 1.5
@@ -2078,11 +2243,13 @@ label ep213_dialogues3_pub_16:
     imgfl 18413
     ashley "Вот твои деньги, [monica_pub_name]."
     $ add_money(400.0)
+    $ monica_strip_tips_today += 400.0
     ashley "На сегодня все. Можешь идти."
     imgf 23473
     mt "Ненавижу их всех!"
     mt "!!!"
-    return
+    fadeblack 2.0
+    return True
 
 # если Моника в другой день работает официанткой и подходит к этому клиенту и приват с ним уже был
 label ep213_dialogues3_pub_17:
@@ -2129,7 +2296,8 @@ label ep213_dialogues3_pub_17:
             customer9 "Умничка... Вот тебе денежка..."
 #            sound vjuh3
             imgf 14485
-            $ add_money(20.0)
+#            $ add_money(20.0)
+            $ add_tips(20.0)
             w
             # он засовывает ей под чулок 20 долларов
             imgd 14486
@@ -2137,6 +2305,7 @@ label ep213_dialogues3_pub_17:
             customer9 "Приспусти незаметно трусики и посиди еще немного."
             customer9 "Ты же знаешь, детка, что я щедрый клиент."
             m "..."
+            $ menu_corruption = [monicaCustomer9AfterPrivateTakeOffPantiesCorruption]
             menu:
                 "Приспустить трусики.":
                     $ monicaPubSecondPrivatDanceJoe7 = True # Моника согласилась снять трусики, сидя на коленях у клиента
@@ -2151,11 +2320,14 @@ label ep213_dialogues3_pub_17:
                     music Loved_Up
                     imgfl 31175
                     w
+                    fadeblack 2.0
+                    music Loved_Up
                     imgf 31176
                     customer9 "Хорошая девочка..."
 #                    sound vjuh3
                     imgd 31177
-                    $ add_money(20.0)
+                    #$ add_money(20.0)
+                    $ add_tips(20.0)
                     w
                     # он засовывает ей под чулок еще 20 долларов
                     imgf 14484

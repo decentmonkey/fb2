@@ -1,4 +1,5 @@
 default pubPrivate1Count = 0
+default pubPrivate2Count = 0
 
 label ep212_quests_pub_menu_private: # Меню приватов
     call ep212_dialogues2_shiny_hole_menu_private() from _rcall_ep212_dialogues2_shiny_hole_menu_private
@@ -18,11 +19,23 @@ label ep212_quests_pub_menu_private: # Меню приватов
         call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_14
         return
     if _return == 1: # Приват1
+        $ remove_hook(label="dialogue_5_dance_strip_18")
+        $ pub_makeuproom_monica_suffix = 2
         call ep212_dialogues2_shiny_hole_1() from _rcall_ep212_dialogues2_shiny_hole_1
         if _return == False:
             return
         $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
         $ add_hook("Teleport_Pub", "ep212_quests_pub_private1_1", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
+        return
+    if _return == 2: # Приват2
+        $ remove_hook(label="dialogue_5_dance_strip_18")
+        $ pub_makeuproom_monica_suffix = 2
+        call ep213_dialogues3_pub_15()
+        if _return == False:
+            return
+        $ pub_makeuproom_monica_suffix = 2
+        $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
+        $ add_hook("Teleport_Pub", "ep213_quests_pub_private2_1", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
         return
     return
 

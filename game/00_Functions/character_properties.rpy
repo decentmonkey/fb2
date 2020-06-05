@@ -81,7 +81,7 @@ init python:
 
 
     def add_corruption(amount, progress_name):
-        global char_data, corruption
+        global char_data, corruption, corruption_places
         if amount == 0:
             return
         duplicate = False

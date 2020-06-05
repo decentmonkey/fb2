@@ -17,6 +17,8 @@ label ep212_dialogues2_shiny_hole_menu_private:
             return 0
         "Приватный танец 1":
             return 1
+        "Приватный танец 2" if pubPrivate1Count > 1:
+            return 2
         "Ничего.":
             return -1
     return -1

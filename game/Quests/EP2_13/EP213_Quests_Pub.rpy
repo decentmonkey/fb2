@@ -163,3 +163,21 @@ label ep213_quests_pub10_molly: # разговор с Молли после та
     $ pub_makeuproom_monica_suffix = 2
     call refresh_scene_fade()
     return False
+
+label ep213_quests_pub_private2_1:
+    if cloth_type != "StripOutfit":
+        call ep211_dialogues5_shiny_hole_8()
+        return False
+    # сцена
+    $ remove_objective("go_dance_private")
+    $ remove_hook(label="pub_private_dance1")
+    $ dancePrivateLastDay = day
+    call ep213_dialogues3_pub_16()
+    if _return == -1:
+        call refresh_scene_fade_long()
+        return
+    $ pubPrivate2Count += 1
+
+    $ customer9_after_private = True
+    call refresh_scene_fade_long()
+    return

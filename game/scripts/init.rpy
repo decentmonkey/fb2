@@ -1,4 +1,9 @@
 #v0.13
+define monicaCustomer9AfterPrivateTakeOffPantiesCorruption = 650 # Моника согласилась приспустить трусики и сесть на колени клиента
+define monicaPrivate2Corrution = 450 # Моника согласилась на второй приват
+define monicaPrivate2FootjobCorruption = 480 # Футджоб
+define monicaPrivate2JoeTeasingCorruption = 520 # Моника согласилась потереться о Джо
+
 define monicaPutStripClothNudeStage = 500
 define monicaPosesOpenedToDanceNude = 30
 
