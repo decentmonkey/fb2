@@ -16,19 +16,27 @@ label ep213_quests_pub1:
 
 
 label ep213_quests_pub2: # Моника приходит на работу в паб и заходит в гримерку
-    if ep213_quests_pub2_day != 0 and day - ep213_quests_pub2_day < 6: # Если игнорили, повтор через неделю
-        return
+#    if ep213_quests_pub2_day != 0 and day - ep213_quests_pub2_day < 6: # Если игнорили, повтор через неделю
+#        return
     if get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False:
         return
+    $ remove_hook()
     call ep213_dialogues3_pub_1()
     $ pub_makeuproom_monica_suffix = 2
     if _return == False:
         $ ep213_quests_pub2_day = day
+        $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub2_molly", scene="pub_makeuproom", label="ep213_pub")
         call refresh_scene_fade()
         return False
     $ remove_hook(label="ep213_pub")
     $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub3_molly_refuse", scene="pub_makeuproom", label="ep213_pub")
     $ add_hook("Teleport_Pub", "ep213_quests_pub4", scene="pub_makeuproom", label="ep213_pub")
+    return False
+
+label ep213_quests_pub2_molly: # повтор диалога с Молли по клику на нее
+    if act=="l":
+        return
+    call ep213_quests_pub2()
     return False
 
 label ep213_quests_pub3_molly_refuse:
