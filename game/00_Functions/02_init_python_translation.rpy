@@ -47,7 +47,6 @@ python early:
                 if st == "":
                     st = s
             st = st.split("#")[0]
-
         return parse_tstr(st)
 
     def ts__(s):
