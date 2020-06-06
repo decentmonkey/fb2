@@ -1259,7 +1259,7 @@ label ep213_dialogues_police12a:
         stop music
         $ renpy.music.set_volume(0.5, 0.5, channel="music")
         $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
         scene black
         image videov_Monica_Prisoner1_Blowjob1_1 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_1.mkv", fps=30)
         show videov_Monica_Prisoner1_Blowjob1_1
@@ -1278,7 +1278,7 @@ label ep213_dialogues_police12a:
         stop music
         $ renpy.music.set_volume(0.5, 0.5, channel="music")
         $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
         scene black
         image videov_Monica_Prisoner1_Blowjob1_2 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_2.mkv", fps=30)
         show videov_Monica_Prisoner1_Blowjob1_2
@@ -1298,7 +1298,7 @@ label ep213_dialogues_police12a:
         stop music
         $ renpy.music.set_volume(0.5, 0.5, channel="music")
         $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
         scene black
         image videov_Monica_Prisoner1_Blowjob1_3 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_3.mkv", fps=30)
         show videov_Monica_Prisoner1_Blowjob1_3
@@ -1320,7 +1320,7 @@ label ep213_dialogues_police12a:
         stop music
         $ renpy.music.set_volume(0.5, 0.5, channel="music")
         $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
         scene black
         image videov_Monica_Prisoner1_Blowjob1_4 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_4.mkv", fps=30)
         show videov_Monica_Prisoner1_Blowjob1_4
@@ -1335,7 +1335,7 @@ label ep213_dialogues_police12a:
         stop music
         $ renpy.music.set_volume(0.5, 0.5, channel="music")
         $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+        play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
         scene black
         image videov_Monica_Prisoner1_Blowjob1_5 = Movie(play="video/v_Monica_Prisoner1_Blowjob1_5.mkv", fps=30)
         show videov_Monica_Prisoner1_Blowjob1_5
@@ -1580,7 +1580,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_1 = Movie(play="video/v_Monica_Prisoner1_Sex1_1.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_1
@@ -1596,7 +1596,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_2 = Movie(play="video/v_Monica_Prisoner1_Sex1_2.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_2
@@ -1617,7 +1617,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_4 = Movie(play="video/v_Monica_Prisoner1_Sex1_4.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_4
@@ -1638,7 +1638,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_3 = Movie(play="video/v_Monica_Prisoner1_Sex1_3.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_3
@@ -1656,7 +1656,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_5 = Movie(play="video/v_Monica_Prisoner1_Sex1_5.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_5
@@ -1676,7 +1676,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_6 = Movie(play="video/v_Monica_Prisoner1_Sex1_6.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_6
@@ -1698,7 +1698,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_7 = Movie(play="video/v_Monica_Prisoner1_Sex1_7.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_7
@@ -1713,7 +1713,7 @@ label ep213_dialogues_police13:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.3, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Prisoner1_Sex1_1.ogg"
     scene black
     image videov_Monica_Prisoner1_Sex1_8 = Movie(play="video/v_Monica_Prisoner1_Sex1_8.mkv", fps=30)
     show videov_Monica_Prisoner1_Sex1_8
