@@ -3,6 +3,9 @@ default ep212_escort3_monica_fired = False
 
 default ep212_escort3_completed = False
 
+default ep212_escort5_completed = False
+default ep212_escort5_monica_fired = False
+
 # сцена 3 эскорта
 label ep212_escort3_1:
     call ep212_dialogues3_escort_hotel_1() from _rcall_ep212_dialogues3_escort_hotel_1 # Моника за столиком в ресторане, разговор с официанткой
@@ -68,3 +71,31 @@ label ep212_escort4_1:
     call ep212_dialogues3_escort_hotel_8() from _rcall_ep212_dialogues3_escort_hotel_8
     call refresh_scene_fade() from _rcall_refresh_scene_fade_48
     return False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

@@ -6,6 +6,7 @@ default monicaEscortClientHotel5 = False  # выбор сцены 2 с клие�
 default monicaEscortClientHotel6 = False  # выбор пункта "Ждать клиента."
 default monicaEscortClientHotel7 = False # выбор сцены3
 default monicaEscortClientHotel8 = False # выбор сцены4
+default monicaEscortClientHotel9 = False # выбор сцены5
 
 #call ep211_escort_scene1_1a() # меню выбора, когда приходит на работу в эскорт (сцена, ждать клиента или уйти)
 #call ep211_escort_scene1_1() # ресторан, Моника сидит за столиком, приходит клиент
@@ -42,7 +43,10 @@ label ep211_escort_scene1_1a_loop1:
                 "Провинившийся завсегдатай." if monicaEscortClientHotel5 == True:
                     $ monicaEscortClientHotel7 = True
                     return 3
-                "Обслуживание персонала." if monicaEscortClientHotel7 == True and monicaHotelStaffEscort2 == True:
+                "Реквизит отеля." if monicaEscortClientHotel7 == True:
+                    $ monicaEscortClientHotel9 = True
+                    return 5
+                "Обслуживание персонала." if monicaEscortClientHotel9 == True and monicaHotelStaffEscort2 == True:
                     $ monicaEscortClientHotel8 = True
                     return 4
                 "Назад.":

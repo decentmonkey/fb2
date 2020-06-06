@@ -10,6 +10,7 @@ default monicaEscortScene1Day = 0
 default monicaEscortScene2Day = 0
 default monicaEscortScene3Day = 0
 default monicaEscortScene4Day = 0
+default monicaEscortScene5Day = 0
 
 default monicaEscortScenesCount = 0
 default monicaEscortFailedScenesCount = 0
@@ -176,6 +177,11 @@ label ep211_quests_escort5_restaurant_wait_customer:
 #        $ monicaEscortSceneDay = day
 #        $ monicaEscortScenesCount += 1
         call ep212_escort4_1() from _rcall_ep212_escort4_1
+    if _return == 5:
+        $ monicaEscortScene5Day = day
+        $ monicaEscortSceneDay = day
+        $ monicaEscortScenesCount += 1
+        call ep213_escort5_1()
 
     return False
 
