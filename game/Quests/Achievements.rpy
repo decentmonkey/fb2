@@ -79,7 +79,9 @@ init python:
             ["15766", "", "gallery_15766"],
             ["15785", "", "gallery_15785"],
             ["23863", "", False],
-            ["17380", "", False]
+            ["17380", "", False],
+            ["17696", "", False],
+            ["17931", "", False]
         ],
         "Fitness": [
             ["7739", "Stephanie", "gallery_7739"],
@@ -124,7 +126,11 @@ init python:
             ["17215", "", False],
             ["17235", "", False],
             ["17573", "", False],
-            ["17496", "", False]
+            ["17496", "", False],
+            ["18110", "", False],
+            ["18161", "", False],
+            ["18185", "", False],
+            ["18144", "", False]
         ],
         "House": [
             ["5999", "Basement", "gallery_5999"],
@@ -222,7 +228,14 @@ init python:
             ["16898", "", False],
             ["23603", "", False],
             ["30374", "", False],
-            ["30429", "", False]
+            ["30429", "", False],
+            ["30647", "", False],
+            ["30685", "", False],
+            ["30729", "", False],
+            ["30828", "", False],
+            ["30861", "", False],
+            ["30923", "", False],
+            ["31060", "", False]
         ],
 
         "Marcus": [
@@ -247,7 +260,14 @@ init python:
             ["21743","", "gallery_21743"],
             ["21761","", "gallery_21761"],
             ["21819","", "gallery_21819"],
-            ["21860","", "gallery_21860"]
+            ["21860","", "gallery_21860"],
+            ["18440", "", False],
+            ["18543", "", False],
+            ["31257", "", False],
+            ["31223", "", False],
+            ["24091", "", False],
+            ["24156", "", False],
+            ["24229", "", False]
         ],
 
         "Melanie": [
@@ -293,7 +313,9 @@ init python:
             ["20578", "", "gallery_ep27_photoshoot_suit8_pose8"],
             ["22608", "", "gallery_ep29_photoshoot_melanie1"],
             ["23224", "", False],
-            ["23274", "", False]
+            ["23274", "", False],
+            ["24236", "", False],
+            ["24328", "", False]
 
         ],
         "BiffCastings": [
@@ -331,7 +353,8 @@ init python:
             ["15958", "", "gallery_15958"],
             ["15995", "", "gallery_15995"],
             ["16009", "", "gallery_16009"],
-            ["30118", "", False]
+            ["30118", "", False],
+            ["18306", "", False]
         ],
 
         "Office": [
@@ -423,7 +446,14 @@ init python:
             ["23354", "", False],
             ["30496", "", False],
             ["30550", "", False],
-            ["23732", "", False]
+            ["23732", "", False],
+            ["18248", "", False],
+            ["31142", "", False],
+            ["31125", "", False],
+            ["18351", "", False],
+            ["18370", "", False],
+            ["18411", "", False],
+            ["31177", "", False]
             ],
         "PoleDance": [
             ["v_Monica_Strip_A1_end", "", False],
@@ -457,6 +487,7 @@ init python:
             ["v_Monica_Strip_I2_end", "", False],
             ["v_Monica_Strip_I3_end", "", False],
 
+            ["23180", "", False],
             ["v_Monica_Strip_J1_end", "", False],
             ["v_Monica_Strip_J2_end", "", False],
             ["v_Monica_Strip_J3_end", "", False],
@@ -482,8 +513,32 @@ init python:
             ["v_Monica_Strip_Q2_end", "", False],
             ["v_Monica_Strip_Q3_end", "", False],
 
-            ["23180", "", False],
-            ["23181", "", False]
+            ["23181", "", False],
+            ["v_Monica_Strip_Nude_01_end", "v_Monica_Strip_Nude_01_end", False],
+            ["v_Monica_Strip_Nude_02_end", "v_Monica_Strip_Nude_02_end", False],
+            ["v_Monica_Strip_Nude_03_end", "v_Monica_Strip_Nude_03_end", False],
+            ["v_Monica_Strip_Nude_04_end", "v_Monica_Strip_Nude_04_end", False],
+            ["v_Monica_Strip_Nude_05_end", "v_Monica_Strip_Nude_05_end", False],
+            ["v_Monica_Strip_Nude_06_end", "v_Monica_Strip_Nude_06_end", False],
+            ["v_Monica_Strip_Nude_07_end", "v_Monica_Strip_Nude_07_end", False],
+            ["v_Monica_Strip_Nude_08_end", "v_Monica_Strip_Nude_08_end", False],
+            ["v_Monica_Strip_Nude_09_end", "v_Monica_Strip_Nude_09_end", False],
+            ["v_Monica_Strip_Nude_10_end", "v_Monica_Strip_Nude_10_end", False],
+            ["v_Monica_Strip_Nude_11_end", "v_Monica_Strip_Nude_11_end", False],
+            ["v_Monica_Strip_Nude_12_end", "v_Monica_Strip_Nude_12_end", False],
+            ["v_Monica_Strip_Nude_13_end", "v_Monica_Strip_Nude_13_end", False],
+            ["v_Monica_Strip_Nude_14_end", "v_Monica_Strip_Nude_14_end", False],
+            ["v_Monica_Strip_Nude_15_end", "v_Monica_Strip_Nude_15_end", False],
+            ["v_Monica_Strip_Nude_16_end", "v_Monica_Strip_Nude_16_end", False],
+            ["v_Monica_Strip_Nude_17_end", "v_Monica_Strip_Nude_17_end", False],
+            ["v_Monica_Strip_Nude_18_end", "v_Monica_Strip_Nude_18_end", False],
+            ["v_Monica_Strip_Nude_19_end", "v_Monica_Strip_Nude_19_end", False],
+            ["v_Monica_Strip_Nude_20_end", "v_Monica_Strip_Nude_20_end", False],
+            ["v_Monica_Strip_Nude_21_end", "v_Monica_Strip_Nude_21_end", False],
+            ["v_Monica_Strip_Nude_22_end", "v_Monica_Strip_Nude_22_end", False],
+            ["v_Monica_Strip_Nude_23_end", "v_Monica_Strip_Nude_23_end", False],
+            ["v_Monica_Strip_Nude_24_end", "v_Monica_Strip_Nude_24_end", False],
+            ["v_Monica_Strip_Nude_25_end", "v_Monica_Strip_Nude_25_end", False]
         ],
 
         "Slums": [
@@ -1383,7 +1438,63 @@ init python:
         "img_30374": "30374",
         "img_30429": "30429",
         "img_30496": "30496",
-        "img_30550": "30550"
+        "img_30550": "30550",
+        "img_17696": "17696",
+        "img_17931": "17931",
+        "img_18110": "18110",
+        "img_18144": "18144",
+        "img_18161": "18161",
+        "img_18185": "18185",
+        "img_18248": "18248",
+        "img_18290": "18290",
+        "img_18306": "18306",
+        "img_18351": "18351",
+        "img_18370": "18370",
+        "img_18411": "18411",
+        "img_18440": "18440",
+        "img_18543": "18543",
+        "img_24091": "24091",
+        "img_24156": "24156",
+        "img_24229": "24229",
+        "img_24236": "24236",
+        "img_24328": "24328",
+        "img_30647": "30647",
+        "img_30685": "30685",
+        "img_30729": "30729",
+        "img_30828": "30828",
+        "img_30861": "30861",
+        "img_30923": "30923",
+        "img_31060": "31060",
+        "img_31125": "31125",
+        "img_31142": "31142",
+        "img_31177": "31177",
+        "img_31223": "31223",
+        "img_31257": "31257",
+        "v_Monica_Strip_Nude_01_end": "v_Monica_Strip_Nude_01_end",
+        "v_Monica_Strip_Nude_02_end": "v_Monica_Strip_Nude_02_end",
+        "v_Monica_Strip_Nude_03_end": "v_Monica_Strip_Nude_03_end",
+        "v_Monica_Strip_Nude_04_end": "v_Monica_Strip_Nude_04_end",
+        "v_Monica_Strip_Nude_05_end": "v_Monica_Strip_Nude_05_end",
+        "v_Monica_Strip_Nude_06_end": "v_Monica_Strip_Nude_06_end",
+        "v_Monica_Strip_Nude_07_end": "v_Monica_Strip_Nude_07_end",
+        "v_Monica_Strip_Nude_08_end": "v_Monica_Strip_Nude_08_end",
+        "v_Monica_Strip_Nude_09_end": "v_Monica_Strip_Nude_09_end",
+        "v_Monica_Strip_Nude_10_end": "v_Monica_Strip_Nude_10_end",
+        "v_Monica_Strip_Nude_11_end": "v_Monica_Strip_Nude_11_end",
+        "v_Monica_Strip_Nude_12_end": "v_Monica_Strip_Nude_12_end",
+        "v_Monica_Strip_Nude_13_end": "v_Monica_Strip_Nude_13_end",
+        "v_Monica_Strip_Nude_14_end": "v_Monica_Strip_Nude_14_end",
+        "v_Monica_Strip_Nude_15_end": "v_Monica_Strip_Nude_15_end",
+        "v_Monica_Strip_Nude_16_end": "v_Monica_Strip_Nude_16_end",
+        "v_Monica_Strip_Nude_17_end": "v_Monica_Strip_Nude_17_end",
+        "v_Monica_Strip_Nude_18_end": "v_Monica_Strip_Nude_18_end",
+        "v_Monica_Strip_Nude_19_end": "v_Monica_Strip_Nude_19_end",
+        "v_Monica_Strip_Nude_20_end": "v_Monica_Strip_Nude_20_end",
+        "v_Monica_Strip_Nude_21_end": "v_Monica_Strip_Nude_21_end",
+        "v_Monica_Strip_Nude_22_end": "v_Monica_Strip_Nude_22_end",
+        "v_Monica_Strip_Nude_23_end": "v_Monica_Strip_Nude_23_end",
+        "v_Monica_Strip_Nude_24_end": "v_Monica_Strip_Nude_24_end",
+        "v_Monica_Strip_Nude_25_end": "v_Monica_Strip_Nude_25_end"
     }
 
 init python:
