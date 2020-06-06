@@ -1728,7 +1728,7 @@ screen choice(items):
                         menuCellData = menu_required[menuName][imenu.caption]
                         if menuCellData.has_key("level"):
                             charData = char_info[menuCellData["name"]]
-                            if charData["level"] >= menuCellData["level"] and charData["current_progress"] >= menuCellData["current_progress"]:
+                            if charData["level"] > menuCellData["level"] or (charData["level"] >= menuCellData["level"] and charData["current_progress"] >= menuCellData["current_progress"]):
                                 str1 = t__(imenu.caption)
                                 if menuCellData["current_progress"] > 0 and 1==2:
                                     str1 = str1 + "  {color=#31e8b1} " + t_("Ур. отношений") + ": " + str(menuCellData["level"]) + ", " + t_("прогресс") + ": " + str(menuCellData["current_progress"]) + "/100 {/color}"

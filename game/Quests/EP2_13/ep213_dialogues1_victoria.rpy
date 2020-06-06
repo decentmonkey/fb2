@@ -1,4 +1,4 @@
-
+default juliaVictoriaJulaous = False
 #call ep213_dialogues1_victoria_1() # возле лифта в холле стоят Виктория и Алекс
 #call ep213_dialogues1_victoria_2() # Виктория стоит в холле, заходит Моника
 #call ep213_dialogues1_victoria_3() # Виктория с Моникой в гримерке
@@ -85,14 +85,14 @@ label ep213_dialogues1_victoria_2:
     pause 2.0
     music Master_Disorder
     if cloth == "Whore":
-        imgfl 17643
-    if cloth == "CasualDress":
-        imgfl 17644
+        img 17643 hpunch
+    if cloth == "CasualDress1":
+        img 17644 hpunch
     mt "Твою мать!!!"
     mt "!!!"
 
     # Моника отворачивается от Виктории, а Виктория замечает ее и насмешливо наблюдает за ней
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17645
     if cloth == "Whore":
         imgf 17646
@@ -103,7 +103,7 @@ label ep213_dialogues1_victoria_2:
     # Моника пытается уйти
     if cloth == "Whore":
         imgd 17647
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgd 17648
     mt "Надо быстрее убираться отсюда!!"
 
@@ -115,7 +115,7 @@ label ep213_dialogues1_victoria_2:
 
     # Моника про себя
     music Power_Bots_Loop
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         img 17650 hpunch
     if cloth == "Whore":
         img 17651 hpunch
@@ -125,16 +125,17 @@ label ep213_dialogues1_victoria_2:
 
     # нехотя поворачивается к Виктории
     # Виктория ехидно
+    fadeblack 1.5
     music Groove2_85
     if cloth == "Whore":
         imgf 17652
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17653
     victoria "Я рада нашей встрече, подружка."
     m "..." # зло
     victoria "А ты? Ты рада меня видеть?"
     music Power_Bots_Loop
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgd 17654
     if cloth == "Whore":
         imgd 17655
@@ -148,14 +149,14 @@ label ep213_dialogues1_victoria_2:
     music Master_Disorder
     if cloth == "Whore":
         imgd 17657
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgd 17658
     m "..."
     m "Я... Я рада нашей встрече..."
 
     # Виктория самодовольно
     music Groove2_85
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17659
     if cloth == "Whore":
         imgf 17660
@@ -166,7 +167,7 @@ label ep213_dialogues1_victoria_2:
     # указывает пальцем на свою щеку
     if cloth == "Whore":
         imgd 17661
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgd 17662
     mt "!!!"
     menu:
@@ -178,7 +179,7 @@ label ep213_dialogues1_victoria_2:
     sound highheels_short_walk
     pause 1.5
     music Loved_Up
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgfl 17663
     if cloth == "Whore":
         imgfl 17664
@@ -193,7 +194,7 @@ label ep213_dialogues1_victoria_2:
     music Groove2_85
     if cloth == "Whore":
         imgd 17666
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgd 17667
     victoria "Я тут была по делам..."
     victoria "И как раз думала о том, чтобы зайти к тебе ненадолго..."
@@ -206,7 +207,7 @@ label ep213_dialogues1_victoria_2:
 
     # Моника оборачивается, собираясь уходить, напряжена
     music Stealth_Groover
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17668
     if cloth == "Whore":
         imgf 17669
@@ -221,7 +222,7 @@ label ep213_dialogues1_victoria_2:
     victoria "Ты же не можешь отказать мне."
     if cloth == "Whore":
         imgf 17670
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17671
     victoria "Только плохие подружки отказываются от встречи со мной!"
     victoria "И врут про неотложные дела!"
@@ -236,7 +237,7 @@ label ep213_dialogues1_victoria_2:
     victoria "Ну вот и хорошо."
     victoria "Моя подружка Моника не откажется ведь провести мне небольшую экскурсию?"
     music Master_Disorder
-    if cloth == "CasualDress":
+    if cloth == "CasualDress1":
         imgf 17654
     if cloth == "Whore":
         imgf 17655
@@ -407,6 +408,7 @@ label ep213_dialogues1_victoria_3:
     sound hlup2
     imgd 17698
     w
+    $ add_inventory("victoria_pomade", 1, True)
     imgd 17723
     mt "И что дальше?!"
     mt "Зачем ей это нужно?!"
@@ -496,13 +498,13 @@ label ep213_dialogues1_victoria_3:
 label ep213_dialogues1_victoria_3a:
     menu:
         "Фотостудия.":
-            pass
+            return 1
         "Гримерная комната.":
-            pass
+            return 2
         "Секретарь Моники.":
-            pass
+            return 3
         "Бывший кабинет Моники.":
-            pass
+            return 4
     return
 
 # при клике на пункт меню с локацией, в которой Моника с Викторией уже были
@@ -734,9 +736,12 @@ label ep213_dialogues1_victoria_8:
 # отдел отчетов
 label ep213_dialogues1_victoria_9:
     # они заходят в отдел отчетов, Виктория с любопытством осматривается
-    fadeblack
-    sound highheels_short_walk
+    fadeblack 1.5
+    sound2 snd_lift
     pause 2.0
+#    fadeblack
+    sound highheels_short_walk
+    pause 1.5
     music Groove2_85
     imgfl 17751
     w
@@ -1094,27 +1099,33 @@ label ep213_dialogues1_victoria_10:
     m "Да. Это Юлия. Моя личная помощница."
 
     # если у Юлии есть отношения с Моникой, то она позрительно смотрит на Викторию и Монику
-    imgd 17820
-    julia "Добрый день..."
-    julia "Миссис Бакфетт."
-    # если у Юлии с Моникой нет отношений, то Юлия просто здоровается и видя, что Моника злая, испуганно смотрит
-    imgd 17819
-    julia "Здравствуйте, Миссис Бакфетт."
-    julia "Мисс..."
+    if ep210_julia_kissed_day_day > 0 or ep210_julia_kissed_day_evening > 0:
+        imgd 17820
+        julia "Добрый день..."
+        julia "Миссис Бакфетт."
+    else:
+        # если у Юлии с Моникой нет отношений, то Юлия просто здоровается и видя, что Моника злая, испуганно смотрит
+        imgd 17819
+        julia "Здравствуйте, Миссис Бакфетт."
+        julia "Мисс..."
 
     # Виктория с милой улыбкой
     imgd 17821
     victoria "Я Виктория. Лучшая подружка Миссис Бакфетт."
 
-    # если у Юлии есть отношения с Моникой, то она позрительно смотрит на Викторию и Монику
-    imgf 17822
-    julia "Лучшая подружка?"
-    julia "???"
-    julia "Приятно познакомиться, Мисс Виктория."
-    # если у Юлии с Моникой нет отношений, то Юлия испуганно
-    imgf 17823
-    julia "Очень приятно познакомиться с вами, Мисс Виктория."
-    victoria "И мне тоже очень приятно, Юлия!"
+    if ep210_julia_kissed_day_day > 0 or ep210_julia_kissed_day_evening > 0:
+        # если у Юлии есть отношения с Моникой, то она позрительно смотрит на Викторию и Монику
+        $ notif(t_("У Моники отношения с Юлией"))
+        imgf 17822
+        julia "Лучшая подружка?"
+        julia "???"
+        julia "Приятно познакомиться, Мисс Виктория."
+        $ juliaVictoriaJulaous = True
+    else:
+        # если у Юлии с Моникой нет отношений, то Юлия испуганно
+        imgf 17823
+        julia "Очень приятно познакомиться с вами, Мисс Виктория."
+        victoria "И мне тоже очень приятно, Юлия!"
 
     imgd 17824
     victoria "Личная помощница, значит..."
@@ -1253,11 +1264,12 @@ label ep213_dialogues1_victoria_11:
     imgd 17851
     julia "Да, мне нравится моя работа."
 
-    # если у Моники нет отношений с Юлией
-    imgf 17850
-    w
-    imgd 17852
-    julia "..." # испуганно смотрит на Монику
+    if ep210_julia_kissed_day_day == 0 and ep210_julia_kissed_day_evening == 0:
+        # если у Моники нет отношений с Юлией
+        imgf 17850
+        w
+        imgd 17852
+        julia "..." # испуганно смотрит на Монику
 
     imgf 17853
     julia "С Миссис Бакфетт мне тоже нравится работать."
@@ -1289,13 +1301,15 @@ label ep213_dialogues1_victoria_11:
     imgd 17857
     mt "Что за бессмысленная болтовня ни о чем?!"
 
-    # если у Моники есть отношения с Юлией
-    music Groove2_85
-    imgf 17858
-    julia "Мисс Виктория, а можно задать вам вопрос?"
-    victoria "Конечно, можно, Юлия!"
-    julia "Вы и правда с Миссис Бакфетт лучшие подружки?"
-    julia "Мне просто интересно. Вы раньше ни разу не приходили к нам в офис..."
+    if ep210_julia_kissed_day_day > 0 or ep210_julia_kissed_day_evening > 0:
+        $ notif(t_("У Моники отношения с Юлией"))
+        # если у Моники есть отношения с Юлией
+        music Groove2_85
+        imgf 17858
+        julia "Мисс Виктория, а можно задать вам вопрос?"
+        victoria "Конечно, можно, Юлия!"
+        julia "Вы и правда с Миссис Бакфетт лучшие подружки?"
+        julia "Мне просто интересно. Вы раньше ни разу не приходили к нам в офис..."
 
     # Виктория ехидно смотрит на Монику
     imgd 17859
@@ -1512,16 +1526,19 @@ label ep213_dialogues1_victoria_13:
     mt "Надо выпроводить ее из кабинета."
     mt "И сделать это прямо сейчас."
     mt "Пока белобрысая сучка не стала проявлять свою дружбу, как обычно она это делает!"
-    music Groove2_85
-    imgd 17899
-    m "Юлия, выйди из кабинета!"
 
     # если есть отношения, то просит вежливо
-    music Groove2_85
-    imgd 17899
-    m "Юлия, выйди из кабинета... Пожалуйста..."
-    m "И закрой за собой дверь. И чтобы никто нас не беспокоил!"
-    m "Мне нужно поговорить с... с подружками."
+    if ep210_julia_kissed_day_day > 0 or ep210_julia_kissed_day_evening > 0:
+        $ notif(t_("У Моники отношения с Юлией"))
+        music Groove2_85
+        imgd 17899
+        m "Юлия, выйди из кабинета... Пожалуйста..."
+        m "И закрой за собой дверь. И чтобы никто нас не беспокоил!"
+        m "Мне нужно поговорить с... с подружками."
+    else:
+        music Groove2_85
+        imgd 17899
+        m "Юлия, выйди из кабинета!"
 
     # Юлия встает со стула и очень тепло прощается с Викторией
     imgf 17897
@@ -1536,8 +1553,9 @@ label ep213_dialogues1_victoria_13:
 
     # Юлия продолжает залипать с Викторией, Моника напоминает ей что надо выйти!
     music Power_Bots_Loop
-    imgd 17899
+    img 17899
     mt "!!!"
+    with vpunch
     m "Юлия!"
 
     # Юлия выходит из кабинета
@@ -1585,10 +1603,11 @@ label ep213_dialogues1_victoria_13:
     imgf 17908
     victoria "Я считаю, что помощница Миссис Бакфетт хорошая девушка."
     victoria "Моя подружка не согласна со мной и не станет пить этот кофе?"
-    music Master_Disorder
     melanie "!!!"
 
     # Мелани брезгливо берет чашку и пьет
+    fadeblack 1.5
+    music Master_Disorder
     imgd 17909
     w
     imgd 17910
@@ -1634,6 +1653,7 @@ label ep213_dialogues1_victoria_13:
     melanie_t "!!!"
     music Groove2_85
     imgf 17920
+    w
     victoria "Ой, подружка, я вспомнила, что ты уже уделяла внимание этой ножке!"
     victoria "Ты ведь не хочешь обидеть мою вторую ножку, правда?"
     music Power_Bots_Loop
@@ -1773,6 +1793,7 @@ label ep213_dialogues1_victoria_13:
 
     # Виктория убирает ногу, Мелани обреченно (смотрит в сторону, понурившись)
     sound vjuh3
+    music Master_Disorder
     imgf 17947
     melanie "Я все поняла..."
     imgd 17948

@@ -54,6 +54,8 @@ label ep213_quests_julia2: # Заходит вечером в дом
     call juliahome_kitchen_init2()
     call juliahome_bathroomshower_init2()
 
+    $ add_char_progress("Julia", 100, "monica_julia_live_together_start")
+    $ char_info["Julia"]["level"] = 8
     $ add_hook("Monica", "ep213_quests_julia21_monica_click", scene="juliahome_bathroom", label="juliahome_shower", quest="juliahome")
 
     $ add_hook("Shower", "ep213_quests_julia3_shower", scene="juliahome_bathroomshower", label="juliahome_shower", quest="juliahome")
@@ -89,24 +91,24 @@ label ep213_quests_julia2: # Заходит вечером в дом
 
     python:
         menu_required["julia_work1"] = {
-            "Массаж для Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene1},
-            "На рабочем столе Моники.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene3},
-            "На диване в комнате отдыха.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene6},
-            "Под столом Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene7},
-            "В отделе отчетов.":{"name":"Julia", "level":7, "current_progress":0},
-            "Приласкать ее грудь.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2},
-            "Приласкать ее киску.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2b},
-            "Продолжить ласкать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene2c},
-            "Поцеловать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5}
+            "Массаж для Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene1},
+            "На рабочем столе Моники.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene3},
+            "На диване в комнате отдыха.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene6},
+            "Под столом Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene7},
+            "В отделе отчетов.":{"name":"Julia", "level":8, "current_progress":0},
+            "Приласкать ее грудь.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2},
+            "Приласкать ее киску.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2b},
+            "Продолжить ласкать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2c},
+            "Поцеловать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene5}
         }
 
         menu_required["julia_work2"] = {
-            "Продолжить ласкать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5b},
-            "Заняться сексом.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene5c},
-            "Зайти в душ к Юлии.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene4},
-            "Поцеловать Юлию.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8},
-            "Приласкать ее киску.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8b},
-            "Засунуть в нее дилдо.":{"name":"Julia", "level":7, "current_progress":juliaMonicaRelationshipRequiredScene8c}
+            "Продолжить ласкать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene5b},
+            "Заняться сексом.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene5c},
+            "Зайти в душ к Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene4},
+            "Поцеловать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene8},
+            "Приласкать ее киску.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene8b},
+            "Засунуть в нее дилдо.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene8c}
         }
 
 

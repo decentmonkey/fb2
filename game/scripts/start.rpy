@@ -266,6 +266,7 @@ label start_game:
     $ ep210_quests_load_init_flag = True
     $ ep211_quests_load_init_flag = True
     $ ep212_quests_load_init_flag = True
+    $ ep213_quests_load_init_flag = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
