@@ -46,6 +46,7 @@ label ep213_escort5_4_lift:
         call ep213_dialogues2_escort_4()
     call ep213_dialogues2_escort_5()
     if _return == -1: # увольнение
+        call bitch(20, "escort5")
         call ep212_dialogues3_escort_hotel_5_1()
         $ ep212_escort_monica_fired = True
         $ ep212_escort5_monica_fired = True
@@ -58,6 +59,7 @@ label ep213_escort5_4_lift:
     if _return == 0: # убежала
         pass
     if _return == -1: # увольнение
+        call bitch(20, "escort5")
         call ep212_dialogues3_escort_hotel_5_1()
         $ ep212_escort_monica_fired = True
         $ ep212_escort5_monica_fired = True
@@ -67,10 +69,12 @@ label ep213_escort5_4_lift:
         return False
     if _return == 1: # все сделано
         $ ep213_escort5_sex_this_time = True
+        $ add_corruption(25, "escort5")
+
 
     call ep213_dialogues2_escort_7()
     $ autorun_to_object("ep213_dialogues2_escort_8", scene="street_rich_hotel")
-    $ add_hook("MonicaTable", "ep213_escort5_5_table_after", scene="rich_hotel_restaurant", label="escort_scene5")
+    $ add_hook("MonicaTable", "ep213_escort5_5_table_after", scene="rich_hotel_restaurant", label="escort_scene5", priority=200)
     $ ep212_escort5_completed = True
     call ep211_quests_escort2_end_day()
     return False
@@ -78,4 +82,5 @@ label ep213_escort5_4_lift:
 label ep213_escort5_5_table_after: # Над Моникой пытаются смеяться после события
     $ remove_hook()
     call ep213_dialogues2_escort_9()
-    return
+    call refresh_scene_fade_long()
+    return False

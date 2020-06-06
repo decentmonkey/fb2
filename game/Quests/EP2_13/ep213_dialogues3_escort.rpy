@@ -479,8 +479,8 @@ label ep213_dialogues2_escort_5:
     img black_screen
     with diss
     sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
+    pause 3.0
+    music Backbay_Lounge
     imgfl 18036
     w
     imgf 18043
@@ -496,6 +496,7 @@ label ep213_dialogues2_escort_5:
     investor3 "Но... Я думал, мы с тобой будем вдвоем..."
     # Линда подходит к инвестору, он приобнимает ее или целует руку
     # Моника в это время стоит в сторонке и внимательно смотрит на них
+    music Groove2_85
     imgf 18040
     mt "Я уже видела где-то этого неудачника..."
     mt "Вот только где?"
@@ -519,7 +520,7 @@ label ep213_dialogues2_escort_5:
     mt "О, Боже!!! Нельзя допустить того, чтобы он узнал меня!"
     mt "!!!"
     # инвестор, поприветствовав Линду, смотрит в сторону Моники
-    music Groove2_85
+    music Backbay_Lounge
     imgf 18044
     investor3 "Дорогая, а кто это?"
     # Линда бросает пренебрежительный в сторону Моники
@@ -531,11 +532,11 @@ label ep213_dialogues2_escort_5:
     linda "Ты же не откажешься немного доплатить за это? Ради моего удовольствия..."
     linda "Мой реквизит совсем недорогой."
     music Power_Bots_Loop
-    imgf 18047
+    img 18047
     mt "Сучка!"
     mt "!!!"
     # инвестор с обожанием смотрит на Линду
-    music Groove2_85
+    music Backbay_Lounge
     imgd 18048
     investor3 "Любимая, ты же знаешь, что я готов все сделать для тебя..."
     investor3 "Особенно, если моя любимая девочка получит от этого удовольствие."
@@ -543,6 +544,8 @@ label ep213_dialogues2_escort_5:
     imgd 18049
     linda "Спасибо, дорогой..."
     # потом поворачивается к Монике и показывает рукой на пол возле кровати
+    fadeblack 1.5
+    music Groove2_85
     imgf 18050
     linda "Встань сюда на колени и обопрись ладонями на пол."
     linda "И не двигайся!"
@@ -611,7 +614,7 @@ label ep213_dialogues2_escort_5:
     with diss
     sound highheels_short_walk
     pause 1.0
-    sound vjuh3
+#    sound vjuh3
     pause 2.0
     imgfl 18059
     linda "Хорошо. И еще кое-что..."
@@ -635,7 +638,8 @@ label ep213_dialogues2_escort_5:
     mt "Ненавижу!!!"
     mt "!!!"
     # Линда садится за "столик" на кровать, инвестор тоже садится за "столик" напротив Линды на стул
-    music Groove2_85
+    fadeblack 2.0
+    music In_Your_Arms
     imgf 18064
     w
     imgd 18065
@@ -665,7 +669,7 @@ label ep213_dialogues2_escort_5:
     img black_screen
     with diss
     pause 1.5
-    music Groove2_85
+    music In_Your_Arms
     # кадр меняется, Моника со злым лицом также стоит, эти двое сидят за "столиком"
     # клиент держит руку Линды в своей руке
     imgfl 18072
@@ -681,10 +685,11 @@ label ep213_dialogues2_escort_5:
     imgf 18075
     investor3 "..."
     w
+    music Loved_Up
     imgd 18076
     investor3 "Дорогая, может быть, сегодня ты согласишься заняться со мной любовью?"
     investor3 "Я так долго жду этого. Так безумно хочу тебя..."
-    music Stealth_Groover
+#    music Stealth_Groover
     imgf 18084
     mt "О, Боже! Он влюблен в эту сучку?! Он что, идиот?"
     # она мило ему улыбается
@@ -710,12 +715,15 @@ label ep213_dialogues2_escort_5:
     investor3 "Мне больно сознавать тот факт, что ты вынуждена работать здесь."
     investor3 "И эти мысли отравляют мою душу и не дают мне покоя..."
     # Линда говорит
+    fadeblack 1.5
+    music In_Your_Arms
     imgd 18083
     linda "Любимый, я с нетерпением жду, когда мы сможем жить вместе!"
     linda "Только представь: тогда нам больше никто и ничто не помешает любить друг друга!"
     investor3 "О, Линда! Любимая моя девочка!"
     # они наклоняются друг к другу и целуются (анимация-?)
     # Моника все это время стоит в позе столика со злобным лицом
+    fadeblack 1.5
     music Loved_Up
     imgf 18085
     sound snd_longkiss1
@@ -724,14 +732,14 @@ label ep213_dialogues2_escort_5:
     w
     imgd 18087
     w
-    music Pyro_Flow
+#    music Pyro_Flow
     imgf 18090
     mt "Меня уже тошнит от этих мерзких нежностей!"
     mt "!!!"
     mt "Вот стерва эта Линда!"
     mt "Спит тут с разными неудачниками, а этому придурку пудрит мозги, что его любит!"
     mt "Этот инвестор действительно такой идиот или притворяется?"
-    music Stealth_Groover
+    music Hidden_Agenda
     imgd 18091
     mt "..."
     mt "Хммм... Интересно..."
@@ -739,7 +747,7 @@ label ep213_dialogues2_escort_5:
     mt "Это могло бы быть неплохой возможностью..."
     mt "..."
     # клиент продолжает держать руку Линды
-    music Groove2_85
+    music In_Your_Arms
     imgf 18092
     linda "Дорогой, ну сколько мне еще ждать?"
     linda "Знаешь, мне предлагают свою руку и сердце и другие мужчины..."
@@ -751,17 +759,17 @@ label ep213_dialogues2_escort_5:
     investor3 "Ты знаешь о том, что я даже являюсь ключевым инвестором одного модного журнала?"
     investor3 "Я одним движением руки могу сделать тебя супер моделью мирового масштаба."
     # Моника офигевает
-    music stop
-    sound plastinka1b
+#    music stop
+#    sound plastinka1b
     img 18094 hpunch
     mt "ЧТОООООО?!"
     mt "?!?!?!"
     # Линда заинтересованно
-    music Groove2_85
+#    music Groove2_85
     imgf 18073
     linda "Модный журнал? Как интересно!"
     investor3 "Да, дорогая... Может, ты слышала о Монике Бакфетт?"
-    imgd 18095
+    img 18095
     mt "!!!"
     imgf 18076
     investor3 "Она является создателем и лицом этого журнала."
@@ -769,7 +777,7 @@ label ep213_dialogues2_escort_5:
     imgd 18077
     linda "Да, я слышала где-то имя... Это какая-то бизнес-вумен?"
     investor3 "Да, это очень известная персона в нашем городе."
-    music Pyro_Flow
+    music Groove2_85
     imgf 18095
     mt "Он говорит ей про меня!!!"
     mt "!!!"
@@ -781,12 +789,12 @@ label ep213_dialogues2_escort_5:
     mt "!!!"
     mt "!!!!!!"
     # Линда тянется к инвестору за поцелуем
-    music Groove2_85
+    music Loved_Up
     imgf 18097
     linda "Дорогой, ты такой умный!"
     linda "Я так тебя люблю!"
     # они снова целуются
-    music Loved_Up
+#    music Loved_Up
     imgd 18085
     sound snd_longkiss1
     w
@@ -803,7 +811,7 @@ label ep213_dialogues2_escort_5:
     with Dissolve(1)
     sound highheels_short_walk
     pause 1.5
-    music Groove2_85
+    music In_Your_Arms
     # прошло некоторое время
     # Линда и инвестор сидят рядом на кровати, он гладит ее руку, целует
     # Линда мечтательно
@@ -854,29 +862,31 @@ label ep213_dialogues2_escort_5:
     sound snd_plates1
     imgd 18106
     w
+
     sound Jump1
     imgf 18109
     w
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     imgd 18107
     mt "СУЧКА!!!"
     mt "Охреневшая мерзкая тварь!!!"
     mt "Убью!!!"
     mt "!!!"
-    music Groove2_85
+    fadeblack 1.5
+    music In_Your_Arms
     imgf 18111
     investor3 "Не хочу расставаться с тобой сегодня..."
     investor3 "Я уже скучаю по тебе и хочу поскорее следующей нашей встречи..."
     imgd 18110
     linda "Любимый, я тоже жду нашей встречи с нетерпением..."
     # Моника психует
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     imgf 18112
     mt "Когда уже это все кончится?!"
     mt "Когда эта сучка уберет с меня свои мерзкие ноги?!"
     mt "!!!"
     # Линда встает
-    music Groove2_85
+#    music Groove2_85
     imgd 18113
     w
     imgd 18062
@@ -884,6 +894,8 @@ label ep213_dialogues2_escort_5:
     mt "Сучка!"
     mt "!!!"
     # инвестор тоже встает, обнимает ее, целует
+    fadeblack 1.5
+    music Backbay_Lounge
     imgf 18114
     w
     imgd 18115
@@ -950,7 +962,7 @@ label ep213_dialogues2_escort_6:
     mt "!!!"
     mt "А вдруг он снимет с меня маску?! Он узнает меня!"
     mt "Да он просто по голосу может меня узнать!!!"
-    music Pyro_Flow
+    music Groove2_85
     imgd 18124
     mt "!!!"
     mt "Моника, ни в коем случае нельзя допустить этого!"
@@ -959,6 +971,7 @@ label ep213_dialogues2_escort_6:
     menu:
         "Убежать отсюда!!!":
             # Моника в панике
+            music Power_Bots_Loop
             imgf 18125
             mt "Нужно срочно бежать отсюда, пока он не раскрыл мою личность!"
             mt "Это будет провал!"
@@ -984,6 +997,7 @@ label ep213_dialogues2_escort_6:
     mt "Самое главное, чтобы он не снял с меня маску..."
     mt "..."
     # инвестор немного наклоняется и шлепает Монику по попе
+    fadeblack 1.5
     music Groove2_85
     imgf 18127
 
@@ -997,7 +1011,7 @@ label ep213_dialogues2_escort_6:
     w
     # Моника в шоке, но продолжает упорно молчать
     music Power_Bots_Loop
-    imgf 18107
+    img 18107
     mt "!!!"
     mt "Твою мать!"
     mt "Чертов извращенец!!!"
@@ -1014,6 +1028,8 @@ label ep213_dialogues2_escort_6:
     menu:
         "Сделать как требует инвестор.":
             pass
+    fadeblack 1.5
+    music Groove2_85
     # Моника поднимается с четверенек и стоит только на коленях, не смотрит на него
 #    img 18129
 #    w
@@ -1098,7 +1114,8 @@ label ep213_dialogues2_escort_6:
             $ monicaEscortLindaTable4 = True # Моника промолчала, когда инвестор стал называть ее грязной шлюшкой
             pass
     # Моника зло на него смотрит, но продолжает молчать
-    music Pyro_Flow
+    fadeblack 1.5
+    music Groove2_85
     imgf 18130
     mt "Вот урод!"
     mt "!!!"
@@ -1107,7 +1124,8 @@ label ep213_dialogues2_escort_6:
     mt "И убежать я не могу. Мне не нужны проблемы с администратором!"
     mt "Ненавижу!"
     mt "!!!"
-    music Groove2_85
+#    music Groove2_85
+    music Loved_Up
     imgd 18143
     investor3 "Грязная шлюшка молчит?"
     investor3 "Аха-ха!"
@@ -1193,43 +1211,128 @@ label ep213_dialogues2_escort_6:
     investor3 "Ты сейчас мечтаешь о том, чтобы взять мой член в рот, да?"
     investor3 "Очередной член, чтобы заработать еще немного денег..."
     # Моника злобно смотрит на него
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     imgd 18158
     mt "Я мечтаю о том, чтобы оторвать тебе яйца, скотина!"
-    music Groove2_85
+#    music Loved_Up
     investor3 "Так уж и быть..."
     investor3 "Я не буду мучать грязную шлюшку и дам тебе пососать его."
     investor3 "Открывай рот!"
     menu:
         "Открыть рот.":
             pass
+    fadeblack 1.5
+    music2 Loved_Up
     imgf 18159
     m "!!!"
     # инвестор вводит член в ее приоткрытые губы
-    music Loved_Up
     imgd 18160
     w
-    imgd 18161
+    sound chpok8
+    img 18161 vpunch
     investor3 "Оооо..."
     # Моника начинает водить головой туда-сюда
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Blowjob1_1 = Movie(play="video/v_Monica_Investor3_Blowjob1_1.mkv", fps=30)
+    show videov_Monica_Investor3_Blowjob1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18162
     investor3 "Дааа..."
-    w
+
     imgd 18163
     investor3 "Давай, быстрее..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Blowjob1_2 = Movie(play="video/v_Monica_Investor3_Blowjob1_2.mkv", fps=30)
+    show videov_Monica_Investor3_Blowjob1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18164
     investor3 "Еще!"
+    with vpunch
     investor3 "Глубже!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Blowjob1_3 = Movie(play="video/v_Monica_Investor3_Blowjob1_3.mkv", fps=30)
+    show videov_Monica_Investor3_Blowjob1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # он берет ее руками за голову и глубоко входит в нее, Моника давится, у нее текут слезы
     imgd 18165
     investor3 "Вот таааак..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Blowjob1_4 = Movie(play="video/v_Monica_Investor3_Blowjob1_4.mkv", fps=30)
+    show videov_Monica_Investor3_Blowjob1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18166
     m "!!!"
     imgd 18167
     m "ХПФМММ!"
     imgd 18168
     m "ММПППХХХФФФФ!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Blowjob1_5 = Movie(play="video/v_Monica_Investor3_Blowjob1_5.mkv", fps=30)
+    show videov_Monica_Investor3_Blowjob1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # через несколько толчков он отстраняет Монику от себя
+    music2 stop
+    fadeblack 1.5
     music Groove2_85
     imgf 18137
     investor3 "Теперь снимай платье и ложись на кровать!"
@@ -1305,7 +1408,7 @@ label ep213_dialogues2_escort_6:
     with diss
     sound snd_fabric1
     pause 2.0
-    music Loved_Up
+    music Groove2_85
     imgfl 18171
     investor3 "На кровать, шлюшка!"
     w
@@ -1325,13 +1428,30 @@ label ep213_dialogues2_escort_6:
     mt "Сволочь!!!"
     mt "!!!"
     # инвестор шпилит Монику
+    music stop
     img black_screen
     with diss
     sound snd_fabric1
     pause 2.0
-    music Loved_Up
+    music2 Loved_Up
     imgfl 18175
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Petting1_1 = Movie(play="video/v_Monica_Investor3_Petting1_1.mkv", fps=30)
+    show videov_Monica_Investor3_Petting1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18177
     investor3 "Дааа..."
     imgd 18178
@@ -1340,37 +1460,211 @@ label ep213_dialogues2_escort_6:
     w
     imgd 18180
     w
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Petting1_2 = Movie(play="video/v_Monica_Investor3_Petting1_2.mkv", fps=30)
+    show videov_Monica_Investor3_Petting1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18181
     investor3 "Хорошая шлюшка!"
-    investor3 "Аааа..."
+#    investor3 "Аааа..."
     w
     imgd 18198
     mt "Ублюдок!"
     mt "!!!"
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Petting1_3 = Movie(play="video/v_Monica_Investor3_Petting1_3.mkv", fps=30)
+    show videov_Monica_Investor3_Petting1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
+    fadeblack 1.5
     imgf 18199
     w
     sound hlup19
     img 18200 hpunch
     w
     sound snd_monica_ahh
-    imgd 18201
+    img 18201 vpunch
     w
-    music Loved_Up2
+    music2 Loved_Up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_5 = Movie(play="video/v_Monica_Investor3_Sex1_5.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_1 = Movie(play="video/v_Monica_Investor3_Sex1_1.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18182
     investor3 "Грязной шлюшке нравится чувствовать в себе члены?"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_2= Movie(play="video/v_Monica_Investor3_Sex1_2.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18183
     investor3 "Ааааа! Сучкааа!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_3 = Movie(play="video/v_Monica_Investor3_Sex1_3.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18184
     investor3 "Она любит трахаться с незнакомыми мужиками!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_4 = Movie(play="video/v_Monica_Investor3_Sex1_4.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18185
     investor3 "Грязная сучка!"
     investor3 "Ради денег готова раздвигать ноги перед всеми!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_5 = Movie(play="video/v_Monica_Investor3_Sex1_5.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18186
     mt "Я убью его!"
     mt "Он еще будет ползать у меня в ногах и просить прощения!"
     mt "Тварь!!!"
     mt "!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_6= Movie(play="video/v_Monica_Investor3_Sex1_6.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_7 = Movie(play="video/v_Monica_Investor3_Sex1_7.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.3, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_WhoreN1_Petting1_1.ogg"
+    scene black
+    image videov_Monica_Investor3_Sex1_8 = Movie(play="video/v_Monica_Investor3_Sex1_8.mkv", fps=30)
+    show videov_Monica_Investor3_Sex1_8
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18187
     w
     menu:
@@ -1401,6 +1695,7 @@ label ep213_dialogues2_escort_6:
             sound man_moan18
             w
             imgf 18190
+            w
             $ monicaEscortLindaCumZone = 1
             pass
         "Кончить на киску Моники.":
@@ -1430,11 +1725,13 @@ label ep213_dialogues2_escort_6:
             sound man_moan18
             w
             imgf 18192
+            w
             $ monicaEscortLindaCumZone = 2
             pass
     # затемнение
     # Моника сидит на кровати в платье, инвестор стоит перед кроватью уже одетый
     music stop
+    music2 stop
     img black_screen
     with diss
     sound snd_fabric1
@@ -1454,6 +1751,7 @@ label ep213_dialogues2_escort_6:
     imgd 18195
     w
     # Моника сидит на кровати в номере одна
+    fadeblack 1.5
     music Pyro_Flow
     imgf 18196
     mt "Это было отвратительно!!!"
@@ -1576,7 +1874,7 @@ label ep213_dialogues2_escort_9:
     with diss
     sound highheels_short_walk
     pause 2.0
-    music Poppers_and_Prosecco
+    music Groove2_85
     imgfl 18027
     girl_1 "Линда, смотри, кто пришел!"
     mt "Что этим сучкам нужно от меня?!"
@@ -1584,7 +1882,7 @@ label ep213_dialogues2_escort_9:
     music Power_Bots_Loop
     imgf 18028
     m "..." # Моника вызывающе смотрит на Линду
-    music Poppers_and_Prosecco
+    music Groove2_85
     imgd 18029
     linda "..."
     linda "Я жду, что ты будешь более вежливо общаться со мной."
@@ -1607,13 +1905,14 @@ label ep213_dialogues2_escort_9:
             mt "Я, Моника Бакфетт! Я никогда не позволю унижать себя!"
             mt "Придет время и я всем им отомщу!"
             mt "!!!"
+            call bitch(5, "escort5_after")
             imgd 18032
             m "Проваливайте отсюда!"
             m "Дешевые проститутки-эскортницы!"
             m "Серые мыши!"
             m "!!!"
             # девочки зло переглядываются
-            music Poppers_and_Prosecco
+            music Groove2_85
             imgd 18034
             linda "!!!"
             girl_1 "!!!"
@@ -1624,13 +1923,14 @@ label ep213_dialogues2_escort_9:
             $ monicaEscortLindaTable7 = True # Моника снова нахамила Линде (после сцены с инвестором)
             pass
         "Поздороваться с Линдой.":
-            music Stealth_Groover
+            music Hidden_Agenda
             imgf 30084
             mt "Я сделаю вид, что принимаю их правила..."
             mt "Эти дуры все равно не поймут, что я просто притворяюсь."
             mt "Придет время и я им всем отомщу!"
             mt "!!!"
-            music Poppers_and_Prosecco
+            music Groove2_85
+            call bitch(-5, "escort5_after")
             imgd 18033
             m "Привет..."
             linda "Так-то лучше!"
@@ -1646,7 +1946,7 @@ label ep213_dialogues2_escort_9:
             pass
     # Моника недовольно
     music Stealth_Groover
-    img 30077
+    imgd 30077
     mt "Мерзкие высокомерные стервы!"
     mt "Что они о себе возомнили?!"
     mt "?!?!?!"
