@@ -181,7 +181,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortScene5Day = day
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
-        call ep213_escort5_1()
+        call ep213_escort5_1() from _rcall_ep213_escort5_1
 
     return False
 

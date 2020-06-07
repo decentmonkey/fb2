@@ -197,7 +197,7 @@ label ep213_dialogues4_biff_1:
     mt "!!!"
     # меню кастинга, кастинг.
 
-    call ep213_dialogues4_biff_12()
+    call ep213_dialogues4_biff_12() from _rcall_ep213_dialogues4_biff_12
 label ep213_dialogues4_biff_1b:
     # после кастинга
     imgd 15904
@@ -933,7 +933,7 @@ label ep213_dialogues4_biff_12:
 
         "Раздеться и принимать различные модельные позы." if char_info["Biff"]["level"] >= 2 and biffLevel3Opened == True:
             $ store_music()
-            call ep210_dialogues1_office_biff_1a()
+            call ep210_dialogues1_office_biff_1a() from _rcall_ep210_dialogues1_office_biff_1a_2
             $ restore_music()
             img 8445
             biff "Хорошо, папочка доволен!"
@@ -943,7 +943,7 @@ label ep213_dialogues4_biff_12:
             pass
         "Раздеться и встать на колени задом к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 1:
             $ store_music()
-            call ep210_dialogues1_office_biff_1b()
+            call ep210_dialogues1_office_biff_1b() from _rcall_ep210_dialogues1_office_biff_1b_2
             $ restore_music()
             img 8445
             biff "Хорошо, папочка доволен!"
@@ -953,7 +953,7 @@ label ep213_dialogues4_biff_12:
             pass
         "Раздеться и лечь на пол раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 2:
             $ store_music()
-            call ep210_dialogues1_office_biff_1c()
+            call ep210_dialogues1_office_biff_1c() from _rcall_ep210_dialogues1_office_biff_1c_2
             $ restore_music()
             img 8445
             biff "Хорошо, папочка доволен!"
@@ -965,7 +965,7 @@ label ep213_dialogues4_biff_12:
             menu:
                 "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                     $ store_music()
-                    call ep212_dialogues7_biff1()
+                    call ep212_dialogues7_biff1() from _rcall_ep212_dialogues7_biff1_2
                     $ restore_music()
                     img 8445
                     biff "Хорошо, папочка доволен!"
@@ -975,7 +975,7 @@ label ep213_dialogues4_biff_12:
                     pass
                 "Сесть на стол лицом к Бифу, широко раздвинув ноги." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 4:
                     $ store_music()
-                    call ep212_dialogues7_biff2()
+                    call ep212_dialogues7_biff2() from _rcall_ep212_dialogues7_biff2_2
                     $ restore_music()
                     img 8445
                     biff "Хорошо, папочка доволен!"

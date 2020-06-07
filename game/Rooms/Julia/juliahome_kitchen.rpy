@@ -5,7 +5,7 @@ default juliaHomeKitchenSceneSuffix = ""
 label juliahome_kitchen:
     $ print "enter_juliahome_kitchen"
     $ miniMapData = []
-    call miniMapJuliaHomeGenerate()
+    call miniMapJuliaHomeGenerate() from _rcall_miniMapJuliaHomeGenerate_2
 
     $ scene_image = "scene_JuliaHome_Kitchen[juliaHomeKitchenSceneSuffix]"
 
@@ -64,5 +64,5 @@ label juliahome_kitchen_environment:
     if obj_name == "Flower1" or obj_name == "Flower2":
         call ep211_dialogues4_julia_11d() from _rcall_ep211_dialogues4_julia_11d
     if obj_name == "Kitchen":
-        call ep211_dialogues4_julia_11g()
+        call ep211_dialogues4_julia_11g() from _rcall_ep211_dialogues4_julia_11g_2
     return

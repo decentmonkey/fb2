@@ -1392,7 +1392,7 @@ label ep28_dialogues_jail2_marcus5:
     # Моника пытается зайти в полицию
     if act=="l":
         return
-    call ep213_quests_police1_check_init()
+    call ep213_quests_police1_check_init() from _rcall_ep213_quests_police1_check_init
     if _return == False:
         return False
     mt "Я не готова идти туда..."

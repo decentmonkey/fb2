@@ -5,7 +5,7 @@ default juliaHomeBathroomSceneSuffix = ""
 label juliahome_bathroom:
     $ print "enter_juliahome_bathroom"
     $ miniMapData = []
-    call miniMapJuliaHomeGenerate()
+    call miniMapJuliaHomeGenerate() from _rcall_miniMapJuliaHomeGenerate
 
     if lastSceneName != "juliahome_bathroomshower":
         $ juliaHomeBathroomMonicaSuffix = 1

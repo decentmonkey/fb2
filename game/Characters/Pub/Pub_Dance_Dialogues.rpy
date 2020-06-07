@@ -47,7 +47,7 @@ label pub_dance_dialogues_start_dancing:
             img 22903
         with fadelong
         if ep213_dialogues3_pub_8_planned == True:
-            call ep213_dialogues3_pub_8()
+            call ep213_dialogues3_pub_8() from _rcall_ep213_dialogues3_pub_8
             $ ep213_dialogues3_pub_8_planned = False
             return
         $ rand1 = rand(1,2)
@@ -153,32 +153,32 @@ label pub_dance_nude_dialogues_react(pose, zone): # Реакция зала
             $ notif(t_("Моника делала это движение в прошлый раз"))
         if zoneRepeated == True:
             $ notif(t_("Моника повторяет направления танца"))
-        call pub_dance_dialogues_excitement_down(pose, zone)
+        call pub_dance_dialogues_excitement_down(pose, zone) from _rcall_pub_dance_dialogues_excitement_down_2
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
         $ idx = rand(1,4)
         $ crowdSound = "snd_crowd_uuu" + str(idx)
         sound crowdSound
         if zone == "up":
-            call dialogue_5_dance_strip_5d2()
+            call dialogue_5_dance_strip_5d2() from _rcall_dialogue_5_dance_strip_5d2_1
         if zone == "side":
-            call dialogue_5_dance_strip_5f2()
+            call dialogue_5_dance_strip_5f2() from _rcall_dialogue_5_dance_strip_5f2_1
         if zone == "down":
-            call dialogue_5_dance_strip_5f2()
+            call dialogue_5_dance_strip_5f2() from _rcall_dialogue_5_dance_strip_5f2_2
     else:
         # Движение понравилось
-        call pub_dance_dialogues_excitement_up(pose, zone)
+        call pub_dance_dialogues_excitement_up(pose, zone) from _rcall_pub_dance_dialogues_excitement_up_2
         show screen love_bar_screen(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current)
-        call pub_dance_dialogues_excitement_tips()
+        call pub_dance_dialogues_excitement_tips() from _rcall_pub_dance_dialogues_excitement_tips_2
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
-        call pub_dance_stage_flash()
+        call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_8
         if zone == "up":
-            call ep213_dialogues3_pub_10()
+            call ep213_dialogues3_pub_10() from _rcall_ep213_dialogues3_pub_10
         if zone == "side":
-            call ep213_dialogues3_pub_10()
+            call ep213_dialogues3_pub_10() from _rcall_ep213_dialogues3_pub_10_1
         if zone == "down":
-            call ep213_dialogues3_pub_10()
+            call ep213_dialogues3_pub_10() from _rcall_ep213_dialogues3_pub_10_2
 
 
 #    wclean

@@ -1039,7 +1039,7 @@ label ep213_dialogues_marcus2:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_42
     img black_screen
     with Dissolve(2.0)
     music Malicious
@@ -1064,7 +1064,7 @@ label ep213_dialogues_marcus2:
     # Маркус вернулся
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_43
     img black_screen
     with Dissolve(2.0)
     music stop
@@ -1435,7 +1435,7 @@ label ep213_dialogues_marcus4_loop2:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 8:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 8)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 8) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer
         jump ep213_dialogues_marcus4_loop1
 
     # Моника ждет команду #10
@@ -1459,7 +1459,7 @@ label ep213_dialogues_marcus4_loop3:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 0:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 0)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 0) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_1
         jump ep213_dialogues_marcus4_loop1
 
     # Моника ползает #01
@@ -1480,7 +1480,7 @@ label ep213_dialogues_marcus4_loop4:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 9:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 9)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 9) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_2
         jump ep213_dialogues_marcus4_loop1
 
     # Моника просит разрешения поесть #11
@@ -1503,7 +1503,7 @@ label ep213_dialogues_marcus4_loop12:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 1:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 1)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 1) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_3
         jump ep213_dialogues_marcus4_loop1
     # Моника ест #02
     sound cat_eating
@@ -1531,7 +1531,7 @@ label ep213_dialogues_marcus4_loop5:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 3:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 3)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 3) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_4
         jump ep213_dialogues_marcus4_loop1
     # Моника ложится спать #04
     imgfl 24195
@@ -1555,7 +1555,7 @@ label ep213_dialogues_marcus4_loop6:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 6:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 6)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 6) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_5
         jump ep213_dialogues_marcus4_loop1
     # Моника просыпается и потягивается после сна #08
     imgfl 24197
@@ -1575,7 +1575,7 @@ label ep213_dialogues_marcus4_loop7:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 5:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 5)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 5) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_6
         jump ep213_dialogues_marcus4_loop1
     # Моника знакомится с гостями #07
     imgfl 24198
@@ -1613,7 +1613,7 @@ label ep213_dialogues_marcus4_loop8:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 7:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 7)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 7) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_7
         jump ep213_dialogues_marcus4_loop1
     # Моника играет с игрушкой #09
     imgfl 24202
@@ -1636,7 +1636,7 @@ label ep213_dialogues_marcus4_loop9:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 4:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 4)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 4) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_8
         jump ep213_dialogues_marcus4_loop1
     # Моника просит прощения #06
     imgfl 24204
@@ -1656,7 +1656,7 @@ label ep213_dialogues_marcus4_loop10:
     sound click1
     hide screen screen_marcus_cat_training2
     if result != 2:
-        call ep213_dialogues_marcus4_exam_wrong_answer(result, 2)
+        call ep213_dialogues_marcus4_exam_wrong_answer(result, 2) from _rcall_ep213_dialogues_marcus4_exam_wrong_answer_9
         jump ep213_dialogues_marcus4_loop1
     # Моника потягивается от удовольствия #03
     imgfl 24206
@@ -1743,7 +1743,7 @@ label ep213_dialogues_marcus4_loop10:
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED...")
+    call textonblack("TO BE CONTINUED...") from _rcall_textonblack_44
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -1760,7 +1760,7 @@ label ep213_dialogues_marcus4_loop10:
 ##    pause 30.0
 ##    music stop
 ##    pause 1.0
-    call credits()
+    call credits() from _rcall_credits_1
     $ MainMenu(confirm=False)()
 
 #    $ log1 = t_("ПРОДОЛЖЕНИЕ СЛЕДУЕТ")
@@ -1770,7 +1770,7 @@ label ep213_dialogues_marcus4_loop10:
 
 label ep213_dialogues_marcus5:  # bad end (ферма)
     fadeblack 3.0
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_45
     img black_screen
     with Dissolve(1)
     music dream
@@ -1818,7 +1818,7 @@ label ep213_dialogues_marcus5:  # bad end (ферма)
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED...")
+    call textonblack("TO BE CONTINUED...") from _rcall_textonblack_46
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -1835,7 +1835,7 @@ label ep213_dialogues_marcus5:  # bad end (ферма)
 ##    pause 30.0
 ##    music stop
 ##    pause 1.0
-    call credits()
+    call credits() from _rcall_credits_2
     $ MainMenu(confirm=False)()
 
     return

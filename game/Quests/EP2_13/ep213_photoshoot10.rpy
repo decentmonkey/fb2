@@ -83,7 +83,7 @@ label ep213_photoshoot_suit10_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_315
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -94,7 +94,7 @@ label ep213_photoshoot_suit10_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_316
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -105,7 +105,7 @@ label ep213_photoshoot_suit10_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_317
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -149,7 +149,7 @@ label ep213_photoshoot_suit10_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_318
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -160,7 +160,7 @@ label ep213_photoshoot_suit10_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_319
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -171,7 +171,7 @@ label ep213_photoshoot_suit10_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_320
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -215,7 +215,7 @@ label ep213_photoshoot_suit10_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_321
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -226,7 +226,7 @@ label ep213_photoshoot_suit10_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_322
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -237,7 +237,7 @@ label ep213_photoshoot_suit10_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_323
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -280,7 +280,7 @@ label ep213_photoshoot_suit10_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_324
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -291,7 +291,7 @@ label ep213_photoshoot_suit10_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_325
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -302,7 +302,7 @@ label ep213_photoshoot_suit10_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_326
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -344,7 +344,7 @@ label ep213_photoshoot_suit10_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_327
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -355,7 +355,7 @@ label ep213_photoshoot_suit10_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_328
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -366,7 +366,7 @@ label ep213_photoshoot_suit10_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_329
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -409,7 +409,7 @@ label ep213_photoshoot_suit10_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_330
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -420,7 +420,7 @@ label ep213_photoshoot_suit10_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_331
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -431,7 +431,7 @@ label ep213_photoshoot_suit10_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_332
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -473,7 +473,7 @@ label ep213_photoshoot_suit10_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_333
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -484,7 +484,7 @@ label ep213_photoshoot_suit10_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_334
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -495,7 +495,7 @@ label ep213_photoshoot_suit10_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_335
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -536,7 +536,7 @@ label ep213_photoshoot_suit10_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_336
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -547,7 +547,7 @@ label ep213_photoshoot_suit10_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_337
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -558,7 +558,7 @@ label ep213_photoshoot_suit10_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_338
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -601,7 +601,7 @@ label ep213_photoshoot_suit10_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_339
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -612,7 +612,7 @@ label ep213_photoshoot_suit10_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_340
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -623,7 +623,7 @@ label ep213_photoshoot_suit10_pose9:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_341
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -682,7 +682,7 @@ label ep213_photoshoot_suit10_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_342
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -693,7 +693,7 @@ label ep213_photoshoot_suit10_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_343
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -704,7 +704,7 @@ label ep213_photoshoot_suit10_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_344
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -746,7 +746,7 @@ label ep213_photoshoot_suit10_pose11:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_345
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -757,7 +757,7 @@ label ep213_photoshoot_suit10_pose11:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_346
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -768,7 +768,7 @@ label ep213_photoshoot_suit10_pose11:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_347
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -850,7 +850,7 @@ label ep213_photoshoot_suit10_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_348
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -861,7 +861,7 @@ label ep213_photoshoot_suit10_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_349
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -871,7 +871,7 @@ label ep213_photoshoot_suit10_pose12:
         img 24281
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_201
         w
 
         sound camera_lens1
@@ -879,7 +879,7 @@ label ep213_photoshoot_suit10_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_350
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -923,14 +923,14 @@ label ep213_photoshoot_suit10_pose13:
         img 24284
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_202
         w
         sound camera_lens1
         $ photoImage = 24285
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_351
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -939,13 +939,13 @@ label ep213_photoshoot_suit10_pose13:
         img 24286
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_203
         w
         sound camera_lens1
         img 24287
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_204
         w
         #side
         sound camera_lens1
@@ -953,7 +953,7 @@ label ep213_photoshoot_suit10_pose13:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_352
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -963,25 +963,25 @@ label ep213_photoshoot_suit10_pose13:
         img 24289
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_205
         w
         sound camera_lens1
         img 24290
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_206
         w
         sound camera_lens1
         img 24291
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_207
         w
         sound camera_lens1
         img 24292
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_208
         w
 
         sound camera_lens1
@@ -989,7 +989,7 @@ label ep213_photoshoot_suit10_pose13:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_353
         $ PS10_shoots_array.append(photoImage)
         w
         music Groove2_85
@@ -1187,7 +1187,7 @@ label ep213_photoshoot_suit10_pose14:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_354
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1198,7 +1198,7 @@ label ep213_photoshoot_suit10_pose14:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_355
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1208,31 +1208,31 @@ label ep213_photoshoot_suit10_pose14:
         img 24325
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_209
         w
         sound camera_lens1
         img 24326
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_210
         w
         sound camera_lens1
         img 24327
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_211
         w
         sound camera_lens1
         img 24328
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_212
         w
         sound camera_lens1
         img 24329
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_213
         w
 #        sound camera_lens1
         imgfl 24330
@@ -1245,7 +1245,7 @@ label ep213_photoshoot_suit10_pose14:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_356
         $ PS10_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel

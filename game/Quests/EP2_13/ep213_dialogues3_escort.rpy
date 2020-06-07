@@ -64,7 +64,7 @@ label ep213_dialogues2_escort_1:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_40
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -806,7 +806,7 @@ label ep213_dialogues2_escort_5:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_41
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -1905,7 +1905,7 @@ label ep213_dialogues2_escort_9:
             mt "Я, Моника Бакфетт! Я никогда не позволю унижать себя!"
             mt "Придет время и я всем им отомщу!"
             mt "!!!"
-            call bitch(5, "escort5_after")
+            call bitch(5, "escort5_after") from _rcall_bitch_6
             imgd 18032
             m "Проваливайте отсюда!"
             m "Дешевые проститутки-эскортницы!"
@@ -1930,7 +1930,7 @@ label ep213_dialogues2_escort_9:
             mt "Придет время и я им всем отомщу!"
             mt "!!!"
             music Groove2_85
-            call bitch(-5, "escort5_after")
+            call bitch(-5, "escort5_after") from _rcall_bitch_7
             imgd 18033
             m "Привет..."
             linda "Так-то лучше!"

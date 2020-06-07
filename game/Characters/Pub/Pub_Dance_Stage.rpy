@@ -687,7 +687,7 @@ label pub_dance1_stage_start1_topless:
 
     music stageCurrentMusicIntro
     with fadelong
-    call ep213_dialogues3_pub_9() # Диалог о том чтобы полностью раздеться
+    call ep213_dialogues3_pub_9() from _rcall_ep213_dialogues3_pub_9 # Диалог о том чтобы полностью раздеться
     if _return == False:
         jump pub_dance1_stage_end
 
@@ -720,7 +720,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_01
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_01_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react
         $ stage_achievements_list.append("v_Monica_Strip_Nude_01_end")
     if result == "side":
         scene black
@@ -730,7 +730,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_02
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_02_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_1
         $ stage_achievements_list.append("v_Monica_Strip_Nude_02_end")
     if result == "down":
         scene black
@@ -740,7 +740,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_03
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_03_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_2
         $ stage_achievements_list.append("v_Monica_Strip_Nude_03_end")
 
     $ arrowUp = True
@@ -765,7 +765,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_04
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_04_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_3
         $ stage_achievements_list.append("v_Monica_Strip_Nude_04_end")
     if result == "side":
         scene black
@@ -775,7 +775,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_05
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_05_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_4
         $ stage_achievements_list.append("v_Monica_Strip_Nude_05_end")
     if result == "down":
         scene black
@@ -785,7 +785,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_06
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_06_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_5
         $ stage_achievements_list.append("v_Monica_Strip_Nude_06_end")
 
     $ arrowUp = True
@@ -810,7 +810,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_07
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_07_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_6
         $ stage_achievements_list.append("v_Monica_Strip_Nude_07_end")
     if result == "side":
         scene black
@@ -820,7 +820,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_08
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_08_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_7
         $ stage_achievements_list.append("v_Monica_Strip_Nude_08_end")
     if result == "down":
         scene black
@@ -830,7 +830,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_09
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_09_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_8
         $ stage_achievements_list.append("v_Monica_Strip_Nude_09_end")
 
     $ arrowUp = True
@@ -855,7 +855,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_10
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_10_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_9
         $ stage_achievements_list.append("v_Monica_Strip_Nude_10_end")
     if result == "side":
         scene black
@@ -865,7 +865,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_11
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_11_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_10
         $ stage_achievements_list.append("v_Monica_Strip_Nude_11_end")
     if result == "down":
         scene black
@@ -875,7 +875,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_12
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_12_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_11
         $ stage_achievements_list.append("v_Monica_Strip_Nude_12_end")
 
     $ arrowUp = True
@@ -900,7 +900,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_13
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_13_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_12
         $ stage_achievements_list.append("v_Monica_Strip_Nude_13_end")
     if result == "side":
         scene black
@@ -910,7 +910,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_14
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_14_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_13
         $ stage_achievements_list.append("v_Monica_Strip_Nude_14_end")
     if result == "down":
         scene black
@@ -920,7 +920,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_15
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_15_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_14
         $ stage_achievements_list.append("v_Monica_Strip_Nude_15_end")
 
     $ arrowUp = True
@@ -945,7 +945,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_16
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_16_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_15
         $ stage_achievements_list.append("v_Monica_Strip_Nude_16_end")
     if result == "side":
         scene black
@@ -955,7 +955,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_17
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_17_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_16
         $ stage_achievements_list.append("v_Monica_Strip_Nude_17_end")
     if result == "down":
         scene black
@@ -965,7 +965,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_18
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_18_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_17
         $ stage_achievements_list.append("v_Monica_Strip_Nude_18_end")
 
     $ arrowUp = True
@@ -990,7 +990,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_19
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_19_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_18
         $ stage_achievements_list.append("v_Monica_Strip_Nude_19_end")
     if result == "side":
         scene black
@@ -1000,7 +1000,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_20
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_20_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_19
         $ stage_achievements_list.append("v_Monica_Strip_Nude_20_end")
     if result == "down":
         scene black
@@ -1010,7 +1010,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_21
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_21_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_20
         $ stage_achievements_list.append("v_Monica_Strip_Nude_21_end")
 
     $ arrowUp = True
@@ -1035,7 +1035,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_22
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_22_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_21
         $ stage_achievements_list.append("v_Monica_Strip_Nude_22_end")
     if result == "side":
         scene black
@@ -1045,7 +1045,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_23
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_23_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_22
         $ stage_achievements_list.append("v_Monica_Strip_Nude_23_end")
     if result == "down":
         scene black
@@ -1055,7 +1055,7 @@ label pub_dance1_stage_start1_topless:
         hide videov_Monica_Strip_Nude_24
         show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_24_end.jpg")
         wclean
-        call pub_dance_nude_dialogues_react(pose, result)
+        call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_23
         $ stage_achievements_list.append("v_Monica_Strip_Nude_24_end")
 
     if result == "up":
@@ -1082,7 +1082,7 @@ label pub_dance1_stage_start1_topless:
             hide videov_Monica_Strip_Nude_25
             show screen poledance_shoot("/images/Slides/v_Monica_Strip_Nude_25_end.jpg")
             wclean
-            call pub_dance_nude_dialogues_react(pose, result)
+            call pub_dance_nude_dialogues_react(pose, result) from _rcall_pub_dance_nude_dialogues_react_24
             $ stage_achievements_list.append("v_Monica_Strip_Nude_25_end")
 
 

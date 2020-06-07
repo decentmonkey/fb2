@@ -7,10 +7,10 @@ label juliahome_bed:
         $ monicaRestHouse = False
         $ monicaRestApartments = False
         if day_time == "day":
-            call juliahome_bed_take_nap()
+            call juliahome_bed_take_nap() from _rcall_juliahome_bed_take_nap
             return _return
         if day_time == "evening":
-            call juliahome_bed_gosleep()
+            call juliahome_bed_gosleep() from _rcall_juliahome_bed_gosleep
             return _return
 
     return
@@ -20,7 +20,7 @@ label juliahome_bed_take_nap:
     $ set_active("Bed1", False)
     $ juliaHomeLivingRoomMonicaSuffix = 4
     $ autorun_to_object("juliahome_bed_take_nap1")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _rcall_refresh_scene_3
     return
 
 label juliahome_bed_take_nap1:
@@ -30,21 +30,21 @@ label juliahome_bed_take_nap1:
             img black_screen
             with Dissolve(0.2)
             #транзиция на отдых
-            call process_hooks("juliahome_monica_before_nap", "global")
+            call process_hooks("juliahome_monica_before_nap", "global") from _rcall_process_hooks_30
             $ set_active("Bed1", True)
             if _return == False:
                 $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
-                call refresh_scene_fade()
+                call refresh_scene_fade() from _rcall_refresh_scene_fade_53
                 return False
             $ changeDayTimeJuliaHome("evening")
             $ juliaHomeLivingRoomMonicaSuffix = 3
-            call process_hooks("juliahome_monica_after_nap", "global")
-            call refresh_scene_fade()
+            call process_hooks("juliahome_monica_after_nap", "global") from _rcall_process_hooks_31
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_54
             return False
         "Не ложиться.":
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
             $ set_active("Bed1", True)
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_55
             return False
     return
 
@@ -60,7 +60,7 @@ label juliahome_bed_gosleep:
 
     $ set_active("Bed1", False)
     $ autorun_to_object("juliahome_bed_gosleep1")
-    call refresh_scene("Dissolve_05")
+    call refresh_scene("Dissolve_05") from _rcall_refresh_scene_4
     return
 
 label juliahome_bed_gosleep1:
@@ -73,7 +73,7 @@ label juliahome_bed_gosleep1:
             $ set_active("Bed1", True)
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
             $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_56
             return False
 
         else:
@@ -83,19 +83,19 @@ label juliahome_bed_gosleep1:
 label juliahome_bed_gosleep1_loop1:
     menu:
         "Поцелуй перед сном." if get_active_objects("Julia", scene="juliahome_livingroom") != False:
-            call ep213_quests_julia19_evening_scene()
-            call juliahome_bed_gosleep2()
+            call ep213_quests_julia19_evening_scene() from _rcall_ep213_quests_julia19_evening_scene
+            call juliahome_bed_gosleep2() from _rcall_juliahome_bed_gosleep2
             return
 
         "Лечь спать." if monicaEatedLastDay == day:
-            call juliahome_bed_gosleep2()
+            call juliahome_bed_gosleep2() from _rcall_juliahome_bed_gosleep2_1
             return
         "Поесть и лечь спать." if monicaEatedLastDay < day:
-            call juliahome_kitchen_eat_before_sleep()
-            call juliahome_bed_gosleep2()
+            call juliahome_kitchen_eat_before_sleep() from _rcall_juliahome_kitchen_eat_before_sleep
+            call juliahome_bed_gosleep2() from _rcall_juliahome_bed_gosleep2_2
             return
         "Лечь спать голодной." if monicaEatedLastDay < day:
-            call juliahome_bed_gosleep2()
+            call juliahome_bed_gosleep2() from _rcall_juliahome_bed_gosleep2_3
             return
         "Пропустить до..." if basementBedSkipUntilFridayEnabled == True and week_day != 5 and week_day != 4:
             menu:
@@ -115,7 +115,7 @@ label juliahome_bed_gosleep1_loop1:
                     img black_screen
                     with Dissolve(0.2)
                     $ skipUntilFridayTargetDay = 5
-                    call juliahome_skip_until_friday()
+                    call juliahome_skip_until_friday() from _rcall_juliahome_skip_until_friday
                     return False
                 "Не ложиться.":
                     $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
@@ -124,7 +124,7 @@ label juliahome_bed_gosleep1_loop1:
                         $ move_object("Julia", "juliahome_livingroom")
                         $ juliaHomeLivingRoomJuliaSuffix = 3
                     $ set_active("Bed1", True)
-                    call refresh_scene_fade()
+                    call refresh_scene_fade() from _rcall_refresh_scene_fade_57
                     return False
         "Не ложиться.":
             $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
@@ -133,7 +133,7 @@ label juliahome_bed_gosleep1_loop1:
                 $ move_object("Julia", "juliahome_livingroom")
                 $ juliaHomeLivingRoomJuliaSuffix = 3
             $ set_active("Bed1", True)
-            call refresh_scene_fade()
+            call refresh_scene_fade() from _rcall_refresh_scene_fade_58
             return False
 
     return
@@ -143,24 +143,24 @@ label juliahome_bed_gosleep2:
     img black_screen
     with Dissolve(0.2)
     #транзиция на отдых
-    call process_hooks("juliahome_monica_before_sleep", "global")
+    call process_hooks("juliahome_monica_before_sleep", "global") from _rcall_process_hooks_32
 #    $ set_active("Bed1", True)
     if _return == False:
         $ juliaHomeLivingRoomMonicaSuffix = juliaHomeNapSuffixStored
         $ juliaHomeLivingRoomJuliaSuffix = juliaHomeNapJuliaSuffixStored
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_59
         return False
     $ juliaHomeLivingRoomMonicaSuffix = 1
     $ juliaHomeLivingRoomJuliaSuffix = 1
     $ changeDayTimeJuliaHome("day")
-    call process_hooks("juliahome_monica_after_sleep", "global")
-    call refresh_scene_fade()
+    call process_hooks("juliahome_monica_after_sleep", "global") from _rcall_process_hooks_33
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_60
     return
 
 label juliahome_bed_skip_until_day1:
     img black_screen
     with Dissolve(0.2)
-    call slums_monica_skip_until_friday()
+    call slums_monica_skip_until_friday() from _rcall_slums_monica_skip_until_friday_2
     return
 
 label juliahome_skip_until_friday: # Пропуск дней до пятницы
@@ -170,16 +170,16 @@ label juliahome_skip_until_friday: # Пропуск дней до пятницы
     $ skipDaysActiveFlag = True
     label juliahome_skip_until_friday_loop1:
         if day_time == "day":
-            call process_hooks("juliahome_monica_before_nap", "global")
+            call process_hooks("juliahome_monica_before_nap", "global") from _rcall_process_hooks_34
             if _return == False:
                 $ juliaHomeLivingRoomMonicaSuffix = 1
                 $ juliaHomeLivingRoomJuliaSuffix = 1
                 $ skipDaysInterrupted = True
             else:
                 $ changeDayTimeJuliaHome("evening")
-                call process_hooks("juliahome_monica_after_nap", "global")
+                call process_hooks("juliahome_monica_after_nap", "global") from _rcall_process_hooks_35
         if day_time == "evening":
-            call process_hooks("slums_apartments_monica_before_sleep", "global")
+            call process_hooks("slums_apartments_monica_before_sleep", "global") from _rcall_process_hooks_36
             if _return == False:
                 $ juliaHomeLivingRoomMonicaSuffix = 1
                 $ juliaHomeLivingRoomJuliaSuffix = 1
@@ -187,7 +187,7 @@ label juliahome_skip_until_friday: # Пропуск дней до пятницы
             else:
                 #call processHouseCleaningEvening()
                 $ changeDayTimeJuliaHome("day")
-                call process_hooks("juliahome_monica_after_sleep", "global")
+                call process_hooks("juliahome_monica_after_sleep", "global") from _rcall_process_hooks_37
         if week_day != skipUntilFridayTargetDay and skipDaysInterrupted == False:
             jump juliahome_skip_until_friday_loop1
 
@@ -199,7 +199,7 @@ label juliahome_skip_until_friday: # Пропуск дней до пятницы
 #    $ set_active("Bed1", True)
     $ skipDaysActiveFlag = False
     $ skipDaysInterrupted = False
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_61
     return False
 
 label juliahome_monica_after_nap:
@@ -209,7 +209,7 @@ label juliahome_monica_after_nap:
 label juliahome_monica_after_nap_dialogue:
     if scene_name != "juliahome_livingroom":
         return
-    call process_hooks("juliahome_monica_after_nap_dialogue", "global")
+    call process_hooks("juliahome_monica_after_nap_dialogue", "global") from _rcall_process_hooks_38
     return
 label juliahome_monica_after_nap_dialogue1:
     $ rnd = rand(1,3)
@@ -232,7 +232,7 @@ label juliahome_monica_after_sleep:
 label juliahome_after_sleep_dialogue:
     if scene_name != "juliahome_livingroom":
         return
-    call process_hooks("juliahome_monica_after_sleep_dialogue", "global")
+    call process_hooks("juliahome_monica_after_sleep_dialogue", "global") from _rcall_process_hooks_39
     return
 label juliahome_monica_after_sleep_dialogue1:
     $ rnd = rand(1,3)

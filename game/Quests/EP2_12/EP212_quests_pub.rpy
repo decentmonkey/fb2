@@ -30,7 +30,7 @@ label ep212_quests_pub_menu_private: # Меню приватов
     if _return == 2: # Приват2
         $ remove_hook(label="dialogue_5_dance_strip_18")
         $ pub_makeuproom_monica_suffix = 2
-        call ep213_dialogues3_pub_15()
+        call ep213_dialogues3_pub_15() from _rcall_ep213_dialogues3_pub_15
         if _return == False:
             return
         $ pub_makeuproom_monica_suffix = 2

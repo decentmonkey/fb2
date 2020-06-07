@@ -13,20 +13,20 @@ default marcusCatTrainingButtons = ["Marcus_Cat_Command_01", "Marcus_Cat_Command
 
 label ep213_police_marcus_day2:
     # Маркус день 1
-    call ep213_dialogues_marcus1()
+    call ep213_dialogues_marcus1() from _rcall_ep213_dialogues_marcus1
     if _return == False:
-        call ep213_dialogues_marcus5()
+        call ep213_dialogues_marcus5() from _rcall_ep213_dialogues_marcus5
 
     return
 label ep213_police_marcus_day3:
     # Маркус день 2
-    call ep213_dialogues_marcus2()
+    call ep213_dialogues_marcus2() from _rcall_ep213_dialogues_marcus2
     return
 
 label ep213_police_marcus_day4:
-    call ep213_dialogues_marcus3()
+    call ep213_dialogues_marcus3() from _rcall_ep213_dialogues_marcus3
     return
 
 label ep213_police_marcus_day5:
-    call ep213_dialogues_marcus4()
+    call ep213_dialogues_marcus4() from _rcall_ep213_dialogues_marcus4
     return

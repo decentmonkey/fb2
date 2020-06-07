@@ -54,12 +54,12 @@ label ep213_dialogues_police1:
         mt "Ведь он не разрешал мне ее вынимать... #ее - it"
         return 1
     if day_time == "evening":
-        call ep27_dialogues_marcus1_1b()
+        call ep27_dialogues_marcus1_1b() from _rcall_ep27_dialogues_marcus1_1b
         return 0
     if cloth != "CasualDress1":
-        call ep27_dialogues_marcus1_1c()
+        call ep27_dialogues_marcus1_1c() from _rcall_ep27_dialogues_marcus1_1c
         return 0
-    call ep27_dialogues_marcus1_1a()
+    call ep27_dialogues_marcus1_1a() from _rcall_ep27_dialogues_marcus1_1a
     if _return == False:
         return 0
     #
@@ -111,7 +111,7 @@ label ep213_dialogues_police2b:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("5 минут спустя..."))
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_47
     img black_screen
     with Dissolve(2.0)
     music Groove2_85
@@ -583,7 +583,7 @@ label ep213_dialogues_police7:
     # Затемнение, Моника одета
     music stop
     sound man_steps
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_48
     img black_screen
     with Dissolve(1)
     music Groove2_85
@@ -691,7 +691,7 @@ label ep213_dialogues_police8:
         "Поставить его на место!":
             # Моника толкает заключенного и тот падает на землю
             # Моника ставит ногу на его шею
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended
             return False
     music Malicious
     imgd 18512
@@ -713,7 +713,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether4 = True # Моника попросила разрешения показать свою грудь
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_1
             return False
 
     fadeblack
@@ -731,7 +731,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether5 = True # Моника попросила разрешения показать свою грудь и сказала, что она шлюха
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_2
             return False
     fadeblack
     pause 1.5
@@ -753,7 +753,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether6 = True # Моника показала свою грудь заключенному
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_3
             return False
 
     fadeblack
@@ -927,7 +927,7 @@ label ep213_dialogues_police10c:
             $ monicaPrisonerLiveTogether7 = True # Моника помогла заключенному пописать
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_4
             return False
     fadeblack
 #    sound vjuh3
@@ -969,7 +969,7 @@ label ep213_dialogues_police10c:
             $ monicaPrisonerLiveTogether8 = True # Моника сказала Бобу, что помогает писать заключенному
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_5
             return False
     fadeblack 1.5
     music Hidden_Agenda
@@ -1052,7 +1052,7 @@ label ep213_dialogues_police10d:
             $ monicaPrisonerLiveTogether9 = True # Моника легла к заключенному
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_6
             return False
     imgf 31214
     m "Стой!"
@@ -1133,7 +1133,7 @@ label ep213_dialogues_police11:
             $ monicaPrisonerLiveTogether10 = True # Моника сказала Бобу, что все ок, когда заключенный заставил делать минет
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_7
             return False
     music Malicious
     imgf 18565
@@ -1216,7 +1216,7 @@ label ep213_dialogues_police12a:
             return True
 
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_8
             return False
     if game.extra == True:
         # Моника садится
@@ -1504,7 +1504,7 @@ label ep213_dialogues_police13:
             $ monicaPrisonerLiveTogether12 = True # Моника попросила заключенного о сексе
             pass
         "Поставить его на место!":
-            call ep213_dialogues_prisoner1_offended()
+            call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_9
             return False
 
     # заключенный отворачивается

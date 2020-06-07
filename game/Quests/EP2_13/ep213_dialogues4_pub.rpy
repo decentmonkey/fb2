@@ -342,7 +342,7 @@ label ep213_dialogues3_pub_5:
     # использовать имеющиеся арты
     # Эшли требовательно
     if ep213_dialogues3_pub_12_planned == True:
-        call ep213_dialogues3_pub_12()
+        call ep213_dialogues3_pub_12() from _rcall_ep213_dialogues3_pub_12
         return
     fadeblack
     sound highheels_short_walk
@@ -382,7 +382,7 @@ label ep213_dialogues3_pub_5:
     mt "!!!"
     music2 stop
     if ep213_dialogues3_pub_7_planned == True:
-        call ep213_dialogues3_pub_7()
+        call ep213_dialogues3_pub_7() from _rcall_ep213_dialogues3_pub_7
         $ ep213_dialogues3_pub_7_planned = False
     return
 
@@ -730,7 +730,7 @@ label ep213_dialogues3_pub_9:
         return False
 
     if stage_dance_nude_last_day == 0: # Первый раз танец обнаженной
-        call ep213_quests_pub8_first_dance_nude()
+        call ep213_quests_pub8_first_dance_nude() from _rcall_ep213_quests_pub8_first_dance_nude
 
     mt "Не могу поверить, что я делаю это!!!"
     mt "Моника, неужели для тебя это становится нормой?!"
@@ -2054,7 +2054,7 @@ label ep213_dialogues3_pub_16:
             mt "Но мне нужны эти чертовы 400 долларов!"
             mt "Пусть только попробует не отдать их мне!"
             mt "!!!"
-            call bitch(-20, "private2_joe1")
+            call bitch(-20, "private2_joe1") from _rcall_bitch_8
             music Hidden_Agenda
             imgd 18387
             m "Он..."
@@ -2120,7 +2120,7 @@ label ep213_dialogues3_pub_16:
     mt "Но еще больше мне хочется наказать Джо!"
     mt "Пусть Эшли знаешь, какой ее муж мерзавец!"
     mt "!!!"
-    call bitch(20, "private2_joe1")
+    call bitch(20, "private2_joe1") from _rcall_bitch_9
     imgd 18387
     m "Он..."
     m "Он уже не первый раз приходит на мой приват с клиентом."

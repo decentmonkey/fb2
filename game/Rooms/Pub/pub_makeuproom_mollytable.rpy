@@ -18,7 +18,7 @@ label pub_makeuproom_mollytable_init:
 
 label pub_makeuproom_mollytable_teleport:
     if obj_name == "Teleport_Pub_MakeupRoom":
-        call change_scene("pub_makeuproom", "Fade")
+        call change_scene("pub_makeuproom", "Fade") from _rcall_change_scene_122
     return
 
 label pub_makeuproom_mollytable_environment:

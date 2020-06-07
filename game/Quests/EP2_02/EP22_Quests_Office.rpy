@@ -132,7 +132,7 @@ label ep22_quests_office4_l1:
                 return False
 #        $ monicaOutfitsEnabled[8] = True # Открываем следующий костюм
     if monicaPhotoShootOutfitIdx == 10:
-        call ep213_photoshoot10()
+        call ep213_photoshoot10() from _rcall_ep213_photoshoot10
         $ photoshoot10_count += 1
     #конец фотосессии
     sound snd_fabric1

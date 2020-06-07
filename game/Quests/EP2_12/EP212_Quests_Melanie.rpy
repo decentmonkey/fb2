@@ -60,7 +60,7 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
     call ep212_dialogues6_melanie_punishment_7() from _rcall_ep212_dialogues6_melanie_punishment_7
     $ ep212_quests_melanie_completed = True
     $ ep212_quests_melanie_completed_day = day
-    call ep213_quests_victoria1_init()
+    call ep213_quests_victoria1_init() from _rcall_ep213_quests_victoria1_init
     $ remove_hook(label="ep212_quests_melanie")
     call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home_2
     $ autorun_to_object("ep212_dialogues6_melanie_punishment_9", scene=_return)

@@ -5,7 +5,7 @@ default juliaHomeBathroomShowerSceneSuffix = ""
 label juliahome_bathroomshower:
     $ print "enter_juliahome_bathroom"
     $ miniMapData = []
-    call miniMapJuliaHomeGenerate()
+    call miniMapJuliaHomeGenerate() from _rcall_miniMapJuliaHomeGenerate_1
 
     $ scene_image = "scene_JuliaHome_BathroomShower[juliaHomeBathroomShowerSceneSuffix]"
 
@@ -35,5 +35,5 @@ label juliahome_bathroomshower_teleport:
     return
 label juliahome_bathroomshower_environment:
     if obj_name == "Shower":
-        call ep213_dialogues5_julia_15c()
+        call ep213_dialogues5_julia_15c() from _rcall_ep213_dialogues5_julia_15c
     return
