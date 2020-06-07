@@ -111,10 +111,11 @@ label ep23_quests_melanie8 : #Разговор с Мелани после Дик
     return False
 
 label ep23_quests_melanie9: # Комментарий Моники с утра
-    if monicaRestHouse != True:
-        return
+#    if monicaRestHouse != True:
+#        return
     $ remove_hook()
-    call ep23_dialogues8_3() from _call_ep23_dialogues8_3
+    if monicaRestHouse == True:
+        call ep23_dialogues8_3() from _call_ep23_dialogues8_3
     $ remove_hook(label="melanie_talk_repeat1")
     $ add_hook("Melanie_Life_evening", "Melanie_Life_evening2", scene="global", label="melanie_makeuproom_life") # Вечером Мелани тоже в гримерке
     $ add_hook("Melanie", "ep23_quests_melanie10", scene="monica_office_makeup_room", label="melanie_talk_repeat1")
