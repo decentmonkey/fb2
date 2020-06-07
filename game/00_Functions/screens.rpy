@@ -1806,7 +1806,8 @@ screen choice(items):
                                 SetVariable("menu_price", False),
                                 SetVariable("dialogue_active_flag", False),
                                 SetVariable("menuName", False),
-                                Return(["call_hook", button_data["action"], menuLastName]),
+                                Call("call_hook", button_data["action"], menuLastName)
+#                                Return(["call_hook", button_data["action"], menuLastName]),
                             ]
                     else:
                         textbutton t__(button_data["caption"]) text_style "text_chinese":
@@ -1815,7 +1816,8 @@ screen choice(items):
                                 SetVariable("menu_price", False),
                                 SetVariable("dialogue_active_flag", False),
                                 SetVariable("menuName", False),
-                                Return(["call_hook", button_data["action"], menuLastName]),
+                                Call("call_hook", button_data["action"], menuLastName)
+#                                Return(["call_hook", button_data["action"], menuLastName]),
                             ]
                 else:
                     if _preferences.language != "chinese":
