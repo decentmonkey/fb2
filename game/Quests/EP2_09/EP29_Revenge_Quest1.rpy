@@ -132,6 +132,7 @@ label ep29_revenge_quest1_laundry_revenge_keys:
     $ remove_hook(label="ep29_revenge_quest1_comment")
     $ remove_hook(label="ep29_revenge_quest1_nap")
     $ remove_hook(label="ep29_revenge_quest1_exit_map")
+    $ remove_hook(label="ep29_revenge_quest1_exit_outside")
 
     $ add_objective("open_table", t_("Открыть запертый ящик"), c_red, 120)
     call refresh_scene_fade() from _call_refresh_scene_fade_231
@@ -208,6 +209,7 @@ label ep29_revenge_quest1_exit_map:
             $ remove_hook(label="ep29_revenge_quest1_comment")
             $ remove_hook(label="ep29_revenge_quest1_nap")
             $ remove_hook(label="ep29_revenge_quest1_exit_map")
+            $ remove_hook(label="ep29_revenge_quest1_exit_outside")
             return
 
         call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_2
