@@ -23,7 +23,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2-v12-Extra-hotfix2"
+define config.version = "EP2-v13-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -36,19 +36,35 @@ Ragnaroekr
 
 Keks
 
+Londo Mollari
+
+razor
+
 Abelardo
 
 aIMissRyu23
 
+ArminG
+
+Bill Lee
+
+edison123
+
 Ferdixxy
 
+Hazer Hazersen
+
 Jetvoice
+
+Joshua Ashbaugh
 
 Just
 
 Joe Swenson
 
 Joshua Ashbaugh
+
+Lee kanghoon
 
 Miguel
 
@@ -72,19 +88,15 @@ The big Dog
 
 Виталий Рябоконь
 
-희국 강
-
 Bill Lee
 
 Kurt
 
-강민석
-
 for great support!
 
-Ragnaroekr, Meli_x3, Koskesh, GND53 and ColdBlade for English correction
+Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade for English correction
 
-Ragnaroekr, Keks and BruceLee73
+Ragnaroekr, Londo Mollari, Keks and BruceLee73
 for German translation
 
 renpytom (Tom Rothamel) for the Ren'Py Game Engine

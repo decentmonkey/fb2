@@ -18,6 +18,7 @@ label ep213_quests_police1_check_init:
             $ add_objective("take_buttplug", t_("Вернуться к полиции с анальной пробкой."), c_red, 105)
             $ remove_hook(label="police2_buttplug")
             $ add_hook("ButtPlug", "ep213_quests_police3_takeplug", scene="basement_bedroom2", label="police2_buttplug", quest="police2")
+            $ add_hook("ButtPlug", "ep213_quests_police3_takeplug", scene="basement_bedroom_table_opened", label="police2_buttplug", quest="police2")
         if _return == 2:
             $ ep213_quests_police_inited = True
             call ep213_dialogues_police2()
@@ -67,7 +68,7 @@ label ep213_quests_police2_turniket:
 label ep213_quests_police3_takeplug: # взять пробку
     if act=="l":
         return
-    $ remove_hook()
+    $ remove_hook(label="police2_buttplug")
     $ set_active("ButtPlug", False)
     fadeblack
     pause 1.0

@@ -150,6 +150,8 @@ label show_game_updater:
     $ result = ui.interact()
     if result == 1 and updateButtonEnabled == True:
         $ _game_menu_screen = None
+        if updateData.has_key("assets_url"):
+            URL = updateData["assets_url"]
         $ updating_game(URL, updateData, localUpdateData, updateFiles, deleteFiles)
         $ _game_menu_screen = 'save'
     return

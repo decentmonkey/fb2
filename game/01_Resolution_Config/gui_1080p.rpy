@@ -93,6 +93,8 @@ define gui.resolution.hud_screen.love_bar_top_gutter = 0 #18, 12
 define gui.resolution.hud_screen.love_bar_thumb_offset = 40 #22, 14
 define gui.resolution.hud_screen.love_bar_xysize = (90, 450)
 
+define gui.resolution.main_menu_frame = 420
+
 define res.suffix = "" #"", "_720p"
 
 define notifyLineOffset = 50 #ep22
