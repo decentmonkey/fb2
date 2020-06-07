@@ -23,7 +23,7 @@ label ep213_quests_biff2_biff:
 
 label ep213_quests_biff3_presentation:
     # перезентация
-    if ep213_dialogues4_biff_2_day == day:
+    if ep213_dialogues4_biff_2_day == day or day_time != "evening":
         return
     call ep213_dialogues4_biff_3() from _rcall_ep213_dialogues4_biff_3
     $ add_hook("Teleport_Monica_Office_Cabinet", "ep213_dialogues4_biff_4", scene="monica_office_secretary", label="presentation2_block")
