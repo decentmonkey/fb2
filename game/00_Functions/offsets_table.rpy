@@ -3243,7 +3243,6 @@ define offsets_table = {
     "richhotel_lift_monica_escortdress1_3_overlay":(982,560,1079,768),
     "richhotel_lift_monica_visitor3":(282,517,1079,977),
     "richhotel_lift_visitor3_1":(304,756,1079,977),
-    "richhotel_lift_visitor3_1_overlay":(1018,779,1079,996),
     "julliahome_bathroom_shower_shower_mask":(0,9,1079,403),
     "julliahome_kitchen_kitchen_mask":(0,1193,1079,1919),
     "pub_makeuproom_mollytable_tips_mask":(461,994,767,1215),
