@@ -117,7 +117,7 @@ init 1000 python:
 #                s = s.replace(" ", "%20")
 #                s = s.replace("\r\n", "%0A")
 
-                url = "http://update.decent-monkey.com/sendreport/send.php"
+                url = "http://update2.decent-monkey.com/sendreport/send.php"
                 values = {"game_version": config.version,"body": "game version: " + config.version + "\n" + s}
                 data = urllib.urlencode(values)
                 req = urllib2.Request(url, data)
