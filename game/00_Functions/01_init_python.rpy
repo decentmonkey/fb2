@@ -167,11 +167,6 @@ python early:
         dialogue_active_flag = True
         screenActionHappened = True
 
-        if persistent.auto_clipboard == True:
-            copy_what = re.sub("\!\s{1,}", "!\n", what)
-            copy_what = re.sub("\?\s{1,}", "?\n", copy_what)
-            copy_what = re.sub("\.\s{1,}", ".\n", copy_what)
-            mycopytext(copy_what) #put into clipboard
         keyPressed = pygame.key.get_pressed()
         if keyPressed[pygame.K_SLASH]:
             return
@@ -185,6 +180,13 @@ python early:
         what = re.sub("Mr\.\\n", "Mr. ", what)
         what = re.sub("Mrs\.\\n", "Mrs. ", what)
         what = re.sub("Ms\.\\n", "Ms. ", what)
+
+        if persistent.auto_clipboard == True:
+            copy_what = re.sub("\!\s{1,}", "!\n", what)
+            copy_what = re.sub("\?\s{1,}", "?\n", copy_what)
+            copy_what = re.sub("\.\s{1,}", ".\n", copy_what)
+            mycopytext(copy_what) #put into clipboard
+
         renpy.say(who, what)
 
     renpy.register_statement("", parse=saywrapper_parse, execute=saywrapper_execute, lint = saywrapper_lint, translatable=True) #враппер для say, чтобы подымать флаг активного диалога
