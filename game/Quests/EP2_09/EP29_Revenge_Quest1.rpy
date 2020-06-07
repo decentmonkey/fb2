@@ -190,6 +190,14 @@ label ep29_revenge_quest1_exit_nap: # Выход из квеста, через �
 #
 
 label ep29_revenge_quest1_exit_outside:
+    if get_active_objects("ButtPlug", scene="basement_bedroom_table_opened") != False:
+        # костыль для фикса отмены квеста мести
+        $ remove_hook(label="ep29_revenge_quest1_wardrobe")
+        $ remove_hook(label="ep29_revenge_quest1_comment")
+        $ remove_hook(label="ep29_revenge_quest1_nap")
+        $ remove_hook(label="ep29_revenge_quest1_exit_map")
+        $ remove_hook(label="ep29_revenge_quest1_exit_outside")
+        return
     call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_1
     if _return == True:
         return False
