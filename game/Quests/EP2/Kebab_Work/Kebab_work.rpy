@@ -8,6 +8,9 @@ default kebabWorkHarassmentAmount = 0
 
 default kebabOffendQuestJustCompleted = False
 
+default cloth_type_last = "Whore"
+default cloth_last = "Whore"
+
 label kebab_work_init:
     $ add_hook("Shawarma_Trader", "kebab_work_trader_interact1", scene="whores_place_shawarma", label="kebab_dialogue")
     return

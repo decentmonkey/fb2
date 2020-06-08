@@ -23,7 +23,7 @@ label ep24_quests_init:
     return
 
 label ep24_quests_fix:
-    if ep24_quests_fix2_initialized == False and char_info["Bardie"]["level"] == 3 and char_info["Bardie"]["enabled"] == False:
+    if ep24_quests_fix2_initialized == False and char_info.has_key("Bardie") and char_info["Bardie"]["level"] == 3 and char_info["Bardie"]["enabled"] == False:
         $ ep24_quests_fix2_initialized = True
         $ char_info["Bardie"]["enabled"] = True
     if ep24_quests_fix_initialized == True:

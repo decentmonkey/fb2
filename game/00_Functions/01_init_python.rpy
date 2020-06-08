@@ -107,7 +107,8 @@ python early:
     renpy.register_statement("imgf", parse=imgf_disp, execute=img_exec, predict=img_pred)
     renpy.register_statement("imgfl", parse=imgfl_disp, execute=img_exec, predict=img_pred)
 
-    def imgl_exec(s):
+    def imgl_exec(s_in):
+        s, transition = s_in
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_left", img_find_path(s), config.screen_width / 2, config.screen_height)
@@ -115,7 +116,8 @@ python early:
 
     renpy.register_statement("imgl", parse=img_disp, execute=imgl_exec, predict=img_pred)
 
-    def imgr_exec(s):
+    def imgr_exec(s_in):
+        s, transition = s_in
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_right", img_find_path(s), config.screen_width / 2, config.screen_height)
@@ -123,7 +125,8 @@ python early:
 
     renpy.register_statement("imgr", parse=img_disp, execute=imgr_exec, predict=img_pred)
 
-    def imgcenter_exec(s):
+    def imgcenter_exec(s_in):
+        s, transition = s_in
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_center", img_find_path(s), config.screen_width / 2, config.screen_height)

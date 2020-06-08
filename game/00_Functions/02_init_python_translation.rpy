@@ -39,6 +39,8 @@ python early:
     def t__(s):
         global _preferences, language_fields, language_dict
         lang = _preferences.language
+        if language_fields.has_key(lang) == False:
+            lang = "english"
         st = s
         if language_dict.has_key(s):
             st = language_dict[s][language_fields[lang]]

@@ -31,6 +31,8 @@ init python:
         return False
 
     def process_character_info_buttons(scene_data): #добавляем кнопки info для персонажей со свойствами
+        if scene_data is None:
+            return scene_data
         for obj_name in scene_data:
             if check_object_has_character(obj_name) == True:
                 if scene_data[obj_name].has_key("actions"):

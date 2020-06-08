@@ -9,6 +9,7 @@ default monicaCleaningInProgressEngineWorkingFlag = False
 default monicaHouseCleaningBettyAffection = True
 
 default houseCleaningShortEnd = False
+default rooms_dirty = []
 #default houseCleaningCurrent = 3
 #default houseCleaningCurrentList = []
 
