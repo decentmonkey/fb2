@@ -19,6 +19,9 @@ label ep213_quests_police1_check_init:
             $ remove_hook(label="police2_buttplug")
             $ add_hook("ButtPlug", "ep213_quests_police3_takeplug", scene="basement_bedroom2", label="police2_buttplug", quest="police2")
             $ add_hook("ButtPlug", "ep213_quests_police3_takeplug", scene="basement_bedroom_table_opened", label="police2_buttplug", quest="police2")
+            if get_active_objects("ButtPlug", scene="basement_bedroom2") == False and get_active_objects("ButtPlug", scene="basement_bedroom_table_opened") == False:
+                $ move_object("ButtPlug", "basement_bedroom2")
+
         if _return == 2:
             $ ep213_quests_police_inited = True
             call ep213_dialogues_police2() from _rcall_ep213_dialogues_police2
