@@ -24,6 +24,7 @@ define gui.show_name = True
 ## The version of the game.
 
 define config.version = "EP2-v13-Extra-HotFix1"
+define gui.version_short = "EP2v13"
 
 
 ## Text that is placed on the game's about screen. Place the text between the

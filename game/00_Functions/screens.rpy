@@ -134,6 +134,25 @@ screen show_image_screen(image_name):
         fixed:
             add image_name
 
+screen noactivation_overlay():
+    layer "master"
+    zorder 190
+    fixed:
+        add "Overlays/white_screen_overlay.png"
+
+screen noactivation_overlay2():
+    layer "hud"
+    zorder 2100
+    fixed:
+            imagebutton:
+                xpos getRes(1455)
+                ypos getRes(920)
+                idle "Icons2/Unlock.png"
+                hover "Icons2/Unlock_hover.png"
+                action [
+                    Call("activation_menu1")
+                ]
+
 screen credits_screen(creditsList):
     frame:
         background None
@@ -195,7 +214,8 @@ screen screen_sprites(data):
                     Hide("dialogue_image_center"),
                     Hide("dialogue_down_arrow"),
                     Hide("action_menu_screen"),
-                    Hide("action_menu_tooltip_screen")
+                    Hide("action_menu_tooltip_screen"),
+                    Hide("noactivation_overlay")
                 ]
                 if renpy.android:
                     alternate ShowMenu("save")
@@ -658,7 +678,8 @@ screen action_menu_screen(click_label, name, data):
                 Hide("dialogue_image_center"),
                 Hide("dialogue_down_arrow"),
                 Hide("action_menu_screen"),
-                Hide("action_menu_tooltip_screen")
+                Hide("action_menu_tooltip_screen"),
+                Hide("noactivation_overlay")
             ]
 #            alternate [
 #                Hide("say"),
@@ -872,7 +893,8 @@ screen character_info_screen(obj_name, x, y):
                 Hide("action_menu_screen"),
                 Hide("action_menu_tooltip_screen"),
                 Hide("sprites_hover_dummy_screen"),
-                Hide("character_info_screen")
+                Hide("character_info_screen"),
+                Hide("noactivation_overlay")
             ]
 #            alternate [
 #                Hide("say"),
@@ -945,7 +967,8 @@ screen character_info_screen(obj_name, x, y):
                     Hide("action_menu_screen"),
                     Hide("action_menu_tooltip_screen"),
                     Hide("sprites_hover_dummy_screen"),
-                    Hide("character_info_screen")
+                    Hide("character_info_screen"),
+                    Hide("noactivation_overlay")
                 ]
 screen hud_minimap(minimapData):
     layer "master"

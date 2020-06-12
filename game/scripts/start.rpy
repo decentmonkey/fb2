@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -35,6 +35,8 @@ default minimap_coords_preset = 0
 
 default after_load_ready_to_render = False
 default nextFriday = -1
+
+default noactivation_notification = False
 
 label start:
     #new game

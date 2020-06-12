@@ -37,7 +37,7 @@ python early:
 #            s = language_dict[s][language_fields[lang]]
 #        return parse_tstr(s)
     def t__(s):
-        global _preferences, language_fields, language_dict
+        global _preferences, language_fields, language_dict, noactivation_notification
         lang = _preferences.language
         if language_fields.has_key(lang) == False:
             lang = "english"
@@ -48,6 +48,16 @@ python early:
                 st = language_dict[s][language_fields["english"]]
                 if st == "":
                     st = s
+            if st[0] == ":":
+                enckey = "1234567812345678"
+                if persistent.enckey is None or persistent.enckey == False:
+                    persistent.enckey = {}
+                if persistent.enckey.has_key(config.version):
+                    enckey = persistent.enckey[config.version]
+                st = decodes(enckey, st[1:])
+                checkst = decodes(enckey, language_dict["checkactivation"][1][1:])
+                if checkst != "activation complete":
+                    noactivation_notification = True
             st = st.split("#")[0]
         return parse_tstr(st)
 
@@ -61,5 +71,15 @@ python early:
                 st = language_dict[s][language_fields["english"]]
                 if st == "":
                     st = s
+            if st[0] == ":":
+                enckey = "1234567812345678"
+                if persistent.enckey is None or persistent.enckey == False:
+                    persistent.enckey = {}
+                if persistent.enckey.has_key(config.version):
+                    enckey = persistent.enckey[config.version]
+                st = decodes(enckey, st[1:])
+                checkst = decodes(enckey, language_dict["checkactivation"][1][1:])
+                if checkst != "activation complete":
+                    noactivation_notification = True
             st = st.split("#")[0]
         return parse_tstr(st)

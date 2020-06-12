@@ -768,6 +768,392 @@ screen screen_marcus_cat_training2():
                     action Return(commandIdx)
                 $ offsetIdx += 1
 
+screen activationmenu_screen(code1, code2, code3, code4, acode1, acode2, acode3, acode4, acolor):
+    $ width1 = int(1217 * gui.resolution.koeff)
+    $ height1 = int(972 * gui.resolution.koeff)
+    $ x1 = int(377 * gui.resolution.koeff)
+    $ y1 = int(57 * gui.resolution.koeff)
+
+    layer "master"
+    zorder 60
+    modal True
+    button:
+        xfill True
+        yfill True
+        action [
+            Return()
+        ]
+    frame:
+        background Frame("gui/frame4" + res.suffix + ".png", left=2, top=int(80*gui.resolution.koeff), right=2, bottom=2)
+        pos(x1, y1)
+        anchor(0, 0)
+        xysize (width1, height1)
+        button:
+            pos(0,0)
+            xysize (width1, height1)
+            action [
+                Return("empty")
+            ]
+        imagebutton:
+            xpos 1.0
+            ypos 0.0
+            anchor (0.5, 0.5)
+            idle "/icons/window_close" + res.suffix + ".png"
+            hover "/icons/window_close_hover" + res.suffix + ".png"
+            action [
+                Return("Close")
+            ]
+
+        text "Please visit {a=https://update2.decent-monkey.com/activation/?version=" + gui.version_short + "}ACTIVATION PAGE{/a} from one of {a=https://patreon.com/decentmonkey}Patreon download posts{/a}\nEnter your personal code there and activate the game.":
+            xpos getRes(100)
+            ypos getRes(100)
+            xsize width1-getRes(200)
+
+        text "PERSONAL CODE":
+            xanchor 0.5
+            xpos 0.5
+            ypos getRes(200)
+            size 65
+            outlines [(3, "#000000", 0, 0)]
+
+        frame:
+            ypos getRes(200)
+            xpos getRes(20)
+            background None
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(230+7)
+                ypos getRes(150+5)
+            text code1:
+                anchor (0.5,0.5)
+                xpos getRes(230)
+                ypos getRes(150)
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(460+7)
+                ypos getRes(150+5)
+            text code2:
+                anchor (0.5,0.5)
+                xpos getRes(460)
+                ypos getRes(150)
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(690+7)
+                ypos getRes(150+5)
+            text code3:
+                anchor (0.5,0.5)
+                xpos getRes(690)
+                ypos getRes(150)
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(920+7)
+                ypos getRes(150+5)
+            text code4:
+                anchor (0.5,0.5)
+                xpos getRes(920)
+                ypos getRes(150)
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+
+        text "ACTIVATION CODE":
+            xanchor 0.5
+            xpos 0.5
+            ypos getRes(450)
+            size 65
+            outlines [(3, "#000000", 0, 0)]
+
+        frame:
+            ypos getRes(450)
+            xpos getRes(20)
+            background None
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(230+7)
+                ypos getRes(150+5)
+            text acode1:
+                anchor (0.5,0.5)
+                xpos getRes(230)
+                ypos getRes(150)
+                outlines [(2, "#000000", 0, 0)]
+                color acolor
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(460+7)
+                ypos getRes(150+5)
+            text acode2:
+                anchor (0.5,0.5)
+                xpos getRes(460)
+                ypos getRes(150)
+                color acolor
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(690+7)
+                ypos getRes(150+5)
+            text acode3:
+                anchor (0.5,0.5)
+                xpos getRes(690)
+                ypos getRes(150)
+                color acolor
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+            add "Icons2/activation_number_background.png":
+                anchor (0.5,0.5)
+                xpos getRes(920+7)
+                ypos getRes(150+5)
+            text acode4:
+                anchor (0.5,0.5)
+                xpos getRes(920)
+                ypos getRes(150)
+                color acolor
+                outlines [(2, "#000000", 0, 0)]
+                size 65
+
+        frame:
+            ypos getRes(665)
+            xpos getRes(310)
+            background None
+            hbox:
+                vbox:
+                    hbox:
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "1":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("1")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "2":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("2")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "3":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("3")
+
+                    null:
+                        height getRes(10)
+                    hbox:
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "4":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("4")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "5":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("5")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "6":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("6")
+
+                    null:
+                        height getRes(10)
+                    hbox:
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "7":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("7")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "8":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("8")
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "9":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("9")
+
+
+                vbox:
+                    hbox:
+                        null:
+                            width getRes(10)
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(120),getRes(65 * 2) + getRes(10))
+                            frame:
+                                background None
+                                ypos getRes(31)
+                                text "CLEAR":
+                                    text_align 0.5
+                #                    xsize getRes(115)
+                                    min_width getRes(100)
+                                    anchor (0.0, 0.0)
+                                    color "#b4b45b"
+                                    hover_color "#f0f07a"
+                                    outlines [(2, "#000000", 0, 0)]
+                                    size 38
+                            action Return("Clear")
+
+                    null:
+                        height getRes(10)
+
+                    hbox:
+                        null:
+                            width getRes(10)
+
+                        button:
+                            background "#202020"
+                            hover_background "#303030"
+                            xpos getRes(100)
+                            ypos getRes(30)
+                            xysize (getRes(115),getRes(65))
+                            text "0":
+                                text_align 0.5
+            #                    xsize getRes(115)
+                                min_width getRes(100)
+                                anchor (0.0, 0.0)
+                                color "#b4b45b"
+                                hover_color "#f0f07a"
+                                outlines [(2, "#000000", 0, 0)]
+                                size 48
+                            action Return("0")
+
+
+
+
 transform coin_appear1:
     on show:
         alpha 0

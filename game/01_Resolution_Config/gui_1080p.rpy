@@ -327,6 +327,12 @@ style error_messsage_header_style:
     size 35
     align (0.5, 0.3)
 
+style activationcode_text is text:
+    xpadding 15 #15, 10
+    ypadding 15 #15, 10
+    color "#b4b45b"
+    hover_color "#f0f07a"
+    size 36 #36, 26
 
 define gui.credits.offset1 = 30
 define gui.credits.offset2 = 42

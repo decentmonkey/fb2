@@ -74,6 +74,8 @@ python early:
         renpy.scene()
         renpy.show_screen("show_image_screen_image", imagePath)
         image_screen_scene_flag = False
+        if noactivation_notification == True:
+            renpy.show_screen("noactivation_overlay")
         screenActionHappened = True
         if transition and transition != "":
             transitions_dict = {
@@ -112,6 +114,8 @@ python early:
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_left", img_find_path(s), config.screen_width / 2, config.screen_height)
+        if noactivation_notification == True:
+            renpy.show_screen("noactivation_overlay")
         screenActionHappened = True
 
     renpy.register_statement("imgl", parse=img_disp, execute=imgl_exec, predict=img_pred)
@@ -121,6 +125,8 @@ python early:
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_right", img_find_path(s), config.screen_width / 2, config.screen_height)
+        if noactivation_notification == True:
+            renpy.show_screen("noactivation_overlay")
         screenActionHappened = True
 
     renpy.register_statement("imgr", parse=img_disp, execute=imgr_exec, predict=img_pred)
@@ -130,6 +136,8 @@ python early:
         global dialogue_active_flag, screenActionHappened
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_center", img_find_path(s), config.screen_width / 2, config.screen_height)
+        if noactivation_notification == True:
+            renpy.show_screen("noactivation_overlay")
         screenActionHappened = True
 
     renpy.register_statement("imgc", parse=img_disp, execute=imgcenter_exec, predict=img_pred)
@@ -157,7 +165,9 @@ python early:
 
     def saywrapper_execute(o):
         global last_dialogue_character
-        global dialogue_active_flag, screenActionHappened, config
+        global dialogue_active_flag, screenActionHappened, config, noactivation_notification
+
+        noactivation_notification = False
 
         who, what = o
         if who == "Noone":
@@ -189,6 +199,13 @@ python early:
             copy_what = re.sub("\?\s{1,}", "?\n", copy_what)
             copy_what = re.sub("\.\s{1,}", ".\n", copy_what)
             mycopytext(copy_what) #put into clipboard
+
+        if noactivation_notification == True:
+            renpy.show_screen("noactivation_overlay")
+            renpy.show_screen("noactivation_overlay2")
+            what = "This content is from the latest game version and is locked..."
+#            if len(what)>50:
+#                what = what[0:50] + "..."
 
         renpy.say(who, what)
 
