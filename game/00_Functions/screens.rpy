@@ -1082,9 +1082,25 @@ screen hud_screen(hud_presets):
 #                            yoffset -2
 #                            xanchor 2
                     if day_time == "evening":
-                        add "icons/daytime_evening" + res.suffix + ".png":
-                            yoffset -2
-                            xanchor 5
+                        if dialogue_active_flag == True or sceneIsStreet != True or hudDaySkipToEveningEnabled == False:
+                            imagebutton:
+                                yoffset -2
+                                xanchor 5
+                                idle "/icons/daytime_evening" + res.suffix + ".png"
+                                hover "/icons/daytime_evening" + res.suffix + ".png"
+                                action [
+                                    Play("sound", "Sounds/click_denied.ogg")
+                                ]
+                        else:
+                            imagebutton:
+                                yoffset -2
+                                xanchor 5
+                                idle "/icons/daytime_evening" + res.suffix + ".png"
+                                hover "/icons/daytime_evening_hover" + res.suffix + ".png"
+                                action [
+                                    Return(["time_management_street_fast_sleep"])
+                                ]
+
                 if hud_presets["display_calendar"] == True:
                     null:
                         width 0
