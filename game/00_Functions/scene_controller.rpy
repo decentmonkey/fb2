@@ -153,6 +153,8 @@ label show_scene_loop:
             call miniMapDisabled(interact_data[1], interact_data[2]) from _rcall_sprites_action10
         if interact_data[0] == "show_achievements":
             call show_achievements() from _rcall_sprites_action11
+        if interact_data[0] == "time_management_street_fast_sleep":
+            call bed_basement_fast_sleep()
 
 
 
