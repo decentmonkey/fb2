@@ -1456,7 +1456,7 @@ label ep214_dialogues3_escort_9:
 # ресторан
 label ep214_dialogues3_escort_10:
     # Моника за столиком, брюнетка подходит к ней
-    img 18835
+    img 18839
     w
     img 18836
     girl_1 "Слышишь ТЫ, шлюха!"
