@@ -388,7 +388,7 @@ label ep214_dialogues2_citizens_6:
 ###
 
 # если пришла к хостелу отдавать деньги, мысли (глазик)
-label ep214_dialogues2_citizens_6:
+label ep214_dialogues2_citizens_7:
     # не рендерить!!
     mt "Ненавижу эту чертову Перри!"
     mt "Никчемная извращенка!"
@@ -397,7 +397,7 @@ label ep214_dialogues2_citizens_6:
     return
 
 # зашла в хостел отдавать деньги (в первый раз)
-label ep214_dialogues2_citizens_7:
+label ep214_dialogues2_citizens_8:
     # Моника заходит в хостел, Перри у столика, который служит ресепшном
     mt "Не могу поверить, что я снова оказалась здесь!"
     mt "Какой кошмар!"
@@ -566,7 +566,7 @@ label ep214_dialogues2_citizens_7:
 
 # если осталась на ночь в хостеле
 # зашла в номер хостела
-label ep214_dialogues2_citizens_8:
+label ep214_dialogues2_citizens_9:
     mt "Ненавижу эту мерзкую сучку Перри!"
     mt "И этот гребаный хостел ненавижу!"
     mt "Грязная вонючая ночлежка! Фу!"
@@ -577,7 +577,7 @@ label ep214_dialogues2_citizens_8:
     return
 
 # душ в хостеле
-label ep214_dialogues2_citizens_9:
+label ep214_dialogues2_citizens_10:
     # Моника заходит в душевую
     mt "А вот и душ."
     mt "Душ...."
@@ -594,7 +594,7 @@ label ep214_dialogues2_citizens_9:
     return
 
 # номер в хостеле, Моника ложится спать
-label ep214_dialogues2_citizens_10:
+label ep214_dialogues2_citizens_11:
     # Моника подходит к кровати
     mt "Отвратительная кровать!"
     mt "Как представлю, что на ней спали какие-то мерзкие людишки..."
@@ -612,7 +612,7 @@ label ep214_dialogues2_citizens_10:
     return
 
 # номер в хостеле, утро
-label ep214_dialogues2_citizens_10a:
+label ep214_dialogues2_citizens_11a:
     # Моника проснулась
     # не рендерить
     mt "Я совсем не выспалась..."
@@ -622,7 +622,7 @@ label ep214_dialogues2_citizens_10a:
     return
 
 # хостел, ресепшн
-label ep214_dialogues2_citizens_10b:
+label ep214_dialogues2_citizens_11b:
     # Моника выходит из номера и идет к выходу
     # Перри на ресепшне
     perry "Жду тебя не позже, чем {c}через неделю!{/c}"
@@ -638,7 +638,7 @@ label ep214_dialogues2_citizens_10b:
 
 # если делала ликинг Перри, то потом сразу ушла из хостела
 # улица возле хостела
-label ep214_dialogues2_citizens_10c:
+label ep214_dialogues2_citizens_11c:
     # Моника хочет снова зайти в хостел
     mt "Эта извращенка Перри сказала, что я могу остаться на ночь здесь..."
     mt "Я, конечно, ненавижу это место!"
@@ -649,7 +649,7 @@ label ep214_dialogues2_citizens_10c:
 
 # если делала ликинг Перри, то потом сразу ушла из хостела
 # хостел, ресепшн
-label ep214_dialogues2_citizens_10d:
+label ep214_dialogues2_citizens_11d:
     # Моника заходит в хостел
     perry "А, детка, ты уже соскучилась по моей волосатой киске?"
     m "Да пошла ты, Перри!"
@@ -666,7 +666,7 @@ label ep214_dialogues2_citizens_10d:
 
 # если убежала от Перри, не отрабатывая и не отдав деньги, мысли
 # улица возле хостела
-label ep214_dialogues2_citizens_11:
+label ep214_dialogues2_citizens_12:
     # не рендерить!!
     mt "Я не собираюсь платить этой мерзкой сучке ни цента!"
     mt "Она говорит, что долг увеличится на $ 1 000?"
@@ -677,7 +677,7 @@ label ep214_dialogues2_citizens_11:
 
 # если отрабатывала у Перри, но в хостеле не осталась, мысли
 # улица возле хостела
-label ep214_dialogues2_citizens_12:
+label ep214_dialogues2_citizens_13:
     # не рендерить!!
     mt "Боже! Моника, не могу поверить, что ты сделала ЭТО!"
     mt "Какой кошмар!"
@@ -690,7 +690,7 @@ label ep214_dialogues2_citizens_12:
 
 # если ночевала в хостеле, мысли
 # улица возле хостела
-label ep214_dialogues2_citizens_12:
+label ep214_dialogues2_citizens_14:
     # не рендерить!!
     mt "Боже, какое кошмарное место!"
     mt "Но с другой стороны, я могу ночевать здесь бесплатно."
@@ -700,7 +700,7 @@ label ep214_dialogues2_citizens_12:
 
 # если заплатила деньги и отказалась отрабатывать, мысли
 # улица возле хостела
-label ep214_dialogues2_citizens_13:
+label ep214_dialogues2_citizens_15:
     # не рендерить!!
     mt "Фу!"
     mt "Как она может предлагать мне подобную гадость?!"
@@ -719,7 +719,7 @@ label ep214_dialogues2_citizens_13:
 # к обычному меню с танцами у пилона добавляется новый пункт "Сделать им хенджоб."
 
 # подворотня, где пилон
-label ep214_dialogues2_citizens_14:
+label ep214_dialogues2_citizens_16:
     menu:
         "Пригласить к себе.":
             pass
@@ -847,7 +847,7 @@ label ep214_dialogues2_citizens_14:
     return
 
 # апартаменты Моники в трущобах
-label ep214_dialogues2_citizens_15:
+label ep214_dialogues2_citizens_17:
     # Моника стоит посреди своей комнаты, панки оглядываются
     citizen1 "Эй, теть!"
     citizen1 "Ты эту хату снимаешь, чтоб работать тут?"
@@ -1307,7 +1307,7 @@ label ep214_dialogues2_citizens_15:
 # к обычному меню с танцами у пилона добавляется новый пункт "Работать моделью."
 
 # подворотня, где пилон
-label ep214_dialogues2_citizens_15:
+label ep214_dialogues2_citizens_18:
     menu:
         "Работа натурщицой.":
             pass
@@ -1543,7 +1543,7 @@ label ep214_dialogues2_citizens_15:
 # если Мамочка уже сказала Монике о необходимости платить ей половину заработка
 # Моника хочет лечь спать в день, когда была сцена с ситизенами или работала у пилона
 # мысли
-label ep214_dialogues2_citizens_16:
+label ep214_dialogues2_citizens_19:
     # не рендерить!!
     mt "Дьявол!"
     mt "Я не могу лечь спать!"
@@ -1554,7 +1554,7 @@ label ep214_dialogues2_citizens_16:
 
 # Моника пришла на точку с проституток
 # мысли
-label ep214_dialogues2_citizens_17:
+label ep214_dialogues2_citizens_20:
     # не рендерить!!
     mt "Какое кошмарное место!!!"
     mt "Работать здесь - самое дно!"
@@ -1563,7 +1563,7 @@ label ep214_dialogues2_citizens_17:
 
 # Моника пришла на точку с проституток (однократно, потом сделать автоматическое списание с баланса)
 # клик на Мамочку
-label ep214_dialogues2_citizens_18:
+label ep214_dialogues2_citizens_21:
     # Моника подходит к Мамочке (или она к ней)
     m "Я..."
     mommy "Девочка решила вести себя хорошо и работать со мной честно?"
@@ -1595,14 +1595,14 @@ label ep214_dialogues2_citizens_18:
     return
 
 # повторный клик на Мамочку, если уже отдала ей долю, мысли
-label ep214_dialogues2_citizens_19:
+label ep214_dialogues2_citizens_22:
     # не рендерить!!
     mt "Я уже отдала ей половину своего заработка!"
     mt "Не хочу больше с ней разговаривать!"
     return
 
 # клик на Мамочку, если не работала в этот день
-label ep214_dialogues2_citizens_20:
+label ep214_dialogues2_citizens_23:
     # не рендерить!!
     mt "Не хочу с ней разговаривать!"
     mt "!!!"

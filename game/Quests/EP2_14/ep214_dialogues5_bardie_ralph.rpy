@@ -538,7 +538,7 @@ label ep214_dialogues5_bardie_ralph_12:
                     mt "Испачкал мое лицо!!!"
                     mt "Гадость!!!"
                     mt "!!!"
-                pass
+                    pass
             pass
         "Секс":
             # Ральф трогает груди Моники
