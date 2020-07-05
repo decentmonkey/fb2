@@ -841,7 +841,9 @@ label ep214_dialogues1_pub_8:
     music Marty_Gots_a_Plan
     imgfl 31485
     w
-    imgf 31472
+    imgf 31489
+    w
+    imgd 31472
     w2_t "Хмм... Мне кажется или Юлия теперь ходит без трусиков?"
     w2_t "Как и Миссис Бакфет..."
     # звук каблуков
