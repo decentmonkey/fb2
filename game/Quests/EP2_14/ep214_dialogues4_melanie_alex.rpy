@@ -577,8 +577,13 @@ label ep214_dialogues4_melanie_alex_2:
     melanie "Ты точно не против жить со мной?"
     melanie "Ты точно этого хочешь?"
     # раздвигает ноги
+    img 19067
     alex_photograph "Мелани, раздвинь скорее свои ножки!"
     alex_photograph "Я хочу к тебе!"
+    img 19068
+    w
+    img 19069
+    w
     img 18980
     alex_photograph "Да!"
     alex_photograph "Я о таком даже мечтать не мог!"
