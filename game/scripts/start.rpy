@@ -54,9 +54,7 @@ label start:
 ##################
 
 
-
-#    call ep214_dialogues1_pub_14() # приват с банкиром в подсобке
-
+#    call ep214_dialogues5_bardie_ralph_12()
 
 
 ###################
