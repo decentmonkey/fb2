@@ -80,6 +80,7 @@ label EP22_Quests_Bardie2: #сон
 #    $ unfocus_map()
     $ EP22_Quest_Monica_has_dream = True
     $ focus_map("Teleport_Police", "ep22_dialogues3_3a")
+    $ hudDaySkipToEveningEnabled = False
     $ add_hook("basement_monica_before_nap", "ep22_dialogues3_3b", scene="global", label="hurry_to_police")
     $ EP22_Quests_Bardie_Monica_Blackmail_Stage2_init_day = day
     return
@@ -92,6 +93,7 @@ label EP22_Quests_Bardie3: #разговор в полиции
     call ep22_dialogues3_4() from _call_ep22_dialogues3_4
     $ autorun_to_object("ep22_dialogues3_5", scene="street_police")
     $ unfocus_map()
+    $ hudDaySkipToEveningEnabled = True
     call change_scene("street_police") from _call_change_scene_231
     $ bardieBlackmailStage = 2
     $ add_hook("monica_cleaning_end", "EP22_Quests_Bardie_Monica_Rest_After_Cleaning", scene="global", label="EP22_Quests_Bardie_Monica_Rest_After_Cleaning")

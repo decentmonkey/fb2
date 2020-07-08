@@ -36,9 +36,11 @@ label ep22_init:
     call ep22_dialogues2_1() from _call_ep22_dialogues2_1
     $ rain = False
     $ focus_map("Teleport_Dick_Office", "ep22_dialogues5_0b")
+    $ hudDaySkipToEveningEnabled = False
     $ add_hook("basement_monica_before_nap", "ep22_dialogues5_0a", scene="global", lable="hurry_to_dick")
     $ add_hook("map_teleport", "ep22_betty_catch_exit_map", scene="global", label="betty_catch")
     $ add_hook("Gates", "ep22_betty_catch_exit_gates", scene="street_house_gate", label="betty_catch")
+
 
     # Инициализируем общение с Диком и Викторией
     $ remove_hook("DickSecretary", "dick_secretary_talk3", scene="dick_office_secretary")

@@ -6,6 +6,7 @@ label ep22_quests_Dick1:
     $ remove_hook()
     $ remove_hook(lable="hurry_to_dick")
     call ep22_dialogues5_2() from _call_ep22_dialogues5_2
+    $ hudDaySkipToEveningEnabled = True
     $ add_hook("DickSecretary", "ep22_dialogues5_3")
     $ add_hook("change_time_day", "ep22_quests_Dick3", scene="global")
     $ add_hook("basement_monica_after_sleep_dialogue", "ep22_dialogues2_3a", scene="global")
