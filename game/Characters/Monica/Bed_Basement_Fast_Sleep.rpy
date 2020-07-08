@@ -19,6 +19,9 @@ label bed_basement_fast_sleep:
 
 label bed_basement_fast_sleep_monica_house:
     # Идем к Монике в спальню в подвале
+    if map_objects.has_key("Teleport_House") and map_objects["Teleport_House"]["state"] != "visible":
+        sound click_denied
+        return
     $ fastSleepInProcess = True
     $ fastSleepTick = pause_enter
     $ scene_refresh_flag = True
@@ -57,6 +60,9 @@ label bed_basement_fast_sleep_monica_house_step3:
 
 label bed_basement_fast_sleep_house_slums:
     # Идем к Монике в спальню в дом в трущобах
+    if map_objects.has_key("Teleport_Slums_Apartments") and map_objects["Teleport_Slums_Apartments"]["state"] != "visible":
+        sound click_denied
+        return
     $ fastSleepInProcess = True
     $ fastSleepTick = pause_enter
     $ scene_refresh_flag = True
@@ -96,6 +102,9 @@ label bed_basement_fast_sleep_house_slums_step3:
 
 
 label bed_basement_fast_sleep_juliahome:
+    if map_objects.has_key("Teleport_JuliaHome") and map_objects["Teleport_JuliaHome"]["state"] != "visible":
+        sound click_denied
+        return
     # Идем к Юлии в спальню
     $ fastSleepInProcess = True
     $ fastSleepTick = pause_enter
