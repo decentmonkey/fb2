@@ -1,4 +1,4 @@
-default monicaBettyRalphSeduction1 = False  # Моника переоделась в платье Бетти, пока та на фитнесе
+default monicaBettyRalphSeduction1 = False  # Моника взяла платье Бетти, пока та на фитнесе
 default monicaBettyRalphSeduction2 = False  # Моника сделала Ральфу минет в гостиной
 default monicaBettyRalphSeduction3 = False  # Моника проглотила сперму Ральфа (минет в гостиной)
 default monicaBettyRalphSeduction4 = False  # Моника сделала Ральфу футджоб в первый раз
@@ -14,7 +14,11 @@ default monicaBettyRalphSeduction9 = False  # Моника сказала Рал
 label ep214_dialogues5_bardie_ralph_1:
     # использовать имеющиеся арты!!
     # Барди приходит к Монике в спальню в ее подвале
-    img 9672
+    img black_screen
+    with Dissolve(1.0)
+    pause 1.0
+    music Sneaky_Snitch
+    imgfl 9672
     bardie "Гувернантка!"
     bardie "У хозяина есть разговор к тебе!"
     bardie "Жду тебя в твоей спальне внизу."
@@ -23,18 +27,24 @@ label ep214_dialogues5_bardie_ralph_1:
     # спальня Моники в подвале
     # Моника заходит, Барди стоит возле кровати
     # Барди самодовольно заявляет
-    img 7526
+    music stop
+    scene black_screen
+    with Dissolve(1)
+    sound highheels_short_walk
+    pause 1.5
+    music Groove2_85
+    imgfl 7526
     w
-    img 17606
+    imgf 17606
     bardie "Я придумал, что нужно сделать, чтобы уж точно соблазнить Ральфа!"
     bardie "Гувернантке нужно стать Бетти!!"
     # Моника смотрит на него, как на идиота
-    img 17607
+    imgd 17607
     m "В смысле?!"
     bardie "У Бетти много одежды, но Ральф любит только одно платье..."
     bardie "В котором она постоянно ходит."
     m "И? Как мне это поможет?"
-    img 17608
+    imgf 17608
     bardie "Я долго за ними наблюдаю."
     bardie "Ральф не разрешает ей надевать ничего другого."
     m "У него что, фетиш на это платье?!"
@@ -42,32 +52,39 @@ label ep214_dialogues5_bardie_ralph_1:
     bardie "Он от него тащится!"
     bardie "Как и от имени Бетти!"
     bardie "Я как-то их подслушивал и Ральф говорил о том, что без ума от ее имени."
-    img 17610
+    imgd 17610
     mt "Вот старый извращнец!!"
     mt "Как можно быть без ума от какого-то там имени?!"
     mt "Бред какой-то!"
-    img 17609
+    imgf 17609
     m "И что ты предлагаешь мне сделать?!"
+    music Sneaky_Snitch
     bardie "Надеть ее платье и сказать Ральфу, что твое настоящее имя Бетти!"
     bardie "Тебе надо принять ее образ!"
     bardie "Твой хозяин гений! Да, гувернантка?"
+    music Groove2_85
     mt "Что за бредовые идеи у этого сопляка?"
-    img 17614
+    imgd 17614
     m "Ага..."
     m "Гений, как я надену ее платье, если она постоянно в нем?"
-    img 17613
+    music Sneaky_Snitch
+    imgf 17613
     bardie "М-да... Гувернантке далеко до гениальности хозяина."
     bardie "Ты же ходишь с ней на фитнес!"
     bardie "Пока она там кувыркается с тренером, возьми ее одежду!"
     bardie "Переоденешься, пойдешь к Ральфу и скажешь, что ты Бетти!"
     bardie "И все! Ральф твой!"
-    img 17615
+    imgd 17615
     bardie "Ты должна его соблазнить!"
     bardie "Хозяину нужен этот материал!"
     bardie "Пока можешь быть свободна, гувернантка."
     bardie "Но помни что твой хозяин ждет результатов!"
     # Барди уходит, Моника стоит в предвкушении
-    img 7472
+    fadeblack
+    sound man_steps
+    pause 2.0
+    music Stealth_Groover
+    imgfl 7472
     mt "Дьявол!"
     mt "Не думаю что это хорошая идея..."
     mt "Неужели Ральф такой придурок и без ума от образа этой деревенской коровы?"
@@ -80,16 +97,25 @@ label ep214_dialogues5_bardie_ralph_1:
 # при клике на шкафчик
 label ep214_dialogues5_bardie_ralph_2:
     # Моника стоит одна возле шкафчика Бетти
-    img 31492
+    fadeblack 1.5
+    music Groove2_85
+    imgfl 31492
+    # "Переодеться в одежду Бетти и идти к Ральфу.":
     menu:
-        "Переодеться в одежду Бетти и идти к Ральфу.":
-            $ monicaBettyRalphSeduction1 = True # Моника переоделась в платье Бетти, пока та на фитнесе
+        "Взять одежду Бетти и ехать домой.":
+            $ monicaBettyRalphSeduction1 = True # Моника взяла платье Бетти, пока та на фитнесе
             pass
     # Моника тянет руку к шкафчику Бетти
-    img 31493
     # затемнение, звук snd_fabric
+    imgf 31493
+    w
     # смена кадра
     # Моника стоит в платье Бетти, с прической как у Бетти
+    # переход на движок, Моника в платье Бетти у себя в подвале
+    fadeblack
+    sound snd_fabric
+    pause 2.0
+    music Stealth_Groover
     mt "Поверить не могу, что я надела платье этой провинциалки!"
     mt "Что только Ральф нашел в этой одежде?! Фи!"
     mt "!!!"
@@ -121,56 +147,70 @@ label ep214_dialogues5_bardie_ralph_4:
 # Ральф, как обычно, читает книгу
 label ep214_dialogues5_bardie_ralph_5:
     # переодетая Моника заходит в гостиную к Ральфу
-    img 31494
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Stealth_Groover
+    imgfl 31494
     w
-    img 31495
+    imgf 31495
     w
-    img 31496
+    imgd 31496
     w
-    img 31497
+    imgd 31497
     mt "Ну, старикашка!"
     mt "Посмотрим, то ты сейчас будешь делать!"
     mt "!!!"
     # Ральф поднимает взгляд на Монику
-    img 31498
+    sound highheels_short_walk
+    imgf 31498
     w
-    img 31499
+    imgd 31499
     w
+    sound snd_folder_drop
     img 31500
     ralph "Бетти..."
     # на лице шок, растерянность
-    img 31501
+    music stop
+    sound plastinka1b
+    img 31501 hpunch
     ralph "Моника?!"
     # Барди прячется у входа в гостиную
     # подсматривает за ними, в руках телефон
-    img 31502
+    music Sneaky_Snitch
+    imgf 31502
     w
-    img 31503
+    sound snd_photo_capture
+    imgd 31503
+    w
     # смена кадра - гостиная
     # Моника смотрит на него, как-будто смущаясь
-    img 31504
+    music Groove2_85
+    imgf 31504
     m "Не Моника, Мистер Робертс..."
     m "Мое настоящее имя Бетти."
-    img 31505
+    imgd 31505
     ralph "Бетти? Тебя зовут Бетти?!"
     m "Да, Мистер Робертс..."
     ralph "Ты сейчас пытаешься обмануть меня?"
     ralph "Чего ты хочешь от меня? Денег?"
     ralph "Если это правда, то почему ты представлялась всегда другим именем?"
-    img 31506
+    music Hidden_Agenda
+    imgf 31506
     m "Дело в том, что я..."
     m "Я понимала, что вашей супруге не понравилось бы подобное сходство со мной."
     m "И она не взяла бы меня на работу в ваш дом."
     mt "Боже! Что за бред я несу?!"
     # Ральф в растерянности
-    img 31507
+    imgd 31507
     ralph "А п-почему ты решила рассказать мне об этом сейчас... Бетти..."
     m "Вы тогда были правы, Мистер Робертс."
     m "С самого начала, как только я устроилась на работу к вам..."
     m "Вы мне очень понравились."
     m "И я решила, что вы должны знать правду обо мне..."
     # Ральф встает с кресла и подходит к ней ближе
-    img 31508
+    music Groove2_85
+    imgf 31508
     ralph "Бетти..."
     ralph "Тебе нужно было сразу мне все рассказать."
     m "Да, Мистер Робертс. Простите меня..."
@@ -178,23 +218,28 @@ label ep214_dialogues5_bardie_ralph_5:
     ralph "Тебе так идет это платье..."
     ralph "Ты очень красивая в нем, Бетти..."
     # Ральф приобнимает ее за талию
-    img 31509
+    imgd 31509
+    w
     # Барди прячется у входа в гостиную
     # Барди хихикает, подсматривая за ними, делает фотки (звуки камеры)
-    img 31510
+    music Sneaky_Snitch
+    imgf 31510
+    sound snd_photo_capture
     bardie_t "Да! Вот ты и попался, Ральф!"
     # смена кадра - гостиная
-    img 31511
+    fadeblack 1.5
+    music Stealth_Groover
+    imgfl 31511
     mt "Это сработало!"
     mt "Сработало!!!"
     mt "!!!"
     mt "Так, что дальше по плану, Моника?"
-    img 31512
+    imgf 31512
     mt "О Боже!"
     mt "Мне придется заниматься с ним ЭТИМ!"
     mt "Фу! Как противно!"
     mt "!!!"
-    img 31513
+    imgd 31513
     mt "Возьми себя в руки, Моника!"
     mt "Тебе нужно сделать ЭТО!"
     mt "Малявка думает, что я делаю то, что хочет он..."
@@ -202,82 +247,150 @@ label ep214_dialogues5_bardie_ralph_5:
     mt "Я хладнокровно и неумолимо иду к своей цели..."
     mt "Вернуть назад мой дом!"
     # Моника игриво улыбается Ральфу
-    img 31514
+    music Hidden_Agenda
+    imgf 31514
     m "Я вам правда нравлюсь, Мистер Робертс?"
     ralph "Да, Бетти..."
     ralph "Ты даже не представляешь, насколько..."
     # Моника слегка толкает Ральфа и он плюхается в свое кресло
-    img 31515
+    imgd 31515
     m "В таком случае..."
-    img 31516
+    sound snd_bodyfall
+    img 31516 vpunch
     w
-    img 31517
+    imgf 31517
     m "Мистер Робертс не откажет мне, если я хочу сделать ему приятно?"
-    img 31518
+    music Loved_Up
+    imgd 31518
     ralph "Как я могу отказать такой красивой девушке, Бетти..."
     # Ральф сидит в кресле, Моника на коленях перед ним
     # она игриво смотрит ему в глаза и ведет руками по его бедрам выше и выше
-    img 31519
+    imgd 31519
     ralph "Бетти..."
     m "Расслабьтесь, Мистер Робертс."
     m "Сейчас Бетти сделает вам очень-очень приятно."
     # Барди прячется у входа в гостиную
     # Барди хихикает, подсматривая за ними, делает фотки (звуки камеры)
-    img 31503
+    music Sneaky_Snitch
+    imgf 31503
+    sound snd_photo_capture
     bardie_t "Прямо как в фильмах про служанку и хозяина!"
     bardie_t "Молодец, гувернантка!"
     # смена кадра - гостиная
     # Ральф сидит с приспущенными штанами
     # лицо Моники перед его членом
-    img 31520
+    music Groove2_85
+    imgd 31520
     w
-    img 31522
+    imgf 31522
     w
-    img 31521
+    imgd 31521
     mt "Моника, просто сделай это!"
     mt "Ты почти у цели!"
     mt "Еще немного и ты вернешь себе свой дом!"
     ralph "Бетти, продолжай..."
     # Моника притворно улыбается
-    img 31523
+    music Hidden_Agenda
+    imgd 31523
     m "С удовольствием, Мистер Робертс."
     # затем берет член в рот
     # минет
-    img 31524
+    music Loved_Up
+    imgf 31524
     w
-    img 31525
+    imgd 31525
     w
-    img 31526
+    sound drkanje5
+    imgd 31526
+    w
+    imgd 31525
+    w
+    sound drkanje5
+    imgd 31526
+    w
+    imgd 31525
+    w
+    sound drkanje5
+    imgd 31526
+    w
+    imgd 31525
+    w
+    sound drkanje5
+    imgd 31526
     ralph "Оооох, Бетти!"
-    img 31527
+    imgf 31527
     w
-    img 31528
+    sound lick3
+    imgd 31528
     w
-    img 31529
+    sound lick3
+    imgd 31529
     w
-    img 31530
+    sound lick3
+    imgd 31528
+    w
+    sound lick3
+    imgd 31529
+    w
+    sound lick3
+    imgd 31528
+    w
+    sound lick3
+    imgd 31529
+    w
+    sound lick3
+    imgd 31528
+    w
+    sound lick3
+    imgd 31529
+    w
+    sound chpok6
+    imgd 31530
     ralph "Оооох..."
-    img 31531
+    sound lick3
+    imgd 31531
     w
-    img 31532
+    sound lick3
+    imgd 31532
     w
-    img 31533
+    sound lick3
+    imgd 31533
     w
-    img 31534
+    sound lick3
+    imgd 31532
+    w
+    sound lick3
+    imgd 31533
+    w
+    sound lick3
+    imgd 31532
+    w
+    sound lick3
+    imgd 31533
+    w
+    sound lick3
+    imgd 31532
+    w
+    sound lick3
+    imgd 31533
+    w
+    sound chpok6
+    imgd 31534
     ralph "Ммммм..."
-    img 31535
+    imgf 31535
     w
-    img 31536
+    imgd 31536
     ralph "Беттииии..."
     ralph "Как хорошо у тебя получается делать этооооо..."
 
     # если Моника работала или работает в эскорте
     #
     $ notif(_("Моника работает в ВИП-эскорте."))
-    img 31537
+    imgf 31537
     mt "Аха-ха!!"
     #
-    img 31538
+    music Loved_up2
+    imgd 31538
     ralph "Ммммм, как же хорошооооо..."
     ralph "О, Беттииии..."
     ralph "Я сейчас кончу!"
@@ -285,27 +398,40 @@ label ep214_dialogues5_bardie_ralph_5:
     menu:
         "Кончить в рот Моники.":
             img 31539
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             ralph "Бетти!"
             ralph "Ооооо!!"
             img 31540
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
             ralph "ООООООООО!!!"
             # Моника смотрит на Ральфа
             # он прибалдевший смотрит на нее
-            img 31541
+            imgf 31541
             w
-            img 31542
+            imgd 31542
             mt "..."
             menu:
                 "Выплюнуть!":
                     # Моника выплевывает сперму на пол
                     # не показываем плевок
-                    img 31543
+                    sound chavc26
+                    imgf 31543
                     mt "ФУУУУ!"
                     mt "!!!!!"
                     pass
                 "Проглотить.":
                     # Моника проглатывает, сидя на коленях
-                    img 31544
+                    sound snd_gulp
+                    imgf 31544
                     mt "ФУУУУ!"
                     mt "Отвратительно!!"
                     mt "Меня сейчас стошнит!!!"
@@ -315,35 +441,53 @@ label ep214_dialogues5_bardie_ralph_5:
                     pass
         "Кончить на лицо Моники.":
             img 31545
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             ralph "Бетти!"
             img 31546
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
             ralph "Ооооо!!"
             ralph "ООООООООО!!!"
-            img 31547
+            imgf 31547
             # Моника смотрит на Ральфа
             # он прибалдевший смотрит на нее
-            img 31548
+            imgd 31548
             w
-            img 31549
+            imgd 31549
             mt "ФУУУ!!!"
             mt "Испачкал мое лицо!!!"
             mt "!!!"
             pass
     # Барди прячется у входа в гостиную
     # Барди хихикает, подсматривая за ними, делает фотки (звуки камеры)
-    img 31550
+    music Sneaky_Snitch
+    imgf 31550
     w
-    img 31503
+    sound snd_photo_capture
+    imgd 31503
     bardie_t "Готово!!!"
     # затемнение
     # Ральф и Моника стоят в гостиной
-    img 31551
+    fadeblack
+    sound snd_fabric
+    pause 2.0
+    music Hidden_Agenda
+    imgfl 31551
     w
-    img 31552
+    imgf 31552
     m "Мистер Робертс, вам понравилось?"
     m "Я могу еще прийти к вам?"
     # Ральф стоит довольный
-    img 31553
+    music Groove2_85
+    imgd 31553
     ralph "Да, Бетти."
     ralph "Мне очень понравилось!"
     ralph "Обязательно приходи ко мне еще!"
@@ -373,16 +517,18 @@ label ep214_dialogues5_bardie_ralph_6a:
 # фитнес зал, раздевалка
 label ep214_dialogues5_bardie_ralph_7:
     # Моника стоит у шкафчиков, уже в своей одежде
-    img 31554
+    fadeblack 2.0
+    music Stealth_Groover
+    imgfl 31554
     w
-    img 31555
+    imgf 31555
     mt "Эта провинциалка Бетти ничего не заметила."
     mt "Видимо, слишком занята с фитнес тренером."
     #
     $ notif(_("Бетти изменяет Ральфу с фитнес тренером."))
     #
     mt "Малявка Барди был прав."
-    img 31556
+    imgd 31556
     mt "Кстати, насчет малявки..."
     mt "Нужно узнать у него, записал он грехопадение Ральфа со мной или нет."
     mt "Хи-хи!!"
@@ -393,17 +539,22 @@ label ep214_dialogues5_bardie_ralph_7:
 label ep214_dialogues5_bardie_ralph_8:
     # Моника заходит к Барди в комнату
     # Барди валяется на кровати
-    img 31557
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 31557
     w
-    img 31558
+    imgf 31558
     m "Барди, тебе удалось раздобыть матералы?"
+    music Sneaky_Snitch
     bardie "Да!"
     bardie "Молодец, гувернантка!"
     bardie "В конце учебного года, когда мне выставят оценки..."
     bardie "Я покажу Ральфу это видео, чтоб он не ругал меня."
     bardie "Это будет отличный способ установить, кто здесь на самом деле хозяин!"
     mt "!!!"
-    img 31559
+    imgd 31559
     bardie "Ты сегодня хорошо поработала, гувернантка."
     bardie "Хозяин тобой очень доволен."
     bardie "Можешь идти."
@@ -423,14 +574,18 @@ label ep214_dialogues5_bardie_ralph_9:
 # если в любой другой день подойти к Ральфу в форме гувернантки
 label ep214_dialogues5_bardie_ralph_9a:
     # в гостиной, Ральф с книгой
-    img 31560
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 31560
     w
-    img 31561
+    imgf 31561
     m "Мистер Робертс..."
     ralph "Тсс!"
     ralph "Бетти, мы с тобой должны скрывать наши отношения!"
     ralph "Я не хочу, чтобы моя другая Бетти узнала об этом!"
-    img 31562
+    imgd 31562
     m "Хорошо, Мистер Робертс."
     mt "До сих пор боится эту деревенщину Бетти!"
     mt "Жалкий подкаблучник! Фи!"
@@ -440,9 +595,13 @@ label ep214_dialogues5_bardie_ralph_9a:
 # Моника в наряде Бетти заходит в гостиную
 label ep214_dialogues5_bardie_ralph_10:
     # Ральфа в гостиной нет
-    img 31563
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Stealth_Groover
+    imgfl 31563
     w
-    img 31564
+    imgf 31564
     mt "Хммм..."
     mt "Странно..."
     mt "Куда этот никчемный Ральф мог деться?"
@@ -492,9 +651,13 @@ label ep214_dialogues5_bardie_ralph_11f:
 # бывшая спальня Моники (первая встреча в спальне)
 label ep214_dialogues5_bardie_ralph_12a:
     # Ральф лежит на кровати
-    img 31565
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Stealth_Groover
+    imgf 31565
     w
-    img 31566
+    imgd 31566
     mt "Ну наконец-то!"
     mt "Устроил тут прятки!"
     mt "!!!"
@@ -503,12 +666,13 @@ label ep214_dialogues5_bardie_ralph_12a:
 # бывшая спальня Моники
 label ep214_dialogues5_bardie_ralph_12:
     # Ральф самодовольно говорит Монике
-    img 31567
+    music Hidden_Agenda
+    imgf 31567
     ralph "А, плохая гувернантка снова хочет соблазнить хозяина в его доме!"
     ralph "Пока хозяйка не видит!"
     ralph "Признавайся, Бетти!"
     # Моника притворно улыбается
-    img 31568
+    imgd 31568
     m "Да, Мистер Робертс."
     m "Ваша Бетти соскучилась по вам!"
     ralph "Иди сюда!"
@@ -517,13 +681,15 @@ label ep214_dialogues5_bardie_ralph_12:
 
     # Моника не спешит идти к нему
     # игриво улыбается и скидывает с себя платье на пол
-    img 31569
+    imgf 31569
     w
-    img 31570
+    sound vjuh3
+    imgd 31570
     w
-    img 31571
+    imgf 31571
     w
-    img 31572
+    music Stealth_Groover
+    imgd 31572
     mt "Какой же он мерзкий, этот никчемный Ральф!"
     mt "!!!"
     mt "Но я должна это сделать!"
@@ -534,7 +700,8 @@ label ep214_dialogues5_bardie_ralph_12:
     mt "Которая завладела моей кроватью и валяется в ней своей жирной задницей!"
     mt "Ненавижу эту деревенщину!"
     # Ральф зовет Монику к себе на кровать
-    img 31573
+    music Loved_Up
+    imgf 31573
     ralph "Иди ко мне скорее!"
     # Моника лезет к нему на кровать
     # Ральф похотливо смотрит на нее
@@ -814,12 +981,14 @@ label ep214_dialogues5_bardie_ralph_12:
             img 31672
             w
             img 31673
-            w
+            ralph "Оооох, Бетти!"
             img 31674
             w
             img 31675
             w
             img 31676
+            ralph "Оооох..."
+
             ralph "Ммммм..."
             # Моника смотрит на него игриво
             img 31684
