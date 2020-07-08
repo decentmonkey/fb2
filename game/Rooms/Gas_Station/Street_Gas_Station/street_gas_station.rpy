@@ -9,6 +9,12 @@ label street_gas_station:
     else:
         music street_evening4
 
+
+    $ set_active("Fuel1", False)
+    $ set_active("Fuel2", False)
+    $ set_active("Logo", False)
+    $ set_active("Station_Building", False)
+#    $ set_active("Teleport_Inside", False)
     return
 
 label street_gas_station_init:
