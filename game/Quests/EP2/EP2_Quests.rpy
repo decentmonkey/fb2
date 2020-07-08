@@ -449,7 +449,7 @@ label monica_after_charity_event_dick_entrance_talk1:
 
 label monica_after_charity_event_go_dick:
     call monica_office_dialogue1() from _call_monica_office_dialogue1
-    return False
+    return
 
 label monica_after_charity_event_return_home:
 #    $ monicaCantSleepHungry = False

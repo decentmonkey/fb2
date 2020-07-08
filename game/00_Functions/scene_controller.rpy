@@ -130,7 +130,7 @@ label show_scene_loop:
     $ engine2_inited_flag = True
     $ interact_data = None
     $ interact_data = ui.interact()
-    if interact_data != None:
+    if interact_data != None and interact_data != False:
         if interact_data[0] == "process_object_click":
             call process_object_click(interact_data[1], interact_data[2], interact_data[3]) from _rcall_sprites_action1
         if interact_data[0] == "process_object_click_alternate_action":
@@ -157,11 +157,11 @@ label show_scene_loop:
             call bed_basement_fast_sleep()
 
 
-
 label show_scene_loop2:
 #    pause
     $ pause_exit += 1
     if show_scene_loop_flag == False:
+        show screen screen_sprites(scene_data)
         jump show_scene_loop
     else:
         jump show_scene
