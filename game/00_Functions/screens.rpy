@@ -267,7 +267,7 @@ screen screen_sprites(data):
                                             else:
                                                 $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskName)) if maskName != False else Image(spriteImageStr)
 #                                        $ idleImg = Flatten(idleImg)
-                                        $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+                                        #$ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
                                     else:
                                         $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
                                     $ hoverImg = idleImg
@@ -324,8 +324,8 @@ screen screen_sprites(data):
                                                     hoverImg,
                                                     im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment)
                                                 )
-                                            $ hoveredImage = Flatten(hoveredImage)
-                                            $ sceneSpriteSurfacesCache[scene_name + i] = hoveredImage
+                                            #$ hoveredImage = Flatten(hoveredImage)
+                                            #$ sceneSpriteSurfacesCache[scene_name + i] = hoveredImage
                                         else:
                                             $ hoveredImage = sceneSpriteSurfacesCache[scene_name + i]
                                         imagebutton:
@@ -464,7 +464,7 @@ screen screen_sprites(data):
     #                                            $ idleImg = Image(spriteImageStr)
                                         else:
                                             $ idleImg = Image(spriteImageStr)
-                                        $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+                                        #$ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
                                     else:
                                         $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
@@ -473,7 +473,7 @@ screen screen_sprites(data):
                                             idleImg,
                                             im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
                                         )
-                                        $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+                                        #$ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
                                     else:
                                         $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
 
@@ -527,7 +527,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
             else:
                 $ idleImg = Image(spriteImageStr)
     #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-            $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+            #$ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
         else:
             $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
@@ -536,7 +536,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
             )
-            $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+            #$ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
         else:
             $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
         fixed:
@@ -573,7 +573,7 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
             else:
                 $ idleImg = Image(spriteImageStr)
     #        $ idleImg = im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)) if maskImageStr != False else Image(spriteImageStr)
-            $ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
+            #$ sceneSpriteSurfacesCacheIdle[scene_name + i] = Flatten(idleImg)
         else:
             $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
@@ -582,7 +582,7 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
             )
-            $ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
+            #$ sceneSpriteSurfacesCache[scene_name + i] = Flatten(spriteImage)
         else:
             $ spriteImage = sceneSpriteSurfacesCache[scene_name + i]
         fixed:
