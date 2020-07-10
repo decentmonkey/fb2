@@ -21,6 +21,8 @@ label ep28_betty_college_init:
 label ep28_betty_college2:
     if monicaRestHouse != True:
         return
+    if check_hook("ep24_quests_steve2", scene="global_week_day") == True or check_hook("ep24_quests_steve13", scene="global_week_day") == True:
+        return
     if check_scene_parent(scene_name, "House", recursive=True) == False:
         return
     $ remove_hook()
@@ -156,6 +158,8 @@ label ep28_betty_college2_teacher_day1d: # Квест остановлен
 label ep28_betty_college2_teacher_day2: # Инициализация 2-го дня похода к учителю
     if monicaRestHouse != True:
         return
+    if check_hook("ep24_quests_steve2", scene="global_week_day") == True or check_hook("ep24_quests_steve13", scene="global_week_day") == True:
+        return
 
     if week_day == 7:
         return
@@ -239,6 +243,8 @@ label ep28_betty_college2_teacher_day3: # Инициализация дня 3
     if monicaRestHouse != True:
         return
     if week_day == 7 or ep28_day_var1 >= day:
+        return
+    if check_hook("ep24_quests_steve2", scene="global_week_day") == True or check_hook("ep24_quests_steve13", scene="global_week_day") == True:
         return
     if check_scene_parent(scene_name, "House", recursive=True) == False: # Проверяем что мы в доме (а не где-то у Маркуса и тд)
         return

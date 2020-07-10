@@ -83,6 +83,8 @@ label ep28_monica_bardie_eric_college0:
 label ep28_monica_bardie_eric_college1:
     if day_time != "evening":
         return
+    if check_hook("ep24_quests_steve2", scene="global_week_day") == True or check_hook("ep24_quests_steve13", scene="global_week_day") == True:
+        return
     $ remove_hook()
     $ autorun_to_object("dialogue_classmate_1d", scene="basement_bedroom2")
     $ add_hook("enter_scene", "dialogue_classmate_1b", scene="floor2", label="bardie_eric_quest_college", once=True)
