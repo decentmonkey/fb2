@@ -38,6 +38,7 @@ label ep211_slums_apartments_quest1_menu:
         $ cloth_type = "Whore"
         $ map_enabled = False
         $ monicaHomeMiniMapEnabled = False
+        $ hudDaySkipToEveningEnabled = False
         music stop
         img black_screen
         with diss
@@ -107,6 +108,8 @@ label ep211_slums_apartments_quest3_jack:
         $ slumsApartmentsMiniMapActive = False
         $ slumsDirtyStreetMiniMapActive = True
         $ map_enabled = True
+        $ hudDaySkipToEveningEnabled = True
+
         call change_scene("hostel_street", "Fade_long") from _rcall_change_scene_6
         return False
     $ slumsApartmentsStatus = 1
@@ -128,6 +131,7 @@ label ep211_slums_apartments_quest3_jack:
     $ cloth_type = "HomeCloth"
     $ map_enabled = True
     $ monicaHomeMiniMapEnabled = True
+    $ hudDaySkipToEveningEnabled = True
     $ autorun_to_object("ep211_dialogues6_slum_apartment_7", scene="monicahome_livingroom")
     if week_day > 3 and week_day != 7:
         $ slumsApartmentsSkipFirstSaturdayActive = True
