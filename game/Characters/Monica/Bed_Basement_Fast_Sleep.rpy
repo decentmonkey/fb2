@@ -5,7 +5,7 @@ label bed_basement_fast_sleep:
     $ remove_hook(label="fast_sleep_process")
     if slumsApartmentsRentActive != True and monica_living_at_juliahome != True:
         jump bed_basement_fast_sleep_monica_house
-    if scene_name == "street_house_main_yard":
+    if scene_name == "street_house_main_yard" or scene_name == "street_house_gate" or scene_name == "street_house_fence":
         jump bed_basement_fast_sleep_monica_house
     menu:
         "Дом Моники.":
