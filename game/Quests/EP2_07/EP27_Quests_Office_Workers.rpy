@@ -1,4 +1,7 @@
 default ep27_flash_card_reports_done_arr = []
+default ep27_flash_card_reports_done_count = 0
+default ep27_flash_card_reports_skip_offered_day = 0
+
 label ep27_quests_office_workers1: #Клик на воркеров, когда идет сбор отчетов
     if act=="l":
         return
@@ -6,6 +9,17 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
         return
     if obj_name in ep27_flash_card_reports_done_arr: # уже собирали отчет у этого сотрудника
         return
+
+    $ monicaWorkFlashCardNeedReportsAmount = 6
+
+    if ep27_flash_card_reports_done_count >= 1 and ep27_flash_card_reports_skip_offered_day < day:
+        $ ep27_flash_card_reports_skip_offered_day = day
+        menu:
+            "Пропустить.":
+                $ monicaWorkFlashCardReportsCollected = monicaWorkFlashCardNeedReportsAmount
+                jump ep27_quests_office_workers1_end
+            "Собирать отчеты.":
+                pass
 
     if obj_name == "Worker1":
         call takeReportsFlashCard_Worker1() from _call_takeReportsFlashCard_Worker1
@@ -24,12 +38,16 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
 
 
     $ ep27_flash_card_reports_done_arr.append(obj_name)
-    $ monicaWorkFlashCardReportsCollected += 1
+    if obj_name != "Worker2":
+        $ monicaWorkFlashCardReportsCollected += 1
+
+label ep27_quests_office_workers1_end:
     if monicaWorkFlashCardReportsCollected == monicaWorkFlashCardNeedReportsAmount: # Проверяем что собраны все отчеты
         $ monicaWorkFlashCardQuestReportsCollectedBySelf = True # Моника собрала отчеты сама
         $ monicaWorkFlashCardQuestNeedGiveReports = True
         $ monicaWorkFlashCardQuestReportsNeedTalkBiff = True
         $ monicaWorkFlashCardReportLastDay = day
+        $ ep27_flash_card_reports_done_count += 1
         $ remove_objective("reports_to_biff")
         $ add_objective("reports_to_biff", t_("Отдать собранные отчеты для Бифа."), c_green, 20)
         $ autorun_to_object("ep27_dialogues6_julia2", scene=scene_name)
