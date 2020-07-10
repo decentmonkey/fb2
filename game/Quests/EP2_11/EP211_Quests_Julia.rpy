@@ -78,6 +78,7 @@ label ep211_quests_julia4_talk:
         $ char_info["Julia"]["progress"] = 0
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
         $ autorun_to_object("ep211_dialogues4_julia_9", scene="street_juliahome")
+        $ remove_hook(label="ep29_quests_julia3_workers")
         $ remove_objective("find_julia_panties_color")
         call change_scene("street_juliahome", "Fade_long") from _rcall_change_scene_16
         return False

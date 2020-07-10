@@ -20,6 +20,7 @@ label ep29_quests_julia_fred_catch1:
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
     else:
         $ juliaQuestStage1_Progress = 6
 

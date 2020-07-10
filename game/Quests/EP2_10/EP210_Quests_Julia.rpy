@@ -23,6 +23,7 @@ label ep210_quests_julia1: # Разговор после атаки офисны
         $ e210_quests_julia_aborted = True
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
         call refresh_scene_fade() from _call_refresh_scene_fade_251
         return False
     $ questLog(63, True)
@@ -83,6 +84,7 @@ label ep210_quests_julia2_cafe: # Клик на кафе
         $ e210_quests_julia_aborted = True
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
         call process_change_map_location("House") from _call_process_change_map_location_7
         call change_scene("street_house_outside", "Fade_long") from _call_change_scene_500
         return False

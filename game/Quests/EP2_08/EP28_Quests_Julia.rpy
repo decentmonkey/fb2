@@ -13,6 +13,7 @@ label ep28_quests_julia_fred_catch1: # Фред ловит Монику на в�
     if _return == False:
         $ remove_objective("find_julia_panties_color")
         $ juliaQuestMonicaRefusedFred = True
+        $ remove_hook(label="ep29_quests_julia3_workers")
     else:
         $ juliaQuestStage1_Progress = 1
     $ move_object("Melanie", "empty")
@@ -88,6 +89,7 @@ label ep28_quests_julia_fred_catch2: # Фред ловит Монику на в�
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
     else:
         $ juliaQuestStage1_Progress = 3
     $ move_object("Melanie", "empty")
@@ -110,6 +112,7 @@ label ep28_quests_julia_fred_catch3: # Фред ловит Монику на в�
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
     else:
         $ juliaQuestStage1_Progress = 4
     call change_scene("monica_office_secretary_teatable") from _call_change_scene_387
@@ -131,6 +134,7 @@ label ep28_quests_julia_fred_catch4: # Фред ловит Монику на в�
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
+        $ remove_hook(label="ep29_quests_julia3_workers")
     else:
         $ juliaQuestStage1_Progress = 5
     call change_scene("monica_office_photostudio") from _call_change_scene_388

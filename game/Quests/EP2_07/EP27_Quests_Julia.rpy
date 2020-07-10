@@ -72,6 +72,8 @@ label ep27_quests_julia2: # Проверка на первый приход Фр
         call characters_init_julia() from _call_characters_init_julia
     else:
         $ juliaQuestRefused = True
+        $ remove_hook(label="ep29_quests_julia3_workers")
+
     return False
 
 label ep27_quests_julia3: # Юлия, ты сегодня хорошо выглядишь
