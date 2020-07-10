@@ -5,6 +5,7 @@ default kebabWorkFlyersLeft = 0
 default kebabWorkFlyersTotal = 0
 default kebabWorkMonicaRefusedAmount = 0
 default kebabWorkHarassmentAmount = 0
+default monicaKebabWorkLastDay = 0
 
 default kebabOffendQuestJustCompleted = False
 
@@ -103,7 +104,7 @@ label kebab_work_trader_interact2:
             call kebab_work_end() from _call_kebab_work_end
             call refresh_scene_fade() from _call_refresh_scene_fade_18
             return False
-        if monicaEatedLastDay == day and monica_cheats_hungry_enabled == True:
+        if monicaEatedLastDay == day and (monica_cheats_hungry_enabled == True or monicaKebabWorkLastDay == day):
             if slumsApartmentsShawarmaTraderDialogue1Active == True:
                 call ep211_slums_apartments_quest1_menu() from _rcall_ep211_slums_apartments_quest1_menu
                 if _return == False:
@@ -150,6 +151,7 @@ label kebab_work_end:
     $ cloth = cloth_last
     $ map_enabled = last_map_enabled
     $ monicaKebabWorkAmount +=1
+    $ monicaKebabWorkLastDay = day
     if kebabOffendQuestJustCompleted == True:
         $ kebabOffendQuestJustCompleted = False
         call change_scene("hostel_street2") from _call_change_scene_184
