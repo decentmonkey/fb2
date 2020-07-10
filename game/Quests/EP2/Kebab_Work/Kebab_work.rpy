@@ -103,7 +103,7 @@ label kebab_work_trader_interact2:
             call kebab_work_end() from _call_kebab_work_end
             call refresh_scene_fade() from _call_refresh_scene_fade_18
             return False
-        if monicaEatedLastDay == day:
+        if monicaEatedLastDay == day and monica_cheats_hungry_enabled == True:
             if slumsApartmentsShawarmaTraderDialogue1Active == True:
                 call ep211_slums_apartments_quest1_menu() from _rcall_ep211_slums_apartments_quest1_menu
                 if _return == False:
