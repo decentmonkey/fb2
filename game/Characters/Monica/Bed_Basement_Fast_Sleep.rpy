@@ -5,6 +5,8 @@ label bed_basement_fast_sleep:
     $ remove_hook(label="fast_sleep_process")
     if slumsApartmentsRentActive != True and monica_living_at_juliahome != True:
         jump bed_basement_fast_sleep_monica_house
+    if scene_name == "street_house_main_yard":
+        jump bed_basement_fast_sleep_monica_house
     menu:
         "Дом Моники.":
             jump bed_basement_fast_sleep_monica_house
@@ -19,7 +21,7 @@ label bed_basement_fast_sleep:
 
 label bed_basement_fast_sleep_monica_house:
     # Идем к Монике в спальню в подвале
-    if map_objects.has_key("Teleport_House") and map_objects["Teleport_House"]["state"] != "visible":
+    if map_objects.has_key("Teleport_House") and map_objects["Teleport_House"]["state"] != "visible" and map_objects["Teleport_House"]["state"] != "active":
         sound click_denied
         return
     $ fastSleepInProcess = True
@@ -60,7 +62,7 @@ label bed_basement_fast_sleep_monica_house_step3:
 
 label bed_basement_fast_sleep_house_slums:
     # Идем к Монике в спальню в дом в трущобах
-    if map_objects.has_key("Teleport_Slums_Apartments") and map_objects["Teleport_Slums_Apartments"]["state"] != "visible":
+    if map_objects.has_key("Teleport_Slums_Apartments") and map_objects["Teleport_Slums_Apartments"]["state"] != "visible" and map_objects["Teleport_Slums_Apartments"]["state"] != "active":
         sound click_denied
         return
     $ fastSleepInProcess = True
@@ -102,7 +104,7 @@ label bed_basement_fast_sleep_house_slums_step3:
 
 
 label bed_basement_fast_sleep_juliahome:
-    if map_objects.has_key("Teleport_JuliaHome") and map_objects["Teleport_JuliaHome"]["state"] != "visible":
+    if map_objects.has_key("Teleport_JuliaHome") and map_objects["Teleport_JuliaHome"]["state"] != "visible" and map_objects["Teleport_JuliaHome"]["state"] != "active":
         sound click_denied
         return
     # Идем к Юлии в спальню
