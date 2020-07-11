@@ -40,8 +40,10 @@ init python:
         return scene_data
 
     def add_char_progress(char_name, progress_value, progress_name, **kwargs):
-        global char_data
+        global char_data, char_info
         duplicate = False
+        if char_info.has_key(char_name) == False:
+            return
         if kwargs.has_key("duplicate") == True and kwargs["duplicate"] == True:
             duplicate = True
         else:
