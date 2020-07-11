@@ -8,6 +8,8 @@ default monicaPubPrivatDanceJoe3 = False # Моника согласилась �
 
 default monicaPubPrivate1CumZone = 0
 
+default monicaTakeLightFromFloor = False
+
 # приват будет доступен один раз в неделю
 label ep212_dialogues2_shiny_hole_menu_private:
     img scene_Pub_Stage1
@@ -1085,16 +1087,19 @@ label ep212_dialogues2_shiny_hole_3:
     with diss
     customer3 "Давай! Сделай это передо мной!"
     customer3 "Здесь больше никого нет!"
-    # если уже было
-    music Groove2_85
-    img 23723
-    with diss
-    m "Я уже поднимала эту зажигалку..."
-    img 23722
-    with fade
-    customer3 "Но ведь ты хочешь еще чаевые?"
-    customer3 "Тогда подними ее еще раз!"
-    #
+
+    if monicaTakeLightFromFloor == True:
+        # если уже было
+        music Groove2_85
+        img 23723
+        with diss
+        m "Я уже поднимала эту зажигалку..."
+        img 23722
+        with fade
+        customer3 "Но ведь ты хочешь еще чаевые?"
+        customer3 "Тогда подними ее еще раз!"
+        #
+
     img 14286
     with diss
     m "..."
@@ -1108,6 +1113,7 @@ label ep212_dialogues2_shiny_hole_3:
             sound highheels_short_walk
             m "Сам поднимай свои зажигалки, придурок!"
             return False
+    $ monicaTakeLightFromFloor = True
     music Groove2_85
     img 23724
     with fade

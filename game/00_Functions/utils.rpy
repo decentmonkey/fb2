@@ -15,7 +15,11 @@ init python:
         return False
 
     def mycopytext(t):
-        pygame.scrap.put(pygame.scrap.SCRAP_TEXT, t.encode("utf-8"))
+        try:
+            pygame.scrap.put(pygame.scrap.SCRAP_TEXT, t.encode("utf-8"))
+        except:
+            print "error copy to clipboard!"
+
         return
 
     def makeDump():
