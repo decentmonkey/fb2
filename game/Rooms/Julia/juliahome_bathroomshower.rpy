@@ -9,6 +9,9 @@ label juliahome_bathroomshower:
 
     $ scene_image = "scene_JuliaHome_BathroomShower[juliaHomeBathroomShowerSceneSuffix]"
 
+    $ set_active("Monica", False)
+    $ set_active("Julia", False)
+
     if day_time == "day":
         music Stealth_Groover
     else:
