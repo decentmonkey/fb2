@@ -46,6 +46,9 @@ label pub:
 
     if ep213_quests_pub1_inited == False:
         call ep213_quests_pub1() from _rcall_ep213_quests_pub1 # Проверка на продолжение квестов
+
+    if ep214_quests_pub1_check_inited_flag == False:
+        call ep214_quests_pub1_check_init()
     return
 label pub_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"pub_Monica_[cloth][pubMonicaSuffix]", "click" : "pub_environment", "actions" : "l", "zorder" : 200}, scene="pub")
@@ -83,6 +86,10 @@ label pub_init:
 
 label pub_ini2:
     $ add_object_to_scene("Teleport_Pub_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "pub_teleport", "xpos" : 225, "ypos" : 1023, "zorder":250, "teleport":True, "high_sprite_hover":True}, scene="pub")
+    return
+
+label pub_init3:
+    $ add_object_to_scene("Poster1", {"type" : 2, "base" : "Pub_Poster1", "click" : "pub_environment", "actions" : "l", "zorder":0}, scene="pub")
     return
 
 #                            $ brightness_adjustment = 0.1

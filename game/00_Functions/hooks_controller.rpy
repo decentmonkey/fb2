@@ -3,7 +3,6 @@ default sprites_hover_dummy_screen_flag = False
 default hooks_log = {}
 default hook_log_idx = 0
 init python:
-
     def add_hook(*args, **kwargs): #устанавливает хук
         obj_name = args[0]
         hook_label = args[1]
@@ -310,6 +309,17 @@ init python:
                     if scenes_data["hooks"][room_name].has_key(obj_name):
                         scenes_data["hooks"][room_name][obj_name] = []
 
+
+    def enter_scene(hook_label, **kwargs):
+        add_hook("enter_scene", hook_label, scene="global", **kwargs)
+        return
+
+    def add_talk(*args, **kwargs):
+        obj_name = args[0]
+        hook_label = args[1]
+        add_hook(obj_name, hook_label, act="th", **kwargs)
+        return
+
     def find_hook_by_label(hooks_list, hook_label):
         for idx in range(len(hooks_list)):
             if hooks_list[idx]["hook_label"] == hook_label:
@@ -384,9 +394,10 @@ label process_hooks(hook_obj_name, room_name = False, sprites_hover_dummy_screen
             $ hooks_log[label_name] = hook_log_idx
             $ hook_log_idx += 1
             if (hook_data.has_key("owner") == False and owner == "Monica") or (hook_data.has_key("owner") == True and hook_data["owner"] == owner) or noowners == True:
-                if hook_data.has_key("once") and hook_data["once"] == True:
-                    $ remove_hook()
-                call expression label_name from _call_expression_5 #вызов хука
+                if hook_data.has_key("act") == False or (act in hook_data["act"]):
+                    if hook_data.has_key("once") and hook_data["once"] == True:
+                        $ remove_hook()
+                    call expression label_name from _call_expression_5 #вызов хука
         $ stack_data = hooks_stack.pop()
         $ label_name = stack_data[2]
         $ idx = stack_data[3]

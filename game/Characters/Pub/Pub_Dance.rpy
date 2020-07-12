@@ -54,6 +54,7 @@ label pub_dance_start: # Начало танцев (выбор в меню)
     if _return == False:
         call refresh_scene_fade() from _rcall_refresh_scene_fade_44
         return
+label pub_dance_start_direct:
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
     $ monicaDancingInProgress = True
     if pubMakeupRoomGirlsRandomSuffix == True:

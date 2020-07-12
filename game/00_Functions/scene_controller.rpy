@@ -109,7 +109,9 @@ label show_scene_now:
 
     if refreshed_scene_name != scene_name:
         $ refreshed_scene_name = scene_name
-        call process_hooks("enter_scene", scene_name) from _call_process_hooks_13 #хук вызывается после входа на сцену и отрисовки (как autorun)
+        call process_hooks("enter_scene", "global")
+        if _return != False:
+            call process_hooks("enter_scene", scene_name) from _call_process_hooks_13 #хук вызывается после входа на сцену и отрисовки (как autorun)
         call remove_dialogue() from _call_remove_dialogue_2
     if scene_refresh_flag == True:
         jump show_scene

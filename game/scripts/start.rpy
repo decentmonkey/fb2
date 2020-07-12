@@ -36,6 +36,8 @@ default minimap_coords_preset = 0
 default after_load_ready_to_render = False
 default nextFriday = -1
 
+default act = ""
+
 label start:
     #new game
     $ after_load_ready_to_render = True
@@ -266,6 +268,7 @@ label start_game:
     $ ep211_quests_load_init_flag = True
     $ ep212_quests_load_init_flag = True
     $ ep213_quests_load_init_flag = True
+    $ ep214_quests_load_init_flag = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data
