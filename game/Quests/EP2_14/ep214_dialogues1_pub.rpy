@@ -840,17 +840,18 @@ label ep214_dialogues1_pub_8:
     w
     # смена кадра, айтишник
     # звук бзззз - Юлия приседает забрать чашки и айишнику видно, что она без трусиков
-    fadeblack
-    sound camera_zoom
-    pause 2.0
-    music Marty_Gots_a_Plan
-    imgfl 31485
-    w
-    imgf 31489
-    w
-    imgd 31472
-    w2t "Хмм... Мне кажется или Юлия теперь ходит без трусиков?"
-    w2t "Как и Миссис Бакфет..."
+    if ep212_monica_known_julia_panties_color == True:
+        fadeblack
+        sound camera_zoom
+        pause 2.0
+        music Marty_Gots_a_Plan
+        imgfl 31485
+        w
+        imgf 31489
+        w
+        imgd 31472
+        w2t "Хмм... Мне кажется или Юлия теперь ходит без трусиков?"
+        w2t "Как и Миссис Бакфет..."
     # звук каблуков
     sound highheels_short_walk
     imgd 31473

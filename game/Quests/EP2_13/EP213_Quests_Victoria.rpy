@@ -53,4 +53,9 @@ label ep213_quests_victoria3_loop2:
     return
 
 label ep213_quests_victoria4_checknext:
+    if day - ep213_quests_victoria_completed_day >= 1 and ep214_quests_melanie_day == 0:
+        # на следующий день сцена
+        $ move_object("Melanie", "empty")
+        $ add_hook("change_time_evening", "ep214_quests_melanie", scene="global", label="ep214_melanie")
+        return
     return

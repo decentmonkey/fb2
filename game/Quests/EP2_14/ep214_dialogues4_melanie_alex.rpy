@@ -5,6 +5,7 @@ default melanieAlexFirstDate3 = False  # Мелани и Алекс занима
 #call ep214_dialogues4_melanie_alex_1() # разговор с Викторией у Мелани дома
 #call ep214_dialogues4_melanie_alex_2() # свидание с Алексом
 
+default melanieAlexFirstDate_cumzone = 0
 
 # апартаменты Мелани
 label ep214_dialogues4_melanie_alex_1:
@@ -47,6 +48,7 @@ label ep214_dialogues4_melanie_alex_1:
     w
     music Groove2_85
     imgd 18849
+    sound snd_woman_laugh3
     victoria "Я бы с удовольствием осталась и помогла тебе, подружка..."
     victoria "Но я не хочу смущать Алекса."
     # Виктория хихикает
@@ -312,6 +314,9 @@ label ep214_dialogues4_melanie_alex_2:
     # Мелани, глядя в камеру, говорит
     imgf 18872
     melanie "Алекс, я..."
+    imgd 18924
+    w
+    imgf 18872
     melanie "Я мечтала о твоем члене, рисовала его и думала в тот момент о тебе."
     melanie "Это твоя работа и я хочу, чтобы это тут осталось."
     melanie "Как символ наших с тобой чувств."
@@ -321,6 +326,7 @@ label ep214_dialogues4_melanie_alex_2:
     fadeblack 2.0
     music Groove2_85
     imgfl 19024
+    sound snd_woman_laugh3
     w
     # Алекс удивленно смотрит на Мелани
     fadeblack 2.0
@@ -402,12 +408,13 @@ label ep214_dialogues4_melanie_alex_2:
     # Алекс смотрит на нее обалдевшим взглядом
     # она садится напротив него, смотрит в камеру
     fadeblack
+    sound2 snd_fabric1
     sound highheels_short_walk
-    pause 2.0
+    pause 2.5
     music ZigZag
     imgfl 18908
     w
-    imgf 18909
+    img 18909 vpunch
     w
     imgd 18910
     w
@@ -433,7 +440,7 @@ label ep214_dialogues4_melanie_alex_2:
     music Loved_Up
     imgf 18915
     alex_photograph "Оооо!!!"
-    imgd 19013
+    imgfl 19013
     alex_photograph "Оооо, Меланиии..."
     # Алекс взглядом маньяка рассматривает ее, потом припадает губами к ее киске, ликинг
     imgf 18916
@@ -630,6 +637,7 @@ label ep214_dialogues4_melanie_alex_2:
     alex_photograph "Мммм..."
     alex_photograph "Мелани..."
     # целует ее лицо, шею
+    sound snd_fabric1
     imgd 18953
     alex_photograph "Ты само совершенство, Мелани..."
     # спускается на плечи, потом ниже
@@ -897,6 +905,8 @@ label ep214_dialogues4_melanie_alex_2:
     w
     imgd 18996
     w
+    fadeblack 1.5
+    music Loved_Up
     sound chpok6
     img 18997 vpunch
     alex_photograph "Ооооо!!!"
@@ -968,6 +978,7 @@ label ep214_dialogues4_melanie_alex_2:
             melanie "Алекс!"
             melanie "!!!"
             # испуганный взгляд на камеру
+            $ melanieAlexFirstDate_cumzone = 1
             pass
         "Кончить на киску Мелани.":
             imgd 19008
@@ -994,6 +1005,7 @@ label ep214_dialogues4_melanie_alex_2:
             imgd 19012
             w
             # Мелани смотрит недовольно на камеру
+            $ melanieAlexFirstDate_cumzone = 2
             pass
     # смена кадра, офис Дика
     # Виктория кончает
@@ -1052,4 +1064,5 @@ label ep214_dialogues4_melanie_alex_2:
     melanie "!!!"
     # Мелани зло на него смотрит
     # занавес
+    fadeblack 3.0
     return

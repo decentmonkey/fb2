@@ -27,6 +27,10 @@ label juliaProgressLevelUp:
 
     if char_data["level"] == 8:
         $ char_data["enabled"] = True
+
+    if char_data["level"] == 9:
+        $ char_data["enabled"] = True
+        $ char_data["caption"] = t_("Юлия любит Монику и хочет с ней пробовать все виды развлечений.")
 #        $ char_data["caption"] = t_("Юлия любит Монику и хочет быть с ней.")
 
 

@@ -13,6 +13,8 @@ default julia_progress_list = [False, False, False, False, False, False, False, 
 default juliahome_julia_shower_time = 0
 default juliahome_kitchen_events_activated = False
 
+default juliahome_julia_piss1_day = 0
+
 label ep213_quests_julia1: # Моника предлагает Юлии жить вместе
     call ep213_dialogues5_julia_16() from _rcall_ep213_dialogues5_julia_16
     $ ep213_quests_julia_stage = 1
@@ -89,13 +91,19 @@ label ep213_quests_julia2: # Заходит вечером в дом
 
     $ questLog(74, True)
 
+    call ep213_quests_julia2_req_init()
+
+    call change_scene("juliahome_livingroom", "Fade_long", False) from _rcall_change_scene_97
+    return False
+
+label ep213_quests_julia2_req_init:
     python:
         menu_required["julia_work1"] = {
             "Массаж для Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene1},
             "На рабочем столе Моники.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene3},
             "На диване в комнате отдыха.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene6},
             "Под столом Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene7},
-            "В отделе отчетов.":{"name":"Julia", "level":8, "current_progress":0},
+            "В отделе отчетов.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene9},
             "Приласкать ее грудь.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2},
             "Приласкать ее киску.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2b},
             "Продолжить ласкать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2c},
@@ -110,11 +118,7 @@ label ep213_quests_julia2: # Заходит вечером в дом
             "Приласкать ее киску.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene8b},
             "Засунуть в нее дилдо.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene8c}
         }
-
-
-    call change_scene("juliahome_livingroom", "Fade_long", False) from _rcall_change_scene_97
-    return False
-
+    return
 
 label ep213_quests_julia3_shower: # клик на душ
     if act=="l":
@@ -124,6 +128,8 @@ label ep213_quests_julia3_shower: # клик на душ
         mt "Я уже принимала душ недавно..."
         return False
     call ep213_dialogues5_julia_15c2() from _rcall_ep213_dialogues5_julia_15c2
+    if char_info["Julia"]["level"] >= 8 and char_info["Julia"]["current_progress"] >= juliaMonicaRelationshipRequiredScene10 and get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
+        call ep213_dialogues5_julia_10b()
     $ monicaLastShowerDay = day # Последний день, когда Моника принимала душ
     $ monicaLastShowerDayTime = day_time
     $ juliaHomeBathroomMonicaSuffix = 3
@@ -283,6 +289,19 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
         call change_scene("juliahome_bathroom", "Fade_long", False) from _rcall_change_scene_106
         return False
 
+    if scene_name == "juliahome_bathroom" and juliaHomeBathroomJuliaSuffix == 2 and char_info["Julia"]["level"] >= 9: # Юлия сидит на унитазе
+        call ep213_dialogues5_julia_10a()
+        if _return == False:
+            call change_scene("juliahome_kitchen", "Fade_long", "snd_walk_barefoot")
+            return False
+        $ juliahome_julia_piss1_day = day
+        $ move_object("Julia", "juliahome_livingroom")
+        $ cloth = monica_juliahome_outside_cloth
+        $ cloth_type = monica_juliahome_outside_cloth_type
+        $ enter_scene("ep213_dialogues5_julia_10a2", once=True)
+        call change_scene("street_juliahome", "Fade_long")
+        return False
+
     if scene_name == "juliahome_kitchen": # Регулярный разговор на кухне
         call ep213_dialogues5_julia_9b() from _rcall_ep213_dialogues5_julia_9b
         call refresh_scene_fade() from _rcall_refresh_scene_fade_68
@@ -424,6 +443,7 @@ label ep213_quests_julia21_monica_after_sleep:
 
 
 label ep213_quests_julia22_work_julia_regular:
+    call ep213_quests_julia2_req_init()
     if monica_living_at_juliahome == False:
         return
     if act == "l":

@@ -96,7 +96,7 @@ label ep213_dialogues5_julia_1a: # на работе вечером
     menu:
         "Поцеловать Юлию" if ep210_julia_kissed_day_evening != day:
             return 0
-        "В отделе отчетов." if juliahome_work_action_evening_day != day and 1==2:
+        "В отделе отчетов." if juliahome_work_action_evening_day != day:
             return 5
         "Уйти.":
             return -1
@@ -2575,7 +2575,7 @@ label ep213_dialogues5_julia_9:
 
 label ep213_dialogues5_julia_9b:
     menu:
-        "Ты сегодня идешь на работу?" if week_day != 7:
+        "Ты сегодня идешь на работу?" if week_day != 7 and day_time != "evening":
             imgf 30897
             m "Милая, ты сегодня идешь на работу?"
             julia "Да, конечно, Миссис Бакфетт."
@@ -2878,7 +2878,9 @@ label ep213_dialogues5_julia_10a:
     mt "Фииии!"
     $ menuName = "julia_work1"
     menu:
-        "Остаться в ванной комнате. (внимание, экстремальный контент: pissing)":  # уровень отношений повышается
+        "Остаться в ванной комнате. (in Extra version) (disabled)" if game.extra != True:
+            pass
+        "Остаться в ванной комнате. (внимание, экстремальный контент: pissing)" if game.extra == True: # уровень отношений повышается
             sound snd_walk_barefoot
             imgf 30989
             m "Я..."
@@ -2926,6 +2928,7 @@ label ep213_dialogues5_julia_10a:
             mt "На саму Монику Бакфетт?!"
             mt "!!!"
             mt "!!!!!!"
+            $ menu_corruption = [0, juliaMonicaCorruptionRequiredScene11]
             menu:
                 "НЕТ!":
                     imgf 30907
@@ -2941,7 +2944,7 @@ label ep213_dialogues5_julia_10a:
                     m "Я себя не очень хорошо чувствую, устала очень."
                     # Моника выходит
                     call ep213_quests_julia18_progress(8, False, 10) from _rcall_ep213_quests_julia18_progress_25
-                    return
+                    return False
                 "Подыграть Юлии.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory21 = True # Моника согласилась на золотой дождь
                     pass
@@ -3006,6 +3009,7 @@ label ep213_dialogues5_julia_10a:
             m "!!!"
             # возможность отказа
             $ menuName = "julia_work1"
+            $ menu_corruption = [0, juliaMonicaCorruptionRequiredScene11b]
             menu:
                 "НЕТ!!!":
                     music Power_Bots_Loop
@@ -3020,7 +3024,7 @@ label ep213_dialogues5_julia_10a:
                     m "Я пока не готова к такому, милая."
                     # Моника выходит
                     call ep213_quests_julia18_progress(8, False, 10) from _rcall_ep213_quests_julia18_progress_26
-                    return
+                    return False
                 "Открыть рот.":  # уровень отношений повышается
                     $ monicaJuliaLoveStory22 = True # Моника открыла рот для золотого дождя
                     pass
@@ -3031,6 +3035,7 @@ label ep213_dialogues5_julia_10a:
             mt "Не могу поверить, что я согласилась на это безумие!!!"
             mt "!!!"
             # Юлия писает
+            fadeblack 1.5
             music Loved_Up
             imgf 31010
             sound snd_shower
@@ -3041,9 +3046,10 @@ label ep213_dialogues5_julia_10a:
             julia "Сейчас, Миссис Бакфетт..."
             # сначала попадает на лицо, потом в рот
             imgf 31012
-            sound snd_shower
+            sound snd_piss
             w
             imgd 31013
+            sound snd_piss
             mt "!!!!!"
             mt "!!!!!!!!"
             # потом остается висеть попой над Моникой и просит
@@ -3060,7 +3066,11 @@ label ep213_dialogues5_julia_10a:
             julia "Теперь вам надо проглотить то, что я написала Вам в ротик..."
             # Моника в шоке, но ответить ничего не может, рот занят
             mt "!!!!!"
+
+
             $ menuName = "julia_work1"
+            $ menu_corruption = [0, juliaMonicaCorruptionRequiredScene11c]
+
             menu:
                 "Выплюнуть!":
                     # Моника отстраняет Юлию, встает и выплевывает ее мочу в унитаз
@@ -3076,7 +3086,7 @@ label ep213_dialogues5_julia_10a:
                 "Проглотить.":  # уровень отношений повышается
                     # Моника проглатывает, сидя на коленях
                     music Power_Bots_Loop
-                    img 31019
+                    imgd 31019
                     sound snd_gulp
                     mt "ФУУУУ!"
                     mt "Отвратительно!!"
@@ -3097,17 +3107,15 @@ label ep213_dialogues5_julia_10a:
             imgf 31021
             sound snd_walk_barefoot
             w
+            fadeblack 1.5
             music Power_Bots_Loop
-            imgd 31022
+            imgf 31022
             mt "Омерзительно!!"
             mt "Грязно!!"
             mt "Кошмарно!!"
             mt "Унизительно!!"
-            mt "Моника! Да что с тобой такое происходит?!"
-            mt "Как ТЫ могла согласиться на подобное?!"
-            mt "АААААА!!!!!"
             call ep213_quests_julia18_progress(8, True, 10) from _rcall_ep213_quests_julia18_progress_27
-            return
+            return True
         "Уйти из ванной комнаты.":
             music Groove2_85
             img 30989
@@ -3117,7 +3125,13 @@ label ep213_dialogues5_julia_10a:
             m "Я зайду позже."
             call ep213_quests_julia18_progress(8, False, 10) from _rcall_ep213_quests_julia18_progress_28
             # выходит
-            return
+            return False
+    return
+
+label ep213_dialogues5_julia_10a2:
+    mt "Моника! Да что с тобой такое происходит?!"
+    mt "Как ТЫ могла согласиться на подобное?!"
+    mt "АААААА!!!!!"
     return
 
 # если Юлия дома и Моника заходит в душ, то Юлия к ней приходит
@@ -3260,6 +3274,7 @@ label ep213_dialogues5_julia_10b:
     imgd 30972
     julia "О-о-о-о..."
     imgf 30973
+    mt "Не могу поверить, что я вылизываю задницу гребаной гувернантке!"
     w
     imgd 30974
     julia "М-миссис Бак-кфетт..."
@@ -3319,6 +3334,7 @@ label ep213_dialogues5_julia_10b:
     # Юлия стоит довольная
     imgfl 30984
     julia "Мне очень понравилось, Миссис Бакфетт."
+    julia "Я хочу делать это регулярно!"
     julia "Не думала, что от этого можно кончить..."
     # Моника притворно улыбается и целует ее
     music Stealth_Groover

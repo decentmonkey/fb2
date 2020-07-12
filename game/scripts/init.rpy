@@ -41,9 +41,12 @@ define juliaMonicaRelationshipRequiredScene8c = 68 # Вечером в пост�
 # 80
 
 #12
-#define juliaMonicaRelationshipRequiredScene9 = 0
-#define juliaMonicaRelationshipRequiredScene10 = 0
-#define juliaMonicaRelationshipRequiredScene11 = 0
+define juliaMonicaRelationshipRequiredScene9 = 80
+define juliaMonicaRelationshipRequiredScene10 = 80
+define juliaMonicaRelationshipRequiredScene11 = 100
+define juliaMonicaCorruptionRequiredScene11 = 500 # corruption на согласие пописать на Монику
+define juliaMonicaCorruptionRequiredScene11b = 600 # corruption на согласие пописать на Монику
+define juliaMonicaCorruptionRequiredScene11c = 750 # corruption на согласие пописать на Монику
 
 #v0.12
 define philipThreesomeCorruptionRequired = 500 # За сцену со шлюхой 1 втроем
