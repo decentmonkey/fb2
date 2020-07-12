@@ -1581,6 +1581,7 @@ label ep214_dialogues1_pub_14:
     sound vjuh4
     img 31429 vpunch
     clare "!!!"
+    clare "Руки прочь!"
     # убирает руку, обращается к Эшли
     img 31430
     banker "Ай!"
@@ -1619,7 +1620,9 @@ label ep214_dialogues1_pub_14:
     sound highheels_short_walk
     imgf 31436
     mt "Надо спросить у этой чертовой Эшли про плакат."
-    imgd 31437
+    fadeblack 1.5
+    music Groove2_85
+    imgf 31437
     m "Эшли, я выполнила твое условие."
     m "Ты обещала, что не будешь вешать плакат у барной стойки."
     ashley "Да, [monica_pub_name], я помню."

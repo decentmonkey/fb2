@@ -100,7 +100,7 @@ label ep214_quests_pub8:
         return False
     $ ep214_quests_claire_show1_day = day
 
-    $ enter_scene("ep214_dialogues1_pub_16", scene="pub_makeuproom", label="pub_poster1", once=True)
+    $ enter_scene("ep214_dialogues1_pub_16", label="pub_poster1", once=True)
     $ remove_hook(label="pub_poster1")
     $ set_active("Poster1", False, scene="pub")
     $ add_talk("Pub_StripteaseGirl2", "ep214_quests_pub9_claire", scene="pub_makeuproom", label="pub_poster1")
