@@ -708,6 +708,7 @@ label ep214_dialogues4_melanie_alex_2:
     w
     imgd 19030
     w
+    sound ahhh1
     imgf 19031
     w
     # Мелани прикрывает глаза, ей приятно, но не более того, никаких бурных эмоций
@@ -857,8 +858,10 @@ label ep214_dialogues4_melanie_alex_2:
     music Groove2_85
     imgfl 19032
     w
+    sound ahhh1
     imgf 19033
     w
+    sound ahhh11
     imgd 19034
     w
     fadeblack 2.0
@@ -1015,6 +1018,7 @@ label ep214_dialogues4_melanie_alex_2:
     music Loved_Up
     imgfl 19035
     victoria "Мммм..."
+    sound ahhh1
     imgf 19036
     victoria "Ааааа!"
     img 19037

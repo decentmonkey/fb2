@@ -1584,6 +1584,7 @@ label ep214_dialogues1_pub_14:
     clare "!!!"
     clare "Руки прочь!"
     # убирает руку, обращается к Эшли
+    sound ma5
     img 31430
     banker "Ай!"
     w
