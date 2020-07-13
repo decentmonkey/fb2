@@ -5,7 +5,7 @@ default ep214_quests_claire_show1_day = 0
 default ep214_quests_claire_talkafter_show1_day = 0
 label ep214_quests_pub1_check_init:
     # проверка на инициализацию
-    if pubPrivate2Count < 0 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0:
+    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0:
         return
     $ ep214_quests_pub1_check_inited_flag = True
     call ep214_quests_pub2_enter_scene()
@@ -24,6 +24,7 @@ label ep214_quests_pub2_enter_scene:
     $ add_hook("before_open", "ep214_quests_pub3_makeuproom", scene="pub_makeuproom", label="pub_poster1")
     $ ep214_quests_poster_day = day
     call pub_dance_start_direct()
+    m "here2"
     $ add_hook("Teleport_Hostel_Street", "ep214_dialogues1_pub_1b", scene="pub", label="pub_poster_block", priority=10000)
     $ add_hook("Bartender", "ep214_dialogues1_pub_1b", scene="pub", label="pub_poster_block")
     call refresh_scene_fade()
