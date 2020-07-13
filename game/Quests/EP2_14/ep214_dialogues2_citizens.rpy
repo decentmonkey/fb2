@@ -10,6 +10,7 @@ default monicaPerryMommyDebt8 = False # Моника сделала ликинг
 default monicaCitizensPunksBlowjob1 = False # Моника согласилась на хенджоб с панками за 15 баксов
 default monicaCitizensPunksBlowjob2 = False # Моника облизала мошонку панку за 2 бакса, когда делала минет
 default monicaCitizensPunksBlowjob3 = False # Моника позволила Тому засунуть член своими между грудями за 2 бакса, когда делала минет
+default monicaCitizensPunksBlowjob4 = False # Моника прогнала Тома и Тима из своей квартиры
 
 default monicaCitizensArtistNudeModel1 = False # Моника согласилась работать моделью ню перед художником
 default monicaCitizensArtistNudeModel2 = False # Моника разрешила художнику потрогать свою грудь
@@ -1256,6 +1257,17 @@ label ep214_dialogues2_citizens_17:
     menu:
         "Деньги вперед!":
             pass
+        "Прогнать их!!!":
+            mt "Нет!"
+            mt "Я не собираюсь терпеть этих кретинов ни за какие деньги!"
+            m "Пошли вон отсюда, придурки!!!"
+            citizen1 "Да ладно тебе, теть!"
+            citizen2 "Что мы такого сделали?!"
+            m "ВОН ОТСЮДА!" # орет на них
+            m "БЫСТРО!!!"
+            m "!!!"
+            $ monicaCitizensPunksBlowjob4 = True # Моника прогнала Тома и Тима из своей квартиры
+            return
     img 31723
     mt "Я не верю этим придуркам!"
     mt "Что, если они меня обманут?"
@@ -1654,11 +1666,13 @@ label ep214_dialogues2_citizens_17:
         img 31804
         citizen1 "Это было круто, теть!"
         ## они же отдали ей уже 10 баксов
-        citizen2 "Вот твои 23 бакса."
+        citizen2 "Вот твои 13 баксов."
+        citizen2 "Итого ты заработала 23 бакса, теть!"
     else:
         img 31804
         citizen1 "Это было круто, теть!"
-        citizen2 "Вот твой 21 бакс."
+        citizen2 "Вот твои 11 баксов."
+        citizen2 "Итого ты заработала 21 бакс, теть!"
 
     # дают ей деньги
     img 31725
