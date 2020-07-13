@@ -1447,7 +1447,7 @@ label ep214_dialogues2_citizens_17:
         "Деньги вперед!":
             pass
         "Прогнать придурков!!!":
-    		music Stealth_Groover
+            music Stealth_Groover
             imgf 31723
             mt "Нет!"
             mt "Я не собираюсь терпеть этих кретинов ни за какие деньги!"
