@@ -1926,7 +1926,9 @@ label ep214_dialogues2_citizens_17:
             citizen2 "Договорились, чувак."
             pass
 
-        "Встать на колени и взять в рот член Тома.":
+        "Встать на колени и взять в рот член Тома. (in Extra version) (disabled)" if game.extra != True:
+            pass
+        "Встать на колени и взять в рот член Тома." if game.extra == True:
             # Моника встает на колени перед Томом
             fadeblack
             sound snd_fabric1
@@ -2387,7 +2389,9 @@ label ep214_dialogues2_citizens_18:
     citizen7 "Я же собираюсь переносить на свой холст прелестное женское тело..."
     citizen7 "А не то, что сейчас вижу перед собой!"
     menu:
-        "Снять одежду.":
+        "Снять одежду. (in Extra version) (disabled)" if game.extra != True:
+            pass
+        "Снять одежду." if game.extra == True:
             $ monicaCitizensArtistNudeModel1 = True # Моника согласилась работать моделью ню перед художником
             pass
         "Отказаться.":
