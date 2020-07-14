@@ -1454,6 +1454,7 @@ label ep212_dialogues3_escort_hotel_8:
         m "Что?"
         hotel_staff "Чтобы уединиться с Вами..."
         m "..."
+        $ menu_corruption = [0, monicaHotelHelperScene1CorruptionRequired]
         menu:
             "Нет! Мне не нужны проблемы с администратором.":
                 # Моника высокомерно
@@ -1489,6 +1490,6 @@ label ep212_dialogues3_escort_hotel_8:
                 mt "Никчемный неудачник!"
                 # Моника зло на него смотрит, тот смутившись, уходит
                 return False
-            "Сколько денег ты скопил?! (в следующем обновлении) (disabled)":
+            "Сколько денег ты скопил?":
                 return True
     return

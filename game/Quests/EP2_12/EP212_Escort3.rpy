@@ -69,6 +69,8 @@ label ep212_escort3_2: # сцена
 
 label ep212_escort4_1:
     call ep212_dialogues3_escort_hotel_8() from _rcall_ep212_dialogues3_escort_hotel_8
+    if _return == True:
+        return True
     call refresh_scene_fade() from _rcall_refresh_scene_fade_48
     return False
 
