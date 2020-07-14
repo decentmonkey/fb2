@@ -205,3 +205,5 @@ define campbell = Character(t_("Мистер Кэмпбэлл"), who_color=c_gre
 
 define wife = Character(t_("Жена"), who_color=c_red)
 define husband = Character(t_("Муж"), who_color=c_blue)
+
+define whore = Character(t_("Шлюха"), who_color=c_pink)
