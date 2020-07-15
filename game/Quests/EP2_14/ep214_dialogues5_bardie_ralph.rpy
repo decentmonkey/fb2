@@ -757,7 +757,7 @@ label ep214_dialogues5_bardie_ralph_12:
     # игриво улыбается и скидывает с себя платье на пол
     imgf 31569
     w
-    sound Jump1
+    sound snd_fabric1
     imgd 31570
     w
     imgf 31571
@@ -875,9 +875,10 @@ label ep214_dialogues5_bardie_ralph_12:
             mt "Фу!"
             mt "Этот никчемный подкаблучник испачкал мои ножки!"
             mt "!!!"
+            $ add_corruption(monicaRalphScene1Corruption, "monica_ralph_scene1")
             $ monicaBettyRalphSeduction4 = True # Моника сделала Ральфу футджоб в первый раз
             pass
-        "Ласкать Ральфа грудями.":
+        "Ласкать Ральфа грудями." if monicaBettyRalphSeduction4 == True:
             # Ральф трогает груди Моники
             imgf 31611
             ralph "Если моя гувернантка Бетти сделает приятное хозяину этого дома..."
@@ -988,9 +989,10 @@ label ep214_dialogues5_bardie_ralph_12:
                     mt "Этот старикашка испачкал мою прекрасную грудь!"
                     mt "!!!"
                     pass
+            $ add_corruption(monicaRalphScene2Corruption, "monica_ralph_scene2")
             $ monicaBettyRalphSeduction5 = True # Моника сделала Ральфу титсджоб в первый раз
             pass
-        "Минет.":
+        "Минет." if monicaBettyRalphSeduction5 == True:
             # Моника игриво
             imgf 31631
             m "Если Мистер Робертс не против, я могу ласкать его своим ротиком..."
@@ -1095,6 +1097,7 @@ label ep214_dialogues5_bardie_ralph_12:
                     # он прибалдевший смотрит на нее
                     imgd 31648
                     mt "..."
+                    $ menu_corruption = [0, monicaRalphBlowjob2SpermCorruptionRequired]
                     menu:
                         "Выплюнуть!":
                             # Моника выплевывает сперму на пол
@@ -1112,6 +1115,7 @@ label ep214_dialogues5_bardie_ralph_12:
                             mt "Отвратительно!!"
                             mt "Меня сейчас стошнит!!!"
                             mt "!!!!!"
+                            $ add_corruption(monicaRalphScene3bCorruption, "monica_ralph_scene3b")
                             pass
                 "Кончить на лицо Моники.":
                     img 31646
@@ -1143,8 +1147,9 @@ label ep214_dialogues5_bardie_ralph_12:
                     mt "Гадость!!!"
                     mt "!!!"
                     pass
+            $ add_corruption(monicaRalphScene3Corruption, "monica_ralph_scene3")
             pass
-        "Секс":
+        "Секс" if monicaBettyRalphSeduction6 == True:
             # Ральф трогает груди Моники
             fadeblack
             sound snd_fabric
@@ -1171,6 +1176,8 @@ label ep214_dialogues5_bardie_ralph_12:
             ralph "Бетти, я так хочу тебя..."
             # Моника игриво
             imgd 31661
+            mt "Моника, соберись!"
+            mt "Как бы ни было противно, но тебе надо сказать эти слова!"
             m "Мистер Робертс, я тоже хочу вас!"
             ##
             # Здесь сначала поза "собачки"
@@ -1251,6 +1258,7 @@ label ep214_dialogues5_bardie_ralph_12:
             ralph "Ммммм, даааа..."
             ralph "О, Беттииии..."
             ralph "Я сейчас кончу!"
+            $ menu_corruption = [0, monicaRalphSexCumInsideCorruptionRequired]
             menu:
                 "Кончить на киску Моники.":
                     # Моника приподнимается и Ральф кончает на ее киску
@@ -1305,8 +1313,10 @@ label ep214_dialogues5_bardie_ralph_12:
                     ralph "ООООООООО!!!"
                     # Моника смотрит на Ральфа
                     # он прибалдевший смотрит на нее
+                    $ add_corruption(monicaRalphScene4bCorruption, "monica_ralph_scene4b")
                     mt "!!!"
                     pass
+            $ add_corruption(monicaRalphScene4Corruption, "monica_ralph_scene4")
             $ monicaBettyRalphSeduction7 = True # Моника и Ральф занялись сексом
             pass
     # затемнение
@@ -1346,15 +1356,18 @@ label ep214_dialogues5_bardie_ralph_13:
             mt "Ты стала его любовницей, так почему бы не брать у него денег?"
             mt "Это хорошая возможность прекратить, наконец, издевательства Бифа!"
 
-            # если работает в экорте
-            imgd 31584
-            mt "И работу в этом гадком ВИП-эскорте!"
 
-            # если работает у пилона в трущобах и, или стриптизершей в баре
-            imgd 31584
-            mt "И еще тебе больше не нужно будет ходить на работу в трущобы!"
-            mt "Боже!"
-            mt "Как давно я ждала этого момента, чтобы послать к черту всех этих никчемных людишек!"
+            # если работает в экорте
+            if monicaEscortLastDay > 0 and ep212_escort_monica_fired != True:
+                imgd 31584
+                mt "И работу в этом гадком ВИП-эскорте!"
+
+            if monicaPubWashingDishesCount > 0:
+                # если работает у пилона в трущобах и, или стриптизершей в баре
+                imgd 31584
+                mt "И еще тебе больше не нужно будет ходить на работу в трущобы!"
+                mt "Боже!"
+                mt "Как давно я ждала этого момента, чтобы послать к черту всех этих никчемных людишек!"
 
             # Моника скромно
             music Hidden_Agenda
@@ -1398,13 +1411,13 @@ label ep214_dialogues5_bardie_ralph_13:
             m "Я так благодарна вам за вашу помощь."
             mt "Придурок!!!"
             mt "!!!"
-            sound kiss1
             imgf 31590
+            sound kiss1
             w
             # поцелуй
             $ monicaBettyRalphSeduction8 = True # Моника сказала Ральфу, что ей нужны деньги
-            $ log1 = _("Подкаблучник Ральф готов платить мне $ 200 за секс с ним по вторникам и четвергам. Жадный старикашка!") #квест-лог
-            pass
+#            $ log1 = _("Подкаблучник Ральф готов платить мне $ 200 за секс с ним по вторникам и четвергам. Жадный старикашка!") #квест-лог
+            return 1
         "Я делаю это не из-за денег, Мистер Робертс.":
             music Stealth_Groover
             imgf 31583
@@ -1419,17 +1432,19 @@ label ep214_dialogues5_bardie_ralph_13:
             mt "Он забывает, что если женщине ничего не надо, это значит что ей надо все!"
             mt "Так что про деньги я с ним поговорю после того, как избавлюсь от Бетти и Барди."
 
-            # если работает в экорте
-            imgd 31584
-            mt "И тогда смогу бросить работу в этом гадком ВИП-эскорте!"
+            if monicaEscortLastDay > 0 and ep212_escort_monica_fired != True:
+                # если работает в экорте
+                imgd 31584
+                mt "И тогда смогу бросить работу в этом гадком ВИП-эскорте!"
 
-            # если работает у пилона в трущобах и, или стриптизершей в баре
-            imgd 31584
-            mt "И мне больше не нужно будет ходить на работу в трущобы!"
-            mt "Боже!"
-            mt "Как давно я ждала этого момента, чтобы послать к черту всех этих никчемных людишек!"
-            mt "Моя цель совсем близко!!!"
-            mt "!!!"
+            if monicaPubWashingDishesCount > 0:
+                # если работает у пилона в трущобах и, или стриптизершей в баре
+                imgd 31584
+                mt "И мне больше не нужно будет ходить на работу в трущобы!"
+                mt "Боже!"
+                mt "Как давно я ждала этого момента, чтобы послать к черту всех этих никчемных людишек!"
+                mt "Моя цель совсем близко!!!"
+                mt "!!!"
 
             # Моника возмущенно
             music Hidden_Agenda
@@ -1457,7 +1472,7 @@ label ep214_dialogues5_bardie_ralph_13:
             w
             # поцелуй
             $ monicaBettyRalphSeduction9 = True # Моника сказала Ральфу, что любит его
-            pass
+            return 2
     return
 
 # бывшая спальня Моники, после интима (регулярно)
@@ -1477,25 +1492,27 @@ label ep214_dialogues5_bardie_ralph_13a:
     sound kiss1
     imgd 31590
     w
-    # поцелуй
-    # если Моника сказала Ральфу, что ей нужны деньги
-    # смена кадра, Моника стоит в комнате одетая
-    fadeblack
-    sound snd_fabric
-    pause 2.0
-    music Hidden_Agenda
-    imgfl 31594
-    w
-    imgf 31595
-    m "Мистер Робертс, мне нужны деньги..."
-    music Groove2_85
-    ralph "Да, Бетти."
-    ralph "Ты же знаешь, что я рад тебе помогать деньгами."
-    ralph "Вот твои $ 200."
-    imgd 31596
-    m "Спасибо, Мистер Робертс."
-    mt "Жалкий, жадный старикашка!"
-    mt "Фу!"
+    if monica_ralph_relationships_type == 1:
+        # поцелуй
+        # если Моника сказала Ральфу, что ей нужны деньги
+        # смена кадра, Моника стоит в комнате одетая
+        fadeblack
+        sound snd_fabric
+        pause 2.0
+        music Hidden_Agenda
+        imgfl 31594
+        w
+        imgf 31595
+        m "Мистер Робертс, мне нужны деньги..."
+        music Groove2_85
+        ralph "Да, Бетти."
+        ralph "Ты же знаешь, что я рад тебе помогать деньгами."
+        $ add_money(200.0)
+        ralph "Вот твои $ 200."
+        imgd 31596
+        m "Спасибо, Мистер Робертс."
+        mt "Жалкий, жадный старикашка!"
+        mt "Фу!"
     return
 
 
@@ -1526,9 +1543,16 @@ label ep214_dialogues5_bardie_ralph_15:
 # если Моника сказала Ральфу, что любит его
 label ep214_dialogues5_bardie_ralph_16:
     # после очередного секса возникает меню
+    fadeblack 2.0
+    music Loved_Up
+    imgfl 31579
+    ralph "Бетти, это было потрясающе!"
+    ralph "Ты самая красивая женщина из всех, что у меня были."
+    mt "Я вообще самая красивая женщина!"
+    mt "Не только в твоей жизни, жалкий подкаблучник!"
     menu:
         "Предложить Ральфу узаконить наши отношения (в следующем обновлении) (disabled)":
-            return
+            return True
         "Поцеловать Ральфа.":
             # Моника тянется к Ральфу за поцелуем
             music Loved_Up
@@ -1541,5 +1565,5 @@ label ep214_dialogues5_bardie_ralph_16:
             imgd 31590
             w
             # поцелуй
-            return
+            return False
     return

@@ -46,6 +46,9 @@ label perryProgressLevelUp:
     return
 
 label ralphProgressLevelUp:
+    $ char_data["level"] = char_data["level"] + 1
+    if char_data["level"] == 2:
+        $ char_data["caption"] = t_("Ральф привык к регулярному сексу с гувернанткой...")
     return
 
 label rebeccaProgressLevelUp:
@@ -53,7 +56,7 @@ label rebeccaProgressLevelUp:
 
 label receptionGirlProgressLevelUp:
     $ char_data["level"] = char_data["level"] + 1
-    
+
     return
 
 label shawarma_TraderProgressLevelUp:

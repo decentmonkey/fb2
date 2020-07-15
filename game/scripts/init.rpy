@@ -1,6 +1,17 @@
 #v0.14
 define monicaHotelHelperScene1CorruptionRequired = 500 # Сколько денег ты скопил?
-define monicaRalphBlowjob1SpermCorruptionRequired = 500 # Моника глотает сперму от Ральфа
+define monicaRalphBlowjob1SpermCorruptionRequired = 400 # Моника глотает сперму от Ральфа
+define monicaRalphBlowjob2SpermCorruptionRequired = 500 # Проглотить сперму Ральфа регулярно
+define monicaRalphSexCumInsideCorruptionRequired = 600 # Кончить в Монику
+
+define monicaRalphScene1Corruption = 10 # Добавляется за сцену1
+define monicaRalphScene2Corruption = 10 # Добавляется за сцену2
+define monicaRalphScene3Corruption = 10 # Добавляется за сцену3
+define monicaRalphScene3bCorruption = 10 # Добавляется за сцену3 глотает сперму
+define monicaRalphScene4Corruption = 10 # Добавляется за сцену4 секс
+define monicaRalphScene4bCorruption = 10 # Добавляется за сцену4 секс кончает внутрь
+
+define monicaRalphRegularProgress = 20 # прогресс с Ральфом за каждую встречу
 
 #v0.13
 define monicaCustomer9AfterPrivateTakeOffPantiesCorruption = 650 # Моника согласилась приспустить трусики и сесть на колени клиента
@@ -519,7 +530,7 @@ label characters_init:
         "Mommy":{"name": t_("Мамочка"), "name_orig":"Мамочка", "enabled":False, "face":"Face_Mommy", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"mommyProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
         "Neighbor":{"name": t_("Сосед"), "name_orig":"Сосед", "enabled":False, "face":"Face_Neighbor", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"neighborProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
         "Perry":{"name": t_("Перри"), "name_orig":"Перри", "enabled":False, "face":"Face_Perry", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"perryProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
-        "Ralph":{"name": t_("Ральф Робертс"), "name_orig":"Ральф Робертс", "enabled":False, "face":"Face_Ralph", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"ralphProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
+        "Ralph":{"name": t_("Ральф Робертс"), "name_orig":"Ральф Робертс", "enabled":True, "face":"Face_Ralph", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": t_("Ральф примерный семьянин."), "max_progress":100, "uplevel_label":"ralphProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
         "Rebecca":{"name": t_("Ребекка"), "name_orig":"Ребекка", "enabled":False, "face":"Face_Rebecca", "style":"char_face_style1_pink",  "bar_suffix": "pink", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"rebeccaProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
         "ReceptionGirl":{"name": t_("Рецепшин Администратор"), "name_orig":"Рецепшин Администратор", "enabled":False, "face":"Face_RichHotelReception", "style":"char_face_style1_orange",  "bar_suffix": "orange", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"receptionGirlProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},
         "Shawarma_Trader":{"name": t_("Продавец шавермы"), "name_orig":"Продавец шавермы", "enabled":False, "face":"Face_ShawarmaTrader", "style":"char_face_style1_blue",  "bar_suffix": "blue", "level":1, "current_progress":0, "caption": t_(""), "max_progress":100, "uplevel_label":"shawarma_TraderProgressLevelUp", "progress_label":False, "progress_caption":"Progress lvl.", "caption_diabled":t_("Work in progress...")},

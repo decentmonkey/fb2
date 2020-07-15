@@ -3,7 +3,8 @@ default ep214_stored_cloth_type = ""
 default stored_map_objects = False
 default ep214_ralph_blowjob_day = 0
 default ep214_ralph_last_regular_meeting_day = 0
-
+default ep214_ralph_last_regular_meeting_count = 0
+default monica_ralph_relationships_type = 0
 label ep214_quests_ralph1:
     call ep214_dialogues5_bardie_ralph_1()
     $ add_objective("go_fitness", t_("Поехать с Бетти на фитнес во вторник или четверг."), c_white, 15)
@@ -66,6 +67,7 @@ label ep214_quests_ralph3: # первая сцена с Ральфом
             "Teleport_Fitness" : {"text" : t_("ФИТНЕСС"), "xpos" : 356, "ypos" : 411, "base" : "map_marker", "state" : "visible"},
             "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active"}
     }
+    $ char_info["Ralph"]["caption"] = t_("Ральф изменяет Бетти с гувернанткой...")
     $ map_enabled = True
     $ add_hook("before_open", "ep214_quests_ralph4", scene="street_fitness", label="Monica_Ralph_Quest")
     $ add_hook("Teleport_Street", "ep214_quests_ralph4", scene="floor1", label="Monica_Ralph_Quest")
@@ -137,8 +139,40 @@ label ep214_quests_ralph7_search_ralph:
     call refresh_scene_fade()
     return
 label ep214_quests_ralph8_meeting_regular: # регулярные встречи с Ральфом
+    if ep214_ralph_last_regular_meeting_day == 0:
+        call ep214_dialogues5_bardie_ralph_12a() # первый раз нашла Ральфа
+
+    call ep214_dialogues5_bardie_ralph_12()
+    if ep214_ralph_last_regular_meeting_day == 0:
+        $ questLog(79, False)
+        call ep214_dialogues5_bardie_ralph_13()
+        if _return == 1:
+            $ monica_ralph_relationships_type = 1
+            $ questLog(80, True)
+        if _return == 2:
+            $ monica_ralph_relationships_type = 2
+            $ questLog(81, True)
+    if ep214_ralph_last_regular_meeting_day > 0 and monica_ralph_relationships_type == 1:
+        call ep214_dialogues5_bardie_ralph_13a()
+    if monica_ralph_relationships_type == 2:
+        if char_info["Ralph"]["level"] == 1:
+            $ char_info["Ralph"]["enabled"] = True
+            $ add_char_progress("Ralph", monicaRalphRegularProgress, "monicaRalphRegularProgress" + str(day))
+        if ep214_ralph_last_regular_meeting_day > 0:
+            call ep214_dialogues5_bardie_ralph_16()
+    $ ep214_ralph_last_regular_meeting_day = day
+    $ ep214_ralph_last_regular_meeting_count += 1
+    $ add_hook("enter_scene", "ep214_quests_ralph8_meeting_regular_end", scene="floor2", once=True, label="Monica_Ralph_Quest")
+    call change_scene("floor2", "Fade_long")
+    return
+
+label ep214_quests_ralph8_meeting_regular_end:
     $ remove_hook(label="Monica_Ralph_Quest")
-    m "here"
+    if monica_ralph_relationships_type == 1:
+        call ep214_dialogues5_bardie_ralph_14()
+    if monica_ralph_relationships_type == 2:
+        call ep214_dialogues5_bardie_ralph_15()
+
     $ miniMapEnabledOnly = []
     imgf scene_Map
     sound highheels_run1
@@ -155,8 +189,7 @@ label ep214_quests_ralph8_meeting_regular: # регулярные встречи
     $ autorun_to_object("ep22_dialogues4_7a", scene="street_fitness")
     $ ep22_dialogues4_7a_flag1 = False
     call change_scene("street_fitness", "Fade_long", False)
-    return
-
+    return False
 
 
 
