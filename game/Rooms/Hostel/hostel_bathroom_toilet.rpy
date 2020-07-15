@@ -10,7 +10,7 @@ label hostel_bathroom_toilet:
 label hostel_bathroom_toilet_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"Hostel_Bathroom_Toilet_Monica_[cloth]_[hostelBathroomToiletMonicaSuffix][day_suffix]", "click" : "hostel_bathroom_environment", "actions" : "l", "zorder" : 10}, scene="hostel_bathroom_toilet")
     $ add_object_to_scene("Toilet", {"type":2, "base":"Hostel_Bathroom_Toilet_Toilet", "click" : "hostel_bathroom_toilet_environment", "actions" : "lh", "zorder" : 0, "b":0.13}, scene="hostel_bathroom_toilet")
-    $ add_object_to_scene("Teleport_Hostel_Bathroom", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "hostel_bathroom_toilet_teleport", "xpos" : 960, "ypos" : 956, "zorder":11}, scene="hostel_bathroom_toilet")
+    $ add_object_to_scene("Teleport_Hostel_Bathroom", {"type":3, "text" : _("НАЗАД"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "hostel_bathroom_toilet_teleport", "xpos" : 960, "ypos" : 956, "zorder":11,"high_sprite_hover":True}, scene="hostel_bathroom_toilet")
 
     return
 #                            $ brightness_adjustment = 0.1

@@ -248,14 +248,14 @@ label ep214_dialogues2_citizens_1:
     imgd 19064
     citizen4 "Ааааа..."
     # Над Моникой нависает Перри (внезапно)
-    imgf 19070
-    perry "Ах ты сучка!!!"
-    # Моника отстраняется от клиента
     music stop
     sound plastinka2
+    img 19070 vpunch
+    perry "Ах ты сучка!!!"
+    # Моника отстраняется от клиента
+    music Villainous_Treachery
     img 19071 hpunch
     w
-    music Villainous_Treachery
     imgd 19072
     mt "Мое... Мое платье..."
     mt "Это Перри!!!"
@@ -270,7 +270,7 @@ label ep214_dialogues2_citizens_1:
     citizen4 "Или ты хочешь присоединиться к ней?"
     # Перри орет на него
     music Power_Bots_Loop
-    imgd 19074
+    img 19074 vpunch
     perry "Заткнись!"
     perry "Я эту сучку везде ищу!"
     perry "А она тут развлекается с мужиками!"
@@ -284,7 +284,8 @@ label ep214_dialogues2_citizens_1:
     perry "Я так и думала, что ты проститутка!!!"
     # Перри достает телефон и делает фото
     imgf 19077
-    sound snd_photo_capture
+#    sound snd_photo_capture
+    call photoshop_flash()
     w
     music Power_Bots_Loop
     imgd 19078
@@ -420,11 +421,12 @@ label ep214_dialogues2_citizens_1b:
     music Groove2_85
     imgf 19099
     perry "Это проценты за то, что ты убежала, не заплатив долг."
-    parry "И с каждым днем сумма будет расти!"
+    perry "И с каждым днем сумма будет расти!"
     imgd 19100
     m "Иди в жопу, Перри!"
     m "Я не собираюсь тебе ничего отдавать!"
     # появляется мамочка, но кадр берется нижней части ее лица (вначале)
+    fadeblack 1.5
     music Master_Disorder
     imgf 19101
     mommy "Ты отдашь эти деньги, девочка..."
@@ -499,6 +501,7 @@ label ep214_dialogues2_citizens_1b:
     imgd 19117
     mommy "Ты знаешь, где меня найти."
     mommy "И не думай, что сможешь что-то скрыть..."
+    mommy "Я буду приглядывать за тобой..."
     fadeblack
     sound highheels_short_walk
     pause 2.0
@@ -577,7 +580,7 @@ label ep214_dialogues2_citizens_4:
     mt "Не хватало еще мне проблем с этими грязными людишками!"
     mt "У меня есть более важные дела!"
     mt "!!!"
-    return
+    return False
 
 # если укусила ситизена и сбежала (встречи с Перри не было), мысли
 label ep214_dialogues2_citizens_5:
@@ -617,83 +620,85 @@ label ep214_dialogues2_citizens_7:
 
 # зашла в хостел отдавать деньги (в первый раз)
 label ep214_dialogues2_citizens_8:
-    # Моника заходит в хостел, Перри у столика, который служит ресепшном
-    fadeblack
-    sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
-    imgfl 19133
-    mt "Не могу поверить, что я снова оказалась здесь!"
-    mt "Какой кошмар!"
-    # подходит к Перри
-    sound highheels_short_walk
-    imgf 19134
-    perry "А, воровка пришла!"
-    m "Я не воровка!"
-    m "Не называй меня так!"
-    imgd 19135
-    perry "Я называю вещи своими именами!"
-    perry "Ты должна мне 50 00 баксов и не отдаешь их!"
-    perry "Значит, ты воровка!"
-    music Power_Bots_Loop
-    img 19136
-    mt "Тварь!"
-    mt "!!!"
-    music Groove2_85
-    imgf 19137
-    m "Откуда такая сумма?!"
-    m "Я переночевала в этой дыре всего один раз!"
-    m "И договаривались мы с тобой всего на $ 10 000!"
-    imgd 19138
-    perry "Будешь спорить со мной, воровка, твой долг станет 100 000 баксов!"
-    perry "Я тебя искала, потратила на это немало времени, а ты скрывалась от меня!"
-    #
-    $ notif(_("Моника согласилась сделать минет незнакомцу возле пилона."))
-    #
-    imgd 19138
-    perry "При этом работала, отсасывая у прохожих!"
-    perry "Короче, я поставила тебя на счетчик. Поэтому теперь ты мне должна 50 000 баксов."
-    music Power_Bots_Loop
-    imgf 19139
-    mt "Мерзкая тупая стерва!"
-    mt "Ненавижу ее!"
-    mt "!!!"
-    music Groove2_85
-    imgd 19140
-    perry "Ну так что?"
-    perry "Ты принесла мне мои 50 000 баксов?"
+    if ep214_slums_monica_perry_talk_count == 0:
+        # Моника заходит в хостел, Перри у столика, который служит ресепшном
+        fadeblack 1.5
+        sound highheels_short_walk
+        pause 2.0
+        music Groove2_85
+        imgfl 19133
+        mt "Не могу поверить, что я снова оказалась здесь!"
+        mt "Какой кошмар!"
+        # подходит к Перри
+        sound highheels_short_walk
+        imgf 19134
+        perry "А, воровка пришла!"
+        m "Я не воровка!"
+        m "Не называй меня так!"
+        imgd 19135
+        perry "Я называю вещи своими именами!"
+        perry "Ты должна мне 50 00 баксов и не отдаешь их!"
+        perry "Значит, ты воровка!"
+        music Power_Bots_Loop
+        img 19136
+        mt "Тварь!"
+        mt "!!!"
+        music Groove2_85
+        imgf 19137
+        m "Откуда такая сумма?!"
+        m "Я переночевала в этой дыре всего один раз!"
+        m "И договаривались мы с тобой всего на $ 10 000!"
+        imgd 19138
+        perry "Будешь спорить со мной, воровка, твой долг станет 100 000 баксов!"
+        perry "Я тебя искала, потратила на это немало времени, а ты скрывалась от меня!"
+        #
+        $ notif(_("Моника согласилась сделать минет незнакомцу возле пилона."))
+        #
+        imgd 19138
+        perry "При этом работала, отсасывая у прохожих!"
+        perry "Короче, я поставила тебя на счетчик. Поэтому теперь ты мне должна 50 000 баксов."
+        music Power_Bots_Loop
+        imgf 19139
+        mt "Мерзкая тупая стерва!"
+        mt "Ненавижу ее!"
+        mt "!!!"
+        music Groove2_85
+        imgd 19140
+        perry "Ну так что?"
+        perry "Ты принесла мне мои 50 000 баксов?"
+    else:
+    #### отсюда можно сделать регулярный разговор, когда Моника приходит к Перри
+    #### + возможность скипнуть это
+        fadeblack 1.5
+        sound highheels_short_walk
+        pause 2.0
+        music Groove2_85
+        imgfl 19140
+        perry "Ты принесла мне остаток долга?"
+        perry "$ [ep214_perry_debt]"
+        #
 
-#### отсюда можно сделать регулярный разговор, когда Моника приходит к Перри
-#### + возможность скипнуть это
-
-    fadeblack
-    sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
-    imgfl 19140
-    perry "Ты принесла мне остаток долга?"
-    #
-
-    # если денег недостаточно
-    imgf 19141
-    m "Я сейчас не располагаю такой суммой!"
-    imgd 19142
-    perry "Либо ты отдаешь мне деньги. Столько, сколько можешь сейчас отдать."
-    sound highheels_short_walk
-    imgf 19176
-    w
-    imgd 19177
-    perry "Либо отрабатывай!" # раздвигает ноги и задирает юбку
-    #
-    sound Jump1
-    imgd 19143
-    mt "!!!"
-    imgf 19144
-    w
-    $ menu_price = [0,20]
+    $ ep214_slums_monica_perry_talk_count += 1
+    if money < ep214_perry_debt:
+        # если денег недостаточно
+        imgf 19141
+        m "Я сейчас не располагаю такой суммой!"
+        imgd 19142
+        perry "Либо ты отдаешь мне деньги. Столько, сколько можешь сейчас отдать."
+        sound highheels_short_walk
+        imgf 19176
+        w
+        imgd 19177
+        perry "Либо отрабатывай!" # раздвигает ноги и задирает юбку
+        #
+        sound Jump1
+        imgd 19143
+        mt "!!!"
+        imgf 19144
+        w
+    $ menu_price = [20,0]
+    $ menu_corruption = [0, 0, monicaPerryLickingCorruption]
     menu:
-        "Отдать Перри остаток долга (в будущем обновлении) (disabled)":
-            pass
         "Отдать Перри часть долга.":
             # Моника смотрит на раздвинувшую ноги Перри с отвращением
             music Pyro_Flow
@@ -708,8 +713,12 @@ label ep214_dialogues2_citizens_8:
             perry "Всего 20 баксов?"
             m "Да."
             perry "Ладно, давай."
-            fadeblack
-            sound fx_coins_b3
+            fadeblack 1.5
+#            sound fx_coins_b3
+            $ add_money(-20.0)
+            $ notif(t__("Моника должна Перри" + " $" + str(ep214_perry_debt)))
+            $ ep214_perry_debt -= 20.0
+            $ ep214_slums_monica_paid_money_this_week = True
             pause 2.0
             music Groove2_85
             # Моника отдает ей деньги
@@ -729,6 +738,7 @@ label ep214_dialogues2_citizens_8:
             # Моника смотрит с ужасом на киску
             imgf 19150
             m "..."
+            $ menu_corruption = [monicaPerryLickingCorruption]
             menu:
                 "Отработать.":
                     # Моника в сомнениях
@@ -841,12 +851,20 @@ label ep214_dialogues2_citizens_8:
                     m "Нет!"
                     imgd 19168
                     perry "Ха! Зато мне понравилось!"
+#            $ add_money(-20.0)
+                    $ notif(t__("Моника должна Перри" + " $" + str(ep214_perry_debt)))
+                    $ ep214_perry_debt -= 10.0
                     perry "Я засчитываю 10 баксов в счет оплаты долга."
                     perry "И можешь остаться сегодня на ночь в номере."
                     perry "Можешь лизать мою киску хоть каждый день и ночевать здесь, я не против."
                     imgd 19148
                     m "Иди ты в жопу, Перри!!!"
                     m "!!!"
+                    if ep214_slums_monnica_licked_perry_first_day == 0:
+                        $ ep214_slums_monnica_licked_perry_first_day = day
+                    $ ep214_slums_monnica_licked_perry_last_day = day
+                    $ ep214_slums_monica_rent_hostel_last_day = day
+                    $ ep214_slums_monica_paid_money_this_week = True
                     menu:
                         "Идти в номер хостела.":
                             music Groove2_85
@@ -860,14 +878,14 @@ label ep214_dialogues2_citizens_8:
                             mt "!!!!!!!"
                             m "!!!"
                             # Моника уходит в номер
-                            return
+                            return 1
                         "Уйти отсюда!":
                             music Power_Bots_Loop
                             imgf 19136
                             mt "Я не хочу оставаться в этой вонючей дыре!"
                             mt "!!!"
                             #
-                            return
+                            return -1
                     return
                 "Нет! Ни за что!":
                     music Pyro_Flow
@@ -880,7 +898,9 @@ label ep214_dialogues2_citizens_8:
                     perry "Ты знаешь, что нужно сделать."
                     m "Да пошла ты!"
                     # уходит
-                    return
+                    return -4
+        "Отдать Перри остаток долга (в будущем обновлении) (disabled)":
+            pass
         "Отработать.":
             # отработка
             # Моника в сомнениях
@@ -992,12 +1012,20 @@ label ep214_dialogues2_citizens_8:
             m "Нет!"
             imgd 19168
             perry "Ха! Зато мне понравилось!"
+            $ notif(t__("Моника должна Перри" + " $" + str(ep214_perry_debt)))
+            $ ep214_perry_debt -= 10.0
             perry "Я засчитываю 10 баксов в счет оплаты долга."
             perry "И можешь остаться сегодня на ночь в номере."
             perry "Можешь лизать мою киску хоть каждый день и ночевать здесь, я не против."
             imgd 19148
             m "Иди ты в жопу, Перри!!!"
             m "!!!"
+            if ep214_slums_monnica_licked_perry_first_day == 0:
+                $ ep214_slums_monnica_licked_perry_first_day = day
+            $ ep214_slums_monnica_licked_perry_last_day = day
+            $ ep214_slums_monica_rent_hostel_last_day = day
+            $ ep214_slums_monica_paid_money_this_week = True
+            return -3
             pass
         "Уйти!":
             # Моника зло
@@ -1031,7 +1059,7 @@ label ep214_dialogues2_citizens_8:
             mt "Гребаная извращенка!"
             $ monicaPerryMommyDebt5 = True # Моника отказалась давать деньги или отрабатывать у Перри
             # Моника уходит
-            return
+            return -2
     return
 
 # если осталась на ночь в хостеле
@@ -1040,7 +1068,8 @@ label ep214_dialogues2_citizens_9:
     mt "Ненавижу эту мерзкую сучку Перри!"
     mt "И этот гребаный хостел ненавижу!"
     mt "Грязная вонючая ночлежка! Фу!"
-    mt "Хорошо, хоть никто здесь не спит сегодня!"
+    if get_active_objects("Whore1", scene="hostel_bedroom") == False:
+        mt "Хорошо, хоть никто здесь не спит сегодня!"
     mt "Мне нужно выспаться, я так устала за сегодняшний день."
     mt "Но сначала мне нужно принять душ."
     mt "После отработки у Перри я чувствую себя грязной!"

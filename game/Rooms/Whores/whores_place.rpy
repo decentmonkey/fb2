@@ -55,7 +55,7 @@ label whores_place_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 label whores_place_init2:
-    $ add_object_to_scene("Perry", {"type":2, "base":"Street_Whores_Place_Perry_[streetWhoresPlacePerrySuffix]", "click" : "ep214_dialogues2_citizens_7", "actions" : "lw", "zorder" : 5}, scene="whores_place")
+    $ add_object_to_scene("Perry", {"type":2, "base":"Street_Whores_Place_Perry_[streetWhoresPlacePerrySuffix]", "click" : "whores_place_environment2", "actions" : "lw", "zorder" : 5}, scene="whores_place")
     return
 
 label whores_place_teleport2:

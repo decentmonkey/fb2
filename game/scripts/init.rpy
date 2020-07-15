@@ -15,6 +15,8 @@ define monicaRalphRegularProgress = 20 # прогресс с Ральфом за
 
 define monicaSlumsFirstBlowjobCorruptionRequired = 400 # коррапшн за blowjob у пилона
 
+define monicaPerryLickingCorruption = 500 # Моника соглашается отработать у Перри
+
 #v0.13
 define monicaCustomer9AfterPrivateTakeOffPantiesCorruption = 650 # Моника согласилась приспустить трусики и сесть на колени клиента
 define monicaPrivate2Corrution = 450 # Моника согласилась на второй приват
