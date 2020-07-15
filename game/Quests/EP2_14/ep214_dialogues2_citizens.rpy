@@ -613,7 +613,7 @@ label ep214_dialogues2_citizens_7:
     mt "Никчемная извращенка!"
     mt "Взорвать бы ее вместе с этой грязной, вонючей ночлежкой!"
     mt "!!!"
-    return
+    return False
 
 # зашла в хостел отдавать деньги (в первый раз)
 label ep214_dialogues2_citizens_8:

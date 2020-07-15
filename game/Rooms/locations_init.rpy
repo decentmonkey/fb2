@@ -229,12 +229,10 @@ label locations_init_rich_hotel_restaurant2:
     return
 
 label locations_init_hostel_inside:
-    $ add_location("hostel_bathroom_toilet", caption=t_("HOSTEL BATHROOM"), label="hostel_bathroom_toilet", init_label="hostel_bathroom_toilet_init", parent="hostel_street")
-    $ add_location("hostel_bathroom", caption=t_("HOSTEL BATHROOM"), label="hostel_bathroom", init_label="hostel_bathroom_init", parent="hostel_street")
-    $ add_location("hostel_bedroom", caption=t_("HOSTEL BEDROOM"), label="hostel_bedroom", init_label="hostel_bedroom_init", parent="hostel_street")
-    $ add_location("hostel_bathroom_toilet", caption=t_("HOSTEL BATHROOM"), label="hostel_bathroom_toilet", init_label="hostel_bathroom_toilet_init", parent="hostel_street")
-    $ add_location("hostel_bathroom_toilet", caption=t_("HOSTEL BATHROOM"), label="hostel_bathroom_toilet", init_label="hostel_bathroom_toilet_init", parent="hostel_street")
-    $ add_location("hostel_bathroom_toilet", caption=t_("HOSTEL BATHROOM"), label="hostel_bathroom_toilet", init_label="hostel_bathroom_toilet_init", parent="hostel_street")
+    $ add_location("hostel_bathroom_toilet", caption=t_("ДУШЕВАЯ"), label="hostel_bathroom_toilet", init_label="hostel_bathroom_toilet_init", parent="hostel_reception")
+    $ add_location("hostel_bathroom", caption=t_("ДУШЕВАЯ"), label="hostel_bathroom", init_label="hostel_bathroom_init", parent="hostel_reception")
+    $ add_location("hostel_bedroom", caption=t_("ХОСТЕЛ"), label="hostel_bedroom", init_label="hostel_bedroom_init", parent="hostel_reception")
+    $ add_location("hostel_reception", caption=t_("ХОСТЕЛ"), label="hostel_reception", init_label="hostel_reception_init", parent="hostel_street")
     return
 
 label world:
