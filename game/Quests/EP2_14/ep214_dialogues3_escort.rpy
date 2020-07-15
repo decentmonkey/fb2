@@ -6,6 +6,7 @@ default monicaEscortHotelStaffBlowjob5 = False  # Моника открыла р
 default monicaEscortHotelStaffBlowjob6 = False  # Моника укусила служащего отеля за член
 
 default monicaEscortHotelStaffBlowjobCumZone = 0
+default monicaEscortRevenge1CumZone = 0
 
 default monicaEscortRevengeGirl1 = False  # Моника пригласила любителя футфетиша в номер
 default monicaEscortRevengeGirl2 = False  # брюнетка целовала ноги Моники по требованию клиента
@@ -632,17 +633,6 @@ label ep214_dialogues3_escort_3:
     w
     imgd 18650
     w
-    imgd 18651
-    w
-    imgd 18652
-    w
-    imgd 18651
-    w
-    imgd 18650
-    w
-    imgd 18651
-    w
-    imgd 18652
     hotel_staff "Мммм... Да..."
     # брюнетка вмешивается с комментами
     music Groove2_85
@@ -904,7 +894,7 @@ label ep214_dialogues3_escort_5:
     reception "[monica_hotel_name], вот твой процент."
     $ add_money(50.0)
     # дает Монике деньги
-    sound vjuh3
+#    sound vjuh3
     imgd 30112
     reception "На сегодня все."
     reception "Приходи завтра."
@@ -1078,7 +1068,7 @@ label ep214_dialogues3_escort_6:
             mt "Бесполезный!"
             mt "Фи!"
             # Моника уходит
-            return
+            return False
     imgd 30085
     mt "Черт!"
     mt "Пока он решится пригласить меня, эта сучка уйдет куда-нибудь!"
@@ -1114,7 +1104,14 @@ label ep214_dialogues3_escort_6:
     mt "!!!"
     mt "Осталось сказать администратору, что клиент хочет провести время со мной и с этой дрянью..."
     # затемнение, звук каблуков
-    return
+    return True
+
+label ep214_dialogues3_escort_6b:
+    client "[monica_hotel_name], а где вторая девочка?"
+    m "Она поднимется следом за нами."
+    m "Пойдемте в лифт."
+    $ ep214_dialogues3_escort_6b_flag = True
+    return False
 
 # номер отеля
 # номер отеля
@@ -1156,7 +1153,7 @@ label ep214_dialogues3_escort_7:
     imgf 18711
     m "Да, именно с тобой..."
     # брюнетка удивленно смотрит на нее
-    imgd 18712
+    img 18712 vpunch
     m "И со мной."
     music Groove2_85
     img 18713
@@ -1209,7 +1206,7 @@ label ep214_dialogues3_escort_7:
     # клиент голый, сидит на кровати
     # брюнетка зло шипит на Монику
     fadeblack
-    sound snd_fabric
+    sound snd_fabric1
     pause 2.0
     music Groove2_85
     imgfl 18725
@@ -1237,18 +1234,25 @@ label ep214_dialogues3_escort_7:
     girl_1 "ТЫ!" # бесится, но ее перебивает клиент
     imgf 18732
     client "Девочки, вы же не забыли про меня?"
+    sound hlup10
     imgd 18733
     w
+    sound hlup2
     imgd 18732
     w
+    sound hlup10
     imgd 18733
     w
+    sound hlup2
     imgd 18732
     w
+    sound hlup10
     imgd 18733
     w
+    sound hlup2
     imgd 18732
     w
+    sound hlup10
     imgd 18733
     # ему не терпится
     # он дергает свой грустный член
@@ -1386,7 +1390,7 @@ label ep214_dialogues3_escort_7:
     client "Хватит!"
     client "Раздевайся!"
     # та встает и снимает белье
-    sound snd_fabric
+    sound snd_fabric1
     imgf 18765
     client "Мисс [monica_hotel_name]..." # Монике
     # указывая на снимающую трусики брюнетку
@@ -1420,7 +1424,7 @@ label ep214_dialogues3_escort_7:
             mt "Бесполезный!"
             mt "Фи!"
             # Моника уходит
-            return
+            return False
     music Stealth_Groover
     imgf 18767
     mt "Он хочет ее использовать?"
@@ -1552,7 +1556,7 @@ label ep214_dialogues3_escort_7:
             mt "Бесполезный!"
             mt "Фи!"
             # Моника уходит
-            return
+            return False
     music Stealth_Groover
     imgf 18796
     mt "С другой стороны, Моника, твоя ножка его уже возбудила."
@@ -1678,6 +1682,7 @@ label ep214_dialogues3_escort_7:
             hide screen photoshot_screen
             sound man_moan9
             client "ДАААААА!!!"
+            $ monicaEscortRevenge1CumZone = 1
             pass
         "Кончить на попу девочки с эскорта.":
             img 18816
@@ -1696,8 +1701,10 @@ label ep214_dialogues3_escort_7:
             hide screen photoshot_screen
             sound man_moan9
             client "ДАААААА!!!"
+            sound hlup25
             imgd 18819
             w
+            $ monicaEscortRevenge1CumZone = 2
             pass
         "Кончить на ножку Моники.":
             imgd 18816
@@ -1727,6 +1734,7 @@ label ep214_dialogues3_escort_7:
             mt "Какая гадость!"
             mt "Фууу!"
             mt "!!!"
+            $ monicaEscortRevenge1CumZone = 3
             menu:
                 "Заставить сучку с эскорта слизать сперму клиента.":
                     music Hidden_Agenda
@@ -1751,10 +1759,11 @@ label ep214_dialogues3_escort_7:
                     m "И это желание клиента!"
                     m "Давай, работай!"
                     # брюнетка зло выполняет, клиент смотрит вблизи и балдеет
-                    music Groove2_85
                     imgf 18835
                     w
-                    imgd 18828
+                    fadeblack 1.5
+                    music Loved_Up2
+                    imgf 18828
                     girl_1 "!!!"
                     client "Еще вот здесь лизни."
                     imgd 18829
@@ -1774,7 +1783,7 @@ label ep214_dialogues3_escort_7:
     # затемнение
     # все трое стоят в номере одетые
     fadeblack
-    sound snd_fabric
+    sound snd_fabric1
     pause 2.0
     music Groove2_85
     imgfl 18830
@@ -1796,7 +1805,7 @@ label ep214_dialogues3_escort_7:
     music Stealth_Groover
     imgd 18834
     m "Хи-хи-хи!!"
-    return
+    return True
 
 # мысли Моники, если месть удалась
 label ep214_dialogues3_escort_8:
