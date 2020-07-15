@@ -1,4 +1,6 @@
 default whoresPlacePreviousLocation = ""
+default streetWhoresPlacePerrySuffix = 1
+default street_whores_perry_active = False
 
 label whores_place:
     $ print "enter_whores_place"
@@ -10,6 +12,13 @@ label whores_place:
     $ scene_image = "scene_Street_Whores_Place_Whores[day_suffix]"
 
     $ hostelStreet2MonicaFromSideSuffix = "2"
+
+    if street_whores_perry_active == True:
+        if day_time == "day":
+            $ set_active("Perry", True)
+        else:
+            $ set_active("Perry", False)
+
     if day_time == "day":
         music street1
     else:
@@ -45,6 +54,9 @@ label whores_place_init:
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
+label whores_place_init2:
+    $ add_object_to_scene("Perry", {"type":2, "base":"Street_Whores_Place_Perry_[streetWhoresPlacePerrySuffix]", "click" : "ep214_dialogues2_citizens_7", "actions" : "lw", "zorder" : 5}, scene="whores_place")
+    return
 
 label whores_place_teleport2:
     if obj_name == "Teleport_Street1":

@@ -283,6 +283,9 @@ label citizens_init_day:
             citizensDayList.append("Citizen_9")
         if "Citizen_9" in citizensDayList:
             citizensDayList.append("Citizen_3")
+        if ep214_slums_citizen4_aborted == True:
+            if "Citizen 4" in citizensDayList:
+                citizensDayList.remove("Citizen 4")
         citizensDayList = list(set(citizensDayList)) #unique
         set_active(False, scene="all", group="citizens")
         for var1 in citizensDayList:
@@ -302,6 +305,9 @@ label citizens_init_evening:
             citizensEveningList.append("Citizen_9")
         if "Citizen_9" in citizensEveningList:
             citizensEveningList.append("Citizen_3")
+        if ep214_slums_citizen4_aborted == True:
+            if "Citizen 4" in citizensEveningList:
+                citizensEveningList.remove("Citizen 4")
         citizensEveningList = list(set(citizensEveningList)) #unique
         set_active(False, scene="all", group="citizens")
         for var1 in citizensEveningList:

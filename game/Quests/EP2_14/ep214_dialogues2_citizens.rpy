@@ -119,7 +119,7 @@ label ep214_dialogues2_citizens_1:
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             imgd 13424
             m "Хватит с тебя того, что ты уже видел!"
-            return
+            return -1
     # Моника в замешательстве
     music Groove2_85
     imgf 13399
@@ -128,6 +128,7 @@ label ep214_dialogues2_citizens_1:
     citizen4 "Ага. Вот они." # показывает купюры
     citizen4 "Снимай свою майку и приступай."
     citizen4 "У меня яйца уже дымятся."
+    $ menu_corruption = [monicaSlumsFirstBlowjobCorruptionRequired, 0]
     menu:  # коррапшн! 600-?
         "Оголить грудь и сделать минет клиенту.":
             $ monicaPerryMommyDebt1 = True # Моника дала согласие сделать минет ситизену в подворотне у пилона
@@ -140,7 +141,7 @@ label ep214_dialogues2_citizens_1:
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             imgd 13424
             m "Хватит с тебя того, что ты уже видел!"
-            return
+            return -1
     music Groove2_85
     imgf 19043
     mt "Это звучит дико, но мне нужны деньги..."
@@ -233,7 +234,7 @@ label ep214_dialogues2_citizens_1:
             citizen4 "ААААААААААААА!!!"
             # Моника убегает
             $ monicaPerryMommyDebt2 = True # Моника укусила ситизена и убежала
-            return
+            return -2
         "Продолжить минет.":
             pass
     # Моника делает минет ситизену
@@ -324,7 +325,7 @@ label ep214_dialogues2_citizens_1:
             perry "Она воровка!!!"
             # Моника убегает
             $ monicaPerryMommyDebt4 = True # Моника сбежала от Перри
-            return
+            return -3
         "Попробовать договориться с Перри.":
             pass
     music Pyro_Flow
@@ -368,6 +369,7 @@ label ep214_dialogues2_citizens_1:
 
 #### если Моника сбежала, а потом передумала и вернулась к пилону, то диалог начинается отсюда
 
+label ep214_dialogues2_citizens_1b:
     # Если Моника убегала и ее не было какое-то время
     if monicaPerryMommyDebt4 == True:
         fadeblack
@@ -544,8 +546,8 @@ label ep214_dialogues2_citizens_1:
     mt "Что за бред?!"
     mt "Я никогда не соглашусь на такое!!!"
     mt "НИ-КОГ-ДА!!!"
-    $ log1 = _("Теперь мне нужно каждую неделю приносить гребаной Перри деньги в счет оплаты долга. Черт!") # квест-лог
-    return
+#    $ log1 = _("Теперь мне нужно каждую неделю приносить гребаной Перри деньги в счет оплаты долга. Черт!") # квест-лог
+    return 1
 
 # если убежала от Перри, мысли
 label ep214_dialogues2_citizens_2:
