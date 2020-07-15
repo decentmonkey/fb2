@@ -2,9 +2,8 @@ label hostel_bathroom_toilet:
     $ print "enter_hostel_bathroom_toilet"
     $ miniMapData = []
 
-    $ scene_name = "hostel_bathroom_toilet"
+    $ scene_name = "scene_Hostel_Bathroom_Toilet[day_suffix]"
     $ scene_caption = _("HOSTEL BATHROOM")
-    $ clear_scene_from_objects(scene_name)
 
     $ scene_image = "scene_hostel_bathroom_toilet_Monica_Nude" + day_suffix
     $ add_object_to_scene("Monica", {"type":2, "base":"hostel_bathroom_toilet_Monica_Nude" + day_suffix, "click" : "hostel_bathroom_toilet_environment", "actions" : "l", "zorder" : 10})
