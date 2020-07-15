@@ -7,11 +7,13 @@ label hostel_bedroom:
 
     $ scene_image = "scene_Hostel_Bedroom"
 
+    call ep214_slums_hostel_bedroom_life()
+
     music snd_moderate_rain_music
     return
 
 label hostel_bedroom_init:
-    $ add_object_to_scene("Monica", {"type":2, "base":"Hostel_Bedroom_Monica_[cloth]_[hostelBedroomMonicaSuffix]", "click" : "hostel_reception_environment", "actions" : "l", "zorder" : 10}, scene="hostel_bedroom")
+    $ add_object_to_scene("Monica", {"type":2, "base":"Hostel_Bedroom_Monica_[cloth]_[hostelBedroomMonicaSuffix]", "click" : "hostel_bedroom_environment", "actions" : "l", "zorder" : 10}, scene="hostel_bedroom")
     $ add_object_to_scene("Whore1", {"type":2, "base":"Hostel_Bedroom_Whore1_[hostelBedroomWhore1Suffix]", "click" : "hostel_bedroom_environment", "actions" : "lw", "zorder" : 9}, scene="hostel_bedroom")
 
     $ add_object_to_scene("HostelBed", {"type":2, "base":"Hostel_Bedroom_Bed", "click" : "hostel_bedroom_environment", "actions" : "lh", "zorder" : 0, "b":0.13}, scene="hostel_bedroom")
@@ -55,11 +57,6 @@ label hostel_bedroom_environment():
         if act == "w":
             mt "Я не собираюсь подходить к этой шлюхе!"
             return
-
-    if obj_name == "HostelBed":
-        if act == "l":
-            mt "Это кошмарная кровать..."
-            mt "Я не должна спать на подобном! Это несправедливо!"
 
     if obj_name == "Vase1" or obj_name == "Vase2" or obj_name == "Vase3":
         mt "Это что? Какая-то ваза?"

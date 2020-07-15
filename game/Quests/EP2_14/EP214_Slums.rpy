@@ -7,6 +7,7 @@ default ep214_slums_monnica_licked_perry_count = 0
 default ep214_slums_monica_perry_talk_count = 0
 default ep214_slums_monica_rent_hostel_last_day = 0
 default ep214_slums_monica_paid_money_this_week = False
+default ep214_slums_enter_hostel_last_day = 0
 default ep214_perry_debt = 50000.0
 
 
@@ -64,28 +65,66 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
     $ add_hook("Teleport_Hostel_Bedroom", "ep214_slums5_talk_perry_first_time", scene="hostel_reception", label="Perry_Debt_talk")
 
     $ add_hook_day("ep214_slums6_weekly", week_day = 6, label="Perry_Debt_check") #каждую субботу утром будет проверка на отдачу долга Перри
+
+    $ add_hook("HostelBed", "ep214_dialogues2_citizens_11", act="l", scene="hostel_bedroom", label="Perry_Debt")
+    $ add_hook("HostelBed", "ep214_slums7_hostelbed", act="h", scene="hostel_bedroom", label="Perry_Debt")
+    $ add_hook("Shower", "ep214_slums8_hostelshower", act="h", scene="hostel_bathroom", label="Perry_Debt")
+    $ add_hook("Toilet", "ep214_slums9_hosteltoilet", act="h", scene="hostel_bathroom_toilet", label="Perry_Debt")
+
+    $ add_hook("hostel_monica_after_sleep", "ep214_dialogues2_citizens_11a", scene="global", label="Perry_Debt_aftersleep")
+    $ add_hook("hostel_monica_before_sleep", "ep214_dialogues2_citizens_11b2", scene="global", label="Perry_Debt_beforesleep")
     return
 
 label ep214_slums4_enter_hostel:
     if act=="l":
         call ep214_dialogues2_citizens_7()
         return False
+    $ hostelReceptionPerrySuffix = rand(1,2)
+    $ ep214_slums_enter_hostel_last_day = day
     call change_scene("hostel_reception", "Fade", "snd_jail_door")
     return False
 
 label ep214_slums5_talk_perry_first_time: # первый разговор с Перри
-    $ remove_hook(label="Perry_Debt_talk")
+    if obj_name == "Teleport_Hostel_Bedroom" and ep214_slums_monica_rent_hostel_last_day >= day:
+        # проходим свободно
+        return
+    if ep214_slums_monica_rent_hostel_last_day >= day:
+        call ep214_dialogues2_citizens_11d() #А, детка, ты уже соскучилась по моей волосатой киске?
+        $ hostelReceptionPerrySuffix = 3
+        call change_scene("hostel_bedroom")
+        return False
+    if ep214_slums_enter_hostel_last_day < day: # если ночевали здесь
+        if ep214_perry_debt > 0:
+            call ep214_dialogues2_citizens_11b() #Жду тебя не позже, чем через неделю!
+        else:
+            # ночевали и ничего не должны, просто выкидываем из локации
+            call change_scene("hostel_street", "Fade_long", "snd_jail_door")
+        return False
+
+    $ hostelBedroomMonicaSuffix = 1
     call ep214_dialogues2_citizens_8()
     if _return == 1: # Моника отдала часть денег. полизала и может ночевать, осталась ночевать
-        pass
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_11c", scene="hostel_street", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_9", scene="hostel_bedroom", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        call change_scene("hostel_bedroom", "Fade_long")
+        return False
     if _return == -1: # Моника отдала часть денег. полизала и может ночевать, но ушла
-        pass
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_11c", scene="hostel_street", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_9", scene="hostel_bedroom", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        call change_scene("hostel_street", "Fade_long")
+        return False
     if _return == -2: # Моника не стала ничего отдавать, уходит
-        pass
+        $ enter_scene("ep214_dialogues2_citizens_12", once=True)
+        call change_scene("hostel_street", "Fade_long")
+        return False
     if _return == -3: # Моника полизала, может ночевать, но злая
-        pass
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_13", scene="hostel_street", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        $ add_hook("enter_scene", "ep214_dialogues2_citizens_9", scene="hostel_bedroom", once=True, label=["day_time_temp", "evening_time_temp", "hostel_comment"])
+        $ hostelReceptionPerrySuffix = 3
     if _return == -4: # Моника отдала часть денег. но не лизала (нет жилья)
-        pass
+        $ enter_scene("ep214_dialogues2_citizens_15", once=True)
+        call change_scene("hostel_street", "Fade_long", "snd_jail_door")
+        return False
     return False
 
 label ep214_slums6_weekly: # вызывается по субботам
@@ -96,6 +135,35 @@ label ep214_slums6_weekly: # вызывается по субботам
         $ ep214_perry_debt += 1000.0
         $ notif(t_("Долг Перри увеличился на $ 1000"))
     return
+
+label ep214_slums_hostel_bedroom_life:
+    if day_time == "evening":
+        $ set_active("Whore1", False)
+    else:
+        $ set_active("Whore1", True)
+    return
+
+label ep214_slums7_hostelbed:
+    jump hostel_basement_bed
+
+label ep214_slums8_hostelshower:
+    if monicaLastShowerDay == day and monicaLastShowerDayTime == day_time:
+        mt "Я уже принимала душ недавно..."
+        return
+    call ep214_dialogues2_citizens_10()
+    if day_time == "evening":
+        $ autorun_to_object("ep214_dialogues2_citizens_10b", scene="hostel_bathroom")
+    call refresh_scene_fade()
+    $ monicaLastShowerDay = day
+    $ monicaLastShowerDayTime = day_time
+    return False
+
+label ep214_slums9_hosteltoilet:
+    call ep214_dialogues2_citizens_15b()
+    call refresh_scene_fade()
+    $ monicaLastPissedDay = day
+    $ monicaLastPissedDayTime = day
+    return False
 
 label ep214_citizens_click:
     if act=="l":

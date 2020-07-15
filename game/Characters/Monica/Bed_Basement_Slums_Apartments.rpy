@@ -5,6 +5,7 @@ label slums_basement_bed:
     if act=="l":
         return
     if act == "h":
+        $ monicaRestHostel = False
         $ monicaRestApartments = True
         $ monicaRestApartmentsDay = day
         $ monicaRestHouse = False

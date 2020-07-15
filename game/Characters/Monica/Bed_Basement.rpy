@@ -22,6 +22,7 @@ label basement_bed_hook:
     if act == "l":
         return True
     if act == "h":
+        $ monicaRestHostel = False
         $ monicaRestApartments = False
         $ monicaRestJuliaHome = False
         $ monicaRestHouse = True
