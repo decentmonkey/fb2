@@ -24,6 +24,9 @@
 
 # Если Бетти прокачана до ур.3, то она предлагает Монике сходить на фитнесс. Разрешает ей не убираться в этот день.
 # Потом фитнесс активируется через 3 дня. Если сегодня фитнеса нет, то Бетти говорит что я пойду на днях.
+
+default ep22_dialogues4_7a_flag1 = True
+
 label ep22_dialogues4_1b:
     mt "Бетти говорила что сегодня день поездки в фитнесс-зал."
     mt "Но мне надо сначала закончить уборку..."
@@ -703,8 +706,10 @@ label ep22_dialogues4_7:
 
 label ep22_dialogues4_7a:
     #Сменяется на город
-    mt "Черт! Уже прошел час!"
-    "Что там делает эта сучка Бетти?!"
+    if ep22_dialogues4_7a_flag1 == True:
+        mt "Черт! Уже прошел час!"
+        "Что там делает эта сучка Бетти?!"
+    $ ep22_dialogues4_7a_flag1 = True
     if bettyKnowsAboutPanties == True:
         call ep24_dialogues3_fitness6() from _call_ep24_dialogues3_fitness6
     img black_screen

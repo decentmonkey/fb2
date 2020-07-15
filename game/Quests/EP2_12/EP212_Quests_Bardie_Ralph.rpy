@@ -89,6 +89,15 @@ label ep212_quests_bardie_ralph6_cleaning_end: # После уборки
             $ clear_music_stack()
             call change_scene("basement_bedroom2", "Fade_long", False) from _rcall_change_scene_82
             return
+        if monicaBardieRalphSeducingStage == 4:
+            $ clear_music_stack()
+            $ monicaBardieRalphSeducingStage = 5
+            call ep214_quests_ralph1()
+            $ clear_music_stack()
+            call change_scene("basement_bedroom2", "Fade_long", False)
+            return
+
+
     return
 
 label ep212_quests_bardie_ralph7: # Вторая уборка

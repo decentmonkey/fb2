@@ -44,6 +44,10 @@ label basement_bedroom2:
     if ep29_revenge_quest1_inited == True and check_hook("before_open", "ep29_revenge_quest1_check", scene="basement_bedroom2") == False: # костыль на старт revenge quest
         call ep29_revenge_quest1_init_repeat() from __rcall_ep29_revenge_quest1_init_repeat1
 #    music Sneak_n_Get_Caught
+
+    if cloth_type == "BettyCloth":
+        $ basement_bedroom2_MonicaSuffix = 1
+
     music Stealth_Groover
 
     return

@@ -1588,7 +1588,7 @@ label ep212_dialogues1_bardie_ralph13: # После третьей уборки
     with fade
     bardie "Я скоро сообщу тебе что надо делать..."
     bardie "Пока можешь быть свободна!"
-    help "Продолжение квеста в следующем обновлении."
+#    help "Продолжение квеста в следующем обновлении."
     return
 
 label ep212_dialogues1_bardie_ralph14: # autorun

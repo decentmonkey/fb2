@@ -1,6 +1,6 @@
 #v0.14
 define monicaHotelHelperScene1CorruptionRequired = 500 # Сколько денег ты скопил?
-
+define monicaRalphBlowjob1SpermCorruptionRequired = 500 # Моника глотает сперму от Ральфа
 
 #v0.13
 define monicaCustomer9AfterPrivateTakeOffPantiesCorruption = 650 # Моника согласилась приспустить трусики и сесть на колени клиента
