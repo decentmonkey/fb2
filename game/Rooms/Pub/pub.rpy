@@ -49,6 +49,8 @@ label pub:
 
     if ep214_quests_pub1_check_inited_flag == False:
         call ep214_quests_pub1_check_init()
+
+    $ set_active("Pub_Washbasin", False)
     return
 label pub_init:
     $ add_object_to_scene("Monica", {"type":2, "base":"pub_Monica_[cloth][pubMonicaSuffix]", "click" : "pub_environment", "actions" : "l", "zorder" : 200}, scene="pub")
