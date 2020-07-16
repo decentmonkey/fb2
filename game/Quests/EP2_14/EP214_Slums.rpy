@@ -33,6 +33,7 @@ label ep214_slums1_offer:
         $ add_hook("Perry", "ep214_slums2_perry_repeat", scene="whores_place", label="ep214_slums2_perry_repeat")
         $ add_hook("Perry", "ep214_dialogues2_citizens_7", scene="whores_place", act="l", label="ep214_slums2_perry_repeat")
         $ add_hook("Teleport_Hostel_1_a", "ep214_dialogues2_citizens_4", act="w", scene="hostel_edge_1_c", label=["day_time_temp", "ep214_slums2_perry_repeat"])
+        $ changeDayTime("evening")
         fadeblack 2.0
         call change_scene("street_corner", "Fade_long") from _rcall_change_scene_145
         return True
