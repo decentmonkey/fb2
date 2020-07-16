@@ -16,8 +16,8 @@ label ep214_quests_citizens_regular_loop1:
                         jump ep214_quests_citizens_regular_loop1
             if citizenId == 7:
                 menu:
-                    "Искусство живописи.":
-                        pass
+                    "Работа натурщицой.":
+                        call ep214_quests_citizen7a()
                     "Назад.":
                         jump ep214_quests_citizens_regular_loop1
 
@@ -79,6 +79,45 @@ label ep214_quests_citizen1_2a: # пригласить к себе (панки)
         $ autorun_to_object("ep214_dialogues2_citizens_17b", scene="street_monicahome")
         return
     fadeblack 2.0
+    $ add_corruption(15, "citizen1_2_scene_blowjob")
     $ autorun_to_object("ep214_dialogues2_citizens_24b", scene="street_monicahome")
 
     return
+
+label ep214_quests_citizen7a: # работа натурщицой
+    call ep214_dialogues2_citizens_18()
+    if _return == -1:
+        $ autorun_to_object("ep214_dialogues2_citizens_17c", scene="hostel_edge_1_a")
+        return
+    if _return == -2:
+        $ autorun_to_object("ep214_dialogues2_citizens_17d", scene="hostel_edge_1_a")
+        return
+    if _return == -3:
+        fadeblack 2.0
+        $ autorun_to_object("ep214_dialogues2_citizens_17c", scene="street_monicahome")
+        call change_scene("street_monicahome", "Fade_long")
+        return
+    fadeblack 2.0
+    $ autorun_to_object("ep214_dialogues2_citizens_24b", scene="street_monicahome")
+    call change_scene("street_monicahome", "Fade_long")
+    return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#

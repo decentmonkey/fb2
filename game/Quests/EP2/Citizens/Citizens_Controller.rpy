@@ -284,8 +284,12 @@ label citizens_init_day:
         if "Citizen_9" in citizensDayList:
             citizensDayList.append("Citizen_3")
         if ep214_slums_citizen4_aborted == True:
-            if "Citizen 4" in citizensDayList:
-                citizensDayList.remove("Citizen 4")
+            if "Citizen_4" in citizensDayList:
+                citizensDayList.remove("Citizen_4")
+        if ep214_quests_citizens_stage2 == True:
+            if "Citizen_7" not in citizensDayList:
+                citizensDayList.append("Citizen_7")
+
         citizensDayList = list(set(citizensDayList)) #unique
         set_active(False, scene="all", group="citizens")
         for var1 in citizensDayList:

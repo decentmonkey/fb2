@@ -86,6 +86,7 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
 
     # меняем стадию общения с ситизенами
     $ ep214_quests_citizens_stage2 = True
+    $ questLog(83, True)
     return
 
 label ep214_slums4_enter_hostel:

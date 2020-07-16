@@ -18,6 +18,9 @@ define monicaSlumsFirstBlowjobCorruptionRequired = 400 # коррапшн за b
 define monicaPerryLickingCorruption = 500 # Моника соглашается отработать у Перри
 
 define monicaCitizen1_2_HandjobCorruptionRequired = 500 # Моника соглашается на хенджоб панкам
+define monicaCitizen7_NudeArtCorruptionRequired = 400 # Моника соглашается позировать художнику
+define monicaCitizen7_NudeArtCorruption2Required = 500 # Моника разрешает потрогать грудь
+
 
 #v0.13
 define monicaCustomer9AfterPrivateTakeOffPantiesCorruption = 650 # Моника согласилась приспустить трусики и сесть на колени клиента
