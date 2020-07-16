@@ -83,6 +83,9 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
     # инициализируем точку с проститутками
     $ add_hook("enter_scene", "ep214_dialogues2_citizens_20", scene="whores_place", once=True, label="Mommy_Whore_Quest")
     $ add_talk("Mommy", "ep214_slums10_mommy", scene="whores_place", label=["Mommy_Whore_Quest", "Mommy_Whore_Quest_dialogue"])
+
+    # меняем стадию общения с ситизенами
+    $ ep214_quests_citizens_stage2 = True
     return
 
 label ep214_slums4_enter_hostel:
@@ -191,7 +194,7 @@ label ep214_citizens_click:
     if act=="l":
         return
 #    m "here"
-    return False
+    return
 
 
 

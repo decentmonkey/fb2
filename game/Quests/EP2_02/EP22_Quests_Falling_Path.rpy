@@ -60,6 +60,9 @@ label ep22_quests_falling_path4:
         "Это опасно..."
         return False
     if obj_name in fallingPathServedCustomers:
+        if ep214_quests_citizens_stage2 == True:
+            mt "Я больше не хочу подходить к нему сегодня!"
+            return False
         mt "За такие маленькие деньги я больше ничего не собираюсь показывать ему сегодня..."
         return False
     call citizens_init() from _call_citizens_init_1

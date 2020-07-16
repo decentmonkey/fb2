@@ -87,6 +87,8 @@ label citizen1_dialogue_pilon:
     $ showedNakedBoobs = False
     $ showedNakedBoobsDance = False
 
+    if ep214_quests_citizens_stage2 == True:
+        jump ep214_quests_citizens_regular
     label citizen1_dialogue_pilon_loop1:
     call pylonController(1, 1) from _call_pylonController_150
     menu:

@@ -1292,9 +1292,9 @@ label ep214_dialogues2_citizens_15b:
 
 # подворотня, где пилон
 label ep214_dialogues2_citizens_16:
-    menu:
-        "Пригласить к себе.":
-            pass
+#    menu:
+#        "Пригласить к себе.":
+#            pass
     # Моника стоит у пилона, панки напротив нее
     music Groove2_85
     imgf 11745
@@ -2845,3 +2845,29 @@ label ep214_dialogues2_citizens_22:
     mt "Не хочу с ней разговаривать!"
     mt "!!!"
     return False
+
+label ep214_dialogues2_citizens_23: # Мамочка смотрит на Монику и не дает зарабатывать у пилона
+    music Master_Disorder
+    imgfl 24343
+    mt "Дьявол, эта старая карга следит за мной!"
+    imgd 24344
+    mt "Похоже, мне не стоит делать это здесь."
+    return
+
+label ep214_dialogues2_citizens_24:
+    mt "Эта старая шлюха не имеет права следить за такой леди как Я!"
+    return
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
