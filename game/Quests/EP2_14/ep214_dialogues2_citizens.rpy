@@ -1493,8 +1493,8 @@ label ep214_dialogues2_citizens_17:
     sound male_laugh4
     citizen1 "Что это за хрень?!"
     citizen2 "Ха-ха-ха!"
-    m "Ничего смешного!"
     imgd 31696
+    m "Ничего смешного!"
     citizen1 "Аха-ха-ха!!!"
     sound male_laugh2a
     citizen1 "Тим, дай свою бутылку из-под пива!"
@@ -1507,11 +1507,11 @@ label ep214_dialogues2_citizens_17:
     citizen2 "Тихо, чувак. Слышишь, что она говорит?"
     citizen2 "Не переживай, теть. Я бутылку еще по дороге выкинул."
     citizen2 "В следующий раз покидаем, Том."
+    music Turbo_Tornado
     imgf 31697
     citizen2 "Лучше смотри, какая тут кровать! Ха-ха!"
     citizen2 "Сколько тут мужиков у тебя было, теть?"
     citizen2 "50 было? Или больше?"
-    music Turbo_Tornado
     citizen2 "Сейчас 51 будет!"
     # запрыгивает на кровать в обуви, начинает прыгать на ней
     sound Jump1
@@ -1573,6 +1573,7 @@ label ep214_dialogues2_citizens_17:
     citizen1 "Все. Я себя буду вести хорошо."
     citizen1 "Мы же сюда пришли не за этим."
     citizen1 "Давай начнем, теть?"
+    music Turbo_Tornado
     imgd 31707
     citizen2 "Подожди! Я сначала отлить хочу."
     citizen1 "Эй! Я тоже!"
@@ -1612,10 +1613,12 @@ label ep214_dialogues2_citizens_17:
     mt "ТВОЮ МААААТЬ!"
     img 31715
     m "Эй, ты куда?!"
-    fadeblack
+#    fadeblack 1.5
+    imgf black_screen
     sound highheels_run2
     pause 2.0
-    music Pyro_Flow
+    music Turbo_Tornado
+#    music Pyro_Flow
     # Моника бежит за тем, кто пошел отливать в раковину на кухне
     # кухня
     # забегает на кухню, тот стоит и расстегивает ширинку
@@ -1639,6 +1642,7 @@ label ep214_dialogues2_citizens_17:
     imgf 31716
     sound run2
     w
+    music Pyro_Flow
     imgd 31720
     mt "Бесполезные!"
     mt "Никчемные!"

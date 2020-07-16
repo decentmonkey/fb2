@@ -299,6 +299,7 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
         $ cloth = monica_juliahome_outside_cloth
         $ cloth_type = monica_juliahome_outside_cloth_type
         $ enter_scene("ep213_dialogues5_julia_10a2", once=True)
+        call ep213_quests_julia17_life()
         call change_scene("street_juliahome", "Fade_long")
         return False
 

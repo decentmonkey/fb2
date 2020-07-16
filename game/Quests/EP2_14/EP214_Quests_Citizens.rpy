@@ -71,8 +71,10 @@ label ep214_quests_citizen1_2a: # пригласить к себе (панки)
     if _return == False:
         $ autorun_to_object("ep214_dialogues2_citizens_17b", scene="hostel_edge_1_a")
         return
+    call change_scene("street_monicahome", "Fade_long")
     call ep214_dialogues2_citizens_17() # апартаменты Моники в трущобах
     if _return == False:
         call bitch(5, "ep214_quests_citizen1_2a")
+        $ autorun_to_object("ep214_dialogues2_citizens_17b", scene="hostel_edge_1_a")
         return
     return
