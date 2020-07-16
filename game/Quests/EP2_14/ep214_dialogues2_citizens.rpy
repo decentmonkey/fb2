@@ -2809,7 +2809,7 @@ label ep214_dialogues2_citizens_21:
 #    $ monicaPerryMommyDebt9 = True # Моника отдала Мамочке ее долю
     # Моника отдает деньги
     mommy "Ты ходила к Перри, девочка?"
-    if monicaPerryMommyDebt5 == True:
+    if ep214_slums_monica_perry_talk_count == 0 or monicaPerryMommyDebt5 == True:
         imgd 19128
         m "Она лжет, что я должна ей $ 50 000!"
         imgd 19129
@@ -2844,4 +2844,4 @@ label ep214_dialogues2_citizens_22:
     # не рендерить!!
     mt "Не хочу с ней разговаривать!"
     mt "!!!"
-    return
+    return False

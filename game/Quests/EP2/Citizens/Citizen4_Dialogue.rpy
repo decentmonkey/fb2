@@ -172,11 +172,11 @@ label citizen4_dialogue_pilon:
             pass
         "Голые сиськи." if citizen4BoobsNakesShowingActive == True and citizen4BoobsNakesShowedLastDay != day:
             $ citizen4BoobsNakesShowedLastDay = day
-            if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired+1 and ep214_slums_offer_day != day:
-                call ep214_slums1_offer()
-                if _return == True:
-                    return False
-                jump citizen4_dialogue_pilon_loop4
+#            if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired+1 and ep214_slums_offer_day != day:
+#                call ep214_slums1_offer()
+#                if _return == True:
+#                    return False
+#                jump citizen4_dialogue_pilon_loop4
             $ store_music()
             call citizen4_show_boobs_regular_time() from _call_citizen4_show_boobs_regular_time
             $ restore_music()
@@ -262,11 +262,11 @@ label citizen4_dialogue_pilon:
         "Станцуй с голыми сиськами. (мало свиданий) (disabled)" if (pylonpart4startsCompleted == True and citizen4BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") < monicaWhoringNakedBoobsDanceVisitsRequired:
             pass
         "Станцуй с голыми сиськами." if (pylonpart4startsCompleted == True and citizen4BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired:
-            if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired + 1 and ep214_slums_offer_day != day:
-                call ep214_slums1_offer()
-                if _return == True:
-                    return False
-                jump citizen4_dialogue_pilon_loop4
+#            if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired + 1 and ep214_slums_offer_day != day:
+#                call ep214_slums1_offer()
+#                if _return == True:
+#                    return False
+#                jump citizen4_dialogue_pilon_loop4
             $ store_music()
             if citizen4BoobsNakedDancedCount == -1:
                 call cit4_naked_boobs_dance_1st() from _call_cit4_naked_boobs_dance_1st
@@ -283,6 +283,12 @@ label citizen4_dialogue_pilon:
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
             $ restore_music()
+            jump citizen4_dialogue_pilon_loop4
+
+        "Минет." if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired + 1 and ep214_slums_offer_day != day:
+            call ep214_slums1_offer()
+            if _return == True:
+                return False
             jump citizen4_dialogue_pilon_loop4
 
         "Достаточно на сегодня.":

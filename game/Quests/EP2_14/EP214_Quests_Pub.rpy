@@ -21,9 +21,10 @@ label ep214_quests_pub2_enter_scene:
     call pub_init3()
     $ add_hook("Poster1", "ep214_dialogues1_pub_1a", scene="pub", label="pub_poster1")
     $ move_object("Bartender_Waitress", "empty")
-    $ add_hook("before_open", "ep214_quests_pub3_makeuproom", scene="pub_makeuproom", label="pub_poster1")
+    $ add_hook("before_open", "ep214_quests_pub3_makeuproom", scene="pub_makeuproom", label="pub_poster1", priority=10000)
     $ ep214_quests_poster_day = day
-    call pub_dance_start_direct()
+#    call pub_dance_start_direct()
+    $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
     $ add_hook("Teleport_Hostel_Street", "ep214_dialogues1_pub_1b", scene="pub", label="pub_poster_block", priority=10000)
     $ add_hook("Bartender", "ep214_dialogues1_pub_1b", scene="pub", label="pub_poster_block")
     call refresh_scene_fade()
@@ -32,11 +33,14 @@ label ep214_quests_pub2_enter_scene:
 label ep214_quests_pub3_makeuproom: # разговор с Эшли в гримерке
     $ remove_hook()
     $ remove_hook(label="pub_poster_block")
+    $ set_active("Teleport_Pub_MakeupRoom", False, scene="pub")
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ move_object("Pub_StripteaseGirl2", "empty")
+    $ move_object("Bartender_Waitress", "pub")
     $ add_talk("Pub_StripteaseGirl2", "ep214_quests_pub4_claire", scene="pub_makeuproom", label="pub_poster1")
     $ add_objective("talk_claire", t_("Поговорить с Клэр о требовании Эшли"), c_orange, 125)
     call ep214_dialogues1_pub_2()
+    call change_scene("pub", "Fade_long")
     return
 
 label ep214_quests_pub4_claire: #разговор с Клэр

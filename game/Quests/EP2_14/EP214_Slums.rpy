@@ -10,9 +10,12 @@ default ep214_slums_monica_paid_money_this_week = False
 default ep214_slums_enter_hostel_last_day = 0
 default ep214_perry_debt = 50000.0
 
+default ep214_monica_talked_mommy = False
+default ep214_monica_talked_mommy_last_day = 0
 
 label ep214_slums1_offer:
     $ ep214_slums_offer_day = day
+    $ ep214_slums_offer_activated = True
     call ep214_dialogues2_citizens_1()
     if _return == -1:
         return False
@@ -46,6 +49,7 @@ label ep214_slums2_perry_repeat:
         return
     $ remove_hook(label="ep214_slums2_perry_repeat")
     $ set_active("Perry", False, scene="whores_place")
+    $ street_whores_perry_active = False
     call ep214_dialogues2_citizens_1b()
     call ep214_slums3_start_fp_part2()
     $ enter_scene("ep214_dialogues2_citizens_3", once=True)
@@ -54,6 +58,8 @@ label ep214_slums2_perry_repeat:
 
 label ep214_slums3_start_fp_part2: # Начало новой части квестов в трущобах (старые неактивны)
     $ questLog(82, True)
+
+    # инициализируем хостел
     call locations_init_hostel_inside()
     $ add_hook("Teleport_Hostel_Street_Door", "ep214_dialogues2_citizens_7", act="l", scene="hostel_street", label="Perry_Debt")
     $ add_hook("Poster", "ep214_dialogues2_citizens_7", scene="hostel_street_door", label="Perry_Debt")
@@ -73,6 +79,10 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
 
     $ add_hook("hostel_monica_after_sleep", "ep214_dialogues2_citizens_11a", scene="global", label="Perry_Debt_aftersleep")
     $ add_hook("hostel_monica_before_sleep", "ep214_dialogues2_citizens_11b2", scene="global", label="Perry_Debt_beforesleep")
+
+    # инициализируем точку с проститутками
+    $ add_hook("enter_scene", "ep214_dialogues2_citizens_20", scene="whores_place", once=True, label="Mommy_Whore_Quest")
+    $ add_talk("Mommy", "ep214_slums10_mommy", scene="whores_place", label=["Mommy_Whore_Quest", "Mommy_Whore_Quest_dialogue"])
     return
 
 label ep214_slums4_enter_hostel:
@@ -165,10 +175,22 @@ label ep214_slums9_hosteltoilet:
     $ monicaLastPissedDayTime = day
     return False
 
+label ep214_slums10_mommy:
+    if ep214_monica_talked_mommy_last_day != day:
+        call ep214_dialogues2_citizens_21()
+    else:
+        call ep214_dialogues2_citizens_22()
+        return False
+    $ enter_scene("ep214_dialogues2_citizens_22", once=True)
+    call change_scene("whores_place_street1", "Fade_long")
+    $ ep214_monica_talked_mommy_last_day = day
+    $ ep214_monica_talked_mommy = True
+    return False
+
 label ep214_citizens_click:
     if act=="l":
         return
-    m "here"
+#    m "here"
     return False
 
 
