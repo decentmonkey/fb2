@@ -290,7 +290,7 @@ label ep214_dialogues2_citizens_1:
     # Перри достает телефон и делает фото
     imgf 19077
 #    sound snd_photo_capture
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_214
     w
     music Power_Bots_Loop
     imgd 19078
@@ -2496,7 +2496,7 @@ label ep214_dialogues2_citizens_18:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_53
     scene black_screen
     with Dissolve(1)
     music Groove2_85

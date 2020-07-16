@@ -29,9 +29,9 @@ label bed_basement_fast_sleep_monica_house:
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     imgd black_screen
-    call process_change_map_location("House")
+    call process_change_map_location("House") from _rcall_process_change_map_location_2
     $ add_hook("before_open", "bed_basement_fast_sleep_monica_house_step1", scene="street_house_outside", label="fast_sleep_process", priority = -1)
-    call change_scene("street_house_outside")
+    call change_scene("street_house_outside") from _rcall_change_scene_123
     return
 
 label bed_basement_fast_sleep_monica_house_step1:
@@ -43,7 +43,7 @@ label bed_basement_fast_sleep_monica_house_step1:
         return
     # Доступ к постели есть
     $ add_hook("before_open", "bed_basement_fast_sleep_monica_house_step2", scene="basement_bedroom2", label="fast_sleep_process", priority=-1)
-    call change_scene("basement_bedroom2", "Fade_long")
+    call change_scene("basement_bedroom2", "Fade_long") from _rcall_change_scene_124
     return
 
 label bed_basement_fast_sleep_monica_house_step2:
@@ -57,7 +57,7 @@ label bed_basement_fast_sleep_monica_house_step3:
     $ remove_hook(label="fast_sleep_process")
     if fastSleepTick != pause_enter:
         return
-    call process_object_click_forced("BasementBed", "h")
+    call process_object_click_forced("BasementBed", "h") from _rcall_process_object_click_forced_2
     return
 
 label bed_basement_fast_sleep_house_slums:
@@ -70,9 +70,9 @@ label bed_basement_fast_sleep_house_slums:
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     imgd black_screen
-    call process_change_map_location("Slums_Apartments")
+    call process_change_map_location("Slums_Apartments") from _rcall_process_change_map_location_3
     $ add_hook("before_open", "bed_basement_fast_sleep_house_slums_step1", scene="street_monicahome", label="fast_sleep_process", priority = -1)
-    call change_scene("street_monicahome")
+    call change_scene("street_monicahome") from _rcall_change_scene_125
     return
 
 
@@ -84,7 +84,7 @@ label bed_basement_fast_sleep_house_slums_step1:
         return
     # Доступ к постели есть
     $ add_hook("before_open", "bed_basement_fast_sleep_house_slums_step2", scene="monicahome_livingroom", label="fast_sleep_process", priority=-1)
-    call process_object_click_forced("HomeEnter", "w")
+    call process_object_click_forced("HomeEnter", "w") from _rcall_process_object_click_forced_3
     return
 
 label bed_basement_fast_sleep_house_slums_step2:
@@ -98,7 +98,7 @@ label bed_basement_fast_sleep_house_slums_step3:
     $ remove_hook(label="fast_sleep_process")
     if fastSleepTick != pause_enter:
         return
-    call process_object_click_forced("Bed1", "h")
+    call process_object_click_forced("Bed1", "h") from _rcall_process_object_click_forced_4
     return
 
 
@@ -113,9 +113,9 @@ label bed_basement_fast_sleep_juliahome:
     $ scene_refresh_flag = True
     $ show_scene_loop_flag = True
     imgd black_screen
-    call process_change_map_location("JuliaHome")
+    call process_change_map_location("JuliaHome") from _rcall_process_change_map_location_4
     $ add_hook("before_open", "bed_basement_fast_sleep_juliahome_step1", scene="street_juliahome", label="fast_sleep_process", priority = -1)
-    call change_scene("street_juliahome")
+    call change_scene("street_juliahome") from _rcall_change_scene_126
     return
 
 label bed_basement_fast_sleep_juliahome_step1:
@@ -126,7 +126,7 @@ label bed_basement_fast_sleep_juliahome_step1:
         return
     # Доступ к постели есть
     $ add_hook("before_open", "bed_basement_fast_sleep_juliahome_step2", scene="juliahome_livingroom", label="fast_sleep_process", priority=-1)
-    call process_object_click_forced("JuliaHome", "w")
+    call process_object_click_forced("JuliaHome", "w") from _rcall_process_object_click_forced_5
     return
 
 label bed_basement_fast_sleep_juliahome_step2:
@@ -140,7 +140,7 @@ label bed_basement_fast_sleep_juliahome_step3:
     $ remove_hook(label="fast_sleep_process")
     if fastSleepTick != pause_enter:
         return
-    call process_object_click_forced("Bed1", "h")
+    call process_object_click_forced("Bed1", "h") from _rcall_process_object_click_forced_6
     return
 
 

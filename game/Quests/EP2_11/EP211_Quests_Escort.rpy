@@ -105,8 +105,8 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     $ rnd1 = rand(1,4)
     if ep214_dialogues3_escort_10_flag1 == True:
         $ ep214_dialogues3_escort_10_flag1 = False
-        call ep214_dialogues3_escort_10()
-        call change_scene("rich_hotel_restaurant", "Fade_long")
+        call ep214_dialogues3_escort_10() from _rcall_ep214_dialogues3_escort_10
+        call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_127
         return False
 
     if escortRestaurantEnterForced > 0:
@@ -114,8 +114,8 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
         $ escortRestaurantEnterForced = 0
     if rnd1 == 1:
         if ep214_dialogues3_escort_10_flag2 == True:
-            call ep214_dialogues3_escort_10()
-            call change_scene("rich_hotel_restaurant", "Fade_long")
+            call ep214_dialogues3_escort_10() from _rcall_ep214_dialogues3_escort_10_1
+            call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_128
             return False
         if ep212_escort3_completed == True:
             call ep212_dialogues3_escort_hotel_7_3() from _rcall_ep212_dialogues3_escort_hotel_7_3
@@ -189,7 +189,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
             $ monicaEscortScene4Day = day
             $ monicaEscortSceneDay = day
             $ monicaEscortScenesCount += 1
-            call ep214_quests_escort1()
+            call ep214_quests_escort1() from _rcall_ep214_quests_escort1
     if _return == 5:
         $ monicaEscortScene5Day = day
         $ monicaEscortSceneDay = day
@@ -197,7 +197,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         call ep213_escort5_1() from _rcall_ep213_escort5_1
 
     if _return == 6:
-        call ep214_quests_escort2()
+        call ep214_quests_escort2() from _rcall_ep214_quests_escort2
         if _return != False:
             $ monicaEscortScene6Day = day
             $ monicaEscortSceneDay = day

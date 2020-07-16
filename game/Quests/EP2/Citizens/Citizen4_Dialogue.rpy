@@ -288,7 +288,7 @@ label citizen4_dialogue_pilon:
             jump citizen4_dialogue_pilon_loop4
 
         "Минет." if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired + 1 and ep214_slums_offer_day != day:
-            call ep214_slums1_offer()
+            call ep214_slums1_offer() from _rcall_ep214_slums1_offer
             if _return == True:
                 return False
             jump citizen4_dialogue_pilon_loop4

@@ -140,7 +140,7 @@ label ep214_dialogues3_escort_2:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_54
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -960,7 +960,7 @@ label ep214_dialogues3_escort_6:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_55
     scene black_screen
     with Dissolve(1)
     music Poppers_and_Prosecco
@@ -1121,7 +1121,7 @@ label ep214_dialogues3_escort_7:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_56
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

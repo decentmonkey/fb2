@@ -109,7 +109,7 @@ label show_scene_now:
 
     if refreshed_scene_name != scene_name:
         $ refreshed_scene_name = scene_name
-        call process_hooks("enter_scene", "global")
+        call process_hooks("enter_scene", "global") from _rcall_process_hooks_51
         if _return != False:
             call process_hooks("enter_scene", scene_name) from _call_process_hooks_13 #хук вызывается после входа на сцену и отрисовки (как autorun)
         call remove_dialogue() from _call_remove_dialogue_2
@@ -156,7 +156,7 @@ label show_scene_loop:
         if interact_data[0] == "show_achievements":
             call show_achievements() from _rcall_sprites_action11
         if interact_data[0] == "time_management_street_fast_sleep":
-            call bed_basement_fast_sleep()
+            call bed_basement_fast_sleep() from _rcall_bed_basement_fast_sleep
 
 
 label show_scene_loop2:

@@ -48,7 +48,7 @@ label pub:
         call ep213_quests_pub1() from _rcall_ep213_quests_pub1 # Проверка на продолжение квестов
 
     if ep214_quests_pub1_check_inited_flag == False:
-        call ep214_quests_pub1_check_init()
+        call ep214_quests_pub1_check_init() from _rcall_ep214_quests_pub1_check_init
 
     $ set_active("Pub_Washbasin", False)
     return

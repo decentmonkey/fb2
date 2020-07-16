@@ -19,7 +19,7 @@ label hostel_bathroom_toilet_init:
 
 label hostel_bathroom_toilet_teleport():
     if obj_name == "Teleport_Hostel_Bathroom":
-        call change_scene("hostel_bathroom", "Fade")
+        call change_scene("hostel_bathroom", "Fade") from _rcall_change_scene_158
         return
 
     return

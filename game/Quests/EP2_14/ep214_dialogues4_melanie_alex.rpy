@@ -15,7 +15,7 @@ label ep214_dialogues4_melanie_alex_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_57
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -144,7 +144,7 @@ label ep214_dialogues4_melanie_alex_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_58
     scene black_screen
     with Dissolve(1)
     music Master_Disorder
@@ -227,7 +227,7 @@ label ep214_dialogues4_melanie_alex_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Тем временем в офисе Дика..."))
+    call textonblack(t_("Тем временем в офисе Дика...")) from _rcall_textonblack_59
     scene black_screen
     with Dissolve(1)
     music Groove2_85

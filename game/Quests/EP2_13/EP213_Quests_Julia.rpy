@@ -91,7 +91,7 @@ label ep213_quests_julia2: # Заходит вечером в дом
 
     $ questLog(74, True)
 
-    call ep213_quests_julia2_req_init()
+    call ep213_quests_julia2_req_init() from _rcall_ep213_quests_julia2_req_init
 
     call change_scene("juliahome_livingroom", "Fade_long", False) from _rcall_change_scene_97
     return False
@@ -129,7 +129,7 @@ label ep213_quests_julia3_shower: # клик на душ
         return False
     call ep213_dialogues5_julia_15c2() from _rcall_ep213_dialogues5_julia_15c2
     if char_info["Julia"]["level"] >= 8 and char_info["Julia"]["current_progress"] >= juliaMonicaRelationshipRequiredScene10 and get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
-        call ep213_dialogues5_julia_10b()
+        call ep213_dialogues5_julia_10b() from _rcall_ep213_dialogues5_julia_10b
     $ monicaLastShowerDay = day # Последний день, когда Моника принимала душ
     $ monicaLastShowerDayTime = day_time
     $ juliaHomeBathroomMonicaSuffix = 3
@@ -290,17 +290,17 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
         return False
 
     if scene_name == "juliahome_bathroom" and juliaHomeBathroomJuliaSuffix == 2 and char_info["Julia"]["level"] >= 9: # Юлия сидит на унитазе
-        call ep213_dialogues5_julia_10a()
+        call ep213_dialogues5_julia_10a() from _rcall_ep213_dialogues5_julia_10a
         if _return == False:
-            call change_scene("juliahome_kitchen", "Fade_long", "snd_walk_barefoot")
+            call change_scene("juliahome_kitchen", "Fade_long", "snd_walk_barefoot") from _rcall_change_scene_130
             return False
         $ juliahome_julia_piss1_day = day
         $ move_object("Julia", "juliahome_livingroom")
         $ cloth = monica_juliahome_outside_cloth
         $ cloth_type = monica_juliahome_outside_cloth_type
         $ enter_scene("ep213_dialogues5_julia_10a2", once=True)
-        call ep213_quests_julia17_life()
-        call change_scene("street_juliahome", "Fade_long")
+        call ep213_quests_julia17_life() from _rcall_ep213_quests_julia17_life_6
+        call change_scene("street_juliahome", "Fade_long") from _rcall_change_scene_131
         return False
 
     if scene_name == "juliahome_kitchen": # Регулярный разговор на кухне
@@ -444,7 +444,7 @@ label ep213_quests_julia21_monica_after_sleep:
 
 
 label ep213_quests_julia22_work_julia_regular:
-    call ep213_quests_julia2_req_init()
+    call ep213_quests_julia2_req_init() from _rcall_ep213_quests_julia2_req_init_1
     if monica_living_at_juliahome == False:
         return
     if act == "l":

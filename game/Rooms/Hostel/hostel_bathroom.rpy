@@ -32,7 +32,7 @@ label hostel_bathroom_init:
 
 label hostel_bathroom_teleport():
     if obj_name == "Teleport_Hostel_Bedroom":
-        call change_scene("hostel_bedroom", "Fade")
+        call change_scene("hostel_bedroom", "Fade") from _rcall_change_scene_156
         return
 
     return
@@ -54,7 +54,7 @@ label hostel_bathroom_environment():
         if act == "l":
             mt "Жуткий унитаз."
         if act == "w":
-            call change_scene("hostel_bathroom_toilet", "Fade")
+            call change_scene("hostel_bathroom_toilet", "Fade") from _rcall_change_scene_157
             return
 
     if obj_name == "Shower":

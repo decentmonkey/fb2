@@ -7,7 +7,7 @@ label hostel_bedroom:
 
     $ scene_image = "scene_Hostel_Bedroom"
 
-    call ep214_slums_hostel_bedroom_life()
+    call ep214_slums_hostel_bedroom_life() from _rcall_ep214_slums_hostel_bedroom_life
 
     music snd_moderate_rain_music
     return
@@ -35,10 +35,10 @@ label hostel_bedroom_init:
 
 label hostel_bedroom_teleport():
     if obj_name == "Teleport_Hostel_Reception":
-        call change_scene("hostel_reception", "Fade")
+        call change_scene("hostel_reception", "Fade") from _rcall_change_scene_159
         return
     if obj_name == "Teleport_Hostel_Bathroom":
-        call change_scene("hostel_bathroom", "Fade")
+        call change_scene("hostel_bathroom", "Fade") from _rcall_change_scene_160
         return
 
     return

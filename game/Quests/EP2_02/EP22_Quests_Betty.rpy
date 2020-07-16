@@ -135,10 +135,10 @@ label EP22_Quests_Betty6:
     #ждать в раздевалке
     #проверяем на сцену со Фредом
     if monicaBardieRalphSeducingStage == 5 or monicaBardieRalphSeducingStage == 6:
-        call ep214_dialogues5_bardie_ralph_2()
+        call ep214_dialogues5_bardie_ralph_2() from _rcall_ep214_dialogues5_bardie_ralph_2
         menu:
             "Взять одежду Бетти и ехать домой.":
-                call ep214_quests_ralph2()
+                call ep214_quests_ralph2() from _rcall_ep214_quests_ralph2
                 return
             "Просто ждать.":
                 pass

@@ -154,21 +154,21 @@ label changeDayTime_day_hooks_hostel:
     if monica_cheats_hungry_enabled == False:
         $ monica_eated()
     $ remove_hook(label="evening_time_temp")
-    call process_hooks("change_time_day", "global")
-    call process_hooks("change_time_day_global", "global")
-    call process_hooks("week_day_" + str(week_day), "global_week_day")
-    call process_hooks("day_" + str(day), "global_day")
+    call process_hooks("change_time_day", "global") from _rcall_process_hooks_42
+    call process_hooks("change_time_day_global", "global") from _rcall_process_hooks_43
+    call process_hooks("week_day_" + str(week_day), "global_week_day") from _rcall_process_hooks_44
+    call process_hooks("day_" + str(day), "global_day") from _rcall_process_hooks_45
     return
 
 label changeDayTime_evening_hooks_hostel:
     if monica_cheats_hungry_enabled == False:
         $ monica_eated()
     $ remove_hook(label="day_time_temp")
-    call process_hooks("change_time_evening", "global")
-    call process_hooks("change_time_evening_hostel_apartments", "global")
-    call process_hooks("change_time_evening_global", "global")
-    call process_hooks("day_" + str(week_day) + "_evening", "global_week_day")
-    call process_hooks("day_" + str(day) + "_evening", "global_day")
+    call process_hooks("change_time_evening", "global") from _rcall_process_hooks_46
+    call process_hooks("change_time_evening_hostel_apartments", "global") from _rcall_process_hooks_47
+    call process_hooks("change_time_evening_global", "global") from _rcall_process_hooks_48
+    call process_hooks("day_" + str(week_day) + "_evening", "global_week_day") from _rcall_process_hooks_49
+    call process_hooks("day_" + str(day) + "_evening", "global_day") from _rcall_process_hooks_50
     return
 
 label changeDayTime_day_hooks_juliahome:

@@ -51,10 +51,10 @@ label hostel_reception_init:
 
 label hostel_reception_teleport():
     if obj_name == "Teleport_Hostel_Street":
-        call change_scene("hostel_street", "Fade", "snd_jail_door")
+        call change_scene("hostel_street", "Fade", "snd_jail_door") from _rcall_change_scene_161
         return
     if obj_name == "Teleport_Hostel_Bedroom":
-        call change_scene("hostel_bedroom", "Fade")
+        call change_scene("hostel_bedroom", "Fade") from _rcall_change_scene_162
         return
     return
 label hostel_reception_environment():
