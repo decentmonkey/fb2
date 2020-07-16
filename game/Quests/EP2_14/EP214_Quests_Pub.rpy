@@ -40,6 +40,7 @@ label ep214_quests_pub3_makeuproom: # разговор с Эшли в гриме
     return
 
 label ep214_quests_pub4_claire: #разговор с Клэр
+    $ remove_hook()
     call ep214_dialogues1_pub_3()
     $ remove_objective("talk_claire")
     $ questLog(76, True)

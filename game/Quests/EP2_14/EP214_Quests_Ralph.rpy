@@ -41,6 +41,7 @@ label ep214_quests_ralph2:
     $ add_hook("Teleport_Street", "ep214_dialogues5_bardie_ralph_2b1", scene="floor1", label="Monica_Ralph_Quest")
     $ add_hook("Teleport_Kitchen", "ep214_dialogues5_bardie_ralph_2b1", scene="floor1", label="Monica_Ralph_Quest")
     $ add_hook("Teleport_Basement_Side", "ep214_dialogues5_bardie_ralph_2b1", scene="basement_hole", label="Monica_Ralph_Quest")
+    $ add_hook("ButtPlug", "ep214_dialogues5_bardie_ralph_2b1", scene="basement_bedroom2", label="Monica_Ralph_Quest")
     if monicaBardieRalphSeducingStage == 5:
         $ move_object("Ralph", "living_room")
         $ add_talk("Ralph", "ep214_quests_ralph6_regular", scene="living_room", label="Monica_Ralph_Quest_regular")
