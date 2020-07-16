@@ -22,6 +22,7 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
 #        call refresh_scene_fade()
         return
     # Инициализируем фотосессию
+    $ move_object("AlexPhotograph", "monica_office_photostudio")
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
     $ add_hook("AlexPhotograph", "ep22_quests_office4", scene="monica_office_photostudio", label="photoshoot_alex") # Алекс стартует фотосессию
     $ add_hook("Biff", "ep22_quests_office5", scene="monica_office_cabinet_table", label="photoshoot") # Мне надо идти в фотостудию, блок на Биффа

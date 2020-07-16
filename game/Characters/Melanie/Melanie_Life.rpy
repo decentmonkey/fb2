@@ -1,3 +1,5 @@
+default Melanie_Life_evening2_skip_once = False
+
 label Melanie_Life_init:
     $ add_hook("change_time_day", "Melanie_Life_day", scene="global")
     $ add_hook("change_time_evening", "Melanie_Life_evening", scene="global")
@@ -26,6 +28,9 @@ label Melanie_Life_evening1:
     return
 
 label Melanie_Life_evening2: #Вечером Мелани в гримерке
+    if Melanie_Life_evening2_skip_once == True:
+        $ Melanie_Life_evening2_skip_once = False
+        return False
     $ move_object("Melanie", "monica_office_makeup_room")
     return False
 
