@@ -51,7 +51,7 @@ label ep214_quests_pub4_claire: #разговор с Клэр
     $ add_talk("Pub_StripteaseGirl2", "ep214_dialogues1_pub_4", scene="pub_makeuproom", label="pub_poster1_claire_repeat")
     $ autorun_to_object("ep214_dialogues1_pub_5")
     $ add_hook("before_open", "ep214_quests_pub5", scene="monica_office_entrance", label="pub_poster1")
-    $ add_objective("talk_claire", t_("Одеть лучшее платье и встретиться с Клэр в офисе"), c_green, 135)
+    $ add_objective("talk_claire", t_("Надеть лучшее платье и встретиться с Клэр в офисе"), c_green, 135)
     $ pub_makeuproom_monica_suffix = 2
     call refresh_scene_fade()
     return False

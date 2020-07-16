@@ -18,6 +18,9 @@ default monicaCitizensArtistNudeModel2 = False # Моника разрешила
 default ep214_dialogues2_citizens_9_flag1 = False
 default ep214_dialogues2_citizens_11b2_flag = False
 
+default ep214_citizens1_2_cumzone1 = 0
+default ep214_citizens1_2_cumzone2 = 0
+
 #call ep214_dialogues2_citizens_1() # сцена с citizen4, появляется Перри, после мамочка
 #call ep214_dialogues2_citizens_2() # если убежала от Перри (мысли)
 #call ep214_dialogues2_citizens_3() # если сначала убежала, а потом решила вернуться к пилону; если пришла к хостелу отдавать деньги (мысли)
@@ -1728,6 +1731,7 @@ label ep214_dialogues2_citizens_17:
     sound vjuh3
     imgf 31728
     citizen1 "Ага!"
+    $ add_money(10.0)
     citizen2 "Держи 10 баксов."
     citizen2 "Том, я первый!"
     # расстегивает штаны и достает член
@@ -1772,6 +1776,8 @@ label ep214_dialogues2_citizens_17:
     imgd 31732
     mt "Какие же эти кретины мерзкие! Фу!"
     mt "Скорее бы уже их отсюда прогнать!"
+    $ monicaCitizensPunksBlowjob2 = False
+    $ monicaCitizensPunksBlowjob3 = False
     menu:
         "Встать на колени и взять в рот член Тима.":
             # Моника встает на колени перед Тимом
@@ -1963,6 +1969,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone1 = 1
                     pass
                 "Кончить на лицо Моники.":
                     # один кончает Монике на лицо, второй на руку
@@ -1983,6 +1990,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone1 = 2
                     pass
                 "Кончить на грудь Моники.":
                     # один кончает Монике на грудь, второй на руку
@@ -2003,6 +2011,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone1 = 3
                     pass
             music Groove2_85
             imgd 31765
@@ -2232,6 +2241,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone2 = 1
                     pass
                 "Кончить на лицо Моники.":
                     # один кончает Монике на лицо, второй на руку
@@ -2252,6 +2262,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone2 = 2
                     pass
                 "Кончить на грудь Моники.":
                     # один кончает Монике на грудь, второй на руку
@@ -2272,6 +2283,7 @@ label ep214_dialogues2_citizens_17:
                     mt "ФУУУ!!!"
                     mt "Придурки!!!"
                     mt "!!!"
+                    $ ep214_citizens1_2_cumzone2 = 3
                     pass
             music Groove2_85
             imgd 31802
@@ -2300,11 +2312,13 @@ label ep214_dialogues2_citizens_17:
         imgfl 31804
         citizen1 "Это было круто, теть!"
         ## они же отдали ей уже 10 баксов
+        $ add_money(13.0)
         citizen2 "Вот твои 13 баксов."
         citizen2 "Итого ты заработала 23 бакса, теть!"
     else:
         imgfl 31804
         citizen1 "Это было круто, теть!"
+        $ add_money(11.0)
         citizen2 "Вот твои 11 баксов."
         citizen2 "Итого ты заработала 21 бакс, теть!"
 
@@ -2340,6 +2354,10 @@ label ep214_dialogues2_citizens_17:
     mt "Не хочу их больше видеть у себя в квартире!!!"
     mt "Ненавижу их!!!"
     mt "!!!"
+    return True
+
+label ep214_dialogues2_citizens_17b:
+    mt "Мерзкие тупые придурки!!!"
     return
 
 # Моника, приходит в трущобы, чтобы работать у пилона

@@ -84,9 +84,9 @@ define ep212_private_dance2 = 420 # Моника согласилась назв
 define ep212_private_dance3 = 460 # Моника согласилась потереться об клиента попой
 
 #v11
-default slumsApartmentsRentPrice = 300.0
-default slumsApartmentsRentPriceDiscount1 = 270.0
-default slumsApartmentsRentPriceDiscount2 = 240.0
+default slumsApartmentsRentPrice = 100.0
+default slumsApartmentsRentPriceDiscount1 = 90.0
+default slumsApartmentsRentPriceDiscount2 = 80.0
 
 define slumsApartmentsRentPriceDiscountCorruption1 = 300
 define slumsApartmentsRentPriceDiscount10Corruption = 300
