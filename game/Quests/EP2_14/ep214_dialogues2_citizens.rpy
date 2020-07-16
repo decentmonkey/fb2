@@ -1329,7 +1329,7 @@ label ep214_dialogues2_citizens_16:
             mt "Я еще не настолько опустилась!"
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             m "Хватит с вас того, что вы уже видели!"
-            return
+            return False
     # Моника все так же подозрительно смотрит на них
     music Groove2_85
     imgd 11793
@@ -1357,10 +1357,11 @@ label ep214_dialogues2_citizens_16:
     citizen2 "Дааа!!"
 #    m "Что?!"
     mt "!!!"
+    $ menu_corruption = [monicaCitizen1_2_HandjobCorruptionRequired]
     menu:
         "Согласиться.":
             # если Моника не арендует квартиру у Джека
-            if monicaShawarmaApartment5 == False:
+            if slumsApartmentsRentActive == False:
                 music Groove2_85
                 imgf 13193
                 mt "А если кто-то увидит?!"
@@ -1374,11 +1375,10 @@ label ep214_dialogues2_citizens_16:
                 m "Нет! Я не собираюсь делать это!!"
                 m "За 15 баксов можете дрочить друг у друга!"
                 $ notif(t_("Монике некуда вести клиентов."))
-                return
+                return False
             # если арендует квартиру у Джека
-            if monicaShawarmaApartment5 == True and monicaShawarmaApartment9 == False:
-                $ monicaCitizensPunksBlowjob1 = True # Моника согласилась на хенджоб с панками за 15 баксов
-                pass
+#            if monicaShawarmaApartment5 == True and monicaShawarmaApartment9 == False:
+            $ monicaCitizensPunksBlowjob1 = True # Моника согласилась на хенджоб с панками за 15 баксов
         "Хватит с вас того, что вы уже видели!":
             music Stealth_Groover
             imgf 13193
@@ -1388,7 +1388,7 @@ label ep214_dialogues2_citizens_16:
             imgd 11794
             m "Нет! Я никогда на подобное не соглашусь!!"
             m "Друг другу подрочите за 15 баксов!"
-            return
+            return False
     # Моника в сомнениях
     music Pyro_Flow
     imgf 19040
@@ -1409,12 +1409,13 @@ label ep214_dialogues2_citizens_16:
     mt "А ведь мне еще нужно выплачивать долг этой мерзкой извращенке Перри!"
     #
 
-    # если Монику выгнали с эскорта
-    #
-    $ notif(_("Моника больше не работает в ВИП-эскорте."))
-    #
-    mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
-    #
+    if ep212_escort_monica_fired == True:
+        # если Монику выгнали с эскорта
+        #
+        $ notif(_("Моника больше не работает в ВИП-эскорте."))
+        #
+        mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
+        #
 #    music Groove2_85
     imgf 10580
     mt "Моника..."
@@ -1711,7 +1712,7 @@ label ep214_dialogues2_citizens_17:
             m "БЫСТРО!!!"
             m "!!!"
             $ monicaCitizensPunksBlowjob4 = True # Моника прогнала Тома и Тима из своей квартиры
-            return
+            return False
     music Stealth_Groover
     imgf 31723
     mt "Я не верю этим придуркам!"

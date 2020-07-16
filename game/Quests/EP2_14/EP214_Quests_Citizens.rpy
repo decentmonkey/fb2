@@ -65,6 +65,12 @@ label ep214_quests_citizens_regular_loop1:
     return False
 
 
-label ep214_quests_citizen1_2a:
+label ep214_quests_citizen1_2a: # пригласить к себе (панки)
     call ep214_dialogues2_citizens_16()
+    if _return == False:
+        return
+    call ep214_dialogues2_citizens_17() # апартаменты Моники в трущобах
+    if _return == False:
+        call bitch(5, "ep214_quests_citizen1_2a")
+        return
     return
