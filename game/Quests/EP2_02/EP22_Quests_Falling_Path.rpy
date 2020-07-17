@@ -90,6 +90,9 @@ label falling_path_start_customer():
     return
 label falling_path_store_customer():
     $ fallingPathServedCustomers.append("Citizen_" + str(citizenId))
+    if citizenId == 1: # добавляем второго панка
+        $ fallingPathServedCustomers.append("Citizen_" + str(2))
+
     if fallingPathServedCustomersGlobal.has_key("Citizen_" + str(citizenId)) == False:
         $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)] = {"visits":0}
     $ fallingPathServedCustomersGlobal["Citizen_" + str(citizenId)]["visits"] += 1
