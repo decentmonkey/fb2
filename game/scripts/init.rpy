@@ -1,8 +1,8 @@
 #v0.14
-define monicaHotelHelperScene1CorruptionRequired = 500 # Сколько денег ты скопил?
-define monicaRalphBlowjob1SpermCorruptionRequired = 400 # Моника глотает сперму от Ральфа
-define monicaRalphBlowjob2SpermCorruptionRequired = 500 # Проглотить сперму Ральфа регулярно
-define monicaRalphSexCumInsideCorruptionRequired = 600 # Кончить в Монику
+define monicaHotelHelperScene1CorruptionRequired = 550 # Сколько денег ты скопил?
+define monicaRalphBlowjob1SpermCorruptionRequired = 470 # Моника глотает сперму от Ральфа
+define monicaRalphBlowjob2SpermCorruptionRequired = 490 # Проглотить сперму Ральфа регулярно
+define monicaRalphSexCumInsideCorruptionRequired = 510 # Кончить в Монику
 
 define monicaRalphScene1Corruption = 10 # Добавляется за сцену1
 define monicaRalphScene2Corruption = 10 # Добавляется за сцену2
@@ -13,13 +13,13 @@ define monicaRalphScene4bCorruption = 10 # Добавляется за сцен�
 
 define monicaRalphRegularProgress = 20 # прогресс с Ральфом за каждую встречу
 
-define monicaSlumsFirstBlowjobCorruptionRequired = 400 # коррапшн за blowjob у пилона
+define monicaSlumsFirstBlowjobCorruptionRequired = 270 # коррапшн за blowjob у пилона
 
-define monicaPerryLickingCorruption = 500 # Моника соглашается отработать у Перри
+define monicaPerryLickingCorruption = 300 # Моника соглашается отработать у Перри
 
-define monicaCitizen1_2_HandjobCorruptionRequired = 500 # Моника соглашается на хенджоб панкам
-define monicaCitizen7_NudeArtCorruptionRequired = 400 # Моника соглашается позировать художнику
-define monicaCitizen7_NudeArtCorruption2Required = 500 # Моника разрешает потрогать грудь
+define monicaCitizen1_2_HandjobCorruptionRequired = 350 # Моника соглашается на хенджоб панкам
+define monicaCitizen7_NudeArtCorruptionRequired = 310 # Моника соглашается позировать художнику
+define monicaCitizen7_NudeArtCorruption2Required = 370 # Моника разрешает потрогать грудь
 
 
 #v0.13
