@@ -231,9 +231,9 @@ label ep214_dialogues4_melanie_alex_2:
     scene black_screen
     with Dissolve(1)
     music Groove2_85
-    imgfl 19022
+    imgfl 19023
     w
-    imgf 19023
+    imgf 19022
     w
     fadeblack 2.0
     music Groove2_85
@@ -437,7 +437,8 @@ label ep214_dialogues4_melanie_alex_2:
     imgd 18914
     melanie "..."
     # раздвигает ноги
-    music Loved_Up
+    music stop
+    music2 Loved_Up
     imgf 18915
     alex_photograph "Оооо!!!"
     imgfl 19013
@@ -445,11 +446,42 @@ label ep214_dialogues4_melanie_alex_2:
     # Алекс взглядом маньяка рассматривает ее, потом припадает губами к ее киске, ликинг
     imgf 18916
     w
-#    sound vjuh3
-    imgd 18917
+
+    sound vjuh3
+    img 18917 vpunch
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking1_1 = Movie(play="video/v_Melanie_Alex_Licking1_1.mkv", fps=30)
+    show videov_Melanie_Alex_Licking1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18918
     alex_photograph "Ммммм!!!"
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking1_2 = Movie(play="video/v_Melanie_Alex_Licking1_2.mkv", fps=30)
+    show videov_Melanie_Alex_Licking1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 18919
     w
     imgf 18920
@@ -479,12 +511,44 @@ label ep214_dialogues4_melanie_alex_2:
     sound lick3
     imgd 18922
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking1_3 = Movie(play="video/v_Melanie_Alex_Licking1_3.mkv", fps=30)
+    show videov_Melanie_Alex_Licking1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 18924
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking1_4 = Movie(play="video/v_Melanie_Alex_Licking1_4.mkv", fps=30)
+    show videov_Melanie_Alex_Licking1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Мелани сидит, прикрыв глаза, особо не эмоционирует
     # потом снова смотрит на камеру
     # офис Дика, Виктория сидит у компа
     # Виктория зло смотрит на монитор
+    music2 stop
     fadeblack 2.0
     music Groove2_85
     imgfl 19027
@@ -715,25 +779,65 @@ label ep214_dialogues4_melanie_alex_2:
     # Алекс лижет киску и одной рукой надрачивает свой стояк
     # после буквально пары движений рукой вверх-вниз Алекс кончает
     fadeblack 2.0
-    music Loved_Up
+    music stop
+    music2 Loved_Up
     imgfl 18961
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking2_1 = Movie(play="video/v_Melanie_Alex_Licking2_1.mkv", fps=30)
+    show videov_Melanie_Alex_Licking2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18962
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking2_2 = Movie(play="video/v_Melanie_Alex_Licking2_2.mkv", fps=30)
+    show videov_Melanie_Alex_Licking2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18963
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    scene black
+    image videov_Melanie_Alex_Licking2_3 = Movie(play="video/v_Melanie_Alex_Licking2_3.mkv", fps=30)
+    show videov_Melanie_Alex_Licking2_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18967
     w
     imgd 18964
-    w
-    sound lick3
-    imgf 18965
-    w
-    sound lick3
-    imgd 18966
-    w
-    sound lick3
-    imgd 18965
     w
     sound lick3
     imgd 18966
@@ -747,6 +851,7 @@ label ep214_dialogues4_melanie_alex_2:
     sound lick3
     imgd 18965
     alex_photograph "ААА!"
+
     sound lick3
     imgd 18966
     alex_photograph "АААААА!!"
@@ -760,6 +865,7 @@ label ep214_dialogues4_melanie_alex_2:
     alex_photograph "ААААААААА!!!"
     # Алекс растерянно смотрит на свой член
     # Мелани приподнимается и удивленно и слегка насмешливо смотрит на него
+    music2 stop
     fadeblack 1.5
     music In_Your_Arms
     imgfl 18969
@@ -808,13 +914,14 @@ label ep214_dialogues4_melanie_alex_2:
     alex_photograph "Да, Мелани?"
     melanie "Ты точно не против жить со мной?"
     melanie "Ты точно этого хочешь?"
+    music stop
+    music2 Loved_Up
     # раздвигает ноги
     imgf 19067
     alex_photograph "Мелани, раздвинь скорее свои ножки!"
     alex_photograph "Я хочу к тебе!"
     imgd 19068
     w
-    music Loved_Up
     imgd 19069
     w
     imgf 18980
@@ -837,29 +944,111 @@ label ep214_dialogues4_melanie_alex_2:
     # Алекс входит в нее, начинает двигаться
     sound chpok6
     img 18983 vpunch
+    w
     alex_photograph "Ооооо!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Sex1.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex1_1 = Movie(play="video/v_Melanie_Alex_Sex1_2.mkv", fps=30)
+    show videov_Melanie_Alex_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18984
     alex_photograph "Как же хорошо!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Sex1.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex1_2 = Movie(play="video/v_Melanie_Alex_Sex1_2.mkv", fps=30)
+    show videov_Melanie_Alex_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18985
     alex_photograph "Не могу поверить, что мой член внутри такой топ-модели!!"
     alex_photograph "Оооох..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Sex1.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex1_3 = Movie(play="video/v_Melanie_Alex_Sex1_3.mkv", fps=30)
+    show videov_Melanie_Alex_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Sex1.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex1_4 = Movie(play="video/v_Melanie_Alex_Sex1_4.mkv", fps=30)
+    show videov_Melanie_Alex_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18986
     alex_photograph "У тебя миллионы поклонников!"
     imgd 18987
     alex_photograph "Но именно мне выдался шанс трахать тебя!"
     alex_photograph "Даааа!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Sex1.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex1_5 = Movie(play="video/v_Melanie_Alex_Sex1_5.mkv", fps=30)
+    show videov_Melanie_Alex_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # смена кадра, офис Дика
     # Виктория продолжает смотреть в монитор и ласкать себя
     # смена кадра на апартаменты Мелани
     # потом Алекс останавливается
     imgf 18970
     w
+    music2 stop
     fadeblack 2.0
     music Groove2_85
     imgfl 19032
     w
     sound ahhh1
-    imgf 19033
+    imgd 19033
     w
     sound ahhh11
     imgd 19034
@@ -909,36 +1098,134 @@ label ep214_dialogues4_melanie_alex_2:
     imgd 18996
     w
     fadeblack 1.5
-    music Loved_Up
+    music stop
+    music2 Loved_Up2
     sound chpok6
     img 18997 vpunch
+    w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_1 = Movie(play="video/v_Melanie_Alex_Sex2_1.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_1
+    with fade
     alex_photograph "Ооооо!!!"
     alex_photograph "Как же хорошо!"
     alex_photograph "Ты само совершенство, Мелани..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # смена кадра, офис Дика
     # Виктория продолжает смотреть в монитор и ласкать себя
     # смена кадра на апартаменты Мелани
     imgd 18970
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_2 = Movie(play="video/v_Melanie_Alex_Sex2_2.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18998
     alex_photograph "Звезда мира моды! Знаменитость!"
     alex_photograph "Сколько журналистов гадали, какая твоя киска на вкус!"
     sound kiss1
     imgd 18999
     alex_photograph "Оооо..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_3 = Movie(play="video/v_Melanie_Alex_Sex2_3.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19000
     alex_photograph "Тебя желает пол мира!!!"
     imgd 19001
     alex_photograph "А трахаю тебя Я!!!"
     alex_photograph "Ааааа!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_4 = Movie(play="video/v_Melanie_Alex_Sex2_4.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19002
     alex_photograph "Оооох..."
     melanie "Мммм..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_5 = Movie(play="video/v_Melanie_Alex_Sex2_5.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 19003
     alex_photograph "Ааааа!!"
     imgf 19004
     alex_photograph "Мммм..."
-    music Loved_up2
+#    music Loved_up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Sex2.ogg"
+    scene black
+    image videov_Melanie_Alex_Sex2_6 = Movie(play="video/v_Melanie_Alex_Sex2_6.mkv", fps=30)
+    show videov_Melanie_Alex_Sex2_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 19005
     alex_photograph "Даааа... Продолжай таааак..."
     melanie "Мммм..."
@@ -1014,6 +1301,7 @@ label ep214_dialogues4_melanie_alex_2:
     # Виктория кончает
     imgf 18970
     w
+    music2 stop
     fadeblack 2.0
     music Loved_Up
     imgfl 19035
