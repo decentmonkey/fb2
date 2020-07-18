@@ -123,7 +123,7 @@ init python:
             ["16695", "", False],
             ["16732", "", False],
             ["16756", "", False],
-            ["17215", "Extra", False],
+            ["17215", "EXTRA", False],
             ["17235", "", False],
             ["17573", "", False],
             ["17496", "", False],
@@ -252,7 +252,7 @@ init python:
             ["31060", "", False],
             ["30760", "", False],
             ["30972", "", False],
-            ["31007", "Extra", False]
+            ["31007", "EXTRA", False]
         ],
 
         "Marcus": [
@@ -272,7 +272,7 @@ init python:
             ["21475","", "gallery_21475"],
             ["21523","", "gallery_21523"],
             ["21554","", "gallery_21554"],
-            ["21606","Extra", "gallery_21606"],
+            ["21606","EXTRA", "gallery_21606"],
             ["21672","", "gallery_21672"],
             ["21743","", "gallery_21743"],
             ["21761","", "gallery_21761"],
@@ -377,7 +377,7 @@ init python:
 
         "Office": [
             ["8285", "", "gallery_8285"],
-            ["13869", "Extra", "gallery_13869"],
+            ["13869", "EXTRA", "gallery_13869"],
             ["20265", "", "gallery_20265"],
             ["20300", "", "gallery_20300"],
             ["20303", "", "gallery_20303"],
@@ -533,7 +533,7 @@ init python:
             ["v_Monica_Strip_Q2_end", "", False],
             ["v_Monica_Strip_Q3_end", "", False],
 
-            ["23181", "Extra", False],
+            ["23181", "EXTRA", False],
             ["v_Monica_Strip_Nude_01_end", "", False],
             ["v_Monica_Strip_Nude_02_end", "", False],
             ["v_Monica_Strip_Nude_03_end", "", False],
@@ -645,12 +645,12 @@ init python:
             ["31750", "", False],
             ["31759", "", False],
             ["31763", "", False],
-            ["31794", "Extra", False],
-            ["31795", "Extra", False],
-            ["31799", "Extra", False],
-            ["31801", "Extra", False],
-            ["31836", "Extra", False],
-            ["31831", "Extra", False]
+            ["31794", "EXTRA", False],
+            ["31795", "EXTRA", False],
+            ["31799", "EXTRA", False],
+            ["31801", "EXTRA", False],
+            ["31836", "EXTRA", False],
+            ["31831", "EXTRA", False]
         ],
         "Steve": [
             ["9944", "", "gallery_9944"],
