@@ -1032,15 +1032,66 @@ label ep214_dialogues5_bardie_ralph_12:
             fadeblack
             sound snd_fabric
             pause 2.0
-            music Loved_up2
+            music2 Loved_up
             imgfl 31613
             w
+
+            img black_screen
+            with diss
+            stop music
+            $ renpy.music.set_volume(0.5, 0.5, channel="music")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+            play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_Ralph_Titjob1.ogg"
+            scene black
+            image videov_Monica_Ralph_Titjob1_1 = Movie(play="video/v_Monica_Ralph_Titjob1_1.mkv", fps=30)
+            show videov_Monica_Ralph_Titjob1_1
+            with fade
+            wclean
+            stop music
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 31614
             w
+
+            img black_screen
+            with diss
+            stop music
+            $ renpy.music.set_volume(0.5, 0.5, channel="music")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+            play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_Ralph_Titjob1.ogg"
+            scene black
+            image videov_Monica_Ralph_Titjob1_2 = Movie(play="video/v_Monica_Ralph_Titjob1_1.mkv", fps=30)
+            show videov_Monica_Ralph_Titjob1_2
+            with fade
+            wclean
+            stop music
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 31615
             w
             imgf 31616
             w
+
+            img black_screen
+            with diss
+            stop music
+            $ renpy.music.set_volume(0.5, 0.5, channel="music")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+            play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_Ralph_Titjob1.ogg"
+            scene black
+            image videov_Monica_Ralph_Titjob1_3 = Movie(play="video/v_Monica_Ralph_Titjob1_3.mkv", fps=30)
+            show videov_Monica_Ralph_Titjob1_3
+            with fade
+            wclean
+            stop music
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            music2 stop
+            fadeblack 1.5
+            music Loved_Up2
             imgd 31617
             ralph "Ммммм, Бетти!"
             imgf 31618
