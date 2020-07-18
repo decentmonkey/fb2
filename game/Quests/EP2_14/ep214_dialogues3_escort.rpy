@@ -636,15 +636,16 @@ label ep214_dialogues3_escort_3:
     hotel_staff "Мммм... Да..."
     # брюнетка вмешивается с комментами
     music Groove2_85
-    imgf 18653
+    imgf 18654
+#    imgf 18653
     girl_1 "Да насаживай уже ее голову на свой стояк!"
     girl_1 "Чего ты с ней возишься?!"
     girl_1 "Давай, амеба, покажи, что ты вообще мужчина!"
     mt "!!!"
     # служащий смотрит на брюнетку, потом на Монику
     # берет ее за голову и входит в ее рот до предела
-    imgd 18654
-    w
+#    imgd 18654
+#    w
     imgd 18655
     w
     sound vjuh2
@@ -735,17 +736,98 @@ label ep214_dialogues3_escort_3:
     mt "!!!"
     mt "Я убью эту мерзкую тварь!"
     # минет продолжается, служащий тащится и кончает
-    music Loved_Up2
+    fadeblack 1.5
+    music2 Loved_Up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob3_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob3_1 = Movie(play="video/v_Monica_Helper_Blowjob3_1.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob3_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18660
     hotel_staff "Даааа!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob3_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob3_2 = Movie(play="video/v_Monica_Helper_Blowjob3_2.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob3_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18661
     hotel_staff "Оооох!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob3_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob3_3 = Movie(play="video/v_Monica_Helper_Blowjob3_3.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob3_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18662
     hotel_staff "Ооооо!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob3_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob3_4 = Movie(play="video/v_Monica_Helper_Blowjob3_4.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob3_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18663
     w
     imgd 18664
     mt "!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Monica_Helper_Blowjob3_1.ogg"
+    scene black
+    image videov_Monica_Helper_Blowjob3_5 = Movie(play="video/v_Monica_Helper_Blowjob3_5.mkv", fps=30)
+    show videov_Monica_Helper_Blowjob3_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18665
     menu:
         "Кончить Монике в рот.":
@@ -812,6 +894,8 @@ label ep214_dialogues3_escort_3:
     girl_2 "Молодец!"
     girl_3 "Ты сделал это!"
     linda "Хи-хи-хи!"
+    music2 stop
+    fadeblack 1.5
     music Power_Bots_Loop
     imgf 18673
     mt "Мерзкие сучки!"
@@ -1346,13 +1430,28 @@ label ep214_dialogues3_escort_7:
     w
     imgd 18751
     w
-    imgd 18750
-    w
-    imgd 18751
-    w
-    imgd 18752
-    w
+    music stop
     music2 stop
+    fadeblack 1.5
+    music2 Loved_Up
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Petting1.ogg"
+    scene black
+    image videov_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_1 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_1.mkv", fps=30)
+    show videov_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
     imgf 18753
     w
     imgd 18754
@@ -1364,12 +1463,31 @@ label ep214_dialogues3_escort_7:
     imgf 18757
     w
     # Моника высокомерно смотрит на брюнетку, та работает рукой и злобно поглядывает на Монику
-    music Stealth_Groover
+    music2 Stealth_Groover
     imgd 18758
     mt "Завидуешь, сучка?"
     mt "Тебе нужно работать рукой..."
     mt "А мне даже не нужно прикасаться к этому неудачнику..."
     mt "Такой шикарной женщине, как Я, достаточно ему позволить целовать мои ноги."
+
+    music2 Loved_Up
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Petting1.ogg"
+    scene black
+    image videov_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_2 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_2.mkv", fps=30)
+    show videov_Monica_Visitor3_EscortCustomer1_Escort6_Petting1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
+    fadeblack 1.5
     # клиент отрывается от ног Моники и говорит брюнетке
     music Groove2_85
     imgf 18759
@@ -1491,7 +1609,8 @@ label ep214_dialogues3_escort_7:
     m "Конечно, Мистер..." # снисходительно
     # протягивает ему ногу
     # он снова облизывает пальчики Моники, к нему возвращается стояк
-    music Loved_Up
+    fadeblack 1.5
+    music2 Loved_Up
     imgf 18782
     client "Ммммм..."
     imgd 18783
@@ -1508,14 +1627,95 @@ label ep214_dialogues3_escort_7:
     imgf 18785
     client "Ммммм!!"
     # сосет их и в одновременно шпилит брюнетку, накрывая ее своим жиром
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_1 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_1.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18786
     girl_1 "Черт! Мне тяжело!"
     girl_1 "Ай!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_2 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_2.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_3 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_3.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18787
     client "Какая Вы великолепная, Мииииисс [monica_hotel_name]!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_4 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_4.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18788
     client "Как же хорошооооо!"
     client "Оооо... Мисс..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_5 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_5.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
+    fadeblack 1.5
     music Groove2_85
     imgf 18789
     client "Мисс [monica_hotel_name]..."
@@ -1597,6 +1797,7 @@ label ep214_dialogues3_escort_7:
     # Моника протягивает ей ногу, брюнетка медлит
     girl_1 "Мистер, может быть..."
     girl_1 "Хотите, я поцелую вашу ногу?"
+
     # Моника ее перебивает
     music Stealth_Groover
     imgd 18802
@@ -1633,12 +1834,79 @@ label ep214_dialogues3_escort_7:
     # брюнетка выполняет
     # клиент взглядом маньяка смотрит вблизи на это
     # анальный секс, брюнетка сосет пальцы Моники
+    fadeblack 1.5
+    music2 Loved_Up
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_1 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_1.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 18808
     client "Оооо..."
     client "Соси!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_2 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_2.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_3 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_3.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 18809
     client "Вот так, дааа..."
     client "Облизывай ее пальчики еще!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.3333333) + " loop 0.0>Sounds/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2.ogg"
+    scene black
+    image videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_4 = Movie(play="video/v_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_4.mkv", fps=30)
+    show videov_Monicav_Monica_Visitor3_EscortCustomer1_Escort6_Sex2_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
+    fadeblack 1.5
+    music Groove2_85
     imgd 18810
     client "Скажи, они великолепны, да?"
     # брюнетка отстраняется от ноги и зло смотрит на Монику
