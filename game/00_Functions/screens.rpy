@@ -313,7 +313,7 @@ screen screen_sprites(data):
                                     $ tint_adjustment = False
                                     $ if data[i].has_key("tint") == True: tint_adjustment = data[i]["tint"]
                                     if data[i].has_key("hover_enabled") == False or data[i]["hover_enabled"] == True:
-                                        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or screenCache == False:
+                                        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or screenCache == False or 1==1:
                                             if tint_adjustment != False:
                                                 $ hoveredImage = im.MatrixColor(
                                                     idleImg,
@@ -447,7 +447,7 @@ screen screen_sprites(data):
                                     $ spriteImageStr = spriteStr if spriteStr != False else scene_image_file
             #                        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskStr)),zoom_factor) if maskStr != False else im.FactorScale(Image(spriteImageStr),1.5)
             #                        $ idleImg = Image(spriteImageStr)
-                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or 1==1:
                                         if maskStr != False:
                                             if mask_canvas_offset != False and spriteImageStr == scene_image_file:
                 #                                $ idleImg = Image(spriteImageStr)
@@ -468,7 +468,7 @@ screen screen_sprites(data):
                                     else:
                                         $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
-                                    if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+                                    if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or 1==1:
                                         $ spriteImage = im.MatrixColor(
                                             idleImg,
                                             im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
@@ -512,7 +512,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
 #        $ print spriteImageStr
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
 
-        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or sceneSpriteSurfacesCache.has_key(scene_name + i) == False or 1==1:
             if maskImageStr != False:
                 if canvas_offset != False and spriteImageStr == scene_image_file:
                     $ maskImage = Image(maskImageStr)
@@ -531,7 +531,7 @@ screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness
         else:
             $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
-        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or 1==1:
             $ spriteImage = im.MatrixColor(
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
@@ -558,7 +558,7 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
         $ spriteImageStr = spriteImageStr if spriteImageStr != False else scene_image_file
 #        $ idleImg = im.FactorScale(im.AlphaMask(Image(spriteImageStr), Image(maskImageStr)),zoom_factor) if maskImageStr != False else im.FactorScale(Image(spriteImageStr),zoom_factor)
 
-        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCacheIdle.has_key(scene_name + i) == False or 1==1:
             if maskImageStr != False:
                 if canvas_offset != False and spriteImageStr == scene_image_file:
                     $ maskImage = Image(maskImageStr)
@@ -577,7 +577,7 @@ screen hover_text_sprite_high_hover_sprite(spriteImageStr, maskImageStr, disable
         else:
             $ idleImg = sceneSpriteSurfacesCacheIdle[scene_name + i]
 
-        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False:
+        if sceneSpriteSurfacesCache.has_key(scene_name + i) == False or 1==1:
             $ spriteImage = im.MatrixColor(
                 idleImg,
                 im.matrix.brightness(brightness_adjustment) * im.matrix.saturation(saturation_adjustment) * im.matrix.contrast(contrast_adjustment) * im.matrix.tint(tint_adjustment[0], tint_adjustment[1], tint_adjustment[2])
