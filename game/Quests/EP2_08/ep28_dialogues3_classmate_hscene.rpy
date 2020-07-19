@@ -1432,6 +1432,10 @@ label dialogue_classmate_3_2a:
     mt "Может быть стоит {c}придти сюда днем{/c}?"
     return
 
+label dialogue_classmate_3_2a2:
+    mt "Может быть стоит {c}придти сюда днем{/c}?"
+    return
+
 # Моника пришла на локацию колледжа в красивом платье
 label dialogue_classmate_3_2b:
     # не рендерить!!!

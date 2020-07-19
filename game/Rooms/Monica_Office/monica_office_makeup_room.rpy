@@ -12,6 +12,10 @@ label monica_office_makeup_room:
     if monicaOfficeMakeupRoomSkipMusicOneTime == False:
         music Mandeville
     $ monicaOfficeMakeupRoomSkipMusicOneTime = False
+
+    if check_hook("Melanie", "ep23_quests_melanie7", scene="monica_office_makeup_room") == True and day_time == "evening":
+        $ autorun_to_object("dialogue_classmate_3_2a2", scene="monica_office_makeup_room")
+#        $ move_object("Melanie", "monica_office_makeup_room")
     return
 
 label monica_office_makeup_room_init:
