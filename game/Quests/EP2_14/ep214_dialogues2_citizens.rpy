@@ -251,7 +251,7 @@ label ep214_dialogues2_citizens_1:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen4_Blowjob1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
     scene black
     image videov_Monica_Citizen4_Blowjob1_1 = Movie(play="video/v_Monica_Citizen4_Blowjob1_1.mkv", fps=30)
     show videov_Monica_Citizen4_Blowjob1_1
@@ -271,7 +271,7 @@ label ep214_dialogues2_citizens_1:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen4_Blowjob1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
     scene black
     image videov_Monica_Citizen4_Blowjob1_2 = Movie(play="video/v_Monica_Citizen4_Blowjob1_2.mkv", fps=30)
     show videov_Monica_Citizen4_Blowjob1_2
@@ -291,7 +291,7 @@ label ep214_dialogues2_citizens_1:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen4_Blowjob1.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Prisoner1_Blowjob1_1.ogg"
     scene black
     image videov_Monica_Citizen4_Blowjob1_3 = Movie(play="video/v_Monica_Citizen4_Blowjob1_3.mkv", fps=30)
     show videov_Monica_Citizen4_Blowjob1_3
@@ -2007,7 +2007,6 @@ label ep214_dialogues2_citizens_17:
     citizen1 "Ладно, пусть тетя сама решает кому из нас сосать, а кому дрочить!"
     citizen1 "Все-равно она выберет меня!"
     citizen2 "Ха-ха! Вот увидишь, она выберет сосать у меня!"
-label videotest1:
     music Groove2_85
     imgd 31732
     mt "Какие же эти кретины мерзкие! Фу!"
@@ -2143,7 +2142,7 @@ label videotest1:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob1.ogg"
             scene black
             image videov_Monica_Citizen1_Citizen2_Blowjob2_1 = Movie(play="video/v_Monica_Citizen1_Citizen2_Blowjob2_1.mkv", fps=30)
             show videov_Monica_Citizen1_Citizen2_Blowjob2_1
@@ -2161,7 +2160,7 @@ label videotest1:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob1.ogg"
             scene black
             image videov_Monica_Citizen1_Citizen2_Blowjob2_2 = Movie(play="video/v_Monica_Citizen1_Citizen2_Blowjob2_2.mkv", fps=30)
             show videov_Monica_Citizen1_Citizen2_Blowjob2_2
@@ -2176,7 +2175,7 @@ label videotest1:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob1.ogg"
             scene black
             image videov_Monica_Citizen1_Citizen2_Blowjob2_3 = Movie(play="video/v_Monica_Citizen1_Citizen2_Blowjob2_3.mkv", fps=30)
             show videov_Monica_Citizen1_Citizen2_Blowjob2_3
@@ -2508,7 +2507,7 @@ label videotest1:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob4.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Citizen1_Citizen2_Blowjob3.ogg"
             scene black
             image videov_Monica_Citizen1_Citizen2_Blowjob4_1 = Movie(play="video/v_Monica_Citizen1_Citizen2_Blowjob4_1.mkv", fps=30)
             show videov_Monica_Citizen1_Citizen2_Blowjob4_1

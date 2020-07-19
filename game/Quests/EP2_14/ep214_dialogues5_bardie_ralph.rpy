@@ -902,7 +902,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Footjob1.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Private_Visitor9_Footjob1_1.ogg"
             scene black
             image videov_Monica_Ralph_Footjob1_1 = Movie(play="video/v_Monica_Ralph_Footjob1_1.mkv", fps=25)
             show videov_Monica_Ralph_Footjob1_1
@@ -922,7 +922,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Footjob1.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Private_Visitor9_Footjob1_1.ogg"
             scene black
             image videov_Monica_Ralph_Footjob1_2 = Movie(play="video/v_Monica_Ralph_Footjob1_2.mkv", fps=25)
             show videov_Monica_Ralph_Footjob1_2
@@ -942,7 +942,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Footjob1.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Private_Visitor9_Footjob1_1.ogg"
             scene black
             image videov_Monica_Ralph_Footjob1_3 = Movie(play="video/v_Monica_Ralph_Footjob1_3.mkv", fps=25)
             show videov_Monica_Ralph_Footjob1_3
@@ -1061,7 +1061,7 @@ label ep214_dialogues5_bardie_ralph_12:
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
             play music "<from " + str(float(rand(1,4))*1.5) + " loop 0.0>Sounds/v_Monica_Ralph_Titjob1.ogg"
             scene black
-            image videov_Monica_Ralph_Titjob1_2 = Movie(play="video/v_Monica_Ralph_Titjob1_1.mkv", fps=30)
+            image videov_Monica_Ralph_Titjob1_2 = Movie(play="video/v_Monica_Ralph_Titjob1_2.mkv", fps=30)
             show videov_Monica_Ralph_Titjob1_2
             with fade
             wclean
@@ -1539,7 +1539,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_1 = Movie(play="video/v_Monica_Ralph_Sex2_1.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_1
@@ -1554,7 +1554,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_2 = Movie(play="video/v_Monica_Ralph_Sex2_2.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_2
@@ -1576,7 +1576,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_5 = Movie(play="video/v_Monica_Ralph_Sex2_5.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_5
@@ -1591,7 +1591,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_3 = Movie(play="video/v_Monica_Ralph_Sex2_3.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_3
@@ -1617,7 +1617,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_4 = Movie(play="video/v_Monica_Ralph_Sex2_4.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_4
@@ -1638,7 +1638,7 @@ label ep214_dialogues5_bardie_ralph_12:
             stop music
             $ renpy.music.set_volume(0.5, 0.5, channel="music")
             $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex2.ogg"
+            play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Ralph_Sex1.ogg"
             scene black
             image videov_Monica_Ralph_Sex2_6 = Movie(play="video/v_Monica_Ralph_Sex2_6.mkv", fps=30)
             show videov_Monica_Ralph_Sex2_6

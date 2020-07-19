@@ -789,7 +789,7 @@ label ep214_dialogues4_melanie_alex_2:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
     scene black
     image videov_Melanie_Alex_Licking2_1 = Movie(play="video/v_Melanie_Alex_Licking2_1.mkv", fps=30)
     show videov_Melanie_Alex_Licking2_1
@@ -807,7 +807,7 @@ label ep214_dialogues4_melanie_alex_2:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
     scene black
     image videov_Melanie_Alex_Licking2_2 = Movie(play="video/v_Melanie_Alex_Licking2_2.mkv", fps=30)
     show videov_Melanie_Alex_Licking2_2
@@ -825,7 +825,7 @@ label ep214_dialogues4_melanie_alex_2:
     stop music
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
-    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking2.ogg"
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
     scene black
     image videov_Melanie_Alex_Licking2_3 = Movie(play="video/v_Melanie_Alex_Licking2_3.mkv", fps=30)
     show videov_Melanie_Alex_Licking2_3
