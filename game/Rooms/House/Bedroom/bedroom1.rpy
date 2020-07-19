@@ -13,6 +13,9 @@ label bedroom1:
         $ bedroom1_betty_panties_suffix = "_NoPanties"
 
     $ scene_image = "scene_Bedroom1[day_suffix]"
+
+    if get_active_objects("Betty", scene="bedroom1") == False and get_active_objects("Bardie", scene="bedroom1") != False:
+        $ set_active("Bardie", False, scene="bedroom1")
     return
 
 label bedroom1_init:
