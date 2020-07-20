@@ -485,6 +485,7 @@ default persistent.auto_clipboard = False
 
 default map_enabled = True
 default map_disabled_forced = False
+default last_map_enabled = True
 
 define fadehold = Fade(0.5, 1.0, 0.5)
 define fadelong = Fade(0.5, 0.5, 0.5)
