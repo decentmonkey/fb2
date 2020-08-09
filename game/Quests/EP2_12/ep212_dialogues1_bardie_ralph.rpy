@@ -746,7 +746,7 @@ label ep212_dialogues1_bardie_ralph8a:
         img 23786 #over1, over2, over3, over4
         overlay 23786 monicaBettyPantiesOverlayId
         with fade
-        mt "Мистер Робертс, скажите, здесь тоже на протирать в этот раз?"
+        m "Мистер Робертс, скажите, здесь тоже на протирать в этот раз?"
         $ cleaning_sound()
         img 23785
         with diss
