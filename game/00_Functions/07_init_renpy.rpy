@@ -181,4 +181,8 @@ define cafe_visitor2 = Character(_("Посетитель кафе"), who_color=c
 define cafe_barista = Character(_("Бариста"), who_color=c_pink)
 
 define linda = Character(_("Линда"), who_color=c_pink)
+
+define olaf = Character(_("Олаф"), who_color=c_blue)
+define charlotte = Character(_("Шарлотт"), who_color=c_red)
+define mia = Character(_("Мия"), who_color=c_orange)
 #
