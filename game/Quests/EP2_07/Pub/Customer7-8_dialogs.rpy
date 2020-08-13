@@ -262,6 +262,7 @@ label customer78_afterbattle:
             # засовывает деньги Монике между грудями
             customer7 "Держи, детка!"
             customer7 "Вот твои $ 5!"
+            $ add_tips(5.0)
             customer7 "За шикарные королевские сиськи!"
             customer7 "Аха-ха!!!"
             mt "!!!"
