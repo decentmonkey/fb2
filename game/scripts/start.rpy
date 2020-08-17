@@ -56,7 +56,7 @@ label start:
 ##################
 
 
-#    call ep214_dialogues2_citizens_18()
+#    call ep215_dialogues2_betty_7() # после секса с соседом, разговор с Ральфом в гостиной
 
 
 ###################
