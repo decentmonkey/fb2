@@ -321,6 +321,8 @@ label ep215_dialogues5_alex_3:
     # лижет киску, Алекс смотрит удивленно
     img 19545
     w
+    img 19788
+    w
     img 19546
     victoria "Мммм..."
     victoria "Да..."
@@ -427,6 +429,7 @@ label ep215_dialogues5_alex_3:
     alex_photograph "Ох..."
     img 19575
     victoria "О, как же хорошо!"
+    img 19791
     victoria "Да!!!"
     img 19576
     victoria "Аааа!"
@@ -540,7 +543,11 @@ label ep215_dialogues5_alex_3:
     victoria "Иди еко мне, подружка Мелани."
     # Мелани с ненавистью смотрит на Викторию
     # встает от Алекса и наклоняется перед Викторией, начинает лизать ей
+    img 19789
+    w
     img 19603
+    w
+    img 19790
     w
     img 19604
     victoria "О, да... Какая же ты хорошая, подружка Мелани..."
