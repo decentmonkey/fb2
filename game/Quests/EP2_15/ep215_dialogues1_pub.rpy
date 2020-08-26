@@ -966,8 +966,14 @@ label ep215_dialogues1_pub_9_loop1:
     # они толкаются, таскают друг друга за волосы
     # тут забегает Эшли и начинает орать на них
     fadeblack
+    sound Damage3
+    pause 0.5
+    sound snd_punch_face1
+    pause 0.5
+    sound snd_julia_scream1
+    pause 0.5
     sound snd_break_dress
-    pause 2.0
+    pause 1.5
     music Turbo_Tornado
     imgf 32068
     w

@@ -57,7 +57,6 @@ label start:
 
 
 #    call ep215_dialogues1_pub_9() # клик на Молли перед дракой
-#    call ep215_dialogues1_pub_9_loop1() # сцена драки
 
 
 ###################
