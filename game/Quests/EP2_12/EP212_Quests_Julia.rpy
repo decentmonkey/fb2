@@ -94,7 +94,14 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
     $ add_hook("before_open", "ep212_quests_julia4_fred_catch", scene="working_office", label="ep212_quests_julia4_fred_catch", priority=1000)
     $ add_hook("before_open", "ep212_quests_julia4_fred_catch", scene="working_office_cabinet", label="ep212_quests_julia4_fred_catch", priority=1000)
     $ remove_hook(label="ep29_quests_julia3_workers")
+
+    $ monicaRestJuliaHome = True
+    $ monicaRestJuliaHomeDay = day
+    $ monicaRestHouse = False
+    $ monicaRestApartments = False
+
     $ changeDayTime("day")
+
     call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_13
     return False
 
