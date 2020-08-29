@@ -6,6 +6,8 @@ label ep215_quests_load_init:
         if ep29_revenge_quest_started == True:
             call ep215_quests_revenge_fix()
 
+        if ep213_presentation2_completed_day > 0:
+            call ep215_quests_workers1_init() # Если была фотосессия, то инициализируем сплетничающих сотрудников в офисе
     return
 
 label ep215_quests_revenge_fix:

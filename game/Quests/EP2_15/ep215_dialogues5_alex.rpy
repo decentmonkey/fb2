@@ -102,6 +102,10 @@ label ep215_dialogues5_alex_1:
     victoria "Хммм..."
     victoria "Вот так, значит?"
     # затемнение
+
+#    fadeblack 1.5
+#    music Power_Bots_Loop
+    mt "Надо быстрее убираться отсюда!!"
     return
 
 # вечером того же дня
@@ -113,7 +117,8 @@ label ep215_dialogues5_alex_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ..."))
+#    call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     sound snd_door_knock
@@ -284,6 +289,7 @@ label ep215_dialogues5_alex_3:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
+    music stop
     call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
@@ -321,8 +327,10 @@ label ep215_dialogues5_alex_3:
     music Groove2_85
     imgf 19502
     w
+    sound Jump1
     imgd 19503
     w
+    sound Jump2
     img 19504 hpunch
     alex_photograph "Милая, что происходит?"
     # Мелани равнодушна
@@ -402,9 +410,11 @@ label ep215_dialogues5_alex_3:
     sound snd_fabric1
     imgd 19540
     w
+    sound Jump1
     imgf 19541
     w
-    imgd 19542
+    sound Jump2
+    img 19542 vpunch
     w
     # Мелани вынуждена встать
     # Мелани пристально смотрит на Викторию, потом встает со стула и подходит к ней
@@ -422,14 +432,17 @@ label ep215_dialogues5_alex_3:
     alex_photograph "Мелани, милая..."
     # Мелани молча переводит взгляд на Викторию, опускается на колени
     # лижет киску, Алекс смотрит удивленно
-    fadeblack
+    fadeblack 1.5
     sound highheels_short_walk
     pause 1.5
     music Master_Disorder
     imgfl 19545
     w
+    victoria "Ну же, подружка..."
+    victoria "Я жду..."
     imgf 19788
     w
+    sound hlup25
     music Loved_up2
     img 19546 vpunch
     victoria "Мммм..."
@@ -721,6 +734,7 @@ label ep215_dialogues5_alex_3:
     sound snd_woman_laugh3
     imgd 19596
     victoria "А теперь подружка покажет, как ей нравится моя киска."
+    victoria "Подружка должна заботиться о ней и следить за ее чистотой..."
     victoria "Иди еко мне, подружка Мелани."
     # Мелани с ненавистью смотрит на Викторию
     # встает от Алекса и наклоняется перед Викторией, начинает лизать ей
@@ -794,6 +808,7 @@ label ep215_dialogues5_alex_3:
     alex_photograph "Снимай одежду, я хочу видеть твое восхитительное тело!"
     imgf 19619
     melanie "!!!"
+    victoria "Ну же, подружка!"
     # Мелани зло смотрит на него
     # потом встает и раздевается, ложится на диван на подлокотник (https://cdn.discordapp.com/attachments/625678994083414052/738836379693482004/unknown.png)
     # Алекс ласкает ее грудь, потом гладит ладонью ягодицы
@@ -871,6 +886,8 @@ label ep215_dialogues5_alex_3:
     victoria "Подружка Мелани."
     victoria "Спасибо за такое классное видео."
     victoria "Теперь я буду его пересматривать по вечерам, подружка."
+    fadeblack 1.5
+    pause 1.5
     # уходит, затемнение
     return
 
@@ -880,25 +897,27 @@ label ep215_dialogues5_alex_4:
     # в фотостудии находится Виктория в розовом платье
     # она позирует, Алекс фотографирует ее
     # Виктория стоит в позе, с которой ей не видно, что Моника пришла
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
-    scene black_screen
-    with Dissolve(1)
-    sound snd_lift
-    w
-    fadeblack
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Некоторое время спустя..."))
+#    scene black_screen
+#    with Dissolve(1)
+#    sound snd_lift
+#    pause 1.5
+#    sound snd_fabric1
+    fadeblack 2.0
     sound highheels_short_walk
-    pause 1.0
-    sound camera_lens1
-    pause 0.5
-    sound camera_lens1
-    pause 0.5
-    sound camera_lens1
-    pause 0.5
+#    pause 0.5
+#    sound camera_lens1
+#    pause 0.5
+#    sound camera_lens1
     music Pyro_Flow
     imgfl 19520
+    sound camera_lens1
+    w
+    call photoshop_flash()
+    w
     mt "Какого черта?!"
     mt "Что эта тварь тут делает?!"
     mt "?!?!?!"
@@ -974,6 +993,7 @@ label ep215_dialogues5_alex_5:
     melanie "Эта стерва Виктория просчиталась на этот раз."
     melanie "И мы просто обязаны этим воспользоваться, пока она занята фотосессией!"
     # Моника спрашивает
+    music Groove2_85
     imgf 19420
     m "Что ты предлагаешь с этим сделать?"
     melanie "Миссис Бакфетт, вы знаете, кому это показать..."
@@ -1011,12 +1031,13 @@ label ep215_dialogues5_alex_6:
     # Дик сидит за своим рабочим столом, в руках какие-то документы
     # поднимает взгляд на вошедших Монику и Мелани, документы падают из рук на стол
     # он крайне удивлен, смотрит то на одну, то на другую в растерянности
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
-    scene black_screen
-    with Dissolve(1)
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Некоторое время спустя..."))
+#    scene black_screen
+#    with Dissolve(1)
+    pause 2.0
     sound highheels_run2
     pause 1.0
     sound snd_door_open1
@@ -1026,7 +1047,8 @@ label ep215_dialogues5_alex_6:
     music Stealth_Groover
     imgfl 19515
     w
-    imgf 19516
+    sound Jump1
+    imgd 19516
     w
     sound snd_heavy_papers_drop
     imgd 19517
@@ -1053,21 +1075,43 @@ label ep215_dialogues5_alex_6:
     imgfl 19527
     victoria "Алекс, это красивая поза?"
     sound camera_lens1
+    w
+    call photoshop_flash()
+    w
     imgf 19528
     victoria "Может, мне встать вот так?"
     alex_photograph "Да, Виктория. Это хорошая поза."
     sound camera_lens1
+    w
+    call photoshop_flash()
+    w
     imgd 19529
     victoria "Алекс, а может ты возьмешь кадр поближе?"
     victoria "И ниже."
     victoria "Мне кажется, так получится намного сексуальнее."
     sound camera_lens1
+    w
+    call photoshop_flash()
+    w
     imgf 19530
     alex_photograph "Я не уверен, но можно попробовать."
     sound camera_lens1
+    w
+    call photoshop_flash()
+    w
     imgd 19531
     victoria "А если я вот так поставлю ножку, будет лучше?"
     alex_photograph "Да, Виктория. Поставь. Давай посмотрим."
+    sound camera_lens1
+    w
+    call photoshop_flash()
+    w
+    scene black_screen
+    with Dissolve(1)
+    music stop
+    call textonblack(t_("Некоторое время спустя..."))
+    scene black_screen
+    with Dissolve(1)
     # затемнение, смена кадра на офис Дика
     # тем временем в офисе Дика
     # Моника и Мелани сидят в кабинете Дика, он их внимательно слушает
@@ -1189,10 +1233,10 @@ label ep215_dialogues5_alex_6:
     # Дик с сомнением смотрит на Монику и Мелани, включает телефон
     imgf 19473
     w
-    img 19474 vpunch
+    imgd 19474
     dick "Я вижу здесь только одно видео..."
     # Моника вскакивает со стула
-    imgd 19475
+    img 19475 vpunch
     m "Да, это оно!"
     m "Посмотри его и ты узнаешь всю правду!"
     m "!!!"
@@ -1215,7 +1259,7 @@ label ep215_dialogues5_alex_6:
     sound hlup19
     pause 0.5
     sound vjuh2
-    imgf 19478
+    imgd 19478
     alex_photograph "Ооооо, Меланиииии!!!"
     alex_photograph "Ааааааа!!!"
     alex_photograph "Возьми его глубже!"
@@ -1227,7 +1271,7 @@ label ep215_dialogues5_alex_6:
     sound bulk1
     pause 0.5
     sound man_moan18
-    imgf 19480
+    imgd 19480
     alex_photograph "Дааа..."
     alex_photograph "Дааа!!!"
     alex_photograph "ДААААААА!!!"
@@ -1236,10 +1280,10 @@ label ep215_dialogues5_alex_6:
     # кадр на Дика с телефном в руках, звуки минета из телефона
     # Моника с Мелани в ужасе переглядываются
 
-    music Master_Disorder
-    imgf 19482 vpunch
+    music Power_Bots_Loop
+    img 19482 vpunch
     m "!!!"
-    imgd 19481 vpunch
+    img 19481 vpunch
     melanie "!!!"
     # Дик в шоке смотрит на Мелани
     music Groove2_85
@@ -1332,6 +1376,7 @@ label ep215_dialogues5_alex_7:
     victoria "Ты придешь, подружка Мелани?"
     # Мелани зло, сквозь зубы
     imgd 19442
+    w
     melanie "Да!"
     melanie "!!!"
     imgf 19443
@@ -1370,12 +1415,6 @@ label ep215_dialogues5_alex_7:
 # гримерка в офисе
 label ep215_dialogues5_alex_8:
     # Мелани и Моника, обе в бешенстве
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
-    scene black_screen
-    with Dissolve(1)
     music Power_Bots_Loop
     imgfl 19423
     sound anger2
