@@ -15,6 +15,8 @@ default clothShopSellingDressDayVisitorsAmount = 4
 
 default clothShopSellingDressVisitorsStage = 0
 
+default shopVisitorsList = ["Shop_Visitor1", "Shop_Visitor2", "Shop_Visitor3", "Shop_Visitor4", "Shop_Visitor5", "Shop_Visitor6", "Shop_Visitor7", "Shop_Visitor8", "Shop_Visitor9", "Shop_Visitor10"]
+
 label ep25_quests_shop1:
     # Вход в магазин одежды (первый раз)
     $ remove_hook()
