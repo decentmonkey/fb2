@@ -302,6 +302,7 @@ label ep215_dialogues5_alex_3:
     w
     imgfl 19496
     victoria "Привет, Алекс!"
+    sound man_steps
     imgf 19497
     alex_photograph "Привет."
     # подходит к Мелани, наклоняется к ней и целует ее в щечку
@@ -376,9 +377,9 @@ label ep215_dialogues5_alex_3:
     melanie "В смысле?"
     # Виктория пристально смотрит на Мелани, Алекс в шоке, как и Мелани
 #    victoria "Чего ты медлишь, подружка?"
+    sound Jump1
     imgf 19532
     victoria "Ты мне об этом говорила буквально перед приходом Алекса."
-    sound Jump1
     imgd 19533
     victoria "А теперь докажи, что это так и есть на самом деле."
     victoria "Что это была не шутка."
@@ -480,16 +481,20 @@ label ep215_dialogues5_alex_3:
     imgd 19553
     victoria "Конечно, нравится, Алекс."
     victoria "Смотри, с каким удовольствием она лижет мою киску."
-    imgf 19554
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Loved_up2
+    imgfl 19554
     victoria "Как она старается... Мммм..."
     victoria "Моя киска ей очень нравится, Алекс."
     victoria "А у Мелани очень хороший вкус..."
     # Виктория обращается к Мелани
-    imgd 19555
+    imgf 19555
     victoria "Подружка Мелани, скажи Алексу, тебе ведь нравится?"
     # Мелани отстраняется, остается сидеть на коленях, перед лицом киска Виктории
     music Groove2_85
-    imgf 19556
+    imgd 19556
     melanie "Да..."
     imgd 19557
     alex_photograph "Обалдеть!"
@@ -504,9 +509,7 @@ label ep215_dialogues5_alex_3:
     melanie "Алекс, я не против..."
     melanie "И я не буду ревновать тебя."
     # Алекс сомневается
-    fadeblack
-    sound snd_fabric1
-    pause 2.0
+    fadeblack 1.5
     music Groove2_85
     imgfl 19559
     alex_photograph "Правда не будешь ревновать, милая?"
@@ -519,12 +522,12 @@ label ep215_dialogues5_alex_3:
     melanie "!!!!!!"
 
     music Groove2_85
-    imgfl 19562
+    imgf 19562
     alex_photograph "Мелани, но я не хочу Викторию! Я хочу тебя!"
     # Виктория злится
     victoria "Алекс, подружка Мелани просит тебя попробовать мою попу!"
     victoria "Правда подружка?"
-    imgf 19563
+    imgd 19563
     melanie "!!!"
     melanie "Да, Алекс..."
     melanie "Я прошу тебя попробовать..."
@@ -599,7 +602,7 @@ label ep215_dialogues5_alex_3:
     imgd 19570
     w
     sound chpok3
-    imgf 19571
+    img 19571 vpunch
     alex_photograph "Давай быстрее, не останавливайся!"
     # она снова его тормозит
     imgd 19580
@@ -702,7 +705,7 @@ label ep215_dialogues5_alex_3:
     w
     imgd 19597
     w
-    sound lick3
+#    sound lick3
     imgd 19598
     w
     sound lick3
@@ -846,7 +849,7 @@ label ep215_dialogues5_alex_3:
     imgd 19628
     alex_photograph "О, моя Мелани!!"
     sound chpok6
-    imgf 19629 vpunch
+    img 19629 vpunch
     alex_photograph "Оооооо!"
     # Алекс входит в Мелани
     # Виктория в это время спрашивает
@@ -876,12 +879,7 @@ label ep215_dialogues5_alex_3:
     imgd 19636
     victoria "Алекс, я позвоню тебе, чтобы договариться о встрече в фотостудии."
     # забирает со стола свой телефон и направляется к выходу
-    fadeblack
-    sound snd_fabric1
-    pause 1.5
     sound highheels_short_walk
-    pause 1.5
-    music Groove2_85
     imgf 19637
     victoria "Подружка Мелани."
     victoria "Спасибо за такое классное видео."
@@ -1051,7 +1049,7 @@ label ep215_dialogues5_alex_6:
     imgd 19516
     w
     sound snd_heavy_papers_drop
-    imgd 19517
+    img 19517 hpunch
     w
     imgf 19518
     dick "Моника?"
@@ -1312,7 +1310,7 @@ label ep215_dialogues5_alex_6:
     dick "Я отказываюсь от дела Моники, которое доставляет мне столько хлопот!"
     # Виктория продолжает его успокаивать
     music Power_Bots_Loop
-    imgd 19486 vpunch
+    img 19486 vpunch
     mt "О НЕТ!!!"
     music Groove2_85
     imgf 19487
@@ -1334,7 +1332,7 @@ label ep215_dialogues5_alex_6:
     dick "Миссис Бакфетт, Мисс Мелани, покиньте мой кабинет!"
     # Моника и Мелани в шоке, смотрят друг на друга, потом на Викторию
     music Master_Disorder
-    imgf 19491 vpunch
+    img 19491 vpunch
     m "!!!"
     melanie "!!!"
     # Виктория им мило улыбается
@@ -1367,9 +1365,9 @@ label ep215_dialogues5_alex_7:
     victoria "Вы же не против будете прийти ко мне домой, подружки?"
     victoria "Ведь этот девичник будет особенным!"
     # Моника и Мелани в шоке переглядываются
-    imgf 19439  vpunch
+    img 19439  vpunch
     m "!!!"
-    imgd 19440  vpunch
+    img 19440  vpunch
     melanie "!!!"
     imgf 19441
     victoria "Мои подружки придут ко мне?"
@@ -1466,7 +1464,7 @@ label ep215_dialogues5_alex_8:
     m "!!!!!!"
     imgf 19434
     melanie "Эта Виктория - настоящий дьявол!"
+    melanie "Мы обязательно расправимся с ней, Миссис Бакфетт!"
     imgd 19435
     m "Я не могу дождаться этого дня!"
-    melanie "Мы обязательно расправимся с ней, Миссис Бакфетт!"
     return
