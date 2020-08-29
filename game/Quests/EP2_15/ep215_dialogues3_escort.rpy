@@ -2273,7 +2273,7 @@ label ep215_dialogues3_linda_punishment:
     # кадр, ноги Линды и ее платье на полу
     # Линда стоит перед Моникой обнаженная
     # Моника издевательски смотрит на нее
-    
+
     m "Олаф!"
     olaf "Да, Мэм?"
     m "Мне не нравится, как эта особа на меня смотрит..."
@@ -2706,4 +2706,24 @@ label ep215_dialogues3_escort_22:
     linda "Если ты думаешь, что я это тебе оставлю просто так!.."
     linda "СУКА!"
     # в ярости уходит
+    return
+
+label ep215_dialogues3_escort_23_change_name:
+    m "Да, кстати, прошу меня больше не называть [monica_hotel_name]."
+    m "Я теперь..."
+    $ monica_hotel_name = t_("Снежанна")
+    if renpy.android == True:
+        call screen input_softkeyboard
+        $ monica_hotel_name = _return
+    else:
+        $ monica_hotel_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_hotel_name)
+    m "Меня зовут [monica_hotel_name]."
+    # девочки разошлись, админ обращается к Монике
+    img 18590
+    with fade
+    reception "Хорошо, [monica_hotel_name]."
+    reception "Мне все равно. Однако, не забывай, что твое тело должно приносить деньги этому месту!"
+    return
+label ep215_dialogues3_escort_23_change_name_b:
+    mt "Сучка!"
     return
