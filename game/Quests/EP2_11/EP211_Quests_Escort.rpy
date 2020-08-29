@@ -62,6 +62,9 @@ label ep211_quests_escort2_exit:
     if _return == 1:
         call ep211_escort_scene1_15() from _rcall_ep211_escort_scene1_15
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day
+    if _return == 3:
+        call ep215_quests_esort_change_name()
+        return False
     return False
 
 label ep211_quests_escort2_exit_dialogue:
@@ -71,6 +74,9 @@ label ep211_quests_escort2_exit_dialogue:
     if _return == 1:
         call ep211_escort_scene1_15() from _rcall_ep211_escort_scene1_15_1
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_1
+    if _return == 3:
+        call ep215_quests_esort_change_name()
+        return False
     return False
 
 label ep211_quests_escort2_end_day:

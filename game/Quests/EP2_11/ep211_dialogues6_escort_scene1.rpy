@@ -919,6 +919,8 @@ label ep211_escort_scene1_14:
             return 1
         "Остаться.":
             return 2
+        "Меня зовут не [monica_pub_name]!":
+            return 3
     return
 
 # Моника уходит, не работая
