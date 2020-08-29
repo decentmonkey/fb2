@@ -2717,6 +2717,8 @@ label ep215_dialogues3_escort_23_change_name:
         $ monica_hotel_name = _return
     else:
         $ monica_hotel_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_hotel_name)
+    if monica_hotel_name == False:
+        $ monica_hotel_name = t_("Снежанна")
     m "Меня зовут [monica_hotel_name]."
     # девочки разошлись, админ обращается к Монике
     img 18590
