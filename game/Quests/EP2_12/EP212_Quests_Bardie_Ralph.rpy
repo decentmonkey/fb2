@@ -24,6 +24,8 @@ label ep212_quests_bardie_ralph3_init_cleaning:
     # Добавляем гостиную к уборке в конец
     if monicaBardieRalphSeducingStage > 3:
         return
+    if check_hook(label="steve_ralph_visit2", scene="living_room") == True: # Если идет квест со Стивом, не активируем уборку в гостиной
+        return
     if "living_room" in rooms_dirty:
         $ rooms_dirty.remove("living_room")
     $ rooms_dirty.append("living_room")
