@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -54,8 +54,6 @@ label start:
     $ inventory = []
 
 ##################
-
-
 
 #    call ep215_dialogues5_alex_3() # апартаменты Мелани, приходит Алекс
 #    call ep215_dialogues5_alex_4() # фотостудия, Моника видит Викторию на фотосессии

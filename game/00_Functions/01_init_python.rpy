@@ -61,6 +61,8 @@ python early:
             imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
         else:
             imagePath = imagePathExt[0]
+        if renpy.exists(imagePath) == False:
+            imagePath = "images/Overlays/black_screen.jpg"
 
         check_achievement(imagePathExt[1])
         if (renpy.get_screen("say") != None or renpy.get_screen("choice") != None or renpy.get_screen("window") != None or dialogue_active_flag == True) and persistent.pause_before_change_slide == True and renpy.get_screen("show_image_screen_image") != None:
