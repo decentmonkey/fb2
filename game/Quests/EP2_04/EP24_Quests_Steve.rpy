@@ -185,6 +185,9 @@ label ep24_quests_steve12:
 
 
 label ep24_quests_steve13:
+    if scene_name != "basement_bedroom2": # Если спим непонятно где, то Стив не приходит
+        return
+
     # Перехват субботы второго посещения Стива
     $ remove_hook()
 
