@@ -2058,6 +2058,10 @@ label dialogue_5_dance_strip_21:
 # Регулярный разговор с Эшли после выступления по желанию. При клике на Джо или Эшли
 # У барной стойки
 label dialogue_5_dance_strip_22:
+    if ep215_quests_ashley_dialogue1_active == True:
+        jump ep215_dialogues1_pub_8
+    if ep215_quests_ashley_dialogue2_active == True:
+        jump ep215_dialogues1_pub_14
     music2 pub_noise1_low
     music Groove2_85
     img 21025
@@ -2295,7 +2299,7 @@ label dialogue_5_dance_strip_29:
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)":
+        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
             if pubDanceCount < monicaDanceAmountToTopless or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
@@ -2314,7 +2318,7 @@ label dialogue_5_dance_strip_29b:
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)":
+        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
             if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
