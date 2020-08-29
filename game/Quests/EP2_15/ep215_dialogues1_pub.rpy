@@ -249,13 +249,13 @@ label ep215_dialogues1_pub_4:
     fadeblack 1.5
     sound highheels_short_walk
     pause 2.0
-    music Groove2_85
+    music Road_Trip
     music2 pub_noise1_low
     imgfl 31837
     w
     imgf 31838
     molly "Готова к провалу, сучка?!"
-    music Stealth_Groover
+#    music Stealth_Groover
     imgd 31839
     m "Заткнись, Молли!"
     m "Сегодня ты останешься без своей короны!"
@@ -265,11 +265,14 @@ label ep215_dialogues1_pub_4:
 # Моника и Молли на сцене
 # выигрыш определяется криками толпы и баром
 label ep215_dialogues1_pub_5:
+    $ musicOrder = [0, 1, 2, 3, 4, 5, 6, 7]
     # Моника ведет себя спокойно, Молли ехидничает и заметно нервничает
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Road_Trip
+    music musicList[musicOrder[0]]["intro"]
+
+#    music Road_Trip
     imgfl 31840
     w
     imgf 31841
@@ -283,6 +286,11 @@ label ep215_dialogues1_pub_5:
     # Молли в одежде, Моника в одежде
     # Молли начинает танцевать первая, делает три движения
     # потом Моника выходит, загораживая ее
+    music musicList[musicOrder[0]]["loop"]
+    imgf black_screen
+    w
+
+    music musicList[musicOrder[0]]["intro"]
     imgf 31844
     w
     imgd 31845
@@ -291,7 +299,12 @@ label ep215_dialogues1_pub_5:
     m "И это все, на что ты способна?!"
     m "Фи!"
     # Моника делает три движения
+    music musicList[musicOrder[0]]["loop"]
+    imgf black_screen
+    w
+
     # по крикам толпы Моника проигрывает, шкала бара у Молли выше
+    music musicList[musicOrder[0]]["intro"]
     imgf 31847
     ## здесь были правильны мысли Моники о том, почему эти плебеи недовольны и что то нужно предпринять##
     molly "Аха-ха!"
@@ -305,6 +318,12 @@ label ep215_dialogues1_pub_5:
     w
     imgd 31849
     w
+
+    music musicList[musicOrder[0]]["loop"]
+    imgf black_screen
+    w
+
+    music musicList[musicOrder[1]]["intro"]
     imgf 31850
     w
     # публика кричит ВАУ
@@ -318,8 +337,15 @@ label ep215_dialogues1_pub_5:
     imgd 31853
     molly "Молчи, куда тебе со своими прыщиками до меня?!"
     # Молли тоже снимает жилет и танцует три движения
+
+    music musicList[musicOrder[1]]["loop"]
+    imgf black_screen
+    w
+
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
+    music musicList[musicOrder[1]]["intro"]
+
     imgf 31854
     w
     imgd 31855
@@ -341,9 +367,15 @@ label ep215_dialogues1_pub_5:
     w
     imgd 31861
     w
+
+    music musicList[musicOrder[1]]["loop"]
+    imgf black_screen
+    w
+
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
     # Молли злится
+    music musicList[musicOrder[2]]["intro"]
     imgf 31862
     w
     imgd 31863
@@ -356,8 +388,12 @@ label ep215_dialogues1_pub_5:
     imgd 31865
     w
     # Молли тоже раздевается, танцует, но выигрыша нет, шкала бара у Моники становится выше
+    music musicList[musicOrder[2]]["loop"]
+    imgf black_screen
+    w
     # Молли зло смотрит на Монику, ее бомбит, Моника спокойна
     # 4-й раунд
+    music musicList[musicOrder[2]]["intro"]
     imgf 31866
     w
     imgd 31867
@@ -371,6 +407,10 @@ label ep215_dialogues1_pub_5:
     sound vjuh2
     imgd 31870
     w
+
+    music musicList[musicOrder[2]]["loop"]
+    imgf black_screen
+    w
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
     # Моника смотрит на нее с отвращением
     imgf 31871
@@ -378,6 +418,7 @@ label ep215_dialogues1_pub_5:
     mt "!!!"
     menu:
         "Снять маску.":
+            music Groove2_85
             imgd 31872
             mt "Я не готова снять маску!"
             mt "Вдруг меня кто-то узнает?!"
@@ -385,6 +426,7 @@ label ep215_dialogues1_pub_5:
             mt "!!!"
             pass
         "Не делать этого!":
+            music Groove2_85
             imgd 31872
             mt "Я не буду делать этого!"
             mt "Это отвратительно и грязно!"

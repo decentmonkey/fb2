@@ -34,6 +34,7 @@ label ep215_quests_pub3_molly1:
     $ ep215_quests_vest_only_active = False
     call ep215_dialogues1_pub_2()
     $ add_talk("Pub_StripteaseGirl1", "ep215_quests_pub3_molly2", scene="pub_makeuproom", label="ep215_quests_pub3_molly2")
+    $ pub_makeuproom_monica_suffix = 2
     return
 
 label ep215_quests_pub3_molly2:
@@ -44,6 +45,7 @@ label ep215_quests_pub3_molly2:
         fadeblack 2.0
     call ep215_dialogues1_pub_3() # предложение баттла
     if _return == False:
+        $ pub_makeuproom_monica_suffix = 2
         return False
     # баттл
     $ remove_hook()
