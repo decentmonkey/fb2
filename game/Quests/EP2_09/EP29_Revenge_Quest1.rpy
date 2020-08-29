@@ -26,6 +26,7 @@ label ep29_revenge_quest1_check:
     $ print "CHECK REVENGE QUEST"
     if marcus_visit1_completed != True or ep29_victoria_melanie_licking != True or monica_teacher_sex != True or day-monica_teacher_sex_day < 2 or day - ep29_revenge_quest_last_try_day < ep29_revenge_quest_retry_days or ep29_revenge_quest_blocked == True or ep29_revenge_quest_started == True:
         return
+    call ep215_quests_revenge_fix()
     # Начинаем revenge quest
     call ep29_dialogues5_gun_monica_1() from _call_ep29_dialogues5_gun_monica_1
     if _return == 0: # одеты трусики
