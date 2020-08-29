@@ -56,7 +56,13 @@ label start:
 ##################
 
 
-#    call ep214_dialogues2_citizens_18()
+
+#    call ep215_dialogues5_alex_3() # апартаменты Мелани, приходит Алекс
+#    call ep215_dialogues5_alex_4() # фотостудия, Моника видит Викторию на фотосессии
+#    call ep215_dialogues5_alex_5() # гримерка, разговор с Мелани
+#    call ep215_dialogues5_alex_6() # разговор с Диком в его кабинете
+#    call ep215_dialogues5_alex_7() # приемная Дика, разговор с Викторией
+#    call ep215_dialogues5_alex_8() # гримерка в офисе Моники, разговор с Мелани
 
 
 ###################
