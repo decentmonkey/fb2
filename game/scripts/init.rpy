@@ -1,3 +1,8 @@
+#v0.15
+define pubMollyBattle1CorruptionRequired = 650
+define pubMollyBattle2CorruptionRequired = 750
+define pubMollyBattle2TakeOffMaskCorruptionRequired = 850
+
 #v0.14
 define monicaHotelHelperScene1CorruptionRequired = 550 # Сколько денег ты скопил?
 define monicaRalphBlowjob1SpermCorruptionRequired = 470 # Моника глотает сперму от Ральфа

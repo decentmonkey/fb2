@@ -303,6 +303,10 @@ label ep27_dialogues7_pub6:
 # Если нет, то остается.
     menu:
         "Уйти и не отдавать чаевые хозяевам бара.":
+            if monica_shiny_hole_queen_day > 0:
+                mt "Я теперь королева Shiny Hole и мне не надо отдавать чаевые."
+                mt "Но, все-же, лучше сказать Эшли что я ухожу"
+                return True
             return False
         "Остаться.":
             return True
@@ -321,6 +325,23 @@ label ep27_dialogues7_pub7:
     img 20995
     with fadelong
     m "Эшли, я закончила работу."
+    if monica_shiny_hole_queen_day > 0: # Если Моника королева
+        if pubMonicaWaitressTips == 0:
+            m "Мне никто не дал чевых сегодня..."
+        else:
+            $ add_money(-pubMonicaWaitressTips)
+            m "Я заработала $ [pubMonicaWaitressTips]"
+        img 20996
+        with diss
+        ashley "[monica_pub_name], ты теперь королева Shiny Hole..."
+        $ add_money(pubMonicaWaitressTips)
+
+        ashley "И тебе полагается не отдавать мне процент от заработка."
+        imgd 20995
+        ashley "Но не забывай про свои королевские обязанности..."
+        ashley "Завтра приходи работать еще."
+        return
+
 
     if pubMonicaWaitressTips == 0:
         m "Мне никто не дал чевых сегодня..."

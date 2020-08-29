@@ -196,6 +196,7 @@ label ep215_dialogues1_pub_3:
     molly "Ну что, сучка?!"
     molly "Тебе не терпится опозориться на сцене?"
     m "!!!"
+    $ menu_corruption = [pubMollyBattle1CorruptionRequired]
     menu:
         "Батл с Молли.":
             music Stealth_Groover
@@ -265,7 +266,7 @@ label ep215_dialogues1_pub_4:
 # Моника и Молли на сцене
 # выигрыш определяется криками толпы и баром
 label ep215_dialogues1_pub_5:
-    $ musicOrder = [0, 1, 2, 3, 4, 5, 6, 7]
+    $ musicOrder = [1, 0, 2, 3, 4, 5, 6, 7]
     # Моника ведет себя спокойно, Молли ехидничает и заметно нервничает
     fadeblack
     sound highheels_short_walk
@@ -290,7 +291,10 @@ label ep215_dialogues1_pub_5:
     imgf black_screen
     w
 
-    music musicList[musicOrder[0]]["intro"]
+    menu:
+        "Теперь моя очередь! Я покажу как надо танцевать!":
+            pass
+    music musicList[musicOrder[1]]["intro"]
     imgf 31844
     w
     imgd 31845
@@ -299,52 +303,58 @@ label ep215_dialogues1_pub_5:
     m "И это все, на что ты способна?!"
     m "Фи!"
     # Моника делает три движения
-    music musicList[musicOrder[0]]["loop"]
+    music musicList[musicOrder[1]]["loop"]
     imgf black_screen
     w
 
+    music musicList[musicOrder[1]]["intro"]
     # по крикам толпы Моника проигрывает, шкала бара у Молли выше
-    music musicList[musicOrder[0]]["intro"]
     imgf 31847
     ## здесь были правильны мысли Моники о том, почему эти плебеи недовольны и что то нужно предпринять##
     molly "Аха-ха!"
     molly "Поняла!? Уступи место настоящей королеве!"
+    menu:
+        "Снять корсет.":
+            pass
+    imgf 31847
     mt "Что этим плебеям еще нужно?!"
     mt "Как они могут отдавать предпочтение этой рыжей корове?!"
     mt "Сейчас я ей устрою!"
     # 2-й раунд
     # Моника не отходит, а снимает жилет и делает еще три движения
+    sound snd_fabric1
     imgd 31848
     w
     imgd 31849
     w
 
-    music musicList[musicOrder[0]]["loop"]
+    music musicList[musicOrder[1]]["loop"]
     imgf black_screen
     w
 
-    music musicList[musicOrder[1]]["intro"]
     imgf 31850
     w
     # публика кричит ВАУ
     # Молли злится и отталкивает Монику
+    fadeblack 1.5
+    music musicList[musicOrder[2]]["intro"]
     imgd 31851
     molly "Иди отсюда, сучка!"
     molly "Сейчас моя очередь!"
     sound vjuh2
     img 31852 hpunch
     m "Давай, покажи свои силиконовые сиськи."
+    sound snd_fabric1
     imgd 31853
     molly "Молчи, куда тебе со своими прыщиками до меня?!"
     # Молли тоже снимает жилет и танцует три движения
 
-    music musicList[musicOrder[1]]["loop"]
+    music musicList[musicOrder[2]]["loop"]
     imgf black_screen
     w
 
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
-    music musicList[musicOrder[1]]["intro"]
 
     imgf 31854
     w
@@ -352,6 +362,11 @@ label ep215_dialogues1_pub_5:
     mt "Черт! Эта сучка уже второй раз выигрывает!"
     mt "Я не позволю этой дряни обойти меня, Монику Бакфетт!"
     mt "!!!"
+    menu:
+        "Оттолкнуть сучку и снять трусики! Я должна победить!":
+            pass
+    fadeblack 2.0
+    music musicList[musicOrder[3]]["intro"]
     # Моника отталкивает Молли, начинает танцевать и снимает трусики
     imgf 31856
     w
@@ -368,37 +383,40 @@ label ep215_dialogues1_pub_5:
     imgd 31861
     w
 
-    music musicList[musicOrder[1]]["loop"]
+    music musicList[musicOrder[3]]["loop"]
     imgf black_screen
     w
 
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
     # Молли злится
-    music musicList[musicOrder[2]]["intro"]
     imgf 31862
     w
     imgd 31863
     molly "Ах ты дрянь!"
     molly "Думаешь, что покажешь свою голую задницу, как ты привыкла это делать, и обыграешь меня?!"
     molly "Я тебе не позволю этого, сучка!"
+
+    fadeblack 2.0
+    music musicList[musicOrder[4]]["intro"]
     imgf 31864
     w
     sound Jump1
     imgd 31865
     w
     # Молли тоже раздевается, танцует, но выигрыша нет, шкала бара у Моники становится выше
-    music musicList[musicOrder[2]]["loop"]
+    music musicList[musicOrder[4]]["loop"]
     imgf black_screen
     w
     # Молли зло смотрит на Монику, ее бомбит, Моника спокойна
     # 4-й раунд
-    music musicList[musicOrder[2]]["intro"]
     imgf 31866
     w
     imgd 31867
     w
-    imgd 31868
+    fadeblack 2.0
+    music musicList[musicOrder[5]]["intro"]
+    imgf 31868
     molly "Это будет МОЯ победа!"
     molly "И корона только МОЯ!!!"
     # Молли со злостью срывает с себя маску и начинает грязно позировать
@@ -408,7 +426,7 @@ label ep215_dialogues1_pub_5:
     imgd 31870
     w
 
-    music musicList[musicOrder[2]]["loop"]
+    music musicList[musicOrder[5]]["loop"]
     imgf black_screen
     w
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
@@ -418,6 +436,7 @@ label ep215_dialogues1_pub_5:
     mt "!!!"
     menu:
         "Снять маску.":
+            fadeblack 2.0
             music Groove2_85
             imgd 31872
             mt "Я не готова снять маску!"
@@ -426,6 +445,7 @@ label ep215_dialogues1_pub_5:
             mt "!!!"
             pass
         "Не делать этого!":
+            fadeblack 2.0
             music Groove2_85
             imgd 31872
             mt "Я не буду делать этого!"
@@ -536,6 +556,7 @@ label ep215_dialogues1_pub_7:
     ashley "Я соскучилась по твоей попке."
     # Эшли уходит
     # Моника зло смотрит на Молли
+    sound snd_fabric1
     fadeblack 2.0
     music Pyro_Flow
     imgfl 19218
@@ -561,6 +582,8 @@ label ep215_dialogues1_pub_7:
     mt "Если она мне скажет еще хоть слово!.."
     mt "Я ее убью!!!"
     mt "!!!"
+    sound snd_fabric1
+    fadeblack 1.5
     return
 
 # при клике на Эшли, когда Моника отдает чаевые в день 1-го батла с Молли
@@ -647,7 +670,7 @@ label ep215_dialogues1_pub_9:
     molly "Дешевая уличная шлюха..."
     # Моника в бешенстве
     music Power_Bots_Loop
-    imgd 31934
+    img 31934 hpunch
     m "ТВАРЬ!"
     # подбегает к Молли
     return True
@@ -675,6 +698,7 @@ label ep215_dialogues1_pub_9_loop1:
             sound Jump1
             imgf 31939
             w
+            sound angry_cat1
             imgd 31940
             w
             imgd 31941
@@ -742,6 +766,9 @@ label ep215_dialogues1_pub_9_loop1:
                                     # Моника с размаху бьет Молли по лицу, та теряет равновесия и падает на пол
                                     # падая, хватается за жилет Моники и срывает его
                                     # Молли на полу, Моника с размаху бьет ее ногой в живот
+                                    menu:
+                                        "Добить сучку ногами!":
+                                            pass
                                     imgf 31996
                                     w
                                     imgd 31997
@@ -806,6 +833,9 @@ label ep215_dialogues1_pub_9_loop1:
                             #sound anger2
                             imgd 32011
                             w
+                            menu:
+                                "Защититься от сучки!":
+                                    pass
                             sound Damage3
                             img 32012 vpunch
                             w
@@ -817,6 +847,10 @@ label ep215_dialogues1_pub_9_loop1:
                             # Моника лезет на Молли, садится сверху и хватает ее за шею
                             imgf 32014
                             w
+                            sound angry_cat1
+                            menu:
+                                "Вцепиться ей в горло!":
+                                    pass
                             #sound anger2
                             img 32015 vpunch
                             w
@@ -870,6 +904,7 @@ label ep215_dialogues1_pub_9_loop1:
                                     sound snd_bodyfall
                                     img 32031 vpunch
                                     w
+                                    sound angry_cat1
                                     imgd 32032
                                     w
                                     imgd 32033
@@ -888,7 +923,23 @@ label ep215_dialogues1_pub_9_loop1:
                                     imgd 32039
                                     molly "Убью тебяяяяя!!!"
                                     imgd 32038
+                                    menu:
+                                        "Вцепиться сучке в лицо!":
+                                            pass
                                     m "АААА!!!"
+                                    # Молли сидит на Монике сверху и душит ее
+                                    # Моника вцепляется ногтями в лицо Молли и сталкивает ее с себя
+                                    sound snd_punch_face1
+                                    img 32040 vpunch
+                                    w
+                                    imgd 32041
+                                    #sound anger2
+                                    w
+                                    sound snd_bodyfall
+                                    img 32042 hpunch
+                                    w
+                                    imgd 32043
+                                    w
                                     pass
                                 "Толкнуть ее!":
                                     # Моника толкает Молли, но та бьет Монику по лицу
@@ -917,6 +968,7 @@ label ep215_dialogues1_pub_9_loop1:
                                     imgd 32033
                                     w
                                     #sound anger2
+                                    sound angry_cat1
                                     imgd 32052
                                     w
                                     imgd 32053
@@ -929,6 +981,9 @@ label ep215_dialogues1_pub_9_loop1:
                                     imgd 32039
                                     w
                                     imgd 32038
+                                    menu:
+                                        "Вцепиться сучке в лицо!":
+                                            pass
                                     m "АААА!!!"
                                     sound snd_punch_face1
                                     img 32056 vpunch
@@ -944,19 +999,6 @@ label ep215_dialogues1_pub_9_loop1:
                                     imgd 32043
                                     w
                                     pass
-                            # Молли сидит на Монике сверху и душит ее
-                            # Моника вцепляется ногтями в лицо Молли и сталкивает ее с себя
-                            sound snd_punch_face1
-                            img 32040 vpunch
-                            w
-                            imgd 32041
-                            #sound anger2
-                            w
-                            sound snd_bodyfall
-                            img 32042 hpunch
-                            w
-                            imgd 32043
-                            w
                             pass
         "Дать ей пощечину!": # Моника приличная
             music Turbo_Tornado
@@ -1026,7 +1068,7 @@ label ep215_dialogues1_pub_9_loop1:
     imgf 32070
     w
     music Power_Bots_Loop
-    imgd 32071
+    img 32071 vpunch
     ashley "А ну-ка хватит!!!"
     ashley "Битву сучек надо устраивать на сцене!"
     ashley "Это, по крайней мере, приносит деньги!"
@@ -1095,7 +1137,7 @@ label ep215_dialogues1_pub_9_loop1:
     imgd 32083
     sound anger2
     w
-    imgd 32084
+    img 32084 vpunch
     ashley "Мать вашу!!!"
     # начинают колотить друг друга на полу, один удар перепадает Эшли, которая пытается встать
     # Молли через Эшли пытается дотянуться до лица Моники и расцарапать его
@@ -1125,7 +1167,7 @@ label ep215_dialogues1_pub_9_loop1:
             # Молли облокачивается на Эшли, которая так и не может встать, перегибается через нее и колотит Монику по голове
             #sound anger2
             imgd 32092
-            w
+            ashley "Дайте мне встать!"
             imgd 32091
             w
             imgd 32093
@@ -1137,15 +1179,16 @@ label ep215_dialogues1_pub_9_loop1:
             # Моника пытается закрываться от ударов
             # Эшли отталкивает с себя Молли, Эшли встает и начинает орать
             sound snd_julia_scream1
-            imgd 32092
-            w
+            imgd 32092 hpunch
+            ashley "Вы совсем охренели?!"
             pass
         "Врезать ей!": # высокая бичность
             # Эшли уже почти удалось встать, но Моника толкает ее локтем, Эшли снова падает
             # Моника цепляется за рубашку Эшли, рубашка задирается (рвется?), грудь Эшли выскакивает наружу
             # Моника облокотившись на груди Эшли начинает колотить Молли куда попало - лицо, голова, грудь
             imgd 32106
-            w
+            ashley "Дайте мне встать!"
+#            w
             #sound anger2
             imgd 32107
             w
@@ -1167,8 +1210,8 @@ label ep215_dialogues1_pub_9_loop1:
             m "Мразь!"
             m "Тварь!"
             # Эшли отталкивает с себя Монику, Эшли встает и начинает орать
-            imgd 32111
-            w
+            img 32111 hpunch
+            ashley "Вы совсем охренели?!"
             pass
     fadeblack 2.0
     music Power_Bots_Loop
@@ -1193,6 +1236,7 @@ label ep215_dialogues1_pub_9_loop1:
     # Моника с Молли зло смотрят друг на друга
     imgd 32099
     m "!!!"
+    $ menu_corruption = [pubMollyBattle2CorruptionRequired]
     menu:
         "Батл с Молли.":
             music Pyro_Flow
@@ -1236,11 +1280,13 @@ label ep215_dialogues1_pub_9_loop1:
 # Моника и Молли на сцене
 # выигрыш определяется криками толпы и баром
 label ep215_dialogues1_pub_10:
+    $ musicOrder = [6, 0, 1, 5, 6, 4, 2, 7]
     # Моника ведет себя спокойно, Молли ехидничает и заметно нервничает
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Road_Trip
+#    music Road_Trip
+    music musicList[musicOrder[0]]["intro"]
     imgfl 31876
     w
     imgf 31877
@@ -1253,13 +1299,24 @@ label ep215_dialogues1_pub_10:
     # 1-й раунд
     # Молли в одежде, Моника в одежде
     # Молли начинает танцевать первая, делает три движения
+#    fadeblack 2.0
     imgf 31879
     w
+    music musicList[musicOrder[0]]["loop"]
+    img black_screen
+    w
+
     # потом Моника выходит, загораживая ее
     imgd 31880
-    w
+    menu:
+        "Оттолкнуть Молли.":
+            pass
     imgd 31881
     m "Все? Покривлялась, сучка?!"
+
+    fadeblack 2.0
+    music musicList[musicOrder[1]]["intro"]
+
     imgf 31882
     w
     imgd 31883
@@ -1268,23 +1325,43 @@ label ep215_dialogues1_pub_10:
     img 31884 vpunch
     w
     # Моника делает три движения
+    music musicList[musicOrder[1]]["loop"]
+    img black_screen
+    w
+
+    music musicList[musicOrder[1]]["intro"]
     # по крикам толпы Моника проигрывает, шкала бара у Молли выше
     imgf 31885
-    w
+    mt "Не понимаю, эта сучка им что, нравится больше чем Я?!"
+#    w
     ## возможно уместны какие-нибудь мысли Моники о том, почему она проигрывает ##
     imgd 31886
-    w
+    mt "Нет, я этого не допущу!"
+#    w
+
     imgd 31887
     molly "Моя очередь!"
     molly "Убери свою жирную задницу!"
+    menu:
+        "Снять корсет.":
+            pass
     # 2-й раунд
     # Моника не отходит, а снимает жилет и делает еще три движения
     imgf 31888
-    w
+    m "Сиди в своем углу, сучка! Я еще не закончила!"
+#    w
+    sound snd_fabric1
     imgd 31889
     w
     imgd 31890
     w
+
+    music musicList[musicOrder[1]]["loop"]
+    img black_screen
+    w
+
+    fadeblack 2.0
+    music musicList[musicOrder[2]]["intro"]
     # Молли злится и отталкивает Монику
     imgf 31891
     w
@@ -1294,9 +1371,13 @@ label ep215_dialogues1_pub_10:
     sound Jump2
     img 31893 vpunch
     w
+    sound snd_fabric1
     imgd 31894
     m "Да пошла ты, жирная корова!"
     # Молли тоже снимает жилет и танцует три движения
+    music musicList[musicOrder[2]]["loop"]
+    img black_screen
+    w
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
     imgf 31895
@@ -1304,11 +1385,18 @@ label ep215_dialogues1_pub_10:
     mt "!!!"
     ## может какие-нибудь мысли Молли ##
     imgd 31896
+    molly "Ну что, шлюха, теперь ты все поняла?"
     w
     imgd 31897
+    menu:
+        "Оттолкнуть Молли и снять трусики.":
+            pass
     mt "Я должна сегодня выиграть эту битву!"
     mt "Иначе я не Моника Бакфетт!!!"
     mt "!!!"
+
+    fadeblack 2.0
+    music musicList[musicOrder[3]]["intro"]
     # Моника отталкивает Молли, начинает танцевать и снимает трусики
     imgf 31898
     w
@@ -1317,15 +1405,23 @@ label ep215_dialogues1_pub_10:
     w
     imgd 31900
     w
+    sound snd_fabric1
     imgf 31901
     w
     imgd 31902
     w
+
+    music musicList[musicOrder[3]]["loop"]
+    img black_screen
+    w
+
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
     # Молли злится
     imgf 31903
     w
+    fadeblack 2.0
+    music musicList[musicOrder[4]]["intro"]
     imgd 31904
     molly "Думаешь, ты кого-то удивишь своей голой задницей?!"
     molly "Она здесь всем уже надоела!"
@@ -1335,23 +1431,37 @@ label ep215_dialogues1_pub_10:
     w
     imgd 31906
     w
+    sound snd_fabric1
     imgd 31907
     w
+
+    music musicList[musicOrder[4]]["loop"]
+    img black_screen
+    w
+
     imgf 31908
-    w
+    m "Я лучше тебя, сучка! Ты - никто против меня!"
     imgd 31909
-    w
+    molly "Рано радуешься, дешевая уличная шлюха!"
     # Молли зло смотрит на Монику, ее бомбит, Моника спокойна
     # 4-й раунд
     imgf 31910
     molly "Ты снова опозорилась, неудачница!!!"
     molly "Грязная воровка!!!"
+
+    fadeblack 2.0
+    music musicList[musicOrder[5]]["intro"]
     # Молли со злостью срывает с себя маску и начинает грязно позировать 3 движения
     imgd 31911
     w
     sound Jump1
     imgd 31912
     w
+
+    music musicList[musicOrder[5]]["loop"]
+    img black_screen
+    w
+
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
     imgf 31913
     w
@@ -1359,16 +1469,22 @@ label ep215_dialogues1_pub_10:
     mt "Мерзкая подлая сука!"
     mt "В этот раз я не позволю тебе выиграть!"
     mt "!!!"
+    $ menu_corruption = [pubMollyBattle2TakeOffMaskCorruptionRequired]
     menu:
         "Снять маску!":
+            fadeblack 2.0
+            music musicList[musicOrder[6]]["intro"]
             imgf 31915
             w
             sound Jump1
             imgd 31916
             mt "К черту эту маску!"
+            mt "Никто не сможет узнать Монику Бакфетт в этой дыре!"
             mt "!!!"
             pass
         "Не делать этого!":
+            fadeblack 2.0
+            music Groove2_85
             imgf 31872
             mt "Я не буду делать этого!"
             mt "Это отвратительно и грязно!"
@@ -1383,8 +1499,25 @@ label ep215_dialogues1_pub_10:
     # безоговорочная победа Моники, триумф
     # она стоит посреди сцены, обнаженная и без маски
     # высокомерно смотрит на злую Молли
+
+    music musicList[musicOrder[6]]["loop"]
+    img black_screen
+    w
+
+    menu:
+        "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все!":
+            pass
+
+    music musicList[musicOrder[6]]["loop"]
+    img black_screen
+    w
+
+    fadeblack 2.0
+    music Road_Trip
     imgd 31918
     w
+    $ applauseSound = "snd_applause" + str(3)
+    sound applauseSound
     imgd 31920
     w
     imgf 31919
@@ -1457,7 +1590,7 @@ label ep215_dialogues1_pub_11:
     # Моника все это время высокомерно смотрит на Молли, та молча зло на нее
     imgf 31957
     molly "!!!"
-    m "!!!"
+#    m "!!!"
 
     # держа руку на попе Моники, игриво
     imgd 31958
@@ -1465,6 +1598,7 @@ label ep215_dialogues1_pub_11:
     # Молли с психом уходит
     imgd 31959
     sound highheels_short_walk
+    molly "Рано радуешься, су... королева! Я отомщу тебе!"
     w
     # Эшли пошло подмигивает Монике и тоже выходит
     imgf 31954
@@ -1477,7 +1611,7 @@ label ep215_dialogues1_pub_11:
     w
     music Stealth_Groover
     imgd 31962
-    mt "Я сегодня заработала 200 долларов за одно выступление!"
+    mt "Я сегодня заработала [monica_strip_tips_today] долларов за одно выступление!"
     mt "И ни цента не должна теперь никому отдавать!"
     mt "В отличие от рыжеволосой шлюхи!"
     mt "Так и надо этой сучке! Пусть знает свое место!"
@@ -1548,3 +1682,14 @@ label ep215_dialogues1_pub_14:
     mt "Моника, ты это заслужила!"
     music2 stop
     return
+
+label ep215_dialogues1_pub_14a:
+    menu:
+        "Снять маску.":
+            mt "Я сделала это один раз, когда была зла на Молли, но я пока не готова повторять это..."
+            mt "Вдруг меня кто-то узнает..."
+            help "В следующих обновлениях!"
+            return True
+        "Завершить танец.":
+            return False
+    return False

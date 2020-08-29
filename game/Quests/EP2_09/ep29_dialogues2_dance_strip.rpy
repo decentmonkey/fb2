@@ -1948,12 +1948,13 @@ label dialogue_5_dance_strip_20:
     ashley "Хорошо, [monica_pub_name]."
     ashley "Иди в гримерку. Готовься к выступлению."
 
-    if dialogue_5_dance_strip_20_flag1 == True:
-        img 22857
-        with fade
-        ashley "Не забудь потом отдать мне часть чаевых."
-        ashley "Ты тут вертишь голым задом у пилона не просто так, [monica_pub_name]!"
-        mt "Я не хочу даже спорить с этой хамкой..."
+    if monica_shiny_hole_queen_day == 0: # Если Моника НЕ королева
+        if dialogue_5_dance_strip_20_flag1 == True:
+            img 22857
+            with fade
+            ashley "Не забудь потом отдать мне часть чаевых."
+            ashley "Ты тут вертишь голым задом у пилона не просто так, [monica_pub_name]!"
+            mt "Я не хочу даже спорить с этой хамкой..."
     return True
 
 
@@ -2059,6 +2060,7 @@ label dialogue_5_dance_strip_21:
 # У барной стойки
 label dialogue_5_dance_strip_22:
     if ep215_quests_ashley_dialogue1_active == True:
+        $ ep215_quests_ashley_dialogue1_active = False
         jump ep215_dialogues1_pub_8
     if ep215_quests_ashley_dialogue2_active == True:
         jump ep215_dialogues1_pub_14
@@ -2110,6 +2112,11 @@ label dialogue_5_dance_strip_23:
         $ menu_corruption = [monicaPubDanceStoleTipsBanker]
         menu:
             "Уйти и не отдавать чаевые хозяевам бара.":
+                if monica_shiny_hole_queen_day > 0:
+                    mt "Я теперь королева Shiny Hole и мне не надо отдавать чаевые."
+                    mt "Но, все-же, лучше сказать Эшли что я ухожу"
+                    return True
+
                 if monicaPubDanceStoleTipsStage == 0:
                     mt "Я не собираюсь отдавать никому мои чаевые!"
                     call ep211_quests_pub2_exit_with_tips() from _rcall_ep211_quests_pub2_exit_with_tips
@@ -2123,6 +2130,10 @@ label dialogue_5_dance_strip_23:
     else:
         menu:
             "Уйти и не отдавать чаевые хозяевам бара.":
+                if monica_shiny_hole_queen_day > 0:
+                    mt "Я теперь королева Shiny Hole и мне не надо отдавать чаевые."
+                    mt "Но, все-же, лучше сказать Эшли что я ухожу"
+                    return True
                 mt "По-моему Эшли следит за тем, чтобы я не ушла просто так..."
                 return True
             "Остаться.":

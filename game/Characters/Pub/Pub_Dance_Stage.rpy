@@ -1086,6 +1086,10 @@ label pub_dance1_stage_start1_topless:
             $ stage_achievements_list.append("v_Monica_Strip_Nude_25_end")
 
 
+    if monica_shiny_hole_queen_day > 0: # Если Моника королева
+        call ep215_dialogues1_pub_14a()
+        if _return == False:
+            jump pub_dance1_stage_end
     jump pub_dance1_stage_end
 
 

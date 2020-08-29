@@ -55,36 +55,53 @@ label ep215_quests_pub3_molly2:
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ monicaDancedLastDay = day
     $ ep215_quests_ashley_dialogue1_active = True
-    $ add_talk("Pub_StripteaseGirl1", "ep215_quests_pub3_molly3", scene="pub_makeuproom", label="ep215_quests_pub3_molly2")
+    $ ep215_quests_vest_only_active = True
+    $ add_hook("Teleport_Pub", "ep215_quests_pub3_molly3", scene="pub_makeuproom", label="ep215_quests_pub3_molly3")
+#    $ add_talk("Pub_StripteaseGirl1", "ep215_quests_pub3_molly3", scene="pub_makeuproom", label="ep215_quests_pub3_molly2")
+    call refresh_scene_fade_long()
 
     return False
 
 label ep215_quests_pub3_molly3:
     if ep215_quests_molly_monica_fight_day == day:
         return
+    if cloth_type != "StripOutfit":
+        return
+    if get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False:
+        return
     call ep215_dialogues1_pub_9()
     if _return == False:
-        return False
+        return
     # драка
     $ ep215_quests_molly_monica_fight_day = day
     call ep215_dialogues1_pub_9_loop1()
     if _return == 0: # уйти
-        return False
+        return
     if _return == -2: # Моника отказалась на второй баттл
-        return False
+        sound snd_fabric1
+        fadeblack 2.0
+        $ move_object("Pub_StripteaseGirl1", "empty")
+        return
     if _return == 1: # второй баттл
         $ monicaDancedLastDay = day
         $ move_object("Pub_StripteaseGirl1", "empty")
         call ep215_dialogues1_pub_10()
         if _return == False:
+            $ pub_makeuproom_monica_suffix = 2
+            call refresh_scene_fade_long()
             return False
-        $ remove_hook(label="ep215_quests_pub3_molly2")
+        $ ep215_quests_vest_only_active = False
+        $ remove_hook(label="ep215_quests_pub3_molly3")
         # Моника королева Shiny Hole
+        $ ep215_quests_ashley_dialogue1_active = False
+        $ ep215_quests_ashley_dialogue2_active = True
+
         $ monica_shiny_hole_queen_day = day
         call ep215_dialogues1_pub_11()
         $ questLog(84, True)
         $ add_talk("Pub_StripteaseGirl1", "ep215_dialogues1_pub_12", scene="pub_makeuproom", label="monica_queen_molly_talk_refuse")
         $ add_talk("Pub_StripteaseGirl2", "ep215_quests_pub4_claire", scene="pub_makeuproom", label="ep215_quests_pub4_claire")
+        call refresh_scene_fade_long()
         return False
 
     return False
@@ -92,9 +109,12 @@ label ep215_quests_pub3_molly3:
 
 label ep215_quests_pub4_claire:
     $ remove_hook()
+    if cloth_type != "Whore":
+        sound snd_fabric1
+        fadeblack 2.0
+        $ cloth = "Whore"
+        $ cloth_type = "Whore"
     call ep215_dialogues1_pub_13()
-    $ ep215_quests_ashley_dialogue1_active = False
-    $ ep215_quests_ashley_dialogue2_active = True
     return False
 
 
