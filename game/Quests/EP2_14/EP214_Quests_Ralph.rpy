@@ -124,7 +124,7 @@ label ep214_quests_ralph5_bardie: # разговор с Барди
     return False
 
 label ep214_quests_ralph6_regular: # подход к Ральфу в обычное время
-    if cloth == "Governess" and check_hook(label="steve_ralph_visit2", scene="living_room") != True:
+    if cloth == "Governess" and check_hook(label="steve_ralph_visit2", scene="living_room") != True and steveVisit2Day != day:
         call ep214_dialogues5_bardie_ralph_9a() from _rcall_ep214_dialogues5_bardie_ralph_9a
         return False
     return

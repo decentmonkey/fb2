@@ -2,6 +2,7 @@ default steveVisit1PlannedComplete = False
 default steveVisit1Skip = False
 default steveVisit1DayShowed0 = False
 default steveVisit1DayShowed = False
+default steveVisit2Day = 0
 default monicaAskedVictoriaAboutSteveMoney = False
 
 label ep24_quests_steve1:
@@ -186,6 +187,8 @@ label ep24_quests_steve12:
 label ep24_quests_steve13:
     # Перехват субботы второго посещения Стива
     $ remove_hook()
+
+    $ steveVisit2Day = day
 
     $ add_hook("Betty_Life_day", "Betty_Life_none", scene="global", label="steve_visit2")
     $ add_hook("Betty_Life_evening", "Betty_Life_none", scene="global", label="steve_visit2")
