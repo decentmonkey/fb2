@@ -159,6 +159,10 @@ label ep214_slums_hostel_bedroom_life:
     return
 
 label ep214_slums7_hostelbed:
+    if act=="h":
+        if ep214_slums_monica_rent_hostel_last_day < day:
+            call ep214_dialogues2_citizens_2b()
+            return False
     jump hostel_basement_bed
 
 label ep214_slums8_hostelshower:
