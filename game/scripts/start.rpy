@@ -55,14 +55,6 @@ label start:
 
 ##################
 
-#    call ep215_dialogues5_alex_1() # холл возле лифта в офисе, разговор Виктории и Алекса
-#    call ep215_dialogues5_alex_2() # апартаменты Мелани, приходит Виктория
-#    call ep215_dialogues5_alex_3() # апартаменты Мелани, приходит Алекс
-#    call ep215_dialogues5_alex_4() # фотостудия, Моника видит Викторию на фотосессии
-#    call ep215_dialogues5_alex_5() # гримерка, разговор с Мелани
-#    call ep215_dialogues5_alex_6() # разговор с Диком в его кабинете
-#    call ep215_dialogues5_alex_7() # приемная Дика, разговор с Викторией
-#    call ep215_dialogues5_alex_8() # гримерка в офисе Моники, разговор с Мелани
 
 ###################
     call intro_questions() from _call_intro_questions
