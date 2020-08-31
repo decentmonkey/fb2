@@ -56,9 +56,8 @@ label start:
 ##################
 
 
-    call label ep215_dialogues4_julia_1() # айтишник, чаепитие без трусов (Виктория и Юлия)
-    call label ep215_dialogues4_julia_2() # рабочий кабинет Моники Виктория уходит
-    call label ep215_dialogues4_julia_3() # близняшки и Лин сплетничают
+
+#    call ep215_dialogues4_julia_3() # близняшки и Лин сплетничают
 
 
 
