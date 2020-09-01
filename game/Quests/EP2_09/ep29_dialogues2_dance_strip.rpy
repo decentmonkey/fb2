@@ -1028,11 +1028,17 @@ label dialogue_5_dance_strip_8_loop1:
             with diss
             mt "Я к этому привыкла."
             mt "Мужчины всегда сходили по мне с ума..."
-            img 22762
+            if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                img 24345
+            else:
+                img 22762
             with fade
             sound skin_lotion11
             w
-            img 22763
+            if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                img 24346
+            else:
+                img 22763
             with diss
             w
             img 22764
@@ -1100,7 +1106,10 @@ label dialogue_5_dance_strip_8_loop1:
     with diss
     pause 1.5
     music Molten_Alloy
-    img 22772
+    if monica_shiny_hole_queen_day > 0: # Если Моника королева
+        img 24347
+    else:
+        img 22772
     with fadelong
     clare "Вот теперь ты выглядишь на миллион баксов!"
     img 22773
@@ -1514,7 +1523,10 @@ label dialogue_5_dance_strip_16:
                 w
                 music stop
                 music2 Loved_Up
-                img 22834
+                if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                    img 24348
+                else:
+                    img 22834
                 with diss
                 sound skin_lotion11
                 w
@@ -1556,7 +1568,10 @@ label dialogue_5_dance_strip_16:
                 with diss
                 sound skin_lotion11
                 clare "Мужчины в зале с ума сойдут, когда тебя увидят."
-                img 22839
+                if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                    img 24349
+                else:
+                    img 22839
                 with fade
                 mt "Я к этому привыкла."
                 mt "Мужчины всегда по мне с ума сходили..."
@@ -1660,11 +1675,17 @@ label dialogue_5_dance_strip_16:
                 with diss
                 mt "Я к этому привыкла."
                 mt "Мужчины всегда сходили по мне с ума..."
-                img 22762
+                if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                    img 24345
+                else:
+                    img 22762
                 with fade
                 sound skin_lotion11
                 w
-                img 22763
+                if monica_shiny_hole_queen_day > 0: # Если Моника королева
+                    img 24346
+                else:
+                    img 22763
                 with diss
                 w
                 img 22764
@@ -2266,7 +2287,10 @@ label dialogue_5_dance_strip_28:
     # strip corset
     if cloth == "StripOutfit1":
         music Groove2_85
-        img 22883
+        if monica_shiny_hole_queen_day > 0: # Если Моника королева
+            img 24350
+        else:
+            img 22883
         with fade
         clare "Привет, [monica_pub_name]. Отлично выглядишь."
         m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
@@ -2279,7 +2303,10 @@ label dialogue_5_dance_strip_28:
     if cloth == "StripOutfit2":
         #strip topless
         music Groove2_85
-        img 22884
+        if monica_shiny_hole_queen_day > 0: # Если Моника королева
+            img 24351
+        else:
+            img 22884
         with fade
         clare "Привет, [monica_pub_name]. Отлично выглядишь."
         m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
@@ -2292,7 +2319,10 @@ label dialogue_5_dance_strip_28:
     if cloth == "Whore":
         #whore outfit
         music Groove2_85
-        img 22885
+        if monica_shiny_hole_queen_day > 0: # Если Моника королева
+            img 24352
+        else:
+            img 22885
         with fade
         clare "Привет, [monica_pub_name]. Отлично выглядишь."
         m "Привет, Клэр. Ты тоже. Как отработала сегодня?"
