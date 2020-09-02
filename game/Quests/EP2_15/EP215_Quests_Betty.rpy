@@ -54,6 +54,7 @@ label ep215_quests_betty1_init1:
     $ ep215_stored_vars["hudDaySkipToEveningEnabled"] = hudDaySkipToEveningEnabled
     $ ep215_betty_floor2 = get_active_objects("Betty", "floor2")
     call change_owner("Betty")
+    $ remove_objective("bardie_college")
     $ map_objects = {
             "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
     }

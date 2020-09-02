@@ -76,6 +76,7 @@ label customer1_afterbattle:
             customer1 "Если дашь мне потрогать твою ножку."
             imgf 14215
             m "..."
+            $ menu_corruption = [0, pubQueenCustomer1CorruptionRequired]
             menu:
                 "Нет!":
                     music Stealth_Groover
@@ -91,7 +92,7 @@ label customer1_afterbattle:
                     customer1 "Придется поговорить с Джо о привате с тобой..."
                     customer1 "Все, свободна!"
                     stop music2
-                    return
+                    return True
                 "Согласиться.":
                     music Hidden_Agenda
                     imgd 14222
@@ -106,6 +107,7 @@ label customer1_afterbattle:
                     m "Только потрогать и быстро!"
                     # клиент кладет руку ей на колено, сбоку
                     # и быстро проводит ею вверх, под юбку, и хватает за попу
+                    $ add_corruption(pubQueenCustomer1Corruption, "customer1_afterbattle")
                     music Loved_Up
                     imgd 32234
                     w
@@ -116,7 +118,7 @@ label customer1_afterbattle:
                     w
                     music stop
                     sound plastinka1b
-                    img 32237  hpunch
+                    img 32237 hpunch
                     pause 1.5
                     music Pyro_Flow
                     music2 pub_noise1_low
@@ -134,8 +136,9 @@ label customer1_afterbattle:
                     customer1 "Вот, держи свои 5 баксов."
                     customer1 "Заслужила."
                     customer1 "Все, свободна!"
+                    $ pubQueenCustomer1Day = day
                     stop music2
-                    return
+                    return True
         "Ответить грубо":
             # Моника возмущенно
             music Stealth_Groover
@@ -152,7 +155,7 @@ label customer1_afterbattle:
             fadeblack
             sound highheels_short_walk
             stop music2
-            return
+            return False
     return
 
 label customer2_afterbattle:
@@ -231,6 +234,7 @@ label customer2_afterbattle:
     customer2 "А... Ну так сразу бы и сказала...."
     customer2 "А что насчет Гамильтона?! Ик!"
     customer2 "За то, чтобы посмотреть на них?"
+    $ menu_corruption = [0, pubQueenCustomer2CorruptionRequired]
     menu:
         "Мое решение неизменно!":
             imgf 32242
@@ -261,6 +265,7 @@ label customer2_afterbattle:
             w
             # Моника оглядывается по сторонам что бы убедиться что никто не смотрит
             # показывает грудь
+            $ add_corruption(pubQueenCustomer2Corruption, "customer2_afterbattle")
             sound Jump1
             imgf 32247
             w
@@ -285,10 +290,12 @@ label customer2_afterbattle:
             m "С тебя достаточно!!!"
             m "!!!"
             $ add_tips(10.0)
+            fadeblack 1.0
             # Мон уходит
             sound highheels_short_walk
             stop music2
             # доход 10 $
+            $ pubQueenCustomer2Day = day
             return
     return
 
@@ -311,6 +318,8 @@ label customer3_afterbattle:
     m "Мои выступления проходят только на сцене."
     imgf 14252
     customer3 "Обманывать нехорошо, милочка!"
+    if customer3_after_private == True:
+        customer3 "Ты уже была в привате со мной. Ха-ха-ха!"
     customer3 "Давай так!"
     customer3 "Если я куплю приват с тобой..."
     customer3 "То ты сделаешь мне бесплатный минет за то, что обманываешь."
@@ -333,8 +342,9 @@ label customer3_afterbattle:
     mt "Думай, Моника! Думай!"
     mt "Возможно, стоит сказать, что я временно не танцую приваты?"
     mt "Или соврать, что приватный танец стоит $ 2000? Я же королева Shiny Hole..."
-    mt "Вряд ли у кого-то в этой дыре найдутся такие деньги!"
-    mt "А вдруг у него найдутся?!"
+    if customer3_after_private != True:
+        mt "Вряд ли у кого-то в этой дыре найдутся такие деньги!"
+        mt "А вдруг у него найдутся?!"
     music Groove2_85
     imgd 14254
     customer3 "Хотя нет, у меня сейчас нет денег на приват с тобой..."
@@ -370,6 +380,7 @@ label customer3_afterbattle:
     customer3 "Я готов заплатить тебе $ 10!"
     imgd 14281
     m "..."
+    $ menu_corruption = [0, pubQueenCustomer3CorruptionRequired]
     menu:
         "Нет!":
             music Stealth_Groover
@@ -393,6 +404,7 @@ label customer3_afterbattle:
             # Задирает юбку сзади
             # потом быстро натягивает трусики обратно и опускает юбку
             fadeblack 1.5
+            $ add_corruption(pubQueenCustomer3Corruption, "customer3_afterbattle")
             music Loved_Up
             imgf 32253
             w
@@ -424,9 +436,11 @@ label customer3_afterbattle:
             $ add_tips(10.0)
             customer3 "И жди меня на привате в скором времени!" # подмигивает
             customer3 "Там ты не отделаешься так легко, королева! Аха-ха!!!"
+            customer3 "Я вгоню свой член в твою упругую попку!"
             imgd 14286
             mt "Мерзавец!"
             mt "!!!"
+            $ pubQueenCustomer3Day = day
             pass
     imgf 14296
     sound highheels_short_walk
@@ -500,6 +514,7 @@ label customer4_afterbattle:
     customer4 "Молчание - знак согласия."
     customer4 "Тогда дай потрогать твои сиськи."
     m "..."
+    $ menu_corruption = [0, pubQueenCustomer4CorruptionRequired]
     menu:
         "Нет!":
             music Stealth_Groover
@@ -530,6 +545,7 @@ label customer4_afterbattle:
             fadeblack
             sound snd_fabric1
             pause 1.5
+            $ add_corruption(pubQueenCustomer4Corruption, "customer4_afterbattle")
             music Loved_Up
             imgfl 32261
             w
@@ -547,7 +563,9 @@ label customer4_afterbattle:
             mt "!!!"
             customer4 "Вот. Держи свои пять баксов..."
             $ add_tips(5.0)
+            fadeblack 1.5
             # дает ей деньги
+            $ pubQueenCustomer4Day = day
             pass
     music Groove2_85
     imgd 32265
@@ -621,6 +639,7 @@ label customer5_afterbattle:
             # он дает ей деньги, Моника удаляется за заказом виляя попой,
             # поворачивается и подмигивает
             fadeblack 1.5
+            $ add_corruption(pubQueenCustomer5aCorruption, "customer5_afterbattle1")
             music Loved_Up
             imgf 32270
             sound highheels_short_walk
@@ -642,6 +661,7 @@ label customer5_afterbattle:
     imgf 32267
     customer5 "О, детка, смотри! Мой дружок оценил твою попку!"
     customer5 "Может потрешься об него? За $ 50. Что скажешь?"
+    $ menu_corruption = [0, pubQueenCustomer5CorruptionRequired]
     menu:
         "Отшить мерзавца!":
             music Pyro_Flow
@@ -671,6 +691,7 @@ label customer5_afterbattle:
             customer5 "Давай уже, не томи! Мой дружок тебя заждался!"
             # Моника садится к нему на колени,
             fadeblack 1.5
+            $ add_corruption(pubQueenCustomer5bCorruption, "customer5_afterbattle2")
             music Loved_Up
             imgfl 32274
             customer5 "Оооооо! Королевская жопа!!!"
@@ -712,6 +733,8 @@ label customer5_afterbattle:
             imgd 32280
             customer5 "А это, за сервис."
             $ add_tips(2.0)
+            fadeblack 1.5
+            $ pubQueenCustomer5Day = day
             # Дает ей пару баксов
             pass
     # Моника злится и уходит
@@ -782,6 +805,7 @@ label customer78_afterbattle:
     customer7 "Я положу пару баксов тебе и твоим малышкам!"
     # Моника злобно смотрит
     m "..."
+    $ menu_corruption = [0, pubQueenCustomer78CorruptionRequired]
     menu:
         "Нет!":
             music Stealth_Groover
@@ -804,6 +828,7 @@ label customer78_afterbattle:
             # Моника боязливо оглядывается, чтобы никто этого не увидел
             # наклоняется вперед, выставляя грудь на показ
             fadeblack 1.5
+            $ add_corruption(pubQueenCustomer78Corruption, "customer78_afterbattle")
             music Loved_Up
             imgfl 32284
             m "Быстрее!"
@@ -822,6 +847,7 @@ label customer78_afterbattle:
             mt "!!!"
             fadeblack 2.0
             music Stealth_Groover
+            $ pubQueenCustomer78Day = day
             pass
     imgf 14459
     mt "Все так и норовят облапать меня!"
@@ -878,6 +904,7 @@ label customer9_afterbattle:
     customer9 "Ты их поносишь немного, а потом отдашь мне."
     customer9 "Что скажешь?"
     m "..."
+    $ menu_corruption = [0, pubQueenCustomer9CorruptionRequired]
     menu:
         "Отказаться!":
             imgf 14407
@@ -892,7 +919,7 @@ label customer9_afterbattle:
             mt "Придурок!"
             mt "!!!"
             # Моника уходит
-            stop music2
+            music2 stop
             return
         "$ 50?":
             imgf 14403
@@ -903,6 +930,7 @@ label customer9_afterbattle:
             music Hidden_Agenda
             mt "Хм... А что, если..."
             mt "..."
+            $ add_corruption(pubQueenCustomer9Corruption, "customer9_afterbattle")
             imgd 14404
             m "Я надену их только за $ 5 000!"
             customer9 "Эй! Эти трусы стоят 6 баксов! Откуда такие цены?!"
@@ -918,7 +946,8 @@ label customer9_afterbattle:
             imgf 14410
             mt "Такая шикарная женщина, как Я, тебе не по карману!"
             mt "Неудачник!"
-            stop music2
+            music2 stop
+            $ pubQueenCustomer9Day = day
             return
     return
 
@@ -986,6 +1015,7 @@ label customer10_afterbattle:
     # Моника корчит моську отвращения
     customer10 "Или ты можешь подарить мне свой королевский поцелуй сама!"
     customer10 "$ 20 - достаточная цена королевы Shiny Hole?!"
+    $ menu_corruption = [0, pubQueenCustomer10CorruptionRequired]
     menu:
         "Нет!":
             music Stealth_Groover
@@ -1009,6 +1039,7 @@ label customer10_afterbattle:
             imgf 32288
             w
             imgd 32289
+            $ add_corruption(pubQueenCustomer10Corruption, "customer10_afterbattle")
             m "Но только королевский поцелуй в щеку..."
             imgf 32290
             customer10 "На пилоне с голой жопой значит..."
@@ -1019,6 +1050,7 @@ label customer10_afterbattle:
             m "Фу!"
             m "НЕТ!"
             customer10 "Тогда свободна!"
+            $ pubQueenCustomer10Day = day
             pass
     sound highheels_short_walk
     imgf 32292
@@ -1055,6 +1087,7 @@ label customer11_afterbattle:
     img 32302 hpunch
     mt "ОН ЧТО!!"
     mt "ЛАПАЕТ МЕНЯ!?!?!"
+    $ menu_corruption = [pubQueenCustomer11aCorruptionRequired]
     menu:
         "Промолчать.":
             imgf 32303
@@ -1073,6 +1106,7 @@ label customer11_afterbattle:
             customer11 "Хочу поверить..."
             customer11 "Сколько стоит свидание с твоей киской?"
             m "..."
+            $ menu_corruption = [pubQueenCustomer11bCorruptionRequired]
             menu:
                 "$ 100!":
                     imgf 32299
@@ -1082,6 +1116,7 @@ label customer11_afterbattle:
                     m "$ 100 чтобы посмотреть!"
                     customer11 "Даааа... Цены у тебя королевские!"
                     customer11 "Я дам $ 20!"
+                    $ menu_corruption = [pubQueenCustomer11cCorruptionRequired]
                     menu:
                         "Да.":
                             pass
@@ -1091,9 +1126,9 @@ label customer11_afterbattle:
                             sound highheels_short_walk
                             mt "Иди в жопу, придурок!"
                             mt "!!!"
-                            stop music2
+                            music2 stop
                             # уходит
-                            return
+                            return False
                     imgf 32306
                     m "$ 20 и ни центом меньше!"
                     customer11 "Договорились!"
@@ -1101,6 +1136,7 @@ label customer11_afterbattle:
                     # Моника оглядывается, поверяет что никто не смотрит
                     # покзывает киску, приспуская трусики (быстро) спереди
                     fadeblack 1.5
+                    $ add_corruption(pubQueenCustomer11Corruption, "customer11_afterbattle")
                     music Loved_Up
                     imgf 32307
                     w
@@ -1147,7 +1183,8 @@ label customer11_afterbattle:
                     imgf 14386
                     mt "Фу! Мерзость! И эти ужасы я должна терпеть!"
                     mt "!!!"
-                    pass
+                    $ pubQueenCustomer11Day = day
+                    return True
                 "Нисколько!":
                     music Power_Bots_Loop
                     img 32312 vpunch
@@ -1162,14 +1199,16 @@ label customer11_afterbattle:
                     customer11 "Проваливай! Грубиянка!"
                     customer11 "Не порть мне вечер!"
                     customer11 "Пошла вон!"
-                    pass
+                    return False
+        "Уберите свои руки!":
+            pass
     sound highheels_short_walk
     imgd 32305
     mt "Грубиян!"
     mt "Мерзкое инстинктивное животное!"
     mt "!!!"
-    stop music2
-    return
+    music2 stop
+    return False
 
 
 label customer12_afterbattle:
@@ -1221,6 +1260,7 @@ label customer12_afterbattle:
     customer12 "А знаю... Ты же тут ничего бесплатно не делаешь..."
     customer12 "$ 20 устроит?"
     m "..."
+    $ menu_corruption = [0, pubQueenCustomer12CorruptionRequired]
     menu:
         "Нет!":
             music Stealth_Groover
@@ -1252,6 +1292,7 @@ label customer12_afterbattle:
             # Клиент оттягивает трусы Моники  и они отстреливают ей по попе
             # Моника отпрыгивает
             fadeblack 1.5
+            $ add_corruption(pubQueenCustomer12Corruption, "customer12_afterbattle")
             music Loved_Up
             imgf 32317
             w
@@ -1284,6 +1325,7 @@ label customer12_afterbattle:
             mt "Пусть в следующий раз сам себя обслуживает!"
             mt "Когда этот кошмар уже закончится?!"
             mt "?!?!?!"
+            $ pubQueenCustomer12Day = day
             pass
     stop music2
     return

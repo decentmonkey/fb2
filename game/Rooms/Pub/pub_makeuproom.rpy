@@ -54,6 +54,10 @@ label pub_makeuproom_init4:
     $ add_object_to_scene("Tips", {"type" : 2, "base" : "Pub_MakeupRoom_Tips", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
     return
 
+label pub_makeuproom_init5:
+    $ add_object_to_scene("Picture_MonicaQueen", {"type" : 2, "base" : "Pub_MakeupRoom_Picture_MonicaQueen", "click" : "pub_makeuproom_environment", "actions" : "l", "zorder":1, "group":"environment"}, scene="pub_makeuproom")
+    return
+
 label pub_makeuproom_teleport:
     if obj_name == "Teleport_Pub":
         if cloth_type == "StripOutfit":
@@ -120,4 +124,8 @@ label pub_makeuproom_environment:
         call dialogue_5_dance_strip_30f() from _rcall_dialogue_5_dance_strip_30f
     if obj_name == "Vents":
         call dialogue_5_dance_strip_30b() from _rcall_dialogue_5_dance_strip_30b
+
+    if obj_name == "Picture_MonicaQueen":
+        call ep215_dialogues1_pub_14b()
+        call refresh_scene_fade()
     return

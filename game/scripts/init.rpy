@@ -1,4 +1,30 @@
 #v0.15
+define pubQueenCustomer1CorruptionRequired = 800
+define pubQueenCustomer2CorruptionRequired = 800
+define pubQueenCustomer3CorruptionRequired = 800
+define pubQueenCustomer4CorruptionRequired = 800
+define pubQueenCustomer5CorruptionRequired = 800
+define pubQueenCustomer78CorruptionRequired = 800
+define pubQueenCustomer9CorruptionRequired = 800
+define pubQueenCustomer10CorruptionRequired = 800
+define pubQueenCustomer11aCorruptionRequired = 800
+define pubQueenCustomer11bCorruptionRequired = 800
+define pubQueenCustomer11cCorruptionRequired = 800
+define pubQueenCustomer12CorruptionRequired = 800
+
+define pubQueenCustomer1Corruption = 10 # добавляется corruption
+define pubQueenCustomer2Corruption = 10 # добавляется corruption
+define pubQueenCustomer3Corruption = 10 # добавляется corruption
+define pubQueenCustomer4Corruption = 10 # добавляется corruption
+define pubQueenCustomer5aCorruption = 5 # добавляется corruption
+define pubQueenCustomer5bCorruption = 10 # добавляется corruption
+define pubQueenCustomer78Corruption = 10 # добавляется corruption
+define pubQueenCustomer9Corruption = 10 # добавляется corruption
+define pubQueenCustomer10Corruption = 10 # добавляется corruption
+define pubQueenCustomer11Corruption = 10 # добавляется corruption
+define pubQueenCustomer12Corruption = 10 # добавляется corruption
+
+
 define pubMollyBattle1CorruptionRequired = 650
 define pubMollyBattle2CorruptionRequired = 750
 define pubMollyBattle2TakeOffMaskCorruptionRequired = 850

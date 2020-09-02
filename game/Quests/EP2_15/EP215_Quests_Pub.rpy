@@ -27,7 +27,7 @@ label ep215_quests_pub2:
     return
 
 label ep215_quests_pub3_molly1:
-    if ep215_quests_pub2_lastday == day:
+    if ep215_quests_pub2_lastday == day or get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False:
         return
     $ remove_hook(label="ep215_quests_pub3_molly1")
     $ remove_hook(label="ep215_quests_pub2")
@@ -98,6 +98,9 @@ label ep215_quests_pub3_molly3:
 
         $ monica_shiny_hole_queen_day = day
         call ep215_dialogues1_pub_11()
+        $ set_active("Picture", False, scene="pub_makeuproom") # убираем старую картину
+        call pub_makeuproom_init5() # инициализируем картину
+        $ remove_objective("go_dance")
         $ questLog(84, True)
         $ add_talk("Pub_StripteaseGirl1", "ep215_dialogues1_pub_12", scene="pub_makeuproom", label="monica_queen_molly_talk_refuse")
         $ add_talk("Pub_StripteaseGirl2", "ep215_quests_pub4_claire", scene="pub_makeuproom", label="ep215_quests_pub4_claire")

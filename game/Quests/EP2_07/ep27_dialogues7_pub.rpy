@@ -263,6 +263,9 @@ label ep27_dialogues7_pub3a:
 
 label ep27_dialogues7_pub3b:
     mt "Все, хватит!"
+    if monica_shiny_hole_queen_day > 0:
+        mt "Моя смена закончена. Надо сказать об этом Эшли!"
+        return
     if pubMonicaWaitressTips > 0:
         mt "Моя смена закончена. Теперь мне надо отдать чаевые Эшли."
         mt "С другой стороны, мне бы эти чаевые тоже бы не помешали..."

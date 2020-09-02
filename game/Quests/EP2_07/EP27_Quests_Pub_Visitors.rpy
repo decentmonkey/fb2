@@ -1,5 +1,16 @@
 default visitorsVisits = {}
 
+default pubQueenCustomer1Count = 0
+default pubQueenCustomer2Count = 0
+default pubQueenCustomer3Count = 0
+default pubQueenCustomer4Count = 0
+default pubQueenCustomer5Count = 0
+default pubQueenCustomer78Count = 0
+default pubQueenCustomer9Count = 0
+default pubQueenCustomer10Count = 0
+default pubQueenCustomer11Count = 0
+default pubQueenCustomer12Count = 0
+
 label ep27_pub_visitors_init:
     if get_pub_visitor_visits("Pub_Visitor9") > 0:
         $ pubVisitor9Suffix = "_Food"
@@ -24,9 +35,14 @@ label ep27_pub_visitors_click:
             call customer1_1stmeeting() from _call_customer1_1stmeeting
             # nofood
         if visitsCount > 0:
-            call customer1_serve1() from _call_customer1_serve1
-            if _return == True:
-                $ pubVisitor1Suffix = "_Food"
+            if monica_shiny_hole_queen_day > 0:
+                call customer1_afterbattle()
+                if _return == True:
+                    $ pubVisitor1Suffix = "_Food"
+            else:
+                call customer1_serve1() from _call_customer1_serve1
+                if _return == True:
+                    $ pubVisitor1Suffix = "_Food"
         $ autorun_to_object("customer1_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor2":
@@ -34,35 +50,47 @@ label ep27_pub_visitors_click:
             call customer2_1stmeeting() from _call_customer2_1stmeeting
             $ pubVisitor2Suffix = "_Food"
         if visitsCount > 0:
-            call customer2_serve1() from _call_customer2_serve1
-            $ pubVisitor2Suffix = "_Food"
+            if monica_shiny_hole_queen_day > 0:
+                call customer2_afterbattle()
+                $ pubVisitor2Suffix = "_Food"
+            else:
+                call customer2_serve1() from _call_customer2_serve1
+                $ pubVisitor2Suffix = "_Food"
         $ autorun_to_object("customer2_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor3":
-        if customer3_after_private == True:
-            call ep212_dialogues2_shiny_hole_3() from _rcall_ep212_dialogues2_shiny_hole_3
+        if monica_shiny_hole_queen_day > 0:
+            call customer3_afterbattle()
             $ pubVisitor3Suffix = "_Food"
-            if _return != False:
-                $ customer3_after_private_agree_count += 1
         else:
-            if visitsCount == 0:
-                call customer3_1stmeeting() from _call_customer3_1stmeeting
+            if customer3_after_private == True:
+                call ep212_dialogues2_shiny_hole_3() from _rcall_ep212_dialogues2_shiny_hole_3
                 $ pubVisitor3Suffix = "_Food"
-            if visitsCount > 0:
-                if visitsCount%2 == 1:
-                    call customer3_serve1() from _call_customer3_serve1
+                if _return != False:
+                    $ customer3_after_private_agree_count += 1
+            else:
+                if visitsCount == 0:
+                    call customer3_1stmeeting() from _call_customer3_1stmeeting
                     $ pubVisitor3Suffix = "_Food"
-                else:
-                    call customer3_serve2() from _call_customer3_serve2
-                    # nofood
+                if visitsCount > 0:
+                    if visitsCount%2 == 1:
+                        call customer3_serve1() from _call_customer3_serve1
+                        $ pubVisitor3Suffix = "_Food"
+                    else:
+                        call customer3_serve2() from _call_customer3_serve2
+                        # nofood
         $ autorun_to_object("customer3_after_serve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor4":
         if visitsCount == 0:
             call customer4_1stmeeting() from _call_customer4_1stmeeting
         if visitsCount > 0:
-            call customer4_serve1() from _call_customer4_serve1
-            $ pubVisitor4Suffix = "_Food"
+            if monica_shiny_hole_queen_day > 0:
+                call customer4_afterbattle()
+                $ pubVisitor4Suffix = "_Food"
+            else:
+                call customer4_serve1() from _call_customer4_serve1
+                $ pubVisitor4Suffix = "_Food"
         $ autorun_to_object("customer4_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor5":
@@ -70,8 +98,12 @@ label ep27_pub_visitors_click:
             call customer5_1stmeeting() from _call_customer5_1stmeeting
             $ pubVisitor5Suffix = "_Food"
         if visitsCount > 0:
-            call customer5_serve1() from _call_customer5_serve1
-            $ pubVisitor5Suffix = "_Food"
+            if monica_shiny_hole_queen_day > 0:
+                call customer5_afterbattle()
+                $ pubVisitor5Suffix = "_Food"
+            else:
+                call customer5_serve1() from _call_customer5_serve1
+                $ pubVisitor5Suffix = "_Food"
         $ autorun_to_object("customer5_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor6":
@@ -85,9 +117,14 @@ label ep27_pub_visitors_click:
             $ pubVisitor7Suffix = "_Food"
             $ pubVisitor8Suffix = "_Food"
         if visitsCount > 0:
-            call customer78_serve1() from _call_customer78_serve1
-            $ pubVisitor7Suffix = "_Food"
-            $ pubVisitor8Suffix = "_Food"
+            if monica_shiny_hole_queen_day > 0:
+                call customer78_afterbattle()
+                $ pubVisitor7Suffix = "_Food"
+                $ pubVisitor8Suffix = "_Food"
+            else:
+                call customer78_serve1() from _call_customer78_serve1
+                $ pubVisitor7Suffix = "_Food"
+                $ pubVisitor8Suffix = "_Food"
             $ autorun_to_object("customer78_afterserve1", scene=scene_name)
 
     if obj_name == "Pub_Visitor9":
@@ -95,28 +132,44 @@ label ep27_pub_visitors_click:
             call customer9_1stmeeting() from _call_customer9_1stmeeting
             $ autorun_to_object("customer9_afterserve1", scene=scene_name)
         if visitsCount > 0:
-            call customer9_serve1() from _call_customer9_serve1
-            if _return == False:
-                $ autorun_to_object("customer9_afterserve1", scene=scene_name)
-            else:
+            if monica_shiny_hole_queen_day > 0:
+                call customer9_afterbattle()
                 $ autorun_to_object("customer9_afterserve2", scene=scene_name)
+            else:
+                call customer9_serve1() from _call_customer9_serve1
+                if _return == False:
+                    $ autorun_to_object("customer9_afterserve1", scene=scene_name)
+                else:
+                    $ autorun_to_object("customer9_afterserve2", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor10":
         if visitsCount == 0:
             call customer10_1stmeeting() from _call_customer10_1stmeeting
             $ pubVisitor10Suffix = "_Food"
         if visitsCount > 0:
-            call customer10_serve1() from _call_customer10_serve1
+            if monica_shiny_hole_queen_day > 0:
+                call customer10_afterbattle()
+#                $ pubVisitor10Suffix = "_Food"
+            else:
+                call customer10_serve1() from _call_customer10_serve1
         $ autorun_to_object("customer10_afterserve1", scene=scene_name)
         pass
     if obj_name == "Pub_Visitor11":
-        call customer11_1stmeeting() from _call_customer11_1stmeeting
-        $ pubVisitor11Suffix = "_Food"
+        if monica_shiny_hole_queen_day > 0:
+            call customer11_afterbattle()
+            if _return != False:
+                $ pubVisitor11Suffix = "_Food"
+        else:
+            call customer11_1stmeeting() from _call_customer11_1stmeeting
+            $ pubVisitor11Suffix = "_Food"
     if obj_name == "Pub_Visitor12":
         if visitsCount == 0:
             call customer12_1stmeeting() from _call_customer12_1stmeeting
         if visitsCount > 0:
-            call customer12_serve1() from _call_customer12_serve1
+            if monica_shiny_hole_queen_day > 0:
+                call customer12_afterbattle()
+            else:
+                call customer12_serve1() from _call_customer12_serve1
             $ pubVisitor12Suffix = "_Food"
         $ autorun_to_object("customer12_afterserve1", scene=scene_name)
         pass

@@ -2244,6 +2244,10 @@ label dialogue_5_dance_strip_25a:
     mt "Что это еще такое? Она сидит с таким видом, будто она тут самая главная..."
     return
 label dialogue_5_dance_strip_25:
+    if monica_shiny_hole_queen_day > 0:
+        mt "Молли... Бывшая королева Shiny Hole..."
+        mt "Я выигрываю всегда! Не важно где!"
+        return
     mt "Молли. Считает себя королевой сцены Shiny Hole..."
     mt "Звезда трущоб. Фи!"
     return
