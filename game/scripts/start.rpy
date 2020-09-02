@@ -56,9 +56,7 @@ label start:
 ##################
 
 
-
-#    call customer1_afterbattle() # customer1
-
+#    call ep215_dialogues3_escort_21() # после встречи с Олафом, кабинет Бифа
 
 
 ###################
