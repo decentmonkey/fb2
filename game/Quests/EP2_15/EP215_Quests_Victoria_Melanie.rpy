@@ -26,6 +26,7 @@ label ep215_quests_victoria_melanie2: # Моника проходит мимо �
 label ep215_quests_victoria_melanie3: # Моника заходит в кабинет
     $ remove_hook()
     call ep215_dialogues4_julia_2()
+    $ workingOfficeCabinetMonicaSuffix = 2
     return
 
 label ep215_quests_victoria_melanie4: # Виктория приходит к Алексу (у лифта)
