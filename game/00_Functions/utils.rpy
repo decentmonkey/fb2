@@ -27,7 +27,7 @@ init python:
         if debugMode != True:
             return
         print "Debug!"
-        dir1 = "/Users//Documents/work/browse"
+        dir1 = "/tmp"
         if os.path.isdir(dir1) == True:
             str1 = json.dumps(scenes_data)
             f = open(dir1 + "/renpy_debug.json","w")
@@ -114,6 +114,38 @@ init python:
         if char_info.has_key("Julia") and char_info["Julia"]["level"] == 7 and char_info["Julia"]["current_progress"] >= progress_amount:
             return True
         return False
+
+    def set_rest_place(str):
+        global monicaRestHostel, monicaRestApartments, monicaRestJuliaHome, monicaRestHouse, monicaRestHouseDay, monicaRestJuliaHomeDay, monicaRestApartmentsDay, monicaRestHostelDay
+        if str == "basement_bed":
+            monicaRestHostel = False
+            monicaRestApartments = False
+            monicaRestJuliaHome = False
+            monicaRestHouse = True
+            monicaRestHouseDay = day
+        if str == "juliahome":
+            monicaRestJuliaHome = True
+            monicaRestJuliaHomeDay = day
+            monicaRestHouse = False
+            monicaRestApartments = False
+        if str == "slums_apartments":
+            monicaRestHostel = False
+            monicaRestApartments = True
+            monicaRestApartmentsDay = day
+            monicaRestHouse = False
+            monicaRestJuliaHome = False
+        if str == "hostel":
+            monicaRestHostel = True
+            monicaRestApartments = False
+            monicaRestHostelDay = day
+            monicaRestHouse = False
+            monicaRestJuliaHome = False
+        if str == "none":
+            monicaRestHostel = False
+            monicaRestApartments = False
+            monicaRestHouse = False
+            monicaRestJuliaHome = False
+        return
 
 label mycopytext_label(txt):
     $ mycopytext(txt)

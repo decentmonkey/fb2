@@ -7,7 +7,7 @@ default monicaCitizens14Slums3 = False  # Моника согласилась в
 
 # при клике на алкаша на улице
 label ep215_dialogues6_citizens_1:
-    fadeblack 1.5
+#    fadeblack 1.5
     music Groove2_85
     imgl Dial_begin35_18
     m "Черт, что это еще за тело лежит здесь?! Я чуть не споткнулась о тебя!"
@@ -22,6 +22,7 @@ label ep215_dialogues6_citizens_1:
     citizen14 "Тогда у меня к тебе есть дело..."
     citizen14 "Давай отойдем в тихое место?"
     m "..."
+    $ menu_corruption = [monicaCorruptionCitizen14Agree1]
     menu:
         "Пойти с ним.":
             imgl Dial_begin35_21
@@ -40,7 +41,7 @@ label ep215_dialogues6_citizens_1:
             imgr Dial_Citizen_14_2
             citizen14 "Я так и знал..."
             citizen14 "Но если захочешь подзаработать, ты знаешь, где меня найти."
-            return
+            return 0
     # стоят у пилона
     fadeblack
     sound highheels_short_walk
@@ -65,16 +66,19 @@ label ep215_dialogues6_citizens_1:
     imgf 32166
     m "Вознаградить?"
     m "..."
+    $ menu_corruption = [monicaCorruptionCitizen14Agree2]
     menu:
         "Согласиться.":
             # если Моника не арендует квартиру у Джека
-            if monicaShawarmaApartment5 == False or monicaShawarmaApartment9 == True:
+            if slumsApartmentsRentActive == False:
                 imgd 32167
                 mt "Хммм..."
                 mt "Деньги за то, что бы ему было где выпить - это лучше, чем танцевать у пилона."
                 mt "..."
                 mt "Черт! Но мне некуда его вести!"
+
                 mt "А здесь я это делать не собираюсь!"
+                music Groove2_85
                 #
                 $ notif(t_("Монике некуда вести клиентов."))
                 #
@@ -91,7 +95,7 @@ label ep215_dialogues6_citizens_1:
                 imgd 32169
                 m "Я не собираюсь с тобой пить здесь."
                 m "Мне не нужны проблемы из-за тебя!"
-                return
+                return -1
             # если арендует квартиру у Джека
             $ monicaCitizens14Slums1 = True # Моника согласилась привести к себе домой алкаша
             pass
@@ -104,7 +108,7 @@ label ep215_dialogues6_citizens_1:
             m "Нет! "
             m "Мой дом не место для алкашей с улицы!"
             citizen14 "Видимо тебе не нужны ни деньги, ни хорошая выпивка."
-            return
+            return -1
     # Моника в сомнениях
     music Stealth_Groover
     imgd 32170
@@ -145,11 +149,12 @@ label ep215_dialogues6_citizens_1:
     m "Черт!"
     m "!!!"
     m "Пошли!"
+    $ add_money(10.0)
     # !!! render отсюда!!!
     # затемнение
     # в квартире Моники
     # алкаш и Моника стоят в ее гостиной
-    fadeblack
+    fadeblack 1.5
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
@@ -209,6 +214,7 @@ label ep215_dialogues6_citizens_1:
     citizen14 "Одна стопка и бакс у тебя в кармане."
     mt "Черт!"
     mt "!!!"
+    $ menu_corruption = [0, monicaCorruptionCitizen14Agree3]
     menu:
         "Я же сказала, что не пью!":
             music Stealth_Groover
@@ -219,6 +225,7 @@ label ep215_dialogues6_citizens_1:
             sound man_steps
             imgd 32183
             citizen14 "Я, пожалуй, найду более приветливого собутыльника!"
+            $ add_money(-10.0)
             # алкаш уходит
             imgd 32184
             mt "Да пошел ты!"
@@ -227,7 +234,7 @@ label ep215_dialogues6_citizens_1:
             fadeblack
             sound snd_door_locked1
             pause 1.5
-            return
+            return -2
         "Видимо этот неудачник не отстанет от меня...":
             $ monicaCitizens14Slums2 = True # Моника согласилась выпить стопку за один бакс
             pass
@@ -262,15 +269,23 @@ label ep215_dialogues6_citizens_1:
     sound snd_drinking_water
     imgf 32187
     w
+    $ add_money(1.0)
     imgd 32188
     mt "ФУУУУУ!"
     mt "Эти помои еще хуже, чем я предполагала!!!"
     mt "!!!"
     mt "Надеюсь, я сейчас не умру от отравления!"
+    $ blur_effect = 1
+    imgd 32188
+    w
     mt "Ох..."
     mt "Какое-то странное ощущение..."
+    $ blur_effect = 0
+    imgd 32188
     mt "..."
+#    $ blur_effect = False
     # алкаш на заднем плане бормочет
+    $ blur_effect = 1
     imgf 32189
     citizen14 "Вот..."
     citizen14 "И я, значит, ему говорю... Ик!"
@@ -281,8 +296,11 @@ label ep215_dialogues6_citizens_1:
     citizen14 "Вот, еще одна стопка!"
     citizen14 "И я дам тебе еще бакс! Ик!"
     mt "..."
+    $ menu_corruption = [0, monicaCorruptionCitizen14Agree4]
+
     menu:
         "Прогнать этого алкаша пока не поздно!":
+            $ blur_effect = 0
             music Pyro_Flow
             imgf 32191
             m "Забирай свое пойло и уходи!"
@@ -293,31 +311,41 @@ label ep215_dialogues6_citizens_1:
             m "ВОН!!!"
             m "НЕМЕДЛЕННО!!!"
             m "!!!"
-            music Groove2_85
             citizen14 "Шлюха - предательница, а не спасительница! Ик!"
+            fadeblack 1.5
+            music Loved_Up
+            $ blur_effect = 2
             imgf 32193
             sound man_steps
             mt "Ох! Что-то мне нехорошо..."
             mt "Мне надо немного отдохнуть..."
+            $ blur_effect = 0
             sound Jump2
             img 32194 vpunch
             w
             imgf 32195
             w
             imgd 32196
+            w
             # алкаш уходит
             # Моника ложится на постель
-            return
+            return -3
         "Еще бакс?":
             $ monicaCitizens14Slums3 = True # Моника согласилась выпить вторую стопку за бакс
             pass
+    $ blur_effect = 0
     music Groove2_85
     imgf 32197
     mt "Еще доллар за то, чтобы я выпила?"
     citizen14 "Ага!"
+    $ blur_effect = 1
+    imgd 32197
     mt "Что это он бормочет..."
+    $ blur_effect = 2
+    imgd 32197
     mt "Ох... Что-то голова кружится..."
     mt "И такое приятное тепло внутри..."
+    $ blur_effect = 0
     imgd 32198
     m "Я хотела сказать..."
     citizen14 "Да помню я, милая... Помню..."
@@ -326,14 +354,20 @@ label ep215_dialogues6_citizens_1:
     imgf 32199
     mt "Что это за мерзость?!"
     mt "Почему она так воняет?!"
+    $ blur_effect = 2
+    imgd 32199
     mt "Или..."
     imgd 32189
     citizen14 "Давай пей..."
     citizen14 "Я помогу тебе! И рраз!"
     # Моника выпивает вторую рюмку
+    fadeblack 1.5
+    music Groove2_85
+    $ blur_effect = 0
     sound snd_drinking_water
     imgf 32187
     w
+    $ add_money(1.0)
     imgd 32188
     w
     fadeblack 1.5
@@ -344,31 +378,44 @@ label ep215_dialogues6_citizens_1:
     imgf 32201
     mt "Что за бред он несет?"
     mt "???"
+    $ blur_effect = 1
     imgd 32202
     citizen14 "А у нее... Ик!"
     citizen14 "И сиськи... Во!"
     citizen14 "Не то, что у тебя... Ик!"
     imgd 32203
     mt "Что за странный привкус во рту..."
+    $ blur_effect = 2
+    imgd 32203
     mt "И почему вся комната... Ик!"
     mt "Ой!"
     # алкаш дает третью рюмку
+    $ blur_effect = 0
     imgf 32204
     citizen14 "Ты это... Ик!"
     citizen14 "Быстро что-то... На, держи!"
+    $ blur_effect = 2
     imgd 32199
     mt "Что проис... Что это? Ик!"
     mt "Что он напивает мне?"
+    $ blur_effect = 2
+    fadeblack 2.0
     # Моника выпивает третью рюмку
     sound snd_drinking_water
     imgf 32187
     w
+    $ blur_effect = 4
     imgd 32188
     w
+    $ add_money(1.0)
+    fadeblack 1.5
+    return 1
+
+label ep215_dialogues6_citizens_1b:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Утро..."))
     scene black_screen
     with Dissolve(1)
     sound lick3
@@ -380,8 +427,11 @@ label ep215_dialogues6_citizens_1:
     # Моника просыпается голая на кровати, а между ног голова алкаша и он спит
     # рядом валяется пустая бутылка
     # Моника ВСКАКИВАЕТ И В УЖАСЕ ХВАТАЕТСЯ ЗА ГОЛОВУ
+    $ blur_effect = 2
     imgfl 32206
     w
+    $ blur_effect = 0
+    imgd 32206
     sound lick3
     imgf 32207
     w
@@ -488,8 +538,10 @@ label ep215_dialogues6_citizens_1:
     citizen14 "Я хотел вознаградить... Ик! Как договаривались..."
     imgd 32227
     w
+    sound Jump1
     imgd 32228
     w
+    sound Jump1
     imgd 32227
     w
 
@@ -516,4 +568,8 @@ label ep215_dialogues6_citizens_1:
     mt "БЕСПОЛЕЗНЫМИ!"
     mt "НИКЧЕМНЫМИ!!!"
     mt "ААААААААА!!!"
+    return
+
+label ep215_dialogues6_citizens_1c:
+    mt "Не могу поверить, что это происходит со мной..."
     return

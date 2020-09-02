@@ -2,6 +2,10 @@
 define pubMollyBattle1CorruptionRequired = 650
 define pubMollyBattle2CorruptionRequired = 750
 define pubMollyBattle2TakeOffMaskCorruptionRequired = 850
+define monicaCorruptionCitizen14Agree1 = 450 # corruption, чтобы пойти с алкоголиком к пилону
+define monicaCorruptionCitizen14Agree2 = 550 # corruption, чтобы пойти с алкашом в дом
+define monicaCorruptionCitizen14Agree3 = 600 # corruption, чтобы выпить с алкашом
+define monicaCorruptionCitizen14Agree4 = 650 # corruption, чтобы выпить второй раз
 
 #v0.14
 define monicaHotelHelperScene1CorruptionRequired = 550 # Сколько денег ты скопил?

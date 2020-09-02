@@ -90,11 +90,48 @@ screen show_image_screen_image(image_name):
 
         fixed:
 #            add img1 at convert_resolution_transform
-            add img1
+            if blur_effect == 0:
+                add img1
+            else:
+                add img1 at blur
+                add img1:
+                    alpha 0.2
+                    xoffset -30
+                if blur_effect > 1:
+                    add img1:
+                        alpha 0.2
+                        xoffset 30
+                if blur_effect > 2:
+                    add img1:
+                        alpha 0.2
+                        yoffset -30
+                if blur_effect > 3:
+                    add img1:
+                        alpha 0.2
+                        yoffset 30
     else:
         fixed:
 #            add image_name at convert_resolution_transform
-            add image_name
+            if blur_effect == 0:
+                add image_name
+            else:
+                add image_name
+                add image_name:
+                    alpha 0.2
+                    xoffset -30
+                if blur_effect > 1:
+                    add image_name:
+                        alpha 0.2
+                        xoffset 30
+                if blur_effect > 2:
+                    add image_name:
+                        alpha 0.2
+                        yoffset -30
+                if blur_effect > 3:
+                    add image_name:
+                        alpha 0.2
+                        yoffset 30
+
 
 
     if renpy.android:
@@ -119,6 +156,7 @@ screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
 
 screen show_image_screen(image_name):
     layer "master"
+    $ print "here000"
     if assetsStorageDirectory == False:
         $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
     if image_name.find(assetsStorageDirectory) != -1:

@@ -228,6 +228,7 @@ label citizens_dialogue_process:
             if fallingPathStarted == False or day_time == "Evening":
                 call citizens_dialogue_refuse() from _call_citizens_dialogue_refuse_12
                 return
+
             call citizen14_dialogue_pilon() from _call_citizen14_dialogue_pilon
             return
         music citizenMusic

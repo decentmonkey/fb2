@@ -2,10 +2,7 @@ label juliahome_bed:
     if act=="l":
         return
     if act == "h":
-        $ monicaRestJuliaHome = True
-        $ monicaRestJuliaHomeDay = day
-        $ monicaRestHouse = False
-        $ monicaRestApartments = False
+        $ set_rest_place("juliahome")
         if day_time == "day":
             call juliahome_bed_take_nap() from _rcall_juliahome_bed_take_nap
             return _return

@@ -44,6 +44,9 @@ label citizen14_dialogue:
     return
 
 label citizen14_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep215_slums1_dialogue_alcoholic
+
     imgl Dial_begin35_17
     imgr Dial_Citizen_14_1
     m "Привет! Помнишь меня?"

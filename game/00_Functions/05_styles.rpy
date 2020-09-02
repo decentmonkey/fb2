@@ -196,5 +196,22 @@ transform pole_dance_shake:
     ease 1.0 zoom 1.0 xpos 0.49 ypos 0.49 zoom 1.1
     ease 1.0 zoom 1.0 xpos 0.5 ypos 0.5 zoom 1.1
     repeat
+
+transform blur(child):
+    contains:
+        child
+        alpha 1.0
+    contains:
+        child
+        alpha 0.2 xoffset -30
+    contains:
+        child
+        alpha 0.2 xoffset 30
+    contains:
+        child
+        alpha 0.2 yoffset -30
+    contains:
+        child
+        alpha 0.2 yoffset 30
 #translate german python:
 #    objectivesFont = "fonts/OpenSans-Regular.ttf"

@@ -22,11 +22,7 @@ label basement_bed_hook:
     if act == "l":
         return True
     if act == "h":
-        $ monicaRestHostel = False
-        $ monicaRestApartments = False
-        $ monicaRestJuliaHome = False
-        $ monicaRestHouse = True
-        $ monicaRestHouseDay = day
+        $ set_rest_place("basement_bed")
         if day_time == "day":
             call monica_take_nap() from _call_monica_take_nap
             return _return

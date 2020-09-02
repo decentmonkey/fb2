@@ -1,14 +1,11 @@
 default monicaRestHostel = False
+default monicaRestHostelDay = 0
 
 label hostel_basement_bed:
     if act=="l":
         return
     if act == "h":
-        $ monicaRestHostel = True
-        $ monicaRestApartments = False
-        $ monicaRestApartmentsDay = day
-        $ monicaRestHouse = False
-        $ monicaRestJuliaHome = False
+        $ set_rest_place("hostel")
         if day_time == "day":
             call hostel_basement_bed_take_nap() from _rcall_hostel_basement_bed_take_nap
             return _return

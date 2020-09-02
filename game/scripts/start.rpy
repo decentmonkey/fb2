@@ -32,6 +32,7 @@ default menu_required = {}
 default hud_preset_current = "default"
 default hud_preset_default = "default"
 default minimap_coords_preset = 0
+default blur_effect = False
 
 default after_load_ready_to_render = False
 default nextFriday = -1
