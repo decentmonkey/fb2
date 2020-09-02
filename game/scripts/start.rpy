@@ -57,7 +57,7 @@ label start:
 
 
 
-#    call ep215_dialogues4_julia_3() # близняшки и Лин сплетничают
+#    call customer1_afterbattle() # customer1
 
 
 
