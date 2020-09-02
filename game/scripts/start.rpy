@@ -56,7 +56,6 @@ label start:
 
 ##################
 
-
 ###################
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
