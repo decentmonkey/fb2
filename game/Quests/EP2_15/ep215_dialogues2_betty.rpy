@@ -4,6 +4,8 @@ default monicaBettyNeighbor3 = False # Бетти решила помочь Ли
 default monicaBettyNeighbor4 = False # Бетти согласилась потрогать член Лиама
 default monicaBettyNeighbor5 = False # у Бетти с соседом был секс
 
+default ep215_betty_visit2_cumzone = 0
+default ep215_betty_after_visit2_kisszone = 0
 
 #call ep215_dialogues2_betty_1() # Моника видит, что во дворе дома Фред разговаривает с соседом
 #call ep215_dialogues2_betty_2() # сосед пришел к Бетти за утюгом
@@ -332,6 +334,7 @@ label ep215_dialogues2_betty_6:
 #    call textonblack(t_("Тем временем..."))
 #    scene black_screen
 #    with Dissolve(1)
+    fadeblack 1.5
     sound snd_door_knock
     pause 2.0
     sound snd_door_open1
@@ -427,7 +430,7 @@ label ep215_dialogues2_betty_6:
     liam "Вот. Посмотрите, Мэм."
     # Бетти удивленно смотрит на его член
     music Groove2_85
-    imgf 19278
+    img 19278 vpunch
     betty "И? С какой стати вы думаете, что я могу помочь?"
     liam "Вы же не оставите в беде своего соседа, Мэм..."
     # Бетти не отводит глаз от его члена
@@ -450,7 +453,7 @@ label ep215_dialogues2_betty_6:
     imgd 19283
     liam "Я уверен, Мэм, вы так не стали бы говорить, если потрогали бы его..."
     music Groove2_85
-    imgf 19284
+    img 19284 vpunch
     betty "Я? Что?"
     betty "Потрогать?"
     menu:
@@ -483,7 +486,7 @@ label ep215_dialogues2_betty_6:
             pause 1.5
             sound snd_door_locked1
             pause 1.0
-            return
+            return False
     # Бетти не в силах отвести взгляд от члена соседа, но продолжает ломаться
     music Groove2_85
     imgd 19284
@@ -508,6 +511,7 @@ label ep215_dialogues2_betty_6:
     betty_t "Тем более, я помогаю больному человеку! Тем более, соседу!"
     betty_t "Как врач."
     # Бетти неотрывно смотрит на член соседа и тянет руку к его члену
+    fadeblack 1.5
     music Loved_Up
     imgf 19293
     betty "Учтите, Лиам! Я его потрогаю, но совсем чуть-чуть!"
@@ -653,7 +657,7 @@ label ep215_dialogues2_betty_6:
             pause 1.5
             sound snd_door_locked1
             pause 1.0
-            return
+            return False
     # Бетти смотрит на его член
     music Hidden_Agenda
     imgf 19314
@@ -685,14 +689,15 @@ label ep215_dialogues2_betty_6:
     music Loved_Up
     imgfl 19333
     w
-    # если Барди заставляет ходить без трусиков
-    imgf 19335
-    liam "Вы не носите трусики, Мэм?"
-    betty "Я делаю это для своего мужа! Ему так нравится!"
-    #
-    $ notif(_("Бетти не носит трусики по приказу Барди."))
-    #
-    #
+    if bettyMustNotWearPanties == True:
+        # если Барди заставляет ходить без трусиков
+        imgf 19335
+        liam "Вы не носите трусики, Мэм?"
+        betty "Я делаю это для своего мужа! Ему так нравится!"
+        #
+        $ notif(_("Бетти не носит трусики по приказу Барди."))
+        #
+        #
     imgd 19336
     liam "Ваш муж счастливчик, Мэм!"
     liam "Хотел бы я быть на его месте!"
@@ -796,6 +801,7 @@ label ep215_dialogues2_betty_6:
             liam "ААААААААА!!!"
             imgf 19356
             betty "Черт! Сказала же, не в меня!!!"
+            $ ep215_betty_visit2_cumzone = 1
             pass
         "Кончить на киску Бетти.":
             img 19354
@@ -825,6 +831,7 @@ label ep215_dialogues2_betty_6:
             liam "ААААААААА!!!"
             imgf 19358
             w
+            $ ep215_betty_visit2_cumzone = 2
             #betty "Черт! Сказала же, не в меня!!!"
             pass
     # затемнение
@@ -885,15 +892,18 @@ label ep215_dialogues2_betty_7:
             sound kiss1
             imgd 8617
             w
+            $ ep215_betty_after_visit2_kisszone = 1
             pass
         "Не целовать.":
             imgd 19322
             betty "Ты же знаешь, что я занятая женщина, Ральф!"
             betty "Не могу же я весь день сидеть возле тебя!"
             ralph "Да, дорогая, конечно."
+            $ ep215_betty_after_visit2_kisszone = 0
             pass
     # кадр на ноги Бетти - по бедру стекает сперма соседа
-    imgf 19324
+    if monicaBettyNeighbor5 == True:
+        imgf 19324
     betty "Сейчас я приготовлю тебе обед."
     betty "Подожди немного."
     imgd 19325
@@ -907,3 +917,24 @@ label ep215_dialogues2_betty_8:
 label ep215_dialogues2_betty_9:
     betty_t "Я теперь хозяйка богатого столичного дома и не хочу больше иметь ничего общего с провинциальной жизнью!"
     return False
+
+label ep215_dialogues2_betty_10:
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(t_("Утро..."))
+#    call textonblack(t_("Тем временем..."))
+    scene black_screen
+    with Dissolve(1)
+    return
+
+label ep215_dialogues2_betty_11:
+    betty_t "Сосед так и не вернул утюг. Наверное, он просто забыл про него."
+    betty_t "Надо зайти и забрать его."
+    betty_t "Заодно поздороваюсь с Лиамом. С соседями надо поддерживать хорошие отношения..."
+    return
+
+label ep215_dialogues2_betty_12:
+    mt "Ненавижу сучку Бетти!"
+    mt "Я верну себе мой дом!"
+    return

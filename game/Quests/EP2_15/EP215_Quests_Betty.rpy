@@ -2,6 +2,11 @@ default ep215_quests_betty_stage = 0
 default ep215_quests_betty_refused = False
 default ep215_quests_betty_visit1_day = 0
 default ep215_quests_betty_visit2_day = 0
+default ep215_quests_betty_visit2_completed_day = 0
+
+default ep215_stored_scenename = ""
+default ep215_stored_vars = {}
+default ep215_betty_floor2 = False
 
 label ep215_quests_betty_check:
     if monicaBettyRalphSeduction4 == True and ep215_quests_betty_stage == 0:
@@ -9,7 +14,7 @@ label ep215_quests_betty_check:
         call ep215_dialogues2_betty_1()
         $ ep215_quests_betty_stage = 1
         # на следующий день Бетти идет к соседу
-        $ add_hook("change_time_day", "ep215_quests_betty1_init1", scene="global", label="ep215_quests_betty1_init1")
+        $ add_hook("change_time_day", "ep215_quests_betty1_init1", scene="global", label="ep215_quests_betty1_init1", priority=1)
         return
 
     return
@@ -44,6 +49,10 @@ label ep215_quests_betty1_init1:
     $ set_active("Door", False, scene="street_house_neighbour")
     $ add_hook("Neighbour", "ep215_quests_betty2_talk_neighbour", scene="street_house_neighbour", label="ep215_quests_betty2_talk_neighbour", owner="Betty")
 
+    $ ep215_stored_vars["scene_name"] = scene_name
+    $ ep215_stored_vars["miniMapEnabledOnly"] = miniMapEnabledOnly
+    $ ep215_stored_vars["hudDaySkipToEveningEnabled"] = hudDaySkipToEveningEnabled
+    $ ep215_betty_floor2 = get_active_objects("Betty", "floor2")
     call change_owner("Betty")
     $ map_objects = {
             "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
@@ -67,14 +76,19 @@ label ep215_quests_betty2_talk_neighbour:
         $ ep215_quests_betty_refused = True
     else:
         # планируем второй приход
-        $ add_hook("change_time_day", "ep215_quests_betty3_init", scene="global", label="ep215_quests_betty1_init1")
+        $ add_hook("change_time_day", "ep215_quests_betty3_init", scene="global", label="ep215_quests_betty1_init1", priority=1)
 
     $ ep215_quests_betty_visit1_day = day
     call change_owner("Monica")
     $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
-    $ miniMapEnabledOnly = []
-    $ hudDaySkipToEveningEnabled = True
+    $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
+    $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
+    if ep215_betty_floor2 == True:
+        $ move_object("Betty", "floor2")
+
     fadeblack 2.0
+    call change_scene(ep215_stored_vars["scene_name"], "Fade_long")
+
     return False
 
 label ep215_quests_betty3_init:
@@ -87,7 +101,23 @@ label ep215_quests_betty3_init:
     $ set_active("Betty", True, scene="street_house_neighbour")
     $ set_active("Neighbour", False, scene="street_house_neighbour")
     $ set_active("Door", True, scene="street_house_neighbour")
-    $ add_hook("Door", "ep215_quests_betty2_talk_neighbour", scene="street_house_neighbour", label="ep215_quests_betty2_talk_neighbour", owner="Betty")
+    $ add_hook("Door", "ep215_quests_betty3_enter_door", scene="street_house_neighbour", label="ep215_quests_betty3_enter_door", owner="Betty")
+
+    $ ep215_stored_vars["scene_name"] = scene_name
+    $ ep215_stored_vars["miniMapEnabledOnly"] = miniMapEnabledOnly
+    $ ep215_stored_vars["hudDaySkipToEveningEnabled"] = hudDaySkipToEveningEnabled
+    $ ep215_betty_floor2 = get_active_objects("Betty", "floor2")
+    call change_owner("Betty")
+    $ map_objects = {
+            "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
+    }
+    $ miniMapEnabledOnly = ["none"]
+    $ hudDaySkipToEveningEnabled = False
+
+    call ep215_dialogues2_betty_10()
+    $ autorun_to_object("ep215_dialogues2_betty_11", scene="street_house_outside")
+
+    call change_scene("street_house_outside", "Fade_long")
 
     return
 
@@ -95,8 +125,27 @@ label ep215_quests_betty3_enter_door:
     if act=="l":
         call ep215_dialogues2_betty_8()
         return False
+    $ remove_hook()
     # второй приход к соседу
     $ ep215_quests_betty_visit2_day = day
-    call 
+    call ep215_dialogues2_betty_6()
+    if _return == False:
+        $ ep215_quests_betty_refused = True
+    else:
+        $ ep215_quests_betty_visit2_completed_day = day
+
+    # Бетти возвращается к Ральфу
+    call ep215_dialogues2_betty_7()
+    call change_owner("Monica")
+    $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
+    $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
+    $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
+    if ep215_betty_floor2 == True:
+        $ move_object("Betty", "floor2")
+
+    fadeblack 2.0
+    $ autorun_to_object("ep215_dialogues2_betty_12", scene=ep215_stored_vars["scene_name"])
+    call change_scene(ep215_stored_vars["scene_name"], "Fade_long")
+    $ ep215_stored_vars = {}
 
     return False

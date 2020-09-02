@@ -18,7 +18,7 @@ label street_house_neighbour_init:
     $ add_object_to_scene("Betty", {"type" : 2, "base" : "Street_Neighbour_Betty_[street_house_neighbour_betty_suffix][day_suffix]", "click" : "street_house_neighbour_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, scene="street_house_neighbour")
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Street_House_Outside_Monica_[cloth]_[street_house_neighbour_monica_suffix][day_suffix]", "click" : "street_house_neighbour_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, scene="street_house_neighbour")
 
-    $ add_object_to_scene("Door", {"type" : 2, "base" : "Street_Neighbour_Door", "click" : "street_house_neighbour_environment", "actions" : "lw", "zorder":2}, scene="street_house_neighbour")
+    $ add_object_to_scene("Door", {"type" : 2, "base" : "Street_Neighbour_Door", "click" : "street_house_neighbour_environment", "actions" : "lw", "zorder":2, "tint":[1.0, 1.0, 0.85]}, scene="street_house_neighbour")
 
     $ add_object_to_scene("Teleport_House_Neighbour_Farm", {"type":3, "text" : t_("ФЕРМА СОСЕДА"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "street_house_neighbour_teleport", "xpos" : 350, "ypos" : 790, "zorder":11, "teleport":True, "house_out_teleport":True}, scene="street_house_neighbour")
     $ add_object_to_scene("Teleport_House_Outside", {"type":3, "text" : t_("НАЗАД К ДОМУ"), "larrow" : "arrow_down_2", "base":"Screen_Down_Arrow", "click" : "street_house_neighbour_teleport", "xpos" : 1260, "ypos" : 956, "zorder":11, "teleport":True, "high_sprite_hover":True}, scene="street_house_neighbour")
