@@ -34,9 +34,11 @@ label ep215_dialogues2_betty_1:
     mt "Зачем он пришел?!"
     mt "Какие у него могут быть общие темы для разговора с Фредом?!"
     mt "..."
-    mt "Я тогда хотела обратиться к своему адвокату (чертов Дик!!) и закатить ему иск..."
+    if neighborOffendedSue == True or neighborOffendedSueBig == True:
+        mt "Я тогда хотела обратиться к своему адвокату (чертов Дик!!) и закатить ему иск..."
     #
-    $ notif(_("Моника хотела закатить соседу иск на $ 100 000."))
+    if neighborOffendedSueBig == True:
+        $ notif(_("Моника хотела закатить соседу иск на $ 100 000."))
     #
     imgf 19227
     mt "Вот черт!"
@@ -63,6 +65,7 @@ label ep215_dialogues2_betty_1:
     liam "Загляну еще к тебе поболтать."
     imgd 19229
     fred "До встречи, Лиам."
+    fadeblack 2.0
     # сосед Лиам уходит
     # Фред смотрит на крыльцо, куда забежала Моника и мерзко улыбается
     $ monicaBettyNeighbor1 = True # клик на соседа, квест с Бетти активирован
@@ -80,7 +83,8 @@ label ep215_dialogues2_betty_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Утро..."))
+#    call textonblack(t_("Тем временем..."))
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -120,7 +124,8 @@ label ep215_dialogues2_betty_2:
     imgd 19239
     liam "Да, Мэм... Всего на несколько минут..."
     betty "Лиам, я хозяйка богатого дома и такими вопросами занимается моя гувернантка."
-    betty "Я помогла бы вам, но моей гувернантки сейчас нет дома."
+    if monicaRestHouse == False:
+        betty "Я помогла бы вам, но моей гувернантки сейчас нет дома."
     betty "Сожалею, но ничем не могу вам сейчас помочь."
     fadeblack
     sound highheels_short_walk
@@ -160,10 +165,11 @@ label ep215_dialogues2_betty_3:
             imgf 19246
             betty_t "И вообще, у меня есть другие важные дела!"
             betty_t "Почему я должна тратить свое время на него?!"
-            return
+            fadeblack 1.5
+            return False
     # Бетти выходит из комнаты
     # затемнение
-    return
+    return True
 
 # Бетти с утюгом выходит во двор дома
 label ep215_dialogues2_betty_4:
@@ -194,13 +200,13 @@ label ep215_dialogues2_betty_4:
 label ep215_dialogues2_betty_5:
     # Бетти подходит к нему, в руках утюг
     # сосед удивленно
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Несколько минут спустя..."))
-    scene black_screen
-    with Dissolve(1)
-    pause 1.0
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Несколько минут спустя..."))
+#    scene black_screen
+#    with Dissolve(1)
+#    pause 1.0
     music Groove2_85
     imgfl 19326
     liam "Мэм?!"
@@ -228,7 +234,7 @@ label ep215_dialogues2_betty_5:
             imgd 19332
             liam "Спасибо, Мэм..."
             # Бетти разворачивается и уходит, а он смотрит ей вслед
-            return
+            return False
     # Бетти задумчиво
     music Groove2_85
     imgf 19330
@@ -309,7 +315,7 @@ label ep215_dialogues2_betty_5:
     liam "Мэээм! Я принесу вам утюг завтра!"
     liam "Спасибо, Мэм!"
     # Бетти с возмущенным видом уходит
-    return
+    return True
 
 # после этого игра переключается на события с Моникой
 
@@ -320,12 +326,12 @@ label ep215_dialogues2_betty_6:
     # затемнение, звук двери, шаги
     # Бетти и Лиам стоят в гостиной его дома
     # Лиам удивлен ее визиту
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Тем временем..."))
-    scene black_screen
-    with Dissolve(1)
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Тем временем..."))
+#    scene black_screen
+#    with Dissolve(1)
     sound snd_door_knock
     pause 2.0
     sound snd_door_open1
@@ -893,3 +899,11 @@ label ep215_dialogues2_betty_7:
     imgd 19325
     ralph "Хорошо, дорогая."
     return
+
+label ep215_dialogues2_betty_8:
+    betty_t "Надо поддерживать хорошие отношения с соседями..."
+    return
+
+label ep215_dialogues2_betty_9:
+    betty_t "Я теперь хозяйка богатого столичного дома и не хочу больше иметь ничего общего с провинциальной жизнью!"
+    return False

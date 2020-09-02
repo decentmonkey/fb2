@@ -235,6 +235,10 @@ label locations_init_hostel_inside:
     $ add_location("hostel_reception", caption=t_("ХОСТЕЛ"), label="hostel_reception", init_label="hostel_reception_init", parent="hostel_street")
     return
 
+label locations_init_house_neighbour:
+    $ add_location("street_house_neighbour", caption=t_("ДОМ СОСЕДА"), label="street_house_neighbour", init_label="street_house_neighbour_init", parent="House")
+    return
+
 label world:
     return
 label world_init:

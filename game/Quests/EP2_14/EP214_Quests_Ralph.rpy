@@ -14,6 +14,8 @@ label ep214_quests_ralph2:
     # берем одежду Бетти и едем домой
     $ remove_objective("go_fitness")
     call ep214_dialogues5_bardie_ralph_2b() from _rcall_ep214_dialogues5_bardie_ralph_2b
+    call ep215_quests_betty_check()
+
     $ ep214_stored_cloth = cloth
     $ ep214_stored_cloth_type = cloth_type
     $ cloth = "BettyCloth"

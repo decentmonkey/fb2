@@ -1,5 +1,7 @@
 default street_house_outside_monica_suffix = 1
 default street_house_outside_monica_suffix_str = ""
+default street_house_outside_betty_suffix = 1
+
 label street_house_outside:
     $ print "enter_street_house_outside"
     $ miniMapData = []
@@ -26,6 +28,11 @@ label street_house_outside_init:
 
 label street_house_outside_init2:
     $ add_object_to_scene("Monica", {"type" : 2, "base" : "Street_House_Outside_Monica_[cloth][street_house_outside_monica_suffix_str][day_suffix]", "click" : "street_house_outside_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, scene="street_house_outside")
+    return
+
+label street_house_outside_init3:
+    $ add_object_to_scene("Teleport_House_Outside_Neighbour", {"type":3, "text" : t_("ДОМ СОСЕДА"), "larrow" : "arrow_left_2", "base":"Screen_Left_Arrow_Tight", "click" : "street_house_outside_teleport", "xpos" : 300, "ypos" : 790, "zorder":11, "teleport":True}, scene="street_house_outside")
+    $ add_object_to_scene("Betty", {"type" : 2, "base" : "Street_House_Outside_Betty_[street_house_outside_betty_suffix][day_suffix]", "click" : "street_house_outside_environment", "actions" : "l", "zorder":10, "tint": monica_tint}, scene="street_house_outside")
     return
 #                            $ brightness_adjustment = 0.1
 #                            $ saturation_adjustment = 1.07
