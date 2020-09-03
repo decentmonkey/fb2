@@ -310,3 +310,21 @@ label pub_dance_dialogues_excitement_tips():
             sound2 fx_coins_b1
     show screen poledance_coins(kupury_out)
     return
+
+label pub_dance_battle_dialogues_react():
+    # Движение понравилось
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+    $ temp1 = stage_Monica_Excitement_Current
+    $ stage_Monica_Excitement_Current = (stage_Monica_Excitement_Current + stage_Molly_Excitement_Current)/2
+    call pub_dance_dialogues_excitement_tips()
+    $ stage_Monica_Excitement_Current = temp1
+    call pub_dance_stage_flash()
+#    wclean
+#    $ notif_clean()
+    return
+
+label pub_dance_battle_dialogues_applause(applauseSound):
+    if applauseSound == "std":
+        $ idx = rand(1,3)
+        $ applauseSound = "snd_applause" + str(idx)
+        sound applauseSound

@@ -147,6 +147,28 @@ init python:
             monicaRestJuliaHome = False
         return
 
+    def pub_dance_dialogues_set_excitement_monica(excitement):
+        global stage_Monica_Excitement_Current, stage_Monica_Excitement_Last
+        stage_Monica_Excitement_Last = stage_Monica_Excitement_Current
+        stage_Monica_Excitement_Current = stage_Monica_Excitement_Current + excitement
+        if stage_Monica_Excitement_Current > 100:
+            stage_Monica_Excitement_Current = 100
+        return
+
+    def pub_dance_dialogues_set_excitement_molly(excitement):
+        global stage_Molly_Excitement_Current, stage_Molly_Excitement_Last
+        stage_Molly_Excitement_Last = stage_Molly_Excitement_Current
+        stage_Molly_Excitement_Current = stage_Molly_Excitement_Current + excitement
+        if stage_Molly_Excitement_Current > 100:
+            stage_Molly_Excitement_Current = 100
+        return
+
+    def pub_dance_dialogues_fix_excitement():
+        global stage_Monica_Excitement_Current, stage_Monica_Excitement_Last, stage_Molly_Excitement_Current, stage_Molly_Excitement_Last
+        stage_Monica_Excitement_Last = stage_Monica_Excitement_Current
+        stage_Molly_Excitement_Last = stage_Molly_Excitement_Current
+        return
+
 label mycopytext_label(txt):
     $ mycopytext(txt)
     return

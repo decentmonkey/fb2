@@ -306,6 +306,42 @@ python early:
     renpy.music.register_channel("sound2", "sfx", False)
     renpy.register_statement("sound2", parse=sound2_parse, execute=sound2_exec) #sound2 - оператор воспроизведения звука
 
+    def sound3_parse(l):
+        return l.simple_expression()
+
+    def sound3_exec(o):
+        try:
+            sound3Name = renpy.eval(o)
+        except:
+            sound3Name = o
+        checkPath = "Sounds/" + str(sound3Name) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+        checkPath = "Sounds/" + str(sound3Name) + ".wav"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+        checkPath = "Sounds/" + str(sound3Name) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+        checkPath = "Music/" + str(sound3Name) + ".ogg"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+        checkPath = "Music/" + str(sound3Name) + ".wav"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+        checkPath = "Music/" + str(sound3Name) + ".mp3"
+        if renpy.loadable(checkPath):
+            renpy.play(checkPath, channel="sound3")
+            return
+
+    renpy.music.register_channel("sound3", "sfx", False)
+    renpy.register_statement("sound3", parse=sound3_parse, execute=sound3_exec) #sound3 - оператор воспроизведения звука
+
     def music_parse(l):
         return (l.simple_expression(), l.rest())
 

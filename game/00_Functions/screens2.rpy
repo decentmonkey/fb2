@@ -768,6 +768,89 @@ screen screen_marcus_cat_training2():
                     action Return(commandIdx)
                 $ offsetIdx += 1
 
+screen love_bar_screen_battle(oldBarValue, newBarValue, oldBarValue2, newBarValue2):
+    fixed:
+            bar:
+                xpos getRes(27)
+                ypos getRes(260)
+                value AnimatedValue(float(newBarValue)/100, 1.0, 1.0, float(oldBarValue)/100)
+                xoffset 5
+                xysize(gui.resolution.hud_screen.love_bar_xysize)
+                bar_vertical True
+                top_bar "/icons/bar/love_bar_empty" + res.suffix + ".png"
+                bottom_bar "/icons/bar/love_bar_full" + res.suffix + ".png"
+                thumb "/icons/bar/love_bar_thumb" + res.suffix + ".png"
+                bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
+                top_gutter gui.resolution.hud_screen.love_bar_top_gutter
+                thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+
+            bar:
+                xpos getRes(140)
+                ypos getRes(260)
+                value AnimatedValue(float(newBarValue2)/100, 1.0, 1.0, float(oldBarValue2)/100)
+                xoffset 5
+                xysize(gui.resolution.hud_screen.love_bar_xysize)
+                bar_vertical True
+                top_bar "/icons/bar/love_bar2_empty" + res.suffix + ".png"
+                bottom_bar "/icons/bar/love_bar2_full" + res.suffix + ".png"
+                thumb "/icons/bar/love_bar2_thumb" + res.suffix + ".png"
+                bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
+                top_gutter gui.resolution.hud_screen.love_bar_top_gutter
+                thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+
+screen poledance_battle():
+    fixed:
+        xpos getRes(1650)
+        ypos getRes(430)
+        #up
+        if arrowUp == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(-40)
+                idle "/Icons2/dance_up.png"
+                hover "/Icons2/dance_up_hover.png"
+                action [SetVariable("arrowUp", False), Return("up")]
+        else:
+            add "/Icons2/dance_up_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(-40)
+                xanchor 0.5
+                yanchor 0.5
+        #left
+        if arrowSide == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(0)
+                ypos getRes(80)
+                idle "/Icons2/dance_left.png"
+                hover "/Icons2/dance_left_hover.png"
+                action [SetVariable("arrowSide", False), Return("side")]
+        else:
+            add "/Icons2/dance_left_Disabled.png":
+                xpos getRes(0)
+                ypos getRes(80)
+                xanchor 0.5
+                yanchor 0.5
+        #down
+        if arrowDown == True:
+            imagebutton:
+                xanchor 0.5
+                yanchor 0.5
+                xpos getRes(50)
+                ypos getRes(200)
+                idle "/Icons2/dance_down.png"
+                hover "/Icons2/dance_down_hover.png"
+                action [SetVariable("arrowDown", False), Return("down")]
+        else:
+            add "/Icons2/dance_down_Disabled.png":
+                xpos getRes(50)
+                ypos getRes(200)
+                xanchor 0.5
+                yanchor 0.5
+
 transform coin_appear1:
     on show:
         alpha 0
