@@ -783,6 +783,9 @@ screen love_bar_screen_battle(oldBarValue, newBarValue, oldBarValue2, newBarValu
                 bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
                 top_gutter gui.resolution.hud_screen.love_bar_top_gutter
                 thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+            add "/icons/monica_battle_icon" + res.suffix + ".png":
+                xpos getRes(25)
+                ypos(getRes(720))
 
             bar:
                 xpos getRes(140)
@@ -797,6 +800,9 @@ screen love_bar_screen_battle(oldBarValue, newBarValue, oldBarValue2, newBarValu
                 bottom_gutter gui.resolution.hud_screen.love_bar_bottom_gutter
                 top_gutter gui.resolution.hud_screen.love_bar_top_gutter
                 thumb_offset gui.resolution.hud_screen.love_bar_thumb_offset
+            add "/icons/molly_battle_icon" + res.suffix + ".png":
+                xpos getRes(147)
+                ypos(getRes(720))
 
 screen poledance_battle():
     fixed:
