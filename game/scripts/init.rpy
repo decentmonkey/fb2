@@ -1,37 +1,37 @@
 #v0.15
 define pubQueenCustomer1CorruptionRequired = 800
-define pubQueenCustomer2CorruptionRequired = 800
-define pubQueenCustomer3CorruptionRequired = 800
-define pubQueenCustomer4CorruptionRequired = 800
+define pubQueenCustomer2CorruptionRequired = 820
+define pubQueenCustomer3CorruptionRequired = 810
+define pubQueenCustomer4CorruptionRequired = 820
 define pubQueenCustomer5CorruptionRequired = 800
 define pubQueenCustomer78CorruptionRequired = 800
-define pubQueenCustomer9CorruptionRequired = 800
-define pubQueenCustomer10CorruptionRequired = 800
-define pubQueenCustomer11aCorruptionRequired = 800
-define pubQueenCustomer11bCorruptionRequired = 800
-define pubQueenCustomer11cCorruptionRequired = 800
-define pubQueenCustomer12CorruptionRequired = 800
+define pubQueenCustomer9CorruptionRequired = 810
+define pubQueenCustomer10CorruptionRequired = 810
+define pubQueenCustomer11aCorruptionRequired = 820
+define pubQueenCustomer11bCorruptionRequired = 830
+define pubQueenCustomer11cCorruptionRequired = 840
+define pubQueenCustomer12CorruptionRequired = 830
 
 define pubQueenCustomer1Corruption = 10 # добавляется corruption
-define pubQueenCustomer2Corruption = 10 # добавляется corruption
+define pubQueenCustomer2Corruption = 15 # добавляется corruption
 define pubQueenCustomer3Corruption = 10 # добавляется corruption
-define pubQueenCustomer4Corruption = 10 # добавляется corruption
+define pubQueenCustomer4Corruption = 15 # добавляется corruption
 define pubQueenCustomer5aCorruption = 5 # добавляется corruption
 define pubQueenCustomer5bCorruption = 10 # добавляется corruption
-define pubQueenCustomer78Corruption = 10 # добавляется corruption
-define pubQueenCustomer9Corruption = 10 # добавляется corruption
-define pubQueenCustomer10Corruption = 10 # добавляется corruption
-define pubQueenCustomer11Corruption = 10 # добавляется corruption
-define pubQueenCustomer12Corruption = 10 # добавляется corruption
+define pubQueenCustomer78Corruption = 5 # добавляется corruption
+define pubQueenCustomer9Corruption = 5 # добавляется corruption
+define pubQueenCustomer10Corruption = 5 # добавляется corruption
+define pubQueenCustomer11Corruption = 20 # добавляется corruption
+define pubQueenCustomer12Corruption = 15 # добавляется corruption
 
 
-define pubMollyBattle1CorruptionRequired = 650
-define pubMollyBattle2CorruptionRequired = 750
-define pubMollyBattle2TakeOffMaskCorruptionRequired = 850
-define monicaCorruptionCitizen14Agree1 = 450 # corruption, чтобы пойти с алкоголиком к пилону
-define monicaCorruptionCitizen14Agree2 = 550 # corruption, чтобы пойти с алкашом в дом
-define monicaCorruptionCitizen14Agree3 = 600 # corruption, чтобы выпить с алкашом
-define monicaCorruptionCitizen14Agree4 = 650 # corruption, чтобы выпить второй раз
+define pubMollyBattle1CorruptionRequired = 670 # первый батл с Молли
+define pubMollyBattle2CorruptionRequired = 750 # второй батл с Молли
+define pubMollyBattle2TakeOffMaskCorruptionRequired = 800 # снять маску на сцене в батле
+define monicaCorruptionCitizen14Agree1 = 320 # corruption, чтобы пойти с алкоголиком к пилону
+define monicaCorruptionCitizen14Agree2 = 360 # corruption, чтобы пойти с алкашом в дом
+define monicaCorruptionCitizen14Agree3 = 390 # corruption, чтобы выпить с алкашом
+define monicaCorruptionCitizen14Agree4 = 400 # corruption, чтобы выпить второй раз
 
 #v0.14
 define monicaHotelHelperScene1CorruptionRequired = 550 # Сколько денег ты скопил?
