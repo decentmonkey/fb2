@@ -10,6 +10,7 @@ label ep215_slums1_dialogue_alcoholic:
     if _return == -1: # отказалась вести домой
         call change_scene("hostel_edge_1_a", "Fade_long")
         return False
+    $ citizen14BlockedByDay = day + 3
     if _return == -2:# отказалась пить
         $ autorun_to_object("ep215_dialogues6_citizens_1c", scene="street_monicahome")
         call change_scene("street_monicahome", "Fade_long")

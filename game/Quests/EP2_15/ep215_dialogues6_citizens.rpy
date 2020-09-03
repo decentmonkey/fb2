@@ -1,7 +1,7 @@
 default monicaCitizens14Slums1 = False  # Моника согласилась привести к себе домой алкаша
 default monicaCitizens14Slums2 = False  # Моника согласилась выпить стопку на один бакс
 default monicaCitizens14Slums3 = False  # Моника согласилась выпить вторую стопку за бакс
-
+default citizen14BlockedByDay = 0
 #call ep215_dialogues6_citizens_1() # при клике на алкаша на улице
 
 
