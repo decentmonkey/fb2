@@ -209,3 +209,7 @@ define husband = Character(t_("Муж"), who_color=c_blue)
 define whore = Character(t_("Шлюха"), who_color=c_pink)
 
 define liam = Character(t_("Лиам"), who_color=c_green) #Neighbor Лиам
+
+define olaf = Character(t_("Олаф"), who_color=c_blue)
+define charlotte = Character(t_("Шарлотт"), who_color=c_red)
+define mia = Character(t_("Мия"), who_color=c_pink)

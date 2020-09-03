@@ -68,6 +68,7 @@ label ep215_dialogues3_escort_1:
     # Кристина испуганнно прикрывается руками
     saleswoman "Ой! Это что?! Начальница?!"
     imgd 19648
+    w
     fadeblack
     sound highheels_run2
     pause 1.5
@@ -87,15 +88,20 @@ label ep215_dialogues3_escort_1:
     m "А инициативу тебе лучше проявлять в том, чтобы заранее заправлять автомобиль керосином!!!" #(в англ. парафин? в общем то же слово что и в первом эпизоде)
     m "Пошел вон отсюда!"
     m "!!!"
+    music Groove2_85
     imgd 19649
     sound snd_door_knock
     w
     # Фред ехидно ей улыбается и отворачивается от нее к Бифу
     # звук стук в дверь
     # в кабинет к Бифу заходит Грейс (модель с ивента у Кэмпбелла)
-    music Groove2_85
     imgf 19645
     guest2 "Мистер Биф, можно войти? Теперь моя очередь?"
+    music stop
+    sound plastinka1b
+    img 19650 hpunch
+    m "?!?!?!"
+    music Groove2_85
     imgd 19646
     biff "Подожди еще немного, детка. Я пока занят."
     imgd 19647
@@ -105,8 +111,6 @@ label ep215_dialogues3_escort_1:
     sound snd_door_locked1
     pause 1.5
     music Groove2_85
-    imgfl 19650
-    m "?!?!?!"
     imgf 19651
     fred "Я могу идти, Мистер Биф?"
     # Биф отвечает с важным видом, ведь он биг босс
@@ -115,8 +119,8 @@ label ep215_dialogues3_escort_1:
     fred "Спасибо, что уделили время моей инициативе, Мистер Биф."
     biff "Твоя кукла вполне послушная, Фред. Она понравилась папочке."
     biff "Приводи ко мне побольше разных кукол. Аха-ха!!!"
-    sound man_steps
     imgf 19653
+    sound man_steps
     w
     # Фред профессионально улыбается и уходит
     # Моника злая смотрит ему вслед
@@ -1542,8 +1546,8 @@ label ep215_dialogues3_escort_14:
         # Линда недовольно смотрит на Монику и Олафа, потом на их руки
         # подходит к столику и ставит на него бутылку (поднос?)
         imgf 19920
-        sound snd_plates1
         w
+        sound snd_plates1
         imgd 19927
         w
         imgf 19921
@@ -1872,7 +1876,7 @@ label ep215_dialogues3_escort_14:
             imgd 19969
             olaf "Я готов принять решение, Миссис Бакфетт..."
             olaf "Сегодня... Немного позже..."
-            music Power_Bots_Loop
+            music Groove2_85
             imgd 19970
             mt "Черт!"
             $ ep215_dialogues3_escort_14menu1 = True
@@ -1890,7 +1894,7 @@ label ep215_dialogues3_escort_14:
             imgd 19969
             olaf "Я не привык рисковать такими суммами..."
             olaf "Сегодня я приму решение, Миссис Бакфетт... Но не сейчас... Немного позже..."
-            music Power_Bots_Loop
+            music Groove2_85
             imgf 19970
             mt "!!!"
             $ ep215_dialogues3_escort_14menu2 = True
@@ -1919,7 +1923,7 @@ label ep215_dialogues3_escort_14:
             imgd 19973
             olaf "Я готов принять решение, Миссис Бакфетт..."
             olaf "Сегодня... Немного позже..."
-            music Power_Bots_Loop
+            music Groove2_85
             imgf 19970
             mt "Что за идиот?!"
             mt "!!!"
@@ -1953,7 +1957,7 @@ label ep215_dialogues3_escort_14:
             imgd 19973
             olaf "Я... Я готов принять решение, Миссис Бакфетт..."
             olaf "Сегодня... Но немного позже..."
-            music Power_Bots_Loop
+            music Groove2_85
             imgf 19970
             mt "Да сколько можно?!"
             mt "!!!"
@@ -1990,7 +1994,7 @@ label ep215_dialogues3_escort_14:
     music Stealth_Groover
     imgfl 19977
     w
-    sound vjuh3
+#    sound vjuh3
     imgf 19978
     mt "Сейчас он посмотрит на мою совершенную красоту..."
     mt "И просто не сможет сказать мне 'нет'!"
@@ -2008,7 +2012,7 @@ label ep215_dialogues3_escort_14:
     olaf "Да..."
     olaf "Если Вы не против, конечно..."
     olaf "Сейчас только от Вашего согласия зависит, будет ли мое решение положительным..."
-    imgd 19981
+    img 19981 hpunch
     m "???"
     # он протягивает руку и проводит по ноге Моники
     # Моника смотрит на него с возмущением
@@ -2071,6 +2075,9 @@ label ep215_dialogues3_escort_14:
     # смотрит на ее киску
     imgd 40030
     w
+    menu:
+        "Раздвинуть ноги.":
+            pass
     sound Jump2
     imgd 40031
     w
@@ -2354,6 +2361,7 @@ label ep215_dialogues3_escort_14:
             sound man_moan3
             olaf "ААААААА!!!!"
             imgf 40098
+            w
             pass
         "Кончить на киску Моники.":
             img 40096
@@ -2373,6 +2381,7 @@ label ep215_dialogues3_escort_14:
             sound man_moan3
             olaf "ААААААА!!!!"
             imgf 40099
+            w
             pass
     $ monicaBiffInvestorDate5 = True # у Моники был секс с инвестором Олафом
     # инвестор выходит из Моники и довольный собой смотрит на ее киску, испачканную в сперме
@@ -2683,6 +2692,9 @@ label ep215_dialogues3_linda_punishment:
     m "Вы оба!"
     m "Идите сюда!"
     # Олаф шепчет Линде
+    fadeblack
+    sound highheels_short_walk
+    pause 1.5
     music Groove2_85
     imgf 40115
     olaf "Линда, милая, я прошу тебя..."
@@ -2808,10 +2820,10 @@ label ep215_dialogues3_linda_punishment:
     m "Целуй!"
     linda "..."
     olaf "Линда, делай, как говорит Мэм!"
-    w
+
     imgd 40196
     linda "!!!"
-    w
+
     imgf 40142
     w
     sound snd_kiss2
@@ -2820,7 +2832,7 @@ label ep215_dialogues3_linda_punishment:
     sound snd_kiss2
     imgf 40198
     m "Помнишь, сучка, что ты мне сегодня сказала у лифта?"
-    w
+
     sound Jump1
     imgd 40143
     # Линда смотрит на Монику с ненавистью и молчит
@@ -2886,10 +2898,10 @@ label ep215_dialogues3_linda_punishment:
     imgf 40155
     olaf "О, Мэм!"
     olaf "Вы восхитительны, Мэм!"
-    w
+
     imgd 40156
     linda "!!!"
-    w
+
     music Stealth_Groover
     imgf 40157
     m "Я знаю, Олаф, о чем вы мечтали сегодня весь вечер."
@@ -2959,11 +2971,11 @@ label ep215_dialogues3_linda_punishment:
     imgf 40171
     m "Я позволяю тебе поцеловать мою киску..."
     m "Приступай..."
-    w
+
     imgd 40172
     linda "Стерва!"
     linda "!!!"
-    w
+
     imgf 40199
     w
     imgd 40173
@@ -3045,6 +3057,7 @@ label ep215_dialogues3_linda_punishment:
             sound man_moan3
             olaf "ААААААА!!!!"
             imgf 40189
+            w
             pass
         "Кончить на киску Линды.":
             img 40186
@@ -3064,6 +3077,7 @@ label ep215_dialogues3_linda_punishment:
             sound man_moan3
             olaf "ААААААА!!!!"
             imgf 40190
+            w
             pass
     # Олаф отстраняется от Линды, а она отстраняется от Моники
     # Моника злорадно на нее смотрит
@@ -3245,7 +3259,7 @@ label ep215_dialogues3_escort_21:
         imgd 13906
         biff "Правда, папочка удивлен, как ты это сделала...."
         biff "Как я понял, ты с ним не трахалась..."
-        imgd 13966
+        imgd 13907
         m "Биф!"
         imgf 13905
         biff "Как-то это странно..."
