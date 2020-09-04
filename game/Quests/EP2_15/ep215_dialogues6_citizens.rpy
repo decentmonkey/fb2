@@ -535,7 +535,9 @@ label ep215_dialogues6_citizens_1b:
 #    music Groove2_85
     music Turbo_Tornado
     citizen14 "У нас ничего не было!"
-    citizen14 "Я хотел вознаградить... Ик! Как договаривались..."
+    citizen14 "Надо сначала здоровье поправить!"
+    citizen14 "У тебя выпивка в доме есть?"
+    citizen14 "Хорошо же сидели! Я хотел тебе еще на балалайке сыграть..."
     imgd 32227
     w
     sound Jump1
@@ -544,11 +546,12 @@ label ep215_dialogues6_citizens_1b:
     sound Jump1
     imgd 32227
     w
-
     # алкаш болтает языком верх-вниз намекая на куни
     imgf 32229
     sound running
     m "АХ ТЫ СВОЛОЧЬ!!!"
+    m "У МЕНЯ НЕТ БАЛА... БАЛАЛАЛА..."
+    m "БАЛАЛАЙКИ!!!!"
     sound snd_kick_fred1
     img 32230 hpunch
     m "А НУ ПРОВАЛИВАЙ!!!"
