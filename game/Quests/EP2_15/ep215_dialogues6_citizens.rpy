@@ -304,8 +304,9 @@ label ep215_dialogues6_citizens_1:
             music Pyro_Flow
             imgf 32191
             m "Забирай свое пойло и уходи!"
-            citizen14 "Куда я пойду?!"
-            citizen14 "Я уже и по второй нам налил..."
+            citizen14 "Куда я пойду?! Мы же только сели!!"
+            citizen14 "Я думал, что на балалайке тебе сыграю..."
+            citizen14 "И уже по второй нам налил..."
             music Power_Bots_Loop
             img 32192 hpunch
             m "ВОН!!!"
