@@ -490,11 +490,11 @@ label pub_dance_battle1_Molly3_loop:
         $ pose = "Molly3"
         if result == "up":
             scene black
-            image videov_StripBattle1_Molly3A = Movie(play="video/v_StripBattle1_Molly3B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly3B_end.jpg")
+            image videov_StripBattle1_Molly3A = Movie(play="video/v_StripBattle1_Molly3A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly3A_end.jpg")
             show videov_StripBattle1_Molly3A
             pause 1.8
             hide videov_StripBattle1_Molly3A
-            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly3B_end.jpg")
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly3A_end.jpg")
             wclean
             $ pub_dance_dialogues_set_excitement_molly(10)
             call pub_dance_battle_dialogues_applause("std")
