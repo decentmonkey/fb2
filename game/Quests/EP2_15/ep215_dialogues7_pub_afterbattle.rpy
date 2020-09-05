@@ -232,8 +232,8 @@ label customer2_afterbattle:
     music Groove2_85
     imgd 32241
     customer2 "А... Ну так сразу бы и сказала...."
-    customer2 "А что насчет Гамильтона?! Ик!"
-    customer2 "За то, чтобы посмотреть на них?"
+#    customer2 "А что насчет Гамильтона?! Ик!"
+    customer2 "А если просто посмотреть на них?"
     $ menu_corruption = [0, pubQueenCustomer2CorruptionRequired]
     menu:
         "Мое решение неизменно!":
