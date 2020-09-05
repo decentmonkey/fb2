@@ -731,6 +731,7 @@ label pub_dance_battle1_Molly5_loop:
             sound3 men_scream5
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers1 "ВАУ!!! Еще одна битва сучек!"
             $ stage_achievements_list.append("v_StripBattle1_Molly5A_end")
             jump pub_dance_battle1_Molly5_loop
 
@@ -747,6 +748,7 @@ label pub_dance_battle1_Molly5_loop:
             sound3 men_scream4
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers2 "Да, рыжая королева! Покрути жопой! Вот так! ДАААА!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly5B_end")
             jump pub_dance_battle1_Molly5_loop
 
@@ -763,6 +765,8 @@ label pub_dance_battle1_Molly5_loop:
             sound3 men_scream3
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers3 "Охренительно, детка! Ты настоящая королева!" # Molly
+            customers2 "ДА! Покажи нам свою королевскую попку!!!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly5C_end")
             jump pub_dance_battle1_Molly5_loop
     hide screen poledance_battle
@@ -814,6 +818,7 @@ label pub_dance_battle1_Monica5_loop:
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
             $ stage_achievements_list.append("v_StripBattle1_Monica5A_end")
+            wclean
             jump pub_dance_battle1_Monica5_loop
 
         if result == "side":
@@ -829,6 +834,7 @@ label pub_dance_battle1_Monica5_loop:
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
             $ stage_achievements_list.append("v_StripBattle1_Monica5B_end")
+            wclean
             jump pub_dance_battle1_Monica5_loop
 
         if result == "down":
@@ -843,6 +849,7 @@ label pub_dance_battle1_Monica5_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers4 "Давай, раздевайся, крошка!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica5C_end")
             jump pub_dance_battle1_Monica5_loop
     hide screen poledance_battle
@@ -893,6 +900,7 @@ label pub_dance_battle1_Monica6_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers1 "ВАААУ!"  # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica6A_end")
             jump pub_dance_battle1_Monica6_loop
 
@@ -908,6 +916,7 @@ label pub_dance_battle1_Monica6_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "Давай, покрути своей задницей!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica6B_end")
             jump pub_dance_battle1_Monica6_loop
 
@@ -923,6 +932,7 @@ label pub_dance_battle1_Monica6_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "О, да! Вот это сиськи!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica6C_end")
             jump pub_dance_battle1_Monica6_loop
     hide screen poledance_battle
@@ -974,6 +984,7 @@ label pub_dance_battle1_Molly6_loop:
 #            sound3 men_scream5
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers4 "Королева Молли! Покажи класс!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly6A_end")
             jump pub_dance_battle1_Molly6_loop
 
@@ -990,6 +1001,7 @@ label pub_dance_battle1_Molly6_loop:
 #            sound3 men_scream4
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            wclean
             $ stage_achievements_list.append("v_StripBattle1_Molly6B_end")
             jump pub_dance_battle1_Molly6_loop
 
@@ -1006,6 +1018,7 @@ label pub_dance_battle1_Molly6_loop:
 #            sound3 men_scream3
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers3 "ДААА! Настоящая королева Shiny Hole!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly6C_end")
             jump pub_dance_battle1_Molly6_loop
     hide screen poledance_battle
@@ -1057,6 +1070,7 @@ label pub_dance_battle1_Monica7_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "Вот она, королева! Охренительно, детка!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica7A_end")
             jump pub_dance_battle1_Monica7_loop
 
@@ -1072,6 +1086,7 @@ label pub_dance_battle1_Monica7_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers2 "ДААА! Точно! Она королева!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica7B_end")
             jump pub_dance_battle1_Monica7_loop
 
@@ -1087,6 +1102,7 @@ label pub_dance_battle1_Monica7_loop:
 #            $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers4 "Пошли в приват, детка!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica7C_end")
             jump pub_dance_battle1_Monica7_loop
     hide screen poledance_battle
@@ -1138,6 +1154,7 @@ label pub_dance_battle1_Molly7_loop:
 #            sound3 men_scream5
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers1 "Вау, детка! У меня уже в штанах дымится! Иди сюда!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly7A_end")
             jump pub_dance_battle1_Molly7_loop
 
@@ -1154,6 +1171,7 @@ label pub_dance_battle1_Molly7_loop:
 #            sound3 men_scream4
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers3 "Покажи нам свою киску, крошка!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly7B_end")
             jump pub_dance_battle1_Molly7_loop
 
@@ -1223,6 +1241,7 @@ label pub_dance_battle1_Molly8_loop:
             sound3 men_scream2
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "ДААААААА!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly8A_end")
             jump pub_dance_battle1_Molly8_loop
 
@@ -1257,6 +1276,7 @@ label pub_dance_battle1_Molly8_loop:
             sound3 men_scream2
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "Королева Молли!" # Molly
             $ stage_achievements_list.append("v_StripBattle1_Molly8C_end")
             jump pub_dance_battle1_Molly8_loop
     hide screen poledance_battle
@@ -1298,17 +1318,20 @@ label pub_dance_battle1_Monica8_loop:
         $ pose = "Monica8"
         if result == "up":
             scene black
-            image videov_StripBattle1_Monica8A = Movie(play="video/v_StripBattle1_Monica8A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8A_end.jpg")
+            image videov_StripBattle1_Monica8A = Movie(play="video/v_StripBattle1_Monica8B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8B_end.jpg")
             show videov_StripBattle1_Monica8A
             pause 1.8
             hide videov_StripBattle1_Monica8A
-            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8A_end.jpg")
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8B_end.jpg")
             wclean
             $ pub_dance_dialogues_set_excitement_monica(20)
             $ pub_dance_dialogues_set_excitement_molly(-20)
             sound3 men_scream5
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers4 "Это же [monica_pub_name]!!!" # Monica
+            customers4 "Она работает здесь официанткой!"
+            customers1 "ОХРЕНЕЕЕТЬ!!!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica8A_end")
             jump pub_dance_battle1_Monica8_loop
 
@@ -1325,6 +1348,8 @@ label pub_dance_battle1_Monica8_loop:
             sound3 men_scream4
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers1 "Видели? Вы это видели?!"
+            customers3 "[monica_pub_name] КОРОЛЕВА! ДААА!!!" # Monica
             $ stage_achievements_list.append("v_StripBattle1_Monica8B_end")
             jump pub_dance_battle1_Monica8_loop
 
@@ -1341,12 +1366,14 @@ label pub_dance_battle1_Monica8_loop:
             $ pub_dance_dialogues_set_excitement_molly(-10)
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers2 "ДААА! КОРОЛЕВА SHINY HOLE!" # Monica
+            customers3 "[monica_pub_name] новая королева Shiny Hole!!!"
             $ stage_achievements_list.append("v_StripBattle1_Monica8C_end")
             jump pub_dance_battle1_Monica8_loop
     hide screen poledance_battle
     hide screen poledance_camera_icon
     hide screen love_bar_screen_battle
-    hide screen poledance_shoot
+#    hide screen poledance_shoot
     hide screen poledance_coins
     $ pub_dance_dialogues_fix_excitement()
     return
@@ -1392,6 +1419,7 @@ label pub_dance_battle1_Monica9_loop:
             sound3 men_scream5
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "Посмотрите что эта крошка творит на сцене!"
             $ stage_achievements_list.append("v_StripBattle1_Monica9A_end")
             jump pub_dance_battle1_Monica9_loop
 
@@ -1408,6 +1436,7 @@ label pub_dance_battle1_Monica9_loop:
             sound3 men_scream4
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers3 "Эта официантка горячая штучка!"
             $ stage_achievements_list.append("v_StripBattle1_Monica9B_end")
             jump pub_dance_battle1_Monica9_loop
 
@@ -1424,6 +1453,9 @@ label pub_dance_battle1_Monica9_loop:
             sound3 men_scream3
             call pub_dance_battle_dialogues_applause("std")
             call pub_dance_battle_dialogues_react()
+            customers5 "Я трахну тебя в привате, крошка!"
+            customers1 "Вставай в очередь!"
+            customers2 "Держи на чай, детка! Ты заслужила это!"
             $ stage_achievements_list.append("v_StripBattle1_Monica9C_end")
             jump pub_dance_battle1_Monica9_loop
     hide screen poledance_battle

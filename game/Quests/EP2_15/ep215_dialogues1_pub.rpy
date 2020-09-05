@@ -1531,13 +1531,14 @@ label ep215_dialogues1_pub_10:
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все!" if game.extra == True:
 #            music musicList[musicOrder[6]]["loop"]
             hide screen love_bar_screen_battle
+            hide screen poledance_shoot
             call pub_dance_battle1_Monica9()
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все! (Extra version) (disabled)" if game.extra == False:
             pass
         "Завершить танец.":
             pass
 
-
+    hide screen poledance_shoot
     hide screen love_bar_screen_battle
     fadeblack 2.0
     music Road_Trip
