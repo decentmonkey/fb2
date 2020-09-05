@@ -637,45 +637,802 @@ label pub_dance_battle1_Molly4_loop:
 # BATTLE 2
 
 label pub_dance_battle1_Molly5:
-    music musicList[musicOrder[0]]["loop"]
+    $ stage_Monica_Excitement_Current = 0
+    $ stage_Monica_Excitement_Last = 0
+    $ stage_Molly_Excitement_Current = 0
+    $ stage_Molly_Excitement_Last = 0
+    $ stage_achievements_list = []
+    python:
+        excitementTableUp = [
+            [7,5,5], #1 - бар от 0 до 27 - 4 бакса чаевых
+            [5,4,6], #2
+            [5,5,7], #3 6 + 7 + 7 = до 20, 5 +4 +5 = от 14
+            [8,7,11], #4 - бар от 27 до 54 - 7 баксов чаевых
+            [12,8,9], #5
+            [7,8,12], #6 от 18 до 30
+
+            [10,9,15], #7 - бар от 54 до 69 - 11 баксов чаевых
+            [15,10,15], #8 - бар от 69 до 84 - 20 баксов
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            [15,10,12], #9 - бар от 84 до 99 - 35 баксов (максимум 99 баксов, 30% - 29.7 баксов)
+            # от 29 до 45
+            # итого: от 61 до
+
+            # Общее:
+            # stage 1 - до 20
+            # stage 2 - до 35 + 20 = 55
+            # stage 3 - 55 + 45 = 100
+
+            # максимум давать 20 баксов, т.е, 66
+            #
+        ]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Molly5_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[0]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Molly5"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Molly5A = Movie(play="video/v_StripBattle1_Molly5A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly5A_end.jpg")
+            show videov_StripBattle1_Molly5A
+            pause 1.8
+            hide videov_StripBattle1_Molly5A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly5A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+            sound3 men_scream5
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly5A_end")
+            jump pub_dance_battle1_Molly5_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Molly5B = Movie(play="video/v_StripBattle1_Molly5B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly5B_end.jpg")
+            show videov_StripBattle1_Molly5B
+            pause 1.8
+            hide videov_StripBattle1_Molly5B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly5B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+            sound3 men_scream4
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly5B_end")
+            jump pub_dance_battle1_Molly5_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Molly5C = Movie(play="video/v_StripBattle1_Molly5C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly5C_end.jpg")
+            show videov_StripBattle1_Molly5C
+            pause 1.8
+            hide videov_StripBattle1_Molly5C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly5C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-10)
+            sound3 men_scream3
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly5C_end")
+            jump pub_dance_battle1_Molly5_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 label pub_dance_battle1_Monica5:
-    music musicList[musicOrder[1]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Monica5_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[1]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Monica5"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Monica5A = Movie(play="video/v_StripBattle1_Monica5A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica5A_end.jpg")
+            show videov_StripBattle1_Monica5A
+            pause 1.8
+            hide videov_StripBattle1_Monica5A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica5A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica5A_end")
+            jump pub_dance_battle1_Monica5_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Monica5B = Movie(play="video/v_StripBattle1_Monica5B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica5B_end.jpg")
+            show videov_StripBattle1_Monica5B
+            pause 1.8
+            hide videov_StripBattle1_Monica5B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica5B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(5)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica5B_end")
+            jump pub_dance_battle1_Monica5_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Monica5C = Movie(play="video/v_StripBattle1_Monica5C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica5C_end.jpg")
+            show videov_StripBattle1_Monica5C
+            pause 1.8
+            hide videov_StripBattle1_Monica5C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica5C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(5)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica5C_end")
+            jump pub_dance_battle1_Monica5_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 label pub_dance_battle1_Monica6:
-    music musicList[musicOrder[1]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Monica6_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[1]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Monica6"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Monica6A = Movie(play="video/v_StripBattle1_Monica6A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica6A_end.jpg")
+            show videov_StripBattle1_Monica6A
+            pause 1.8
+            hide videov_StripBattle1_Monica6A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica6A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica6A_end")
+            jump pub_dance_battle1_Monica6_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Monica6B = Movie(play="video/v_StripBattle1_Monica6B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica6B_end.jpg")
+            show videov_StripBattle1_Monica6B
+            pause 1.8
+            hide videov_StripBattle1_Monica6B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica6B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica6B_end")
+            jump pub_dance_battle1_Monica6_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Monica6C = Movie(play="video/v_StripBattle1_Monica6C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica6C_end.jpg")
+            show videov_StripBattle1_Monica6C
+            pause 1.8
+            hide videov_StripBattle1_Monica6C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica6C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica6C_end")
+            jump pub_dance_battle1_Monica6_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 label pub_dance_battle1_Molly6:
-    music musicList[musicOrder[2]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Molly6_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[2]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Molly6"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Molly6A = Movie(play="video/v_StripBattle1_Molly6A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly6A_end.jpg")
+            show videov_StripBattle1_Molly6A
+            pause 1.8
+            hide videov_StripBattle1_Molly6A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly6A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream5
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly6A_end")
+            jump pub_dance_battle1_Molly6_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Molly6B = Movie(play="video/v_StripBattle1_Molly6B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly6B_end.jpg")
+            show videov_StripBattle1_Molly6B
+            pause 1.8
+            hide videov_StripBattle1_Molly6B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly6B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream4
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly6B_end")
+            jump pub_dance_battle1_Molly6_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Molly6C = Movie(play="video/v_StripBattle1_Molly6C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly6C_end.jpg")
+            show videov_StripBattle1_Molly6C
+            pause 1.8
+            hide videov_StripBattle1_Molly6C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly6C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+#            $ pub_dance_dialogues_set_excitement_monica(-10)
+#            sound3 men_scream3
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly6C_end")
+            jump pub_dance_battle1_Molly6_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 
 label pub_dance_battle1_Monica7:
-    music musicList[musicOrder[3]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Monica7_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[3]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Monica7"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Monica7A = Movie(play="video/v_StripBattle1_Monica7A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica7A_end.jpg")
+            show videov_StripBattle1_Monica7A
+            pause 1.8
+            hide videov_StripBattle1_Monica7A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica7A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(20)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica7A_end")
+            jump pub_dance_battle1_Monica7_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Monica7B = Movie(play="video/v_StripBattle1_Monica7B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica7B_end.jpg")
+            show videov_StripBattle1_Monica7B
+            pause 1.8
+            hide videov_StripBattle1_Monica7B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica7B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(20)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica7B_end")
+            jump pub_dance_battle1_Monica7_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Monica7C = Movie(play="video/v_StripBattle1_Monica7C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica7C_end.jpg")
+            show videov_StripBattle1_Monica7C
+            pause 1.8
+            hide videov_StripBattle1_Monica7C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica7C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(20)
+#            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica7C_end")
+            jump pub_dance_battle1_Monica7_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 label pub_dance_battle1_Molly7:
-    music musicList[musicOrder[4]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Molly7_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[4]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Molly7"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Molly7A = Movie(play="video/v_StripBattle1_Molly7A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly7A_end.jpg")
+            show videov_StripBattle1_Molly7A
+            pause 1.8
+            hide videov_StripBattle1_Molly7A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly7A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(7)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream5
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly7A_end")
+            jump pub_dance_battle1_Molly7_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Molly7B = Movie(play="video/v_StripBattle1_Molly7B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly7B_end.jpg")
+            show videov_StripBattle1_Molly7B
+            pause 1.8
+            hide videov_StripBattle1_Molly7B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly7B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(7)
+#            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream4
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly7B_end")
+            jump pub_dance_battle1_Molly7_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Molly7C = Movie(play="video/v_StripBattle1_Molly7C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly7C_end.jpg")
+            show videov_StripBattle1_Molly7C
+            pause 1.8
+            hide videov_StripBattle1_Molly7C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly7C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(6)
+#            $ pub_dance_dialogues_set_excitement_monica(-10)
+#            sound3 men_scream3
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly7C_end")
+            jump pub_dance_battle1_Molly7_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
 
     return
 
 label pub_dance_battle1_Molly8:
-    music musicList[musicOrder[5]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Molly8_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[5]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Molly8"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Molly8A = Movie(play="video/v_StripBattle1_Molly8A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly8A_end.jpg")
+            show videov_StripBattle1_Molly8A
+            pause 1.8
+            hide videov_StripBattle1_Molly8A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly8A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream5
+            sound3 men_scream2
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly8A_end")
+            jump pub_dance_battle1_Molly8_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Molly8B = Movie(play="video/v_StripBattle1_Molly8B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly8B_end.jpg")
+            show videov_StripBattle1_Molly8B
+            pause 1.8
+            hide videov_StripBattle1_Molly8B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly8B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+            $ pub_dance_dialogues_set_excitement_monica(-15)
+#            sound3 men_scream4
+            sound3 men_scream2
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly8B_end")
+            jump pub_dance_battle1_Molly8_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Molly8C = Movie(play="video/v_StripBattle1_Molly8C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Molly8C_end.jpg")
+            show videov_StripBattle1_Molly8C
+            pause 1.8
+            hide videov_StripBattle1_Molly8C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Molly8C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_molly(10)
+            $ pub_dance_dialogues_set_excitement_monica(-10)
+#            sound3 men_scream3
+            sound3 men_scream2
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Molly8C_end")
+            jump pub_dance_battle1_Molly8_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 
 label pub_dance_battle1_Monica8:
-    music musicList[musicOrder[6]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Monica8_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[6]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Monica8"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Monica8A = Movie(play="video/v_StripBattle1_Monica8A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8A_end.jpg")
+            show videov_StripBattle1_Monica8A
+            pause 1.8
+            hide videov_StripBattle1_Monica8A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(20)
+            $ pub_dance_dialogues_set_excitement_molly(-20)
+            sound3 men_scream5
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica8A_end")
+            jump pub_dance_battle1_Monica8_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Monica8B = Movie(play="video/v_StripBattle1_Monica8B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8B_end.jpg")
+            show videov_StripBattle1_Monica8B
+            pause 1.8
+            hide videov_StripBattle1_Monica8B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(20)
+            $ pub_dance_dialogues_set_excitement_molly(-20)
+            sound3 men_scream4
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica8B_end")
+            jump pub_dance_battle1_Monica8_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Monica8C = Movie(play="video/v_StripBattle1_Monica8C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8C_end.jpg")
+            show videov_StripBattle1_Monica8C
+            pause 1.8
+            hide videov_StripBattle1_Monica8C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8C_end.jpg")
+            wclean
+            sound3 men_scream3
+            $ pub_dance_dialogues_set_excitement_monica(10)
+            $ pub_dance_dialogues_set_excitement_molly(-10)
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica8C_end")
+            jump pub_dance_battle1_Monica8_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
 
 label pub_dance_battle1_Monica9:
-    music musicList[musicOrder[6]]["loop"]
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
+    $ arrowStop = False
+    $ loopCnt = 0
+
+label pub_dance_battle1_Monica9_loop:
+    if arrowUp == True or arrowSide == True or arrowDown == True:
+        $ loopCnt += 1
+        $ notif_clean()
+        show screen poledance_battle()
+        show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+        $ result = ui.interact()
+        hide screen poledance_battle
+        hide screen poledance_camera_icon
+        hide screen love_bar_screen_battle
+        hide screen poledance_shoot
+        hide screen poledance_coins
+        if loopCnt == 1: # первый цикл
+            fadeblack 0.5
+            music musicList[musicOrder[6]]["loop"]
+            pause 0.5
+#        else:
+#            img black_screen
+#            with Dissolve(0.2)
+
+        $ pose = "Monica9"
+        if result == "up":
+            scene black
+            image videov_StripBattle1_Monica9A = Movie(play="video/v_StripBattle1_Monica9A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica9A_end.jpg")
+            show videov_StripBattle1_Monica9A
+            pause 1.8
+            hide videov_StripBattle1_Monica9A
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica9A_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+            $ pub_dance_dialogues_set_excitement_molly(-10)
+            sound3 men_scream5
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica9A_end")
+            jump pub_dance_battle1_Monica9_loop
+
+        if result == "side":
+            scene black
+            image videov_StripBattle1_Monica9B = Movie(play="video/v_StripBattle1_Monica9B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica9B_end.jpg")
+            show videov_StripBattle1_Monica9B
+            pause 1.8
+            hide videov_StripBattle1_Monica9B
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica9B_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+            $ pub_dance_dialogues_set_excitement_molly(-10)
+            sound3 men_scream4
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica9B_end")
+            jump pub_dance_battle1_Monica9_loop
+
+        if result == "down":
+            scene black
+            image videov_StripBattle1_Monica9C = Movie(play="video/v_StripBattle1_Monica9C.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica9C_end.jpg")
+            show videov_StripBattle1_Monica9C
+            pause 1.8
+            hide videov_StripBattle1_Monica9C
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica9C_end.jpg")
+            wclean
+            $ pub_dance_dialogues_set_excitement_monica(10)
+            $ pub_dance_dialogues_set_excitement_molly(-10)
+            sound3 men_scream3
+            call pub_dance_battle_dialogues_applause("std")
+            call pub_dance_battle_dialogues_react()
+            $ stage_achievements_list.append("v_StripBattle1_Monica9C_end")
+            jump pub_dance_battle1_Monica9_loop
+    hide screen poledance_battle
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen_battle
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    $ pub_dance_dialogues_fix_excitement()
     return
-
-
 
 
 

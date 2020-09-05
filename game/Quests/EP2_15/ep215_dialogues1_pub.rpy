@@ -1320,10 +1320,12 @@ label ep215_dialogues1_pub_10:
     call pub_dance_battle1_Molly5()
 
     # потом Моника выходит, загораживая ее
-    imgd 31880
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
+    imgf 31880
     menu:
         "Оттолкнуть Молли.":
             pass
+    hide screen love_bar_screen_battle
     imgd 31881
     m "Все? Покривлялась, сучка?!"
 
@@ -1345,10 +1347,12 @@ label ep215_dialogues1_pub_10:
 
     music musicList[musicOrder[1]]["intro"]
     # по крикам толпы Моника проигрывает, шкала бара у Молли выше
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31885
     mt "Не понимаю, эта сучка им что, нравится больше чем Я?!"
 #    w
     ## возможно уместны какие-нибудь мысли Моники о том, почему она проигрывает ##
+    hide screen love_bar_screen_battle
     imgd 31886
     mt "Нет, я этого не допущу!"
 #    w
@@ -1390,13 +1394,14 @@ label ep215_dialogues1_pub_10:
     # Молли тоже снимает жилет и танцует три движения
 #    music musicList[musicOrder[2]]["loop"]
     call pub_dance_battle1_Molly6()
-    img black_screen
-    w
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
+
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31895
     mt "Ненавижу эту сучку!"
     mt "!!!"
+    hide screen love_bar_screen_battle
     ## может какие-нибудь мысли Молли ##
     imgd 31896
     molly "Ну что, шлюха, теперь ты все поняла?"
@@ -1431,8 +1436,11 @@ label ep215_dialogues1_pub_10:
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
     # Молли злится
+
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31903
     w
+    hide screen love_bar_screen_battle
     fadeblack 2.0
     music musicList[musicOrder[4]]["intro"]
     imgd 31904
@@ -1451,6 +1459,7 @@ label ep215_dialogues1_pub_10:
 #    music musicList[musicOrder[4]]["loop"]
     call pub_dance_battle1_Molly7()
 
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31908
     m "Я лучше тебя, сучка! Ты - никто против меня!"
     imgd 31909
@@ -1461,6 +1470,7 @@ label ep215_dialogues1_pub_10:
     molly "Ты снова опозорилась, неудачница!!!"
     molly "Грязная воровка!!!"
 
+    hide screen love_bar_screen_battle
     fadeblack 2.0
     music musicList[musicOrder[5]]["intro"]
     # Молли со злостью срывает с себя маску и начинает грязно позировать 3 движения
@@ -1474,12 +1484,14 @@ label ep215_dialogues1_pub_10:
     call pub_dance_battle1_Molly8()
 
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31913
     w
     imgd 31914
     mt "Мерзкая подлая сука!"
     mt "В этот раз я не позволю тебе выиграть!"
     mt "!!!"
+    hide screen love_bar_screen_battle
     $ menu_corruption = [pubMollyBattle2TakeOffMaskCorruptionRequired]
     menu:
         "Снять маску!":
@@ -1514,9 +1526,11 @@ label ep215_dialogues1_pub_10:
 #    music musicList[musicOrder[6]]["loop"]
     call pub_dance_battle1_Monica8()
 
+    show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     menu:
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все!" if game.extra == True:
 #            music musicList[musicOrder[6]]["loop"]
+            hide screen love_bar_screen_battle
             call pub_dance_battle1_Monica9()
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все! (Extra version) (disabled)" if game.extra == False:
             pass
@@ -1524,6 +1538,7 @@ label ep215_dialogues1_pub_10:
             pass
 
 
+    hide screen love_bar_screen_battle
     fadeblack 2.0
     music Road_Trip
     imgd 31918
@@ -1756,3 +1771,43 @@ label ep215_dialogues1_pub_14b:
     # Monica 50
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
     # Моника смотрит на нее с отвращением
+
+
+
+
+    # Молли в одежде, Моника в одежде
+    # Молли начинает танцевать первая, делает три движения
+    # Molly +30
+# потом Моника выходит, загораживая ее
+# Моника делает три движения
+# Monica + 20
+# по крикам толпы Моника проигрывает, шкала бара у Молли выше
+# Моника не отходит, а снимает жилет и делает еще три движения
+# Monica + 30 (50)
+# Молли злится и отталкивает Монику
+# Молли тоже снимает жилет и танцует три движения
+# Molly +30 (60)
+# толпа кричит, что Молли королева, шкала бара у Молли выше
+# Моника отталкивает Молли, начинает танцевать и снимает трусики
+    # Monica +50 (100)
+    # толпа орет, что Моника королева
+    # Моника торжествующе смотрит на Молли
+    # Молли злится
+    # Молли тоже раздевается, танцует, но выигрыша нет, шкала бара у Моники становится выше
+    # Molly + 20 (80)
+        # Молли зло смотрит на Монику, ее бомбит, Моника спокойна
+    # 4-й раунд
+    # Молли со злостью срывает с себя маску и начинает грязно позировать 3 движения
+    # Molly +30 (100)
+    # Monica - 40 (60)
+    # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
+        # Моника выходит вперед, загораживая Молли и снимает с себя маску
+    # Monica +50 (100)
+    # Molly - 50 (50)
+    # Моника начинает тоже грязно позировать 3 движения потом встает
+        # толпа ревет, что Моника королева, шкала бара у Моники на максимуме
+    # Monica +50 (100)
+    # Molly - 30 (20)
+    # безоговорочная победа Моники, триумф
+    # она стоит посреди сцены, обнаженная и без маски
+    # высокомерно смотрит на злую Молли
