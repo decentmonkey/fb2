@@ -3136,7 +3136,7 @@ label ep215_dialogues3_linda_punishment:
     mt "!!!"
     # Моника смотрит на Олафа
     fadeblack 2.0
-    music Loved_Up
+    music2 Loved_Up
     imgfl 40170
     w
     imgf 40171
@@ -3153,6 +3153,37 @@ label ep215_dialogues3_linda_punishment:
     w
     imgf 40174
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Licking1_1 = Movie(play="video/v_Visitor2_Monica_Investor2_Licking1_1.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Licking1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Licking1_2 = Movie(play="video/v_Visitor2_Monica_Investor2_Licking1_2.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Licking1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound lick3
     imgd 40175
     w
@@ -3174,6 +3205,37 @@ label ep215_dialogues3_linda_punishment:
     sound lick3
     imgd 40175
     w
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Licking1_3 = Movie(play="video/v_Visitor2_Monica_Investor2_Licking1_3.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Licking1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Licking1_4 = Movie(play="video/v_Visitor2_Monica_Investor2_Licking1_4.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Licking1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 40176
     m "А вам, Олаф, я разрешаю воспользоваться телом этой проститутки."
     olaf "Мэм..."
@@ -3181,7 +3243,7 @@ label ep215_dialogues3_linda_punishment:
     # Олаф пристраивается сзади Линды и входит в нее
     # Моника говорит Линде
     fadeblack 1.5
-    music Loved_up2
+    music2 Loved_up2
     img 40177 hpunch
     sound chpok3
     w
@@ -3255,6 +3317,7 @@ label ep215_dialogues3_linda_punishment:
     # Олаф отстраняется от Линды, а она отстраняется от Моники
     # Моника злорадно на нее смотрит
     # Линда шипит ей, пока Олаф не слышит
+    music2 stop
     fadeblack 2.0
     music Stealth_Groover
     imgfl 40191
