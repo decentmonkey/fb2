@@ -3,6 +3,7 @@ default ep215_quests_escort_repeat1_day = 0
 default ep215_quests_escort_initialized_day = 0
 default ep215_quests_escort_completed_day = 0
 default ep215_quests_linda_restaurant_dialogue_planned = False
+default ep215_quests_linda_restaurant_dialogue_day = 0
 
 label ep215_quests_esort_change_name:
     call ep215_dialogues3_escort_23_change_name()
@@ -84,6 +85,8 @@ label ep215_quests_escort3_dating: # свидание
             call ep215_dialogues3_linda_punishment()
 
         call ep215_dialogues3_escort_15() # после окончания встречи с Олафом ресепшн
+        if ep212_escort_monica_fired == True:
+            $ ep212_escort_monica_fired = False
 
     call ep215_dialogues3_escort_21() # после встречи с Олафом, в тот же вечер
 
@@ -104,6 +107,8 @@ label ep215_quests_escort3_dating: # свидание
                     else:
                         $ autorun_to_object("ep215_dialogues3_escort_16", scene="street_monica_office")
     $ ep215_quests_escort_completed_day = day
+    $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_24_block", scene="street_monica_office", label="evening_time_temp")
+    $ monicaEscortLastDay = day
     call change_scene("street_monica_office", "Fade_long")
     return False
 

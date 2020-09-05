@@ -212,7 +212,7 @@ label ep215_dialogues3_escort_1:
     biff "Возможно, папочке стоит пригласить кого-нибудь из ВИП-эскорта..."
     biff "Чтобы этой кукле объяснили, где у богача искать член!"
     # Если Моника работает в эскорте
-    if monicaHotelAdminAgreement3 == True:
+    if monicaHotelAdminAgreement3 == True and ep212_escort_monica_fired == False:
         #
         $ notif(_("Моника работает в ВИП-эскорте."))
         #
@@ -2625,12 +2625,14 @@ label ep215_dialogues3_escort_14b:
         mt "Дьявол, получается я заработала всего $ 50! За все что мне пришлось терпеть здесь!"
         mt "Моника, ты же самая богатая женщина этого города!"
         mt "Ты умеешь зарабатывать сотни миллионов!.."
+        with hpunch
         mt "ТОГДА КАКОГО ХРЕНА ВСЕГО $50!!!"
         # затемнение
 
         # смена кадра
         # Олаф дает ей деньги
         # Моника злая
+        $ add_money(500.0)
         imgf 40021
         m "Да, кстати, Олаф!"
         m "У меня подозрения насчет тебя и сотрудницы моего отеля!"
@@ -2650,7 +2652,9 @@ label ep215_dialogues3_escort_14b:
         m "Олаф, вам все понятно?!"
         imgd 40026
         olaf "Да, Миссис Бакфетт, конечно!"
-    $ add_money(500.0)
+    else:
+        $ add_money(500.0)
+
     imgd 40025
     m "Все, Олаф, вы свободны!"
     imgf 40027
@@ -3145,8 +3149,10 @@ label ep215_dialogues3_linda_punishment:
 # ресепшн
 label ep215_dialogues3_escort_15:
     # Моника идет на ресепшн, администратор за стойкой, как обычно
-    fadeblack
+    fadeblack 1.5
     sound highheels_short_walk
+    pause 1.0
+    sound snd_lift
     pause 2.0
     music Groove2_85
     if monicaHotelAdminAgreement3 == True:
@@ -3164,6 +3170,7 @@ label ep215_dialogues3_escort_15:
         m "Да!"
         # протягивает ей деньги
         # администратор забирает деньги и говорит
+        $ add_money(-450.0)
         imgf 19753
         reception "В следующий раз, [monica_hotel_name], даже не пытайся незаметно протащить клиента в отель!"
         reception "Понятно тебе?!"
@@ -3317,6 +3324,9 @@ label ep215_dialogues3_escort_21:
         imgd 15864
         m "Биф, перестань меня так называть!"
     else:
+        biff "Видимо кукла дала хорошенько трахнуть себя."
+        biff "В сдедующий раз кукла запишет все на видео, чтобы папочка мог дать советы."
+        biff "Как лучше ублажать инвесторов в мой журнал. Ха-ха-ха!"
         imgd 15864
     m "!!!"
     imgf 19665
@@ -3499,3 +3509,7 @@ label ep215_dialogues3_escort_23_change_name:
 label ep215_dialogues3_escort_23_change_name_b:
     mt "Сучка!"
     return
+
+label ep215_dialogues3_escort_24_block:
+    mt "Мне нечего там делать сегодня!"
+    return False

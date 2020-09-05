@@ -156,7 +156,6 @@ screen show_image_screen_image_overlay(image_name, canvas_offsets, overlayName):
 
 screen show_image_screen(image_name):
     layer "master"
-    $ print "here000"
     if assetsStorageDirectory == False:
         $ assetsStorageDirectory = renpy.config.savedir.replace("/saves", "/assets")
     if image_name.find(assetsStorageDirectory) != -1:
