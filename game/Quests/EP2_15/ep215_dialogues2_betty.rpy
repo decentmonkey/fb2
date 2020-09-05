@@ -586,7 +586,9 @@ label ep215_dialogues2_betty_6:
     imgd 19304
     betty "Почему я должна хотеть этого?!"
     # а сама уже облизывает его
-    music Loved_Up
+    music stop
+    pause 0.5
+    music2 Loved_Up
     imgf 19305
     betty "Ммммм... Мне совершенно это не интересно!"
     sound lick3
@@ -607,17 +609,80 @@ label ep215_dialogues2_betty_6:
     sound chpok6
     imgd 19307
     w
+    # Бетти делает несколько движений головой, сосед кайфует
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob1_1 = Movie(play="video/v_Betty_Neighbour_Blowjob1_1.mkv", fps=30)
+    show videov_Betty_Neighbour_Blowjob1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19308
     liam "Оооо! Мээээм!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob1_2 = Movie(play="video/v_Betty_Neighbour_Blowjob1_2.mkv", fps=30)
+    show videov_Betty_Neighbour_Blowjob1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob1_3 = Movie(play="video/v_Betty_Neighbour_Blowjob1_3.mkv", fps=30)
+    show videov_Betty_Neighbour_Blowjob1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 19309
     w
-    # Бетти делает несколько движений головой, сосед кайфует
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob1_4 = Movie(play="video/v_Betty_Neighbour_Blowjob1_4.mkv", fps=30)
+    show videov_Betty_Neighbour_Blowjob1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19310
     liam "Мэээм, как вы думаете, мой член достаточно твердый..."
     imgd 19311
     liam "Чтобы войти в вас? Ооооо!!!"
     # Бетти отрывается от него
-    music stop
+    music2 stop
     sound plastinka1b
     img 19312 hpunch
     betty "Войти в меня?!"
@@ -727,9 +792,29 @@ label ep215_dialogues2_betty_6:
     liam "Я еще не распробовал..."
     # входит в нее полностью
     imgf 19341
+    w
+
+    music stop
+    pause 0.5
+    music2 Loved_Up2
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex1_1 = Movie(play="video/v_Betty_Neighbour_Sex1_1.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex1_1
+    with fade
     liam "Даааа! О, даааа!"
     liam "Мээээммммм..."
     betty "Оооо!!! Оооодин раз!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # он выходит из нее, но не полностью
     # Бетти требовательно
     imgd 19342
@@ -745,11 +830,27 @@ label ep215_dialogues2_betty_6:
     betty "Давай быстрее подбирай свое удобное положение и вытаскивай его!"
     betty "Я верная жена и не собираюсь изменять своему мужу, я уже говрила тебе!"
 
-    music Loved_Up2
+    music2 Loved_Up2
     # снова вводит член
     imgd 19345
     betty "Аааааах!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex1_2 = Movie(play="video/v_Betty_Neighbour_Sex1_2.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex1_2
+    with fade
     liam "Дааааа, как же хорошо у вас внутри, Мэм!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19346
     betty "Мммммм!!! Даааа..."
     liam "Нет, так тоже неудобно, надо сдвинуть левее..."
@@ -762,11 +863,58 @@ label ep215_dialogues2_betty_6:
     liam "Вот так удобнее, Мэм!"
     imgd 19349
     betty "Еще-еще!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex1_3 = Movie(play="video/v_Betty_Neighbour_Sex1_3.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex1_3
+    with fade
     betty "Быстрее!!!"
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19350
     liam "Я почти подобрал удобное положение, Мэм!"
     imgd 19351
     betty "Аааааах!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex1_4 = Movie(play="video/v_Betty_Neighbour_Sex1_4.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex1_5 = Movie(play="video/v_Betty_Neighbour_Sex1_5.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19352
     liam "О, Мээээм! Кончайте, Мэм!"
     # Бетти кончает
@@ -837,6 +985,7 @@ label ep215_dialogues2_betty_6:
     # затемнение
     # Бетти лежит прибалдевшая на диване, сосед стоит рядом
     # стук в дверь, голос из-за двери
+    music2 stop
     fadeblack 2.0
     music Loved_Up
     imgfl 19360

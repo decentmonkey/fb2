@@ -2239,7 +2239,7 @@ label ep215_dialogues3_escort_14:
     # инвестор наклоняется близко к ее киске и рассматривает
 #    sound Jump2
     fadeblack 1.5
-    music Loved_Up
+    music2 Loved_Up
     imgf 40067
     w
     imgd 40068
@@ -2270,6 +2270,10 @@ label ep215_dialogues3_escort_14:
     mt "Снова эти странные ощущения!"
     mt "Мне это совсем не нравится!!"
     mt "Так... Так необычно..."
+    $ blur_effect = 1
+    imgd 40071
+    mt "Кажется, вино немного дало мне в голову..."
+    $ blur_effect = 0
     imgd 40072
     olaf "Ммммм..."
     olaf "Не могу поверить, что я сейчас буду обладать самой Миссис Моникой Бакфетт!"
@@ -2356,8 +2360,40 @@ label ep215_dialogues3_escort_14:
     sound2 ahhh5
     img 40086 vpunch
     olaf "Аааа..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_1 = Movie(play="video/v_Monica_Investor2_Sex1_1.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 40087
     olaf "Какая горячая влажная киска!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_2 = Movie(play="video/v_Monica_Investor2_Sex1_2.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound ahhh6
     imgd 40088
     mt "Боже, когда это все закончится?!"
@@ -2367,20 +2403,99 @@ label ep215_dialogues3_escort_14:
     imgd 40089
     mt "Оно нарастает!"
     mt "Как волна!!!"
-    music Loved_up2
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_3 = Movie(play="video/v_Monica_Investor2_Sex1_3.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 Loved_up2
     imgf 40090
     olaf "Ммммм..."
     olaf "Киска самой Миссис Моники Бакфетт!!!"
     imgd 40091
     olaf "О, дааа..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_4 = Movie(play="video/v_Monica_Investor2_Sex1_4.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound ahhh8
     imgf 40092
     mt "Все сильнее!"
     mt "Наполняет меня... Всю..."
     mt "Ох..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_5 = Movie(play="video/v_Monica_Investor2_Sex1_5.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_6 = Movie(play="video/v_Monica_Investor2_Sex1_6.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 40093
     olaf "О, Миссис Бакфеееет!!!"
     olaf "Оооо!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Melanie_Alex_Licking1.ogg"
+    scene black
+    image videov_Monica_Investor2_Sex1_7 = Movie(play="video/v_Monica_Investor2_Sex1_7.mkv", fps=30)
+    show videov_Monica_Investor2_Sex1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound man_moan3
     sound2 ahhh7
     imgf 40095
@@ -2431,6 +2546,7 @@ label ep215_dialogues3_escort_14:
     $ monicaBiffInvestorDate5 = True # у Моники был секс с инвестором Олафом
     # инвестор выходит из Моники и довольный собой смотрит на ее киску, испачканную в сперме
     # Моника лежит растерянная
+    music2 stop
     fadeblack 1.5
     music Stealth_Groover
     imgfl 40100
