@@ -2247,18 +2247,22 @@ label ep215_dialogues3_escort_14:
     # тянется к ней рукой, водит по киске
     imgf 40069
     w
+    sound hlup25
     imgd 40070
     w
     imgd 40069
     w
+    sound hlup25
     imgd 40070
     w
     imgd 40069
     w
+    sound hlup25
     imgd 40070
     w
     imgd 40069
     w
+    sound hlup25
     imgd 40070
     w
     imgf 40071
@@ -2277,14 +2281,17 @@ label ep215_dialogues3_escort_14:
     olaf "О, дааа..."
     imgd 40073
     w
+    sound hlup19
     imgd 40074
     w
     imgd 40073
     w
+    sound hlup19
     imgd 40074
     w
     imgd 40073
     w
+    sound hlup19
     imgd 40074
     w
     imgf 40075
@@ -2318,14 +2325,17 @@ label ep215_dialogues3_escort_14:
     mt "?!"
     imgf 40081
     w
+    sound hlup25
     imgd 40082
     olaf "Я вижу, как Вы этого желаете..."
     imgd 40081
     w
+    sound hlup25
     imgd 40082
     w
     imgd 40081
     w
+    sound hlup25
     imgd 40082
     w
     imgf 40083
