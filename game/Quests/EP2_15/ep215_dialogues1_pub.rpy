@@ -1814,27 +1814,28 @@ label ep215_dialogues1_pub_14b:
 
 # крики толпы, второй батл
 label ep215_dialogues1_pub_15:
-    customers1 "ВАУ!!! Еще одна битва сучек!"
-    customers4 "Давай, раздевайся, крошка!"
-    customers3 "Охренительно, детка! Ты настоящая королева!"
-    customers2 "Да, рыжая королева! Покрути жопой! Вот так! ДАААА!"
-    customers2 "ДА! Покажи нам свою королевскую попку!!!"
+    customers1 "ВАУ!!! Еще одна битва сучек!" # Molly
+    customers2 "Да, рыжая королева! Покрути жопой! Вот так! ДАААА!" # Molly
+    customers4 "Давай, раздевайся, крошка!" # Monica
+    customers3 "Охренительно, детка! Ты настоящая королева!" # Molly
+    customers2 "ДА! Покажи нам свою королевскую попку!!!" # Molly
     # 2-й раунд (в трусиках и масках)
-    customers1 "ВАААУ!"
-    customers5 "О, да! Вот это сиськи!"
-    customers4 "Королева Молли! Покажи класс!"
-    customers3 "ДААА! Настоящая королева Shiny Hole!"
-    customers5 "Давай, покрути своей задницей!"
+    customers1 "ВАААУ!"  # Monica
+    customers5 "О, да! Вот это сиськи!" # Monica
+    customers4 "Королева Молли! Покажи класс!" # Molly
+    customers3 "ДААА! Настоящая королева Shiny Hole!" # Molly
+    customers5 "Давай, покрути своей задницей!" # Monica
     # 3-й раунд (только в масках)
-    customers5 "Вот она, королева! Охренительно, детка!"
-    customers2 "ДААА! Точно! Она королева!"
-    customers1 "Вау, детка! У меня уже в штанах дымится! Иди сюда!"
-    customers4 "Пошли в приват, детка!"
-    customers3 "Покажи нам свою киску, крошка!"
+    customers5 "Вот она, королева! Охренительно, детка!" # Monica
+    customers2 "ДААА! Точно! Она королева!" # Monica
+    customers1 "Вау, детка! У меня уже в штанах дымится! Иди сюда!" # Molly
+    customers4 "Пошли в приват, детка!" # Monica
+    customers3 "Покажи нам свою киску, крошка!" # Molly
     # 4-й раунд (Молли без маски)
-    customers5 "ДААААААА!"
-    customers4 "Это же [monica_pub_name]!!!"
-    customers1 "ОХРЕНЕЕЕТЬ!!!"
-    customers3 "[monica_pub_name] КОРОЛЕВА! ДААА!!!"
-    customers2 "ДААА! КОРОЛЕВА SHINY HOLE!"
+    customers5 "ДААААААА!" # Molly
+    customers5 "Королева Молли!" # Molly
+    customers4 "Это же [monica_pub_name]!!!" # Monica
+    customers1 "ОХРЕНЕЕЕТЬ!!!" # Monica
+    customers3 "[monica_pub_name] КОРОЛЕВА! ДААА!!!" # Monica
+    customers2 "ДААА! КОРОЛЕВА SHINY HOLE!" # Monica
     return
