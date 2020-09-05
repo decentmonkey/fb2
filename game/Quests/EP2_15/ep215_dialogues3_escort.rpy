@@ -12,6 +12,8 @@ default ep215_dialogues3_escort_14menu1 = False
 default ep215_dialogues3_escort_14menu2 = False
 default ep215_dialogues3_escort_14menu3 = False
 
+default ep215_escort_monica_cum_zone = 0
+default ep215_escort_linda_cum_zone = 0
 #call ep215_dialogues3_escort_1() # Моника заходит в кабинет Бифа и видит обнаженную Кристину
 #call ep215_dialogues3_escort_3() # Моника отказалась от свидания с Олафом, стоит на улице
 #call ep215_dialogues3_escort_4() # Моника отказалась от свидания с Олафом, но передумала и вернулась, стоит на улице
@@ -51,7 +53,7 @@ label ep215_dialogues3_escort_1:
     music Groove2_85
     imgfl 19638
     w
-    imgf 19639
+    img 19639 vpunch
     mt "Какого черта?!"
     music Pyro_Flow
     imgd 19640
@@ -66,6 +68,7 @@ label ep215_dialogues3_escort_1:
     m "И почему эта голая кукла торчит посреди кабинета?!"
     m "!!!"
     # Кристина испуганнно прикрывается руками
+    sound highheels_run2
     saleswoman "Ой! Это что?! Начальница?!"
     imgd 19648
     w
@@ -287,6 +290,7 @@ label ep215_dialogues3_escort_1:
     biff "Кукла, ты меня достала!"
     biff "Завтра же вечером объявишь о своей отставке!"
     biff "А сейчас пошла отсюда вон!"
+label ep215_dialogues3_escort_1b:
     music Pyro_Flow
     imgd 12792
     mt "Черт!"
@@ -314,7 +318,7 @@ label ep215_dialogues3_escort_1:
             mt "Чертовы инвесторы! Чертов Биф! Ненавижу их всех!"
             # Моника оказывается на улице
             # Биф не дает ей работу, пока она не согласится на свидание
-            return
+            return False
     # Моника злится
     imgf 15892
     mt "Что мне теперь делать?!"
@@ -368,6 +372,7 @@ label ep215_dialogues3_escort_1:
     imgd 19684
     m "БИФ!!!"
     biff "БЫСТРО!!!"
+    $ menu_corruption = [monicaBiffInvestorDatingAgree1]
     menu:
         "Согласиться на свидание с инвестором.":
             $ monicaBiffInvestorDate1 = True # Моника согласилась пойти на свидание с инвестором
@@ -387,7 +392,7 @@ label ep215_dialogues3_escort_1:
             mt "Чертовы инвесторы! Чертов Биф! Ненавижу их всех!"
             # Моника оказывается на улице
             # Биф не дает ей работу, пока она не согласится на свидание
-            return
+            return False
     imgf 12805
     mt "ААААА!!!"
     mt "Ненавижу сволочь Бифа!!!"
@@ -412,7 +417,7 @@ label ep215_dialogues3_escort_1:
     imgd 19685
     mt "Наивная дура!"
     mt "!!!"
-    return
+    return True
 
 # если Моника дала согласие на свидание с инвестором
 # Моника идет в любую другую локацию, кроме гримерки
@@ -431,7 +436,7 @@ label ep215_dialogues3_escort_3:
     mt "Как он смел выгнать меня из моего же офиса?!"
     mt "Сволочь!"
     mt "Негодяй!!!"
-    return
+    return False
 
 # если Моника отказалась от свидания с инвестором
 # снова пришла к офису и стоит на улице
@@ -448,6 +453,9 @@ label ep215_dialogues3_escort_5:
     # психует
     # одета в одежду для свидания, гримерка, избегает контрастных отражений
     fadeblack
+    call textonblack(t_("Спустя некоторое время..."))
+    img black_screen
+    with Dissolve(1)
     sound snd_fabric1
     pause 2.0
     music Pyro_Flow
@@ -491,7 +499,8 @@ label ep215_dialogues3_escort_5:
 # холл, возле лифта
 # инвестор стоит в ожидании Моники
 label ep215_dialogues3_escort_7:
-    fadeblack
+    sound snd_lift
+    fadeblack 2.0
     sound highheels_short_walk
     pause 1.5
     music Stealth_Groover
@@ -551,6 +560,7 @@ label ep215_dialogues3_escort_7:
 label ep215_dialogues3_escort_8:
     # Моника с Олафом сидят за столиком, стол сервирован блюдами, стоит вино
     # Моника сидит с высокомерным видом
+    fadeblack 1.5
     music Poppers_and_Prosecco
     imgfl 19786
     w
@@ -579,6 +589,7 @@ label ep215_dialogues3_escort_8:
     sound pour_wine
     pause 2.0
     music Poppers_and_Prosecco
+
     imgfl 19798
     w
     imgf 19787
@@ -629,7 +640,7 @@ label ep215_dialogues3_escort_8:
     # затемнение, несколько минут спустя, звук каблуков
     # к их столику подходят недовольные Мия и Шарлотт (две светские львицы с ивента у Кэмпбелла)
     # Моника удивленно смотрит на них
-    imgfl 19808
+    img 19808 vpunch
     w
     imgf 19809
     mt "А эти две овцы что тут делают?!"
@@ -681,9 +692,11 @@ label ep215_dialogues3_escort_8:
     imgf 19819
     m "Можешь засунуть своего мужа куда подальше."
     m "Он для меня - деловой партнер и не более того."
-    # оценивающий взгляд на Олафа
-    imgd 19820
-    m "С такими уродливыми и толстыми мужчинами меня может объединять только бизнес."
+    if monicaBitch == True:
+        $ notif_monica()
+        # оценивающий взгляд на Олафа
+        imgd 19820
+        m "С такими уродливыми и толстыми мужчинами меня может объединять только бизнес."
     # Олаф в шоке, смотрит на Монику
     # потом говорит своей жене
     music stop
@@ -821,9 +834,9 @@ label ep215_dialogues3_escort_8:
             m "Завтра я проверю у своего помощника Бифа, что вы решили, Олаф."
             m "И лучше бы вам, Олаф, не задавать лишних вопросов Бифу."
             m "Он недостаточно компетентен в таких серьезных делах."
+            music Master_Disorder
             imgf 19848
             m "И я на вашем месте не стала бы рассматривать другие сомнительные финансовые предложения."
-            music Master_Disorder
             m "Иначе вы рискует потерять все ваши деньги, Олаф..." # угрожающе, давит. проработать (сделать акцент)
             # Олаф испуганно
             imgd 19849
@@ -833,7 +846,7 @@ label ep215_dialogues3_escort_8:
 
             # Моника уходит с видом победителя
             $ monicaBiffInvestorDate2 = True # Моника вынудила инвестора дать согласие на инвестирование при его жене
-            return
+            return 1
 #        "Заставить Олафа при его жене инвестировать в журнал. (Моника недостаточно приличная) (disabled)" if monicaBitch == True:
 #            pass
         "Не рисковать.":
@@ -982,7 +995,7 @@ label ep215_dialogues3_escort_8:
     m "Олаф..."
     m "Неужели вы хотите покинуть меня?"
     m "Я думала, мы с вами продолжим нашу встречу..."
-    music Poppers_and_Prosecco
+#    music Poppers_and_Prosecco
     imgf 40195
     w
     imgd 19872
@@ -1065,7 +1078,7 @@ label ep215_dialogues3_escort_8:
     $ monicaBiffInvestorDate3 = True # Моника поехала с инвестором в отель
     # Моника встает из-за столика
     # затемнение, звук мотора
-    return
+    return 2
 
 # Ле Гранд, ресепшн
 label ep215_dialogues3_escort_9:
@@ -1073,12 +1086,12 @@ label ep215_dialogues3_escort_9:
     # заходят в отель, на ресепшн
     # администраторша как всегда стоит у стойки ресепшна
     # Моника в шоке
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
-    scene black_screen
-    with Dissolve(1)
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Некоторое время спустя..."))
+#    scene black_screen
+#    with Dissolve(1)
     music Pyro_Flow
     img 19701 hpunch
     mt "Чтооо?!"
@@ -1171,7 +1184,7 @@ label ep215_dialogues3_escort_10:
     mt "?!?!?!"
     # Олаф резко отстраняется, стесняясь при Монике
     sound Jump2
-    imgd 19717
+    img 19717 hpunch
     olaf "Ты что, сошла с ума?!"
     # Линда в растерянности останавливается
     imgf 19718
@@ -1252,7 +1265,7 @@ label ep215_dialogues3_escort_11:
     m "Олаф, я предпочитаю пить только первоклассные вина."
     m "Поэтому к любому вину, дешевле $ 5 000 за бутылку, я даже не стану притрагиваться..."
     # Олаф нажимает кнопку коммуникатора (или звонит по телефону на ресепшн)
-    fadeblack
+    fadeblack 1.5
     sound snd_phone1
     pause 2.0
     music Groove2_85
@@ -1455,12 +1468,15 @@ label ep215_dialogues3_escort_13:
     # спустя некоторое время
     # Моника заходит в номер, Олаф ее там ждет
     # Олаф обрадован, что Моника вернулась
-    scene black_screen
-    with Dissolve(1)
-    stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
-    scene black_screen
-    with Dissolve(1)
+    fadeblack 1.5
+    sound snd_lift
+    fadeblack 2.0
+#    scene black_screen
+#    with Dissolve(1)
+#    stop music fadeout 1.0
+#    call textonblack(t_("Некоторое время спустя..."))
+#    scene black_screen
+#    with Dissolve(1)
     music Groove2_85
     imgfl 19906
     olaf "Миссис Бакфетт, я Вас уже заждался!"
@@ -1487,7 +1503,7 @@ label ep215_dialogues3_escort_13:
     m "Вообще-то, Олаф..."
     m "..."
     m "Этот отель принадлежит мне!"
-    imgf 19911
+    img 19911 vpunch
     olaf "О, серьезно?!" # он удивлен
 #    img 19911
     m "Да..." # небрежно и надменно
@@ -1600,8 +1616,9 @@ label ep215_dialogues3_escort_14:
             mt "А такая шикарная леди, как Я, отдыхает, пьет дорогое вино и наслаждается вниманием мужчины..."
             mt "Который все для меня готов сделать!"
         # ставит вино и поворачивается к Олафу, требовательно
+        fadeblack 1.5
         music Groove2_85
-        imgf 19926
+        img 19926 vpunch
         linda "Олаф! Я думала ты меня любишь!"
         linda "Что ты здесь делаешь с этой шлюхой?!"
         linda "Как ты мог променять меня на такую стерву, как она?!"
@@ -1617,7 +1634,7 @@ label ep215_dialogues3_escort_14:
         linda "С какой стати я должна молчать?!"
         linda "Ведь она же просто..."
         # Олаф перебивает ее и шипит угрожающе
-        imgd 19930
+        img 19930 vpunch
         olaf "Тише!!!"
         # с опаской смотрит на Монику, потом снова на Линду, шепчет ей
         sound Jump1
@@ -1646,7 +1663,9 @@ label ep215_dialogues3_escort_14:
         mt "Этой сучке?!"
         mt "?!?!?!"
         menu:
-            "Отыграться на Линде.":
+            "Отыграться на Линде. (Extra version) (disabled)" if game.extra == False:
+                pass
+            "Отыграться на Линде." if game.extra == True:
                 imgf 19937
                 mt "С какой стати?!"
                 mt "Он ей дает такие деньги просто для того, чтобы она ушла?!"
@@ -1667,8 +1686,8 @@ label ep215_dialogues3_escort_14:
                 olaf "Да?"
                 m "Постойте!"
                 # Моника встает с дивана и подходит к Олафу и Линде
-
-                jump ep215_dialogues3_linda_punishment
+                return 1
+#                jump ep215_dialogues3_linda_punishment
             "Забрать у Линды часть денег.":
                 imgd 19937
                 mt "С какой стати?!"
@@ -1722,7 +1741,9 @@ label ep215_dialogues3_escort_14:
                 imgd 19953
                 m "!!!"
                 menu:
-                    "Отыграться на Линде":
+                    "Отыграться на Линде. (Extra version) (disabled)" if game.extra == False:
+                        pass
+                    "Отыграться на Линде." if game.extra == True:
                         music Pyro_Flow
                         imgf 19954
                         mt "Эта сучка что, пытается сейчас обмануть меня?!"
@@ -1737,7 +1758,7 @@ label ep215_dialogues3_escort_14:
                         sound highheels_short_walk
                         imgf 19959
                         m "Иди сюда!"
-                        jump ep215_dialogues3_linda_punishment
+                        return 1
                     "Согласиться на ее условие":
                         music Stealth_Groover
                         imgf 19954
@@ -1995,6 +2016,7 @@ label ep215_dialogues3_escort_14:
     imgfl 19977
     w
 #    sound vjuh3
+    sound Jump1
     imgf 19978
     mt "Сейчас он посмотрит на мою совершенную красоту..."
     mt "И просто не сможет сказать мне 'нет'!"
@@ -2078,7 +2100,12 @@ label ep215_dialogues3_escort_14:
     menu:
         "Раздвинуть ноги.":
             pass
-    sound Jump2
+    fadeblack 2.0
+    music Groove2_85
+    imgd 40030
+    w
+
+#    sound Jump2
     imgd 40031
     w
     imgf 40032
@@ -2190,6 +2217,8 @@ label ep215_dialogues3_escort_14:
     imgd 40062
     olaf "А теперь идите ко мне..."
     olaf "Позвольте мне насладиться Вашей красотой..."
+    fadeblack 1.5
+    music Loved_Up
     # Моника ложится на спину
     imgf 40063
     w
@@ -2208,7 +2237,11 @@ label ep215_dialogues3_escort_14:
             pass
     # Моника раздвигает ноги, лицо недовольное
     # инвестор наклоняется близко к ее киске и рассматривает
-    sound Jump2
+#    sound Jump2
+    fadeblack 1.5
+    music Loved_Up
+    imgf 40067
+    w
     imgd 40068
     olaf "Оооо... Дааа..."
     # тянется к ней рукой, водит по киске
@@ -2362,6 +2395,7 @@ label ep215_dialogues3_escort_14:
             olaf "ААААААА!!!!"
             imgf 40098
             w
+            $ ep215_escort_monica_cum_zone = 1
             pass
         "Кончить на киску Моники.":
             img 40096
@@ -2382,6 +2416,7 @@ label ep215_dialogues3_escort_14:
             olaf "ААААААА!!!!"
             imgf 40099
             w
+            $ ep215_escort_monica_cum_zone = 2
             pass
     $ monicaBiffInvestorDate5 = True # у Моники был секс с инвестором Олафом
     # инвестор выходит из Моники и довольный собой смотрит на ее киску, испачканную в сперме
@@ -2391,7 +2426,7 @@ label ep215_dialogues3_escort_14:
     imgfl 40100
     mt "Боже!"
     mt "Что это было?!"
-    imgf 40101
+    img 40101 vpunch
     mt "У меня что, был только что секс?!"
     mt "Как я это позволила! Фи!"
     mt "Видимо, у меня серьезные проблемы с нервами..."
@@ -2472,11 +2507,16 @@ label ep215_dialogues3_escort_14b:
     sound snd_drinking_water
     imgd 19998
     w
+    fadeblack 1.5
+    sound snd_drinking_water
+    w
+    sound snd_drinking_water
+    w
     # прикладывается к бутылке, звук бульк-бульк
     # выпивает всю бутылку в один глоток
-    imgd 19999
-    mt "Нет! Нет!"
     music Power_Bots_Loop
+    img 19999 hpunch
+    mt "Нет! Нет!"
     mt "Твою мать!!!"
     mt "КРЕТИН!!!"
     mt "!!!"
@@ -2610,6 +2650,7 @@ label ep215_dialogues3_escort_14b:
         m "Олаф, вам все понятно?!"
         imgd 40026
         olaf "Да, Миссис Бакфетт, конечно!"
+    $ add_money(500.0)
     imgd 40025
     m "Все, Олаф, вы свободны!"
     imgf 40027
@@ -3058,6 +3099,7 @@ label ep215_dialogues3_linda_punishment:
             olaf "ААААААА!!!!"
             imgf 40189
             w
+            $ ep215_escort_linda_cum_zone = 1
             pass
         "Кончить на киску Линды.":
             img 40186
@@ -3078,6 +3120,7 @@ label ep215_dialogues3_linda_punishment:
             olaf "ААААААА!!!!"
             imgf 40190
             w
+            $ ep215_escort_linda_cum_zone = 2
             pass
     # Олаф отстраняется от Линды, а она отстраняется от Моники
     # Моника злорадно на нее смотрит
@@ -3244,6 +3287,12 @@ label ep215_dialogues3_escort_15:
 # после встречи с Олафом, в тот же вечер
 # кабинет Бифа
 label ep215_dialogues3_escort_21:
+    scene black_screen
+    with Dissolve(1)
+    stop music fadeout 1.0
+    call textonblack(t_("Этим вечером..."))
+    scene black_screen
+    with Dissolve(1)
     # спустя некоторое время
     # Моника заходит в кабинет к Бифу
     fadeblack 1.5
@@ -3265,8 +3314,10 @@ label ep215_dialogues3_escort_21:
         biff "Как-то это странно..."
         biff "Непонятно, где и как ты у него сосала..."
         biff "Чтобы он согласился даже без того, чтобы вогнать свой член в эту куклу."
+        imgd 15864
         m "Биф, перестань меня так называть!"
-    imgd 15864
+    else:
+        imgd 15864
     m "!!!"
     imgf 19665
     biff "Осталось еще два колеблющихся инвестора, кукла!"

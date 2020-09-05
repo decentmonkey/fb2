@@ -323,6 +323,8 @@ label ep22_dialogue6_3:
     if ep211_quests_photoshot8_opened_day != 0 and biffWeeklyPhotoShootEnabled == True and ep213_quests_biff1_inited == False:
         call ep213_quests_biff1_init() from _rcall_ep213_quests_biff1_init
         return False
+    if day - ep213_presentation2_completed_day >= 2 and ep215_quests_escort_initialized == False:
+        call ep215_quests_esort1_init() # инициализируем свидание с инвестором
 
     if cloth == "Whore":
         img 8287

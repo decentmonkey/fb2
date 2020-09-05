@@ -109,6 +109,10 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     with diss
     pause 1.5
     $ rnd1 = rand(1,4)
+    if ep215_quests_linda_restaurant_dialogue_planned == True:
+        $ ep215_quests_linda_restaurant_dialogue_planned = False # встреча с Линдой после того как ее унизили
+        call ep215_dialogues3_escort_22()
+        return False
     if ep214_dialogues3_escort_10_flag1 == True:
         $ ep214_dialogues3_escort_10_flag1 = False
         call ep214_dialogues3_escort_10() from _rcall_ep214_dialogues3_escort_10
