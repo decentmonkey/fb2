@@ -1188,6 +1188,7 @@ label pub_dance_battle1_Molly7_loop:
 #            sound3 men_scream3
             call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_38
             call pub_dance_battle_dialogues_react() from _rcall_pub_dance_battle_dialogues_react_38
+            wclean
             $ stage_achievements_list.append("v_StripBattle1_Molly7C_end")
             jump pub_dance_battle1_Molly7_loop
     hide screen poledance_battle
@@ -1256,7 +1257,7 @@ label pub_dance_battle1_Molly8_loop:
             $ pub_dance_dialogues_set_excitement_molly(10)
             $ pub_dance_dialogues_set_excitement_monica(-15)
 #            sound3 men_scream4
-            sound3 men_scream2
+#            sound3 men_scream2
             call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_40
             call pub_dance_battle_dialogues_react() from _rcall_pub_dance_battle_dialogues_react_40
             $ stage_achievements_list.append("v_StripBattle1_Molly8B_end")
@@ -1273,7 +1274,7 @@ label pub_dance_battle1_Molly8_loop:
             $ pub_dance_dialogues_set_excitement_molly(10)
             $ pub_dance_dialogues_set_excitement_monica(-10)
 #            sound3 men_scream3
-            sound3 men_scream2
+#            sound3 men_scream2
             call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_41
             call pub_dance_battle_dialogues_react() from _rcall_pub_dance_battle_dialogues_react_41
             customers5 "Королева Молли!" # Molly
