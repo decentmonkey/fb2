@@ -35,6 +35,7 @@ label ep215_quests_escort2:
         call change_scene("street_monica_office", "Fade_long")
         return False
     call ep215_quests_escort3_dating()
+    call putoff_work_clothes()
     return False
 
 label ep215_quests_escort2_repeat_comment:
@@ -74,6 +75,7 @@ label ep215_quests_escort3_dating: # свидание
         pass
     else:
 
+        $ monicaEscortLastDay = day
         call ep215_dialogues3_escort_9() # Ле Гранд, ресепшн
         call ep215_dialogues3_escort_10() # у лифта
         call ep215_dialogues3_escort_11() # номер отеля
@@ -108,7 +110,6 @@ label ep215_quests_escort3_dating: # свидание
                         $ autorun_to_object("ep215_dialogues3_escort_16", scene="street_monica_office")
     $ ep215_quests_escort_completed_day = day
     $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_24_block", scene="street_monica_office", label="evening_time_temp")
-    $ monicaEscortLastDay = day
     call change_scene("street_monica_office", "Fade_long")
     return False
 
