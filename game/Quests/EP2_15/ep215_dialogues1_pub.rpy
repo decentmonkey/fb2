@@ -480,6 +480,10 @@ label ep215_dialogues1_pub_5:
     m "!!!"
     $ money -= monica_strip_tips_today
     $ monica_strip_tips_today = 0
+    python:
+    for movement in stage_achievements_list:
+        check_achievement(movement)
+
     return
 
 # крики толпы
@@ -1559,6 +1563,9 @@ label ep215_dialogues1_pub_10:
     m "Поняла, дрянь, кто из нас королева?!"
     m "Корона теперь моя, а ты никто!"
     molly "!!!"
+    python:
+        for movement in stage_achievements_list:
+            check_achievement(movement)
     # Молли сидит на сцене голая, полулежа, смотрит на Монику снизу вверх, как поверженный враг (на лице отчаяние)
     return True
 
