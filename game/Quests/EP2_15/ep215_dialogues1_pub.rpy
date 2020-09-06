@@ -481,8 +481,8 @@ label ep215_dialogues1_pub_5:
     $ money -= monica_strip_tips_today
     $ monica_strip_tips_today = 0
     python:
-    for movement in stage_achievements_list:
-        check_achievement(movement)
+        for movement in stage_achievements_list:
+            check_achievement(movement)
 
     return
 
