@@ -36,7 +36,7 @@ label ep27_pub_visitors_click:
             # nofood
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer1_afterbattle()
+                call customer1_afterbattle() from _rcall_customer1_afterbattle
                 if _return == True:
                     $ pubVisitor1Suffix = "_Food"
             else:
@@ -51,7 +51,7 @@ label ep27_pub_visitors_click:
             $ pubVisitor2Suffix = "_Food"
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer2_afterbattle()
+                call customer2_afterbattle() from _rcall_customer2_afterbattle
                 $ pubVisitor2Suffix = "_Food"
             else:
                 call customer2_serve1() from _call_customer2_serve1
@@ -60,7 +60,7 @@ label ep27_pub_visitors_click:
         pass
     if obj_name == "Pub_Visitor3":
         if monica_shiny_hole_queen_day > 0:
-            call customer3_afterbattle()
+            call customer3_afterbattle() from _rcall_customer3_afterbattle
             $ pubVisitor3Suffix = "_Food"
         else:
             if customer3_after_private == True:
@@ -86,7 +86,7 @@ label ep27_pub_visitors_click:
             call customer4_1stmeeting() from _call_customer4_1stmeeting
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer4_afterbattle()
+                call customer4_afterbattle() from _rcall_customer4_afterbattle
                 $ pubVisitor4Suffix = "_Food"
             else:
                 call customer4_serve1() from _call_customer4_serve1
@@ -99,7 +99,7 @@ label ep27_pub_visitors_click:
             $ pubVisitor5Suffix = "_Food"
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer5_afterbattle()
+                call customer5_afterbattle() from _rcall_customer5_afterbattle
                 $ pubVisitor5Suffix = "_Food"
             else:
                 call customer5_serve1() from _call_customer5_serve1
@@ -118,7 +118,7 @@ label ep27_pub_visitors_click:
             $ pubVisitor8Suffix = "_Food"
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer78_afterbattle()
+                call customer78_afterbattle() from _rcall_customer78_afterbattle
                 $ pubVisitor7Suffix = "_Food"
                 $ pubVisitor8Suffix = "_Food"
             else:
@@ -133,7 +133,7 @@ label ep27_pub_visitors_click:
             $ autorun_to_object("customer9_afterserve1", scene=scene_name)
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer9_afterbattle()
+                call customer9_afterbattle() from _rcall_customer9_afterbattle
                 $ autorun_to_object("customer9_afterserve2", scene=scene_name)
             else:
                 call customer9_serve1() from _call_customer9_serve1
@@ -148,7 +148,7 @@ label ep27_pub_visitors_click:
             $ pubVisitor10Suffix = "_Food"
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer10_afterbattle()
+                call customer10_afterbattle() from _rcall_customer10_afterbattle
 #                $ pubVisitor10Suffix = "_Food"
             else:
                 call customer10_serve1() from _call_customer10_serve1
@@ -156,7 +156,7 @@ label ep27_pub_visitors_click:
         pass
     if obj_name == "Pub_Visitor11":
         if monica_shiny_hole_queen_day > 0:
-            call customer11_afterbattle()
+            call customer11_afterbattle() from _rcall_customer11_afterbattle
             if _return != False:
                 $ pubVisitor11Suffix = "_Food"
         else:
@@ -167,7 +167,7 @@ label ep27_pub_visitors_click:
             call customer12_1stmeeting() from _call_customer12_1stmeeting
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
-                call customer12_afterbattle()
+                call customer12_afterbattle() from _rcall_customer12_afterbattle
             else:
                 call customer12_serve1() from _call_customer12_serve1
             $ pubVisitor12Suffix = "_Food"

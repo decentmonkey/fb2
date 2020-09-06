@@ -51,7 +51,7 @@ label pub:
         call ep214_quests_pub1_check_init() from _rcall_ep214_quests_pub1_check_init
 
     if ep214_quests_claire_show1_day > 0 and ep215_quests_pub1_inited == False:
-        call ep215_quests_pub1()
+        call ep215_quests_pub1() from _rcall_ep215_quests_pub1
 
     $ set_active("Pub_Washbasin", False)
     return

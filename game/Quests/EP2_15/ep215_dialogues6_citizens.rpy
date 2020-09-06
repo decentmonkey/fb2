@@ -416,7 +416,7 @@ label ep215_dialogues6_citizens_1b:
     music stop
     img black_screen
     with Dissolve(1)
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_69
     scene black_screen
     with Dissolve(1)
     sound lick3

@@ -19,7 +19,7 @@ label ep215_dialogues5_alex_1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_64
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -117,7 +117,7 @@ label ep215_dialogues5_alex_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_65
 #    call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
@@ -290,7 +290,7 @@ label ep215_dialogues5_alex_3:
     with Dissolve(1)
     stop music fadeout 1.0
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_66
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -1050,7 +1050,7 @@ label ep215_dialogues5_alex_4:
     imgfl 19520
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_215
     w
     mt "Какого черта?!"
     mt "Что эта тварь тут делает?!"
@@ -1201,7 +1201,7 @@ label ep215_dialogues5_alex_6:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("ТЕМ ВРЕМЕНЕМ..."))
+    call textonblack(t_("ТЕМ ВРЕМЕНЕМ...")) from _rcall_textonblack_67
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -1210,14 +1210,14 @@ label ep215_dialogues5_alex_6:
     victoria "Алекс, это красивая поза?"
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_216
     w
     imgf 19528
     victoria "Может, мне встать вот так?"
     alex_photograph "Да, Виктория. Это хорошая поза."
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_217
     w
     imgd 19529
     victoria "Алекс, а может ты возьмешь кадр поближе?"
@@ -1225,25 +1225,25 @@ label ep215_dialogues5_alex_6:
     victoria "Мне кажется, так получится намного сексуальнее."
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_218
     w
     imgf 19530
     alex_photograph "Я не уверен, но можно попробовать."
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_219
     w
     imgd 19531
     victoria "А если я вот так поставлю ножку, будет лучше?"
     alex_photograph "Да, Виктория. Поставь. Давай посмотрим."
     sound camera_lens1
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_220
     w
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_68
     scene black_screen
     with Dissolve(1)
     # затемнение, смена кадра на офис Дика

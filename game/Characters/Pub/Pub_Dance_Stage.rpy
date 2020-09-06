@@ -1087,7 +1087,7 @@ label pub_dance1_stage_start1_topless:
 
 
     if monica_shiny_hole_queen_day > 0: # Если Моника королева
-        call ep215_dialogues1_pub_14a()
+        call ep215_dialogues1_pub_14a() from _rcall_ep215_dialogues1_pub_14a
         if _return == False:
             jump pub_dance1_stage_end
     jump pub_dance1_stage_end

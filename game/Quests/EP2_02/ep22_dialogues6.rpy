@@ -324,7 +324,7 @@ label ep22_dialogue6_3:
         call ep213_quests_biff1_init() from _rcall_ep213_quests_biff1_init
         return False
     if day - ep213_presentation2_completed_day >= 2 and ep215_quests_escort_initialized == False:
-        call ep215_quests_esort1_init() # инициализируем свидание с инвестором
+        call ep215_quests_esort1_init() from _rcall_ep215_quests_esort1_init # инициализируем свидание с инвестором
 
     if cloth == "Whore":
         img 8287

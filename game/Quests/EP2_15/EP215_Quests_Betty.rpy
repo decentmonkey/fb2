@@ -11,7 +11,7 @@ default ep215_betty_floor2 = False
 label ep215_quests_betty_check:
     if monicaBettyRalphSeduction4 == True and ep215_quests_betty_stage == 0:
         # Моника замечает соседа
-        call ep215_dialogues2_betty_1()
+        call ep215_dialogues2_betty_1() from _rcall_ep215_dialogues2_betty_1
         $ ep215_quests_betty_stage = 1
         # на следующий день Бетти идет к соседу
         $ add_hook("change_time_day", "ep215_quests_betty1_init1", scene="global", label="ep215_quests_betty1_init1", priority=1)
@@ -22,16 +22,16 @@ label ep215_quests_betty_check:
 label ep215_quests_betty1_init1:
     $ remove_hook()
     # Сосед приходит к Бетти
-    call ep215_dialogues2_betty_2()
-    call ep215_dialogues2_betty_3()
+    call ep215_dialogues2_betty_2() from _rcall_ep215_dialogues2_betty_2
+    call ep215_dialogues2_betty_3() from _rcall_ep215_dialogues2_betty_3
     if _return == False:
         $ ep215_quests_betty_refused = True
         return
-    call ep215_dialogues2_betty_4()
+    call ep215_dialogues2_betty_4() from _rcall_ep215_dialogues2_betty_4
 
     # инициализируем дом соседа с Бетти
-    call locations_init_house_neighbour()
-    call street_house_outside_init3()
+    call locations_init_house_neighbour() from _rcall_locations_init_house_neighbour
+    call street_house_outside_init3() from _rcall_street_house_outside_init3
     $ street_house_neighbour_betty_suffix = 1
     $ street_house_outside_betty_suffix = 1
     $ street_house_neighbour_neighbour_suffix = 1
@@ -53,26 +53,26 @@ label ep215_quests_betty1_init1:
     $ ep215_stored_vars["miniMapEnabledOnly"] = miniMapEnabledOnly
     $ ep215_stored_vars["hudDaySkipToEveningEnabled"] = hudDaySkipToEveningEnabled
     $ ep215_betty_floor2 = get_active_objects("Betty", "floor2")
-    call change_owner("Betty")
+    call change_owner("Betty") from _rcall_change_owner
     $ remove_objective("bardie_college")
     $ map_objects = {
             "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
     }
     $ miniMapEnabledOnly = ["none"]
     $ hudDaySkipToEveningEnabled = False
-    call change_scene("street_house_outside", "Fade_long")
+    call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_164
 
     return
 
 label ep215_quests_betty1_teleport_neighbour:
-    call change_scene("street_house_neighbour", "Fade_long")
+    call change_scene("street_house_neighbour", "Fade_long") from _rcall_change_scene_165
     return
 
 label ep215_quests_betty2_talk_neighbour:
     if act=="l":
         return
     $ remove_hook()
-    call ep215_dialogues2_betty_5()
+    call ep215_dialogues2_betty_5() from _rcall_ep215_dialogues2_betty_5
     if _return == False:
         $ ep215_quests_betty_refused = True
     else:
@@ -80,7 +80,7 @@ label ep215_quests_betty2_talk_neighbour:
         $ add_hook("change_time_day", "ep215_quests_betty3_init", scene="global", label="ep215_quests_betty1_init1", priority=1)
 
     $ ep215_quests_betty_visit1_day = day
-    call change_owner("Monica")
+    call change_owner("Monica") from _rcall_change_owner_1
     $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
     $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
     $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
@@ -88,7 +88,7 @@ label ep215_quests_betty2_talk_neighbour:
         $ move_object("Betty", "floor2")
 
     fadeblack 2.0
-    call change_scene(ep215_stored_vars["scene_name"], "Fade_long")
+    call change_scene(ep215_stored_vars["scene_name"], "Fade_long") from _rcall_change_scene_166
 
     return False
 
@@ -108,36 +108,36 @@ label ep215_quests_betty3_init:
     $ ep215_stored_vars["miniMapEnabledOnly"] = miniMapEnabledOnly
     $ ep215_stored_vars["hudDaySkipToEveningEnabled"] = hudDaySkipToEveningEnabled
     $ ep215_betty_floor2 = get_active_objects("Betty", "floor2")
-    call change_owner("Betty")
+    call change_owner("Betty") from _rcall_change_owner_2
     $ map_objects = {
             "Teleport_House" : {"text" : t_("ДОМ МОНИКИ"), "xpos" : 105, "ypos" : 798, "base" : "map_marker_house", "state" : "active", "owner":"Betty"}
     }
     $ miniMapEnabledOnly = ["none"]
     $ hudDaySkipToEveningEnabled = False
 
-    call ep215_dialogues2_betty_10()
+    call ep215_dialogues2_betty_10() from _rcall_ep215_dialogues2_betty_10
     $ autorun_to_object("ep215_dialogues2_betty_11", scene="street_house_outside")
 
-    call change_scene("street_house_outside", "Fade_long")
+    call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_167
 
     return
 
 label ep215_quests_betty3_enter_door:
     if act=="l":
-        call ep215_dialogues2_betty_8()
+        call ep215_dialogues2_betty_8() from _rcall_ep215_dialogues2_betty_8
         return False
     $ remove_hook()
     # второй приход к соседу
     $ ep215_quests_betty_visit2_day = day
-    call ep215_dialogues2_betty_6()
+    call ep215_dialogues2_betty_6() from _rcall_ep215_dialogues2_betty_6
     if _return == False:
         $ ep215_quests_betty_refused = True
     else:
         $ ep215_quests_betty_visit2_completed_day = day
 
     # Бетти возвращается к Ральфу
-    call ep215_dialogues2_betty_7()
-    call change_owner("Monica")
+    call ep215_dialogues2_betty_7() from _rcall_ep215_dialogues2_betty_7
+    call change_owner("Monica") from _rcall_change_owner_3
     $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
     $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
     $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
@@ -146,7 +146,7 @@ label ep215_quests_betty3_enter_door:
 
     fadeblack 2.0
     $ autorun_to_object("ep215_dialogues2_betty_12", scene=ep215_stored_vars["scene_name"])
-    call change_scene(ep215_stored_vars["scene_name"], "Fade_long")
+    call change_scene(ep215_stored_vars["scene_name"], "Fade_long") from _rcall_change_scene_168
     $ ep215_stored_vars = {}
 
     return False

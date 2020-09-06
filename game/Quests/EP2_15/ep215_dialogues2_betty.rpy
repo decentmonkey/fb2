@@ -85,7 +85,7 @@ label ep215_dialogues2_betty_2:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_60
 #    call textonblack(t_("Тем временем..."))
     scene black_screen
     with Dissolve(1)
@@ -1071,7 +1071,7 @@ label ep215_dialogues2_betty_10:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_61
 #    call textonblack(t_("Тем временем..."))
     scene black_screen
     with Dissolve(1)

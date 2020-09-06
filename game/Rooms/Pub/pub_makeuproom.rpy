@@ -126,6 +126,6 @@ label pub_makeuproom_environment:
         call dialogue_5_dance_strip_30b() from _rcall_dialogue_5_dance_strip_30b
 
     if obj_name == "Picture_MonicaQueen":
-        call ep215_dialogues1_pub_14b()
-        call refresh_scene_fade()
+        call ep215_dialogues1_pub_14b() from _rcall_ep215_dialogues1_pub_14b
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_116
     return

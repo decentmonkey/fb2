@@ -63,7 +63,7 @@ label ep211_quests_escort2_exit:
         call ep211_escort_scene1_15() from _rcall_ep211_escort_scene1_15
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day
     if _return == 3:
-        call ep215_quests_esort_change_name()
+        call ep215_quests_esort_change_name() from _rcall_ep215_quests_esort_change_name
         return False
     return False
 
@@ -75,7 +75,7 @@ label ep211_quests_escort2_exit_dialogue:
         call ep211_escort_scene1_15() from _rcall_ep211_escort_scene1_15_1
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_1
     if _return == 3:
-        call ep215_quests_esort_change_name()
+        call ep215_quests_esort_change_name() from _rcall_ep215_quests_esort_change_name_1
         return False
     return False
 
@@ -112,8 +112,8 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     if ep215_quests_linda_restaurant_dialogue_planned == True:
         $ ep215_quests_linda_restaurant_dialogue_planned = False # встреча с Линдой после того как ее унизили
         $ ep215_quests_linda_restaurant_dialogue_day = day
-        call ep215_dialogues3_escort_22()
-        call change_scene("rich_hotel_restaurant", "Fade_long")
+        call ep215_dialogues3_escort_22() from _rcall_ep215_dialogues3_escort_22
+        call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_163
         return False
     if ep214_dialogues3_escort_10_flag1 == True:
         $ ep214_dialogues3_escort_10_flag1 = False

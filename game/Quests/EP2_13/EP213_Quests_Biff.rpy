@@ -74,7 +74,7 @@ label ep213_quests_biff5_makeup_room_photoshoot_completed:
 #    $ miniMapEnabledOnly = []
     $ ep213_presentation2_completed_day = day
     $ monicaOutfitsEnabled[9] = True # активируем регулярную фотосессию
-    call ep215_quests_workers1_init()
+    call ep215_quests_workers1_init() from _rcall_ep215_quests_workers1_init
     $ remove_hook(label="monica_presentation2")
     $ remove_hook(label="presentation2_block")
     $ remove_objective("go_photostudio")

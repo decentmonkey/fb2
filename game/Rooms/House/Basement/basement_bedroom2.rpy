@@ -100,7 +100,7 @@ label basement_bedroom2_init2:
 label basement_bedroom2_teleport:
     if obj_name == "Teleport_Bedroom1":
         if cloth == "Nude":
-            call change_scene("basement_bedroom1", "Fade", "snd_walk_barefoot")
+            call change_scene("basement_bedroom1", "Fade", "snd_walk_barefoot") from _rcall_change_scene_181
             return
         call change_scene("basement_bedroom1") from _call_change_scene_65
         return

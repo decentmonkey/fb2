@@ -17,13 +17,13 @@ label ep215_quests_victoria_melanie2: # Моника проходит мимо �
     if ep212_quests_photoshoot9_after_init_planned == True or week_day == 7 or day_time != "day":
         return
     $ remove_hook(label="ep215_quests_victoria_melanie2")
-    call ep215_dialogues4_julia_1()
-    call ep215_dialogues4_julia_2()
+    call ep215_dialogues4_julia_1() from _rcall_ep215_dialogues4_julia_1
+    call ep215_dialogues4_julia_2() from _rcall_ep215_dialogues4_julia_2
     $ workingOfficeCabinetMonicaSuffix = 2
 #    $ add_hook("before_open", "ep215_quests_victoria_melanie3", scene="working_office_cabinet", label=["ep215_quests_victoria_melanie3", "day_time_temp"])
     $ ep215_victoria_visit_day = day
     $ workingOfficeCabinetMonicaSuffix = 2
-    call change_scene("working_office_cabinet")
+    call change_scene("working_office_cabinet") from _rcall_change_scene_172
     return
 
 #label ep215_quests_victoria_melanie3: # Моника заходит в кабинет
@@ -40,9 +40,9 @@ label ep215_quests_victoria_melanie4: # Виктория приходит к А�
 label ep215_quests_victoria_melanie5:
     $ remove_hook()
     $ ep215_victoria_visit_alex_day = day
-    call ep215_dialogues5_alex_1()
-    call ep215_quests_victoria_melanie6()
-    call change_scene("street_monica_office", "Fade_long", "highheels_run2")
+    call ep215_dialogues5_alex_1() from _rcall_ep215_dialogues5_alex_1
+    call ep215_quests_victoria_melanie6() from _rcall_ep215_quests_victoria_melanie6
+    call change_scene("street_monica_office", "Fade_long", "highheels_run2") from _rcall_change_scene_173
     return False
 
 label ep215_quests_victoria_melanie6: # Виктория приходит к Мелани домой
@@ -52,8 +52,8 @@ label ep215_quests_victoria_melanie6: # Виктория приходит к М�
 
 label ep215_quests_victoria_melanie7:
     $ remove_hook()
-    call ep215_dialogues5_alex_2()
-    call ep215_dialogues5_alex_3()
+    call ep215_dialogues5_alex_2() from _rcall_ep215_dialogues5_alex_2
+    call ep215_dialogues5_alex_3() from _rcall_ep215_dialogues5_alex_3
     $ ep215_victoria_visit_melaniehome_day = day
     $ add_hook("before_open", "ep215_quests_victoria_melanie8", scene="monica_office_cabinet", label="ep215_quests_victoria_melanie8")
     $ add_hook("before_open", "ep215_quests_victoria_melanie8", scene="monica_office_photostudio", label="ep215_quests_victoria_melanie8")
@@ -73,13 +73,13 @@ label ep215_quests_victoria_melanie8: # Моника заходит в лифт 
     $ ep215_victoria_dick_visit_day = day
     sound snd_lift
     fadeblack 1.5
-    call ep215_dialogues5_alex_4()
-    call ep215_dialogues5_alex_5()
-    call ep215_dialogues5_alex_6()
-    call ep215_dialogues5_alex_7()
-    call ep215_dialogues5_alex_8()
+    call ep215_dialogues5_alex_4() from _rcall_ep215_dialogues5_alex_4
+    call ep215_dialogues5_alex_5() from _rcall_ep215_dialogues5_alex_5
+    call ep215_dialogues5_alex_6() from _rcall_ep215_dialogues5_alex_6
+    call ep215_dialogues5_alex_7() from _rcall_ep215_dialogues5_alex_7
+    call ep215_dialogues5_alex_8() from _rcall_ep215_dialogues5_alex_8
     $ move_object("Melanie", "empty")
-    call change_scene("monica_office_photostudio", "Fade_long")
+    call change_scene("monica_office_photostudio", "Fade_long") from _rcall_change_scene_174
     return
 
 

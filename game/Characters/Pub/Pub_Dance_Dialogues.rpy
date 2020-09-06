@@ -316,9 +316,9 @@ label pub_dance_battle_dialogues_react():
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     $ temp1 = stage_Monica_Excitement_Current
     $ stage_Monica_Excitement_Current = (stage_Monica_Excitement_Current + stage_Molly_Excitement_Current)/2
-    call pub_dance_dialogues_excitement_tips()
+    call pub_dance_dialogues_excitement_tips() from _rcall_pub_dance_dialogues_excitement_tips_3
     $ stage_Monica_Excitement_Current = temp1
-    call pub_dance_stage_flash()
+    call pub_dance_stage_flash() from _rcall_pub_dance_stage_flash_9
 #    wclean
 #    $ notif_clean()
     return

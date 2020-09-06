@@ -30,7 +30,7 @@ label street_house_neighbour_init:
 
 label street_house_neighbour_teleport:
     if obj_name == "Teleport_House_Outside":
-        call change_scene("street_house_outside")
+        call change_scene("street_house_outside") from _rcall_change_scene_182
         return
     return
 label street_house_neighbour_environment:

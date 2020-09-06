@@ -288,7 +288,7 @@ label ep215_dialogues1_pub_5:
     # Молли начинает танцевать первая, делает три движения
     # потом Моника выходит, загораживая ее
 #    music musicList[musicOrder[0]]["loop"]
-    call pub_dance_battle1_Molly1()
+    call pub_dance_battle1_Molly1() from _rcall_pub_dance_battle1_Molly1
 
     menu:
         "Теперь моя очередь! Я покажу как надо танцевать!":
@@ -304,7 +304,7 @@ label ep215_dialogues1_pub_5:
     m "Фи!"
     # Моника делает три движения
 #    music musicList[musicOrder[1]]["loop"]
-    call pub_dance_battle1_Monica1()
+    call pub_dance_battle1_Monica1() from _rcall_pub_dance_battle1_Monica1
 #    imgf black_screen
 #    w
 
@@ -333,7 +333,7 @@ label ep215_dialogues1_pub_5:
     imgd 31849
     w
 
-    call pub_dance_battle1_Monica2()
+    call pub_dance_battle1_Monica2() from _rcall_pub_dance_battle1_Monica2
 #    music musicList[musicOrder[1]]["loop"]
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31850
@@ -355,7 +355,7 @@ label ep215_dialogues1_pub_5:
     # Молли тоже снимает жилет и танцует три движения
 
 #    music musicList[musicOrder[2]]["loop"]
-    call pub_dance_battle1_Molly2()
+    call pub_dance_battle1_Molly2() from _rcall_pub_dance_battle1_Molly2
 
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
@@ -390,7 +390,7 @@ label ep215_dialogues1_pub_5:
     w
 
 #    music musicList[musicOrder[3]]["loop"]
-    call pub_dance_battle1_Monica3()
+    call pub_dance_battle1_Monica3() from _rcall_pub_dance_battle1_Monica3
 
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
@@ -413,7 +413,7 @@ label ep215_dialogues1_pub_5:
     w
     # Молли тоже раздевается, танцует, но выигрыша нет, шкала бара у Моники становится выше
 #    music musicList[musicOrder[4]]["loop"]
-    call pub_dance_battle1_Molly3()
+    call pub_dance_battle1_Molly3() from _rcall_pub_dance_battle1_Molly3
 
 
     # Молли зло смотрит на Монику, ее бомбит, Моника спокойна
@@ -437,7 +437,7 @@ label ep215_dialogues1_pub_5:
     w
 
 #    music musicList[musicOrder[5]]["loop"]
-    call pub_dance_battle1_Molly4()
+    call pub_dance_battle1_Molly4() from _rcall_pub_dance_battle1_Molly4
 
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
     # Моника смотрит на нее с отвращением
@@ -1321,7 +1321,7 @@ label ep215_dialogues1_pub_10:
     imgf 31879
     w
 #    music musicList[musicOrder[0]]["loop"]
-    call pub_dance_battle1_Molly5()
+    call pub_dance_battle1_Molly5() from _rcall_pub_dance_battle1_Molly5
 
     # потом Моника выходит, загораживая ее
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
@@ -1345,7 +1345,7 @@ label ep215_dialogues1_pub_10:
     w
     # Моника делает три движения
 #    music musicList[musicOrder[1]]["loop"]
-    call pub_dance_battle1_Monica5()
+    call pub_dance_battle1_Monica5() from _rcall_pub_dance_battle1_Monica5
 #    img black_screen
 #    w
 
@@ -1379,7 +1379,7 @@ label ep215_dialogues1_pub_10:
     w
 
 #    music musicList[musicOrder[1]]["loop"]
-    call pub_dance_battle1_Monica6()
+    call pub_dance_battle1_Monica6() from _rcall_pub_dance_battle1_Monica6
 
     fadeblack 2.0
     music musicList[musicOrder[2]]["intro"]
@@ -1397,7 +1397,7 @@ label ep215_dialogues1_pub_10:
     m "Да пошла ты, жирная корова!"
     # Молли тоже снимает жилет и танцует три движения
 #    music musicList[musicOrder[2]]["loop"]
-    call pub_dance_battle1_Molly6()
+    call pub_dance_battle1_Molly6() from _rcall_pub_dance_battle1_Molly6
     # толпа кричит, что Молли королева, шкала бара у Молли выше
     # 3-й раунд
 
@@ -1435,7 +1435,7 @@ label ep215_dialogues1_pub_10:
     w
 
 #    music musicList[musicOrder[3]]["loop"]
-    call pub_dance_battle1_Monica7()
+    call pub_dance_battle1_Monica7() from _rcall_pub_dance_battle1_Monica7
 
     # толпа орет, что Моника королева
     # Моника торжествующе смотрит на Молли
@@ -1461,7 +1461,7 @@ label ep215_dialogues1_pub_10:
     w
 
 #    music musicList[musicOrder[4]]["loop"]
-    call pub_dance_battle1_Molly7()
+    call pub_dance_battle1_Molly7() from _rcall_pub_dance_battle1_Molly7
 
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     imgf 31908
@@ -1485,7 +1485,7 @@ label ep215_dialogues1_pub_10:
     w
 
 #    music musicList[musicOrder[5]]["loop"]
-    call pub_dance_battle1_Molly8()
+    call pub_dance_battle1_Molly8() from _rcall_pub_dance_battle1_Molly8
 
     # толпа орет, что Молли королева, шкала бара у Молли выше, чем у Моники
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
@@ -1528,7 +1528,7 @@ label ep215_dialogues1_pub_10:
     # высокомерно смотрит на злую Молли
 
 #    music musicList[musicOrder[6]]["loop"]
-    call pub_dance_battle1_Monica8()
+    call pub_dance_battle1_Monica8() from _rcall_pub_dance_battle1_Monica8
 
     show screen love_bar_screen_battle(stage_Monica_Excitement_Last, stage_Monica_Excitement_Current, stage_Molly_Excitement_Last, stage_Molly_Excitement_Current)
     menu:
@@ -1536,7 +1536,7 @@ label ep215_dialogues1_pub_10:
 #            music musicList[musicOrder[6]]["loop"]
             hide screen love_bar_screen_battle
             hide screen poledance_shoot
-            call pub_dance_battle1_Monica9()
+            call pub_dance_battle1_Monica9() from _rcall_pub_dance_battle1_Monica9
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все! (Extra version) (disabled)" if game.extra == False:
             pass
         "Завершить танец.":

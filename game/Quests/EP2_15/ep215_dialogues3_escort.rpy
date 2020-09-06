@@ -453,7 +453,7 @@ label ep215_dialogues3_escort_5:
     # психует
     # одета в одежду для свидания, гримерка, избегает контрастных отражений
     fadeblack
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_62
     img black_screen
     with Dissolve(1)
     sound snd_fabric1
@@ -3486,7 +3486,7 @@ label ep215_dialogues3_escort_21:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Этим вечером..."))
+    call textonblack(t_("Этим вечером...")) from _rcall_textonblack_63
     scene black_screen
     with Dissolve(1)
     # спустя некоторое время
