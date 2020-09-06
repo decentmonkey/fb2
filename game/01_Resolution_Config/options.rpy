@@ -48,6 +48,10 @@ ArminG
 
 Bill Lee
 
+Binnoc9
+
+DJ96
+
 edison123
 
 Ferdixxy
@@ -83,6 +87,8 @@ Ryan
 SimonLee
 
 Stefan Kemske
+
+Taylor Fox
 
 The big Dog
 
