@@ -1,5 +1,5 @@
 #v0.15
-define monicaBiffInvestorDatingAgree1 = 600 # согласие на свидание с инвестором
+define monicaBiffInvestorDatingAgree1 = 550 # согласие на свидание с инвестором
 
 define pubQueenCustomer1CorruptionRequired = 800
 define pubQueenCustomer2CorruptionRequired = 820
