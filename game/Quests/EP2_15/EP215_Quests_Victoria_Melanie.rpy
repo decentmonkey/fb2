@@ -18,16 +18,19 @@ label ep215_quests_victoria_melanie2: # Моника проходит мимо �
         return
     $ remove_hook(label="ep215_quests_victoria_melanie2")
     call ep215_dialogues4_julia_1()
-    $ add_hook("before_open", "ep215_quests_victoria_melanie3", scene="working_office_cabinet", label=["ep215_quests_victoria_melanie3", "day_time_temp"])
-    $ ep215_victoria_visit_day = day
-    call change_scene("working_office")
-    return
-
-label ep215_quests_victoria_melanie3: # Моника заходит в кабинет
-    $ remove_hook()
     call ep215_dialogues4_julia_2()
     $ workingOfficeCabinetMonicaSuffix = 2
+#    $ add_hook("before_open", "ep215_quests_victoria_melanie3", scene="working_office_cabinet", label=["ep215_quests_victoria_melanie3", "day_time_temp"])
+    $ ep215_victoria_visit_day = day
+    $ workingOfficeCabinetMonicaSuffix = 2
+    call change_scene("working_office_cabinet")
     return
+
+#label ep215_quests_victoria_melanie3: # Моника заходит в кабинет
+#    $ remove_hook()
+#    call ep215_dialogues4_julia_2()
+#    $ workingOfficeCabinetMonicaSuffix = 2
+#    return
 
 label ep215_quests_victoria_melanie4: # Виктория приходит к Алексу (у лифта)
     $ ep215_quests_victoria_melanie_inited2 = True
