@@ -112,6 +112,7 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     if ep215_quests_linda_restaurant_dialogue_planned == True:
         $ ep215_quests_linda_restaurant_dialogue_planned = False # встреча с Линдой после того как ее унизили
         $ ep215_quests_linda_restaurant_dialogue_day = day
+        call ep215_dialogues3_escort_22()
         call change_scene("rich_hotel_restaurant", "Fade_long")
         return False
     if ep214_dialogues3_escort_10_flag1 == True:

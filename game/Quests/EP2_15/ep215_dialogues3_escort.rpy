@@ -3647,9 +3647,10 @@ label ep215_dialogues3_escort_22:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Poppers_and_Prosecco
+    music Groove2_85
     imgfl 19780
     linda "ТЫ!"
+    with hpunch
     linda "Как ТЫ, стерва, посмела сделать ЭТО со мной?!"
     # Моника ей равнодушно и небрежно
     imgf 19781
