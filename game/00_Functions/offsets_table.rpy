@@ -3364,7 +3364,19 @@ define offsets_table = {
     "pub_poster1":(160,656,383,807),
     "pub_poster1_overlay":(132,630,412,833),
     "street_whores_place_perry_1":(325,218,709,388),
-    "street_whores_place_perry_1_overlay":(619,235,961,505)
+    "street_whores_place_perry_1_overlay":(619,235,961,505),
+    "street_neighbour_door_mask":(393,601,756,897),
+    "street_house_outside_betty_1":(277,509,878,709),
+    "street_house_outside_betty_1_overlay":(705,429,1079,797),
+    "street_house_outside_betty_2":(278,469,872,702),
+    "street_house_outside_betty_2_overlay":(736,368,1079,698),
+    "street_neighbour_betty_1":(742,778,1068,890),
+    "street_neighbour_betty_1_overlay":(953,528,1079,920),
+    "street_neighbour_betty_2":(741,775,1067,884),
+    "street_neighbour_betty_2_overlay":(955,539,1079,917),
+    "street_neighbour_neighbour_1":(589,884,788,936),
+    "street_neighbour_neighbour_1_overlay":(691,747,817,950),
+    "pub_makeuproom_picture_monicaqueen":(81,589,318,747)
 }
 
 
