@@ -1526,7 +1526,6 @@ label ep215_dialogues1_pub_10:
     # безоговорочная победа Моники, триумф
     # она стоит посреди сцены, обнаженная и без маски
     # высокомерно смотрит на злую Молли
-
 #    music musicList[musicOrder[6]]["loop"]
     call pub_dance_battle1_Monica8() from _rcall_pub_dance_battle1_Monica8
 
@@ -1535,7 +1534,7 @@ label ep215_dialogues1_pub_10:
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все!" if game.extra == True:
 #            music musicList[musicOrder[6]]["loop"]
             hide screen love_bar_screen_battle
-            hide screen poledance_shoot
+#            hide screen poledance_shoot
             call pub_dance_battle1_Monica9() from _rcall_pub_dance_battle1_Monica9
         "Принимать еще более грязные позы. Я должна быть уверена в победе! Я пойду на все! (Extra version) (disabled)" if game.extra == False:
             pass
