@@ -35,7 +35,7 @@ label ep215_dialogues6_citizens_1:
             music Stealth_Groover
             imgl Dial_begin35_16
             mt "Фу, какой он мерзкий!"
-            m "Нет! "
+            m "Нет!"
             m "Я не собираюсь никуда с тобой отходить!"
             music Groove2_85
             imgr Dial_Citizen_14_2
@@ -105,7 +105,7 @@ label ep215_dialogues6_citizens_1:
             mt "Я еще не настолько опустилась!"
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             imgf 32168
-            m "Нет! "
+            m "Нет!"
             m "Мой дом не место для алкашей с улицы!"
             citizen14 "Видимо тебе не нужны ни деньги, ни хорошая выпивка."
             return -1
