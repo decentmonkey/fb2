@@ -504,9 +504,41 @@ label ep215_dialogues5_alex_3:
     w
     imgf 19550
     victoria "Сразу видно, что ей нравится моя киска..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Licking1_3 = Movie(play="video/v_Victoria_Melanie_Licking1_3.mkv", fps=30)
+    show videov_Victoria_Melanie_Licking1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 19551
     victoria "Как же подружке нравится лизать мою киску..."
     victoria "Если подружка будет хорошей, возможно я разрешу ей лизать и мою попу тоже..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Licking1_4 = Movie(play="video/v_Victoria_Melanie_Licking1_4.mkv", fps=30)
+    show videov_Victoria_Melanie_Licking1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Алекс смотрит и начинает возбуждаться
     imgf 19552
     alex_photograph "Мелани?"
@@ -891,8 +923,7 @@ label ep215_dialogues5_alex_3:
     imgf 19604
     victoria "О, да... Какая же ты хорошая, подружка Мелани..."
     # Алекс пристально смотрит и у него начинает вставать
-    imgd 19605
-    w
+
     sound lick3
     imgd 19606
     w
@@ -917,6 +948,22 @@ label ep215_dialogues5_alex_3:
     sound Jump1
     imgd 19612
     alex_photograph "Как же ты меня возбуждаешь, милая... Ооох..."
+
+    imgd 19605
+    victoria "Не забудь облизать мою ножку..."
+    victoria "А то может капнуть и испачкать твой стул. Хи-хи!"
+
+    imgd black_screen
+
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    scene black
+    image videov_Victoria_Melanie_Licking2_1 = Movie(play="video/v_Victoria_Melanie_Licking2_1.mkv", fps=20, loop=False, image="/images/Slides/v_Victoria_Melanie_Licking2_1_end.jpg")
+    show videov_Victoria_Melanie_Licking2_1
+    wclean
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19613
     victoria "Достаточно, подружка Мелани."
     music Groove2_85
@@ -951,12 +998,12 @@ label ep215_dialogues5_alex_3:
     # Мелани зло смотрит на него
     # потом встает и раздевается, ложится на диван на подлокотник (https://cdn.discordapp.com/attachments/625678994083414052/738836379693482004/unknown.png)
     # Алекс ласкает ее грудь, потом гладит ладонью ягодицы
-    fadeblack
+    fadeblack 1.5
     sound highheels_short_walk
     pause 1.5
     sound snd_fabric1
     pause 1.5
-    music Loved_Up
+    music2 Loved_Up
     imgfl 19620
     w
     imgf 19621
@@ -981,7 +1028,7 @@ label ep215_dialogues5_alex_3:
     alex_photograph "Ты самая красивая женщина на свете, Мелани!"
     alex_photograph "С тобой никто не сравнится!"
     # Мелани бросает злорадный взгляд на Викторию
-    music Loved_up2
+    music2 Loved_up2
     imgd 19628
     alex_photograph "О, моя Мелани!!"
     sound chpok6
@@ -990,36 +1037,130 @@ label ep215_dialogues5_alex_3:
     # Алекс входит в Мелани
     # Виктория в это время спрашивает
 #    sound ahhh1
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_1 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_1.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 19630
     victoria "Алекс, а когда мне приходить на мою фотосессию?"
     # он не обращает на нее внимания
 #    sound ahhh1
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_2 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_2.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19631
     alex_photograph "Меланиии... Моя богиня..."
     imgd 19632
     victoria "Алекс! Ты меня слышишь?"
     # он не совсем доволен, что она его отвлекает
-    music Power_Bots_Loop
-    imgf 19633
+    music2 Power_Bots_Loop
+    img 19633 vpunch
     alex_photograph "Что?!"
-    music Groove2_85
+    music2 Groove2_85
     imgd 19634
     victoria "Когда мне приходить на фотосессию?"
-    alex_photograph "Я смогу провести ее на днях..."
     # отворачивается от Виктории и снова все внимание на Мелани
-    music Loved_up2
+    music2 Loved_up2
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_3 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_3.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_3
+    with fade
+    alex_photograph "Я смогу провести ее на днях..."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 19635
     alex_photograph "Ммммм..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_4 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_4.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Виктория снова говорит Алексу
     #sound ahhh1
     imgd 19636
     victoria "Алекс, я позвоню тебе, чтобы договариться о встрече в фотостудии."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_5 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_5.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # забирает со стола свой телефон и направляется к выходу
     sound highheels_short_walk
     imgf 19637
     victoria "Подружка Мелани."
     victoria "Спасибо за такое классное видео."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Victoria_Melanie_Alex_Sex1_1.ogg"
+    scene black
+    image videov_Victoria_Melanie_Alex_Sex1_6 = Movie(play="video/v_Victoria_Melanie_Alex_Sex1_6.mkv", fps=30)
+    show videov_Victoria_Melanie_Alex_Sex1_6
+    with fade
     victoria "Теперь я буду его пересматривать по вечерам, подружка."
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    music2 stop
     fadeblack 1.5
     pause 1.5
     # уходит, затемнение

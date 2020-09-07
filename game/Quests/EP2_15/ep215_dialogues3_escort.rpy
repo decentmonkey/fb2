@@ -3135,6 +3135,7 @@ label ep215_dialogues3_linda_punishment:
     mt "Знай свое место, шлюшка!"
     mt "!!!"
     # Моника смотрит на Олафа
+label video_test1:
     fadeblack 2.0
     music2 Loved_Up
     imgfl 40170
@@ -3252,6 +3253,37 @@ label ep215_dialogues3_linda_punishment:
     m "Продолжай!"
     imgf 40179
     linda "!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_1 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_1.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_1
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_2 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_2.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_2
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # сам смотрит на Монику и на то, как Линда лижет ее киску
     imgd 40180
     olaf "Оооо, Мэм..."
@@ -3259,15 +3291,110 @@ label ep215_dialogues3_linda_punishment:
     imgf 40181
     olaf "Даа, Мэээм..."
     olaf "Аааа..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_3 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_3.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_3
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 40182
     olaf "Как я мечтаю попробовать вашу киску, Мэм!!!"
     olaf "Ммммм..."
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_4 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_4.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_4
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 40183
     olaf "Киску самой Миссис...!!!"
     m "Олаф, молчать!"
     imgd 40184
     olaf "О, дааа..."
     olaf "О, Мэээээм!!!"
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_5 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_5
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_6 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_6
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_7 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_7
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
+    scene black
+    image videov_Visitor2_Monica_Investor2_Sex1_8 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    show videov_Visitor2_Monica_Investor2_Sex1_8
+    with fade
+    wclean
+    stop music
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgd 40185
     olaf "Оооо!"
     olaf "Я сейчас кончу!!!"
