@@ -1319,11 +1319,11 @@ label pub_dance_battle1_Monica8_loop:
         $ pose = "Monica8"
         if result == "up":
             scene black
-            image videov_StripBattle1_Monica8A = Movie(play="video/v_StripBattle1_Monica8B.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8B_end.jpg")
+            image videov_StripBattle1_Monica8A = Movie(play="video/v_StripBattle1_Monica8A.mkv", fps=20, loop=False, image="/images/Slides/v_StripBattle1_Monica8A_end.jpg")
             show videov_StripBattle1_Monica8A
             pause 1.8
             hide videov_StripBattle1_Monica8A
-            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8B_end.jpg")
+            show screen poledance_shoot("/images/Slides/v_StripBattle1_Monica8A_end.jpg")
             wclean
             $ pub_dance_dialogues_set_excitement_monica(20)
             $ pub_dance_dialogues_set_excitement_molly(-20)
