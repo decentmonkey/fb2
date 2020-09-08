@@ -3143,7 +3143,6 @@ label ep215_dialogues3_linda_punishment:
     mt "Никому не нужная и ничего из себя не представляющая!"
     mt "Знай свое место, шлюшка!"
     mt "!!!"
-label video_test1:
     # Моника смотрит на Олафа
     fadeblack 2.0
     music2 Loved_Up
