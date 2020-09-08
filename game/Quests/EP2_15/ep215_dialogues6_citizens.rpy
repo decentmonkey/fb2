@@ -234,6 +234,7 @@ label ep215_dialogues6_citizens_1:
             fadeblack
             sound snd_door_locked1
             pause 1.5
+            $ blur_effect = 0
             return -2
         "Видимо этот неудачник не отстанет от меня...":
             $ monicaCitizens14Slums2 = True # Моника согласилась выпить стопку за один бакс
@@ -410,6 +411,7 @@ label ep215_dialogues6_citizens_1:
     w
     $ add_money(1.0)
     fadeblack 1.5
+    $ blur_effect = 0
     return 1
 
 label ep215_dialogues6_citizens_1b:

@@ -52,6 +52,7 @@ label ep215_quests_pub3_molly2:
     call ep215_dialogues1_pub_4() from _rcall_ep215_dialogues1_pub_4
     call ep215_dialogues1_pub_5() from _rcall_ep215_dialogues1_pub_5
     call ep215_dialogues1_pub_7() from _rcall_ep215_dialogues1_pub_7
+    $ remove_objective("go_dance")
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ monicaDancedLastDay = day
     $ ep215_quests_ashley_dialogue1_active = True
