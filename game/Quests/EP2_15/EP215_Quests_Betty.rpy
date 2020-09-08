@@ -93,6 +93,8 @@ label ep215_quests_betty2_talk_neighbour:
     return False
 
 label ep215_quests_betty3_init:
+    if week_day == 6:
+        return
     $ remove_hook()
     # второй приход к соседу
     $ street_house_neighbour_betty_suffix = 2
