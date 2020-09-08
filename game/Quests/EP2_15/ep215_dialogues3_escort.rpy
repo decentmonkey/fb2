@@ -2327,21 +2327,27 @@ label ep215_dialogues3_escort_14:
     mt "Нужно отвлечься!!"
     mt "О чем подумать?!"
     mt "?!"
+    $ renpy.music.set_volume(0.5, 0.5, channel="music")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     imgf 40081
     w
-    sound hlup25
+    sound hlup2
     imgd 40082
     olaf "Я вижу, как Вы этого желаете..."
+    sound hlup25
     imgd 40081
     w
-    sound hlup25
+    sound hlup2
     imgd 40082
     w
+    sound hlup25
     imgd 40081
     w
-    sound hlup25
+    sound hlup2
     imgd 40082
     w
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 40083
     olaf "Дааа... Ваша киска уже вся мокрая..."
     # прислоняет головку члена к ее киске и вводит на пол шишечки
@@ -2360,7 +2366,6 @@ label ep215_dialogues3_escort_14:
     sound2 ahhh5
     img 40086 vpunch
     olaf "Аааа..."
-
     img black_screen
     with diss
     stop music
@@ -2402,6 +2407,10 @@ label ep215_dialogues3_escort_14:
     sound ahhh7
     imgd 40089
     mt "Оно нарастает!"
+    show screen photoshot_screen()
+#    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
     mt "Как волна!!!"
 
     img black_screen
@@ -3134,8 +3143,8 @@ label ep215_dialogues3_linda_punishment:
     mt "Никому не нужная и ничего из себя не представляющая!"
     mt "Знай свое место, шлюшка!"
     mt "!!!"
-    # Моника смотрит на Олафа
 label video_test1:
+    # Моника смотрит на Олафа
     fadeblack 2.0
     music2 Loved_Up
     imgfl 40170
@@ -3356,7 +3365,7 @@ label video_test1:
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
     scene black
-    image videov_Visitor2_Monica_Investor2_Sex1_6 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    image videov_Visitor2_Monica_Investor2_Sex1_6 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_6.mkv", fps=30)
     show videov_Visitor2_Monica_Investor2_Sex1_6
     with fade
     wclean
@@ -3371,7 +3380,7 @@ label video_test1:
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
     scene black
-    image videov_Visitor2_Monica_Investor2_Sex1_7 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    image videov_Visitor2_Monica_Investor2_Sex1_7 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_7.mkv", fps=30)
     show videov_Visitor2_Monica_Investor2_Sex1_7
     with fade
     wclean
@@ -3386,7 +3395,7 @@ label video_test1:
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     play music "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Visitor2_Monica_Investor2_Sex1_1.ogg"
     scene black
-    image videov_Visitor2_Monica_Investor2_Sex1_8 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_5.mkv", fps=30)
+    image videov_Visitor2_Monica_Investor2_Sex1_8 = Movie(play="video/v_Visitor2_Monica_Investor2_Sex1_8.mkv", fps=30)
     show videov_Visitor2_Monica_Investor2_Sex1_8
     with fade
     wclean

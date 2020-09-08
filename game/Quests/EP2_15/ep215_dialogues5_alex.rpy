@@ -958,6 +958,7 @@ label ep215_dialogues5_alex_3:
     $ renpy.music.set_volume(0.5, 0.5, channel="music")
     $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     scene black
+    sound v_Victoria_Melanie_Licking2_1
     image videov_Victoria_Melanie_Licking2_1 = Movie(play="video/v_Victoria_Melanie_Licking2_1.mkv", fps=20, loop=False, image="/images/Slides/v_Victoria_Melanie_Licking2_1_end.jpg")
     show videov_Victoria_Melanie_Licking2_1
     wclean
