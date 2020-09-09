@@ -61,7 +61,7 @@ python early:
             imagePath = "images/Slides/img_" + imagePathExt[1] + ".jpg"
         else:
             imagePath = imagePathExt[0]
-        if renpy.exists(imagePath) == False:
+        if renpy.exists(imagePath) == False and not renpy.android:
             imagePath = "images/Overlays/black_screen.jpg"
 
         check_achievement(imagePathExt[1])
