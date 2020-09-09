@@ -110,7 +110,7 @@ label pub_dance_joe_after:
             return False
         return
     if monicaAshleyTalkedAboutSharingTipsDay < day and monica_shared_tips_with_ashley_last_day != day:
-        if ep213_quests_monica_punished_for_stealing_molly_tips == True:
+        if ep213_quests_monica_punished_for_stealing_molly_tips == True and monica_shiny_hole_queen_day == 0: # если Моника королева, то наказаний нет!
             call ep213_dialogues3_pub_5() from _rcall_ep213_dialogues3_pub_5_1
         else:
             call dialogue_5_dance_strip_22() from _rcall_dialogue_5_dance_strip_22_1

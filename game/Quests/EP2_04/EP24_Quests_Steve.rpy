@@ -140,6 +140,8 @@ label ep24_quests_steve8:
 label ep24_quests_steve9:
     if monicaRestHouse != True:
         return
+    if monicaAskedVictoriaAboutSteveMoney == True or monicaHasSexWithSteveBasement == True: # фикс
+        return
     # Инициализация второго посещения Стива (вешается у Бетти в квестах)
     if week_day == 6: #Если суббота, то пропускаем до следующей субботы
         return
@@ -492,6 +494,8 @@ label ep24_quests_steve30:
 label ep24_quests_steve31:
     # Включение блокировки фотосессий
     $ remove_hook()
+    if monicaAskedVictoriaAboutSteveMoney == True or monicaHasSexWithSteveBasement == True: # фикс
+        return
     $ photoShootDisabledNextWeek = False
     $ add_hook("photoshoots_work_available_check", "ep24_quests_steve32", scene="global", label="steve_photosessions_block")
     $ add_hook_day("ep24_quests_steve33", week_day=6) # включаем в субботу
@@ -513,6 +517,8 @@ label ep24_quests_steve34:
     if act=="l":
         return
     if cloth != "Governess":
+        return
+    if monicaAskedVictoriaAboutSteveMoney == True or monicaHasSexWithSteveBasement == True: # фикс
         return
     call ep24_dialogues3_steve14() from _call_ep24_dialogues3_steve14
     if _return == False:
@@ -537,6 +543,7 @@ label ep24_quests_steve34:
     return False
 
 label ep24_quests_steve35: # Предварительная инициализация прихода Стива во второй раз по таймауту дней
+    return
     $ photoShootDisabledNextWeek = True
     $ add_hook_day("ep24_quests_steve31", week_day=6) # включаем в субботу
     $ add_hook("change_time_day", "ep24_quests_steve9", scene="global") # Запускаем приход Стива во второй раз
