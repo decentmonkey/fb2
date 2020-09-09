@@ -98,6 +98,7 @@ label show_game_updater:
     with diss
     pause 0.1
     $ updateError = False
+    $ print updateDataURL
     $ updateDataRaw = get_url_data(updateDataURL)
     if updateDataRaw == False:
         $ updateError = True
