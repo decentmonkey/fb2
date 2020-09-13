@@ -84,6 +84,7 @@ label ep215_quests_betty2_talk_neighbour:
     $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
     $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
     $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
+    $ move_object("Betty", "empty")
     if ep215_betty_floor2 == True:
         $ move_object("Betty", "floor2")
 
@@ -143,6 +144,7 @@ label ep215_quests_betty3_enter_door:
     $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
     $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
     $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
+    $ move_object("Betty", "empty")
     if ep215_betty_floor2 == True:
         $ move_object("Betty", "floor2")
 

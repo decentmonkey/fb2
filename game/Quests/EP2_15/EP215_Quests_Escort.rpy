@@ -19,6 +19,13 @@ label ep215_quests_esort1_init:
     return
 
 label ep215_quests_escort2:
+    if ep213_presentation2_completed_day == 0: #EP25 hotfix1
+        $ ep215_quests_escort_initialized = False
+        $ ep215_quests_escort_initialized_day = 0
+        $ remove_hook()
+        $ remove_hook(label="ep215_quests_escort2_repeat")
+        return
+
     # Моника заходит в кабинет Бифа и видит обнаженную Кристину
     if day_time != "evening" or day == ep215_quests_escort_initialized_day:
         return
