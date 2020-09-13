@@ -53,6 +53,13 @@ label ep215_quests_escort2_repeat_comment:
     return
 
 label ep215_quests_escort2_repeat: # повторный приход к Бифу (если отказалась)
+    if ep213_presentation2_completed_day == 0: #EP25 hotfix1
+        $ ep215_quests_escort_initialized = False
+        $ ep215_quests_escort_initialized_day = 0
+        $ remove_hook()
+        $ remove_hook(label="ep215_quests_escort2_repeat")
+        return
+
     if ep215_quests_escort_repeat1_day == day:
         return
 
