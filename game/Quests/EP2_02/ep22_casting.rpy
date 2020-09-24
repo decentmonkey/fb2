@@ -699,7 +699,11 @@ label ep22_casting:
                             $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
                     "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
                         pass
+                    "Сесть на стол спиной к Бифу.":
+                        pass
                     "Сесть на стол спиной к Бифу. (disabled)":
+                        pass
+                    "Сесть на стол, достать член Бифа и взять его в рот.":
                         pass
                     "Сесть на стол, достать член Бифа и взять его в рот. (disabled)":
                         pass
