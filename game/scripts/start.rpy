@@ -56,6 +56,9 @@ label start:
 
 ##################
 
+#    call ep216_dialogues2_escort_1() # Моника сидит за столиком в ресторане, разговор с официанткой
+
+
 ###################
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
