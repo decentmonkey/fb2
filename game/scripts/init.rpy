@@ -541,6 +541,7 @@ default clickHoldLastTime = 0
 default clickHoldLastMouseX = 0
 default clickHoldLastMouseY = 0
 default screenActionHappened = False
+default obj_name = ""
 
 default bitchmeterValue = 0
 default bitchmeter_places = {}
