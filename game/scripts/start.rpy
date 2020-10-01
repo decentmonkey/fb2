@@ -64,6 +64,12 @@ label start:
     #call ep216_dialogues4_fred_6() # Моника при клике на Фреда после его визита к Юлии в квартиру, мысли
     #call ep216_dialogues4_fred_7() # рабочий кабинет Моники, h-сцена с Юлией в офисе
 
+    #call ep216_dialogues1_bardie_1() # Барди подходит к Монике во время уборки в доме
+    #call ep216_dialogues1_bardie_1b() # мысли Моники, движок
+    #call ep216_dialogues1_bardie_1c() # Моника заходит к Барди в комнату
+    #call ep216_dialogues1_bardie_2() # Моника убежала, мысли
+    #call ep216_dialogues1_bardie_3() # Моника дала денег Барди, мысли
+    #call ep216_dialogues1_bardie_4() # Моника участвовала в трансляции веб-кам, мысли
 
 ###################
     call intro_questions() from _call_intro_questions
