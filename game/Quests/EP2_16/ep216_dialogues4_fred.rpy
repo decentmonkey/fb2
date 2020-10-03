@@ -22,7 +22,6 @@ label ep216_dialogues4_fred_1:
     imgf 32400
     julia "Ох, Миссис Бакфетт, это было восхитительно!"
     julia "Мммм... Какое хорошее начало дня!"
-    music Stealth_Groover
     imgd 32401
     mt "Еще бы!"
     mt "Какой-то бывшей никчемной гувернантке ее хозяйка и ее Босс делает ТАКОЕ!"
@@ -56,15 +55,14 @@ label ep216_dialogues4_fred_1:
     m "У кого-то есть ключи от твоей квартиры?!"
     julia "Н-нет..."
     # Моника с кровати
-    imgd 32406
     sound Jump1
+    imgd 32406
     w
     # звук пластинка
     music stop
     sound plastinka1b
     img 32407 hpunch
     m "ФРЕД?!"
-    music Power_Bots_Loop
     m "!!!"
     m "!!!!!"
     julia "Ой..."
@@ -395,7 +393,7 @@ label ep216_dialogues4_fred_7:
     img 32439 hpunch
     w
     # у Моники шок
-    music Pyro_Flow
+    music Power_Bots_Loop
     imgd 32440
     mt "!!!"
     mt "!!!!!"
@@ -436,10 +434,10 @@ label ep216_dialogues4_fred_7:
     imgd 32445
     mt "АААААА!"
     mt "!!!"
-    music Hidden_Agenda
     mt "Так, спокойно!"
     mt "Моника, думай про свою цель: получить свободу и закончить этот кошмар."
     mt "Ты не должна дать ей повод усомниться в своих чувствах."
+    music Hidden_Agenda
     imgf 32446
     m "..."
     m "Конечно, мне понравилось целовать твою попу, милая."
@@ -568,12 +566,10 @@ label ep216_dialogues4_fred_7:
     m "!!!!!"
     # Юлия вскакивает с дивана и поправляет платье
     # Моника садится на диван и в этот момент заходит серая мышка в очках
-    fadeblack
-    sound highheels_run2
-    pause 1.5
-    music Groove2_85
-    imgfl 32466
+    sound Jump2
+    imgd 32466
     w
+    music Groove2_85
     imgf 32467
     w1 "Ой, М-миссис Бакфетт..."
     w1 "Я Вам не помешала?"
@@ -595,8 +591,8 @@ label ep216_dialogues4_fred_7:
     # серая мышка испуганно выбегает
     # Моника злая
     fadeblack
-    sound snd_door_close1
-    sound2 highheels_run1
+    sound highheels_run1
+    sound2 snd_door_close1
     pause 1.5
     music Groove2_85
     imgfl 32470
