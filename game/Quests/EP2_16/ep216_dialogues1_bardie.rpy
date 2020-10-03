@@ -100,6 +100,9 @@ label ep216_dialogues1_bardie_1c:
         sound highheels_run2
         imgf 32330
         w
+        fadeblack
+        sound highheels_run2
+        pause 1.5
         # Моника убегает
         return False  # квест можно будет возобновить при условии, что Моника будет без трусиков и сама придет к Барди в комнату
     menu:
@@ -112,6 +115,9 @@ label ep216_dialogues1_bardie_1c:
             sound highheels_run2
             imgf 32330
             w
+            fadeblack
+            sound highheels_run2
+            pause 1.5
             # Моника убегает
             return False
     music Pyro_Flow
@@ -291,13 +297,17 @@ label ep216_dialogues1_bardie_1c:
             bardie "Раз ты хочешь дать хозяину денег, то можешь не показывать свою киску на камеру."
             bardie "Даже хорошо, что эту киску видел только я."
             # если был ликинг с Эриком
-            $ notif(_("Моника показывала свою киску однокласснику Барди."))
-            imgd 32329
-            bardie "Ну и Эрик еще..."
-            m "!!!"
+            if ep28_monica_eric_meeting_completed == True:
+                $ notif(_("Моника показывала свою киску однокласснику Барди."))
+                imgd 32329
+                bardie "Ну и Эрик еще..."
+                m "!!!"
             #
             imgd 32358
             bardie "Хорошо, гувернантка. Давай деньги!"
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
             # Барди протягивает руку
             # затемнение, минус двести баксов у Моники
             $ monicaBardieWebCam3 = True # Моника отдала Барди 200 баксов и не работала веб-кам моделью
@@ -433,8 +443,9 @@ label ep216_dialogues1_bardie_1c:
     bardie "Гувернантка, не переживай."
     bardie "Я сделаю пару фото на память. Для себя..."
     # если был ликинг с Эриком
-    $ notif(_("Моника показывала свою киску однокласснику Барди."))
-    bardie "И для Эрика."
+    if ep28_monica_eric_meeting_completed == True:
+        $ notif(_("Моника показывала свою киску однокласснику Барди."))
+        bardie "И для Эрика."
     #
     music Power_Bots_Loop
     img 32378 hpunch
@@ -442,7 +453,8 @@ label ep216_dialogues1_bardie_1c:
     m "!!!"
     music Sneaky_Snitch
     bardie "Да ладно тебе!"
-    bardie "Чего мы там с Эриком не видели?! Ха-ха!"
+    if ep28_monica_eric_meeting_completed == True:
+        bardie "Чего мы там с Эриком не видели?! Ха-ха!"
     bardie "Расставляй ноги шире, гувернантка! Не заставляй ждать нашего коллекционера!"
     menu:
         "Раздвинуть ноги.":

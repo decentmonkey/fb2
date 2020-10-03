@@ -213,3 +213,5 @@ define liam = Character(t_("Лиам"), who_color=c_green) #Neighbor Лиам
 define olaf = Character(t_("Олаф"), who_color=c_blue)
 define charlotte = Character(t_("Шарлотт"), who_color=c_red)
 define mia = Character(t_("Мия"), who_color=c_pink)
+
+define stranger = Character(t_("Незнакомец"), who_color=c_green) #stranger с веб-кам
