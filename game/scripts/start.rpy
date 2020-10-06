@@ -56,7 +56,9 @@ label start:
 
 ##################
 
-    #call ep216_dialogues4_fred_1() # в квартире Юлии после утреннего секса, приходит Фред
+
+#    call ep216_dialogues0_biff2() # Сесть на стол, достать член Бифа и взять его в рот
+
 
 ###################
     call intro_questions() from _call_intro_questions
