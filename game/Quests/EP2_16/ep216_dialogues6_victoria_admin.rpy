@@ -484,6 +484,8 @@ label ep216_dialogues6_victoria_admin_4:
     w
     img 32628
     w
+    img 32715
+    w
     img 32629
     mt "О Боже!"
     img 32630
