@@ -57,8 +57,11 @@ label start:
 ##################
 
 
+#call ep216_dialogues3_citizens_1() # сцена с парнем в синей куртке
+#call ep216_dialogues3_citizens_4() # сцена с геем
 
-#    call ep216_dialogues0_biff2() # Сесть на стол, достать член Бифа и взять его в рот
+#call ep216_dialogues5_victoria_1() # офис, кабинет Моники, разговор с Юлией
+#call ep216_dialogues5_victoria_4() # сцена в апартаментах Виктории
 
 
 ###################
