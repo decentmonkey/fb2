@@ -66,7 +66,8 @@ label ep216_dialogues3_citizens_1:
     m "!!!"
     imgd 12411
     citizen15 "А ты нетерпеливая, крошка..."
-    imgf 40338
+#    sound Jump1
+    imgd 40338
     w
     # подмигивает Монике
     imgd 40339
@@ -81,7 +82,7 @@ label ep216_dialogues3_citizens_1:
     m "А я здесь при чем?!"
 
     if monicaCitizensPunksBlowjob1 == True:
-    # если Моника приводила домой панков
+        # если Моника приводила домой панков
         imgf 13768
         citizen15 "Мне два чувака сказали, что у тебя есть хата..."
         citizen15 "Которую тебе арендует твой сутенер."
@@ -204,18 +205,14 @@ label ep216_dialogues3_citizens_1:
     # подруга чувака огрядывается с пренебрежительным видом
     scene black_screen
     with Dissolve(1)
-    stop music fadeout 1.0
+    music stop
     call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     sound snd_door_knock
     pause 1.5
-    sound snd_walk_barefoot
-    pause 2.0
     sound snd_door_open1
-    pause 1.5
-    sound snd_door_locked1
-    pause 1.0
+    pause 2.0
     music Groove2_85
     imgfl 40345
     w
@@ -315,7 +312,7 @@ label ep216_dialogues3_citizens_1:
         m "Да, хорошо, что не купила..."
         m "Это платье хорошо сидит только на такой идеальной фигуре, как у меня."
         m "На тебе оно ужасно смотрелось!"
-    #
+        #
     # Моника зло на нее смотрит
     music Power_Bots_Loop
     imgd 40365
@@ -731,7 +728,9 @@ label ep216_dialogues3_citizens_1:
                     sound snd_door_locked1
                     pause 2.0
                     return False
-                "Мне нужны деньги.":
+                "Мне нужны деньги. (in Extra version) (disabled)" if game.extra != True:
+                    pass
+                "Мне нужны деньги." if game.extra == True:
                     music Pyro_Flow
                     imgd 40433
                     mt "Мне противно даже думать о том, что я буду прикасаться к его грязному отростку!"
@@ -851,6 +850,7 @@ label ep216_dialogues3_citizens_1:
                             pause 0.7
                             hide screen photoshot_screen
                             sound man_moan8
+                            w
                             # Моника зло смотрит на него
                             fadeblack 1.5
                             music Pyro_Flow
@@ -1245,7 +1245,7 @@ label ep216_dialogues3_citizens_1:
                     # Моника выходит в гостиную, чувак с подругой уже одетые
                     scene black_screen
                     with Dissolve(1)
-                    stop music fadeout 1.0
+                    music stop
                     call textonblack(t_("Несколько минут спустя..."))
                     scene black_screen
                     with Dissolve(1)
@@ -1372,7 +1372,7 @@ label ep216_dialogues3_citizens_1:
             # Моника идет к выходу, оказывается на улице
             return
     # Моника заходит в гостиную, смотрит недовольно на парочку
-    music Pyro_Flow
+    music Groove2_85
     imgf 32546
     mt "Чего ему от меня надо?"
     mt "???"
@@ -1449,11 +1449,12 @@ label ep216_dialogues3_citizens_1:
     mt "Она ведь сама меня просит помочь ему..."
     mt "Тем более, она все равно не знает, кто я такая на самом деле."
     # если Моника работала манекеном в магазине
-    #
-    $ notif(_("Моника работала манекеном в магазине одежды."))
-    #
-    mt "Она думает, что я просто какая-то никчемная продавщица в магазине одежды."
-    #
+    if monicaAgreedToSellDress == True:
+        #
+        $ notif(_("Моника работала манекеном в магазине одежды."))
+        #
+        mt "Она думает, что я просто какая-то никчемная продавщица в магазине одежды."
+        #
     mt "Черт!"
     m "..."
     music Groove2_85
@@ -1535,7 +1536,7 @@ label ep216_dialogues3_citizens_1:
     citizen15 "Соси мой огромный член!"
     imgd 32581
     citizen15 "Давай, детка..."
-    sound chavc6
+    sound chpok6
     imgd 32582
     citizen15 "Оооо..."
     citizen15 "Как Бэби старательно сосет! Да!"
@@ -1850,6 +1851,7 @@ label ep216_dialogues3_citizens_3:
 # при клике на гея (Angelo)
 label ep216_dialogues3_citizens_4:
     # не рендерить, рендерить чуть ниже!
+    music Groove2_85
     imgr Dial_Citizen_13_3
     citizen13 "Ой, подруга, привет!"
     citizen13 "Ты не поверишь, я только что вспоминал тебя!"

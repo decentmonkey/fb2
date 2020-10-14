@@ -181,7 +181,7 @@ label ep216_dialogues5_victoria_4:
     # Виктория встречает Монику в холле, мило улыбается ей
     scene black_screen
     with Dissolve(1)
-    stop music fadeout 1.0
+    music stop
     call textonblack(t_("Спустя некоторое время..."))
     scene black_screen
     with Dissolve(1)
