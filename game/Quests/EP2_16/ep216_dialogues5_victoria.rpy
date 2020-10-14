@@ -49,9 +49,11 @@ label ep216_dialogues5_victoria_1:
         imgd 30585
         m "Что?"
         #
+    fadeblack
+    sound highheels_run1
+    pause 1.5
     music Groove2_85
     imgf 30627
-    sound highheels_short_walk
     julia "Звонила Мисс Виктория..."
     julia "Просила передать Вам, что ждет Вас у себя."
     imgd 40265
@@ -90,7 +92,7 @@ label ep216_dialogues5_victoria_1:
         m "Очень милая девушка."
         m "Я рада, что ты с ней подружилась..."
         # Юлия игриво
-        music Groove2_85
+    #    music Groove2_85
         imgd 40271
         julia "А Вы возьмете меня с собой в гости к ней, Миссис Бакфетт?"
         m "Сейчас?"
@@ -105,17 +107,19 @@ label ep216_dialogues5_victoria_1:
         imgd 40273
         m "Конечно, милая."
         # Юлия довольно чмокает Монику в губы и уходит на свое рабочее место
+        fadeblack 1.5
+        music Loved_up
+        imgfl 40274
         sound kiss2
-        imgd 40274
         w
         imgf 40275
         sound highheels_short_walk
         w
-        music Pyro_Flow
+    #    music Pyro_Flow
         imgd 40276
-        mt "ААААА!!!"
+    #    mt "ААААА!!!"
         mt "БЕСИТ!!!"
-        mt "!!!"
+    #    mt "!!!"
         #
     else:
         # если у Моники нет отношений с Юлией
@@ -129,13 +133,13 @@ label ep216_dialogues5_victoria_1:
         imgd 40278
         julia "Д-да, Миссис Бакфетт..."
         imgf 22338
-        sound highheels_run1
+        sound highheels_short_walk
         w
         # Юлия уходит на свое рабочее место
         #
     # Моника в панике
     fadeblack 1.5
-    music Pyro_Flow
+    music Master_Disorder
     imgfl 40280
     mt "Эта белобрысая стерва будет мстить за наш разговор с Диком!"
     mt "!!!"
@@ -241,17 +245,17 @@ label ep216_dialogues5_victoria_4:
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
-    imgfl 40523
+    imgf 40523
     victoria "Проходи, подружка Моника."
-    imgf 40524
+    imgd 40524
     mt "Неплохо устроилась эта белобрысая сикалявка!"
     mt "Наверное это Дик за все платит!"
     # смена кадра на гостиную
     # Моника заходит в гостиную, не сразу обращает внимание на стол
-    fadeblack
+#    fadeblack
     sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
+#    pause 2.0
+#    music Groove2_85
     imgf 40525
     victoria "Присаживайся за стол, подружка."
     victoria "Я хочу выпить с тобой вина..."
@@ -261,8 +265,8 @@ label ep216_dialogues5_victoria_4:
     sound plastinka1b
     img 40526 hpunch
     mt "!!!"
-    mt "!!!!!"
     music Power_Bots_Loop
+    mt "!!!!!"
     img 40527 hpunch
     mt "О БОГИ!!!"
     mt "Мелани!!!"
@@ -277,7 +281,6 @@ label ep216_dialogues5_victoria_4:
     victoria "Ах да, подружка Моника, я совсем забыла сказать тебе..."
     victoria "Подружка Мелани пришла немного раньше тебя..."
     victoria "И мы с ней поиграли немного без тебя..."
-#    sound snd_woman_laugh3
     imgd 40530
     victoria "Надеюсь что ты не расстроишься из-за того, что не смогла поучавствовать?"
     victoria "Я ведь знаю ты так любишь наши маленькие дружеские игры!"
@@ -288,7 +291,7 @@ label ep216_dialogues5_victoria_4:
     mt "Если она так с Мелани..."
     mt "Что?.. Что эта дрянь приготовила для меня?!"
     mt "!!!"
-    music Groove2_85
+#    music Groove2_85
     imgd 40532
     m "Н-немного?"
     victoria "Да, совсем чуть-чуть. Ты ведь не против?"
@@ -297,7 +300,7 @@ label ep216_dialogues5_victoria_4:
     # Виктория снова смотрит на Монику и протягивает ей бокал с вином
     # Моника берет его в руки
     fadeblack 1.5
-    music Groove2_85
+    music Master_Disorder
     imgfl 40533
     w
     imgf 40534
@@ -305,7 +308,6 @@ label ep216_dialogues5_victoria_4:
     imgd 40535
     mt "Я не хочу ничего пробовать из рук этой твари..."
     mt "Нужно просто сделать вид, что я пью..."
-    music Master_Disorder
     imgf 40536
     victoria "Я не слышу ответа, подружка..."
     victoria "Скажи мне, я хочу услышать."
@@ -315,7 +317,7 @@ label ep216_dialogues5_victoria_4:
         "Я не против.":
             pass
     # Моника смотрит на Викторию с отвращением
-    music Pyro_Flow
+#    music Pyro_Flow
     imgd 40538
     mt "Я хочу, чтобы она отстала от меня!"
     mt "Я хочу уйти отсюда! Поскорее!"
@@ -323,11 +325,12 @@ label ep216_dialogues5_victoria_4:
     mt "Мерзкая лицемерная тварь!"
     mt "Извращенка, которая прикидывается невинной девочкой!"
     mt "!!!"
-    music Groove2_85
+#    music Groove2_85
     imgf 40539
     m "Я не обижаюсь... подружка..."
     m "Я не против, что вы... поиграли без меня..."
     # Виктория довольно хихикает, потом указывает на стол
+    sound snd_woman_laugh3
     imgd 40540
     victoria "Подружка Моника хорошая."
     victoria "Присаживайся."
@@ -340,7 +343,7 @@ label ep216_dialogues5_victoria_4:
     music Groove2_85
     imgfl 40541
     w
-    sound Jump1
+#    sound Jump1
     imgf 40706
     w
     imgd 40542
@@ -351,7 +354,6 @@ label ep216_dialogues5_victoria_4:
     imgd 40705
     sound snd_woman_laugh3
     victoria "Хи-хи-хи!"
-    w
     imgf 40543
     victoria "Она призналась мне, что ей это очень нравится."
     fadeblack 1.5
@@ -639,7 +641,9 @@ label ep216_dialogues5_victoria_4:
     imgd 40602
     m "!???!?"
     menu:
-        "Осудить Мелани и воткнуть розу обратно.": # пункт доступен при высокой бичности
+        "Осудить Мелани и воткнуть розу обратно. (in Extra version) (disabled)" if game.extra != True:
+            pass
+        "Осудить Мелани и воткнуть розу обратно." if game.extra == True: # пункт доступен при высокой бичности
             music Pyro_Flow
             imgf 40603
             mt "Да, мы были там вместе с Мелани, но это была ее идея."
@@ -742,7 +746,7 @@ label ep216_dialogues5_victoria_4:
             w
             imgf 40681
             w
-            sound vjuh1
+            sound Jump2
             imgd 40682
             w
             imgf 40683
@@ -798,19 +802,19 @@ label ep216_dialogues5_victoria_4:
             #sound lick1
             imgf 40718
             w
-            sound lick1
+            sound lick3
             imgd 40719
             w
-            sound lick1
+            sound lick3
             imgd 40718
             w
-            sound lick1
+            sound lick3
             imgd 40719
             w
-            sound lick1
+            sound lick3
             imgd 40718
             w
-            sound lick1
+            sound lick3
             imgd 40719
             w
             imgf 40688
@@ -819,7 +823,7 @@ label ep216_dialogues5_victoria_4:
             victoria "Хи-хи-хи!"
             imgd 40689
             m "..."
-            sound lick1
+            #sound lick3
             imgf 40720
             w
             fadeblack 1.5
@@ -935,8 +939,8 @@ label ep216_dialogues5_victoria_4:
             music Loved_up
             imgfl 40697
             w
-            sound kiss1
             imgf 40698
+            sound kiss1
             victoria "Хи-хи-хи!"
             fadeblack 1.5
             music Groove2_85
@@ -954,8 +958,8 @@ label ep216_dialogues5_victoria_4:
             # Моника наклоняется над столиком и чмокает попу Мелани
             imgf 40723
             w
-            sound kiss1
             imgd 40701
+            sound kiss1
             w
             imgf 40702
             sound snd_woman_laugh3
