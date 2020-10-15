@@ -2,6 +2,7 @@ label ep22_casting:
     label ep22_dialogue6_6_loop1:
         #первый вызов
 #        help "Пока доступны только две возможностьи. Другие пункты будут доступны в следующих версиях игры."
+        $ menu_corruption = [0, 0, biffCastingModelPosesCorruptionRequired, biffCastingKneesCorruptionRequired, biffCastingFloorCorruptionRequred]
         menu:
             "Показать обнаженную грудь.":
                 #Моника показывает грудь в зависимости от одежды
@@ -673,6 +674,7 @@ label ep22_casting:
             "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                 pass
             "Раздеться и сесть на стол.":
+                $ menu_corruption = [biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
                 menu:
                     "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                         $ store_music()
@@ -699,13 +701,28 @@ label ep22_casting:
                             $ add_char_progress("Biff", biffFlashCardQuestReportPose5, "biffFlashCardQuestReportPose5" + str(day))
                     "Сесть на стол лицом к Бифу, широко раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 and biffCastingStage < 4:
                         pass
-                    "Сесть на стол спиной к Бифу.":
+                    "Сесть на стол спиной к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 5 and monicaOutfitsEnabled[9] == True:
+                        $ store_music()
+                        call ep216_dialogues0_biff1()
+                        $ restore_music()
+                        if biffCastingStage < 6:
+                            $ biffCastingStage = 6
+                        if char_info["Biff"]["level"] <= 3:
+                            $ add_char_progress("Biff", 50, "ep216_dialogues0_biff1" + str(day))
+                    "Сесть на стол спиной к Бифу. (disabled)"  if char_info["Biff"]["level"] < 2 or biffCastingStage < 5 or monicaOutfitsEnabled[9] != True:
                         pass
-                    "Сесть на стол спиной к Бифу. (disabled)":
-                        pass
-                    "Сесть на стол, достать член Бифа и взять его в рот.":
-                        pass
-                    "Сесть на стол, достать член Бифа и взять его в рот. (disabled)":
+                    "Сесть на стол, достать член Бифа и взять его в рот."  if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 6 and monicaOutfitsEnabled[9] == True:
+                        $ store_music()
+                        call ep216_dialogues0_biff2()
+                        $ restore_music()
+                        if _return == -1: # убежала, закрываем доступ в офис на неделю
+                            call ep216_quests_biff_block_office()
+                            return -1
+                        if biffCastingStage < 7:
+                            $ biffCastingStage = 7
+                        if char_info["Biff"]["level"] <= 3:
+                            $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
+                    "Сесть на стол, достать член Бифа и взять его в рот. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 6 or monicaOutfitsEnabled[9] != True:
                         pass
                     "Сесть на стол. достать член Бифа и возить им по киске. (disabled)":
                         pass

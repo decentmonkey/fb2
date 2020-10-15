@@ -135,6 +135,8 @@ label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 10:
         call ep213_photoshoot10() from _rcall_ep213_photoshoot10
         $ photoshoot10_count += 1
+    if ep216_office_blocked_day >= day:
+        return False
     #конец фотосессии
     sound snd_fabric1
     img black_screen

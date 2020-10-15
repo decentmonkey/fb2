@@ -52,6 +52,10 @@ label biffProgressLevelUp1:
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
     if char_data["level"] == 3:
+        $ char_data["caption"] = t_("Цыпочке надо развлекать папочку, чтобы он продолжал давать ей работу.")
+        $ char_data["enabled"] = True
+
+    if char_data["level"] == 4:
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = t_("Work in progress...")
     return

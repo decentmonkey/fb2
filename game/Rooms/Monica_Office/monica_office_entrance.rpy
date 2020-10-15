@@ -5,7 +5,8 @@ default monicaOfficeOpened = False
 label monica_office_entrance:
     $ print "enter_monica_office_entrance"
     $ miniMapData = []
-    call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_6
+    if ep216_office_blocked_day < day:
+        call miniMapOfficeGenerate() from _call_miniMapOfficeGenerate_6
 
     $ scene_image = "scene_Office_Entrance_Monica"
     music Groove2_85

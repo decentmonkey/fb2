@@ -1,3 +1,14 @@
+#v0.16
+define biffCastingModelPosesCorruptionRequired = 300 # Раздеться и принимать различные модельные позы.
+define biffCastingKneesCorruptionRequired = 400 # Раздеться и встать на колени задом к Бифу.
+define biffCastingFloorCorruptionRequred = 450 # Раздеться и лечь на пол раздвинув ноги.
+define biffCastingOneLegOnTheTable = 500 # Поставить на стол одну ногу.
+define biffCastingTableLegsOpen = 550 # Сесть на стол лицом к Бифу, широко раздвинув ноги.
+define biffCastingTableBack = 600 # Сесть на стол спиной к Бифу.
+define biffCastingTableBlowjob = 650 # Сесть на стол, достать член Бифа и взять его в рот.
+define biffCastingTableBlowjobOption1 = 670 # Я уже сегодня сосала член другому мужчине, поэтому не хочу пачкать член папочки...
+define biffCastingTableBlowjobOption2 = 700 # Я - Моника Бакфетт... (blowjob)
+
 #v0.15
 define monicaBiffInvestorDatingAgree1 = 550 # согласие на свидание с инвестором
 

@@ -15,7 +15,7 @@ label ep27_quests_office_workers1: #Клик на воркеров, когда �
     if ep27_flash_card_reports_done_count >= 1 and ep27_flash_card_reports_skip_offered_day < day:
         $ ep27_flash_card_reports_skip_offered_day = day
         menu:
-            "Пропустить.":
+            "Пропустить (Собрать все отчеты сразу).":
                 $ monicaWorkFlashCardReportsCollected = monicaWorkFlashCardNeedReportsAmount
                 jump ep27_quests_office_workers1_end
             "Собирать отчеты.":

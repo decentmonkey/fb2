@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -54,14 +54,6 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
-##################
-
-
-#    call ep216_dialogues6_victoria_admin_4() # сцена в апартаментах Виктории
-
-
-
-###################
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
@@ -272,6 +264,7 @@ label start_game:
     $ ep213_quests_load_init_flag = True
     $ ep214_quests_load_init_flag = True
     $ ep215_quests_load_init_flag = True
+    $ ep216_quests_load_init_flag = True
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data

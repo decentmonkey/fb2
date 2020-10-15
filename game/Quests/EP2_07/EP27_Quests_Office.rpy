@@ -105,6 +105,8 @@ label ep27_quests_office7_biff: # Разговор с Бифом после сд
     else:
         call ep27_dialogues4_biff6() from _call_ep27_dialogues4_biff6 # Плохой отчет
         $ monicaWorkFlashCardQuestBadReportsCount += 1
+    if _return == -1:
+        return False
     $ monicaWorkFlashCardQuestReportsNeedTalkBiff = False
     $ remove_objective("reports_to_biff")
     call change_scene("monica_office_cabinet", "Fade_long") from _call_change_scene_376

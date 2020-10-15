@@ -14,4 +14,5 @@ label process_afterload:
     call ep213_quests_load_init() from _rcall_ep213_quests_load_init
     call ep214_quests_load_init() from _rcall_ep214_quests_load_init
     call ep215_quests_load_init() from _rcall_ep215_quests_load_init
+    call ep216_quests_load_init()
     return
