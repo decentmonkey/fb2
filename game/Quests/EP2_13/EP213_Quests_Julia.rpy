@@ -14,6 +14,7 @@ default juliahome_julia_shower_time = 0
 default juliahome_kitchen_events_activated = False
 
 default juliahome_julia_piss1_day = 0
+default juliaNotifBlockedOnce = False
 
 label ep213_quests_julia1: # Моника предлагает Юлии жить вместе
     call ep213_dialogues5_julia_16() from _rcall_ep213_dialogues5_julia_16
@@ -104,6 +105,7 @@ label ep213_quests_julia2_req_init:
             "На диване в комнате отдыха.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene6},
             "Под столом Юлии.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene7},
             "В отделе отчетов.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene9},
+            "Укрепление отношений.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene9},
             "Приласкать ее грудь.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2},
             "Приласкать ее киску.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2b},
             "Продолжить ласкать Юлию.":{"name":"Julia", "level":8, "current_progress":juliaMonicaRelationshipRequiredScene2c},
@@ -379,8 +381,9 @@ label ep213_quests_julia16_exit_house: # Жизнь Юлии при выходе
 
 label ep213_quests_julia17_life:
     if week_day != 7 and day_time != "evening":
-        if get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
+        if get_active_objects("Julia", scene="street_juliahome", recursive=True) != False and juliaNotifBlockedOnce == False:
             $ notif(t_("Юлия ушла на работу."))
+            $ juliaNotifBlockedOnce = False
         $ juliaHomeLivingRoomJuliaSuffix = 3
         $ move_object("Julia", "working_office_cabinet") # Юлия уходит на работу
     return
@@ -479,6 +482,10 @@ label ep213_quests_julia22_work_julia_regular:
         $ juliahome_work_action_evening_day = day
         call change_scene("working_office2", "Fade_long", False) from _rcall_change_scene_107
         return False
+    if _return == 6: # Ласкать попу Юлии
+        call ep216_dialogues4_fred_7()
+        $ juliahome_work_action_day = day
+
 
 
     call refresh_scene_fade() from _rcall_refresh_scene_fade_73

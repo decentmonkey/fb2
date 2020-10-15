@@ -115,7 +115,8 @@ label miniMapSlumsApartmentsGenerate:
     return
 
 label miniMapJuliaHomeGenerate:
-    if monicaHomeMiniMapEnabled == False or minimapJuliaGenerateEnabled == False:
+#    if monicaHomeMiniMapEnabled == False or minimapJuliaGenerateEnabled == False:
+    if minimapJuliaGenerateEnabled == False:
         return
     $ miniMapOpened = False
     $ miniMapOpenButtonImg = "Open_Button_JuliaHome_Map1"

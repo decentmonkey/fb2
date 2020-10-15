@@ -1,6 +1,7 @@
 default monicaJuliaFredVisit1 = False # Фред застукал Монику и Юлию у них в квартире
 default monicaJuliaFredVisit2 = False # Моника делала ассликинг Юлии в комнате отдыха
 
+default ep216_dialogues4_fred_7_last_day = 0
 
 #call ep216_dialogues4_fred_1() # в квартире Юлии после утреннего секса, приходит Фред
 #call ep216_dialogues4_fred_2() # после визита Фреда Моника стоит на улице возле дома Юлии, мысли
@@ -156,6 +157,8 @@ label ep216_dialogues4_fred_2:
     mt "ААААА!!!"
     mt "НЕНАВИЖУ!!!"
     mt "!!!"
+    call ep216_dialogues4_fred_3()
+    call refresh_scene_fade()
     return
 
 # тем временем, в квартире Юлии
@@ -290,6 +293,7 @@ label ep216_dialogues4_fred_5:
     music Loved_Up
     imgd 32428
     w
+    sound kiss2
     imgd 32429
     w
     imgf 30609
@@ -486,6 +490,8 @@ label ep216_dialogues4_fred_7:
             imgd 32454
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
+            $ workingOfficeCabinet2MonicaSuffix = 2
+            call change_scene("working_office_cabinet2", "Fade_long")
             return False
         "Целовать попу Юлии.":
             $ monicaJuliaFredVisit2 = True # Моника делала ассликинг Юлии в комнате отдыха
@@ -604,8 +610,10 @@ label ep216_dialogues4_fred_7:
     m "Еще немного и она увидела бы нас!"
     julia "Ну чего Вы так расстраиваетесь, Миссис Бакфетт?"
     julia "Она ведь ничего не увидела!"
+    julia "К тому же, я бы очень хотела, чтобы однажды мы сделали каминг аут и рассказали всем о наших чувствах!"
     music Pyro_Flow
     imgf 32471
+    mt "ЧТО?!"
     mt "Я даже не хочу думать о том, какие сплетни поползли бы по отделу!!!"
     mt "А потом и по всему городу!"
     mt "И в заголовках газет!"
@@ -719,4 +727,8 @@ label ep216_dialogues4_fred_7:
     mt "Все-таки Я здесь начальник!"
     mt "И командую здесь только Я!"
     mt "!!!"
+    $ ep216_dialogues4_fred_7_last_day = day
+    $ add_char_progress("Julia", 15, "julia_relations_progress_scene6")
+    $ workingOfficeCabinet2MonicaSuffix = 2
+    call change_scene("working_office_cabinet2", "Fade_long")
     return

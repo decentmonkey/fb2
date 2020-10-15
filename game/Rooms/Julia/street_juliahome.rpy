@@ -4,7 +4,8 @@ default streetJuliaHomeJuliaSuffix = 1
 label street_juliahome:
     $ print "enter_street_juliahome"
     $ miniMapData = []
-    call miniMapJuliaHomeGenerate() from _rcall_miniMapJuliaHomeGenerate_4
+    if ep216_juliahome_blocked_day < day:
+        call miniMapJuliaHomeGenerate() from _rcall_miniMapJuliaHomeGenerate_4
 
     $ sceneIsStreet = True
 
