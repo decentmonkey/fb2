@@ -56,6 +56,11 @@ label start:
 
 ##################
 
+
+#    call ep216_dialogues6_victoria_admin_4() # сцена в апартаментах Виктории
+
+
+
 ###################
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False
