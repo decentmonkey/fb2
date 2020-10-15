@@ -57,7 +57,8 @@ label start:
 ##################
 
 
-#    call ep216_dialogues5_victoria_4() # сцена в апартаментах Виктории
+#    call ep216_dialogues6_victoria_admin_4() # сцена в апартаментах Виктории
+
 
 
 ###################
