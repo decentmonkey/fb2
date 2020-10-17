@@ -3376,7 +3376,9 @@ define offsets_table = {
     "street_neighbour_betty_2_overlay":(955,539,1079,917),
     "street_neighbour_neighbour_1":(589,884,788,936),
     "street_neighbour_neighbour_1_overlay":(691,747,817,950),
-    "pub_makeuproom_picture_monicaqueen":(81,589,318,747)
+    "pub_makeuproom_picture_monicaqueen":(81,589,318,747),
+    "street_victoriahome_dickbuilding_mask":(0,809,823,974),
+    "street_victoriahome_enter_mask":(106,1174,871,1527)
 }
 
 
