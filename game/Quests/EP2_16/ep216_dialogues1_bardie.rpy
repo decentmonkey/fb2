@@ -35,7 +35,7 @@ label ep216_dialogues1_bardie_1b:
     mt "Затем соблазнять этого жуткого Ральфа!"
     mt "И У НЕГО СНОВА РАЗГОВОР КО МНЕ?!"
     mt "!!!"
-    $ log1 = _("Идти к Барди в комнату.")
+#    $ log1 = _("Идти к Барди в комнату.")
     return
 
 label ep216_dialogues1_bardie_1c:
@@ -126,6 +126,8 @@ label ep216_dialogues1_bardie_1c:
     mt "Скорее бы избавиться от него!"
     mt "!!!"
     # Моника задирает юбку
+    fadeblack 1.5
+    music Loved_up
     sound vjuh3
     imgd 32331
     w
@@ -259,11 +261,12 @@ label ep216_dialogues1_bardie_1c:
     img 13017
     m "!!!"
     $ ep216_dialogues1_bardie_firstTime = False
+    $ menu_price = [0, 200]
     menu:
         "Сделать, как требует Барди.":
             $ monicaBardieWebCam2 = True # Моника согласилась на веб-кам
             pass
-        "Дать ему двести долларов. (прерывание квеста)": # пункт доступен, если у Моники достаточно денег
+        "Дать ему двести долларов.": # пункт доступен, если у Моники достаточно денег
             imgf 32353
             mt "Чертов сопляк!"
             mt "Я, Моника Бакфетт."
@@ -306,13 +309,14 @@ label ep216_dialogues1_bardie_1c:
             #
             imgd 32358
             bardie "Хорошо, гувернантка. Давай деньги!"
-            fadeblack
+            $ add_money(-200)
+            fadeblack 1.5
             sound highheels_short_walk
             pause 2.0
             # Барди протягивает руку
             # затемнение, минус двести баксов у Моники
             $ monicaBardieWebCam3 = True # Моника отдала Барди 200 баксов и не работала веб-кам моделью
-            return False
+            return 2
     music Pyro_Flow
     imgd 32353
     mt "Дьявол!"
@@ -385,6 +389,7 @@ label ep216_dialogues1_bardie_1c:
     bardie "Он пишет - ты делаешь. Это элементарно."
     bardie "И только попробуй сделать что-то не так!"
     bardie "Хозяин будет тогда очень недоволен своей гувернанткой!"
+    music Loved_up
     # Моника испуганно закрывает лицо рукой
     sound vjuh3
     img 32368 vpunch
@@ -403,9 +408,11 @@ label ep216_dialogues1_bardie_1c:
     stranger "Хочу увидеть ее скорее. #it"
     stranger "Подними юбку!"
     # Барди приказывает Монике, шепчет ей
+    music Groove2_85
     imgd 32371
     bardie "Гувернантка!"
     bardie "Задирай юбку!"
+    music Loved_up
     menu:
         "Поднять юбку.":
             pass
@@ -436,9 +443,12 @@ label ep216_dialogues1_bardie_1c:
     stranger "Тогда раздвинь ноги пошире, гувернантка!"
     stranger "Хочу увидеть твою киску полностью!"
     # Барди берет в руки свой телефон и направляет камеру на Монику, шепчет ей
-    sound snd_photo_capture2
+#    sound snd_photo_capture2
     imgd 32377
     bardie "Гувернантка, раздвигай ноги!"
+    w
+    call photoshop_flash()
+    w
     # Моника зло ему шипит
     m "Какого черта ты делаешь?!"
     bardie "Гувернантка, не переживай."
@@ -464,6 +474,7 @@ label ep216_dialogues1_bardie_1c:
     mt "Когда-нибудь я убью этого сопляка!!!"
     mt "!!!"
     # Моника широко раздвигает ноги
+    fadeblack 1.5
     music Loved_Up
     imgf 32374
     w
@@ -481,6 +492,7 @@ label ep216_dialogues1_bardie_1c:
     stranger "Я хочу увидеть твою киску поближе!#it"
     stranger "Двигайся ближе к камере, детка!"
     # кадр на Монику и Барди, он ей шепчет
+    music Groove2_85
     imgd 32383
     bardie "Слышала? Выполняй!"
     m "Я уже достаточно показала!"
@@ -495,6 +507,8 @@ label ep216_dialogues1_bardie_1c:
     mt "Ненавижу!"
     mt "!!!"
     # Моника двигает попу ближе к ноуту, но не совсем близко, не в притык
+    fadeblack 1.5
+    music Loved_up
     sound vjuh3
     imgf 32384
     stranger "ООООО!"
@@ -507,6 +521,7 @@ label ep216_dialogues1_bardie_1c:
     stranger "Хочу рассмотреть твою горячую киску во всех подробностях..."
     stranger "Мне нужно сделать хороший скриншот для моей коллекции!"
     # Моника зло смотрит на Барди, он довольно лыбится и шепчет ей
+    music Groove2_85
     imgd 32386
     bardie "Ну? Чего ждем?"
     bardie "Ты же слышала, чего хочет коллекционер."
@@ -519,6 +534,8 @@ label ep216_dialogues1_bardie_1c:
     mt "И малявке Барди заодно!!!"
     # Моника двигает попу еще ближе к ноуту, теперь максимально близко к камере
     # зло смотрит на Барди
+    fadeblack 1.5
+    music Loved_up
     sound vjuh3
     imgf 32388
     w
@@ -528,14 +545,21 @@ label ep216_dialogues1_bardie_1c:
     bardie "Да, хозяин доволен. Гувернантка хорошая."
     bardie "Она показывает свою киску, чтобы заработать денег для своего хозяина. Ха-ха!"
     # экран
+    fadeblack 1.5
+    music Loved_up2
     imgf 32390
     stranger "Даааааааааа..."
+    with vpunch
     stranger "Залезть бы в эту горячую кискууууу..."
     stranger "ААААААА!"
-    imgd 32391
+    img 32391 hpunch
     stranger "Я сейчас кончууууу!!! АААА!!!"
     stranger "ААААААААААААлоодльюбмиблож"
     stranger "орамюмашодтмюждлаимбвьь"
+
+    fadeblack 1.5
+    music Groove2_85
+
     imgd 32392
     stranger "..."
     stranger "......"
@@ -587,7 +611,7 @@ label ep216_dialogues1_bardie_1c:
     mt "Мерзкая малявка!"
     mt "!!!"
     # Моника бросает на него злобный взгляд и выходит из комнаты
-    return
+    return True
 
 # если Моника убежала
 # не рендерить!!
