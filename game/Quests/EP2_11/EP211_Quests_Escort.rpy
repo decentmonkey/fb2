@@ -214,6 +214,24 @@ label ep211_quests_escort5_restaurant_wait_customer:
             $ monicaEscortScene6Day = day
             $ monicaEscortSceneDay = day
             $ monicaEscortScenesCount += 1
+    if _return == 7:
+        $ monicaEscortScene1Day = day
+        $ monicaEscortSceneDay = day
+        $ monicaEscortScenesCount += 1
+        music stop
+        img black_screen
+        with diss
+        pause 2.0
+        call ep216_dialogues2_escort_1()
+        $ add_objective("go_corridor", t_("Пойти в служебный коридор."), c_orange, 105)
+        $ move_object("ReceptionGirl", "empty")
+        $ add_hook("Teleport_Street_Rich_Hotel", "ep216_dialogues2_escort_3a", scene="rich_hotel_reception", label="escort_scene7")
+        $ add_hook("Door", "ep211_quests_escort6_scene7", scene="rich_hotel_reception", label="escort_scene7")
+        $ add_hook("MonicaTable", "ep216_dialogues2_escort_3a", scene="rich_hotel_restaurant", label="escort_scene7")
+        $ set_active("Visitor2", False, scene="rich_hotel_restaurant")
+        $ set_active("Visitor3", False, scene="rich_hotel_restaurant")
+
+
     return False
 
 
@@ -341,6 +359,21 @@ label ep211_quests_escort6_scene2c: # сцена
     $ autorun_to_object("ep211_escort_scene2_15", scene="street_rich_hotel")
     return True
 
+
+label ep211_quests_escort6_scene7:
+    if act=="l":
+        return
+    $ remove_objective("go_corridor")
+    $ remove_hook(label="escort_scene7")
+    $ move_object("ReceptionGirl", "rich_hotel_reception")
+    $ autorun_to_object("ep216_dialogues2_escort_3", scene="street_rich_hotel")
+    $ monicaEscortScene7LastDay = day
+    $ set_active("Visitor2", True, scene="rich_hotel_restaurant")
+    $ set_active("Visitor3", True, scene="rich_hotel_restaurant")
+    call ep216_dialogues2_escort_2()
+    call ep211_quests_escort2_end_day()
+
+    return False
 
 
 
