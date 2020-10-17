@@ -17,7 +17,7 @@ label ep216_quests_bardie2_catch: # Барди перехватывает Мон
     # Инициализация похода к Барди
     $ autorun_to_object("ep216_dialogues1_bardie_1b", scene="basement_bedroom2")
 #    $ add_hook("basement_monica_after_nap_dialogue", "dialogue_classmate_1b", scene="global", once=True)
-    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату"), c_orange, 85)
+    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату вечером"), c_orange, 85)
     $ add_hook("Teleport_BedroomBardie", "ep216_quests_bardie3_enter_room", scene="floor2", label="ep216_quests_bardie3_enter_room")
 
     call change_scene("basement_bedroom2", "Fade_long")
