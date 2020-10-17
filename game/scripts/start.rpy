@@ -39,6 +39,8 @@ default nextFriday = -1
 
 default act = ""
 
+default episode2part = 1
+
 label start:
     #new game
     $ after_load_ready_to_render = True

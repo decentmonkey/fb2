@@ -240,6 +240,12 @@ label remove_dialogue():
 
 label after_load():
 #    $ renpy.free_memory()
+    if episode2part > 1:
+        img black_screen
+        help "Пожалуйста, используйте для загрузки более новую версию игры!"
+        $ MainMenu(confirm=False)()
+        return
+
     $ list_files_active = True
     $ refresh_list_files ()
     if renpy.get_screen("show_image_screen") or renpy.get_screen("screen_sprites"):
