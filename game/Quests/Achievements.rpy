@@ -89,7 +89,14 @@ init python:
             ["19595", "", False],
             ["19531", "", False],
             ["19480", "", False],
-            ["19437", "", False]
+            ["19437", "", False],
+            ["40607", "EXTRA", False],
+            ["40689", "EXTRA", False],
+            ["40621", "", False],
+            ["40321", "", False],
+            ["32641", "", False],
+            ["32688", "", False],
+            ["32707", "", False]
         ],
         "Fitness": [
             ["7739", "", "gallery_7739"],
@@ -153,7 +160,8 @@ init python:
             ["40141", "EXTRA", False],
             ["40179", "EXTRA", False],
             ["19736", "", False],
-            ["19782", "EXTRA", False]
+            ["19782", "EXTRA", False],
+            ["40220", "", False]
         ],
         "House": [
             ["5999", "", "gallery_5999"],
@@ -209,7 +217,8 @@ init python:
             ["31652", "", False],
             ["31664", "", False],
             ["31687", "", False],
-            ["31689", "", False]
+            ["31689", "", False],
+            ["32390", "", False]
         ],
         "College": [
             ["14747", "", "gallery_14747"],
@@ -271,7 +280,9 @@ init python:
             ["31060", "", False],
             ["30760", "", False],
             ["30972", "", False],
-            ["31007", "EXTRA", False]
+            ["31007", "EXTRA", False],
+            ["32409", "", False],
+            ["32475", "", False]
         ],
 
         "Marcus": [
@@ -377,7 +388,9 @@ init python:
             ["22943", "", "gallery_22943"],
             ["15882", "", "gallery_15882"],
             ["23739", "", False],
-            ["23759", "", False]
+            ["23759", "", False],
+            ["24377", "", False],
+            ["24506", "", False]
 
         ],
 
@@ -748,7 +761,10 @@ init python:
             ["31831", "EXTRA", False],
             ["32187", "", False],
             ["32212", "", False],
-            ["32195", "", False]
+            ["32195", "", False],
+            ["40512", "", False],
+            ["32513", "EXTRA", False],
+            ["32597", "", False]
         ],
         "Steve": [
             ["9944", "", "gallery_9944"],
@@ -1758,7 +1774,23 @@ init python:
         "v_StripBattle1_Monica8C_end": "v_StripBattle1_Monica8C_end",
         "v_StripBattle1_Monica9A_end": "v_StripBattle1_Monica9A_end",
         "v_StripBattle1_Monica9B_end": "v_StripBattle1_Monica9B_end",
-        "v_StripBattle1_Monica9C_end": "v_StripBattle1_Monica9C_end"
+        "v_StripBattle1_Monica9C_end": "v_StripBattle1_Monica9C_end",
+        "img_24377": "24377",
+        "img_24506": "24506",
+        "img_32390": "32390",
+        "img_40220": "40220",
+        "img_40512": "40512",
+        "img_32513": "32513",
+        "img_32597": "32597",
+        "img_32409": "32409",
+        "img_32475": "32475",
+        "img_40607": "40607",
+        "img_40689": "40689",
+        "img_40621": "40621",
+        "img_40321": "40321",
+        "img_32641": "32641",
+        "img_32688": "32688",
+        "img_32707": "32707"
 
     }
 

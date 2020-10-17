@@ -94,8 +94,6 @@ The big Dog
 
 Виталий Рябоконь
 
-Bill Lee
-
 Kurt
 
 for great support!
