@@ -697,7 +697,7 @@ label ep216_dialogues6_victoria_admin_4:
     imgf 32655
     w
     # указывает Монике пальцем, что ей нужно залезть на кровать
-    sound vjuh3
+#    sound vjuh3
     imgd 32656
     w
     imgd 32657

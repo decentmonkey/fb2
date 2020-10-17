@@ -121,7 +121,7 @@ label ep216_dialogues1_bardie_1c:
             # Моника убегает
             return False
     music Pyro_Flow
-    imgf 15263
+    imgd 15263
     mt "Мерзкий сопляк снова командует что мне делать!"
     mt "Скорее бы избавиться от него!"
     mt "!!!"
