@@ -1,4 +1,16 @@
 #v0.16
+define slumsCitizen15Option1 = 400 # Согласиться привести в квартиру
+define slumsCitizen15Option2 = 500 # Моника сказала, что ей нравится парень в синей куртке при его подруге
+define slumsCitizen15Option3 = 600 # Моника соглашается взять питона в руку и сказать что он большой
+define slumsCitizen15Option4 = 650 # Моника соглашается сделать минет, когда отказалась от option3 (экстра сцена)
+define slumsCitizen15Option5 = 700 # Моника соглашается взять питона в рот чтобы показать что он нравится
+define slumsCitizen15Option6 = 700 # Моника решила подойти к парочке, когда он занимаются сексом
+define slumsCitizen15Option7 = 750 # Моника согласилась сделать минет для парочки
+define slumsCitizen15Option8 = 800 # Моника согласилась подставить грудь, чтобы ситизен кончил
+
+define slumsCitizen13Option1 = 400 # Согласиться идти поцеловать
+define slumsCitizen13Option2 = 550 # Согласиться на потрогать киску
+
 define biffCastingModelPosesCorruptionRequired = 300 # Раздеться и принимать различные модельные позы.
 define biffCastingKneesCorruptionRequired = 400 # Раздеться и встать на колени задом к Бифу.
 define biffCastingFloorCorruptionRequred = 450 # Раздеться и лечь на пол раздвинув ноги.

@@ -291,8 +291,18 @@ label citizens_init_day:
             if "Citizen_7" not in citizensDayList:
                 citizensDayList.append("Citizen_7")
 
-        if "Citizen_14" in citizensDayList and day <= citizen14BlockedByDay:
+        if day <= citizen14BlockedByDay and "Citizen_14" in citizensDayList:
             citizensDayList.remove("Citizen_14")
+        if day <= citizen15BlockedByDay and "Citizen_15" in citizensDayList:
+            citizensDayList.remove("Citizen_15")
+        if ep214_quests_citizens_stage2 == True and ep215_slums1_citizen15_last_day == 0 and "Citizen_15" not in citizensDayList:
+            citizensDayList.append("Citizen_15")
+
+        if day <= citizen13BlockedByDay and "Citizen_13" in citizensDayList:
+            citizensDayList.remove("Citizen_13")
+        if ep214_quests_citizens_stage2 == True and ep215_slums1_citizen13_last_day == 0 and "Citizen_13" not in citizensDayList:
+            citizensDayList.append("Citizen_13")
+
 
         citizensDayList = list(set(citizensDayList)) #unique
         set_active(False, scene="all", group="citizens")
@@ -317,8 +327,12 @@ label citizens_init_evening:
             if "Citizen 4" in citizensEveningList:
                 citizensEveningList.remove("Citizen 4")
 
-        if "Citizen_14" in citizensEveningList and day <= citizen14BlockedByDay:
+        if day <= citizen14BlockedByDay and "Citizen_14" in citizensEveningList:
             citizensEveningList.remove("Citizen_14")
+        if day <= citizen15BlockedByDay and "Citizen_15" in citizensEveningList:
+            citizensEveningList.remove("Citizen_15")
+        if day <= citizen13BlockedByDay and "Citizen_13" in citizensEveningList:
+            citizensEveningList.remove("Citizen_13")
 
         citizensEveningList = list(set(citizensEveningList)) #unique
         set_active(False, scene="all", group="citizens")

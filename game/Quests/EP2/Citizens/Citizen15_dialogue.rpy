@@ -63,6 +63,9 @@ label citizen15_dialogue_after_showing_naked_boobs: #Моника думает �
 
 
 label citizen15_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep215_slums1_dialogue_citizen15
+
     imgl Dial_begin35_17
     imgr Dial_Citizen_15_1
     m "Привет! Кажется, ты говорил, что я могу заработать денег..."

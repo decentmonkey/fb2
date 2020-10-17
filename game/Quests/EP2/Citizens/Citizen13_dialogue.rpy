@@ -63,6 +63,9 @@ label citizen13_dialogue:
 
     # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen13_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep215_slums1_dialogue_citizen13
+
     imgl Dial_begin35_17
     imgr Dial_Citizen_13_1
     m "Привет! Ты меня помнишь?"

@@ -99,6 +99,8 @@ label ep211_quests_slums_apartments1_initb:
 label ep211_quests_slums_apartments2_check_enter:
     if act=="l":
         return
+
+label ep211_quests_slums_apartments2_check_enter_forced:
     if cloth != "HomeCloth4":
         $ slumsEnterClothStored = cloth
         $ slumsEnterClothTypeStored = cloth_type
