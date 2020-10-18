@@ -1218,10 +1218,78 @@ label ep216_dialogues3_citizens_1:
             sound snd_walk_barefoot
             imgf 32543
             m "Я подожду на кухне."
+
+            music Loved_Up
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Blowjob1_1.ogg"
+            scene black
+            image videov_Citizen15_ShopVisitor7_Blowjob1_1 = Movie(play="video/v_Citizen15_ShopVisitor7_Blowjob1_1.mkv", fps=30)
+            show videov_Citizen15_ShopVisitor7_Blowjob1_1
+            with fade
+            wclean
             citizen15 "Если надумаешь - присоединяйся к нам." # подмигивает ей
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Blowjob1_1.ogg"
+            scene black
+            image videov_Citizen15_ShopVisitor7_Blowjob1_2 = Movie(play="video/v_Citizen15_ShopVisitor7_Blowjob1_2.mkv", fps=30)
+            show videov_Citizen15_ShopVisitor7_Blowjob1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Blowjob1_1.ogg"
+            scene black
+            image videov_Citizen15_ShopVisitor7_Blowjob1_3 = Movie(play="video/v_Citizen15_ShopVisitor7_Blowjob1_3.mkv", fps=30)
+            show videov_Citizen15_ShopVisitor7_Blowjob1_3
+            with fade
             m "Нет!"
             m "И аккуратнее тут с мебелью!"
             m "И не смейте трогать мой мохито!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Blowjob1_1.ogg"
+            scene black
+            image videov_Citizen15_ShopVisitor7_Blowjob1_4 = Movie(play="video/v_Citizen15_ShopVisitor7_Blowjob1_4.mkv", fps=30)
+            show videov_Citizen15_ShopVisitor7_Blowjob1_4
+            with fade
+            citizen15 "Окей, чика!"
+            citizen15 "Без проблем! Йо!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
             # уходит на кухню
             # смена кадра, Моника стоит на кухне
             # с комнаты доносятся стоны
@@ -1323,9 +1391,27 @@ label ep216_dialogues3_citizens_1:
             imgf 32543
             m "Нет!"
             m "У меня есть более важные дела!"
+            music Loved_Up
             m "Когда я вернусь, чтобы вас обоих тут не было!"
             m "!!!"
-            music Groove2_85
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(0.5, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Blowjob1_1.ogg"
+            scene black
+            image videov_Citizen15_ShopVisitor7_Blowjob1_1 = Movie(play="video/v_Citizen15_ShopVisitor7_Blowjob1_1.mkv", fps=30)
+            show videov_Citizen15_ShopVisitor7_Blowjob1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+#            music Groove2_85
+            imgf 32543
             citizen15 "Окей, чика!"
             citizen15 "Без проблем! Йо!"
             # Моника идет к выходу, оказывается на улице
@@ -1335,7 +1421,7 @@ label ep216_dialogues3_citizens_1:
             sound snd_door_open1
             pause 1.5
             sound snd_door_locked1
-            pause 2.0
+            pause 1.0
             return -6
     # кадр на гостиную
     # парень и его подруга голые, она стоит раком, опершись о кушетку, он пристроился сзади
@@ -1638,26 +1724,151 @@ label ep216_dialogues3_citizens_1:
     music Loved_Up2
     imgf 32592
     citizen15 "ООООО!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_1 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_1.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32590
     cit7 "ААААА!!!"
     cit7 "Наконец-то!!! Да!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_2 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_2.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32594
     w
     imgd 32593
     citizen15 "Дааа, крошкаааа... Аааа!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_3 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_3.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_3
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_4 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_4.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32595
     citizen15 "Какие у меня клевые чикииии!!! Оооо!!!"
     imgd 32596
     w
     imgf 32597
     citizen15 "Мой питон стал просто огромным от вас!!! Дааа!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_5= Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_5.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_5
+    with fade
     cit7 "Аааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_6 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_6.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_6
+    with fade
     citizen15 "Тебе нравится, как мой огромный член заполняет твою киску?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_7 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_7.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_7
+    with fade
     cit7 "Дааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32598
     citizen15 "Аааааа!!!"
     citizen15 "Какие сиськи у тебя, чика!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Citizen15_ShopVisitor7_Sex2_1.ogg"
+    scene black
+    image videov_Citizen15_ShopVisitor7_Sex2_8 = Movie(play="video/v_Citizen15_ShopVisitor7_Sex2_8.mkv", fps=30)
+    show videov_Citizen15_ShopVisitor7_Sex2_8
+    with fade
     citizen15 "Когда-нибудь я трахну тебя между ними!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32599
     citizen15 "О, да!!!"
     citizen15 "Оооо!!!"

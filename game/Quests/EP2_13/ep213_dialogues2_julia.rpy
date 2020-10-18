@@ -86,7 +86,7 @@ label ep213_dialogues5_julia_1: # на работе днем
             return 3
         "Под столом Юлии." if juliahome_work_action_day != day:
             return 4
-        "Укрепление отношений." if juliahome_work_action_day != day and monicaJuliaLoveStory7 == True:
+        "Укрепление отношений." if juliahome_work_action_day != day and monicaJuliaLoveStory7 == True and ep216_quests_julia1_start_day > 0:
             return 6
         "Уйти.":
             return -1
