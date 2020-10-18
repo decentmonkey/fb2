@@ -1,6 +1,8 @@
 default victoriaMonicaAdmin1 = False  # у Виктории и админа была встреча в кафе
 default victoriaMonicaAdmin2 = False  # админ пялил Монику, думая, что это Виктория
 
+default victoriaMonicaAdmin1CumZone = 0
+
 #call ep216_dialogues6_victoria_admin_1() # рабочий кабинет Моники, заходит админ, потом кафе с Викторией
 #call ep216_dialogues6_victoria_admin_2() # рабочий кабинет Моники, снова заходит админ
 #call ep216_dialogues6_victoria_admin_3() # Моника возле дома Виктории, глазик, до сцены с админом у Виктории дома
@@ -111,6 +113,9 @@ label ep216_dialogues6_victoria_admin_1:
     imgd 40313
     victoria "А чем ты увлекаешься, Йорик?"
     w2 "Я? О, я очень люблю все, что связано с репликациями многоуровневых реляционных баз данных!"
+    fadeblack 1.5
+    music Loved_up
+    imgf 40313
     victoria "Правда?! Как интересно!"
     img 40314
     w2 "Да!.."
@@ -126,6 +131,7 @@ label ep216_dialogues6_victoria_admin_1:
     imgd 40318
     w2 "Да чего там разбираться?"
     w2 "Любой компьютер можно легко взломать за считанные минуты!"
+    music Marty_Gots_a_Plan
     imgd 40319
     victoria "Серьезно?! Не может быть!"
     victoria "Ты такой умный!"
@@ -134,11 +140,13 @@ label ep216_dialogues6_victoria_admin_1:
     imgd 40320
     w2 "Неее... Это все ерунда... Работа элементарная, раз плюнуть..."
     # Виктория в притворном восхищении
+    music Loved_up
     imgf 40321
     victoria "Ты очень талантливый, Йорик!"
     victoria "Твои таланты могли бы пригодиться абсолютно любому! Даже мне. Но об этом позже..."
     victoria "Расскажешь мне про свою девушку?"
     # админ в смущении
+    music Marty_Gots_a_Plan
     imgd 40322
     w2 "Я... Кхм... У меня..."
     w2 "Я знаю все об отношениях с девушками, Виктория..."
@@ -153,6 +161,7 @@ label ep216_dialogues6_victoria_admin_1:
     victoria "А девушка у тебя есть, Йорик?"
     w2 "Нет..."
     # она удивленно
+    music Loved_up
     imgd 40326
     victoria "А почему? Ты такой красивый, умный! Так много всего умеешь..."
     # он удивленно
@@ -334,9 +343,9 @@ label ep216_dialogues6_victoria_admin_2:
     m "Значит не работает кнопка, которая его включает!!!"
     m "!!!"
     music Stealth_Groover
-    imgd 40299
-    w2 "..."
+#    imgd 40299
     imgd 40300
+    w2 "..."
     m "И откуда такая сумма?!"
     imgd 40301
     w2 "Я позвонил в компанию, которая занимается поставкой комплектующих."
@@ -380,7 +389,7 @@ label ep216_dialogues6_victoria_admin_2:
         imgd 20362
         mt "Еще эта Юлия лезет со своей дружбой с Викторией!"
         mt "Дура!!!"
-    $ log1 = _("Поехать к Виктории.")
+#    $ log1 = _("Поехать к Виктории.")
     return
 
 # Моника возле дома Виктории, глазик
@@ -397,17 +406,19 @@ label ep216_dialogues6_victoria_admin_3:
 label ep216_dialogues6_victoria_admin_4:
     # включется сцена, где Виктория разговаривет с Йориком в своей спальне
     # она с ним флиртует
+    sound highheels_short_walk
     fadeblack 2.0
     music Groove2_85
     imgfl 40632
     victoria "Йорик, я так рада, что смог отпроситься с работы!"
     victoria "Я так переживала, что ты не сможешь прийти!"
     w2 "Нууу... Это было непросто."
-    imgf 40633
+#    imgf 40633
     w2 "Ваша подруга, Миссис Бакфетт, не хотела меня отпускать..."
     w2 "Она так ругалась!"
     w2 "Я вообще думал, что она меня уволит!"
     # Виктория ехидно
+    music Loved_up
     imgd 40634
     victoria "Ну что ты, Йорик!"
     victoria "Моя подружка Моника очень хорошая."
@@ -421,6 +432,7 @@ label ep216_dialogues6_victoria_admin_4:
     victoria "Такой умный, талантливый..."
     victoria "И такой благородный..."
     # админ смущаясь
+    music Groove2_85
     imgd 40637
     w2 "Виктория, я..."
     w2 "Я подумал о том что ты попросила меня сделать..."
@@ -438,9 +450,9 @@ label ep216_dialogues6_victoria_admin_4:
     # Виктория соблазняет админа
     victoria "Тссссс..."
     sound Jump2
+    music Marty_Gots_a_Plan
     img 40641 hpunch
     victoria "Ты ведь хочешь попробовать, что такое встреча с настоящей девушкой, правда?" # кладет руку ему на член
-    music Marty_Gots_a_Plan
     w2 "Я..."
     imgd 40642
     victoria "Ты ведь достаточно храбрый?"
@@ -453,10 +465,11 @@ label ep216_dialogues6_victoria_admin_4:
     w
     # звонок в дверь
     # админ испуганно
+    music Groove2_85
     imgd 40644
     w2 "Ой, кто это?"
     w2 "Вы кого-то ждете, Виктория?"
-    music Groove2_85
+#    music Groove2_85
     victoria "Подожди минутку."
     # уходя, говорит ему, улыбается и посылает воздушный поцелуй
     imgf 40645
@@ -538,6 +551,7 @@ label ep216_dialogues6_victoria_admin_4:
     victoria "Ошиблись дверью, Йорик..."
     victoria "А теперь расслабься... Давай немного поиграем..."
     # подходит к нему, завязывает ему глаза
+    sound snd_fabric1
     fadeblack 1.5
     music Loved_up
     imgfl 40712
@@ -575,7 +589,7 @@ label ep216_dialogues6_victoria_admin_4:
     mt "Что вообще тут происходит?!"
     mt "???"
     # админ нетерпеливо тянет руки в сторону Виктории
-    music Groove2_85
+    music Loved_up
     imgf 32626
     w2 "Виктория, иди ко мне скорее!"
     w2 "Я так хочу этого!"
@@ -690,10 +704,11 @@ label ep216_dialogues6_victoria_admin_4:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Groove2_85
+    music Loved_up
     imgfl 32653
     w
     # Моника и админ стоят у кровати, Виктория садится с краю кровати, она остается одетой
+    sound Jump1
     imgf 32655
     w
     # указывает Монике пальцем, что ей нужно залезть на кровать
@@ -704,7 +719,7 @@ label ep216_dialogues6_victoria_admin_4:
     w
     # Моника встает коленями на кровать, лицом к Виктории, злобно на нее смотрит
     fadeblack 1.5
-    music Groove2_85
+    music Loved_up
     imgfl 32658
     w
     imgf 32659
@@ -724,6 +739,8 @@ label ep216_dialogues6_victoria_admin_4:
     victoria "Я хочу подарить тебе ощущения!"
     victoria "Я скажу, когда можно будет снять повязку."
     victoria "Идем ко мне на кровать, я уже жду тебя..."
+    music Loved_up
+    fadeblack 1.5
     # админ трогает кровать рукой, натыкается на ногу Моники, потом лезет к ней на кровать
     imgf 32662
     w2 "О, я не верю, что сейчас я буду делать ЭТО!"
@@ -751,7 +768,7 @@ label ep216_dialogues6_victoria_admin_4:
     mt "МЕРЗКАЯ СКОТИНА!!!"
     mt "НЕНАВИЖУ ВСЕХ!!!"
     mt "!!!"
-    music Groove2_85
+    music Loved_up
     imgf 32668
     victoria "А теперь попробуй найти мою киску! Хи-хи-хи!"
     sound snd_woman_laugh3
@@ -762,12 +779,16 @@ label ep216_dialogues6_victoria_admin_4:
     # гладит и мнет руками ягодицы Моники
     imgd 32669
     w
+    sound hlup25
     imgd 32670
     w
+    sound hlup25
     imgd 32669
     w
+    sound hlup25
     imgd 32670
     w
+    sound hlup25
     imgf 32671
     w2 "Вы были правы, с закрытыми глазами такие интересные ощущения!"
     w2 "Я представлял вас совсем другой, Виктория!"
@@ -917,6 +938,7 @@ label ep216_dialogues6_victoria_admin_4:
 
     menu:
         "Кончить внутрь Моники.":
+            $ victoriaMonicaAdmin1CumZone = 1
             img 32697
             sound bulk1
             show screen photoshot_screen()
@@ -946,6 +968,7 @@ label ep216_dialogues6_victoria_admin_4:
     mt "!!!!!"
     mt "!!!!!!!"
     if melanieVictoriaMonicaTable2 == True:
+        $ notif(_("Виктория недовольна, что Моника попыталась оправдать Мелани и не стала втыкать в нее розу."))
         music Groove2_85
         imgd 32696
         victoria "А теперь дай мне скорее свой член!"
@@ -1030,7 +1053,7 @@ label ep216_dialogues6_victoria_admin_4:
     # он уходит
     # Виктория подходит к Монике, та в шоке
     fadeblack
-    sound snd_lift
+    sound2 snd_lift
     pause 2.0
     sound highheels_short_walk
     pause 2.0
@@ -1068,6 +1091,9 @@ label ep216_dialogues6_victoria_admin_4:
     music Power_Bots_Loop
     img 40674
     mt "!!!"
+    fadeblack 1.0
+    sound snd_lift
+    fadeblack 2.5
     $ victoriaMonicaAdmin2 = True # админ пялил Монику, думая, что это Виктория
     return
 
@@ -1119,4 +1145,10 @@ label ep216_dialogues6_victoria_admin_6:
     w2t "О ней мечтают все!"
     imgd 32716
     w2t "Эх... Жаль, что это абсолютно невозможно..."
+    return
+
+
+label ep216_dialogues6_victoria_admin_6b:
+    mt "ЖАЛКИЙ! НИКЧЕМНЫЙ! БЕСПОЛЕЗНЫЙ!"
+    mt "ПЛЕБЕЙ!!!"
     return

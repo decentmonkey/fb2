@@ -6,6 +6,8 @@ default officeMonicaVisitedByWorker5_cnt = 0
 default officeMonicaVisitedByWorker6_cnt = 0
 default officeMonicaVisitedByWorker7_cnt = 0
 
+default officeWorker2BlockedUntilDay = 0
+
 label ep26_quests_office_workers1:
     # Клик на работников
     if obj_name == "Worker1":
@@ -63,6 +65,8 @@ label ep26_quests_office_workers1:
 label ep26_quests_office_workers2(amount):
     # Работники заходят к Монике (сколько вызовов, столько и приходов)
     $ workersToVisit = [1,2,3,4,5,6,7]
+    if officeWorker2BlockedUntilDay >= day:
+        $ workersToVisit.remove(2)
     $ workersList = random.sample(set(workersToVisit), amount)
     $ idx = 0
     label ep26_quests_office_workers2_loop1:
