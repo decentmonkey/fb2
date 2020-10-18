@@ -664,13 +664,108 @@ label ep216_dialogues6_victoria_admin_4:
     music Loved_Up2
     imgfl 32641
     w
+
+    $ localSoundVolume = 0.75
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_1 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_1.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32645
     w
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_2 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_2.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32642
     w
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_3 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_3.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_3
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32643
     victoria "Ооооо! Даааа!!!"
     victoria "Еще! Ещееее!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_4 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_4.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_5 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_5.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_5
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Licking1_6 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Licking1_6.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Licking1_6
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32644
     w2 "О, ваша киска такая горячая!"
     w2 "Хочу скорее попробовать ее!#it"
@@ -887,22 +982,150 @@ label ep216_dialogues6_victoria_admin_4:
     imgf 32687
     victoria "ДААААА!!!"
     # Моника, заткнув себе рот рукой (как в камере), молчит
+
+    $ localSoundVolume = 0.75
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_1 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_1.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32688
     w
     imgf 32689
     w
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_2 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_2.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32690
     w2 "ООООООО!!!"
     w2 "Ох, я не могу поверить! Я наконец-то трахаюсь!!!"
     w2 "Как тепло внутри твоей киски!!! Так влажно!!!"
     w2 "ООООО!!!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_3 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_3.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_3
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32695
     w
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_4 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_4.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32691
     victoria "Ооооох как круууутоооо!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_5 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_4.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_5
+    with fade
     w2 "Охренительно!!! ДААА!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_6 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_6.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_6
+    with fade
     victoria "Ты настоящий зверь! Да!!!"
     victoria "ЕЩЕЕЕ!!! ДАААА!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_7 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_7.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_8 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_8.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgf 32692
     w
     sound drkanje5
@@ -918,11 +1141,42 @@ label ep216_dialogues6_victoria_admin_4:
     sound drkanje5
     imgd 32693
     w
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_9 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_8.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_9
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     music Loved_Up2
     imgf 32694
     w2 "Оооо, я больше не могууу!!! Ааааа!!!"
     w2 "Я кажется сейчас кончуууу!!!"
     # Виктория издевательски смотрит на Монику
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Worker2_Monica_Sex1_10 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_10.mkv", fps=30)
+    show videov_VictoriaHome_Worker2_Monica_Sex1_10
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     # админ кончает
     imgd 32696
