@@ -225,6 +225,8 @@ label office_work_begin1:
     if _return == False:
         return False
     call process_hooks("office_work_process", "global") from _call_process_hooks_63
+    if _return == False:
+        return
     call ep29_quests_melanie_check() from _rcall_ep29_quests_melanie_check # Проверка продолжения квеста с Мелани
     call ep212_quests_melanie_check() from _rcall_ep212_quests_melanie_check # Проверка продолжения квеста с Мелани
     img black_screen

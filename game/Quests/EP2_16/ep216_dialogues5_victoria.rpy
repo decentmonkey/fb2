@@ -154,8 +154,7 @@ label ep216_dialogues5_victoria_1:
     mt "Если я не приеду, сучка Виктория разозлится еще больше!"
     mt "И тогда я даже боюсь представить, какие будут последствия!"
     mt "Дьявол!"
-    $ log1 = _("Поехать к Виктории.")
-
+#    $ log1 = _("Поехать к Виктории.")
     return
 
 # Моника возле дома Виктории, глазик
@@ -186,11 +185,11 @@ label ep216_dialogues5_victoria_4:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Спустя некоторое время..."))
+    call textonblack(t_("Минуту спустя..."))
     scene black_screen
     with Dissolve(1)
     pause 2.0
-    sound snd_lift
+    sound2 snd_lift
     pause 2.0
     sound highheels_short_walk
     pause 1.5
@@ -202,7 +201,7 @@ label ep216_dialogues5_victoria_4:
     victoria "Я знаю, тебе очень хотелось попасть ко мне в апартаменты."
     victoria "И ты очень рада, что я тебя, наконец-то, пригласила."
     # Моника сквозь зубы
-    music Power_Bots_Loop
+    music Villainous_Treachery
     imgd 40516
     m "Да... очень..."
     music Groove2_85
@@ -224,7 +223,7 @@ label ep216_dialogues5_victoria_4:
     victoria "Ой, подружка, какая же ты милая!"
     victoria "Тебе нравится целовать меня, признайся. Хи-хи!"
     # Моника подозрительно смотрит на Викторию
-    music Pyro_Flow
+    music Villainous_Treachery
     imgd 40520
     mt "Лучше не спорить с этой сучкой..."
     mt "Еще не время..."
@@ -265,7 +264,7 @@ label ep216_dialogues5_victoria_4:
     sound plastinka1b
     img 40526 hpunch
     mt "!!!"
-    music Power_Bots_Loop
+    music Villainous_Treachery
     mt "!!!!!"
     img 40527
     mt "О БОГИ!!!"
@@ -276,6 +275,7 @@ label ep216_dialogues5_victoria_4:
     mt "Что происходит?!"
     mt "?!?!?!"
     # Виктория самодовольно смотрит на реакцию Моники
+    fadeblack 1.5
     music Groove2_85
     imgf 40529
     victoria "Ах да, подружка Моника, я совсем забыла сказать тебе..."
@@ -326,6 +326,8 @@ label ep216_dialogues5_victoria_4:
     mt "Извращенка, которая прикидывается невинной девочкой!"
     mt "!!!"
 #    music Groove2_85
+    fadeblack 1.5
+    music Groove2_85
     imgf 40539
     m "Я не обижаюсь... подружка..."
     m "Я не против, что вы... поиграли без меня..."
@@ -350,7 +352,7 @@ label ep216_dialogues5_victoria_4:
     victoria "Смотри, теперь я разрешаю подружке Мелани ласкать меня, не спрашивая разрешения об этом..."
     imgf 40704
     w
-    sound Jump2
+    sound Jump1
     imgd 40705
     sound snd_woman_laugh3
     victoria "Хи-хи-хи!"
@@ -377,7 +379,7 @@ label ep216_dialogues5_victoria_4:
     # Моника в шоке смотрит на Мелани
     w
     fadeblack 1.5
-    music Power_Bots_Loop
+    music Villainous_Treachery
     img 40546 vpunch
     mt "Боже! Какой кошмар!"
     mt "Что она с ней делала до моего прихода?!"
@@ -464,6 +466,7 @@ label ep216_dialogues5_victoria_4:
     menu:
         "Сказать, что Мелани совершила ошибку.":
             pass
+    music Villainous_Treachery
     imgd 40564
     mt "Дьявол!"
     mt "Ведь я была вместе с Мелани!"
@@ -472,12 +475,15 @@ label ep216_dialogues5_victoria_4:
     mt "Что же теперь ожидает меня?!"
     mt "!!!"
     mt "Лучше будет, если я не буду злить эту мерзкую дрянь Викторию!"
+    fadeblack 1.5
+    music Master_Disorder
     imgd 40566
     m "Я считаю..."
     m "Я считаю, что Мелани ошиблась..."
     # Виктория самодовольно улыбается, поднимает бокал и протягивает его Монике, чтобы чокнуться
     # Моника тоже тянет бокал
     music Groove2_85
+    sound snd_glass_table
     imgf 40567
     victoria "За женскую дружбу, подружка Моника!"
     # чокаются
@@ -533,14 +539,16 @@ label ep216_dialogues5_victoria_4:
     victoria "Тогда ты не сможешь больше быть моей подружкой."
     victoria "Тебе ничего не останется, чем подтверждать нашу дружбу."
     # Моника с непониманием смотрит на нее
+    music Villainous_Treachery
     imgd 40580
     mt "Что она хочет этим сказать?!"
     mt "Чего эта дрянь добивается?!"
+    music Groove2_85
     imgd 40581
     victoria "Скажи мне, подружка, допустить ли мне подружку Мелани к моей попе?"
     victoria "Или она не настолько хорошая подружка, чтобы заслуживать такую привилегию?"
     # Моника смотрит на нее пристально
-    music Pyro_Flow
+    music Villainous_Treachery
     imgd 40582
     mt "Вот черт!"
     mt "Эта белобрысая тварь пытается настроить Мелани против меня!"
@@ -653,6 +661,7 @@ label ep216_dialogues5_victoria_4:
             m "Я считаю, что Мелани поступила неправильно."
             imgd 40606
             m "И осуждаю ее."
+            call bitch(20, "ep216_dialogues5_victoria_rose")
             imgf 40709
             w
             sound chpok2
@@ -664,7 +673,7 @@ label ep216_dialogues5_victoria_4:
             imgf 40607
             w
             # чпок, вставляет розу назад (показать Мелани лицо)
-            img 40608
+            img 40608 hpunch
             melanie "!!!"
             # Виктория довольно
             music Groove2_85
@@ -746,7 +755,7 @@ label ep216_dialogues5_victoria_4:
             w
             imgf 40681
             w
-            sound Jump2
+            sound Jump1
             imgd 40682
             w
             imgd 40683
@@ -841,7 +850,12 @@ label ep216_dialogues5_victoria_4:
             img 40692 vpunch
             w
 ########################
-            fadeblack
+            music stop
+            img black_screen
+            with Dissolve(2.0)
+            call textonblack(t_("5 минут спустя..."))
+            img black_screen
+            with Dissolve(2.0)
             sound highheels_short_walk
             pause 2.0
             music Groove2_85
@@ -884,6 +898,7 @@ label ep216_dialogues5_victoria_4:
             m "Я считаю, что Мелани хорошая подружка."
             m "Думаю, ей можно простить небольшую ошибку..."
             m "..."
+            call bitch(-20, "ep216_dialogues5_victoria_rose")
             imgd 40618
             m "Эта роза стояла неровно, вот так она выглядит гораздо эстетичнее..."
             # Моника кладет розу рядом с Мелани на стол
@@ -969,7 +984,12 @@ label ep216_dialogues5_victoria_4:
             # затемнение
             # смена кадра, холл, Виктория провожает Монику
             # Виктория ехидно смотрит на нее
-            fadeblack
+            music stop
+            img black_screen
+            with Dissolve(2.0)
+            call textonblack(t_("5 минут спустя..."))
+            img black_screen
+            with Dissolve(2.0)
             sound highheels_short_walk
             pause 2.0
             music Groove2_85
@@ -1033,7 +1053,7 @@ label ep216_dialogues5_victoria_5:
 # Моника вышла от Виктории, на улице
 # если Моника осудила Мелани, они стоят на улице вдвоем
 label ep216_dialogues5_victoria_6:
-    music Pyro_Flow
+    music Groove2_85
     imgf 24528
     m "Мелани, что эта сучка Виктория сделала с тобой?!"
     m "Она настоящая извращенка!"
@@ -1053,9 +1073,13 @@ label ep216_dialogues5_victoria_7:
     # не рендерить!!
     melanie "Миссис Бакфетт, давайте обсудим все позже..."
     melanie "Сейчас я хочу побыть одна..."
-    return
+    return False
 
 # Моника пытается войти в офис Дика НЕ в одежде шлюхи
+label ep216_dialogues5_victoria_8a:
+    mt "Эта сучка уже видела мое красивое платье, так что лучше идти к ней красивой и уверенной в себе!"
+    return
+
 label ep216_dialogues5_victoria_8:
     # не рендерить!!
     mt "Я не могу пойти к сучке Виктории в таком виде."
@@ -1073,4 +1097,12 @@ label ep216_dialogues5_victoria_10: # пытается зайти в дом Ви
 
 label ep216_dialogues5_victoria_11: # смотрит на здание Дика
     mt "Эта сучка поселилась поближе к Дику, чтобы присматривать за ним..."
+    return
+
+label ep216_dialogues5_victoria_12: #
+    mt "Мне надо идти к этой сучке Виктории..."
+    return False
+
+label ep216_dialogues5_victoria_12b: #
+    mt "Мне надо идти к этой сучке Виктории..."
     return

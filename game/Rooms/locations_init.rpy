@@ -239,6 +239,11 @@ label locations_init_house_neighbour:
     $ add_location("street_house_neighbour", caption=t_("ДОМ СОСЕДА"), label="street_house_neighbour", init_label="street_house_neighbour_init", parent="House")
     return
 
+label locations_init_victoriahome1:
+    $ add_location("street_victoriahome", caption=t_("АПАРТАМЕНТЫ ВИКТОРИИ"), label="street_victoriahome", init_label="street_victoriahome_init", parent="World")
+    return
+
+
 label world:
     return
 label world_init:
