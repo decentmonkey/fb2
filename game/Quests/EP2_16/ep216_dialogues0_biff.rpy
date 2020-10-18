@@ -686,42 +686,136 @@ label ep216_dialogues0_biff2: #Сесть на стол, достать член
     sound lick3
     imgd 24500
     biff "О Да!"
-    sound lick3
-    imgd 24499
-    w
-    sound lick3
-    imgd 24500
-    w
-    sound lick3
-    imgd 24499
-    w
-    sound lick3
-    imgd 24500
-    w
-    sound lick3
-    imgd 24499
-    w
-    sound lick3
-    imgd 24500
-    w
+
+    $ localSoundVolume = 1.0
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_1 = Movie(play="video/v_Monica_Biff_Blowjob1_1.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Моника делает минет
     imgf 24501
     biff "Я буду представлять что сама Моника Бакфетт сосет папочкин член! О Да!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_2 = Movie(play="video/v_Monica_Biff_Blowjob1_2.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     music Loved_Up2
     imgd 24502
     w
     imgf 24503
     biff "У цыпочки маловато опыта!"
     biff "Отсасывая члены на улице за двадцать долларов она почти ничему не научилась!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_3 = Movie(play="video/v_Monica_Biff_Blowjob1_3.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_3
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 24504
     biff "Но я сделаю из тебя хорошую цыпочку!"
     biff "Я расскажу тебе как правильно поднимать настроение папочке!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_4 = Movie(play="video/v_Monica_Biff_Blowjob1_4.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound lick3
     imgf 24505
     biff "О Да!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_5 = Movie(play="video/v_Monica_Biff_Blowjob1_5.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_5
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 24506
     biff "Да, еще! Папочке нравится так! Да!"
     biff "Еще! Еще!"
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_6 = Movie(play="video/v_Monica_Biff_Blowjob1_6.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_6
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_Monica_Biff_Blowjob1_1.ogg"
+    scene black
+    image videov_Monica_Biff_Blowjob1_7 = Movie(play="video/v_Monica_Biff_Blowjob1_7.mkv", fps=30)
+    show videov_Monica_Biff_Blowjob1_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 24507
     menu:
         "Кончить на лицо Моники.":
