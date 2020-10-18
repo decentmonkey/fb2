@@ -1,26 +1,31 @@
 default ep216_quests_bardie_completed_day = 0
 default ep216_quests_bardie_completed_webcam_day = 0
 
+default ep216_quests_bardie_catch_active = False
+
 label ep216_quests_bardie_check_init:
     if int(ep216_quests_bardie_completed_day/7) < int(day/7) and monicaBardieRalphSeducingStage >= 6:
         if check_hook(label="ep216_quests_bardie_catch_after_cleaning", scene="global") == False and check_hook(label="ep216_quests_bardie3_enter_room", scene="floor2") == False:
             $ add_hook("monica_cleaning_end", "ep216_quests_bardie2_catch", scene="global")
+        $ ep216_quests_bardie_catch_active = True
     return
 
 
 label ep216_quests_bardie2_catch: # Барди перехватывает Монику
-    if day_time != "day":
-        return
-    $ remove_hook(label="ep216_quests_bardie2_catch")
-    $ restore_music()
-    call ep216_dialogues1_bardie_1()
-    # Инициализация похода к Барди
-    $ autorun_to_object("ep216_dialogues1_bardie_1b", scene="basement_bedroom2")
-#    $ add_hook("basement_monica_after_nap_dialogue", "dialogue_classmate_1b", scene="global", once=True)
-    $ add_objective("go_to_bardie", t_("Идти к Барди в комнату вечером"), c_orange, 85)
-    $ add_hook("Teleport_BedroomBardie", "ep216_quests_bardie3_enter_room", scene="floor2", label="ep216_quests_bardie3_enter_room")
+    if ep216_quests_bardie_catch_active == True:
+        $ ep216_quests_bardie_catch_active = False
+        if day_time != "day":
+            return
+    #    $ remove_hook(label="ep216_quests_bardie2_catch")
+        $ restore_music()
+        call ep216_dialogues1_bardie_1()
+        # Инициализация похода к Барди
+        $ autorun_to_object("ep216_dialogues1_bardie_1b", scene="basement_bedroom2")
+    #    $ add_hook("basement_monica_after_nap_dialogue", "dialogue_classmate_1b", scene="global", once=True)
+        $ add_objective("go_to_bardie", t_("Идти к Барди в комнату вечером"), c_orange, 85)
+        $ add_hook("Teleport_BedroomBardie", "ep216_quests_bardie3_enter_room", scene="floor2", label="ep216_quests_bardie3_enter_room")
 
-    call change_scene("basement_bedroom2", "Fade_long")
+        call change_scene("basement_bedroom2", "Fade_long")
 
     return
 
