@@ -1,25 +1,25 @@
 #v0.16
-define slumsCitizen15Option1 = 400 # Согласиться привести в квартиру
-define slumsCitizen15Option2 = 500 # Моника сказала, что ей нравится парень в синей куртке при его подруге
-define slumsCitizen15Option3 = 600 # Моника соглашается взять питона в руку и сказать что он большой
-define slumsCitizen15Option4 = 650 # Моника соглашается сделать минет, когда отказалась от option3 (экстра сцена)
-define slumsCitizen15Option5 = 700 # Моника соглашается взять питона в рот чтобы показать что он нравится
-define slumsCitizen15Option6 = 700 # Моника решила подойти к парочке, когда он занимаются сексом
-define slumsCitizen15Option7 = 750 # Моника согласилась сделать минет для парочки
-define slumsCitizen15Option8 = 800 # Моника согласилась подставить грудь, чтобы ситизен кончил
+define slumsCitizen15Option1 = 350 # Согласиться привести в квартиру
+define slumsCitizen15Option2 = 370 # Моника сказала, что ей нравится парень в синей куртке при его подруге
+define slumsCitizen15Option3 = 400 # Моника соглашается взять питона в руку и сказать что он большой
+define slumsCitizen15Option4 = 550 # Моника соглашается сделать минет, когда отказалась от option3 (экстра сцена)
+define slumsCitizen15Option5 = 450 # Моника соглашается взять питона в рот чтобы показать что он нравится
+define slumsCitizen15Option6 = 500 # Моника решила подойти к парочке, когда он занимаются сексом
+define slumsCitizen15Option7 = 550 # Моника согласилась сделать минет для парочки
+define slumsCitizen15Option8 = 560 # Моника согласилась подставить грудь, чтобы ситизен кончил
 
-define slumsCitizen13Option1 = 400 # Согласиться идти поцеловать
-define slumsCitizen13Option2 = 550 # Согласиться на потрогать киску
+define slumsCitizen13Option1 = 350 # Согласиться идти поцеловать
+define slumsCitizen13Option2 = 470 # Согласиться на потрогать киску
 
 define biffCastingModelPosesCorruptionRequired = 300 # Раздеться и принимать различные модельные позы.
 define biffCastingKneesCorruptionRequired = 400 # Раздеться и встать на колени задом к Бифу.
-define biffCastingFloorCorruptionRequred = 450 # Раздеться и лечь на пол раздвинув ноги.
-define biffCastingOneLegOnTheTable = 500 # Поставить на стол одну ногу.
-define biffCastingTableLegsOpen = 550 # Сесть на стол лицом к Бифу, широко раздвинув ноги.
-define biffCastingTableBack = 600 # Сесть на стол спиной к Бифу.
-define biffCastingTableBlowjob = 650 # Сесть на стол, достать член Бифа и взять его в рот.
-define biffCastingTableBlowjobOption1 = 670 # Я уже сегодня сосала член другому мужчине, поэтому не хочу пачкать член папочки...
-define biffCastingTableBlowjobOption2 = 700 # Я - Моника Бакфетт... (blowjob)
+define biffCastingFloorCorruptionRequred = 500 # Раздеться и лечь на пол раздвинув ноги.
+define biffCastingOneLegOnTheTable = 550 # Поставить на стол одну ногу.
+define biffCastingTableLegsOpen = 600 # Сесть на стол лицом к Бифу, широко раздвинув ноги.
+define biffCastingTableBack = 650 # Сесть на стол спиной к Бифу.
+define biffCastingTableBlowjob = 700 # Сесть на стол, достать член Бифа и взять его в рот.
+define biffCastingTableBlowjobOption1 = 720 # Я уже сегодня сосала член другому мужчине, поэтому не хочу пачкать член папочки...
+define biffCastingTableBlowjobOption2 = 750 # Я - Моника Бакфетт... (blowjob)
 
 #v0.15
 define monicaBiffInvestorDatingAgree1 = 550 # согласие на свидание с инвестором
