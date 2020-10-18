@@ -19,11 +19,11 @@ label street_victoriahome_init:
 label street_victoriahome_teleport:
     if obj_name == "VictoriaHome_Enter":
         if act == "l":
-            call ep216_dialogues5_victoria_9()
+            call ep216_dialogues5_victoria_9() from _rcall_ep216_dialogues5_victoria_9
         else:
-            call ep216_dialogues5_victoria_10()
+            call ep216_dialogues5_victoria_10() from _rcall_ep216_dialogues5_victoria_10
     return
 label street_victoriahome_environment:
     if obj_name == "DickBuilding":
-        call ep216_dialogues5_victoria_11()
+        call ep216_dialogues5_victoria_11() from _rcall_ep216_dialogues5_victoria_11
     return

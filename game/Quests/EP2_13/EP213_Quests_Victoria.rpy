@@ -63,7 +63,7 @@ label ep213_quests_victoria4_checknext:
     if ep215_victoria_visit_day > 0 and ep215_quests_victoria_melanie_inited2 == False:
         call ep215_quests_victoria_melanie4() from _rcall_ep215_quests_victoria_melanie4 # Виктория приходит к Алексу (у лифта)
     if ep215_victoria_dick_visit_day > 0 and ep216_quests_victoria1_init_flag == False:
-        call ep216_quests_victoria1_init() # Юлия сообщает что надо ехать к Виктории на девичник
+        call ep216_quests_victoria1_init() from _rcall_ep216_quests_victoria1_init # Юлия сообщает что надо ехать к Виктории на девичник
 
 #    if ep215_victoria_visit_alex_day > 0 and ep215_quests_victoria_melanie_inited3 == False:
 #        call ep215_quests_victoria_melanie6()

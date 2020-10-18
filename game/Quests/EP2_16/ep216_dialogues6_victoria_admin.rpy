@@ -83,7 +83,7 @@ label ep216_dialogues6_victoria_admin_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_75
     scene black_screen
     with Dissolve(1)
     music Marty_Gots_a_Plan
@@ -177,7 +177,7 @@ label ep216_dialogues6_victoria_admin_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_76
     scene black_screen
     with Dissolve(1)
     music Stealth_Groover

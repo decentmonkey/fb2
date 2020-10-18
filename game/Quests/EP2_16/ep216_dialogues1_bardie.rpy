@@ -447,7 +447,7 @@ label ep216_dialogues1_bardie_1c:
     imgd 32377
     bardie "Гувернантка, раздвигай ноги!"
     w
-    call photoshop_flash()
+    call photoshop_flash() from _rcall_photoshop_flash_221
     w
     # Моника зло ему шипит
     m "Какого черта ты делаешь?!"

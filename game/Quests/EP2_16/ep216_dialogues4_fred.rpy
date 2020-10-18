@@ -157,8 +157,8 @@ label ep216_dialogues4_fred_2:
     mt "ААААА!!!"
     mt "НЕНАВИЖУ!!!"
     mt "!!!"
-    call ep216_dialogues4_fred_3()
-    call refresh_scene_fade()
+    call ep216_dialogues4_fred_3() from _rcall_ep216_dialogues4_fred_3
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_117
     return
 
 # тем временем, в квартире Юлии
@@ -491,7 +491,7 @@ label ep216_dialogues4_fred_7:
             mt "Никчемная глупая Юлия!!!"
             mt "!!!"
             $ workingOfficeCabinet2MonicaSuffix = 2
-            call change_scene("working_office_cabinet2", "Fade_long")
+            call change_scene("working_office_cabinet2", "Fade_long") from _rcall_change_scene_183
             return False
         "Целовать попу Юлии.":
             $ monicaJuliaFredVisit2 = True # Моника делала ассликинг Юлии в комнате отдыха
@@ -880,5 +880,5 @@ label ep216_dialogues4_fred_7:
     $ ep216_dialogues4_fred_7_last_day = day
     $ add_char_progress("Julia", 15, "julia_relations_progress_scene6")
     $ workingOfficeCabinet2MonicaSuffix = 2
-    call change_scene("working_office_cabinet2", "Fade_long")
+    call change_scene("working_office_cabinet2", "Fade_long") from _rcall_change_scene_184
     return

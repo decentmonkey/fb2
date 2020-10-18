@@ -12,7 +12,7 @@ label ep214_quests_ralph1:
 
 label ep214_quests_ralph2:
     # берем одежду Бетти и едем домой
-    call ep216_quests_bardie_check_init() # инициализируем перехват Барди после уборки
+    call ep216_quests_bardie_check_init() from _rcall_ep216_quests_bardie_check_init # инициализируем перехват Барди после уборки
     $ remove_objective("go_fitness")
     call ep214_dialogues5_bardie_ralph_2b() from _rcall_ep214_dialogues5_bardie_ralph_2b
     call ep215_quests_betty_check() from _rcall_ep215_quests_betty_check

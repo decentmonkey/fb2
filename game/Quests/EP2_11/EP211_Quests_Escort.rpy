@@ -222,7 +222,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         img black_screen
         with diss
         pause 2.0
-        call ep216_dialogues2_escort_1()
+        call ep216_dialogues2_escort_1() from _rcall_ep216_dialogues2_escort_1
         $ add_objective("go_corridor", t_("Пойти в служебный коридор."), c_orange, 105)
         $ move_object("ReceptionGirl", "empty")
         $ add_hook("Teleport_Street_Rich_Hotel", "ep216_dialogues2_escort_3a", scene="rich_hotel_reception", label="escort_scene7")
@@ -370,8 +370,8 @@ label ep211_quests_escort6_scene7:
     $ monicaEscortScene7LastDay = day
     $ set_active("Visitor2", True, scene="rich_hotel_restaurant")
     $ set_active("Visitor3", True, scene="rich_hotel_restaurant")
-    call ep216_dialogues2_escort_2()
-    call ep211_quests_escort2_end_day()
+    call ep216_dialogues2_escort_2() from _rcall_ep216_dialogues2_escort_2
+    call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_17
 
     return False
 

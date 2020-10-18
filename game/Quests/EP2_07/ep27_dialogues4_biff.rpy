@@ -384,7 +384,7 @@ label ep27_dialogues4_biff5:
                                 pass
                             "Сесть на стол спиной к Бифу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 5 and monicaOutfitsEnabled[9] == True:
                                 $ store_music()
-                                call ep216_dialogues0_biff1()
+                                call ep216_dialogues0_biff1() from _rcall_ep216_dialogues0_biff1_1
                                 $ restore_music()
                                 if biffCastingStage < 6:
                                     $ biffCastingStage = 6
@@ -394,10 +394,10 @@ label ep27_dialogues4_biff5:
                                 pass
                             "Сесть на стол, достать член Бифа и взять его в рот." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 6 and monicaOutfitsEnabled[9] == True:
                                 $ store_music()
-                                call ep216_dialogues0_biff2()
+                                call ep216_dialogues0_biff2() from _rcall_ep216_dialogues0_biff2_1
                                 $ restore_music()
                                 if _return == -1: # убежала, закрываем доступ в офис на неделю
-                                    call ep216_quests_biff_block_office()
+                                    call ep216_quests_biff_block_office() from _rcall_ep216_quests_biff_block_office_1
                                     return -1
                                 if biffCastingStage < 7:
                                     $ biffCastingStage = 7

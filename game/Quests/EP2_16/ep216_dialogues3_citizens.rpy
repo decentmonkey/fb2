@@ -207,11 +207,11 @@ label ep216_dialogues3_citizens_1:
     # Моника, чувак в синей куртке и покупательница с магазина стоят в гостиной у Моники
     # подруга чувака огрядывается с пренебрежительным видом
     fadeblack 1.5
-    call ep211_quests_slums_apartments2_check_enter_forced() # Моника входит в апартаменты (смена одежды)
+    call ep211_quests_slums_apartments2_check_enter_forced() from _rcall_ep211_quests_slums_apartments2_check_enter_forced # Моника входит в апартаменты (смена одежды)
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_70
     scene black_screen
     with Dissolve(1)
     sound snd_door_knock
@@ -1514,7 +1514,7 @@ label ep216_dialogues3_citizens_1:
                     scene black_screen
                     with Dissolve(1)
                     music stop
-                    call textonblack(t_("Несколько минут спустя..."))
+                    call textonblack(t_("Несколько минут спустя...")) from _rcall_textonblack_71
                     scene black_screen
                     with Dissolve(1)
                     sound snd_walk_barefoot
@@ -2578,7 +2578,7 @@ label ep216_dialogues3_citizens_4:
     # апартаменты Моники
     # гей стоит оглядывается, Моника заходит в гостину уже в домашней одежде
     fadeblack 1.5
-    call ep211_quests_slums_apartments2_check_enter_forced() # Моника входит в апартаменты (смена одежды)
+    call ep211_quests_slums_apartments2_check_enter_forced() from _rcall_ep211_quests_slums_apartments2_check_enter_forced_1 # Моника входит в апартаменты (смена одежды)
     fadeblack 1.5
     sound highheels_short_walk
     pause 2.0

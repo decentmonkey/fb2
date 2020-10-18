@@ -483,7 +483,7 @@ label ep213_quests_julia22_work_julia_regular:
         call change_scene("working_office2", "Fade_long", False) from _rcall_change_scene_107
         return False
     if _return == 6: # Ласкать попу Юлии
-        call ep216_dialogues4_fred_7()
+        call ep216_dialogues4_fred_7() from _rcall_ep216_dialogues4_fred_7
         $ juliahome_work_action_day = day
 
 

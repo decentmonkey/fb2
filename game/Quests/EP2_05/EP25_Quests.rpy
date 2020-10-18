@@ -40,7 +40,7 @@ label ep25_quests2:
 label ep25_quests3:
     # Проверка на вход в офис Дика в платье
     if ep216_victoria_visit_day1 > 0 and cloth_type != "Whore":
-        call ep216_dialogues5_victoria_8()
+        call ep216_dialogues5_victoria_8() from _rcall_ep216_dialogues5_victoria_8
         return False
     if cloth == "CasualDress1":
         call ep25_dialogues1_shop18() from _call_ep25_dialogues1_shop18

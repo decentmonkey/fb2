@@ -2043,7 +2043,7 @@ label ep213_dialogues5_julia_8:
                                             m "Доброе утро, милая..."
                                             # Юлия улыбается и смотрит на нее влюбленными глазами
                                             if ep216_quests_julia1_start_day == 0:
-                                                call ep216_quests_julia1_start()
+                                                call ep216_quests_julia1_start() from _rcall_ep216_quests_julia1_start
                                             return 1
                 "Уйти.":
                     return 0

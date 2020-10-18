@@ -185,7 +185,7 @@ label ep216_dialogues5_victoria_4:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Минуту спустя..."))
+    call textonblack(t_("Минуту спустя...")) from _rcall_textonblack_72
     scene black_screen
     with Dissolve(1)
     pause 2.0
@@ -360,6 +360,23 @@ label ep216_dialogues5_victoria_4:
     victoria "Она призналась мне, что ей это очень нравится."
     fadeblack 1.5
     music Loved_up
+
+    $ localSoundVolume = 1.0
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Melanie_Licking1_1 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_1.mkv", fps=25)
+    show videov_VictoriaHome_Melanie_Licking1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 40544
     w
     sound lick3
@@ -661,7 +678,7 @@ label ep216_dialogues5_victoria_4:
             m "Я считаю, что Мелани поступила неправильно."
             imgd 40606
             m "И осуждаю ее."
-            call bitch(20, "ep216_dialogues5_victoria_rose")
+            call bitch(20, "ep216_dialogues5_victoria_rose") from _rcall_bitch_18
             imgf 40709
             w
             sound chpok2
@@ -853,7 +870,7 @@ label ep216_dialogues5_victoria_4:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(t_("5 минут спустя..."))
+            call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_73
             img black_screen
             with Dissolve(2.0)
             sound highheels_short_walk
@@ -898,7 +915,7 @@ label ep216_dialogues5_victoria_4:
             m "Я считаю, что Мелани хорошая подружка."
             m "Думаю, ей можно простить небольшую ошибку..."
             m "..."
-            call bitch(-20, "ep216_dialogues5_victoria_rose")
+            call bitch(-20, "ep216_dialogues5_victoria_rose") from _rcall_bitch_19
             imgd 40618
             m "Эта роза стояла неровно, вот так она выглядит гораздо эстетичнее..."
             # Моника кладет розу рядом с Мелани на стол
@@ -987,7 +1004,7 @@ label ep216_dialogues5_victoria_4:
             music stop
             img black_screen
             with Dissolve(2.0)
-            call textonblack(t_("5 минут спустя..."))
+            call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_74
             img black_screen
             with Dissolve(2.0)
             sound highheels_short_walk
