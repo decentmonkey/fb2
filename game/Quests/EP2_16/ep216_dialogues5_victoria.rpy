@@ -460,8 +460,25 @@ label ep216_dialogues5_victoria_4:
     sound lick3
     pause 1.0
     sound lick3
+
+    $ localSoundVolume = 0.75
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Melanie_Licking1_2 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_2.mkv", fps=25)
+    show videov_VictoriaHome_Melanie_Licking1_2
+    with fade
     victoria "Ой, подружка Моника, это так невежливо с моей стороны!"
     victoria "Я забыла тебя спросить, не хочешь ли ты присоединиться к подружке Мелани?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 40560
     m "Присо... Что?!"
     # кадр на Мелани
@@ -511,6 +528,23 @@ label ep216_dialogues5_victoria_4:
     # Виктория опускает взгляд на Мелани, та все продолжает лизать
     imgf 40569
     victoria "Жаль, что она не может к нам присоединиться..."
+
+    $ localSoundVolume = 1.0
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Melanie_Licking1_1 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_1.mkv", fps=25)
+    show videov_VictoriaHome_Melanie_Licking1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 40570
     m "..."
     imgf 40571
@@ -554,7 +588,23 @@ label ep216_dialogues5_victoria_4:
     imgd 40579
     victoria "Но, если я допущу подружку Мелани до моей попы..."
     victoria "Тогда ты не сможешь больше быть моей подружкой."
+
+    $ localSoundVolume = 0.75
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+    scene black
+    image videov_VictoriaHome_Melanie_Licking1_2 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_2.mkv", fps=25)
+    show videov_VictoriaHome_Melanie_Licking1_2
+    with fade
     victoria "Тебе ничего не останется, чем подтверждать нашу дружбу."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # Моника с непониманием смотрит на нее
     music Villainous_Treachery
     imgd 40580
@@ -779,10 +829,13 @@ label ep216_dialogues5_victoria_4:
             mt "Даже представлять не хочу, что сейчас чувствует Мелани..."
             mt "Это ужасно!"
             mt "..."
+
+            $ localSoundVolume = 1.0
+
             # если был обнаженный кастинг перед Мелани и мартышкой
             if monicaMelanieCastingLickedPussies == True:
                 music Pyro_Flow
-                imgd 40683
+#                imgd 40683
                 mt "Но если посмотреть на ситуацию с другой стороны..."
                 #
                 $ notif(_("Моника проходила кастинг перед Мелани и серой мышью."))
@@ -790,10 +843,27 @@ label ep216_dialogues5_victoria_4:
                 imgd 40684
                 mt "Мелани в тот раз поступила так же!"
                 mt "Она не терзалась сомнениями, когда эта грязная серая мышь заставила меня лизать..."
+
+                img black_screen
+                with diss
+                stop music2
+                $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                play music2 "<from " + str(float(rand(1,3))*2.0) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Monica_Licking1_1.ogg"
+                scene black
+                image videov_VictoriaHome_Melanie_Monica_Licking1_4 = Movie(play="video/v_VictoriaHome_Melanie_Monica_Licking1_4.mkv", fps=25)
+                show videov_VictoriaHome_Melanie_Monica_Licking1_4
+                with fade
+                wclean
                 mt "Лизать Мелани между ног!"
                 mt "Я тогда была в не менее унизительном положении, чем сейчас Мелани!"
                 mt "Это было отвратительно!"
                 mt "!!!"
+                wclean
+                stop music2
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 if monicaBitch == True:
                     imgd 40685
                     mt "Поэтому теперь это будет моя маленькая месть Мелани за тот поступок!"
@@ -808,9 +878,25 @@ label ep216_dialogues5_victoria_4:
                 music Groove2_85
                 imgd 40686
                 mt "Но если посмотреть на ситуацию с другой стороны..."
+
+                img black_screen
+                with diss
+                stop music2
+                $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                play music2 "<from " + str(float(rand(1,3))*2.0) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Monica_Licking1_1.ogg"
+                scene black
+                image videov_VictoriaHome_Melanie_Monica_Licking1_4 = Movie(play="video/v_VictoriaHome_Melanie_Monica_Licking1_4.mkv", fps=25)
+                show videov_VictoriaHome_Melanie_Monica_Licking1_4
+                with fade
                 mt "Ведь я делаю это для того, чтобы сучка Виктория наконец отстала от нас!"
                 mt "По крайней мере, на сегодня."
                 mt "Возможно, после этого она отпустит меня и Мелани."
+                wclean
+                stop music2
+                $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                 imgd 40684
                 mt "Мелани должна понять меня."
                 mt "Уверена, будь она на моем месте, она поступила бы также."
@@ -843,15 +929,64 @@ label ep216_dialogues5_victoria_4:
             sound lick3
             imgd 40719
             w
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,3))*2.0) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Monica_Licking1_1.ogg"
+            scene black
+            image videov_VictoriaHome_Melanie_Monica_Licking1_1 = Movie(play="video/v_VictoriaHome_Melanie_Monica_Licking1_1.mkv", fps=25)
+            show videov_VictoriaHome_Melanie_Monica_Licking1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,3))*2.0) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Monica_Licking1_1.ogg"
+            scene black
+            image videov_VictoriaHome_Melanie_Monica_Licking1_2 = Movie(play="video/v_VictoriaHome_Melanie_Monica_Licking1_2.mkv", fps=25)
+            show videov_VictoriaHome_Melanie_Monica_Licking1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 40688
             sound snd_woman_laugh2
             victoria "Я уверена, что подружке Мелани тоже очень нравится."
             victoria "Хи-хи-хи!"
+
+
             imgd 40689
             m "..."
             #sound lick3
             imgf 40720
             w
+
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,3))*2.0) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Monica_Licking1_1.ogg"
+            scene black
+            image videov_VictoriaHome_Melanie_Monica_Licking1_3 = Movie(play="video/v_VictoriaHome_Melanie_Monica_Licking1_3.mkv", fps=25)
+            show videov_VictoriaHome_Melanie_Monica_Licking1_3
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             fadeblack 1.5
             music Groove2_85
             imgfl 40690
@@ -974,6 +1109,23 @@ label ep216_dialogues5_victoria_4:
             imgf 40698
             sound kiss1
             victoria "Хи-хи-хи!"
+
+            $ localSoundVolume = 1.0
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+            scene black
+            image videov_VictoriaHome_Melanie_Licking1_1 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_1.mkv", fps=25)
+            show videov_VictoriaHome_Melanie_Licking1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             fadeblack 1.5
             music Groove2_85
             imgf 40699
@@ -993,9 +1145,27 @@ label ep216_dialogues5_victoria_4:
             imgd 40701
             sound kiss1
             w
+
+            $ localSoundVolume = 0.7
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/v_VictoriaHome_Melanie_Licking1_1.ogg"
+            scene black
+            image videov_VictoriaHome_Melanie_Licking1_2 = Movie(play="video/v_VictoriaHome_Melanie_Licking1_2.mkv", fps=25)
+            show videov_VictoriaHome_Melanie_Licking1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 40702
             sound snd_woman_laugh3
             victoria "Хи-хи-хи!"
+
 ########################
 
             # затемнение
