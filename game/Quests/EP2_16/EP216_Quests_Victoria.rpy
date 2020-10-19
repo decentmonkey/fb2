@@ -29,6 +29,11 @@ label ep216_quests_victoria2_init: # инициализация во время 
     $ add_hook("basement_monica_before_sleep", "ep216_dialogues5_victoria_12", scene="global", label="ep216_victoria_block")
 
     # блокируем перемещения и работу
+    $ add_hook("Building", "ep216_dialogues5_victoria_12", scene="street_police", label="ep216_victoria_block") # блокируем полицию
+    $ add_hook("JuliaHome", "ep216_dialogues5_victoria_12", scene="street_juliahome", label="ep216_victoria_block") # блокируем Юлию
+    $ ep216_juliahome_blocked_day = day # блокируем мини-карту у дома Юлии
+
+
     $ add_hook("Teleport_Inside", "ep216_dialogues5_victoria_12", scene="street_dick_office", label="ep216_victoria_block")
     $ add_hook("MonicaTable", "ep216_dialogues5_victoria_12", scene="working_office_cabinet", label="ep216_victoria_block")
     $ add_hook("MonicaChair", "ep216_dialogues5_victoria_12", scene="working_office_cabinet", label="ep216_victoria_block")
@@ -72,6 +77,7 @@ label ep216_quests_victoria4_enter: # вход к Виктории
     $ remove_hook()
     $ remove_hook(label="ep216_victoria_block")
     $ hudDaySkipToEveningEnabled = True
+    $ ep216_juliahome_blocked_day = day-1 # разблокируем мини-карту у дома Юлии
     call ep216_dialogues5_victoria_2() from _rcall_ep216_dialogues5_victoria_2
     call ep216_dialogues5_victoria_4() from _rcall_ep216_dialogues5_victoria_4
     if melanieVictoriaMonicaTable1 == True: # Моника осудила Мелани в гостях у Виктории, воткнула в нее розу
@@ -118,6 +124,10 @@ label ep216_quests_victoria5_admin: # приход админа и свидан�
         $ add_hook("basement_monica_before_sleep", "ep216_dialogues5_victoria_12", scene="global", label="ep216_victoria_block")
 
         # блокируем перемещения и работу
+        $ add_hook("Building", "ep216_dialogues5_victoria_12", scene="street_police", label="ep216_victoria_block") # блокируем полицию
+        $ add_hook("JuliaHome", "ep216_dialogues5_victoria_12", scene="street_juliahome", label="ep216_victoria_block") # блокируем Юлию
+        $ ep216_juliahome_blocked_day = day # блокируем мини-карту у дома Юлии
+
         $ add_hook("Teleport_Inside", "ep216_dialogues5_victoria_12", scene="street_dick_office", label="ep216_victoria_block")
         $ add_hook("MonicaTable", "ep216_dialogues5_victoria_12", scene="working_office_cabinet", label="ep216_victoria_block")
         $ add_hook("MonicaChair", "ep216_dialogues5_victoria_12", scene="working_office_cabinet", label="ep216_victoria_block")
@@ -148,13 +158,14 @@ label ep216_quests_victoria5_admin: # приход админа и свидан�
 label ep216_quests_victoria6_dating: #свидание админа и Моники
     if act=="l":
         return
+    $ unfocus_map()
     if cloth != "CasualDress1":
         call ep216_dialogues5_victoria_8a() from _rcall_ep216_dialogues5_victoria_8a_1
         return False
     $ remove_hook()
     $ remove_hook(label="ep216_victoria_block")
     $ hudDaySkipToEveningEnabled = True
-    $ unfocus_map()
+    $ ep216_juliahome_blocked_day = day-1 # разблокируем мини-карту у дома Юлии
     $ remove_objective("go_victoria")
     $ ep216_victoria_visit_day3 = day
     call ep216_dialogues6_victoria_admin_3() from _rcall_ep216_dialogues6_victoria_admin_3
