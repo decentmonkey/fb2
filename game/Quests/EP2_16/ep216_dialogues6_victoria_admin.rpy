@@ -1068,7 +1068,7 @@ label ep216_dialogues6_victoria_admin_4:
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
     play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
     scene black
-    image videov_VictoriaHome_Worker2_Monica_Sex1_5 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_4.mkv", fps=30)
+    image videov_VictoriaHome_Worker2_Monica_Sex1_5 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_5.mkv", fps=30)
     show videov_VictoriaHome_Worker2_Monica_Sex1_5
     with fade
     w2 "Охренительно!!! ДААА!!!"
@@ -1149,7 +1149,7 @@ label ep216_dialogues6_victoria_admin_4:
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
     play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
     scene black
-    image videov_VictoriaHome_Worker2_Monica_Sex1_9 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_8.mkv", fps=30)
+    image videov_VictoriaHome_Worker2_Monica_Sex1_9 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_9.mkv", fps=30)
     show videov_VictoriaHome_Worker2_Monica_Sex1_9
     with fade
     wclean
@@ -1163,20 +1163,6 @@ label ep216_dialogues6_victoria_admin_4:
     w2 "Я кажется сейчас кончуууу!!!"
     # Виктория издевательски смотрит на Монику
 
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(1,4))*1.166666666666667) + " loop 0.0>Sounds/v_VictoriaHome_Worker2_Monica_Sex1_1.ogg"
-    scene black
-    image videov_VictoriaHome_Worker2_Monica_Sex1_10 = Movie(play="video/v_VictoriaHome_Worker2_Monica_Sex1_10.mkv", fps=30)
-    show videov_VictoriaHome_Worker2_Monica_Sex1_10
-    with fade
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     # админ кончает
     imgd 32696
