@@ -240,11 +240,11 @@ label remove_dialogue():
 
 label after_load():
 #    $ renpy.free_memory()
-    if episode2part > 1:
-        img black_screen
-        help "Пожалуйста, используйте для загрузки более новую версию игры!"
-        $ MainMenu(confirm=False)()
-        return
+#    if episode2part > 1:
+#        img black_screen
+#        help "Пожалуйста, используйте для загрузки более новую версию игры!"
+#        $ MainMenu(confirm=False)()
+#        return
 
     $ list_files_active = True
     $ refresh_list_files ()
@@ -266,8 +266,16 @@ label after_load():
 
 #    $ refresh_list_files_forced()
     if episode < 2:
-        call start_saved_game() from _call_start_saved_game
+        help "Пожалуйста, используйте сохранения первого эпизода в Episode 2 part1!"
+        $ MainMenu(confirm=False)()
+#        call start_saved_game() from _call_start_saved_game
         return
+    $ imagesSizesCache = {}
+    if episode2part2_initialized == False:
+        jump part2_questions_init
+    call process_afterload_part2()
+    return
+
     if patch32applied == False:
         $ remove_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global")
         $ add_hook("map_teleport", "hook_basement_bedroom_check_exit_cloth_map", scene="global", priority=1000)

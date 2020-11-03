@@ -783,7 +783,7 @@ label define_hudpresets:
     return
 
 label run_after_load:
-    $ print "after load!"
+#    $ print "after load!"
     call define_hudpresets() from _call_define_hudpresets_2
     call questLog_init() from _call_questLog_init_1
     return

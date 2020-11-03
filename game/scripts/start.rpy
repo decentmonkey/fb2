@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -40,6 +40,7 @@ default nextFriday = -1
 default act = ""
 
 default episode2part = 1
+default episode2part2_initialized = False
 
 label start:
     #new game
@@ -48,13 +49,55 @@ label start:
     $ episode = 2
 #    $ debugMode = True
 
-    $ cloth_type = "Nude"
-    $ cloth = "Nude"
+    $ cloth_type = "CasualDress1"
+    $ cloth = "CasualDress"
     $ bitchmeterValue = 280
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
     $ hooks_stack = []
     $ inventory_objects = {}
     $ inventory = []
+
+    $ gameStage = 0
+    $ gameSubStage = 0
+    $ afterJail = True
+    $ rain = False
+    $ sceneIsStreet = False
+
+    $ game_version1_screen_ready_to_render = True
+    $ zoom_factor = 1
+
+    $ day = 230
+    $ monicaEatedLastDay = day
+    $ week_day = (day)%7
+    if week_day == 0:
+        $ week_day = 7
+
+    $ day_time = "day"
+    $ day_suffix = ""
+    $ money = 0.0
+
+    $ showObjectsNotOwner = True
+    $ faceHudImage = False
+    $ hud_preset_current = "default"
+    $ hud_preset_default = "default"
+    $ minimap_coords_preset = 0
+
+    $ bFredFollowingMonica = False
+
+    $ scene_refresh_flag = True
+    $ map_scene = "House"
+    $ map_enabled = True
+    $ map_disabled_forced = False
+    $ scene_name = "none"
+    $ api_scene_name = "none"
+
+    $ scene_sound = False
+    $ scene_transition = False
+
+    call part2_questions_start_new_game()
+    call change_scene("street_house_outside")
+#    call refresh_scene_fade_long()
+    jump show_scene
 
 
     call intro_questions() from _call_intro_questions

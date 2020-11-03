@@ -13,15 +13,15 @@ label intro_questions:
             img 3367
             with fade
             help "Спасибо за ответы!"
-    help "Последний вопрос. В чем Моника легла спать?"
-    label .into_loop1:
-        menu:
-            "Моника легла спать в трусиках Юлии.":
-                $ cloth_type = "Nude"
-                $ cloth = "GovernessPants"
+#    help "Последний вопрос. В чем Моника легла спать?"
+#    label .into_loop1:
+#        menu:
+#            "Моника легла спать в трусиках Юлии.":
+#                $ cloth_type = "Nude"
+#                $ cloth = "GovernessPants"
 
-            "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)":
-                jump .intro_loop1
+#            "Моника легла спать обнаженной (доступно только в сохранении Эпизода 1) (disabled)":
+#                jump .intro_loop1
     img black_screen
     with Dissolve(1.0)
 #    pause(1.0)
