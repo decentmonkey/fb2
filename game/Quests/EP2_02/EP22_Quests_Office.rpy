@@ -52,7 +52,7 @@ label ep22_quests_office4: # Алекс стартует фотосессию
     label ep22_quests_office4_loop1:
 #        img scene_Office_Monica_MakeupRoom
         call biffInitOutfitIcons() from _call_biffInitOutfitIcons
-        show screen choose_photoshoot_outfit()
+        show screen choose_photoshoot_outfit_EP2p2()
         with Dissolve(0.2)
         $ result = ui.interact()
         if result == -1:
@@ -60,7 +60,7 @@ label ep22_quests_office4: # Алекс стартует фотосессию
             jump ep22_quests_office4_loop1
         $ monicaPhotoShootOutfitIdx = result + 1
         sound click1
-        hide screen choose_photoshoot_outfit
+        hide screen choose_photoshoot_outfit_EP2p2
 
     call ep22_dialogue6_5a() from _call_ep22_dialogue6_5a
 

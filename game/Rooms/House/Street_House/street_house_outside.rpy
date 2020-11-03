@@ -5,6 +5,9 @@ default street_house_outside_betty_suffix = 1
 label street_house_outside:
     $ print "enter_street_house_outside"
     $ miniMapData = []
+    if cloth == "CasualDress1":
+        $ miniMapDisabled2 = {"House":["Bedroom", "Bathroom", "Floor1", "Floor2", "Kitchen"]}
+
     if miniMapTurnedOff2 == False:
         call miniMapHouseGenerate() from _call_miniMapHouseGenerate_20
 

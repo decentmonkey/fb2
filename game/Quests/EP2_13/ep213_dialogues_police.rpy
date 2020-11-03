@@ -1911,3 +1911,16 @@ label ep213_dialogues_police18:
     prisoners "Шлюха!"
     music2 stop
     return
+
+label ep213_dialogues_police19:
+    if act=="l":
+        return
+    menu:
+        "Продолжить квест Маркуса.":
+            pass
+        "Бежать отсюда!":
+            call map_show()
+            return False
+    help "Квест Маркуса можно будет продолжить в одном из следующих апдейтов!"
+    help "Следите за новостями игры!"
+    return False

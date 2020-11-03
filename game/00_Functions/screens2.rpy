@@ -84,6 +84,33 @@ screen choose_photoshoot_outfit():
                 $ offsetXIdx += 1
             $ offsetYIdx +=1
 
+screen choose_photoshoot_outfit_EP2p2():
+    modal True
+    fixed:
+        xpos getRes(480-200)
+        ypos getRes(220)
+        $ offsetYIdx = 0
+        $ idx = 7
+        for row1 in range(0,2):
+            $ offsetXIdx = 0
+            for col1 in range(0,7):
+                imagebutton:
+                    xpos (offsetXIdx * getRes(200))
+                    ypos (offsetYIdx * getRes(330))
+                    if (monicaOutfitsEnabled[idx] == True and monicaOutfitsAltEnabled == False) or (monicaOutfitsEnabled_Alt[idx] == True and monicaOutfitsAltEnabled == True):
+                        idle monicaOutfitsIcons2[idx] + ".png"
+                        hover monicaOutfitsIcons2[idx] + "_hover.png"
+                        action Return(idx)
+                    else:
+                        if monicaOutfitsIcons2[idx] == "":
+                            idle "/Icons2/Photoshoot_Empty_Icon_Disabled.png"
+                        else:
+                            idle monicaOutfitsIcons2[idx] + "_Disabled.png"
+                        action Return(-1)
+                $ idx += 1
+                $ offsetXIdx += 1
+            $ offsetYIdx +=1
+
 screen choose_melanie_photoshoot_outfit():
     modal True
     fixed:

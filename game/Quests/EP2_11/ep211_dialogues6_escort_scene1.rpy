@@ -31,26 +31,26 @@ label ep211_escort_scene1_1a_loop1:
     menu:
         "Встреча с клиентом (сцена)." if math.floor(monicaEscortSceneDay/7)<math.floor(day/7):
             menu:
-                "Клиент в номере отеля.":
+                "Клиент в номере отеля." if 1==2:
                     # запускается сцена 1 с клиентом в отеле, начиная с лейбла ep211_escort_scene1_1 (если в первый раз)
                     # при повторном выборе начинается с лейбла ep211_escort_scene1_3 (перед лифтом + сцена)
                     $ monicaEscortClientHotel4 = True # выбор сцены 1 с клиентом в отеле
                     return 1
-                "Выезд к клиенту." if monicaEscortScenesCount > 0:
+                "Выезд к клиенту." if monicaEscortScenesCount > 0 and 1==2:
                     # запускается сцена 2 - выезд к клиенту, начиная с лейбла ep211_escort_scene2_1 (если в первый раз)
                     # при повторном выборе начинается с лейбла ep211_escort_scene2_3 (служ. коридор + выезд)
                     $ monicaEscortClientHotel5 = True # выбор сцены 2 с клиентом на выезде
                     return 2
-                "Провинившийся завсегдатай." if monicaEscortClientHotel5 == True:
+                "Провинившийся завсегдатай." if monicaEscortClientHotel5 == True and 1==2:
                     $ monicaEscortClientHotel7 = True
                     return 3
-                "Реквизит отеля." if monicaEscortClientHotel7 == True:
+                "Реквизит отеля." if monicaEscortClientHotel7 == True and 1==2:
                     $ monicaEscortClientHotel9 = True
                     return 5
-                "Обслуживание персонала." if monicaEscortClientHotel9 == True and monicaHotelStaffEscort2 == True:
+                "Обслуживание персонала." if monicaEscortClientHotel9 == True and monicaHotelStaffEscort2 == True and 1==2:
                     $ monicaEscortClientHotel8 = True
                     return 4
-                "Смена ролей." if monicaEscortClientHotel8 == True and monicaEscortClientHotel9 == True:
+                "Смена ролей." if monicaEscortClientHotel8 == True and monicaEscortClientHotel9 == True and 1==2:
                     $ monicaEscortClientHotel10 = True
                     return 6
                 "Отношения в коллективе (Начало)." if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True:

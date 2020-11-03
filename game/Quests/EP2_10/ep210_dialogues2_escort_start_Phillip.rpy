@@ -912,11 +912,13 @@ label ep210_dialogues2_escort_start_Phillip_12:
             with diss
             m "Субботняя шлюха номер 2."
 
-            if monica_philip_visit_whore1_exists == False:
+            if monica_philip_visit_whore1_exists == False and 1==2:
                 # если Филипп в этот день без шлюхи номер 1
                 img 16379
                 with fade
-                philip "Субботняя шлюха номер 2 может заходить."
+#                philip "Субботняя шлюха номер 2 может заходить."
+
+
                 # Моника проходит в гостиную
             else:
                 # если Филипп в этот день с шлюхой номер 1
@@ -929,12 +931,14 @@ label ep210_dialogues2_escort_start_Phillip_12:
                 philip "У меня сегодня субботняя шлюха номер 1."
                 img 16454
                 with diss
-                philip "Субботняя шлюха номер 2 может прийти через неделю."
+                philip "И она обещает, что будет сосать в два раза лучше, если ей не придется делиться деньгами с тобой."
+#                philip "Субботняя шлюха номер 2 может прийти через неделю."
                 img 16455
                 with fade
                 w
                 # Моника оказывается на улице
-            return True
+#            return True
+            return False
         "Моника Бакфетт!":
             music Pyro_Flow
             img 16382
@@ -963,6 +967,14 @@ label ep210_dialogues2_escort_start_Phillip_13b: # Моника оказывае
     mt "Это просто временные трудности!"
     mt "Я делаю это вынужденно..."
     mt "Так что этот раз не считается..."
+    return
+
+label ep210_dialogues2_escort_start_Phillip_13c:
+    mt "Вот шлюха!"
+    mt "Грязная проститутка!"
+    mt "Она и так почти все забирала себе, а теперь и вовсе решила избавиться от меня!"
+    mt "Она меня просто боится!"
+    mt "Я уничтожу ее!"
     return
 
 # если у Филиппа шлюха номер 1

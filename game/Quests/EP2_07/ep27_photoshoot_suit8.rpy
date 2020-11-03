@@ -243,7 +243,8 @@ label ep27_photoshoot_suit8_pose1:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_188
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot1_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -315,7 +316,8 @@ label ep27_photoshoot_suit8_pose2:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_191
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot2_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -379,7 +381,8 @@ label ep27_photoshoot_suit8_pose3:
         alex_photograph "Из этого ракурса ничего не видно."
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_193
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot3_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -460,7 +463,8 @@ label ep27_photoshoot_suit8_pose4:
         alex_photograph "Я фотографирую издалека!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_196
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot4_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -481,7 +485,8 @@ label ep27_photoshoot_suit8_pose4:
         alex_photograph "Да, Миссис Бакфетт! Уверяю Вас!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_197
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot5_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -560,7 +565,8 @@ label ep27_photoshoot_suit8_pose5:
         alex_photograph "Украшение все скрывает!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_199
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot6_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -579,7 +585,8 @@ label ep27_photoshoot_suit8_pose5:
         alex_photograph "Больше ничего не попадает в кадр!"
         w
         call photoshoot_flash_count() from _call_photoshoot_flash_count_200
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot7_progress")
         $ PS8_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -838,7 +845,8 @@ label ep27_photoshoot_suit8_pose8:
         call photoshoot_flash_count() from _call_photoshoot_flash_count_208
         $ PS8_shoots_array.append(photoImage)
         w
-        $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
+        if ep2_part2_alex_old_photoshoots_progress_blocked != True:
+            $ add_char_progress("AlexPhotograph", PS8_AlexProgressEachCorruptionShot, "PS8_monica_shot8_progress")
         jump expression photoPoseLabel
     if result == "down":
         #down

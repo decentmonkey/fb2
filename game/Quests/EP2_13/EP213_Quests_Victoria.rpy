@@ -52,7 +52,8 @@ label ep213_quests_victoria3_loop2:
     $ ep213_quests_victoria_completed_day = day
     return
 
-label ep213_quests_victoria4_checknext:
+label ep213_quests_victoria4_checknext: #victoria regular loop
+    return
     if day - ep213_quests_victoria_completed_day >= 1 and ep214_quests_melanie_day == 0:
         # на следующий день сцена
         $ move_object("Melanie", "empty")
