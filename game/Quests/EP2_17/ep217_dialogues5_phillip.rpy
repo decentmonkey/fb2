@@ -428,6 +428,7 @@ label ep217_dialogues5_phillip_2:
     philip "Скажите мне, что не хотите..."
     philip "Просто скажите..."
     # меню с зацикливанием
+    $ ep217_dialogues5_phillip2_loop1_flag = False
 label ep217_dialogues5_phillip2_loop1:
     menu:
         "Не надо!!!":
@@ -445,9 +446,10 @@ label ep217_dialogues5_phillip2_loop1:
                     philip "Я сегодня спас эту попу от позорного разоблачения."
                     philip "Ей бы пришлось намного хуже, если бы не мой поступок."
                     menu:
-                        "Промолчать":
+                        "Промолчать" if ep217_dialogues5_phillip2_loop1_flag == True:
                             pass
                         "Мне больно!":
+                            $ ep217_dialogues5_phillip2_loop1_flag = True
                             m "Филипп, мне больно!"
                             philip "Вы сами согласились на это, Миссис Бакфетт."
                             jump ep217_dialogues5_phillip2_loop1
@@ -468,12 +470,13 @@ label ep217_dialogues5_phillip2_loop1:
     philip "А я вас и не насилую, Миссис Бакфетт."
     philip "Вы сами ко мне приехали..."
     philip "Сами сюда залезли..."
-    philip "А я просто воспользовался шансом."
+    philip "Сами согласились отрабатывать уплаченные за вас деньги."
     m "Нет! Мне больно!"
     m "Прекрати сейчас же!!!"
     # Филипп вытаскивает из нее свой член и снова отходит на шаг, как в прошлый раз
     philip "Миссис Бакфетт, попросите меня не вставлять член в ваш зад..."
     philip "Просто скажите это и я не буду делать этого..."
+    $ ep217_dialogues5_phillip2_loop2 = False
 label ep217_dialogues5_phillip2_loop2:
     menu:
         "Филипп, я не давала согласия на подобное!":
@@ -488,9 +491,10 @@ label ep217_dialogues5_phillip2_loop2:
             philip "Ну что скажете, Миссис Бакфетт?"
             philip "Вы попросите не вставлять мой член в вашу великосветскую задницу?"
             menu:
-                "Промолчать":
+                "Промолчать" if ep217_dialogues5_phillip2_loop2 == True:
                     pass
                 "Мне больно!":
+                    $ ep217_dialogues5_phillip2_loop2 = True
                     m "Филипп, мне больно!"
                     philip "Вы сами согласились на это, Миссис Бакфетт."
                     jump ep217_dialogues5_phillip2_loop2
@@ -559,7 +563,9 @@ label ep217_dialogues5_phillip2_loop2:
             philip "Отвечай. Мастер разрешает ему говорить."
             model1 "Этот раб благодарит Мастера за еду."
             menu:
-                "Продолжить смотреть на рабыню (экстремальный контент).":
+                "Продолжить смотреть на рабыню (экстремальный контент, Extra version) (disabled)." if game.extra == False:
+                    pass
+                "Продолжить смотреть на рабыню (экстремальный контент)." if game.extra == True:
                     $ monicaBiffInvestorsPhilip5 = day # Моника смотрела, как Филипп унижает мышь (писсинг)
                     philip "Время пить..."
                     philip "Оно не получало сегодня питье."
@@ -612,6 +618,7 @@ label ep217_dialogues5_phillip2_loop2:
     # он ей отвечает, улыбаясь
     philip "Деньги, Миссис Бакфетт..."
     philip "Этому существу нравятся деньги..."
+    philip "Также как и вам..."
     m "..."
     philip "Она заработает $ 10 000 за неделю."
     m "Десять тысяч?!"
