@@ -53,6 +53,8 @@ label ep213_quests_victoria3_loop2:
     return
 
 label ep213_quests_victoria4_checknext: #victoria regular loop
+    if ep27_melanie_visited_victoria == False: # Мелани не пошла к Виктории
+        return
     return
     if day - ep213_quests_victoria_completed_day >= 1 and ep214_quests_melanie_day == 0:
         # на следующий день сцена

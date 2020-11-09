@@ -205,6 +205,8 @@ label start:
 
     call define_hudpresets()
     call questLog_init()
+    $ day_stored = day
+    $ day = 0
     # обнуляем квестлог
     python:
         for i in range(0, len(questLogData)):
@@ -245,17 +247,19 @@ label start:
         questLog(58, True) #Эта рыжая стриптизерша слишком многое себе позволяет. Как она смеет так общаться со мной?!
         questLog(59, True) #Похоже, Клэр единственная в этой дыре, с кем можно нормально общаться.
         questLog(56, True) #Маркус ждет меня снова... Смогу-ли я решиться снова навестить его?
+        questLog(14, True) #В фитнес-зале я встретила Стефани и Ребекку. Я, кажется, убедила их что все это игра. Но долго-ли они будут в это верить?
 
+    $ day = day_stored
     $ set_active("Teleport_House_Outside_Neighbour", False, scene="street_house_outside")
 
     $ monicaHasCasualDress1 = True
-    $ monicaAgreedToSellDress = True
-    $ monicaBoughtCasualDress1 = False
-    $ monicaStealCasualDress1 = False
-    $ monicaKickedVivianForDress = False
-    $ monicaOffendedCit3 = False # Моника заставила покупателя купить платье силой
+#    $ monicaAgreedToSellDress = True
+#    $ monicaBoughtCasualDress1 = False
+#    $ monicaStealCasualDress1 = False
+#    $ monicaKickedVivianForDress = False
+#    $ monicaOffendedCit3 = False # Моника заставила покупателя купить платье силой
 
-    $ monicaHasSchoolOutfit1Day = 5
+#    $ monicaHasSchoolOutfit1Day = 5
     $ monicaHasSchoolOutfit1 = True
 
     $ monicaPussyShaved = True
@@ -289,7 +293,7 @@ label start:
     $ ep212_escort3_completed = True
 
     #Юлия
-    $ monica_living_at_juliahome = True
+#    $ monica_living_at_juliahome = True
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
     call ep213_quests_julia2_req_init()
@@ -307,21 +311,8 @@ label start:
     # Slums
     $ slumsApartmentsCheckInitialized = True # всегда
     $ monicaRentApartmentsInited = True # всегда
-    $ slumsApartmentsMiniMapActive = True
-    $ slumsDirtyStreetMiniMapActive = False
-    $ slumsApartmentsShawarmaTraderDialogue1Active = True
-    $ slumsApartmentsStatus = 2
-    $ monicaHomeMiniMapEnabled = True
-    $ slumsApartmentsRentActive = True
-    $ slumsApartmentsRentActiveDay = int(day/7)-2
-    $ add_objective("earn_money_rent_apartments", t_("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
-    if check_inventory("keys_apartments",1) != True:
-        $ add_inventory("keys_apartments", 1, True)
+    $ ep214_quests_citizens_stage2 = True
 
-    # $ slumsApartmentsStatus = 1
-    # $ del(map_objects["Teleport_Slums_Apartments"])
-    # $ slumsDirtyStreetMiniMapActive = True
-    # $ slumsApartmentsMiniMapActive = False
 
 
     $ basementBedSkipUntilFridayEnabled = True

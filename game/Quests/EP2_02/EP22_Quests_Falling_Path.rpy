@@ -55,6 +55,8 @@ label ep22_quests_falling_path4:
         return
     if kebabWorkInProgress == True or cloth == "Kebab":
         return
+    if fallingPathStarted == False:
+        return
     if day_time == "evening":
         mt "Я боюсь подходить к людям в вечернее время."
         "Это опасно..."

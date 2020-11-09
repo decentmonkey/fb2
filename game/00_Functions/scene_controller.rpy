@@ -272,7 +272,7 @@ label after_load():
         return
     $ imagesSizesCache = {}
     if episode2part2_initialized == False:
-        jump part2_questions_init
+        jump part2_questions_init_loadgame
     call process_afterload_part2()
     return
 

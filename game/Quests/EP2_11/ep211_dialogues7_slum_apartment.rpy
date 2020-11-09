@@ -1628,6 +1628,10 @@ label ep211_dialogues6_slum_apartment_17:
                     if check_inventory("keys_apartments",1) == True:
                         $ remove_inventory("keys_apartments", 1, True)
                     $ add_inventory("keys_apartments", 1, True)
+                    $ map_objects["Teleport_Slums_Apartments"] = {"text" : t_("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"}
+                    $ set_active("Teleport_Slums_Apartments", True, scene="hostel_street")
+                    $ slumsApartmentsMiniMapActive = True
+                    $ slumsDirtyStreetMiniMapActive = False
                     music Groove2_85
                     img 16950
                     with diss

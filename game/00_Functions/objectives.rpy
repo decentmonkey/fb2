@@ -28,7 +28,8 @@ init python:
     def questLog(questLogIdx, status):
         global questLogDataEnabled, questLogLinesUpdated, questLogJustUpdated, questLogUpdatedDay, day
         if status == True and (questLogDataEnabled.has_key(str(questLogIdx)) == False or questLogDataEnabled[str(questLogIdx)] != True):
-            notif(t__("Журнал обновлен"))
+            if day > 0:
+                notif(t__("Журнал обновлен"))
             questLogLinesUpdated.append(str(questLogIdx))
             questLogJustUpdated = True
             questLogUpdatedDay = day

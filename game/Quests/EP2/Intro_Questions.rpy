@@ -5,13 +5,13 @@ label intro_questions:
     menu:
         "Ответить очень кратко.":
             call intro_questions_short() from _call_intro_questions_short
-            img 3367
-            with fade
+#            img 3367
+#            with fade
             help "Спасибо за ответ!"
         "Ответить очень подробно.":
             call intro_questions_long() from _call_intro_questions_long
-            img 3367
-            with fade
+#            img 3367
+#            with fade
             help "Спасибо за ответы!"
 #    help "Последний вопрос. В чем Моника легла спать?"
 #    label .into_loop1:

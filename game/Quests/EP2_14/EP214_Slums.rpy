@@ -143,7 +143,7 @@ label ep214_slums5_talk_perry_first_time: # первый разговор с П�
     return False
 
 label ep214_slums6_weekly: # вызывается по субботам
-    if ep214_perry_debt > 0:
+    if fallingPathStarted == True and ep214_perry_debt > 0:
         if ep214_slums_monica_paid_money_this_week == True:
             $ ep214_slums_monica_paid_money_this_week = False
             return
