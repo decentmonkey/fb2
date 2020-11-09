@@ -152,7 +152,7 @@ label pub_dance_end1: # Обычное завершение танцев
         # Джо спрашивает о приватных танцах
         call dialogue_5_dance_strip_24() from _rcall_dialogue_5_dance_strip_24
         $ monicaDancingJoeAskedAboutPrivate = True
-    if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True:
+    if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True and 1==2:
         # Падают трусики
         $ pubDanceAfterBlockEvents = True
         call ep210_dialogues4_dance_strip_12() from _rcall_ep210_dialogues4_dance_strip_12
@@ -160,14 +160,14 @@ label pub_dance_end1: # Обычное завершение танцев
         $ ep29_quests_molly_fall_panties_planned = False
         $ ep29_quests_molly_fall_panties_completed = True
 
-    if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False and pubDanceAfterBlockEvents == False: # Если Моника оправдали после Молли и она еще не крала чаевых
+    if ep29_quests_monica_molly_was_fine == True and ep211_quests_pub_started_stole_tips == False and pubDanceAfterBlockEvents == False and 1==2: # Если Моника оправдали после Молли и она еще не крала чаевых
         call ep211_quests_pub1() from _rcall_ep211_quests_pub1
 
-    if monicaPubDanceStoleTipsBankerPlanned == True and pubDanceAfterBlockEvents == False:
+    if monicaPubDanceStoleTipsBankerPlanned == True and pubDanceAfterBlockEvents == False and 1==2:
         call ep211_quests_pub3_start_banker_quest() from _rcall_ep211_quests_pub3_start_banker_quest
         if _return == False:
             return False
-    if monicaPubPrivatDance1 == True and dancePrivateMenuEnabled == True and math.floor(dancePrivateLastDay/7)<math.floor(day/7) and pubDanceAfterBlockEvents == False:
+    if monicaPubPrivatDance1 == True and dancePrivateMenuEnabled == True and math.floor(dancePrivateLastDay/7)<math.floor(day/7) and pubDanceAfterBlockEvents == False and 1==2:
         call ep212_quests_pub_menu_private() from _rcall_ep212_quests_pub_menu_private
         if _return == False:
             return False

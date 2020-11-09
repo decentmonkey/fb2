@@ -30,6 +30,8 @@ label ep27_pub_visitors_click:
         return False
     music2 pub_noise1_low
     $ visitsCount = get_pub_visitor_visits(obj_name)
+    if visitsCount < 3:
+        $ visitsCount = 3
     if obj_name == "Pub_Visitor1":
         if visitsCount == 0:
             call customer1_1stmeeting() from _call_customer1_1stmeeting

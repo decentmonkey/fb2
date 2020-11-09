@@ -311,7 +311,29 @@ label start:
     # Slums
     $ slumsApartmentsCheckInitialized = True # всегда
     $ monicaRentApartmentsInited = True # всегда
+
     $ ep214_quests_citizens_stage2 = True
+
+    # pub
+    $ monicaDancingWillingly = True
+    $ pubMonicaWorkingWaitress = True
+    $ monicaPubWashingDishesCount = 10
+    $ monica_shiny_hole_queen_day = 210
+    $ ep29_quests_pub_monica_knows_claire = True
+    $ ep29_quests_pub_monica_knows_molly = True
+    $ stage_Monica_shoots_array = ["1up", "1side", "1down", "2up", "2side", "2down", "3up", "3side", "3down", "4up", "4side", "4down", "5up", "5side", "5down", "6up", "6side", "6down", "7up", "7side", "7down", "8up", "8side", "8down", "9up", "9side", "9down", "18up", "18side", "18down", "19up", "19side", "19down", "20up", "20side", "20down", "21up", "21side", "21down", "22up", "22side", "22down", "23up", "23side", "23down", "24up", "24side", "24down", "25up", "25side", "25down", "26side"]
+#    $ stage_Monica_shoots_array = ["1up", "1side", "1down", "2up", "2side", "2down", "3up", "3side", "3down", "4up", "4side", "4down", "5up", "5side", "5down", "6up", "6side", "6down", "7up", "7side", "7down", "8up", "8side", "8down", "9up", "9side", "9down", "10up", "10side", "10down", "11up", "11side", "11down", "12up", "12side", "12down", "13up", "13side", "13down", "14up", "14side", "14down", "15up", "15side", "15down", "16up", "16side", "16down", "17up", "17side", "17down", "18up", "18side", "18down", "19up", "19side", "19down", "20up", "20side", "20down", "21up", "21side", "21down", "22up", "22side", "22down", "23up", "23side", "23down", "24up", "24side", "24down", "25up", "25side", "25down", "26up", "26side", "26down"]
+    $ pubDanceCount = 30
+    $ stage_shoots_total_amount_cur = 27 + stage_shoots_total_amount_nude
+#    $ stage_shoots_total_amount_cur = 78
+    $ monicaDancingStage = 2
+    $ stage_low_tips = True
+    $ stage_dance_nude_planned = True
+    $ monicaDancingJoeAskedAboutPrivate = True
+    $ ep210_quests_stage = 5
+    $ stage_dance_nude_last_day = 210
+    $ monicaAshleyTalkedAboutSharingTips = True
+    $ ep215_quests_ashley_dialogue2_active = True
 
 
 
