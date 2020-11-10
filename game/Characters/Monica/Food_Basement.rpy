@@ -15,7 +15,7 @@ default sleepAfterEat = False
 
 label food_basement_room_init:
 label food_basement_room_init2:
-    $ print "food init!"
+#    $ print "food init!"
     $ flag1 = False
     python:
         for food_name in monicaFoodInventory:

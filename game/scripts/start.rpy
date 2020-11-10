@@ -384,6 +384,7 @@ label start:
     $ scene_sound = False
     $ scene_transition = "Fade_long"
 
+    call food_basement_room_init()
 
     call part2_questions_start_new_game()
 

@@ -314,6 +314,8 @@ label part2_questions_init_loadgame:
     $ monicaAshleyTalkedAboutSharingTips = True
     $ ep215_quests_ashley_dialogue2_active = True
 
+    call food_basement_room_init()
+
 #    $ episode2part2_initialized = True
     img black_screen
 #    m "part2 init!"
