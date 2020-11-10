@@ -73,6 +73,7 @@ python early:
             renpy.pause()
             renpy.hide_screen("dialogue_down_arrow")
             dialogue_active_flag = False
+        storeImagesList(imagePath)
         renpy.scene()
         renpy.show_screen("show_image_screen_image", imagePath)
         image_screen_scene_flag = False
@@ -112,6 +113,7 @@ python early:
     def imgl_exec(s_in):
         s, transition = s_in
         global dialogue_active_flag, screenActionHappened
+        storeImagesList(img_find_path(s))
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_left", img_find_path(s), config.screen_width / 2, config.screen_height)
         screenActionHappened = True
@@ -121,6 +123,7 @@ python early:
     def imgr_exec(s_in):
         s, transition = s_in
         global dialogue_active_flag, screenActionHappened
+        storeImagesList(img_find_path(s))
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_right", img_find_path(s), config.screen_width / 2, config.screen_height)
         screenActionHappened = True
@@ -130,6 +133,7 @@ python early:
     def imgcenter_exec(s_in):
         s, transition = s_in
         global dialogue_active_flag, screenActionHappened
+        storeImagesList(img_find_path(s))
         renpy.show_screen("dialogue_image_black_overlay")
         renpy.show_screen("dialogue_image_center", img_find_path(s), config.screen_width / 2, config.screen_height)
         screenActionHappened = True

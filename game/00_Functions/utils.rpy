@@ -47,6 +47,11 @@ init python:
             f.close()
             return
 
+    def storeImagesList(img_path):
+        with open('c:/debug/images_list.lst','ab') as f:
+            f.write(img_path + "\n")
+        return
+
     profileTime = time.time()
     def profile(log_message=False):
         global profileTime
