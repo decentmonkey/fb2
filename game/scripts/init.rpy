@@ -765,7 +765,8 @@ label define_hudpresets:
             "display_bitchmeter" : False,
             "display_closemap" : True,
             "display_face_hud": True,
-            "display_questlog": False
+            "display_questlog": False,
+            "display_questhelp": False
         },
         "melanie": {
             "display_daytime" : True,
@@ -777,7 +778,8 @@ label define_hudpresets:
             "display_bitchmeter" : False,
             "display_closemap" : True,
             "display_face_hud": True,
-            "display_questlog": False
+            "display_questlog": False,
+            "display_questhelp": False
         }
     }
     return

@@ -1,5 +1,8 @@
 default questLogJustUpdated = False
 default questLogUpdatedDay = 0
+default questHelpJustUpdated = False
+default questHelpUpdatedDay = 0
+default questHelpData = []
 
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
@@ -38,4 +41,18 @@ init python:
 #            if questLogData[idx][0] == questLogIdx:
 #                questLogData[idx][2] = status
 #                break
+        return
+
+    def questHelp(*args): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
+        questHelpName = args[0]
+        if len(args) > 1:
+            status = 1 if args[1] == True else -1
+        else:
+            status = 0
+        for idx in range(0, len(questHelpData)):
+            if questHelpData[idx][0] == questHelpName:
+                questHelpData[idx][1] = status
+                return
+        questHelpData.append([questHelpName, status])
+
         return

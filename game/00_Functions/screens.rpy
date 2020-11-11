@@ -1262,6 +1262,19 @@ screen hud_screen(hud_presets):
                             action [
                                 Return(["show_questlog"])
                             ]
+                    if hud_presets.has_key("display_questhelp") == False or hud_presets["display_questhelp"] == True:
+                        null:
+                            height gui.resolution.hud_screen.height1
+                        imagebutton:
+                            xoffset 5
+                            if questHelpJustUpdated == True and questHelpUpdatedDay <= day+1:
+                                idle "icons/questhelp_icon" + res.suffix + ".png" at quest_log_transform
+                            else:
+                                idle "icons/questhelp_icon" + res.suffix + ".png"
+                            hover "icons/questhelp_icon_hover" + res.suffix + ".png"
+                            action [
+                                Return(["show_questhelp"])
+                            ]
                     if questionHelperEnabled == True:
                         null:
                             height gui.resolution.hud_screen.height1
