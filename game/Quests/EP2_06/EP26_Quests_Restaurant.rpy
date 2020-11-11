@@ -31,6 +31,8 @@ label ep26_quests_restaurant2:
     if richHotelMonicaEatedDay == day:
         call ep26_dialogues4_restaurant5() from _call_ep26_dialogues4_restaurant5_1
         return False
+    if monica_escort_service_started == True:
+        return
     if monicaMadeBlowjobToPhilip == True: # рецепшин видела Монику, делающую blowjob
         if richHotelSuccessfullyPassedDay != day:
             call ep26_dialogues4_restaurant1() from _call_ep26_dialogues4_restaurant1

@@ -325,6 +325,8 @@ label part2_questions_init_loadgame:
     $ spotCleaning = True
     $ monica_tint = [1.0, 1.0, 1.0]
 
+    $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
+
     $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
 
     call food_basement_room_init()
@@ -757,6 +759,7 @@ label part2_questions_process(new_game_started):
             "Моника унизила Миранду при клиенте.":
                 $ monicaEscortRevengeGirl2 = True
                 $ monicaEscortScene6Day = 210
+                $ monicaEscortRevengeGirl4 = True
             "Моника не стала унижать Миранду.":
                 $ monicaEscortRevengeGirl2 = False
                 $ monicaEscortScene6Day = 210
