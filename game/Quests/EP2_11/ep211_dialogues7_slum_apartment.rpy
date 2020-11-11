@@ -1103,6 +1103,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
 label ep211_dialogues6_slum_apartment_11:
     call check_skip_scene("ep211_dialogues6_slum_apartment_11") from _rcall_check_skip_scene_1
     if _return == True:
+        $ add_money(-slumsApartmentsRentPriceDiscount1)
         return True
 
 
