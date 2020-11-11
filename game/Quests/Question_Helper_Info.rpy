@@ -233,7 +233,7 @@ label questLog_init:
     return
 
 label questHelp_init:
-    $ questHelpData = {
+    $ questHelpDataQuests = {
         # ДОМ
         "house1" : [t_("ДОМ"), t_("Хорошая гувернантка"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
         "house2" : [t_("ДОМ"), t_("Барди постоянно пытается заглянуть мне под юбку.")],
@@ -241,6 +241,10 @@ label questHelp_init:
         # ФИТНЕСС
         "fitness1" : [t_("ФИТНЕСС"), t_("Бетти подумывает взять Монику на фитнесс"), t_("Убираться в доме, пока уровень Бетти не достигнет 3.")]
     }
+
+    $ questHelpDataCategoriesDescriptions = [
+        ["house_desc1", t_("ДОМ"), t_("Барди постоянно пытается заглянуть мне под юбку.")]
+    ]
     return
 
 label show_questlog:
@@ -267,9 +271,62 @@ label show_questlog:
 label show_questhelp:
     $ questHelpJustUpdated = False
     call questHelp_init()
+
+    python:
+        questHelpDataLastCategoryMemory = {}
+        questHelpDataLastQuestsBold = {}
+        questHelpDataCategoriesBold = {}
+        for questCategoryName in questHelpData:
+            for idx1 in range(0, len(questHelpData[questCategoryName])):
+                tempVar1 = questHelpData[questCategoryName][idx1]
+                if questHelpDataLastMemory.has_key(tempVar1[0]) == False:
+                    questHelpDataLastMemory[tempVar1[0]] = tempVar1[1]
+                    questHelpDataLastQuestsBold[tempVar1[0]] = True
+                    questHelpDataCategoriesBold[questCategoryName] = True
+                else:
+                    if questHelpDataLastMemory[tempVar1[0]] != tempVar1[1]:
+                        questHelpDataLastQuestsBold[tempVar1[0]] = True
+                        questHelpDataCategoriesBold[questCategoryName] = True
+
+                if questHelpDataLastCategoryMemory.has_key(questCategoryName) == False:
+                    questHelpDataLastCategoryMemory[questCategoryName] = -100
+                if questHelpDataLastCategoryMemory[questCategoryName] == -100:
+                    questHelpDataLastCategoryMemory[questCategoryName] = tempVar1[1]
+                else:
+                    if questHelpDataLastCategoryMemory[questCategoryName] == -1:
+                        questHelpDataLastCategoryMemory[questCategoryName] = tempVar1[1]
+                    else:
+                        if questHelpDataLastCategoryMemory[questCategoryName] == 1:
+                            questHelpDataLastCategoryMemory[questCategoryName] = tempVar1[1]
+                        else:
+                            if questHelpDataLastCategoryMemory[questCategoryName] == -100:
+                                questHelpDataLastCategoryMemory[questCategoryName] = tempVar1[1]
+
+    sound keyboard_click
+label show_questhelp_loop:
     call screen questhelp_screen()
-    $ print "screen return"
-    $ print _return
+    if _return != False:
+        if _return[0] == "category_click":
+            if questHelpCurrentCategory != _return[1]:
+                $ questHelpCurrentQuest = False
+            $ questHelpCurrentCategory = _return[1]
+            sound keyboard
+            jump show_questhelp_loop
+
+        if _return[0] == "quest_click":
+            $ questHelpCurrentQuest = _return[1]
+            sound keyboard
+            jump show_questhelp_loop
+
+
+    sound snd_ui_not_working
+
+    python:
+        for questCategoryName in questHelpData:
+            for idx1 in range(0, len(questHelpData[questCategoryName])):
+                tempVar1 = questHelpData[questCategoryName][idx1]
+                questHelpDataLastMemory[tempVar1[0]] = tempVar1[1]
+
     return
 
 

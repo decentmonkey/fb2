@@ -18,4 +18,14 @@ label process_afterload:
     return
 
 label process_afterload_part2:
+    m "here"
+    call questHelp_init()
+    $ questHelp("house1")
+    $ questHelp("house2")
+    $ questHelp("fitness1")
+    $ questHelpDesc("house_desc1")
+
+    $ questHelp("house2", True)
+
+    m "here2"
     return

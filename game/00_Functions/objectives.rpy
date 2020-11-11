@@ -2,7 +2,15 @@ default questLogJustUpdated = False
 default questLogUpdatedDay = 0
 default questHelpJustUpdated = False
 default questHelpUpdatedDay = 0
-default questHelpData = []
+default questHelpData = {}
+default questHelpDataQuests = {}
+default questHelpDataCategoriesDescriptions = {}
+default questHelpDataCategoriesDescriptionsData = {}
+default questHelpDataLastMemory = {}
+default questHelpDataLastQuestsBold = {}
+default questHelpDataCategoriesBold = {}
+default questHelpCurrentCategory = False
+default questHelpCurrentQuest = False
 
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
@@ -44,15 +52,38 @@ init python:
         return
 
     def questHelp(*args): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
+        global questHelpDataQuests, questHelpData
         questHelpName = args[0]
         if len(args) > 1:
             status = 1 if args[1] == True else -1
         else:
             status = 0
-        for idx in range(0, len(questHelpData)):
-            if questHelpData[idx][0] == questHelpName:
-                questHelpData[idx][1] = status
-                return
-        questHelpData.append([questHelpName, status])
 
+        questCategory = questHelpDataQuests[questHelpName][0]
+        if questHelpData.has_key(questCategory) == False:
+            questHelpData[questCategory] = []
+
+        for idx in range(0, len(questHelpData[questCategory])):
+            if questHelpData[questCategory][idx][0] == questHelpName:
+                if day > 0 and questHelpData[questCategory][idx][1] != status:
+                    notif(t__("Список событий обновлен"))
+                questHelpData[questCategory][idx][1] = status
+                return
+        questHelpData[questCategory].append([questHelpName, status])
+        if day > 0:
+            notif(t__("Список событий обновлен"))
+        return
+
+    def questHelpDesc(*args): #questHelpDescriptionName, True/False, либо нет аргумента, значит True
+        global questHelpDataCategoriesDescriptions, questHelpDataCategoriesDescriptionsData
+        questHelpDescriptionName = args[0]
+        if len(args) > 1:
+            status = args[1]
+        else:
+            status = True
+        if status == True:
+            questHelpDataCategoriesDescriptionsData[questHelpDescriptionName] = status
+        else:
+            if questHelpDataCategoriesDescriptionsData.has_key(questHelpDescriptionName) == True:
+                del questHelpDataCategoriesDescriptionsData[questHelpDescriptionName]
         return
