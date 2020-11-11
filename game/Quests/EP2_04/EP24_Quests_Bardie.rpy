@@ -187,12 +187,12 @@ label ep24_quests_bardie10:
 
 label ep24_quests_bardie11:
     # Добавление Барди прогресса за подглядывание во время уборки
-    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4, "cleaning_upskirt_day " + str(day))
+#    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4, "cleaning_upskirt_day " + str(day))
     return False
 
 label ep24_quests_bardie12:
     # Убавление прогресса Барди за неправильные трусики
-    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
+#    $ add_char_progress("Bardie", bardieCleaningUpskirtTry4_wrong_panties, "cleaning_upskirt_wrong_panties_day " + str(day))
     return False
 
 label ep24_quests_bardie13:

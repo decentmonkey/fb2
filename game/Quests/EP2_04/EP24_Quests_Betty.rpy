@@ -106,7 +106,7 @@ label ep24_quests_betty3:
 
 label ep24_quests_betty4:
     # Прогресс после показывания Бетти трусиков Монике
-    $ add_char_progress("Betty", bettyShowPantiesToMonicaProgress, "betty_showed_panties_to_monica" + str(day))
+#    $ add_char_progress("Betty", bettyShowPantiesToMonicaProgress, "betty_showed_panties_to_monica" + str(day))
     return
 
 label ep24_quests_betty6:

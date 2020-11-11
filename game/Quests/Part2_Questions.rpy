@@ -314,6 +314,15 @@ label part2_questions_init_loadgame:
     $ monicaAshleyTalkedAboutSharingTips = True
     $ ep215_quests_ashley_dialogue2_active = True
 
+    # house
+    $ bardieBlackmailStage = 5
+    $ bardieMonicaNonNudeCount = bardieCleaningNonNudeDuringPunishment - 1
+    $ monicaMustNotWearPanties = True
+    $ bettyMustNotWearPanties = True
+    $ monicaMustWearBettyPanties = False
+    $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
+    $ monicaLaundryBettyPantiesSelectNudeDisabled = False
+
     call food_basement_room_init()
 
 #    $ episode2part2_initialized = True

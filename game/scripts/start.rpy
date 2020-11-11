@@ -337,6 +337,14 @@ label start:
     $ monicaAshleyTalkedAboutSharingTips = True
     $ ep215_quests_ashley_dialogue2_active = True
 
+    # house
+    $ bardieBlackmailStage = 5
+    $ bardieMonicaNonNudeCount = bardieCleaningNonNudeDuringPunishment - 1
+    $ monicaMustNotWearPanties = True
+    $ bettyMustNotWearPanties = True
+    $ monicaMustWearBettyPanties = False
+    $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
+    $ monicaLaundryBettyPantiesSelectNudeDisabled = False
 
 
     $ basementBedSkipUntilFridayEnabled = True
