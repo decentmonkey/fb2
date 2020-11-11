@@ -547,6 +547,7 @@ label part2_questions_process(new_game_started):
         menu:
             "Моника живет с Юлией и претворяется что любит ее.":
                 $ monica_living_at_juliahome = True
+                $ workingOfficeCabinetJuliaSuffix = 3
             "Моника поставила Юлию на место и Юлия боится Монику.":
 #                $ juliaQuestMonicaRefusedFred = True
                 $ del map_objects["Teleport_JuliaHome"]
