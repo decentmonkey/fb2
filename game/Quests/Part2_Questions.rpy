@@ -259,6 +259,7 @@ label part2_questions_init_loadgame:
 
     $ monicaWorkingAtBiffOffice = True
 
+    $ makeupRoomMelanieSuffix = 2
 
     #escort
     if ep215_quests_escort_completed_day == 0:

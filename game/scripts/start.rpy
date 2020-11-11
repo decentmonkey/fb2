@@ -286,6 +286,7 @@ label start:
 
     $ monicaWorkingAtBiffOffice = True
 
+    $ makeupRoomMelanieSuffix = 2
 
     #escort
     $ ep215_quests_escort_completed_day = 10
