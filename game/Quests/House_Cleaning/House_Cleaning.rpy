@@ -151,6 +151,7 @@ label house_cleaning_end:
     return
 label house_cleaning_end2:
     $ add_corruption(monicaCleaningAddCorruptionPerCleaning, "monica_cleaning_corruption_day_" + str(day))
+    $ set_active("Driver", False, scene="floor2")
     call cleaning_monica_finished1() from _call_cleaning_monica_finished1
     $ monicaCleaningInProgress = False
     $ monicaCleaningInProgressEngineWorkingFlag = False

@@ -345,6 +345,8 @@ label start:
     $ monicaMustWearBettyPanties = False
     $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False
+    $ spotCleaning = True
+    $ monica_tint = [1.0, 1.0, 1.0]
 
     $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
 
