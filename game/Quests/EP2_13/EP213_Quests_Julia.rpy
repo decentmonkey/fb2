@@ -130,7 +130,7 @@ label ep213_quests_julia3_shower: # клик на душ
         mt "Я уже принимала душ недавно..."
         return False
     call ep213_dialogues5_julia_15c2() from _rcall_ep213_dialogues5_julia_15c2
-    if char_info["Julia"]["level"] >= 8 and char_info["Julia"]["current_progress"] >= juliaMonicaRelationshipRequiredScene10 and get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
+    if ((char_info["Julia"]["level"] == 8 and char_info["Julia"]["current_progress"] >= juliaMonicaRelationshipRequiredScene10) or char_info["Julia"]["level"] > 8) and get_active_objects("Julia", scene="street_juliahome", recursive=True) != False:
         call ep213_dialogues5_julia_10b() from _rcall_ep213_dialogues5_julia_10b
     $ monicaLastShowerDay = day # Последний день, когда Моника принимала душ
     $ monicaLastShowerDayTime = day_time
