@@ -553,6 +553,8 @@ label part2_questions_process(new_game_started):
                 $ ep210_julia_kissed_day_day = 210
                 $ monicaJuliaLoveStory7 = True
                 $ ep210_julia_evening_at_work = True
+                if ep210_monica_julia_massage_count == 0:
+                    $ ep210_monica_julia_massage_count = 1
             "Моника поставила Юлию на место и Юлия боится Монику.":
 #                $ juliaQuestMonicaRefusedFred = True
                 $ del map_objects["Teleport_JuliaHome"]
