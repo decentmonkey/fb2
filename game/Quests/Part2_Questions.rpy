@@ -271,6 +271,7 @@ label part2_questions_init_loadgame:
 
     #Юлия
 #    $ monica_living_at_juliahome = True
+    $ ep210_julia_not_at_work = False
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
     call ep213_quests_julia2_req_init()
@@ -549,6 +550,9 @@ label part2_questions_process(new_game_started):
             "Моника живет с Юлией и претворяется что любит ее.":
                 $ monica_living_at_juliahome = True
                 $ workingOfficeCabinetJuliaSuffix = 3
+                $ ep210_julia_kissed_day_day = 210
+                $ monicaJuliaLoveStory7 = True
+                $ ep210_julia_evening_at_work = True
             "Моника поставила Юлию на место и Юлия боится Монику.":
 #                $ juliaQuestMonicaRefusedFred = True
                 $ del map_objects["Teleport_JuliaHome"]

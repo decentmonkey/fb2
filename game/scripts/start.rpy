@@ -296,7 +296,8 @@ label start:
     $ ep212_escort3_completed = True
 
     #Юлия
-#    $ monica_living_at_juliahome = True
+    $ ep210_julia_not_at_work = False
+    #    $ monica_living_at_juliahome = True
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
     call ep213_quests_julia2_req_init()
