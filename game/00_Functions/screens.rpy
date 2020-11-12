@@ -1254,11 +1254,13 @@ screen hud_screen(hud_presets):
                         null:
                             height gui.resolution.hud_screen.height1
                         imagebutton:
-                            if questLogJustUpdated == True and questLogUpdatedDay <= day+1:
-                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                            if questLogJustUpdated == True:
+#                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                                idle "icons/questlog_icon_new" + res.suffix + ".png"
+                                hover "icons/questlog_icon_new_hover" + res.suffix + ".png"
                             else:
                                 idle "icons/questlog_icon" + res.suffix + ".png"
-                            hover "icons/questlog_icon_hover" + res.suffix + ".png"
+                                hover "icons/questlog_icon_hover" + res.suffix + ".png"
                             action [
                                 Return(["show_questlog"])
                             ]
@@ -1267,11 +1269,12 @@ screen hud_screen(hud_presets):
                             height gui.resolution.hud_screen.height1
                         imagebutton:
                             xoffset 5
-                            if questHelpJustUpdated == True and questHelpUpdatedDay <= day+1:
-                                idle "icons/questhelp_icon" + res.suffix + ".png" at quest_log_transform
+                            if questHelpJustUpdated == True:
+                                idle "icons/questhelp_icon_new" + res.suffix + ".png"
+                                hover "icons/questhelp_icon_new_hover" + res.suffix + ".png"
                             else:
                                 idle "icons/questhelp_icon" + res.suffix + ".png"
-                            hover "icons/questhelp_icon_hover" + res.suffix + ".png"
+                                hover "icons/questhelp_icon_hover" + res.suffix + ".png"
                             action [
                                 Return(["show_questhelp"])
                             ]

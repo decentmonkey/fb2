@@ -95,6 +95,14 @@ define gui.resolution.hud_screen.love_bar_xysize = (90, 450)
 
 define gui.resolution.main_menu_frame = 420
 
+define gui.questhelp.category.xpadding1 = 10
+define gui.questhelp.category.top_padding = 10
+define gui.questhelp.category.bottom_padding = 7
+define gui.questhelp.quest.xpadding = 10
+define gui.questhelp.quest.top_margin = 20
+define gui.questhelp.quest.top_padding = 5
+define gui.questhelp.quest.bottom_padding = 7
+
 define res.suffix = "" #"", "_720p"
 
 define notifyLineOffset = 50 #ep22

@@ -49,54 +49,86 @@ screen questhelp_screen():
                 padding (getRes(10), getRes(10))
                 vbox:
                     # active categories (bold)
-                    for category in questHelpDataCategoriesBold:
-                        python:
-                            categoryStyle = False
-                            if questHelpDataLastCategoryMemory.has_key(category) == True and questHelpDataCategoriesBold[category] == True:
-                                categoryStatus = questHelpDataLastCategoryMemory[category]
-                                if categoryStatus == -1:
-                                    categoryStyle = "questhelp_category_failed"
-                                if categoryStatus == 1:
-                                    categoryStyle = "questhelp_category_completed"
-                                if categoryStatus == 0:
-                                    categoryStyle = "questhelp_category_active"
-                                if questHelpCurrentCategory != category:
-                                    categoryStyle = categoryStyle + "_bold"
-                                else:
-                                    categoryStyle = categoryStyle + "_selected"
-                        if categoryStyle != False:
-                            textbutton t__(category) style categoryStyle:
-                                xsize getRes(350)
-                                xpadding 10
-                                top_padding 10
-                                bottom_padding 7
-                                action [
-                                    Return(["category_click", category])
-                                ]
+                    for category in reversed(questHelpCategoriesHistory):
+                        if questHelpDataCategoriesBold.has_key(category):
+#                    for category in questHelpDataCategoriesBold:
+                            python:
+                                categoryStyle = False
+                                if questHelpDataLastCategoryMemory.has_key(category) == True and questHelpDataCategoriesBold[category] == True:
+                                    categoryStatus = questHelpDataLastCategoryMemory[category]
+                                    if categoryStatus == -1:
+                                        categoryStyle = "questhelp_category_failed"
+                                    if categoryStatus == 1:
+                                        categoryStyle = "questhelp_category_completed"
+                                    if categoryStatus == 0:
+                                        categoryStyle = "questhelp_category_active"
+                                    if questHelpCurrentCategory != category:
+                                        categoryStyle = categoryStyle + "_bold"
+                                    else:
+                                        categoryStyle = categoryStyle + "_selected"
+                            if categoryStyle != False:
+                                textbutton t__(category) style categoryStyle:
+                                    xsize getRes(350)
+                                    xpadding gui.questhelp.category.xpadding1
+                                    top_padding gui.questhelp.category.top_padding
+                                    bottom_padding gui.questhelp.category.bottom_padding
+                                    action [
+                                        Return(["category_click", category])
+                                    ]
 
-                    # not-bold active categories
-                    for category in questHelpDataLastCategoryMemory:
-                        python:
-                            categoryStyle = False
-                            if questHelpDataCategoriesBold.has_key(category) == False or questHelpDataCategoriesBold[category] != True:
-                                categoryStatus = questHelpDataLastCategoryMemory[category]
-                                if categoryStatus == -1:
-                                    categoryStyle = "questhelp_category_failed"
-                                if categoryStatus == 1:
-                                    categoryStyle = "questhelp_category_completed"
-                                if categoryStatus == 0:
-                                    categoryStyle = "questhelp_category_active"
-                                if questHelpCurrentCategory == category:
-                                    categoryStyle = categoryStyle + "_selected"
-                        if categoryStyle != False:
-                            textbutton t__(category) style categoryStyle:
-                                xsize getRes(350)
-                                xpadding 10
-                                top_padding 10
-                                bottom_padding 7
-                                action [
-                                    Return(["category_click", category])
-                                ]
+                    # not-bold inactive categories
+#                    for category in reversed(questHelpDataLastCategoryMemory):
+#                    for category in reversed(list(enumerate(questHelpDataLastCategoryMemory))):
+                    for category in questHelpCategoriesHistoryStatic:
+                        if questHelpDataLastCategoryMemory.has_key(category):
+                            python:
+                                categoryStyle = False
+                                if questHelpDataCategoriesBold.has_key(category) == False or questHelpDataCategoriesBold[category] != True:
+                                    categoryStatus = questHelpDataLastCategoryMemory[category]
+                                    if categoryStatus == -1:
+                                        categoryStyle = "questhelp_category_failed"
+                                    if categoryStatus == 1:
+                                        categoryStyle = "questhelp_category_completed"
+                                    if categoryStatus == 0:
+                                        categoryStyle = "questhelp_category_active"
+                                    if questHelpCurrentCategory == category:
+                                        categoryStyle = categoryStyle + "_selected"
+                            if categoryStyle != False and categoryStatus == 0:
+                                textbutton t__(category) style categoryStyle:
+                                    xsize getRes(350)
+                                    xpadding gui.questhelp.category.xpadding1
+                                    top_padding gui.questhelp.category.top_padding
+                                    bottom_padding gui.questhelp.category.bottom_padding
+                                    action [
+                                        Return(["category_click", category])
+                                    ]
+
+
+                    null height getRes(20)
+
+                    for category in reversed(questHelpCategoriesHistory):
+                        if questHelpDataLastCategoryMemory.has_key(category):
+                            python:
+                                categoryStyle = False
+                                if questHelpDataCategoriesBold.has_key(category) == False or questHelpDataCategoriesBold[category] != True:
+                                    categoryStatus = questHelpDataLastCategoryMemory[category]
+                                    if categoryStatus == -1:
+                                        categoryStyle = "questhelp_category_failed"
+                                    if categoryStatus == 1:
+                                        categoryStyle = "questhelp_category_completed"
+                                    if categoryStatus == 0:
+                                        categoryStyle = "questhelp_category_active"
+                                    if questHelpCurrentCategory == category:
+                                        categoryStyle = categoryStyle + "_selected"
+                            if categoryStyle != False and categoryStatus != 0:
+                                textbutton t__(category) style categoryStyle:
+                                    xsize getRes(350)
+                                    xpadding gui.questhelp.category.xpadding1
+                                    top_padding gui.questhelp.category.top_padding
+                                    bottom_padding gui.questhelp.category.bottom_padding
+                                    action [
+                                        Return(["category_click", category])
+                                    ]
 
         viewport id "questhelp_viewport_events":
 #            xpos getRes(377+10)
@@ -137,38 +169,11 @@ screen questhelp_screen():
                             left_margin getRes(20)
                             xysize(getRes(617 - 15 - 60), 1)
                             background "#c0c0c0"
-                        null height getRes(20)
+                        null height getRes(10)
 
                     if questHelpData.has_key(questHelpCurrentCategory) == True:
                         # выводим квесты
-                        # сначала завершенные и проваленные
-                        for idx in range(0, len(questHelpData[questHelpCurrentCategory])):
-                            $ questData = questHelpData[questHelpCurrentCategory][idx]
-                            if questData[1] == 1 or questData[1] == -1:
-                                if questHelpDataLastQuestsBold.has_key(questData[0]) == False or questHelpDataLastQuestsBold[questData[0]] == False: # если квест не жирный (не только что)
-                                    python:
-                                        questStyle = False
-                                        questTextPrefix = ""
-                                        if questData[1] == 1:
-                                            questStyle = "questhelp_quest_completed"
-                                            questTextPrefix = "{image=images/Icons/questhelp/checkmark_completed.png}  "
-                                        if questData[1] == -1:
-                                            questStyle = "questhelp_quest_failed"
-                                            questTextPrefix = "{image=images/Icons/questhelp/checkmark_failed.png}  "
-                                        if questData[0] == questHelpCurrentQuest:
-                                            questStyle = questStyle + "_selected"
-                                    if questStyle != False:
-                                        # выводим
-                                        textbutton questTextPrefix + t__(questHelpDataQuests[questData[0]][1]) style questStyle:
-                                            xsize getRes(617 - 15)
-                                            xpadding 10
-                                            top_padding 20
-                                            bottom_padding 0
-                                            action [
-                                                Return(["quest_click", questData[0]])
-                                            ]
-
-                        # Затем жирные или активные
+                        # Сначала жирные или активные
 
                         for idx in range(0, len(questHelpData[questHelpCurrentCategory])):
                             $ questData = questHelpData[questHelpCurrentCategory][idx]
@@ -178,30 +183,58 @@ screen questhelp_screen():
                                     questTextPrefix = ""
                                     if questData[1] == 1:
                                         questStyle = "questhelp_quest_completed"
-                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_completed.png}  "
+                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_completed" + res.suffix + ".png}  "
                                     if questData[1] == -1:
                                         questStyle = "questhelp_quest_failed"
-                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_failed.png}  "
+                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_failed" + res.suffix + ".png}  "
                                     if questData[1] == 0:
-                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_active.png}  "
+                                        questTextPrefix = "{image=images/Icons/questhelp/checkmark_active" + res.suffix + ".png}  "
                                         questStyle = "questhelp_quest_active"
 
+                                    if questHelpDataLastQuestsBold.has_key(questData[0]) == True and questHelpDataLastQuestsBold[questData[0]] == True: # если жирный
+                                        questStyle = questStyle + "_bold"
                                     if questData[0] == questHelpCurrentQuest:
                                         questStyle = questStyle + "_selected"
-                                    else:
-                                        if questHelpDataLastQuestsBold.has_key(questData[0]) == True and questHelpDataLastQuestsBold[questData[0]] == True: # если жирный
-                                            questStyle = questStyle + "_bold"
+#                                    else:
                                 if questStyle != False:
                                     # выводим
                                     textbutton questTextPrefix + t__(questHelpDataQuests[questData[0]][1]) style questStyle:
                                         xsize getRes(617 - 15 - 20)
-                                        xpadding 10
-                                        top_margin 20
-                                        top_padding 5
-                                        bottom_padding 7
+                                        xpadding gui.questhelp.quest.xpadding
+                                        top_margin gui.questhelp.quest.top_margin
+                                        top_padding gui.questhelp.quest.top_padding
+                                        bottom_padding gui.questhelp.quest.bottom_padding
                                         action [
                                             Return(["quest_click", questData[0]])
                                         ]
+
+                        # затем завершенные и проваленные
+                        for idx in range(len(questHelpData[questHelpCurrentCategory])-1, -1, -1):
+                            $ questData = questHelpData[questHelpCurrentCategory][idx]
+                            if questData[1] == 1 or questData[1] == -1:
+                                if questHelpDataLastQuestsBold.has_key(questData[0]) == False or questHelpDataLastQuestsBold[questData[0]] == False: # если квест не жирный (не только что)
+                                    python:
+                                        questStyle = False
+                                        questTextPrefix = ""
+                                        if questData[1] == 1:
+                                            questStyle = "questhelp_quest_completed"
+                                            questTextPrefix = "{image=images/Icons/questhelp/checkmark_completed_lowbright" + res.suffix + ".png}  "
+                                        if questData[1] == -1:
+                                            questStyle = "questhelp_quest_failed"
+                                            questTextPrefix = "{image=images/Icons/questhelp/checkmark_failed_lowbright" + res.suffix + ".png}  "
+                                        if questData[0] == questHelpCurrentQuest:
+                                            questStyle = questStyle + "_selected"
+                                    if questStyle != False:
+                                        # выводим
+                                        textbutton questTextPrefix + t__(questHelpDataQuests[questData[0]][1]) style questStyle:
+                                            xsize getRes(617 - 15)
+                                            xpadding gui.questhelp.quest.xpadding
+                                            top_margin gui.questhelp.quest.top_margin
+                                            top_padding gui.questhelp.quest.top_padding
+                                            bottom_padding gui.questhelp.quest.bottom_padding
+                                            action [
+                                                Return(["quest_click", questData[0]])
+                                            ]
 
 
 #        vbar value YScrollValue("questhelp_viewport_events"):

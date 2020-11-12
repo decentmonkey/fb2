@@ -247,10 +247,18 @@ label questHelp_init:
         "citizen1_boobs" : [t_("ДОМ"), t_("Показать сиськи панкам"), t_("Показать панкам грудь 3 раза.")],
 
 
-        "house2" : [t_("ДОМ"), t_("Хорошая гувернантка"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
-        "house3" : [t_("ДОМ"), t_("Хорошая гувернантка"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
+        "house2" : [t_("ДОМ"), t_("Хорошая гувернантка2"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
+        "house3" : [t_("ДОМ"), t_("Хорошая гувернантка3"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
+        "house3" : [t_("ДОМ"), t_("Хорошая гувернантка4"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
+        "house4" : [t_("ДОМ"), t_("Хорошая гувернантка5"), t_("Убираться в доме для роста уровня у Бетти. Уровень начинает расти после 3-х уборок подряд.")],
 
-
+        # ДИК
+        "dick1" : [t_("ДИК АДВОКАТ"), t_("Дик1"), t_("")],
+        "dick2" : [t_("ДИК АДВОКАТ"), t_("Дик2"), t_("")],
+        "dick3" : [t_("ДИК АДВОКАТ"), t_("Дик3"), t_("")],
+        "dick4" : [t_("ДИК АДВОКАТ"), t_("Дик4"), t_("")],
+        "dick5" : [t_("ДИК АДВОКАТ"), t_("Дик5"), t_("")],
+        "dick6" : [t_("ДИК АДВОКАТ"), t_("Дик6"), t_("")],
 
 
         # ДОМ
@@ -258,7 +266,8 @@ label questHelp_init:
         "house2" : [t_("ДОМ"), t_("Барди постоянно пытается заглянуть мне под юбку.")],
 
         # ФИТНЕСС
-        "fitness1" : [t_("ФИТНЕСС"), t_("Бетти подумывает взять Монику на фитнесс"), t_("Убираться в доме, пока уровень Бетти не достигнет 3.")]
+        "fitness1" : [t_("ФИТНЕСС"), t_("Бетти подумывает взять Монику на фитнесс"), t_("Убираться в доме, пока уровень Бетти не достигнет 3.")],
+        "fitness2" : [t_("ФИТНЕСС"), t_("Бетти подумывает взять Монику на фитнесс2"), t_("Убираться в доме, пока уровень Бетти не достигнет 3.")]
     }
 
     $ questHelpDataCategoriesDescriptions = [
@@ -321,23 +330,26 @@ label show_questhelp:
                             if questHelpDataLastCategoryMemory[questCategoryName] == -100:
                                 questHelpDataLastCategoryMemory[questCategoryName] = tempVar1[1]
 
+    $ questHelpJustUpdated = False
     sound keyboard_click
 label show_questhelp_loop:
-    call screen questhelp_screen()
-    if _return != False:
-        if _return[0] == "category_click":
-            if questHelpCurrentCategory != _return[1]:
+    $ interact_data_questhelp = None
+    show screen questhelp_screen()
+    $ interact_data_questhelp = ui.interact()
+    if interact_data_questhelp != None and interact_data_questhelp != False:
+        if interact_data_questhelp[0] == "category_click":
+            if questHelpCurrentCategory != interact_data_questhelp[1]:
                 $ questHelpCurrentQuest = False
-            $ questHelpCurrentCategory = _return[1]
+            $ questHelpCurrentCategory = interact_data_questhelp[1]
             sound keyboard
             jump show_questhelp_loop
 
-        if _return[0] == "quest_click":
-            $ questHelpCurrentQuest = _return[1]
+        if interact_data_questhelp[0] == "quest_click":
+            $ questHelpCurrentQuest = interact_data_questhelp[1]
             sound keyboard
             jump show_questhelp_loop
 
-
+    hide screen questhelp_screen
     sound snd_ui_not_working
 
     python:

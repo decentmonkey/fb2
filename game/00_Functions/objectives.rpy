@@ -11,6 +11,8 @@ default questHelpDataLastQuestsBold = {}
 default questHelpDataCategoriesBold = {}
 default questHelpCurrentCategory = False
 default questHelpCurrentQuest = False
+default questHelpCategoriesHistory = []
+default questHelpCategoriesHistoryStatic = []
 
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
@@ -52,7 +54,7 @@ init python:
         return
 
     def questHelp(*args): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
-        global questHelpDataQuests, questHelpData
+        global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day
         questHelpName = args[0]
         if len(args) > 1:
             status = 1 if args[1] == True else -1
@@ -67,11 +69,24 @@ init python:
             if questHelpData[questCategory][idx][0] == questHelpName:
                 if day > 0 and questHelpData[questCategory][idx][1] != status:
                     notif(t__("Список событий обновлен"))
+                    questHelpJustUpdated = True
+                    questHelpUpdatedDay = day
                 questHelpData[questCategory][idx][1] = status
+                del questHelpData[questCategory][idx]
+                questHelpData[questCategory].append([questHelpName, status])
+
+                if questCategory in questHelpCategoriesHistory: questHelpCategoriesHistory.remove(questCategory)
+                questHelpCategoriesHistory.append(questCategory)
+                if questCategory not in questHelpCategoriesHistoryStatic: questHelpCategoriesHistoryStatic.append(questCategory)
                 return
+        if questCategory in questHelpCategoriesHistory: questHelpCategoriesHistory.remove(questCategory)
+        questHelpCategoriesHistory.append(questCategory)
+        if questCategory not in questHelpCategoriesHistoryStatic: questHelpCategoriesHistoryStatic.append(questCategory)
         questHelpData[questCategory].append([questHelpName, status])
         if day > 0:
             notif(t__("Список событий обновлен"))
+            questHelpJustUpdated = True
+            questHelpUpdatedDay = day
         return
 
     def questHelpDesc(*args): #questHelpDescriptionName, True/False, либо нет аргумента, значит True
