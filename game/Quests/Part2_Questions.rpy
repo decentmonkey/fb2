@@ -763,9 +763,13 @@ label part2_questions_process(new_game_started):
                 $ monicaEscortRevengeGirl2 = True
                 $ monicaEscortScene6Day = 210
                 $ monicaEscortRevengeGirl4 = True
+                $ ep214_dialogues3_escort_10_flag1 = True
+                $ ep214_dialogues3_escort_10_flag2 = True
+                $ ep212_escort3_completed = True
             "Моника не стала унижать Миранду.":
                 $ monicaEscortRevengeGirl2 = False
                 $ monicaEscortScene6Day = 210
+                $ ep212_escort3_completed = True
         $ ep22_questions_answered_count += 1
 
 
@@ -779,6 +783,7 @@ label part2_questions_process(new_game_started):
                 $ monicaBiffInvestorDate2 = False
                 $ monicaBiffInvestorDate5 = False
                 $ monicaBiffInvestorDate8 = True
+                $ ep215_quests_linda_restaurant_dialogue_planned = True
             "Моника конфликтует с Линдой, но не унижала ее.":
                 $ monicaBiffInvestorDate2 = False
                 $ monicaBiffInvestorDate5 = True
