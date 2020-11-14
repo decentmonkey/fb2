@@ -49,7 +49,7 @@ label ep25_quests3:
 
 label ep25_quests4:
     # Переодевание перед перемещением в трущобы
-    if cloth == "CasualDress1" or cloth_type == "CasualDress":
+    if cloth == "CasualDress1" or cloth_type == "CasualDress" or cloth_type == "Governess":
         call ep25_dialogues4_map1() from _call_ep25_dialogues4_map1
         if _return == False:
             return False
