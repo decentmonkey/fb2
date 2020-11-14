@@ -58,6 +58,7 @@ label EP22_Quests_Betty3:
             $ add_object_to_scene("Car", {"type" : 2, "base" : "Street_House_Car", "click" : "street_house_main_yard_environment", "actions" : "l", "zorder":0, "b":0.15}, {"driverOnHouseYard":{"v":False, "active":False}}, scene="street_house_main_yard")
             $ move_object("Betty", "empty")
             $ move_object("Driver", "empty")
+            $ set_active("Bardie", False, scene="floor2")
             call refresh_scene_fade() from _call_refresh_scene_fade_63
         return False
     $ add_cleaning(True)
