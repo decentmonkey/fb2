@@ -87,6 +87,7 @@ label ep24_quests_betty2:
         return False
     $ add_cleaning(True)
     $ add_hook("open", "EP22_Quests_Betty4", scene="street_fitness")
+    $ hudDaySkipToEveningEnabled = False
     call change_scene("street_fitness", "Fade_long", "snd_car_engine") from _call_change_scene_232
     return False
 
