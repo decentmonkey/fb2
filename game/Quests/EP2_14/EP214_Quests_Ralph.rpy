@@ -155,8 +155,10 @@ label ep214_quests_ralph8_meeting_regular: # регулярные встречи
         if _return == 1:
             $ monica_ralph_relationships_type = 1
             $ questLog(80, True)
+            $ questLog(81, False)
         if _return == 2:
             $ monica_ralph_relationships_type = 2
+            $ questLog(80, False)
             $ questLog(81, True)
     if ep214_ralph_last_regular_meeting_day > 0 and monica_ralph_relationships_type == 1:
         call ep214_dialogues5_bardie_ralph_13a() from _rcall_ep214_dialogues5_bardie_ralph_13a
