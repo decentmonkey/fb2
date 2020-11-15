@@ -350,6 +350,7 @@ label start:
     $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False
     $ spotCleaning = True
+    $ floor2WashingSport = True
     $ monica_tint = [1.0, 1.0, 1.0]
 
     $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)

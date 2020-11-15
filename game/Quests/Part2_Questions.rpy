@@ -327,6 +327,7 @@ label part2_questions_init_loadgame:
     $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False
     $ spotCleaning = True
+    $ floor2WashingSport = True
     $ monica_tint = [1.0, 1.0, 1.0]
 
     $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
@@ -876,14 +877,14 @@ label part2_questions_process(new_game_started):
         imgf 32436
         help "Пожалуйста, укажите развращенность Моники."
         menu:
-            "Моника избегала любых пикантных ситуаций":
-                $ corruption = 100
-            "Моника лишь иногда соглашалась на небольшие вольности в отношении себя.":
-                $ corruption = 200
-            "Моника периодически позволяла использовать свое тело для достижения целей.":
-                $ corruption = 500
             "Монике это не нравится, но тело - это самый главный инструмент для решения ее проблем.":
                 $ corruption = 800
+            "Моника периодически позволяла использовать свое тело для достижения целей.":
+                $ corruption = 500
+            "Моника лишь иногда соглашалась на небольшие вольности в отношении себя.":
+                $ corruption = 200
+            "Моника избегала любых пикантных ситуаций":
+                $ corruption = 100
         help "Сколько денег Монике удалось скопить?"
         menu:
             "$ 50":
