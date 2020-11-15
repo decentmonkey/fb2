@@ -1654,6 +1654,8 @@ label ep211_dialogues6_slum_apartment_17:
                     return -1
             return -1
         "Уйти отсюда.":
+            return -1
+            
             music DarxieLand
             img 16940
             with fadelong

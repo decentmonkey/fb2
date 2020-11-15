@@ -180,6 +180,7 @@ label part2_questions_init_loadgame:
     $ day = 0
     # обнуляем квестлог
     python:
+        questLogDataEnabled = {}
         for i in range(0, len(questLogData)):
             questLogData[i][2] = False
 
@@ -661,34 +662,43 @@ label part2_questions_process(new_game_started):
                 $ remove_hook(label="Perry_Debt_beforesleep")
         $ ep22_questions_answered_count += 1
 
-    if new_game_started == True or slumsApartmentsMonicaKnow == False:
-        call part2_questions_loadgame_comment()
-        $ slumsApartmentsMonicaKnow = True
-        $ slumsApartmentsRentStarted = True
-        $ slumsApartmentsShawarmaTraderDialogue1Active = True
-        imgf 16995
-        help "Моника арендует апаратаменты в трущобах?"
-        menu:
-            "Моника снимает апартаменты.":
-                $ slumsApartmentsMiniMapActive = True
-                $ slumsDirtyStreetMiniMapActive = False
-#                $ slumsApartmentsShawarmaTraderDialogue1Active = True
-                $ slumsApartmentsStatus = 2
-                $ monicaHomeMiniMapEnabled = True
-                $ slumsApartmentsRentActive = True
-                $ slumsApartmentsRentActiveDay = int(day/7)-2
-                $ add_objective("earn_money_rent_apartments", t_("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
-                if check_inventory("keys_apartments",1) != True:
-                    $ add_inventory("keys_apartments", 1, True)
+    if slumsApartmentsMonicaKnow == True:
+        if slumsApartmentsRentActive == False:
+            $ slumsApartmentsStatus = 1
+            $ del(map_objects["Teleport_Slums_Apartments"])
+            $ slumsDirtyStreetMiniMapActive = True
+            $ slumsApartmentsMiniMapActive = False
+            $ set_active("Teleport_Slums_Apartments", False, scene="hostel_street")
+            $ questLog(71, False)
+    else:
+        if new_game_started == True or slumsApartmentsMonicaKnow == False:
+            call part2_questions_loadgame_comment()
+            $ slumsApartmentsMonicaKnow = True
+            $ slumsApartmentsRentStarted = True
+            $ slumsApartmentsShawarmaTraderDialogue1Active = True
+            imgf 16995
+            help "Моника арендует апаратаменты в трущобах?"
+            menu:
+                "Моника снимает апартаменты.":
+                    $ slumsApartmentsMiniMapActive = True
+                    $ slumsDirtyStreetMiniMapActive = False
+    #                $ slumsApartmentsShawarmaTraderDialogue1Active = True
+                    $ slumsApartmentsStatus = 2
+                    $ monicaHomeMiniMapEnabled = True
+                    $ slumsApartmentsRentActive = True
+                    $ slumsApartmentsRentActiveDay = int(day/7)-2
+                    $ add_objective("earn_money_rent_apartments", t_("Заработать $ 300 за аренду апартаментов до субботы."), c_green, 30)
+                    if check_inventory("keys_apartments",1) != True:
+                        $ add_inventory("keys_apartments", 1, True)
 
-            "Моника не снимает апартаменты.":
-                $ slumsApartmentsStatus = 1
-                $ del(map_objects["Teleport_Slums_Apartments"])
-                $ slumsDirtyStreetMiniMapActive = True
-                $ slumsApartmentsMiniMapActive = False
-                $ set_active("Teleport_Slums_Apartments", False, scene="hostel_street")
-                $ questLog(71, False)
-        $ ep22_questions_answered_count += 1
+                "Моника не снимает апартаменты.":
+                    $ slumsApartmentsStatus = 1
+                    $ del(map_objects["Teleport_Slums_Apartments"])
+                    $ slumsDirtyStreetMiniMapActive = True
+                    $ slumsApartmentsMiniMapActive = False
+                    $ set_active("Teleport_Slums_Apartments", False, scene="hostel_street")
+                    $ questLog(71, False)
+            $ ep22_questions_answered_count += 1
 
     if new_game_started == True or charityEventCompleted == False:
         call part2_questions_loadgame_comment()
