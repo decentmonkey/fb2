@@ -938,7 +938,7 @@ label ep210_dialogues2_escort_start_Phillip_12:
                 w
                 # Моника оказывается на улице
 #            return True
-            return False
+            return -2
         "Моника Бакфетт!":
             music Pyro_Flow
             img 16382
@@ -953,7 +953,7 @@ label ep210_dialogues2_escort_start_Phillip_12:
             with fade
             m "Я Моника Бакфетт!"
             philip "У меня нет ничего общего с Миссис Бакфетт."
-            return False
+            return -1
     return
 
 label ep210_dialogues2_escort_start_Phillip_13a: #На улице
