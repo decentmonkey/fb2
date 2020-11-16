@@ -414,9 +414,24 @@ label start:
 
 
     call intro_questions() from _call_intro_questions
+
     $ ralphAskedAboutPayment = False
     $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", t_("Избежать наказания"), c_red, 0)
+
+    call monica_cheats_init()
+    $ ep24_quests_initialized = True
+    $ ep26_quests_initialized = True
+    $ ep27_quests_initialized = True
+    $ ep29_quests_initialized = True
+    $ ep210_quests_load_init_flag = True
+    $ ep211_quests_load_init_flag = True
+    $ ep212_quests_load_init_flag = True
+    $ ep213_quests_load_init_flag = True
+    $ ep214_quests_load_init_flag = True
+    $ ep215_quests_load_init_flag = True
+    $ ep216_quests_load_init_flag = True
+
     call start_game() from _call_start_game
     return
 

@@ -4,7 +4,7 @@ init python:
             if data.has_key(var1) != True:
                 return False
             flag1 = False
-            if type(data[var1]) is list or type(data[var1]) is tuple:
+            if type(data[var1]) is not str:
                 for i in data[var1]:
                     if i == filter[var1]:
                         flag1 = True

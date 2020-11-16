@@ -341,6 +341,20 @@ label part2_questions_init_loadgame:
     img black_screen
 #    m "part2 init!"
     call part2_questions_process(False)
+
+    call monica_cheats_init()
+    $ ep24_quests_initialized = True
+    $ ep26_quests_initialized = True
+    $ ep27_quests_initialized = True
+    $ ep29_quests_initialized = True
+    $ ep210_quests_load_init_flag = True
+    $ ep211_quests_load_init_flag = True
+    $ ep212_quests_load_init_flag = True
+    $ ep213_quests_load_init_flag = True
+    $ ep214_quests_load_init_flag = True
+    $ ep215_quests_load_init_flag = True
+    $ ep216_quests_load_init_flag = True
+
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ changeDayTime("day")
