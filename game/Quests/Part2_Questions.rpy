@@ -355,10 +355,14 @@ label part2_questions_init_loadgame:
     $ ep215_quests_load_init_flag = True
     $ ep216_quests_load_init_flag = True
 
+    $ hudDaySkipToEveningEnabled = True
+    $ map_enabled = True
+
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ changeDayTime("day")
     call change_scene("street_house_outside")
+    call process_change_map_location("House")
     call refresh_scene_fade_long()
     jump show_scene
 

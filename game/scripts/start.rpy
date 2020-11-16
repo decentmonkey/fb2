@@ -409,6 +409,7 @@ label start:
     $ changeDayTime("day")
 
     call change_scene("street_house_outside")
+    call process_change_map_location("House")
 #    call refresh_scene_fade_long()
     jump show_scene
 
