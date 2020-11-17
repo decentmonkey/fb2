@@ -425,33 +425,33 @@ label part2_questions_process(new_game_started):
                 $ monicaMelanieCastingPlanned = False
         $ ep22_questions_answered_count += 1
 
-        if new_game_started == True or ep27_melanie_going_to_victoria == False:
+    if new_game_started == True or ep27_melanie_going_to_victoria == False:
+        call part2_questions_loadgame_comment()
+        imgf 13965
+        help "Пошла-ли Мелани на встречу к Виктории? (линия квестов с Викторией)"
+        menu:
+            "Мелани пошла к Виктории.":
+                $ ep27_melanie_going_to_victoria = True
+                $ ep27_melanie_visited_victoria = True
+
+            "Мелани не стала общаться с ней.":
+                $ ep27_melanie_going_to_victoria = False
+                $ ep27_melanie_visited_victoria = False
+                $ del map_objects["Teleport_VictoriaHome"]
+                $ char_info["DickSecretary"]["caption"] = t_("Виктория ждет свои деньги еженедельно.")
+        $ ep22_questions_answered_count += 1
+
+    if ep27_melanie_going_to_victoria == True:
+        if new_game_started == True or ep216_victoria_visit_day1 == False:
             call part2_questions_loadgame_comment()
-            imgf 13965
-            help "Пошла-ли Мелани на встречу к Виктории? (линия квестов с Викторией)"
+            imgf 40604
+            help "Моника согласилась с Викторией, что Мелани поступила неправильно, пытаясь показать видео Дику?"
             menu:
-                "Мелани пошла к Виктории.":
-                    $ ep27_melanie_going_to_victoria = True
-                    $ ep27_melanie_visited_victoria = True
-
-                "Мелани не стала общаться с ней.":
-                    $ ep27_melanie_going_to_victoria = False
-                    $ ep27_melanie_visited_victoria = False
-                    $ del map_objects["Teleport_VictoriaHome"]
-                    $ char_info["DickSecretary"]["caption"] = t_("Виктория ждет свои деньги еженедельно.")
+                "Моника согласилась с Викторией что Мелани была неправа.":
+                    $ melanieVictoriaMonicaTable1 = True
+                "Моника попыталась оправдать Мелани.":
+                    $ melanieVictoriaMonicaTable1 = False
             $ ep22_questions_answered_count += 1
-
-        if ep27_melanie_going_to_victoria == True:
-            if new_game_started == True or ep216_victoria_visit_day1 == False:
-                call part2_questions_loadgame_comment()
-                imgf 40604
-                help "Моника согласилась с Викторией, что Мелани поступила неправильно, пытаясь показать видео Дику?"
-                menu:
-                    "Моника согласилась с Викторией что Мелани была неправа.":
-                        $ melanieVictoriaMonicaTable1 = True
-                    "Моника попыталась оправдать Мелани.":
-                        $ melanieVictoriaMonicaTable1 = False
-                $ ep22_questions_answered_count += 1
 
 
     if new_game_started == True or monica_ralph_relationships_type == 0:
