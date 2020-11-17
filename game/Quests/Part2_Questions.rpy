@@ -292,6 +292,7 @@ label part2_questions_init_loadgame:
     $ slumsApartmentsCheckInitialized = True # всегда
     $ monicaRentApartmentsInited = True # всегда
     $ ep214_quests_citizens_stage2 = True
+    $ kebabWorkInProgress = False
 
     #pub
 
