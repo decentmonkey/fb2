@@ -138,7 +138,10 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     if rnd1 == 3:
         call ep210_dialogues7_escort_hotel_8c() from _rcall_ep210_dialogues7_escort_hotel_8c
     if rnd1 == 4:
-        call ep210_dialogues7_escort_hotel_8d() from _rcall_ep210_dialogues7_escort_hotel_8d
+        if ep215_quests_linda_restaurant_dialogue_day > 0:
+            call ep215_dialogues3_escort_22()
+        else:
+            call ep210_dialogues7_escort_hotel_8d() from _rcall_ep210_dialogues7_escort_hotel_8d
     call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_10
     return False
 
