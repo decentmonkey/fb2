@@ -735,21 +735,25 @@ label part2_questions_process(new_game_started):
                 $ monicaMadeBlowjobToPhilip = False
         $ ep22_questions_answered_count += 1
 
-    if new_game_started == True or monica_philip_visits == 0:
-        call part2_questions_loadgame_comment()
-        imgf 16381
-        help "Работает-ли Моника субботней шлюхой номер 2 у Филиппа?"
-        menu:
-            "Моника посещает Филиппа.":
-                $ monica_philip_visited_last_day = 210
-                $ monica_philip_visits_blowjobs = 5
-                $ monica_philip_visits_sex = 5
-                $ monica_philip_visits_swallowed = 3
-                $ monica_philip_visits_double_blowjobs = 3
-                $ monica_philip_visits_threesomes = 5
-            "Моника не ходит к Филиппу.":
-                pass
-        $ ep22_questions_answered_count += 1
+    if monicaPhillipHotelKick == False:
+        if new_game_started == True or monica_philip_visits == 0:
+            call part2_questions_loadgame_comment()
+            imgf 16381
+            help "Работает-ли Моника субботней шлюхой номер 2 у Филиппа?"
+            menu:
+                "Моника посещает Филиппа.":
+                    $ monica_philip_visited_last_day = 210
+                    $ monica_philip_visits_blowjobs = 5
+                    $ monica_philip_visits_sex = 5
+                    $ monica_philip_visits_swallowed = 3
+                    $ monica_philip_visits_double_blowjobs = 3
+                    $ monica_philip_visits_threesomes = 5
+                "Моника не ходит к Филиппу.":
+                    pass
+            $ ep22_questions_answered_count += 1
+    else:
+        # если ударила Филиппа
+        $ del map_objects["Teleport_PhilipHome"]
 
     if new_game_started == True or (monica_escort_service_started == False and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False):
         call part2_questions_loadgame_comment()
