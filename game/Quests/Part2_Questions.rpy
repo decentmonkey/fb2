@@ -62,8 +62,6 @@ label part2_questions_init_loadgame:
     call characters_pub_init()
     call characters_pub_init2()
     call characters_init_julia()
-    $ char_info["ReceptionGirl"]["enabled"] = True
-    $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
     $ char_info["Pub_StripteaseGirl1"]["name"] = t_("Молли")
     $ char_info["Pub_StripteaseGirl2"]["name"] = t_("Клэр")
     $ char_info["Rebecca"]["enabled"] = True
@@ -755,6 +753,7 @@ label part2_questions_process(new_game_started):
         # если ударила Филиппа
         $ del map_objects["Teleport_PhilipHome"]
 
+    $ char_info["ReceptionGirl"]["enabled"] = True
     if new_game_started == True or (monica_escort_service_started == False and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False):
         call part2_questions_loadgame_comment()
         imgf 16339
@@ -763,6 +762,7 @@ label part2_questions_process(new_game_started):
             "Моника работает в эскорте.":
                 $ monica_escort_service_started = True
                 $ monica_escort_service_started_day = 210
+                $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
             "Моника работала в эскорте, но уволилась.":
                 $ monica_escort_service_started = True
                 $ monica_escort_service_started_day = 210
@@ -771,6 +771,7 @@ label part2_questions_process(new_game_started):
                 $ ep212_escort5_monica_fired = True
                 $ add_hook("Teleport_Rich_Hotel_Reception", "ep212_dialogues3_escort_hotel_7_2", scene="street_rich_hotel", priority = 500) # Блокируем вход в отель
                 $ questLog(62, False)
+                $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
             "Моника никогда не работала в эскорте.":
                 $ monica_escort_service_started = False
                 $ monica_escort_service_started_day = 0
