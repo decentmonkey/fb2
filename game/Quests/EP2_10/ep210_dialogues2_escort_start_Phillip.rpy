@@ -390,6 +390,7 @@ label ep210_dialogues2_escort_start_Phillip_2:
             m "Да пошел ты, придурок!"
             m "!!!"
             # Моника зло на него смотрит и уходит
+            $ monicaPhillipHotelKick = True # Моника ударила Филиппа
             return 2
         "Задрать платье.":
             pass
