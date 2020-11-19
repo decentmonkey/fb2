@@ -114,6 +114,8 @@ label ep27_pub_visitors_click:
         pass
     if obj_name == "Pub_Visitor7" or obj_name == "Pub_Visitor8":
         $ visitsCount = get_pub_visitor_visits("Pub_Visitor7") + get_pub_visitor_visits("Pub_Visitor8")
+        if visitsCount < 3:
+            $ visitsCount = 3
         if visitsCount == 0:
             call customer78_1stmeeting() from _call_customer78_1stmeeting
             $ pubVisitor7Suffix = "_Food"
