@@ -336,6 +336,26 @@ label part2_questions_init_loadgame:
 
     call food_basement_room_init()
 
+    $ basementBedSkipUntilFridayEnabled = True
+    $ monicaCasualDressWearFirstTimeWardrobe = False
+    $ gameStage = 0
+    $ gameSubStage = 0
+    $ afterJail = True
+    $ rain = False
+    $ sceneIsStreet = False
+    $ game_version1_screen_ready_to_render = True
+    $ zoom_factor = 1
+    $ monicaEatedLastDay = day
+    $ showObjectsNotOwner = True
+    $ faceHudImage = False
+    $ hud_preset_current = "default"
+    $ hud_preset_default = "default"
+    $ minimap_coords_preset = 0
+    $ miniMapEnabledOnly = []
+    $ miniMapHousePreset = "laundry"
+
+    $ bFredFollowingMonica = False
+
 #    $ episode2part2_initialized = True
     img black_screen
 #    m "part2 init!"
@@ -356,6 +376,19 @@ label part2_questions_init_loadgame:
 
     $ hudDaySkipToEveningEnabled = True
     $ map_enabled = True
+    $ map_disabled_forced = False
+
+    call citizens_init_day()
+    call Bardie_Life_day()
+    call Betty_Life_day()
+    call Ralph_Life_day()
+    call Fred_Life_day()
+    call Biff_Life_day()
+    call Melanie_Life_day()
+    call Dick_Life_day()
+    call Pub_Life_day()
+    call office_life_day()
+    call Steve_Life_day()
 
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
