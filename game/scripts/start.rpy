@@ -346,6 +346,7 @@ label start:
     $ bardieMonicaNonNudeCount = bardieCleaningNonNudeDuringPunishment - 1
     $ monicaMustNotWearPanties = True
     $ bettyMustNotWearPanties = True
+    $ bettyOffendedBardieKitchen = True
     $ monicaMustWearBettyPanties = False
     $ monicaLaundryBettyPantiesSelectMode = 1 #Выбор в прачечной
     $ monicaLaundryBettyPantiesSelectNudeDisabled = False

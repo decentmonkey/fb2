@@ -329,6 +329,7 @@ label part2_questions_init_loadgame:
     $ spotCleaning = True
     $ floor2WashingSport = True
     $ monica_tint = [1.0, 1.0, 1.0]
+    $ bettyOffendedBardieKitchen = True
 
     $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
 
