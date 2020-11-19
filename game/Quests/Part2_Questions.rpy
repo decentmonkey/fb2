@@ -353,6 +353,10 @@ label part2_questions_init_loadgame:
     $ hud_preset_default = "default"
     $ minimap_coords_preset = 0
     $ miniMapEnabledOnly = []
+    $ miniMapDisabled = {}
+    $ miniMapDisabled2 = {}
+    $ miniMapOfficeActivated = True
+    $ miniMapTurnedOff2 = False
     $ miniMapHousePreset = "laundry"
 
     $ bFredFollowingMonica = False

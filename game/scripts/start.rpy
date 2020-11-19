@@ -389,6 +389,10 @@ label start:
     $ hud_preset_default = "default"
     $ minimap_coords_preset = 0
     $ miniMapEnabledOnly = []
+    $ miniMapDisabled = {}
+    $ miniMapDisabled2 = {}
+    $ miniMapOfficeActivated = True
+    $ miniMapTurnedOff2 = False
     $ miniMapHousePreset = "laundry"
 
     $ bFredFollowingMonica = False
