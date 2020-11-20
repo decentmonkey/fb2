@@ -340,6 +340,7 @@ label start:
     $ stage_dance_nude_last_day = 210
     $ monicaAshleyTalkedAboutSharingTips = True
     $ ep215_quests_ashley_dialogue2_active = True
+    $ ep213_quests_stole_tips_count = 3
 
     # house
     $ bardieBlackmailStage = 5
@@ -400,7 +401,7 @@ label start:
     $ set_active(False, group="workers", scene="working_office")
     $ set_active(False, group="workers", scene="working_office2")
     call office_life_day()
-    
+
 
 
     $ scene_refresh_flag = True
