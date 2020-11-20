@@ -678,24 +678,25 @@ label part2_questions_process(new_game_started):
                 $ monica_shiny_hole_queen_day = 210
             "Моника уволилась из паба.":
                 $ monicaPubFiredTips1 = True
-                $ add_hook("Teleport_Hostel_Pub", "ep211_dialogues5_shiny_hole_7", scene="hostel_street", label="monica_pub_fired_block", priority = 10001)
-                $ questLog(69, True)
-                $ questLog(66, False)
-                $ questLog(52, False)
-                $ questLog(48, False)
-                $ questLog(49, False)
-                $ questLog(50, False)
-                $ questLog(51, False)
-                $ questLog(53, False)
-                $ questLog(57, False)
-                $ questLog(60, False)
-                $ questLog(58, False)
-                $ questLog(59, False)
-                $ questLog(75, False)
-                $ questLog(84, False)
-                $ clear_hooks("exit_scene", scene="pub")
-                $ clear_hooks("exit_scene", scene="pub_makeuproom")
         $ ep22_questions_answered_count += 1
+    if monicaPubFiredTips1 == True:
+        $ add_hook("Teleport_Hostel_Pub", "ep211_dialogues5_shiny_hole_7", scene="hostel_street", label="monica_pub_fired_block", priority = 10001)
+        $ questLog(69, True)
+        $ questLog(66, False)
+        $ questLog(52, False)
+        $ questLog(48, False)
+        $ questLog(49, False)
+        $ questLog(50, False)
+        $ questLog(51, False)
+        $ questLog(53, False)
+        $ questLog(57, False)
+        $ questLog(60, False)
+        $ questLog(58, False)
+        $ questLog(59, False)
+        $ questLog(75, False)
+        $ questLog(84, False)
+        $ clear_hooks("exit_scene", scene="pub")
+        $ clear_hooks("exit_scene", scene="pub_makeuproom")
 
     if new_game_started == True or (fallingPathServedCustomersTotal == 0 and fallingPathStarted == False):
         call part2_questions_loadgame_comment()
