@@ -1463,7 +1463,7 @@ init python:
         "img_15651" : "15651",
         "img_15703" : "15703",
         "img_15728" : "15728",
-        "img_15766" : "15766",
+        "img_15764" : "15766",
         "img_15785" : "15785",
         "v_Monica_Strip_A1_end" : "v_Monica_Strip_A1_end",
         "v_Monica_Strip_A2_end" : "v_Monica_Strip_A2_end",
