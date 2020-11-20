@@ -397,6 +397,12 @@ label start:
 
     $ bFredFollowingMonica = False
 
+    $ set_active(False, group="workers", scene="working_office")
+    $ set_active(False, group="workers", scene="working_office2")
+    call office_life_day()
+    
+
+
     $ scene_refresh_flag = True
     $ map_scene = "House"
     $ map_enabled = True

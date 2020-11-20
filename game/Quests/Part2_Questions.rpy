@@ -383,6 +383,10 @@ label part2_questions_init_loadgame:
     $ map_enabled = True
     $ map_disabled_forced = False
 
+    $ cloth = "CasualDress1"
+    $ cloth_type = "CasualDress"
+    $ changeDayTime("day")
+
     call citizens_init_day()
     call Bardie_Life_day()
     call Betty_Life_day()
@@ -392,12 +396,11 @@ label part2_questions_init_loadgame:
     call Melanie_Life_day()
     call Dick_Life_day()
     call Pub_Life_day()
+    $ set_active(False, group="workers", scene="working_office")
+    $ set_active(False, group="workers", scene="working_office2")
     call office_life_day()
     call Steve_Life_day()
 
-    $ cloth = "CasualDress1"
-    $ cloth_type = "CasualDress"
-    $ changeDayTime("day")
     call change_scene("street_house_outside")
     call process_change_map_location("House")
     call refresh_scene_fade_long()
