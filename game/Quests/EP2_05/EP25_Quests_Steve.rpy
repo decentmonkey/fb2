@@ -311,7 +311,7 @@ label ep25_quests_steve18:
         if choosedMoney == -1: # При таком параметре, деньги не начисляем
             $ noMoney = True
         $ monicaSteveBlowjobDealCountOffs = monicaSteveBlowjobDealCount % 6
-        if monicaSteveBlowjobDealCount > 5 and bettyVisitedSteve == False:
+        if monicaSteveBlowjobDealCount > 5 and bettyVisitedSteve == False and 1==2: # отключаем эту сцену
             $ bettyVisitedSteve = True
             call ep26_dialogues2_steve5() from _call_ep26_dialogues2_steve5
             if _return == False:
