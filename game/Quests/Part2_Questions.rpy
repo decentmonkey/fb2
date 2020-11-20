@@ -323,6 +323,7 @@ label part2_questions_init_loadgame:
     # house
     $ bardieBlackmailStage = 5
     $ bardieMonicaNonNudeCount = bardieCleaningNonNudeDuringPunishment - 1
+    $ bardieFollowMonicaDuringCleaning = True
     $ monicaMustNotWearPanties = True
     $ bettyMustNotWearPanties = True
     $ monicaMustWearBettyPanties = False
