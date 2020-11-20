@@ -755,8 +755,9 @@ label customer78_afterbattle:
     pause 2.0
     music Groove2_85
     music2 pub_noise1_low
-    imgfl 14425
-    w
+    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+        imgfl 14425
+        w
     imgf 14427
     m "Здравствуйте. Что будете заказывать?"
     customer7 "Эй, детка! Это твой костюмчик для сцены?"
@@ -769,7 +770,10 @@ label customer78_afterbattle:
     m "Я работаю здесь официанткой!!"
     m "Не смей ко мне прикасаться!"
     music Groove2_85
-    imgf 14433
+    if get_active_objects("Pub_StripteaseGirl2", scene="pub") != False:
+        imgf 14433
+    else:
+        imgf 14426
     customer7 "Ладно, ладно... Остынь."
     customer7 "Официантка - это скучно."
     customer7 "Лучше полезай на сцену и сними с себя этот костюмчик!"
