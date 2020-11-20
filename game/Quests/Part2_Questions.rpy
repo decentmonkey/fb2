@@ -1,4 +1,5 @@
 default ep22_questions_answered_count = 0
+default ep2p2_flag1 = False
 
 label part2_questions_start_new_game:
 
@@ -28,6 +29,9 @@ label part2_questions_init_loadgame:
     $ inventory = []
     $ owner = "Monica"
 #    call game_init()
+
+
+    $ ep2p2_flag1 = check_hook("ep22_quests_Dick7", scene="global_week_day")
 
     $ episode2part2_initialized = True
     $ scenes_data = json.loads(renpy.file("ep2_part2_init_data.json").read())
@@ -298,8 +302,6 @@ label part2_questions_init_loadgame:
     $ pubMonicaWorkingWaitress = True
     if monicaPubWashingDishesCount == 0:
         $ monicaPubWashingDishesCount = 10
-    if monica_shiny_hole_queen_day == 0:
-        $ monica_shiny_hole_queen_day = 210
     $ ep29_quests_pub_monica_knows_claire = True
     $ ep29_quests_pub_monica_knows_molly = True
     $ stage_Monica_shoots_array = ["1up", "1side", "1down", "2up", "2side", "2down", "3up", "3side", "3down", "4up", "4side", "4down", "5up", "5side", "5down", "6up", "6side", "6down", "7up", "7side", "7down", "8up", "8side", "8down", "9up", "9side", "9down", "18up", "18side", "18down", "19up", "19side", "19down", "20up", "20side", "20down", "21up", "21side", "21down", "22up", "22side", "22down", "23up", "23side", "23down", "24up", "24side", "24down", "25up", "25side", "25down", "26side"]
@@ -433,7 +435,7 @@ label part2_questions_process(new_game_started):
         "Путь мести (продолжение квеста в следующих апдейтах) (disabled)":
             pass
 
-    if new_game_started == True or check_hook("ep22_quests_Dick7", scene="global_week_day") != True:
+    if new_game_started == True or ep2p2_flag1 != True:
         call part2_questions_loadgame_comment()
         imgf 7992
         help "Показывала-ли Моника Виктории грудь для фото?"
