@@ -821,6 +821,9 @@ label part2_questions_process(new_game_started):
                 $ add_hook("Teleport_Restaurant", "ep26_quests_restaurant2", scene="rich_hotel_reception", label="reception_capturing_monica")
                 $ set_active("Teleport_Lift", False, scene="rich_hotel_reception")
                 $ char_info["ReceptionGirl"]["caption"] = t_("Администратор отеля.")
+                $ char_info["ReceptionGirl"]["level"] = 1
+                $ char_info["ReceptionGirl"]["current_progress"] = 0
+                $ remove_hook(label="rich_hotel_door_block")
                 $ questLog(62, False)
         $ ep22_questions_answered_count += 1
 
