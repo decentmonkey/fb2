@@ -351,7 +351,7 @@ label part2_questions_init_loadgame:
     $ sceneIsStreet = False
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
-    $ monicaEatedLastDay = day
+    $ monicaEatedLastDay = day-1
     $ showObjectsNotOwner = True
     $ faceHudImage = False
     $ hud_preset_current = "default"

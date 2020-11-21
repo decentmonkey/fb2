@@ -377,7 +377,7 @@ label start:
     $ game_version1_screen_ready_to_render = True
     $ zoom_factor = 1
 
-    $ monicaEatedLastDay = day
+    $ monicaEatedLastDay = day-1
     $ week_day = (day)%7
     if week_day == 0:
         $ week_day = 7
