@@ -606,7 +606,7 @@ label part2_questions_process(new_game_started):
                 $ monicaBoughtSchoolOutfitByLicking = False
         $ ep22_questions_answered_count += 1
 
-    if new_game_started == True or (juliaQuestMonicaRefusedFred == False and monica_living_at_juliahome == False):
+    if new_game_started == True or (juliaQuestMonicaRefusedFred == False and juliaQuestRefused == False and monica_living_at_juliahome == False):
         call part2_questions_loadgame_comment()
         imgf 23099
         help "Состоит-ли Моника в отношениях с Юлией и живет вместе с ней?"
