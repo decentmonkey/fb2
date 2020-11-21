@@ -1354,7 +1354,7 @@ label ep210_dialogues4_dance_strip_17:
     menu:
         "Предложить Клэр танцевать с Моникой.":
             m "Клэр, не хочешь составить мне компанию на сцене?"
-            if day - ep29_quests_dancing_with_claire_last_day >= monicaClaireDanceDaysInterval:
+            if day - ep29_quests_dancing_with_claire_last_day >= monicaClaireDanceDaysInterval and 1==2:
                 clare "Хорошо, Моника. Выходи на сцену."
                 clare "Я присоединюсь к тебе во время твоего танца."
                 clare "Покажем им, кто здесь звезды!"
