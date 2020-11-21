@@ -290,6 +290,8 @@ label start:
     $ makeupRoomMelanieSuffix = 2
     $ monicaOfficeWhiskeyOnTable = True
 
+    $ monicaEarnedWeeklyMoneySkip = False
+
     #escort
     $ ep215_quests_escort_completed_day = 10
     $ monicaEscortRevengeGirl2 = True

@@ -248,6 +248,7 @@ label part2_questions_init_loadgame:
     $ ep22_quests_biff_init_flag = True
     $ ep211_quests_photoshoot_stage = 3
     $ ep2_part2_alex_old_photoshoots_progress_blocked = True # только в new game!
+    $ monicaEarnedWeeklyMoneySkip = False
 
     $ monicaWorkFlashCardReportLastDay = day - 1
     if monicaWorkedDaysTotal == 0:
