@@ -22,7 +22,7 @@ label ep212_quests_bardie_ralph2: # Барди перехватывает Мон
 
 label ep212_quests_bardie_ralph3_init_cleaning:
     # Добавляем гостиную к уборке в конец
-    if monicaBardieRalphSeducingStage > 3:
+    if monicaBardieRalphSeducingStage > 3 or 1==1:
         return
     if check_hook(label="steve_ralph_visit2", scene="living_room") == True or steveVisit2Day == day: # Если идет квест со Стивом, не активируем уборку в гостиной
         return
