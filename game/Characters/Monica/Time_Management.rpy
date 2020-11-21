@@ -1,4 +1,7 @@
 label time_management_street_wait_until_evening:
+    if cloth == "SchoolOutfit1":
+        sound click_denied
+        return
     music stop
     music2 stop
     img black_screen
