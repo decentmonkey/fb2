@@ -56,11 +56,17 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
         return
 
     if _return == 2: # Моника ударила Филиппа
+        $ questHelp("escort_1", False)
+        $ questHelp("philip_4", False)
         $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_4", scene="street_rich_hotel")
         $ ep210_quests_escort_stage = -1
         call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_477
+
         return
 
+    $ questHelp("escort_1")
+    $ questHelp("philip_4")
+    $ questHelpDesc("philip_desc2", "philip_desc3")
     $ questLog(61, True)
     $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_3", scene="street_rich_hotel")
     $ add_money(300.0)
@@ -130,6 +136,10 @@ label ep210_quests_escort1_philip4_enter: # Вход к Филиппу домо�
             $ streetPhilipHomeMonicaSuffix = 2
             call refresh_scene_fade_long() from _call_refresh_scene_fade_long_33
             return False
+        $ questHelp("philip_4", True)
+        $ questHelp("philip_5", skipIfExists=True)
+        $ questHelp("philip_6", skipIfExists=True)
+
         if monica_philip_visit_whore1_exists == True:
             music stop
             img black_screen
@@ -166,6 +176,7 @@ label ep210_quests_escort1_philip4_enter: # Вход к Филиппу домо�
             # Секс
             call ep210_dialogues2_escort_start_Phillip_16() from _call_ep210_dialogues2_escort_start_Phillip_16
             if _return == True:
+                $ questHelp("philip_5", True)
                 $ monica_philip_visits_sex += 1
                 $ add_corruption(monicaPhilipVisitSexCorruption, "monicaPhilipVisitBlowjobCorruption" + str(day))
                 $ add_money(100.0)

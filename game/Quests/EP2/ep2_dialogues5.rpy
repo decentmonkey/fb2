@@ -1771,6 +1771,10 @@ label monica_charity_event_dialogue18:
     img 6945
     philip "Миссис Бакфетт!"
     "Почему я должен давать Вам еще $ 500?"
+    $ questHelp("philip_2", True)
+    $ questHelp("office_12")
+    $ questHelpDesc("philip_desc1", "philip_desc2")
+    $ questHelpDesc("dick_desc2", "dick_desc3")
     img 6946
     m "Мне очень надо! ОЧЕНЬ!!!"
     img 6945

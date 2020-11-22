@@ -59,6 +59,8 @@ label ep22_quests_biff2:
         return
     call ep210_dialogues1_office_biff_4() from _call_ep210_dialogues1_office_biff_4
     call ep210_dialogues1_office_biff_5() from _call_ep210_dialogues1_office_biff_5 # Разговор с Бифом
+    $ questHelp("office_34", True)
+    $ questHelp("philip_3")
     $ ep22_quests_monica_presentation_completed = True
     $ ep22_quests_monica_presentation_completed_day = day
     $ biffLevel3Opened = True

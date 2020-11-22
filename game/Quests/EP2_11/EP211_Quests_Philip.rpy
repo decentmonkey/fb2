@@ -9,6 +9,8 @@ label ep211_quests_philip:
             $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_18", scene="street_philiphome")
             call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_1
             return False
+        $ questHelp("philip_6", True)
+        $ questHelp("philip_7", skipIfExists=True)
         call ep211_dialogues7_Phillip_home_4() from _rcall_ep211_dialogues7_Phillip_home_4
         $ monica_philip_visits_double_blowjobs += 1
         $ move_object("Bitch1", "empty")
@@ -26,6 +28,7 @@ label ep211_quests_philip:
             return False
 
         call ep212_dialogues4_philip_threesome_2() from _rcall_ep212_dialogues4_philip_threesome_2 # оплата шлюхе 1
+        $ questHelp("philip_7", True)
         $ monica_philip_visits_threesomes += 1
         $ streetPhilipHomeMonicaSuffix = 2
         $ move_object("Bitch1", "street_philiphome")
