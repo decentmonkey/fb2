@@ -22,6 +22,8 @@ label ep215_quests_pub2:
         return
     $ ep215_quests_pub2_lastday = day
     call ep215_dialogues1_pub_1() from _rcall_ep215_dialogues1_pub_1
+    $ questHelp("shinyhole_42", True)
+    $ questHelp("shinyhole_45")
     $ add_hook("before_open", "ep215_quests_pub3_molly1", scene="pub_makeuproom", label="ep215_quests_pub3_molly1")
 #    $ add_talk("Pub_StripteaseGirl1", "ep215_quests_pub3_molly1", scene="pub_makeuproom", label="ep215_quests_pub3_molly1")
     return
@@ -33,6 +35,8 @@ label ep215_quests_pub3_molly1:
     $ remove_hook(label="ep215_quests_pub2")
     $ ep215_quests_vest_only_active = False
     call ep215_dialogues1_pub_2() from _rcall_ep215_dialogues1_pub_2
+    $ questHelp("shinyhole_45", True)
+    $ questHelp("shinyhole_46")
     $ add_talk("Pub_StripteaseGirl1", "ep215_quests_pub3_molly2", scene="pub_makeuproom", label="ep215_quests_pub3_molly2")
     $ pub_makeuproom_monica_suffix = 2
     return
@@ -52,6 +56,8 @@ label ep215_quests_pub3_molly2:
     call ep215_dialogues1_pub_4() from _rcall_ep215_dialogues1_pub_4
     call ep215_dialogues1_pub_5() from _rcall_ep215_dialogues1_pub_5
     call ep215_dialogues1_pub_7() from _rcall_ep215_dialogues1_pub_7
+    $ questHelp("shinyhole_46", True)
+    $ questHelp("shinyhole_47")
     $ remove_objective("go_dance")
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ monicaDancedLastDay = day
@@ -84,13 +90,18 @@ label ep215_quests_pub3_molly3:
         $ move_object("Pub_StripteaseGirl1", "empty")
         return
     if _return == 1: # второй баттл
+        $ questHelp("shinyhole_47", True)
+        $ questHelp("shinyhole_48")
         $ monicaDancedLastDay = day
         $ move_object("Pub_StripteaseGirl1", "empty")
+        $ questHelp("shinyhole_48", True)
+        $ questHelp("shinyhole_49", skipIfExists=True)
         call ep215_dialogues1_pub_10() from _rcall_ep215_dialogues1_pub_10
         if _return == False:
             $ pub_makeuproom_monica_suffix = 2
             call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_21
             return False
+
         $ ep215_quests_vest_only_active = False
         $ remove_hook(label="ep215_quests_pub3_molly3")
         # Моника королева Shiny Hole
@@ -99,6 +110,9 @@ label ep215_quests_pub3_molly3:
 
         $ monica_shiny_hole_queen_day = day
         call ep215_dialogues1_pub_11() from _rcall_ep215_dialogues1_pub_11
+        $ questHelp("shinyhole_49", True)
+        $ questHelp("shinyhole_50")
+        $ questHelpDesc("shinyhole_desc12a", "shinyhole_desc16")
         $ set_active("Picture", False, scene="pub_makeuproom") # убираем старую картину
         call pub_makeuproom_init5() from _rcall_pub_makeuproom_init5 # инициализируем картину
         $ remove_objective("go_dance")

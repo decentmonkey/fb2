@@ -52,6 +52,11 @@ label ep212_quests_pub_private1_1: # Приват 1
     if _return == -1:
         call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_15
         return
+    $ questHelp("shinyhole_33", True)
+    $ questHelp("shinyhole_35", skipIfExists=True)
+    if questHelpFlag14 == False:
+        $ questHelpFlag14 = True
+        $ questHelpDesc("shinyhole_desc10a", "shinyhole_desc10b")
 
     $ customer3_after_private = True
     call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_16

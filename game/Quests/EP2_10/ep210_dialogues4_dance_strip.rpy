@@ -1197,6 +1197,8 @@ label ep210_dialogues4_dance_strip_12:
     $ applauseSound = "snd_applause" + str(idx)
     sound applauseSound
     w
+    $ questHelp("shinyhole_31", True)
+    $ questHelp("shinyhole_32", skipIfExists=True)
     # во время танца или сразу после него, когда Моника еще не ушла со сцены, с нее падают трусики
     # чаевые бешенно растут
     # Моника наклоняется, поднимает трусики

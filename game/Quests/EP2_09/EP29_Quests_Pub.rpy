@@ -88,6 +88,9 @@ label ep29_quests_pub1_day1_molly:
     call dialogue_5_dance_strip_2a() from _call_dialogue_5_dance_strip_2a
     $ add_objective("ask_ashley_about_cloth", t_("Спросить у Эшли костюм для выступления."), c_blue, 100)
     $ questLog(58,True)
+    $ questHelp("shinyhole_10", True)
+    $ questHelp("shinyhole_11")
+    $ questHelpDesc("shinyhole_desc8")
 
     $ add_hook("Bartender", "ep29_quests_pub1_day1_joe", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Teleport_Hostel_Street", "dialogue_5_dance_strip_4nb", scene="pub", label="monica_dance_block2")
@@ -102,6 +105,8 @@ label ep29_quests_pub1_day1_joe:
     $ remove_hook()
     $ remove_objective("ask_ashley_about_cloth")
     call dialogue_5_dance_strip_3() from _call_dialogue_5_dance_strip_3
+    $ questHelp("shinyhole_11", True)
+    $ questHelp("shinyhole_12")
     $ add_objective("talk_claire", t_("Поговорить в пабе с другой стриптизершей."), c_green, 100)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4nc", scene="pub", label="evening_time_temp")
     $ add_hook("change_time_day", "ep29_quests_pub1_day2_init", scene="global")
@@ -165,6 +170,9 @@ label ep29_quests_pub1_day2_ashley2: # Эшли встречает Монику,
     if _return == 0:
         call refresh_scene_fade() from _call_refresh_scene_fade_220
         return False
+    $ questHelp("shinyhole_9", True)
+    $ questHelp("shinyhole_10")
+    $ questHelpDesc("shinyhole_desc7")
     $ add_objective("go_to_makeuproom", t_("Идти в гримерку, чтобы подготовиться к выступлению на сцене."), c_orange, 110)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
@@ -181,6 +189,9 @@ label ep29_quests_pub1_day2_claire1: # первый разговорс Клэр
     $ char_info["Pub_StripteaseGirl1"]["name"] = t_("Молли")
     $ char_info["Pub_StripteaseGirl2"]["name"] = t_("Клэр")
     call dialogue_5_dance_strip_8() from _call_dialogue_5_dance_strip_8
+    $ questHelp("shinyhole_12", True)
+    $ questHelp("shinyhole_13")
+    $ questHelpDesc("shinyhole_desc9")
 
     $ ep29_quests_pub_monica_knows_claire = True
     $ ep29_quests_pub_monica_knows_molly = True
@@ -285,6 +296,8 @@ label ep29_quests_pub1_day2_ashley4: # Эшли забирает у Моники
         if pubDanceCount <= 3:
             if ep29_quests_monica_gave_money_forgivenes_last_day != day:
                 call dialogue_5_dance_strip_13() from _call_dialogue_5_dance_strip_13
+                $ questHelp("shinyhole_15", True)
+                $ questHelp("shinyhole_17", skipIfExists=True)
                 $ ep29_quests_monica_gave_money_forgivenes_last_day = day
         else:
             # Монику прощают
@@ -293,6 +306,10 @@ label ep29_quests_pub1_day2_ashley4: # Эшли забирает у Моники
             $ questLog(60, True)
             $ remove_hook(quest="monica_dance_forgiveness")
             call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_10
+            $ questHelp("shinyhole_17", True)
+            $ questHelp("shinyhole_19", skipIfExists=True)
+            $ questHelpDesc("shinyhole_desc7", "shinyhole_desc10")
+            
             $ ep29_quests_pub_forgiveness_dancing_enabled = False
             $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
             $ monica_shared_tips_with_ashley_last_day = day

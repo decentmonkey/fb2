@@ -151,6 +151,9 @@ label pub_dance_end1: # Обычное завершение танцев
     if monicaDancingJoeAskedAboutPrivate == False and monicaDancingStage >= 2:
         # Джо спрашивает о приватных танцах
         call dialogue_5_dance_strip_24() from _rcall_dialogue_5_dance_strip_24
+        $ questHelp("shinyhole_18", True)
+        $ questHelp("shinyhole_20", skipIfExists=True)
+        $ questHelpDesc("shinyhole_desc10a")
         $ monicaDancingJoeAskedAboutPrivate = True
     if ep29_quests_molly_fall_panties_planned == True and ep29_quests_molly_fall_panties_completed == False and monicaDancingTopless == True:
         # Падают трусики

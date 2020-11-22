@@ -56,9 +56,16 @@ label ep23_quests_pub4: # диалог о приеме на работу
     call ep23_dialogues1_3() from _call_ep23_dialogues1_3
     if _return == False:
         if act != "l":
+            $ questHelp("shinyhole_1", False)
             music2 stop
             call change_scene("hostel_street") from _call_change_scene_222
         return False
+
+    $ questHelp("shinyhole_1", True)
+    $ questHelp("shinyhole_2")
+    $ questHelp("shinyhole_3")
+    $ questHelpDesc("shinyhole_desc1")
+
     $ monicaWorkingAsDishwasher = True
     $ add_location("pub_bar1", caption=t_("SHINY HOLE"), label="pub_bar1", init_label="pub_bar1_init", parent="pub")
     $ add_hook("Monica", "ep23_quests_pub6_dishes", scene="pub_bar1", label="pub_dishes_process")
@@ -149,6 +156,8 @@ label ep23_quests_pub6_dishes_bartender_waitress: # Клик на Барменш
     call pub_bar1_environment() from _call_pub_bar1_environment_1
     call ep23_dialogues1_4a2() from _call_ep23_dialogues1_4a2_2
     call ep23_dialogues1_4c() from _call_ep23_dialogues1_4c
+    $ questHelp("shinyhole_2", True)
+    
     call ep23_dialogues1_5() from _call_ep23_dialogues1_5_2
     call monicaEat() from _call_monicaEat_10
     call change_scene("hostel_street", "Fade_long") from _call_change_scene_226

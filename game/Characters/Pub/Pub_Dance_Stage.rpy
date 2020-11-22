@@ -328,6 +328,8 @@ label pub_dance1_stage_start1:
                 hide screen poledance_coins
                 call dialogue_5_dance_strip_4g() from _rcall_dialogue_5_dance_strip_4g
                 jump pub_dance1_stage_end
+            $ questHelp("shinyhole_14", True)
+            $ questHelp("shinyhole_18", skipIfExists=True)
             call dialogue_5_dance_strip_4h() from _rcall_dialogue_5_dance_strip_4h
         "Завершить танец." if ep29_quests_claire_dance_planned == False:
             jump pub_dance1_stage_stop
@@ -690,6 +692,12 @@ label pub_dance1_stage_start1_topless:
     call ep213_dialogues3_pub_9() from _rcall_ep213_dialogues3_pub_9 # Диалог о том чтобы полностью раздеться
     if _return == False:
         jump pub_dance1_stage_end
+
+    $ questHelp("shinyhole_44", True)
+    if questHelpFlag15 == False:
+        $ questHelpFlag15 = True
+        $ questHelp("shinyhole_42")
+        $ questHelpDesc("shinyhole_desc12", "shinyhole_desc12a")
 
     $ stage_dance_nude_last_day = day
     $ pub_dance_dialogues_tips_list = 0
@@ -1127,6 +1135,13 @@ label pub_dance1_stage_end:
         for movement in stage_achievements_list:
             check_achievement(movement)
 
+    if len(list(set(shootsArr))) >= 27:
+        $ questHelp("shinyhole_16", True)
+        $ questHelp("shinyhole_23", skipIfExists=True)
+    if len(list(set(shootsArr))) >= 51:
+        $ questHelp("shinyhole_24", True)
+    if len(list(set(shootsArr))) >= 76:
+        $ questHelp("shinyhole_44a", True)
     pause 1.0
     $ stage_Monica_last_shoots_array = stage_Monica_shoots_array_current
     return

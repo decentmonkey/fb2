@@ -361,6 +361,7 @@ label ep27_dialogues7_pub7:
         $ add_money(tipsBack)
         ashley "Хорошо. Вот твои тридцать процентов."
         ashley "Завтра приходи работать еще."
+        $ questHelp("shinyhole_19", True)
 
     # если нет чаевых
 #    img 20995

@@ -18,9 +18,15 @@ label ep27_quests_pub_work1: # Моника спрашивает о повыше
     call ep27_dialogues7_pub1() from _call_ep27_dialogues7_pub1
     music2 stop
     if _return == False or _return == -1:
+        $ questHelp("shinyhole_4", False)
         call change_scene("hostel_street", "Fade_long") from _call_change_scene_366
         return False
     # Моника принята на работу официанткой
+    $ questHelp("shinyhole_4", True)
+    $ questHelp("shinyhole_5")
+    $ questHelpDesc("shinyhole_desc2", False)
+    $ questHelpDesc("shinyhole_desc3", False)
+    $ questHelpDesc("shinyhole_desc4")
     $ pubMonicaWorkingWaitress = True
 
     if day_time == "day":
@@ -76,6 +82,8 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
     $ set_var("Monica", zorder = 200, scene="pub") # Делаем Монику снова спереди
     if pubMonicaWaitressTips > 0:
         $ autorun_to_object("ep27_dialogues7_pub6a", scene="hostel_street")
+    $ questHelp("shinyhole_6", True)
+
     $ add_hook("Teleport_Hostel_Pub", "ep27_dialogues7_pub6a", scene="hostel_street", label="evening_time_temp")
     $ add_hook("Bartender", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
     $ add_hook("Bartender_Waitress", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
@@ -106,6 +114,10 @@ label ep27_quests_pub_work4: # Клик на барменов
     return False
 
 label ep27_quests_pub_work5:
+    $ questHelp("shinyhole_5", True)
+    $ questHelp("shinyhole_6", skipIfExists=True)
+    $ questHelp("flat_slums_1", skipIfExists=True)
+
     # Заканчиваем работу
     $ pubMonicaWorkingWaitressShiftInProgress = False
     call ep27_dialogues7_pub7() from _call_ep27_dialogues7_pub7
@@ -127,6 +139,9 @@ label ep27_quests_pub_work6_tips_punishment: # Наказание за краж�
     if act=="l":
         return
     call ep27_dialogues7_pub8() from _call_ep27_dialogues7_pub8
+    $ questHelp("shinyhole_7", skipIfExists=True)
+    $ questHelp("shinyhole_8", skipIfExists=True)
+    $ questHelp("shinyhole_9", skipIfExists=True)
     if _return == 0:
         call change_scene("hostel_street", "Fade_long") from _call_change_scene_369
         return False

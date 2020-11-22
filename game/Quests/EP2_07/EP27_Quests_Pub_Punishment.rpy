@@ -18,6 +18,7 @@ label ep22_quests_pub_punishment_joe:
     call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_26
     img black_screen
     with Dissolve(1)
+    $ questHelpDesc("shinyhole_desc5")
     if sceneIdx == 1:
         call ep27_dialogues7_pub10() from _call_ep27_dialogues7_pub10
         if _return == False:
@@ -45,6 +46,7 @@ label ep22_quests_pub_punishment_joe:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_357
             return False
+        $ questHelp("shinyhole_8", True)
         $ pubMonicaWaitressTipsPunishmentJoeStage = 3
         $ add_char_progress("Bartender", monicaTipsPunishmentJoeProgress, "monicaTipsPunishmentJoeProgress3")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_2
@@ -84,6 +86,7 @@ label ep22_quests_pub_punishment_ashley:
     call textonblack(t_("Спустя некоторое время...")) from _call_textonblack_27
     img black_screen
     with Dissolve(1)
+    $ questHelpDesc("shinyhole_desc6")
     if sceneIdx == 1:
         call ep27_dialogues7_pub15() from _call_ep27_dialogues7_pub15
         if _return == False:
@@ -111,6 +114,7 @@ label ep22_quests_pub_punishment_ashley:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_361
             return False
+        $ questHelp("shinyhole_7")
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 3
         $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress3")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_6

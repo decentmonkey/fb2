@@ -254,6 +254,20 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     call pylonController(2, 1) from _call_pylonController_12
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     $ add_money(1.0)
+    $ questHelp("work_slums_4", True)
+    $ questHelp("shinyhole_1")
+    $ questHelp("work_slums_5")
+    $ questHelp("work_slums_6")
+    $ questHelp("work_slums_7")
+    $ questHelp("work_slums_8")
+    $ questHelp("work_slums_9")
+    $ questHelp("work_slums_10")
+    $ questHelp("work_slums_11")
+    $ questHelp("work_slums_12")
+    $ questHelp("work_slums_13")
+    $ questHelp("work_slums_14")
+    $ questHelpDesc("workslums_desc2", "workslums_desc3")
+
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
     $ fallingPathStarted = True
     $ questOffendMonicaFlyersCitizen6ThanksGiven = True

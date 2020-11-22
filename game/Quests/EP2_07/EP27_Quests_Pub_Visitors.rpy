@@ -183,7 +183,9 @@ label ep27_pub_visitors_click:
             $ changeDayTime("evening") # Если закончили, упершись в лимит клиентов, то меняем время суток
 #        $ autorun_to_object("ep27_pub_visitors_dummy_autorun", scene=scene_name)
         $ autorun_to_object("ep27_dialogues7_pub3b", scene=scene_name)
-
+        $ questHelp("shinyhole_5", True)
+        $ questHelp("shinyhole_6", skipIfExists=True)
+        $ questHelp("flat_slums_1", skipIfExists=True)
 #        call ep27_quests_pub_work5() # Заканчиваем работу
         return False
     $ scene_sound = "highheels_short_walk"

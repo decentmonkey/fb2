@@ -1195,6 +1195,10 @@ label dialogue_5_dance_strip_10:
     mt "Мне хочется поскорее отмыться!!!"
     mt "Надо немного потерпеть... Это когда-нибудь закончится."
     mt "И я смогу выбраться из этого кошмарного дна... Я все сделаю для этого!!!"
+    $ questHelp("shinyhole_13", True)
+    $ questHelp("shinyhole_14", skipIfExists=True)
+    $ questHelp("shinyhole_15", skipIfExists=True)
+    $ questHelp("shinyhole_16", skipIfExists=True)
     return
 
 
@@ -2140,6 +2144,8 @@ label dialogue_5_dance_strip_23:
 
                 if monicaPubDanceStoleTipsStage == 0:
                     mt "Я не собираюсь отдавать никому мои чаевые!"
+                    $ questHelp("shinyhole_27", True)
+                    $ questHelp("shinyhole_28", skipIfExists=True)
                     call ep211_quests_pub2_exit_with_tips() from _rcall_ep211_quests_pub2_exit_with_tips
                     return False
                 if monicaPubDanceStoleTipsStage == 1:

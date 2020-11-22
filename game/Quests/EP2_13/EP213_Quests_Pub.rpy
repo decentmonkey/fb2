@@ -28,6 +28,8 @@ label ep213_quests_pub2: # Моника приходит на работу в п
         $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub2_molly", scene="pub_makeuproom", label="ep213_pub")
         call refresh_scene_fade() from _rcall_refresh_scene_fade_87
         return False
+    $ questHelp("shinyhole_32", True)
+    $ questHelp("shinyhole_34", skipIfExists=True)
     $ remove_hook(label="ep213_pub")
     $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub3_molly_refuse", scene="pub_makeuproom", label="ep213_pub")
     $ add_hook("Teleport_Pub", "ep213_quests_pub4", scene="pub_makeuproom", label="ep213_pub")
@@ -98,6 +100,13 @@ label ep213_quests_pub5_tips:
             $ ep213_quests_stole_tips_count -=1
             call refresh_scene_fade() from _rcall_refresh_scene_fade_89
             return False
+
+        $ questHelp("shinyhole_34", True)
+        $ questHelp("shinyhole_36", True)
+        $ questHelp("shinyhole_43", skipIfExists=True)
+
+
+
 #        $ set_active("Tips", False)
 #        $ set_active("Tips", False, scene="pub_makeuproom")
         $ ep213_quests_monica_punished_for_stealing_molly_tips = True
@@ -130,8 +139,11 @@ label ep213_quests_pub7_molly_punishment: # Моника разговарива�
         call refresh_scene_fade() from _rcall_refresh_scene_fade_92
         return False
     if _return == 1: # увольнение
+        $ questHelp("shinyhole_43", False)
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_4
         return False
+    $ questHelp("shinyhole_43", True)
+    $ questHelp("shinyhole_44")
     $ remove_hook()
     $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub3_molly_refuse", scene="pub_makeuproom", label="ep213_pub")
     $ ep213_dialogues3_pub_7_planned = True
@@ -184,6 +196,7 @@ label ep213_quests_pub_private2_1:
     if _return == -1:
         call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_18
         return
+    $ questHelp("shinyhole_35", True)
     $ pubPrivate2Count += 1
 
     $ customer9_after_private = True

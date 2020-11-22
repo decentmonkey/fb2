@@ -29,7 +29,7 @@ label ep210_quests_pub1:
         $ ep210_quests_stage = -1
 
     if ep210_quests_stage == 4 and ep210_picture_was_marked == True:
-        if game.extra == True:
+        if game.extra == True or 1==1:
             $ ep29_quests_molly_fall_panties_planned0 = True
     if ep29_quests_molly_fall_panties_planned0 == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") != False:
         $ ep29_quests_molly_fall_panties_planned = True
@@ -42,6 +42,8 @@ label ep210_quests_pub1:
 
 label ep210_quests_pub1_molly: # Диалог с Молли
     call ep210_dialogues4_dance_strip_1() from _call_ep210_dialogues4_dance_strip_1
+    $ questHelp("shinyhole_20", True)
+    $ questHelp("shinyhole_21", skipIfExists=True)
     $ add_char_progress("Pub_StripteaseGirl1", 25, "molly_offend2")
     call refresh_scene_fade() from _call_refresh_scene_fade_240
     $ pub_makeuproom_monica_suffix = 2
@@ -53,6 +55,7 @@ label ep210_quests_pub2_claire: # Разговор с Клэр
         return
     $ remove_hook()
     call ep210_dialogues4_dance_strip_2() from _call_ep210_dialogues4_dance_strip_2
+    $ questHelp("shinyhole_23", True)
     $ add_char_progress("Pub_StripteaseGirl2", 25, "claire_conversation1")
     call refresh_scene_fade() from _call_refresh_scene_fade_241
     $ ep210_quests_stage = 2
@@ -71,6 +74,11 @@ label ep210_quests_pub3_molly2: # Диалог с Молли после выст
     if monicaDancedLastDay == day and cloth_type == "Whore":
         $ remove_hook()
         call ep210_dialogues4_dance_strip_4() from _call_ep210_dialogues4_dance_strip_4
+        $ questHelp("shinyhole_21", True)
+        $ questHelp("shinyhole_22", skipIfExists=True)
+        $ questHelp("shinyhole_25", skipIfExists=True)
+        $ questHelpDesc("shinyhole_desc10", "shinyhole_desc11")
+
         $ add_char_progress("Pub_StripteaseGirl1", 25, "molly_offend4")
         $ questLog(66, True)
         $ add_hook("enter_scene", "ep210_quests_pub4_molly_photo1", scene="pub_makeuproom", label="ep210_quests_pub4_molly_photo1")
@@ -111,6 +119,8 @@ label ep210_quests_pub4_molly_photo2: # Действие с фото Молли
             call ep210_dialogues4_dance_strip_5() from _call_ep210_dialogues4_dance_strip_5
             if _return == False:
                 return False
+            $ questHelp("shinyhole_25", True)
+
             $ remove_hook(label="ep210_quests_pub4_molly_photo2")
 #            $ set_var("Picture", img="Pub_MakeupRoom_Picture_Marked", scene="pub_makeuproom")
             call pub_makeuproom_init3() from _call_pub_makeuproom_init3
@@ -141,6 +151,10 @@ label ep210_quests_pub4_claire:
         return
     $ remove_hook()
     call ep210_dialogues4_dance_strip_6() from _call_ep210_dialogues4_dance_strip_6
+    $ questHelp("shinyhole_22", True)
+    $ questHelp("shinyhole_24", skipIfExists=True)
+    $ questHelp("shinyhole_26", skipIfExists=True)
+
     $ add_char_progress("Pub_StripteaseGirl2", 25, "claire_help1")
 
     $ ep29_quests_only_claire = False
@@ -196,6 +210,9 @@ label ep210_quests_pub6_ashley: # Эшли встречает Монику по�
 
 label ep210_quests_pub7_molly:
     call ep210_dialogues4_dance_strip_11() from _call_ep210_dialogues4_dance_strip_11
+    $ questHelp("shinyhole_26", True)
+    $ questHelp("shinyhole_27")
+
     $ pub_makeuproom_monica_suffix = 2
     $ ep210_quests_stage = 4
     return

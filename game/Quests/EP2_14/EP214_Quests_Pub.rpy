@@ -40,12 +40,18 @@ label ep214_quests_pub3_makeuproom: # разговор с Эшли в гриме
     $ add_talk("Pub_StripteaseGirl2", "ep214_quests_pub4_claire", scene="pub_makeuproom", label="pub_poster1")
     $ add_objective("talk_claire", t_("Поговорить с Клэр о требовании Эшли"), c_orange, 125)
     call ep214_dialogues1_pub_2() from _rcall_ep214_dialogues1_pub_2
+    $ questHelp("shinyhole_37", True)
+    $ questHelp("shinyhole_38")
     call change_scene("pub", "Fade_long") from _rcall_change_scene_136
     return
 
 label ep214_quests_pub4_claire: #разговор с Клэр
     $ remove_hook()
     call ep214_dialogues1_pub_3() from _rcall_ep214_dialogues1_pub_3
+    $ questHelp("shinyhole_38", True)
+    $ questHelp("office_46")
+    $ questHelpDesc("shinyhole_desc9", "shinyhole_desc13")
+
     $ remove_objective("talk_claire")
     $ questLog(76, True)
     $ add_talk("Pub_StripteaseGirl2", "ep214_dialogues1_pub_4", scene="pub_makeuproom", label="pub_poster1_claire_repeat")
@@ -77,6 +83,10 @@ label ep214_quests_pub6_claire: #разговор с Клэр после виз�
     $ remove_hook()
     call ep214_dialogues1_pub_10() from _rcall_ep214_dialogues1_pub_10
     $ pubDanceAfterBlockEvents = True
+    $ questHelp("shinyhole_39", True)
+    $ questHelp("shinyhole_40")
+    $ questHelpDesc("shinyhole_desc14", "shinyhole_desc15")
+
     $ add_talk("Pub_StripteaseGirl2", "ep214_dialogues1_pub_11", scene="pub_makeuproom", label="pub_poster1_claire_repeat")
     $ add_hook("before_open", "ep214_quests_pub7_after_dance", scene="pub_makeuproom", label="pub_poster1")
     return False
@@ -103,8 +113,11 @@ label ep214_quests_pub8:
     call ep214_dialogues1_pub_13() from _rcall_ep214_dialogues1_pub_13 # начало сцены
     call ep214_dialogues1_pub_14() from _rcall_ep214_dialogues1_pub_14
     if _return == False: # увольнение
+        $ questHelp("shinyhole_40", False)
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_7
         return False
+    $ questHelp("shinyhole_40", True)
+    $ questHelp("shinyhole_41", True)
     $ ep214_quests_claire_show1_day = day
 
     $ enter_scene("ep214_dialogues1_pub_16", label="pub_poster1", once=True)

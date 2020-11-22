@@ -69,8 +69,13 @@ label ep211_quests_pub3_start_banker_questb:
     $ remove_hook()
     call ep211_dialogues5_shiny_hole_1() from _rcall_ep211_dialogues5_shiny_hole_1
     if _return == False:
+        $ questHelp("shinyhole_28", False)
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired
         return False
+
+    $ questHelp("shinyhole_28", True)
+    $ questHelp("shinyhole_29", skipIfExists=True)
+
     $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
     $ add_hook("Teleport_Pub", "ep211_quests_pub4_teleport", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_1
@@ -84,8 +89,12 @@ label ep211_quests_pub4_teleport:
     $ remove_objective("go_dance_private")
     call ep211_dialogues5_shiny_hole_2() from _rcall_ep211_dialogues5_shiny_hole_2
     if _return == False:
+        $ questHelp("shinyhole_29", False)
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_1
         return False
+    $ questHelp("shinyhole_29", True)
+    $ questHelp("shinyhole_30", skipIfExists=True)
+    $ questHelp("shinyhole_33", skipIfExists=True)
     $ monicaPubDanceStoleTipsBankerCompleted = True
     $ monicaPubDanceStoleTipsStage = 1
 #    $ ep211_quests_pub_dialogue1_planned = True
@@ -100,6 +109,9 @@ label ep211_quests_pub5: # Диалог о том что Моника должн
         return
     $ remove_hook(label="pub_private_dance1")
     call ep211_dialogues5_shiny_hole_3() from _rcall_ep211_dialogues5_shiny_hole_3
+    $ questHelp("shinyhole_30", True)
+    $ questHelp("shinyhole_31", skipIfExists=True)
+    $ questHelpDesc("shinyhole_desc11", "shinyhole_desc12")
     $ questLog(70, True)
     $ add_hook("before_open", "ep211_quests_pub6", scene="pub_makeuproom", label="monica_pub_molly_forgive_dialogue_comment")
     $ add_hook("Pub_StripteaseGirl1", "ep211_quests_pub7_molly", scene="pub_makeuproom", label="monica_pub_molly_forgive_dialogue")
