@@ -5,6 +5,7 @@ default citizen6BoobsNakedDancedCount = -1
 default citizen6BoobsNakedDancedBottleCount = 0
 default questOffendMonicaFlyersCitizen6ThanksGiven = False
 default questWhorePlaceSearchingStage = 0
+default citizen6DanceCloth = 0
 
 label citizen6_dialogue:
     if questOffendMonicaFlyersCitizen12Completed == True and questOffendMonicaFlyersCitizen6ThanksGiven == False:
@@ -254,13 +255,14 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     call pylonController(2, 1) from _call_pylonController_12
     citizen6 "Можешь идти, считай, ты мне ничего не должна."
     $ add_money(1.0)
+    $ citizen12_forced = False
     $ questHelp("work_slums_4", True)
     $ questHelp("shinyhole_1")
     $ questHelp("work_slums_5")
     $ questHelp("work_slums_6")
     $ questHelp("work_slums_7")
     $ questHelp("work_slums_8")
-    $ questHelp("work_slums_9")
+    $ questHelp("work_slums_9a")
     $ questHelp("work_slums_10")
     $ questHelp("work_slums_11")
     $ questHelp("work_slums_12")
@@ -391,7 +393,8 @@ label citizen6_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen6DanceCloth += 1
+            if citizen6DanceCloth >= 3:
                 $ questHelp("work_slums_9", True)
                 $ questHelp("work_slums_30", skipIfExists=True)
 

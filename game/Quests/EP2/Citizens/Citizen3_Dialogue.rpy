@@ -2,6 +2,7 @@ default citizen3BoobsNakesShowedLastDay = 0
 default citizen3BoobsNakedDancedLastDay = 0
 default citizen3BoobsNakesShowedCount = -1
 default citizen3BoobsNakedDancedCount = -1
+default citizen3DanceCloth = 0
 default monicaGotJoint = False
 label citizen3_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -212,7 +213,8 @@ label citizen3_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen3DanceCloth += 1
+            if citizen3DanceCloth >= 3:
                 $ questHelp("work_slums_17", True)
                 $ questHelp("work_slums_28", skipIfExists=True)
 

@@ -109,6 +109,7 @@ label bardieProgressLevelUp1:
         $ char_data["show_caption_diabled"] = False
         return
     if char_data["level"] == 3:
+        $ questHelp("house_8", True)
 #        $ char_data["enabled"] = False
 #        $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
 #        $ char_data["show_caption_diabled"] = True

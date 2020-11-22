@@ -5,6 +5,7 @@ default citizen15BoobsNakedDancedCount = -1
 default pylonpart2startsCompleted = False
 default pylonpart3startsCompleted = False
 default pylonpart4startsCompleted = False
+default citizen15DanceCloth = 0
 
 label citizen15_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -166,8 +167,8 @@ label citizen15_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen15DanceCloth =+ 1
+            if citizen15DanceCloth >= 3:
                 $ questHelp("work_slums_23", True)
                 $ questHelp("work_slums_35", skipIfExists=True)
 

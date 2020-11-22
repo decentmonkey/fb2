@@ -4,6 +4,7 @@ default citizen8BoobsNakesShowedCount = -1
 default citizen8BoobsNakedDancedCount = -1
 default citizen8BoobsNakedDancedEvent1Count = 0
 default citizen8_varA = 1
+default citizen8DanceCloth = 0
 
 label citizen8_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -192,8 +193,8 @@ label citizen8_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
-
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen8DanceCloth += 1
+            if citizen8DanceCloth >= 3:
                 $ questHelp("work_slums_20", True)
                 $ questHelp("work_slums_32", skipIfExists=True)
 

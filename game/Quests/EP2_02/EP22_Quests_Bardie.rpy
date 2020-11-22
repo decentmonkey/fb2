@@ -110,6 +110,7 @@ label EP22_Quests_Bardie4: #второй разговор с Барди
     call ep22_dialogues3_6() from _call_ep22_dialogues3_6
     $ questHelp("house_7", True)
     $ questHelp("house_8")
+    $ questHelp("house_3", True)
     $ questHelpDesc("house_desc2", "house_desc4")
     $ remove_hook("Bardie_Life_day", "Bardie_Life_day3", scene="global")
     $ remove_hook("Bardie_Life_evening", "Bardie_Life_evening2", scene="global")

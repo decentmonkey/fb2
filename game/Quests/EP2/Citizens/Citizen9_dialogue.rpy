@@ -2,6 +2,7 @@ default citizen9BoobsNakesShowedLastDay = 0
 default citizen9BoobsNakedDancedLastDay = 0
 default citizen9BoobsNakesShowedCount = -1
 default citizen9BoobsNakedDancedCount = -1
+default citizen9DanceCloth = 0
 
 default citizen9BoobsNakesEvent1 = False
 
@@ -209,7 +210,8 @@ label citizen9_dialogue_pilon:
             call pylonController(4, 6) from _call_pylonController_138
             with fade
             m "Хорошо, только не долго."
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen9DanceCloth += 1
+            if citizen9DanceCloth >= 3:
                 $ questHelp("work_slums_21", True)
                 $ questHelp("work_slums_33", skipIfExists=True)
 

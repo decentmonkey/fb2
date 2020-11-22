@@ -62,8 +62,10 @@ screen questhelp_screen():
                                         categoryStyle = "questhelp_category_completed"
                                     if categoryStatus == 0:
                                         categoryStyle = "questhelp_category_active"
+                                    categoryStyle = categoryStyle + "_bold"
                                     if questHelpCurrentCategory != category:
-                                        categoryStyle = categoryStyle + "_bold"
+#                                        categoryStyle = categoryStyle + "_bold"
+                                        pass
                                     else:
                                         categoryStyle = categoryStyle + "_selected"
                             if categoryStyle != False:

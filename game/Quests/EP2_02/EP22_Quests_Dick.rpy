@@ -10,8 +10,9 @@ label ep22_quests_Dick1:
     $ questHelp("dick_2", True)
     $ questHelp("dick_3")
     $ questHelp("house_5")
-    $ questHelp("work_slums_3")
+#    $ questHelp("work_slums_3")
     $ questHelpDesc("dick_desc3", "dick_desc4")
+    $ citizen12_forced = True
 
     $ hudDaySkipToEveningEnabled = True
     $ add_hook("DickSecretary", "ep22_dialogues5_3")

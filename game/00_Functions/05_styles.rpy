@@ -231,11 +231,21 @@ style questhelp_category_failed:
 #    hover_background "#220000"
     hover_background "#220F11"
 
+style questhelp_category_failed_bold_selected:
+    color "e80000"
+    background "#202020"
+    hover_background "#220000"
+
 style questhelp_category_failed_bold:
     color "e80000"
     hover_background "#220000"
 
 style questhelp_category_failed_bold_text:
+    color "e80000"
+    font "fonts/BebasNeue Regular.ttf"
+    bold True
+
+style questhelp_category_failed_bold_selected_text:
     color "e80000"
     font "fonts/BebasNeue Regular.ttf"
     bold True
@@ -248,6 +258,11 @@ style questhelp_category_failed_text:
 
 
 style questhelp_category_completed_selected:
+    color "#31e8b1"
+    background "#202020"
+    hover_background "#12543D"
+
+style questhelp_category_completed_bold_selected:
     color "#31e8b1"
     background "#202020"
     hover_background "#12543D"
@@ -271,6 +286,12 @@ style questhelp_category_completed_bold_text:
     font "fonts/BebasNeue Regular.ttf"
     bold True
 
+style questhelp_category_completed_bold_selected_text:
+    color "#31e8b1"
+    hover_color "38FFBC"
+    font "fonts/BebasNeue Regular.ttf"
+    bold True
+
 style questhelp_category_completed_text:
     color "#197254"
     hover_color "#1E8964"
@@ -280,6 +301,10 @@ style questhelp_category_completed_text:
 
 
 style questhelp_category_active_selected:
+    hover_background "#2D210A"
+    background "#202020"
+
+style questhelp_category_active_bold_selected:
     hover_background "#2D210A"
     background "#202020"
 
@@ -297,6 +322,12 @@ style questhelp_category_active_bold:
     hover_background "#2D210A"
 
 style questhelp_category_active_bold_text:
+    color "#e8b131"
+    hover_color "#FFC038"
+    font "fonts/BebasNeue Regular.ttf"
+    bold True
+
+style questhelp_category_active_bold_selected_text:
     color "#e8b131"
     hover_color "#FFC038"
     font "fonts/BebasNeue Regular.ttf"

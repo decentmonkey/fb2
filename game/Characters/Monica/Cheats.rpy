@@ -9,6 +9,7 @@ label monica_cheats_init:
     return
 
 label monica_cheats:
+    $ questHelp("other1", True)
     if act=="l":
         return
     menu:

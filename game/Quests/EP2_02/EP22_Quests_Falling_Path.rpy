@@ -33,6 +33,7 @@ label ep22_quests_falling_path1: # Инициализация ситизенов
         return
     if monicaKnowAboutKebabWork == False: # Если Моника не знает о кебабах, то ждем
         return
+    $ questHelp("work_slums_3", skipIfExists=True)
     call citizens_init_monica_offend() from _call_citizens_init_monica_offend
     $ questOffendMonicaFlyersCitizen12Started = True
     return

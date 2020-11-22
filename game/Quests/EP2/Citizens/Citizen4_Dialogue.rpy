@@ -10,6 +10,8 @@ default citizen4BoobsNakedDancedCount1 = 0
 default citizen4BoobsNakedDancedCount2 = 0
 default citizen4BoobsNakedDancedCount3 = 0
 
+default citizen4DanceCloth = 0
+
 label citizen4_dialogue:
     imgl Dial_Monica_Sandwich_0
 #    menu:
@@ -164,7 +166,8 @@ label citizen4_dialogue_pilon:
             call pylonController(4, 6) from _call_pylonController_50
             with fade
             m "Хорошо, только не долго."
-            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+            $ citizen4DanceCloth += 1
+            if citizen4DanceCloth >= 3:
                 $ questHelp("work_slums_16", True)
                 $ questHelp("work_slums_24", skipIfExists=True)
 
@@ -296,7 +299,7 @@ label citizen4_dialogue_pilon:
                 if citizen4BoobsNakedDancedCount >= 3:
                     $ questHelp("work_slums_36", True)
                     $ questHelp("work_slums_46", skipIfExists=True)
-                    
+
                 $ citizen4BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

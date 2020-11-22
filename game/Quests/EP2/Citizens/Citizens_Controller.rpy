@@ -40,6 +40,7 @@ default citizen13_offered_last_day = 0
 default citizen14_offered_last_day = 0
 default citizen15_offered_last_day = 0
 
+default citizen12_forced = False
 
 label citizens_dialogue:
     if kebabWorkFlyersLeft == 0 and kebabWorkInProgress == True:
@@ -290,6 +291,10 @@ label citizens_init_day:
         if ep214_quests_citizens_stage2 == True:
             if "Citizen_7" not in citizensDayList:
                 citizensDayList.append("Citizen_7")
+
+        if citizen12_forced == True:
+            if "Citizen_12" not in citizensDayList:
+                citizensDayList.append("Citizen_12")
 
         if day <= citizen14BlockedByDay and "Citizen_14" in citizensDayList:
             citizensDayList.remove("Citizen_14")
