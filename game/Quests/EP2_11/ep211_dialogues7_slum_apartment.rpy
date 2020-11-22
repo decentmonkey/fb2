@@ -255,6 +255,8 @@ label ep211_dialogues6_slum_apartment_3:
     with fade
     m "Отлично!"
     m "Я хочу их посмотреть!"
+    $ questHelp("flat_slums_1", True)
+    $ questHelp("flat_slums_2", skipIfExists=True)
     # Некоторое время спустя Моника и животное оказываются в новой локации перед страшным домом в трущобах
     return 1
 
@@ -947,6 +949,8 @@ label ep211_dialogues6_slum_apartment_10_loop1:
                             music Power_Bots_Loop
                             img 17014
                             with hpunch
+                            if questHelpFlag18 == False:
+                                $ questHelp("flat_slums_3", False)
                             m "Ты что, ненормальный?!"
                             m "Конечно, я не буду этого делать!"
                             m "Как ты мог вообще до такого додуматься!!!"

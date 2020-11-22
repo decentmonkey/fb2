@@ -36,9 +36,12 @@ label ep29_revenge_quest1_check:
         return
     if _return == 1: # Моника убежала
         $ ep29_revenge_quest_blocked = True # Блокируем квест
+        $ questHelp("revenge_1", False)
         $ add_hook("enter_scene", "dialogue_classmate_15a", scene="basement_pool", once=True)
         call change_scene("basement_pool", "Fade_long", False) from _call_change_scene_471
         return
+    $ questHelp("revenge_1", True)
+    $ questHelp("revenge_2")
     $ ep29_revenge_quest_started = True
     $ add_hook("ButtPlug", "ep29_revenge_quest1_buttplug", scene="basement_bedroom2", label="revenge_quest_buttplug", quest="revenge_quest")
     return
@@ -121,6 +124,8 @@ label ep29_revenge_quest1_laundry_revenge_keys:
     if act=="l":
         return
     call ep29_dialogues5_gun_monica_9b6() from _call_ep29_dialogues5_gun_monica_9b6
+    $ questHelp("revenge_2", True)
+    $ questHelp("revenge_3")
     $ set_active("RevengeKeys", False, scene="basement_laundry_washmachine")
     $ add_inventory("revenge_keys", 1, True)
     $ set_active("WashMachine", False, scene="basement_laundry")

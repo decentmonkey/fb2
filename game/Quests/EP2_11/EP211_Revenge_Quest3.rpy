@@ -1,5 +1,9 @@
 label ep211_revenge_quest1:
     call e211_dialogues_revenge_quest1() from _rcall_e211_dialogues_revenge_quest1
+    $ questHelp("revenge_5", True)
+    $ questHelp("revenge_6")
+    $ questHelpDesc("revenge_desc1", "revenge_desc2")
+
     $ remove_objective("find_fred")
     $ add_objective("go_to_steve", t_("Идти к Стиву"), c_red, 125)
     $ day_time = "day"
@@ -20,6 +24,8 @@ label ep211_revenge_quest1:
 label ep211_revenge_quest2:
     call e211_dialogues_revenge_quest2() from _rcall_e211_dialogues_revenge_quest2
     call e211_dialogues_revenge_quest3() from _rcall_e211_dialogues_revenge_quest3
+    $ questHelp("revenge_6", True)
+    $ questHelp("revenge_7")
 
     stop music
     sound snd_cinematic_impact
@@ -35,6 +41,8 @@ label ep211_revenge_quest2:
     $ renpy.pause(2.0, hard=True)
 
     call ep212_dialogues_revenge_quest1() from _rcall_ep212_dialogues_revenge_quest1
+
+    $ questHelp("revenge_7", True)
 
     stop music
     sound snd_cinematic_impact

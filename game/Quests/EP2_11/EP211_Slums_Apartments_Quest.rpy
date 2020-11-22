@@ -109,9 +109,14 @@ label ep211_slums_apartments_quest3_jack:
         $ slumsDirtyStreetMiniMapActive = True
         $ map_enabled = True
         $ hudDaySkipToEveningEnabled = True
+        $ questHelp("flat_slums_2", False)
 
         call change_scene("hostel_street", "Fade_long") from _rcall_change_scene_6
         return False
+    $ questHelp("flat_slums_2", True)
+    $ questHelp("flat_slums_3", skipIfExists=True)
+    $ questHelpDesc("flatslums_desc1")
+
     $ slumsApartmentsStatus = 1
     $ slumsApartmentsRentStarted = True
     $ slumsApartmentsRentStartedDay = day
@@ -201,6 +206,8 @@ label ep211_slums_apartments_quest4_check_payment:
             return
         if _return == 2: #скидка 10%
             call ep211_dialogues6_slum_apartment_11() from _rcall_ep211_dialogues6_slum_apartment_11
+            $ questHelpFlag18 = True
+            $ questHelp("flat_slums_3", True)
             $ add_corruption(slumsApartmentsRentPriceDiscount10CorruptionAdd, "slums_apartments_discount_day" + str(day))
             return
 

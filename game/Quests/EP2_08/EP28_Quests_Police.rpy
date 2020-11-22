@@ -219,6 +219,11 @@ label ep28_quests_police_final: # Завершение тюремного кве
     # Разговор с Маркусом
     call ep28_dialogues_jail2_marcus1() from _call_ep28_dialogues_jail2_marcus1
     call ep28_dialogues_jail2_marcus2() from _call_ep28_dialogues_jail2_marcus2
+    $ questHelp("marcus_10", True)
+    $ questHelp("marcus_11")
+    $ questHelp("revenge_1")
+    $ questHelpDesc("marcus_desc2", "marcus_desc3")
+    
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ changeDayTime("evening")

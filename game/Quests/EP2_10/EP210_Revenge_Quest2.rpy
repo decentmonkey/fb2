@@ -44,6 +44,19 @@ label ep210_revenge_quest2_block_exit_evening: # Не даем выйти из �
 label ep210_revenge_quest3_morning_comment:
     $ remove_hook()
     call ep210_dialogues6_gun_monica_fred_1b() from _call_ep210_dialogues6_gun_monica_fred_1b
+
+    python:
+        for category in questHelpData:
+            for idx in range(0, questHelpData[category]):
+                if questHelpData[category][idx][1] == 0:
+                    questHelpData[category][idx][1] = -1
+
+    $ questHelp("revenge_1", True)
+    $ questHelp("revenge_2", True)
+    $ questHelp("revenge_3", True)
+    $ questHelp("revenge_4")
+    $ questHelpDesc("revenge_desc1")
+
     $ add_hook("BasementBed", "ep210_dialogues6_gun_monica_fred_1c_false", scene="basement_bedroom2", label="ep210_revenge_quest3_block")
     $ miniMapEnabledOnly = ["Basement", "Street_Yard"]
     $ move_object("Driver", "street_house_main_yard")
@@ -66,6 +79,8 @@ label ep210_revenge_quest3_teleport_bedroom:
 label ep210_revenge_quest3_fred: # Диалог с Фредом
     if act=="l":
         call ep210_dialogues6_gun_monica_fred_1d() from _call_ep210_dialogues6_gun_monica_fred_1d
+        $ questHelp("revenge_4", True)
+        $ questHelp("revenge_5")
         return False
     if cloth != "Governess":
         call change_scene("basement_bedroom1", "Fade_long", False) from _call_change_scene_504
@@ -73,5 +88,7 @@ label ep210_revenge_quest3_fred: # Диалог с Фредом
         return False
 
     call ep210_dialogues6_gun_monica_fred_1d() from _call_ep210_dialogues6_gun_monica_fred_1d_1
+    $ questHelp("revenge_4", True)
+    $ questHelp("revenge_5")
     jump ep211_revenge_quest1
 #    return
