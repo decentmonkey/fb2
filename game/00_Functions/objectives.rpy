@@ -64,7 +64,7 @@ init python:
 #                break
         return
 
-    def questHelp(*args): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
+    def questHelp(*args, **kwargs): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
         global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day
         questHelpName = args[0]
         if len(args) > 1:
@@ -72,9 +72,16 @@ init python:
         else:
             status = 0
 
+
         questCategory = questHelpDataQuests[questHelpName][0]
         if questHelpData.has_key(questCategory) == False:
             questHelpData[questCategory] = []
+
+        if kwargs.has_key("skipIfExists"):
+            if kwargs["skipIfExists"] == True:
+                for idx in range(0, len(questHelpData[questCategory])):
+                    if questHelpData[questCategory][idx][0] == questHelpName:
+                        return
 
         for idx in range(0, len(questHelpData[questCategory])):
             if questHelpData[questCategory][idx][0] == questHelpName:

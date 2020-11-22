@@ -19,14 +19,18 @@ label ep210_quests_julia1: # Разговор после атаки офисны
         return
     $ remove_hook()
     call ep210_dialogues5_julia_1() from _call_ep210_dialogues5_julia_1
+    $ questHelp("julia_22", True)
     if _return == False:
         $ e210_quests_julia_aborted = True
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_23", False)
         call refresh_scene_fade() from _call_refresh_scene_fade_251
         return False
     $ questLog(63, True)
+    $ questHelp("julia_23", skipIfExists=True)
+    $ questHelpDesc("julia_desc1", "julia_desc2")
 
     $ add_hook("Julia", "ep210_quests_julia1b", scene="working_office_cabinet", label="ep210_quests_julia1b")
     $ add_hook("enter_scene", "ep210_quests_julia1c", scene="working_office_cabinet", label="ep210_quests_julia1c")
@@ -79,9 +83,11 @@ label ep210_quests_julia2_cafe: # Клик на кафе
     if day_time != "evening":
         $ changeDayTime("evening")
     call ep210_dialogues5_julia_3() from _call_ep210_dialogues5_julia_3
+    $ questHelp("julia_23", True)
 
     if _return == False:
         $ e210_quests_julia_aborted = True
+        $ questHelp("julia_24", False)
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
@@ -89,6 +95,8 @@ label ep210_quests_julia2_cafe: # Клик на кафе
         call change_scene("street_house_outside", "Fade_long") from _call_change_scene_500
         return False
 
+    $ questHelp("julia_24", skipIfExists=True)
+    $ questHelpDesc("julia_desc3")
     $ add_money(-15.0)
     $ move_object("Julia", "street_juliahome")
     $ char_info["Julia"]["enabled"] = True
@@ -158,6 +166,7 @@ label ep210_quests_julia3: # Новые отношения с Юлией (кли
         return False
     if _return == 3:
         call ep210_dialogues5_julia_5() from _call_ep210_dialogues5_julia_5
+        $ questHelp("julia_25", True)
         if _return == True:
             $ ep210_monica_julia_massage_peek_try_count += 1
         else:

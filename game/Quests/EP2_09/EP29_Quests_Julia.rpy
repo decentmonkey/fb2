@@ -7,6 +7,8 @@ label ep29_quests_julia1:
     $ juliaQuestLastDay = day
     if _return == True:
         if juliaQuestStage1_Progress <= 5:
+            $ questHelp("julia_18", True)
+            $ questHelp("julia_19", skipIfExists=True)
             $ add_hook("before_open", "ep29_quests_julia_fred_catch1", scene="monica_office_entrance", label="ep29_quests_julia_fred_catch1", priority=1001)
 
     $ workingOfficeCabinetMonicaSuffix = 2
@@ -17,12 +19,15 @@ label ep29_quests_julia_fred_catch1:
     # Фред ловит Монику вечером на выходе из офиса (в гримерке)
     $ remove_hook()
     call ep29_dialogues1_julia_3() from _call_ep29_dialogues1_julia_3
+    $ questHelp("julia_19", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_20", False)
     else:
         $ juliaQuestStage1_Progress = 6
+        $ questHelp("julia_20", skipIfExists=True)
 
     return
 
@@ -32,6 +37,8 @@ label ep29_quests_julia2:
     $ juliaQuestLastDay = day
     if juliaQuestStage1_Progress <= 6:
         $ juliaQuestStage1_Progress = 7
+        $ questHelp("julia_20", True)
+        $ questHelp("julia_21", skipIfExists=True)
 
     $ workingOfficeCabinetMonicaSuffix = 2
     $ workingOfficeCabinet2MonicaSuffix = 2
@@ -49,6 +56,8 @@ label ep29_quests_julia3:
         $ add_hook("Worker6", "ep29_quests_julia3_worker6", scene="working_office2", label="ep29_quests_julia3_workers")
         $ add_hook("before_open", "ep29_quests_julia3b", scene="working_office", label="ep29_quests_julia3b")
         $ add_hook("before_open", "ep29_quests_julia3b", scene="working_office_cabinet", label="ep29_quests_julia3b")
+        $ questHelp("julia_21", True)
+        $ questHelp("julia_22", skipIfExists=True)
         $ juliaQuestStage1_workers_progress_day = day
         call refresh_scene_fade() from _call_refresh_scene_fade_197
         return

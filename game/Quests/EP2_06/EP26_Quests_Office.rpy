@@ -120,6 +120,9 @@ label ep26_quests_office7:
             $ workingOfficeCabinetMonicaSuffix = 2
             call refresh_scene_fade() from _call_refresh_scene_fade_153
             return False
+        $ questHelp("office_27", True)
+        $ questHelp("julia_1", skipIfExists=True)
+        $ questHelpDesc("julia_desc1")
         call office_work_begin2() from _call_office_work_begin2 # Рабочий день скипается с Юлией
         call ep26_dialogues6_office2_8() from _call_ep26_dialogues6_office2_8
     if _return == 2: # Заставить Юлию собирать отчеты

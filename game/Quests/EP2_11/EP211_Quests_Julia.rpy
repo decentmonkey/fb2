@@ -7,6 +7,9 @@ default ep211_julia_second_date_completed_day = 0
 label ep211_quests_julia1:
     # инициализация второго свидания
     call ep211_dialogues4_julia_1() from _rcall_ep211_dialogues4_julia_1
+
+    $ questHelp("julia_26", True)
+    $ questHelp("julia_27", skipIfExists=True)
     $ ep211_julia_second_date_inited = True
     $ add_objective("go_date_julia", t_("После работы пойти на свидание с Юлией в кафе."), c_orange, 105)
     $ ep210_julia_evening_at_work = False
@@ -31,6 +34,8 @@ label ep211_quests_julia2_check_cafe_enter:
     call ep211_dialogues4_julia_2() from _rcall_ep211_dialogues4_julia_2
     if day_time != "evening":
         $ changeDayTime("evening")
+    $ questHelp("julia_27", True)
+    $ questHelp("julia_28", skipIfExists=True)
     $ ep210_julia_evening_at_work = True
     $ ep210_julia_not_at_work = False
     $ move_object("Julia", "street_juliahome")
@@ -96,6 +101,8 @@ label ep211_quests_julia5_panties_not_found:
     $ remove_hook()
     call ep211_dialogues4_julia_6() from _rcall_ep211_dialogues4_julia_6
     $ remove_objective("search_panties")
+    $ questHelp("julia_28", True)
+    $ questHelp("julia_29", skipIfExists=True)
     $ add_hook("Julia", "ep211_quests_julia6_talk", scene="juliahome_livingroom", label="julia_date2")
     $ add_objective("return_julia", t_("Вернуться к Юлии."), c_orange, 105)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_9

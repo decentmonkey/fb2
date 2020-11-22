@@ -14,8 +14,12 @@ label ep28_quests_julia_fred_catch1: # Фред ловит Монику на в�
         $ remove_objective("find_julia_panties_color")
         $ juliaQuestMonicaRefusedFred = True
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_10", True)
+        $ questHelp("julia_11", False)
     else:
         $ juliaQuestStage1_Progress = 1
+        $ questHelp("julia_10", True)
+        $ questHelp("julia_11", skipIfExists=True)
     $ move_object("Melanie", "empty")
     call change_scene("monica_office_makeup_room") from _call_change_scene_385
     $ add_hook("enter_scene", "ep27_dialogues6_julia10a", scene="monica_office_makeup_room", once=True)
@@ -30,6 +34,8 @@ label ep28_quests_julia_panties_menu:
         $ juliaQuestLastDay = day
         if _return == True:
             $ juliaQuestStage1_Progress = 2
+            $ questHelp("julia_11", True)
+            $ questHelp("julia_12", skipIfExists=True)
         $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade() from _call_refresh_scene_fade_176
         return
@@ -38,6 +44,8 @@ label ep28_quests_julia_panties_menu:
         $ juliaQuestLastDay = day
         if _return == True:
             if juliaQuestStage1_Progress <= 2:
+                $ questHelp("julia_12", True)
+                $ questHelp("julia_13", skipIfExists=True)
                 $ add_hook("before_open", "ep28_quests_julia_fred_catch2", scene="monica_office_entrance", recursive=True, label="ep28_quests_julia1_a", priority=1000)
                 $ juliaFredCatchFromDay = day
         $ workingOfficeCabinetMonicaSuffix = 2
@@ -48,6 +56,8 @@ label ep28_quests_julia_panties_menu:
         $ juliaQuestLastDay = day
         if _return == True:
             if juliaQuestStage1_Progress <= 3:
+                $ questHelp("julia_14", True)
+                $ questHelp("julia_15", skipIfExists=True)
                 $ add_hook("before_open", "ep28_quests_julia_fred_catch3", scene="monica_office_entrance", recursive=True, label="ep28_quests_julia1_b", priority=1000)
                 $ juliaFredCatchFromDay = day
         $ workingOfficeCabinetMonicaSuffix = 2
@@ -58,6 +68,8 @@ label ep28_quests_julia_panties_menu:
         $ juliaQuestLastDay = day
         if _return == True:
             if juliaQuestStage1_Progress <= 4:
+                $ questHelp("julia_16", True)
+                $ questHelp("julia_17", skipIfExists=True)
                 $ add_hook("before_open", "ep28_quests_julia_fred_catch4", scene="monica_office_entrance", recursive=True, label="ep28_quests_julia1_c", priority=1000)
                 $ juliaFredCatchFromDay = day
         $ workingOfficeCabinetMonicaSuffix = 2
@@ -86,12 +98,16 @@ label ep28_quests_julia_fred_catch2: # Фред ловит Монику на в�
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_13", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_14", False)
     else:
         $ juliaQuestStage1_Progress = 3
+        $ questHelp("julia_14", skipIfExists=True)
+
     $ move_object("Melanie", "empty")
     call change_scene("monica_office_makeup_room") from _call_change_scene_386
     $ add_hook("enter_scene", "ep27_dialogues6_julia11a", scene="monica_office_makeup_room", once=True)
@@ -109,12 +125,15 @@ label ep28_quests_julia_fred_catch3: # Фред ловит Монику на в�
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_15", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_16", False)
     else:
         $ juliaQuestStage1_Progress = 4
+        $ questHelp("julia_16", skipIfExists=True)
     call change_scene("monica_office_secretary_teatable") from _call_change_scene_387
     $ add_hook("enter_scene", "ep27_dialogues6_julia10a", scene="monica_office_makeup_room", once=True)
     return
@@ -131,12 +150,15 @@ label ep28_quests_julia_fred_catch4: # Фред ловит Монику на в�
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_17", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
+        $ questHelp("julia_18", False)
     else:
         $ juliaQuestStage1_Progress = 5
+        $ questHelp("julia_18", skipIfExists=True)
     call change_scene("monica_office_photostudio") from _call_change_scene_388
     $ add_hook("enter_scene", "ep27_dialogues6_julia11a", scene="monica_office_photostudio", once=True)
     return

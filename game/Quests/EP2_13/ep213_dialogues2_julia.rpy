@@ -209,6 +209,8 @@ label ep213_dialogues5_julia_2:
     imgd 30595
     julia "Миссис Бакфетт, у Вас такие нежные руки..."
     mt "И?"
+    $ questHelp("julia_38", True)
+    $ questHelp("julia_39", skipIfExists=True)
     sound grabbing9
     imgd 30596
     julia "Я так хочу, чтобы Вы прикоснулись ко мне... здесь."
@@ -680,6 +682,8 @@ label ep213_dialogues5_julia_3:
     music Stealth_Groover
     imgd 22337
     sound highheels_short_walk
+    $ questHelp("julia_42", True)
+    $ questHelp("julia_40", skipIfExists=True)
     mt "Не могу поверить в это!"
     mt "Я, Моника Бакфетт, лизала между ног у своей подчиненной прямо на рабочем месте!"
     mt "!!!"
@@ -789,6 +793,9 @@ label ep213_dialogues5_julia_4:
 
     # Юлия поднимает руки выше, на голени
     imgd 30668
+    $ questHelp("julia_44", True)
+    $ questHelp("julia_45", skipIfExists=True)
+    $ questHelp("julia_46", skipIfExists=True)
     m "Ммммм..."
     m "Это и правда расслабляет, милая..."
     julia "Да, Миссис Бакфетт."
@@ -1193,6 +1200,10 @@ label ep213_dialogues5_julia_5:
 
     # айтишник задумчиво
     imgd 30726
+    $ questHelp("julia_47", True)
+    $ questHelp("julia_48", skipIfExists=True)
+    $ questHelp("julia_49", skipIfExists=True)
+    $ questHelp("julia_50", skipIfExists=True)
     w2 "Странно, я не видел, чтобы она выходила из кабинета..."
     imgf 30727
     julia "..."
@@ -1547,7 +1558,8 @@ label ep213_dialogues5_julia_6:
     julia "Мы ведь повторим это еще раз как-нибудь?"
     julia "В следующий раз можно сделать это на столе второй близняшки."
     m "Конечно, Юлия."
-
+    $ questHelp("julia_52", True)
+    $ questHelp("julia_53", skipIfExists=True)
     # Моника недовольно вытирает рот
     imgf 30778
     mt "Фууу!"
@@ -1788,6 +1800,9 @@ label ep213_dialogues5_julia_8:
                     w
                     imgf 30799
                     m "Юлия, милая, пора вставать..."
+                    $ questHelp("julia_36", True)
+                    $ questHelp("julia_37", skipIfExists=True)
+                    $ questHelp("julia_38", skipIfExists=True)
                     # Юлия улыбается, тянется к губам Моники
                     imgd 30800
                     julia "Мммм..."
@@ -1858,6 +1873,8 @@ label ep213_dialogues5_julia_8:
                             imgf 30816
                             mt "Надеюсь, этого достаточно?"
                             mt "..."
+                            $ questHelp("julia_37", True)
+                            $ questHelp("julia_41", skipIfExists=True)
                             imgd 30817
                             julia "О, Миссис Бакфетт..."
                             julia "Поцелуйте меня немного ниже..."
@@ -1920,6 +1937,8 @@ label ep213_dialogues5_julia_8:
                                     w
                                     call ep213_quests_julia18_progress(11, True, 3) from _rcall_ep213_quests_julia18_progress_15
                                     imgf 30817
+                                    $ questHelp("julia_43", True)
+                                    $ questHelp("julia_44", skipIfExists=True)
                                     julia "Ооооо..."
                                     julia "Миссис Бакфетт... Пожалуйста..."
                                     julia "Поцелуйте меня там..."
@@ -2040,6 +2059,8 @@ label ep213_dialogues5_julia_8:
                                             call ep213_quests_julia18_progress(12, True, 4) from _rcall_ep213_quests_julia18_progress_17
                                             imgf 30838
                                             sound snd_kiss2
+                                            $ questHelp("julia_49", True)
+                                            $ questHelp("julia_51", skipIfExists=True)
                                             m "Доброе утро, милая..."
                                             # Юлия улыбается и смотрит на нее влюбленными глазами
                                             if ep216_quests_julia1_start_day == 0:
@@ -2124,6 +2145,8 @@ label ep213_dialogues5_julia_9:
     imgf 30846
     m "Я делаю себе завтрак."
     julia "О! Вы готовите нам завтрак?"
+    $ questHelp("julia_41", True)
+    $ questHelp("julia_42", skipIfExists=True)
     m "Да, милая... Я делаю завтрак... Нам..."
     mt "Черт!"
     # Юлия тянется к губам Моники
@@ -2288,6 +2311,8 @@ label ep213_dialogues5_julia_9:
                     imgfl 30871
                     julia "О, Миссис Бакфетт! Это было потрясающе!"
                     imgf 30872
+                    $ questHelp("julia_46", True)
+                    $ questHelp("julia_47", skipIfExists=True)
                     julia "А теперь..."
                     julia "Можно я Вас тоже там поцелую?"
                     julia "Вернее, я хочу, чтобы мы сделали это друг другу одновременно."
@@ -2440,6 +2465,8 @@ label ep213_dialogues5_julia_9:
                             call ep213_quests_julia18_progress(15, True, 4) from _rcall_ep213_quests_julia18_progress_22
                             music Groove2_85
                             imgfl 30837
+                            $ questHelp("julia_50", True)
+                            $ questHelp("julia_52", skipIfExists=True)
                             julia "О, Миссис Бакфетт!"
                             julia "Какое чудесное начало дня!"
                             imgf 30805
@@ -2743,6 +2770,7 @@ label ep213_dialogues5_julia_10:
             m "..."
             music Power_Bots_Loop
             imgf 30920
+            $ questHelp("julia_45", True)
             mt "Когда уже прекратится эта бессмысленная возня?!"
             mt "Зайти к ней в душ - это было неверным решением!"
             mt "!!!"
@@ -2878,6 +2906,7 @@ label ep213_dialogues5_julia_10a:
     julia "Ничего страшного, Миссис Бакфетт. Заходите."
     m "..."
     imgd 30988
+    $ questHelp("julia_54", True)
     mt "Присутствовать здесь, когда она ходит в туалет?!"
     mt "Фииии!"
     $ menuName = "julia_work1"
@@ -3173,6 +3202,9 @@ label ep213_dialogues5_julia_10b:
     mt "!!!"
     music Groove2_85
     imgf 30948
+    $ questHelp("julia_53", True)
+    $ questHelp("julia_54", skipIfExists=True)
+    $ questHelp("julia_55", skipIfExists=True)
     julia "Я услышала, что Вы в душе и решила присоединиться к Вам."
     julia "Вы же не будете против?" # смущенно
     menu:
@@ -3414,6 +3446,8 @@ label ep213_dialogues5_julia_11:
             julia "Как приятно..."
             julia "Миссис, Бакфетт, а можно еще разочек?"
             # Моника улыбается и снова ее целует
+            $ questHelp("julia_39", True)
+#            $ questHelp("julia_40", skipIfExists=True)
             imgd 31031
             sound kiss2
             w
@@ -3477,6 +3511,8 @@ label ep213_dialogues5_julia_11:
                     music Groove2_85
                     imgfl 31041
                     julia "Миссис Бакфетт, у меня есть небольшой сюрприз."
+                    $ questHelp("julia_40", True)
+                    $ questHelp("julia_43", skipIfExists=True)
                     imgf 31042
                     w
                     imgd 31043
@@ -3604,6 +3640,7 @@ label ep213_dialogues5_julia_11:
                             call ep213_quests_julia18_progress(18, True, 4) from _rcall_ep213_quests_julia18_progress_35
                             music Groove2_85
                             imgfl 31024
+                            $ questHelp("julia_48", True)
                             julia "Спокойной ночи, Миссис Бакфетт."
                             julia "Это было потрясающе!"
                             imgf 31029

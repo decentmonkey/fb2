@@ -78,6 +78,8 @@ label ep27_quests_julia2: # Проверка на первый приход Фр
 
 label ep27_quests_julia3: # Юлия, ты сегодня хорошо выглядишь
     call ep27_dialogues6_julia5() from _call_ep27_dialogues6_julia5
+    $ questHelp("julia_1", True)
+    $ questHelp("julia_2", skipIfExists=True)
     $ juliaQuestLastDay = day
     if char_info["Julia"]["level"] == 1:
         $ add_char_progress("Julia", juliaLvl1IncreaseProgress, "juliaLvl1IncreaseProgress_day_" + str(day))
@@ -104,6 +106,8 @@ label ep27_quests_julia4_fred_catch: # Фред перехватывает Мо�
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_2", True)
+    $ questHelp("julia_3", skipIfExists=True)
     $ juliaQuestStage0_Progress = 2
     call change_scene("working_office") from _call_change_scene_370
     $ autorun_to_object("ep27_dialogues6_julia4a", scene=scene_name)
@@ -118,6 +122,8 @@ label ep27_quests_julia5: #Юлия, ты красивая девушка и м�
         $ add_char_progress("Julia", juliaLvl12IncreaseProgressLow, "juliaLvl12IncreaseProgressLow_day_" + str(day))
     $ juliaQuestEvent2Count += 1
     if juliaQuestStage0_Progress == 2:
+        $ questHelp("julia_3", True)
+        $ questHelp("julia_4", skipIfExists=True)
         $ add_hook("before_open", "ep27_quests_julia6_fred_catch", scene="monica_office_entrance", recursive=True, label="ep27_quests_julia1_c", priority=1000)
         $ juliaFredCatchFromDay = day
     return
@@ -134,6 +140,8 @@ label ep27_quests_julia6_fred_catch:
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_4", True)
+    $ questHelp("julia_5", skipIfExists=True)
     $ juliaQuestStage0_Progress = 3
     call change_scene("monica_office_photostudio") from _call_change_scene_371
     $ autorun_to_object("ep27_dialogues6_julia4a", scene=scene_name)
@@ -148,6 +156,8 @@ label ep27_quests_julia7: #Сделать Юлии комплимент по п�
         $ add_char_progress("Julia", juliaLvl12IncreaseProgressLow, "juliaLvl12IncreaseProgressLow_day_" + str(day))
     $ juliaQuestEvent3Count += 1
     if juliaQuestStage0_Progress == 3:
+        $ questHelp("julia_5", True)
+        $ questHelp("julia_6", skipIfExists=True)
         $ add_hook("before_open", "ep27_quests_julia8_fred_catch", scene="monica_office_entrance", recursive=True, label="ep27_quests_julia1_d", priority=1000)
         $ juliaFredCatchFromDay = day
     return
@@ -164,6 +174,8 @@ label ep27_quests_julia8_fred_catch:
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_6", True)
+    $ questHelp("julia_7", skipIfExists=True)
     $ juliaQuestStage0_Progress = 4
     call change_scene("working_office") from _call_change_scene_372
     $ autorun_to_object("ep27_dialogues6_julia10a", scene=scene_name)
@@ -181,6 +193,8 @@ label ep27_quests_julia9: #Поцеловать Юлию.
     if char_info["Julia"]["level"] == 2 or char_info["Julia"]["level"] == 3:
         $ add_char_progress("Julia", juliaLvl2IncreaseProgress, "juliaLvl2IncreaseProgress_day_" + str(day))
     if juliaQuestStage0_Progress == 4:
+        $ questHelp("julia_7", True)
+        $ questHelp("julia_8", skipIfExists=True)
         $ add_hook("before_open", "ep27_quests_julia10_fred_catch", scene="monica_office_entrance", recursive=True, label="ep27_quests_julia1_e", priority=1000)
         $ juliaFredCatchFromDay = day
 
@@ -199,6 +213,8 @@ label ep27_quests_julia10_fred_catch:
     img black_screen
     with diss
     pause 1.0
+    $ questHelp("julia_8", True)
+    $ questHelp("julia_9", skipIfExists=True)
     $ juliaQuestStage0_Progress = 5
     $ move_object("Melanie", "empty")
     call change_scene("monica_office_makeup_room") from _call_change_scene_373
@@ -218,6 +234,8 @@ label ep27_quests_julia11: #Ущипнуть Юлию за зад.
     if char_info["Julia"]["level"] == 3:
         $ add_char_progress("Julia", juliaLvl3IncreaseProgress, "juliaLvl3IncreaseProgress_day_" + str(day))
     if juliaQuestStage0_Progress == 5:
+        $ questHelp("julia_9", True)
+        $ questHelp("julia_10", skipIfExists=True)
         $ add_hook("before_open", "ep27_quests_julia12_fred_catch", scene="monica_office_entrance", recursive=True, label="ep27_quests_julia1_f", priority=1000)
         $ juliaFredCatchFromDay = day
     return

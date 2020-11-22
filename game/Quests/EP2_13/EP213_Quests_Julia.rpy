@@ -35,6 +35,10 @@ label ep213_quests_julia2: # Заходит вечером в дом
     call ep213_dialogues5_julia_7() from _rcall_ep213_dialogues5_julia_7
     # Инициализируем жизнь в доме
     python:
+        questHelp("julia_35", True)
+        questHelp("julia_36")
+        questHelp("julia_38")
+        questHelpDesc("julia_desc4", "julia_desc5")
         remove_objective("come_julia_evening")
         ep213_quests_julia_stage = 2
         monica_living_at_juliahome = True

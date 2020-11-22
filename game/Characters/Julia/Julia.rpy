@@ -13,12 +13,17 @@ label juliaProgressLevelUp:
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
     if char_data["level"] == 4:
+        $ questHelp("julia_24", True)
+        $ questHelp("julia_25", skipIfExists=True)
+        $ questHelp("julia_26", skipIfExists=True)
         $ char_data["enabled"] = True
         $ char_data["caption"] = t_("Юлия приняла ухаживания Моники, но еще побаивается ее.")
     if char_data["level"] == 5:
         $ char_data["enabled"] = True
         $ char_data["caption"] = t_("Юлия влюбляется в Монику, но еще не доверяет ей.")
     if char_data["level"] == 6:
+        $ questHelp("julia_30", True)
+        $ questHelp("julia_31", skipIfExists=True)
         $ char_data["enabled"] = True
 #        $ char_data["caption"] = t_("Юлия влюбляется в Монику, но еще не доверяет ей.")
     if char_data["level"] == 7:
