@@ -67,6 +67,7 @@ label monica_office_entrance_biff_dialogue1:
         biff "Ха-ха-ха!"
         $ restore_music()
         $ remove_hook()
+        $ questHelp("office_2")
     return
 
 label monica_office_secretary_dialogue1:
@@ -563,6 +564,11 @@ label monica_office_cabinet_biff_dialogue1:
     $ restore_music()
     $ questLog(6, False)
     $ questLog(7, True)
+    $ questHelp("office_1", True)
+    $ questHelp("office_2", True)
+    $ questHelp("dick_1")
+    $ questHelpDesc("dick_desc1")
+    $ questHelpDesc("office_desc1", "office_desc2")
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     $ autorun_to_object("monica_office_cabinet_biff_dialogue1a", scene="monica_office_secretary")
     call change_scene("monica_office_secretary") from _call_change_scene_62

@@ -3553,6 +3553,7 @@ label gallery_ep22_photoshoot2_end:
 
     music Stealth_Groover
     $ monicaOutfitsEnabled[2] = True # Открываем следующий костюм
+
     img 8382
     with fadelong
     alex_photograph "Мэм! Мы закончили фотосессию!"

@@ -538,6 +538,11 @@ label ep23_dialogues5_3c:
     with fade
     melanie "..."
     melanie "Хорошо, Миссис Бакфетт. Я буду ждать Вас в гримерной комнате."
+
+    if questHelpFlag8Melanie == False:
+        $ questHelpFlag8Melanie = True
+        $ questHelp("melanie_2")
+        $ questHelp("photoshoot_4", True)
     return
 
 label ep23_dialogues6:

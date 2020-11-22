@@ -586,6 +586,11 @@ label ep22_photoshoot2_end:
 
     music Stealth_Groover
     $ monicaOutfitsEnabled[2] = True # Открываем следующий костюм
+
+    if questHelpFlag7Worker == False:
+        $ questHelp("photoshoot_3")
+        $ questHelpDesc("photoshoot_desc3")
+
     img 8382
     with fadelong
     alex_photograph "Мэм! Мы закончили фотосессию!"

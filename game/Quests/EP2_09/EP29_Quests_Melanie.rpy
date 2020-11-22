@@ -57,6 +57,7 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
     call ep29_dialogues3_melanie_monica_victoria_1() from _call_ep29_dialogues3_melanie_monica_victoria_1
     if _return == False:
         # Мелани отказалась от посещения Виктории
+        $ questHelp("victoria_2", False)
         $ ep29_melanie_refused_visit_victoria = True
         $ remove_objective("go_to_melanie_dress")
         $ remove_objective("go_to_melanie")
@@ -70,6 +71,7 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
         call change_scene("working_office_cabinet", "Fade_long", "highheels_run2") from _call_change_scene_423
         return False
     # Переход на управление Мелани
+    $ questHelp("melanie_10")
     call melanie_home_init2() from _call_melanie_home_init2 # инициализируем апартаменты Мелани
     $ day_time = "day"
     $ day_suffix = ""
@@ -169,10 +171,13 @@ label ep29_quests_melanie_biff2: # клик на Бифа рядом
         pass
         $ add_objective("go_home", t_("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6", scene="monica_office_cabinet", owner="Melanie", label="melanie_popup_messages", once=True)
+        $ questHelp("melanie_13", False)
     else:
         $ add_objective("go_photoshoot", t_("Провести фотосессию"), c_green, 85)
         $ add_hook("AlexPhotograph", "ep29_quests_melanie_alex2", scene="monica_office_photostudio", owner="Melanie", label=["melanie_dialogues", "melanie_photoshoot"])
+        $ questHelp("melanie_13", True)
 
+    $ questHelp("melanie_14")
     $ remove_objective("go_to_biff")
     $ add_hook("Biff", "ep29_dialogues3_melanie_monica_victoria_1ss", scene="monica_office_cabinet", owner="Melanie", label="melanie_biff_block1")
     call change_scene("monica_office_cabinet") from _call_change_scene_426
@@ -192,6 +197,9 @@ label ep29_quests_melanie_monica1: # Клик на Монику в кабине�
         call ep29_dialogues3_melanie_monica_victoria_3c() from _call_ep29_dialogues3_melanie_monica_victoria_3c
 #        $ add_hook("Monica", "ep29_dialogues3_melanie_monica_victoria_1rr", scene="working_office_cabinet", owner="Melanie", label="melanie_monica_block1")
 #        $ add_hook("exit_scene", "ep29_dialogues3_melanie_monica_victoria_3c", scene="working_office_cabinet", owner="Melanie", label="melanie_popup_messages", once=True)
+
+        $ questHelp("melanie_11", True)
+        $ questHelp("melanie_12")
         $ day_time = "evening"
         $ day_suffix = "_Evening"
         $ set_active(False, group="workers", scene="working_office")
@@ -237,6 +245,8 @@ label ep29_quests_melanie_victoria1: # диалог с Викторией
     # второй диалог
     call ep29_dialogues3_melanie_monica_victoria_2a0() from _call_ep29_dialogues3_melanie_monica_victoria_2a0
     # после диалога с Викторией
+    $ questHelp("melanie_10", True)
+    $ questHelp("melanie_11")
     $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_1ii", scene="street_monica_office", owner="Melanie", label="melanie_popup_messages", once=True)
     $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_1kk", scene="dick_office_hall1", owner="Melanie", label="melanie_popup_messages", once=True)
     $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_2a", scene="monica_office_entrance", owner="Melanie", label="melanie_popup_messages", once=True)
@@ -255,6 +265,7 @@ label ep29_quests_melanie_home1_chair: # старт сцены с Виктори
         return
     call ep29_dialogues3_melanie_monica_victoria_1ll() from _call_ep29_dialogues3_melanie_monica_victoria_1ll
     call ep29_dialogues4_lesbian_threesome_victoria_1a() from _call_ep29_dialogues4_lesbian_threesome_victoria_1a # сцена
+    $ questHelp("melanie_15")
     $ remove_objective("go_home")
     $ remove_hook(label="melanie_popup_messages")
     # переключаем Монику назад

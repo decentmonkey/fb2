@@ -15,10 +15,14 @@ label ep213_quests_victoria2_check:
     return False
 
 label ep213_quests_victoria3:
+    $ questHelp("victoria_4", True)
+    $ questHelp("victoria_5")
     $ define_inventory_object("victoria_pomade", {"description" : t_("Помада Виктории"), "label_suffix" : "_use_victoria_pomade", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/victoria_pomade" + res.suffix + ".png"})
     call ep213_dialogues1_victoria_1() from _rcall_ep213_dialogues1_victoria_1
     call ep213_dialogues1_victoria_2() from _rcall_ep213_dialogues1_victoria_2
     call ep213_dialogues1_victoria_3() from _rcall_ep213_dialogues1_victoria_3
+    $ questHelp("victoria_5", True)
+    $ questHelp("victoria_6")
     $ visited_list = [2]
 label ep213_quests_victoria3_loop1:
     if len(visited_list) >= 4:
@@ -46,6 +50,8 @@ label ep213_quests_victoria3_loop2:
     call ep213_dialogues1_victoria_12() from _rcall_ep213_dialogues1_victoria_12
     call ep213_dialogues1_victoria_13() from _rcall_ep213_dialogues1_victoria_13
     call ep213_dialogues1_victoria_14() from _rcall_ep213_dialogues1_victoria_14
+    $ questHelp("victoria_6", True)
+    $ questHelp("melanie_19")
     call put_work_clothes() from _rcall_put_work_clothes
     call change_scene("working_office_cabinet2", "Fade_long") from _rcall_change_scene_121
     $ add_hook("change_time_day", "ep213_quests_victoria4_checknext", scene="global", label="ep213_quests_victoria4_checknext")

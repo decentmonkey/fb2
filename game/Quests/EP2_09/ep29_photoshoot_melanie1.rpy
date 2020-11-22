@@ -772,4 +772,5 @@ label ep29_photoshoot_suit1_end:
     with diss
     pause 0.2
     $ melanie_photoshoot1_count += 1
+    $ questHelp("melanie_13", True)
     return

@@ -5,6 +5,8 @@ label ep214_quests_melanie:
     $ ep214_quests_melanie_day = day
     call ep214_dialogues4_melanie_alex_1() from _rcall_ep214_dialogues4_melanie_alex_1
     call ep214_dialogues4_melanie_alex_2() from _rcall_ep214_dialogues4_melanie_alex_2
+    $ questHelp("melanie_19", True)
+    $ questHelp("victoria_9")
     $ move_object("Melanie", "empty")
     $ move_object("AlexPhotograph", "empty")
     $ Melanie_Life_evening2_skip_once = True

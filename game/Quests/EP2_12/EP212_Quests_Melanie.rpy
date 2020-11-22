@@ -16,7 +16,11 @@ label ep212_quests_melanie_check: # Проверка на приход Мела�
     call ep212_dialogues6_melanie_punishment_1() from _rcall_ep212_dialogues6_melanie_punishment_1
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
+        $ questHelp("melanie_15", False)
+        $ questHelp("victoria_2", False)
         return
+    $ questHelp("melanie_15", True)
+    $ questHelp("melanie_16")
     $ add_objective("go_to_melanie", t_("Пойти домой к Мелани вечером"), c_green, 110)
     $ add_hook("Teleport_Melanie_Home", "ep212_quests_melanie1_check_teleport", scene="map", label=["ep212_quests_melanie", "ep212_quests_melanie_map1"])
 #    $ add_hook("before_open", "ep212_quests_melanie2_enter_melanie_home", scene="melanie_home", label="ep212_quests_melanie")
@@ -42,22 +46,34 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
     call ep212_dialogues6_melanie_punishment_4() from _rcall_ep212_dialogues6_melanie_punishment_4 # Приход к Мелани
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
+        $ questHelp("melanie_16", False)
+        $ questHelp("victoria_2", False)
         $ remove_hook(label="ep212_quests_melanie")
         call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
+    $ questHelp("melanie_16", True)
+    $ questHelp("melanie_17")
     call ep212_melanie_home_photoshoot1a() from _rcall_ep212_melanie_home_photoshoot1a
     $ ep212_quests_melanie_made_private_photoshoot1 = True
+    $ questHelp("melanie_18")
     call ep212_dialogues6_melanie_punishment_5() from _rcall_ep212_dialogues6_melanie_punishment_5
     call ep212_dialogues6_melanie_punishment_6() from _rcall_ep212_dialogues6_melanie_punishment_6
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
         $ ep212_quests_melanie_refused2 = True
+        $ questHelp("melanie_17", False)
+        $ questHelp("melanie_18", False)
+        $ questHelp("victoria_2", False)
         $ remove_hook(label="ep212_quests_melanie")
         call ep212_quests_melanie3_go_monica_home() from _rcall_ep212_quests_melanie3_go_monica_home_1
         $ autorun_to_object("ep212_dialogues6_melanie_punishment_8", scene=_return)
         return False
     call ep212_dialogues6_melanie_punishment_7() from _rcall_ep212_dialogues6_melanie_punishment_7
+    $ questHelp("melanie_17", True)
+    $ questHelp("melanie_18", True)
+    $ questHelp("victoria_4")
+
     $ ep212_quests_melanie_completed = True
     $ ep212_quests_melanie_completed_day = day
     call ep213_quests_victoria1_init() from _rcall_ep213_quests_victoria1_init

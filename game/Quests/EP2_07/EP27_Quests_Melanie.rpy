@@ -19,6 +19,9 @@ label ep27_quests_melanie2_dialogue: # Диалог с Мелани
         $ ep27_melanie_refused_victoria_meeting = True
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_22
         return False
+    $ questHelp("melanie_7", True)
+    $ questHelp("melanie_8")
+    $ questHelpDesc("melanie_desc7", "melanie_desc8")
     $ remove_hook(label="melanie_returned_dialogue2")
     $ add_hook("Melanie", "ep27_dialogues1_melanie1a", scene="monica_office_makeup_room", label="melanie_returned_dialogue3")
     $ autorun_to_object("ep27_dialogues1_melanie1a", scene="monica_office_photostudio")
@@ -47,6 +50,13 @@ label ep27_quests_melanie3_melanie_home_scene:
     $ remove_hook(label="melanie_home_checkcloth")
     $ add_hook("map_teleport", "ep27_quests_melanie3a_block_melanie_home", scene="global", priority = 2000, label="melanie_home_restrict") # Блокируем дом Мелани
     call ep27_dialogues1_melanie2() from _call_ep27_dialogues1_melanie2
+
+    $ questHelp("melanie_8", True)
+    $ questHelp("marcus_2")
+    $ questHelp("melanie_9")
+    $ questHelpDesc("melanie_desc8", "melanie_desc9")
+    $ questHelpDesc("marcus_desc1", "marcus_desc2")
+
     $ photoshoot8_melanie_forced = True
     music stop
     img black_screen
@@ -110,17 +120,27 @@ label ep27_quests_melanie5_victoria_scene1:
         $ ep27_melanie_going_to_victoria = True
         $ add_hook("map_teleport", "ep27_quests_melanie6_victoria_scene1", scene="global", label="victoria_scene1")
         $ add_hook("change_time_evening", "ep27_quests_melanie6_victoria_scene1", scene="global", label="victoria_scene1")
+    else:
+        $ questHelp("melanie_9", False)
+        $ questHelp("victoria_2", False)
     return
 
 label ep27_quests_melanie6_victoria_scene1:
     $ remove_hook(label="victoria_scene1")
     call ep27_dialogues2_melanie2() from _call_ep27_dialogues2_melanie2
+    $ questHelp("melanie_9", True)
     if _return == 0: # Мелани решила подумать стать-ли подружкой Виктории
         $ ep27_melanie_refused_victoria_friendship = True
+        $ questHelp("victoria_2", False)
         pass
+    else:
+        $ questHelp("victoria_2")
+        $ questHelpDesc("victoria_desc2")
+
     if _return == 1: # Мелани не стала брать в рот палец Виктории
         $ ep27_melanie_refused_victoria_leg_finger = True
         pass
+
 
     music stop
     img black_screen

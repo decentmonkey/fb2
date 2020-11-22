@@ -309,6 +309,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             with diss
             sound highheels_run2
             ##### арт Моника убегает
+            $ questHelp("victoria_3", False)
             return False
     mt "Просто надо чмокнуть эту стерву в щеку, как сделала Мелани..."
     mt "Тогда она отвяжется от меня."
@@ -643,6 +644,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
     # Моника, глядя на Мелани
     img 15611
@@ -805,6 +807,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
     # встает на колени
     music stop
@@ -1048,6 +1051,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
 
     # Мелани встает, снимает платье, бросает его на пол
@@ -1508,6 +1512,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
     m "Д-да... Нравится..."
     img 15735
@@ -1552,6 +1557,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
     # Моника подчиняется, раздвигает ноги, смотрит на Викторию
     music Loved_Up
@@ -1757,6 +1763,7 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
             img black_screen
             with diss
             sound highheels_run2
+            $ questHelp("victoria_3", False)
             return False
     mt "У Мелани все получилось... И я смогу. Я сильная."
     mt "!!!"
@@ -2108,4 +2115,5 @@ label ep29_dialogues4_lesbian_threesome_victoria_1a:
     img black_screen
     with diss
     pause 3.0
+    $ questHelp("victoria_3", True)
     return

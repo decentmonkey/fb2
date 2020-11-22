@@ -20,6 +20,8 @@ label ep215_quests_victoria_melanie2: # Моника проходит мимо �
     call ep215_dialogues4_julia_1() from _rcall_ep215_dialogues4_julia_1
     call ep215_dialogues4_julia_2() from _rcall_ep215_dialogues4_julia_2
     $ workingOfficeCabinetMonicaSuffix = 2
+    $ questHelp("victoria_9", True)
+    $ questHelp("victoria_10")
 #    $ add_hook("before_open", "ep215_quests_victoria_melanie3", scene="working_office_cabinet", label=["ep215_quests_victoria_melanie3", "day_time_temp"])
     $ ep215_victoria_visit_day = day
     $ workingOfficeCabinetMonicaSuffix = 2
@@ -42,6 +44,10 @@ label ep215_quests_victoria_melanie5:
     $ ep215_victoria_visit_alex_day = day
     call ep215_dialogues5_alex_1() from _rcall_ep215_dialogues5_alex_1
     call ep215_quests_victoria_melanie6() from _rcall_ep215_quests_victoria_melanie6
+    $ questHelp("victoria_10", True)
+    $ questHelp("victoria_11")
+
+
     call change_scene("street_monica_office", "Fade_long", "highheels_run2") from _rcall_change_scene_173
     return False
 
@@ -55,6 +61,8 @@ label ep215_quests_victoria_melanie7:
     call ep215_dialogues5_alex_2() from _rcall_ep215_dialogues5_alex_2
     call ep215_dialogues5_alex_3() from _rcall_ep215_dialogues5_alex_3
     $ ep215_victoria_visit_melaniehome_day = day
+    $ questHelp("victoria_11", True)
+    $ questHelp("melanie_20")
     $ add_hook("before_open", "ep215_quests_victoria_melanie8", scene="monica_office_cabinet", label="ep215_quests_victoria_melanie8")
     $ add_hook("before_open", "ep215_quests_victoria_melanie8", scene="monica_office_photostudio", label="ep215_quests_victoria_melanie8")
     $ add_hook("before_open", "ep215_quests_victoria_melanie8", scene="monica_office_secretary", label="ep215_quests_victoria_melanie8")
@@ -78,6 +86,13 @@ label ep215_quests_victoria_melanie8: # Моника заходит в лифт 
     call ep215_dialogues5_alex_6() from _rcall_ep215_dialogues5_alex_6
     call ep215_dialogues5_alex_7() from _rcall_ep215_dialogues5_alex_7
     call ep215_dialogues5_alex_8() from _rcall_ep215_dialogues5_alex_8
+
+    $ questHelp("melanie_20", True)
+    $ questHelp("dick_5", True)
+    $ questHelp("office_47")
+    $ questHelp("melanie_21", True)
+    $ questHelpDesc("dick_desc6", "dick_desc5")
+    $ questHelpDesc("melanie_desc9", "melanie_desc10")
     $ move_object("Melanie", "empty")
     call change_scene("monica_office_photostudio", "Fade_long") from _rcall_change_scene_174
     return

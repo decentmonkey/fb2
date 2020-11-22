@@ -278,6 +278,7 @@ label start_game:
         questHelp("marcus_1")
         questHelpDesc("house_desc1")
         questHelpDesc("marcus_desc1")
+        questHelpDesc("office_desc1")
         if ralphAskedAboutPayment == False:
             questHelp("house_2")
 

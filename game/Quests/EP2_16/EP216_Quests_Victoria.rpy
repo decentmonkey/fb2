@@ -14,6 +14,8 @@ label ep216_quests_victoria2_init: # инициализация во время 
     $ remove_hook()
     $ monicaOfficeWorkedToday = True
     call ep216_dialogues5_victoria_1() from _rcall_ep216_dialogues5_victoria_1
+    $ questHelp("office_47", True)
+    $ questHelp("victoria_12")
     $ add_objective("go_victoria", t_("Идти к Виктории."), c_red, 125)
     call locations_init_victoriahome1() from _rcall_locations_init_victoriahome1 # инициализируем локацию Виктории
     $ map_objects ["Teleport_VictoriaHome"] = {"text" : t_("АПАРТАМЕНТЫ ВИКТОРИИ"), "xpos" : 1403, "ypos" : 260, "base" : "map_marker", "state" : "visible"}
@@ -80,10 +82,17 @@ label ep216_quests_victoria4_enter: # вход к Виктории
     $ ep216_juliahome_blocked_day = day-1 # разблокируем мини-карту у дома Юлии
     call ep216_dialogues5_victoria_2() from _rcall_ep216_dialogues5_victoria_2
     call ep216_dialogues5_victoria_4() from _rcall_ep216_dialogues5_victoria_4
+    $ questHelp("victoria_12", True)
     if melanieVictoriaMonicaTable1 == True: # Моника осудила Мелани в гостях у Виктории, воткнула в нее розу
         call ep216_dialogues5_victoria_6() from _rcall_ep216_dialogues5_victoria_6
+        $ questHelp("victoria_13", True)
+        $ questHelp("victoria_14", False)
+
     else:
         $ autorun_to_object("ep216_dialogues5_victoria_5", scene="street_victoriahome")
+        $ questHelp("victoria_13", False)
+        $ questHelp("victoria_14", True)
+    $ questHelp("office_48")
     $ add_hook("Melanie", "ep216_dialogues5_victoria_7", scene="monica_office_makeup_room", label="ep216_victoria_visit_day1_after")
     $ move_object("Melanie", "empty")
     $ ep216_victoria_visit_day1 = day
@@ -101,7 +110,9 @@ label ep216_quests_victoria5_admin: # приход админа и свидан�
     if ep216_victoria_visit_day2 == 0:
         call ep216_dialogues6_victoria_admin_1() from _rcall_ep216_dialogues6_victoria_admin_1
         $ ep216_victoria_visit_day2 = day
-
+        $ questHelp("office_48", True)
+        $ questHelp("victoria_15", True)
+        $ questHelp("office_49")
         # инициализируем приход админа второй день
         $ officeWorker2BlockedUntilDay = day+1
         return
@@ -110,6 +121,8 @@ label ep216_quests_victoria5_admin: # приход админа и свидан�
         $ remove_hook(label="ep216_quests_victoria5_admin")
         call ep216_dialogues6_victoria_admin_2() from _rcall_ep216_dialogues6_victoria_admin_2
 
+        $ questHelp("office_49", True)
+        $ questHelp("victoria_16")
         $ add_objective("go_victoria", t_("Идти к Виктории."), c_red, 125)
         $ monicaOfficeWorkedToday = True
 
@@ -170,6 +183,9 @@ label ep216_quests_victoria6_dating: #свидание админа и Мони�
     $ ep216_victoria_visit_day3 = day
     call ep216_dialogues6_victoria_admin_3() from _rcall_ep216_dialogues6_victoria_admin_3
     call ep216_dialogues6_victoria_admin_4() from _rcall_ep216_dialogues6_victoria_admin_4
+
+    $ questHelp("victoria_16", True)
+
     $ autorun_to_object("ep216_dialogues6_victoria_admin_5", scene="street_victoriahome")
 
     $ add_hook("before_open", "ep216_quests_victoria7_admin_office", scene="working_office_cabinet", label="ep216_victoria_visit_day3_after")

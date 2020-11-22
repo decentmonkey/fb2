@@ -117,6 +117,9 @@ label dick_secretary_talk2:
     call monica_dick_secretary_dialogue2() from _call_monica_dick_secretary_dialogue2
     $ add_objective("dicksecretary_find_money", t_("Принести Виктории $ 5000 до вечера пятницы"), c_red, 30)
     $ questLog(10, True)
+    $ questHelp("dick_1", True)
+    $ questHelp("office_3")
+    $ questHelpDesc("dick_desc1", "dick_desc2")
     $ add_char_progress("DickSecretary", 20, "dick_secretary_talk2")
     $ remove_hook(label="secretary1")
     $ add_hook("DickSecretary", "dick_secretary_talk3", scene="dick_office_secretary")
@@ -165,6 +168,8 @@ label monica_office_biff_talk_about_work1: #Моника разговарива�
     $ monicaOfficeSecretaryMonicaSuffix_forced = ""
     if _return == False:
         return False
+    $ questHelp("office_4")
+    $ questHelpDesc("office_desc2", "office_desc3")
     $ questLog(9, True)
     call change_scene("monica_office_secretary") from _call_change_scene_20
     $ autorun_to_object("monica_office_secretary_dialogue5", scene="monica_office_secretary")
@@ -195,6 +200,8 @@ label monica_office_biff_talk_about_work2: #Моника разговарива�
     call monica_office_cabinet_biff_dialogue4() from _call_monica_office_cabinet_biff_dialogue4
     if _return == False:
         return False
+    $ questHelp("photoshoot_1")
+    $ questHelpDesc("photoshoot_desc1")
     $ remove_hook(label="biff_comment1")
     $ add_hook("Teleport_Monica_Office_Cabinet", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshot_exit_refuse")
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshot_exit_refuse")
@@ -219,6 +226,7 @@ label monica_office_photoshot1:
     $ add_hook("Secretary", "monica_office_secretary_dialogue7", scene="monica_office_secretary", label="after_photoshot") # Комментарий Моники в платье
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_dialogue9", scene="monica_office_secretary", label="after_photoshot")
     $ add_hook("Biff", "monica_office_photoshot1_biff_talk1", scene="monica_office_cabinet_table", label="biff3")
+    $ questHelp("office_5")
     return False
 
 label monica_office_photoshot1_biff_talk1:
@@ -230,6 +238,12 @@ label monica_office_photoshot1_biff_talk1:
     call monica_office_cabinet_biff_dialogue5() from _call_monica_office_cabinet_biff_dialogue5
     $ remove_hook()
     $ remove_hook(label="after_photoshot")
+
+    $ questHelp("office_6")
+    $ questHelp("office_7")
+    $ questHelp("office_7b")
+    $ questHelpDesc("office_desc3", "office_desc4")
+
 
     # идем на эвент
     call monica_charity_event1() from _call_monica_charity_event1
@@ -261,6 +275,10 @@ label monica_charity_event_talk1:
         call refresh_scene_fade() from _call_refresh_scene_fade_2
         return False
 
+    $ questHelp("office_6", True)
+    $ questHelp("office_7", True)
+    $ questHelp("office_8")
+
     $ add_hook("Teleport_Rich_Hotel_Reception", "monica_charity_event_dialogue4a", scene="rich_hotel_event_hall")
     $ set_active("Teleport_Rich_Hotel_Tables", False, scene="rich_hotel_event_hall")
     $ move_object("Philip", "empty")
@@ -278,6 +296,9 @@ label monica_charity_event_hotelstaff_talk1: #наезд вначале
     if act == "l":
         return
     call monica_charity_event_dialogue6() from _call_monica_charity_event_dialogue6
+    $ questHelpFlag10 = True
+    $ questHelp("office_7b", True)
+
     $ replace_hook("HotelStaff", "monica_charity_event_hotelstaff_talk1", "monica_charity_event_hotelstaff_talk2", scene="rich_hotel_event_hall")
     call refresh_scene_fade() from _call_refresh_scene_fade_3
     return
@@ -306,6 +327,15 @@ label monica_charity_event_biff_talk3:
     if act == "l":
         return
     call monica_charity_event_dialogue10() from _call_monica_charity_event_dialogue10
+
+    $ questHelp("office_5", True)
+    $ questHelp("office_8", True)
+    $ questHelp("office_9")
+    $ questHelpDesc("office_desc4", "office_desc5")
+    $ questHelp("philip_1")
+    $ questHelp("office_10")
+    $ questHelpDesc("philip_desc1")
+
     $ remove_hook()
     $ richHotelEventStage = 1
     $ questLog(10, False)
@@ -328,10 +358,20 @@ label monica_charity_event_biff_talk4: #я буду хорошей цыпочк�
     if act == "l":
         return
     call monica_charity_event_dialogue16() from _call_monica_charity_event_dialogue16
+    $ questHelp("office_11")
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_5
         return False
     # уезжают в офис
+    $ questHelp("office_11", True)
+    $ questHelp("office_9", True)
+    $ questHelp("office_10", True)
+    $ questHelp("philip_1", False)
+    $ questHelp("philip_2", False)
+    $ questHelp("office_12")
+    $ questHelpDesc("dick_desc2", "dick_desc3")
+    if questHelpFlag10 == False:
+        $ questHelp("office_7b", False)
     $ add_money(1000)
     call monica_after_charity_event() from _call_monica_after_charity_event
     return False
@@ -374,6 +414,9 @@ label monica_charity_event_philip_talk3:
         music Backbay_Lounge
         call refresh_scene_fade() from _call_refresh_scene_fade_7
         return False
+
+    $ questHelp("philip_1", True)
+    $ questHelp("philip_2")
     music Malicious
     $ remove_hook()
     $ set_active("Teleport_Rich_Hotel_Tables", True, scene="rich_hotel_event_hall")
@@ -404,6 +447,18 @@ label monica_charity_event_philip_talk4: #танец с согласием на 
     call monica_charity_event_dialogue19() from _call_monica_charity_event_dialogue19
     music stop
     call monica_after_charity_event() from _call_monica_after_charity_event_1
+
+    $ questHelp("philip_2", True)
+    $ questHelpDesc("philip_desc1", "philip_desc2")
+    $ questHelpDesc("dick_desc2", "dick_desc3")
+    $ questHelp("office_12")
+
+
+    $ questHelp("office_11", False)
+    $ questHelp("office_9", True)
+    $ questHelp("office_10", False)
+    if questHelpFlag10 == False:
+        $ questHelp("office_7b", False)
     return False
 #    $ add_char_progress("Biff", 20, "photoshot1")
 
@@ -434,6 +489,10 @@ label monica_after_charity_event:
 label monica_after_charity_event_dick_entrance_talk1:
     $ remove_hook()
     call monica_dick_office_entrance_dialogue1() from _call_monica_dick_office_entrance_dialogue1
+
+    $ questHelp("office_12", True)
+    $ questHelp("dick_2")
+    $ questHelpDesc("office_desc5", "office_desc6")
     $ remove_objective("dicksecretary_find_money")
     $ add_objective("dick_money_tomorrow", t_("Принести деньги Дику завтра"), c_blue, 40)
     $ unfocus_map()

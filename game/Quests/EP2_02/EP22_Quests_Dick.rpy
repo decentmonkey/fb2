@@ -6,6 +6,13 @@ label ep22_quests_Dick1:
     $ remove_hook()
     $ remove_hook(lable="hurry_to_dick")
     call ep22_dialogues5_2() from _call_ep22_dialogues5_2
+
+    $ questHelp("dick_2", True)
+    $ questHelp("dick_3")
+    $ questHelp("house_5")
+    $ questHelp("work_slums_3")
+    $ questHelpDesc("dick_desc3", "dick_desc4")
+
     $ hudDaySkipToEveningEnabled = True
     $ add_hook("DickSecretary", "ep22_dialogues5_3")
     $ add_hook("change_time_day", "ep22_quests_Dick3", scene="global")
@@ -58,6 +65,15 @@ label ep22_quests_Dick5:
     $ add_hook("Teleport_Hall", "ep22_dialogues5_8a", scene="dick_office_secretary", label="dicksecretary_stage4")
     $ add_hook("DickSecretary", "ep22_dialogues5_8b", scene="dick_office_secretary")
     $ add_hook("DickSecretary", "ep22_quests_Dick6", scene="dick_office_secretary", label="dicksecretary_stage4")
+
+    $ questHelp("dick_3", True)
+    $ questHelp("victoria_1")
+    $ questHelp("office_13")
+    $ questHelp("melanie_1")
+    $ questHelpDesc("melanie_desc1")
+    $ questHelpDesc("dick_desc4", "dick_desc5")
+    $ questHelpDesc("office_desc6", "office_desc7")
+    $ questHelpDesc("victoria_desc1")
 
     call change_scene("dick_office_secretary") from _call_change_scene_187
     return

@@ -83,6 +83,8 @@ label ep26_quests_biff5:
 
     # возвращаем Мелани
     call ep26_quests_melanie1() from _call_ep26_quests_melanie1
+    $ questHelp("melanie_6b", True)
+    $ questHelp("melanie_7")
 
     $ remove_hook(label="biff_work_dialogue1")
     $ monicaWorkingAtBiffOffice = True

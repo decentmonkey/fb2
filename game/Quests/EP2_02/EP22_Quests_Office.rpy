@@ -21,6 +21,9 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
         call change_scene("monica_office_cabinet") from _call_change_scene_207
 #        call refresh_scene_fade()
         return
+
+    if questHelpFlag6Noir == False:
+        $ questHelp("photoshoot_2")
     # Инициализируем фотосессию
     $ move_object("AlexPhotograph", "monica_office_photostudio")
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
@@ -70,6 +73,9 @@ label ep22_quests_office4_l1:
         call ep22_photoshoot1_end() from _call_ep22_photoshoot1_end
         $ photoshoot1_count += 1
     if monicaPhotoShootOutfitIdx == 2:
+        if questHelpFlag6Noir == False:
+            $ questHelpFlag6Noir = True
+            $ questHelp("photoshoot_2", True)
         call ep22_photoshoot2() from _call_ep22_photoshoot2
         call ep22_photoshoot2_end() from _call_ep22_photoshoot2_end
         $ photoshoot2_count += 1
@@ -80,6 +86,10 @@ label ep22_quests_office4_l1:
         call ep22_photoshoot3() from _call_ep22_photoshoot3
         call ep22_photoshoot3_end() from _call_ep22_photoshoot3_end
         $ photoshoot3_count += 1
+        if questHelpFlag7Worker == False:
+            $ questHelpFlag7Worker = True
+            $ questHelp("photoshoot_3", True)
+            $ questHelp("office_16")
     if monicaPhotoShootOutfitIdx == 4:
         call ep22_photoshoot4() from _call_ep22_photoshoot4
         call ep22_photoshoot4_end() from _call_ep22_photoshoot4_end
@@ -164,6 +174,14 @@ label ep22_quests_office6: #Биф, где мои деньги?
             $ add_char_progress("Biff", PS2_BiffProgress, "PS2_BiffProgress_day" + str(day))
         if monicaPhotoShootOutfitIdx == 3:
             $ add_char_progress("Biff", PS3_BiffProgress, "PS3_BiffProgress_day" + str(day))
+
+    if questHelpFlag9 == False:
+        $ questHelpFlag9 = True
+        $ questHelp("office_14", True)
+        $ questHelp("office_15")
+        $ questHelpDesc("office_desc7", "office_desc8")
+        $ questHelp("office_16", True)
+
 
     if monicaBiffFirstPhotoShoot == True:
         $ monicaBiffFirstPhotoShoot = False
