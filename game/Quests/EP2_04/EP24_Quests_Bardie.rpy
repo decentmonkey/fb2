@@ -234,6 +234,9 @@ label ep24_quests_bardie15:
     $ bardieMonicaNonNudeCount = 0
     call ep24_dialogues4_bardie3() from _call_ep24_dialogues4_bardie3
     call ep24_dialogues4_bardie4() from _call_ep24_dialogues4_bardie4
+
+    $ questHelp("house_16b", True)
+
     if _return != False:
         $ basement_bedroom2_MonicaSuffix = 2
         call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_212

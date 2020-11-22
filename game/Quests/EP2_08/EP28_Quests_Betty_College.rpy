@@ -30,6 +30,11 @@ label ep28_betty_college2:
     if ep28_betty_college2_flag == False:
         call dialogue_betty_college_1() from _call_dialogue_betty_college_1 # Барди говорит Бетти что надо идти в колледж
         $ ep28_betty_college2_flag = True
+        $ questHelp("college_1", True)
+        $ questHelp("college_2")
+        $ questHelpDesc("college_desc1")
+
+
 
     # инициализируем колледж
 
@@ -92,12 +97,15 @@ label ep28_betty_college2_teacher_day1: # Сцена учителя с Бетт�
         return False
     $ bettyCollegeDay = 1
     call dialogue_betty_teacher_1() from _call_dialogue_betty_teacher_1
+    $ questHelp("college_2", True)
     if _return == True:
         $ bettyCollegeDay1JobFinished = True
         $ bettyCollegeTeacherRefused = False
         $ add_hook("enter_scene", "dialogue_betty_college_1_1_3", scene="street_college", owner="Betty", once=True)
+        $ questHelp("college_3")
     else:
         $ bettyCollegeTeacherRefused = True
+        $ questHelp("college_3", False)
 
     $ remove_hook(label="betty_college_day1")
 
@@ -195,6 +203,10 @@ label ep28_betty_college2_teacher_day2_teacher: # Разговор с учите
     if act=="l":
         return
     call dialogue_betty_teacher_2() from _call_dialogue_betty_teacher_2
+
+    $ questHelp("college_3", True)
+    $ questHelp("college_4")
+
     $ bettyCollegeDay = 2
 
     $ add_hook("enter_scene", "dialogue_betty_college_1_1_5", scene="street_college", owner="Betty", once=True)
@@ -303,6 +315,11 @@ label ep28_betty_college2_teacher_day3b: # Разговор с Барди ден
         call dialogue_betty_college_1_1c() from _call_dialogue_betty_college_1_1c_2
         return False
     call dialogue_betty_college_5() from _call_dialogue_betty_college_5
+
+    $ questHelp("college_4", True)
+    $ questHelp("house_24")
+    $ questHelpDesc("college_desc1", "college_desc2")
+
     music stop
     img black_screen
     with diss

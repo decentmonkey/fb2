@@ -252,6 +252,9 @@ label ep28_monica_bardie_eric_college4_visit1_teacher:
         $ add_hook("enter_scene", "dialogue_classmate_5_1a", scene="street_college", once=True)
         $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_refuse", scene="floor2", label="bardie_eric_quest_day1b")
     else:
+        $ questHelp("college_5", True)
+        $ questHelp("college_6")
+        $ questHelpDesc("college_desc2", "college_desc3")
         $ add_hook("enter_scene", "dialogue_classmate_5_1", scene="street_college", once=True)
         $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_completed", scene="floor2", label="bardie_eric_quest_day1b")
         $ add_objective("check_teacher", t_("Сходить к Мистеру Эдвардсу, чтобы узнать решил-ли он проблему Эрика"), c_white, 55)

@@ -42,6 +42,8 @@ label ep29_quests_monica_college_visit2_teacher:
 
     else:
         # сходила успешно
+        $ questHelp("college_6", True)
+        $ questHelp("college_7")
         $ add_hook("enter_scene", "dialogue_classmate_8_1", scene="street_college", once=True)
         $ add_hook("change_time_evening", "ep29_quests_monica_college_mansfield_visit1", scene="global", once=True)
         $ monice_college_teacher_refused = False
@@ -115,6 +117,9 @@ label ep29_quests_monica_college_visit3_teacher: #учитель, третье �
         $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit3_refuse_bardie", scene="floor2", label=["bardie_eric_quest_college", "ep29_quests_monica_college_visit3_refuse_bardie"]) # Разблокируем комнату Барди на след.день
     else:
         # успешно
+        $ questHelp("college_7", True)
+        $ questHelp("house_28")
+        $ questHelpDesc("college_desc3", "college_desc4")
         $ add_hook("enter_scene", "dialogue_classmate_11_1", scene="street_college", once=True)
         $ remove_objective("check_teacher")
         $ remove_objective("eric_college")
@@ -251,6 +256,11 @@ label ep29_quests_monica_college_visit4_bardie:
         return
     $ remove_hook()
     call dialogue_classmate_15() from _call_dialogue_classmate_15
+
+    $ questHelp("college_8", True)
+    $ questHelp("house_30")
+    $ questHelpDesc("college_desc5", "college_desc6")
+
     $ autorun_to_object("dialogue_classmate_15a", scene="floor2")
     $ remove_objective("go_to_bardie")
     $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_check_next", scene="floor2", label="ep29_quests_monica_college_check_next")

@@ -188,6 +188,7 @@ label ep24_quests_betty11:
     call ep24_dialogues5_betty5() from _call_ep24_dialogues5_betty5
     $ questHelp("house_15", True)
     $ questHelp("house_16")
+    $ questHelp("house_16b")
     $ questHelpDesc("house_desc10", "house_desc11")
     $ questHelpDesc("house_desc12")
     $ remove_hook(label="betty_catch2")
