@@ -382,6 +382,7 @@ label ep214_dialogues2_citizens_1:
             perry "Она воровка!!!"
             # Моника убегает
             $ monicaPerryMommyDebt4 = True # Моника сбежала от Перри
+            $ questHelp("work_slums_46", False)
             return -3
         "Попробовать договориться с Перри.":
             pass

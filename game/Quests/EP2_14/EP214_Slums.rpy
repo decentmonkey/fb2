@@ -60,6 +60,24 @@ label ep214_slums2_perry_repeat:
 label ep214_slums3_start_fp_part2: # Начало новой части квестов в трущобах (старые неактивны)
     $ questLog(82, True)
 
+    # феилим все оставшиеся квесты в трущобах
+    if questHelpData.has_key(t_("РАБОТА НА УЛИЦЕ")):
+        for idx in range(0, len(questHelpData[questCategory])):
+            if questHelpData[questCategory][idx][1] == 0:
+                questHelpData[questCategory][idx][1] = -1
+
+    $ questHelp("work_slums_47")
+    $ questHelp("work_slums_48")
+    $ questHelp("work_slums_49")
+    $ questHelp("work_slums_50")
+    $ questHelp("work_slums_51")
+    $ questHelp("work_slums_52")
+    $ questHelp("work_slums_53")
+    $ questHelp("hostel_1")
+    $ questHelpDesc("hostel_desc1")
+    $ questHelpDesc("workslums_desc4", "workslums_desc5")
+    $ questHelp("hostel_2")
+
     # инициализируем хостел
     call locations_init_hostel_inside() from _rcall_locations_init_hostel_inside
     $ add_hook("Teleport_Hostel_Street_Door", "ep214_dialogues2_citizens_7", act="l", scene="hostel_street", label="Perry_Debt")

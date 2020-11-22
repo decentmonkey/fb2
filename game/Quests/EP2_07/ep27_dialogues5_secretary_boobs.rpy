@@ -464,6 +464,7 @@ label ep27_dialogues5_secretary_boobs6:
     m "Да, можешь идти дорогуша."
     m "Ты хорошо поработала."
     m "Я дам тебе потом премию за это."
+    $ questHelp("work_slums_26", True)
     return True
 
 label ep27_dialogues5_secretary_boobs7:

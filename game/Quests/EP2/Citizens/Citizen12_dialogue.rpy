@@ -101,6 +101,8 @@ label citizen12_dialogue:
                 $ add_hook("Citizen_12", "citizen12_dialogue_refuse_after_offend", scene="hostel_street2", priority = 200, label="monica_kebab_offend_refuse_talk")
                 $ questOffendMonicaFlyersCitizen12Started = False # и это событие больше не появляется
                 $ questOffendMonicaFlyersCitizen12Completed = True
+                $ questHelp("work_slums_3", True)
+                $ questHelp("work_slums_4", skipIfExitst=True)
                 $ add_objective("thanks_for_rescue", t_("Сказать спасибо за спасение от нападения"), c_green, 40)
                 $ kebabOffendQuestJustCompleted = True
                 $ add_hook("Citizen_6", "citizen6_dialogue_after_offend_hook", scene="hostel_street2", label="monica_kebab_offend")

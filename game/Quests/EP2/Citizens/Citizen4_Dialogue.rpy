@@ -93,6 +93,13 @@ label citizen4_dialogue_pilon:
                 jump citizen4_dialogue_pilon_loop4
             call pylonController(3, 3) from _call_pylonController_39
             with fade
+
+            $ questHelp("work_slums_6", True)
+            $ questHelp("work_slums_16", skipIfExists=True)
+            if questHelpFlag17 == False:
+                $ questHelpFlag17 = True
+                $ questHelpDesc("workslums_desc3", "workslums_desc4")
+
             m "Я не собираюсь раздеваться, только так."
             call showRandomImages(boobsImages, 4) from _call_showRandomImages_6
             call pylonController(5, 3) from _call_pylonController_40
@@ -157,6 +164,11 @@ label citizen4_dialogue_pilon:
             call pylonController(4, 6) from _call_pylonController_50
             with fade
             m "Хорошо, только не долго."
+            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+                $ questHelp("work_slums_16", True)
+                $ questHelp("work_slums_24", skipIfExists=True)
+
+
             call showRandomImages(pylonClothDanceImages3, 4) from _call_showRandomImages_8
 #            call pylonController(4, 5)
             citizen4 "Сойдет. У меня есть знакомая стриптизерша. Если хочешь, могу вас познакомить."
@@ -281,6 +293,10 @@ label citizen4_dialogue_pilon:
                     call cit4_naked_boobs_dance_variant2() from _call_cit4_naked_boobs_dance_variant2
                 $ citizen4BoobsNakedDancedCount += 1
             if _return != False:
+                if citizen4BoobsNakedDancedCount >= 3:
+                    $ questHelp("work_slums_36", True)
+                    $ questHelp("work_slums_46", skipIfExists=True)
+                    
                 $ citizen4BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
@@ -508,6 +524,9 @@ label citizen4_show_boobs_first_time:
     $ add_money(50)
 #    $ pylonpart3startsCompleted = True
     # Добавить сколько то corruption
+    $ questHelp("work_slums_24", True)
+    $ questHelp("work_slums_25", skipIfExists=True)
+
     $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
     $ citizen4BoobsShowedFirstTime = True
     $ citizen4BoobsNakesShowingActive = True
@@ -558,6 +577,7 @@ label citizen4_show_boobs_regular_time:
             "Отказаться.":
     #            call pylonController(4, 1)
                 m "Да за кого ты меня принимаешь?!"
+                $ questHelp("work_slums_25", False)
                 return False
         music Hidden_Agenda
         sound snd_fabric1
@@ -599,6 +619,10 @@ label citizen4_show_boobs_regular_time:
     citizen4 "Сегодня я не хочу смотреть твоих малышек!"
     citizen4 "Покажи их кому-нибудь другому!"
     citizen4 "Уверен, ты сможешь заработать [monicaWhoringNakedBoobsMoney]$."
+    $ questHelp("work_slums_25", True)
+    if game.extra == True:
+        $ questHelp("work_slums_26", skipIfExists=True)
+    $ questHelp("work_slums_36", skipIfExists=True)
 
     if citizen4NakedBoobsRefuseFlag == False:
         $ citizen4NakedBoobsRefuseFlag = True

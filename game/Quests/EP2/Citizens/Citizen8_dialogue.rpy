@@ -115,6 +115,12 @@ label citizen8_dialogue_pilon:
             call pylonController(3, 3) from _call_pylonController_72
             with fade
             m "Я не собираюсь раздеваться, только так."
+            $ questHelp("work_slums_11", True)
+            $ questHelp("work_slums_20", skipIfExists=True)
+            if questHelpFlag17 == False:
+                $ questHelpFlag17 = True
+                $ questHelpDesc("workslums_desc3", "workslums_desc4")
+
             call showRandomImages(boobsImages, 4) from _call_showRandomImages_12
             call pylonController(3, 3) from _call_pylonController_73
             # img показывает сиськи
@@ -186,6 +192,11 @@ label citizen8_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
+
+            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+                $ questHelp("work_slums_20", True)
+                $ questHelp("work_slums_32", skipIfExists=True)
+
             call showRandomImages(pylonClothDanceImages7, 4) from _call_showRandomImages_15
 #            call pylonController(4, 5)
             citizen8 "Нормально, но нужно еще тренироваться и тренироваться."
@@ -214,6 +225,9 @@ label citizen8_dialogue_pilon:
                     call cit8_naked_boobs_variant2() from _call_cit8_naked_boobs_variant2
                 $ citizen8BoobsNakesShowedCount += 1
             if _return != False:
+                if citizen8BoobsNakesShowedCount >= 3:
+                    $ questHelp("work_slums_32", True)
+                    $ questHelp("work_slums_42", skipIfExists=True)
                 $ citizen8BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -262,6 +276,8 @@ label citizen8_dialogue_pilon:
                     call cit8_naked_boobs_dance_variant2() from _call_cit8_naked_boobs_dance_variant2
                 $ citizen8BoobsNakedDancedCount += 1
             if _return != False:
+                if citizen8BoobsNakedDancedCount >= 3:
+                    $ questHelp("work_slums_42", True)
                 $ citizen8BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

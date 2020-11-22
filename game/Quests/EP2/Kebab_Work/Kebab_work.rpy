@@ -37,6 +37,11 @@ label kebab_work_trader_interact1: # первый разговор о кебаб
 #        call kebab_work_start()
 #        return
         call monica_shawarma_dialogue1() from _call_monica_shawarma_dialogue1
+        if questHelpFlag16 == False:
+            $ questHelpFlag16 = True
+            $ questHelp("work_slums_1", True)
+            $ questHelp("work_slums_2")
+            $ questHelpDesc("workslums_desc1", "workslums_desc2")
         if monicaKnowAboutKebabWork == True:
             $ replace_hook("kebab_work_trader_interact2", scene="all", label="kebab_dialogue")
             call kebab_work_start() from _call_kebab_work_start
@@ -136,10 +141,12 @@ label kebab_work_end:
             if kebabWorkFlyersLeft <= 0: #Моника раздала все флаеры
                 call monica_shawarma_dialogue3_food() from _call_monica_shawarma_dialogue3_food
                 call monicaEat() from _call_monicaEat
+                $ questHelp("work_slums_2", True)
                 $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "У меня не получилось раздать все флаеры..." if kebabWorkFlyersLeft > 0 and kebabWorkFlyersLeft < kebabWorkFlyersTotal: #Моника раздала не все флаеры
             call monica_shawarma_dialogue3_end_half_food() from _call_monica_shawarma_dialogue3_end_half_food
             call monicaEat() from _call_monicaEat_1
+            $ questHelp("work_slums_2", True)
             $ add_corruption(monicaKebabWorkCorruptionAddingPerDay, "monicaKebabWorkCorruptionAddingPerDay_day" + str(day))
         "Уйти.":
             return

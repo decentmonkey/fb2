@@ -266,6 +266,7 @@ label citizen6_dialogue_after_offend3: #Моника нашла место
     $ questHelp("work_slums_12")
     $ questHelp("work_slums_13")
     $ questHelp("work_slums_14")
+    $ questHelp("work_slums_24")
     $ questHelpDesc("workslums_desc2", "workslums_desc3")
 
     # переменная отвечающая за А что бы ты хотел в диалогах с кебабом = 1
@@ -332,6 +333,12 @@ label citizen6_dialogue_pilon:
             call pylonController(3, 3) from _call_pylonController_16
             with fade
             m "Я не собираюсь раздеваться, только так."
+            $ questHelp("work_slums_9a", True)
+            $ questHelp("work_slums_9", skipIfExists=True)
+            if questHelpFlag17 == False:
+                $ questHelpFlag17 = True
+                $ questHelpDesc("workslums_desc3", "workslums_desc4")
+
             call showRandomImages(boobsImages, 4) from _call_showRandomImages_2
             call pylonController(3, 3) from _call_pylonController_17
             # img показывает сиськи
@@ -384,6 +391,10 @@ label citizen6_dialogue_pilon:
             with fade
             m "Хорошо, только не долго."
             mt "Только потому, что ты заплатишь."
+            if fallingPathGetCitizenData("PylonDanceCloth") >= 3:
+                $ questHelp("work_slums_9", True)
+                $ questHelp("work_slums_30", skipIfExists=True)
+
             call showRandomImages(pylonClothDanceImages5, 4) from _call_showRandomImages_4
 #            call pylonController(4, 5)
             citizen6 "Блестяще, давно такого не видел!"
@@ -412,6 +423,10 @@ label citizen6_dialogue_pilon:
                     call cit6_naked_boobs_variant2() from _call_cit6_naked_boobs_variant2
                 $ citizen6BoobsNakesShowedCount += 1
             if _return != False:
+                if citizen6BoobsNakesShowedCount >= 3:
+                    $ questHelp("work_slums_30", True)
+                    $ questHelp("work_slums_40", skipIfExists=True)
+
                 $ citizen6BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -460,6 +475,8 @@ label citizen6_dialogue_pilon:
                     call cit6_naked_boobs_dance_variant2() from _call_cit6_naked_boobs_dance_variant2
                 $ citizen6BoobsNakedDancedCount += 1
             if _return != False:
+                if citizen6BoobsNakedDancedCount >= 3:
+                    $ questHelp("work_slums_40", True)
                 $ citizen6BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))
