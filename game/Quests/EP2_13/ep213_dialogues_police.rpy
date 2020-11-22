@@ -284,6 +284,9 @@ label ep213_dialogues_police2b:
     detective "Не так, как было с предыдущей заключенной, которую я забрал вчера."
     overseer "Мистер Детектив, меня никто не предупреждал, потому я... а..."
 
+    $ questHelp("marcus_11", True)
+    $ questHelp("marcus_12")
+
     # полицейские идут от камеры
     fadeblack
     sound snd_jail_door
@@ -476,6 +479,9 @@ label ep213_dialogues_police7:
             imgf 18479
             mt "Я не верю... Я не верю в то, что прошу подселить ко мне какого-то заключенного..."
             mt "Это кошмар... Это сон..."
+            $ questHelp("marcus_12", True)
+            $ questHelp("marcus_13")
+            $ questHelp("marcus_14")
             imgd 18480
             m "Мммистер... Боб..."
             overseer "Да?!"
@@ -530,6 +536,8 @@ label ep213_dialogues_police7:
             imgf 18478
             prisoner1 "Ладно, ладно..." # испуганно
             prisoner1 "Это совершенно необязательно..."
+            $ questHelp("marcus_12", False)
+            $ questHelp("marcus_13", False)
 
             # разговор об одежде
 #            return
@@ -753,6 +761,8 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether6 = True # Моника показала свою грудь заключенному
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_13", False)
+            $ questHelp("marcus_16", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_3
             return False
 
@@ -785,6 +795,8 @@ label ep213_dialogues_police8:
     music Hidden_Agenda
     imgf 18527
     w
+    $ questHelp("marcus_13", True)
+    $ questHelp("marcus_16")
     # Заключенный убегает на другую кровать.
     return
 
@@ -1133,12 +1145,18 @@ label ep213_dialogues_police11:
             $ monicaPrisonerLiveTogether10 = True # Моника сказала Бобу, что все ок, когда заключенный заставил делать минет
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_16", True)
+            $ questHelp("marcus_18", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_7
             return False
     music Malicious
     imgf 18565
     m "!!!"
     m "Мистер Боб, здесь все в порядке..."
+
+    $ questHelp("marcus_16", True)
+    $ questHelp("marcus_18")
+
     music Groove2_85
     imgd 18566
     overseer "А что ты тогда шумишь?!"
@@ -1504,6 +1522,7 @@ label ep213_dialogues_police13:
             $ monicaPrisonerLiveTogether12 = True # Моника попросила заключенного о сексе
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_18", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_9
             return False
 
@@ -1547,6 +1566,9 @@ label ep213_dialogues_police13:
     imgd 31249
     m "Боб услышит..."
     m "Или увидит следы..."
+
+    $ questHelp("marcus_18", True)
+
     imgf 31250
     prisoner1 "Я не буду в этот раз кончать на тебя, шлюха!"
     prisoner1 "И да, заткни свой рот!"

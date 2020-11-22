@@ -37,6 +37,9 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
     call ep27_dialogues_marcus1_4() from _call_ep27_dialogues_marcus1_4 # Входят в камеру
     call ep27_dialogues_marcus1_5() from _call_ep27_dialogues_marcus1_5 # Моника в камере
 
+    $ questHelp("marcus_2", True)
+    $ questHelp("marcus_3")
+
     $ cloth = "JailRobe" # Переодеваем Монику
     $ cloth_type = "Jail"
     $ inventory = [] # Забираем весь инвентарь
@@ -54,6 +57,8 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
 
 label ep27_police3_interact_cage1:
     call ep27_dialogues_marcus1_9() from _call_ep27_dialogues_marcus1_9
+    $ questHelp("marcus_3", True)
+    $ questHelp("marcus_4")
     music stop
     img black_screen
     with diss
