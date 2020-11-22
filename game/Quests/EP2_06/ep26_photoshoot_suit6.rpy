@@ -929,7 +929,7 @@ label ep26_photoshoot_suit6_end:
     $ shotsAmountCompleted = len(list(set(PS6_shoots_array)))
 #    $ shotsTotalAmount
 #    $ questHelp("office_20", skipIfExists=True)
-    $ questHelp("photoshoot_11", skipIfExists=True
+    $ questHelp("photoshoot_11", skipIfExists=True)
     if shotsAmountCompleted >= shotsTotalAmount:
         $ questHelp("photoshoot_11", True)
 

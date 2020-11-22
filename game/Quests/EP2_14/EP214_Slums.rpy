@@ -62,9 +62,10 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
 
     # феилим все оставшиеся квесты в трущобах
     if questHelpData.has_key(t_("РАБОТА НА УЛИЦЕ")):
-        for idx in range(0, len(questHelpData[questCategory])):
-            if questHelpData[questCategory][idx][1] == 0:
-                questHelpData[questCategory][idx][1] = -1
+        python:
+            for idx in range(0, len(questHelpData[questCategory])):
+                if questHelpData[questCategory][idx][1] == 0:
+                    questHelpData[questCategory][idx][1] = -1
 
     $ questHelp("work_slums_47")
     $ questHelp("work_slums_48")
