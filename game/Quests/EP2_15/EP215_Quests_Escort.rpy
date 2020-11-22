@@ -86,6 +86,8 @@ label ep215_quests_escort3_dating: # свидание
     call ep215_dialogues3_escort_8() from _rcall_ep215_dialogues3_escort_8 # ресторан (новая локация)
     if _return == 1:
         # Моника вынудила инвестора дать согласие на инвестирование при его жене
+        $ questHelp("escort_10", False)
+        $ questHelp("escort_12", False)
         pass
     else:
 
@@ -99,7 +101,15 @@ label ep215_quests_escort3_dating: # свидание
         call ep215_dialogues3_escort_14() from _rcall_ep215_dialogues3_escort_14
         if _return == 1: #отыграться на Линде
             call ep215_dialogues3_linda_punishment() from _rcall_ep215_dialogues3_linda_punishment
+            $ questHelp("escort_10", True)
+            if questHelpFlag13 == False:
+                $ questHelpFlag13 = True
+                $ questHelpDesc("escort_desc3", "escort_desc5")
+        else:
+            $ questHelp("escort_10", False)
 
+        $ questHelp("escort_12", True)
+        $ questHelp("office_52", skipIfExists=True)
         call ep215_dialogues3_escort_15() from _rcall_ep215_dialogues3_escort_15 # после окончания встречи с Олафом ресепшн
         if ep212_escort_monica_fired == True:
             $ ep212_escort_monica_fired = False

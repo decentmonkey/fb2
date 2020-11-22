@@ -19,6 +19,7 @@ label ep214_quests_escort1:
         return False
     call ep214_dialogues3_escort_3() from _rcall_ep214_dialogues3_escort_3
     if _return == -1: # увольнение
+        $ questHelp("escort_9", False)
         call bitch(20, "escort4") from _rcall_bitch_14
         call ep212_dialogues3_escort_hotel_5_1() from _rcall_ep212_dialogues3_escort_hotel_5_1_3
         $ ep212_escort_monica_fired = True
@@ -28,6 +29,7 @@ label ep214_quests_escort1:
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_12
         return False
     if _return == -2: # увольнение, укусила
+        $ questHelp("escort_9", False)
         call bitch(20, "escort4") from _rcall_bitch_15
         call ep214_dialogues3_escort_4() from _rcall_ep214_dialogues3_escort_4
         $ ep212_escort_monica_fired = True
@@ -38,6 +40,8 @@ label ep214_quests_escort1:
         return False
     # Моника все сделала
     call ep214_dialogues3_escort_5() from _rcall_ep214_dialogues3_escort_5
+    $ questHelp("escort_9", True)
+    $ questHelp("escort_11", skipIfExists=True)
     $ add_corruption(25, "escort4")
     $ autorun_to_object("ep211_escort_scene2_15", scene="street_rich_hotel")
     call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_14
@@ -73,11 +77,14 @@ label ep214_quests_escort2b:
     $ set_active("Teleport_Reception", True, scene="rich_hotel_lift")
     sound snd_lift
     call ep214_dialogues3_escort_7() from _rcall_ep214_dialogues3_escort_7
+    $ questHelp("escort_11", True)
     if _return == False:
+        $ questHelp("escort_8", False)
         $ autorun_to_object("ep214_dialogues3_escort_9", scene="street_rich_hotel")
         $ add_money(100.0)
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_15
         return True
+    $ questHelp("escort_8", True)
     call bitch(15, "escort6") from _rcall_bitch_16
     $ autorun_to_object("ep214_dialogues3_escort_8", scene="street_rich_hotel")
     $ ep214_dialogues3_escort_10_flag1 = True

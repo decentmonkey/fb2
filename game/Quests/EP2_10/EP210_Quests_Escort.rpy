@@ -231,9 +231,12 @@ label ep210_quests_escort1_hotel_staff1: # К Монике подходит со
         $ move_object("HotelStaff", "rich_hotel_reception")
         $ add_hook("HotelStaff", "ep210_quests_escort1_hotel_staff2", scene="rich_hotel_reception", label="ep210_quests_escort1_hotel_staff2")
         $ ep210_quests_escort_staff_refused = True
+        $ questHelp("escort_1", False)
         call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_481
         return
 
+    $ questHelp("escort_1", True)
+    $ questHelp("escort_2")
     $ ep210_quests_escort_stage = 2
     $ autorun_to_object("ep210_dialogues7_escort_hotel_3", scene="street_rich_hotel")
     $ add_hook("Teleport_Restaurant", "ep210_quests_escort1_reception", scene="rich_hotel_reception", label="ep210_quests_escort1_reception")
@@ -254,15 +257,22 @@ label ep210_quests_escort1_reception: # Разговор с рецепшин о 
         $ autorun_to_object("ep210_dialogues7_escort_hotel_7b", scene="street_rich_hotel")
         $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_5", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
         call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_483
+        $ questHelp("escort_2", False)
         return False
 
+    $ questHelp("escort_2", True)
     # Кастинг в корридоре
     call ep210_dialogues7_escort_hotel_7() from _call_ep210_dialogues7_escort_hotel_7
     if _return == False:
+        $ questHelp("escort_3", False)
         $ autorun_to_object("ep210_dialogues7_escort_hotel_7b", scene="street_rich_hotel")
         $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_5", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
         call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_484
         return False
+
+    $ questHelp("escort_3", True)
+    $ questHelp("escort_4")
+    $ questHelpDesc("escort_desc1")
 
     # Старт эскорта
     $ monica_escort_service_started = True

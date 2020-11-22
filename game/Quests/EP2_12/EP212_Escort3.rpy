@@ -53,6 +53,7 @@ label ep212_escort3_2: # сцена
         $ autorun_to_object("ep212_dialogues3_escort_hotel_7_1", scene="street_rich_hotel")
 #        call change_scene("street_rich_hotel", "Fade_long")
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_6
+        $ questHelp("escort_6", False)
         return False
     if _return == 1: # сцена завершена успешно
         call ep212_dialogues3_escort_hotel_4() from _rcall_ep212_dialogues3_escort_hotel_4
@@ -62,6 +63,10 @@ label ep212_escort3_2: # сцена
         $ escortRestaurantEnterForced = 1
 
 
+    $ questHelp("escort_6", True)
+    $ questHelp("escort_7", skipIfExists=True)
+    $ questHelp("escort_8", skipIfExists=True)
+    $ questHelpDesc("escort_desc2")
 
     call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_7
     call change_scene("street_rich_hotel", "Fade_long") from _rcall_change_scene_78

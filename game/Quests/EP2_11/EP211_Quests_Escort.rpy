@@ -265,11 +265,16 @@ label ep211_quests_escort6_scene1c: #Лифт
     $ remove_objective("go_customer")
     call ep211_escort_scene1_4() from _rcall_ep211_escort_scene1_4
     if _return == False:
+        $ questHelp("escort_4", False)
         $ monicaEscortFailedScenesCount += 1
         $ autorun_to_object("ep211_escort_scene1_8", scene="street_rich_hotel")
         $ remove_hook(label="escort_scene1")
         call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_3
         return False
+
+    $ questHelp("escort_4", True)
+    $ questHelp("escort_5", skipIfExists=True)
+
     $ add_hook("Teleport_Lift", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Restaurant", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene1")
     $ add_hook("Teleport_Street_Rich_Hotel", "ep211_quests_escort6_scene1d_exit", scene="rich_hotel_reception", label="escort_scene1")
@@ -334,12 +339,15 @@ label ep211_quests_escort6_scene2c: # сцена
     if _return == False: # отказалась совсем
         call ep211_escort_scene2_14(0) from _rcall_ep211_escort_scene2_14
         $ monicaEscortFailedScenesCount += 1
+        $ questHelp("escort_5", False)
         return False
 
     call ep211_escort_scene2_6() from _rcall_ep211_escort_scene2_6
     $ add_corruption(monicaEscortScene2CorruptionAdd1, "monicaEscortScene2CorruptionAdd1")
     call ep211_escort_scene2_7() from _rcall_ep211_escort_scene2_7
     call ep211_escort_scene2_8() from _rcall_ep211_escort_scene2_8
+    $ questHelp("escort_5", True)
+    $ questHelp("escort_6", skipIfExists=True)
     if _return == False: # отказалась со 2-ым
         call ep211_escort_scene2_14(-1) from _rcall_ep211_escort_scene2_14_1
         $ monicaEscortFailedScenesCount += 1
@@ -371,6 +379,8 @@ label ep211_quests_escort6_scene7:
     $ set_active("Visitor2", True, scene="rich_hotel_restaurant")
     $ set_active("Visitor3", True, scene="rich_hotel_restaurant")
     call ep216_dialogues2_escort_2() from _rcall_ep216_dialogues2_escort_2
+    $ questHelp("escort_13", True)
+    $ questHelp("escort_14", skipIfExists=True)
     call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_17
 
     return False

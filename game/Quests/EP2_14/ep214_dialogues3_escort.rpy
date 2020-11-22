@@ -1525,6 +1525,7 @@ label ep214_dialogues3_escort_7:
             mt "Фу! Нет!"
             mt "Я не собираюсь терпеть все эти грязные извращенства из-за какой-то мерзкой сучки!"
             mt "Она не стоит таких жертв с моей стороны!"
+            $ questHelp("escort_8", False)
             # высокомерно говорит клиенту
             music Stealth_Groover
             imgd 16819
@@ -1765,6 +1766,10 @@ label ep214_dialogues3_escort_7:
 #    imgd 18797
     imgd 18789
     m "Да, Мистер. Пусть она тоже попробует."
+    if questHelpFlag12 == False:
+        $ questHelpFlag12 = True
+        $ questHelp("escort_13", skipIfExists=True)
+        $ questHelpDesc("escort_desc2", "escort_desc4")
     # клиент говорит брюнетке
     music Groove2_85
     imgf 18798

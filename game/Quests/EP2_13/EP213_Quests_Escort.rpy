@@ -46,6 +46,7 @@ label ep213_escort5_4_lift:
         call ep213_dialogues2_escort_4() from _rcall_ep213_dialogues2_escort_4_1
     call ep213_dialogues2_escort_5() from _rcall_ep213_dialogues2_escort_5
     if _return == -1: # увольнение
+        $ questHelp("escort_7", False)
         call bitch(20, "escort5") from _rcall_bitch_10
         call ep212_dialogues3_escort_hotel_5_1() from _rcall_ep212_dialogues3_escort_hotel_5_1_1
         $ ep212_escort_monica_fired = True
@@ -59,6 +60,7 @@ label ep213_escort5_4_lift:
     if _return == 0: # убежала
         pass
     if _return == -1: # увольнение
+        $ questHelp("escort_7", False)
         call bitch(20, "escort5") from _rcall_bitch_11
         call ep212_dialogues3_escort_hotel_5_1() from _rcall_ep212_dialogues3_escort_hotel_5_1_2
         $ ep212_escort_monica_fired = True
@@ -71,6 +73,10 @@ label ep213_escort5_4_lift:
         $ ep213_escort5_sex_this_time = True
         $ add_corruption(25, "escort5")
 
+    $ questHelp("escort_7", True)
+    $ questHelp("escort_9", skipIfExists=True)
+    $ questHelp("escort_10", skipIfExists=True)
+    $ questHelpDesc("escort_desc3")
 
     call ep213_dialogues2_escort_7() from _rcall_ep213_dialogues2_escort_7
     $ autorun_to_object("ep213_dialogues2_escort_8", scene="street_rich_hotel")
