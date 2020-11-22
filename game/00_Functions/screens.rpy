@@ -1255,12 +1255,28 @@ screen hud_screen(hud_presets):
                             height gui.resolution.hud_screen.height1
                         imagebutton:
                             if questLogJustUpdated == True:
-                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+#                                idle "icons/questlog_icon" + res.suffix + ".png" at quest_log_transform
+                                idle "icons/questlog_icon_new" + res.suffix + ".png"
+                                hover "icons/questlog_icon_new_hover" + res.suffix + ".png"
                             else:
                                 idle "icons/questlog_icon" + res.suffix + ".png"
-                            hover "icons/questlog_icon_hover" + res.suffix + ".png"
+                                hover "icons/questlog_icon_hover" + res.suffix + ".png"
                             action [
                                 Return(["show_questlog"])
+                            ]
+                    if hud_presets.has_key("display_questhelp") == False or hud_presets["display_questhelp"] == True:
+                        null:
+                            height gui.resolution.hud_screen.height1
+                        imagebutton:
+                            xoffset 5
+                            if questHelpJustUpdated == True:
+                                idle "icons/questhelp_icon_new" + res.suffix + ".png"
+                                hover "icons/questhelp_icon_new_hover" + res.suffix + ".png"
+                            else:
+                                idle "icons/questhelp_icon" + res.suffix + ".png"
+                                hover "icons/questhelp_icon_hover" + res.suffix + ".png"
+                            action [
+                                Return(["show_questhelp"])
                             ]
                     if questionHelperEnabled == True:
                         null:
