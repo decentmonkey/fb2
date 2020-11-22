@@ -130,6 +130,7 @@ label ep24_quests_bardie6:
         call EP22_Quests_Betty8() from _call_EP22_Quests_Betty8_3
         $ questHelp("house_12", True)
         $ questHelp("fitness_2", True)
+        $ questHelp("house_13")
         return False
 
     return False

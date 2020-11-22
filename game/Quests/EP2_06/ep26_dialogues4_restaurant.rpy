@@ -256,6 +256,7 @@ label ep26_dialogues4_restaurant3:
         img 20428
         with diss
         m "Я оплачу этим сертификатом"
+        $ questHelp("steve_18", True)
         $ remove_inventory("legrand_certificate", 1, True)
         sound snd_take_paper
     else:

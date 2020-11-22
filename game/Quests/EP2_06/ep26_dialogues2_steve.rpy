@@ -660,6 +660,9 @@ label ep26_dialogues2_steve3:
             with fadelong
             m "Стив!"
             m "Я достаточно рассказала твоей невесте, как мы договорились."
+            $ questHelp("steve_17", True)
+            $ questHelp("steve_18", skipIfExists=True)
+
             img 12646
             m "Я жду сертификат на ланч в ресторане."
 
@@ -789,6 +792,9 @@ label ep26_dialogues2_steve3:
     m "Я достаточно рассказала твоей невесте, как мы договорились."
     img 12651
     m "Я жду сертификат на ланч в ресторане."
+
+    $ questHelp("steve_17", True)
+    $ questHelp("steve_18", skipIfExists=True)
 
     # Стив кладет сертивикат
     sound snd_folder_drop

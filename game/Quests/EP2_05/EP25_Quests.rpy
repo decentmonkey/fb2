@@ -17,6 +17,8 @@ label ep25_quests1:
 
     $ add_objective("find_casual_dress", t_("Найти нормальную одежду"), c_orange, 15)
     call ep25_dialogues1_shop1a() from _call_ep25_dialogues1_shop1a
+    $ questHelp("steve_7", True)
+    $ questHelp("shop_1")
     return False
 
 label ep25_quests2:

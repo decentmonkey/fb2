@@ -49,6 +49,12 @@ label fitness_locker_1_environment:
             call ep22_dialogues4_5() from _call_ep22_dialogues4_5
             return
         if obj_data["action"] == "w":
+            if questHelpFlag11 == False:
+                $ questHelpFlag11 = True
+                $ questHelp("fitness_1", True)
+                $ questHelp("house_11")
+                $ questHelpDesc("house_desc3", "house_desc7")
+                $ questHelpDesc("fitness_desc1")
             call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b
             return
     if obj_name == "Rebecca":
@@ -56,6 +62,12 @@ label fitness_locker_1_environment:
             call ep22_dialogues4_5() from _call_ep22_dialogues4_5_1
             return
         if obj_data["action"] == "w":
+            if questHelpFlag11 == False:
+                $ questHelpFlag11 = True
+                $ questHelp("fitness_1", True)
+                $ questHelp("house_11")
+                $ questHelpDesc("house_desc3", "house_desc7")
+                $ questHelpDesc("fitness_desc1")
             call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b_1
             return
     if obj_name == "Betty":
@@ -65,6 +77,12 @@ label fitness_locker_1_environment:
         if act == "t":
             call ep22_dialogues4_2() from _call_ep22_dialogues4_2
         if act == "w":
+            if questHelpFlag11 == False:
+                $ questHelpFlag11 = True
+                $ questHelp("fitness_1", True)
+                $ questHelp("house_11")
+                $ questHelpDesc("house_desc3", "house_desc7")
+                $ questHelpDesc("fitness_desc1")
             call EP22_Quests_Betty5b() from _call_EP22_Quests_Betty5b_2
             return
 

@@ -58,6 +58,9 @@ label ep25_quests_steve4:
         return
     $ remove_hook(label="jane_dialogue1")
     call ep25_dialogues2_steve1() from _call_ep25_dialogues2_steve1
+    $ questHelp("steve_8", True)
+    $ questHelp("steve_9")
+    $ questHelpDesc("steve_desc4")
     call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_279
     $ add_hook("change_time_day", "ep25_quests_steve6", scene="global") # Инициализация второго прихода Моники с утра
     $ questLog(33, False)
@@ -116,6 +119,11 @@ label ep25_quests_steve9:
 #    $ monicaHasSexWithSteveBasement = False # debug!!
     if monicaHasSexWithSteveBasement == True: # У Моники был секс со Стивом
         call ep25_dialogues2_steve4() from _call_ep25_dialogues2_steve4
+        $ questHelp("steve_9", True)
+        $ questHelp("steve_10")
+        $ questHelp("steve_17")
+        $ questHelpDesc("steve_desc4", "steve_desc5")
+
         $ move_object("Steve", "steve_office_office_table")
         $ add_hook("Steve", "ep25_quests_steve10", scene="steve_office_office_table", label="steve_office_steve_dialogue1")
         $ add_hook("Door", "ep25_quests_steve10", scene="steve_office_office_table", label="steve_office_steve_dialogue1")
@@ -131,6 +139,10 @@ label ep25_quests_steve9:
             $ remove_hook("DickSecretary_Dialogue1_Menu", "ep24_quests_steve28", scene="menu") # Убираем из меню Виктории вопрос про деньги Стива
 
 
+        $ questHelp("steve_9", True)
+        $ questHelp("steve_10")
+        $ questHelp("steve_17")
+        $ questHelpDesc("steve_desc4", "steve_desc5")
         $ questLog(40, False)
         $ questLog(42, True)
         # Регулярный приход к Стиву
@@ -179,6 +191,9 @@ label ep25_quests_steve11:
     $ remove_hook(label="need_check_steve_money1") # Разблокируем вход к Стиву
     $ add_hook("Jane", "ep25_quests_steve12", scene="steve_office_secretary", label="jane_dialogue4")
     $ add_hook("Teleport_Steve_Office_Office", "ep25_quests_steve12", scene="steve_office_secretary", label="jane_dialogue4")
+    $ questHelp("steve_6", True)
+    $ questHelp("steve_7")
+    $ questHelpDesc("steve_desc2", "steve_desc3")
     return False
 
 label ep25_quests_steve12:
@@ -314,22 +329,36 @@ label ep25_quests_steve18:
         if monicaSteveBlowjobDealCount > 5 and bettyVisitedSteve == False:
             $ bettyVisitedSteve = True
             call ep26_dialogues2_steve5() from _call_ep26_dialogues2_steve5
+            $ questHelp("steve_16", True)
+            $ questHelp("office_30", skipIfExists=True)
             if _return == False:
                 $ noMoney = True
         else:
             if monicaSteveBlowjobDealCountOffs == 0:
                 # Первый приход Джейн
                 call ep25_dialogues3_steve3a() from _call_ep25_dialogues3_steve3a
+                $ questHelp("steve_10", True)
+                $ questHelp("steve_11", skipIfExists=True)
             if monicaSteveBlowjobDealCountOffs == 1:
                 call ep25_dialogues3_steve4a() from _call_ep25_dialogues3_steve4a
+                $ questHelp("steve_11", True)
+                $ questHelp("steve_12", skipIfExists=True)
             if monicaSteveBlowjobDealCountOffs == 2:
                 call ep25_dialogues3_steve3b() from _call_ep25_dialogues3_steve3b
+                $ questHelp("steve_12", True)
+                $ questHelp("steve_13", skipIfExists=True)
             if monicaSteveBlowjobDealCountOffs == 3:
                 call ep25_dialogues3_steve4b() from _call_ep25_dialogues3_steve4b
+                $ questHelp("steve_13", True)
+                $ questHelp("steve_14", skipIfExists=True)
             if monicaSteveBlowjobDealCountOffs == 4:
                 call ep25_dialogues3_steve3c() from _call_ep25_dialogues3_steve3c
+                $ questHelp("steve_14", True)
+                $ questHelp("steve_15", skipIfExists=True)
             if monicaSteveBlowjobDealCountOffs == 5:
                 call ep25_dialogues3_steve4c() from _call_ep25_dialogues3_steve4c
+                $ questHelp("steve_15", True)
+                $ questHelp("steve_16", skipIfExists=True)
 
 #        if monicaSteveBlowjobDealCount > 5:
 #            # random

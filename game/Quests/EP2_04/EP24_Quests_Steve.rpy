@@ -94,6 +94,9 @@ label ep24_quests_steve6:
 label ep24_quests_steve6b:
     # Срабатывание продолжения дня первого застолья
     call ep24_dialogues2_steve5a() from _call_ep24_dialogues2_steve5a
+    $ questHelp("steve_1", True)
+    $ questHelp("steve_2")
+    $ questHelpDesc("steve_desc1")
     $ move_object("Betty", scene="living_room")
     $ move_object("Ralph", scene="living_room")
     $ steveVisit1DayShowed = True
@@ -104,6 +107,9 @@ label ep24_quests_steve7:
     $ remove_hook(label = "steve_visit1")
     if steveVisit1DayShowed == False:
         call ep24_dialogues2_steve5a() from _call_ep24_dialogues2_steve5a_1
+        $ questHelp("steve_1", True)
+        $ questHelp("steve_2")
+        $ questHelpDesc("steve_desc1")
 
     call ep24_dialogues2_steve6() from _call_ep24_dialogues2_steve6 # вечер первого застолья
 
@@ -363,6 +369,11 @@ label ep24_quests_steve22:
     $ remove_hook(label="steve_visit2c")
     call ep24_dialogues3_steve10e() from _call_ep24_dialogues3_steve10e
 
+    $ questHelp("steve_3", True)
+    $ questHelp("steve_4")
+    $ questHelp("steve_5")
+    $ questHelp("office_23")
+    
     $ remove_hook(label="steve_visit2_nap")
     $ add_hook("change_time_evening", "ep24_quests_steve23", scene="global", priority = 200)
     $ add_hook("Panties_Box", "ep24_dialogues3_steve10e3", scene="basement_laundry", label="steve_visit2")
@@ -523,6 +534,8 @@ label ep24_quests_steve34:
     call ep24_dialogues3_steve14() from _call_ep24_dialogues3_steve14
     if _return == False:
         return False
+    $ questHelp("steve_2", True)
+    $ questHelp("steve_3")
     $ remove_objective("ask_ralph")
     call question_helper_disable() from _rcall_question_helper_disable
     $ add_objective("wait_for_steve", t_("Дождаться второго прихода Стива в субботу."), c_blue, 55)
