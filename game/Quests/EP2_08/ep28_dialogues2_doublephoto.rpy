@@ -91,6 +91,9 @@ label dialogue_doublephoto_1:
             img 14595
             with fade
             m "Я хорошая гувернантка! Но я не буду этого делать!"
+            $ questHelp("house_25", False)
+            $ questHelp("house_26", False)
+
             return False
     # Моника, срипя зубами соглашается, поднимает юбку
     music stop
@@ -243,6 +246,7 @@ label dialogue_doublephoto_1:
     with fade
     bardie "Вы на сегодня свободны. Можете идти."
     $ monicaMadeDoublePhotoBetty = True
+    $ questHelp("house_26")
     return
 
 

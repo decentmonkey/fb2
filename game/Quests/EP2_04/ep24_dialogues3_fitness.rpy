@@ -578,6 +578,8 @@ label ep24_dialogues3_fitness3d:
             betty "Я оденусь и мы продолжим."
             betty "Я уверена, что смогу добиться успеха не прибегая к медитациям..."
             fitness_instructor "Хорошо, Бетти..."
+            $ questHelp("house_13", False)
+            $ questHelp("fitness_2", False)
             return False
     $ bettyInstructorSex1 = True
 

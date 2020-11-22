@@ -92,6 +92,8 @@ label ep24_dialogues4_bardie1:
         img 10261
         with fade
         m "!!!"
+        $ questHelp("house_13", True)
+        $ questHelpDesc("house_desc8", "house_desc9")
     else:
     # Бетти не занималась сексом
 # Если Бетти не трахалась, то Барди говорит что она этого не делала, но того что он снял

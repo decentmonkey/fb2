@@ -9,6 +9,7 @@ label EP22_Quests_Bardie_Monica_Rest_After_Cleaning:
     if bardieBlackmailStage == 4:
         call ep22_dialogues3_8() from _call_ep22_dialogues3_8
 
+
     $ remove_hook(label="EP22_Quests_Bardie_Monica_Rest_After_Cleaning")
     if bardieBlackmailStage == 0:
         sound highheels_short_walk
@@ -34,6 +35,8 @@ label EP22_Quests_Bardie_Monica_Rest_After_Cleaning:
     if bardieBlackmailStage == 4:
         call change_scene("basement_bedroom2") from _call_change_scene_230
         call EP22_Quests_Bardie5() from _call_EP22_Quests_Bardie5
+        $ questHelp("house_9")
+        $ questHelpDesc("house_desc4","house_desc5")
         return
 
 #    m "Передых"
@@ -63,6 +66,8 @@ label EP22_Quests_Bardie1:
 #            $ remove_hook()
             $ remove_hook(label="EP22_Quests_Bardie_Monica_Rest_After_Cleaning")
             call ep22_dialogues3_2() from _call_ep22_dialogues3_2
+            $ questHelp("house_5", True)
+            $ questHelp("house_6")
             $ add_hook("basement_monica_after_sleep", "EP22_Quests_Bardie2", scene="global") # Ночью будет сон
             $ add_hook("open", "EP22_Quests_Bardie3", scene="police_entrance") # Днем Барди в полиции
             call refresh_scene_fade() from _call_refresh_scene_fade_80
@@ -91,6 +96,8 @@ label EP22_Quests_Bardie3: #разговор в полиции
     $ remove_hook()
     $ remove_hook(label="hurry_to_police")
     call ep22_dialogues3_4() from _call_ep22_dialogues3_4
+    $ questHelp("house_6", True)
+    $ questHelp("house_7")
     $ autorun_to_object("ep22_dialogues3_5", scene="street_police")
     $ unfocus_map()
     $ hudDaySkipToEveningEnabled = True
@@ -101,6 +108,9 @@ label EP22_Quests_Bardie3: #разговор в полиции
 
 label EP22_Quests_Bardie4: #второй разговор с Барди
     call ep22_dialogues3_6() from _call_ep22_dialogues3_6
+    $ questHelp("house_7", True)
+    $ questHelp("house_8")
+    $ questHelpDesc("house_desc2", "house_desc4")
     $ remove_hook("Bardie_Life_day", "Bardie_Life_day3", scene="global")
     $ remove_hook("Bardie_Life_evening", "Bardie_Life_evening2", scene="global")
     $ remove_hook("Bardie_Life_evening", "Bardie_Life_evening3", scene="global")

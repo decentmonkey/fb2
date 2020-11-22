@@ -7,6 +7,9 @@ label ep24_quests_betty1:
     if cloth != "Governess" or day_time != "day":
         return
     call ep24_dialogues5_betty1() from _call_ep24_dialogues5_betty1
+    $ questHelp("house_15")
+    $ questHelp("house_14", True)
+    $ questHelpDesc("house_desc9", "house_desc10")
     $ remove_hook(label="betty_catch1")
     $ add_hook("Betty", "ep24_quests_betty2", scene="floor2", group="dialouge_regular")
     $ add_hook("Betty", "ep24_quests_betty6", scene="bedroom1", group="dialouge_regular")
@@ -183,6 +186,10 @@ label ep24_quests_betty11:
     if cloth != "Governess" or day_time != "day":
         return
     call ep24_dialogues5_betty5() from _call_ep24_dialogues5_betty5
+    $ questHelp("house_15", True)
+    $ questHelp("house_16")
+    $ questHelpDesc("house_desc10", "house_desc11")
+    $ questHelpDesc("house_desc12")
     $ remove_hook(label="betty_catch2")
     $ monicaMustNotWearPanties = True
     $ bettyMustNotWearPanties = True

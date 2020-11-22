@@ -23,6 +23,8 @@ label ralphDialogue2:
         return
     if cloth_type != "Governess":
         return
+    if ralphAskedAboutPayment == False:
+        $ questHelp("house_2", True)
     $ ralphAskedAboutPayment = True
     #render
     $ store_music()

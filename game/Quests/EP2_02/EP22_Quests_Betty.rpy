@@ -17,6 +17,9 @@ label EP22_Quests_Betty1: #init quest
     $ add_hook("Betty_Life_day", "EP22_Quests_Betty2", scene="global", label="betty_fitness_days")
     $ add_hook("Betty", "EP22_Quests_Betty3", scene="floor2")
     $ questLog(23, True)
+    $ questHelp("fitness_1")
+    $ questHelpDesc("house_desc6")
+    $ questHelp("house_1", True)
     call ep22_Quests_Betty_Monica_Governess_outfit() from _call_ep22_Quests_Betty_Monica_Governess_outfit
     return
 
@@ -220,5 +223,7 @@ label EP22_Quests_Betty8: #уезжают
     $ move_object("Driver", "street_house_main_yard")
     $ move_object("Betty", "bedroom1")
     $ changeDayTime("evening")
+    if fitness_gym_visited_amount == 1:
+        $ questHelp("house_11")
     call change_scene("street_house_main_yard", "Fade_long", "snd_car_engine") from _call_change_scene_205
     return

@@ -12,6 +12,9 @@ label ep212_quests_bardie_ralph2: # Барди перехватывает Мон
     $ restore_music()
     call ep212_dialogues1_bardie_ralph1() from _rcall_ep212_dialogues1_bardie_ralph1
     call ep212_dialogues1_bardie_ralph2() from _rcall_ep212_dialogues1_bardie_ralph2
+
+    $ questHelp("house_31")
+    $ questHelpDesc("house_desc14", "house_desc15")
     $ questLog(72, True)
     $ add_objective("seduce_ralph", t_("Соблазнить Ральфа."), c_blue, 105)
     $ add_hook("monica_cleaning_start", "ep212_quests_bardie_ralph3_init_cleaning", scene="global", label="ep212_quests_bardie_ralph3_init_cleaning")
@@ -79,6 +82,8 @@ label ep212_quests_bardie_ralph6_cleaning_end: # После уборки
             call ep212_dialogues1_bardie_ralph9() from _rcall_ep212_dialogues1_bardie_ralph9
             $ autorun_to_object("ep212_dialogues1_bardie_ralph10", scene="basement_bedroom2")
             $ monicaBardieRalphSeducingStage = 3
+            $ questHelp("house_31", True)
+            $ questHelp("house_32")
             $ clear_music_stack()
             call change_scene("basement_bedroom2", "Fade_long", False) from _rcall_change_scene_81
             return
@@ -88,6 +93,8 @@ label ep212_quests_bardie_ralph6_cleaning_end: # После уборки
             $ autorun_to_object("ep212_dialogues1_bardie_ralph14", scene="basement_bedroom2")
             $ monicaBardieRalphSeducingStage = 4
             $ remove_objective("seduce_ralph")
+            $ questHelp("house_32", True)
+            $ questHelp("house_33")
             $ clear_music_stack()
             call change_scene("basement_bedroom2", "Fade_long", False) from _rcall_change_scene_82
             return
@@ -95,6 +102,8 @@ label ep212_quests_bardie_ralph6_cleaning_end: # После уборки
             $ clear_music_stack()
             $ monicaBardieRalphSeducingStage = 5
             call ep214_quests_ralph1() from _rcall_ep214_quests_ralph1
+            $ questHelp("house_33", True)
+            $ questHelp("house_34")
             $ clear_music_stack()
             call change_scene("basement_bedroom2", "Fade_long", False) from _rcall_change_scene_129
             return

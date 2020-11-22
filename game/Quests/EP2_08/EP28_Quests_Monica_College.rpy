@@ -67,6 +67,11 @@ label ep28_monica_bardie_eric_meeting: # Знакомство с Эриком (�
         $ ep28_monica_eric_meeting_completed = True
         $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["bardie_eric_quest_college", "evening_time_temp"]) # Разблокируем комнату Барди на след.день
 #        if bettyCollegeTeacherRefused == True: # Если был отказ у Бетти, то продолжаем линию квестов с Моникой без нее
+        $ questHelp("house_26", True)
+        $ questHelp("house_27")
+    else:
+        $ questHelp("house_26", False)
+
         call ep28_monica_bardie_eric_college_init() from _call_ep28_monica_bardie_eric_college_init
     call refresh_scene_fade() from _call_refresh_scene_fade_185
     return False
@@ -100,6 +105,10 @@ label ep28_monica_bardie_eric_college1:
 label ep28_monica_bardie_eric_college2:
     $ remove_hook(label="bardie_eric_quest_college")
     call dialogue_classmate_2() from _call_dialogue_classmate_2 # Барди говорит Монике притворяться мамой Эрика
+    $ questHelp("house_27", True)
+    $ questHelp("shop_7")
+    $ questHelpDesc("house_desc14")
+
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["bardie_eric_quest_college", "evening_time_temp"]) # Разблокируем комнату Барди на след.день
     $ autorun_to_object("dialogue_classmate_2_1", scene="floor2") # Моника комментирует
     $ remove_objective("go_to_bardie")
@@ -313,6 +322,8 @@ label ep28_monica_college_bardie_betty_lesbian_scene: # Лесби сцена Б
         return
     $ remove_hook()
     call dialogue_4_classmate_lesbian_1() from _call_dialogue_4_classmate_lesbian_1
+
+    $ questHelp("house_29")
 
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
     $ autorun_to_object("dialogue_4_classmate_lesbian_1a", scene="floor2")

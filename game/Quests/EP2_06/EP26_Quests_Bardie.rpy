@@ -70,6 +70,8 @@ label ep26_quests_bardie3:
         $ remove_hook("Bardie", "ep26_quests_bardie3", scene="bedroom_bardie")
         $ add_hook("Bardie", "ep26_quests_bardie4", scene="bedroom_bardie", label="ep26_bardie_dialogue3")
         $ ep26_quests_bardie_day1 = day
+        $ questHelp("house_17", True)
+        $ questHelp("house_18")
 
 
     return False
@@ -91,6 +93,8 @@ label ep26_quests_bardie4:
         call change_scene("floor2", "Fade_long", "snd_runaway") from _call_change_scene_349
         $ remove_hook(label="ep26_bardie_dialogue3")
         $ add_hook("Bardie", "ep26_quests_bardie5", scene="bedroom_bardie", label="ep26_bardie_dialogue4")
+        $ questHelp("house_18", True)
+        $ questHelp("house_19")
         return False
 
 
@@ -118,6 +122,9 @@ label ep26_quests_bardie5:
         $ autorun_to_object("ep26_dialogues1_bardie5a", scene="floor2")
         call ep26_quests_betty1() from _call_ep26_quests_betty1 # Инициализация питания на кухне
         call change_scene("floor2", "Fade_long") from _call_change_scene_351
+        $ questHelp("house_19", True)
+        $ questHelp("house_20")
+        $ questHelp("house_21")
         return False
     return False
 
@@ -134,6 +141,7 @@ label ep26_quests_bardie6:
             return False
         if ep26_quests_bardie6_stage == 1:
             call ep26_dialogues1_bardie10() from _call_ep26_dialogues1_bardie10
+            $ questHelp("house_22", True)
             if _return == 0 or _return == 1: # Моника просто выходит
                 $ autorun_to_object("ep26_dialogues1_bardie9a", scene="floor2")
                 call change_scene("floor2", "Fade_long") from _call_change_scene_353
@@ -143,6 +151,8 @@ label ep26_quests_bardie6:
                 $ bettyNotFeedingMonicaKitchen = False
                 if _return == 3:
                     $ add_hook("change_time_day", "ep26_quests_bardie8", scene="global", label="day_time_temp") # Планируем наказание Бетти вечером
+                    $ questHelpFlag3 = True
+                    $ questHelp("house_23")
                 call change_scene("floor2", "Fade_long") from _call_change_scene_354
                 return False
     return
@@ -153,11 +163,17 @@ label ep26_quests_bardie7:
     $ move_object("Betty", "empty")
     $ add_hook("open", "ep26_quests_bardie9", scene="bedroom_bardie", label="evening_time_temp", priority = 200) # Наказание Бетти
     $ remove_objective("call_betty")
+    if questHelpFlag3 == True:
+        $ questHelpFlag3 = False
+        $ questHelp("house_23", True)
     call refresh_scene_fade() from _call_refresh_scene_fade_155
     return
 
 label ep26_quests_bardie8:
     # Наказание Бетти протухает с утра
+    if questHelpFlag3 == True:
+        $ questHelpFlag3 = False
+        $ questHelp("house_23", False)
     $ bardieCalledBettyForPunishment = False
     $ remove_objective("call_betty")
     return

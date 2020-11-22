@@ -268,6 +268,19 @@ label start_game:
     $ ep214_quests_load_init_flag = True
     $ ep215_quests_load_init_flag = True
     $ ep216_quests_load_init_flag = True
+
+    # quest help
+    call questHelp_init()
+    python:
+        questHelp("house_1")
+        questHelp("work_slums_1")
+        questHelp("office_1")
+        questHelp("marcus_1")
+        questHelpDesc("house_desc1")
+        questHelpDesc("marcus_desc1")
+        if ralphAskedAboutPayment == False:
+            questHelp("house_2")
+
 #    $ changeDayTime("evening")
 #    $ scene_data = process_scene_objects_list(scene_name) #парсим содержимое свойств объектов перед выводом
 #    $ print scene_data

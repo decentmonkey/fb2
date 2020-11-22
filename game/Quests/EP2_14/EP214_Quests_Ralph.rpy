@@ -8,6 +8,8 @@ default monica_ralph_relationships_type = 0
 label ep214_quests_ralph1:
     call ep214_dialogues5_bardie_ralph_1() from _rcall_ep214_dialogues5_bardie_ralph_1
     $ add_objective("go_fitness", t_("Поехать с Бетти на фитнес во вторник или четверг."), c_white, 15)
+    $ questHelp("house_34", True)
+    $ questHelp("house_35")
     return
 
 label ep214_quests_ralph2:
@@ -48,6 +50,8 @@ label ep214_quests_ralph2:
     $ add_hook("Bidet", "ep214_dialogues5_bardie_ralph_2b1", scene="basement_pool", label="Monica_Ralph_Quest")
     $ add_hook("Shower_Cabin", "ep214_dialogues5_bardie_ralph_2b1", scene="basement_pool", label="Monica_Ralph_Quest")
     if monicaBardieRalphSeducingStage == 5:
+        $ questHelp("house_35", True)
+        $ questHelp("house_36")
         $ move_object("Ralph", "living_room")
         $ add_talk("Ralph", "ep214_quests_ralph6_regular", scene="living_room", label="Monica_Ralph_Quest_regular")
         $ add_talk("Ralph", "ep214_quests_ralph3", scene="living_room", label="Monica_Ralph_Quest")
@@ -59,6 +63,7 @@ label ep214_quests_ralph2:
         $ add_hook("enter_scene", "ep214_dialogues5_bardie_ralph_4", scene="floor1", label="Monica_Ralph_Quest", once=True)
         $ add_hook("before_open", "ep214_quests_ralph8_meeting_regular", scene="bedroom2", label="Monica_Ralph_Quest")
         $ add_hook("before_open", "ep214_quests_ralph7_search_ralph", scene="living_room", once=True, label="Monica_Ralph_Quest")
+
 
     call change_scene("basement_bedroom1", "Fade_long") from _rcall_change_scene_138
 
@@ -85,6 +90,8 @@ label ep214_quests_ralph3: # первая сцена с Ральфом
     $ add_hook("Panties_Box", "ep214_dialogues5_bardie_ralph_6a", scene="basement_laundry", label="Monica_Ralph_Quest")
     $ add_hook("Teleport_Basement_Side", "ep214_quests_ralph4", scene="basement_hole", label="Monica_Ralph_Quest")
     $ ep214_ralph_blowjob_day = day
+    $ questHelp("house_36", True)
+    $ questHelp("house_37")
     call change_scene("floor1", "Fade_long") from _rcall_change_scene_139
     return False
 
@@ -121,6 +128,13 @@ label ep214_quests_ralph5_bardie: # разговор с Барди
     $ remove_objective("talk_bardie")
     $ questLog(72, False)
     $ questLog(79, True)
+    $ questHelp("house_37", True)
+    $ questHelp("house_38")
+    $ questHelp("house_39")
+    $ questHelp("house_40")
+
+    $ questHelpDesc("house_desc15", "house_desc16")
+    $ questHelpFlag4 = True
 #    $ add_objective("go_fitness", t_("Поехать с Бетти на фитнес во вторник или четверг."), c_blue, 125)
     $ monicaBardieRalphSeducingStage = 6
     call change_scene("floor2", "Fade_long") from _rcall_change_scene_141
@@ -155,9 +169,23 @@ label ep214_quests_ralph8_meeting_regular: # регулярные встречи
         if _return == 1:
             $ monica_ralph_relationships_type = 1
             $ questLog(80, True)
+            if questHelpFlag4 == True:
+                $ questHelpFlag4 = False
+                $ questHelp("house_39", True)
+                $ questHelp("house_40", False)
+                $ questHelp("house_41")
+                $ questHelp("house_42")
+                $ questHelpDesc("house_desc16", "house_desc17")
         if _return == 2:
             $ monica_ralph_relationships_type = 2
             $ questLog(81, True)
+            if questHelpFlag4 == True:
+                $ questHelpFlag4 = False
+                $ questHelp("house_39", False)
+                $ questHelp("house_40", True)
+                $ questHelp("house_41")
+                $ questHelp("house_42")
+                $ questHelpDesc("house_desc16", "house_desc18")
     if ep214_ralph_last_regular_meeting_day > 0 and monica_ralph_relationships_type == 1:
         call ep214_dialogues5_bardie_ralph_13a() from _rcall_ep214_dialogues5_bardie_ralph_13a
     if monica_ralph_relationships_type == 2:

@@ -14,6 +14,12 @@ default questHelpCurrentQuest = False
 default questHelpCategoriesHistory = []
 default questHelpCategoriesHistoryStatic = []
 
+default questHelpFlag1 = False
+default questHelpFlag2 = False
+default questHelpFlag3 = False
+default questHelpFlag4 = False
+default questHelpFlag5 = False
+
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
         global objectives_list
@@ -93,6 +99,10 @@ init python:
         global questHelpDataCategoriesDescriptions, questHelpDataCategoriesDescriptionsData
         questHelpDescriptionName = args[0]
         if len(args) > 1:
+            if isinstance(args[1], str) == True:
+                questHelpDesc(args[0], False)
+                questHelpDesc(args[1], True)
+                return
             status = args[1]
         else:
             status = True

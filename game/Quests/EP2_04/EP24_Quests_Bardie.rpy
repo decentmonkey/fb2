@@ -20,6 +20,9 @@ label ep24_quests_bardie1:
         $ add_hook("Bardie", "ep24_quests_bardie2", scene="bedroom_bardie")
     else:
         $ questLog(34, True)
+        $ questHelp("house_12")
+        $ questHelp("house_11", True)
+        $ questHelpDesc("house_desc8")
         $ add_hook("floor2_betty_fitness_dialogue", "ep24_quests_bardie3", scene="menu", caption=t_("Согласиться и предупредить Барди..."), priority=95, active=True)
         $ add_hook("enter_scene", "ep24_quests_bardie1a", scene="basement_bedroom2")
         $ add_hook("Bardie_Life_day", "Bardie_Life_day4", scene="global", priority = 101, label="bardie_fitness_global")
@@ -62,6 +65,9 @@ label ep24_quests_bardie2:
 label ep24_quests_bardie3:
     # Нажато меню Согласиться и предупредить Барди...
     $ EP22_Quests_Betty3Flag1 = True
+    if questHelpFlag1 == False:
+        $ questHelpFlag1 = True
+        $ questHelp("fitness_2")
     call ep24_dialogues5_betty0() from _call_ep24_dialogues5_betty0
     $ move_object("Bardie", scene="bedroom_bardie")
     $ add_hook("Bardie", "ep24_quests_bardie4", scene="bedroom_bardie", label=["day_time_temp", "bardie_fitness"])
@@ -122,6 +128,8 @@ label ep24_quests_bardie6:
         $ add_hook("enter_scene", "ep24_quests_bardie7", scene="street_house_main_yard")
         music stop
         call EP22_Quests_Betty8() from _call_EP22_Quests_Betty8_3
+        $ questHelp("house_12", True)
+        $ questHelp("fitness_2", True)
         return False
 
     return False
@@ -173,6 +181,9 @@ label ep24_quests_bardie10:
         return
     $ remove_hook()
     $ remove_hook(label="bardie_fitness_global")
+
+    $ questHelp("house_13", True)
+    $ questHelp("house_14")
 
     $ add_hook("map_teleport", "ep24_quests_betty1", scene="global", label="betty_catch1", priority = 1001)
     $ add_hook("before_open", "ep24_quests_betty1", scene="floor1_stairs", label="betty_catch1") # Переход ногами на лестницу из подвала

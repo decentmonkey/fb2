@@ -39,6 +39,9 @@ label ep216_quests_bardie3_enter_room:
         $ autorun_to_object("ep216_dialogues1_bardie_2", scene="floor2")
         call change_scene("floor2", "Fade_long") from _rcall_change_scene_186
         return False
+    if questHelpFlag5 == False:
+        $ questHelpFlag5 = True
+        $ questHelp("house_41", True)
     if _return == 2: # Отдала деньги
         $ remove_hook(label="ep216_quests_bardie3_enter_room")
         $ remove_objective("go_to_bardie")

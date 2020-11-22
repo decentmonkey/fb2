@@ -14,7 +14,8 @@ label ep28_betty_college_init:
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     call change_scene("floor2", "Fade_long") from _call_change_scene_390
-
+    $ questHelp("house_20")
+    $ questHelp("college_1")
     $ add_hook("change_time_day", "ep28_betty_college2", scene="global", label="ep28_betty_college2", priority=99)
     return
 
@@ -343,6 +344,8 @@ label ep28_betty_college2_teacher_day3c:
     $ map_objects["Teleport_College"]["state"] = "visible"
     call change_owner("Monica") from _call_change_owner_4
     call change_scene("basement_bedroom2", "Fade_long", False) from _call_change_scene_401
+
+    $ questHelp("house_25")
 
     $ bettyCollegeTeacherStage = 1
     call ep28_betty_college_double_photo_init() from _call_ep28_betty_college_double_photo_init

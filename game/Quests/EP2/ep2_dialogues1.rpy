@@ -547,6 +547,8 @@ label cleaning_betty_comment1:
         betty "Продолжай убираться."
         $ char_info["Betty"]["caption"]=t_("Бетти подумывает взять Монику в фитнесс зал")
         $ remove_hook(label="betty_level2_onetime")
+        $ questHelp("house_10")
+        $ questHelpDesc("house_desc3")
         return
 
     #если не набралось 3 дней уборки

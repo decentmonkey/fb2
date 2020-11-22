@@ -197,9 +197,13 @@ label ep29_quests_monica_college_visit4_init_bardie2:
     call dialogue_classmate_12a() from _call_dialogue_classmate_12a # Барди говорит Монике что надо снова идти к Эрику
     if _return == False:
         $ autorun_to_object("dialogue_classmate_3_2e", scene="floor2")
+        $ questHelp("college_8", False)
         call refresh_scene_fade() from _call_refresh_scene_fade_207
         return False
     # Моника согласилась
+
+    $ questHelp("college_8")
+    $ questHelpDesc("college_desc4", "college_desc5")
 
     $ remove_hook(label="monica_bardie_visit4_init")
     $ autorun_to_object("dialogue_classmate_12_1", scene="floor2")

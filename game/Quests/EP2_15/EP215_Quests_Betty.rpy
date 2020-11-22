@@ -29,6 +29,9 @@ label ep215_quests_betty1_init1:
         return
     call ep215_dialogues2_betty_4() from _rcall_ep215_dialogues2_betty_4
 
+    $ questHelp("house_42", True)
+    $ questHelp("house_43")
+
     # инициализируем дом соседа с Бетти
     call locations_init_house_neighbour() from _rcall_locations_init_house_neighbour
     call street_house_outside_init3() from _rcall_street_house_outside_init3
@@ -61,7 +64,6 @@ label ep215_quests_betty1_init1:
     $ miniMapEnabledOnly = ["none"]
     $ hudDaySkipToEveningEnabled = False
     call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_164
-
     return
 
 label ep215_quests_betty1_teleport_neighbour:
@@ -73,11 +75,14 @@ label ep215_quests_betty2_talk_neighbour:
         return
     $ remove_hook()
     call ep215_dialogues2_betty_5() from _rcall_ep215_dialogues2_betty_5
+    $ questHelp("house_43")
     if _return == False:
         $ ep215_quests_betty_refused = True
+        $ questHelp("house_44", False)
     else:
         # планируем второй приход
         $ add_hook("change_time_day", "ep215_quests_betty3_init", scene="global", label="ep215_quests_betty1_init1", priority=1)
+        $ questHelp("house_44")
 
     $ ep215_quests_betty_visit1_day = day
     call change_owner("Monica") from _rcall_change_owner_1
@@ -135,8 +140,11 @@ label ep215_quests_betty3_enter_door:
     call ep215_dialogues2_betty_6() from _rcall_ep215_dialogues2_betty_6
     if _return == False:
         $ ep215_quests_betty_refused = True
+        $ questHelp("house_44", False)
     else:
         $ ep215_quests_betty_visit2_completed_day = day
+        $ questHelp("house_44", True)
+        $ questHelp("house_45")
 
     # Бетти возвращается к Ральфу
     call ep215_dialogues2_betty_7() from _rcall_ep215_dialogues2_betty_7
