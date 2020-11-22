@@ -1150,11 +1150,14 @@ label dialogue_classmate_3_1:
         $ notif(t_("Моника была недостаточно добра к продавцу."))
     $ menu_price = [schoolOutfitPrice, 0, monicaEricCollegeDressPriceLickingDiscount]
     music Groove2_85
+    $ questHelp("shop_7a", skipIfExists=True)
     menu:
         "Купить костюм.":
             # Вивьен оформляет покупку, отдает костюм с улыбкой, Моника держится высокомерно
             # Моника в примерочной меряет платье
             call dialogue_classmate_3_1_7() from _call_dialogue_classmate_3_1_7
+            $ questHelp("shop_7", True)
+            $ questHelp("shop_7a", False)
             img black_screen
             with diss
             sound highheels_short_walk
@@ -1349,6 +1352,8 @@ label dialogue_classmate_3_1:
     with fade
     m "Очень!" #зло
     # Моника забирает покупку
+    $ questHelp("shop_7", True)
+    $ questHelp("shop_7a", True)
     $ monicaBoughtSchoolOutfitByLicking = True
     return 4
 

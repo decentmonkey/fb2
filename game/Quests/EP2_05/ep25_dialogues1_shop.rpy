@@ -74,6 +74,10 @@ label ep25_dialogues1_shop2:
     img 10625
     with fade
     cashier "Мэм, пройдемте, я покажу Вам самое лучшее платье, которое имеется в продаже."
+    $ questHelp("shop_1", True)
+    $ questHelp("shop_2", skipIfExists=True)
+    $ questHelp("shop_3", skipIfExists=True)
+    $ questHelp("shop_4", skipIfExists=True)
     # Показывает платье Моники
     img black_screen
     with diss
@@ -148,6 +152,9 @@ label ep25_dialogues1_shop2_loop1:
                         m "Мне нравится."
                         m "Я беру его."
                         cashier "Мэм, пройдемте на кассу."
+                        $ questHelp("shop_2", True)
+                        $ questHelp("shop_3", True)
+                        $ questHelp("shop_4", False)
                         $ add_money(-125.0)
                         return True
                     "Купить платье за $ 125. (не хватает денег) (disabled)" if money < 125:
@@ -200,6 +207,9 @@ label ep25_dialogues1_shop2_loop1:
             m "Мне нравится."
             m "Я беру его."
             cashier "Мэм, пройдемте на кассу."
+            $ questHelp("shop_2", True)
+            $ questHelp("shop_3", False)
+            $ questHelp("shop_4", False)
             $ add_money(-250.0)
             return True
 
@@ -943,6 +953,9 @@ label ep25_dialogues1_shop9:
             m "Мне нравится."
             m "Я беру его."
             cashier "Мэм, пройдемте на кассу."
+            $ questHelp("shop_2", True)
+            $ questHelp("shop_3", False)
+            $ questHelp("shop_4", False)
             $ add_money(-250.0)
             return 1
 
