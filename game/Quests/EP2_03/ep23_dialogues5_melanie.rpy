@@ -542,7 +542,9 @@ label ep23_dialogues5_3c:
     if questHelpFlag8Melanie == False:
         $ questHelpFlag8Melanie = True
         $ questHelp("melanie_2")
+#        $ questHelp("office_18")
         $ questHelp("photoshoot_4", True)
+        $ questHelpDesc("photoshoot_desc4", False)
     return
 
 label ep23_dialogues6:

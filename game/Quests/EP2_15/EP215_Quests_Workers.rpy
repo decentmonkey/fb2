@@ -17,5 +17,6 @@ label ep215_quests_workers1_after_check:
     $ remove_hook(label="ep215_quests_workers1_after_check")
     $ ep212_quests_photoshoot9_after_init_planned = False
     call ep215_dialogues4_julia_3() from _rcall_ep215_dialogues4_julia_3
+    $ questHelp("office_45a", True)
     call change_scene("working_office") from _rcall_change_scene_175
     return

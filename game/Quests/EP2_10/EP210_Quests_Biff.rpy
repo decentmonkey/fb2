@@ -9,7 +9,11 @@ default ep22_quests_monica_presentation_completed_day = -1
 label ep22_quests_biff_init:
     call ep210_dialogues1_office_biff_1() from _call_ep210_dialogues1_office_biff_1
     if _return == False:
+        $ questHelp("office_32", False)
         return
+    $ questHelp("office_32", True)
+    $ questHelp("office_33")
+
     $ ep22_quests_monica_agreed_change_cloth = True
     $ add_objective("visit_biff_tomorrow", t_("Зайти завтра к Бифу, узнать про работу."), c_blue, 35)
     $ add_hook("Biff", "ep22_quests_biff1", scene="monica_office_cabinet_table", label="ep22_quests_biff1")
@@ -31,9 +35,12 @@ label ep22_quests_biff1:
     $ remove_hook(label="ep22_quests_biff1_exit") # Разблокируем выход независимо от результата разговора
     call ep210_dialogues1_office_biff_3() from _call_ep210_dialogues1_office_biff_3
     if _return == False:
+        $ questHelp("office_34", False)
         call change_scene("monica_office_cabinet") from _call_change_scene_490
         return False
 
+    $ questHelp("office_33", True)
+    $ questHelp("office_34")
     $ ep22_quests_biff2_day = day
     $ add_objective("visit_biff_presentation", t_("Провести презентацию журнала в кабинете Бифа."), c_orange, 55)
     $ add_hook("before_open", "ep22_quests_biff2", scene="monica_office_cabinet_table", label="ep22_quests_biff2")
@@ -59,6 +66,7 @@ label ep22_quests_biff2:
         return
     call ep210_dialogues1_office_biff_4() from _call_ep210_dialogues1_office_biff_4
     call ep210_dialogues1_office_biff_5() from _call_ep210_dialogues1_office_biff_5 # Разговор с Бифом
+    
     $ questHelp("office_34", True)
     $ questHelp("philip_3")
     $ ep22_quests_monica_presentation_completed = True

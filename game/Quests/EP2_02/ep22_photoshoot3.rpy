@@ -748,6 +748,17 @@ label ep22_photoshoot3_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
+    $ shotsAmountCompleted = len(list(set(PS3_shoots_array)))
+#    $ shotsTotalAmount
+    if questHelpFlag20 == False:
+        $ questHelpFlag20 = True
+        $ questHelpDesc("photoshoot_desc3", "photoshoot_desc10")
+#    $ questHelp("office_16", skipIfExists=True)
+    $ questHelp("photoshoot_10", skipIfExists=True)
+    $ questHelp("photoshoot_3", True)
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_10", True)
+
     $ monicaOutfitsEnabled[3] = True # Открываем следующий костюм
     music Stealth_Groover
     img 8434

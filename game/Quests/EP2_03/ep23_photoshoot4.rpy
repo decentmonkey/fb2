@@ -641,6 +641,15 @@ label ep22_photoshoot4_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
+    if questHelpFlag21 == False:
+        $ questHelpFlag21 = True
+        $ questHelpDesc("photoshoot_desc3a", "photoshoot_desc10a")
+    $ questHelp("photoshoot_3a", True)
+    $ questHelp("photoshoot_10a", skipIfExists=True)
+    $ shotsAmountCompleted = len(list(set(PS4_shoots_array)))
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_10a", True)
+
     music Stealth_Groover
     img 8879
     with fadelong

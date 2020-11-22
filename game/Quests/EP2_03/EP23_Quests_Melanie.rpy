@@ -22,6 +22,7 @@ label ep23_quests_melanie1: # Моника подходит первый раз 
     else:
         $ monicaOutfitsEnabled[4] = True # Открываем фотосессию с Мелани
         $ questHelp("photoshoot_4")
+        $ questHelpDesc("photoshoot_desc4")
     $ add_hook("Melanie", "ep23_quests_melanie2", scene="monica_office_photostudio")
 
     $ add_object_to_scene("Teleport_Monica_Office_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "monica_office_photostudio_teleport", "xpos" : 276, "ypos" : 983, "zorder":12, "teleport":True})
@@ -184,6 +185,7 @@ label ep23_quests_melanie_disappeared2:
         $ questLog(29, False)
         $ questLog(27, True)
         $ melanieDisappeared = True
+        $ questHelp("photoshoot_5", skipIfExists=True)
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
         call ep24_quests_steve1() from _call_ep24_quests_steve1_2 # Планируем приход Стива
         $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")

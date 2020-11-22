@@ -26,6 +26,10 @@ label ep211_quests_publicevent2_1:
         $ autorun_to_object("ep211_dialogues2_public_event_41", scene="monica_office_cabinet")
         return False
 
+    $ questHelp("office_35", True)
+    $ questHelp("office_36")
+    $ questHelpDesc("office_desc10", "office_desc11")
+
     $ add_hook("Biff", "ep211_quests_publicevent2_2", scene="monica_office_cabinet_table", label="public_event2") # Разговор с Бифом на следующий день
     $ questsPublicEvent2Stage = 1
     $ questsPublicEvent2StageDay = day
@@ -66,6 +70,8 @@ label ep211_quests_publicevent2_3_alex:
     call ep211_dialogues2_public_event_6() from _rcall_ep211_dialogues2_public_event_6
     call ep211_dialogues2_public_event_7() from _rcall_ep211_dialogues2_public_event_7
     call locations_init_public_event2() from _rcall_locations_init_public_event2
+    $ questHelp("office_36", True)
+    $ questHelp("office_37")
     $ set_active("Investor1", False, scene="public_event2")
     $ set_active("PublicGuest7", False, scene="public_event2")
     $ set_active("PublicGuest8", False, scene="public_event2")
@@ -160,6 +166,8 @@ label ep211_quests_publicevent2_3_guest56:
         call ep211_dialogues2_public_event_21() from _rcall_ep211_dialogues2_public_event_21
         $ ep211_quests_publicevent2_3_guest56_flag = True
         call ep211_dialogues2_public_event_23() from _rcall_ep211_dialogues2_public_event_23 # интервью прессе
+        $ questHelp("office_38", skipIfExists=True)
+
         if "PublicGuest5" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest5")
         if "PublicGuest6" in ep211_quests_guests_progress:
@@ -176,6 +184,8 @@ label ep211_quests_publicevent2_3_guest7:
     hide screen Reporters_Shoots_Screen4_low
     music2 stop
     call ep211_dialogues2_public_event_33() from _rcall_ep211_dialogues2_public_event_33
+    $ questHelp("office_40", True)
+    $ questHelp("office_41", skipIfExists=True)
     $ set_active("PublicGuest7", False)
     if "PublicGuest7" in ep211_quests_guests_progress:
         $ ep211_quests_guests_progress.remove("PublicGuest7")
@@ -189,6 +199,8 @@ label ep211_quests_publicevent2_3_guest_girlfriends:
         hide screen Reporters_Shoots_Screen4_low
         music2 stop
         call ep211_dialogues2_public_event_25() from _rcall_ep211_dialogues2_public_event_25
+        $ questHelp("office_38", True)
+        $ questHelp("office_39", skipIfExists=True)
         $ ep211_quests_publicevent2_3_guest_girlfriends_stage = 1
         $ set_active("PublicGuest8", True)
         $ add_objective("talk_terner", t_("Поговорить с Тернером."), c_blue, 105)
@@ -218,6 +230,8 @@ label ep211_quests_publicevent2_3_guest8: #звезда
         hide screen Reporters_Shoots_Screen4_low
         music2 stop
         call ep211_dialogues2_public_event_28() from _rcall_ep211_dialogues2_public_event_28
+        $ questHelp("office_39", True)
+        $ questHelp("office_40", skipIfExists=True)
         $ remove_objective("talk_terner")
         $ add_objective("talk_girlfriends", t_("Вернуться к Ребекке и Стефани."), c_pink, 105)
         $ ep211_quests_publicevent2_3_guest8_flag = True
@@ -235,6 +249,8 @@ label ep211_quests_publicevent2_3_investor1:
     hide screen Reporters_Shoots_Screen4_low
     music2 stop
     call ep211_dialogues2_public_event_35() from _rcall_ep211_dialogues2_public_event_35
+    $ questHelp("office_41", True)
+    $ questHelp("office_42", skipIfExists=True)
     $ remove_objective("talk_people")
     music2 stop
     $ renpy.music.set_volume(1.0, 0.0, 'music2')
@@ -291,6 +307,8 @@ label ep211_quests_publicevent2_photoshoot2: # Моника одела плат�
     call ep211_dialogues3_photoshoot_3() from _rcall_ep211_dialogues3_photoshoot_3
     call ep211_dialogues3_photoshoot_4() from _rcall_ep211_dialogues3_photoshoot_4
     if _return == False:
+        $ questHelp("office_42", False)
+        $ questHelp("photoshoot_13", False)
         $ monicaPhotoShootInProgress = False
         $ monicaOutfitsAltEnabled = False
         $ miniMapEnabledOnly = []
@@ -302,7 +320,10 @@ label ep211_quests_publicevent2_photoshoot2: # Моника одела плат�
         call putoff_work_clothes() from _rcall_putoff_work_clothes_2
         call change_scene("street_monica_office", "Fade_long", False) from _rcall_change_scene_22
         return False
-
+    $ questHelp("office_42", True)
+    $ questHelp("photoshoot_13")
+    $ questHelpDesc("photoshoot_desc13")
+    
     call change_scene("monica_office_cabinet_table") from _rcall_change_scene_23
     jump ep211_quests_publicevent2_photoshoot3
 #    return False

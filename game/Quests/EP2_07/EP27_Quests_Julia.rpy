@@ -66,11 +66,17 @@ label ep27_quests_julia2: # Проверка на первый приход Фр
     call ep27_dialogues6_julia3() from _call_ep27_dialogues6_julia3
     if _return == True:
         $ autorun_to_object("ep27_dialogues6_julia4", scene="working_office_cabinet")
+        $ questHelp("office_27", True)
+        $ questHelp("office_28", True)
+        $ questHelp("julia_1", skipIfExists=True)
+        $ questHelpDesc("julia_desc1")
         $ questLog(47, True)
         $ juliaQuestStage0_Progress = 1
         $ juliaQuestStarted = True
         call characters_init_julia() from _call_characters_init_julia
     else:
+        $ questHelp("julia_1", False)
+        $ questHelp("office_28", False)
         $ juliaQuestRefused = True
         $ remove_hook(label="ep29_quests_julia3_workers")
 

@@ -22,8 +22,9 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
 #        call refresh_scene_fade()
         return
 
-    if questHelpFlag6Noir == False:
-        $ questHelp("photoshoot_2")
+#    if questHelpFlag6Noir == False:
+    $ questHelp("photoshoot_2", skipIfExists=True)
+    $ questHelp("photoshoot_3", skipIfExists=True)
     # Инициализируем фотосессию
     $ move_object("AlexPhotograph", "monica_office_photostudio")
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия
@@ -105,12 +106,14 @@ label ep22_quests_office4_l1:
         call ep26_photoshoot_suit6() from _call_ep26_photoshoot_suit6
         call ep26_photoshoot_suit6_end() from _call_ep26_photoshoot_suit6_end
         $ monicaOutfitsEnabled[6] = True # Открываем следующий костюм
+        $ questHelp("photoshoot_6", skipIfExists=True)
         call ep26_quests_biff1() from _call_ep26_quests_biff1 # Инициализируем разговор о работе в офисе + возвращение Мелани
         $ photoshoot6_count += 1
     if monicaPhotoShootOutfitIdx == 7:
         call ep26_photoshoot_suit7() from _call_ep26_photoshoot_suit7
         call ep26_photoshoot_suit7_end() from _call_ep26_photoshoot_suit7_end
         $ photoshoot7_count += 1
+        $ questHelp("photoshoot_7", skipIfExists=True)
         $ monicaOutfitsEnabled[7] = True # Открываем следующий костюм
     if monicaPhotoShootOutfitIdx == 8:
         call ep27_photoshoot_suit8() from _call_ep27_photoshoot_suit8

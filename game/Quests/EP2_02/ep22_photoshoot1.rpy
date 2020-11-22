@@ -471,6 +471,11 @@ label ep22_photoshoot1_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
+    $ shotsAmountCompleted = len(list(set(PS1_shoots_array)))
+    $ questHelp("photoshoot_8a", skipIfExists=True)
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_8a", True)
+
     music Stealth_Groover
     img 6632
     with fadelong
@@ -510,6 +515,9 @@ label ep22_photoshoot1_casting:
     with Dissolve(0.5)
 
     $ shotsAmountCompleted = len(list(set(PS1_shoots_array)))
+    $ questHelp("photoshoot_8a", skipIfExists=True)
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_8a", True)
 #    $ shotsTotalAmount
 
 

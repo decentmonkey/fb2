@@ -587,9 +587,22 @@ label ep22_photoshoot2_end:
     music Stealth_Groover
     $ monicaOutfitsEnabled[2] = True # Открываем следующий костюм
 
+    $ questHelp("photoshoot_3", skipIfExists=True)
     if questHelpFlag7Worker == False:
-        $ questHelp("photoshoot_3")
         $ questHelpDesc("photoshoot_desc3")
+
+    $ shotsAmountCompleted = len(list(set(PS2_shoots_array)))
+    $ questHelp("photoshoot_2", True)
+#    $ questHelp("office_14", skipIfExists=True)
+
+    if questHelpFlag19 == False:
+        $ questHelpFlag19 = True
+        $ questHelpDesc("photoshoot_desc2", "photoshoot_desc9")
+    $ questHelp("photoshoot_9", skipIfExists=True)
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_9", True)
+
+#    $ shotsTotalAmount
 
     img 8382
     with fadelong

@@ -921,6 +921,18 @@ label ep26_photoshoot_suit6_end:
     hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
+    if questHelpFlag22 == False:
+        $ questHelpFlag22 = True
+        $ questHelpDesc("photoshoot_desc5", "photoshoot_desc11")
+
+
+    $ shotsAmountCompleted = len(list(set(PS6_shoots_array)))
+#    $ shotsTotalAmount
+#    $ questHelp("office_20", skipIfExists=True)
+    $ questHelp("photoshoot_11", skipIfExists=True
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_11", True)
+
     music Groove2_85
     img 20072
     with fadelong

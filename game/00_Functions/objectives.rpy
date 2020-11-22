@@ -32,6 +32,13 @@ default questHelpFlag15 = False
 default questHelpFlag16 = False
 default questHelpFlag17 = False
 default questHelpFlag18 = False
+default questHelpFlag19 = False
+default questHelpFlag20 = False
+default questHelpFlag21 = False
+default questHelpFlag22 = False
+default questHelpFlag23 = False
+default questHelpFlag24 = False
+default questHelpFlag25 = 0
 
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):

@@ -71,6 +71,9 @@ label ep214_quests_pub5:
     call ep214_dialogues1_pub_7() from _rcall_ep214_dialogues1_pub_7
     call ep214_dialogues1_pub_8() from _rcall_ep214_dialogues1_pub_8
     call ep214_dialogues1_pub_9() from _rcall_ep214_dialogues1_pub_9
+    $ questHelp("office_46", True)
+    $ questHelp("shinyhole_39", skipIfExists=True)
+    $ questHelpDesc("shinyhole_desc13", "shinyhole_desc14")
     $ questLog(76, False)
     $ questLog(77, True)
     $ remove_objective("talk_claire")

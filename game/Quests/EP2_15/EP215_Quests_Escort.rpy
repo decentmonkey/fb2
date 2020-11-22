@@ -84,12 +84,18 @@ label ep215_quests_escort3_dating: # свидание
     call ep215_dialogues3_escort_5() from _rcall_ep215_dialogues3_escort_5 # Моника идет в гримерку, чтобы переодеться
     call ep215_dialogues3_escort_7() from _rcall_ep215_dialogues3_escort_7 # холл, возле лифта
     call ep215_dialogues3_escort_8() from _rcall_ep215_dialogues3_escort_8 # ресторан (новая локация)
+    $ questHelp("office_45", True)
+    $ questHelp("office_50")
     if _return == 1:
         # Моника вынудила инвестора дать согласие на инвестирование при его жене
+        $ questHelp("office_50", True)
+        $ questHelp("office_52")
         $ questHelp("escort_10", False)
         $ questHelp("escort_12", False)
         pass
     else:
+        $ questHelp("office_50", False)
+        $ questHelp("office_52")
 
         $ monicaEscortLastDay = day
         call ep215_dialogues3_escort_9() from _rcall_ep215_dialogues3_escort_9 # Ле Гранд, ресепшн
@@ -133,6 +139,8 @@ label ep215_quests_escort3_dating: # свидание
                     else:
                         $ autorun_to_object("ep215_dialogues3_escort_16", scene="street_monica_office")
     $ ep215_quests_escort_completed_day = day
+    $ questHelp("office_52", True)
+    $ questHelp("office_53")
     $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_24_block", scene="street_monica_office", label="evening_time_temp")
     call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_171
     return False

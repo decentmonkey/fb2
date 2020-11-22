@@ -48,6 +48,12 @@ label ep27_quests_office3:
 
     call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports # Сбрасываем отчеты
 
+
+    $ questHelp("office_29", True)
+    $ questHelp("office_31", skipIfExists=True)
+    $ questHelp("office_32", skipIfExists=True)
+    $ questHelpDesc("office_desc9", "office_desc10")
+
     # Инитим сбор отчетов у воркеров
     $ add_hook_multi("ep27_quests_office_workers1", scene="working_office", label="monica_flash_card_quest1", filter={"group":"workers"})
     $ add_hook_multi("ep27_quests_office_workers1", scene="working_office2", label="monica_flash_card_quest1", filter={"group":"workers"})
@@ -87,6 +93,7 @@ label ep27_quests_office6_return_reports_teleport: # Перехват возвр
     call ep27_dialogues4_biff8() from _call_ep27_dialogues4_biff8
     call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports_1 # Сбрасываем отчеты
     call change_scene("monica_office_secretary") from _call_change_scene_375
+    $ questHelp("office_31", True)
     $ remove_objective("reports_to_biff")
     $ add_objective("reports_to_biff", t_("Биф просил зайти к нему после сдачи отчетов."), c_orange, 20)
     return False

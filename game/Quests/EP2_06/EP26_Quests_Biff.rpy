@@ -30,6 +30,10 @@ label ep26_quests_biff2:
     if _return == False:
         call change_scene("monica_office_secretary") from _call_change_scene_320
         return False
+    $ questHelp("office_24", True)
+    $ questHelp("melanie_7")
+    $ questHelp("office_25")
+    $ questHelpDesc("melanie_desc6", "melanie_desc7")
     # Начинаем подготовку к работе
     # Моника идет к секретарше
 
@@ -80,6 +84,10 @@ label ep26_quests_biff5:
     $ remove_hook()
     call ep26_dialogues5_office1_4() from _call_ep26_dialogues5_office1_4
     $ remove_hook(label="biff_work_block3")
+
+    $ questHelp("office_25", True)
+    $ questHelp("office_26")
+    $ questHelpDesc("office_desc9")
 
     # возвращаем Мелани
     call ep26_quests_melanie1() from _call_ep26_quests_melanie1

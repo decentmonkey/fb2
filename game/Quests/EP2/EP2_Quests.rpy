@@ -227,6 +227,9 @@ label monica_office_photoshot1:
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_dialogue9", scene="monica_office_secretary", label="after_photoshot")
     $ add_hook("Biff", "monica_office_photoshot1_biff_talk1", scene="monica_office_cabinet_table", label="biff3")
     $ questHelp("office_5")
+    $ questHelp("photoshoot_1", True)
+    $ questHelpDesc("photoshoot_desc1", "photoshoot_desc8a")
+    $ questHelp("photoshoot_8a")
     return False
 
 label monica_office_photoshot1_biff_talk1:
