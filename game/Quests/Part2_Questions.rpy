@@ -299,6 +299,7 @@ label part2_questions_init_loadgame:
 
     #pub
 
+    $ ep29_quests_dancing_with_claire_active = False
     $ monicaDancingWillingly = True
     $ pubMonicaWorkingWaitress = True
     if monicaPubWashingDishesCount == 0:

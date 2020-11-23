@@ -322,6 +322,7 @@ label start:
     $ ep214_quests_citizens_stage2 = True
 
     # pub
+    $ ep29_quests_dancing_with_claire_active = False
     $ monicaDancingWillingly = True
     $ pubMonicaWorkingWaitress = True
     if monicaPubWashingDishesCount == 0:
