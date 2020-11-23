@@ -287,6 +287,7 @@ label start:
     $ biffLevel3Opened = True
 
     $ monicaWorkingAtBiffOffice = True
+    $ ep27_quests_flash_quest1_inited = True
 
     $ makeupRoomMelanieSuffix = 2
     $ monicaOfficeWhiskeyOnTable = True

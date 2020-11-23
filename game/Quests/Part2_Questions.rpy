@@ -262,6 +262,7 @@ label part2_questions_init_loadgame:
     $ biffLevel3Opened = True
 
     $ monicaWorkingAtBiffOffice = True
+    $ ep27_quests_flash_quest1_inited = True
 
     $ makeupRoomMelanieSuffix = 2
     $ monicaOfficeWhiskeyOnTable = True
