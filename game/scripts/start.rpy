@@ -266,6 +266,7 @@ label start:
     $ monicaMustNotWearPanties = True
 
     # Office
+    $ monicaEarnedWeeklyMoney = True
     $ monicaOfficeBiffMelanie = False
     $ monicaOutfitsEnabled[7] = True
     $ monicaOutfitsEnabled[8] = True
@@ -327,6 +328,7 @@ label start:
         $ monicaPubWashingDishesCount = 10
     if monica_shiny_hole_queen_day == 0:
         $ monica_shiny_hole_queen_day = 210
+    $ monicaWorkingAsDishwasher = True
     $ ep29_quests_pub_monica_knows_claire = True
     $ ep29_quests_pub_monica_knows_molly = True
     $ stage_Monica_shoots_array = ["1up", "1side", "1down", "2up", "2side", "2down", "3up", "3side", "3down", "4up", "4side", "4down", "5up", "5side", "5down", "6up", "6side", "6down", "7up", "7side", "7down", "8up", "8side", "8down", "9up", "9side", "9down", "18up", "18side", "18down", "19up", "19side", "19down", "20up", "20side", "20down", "21up", "21side", "21down", "22up", "22side", "22down", "23up", "23side", "23down", "24up", "24side", "24down", "25up", "25side", "25down", "26side"]
