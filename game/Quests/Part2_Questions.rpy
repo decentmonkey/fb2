@@ -30,7 +30,6 @@ label part2_questions_init_loadgame:
     $ owner = "Monica"
 #    call game_init()
 
-
     $ ep2p2_flag1 = check_hook("ep22_quests_Dick7", scene="global_week_day")
 
     $ episode2part2_initialized = True
