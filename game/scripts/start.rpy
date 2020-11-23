@@ -293,6 +293,16 @@ label start:
 
     $ monicaEarnedWeeklyMoneySkip = False
 
+    $ ep211_quests_publicevent2_completed = True
+    $ ep213_quests_biff1_inited = True
+    $ ep213_presentation2_completed_day = 210
+    $ ep211_quests_photoshot8_opened_day = 210
+    $ ep215_quests_escort_initialized = True
+    $ monicaNeedToAskMelanieForHelp = False
+
+    $ biffLevel3Opened = True
+    
+
     #escort
     $ ep215_quests_escort_completed_day = 10
     $ monicaEscortRevengeGirl2 = True

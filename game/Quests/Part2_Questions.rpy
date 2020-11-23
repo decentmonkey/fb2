@@ -266,6 +266,16 @@ label part2_questions_init_loadgame:
     $ makeupRoomMelanieSuffix = 2
     $ monicaOfficeWhiskeyOnTable = True
 
+    $ ep211_quests_publicevent2_completed = True
+    $ ep213_quests_biff1_inited = True
+    $ ep213_presentation2_completed_day = 210
+    $ ep211_quests_photoshot8_opened_day = 210
+    $ ep215_quests_escort_initialized = True
+
+    $ monicaNeedToAskMelanieForHelp = False
+
+    $ biffLevel3Opened = True
+
     #escort
     if ep215_quests_escort_completed_day == 0:
         $ ep215_quests_escort_completed_day = 10
@@ -572,6 +582,7 @@ label part2_questions_process(new_game_started):
                 $ monicaBoughtCasualDress1 = False
                 $ monicaKickedVivianForDress = False
                 $ monicaAgreedToSellDress = True
+                $ shopVisitorStage10 = 3
                 $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4c", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
                 imgf 11219
                 help "Моника заставила покупатели купить платье силой или сделала что он требовал?"
@@ -587,6 +598,7 @@ label part2_questions_process(new_game_started):
                 $ monicaBoughtCasualDress1 = True
                 $ monicaKickedVivianForDress = False
                 $ monicaAgreedToSellDress = False
+                $ shopVisitorStage10 = 0
                 $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
 
             "Моника ударила продавщицу и убежала.":
@@ -594,6 +606,7 @@ label part2_questions_process(new_game_started):
                 $ monicaBoughtCasualDress1 = False
                 $ monicaKickedVivianForDress = True
                 $ monicaAgreedToSellDress = False
+                $ shopVisitorStage10 = 0
                 $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4", scene="street_cloth_shop", label="cloth_shop_enter_refuse")
         $ ep22_questions_answered_count += 1
 
@@ -971,12 +984,16 @@ label part2_questions_process(new_game_started):
         menu:
             "Монике это не нравится, но тело - это самый главный инструмент для решения ее проблем.":
                 $ corruption = 800
+                $ biffCastingStage = 7
             "Моника периодически позволяла использовать свое тело для достижения целей.":
                 $ corruption = 500
+                $ biffCastingStage = 5
             "Моника лишь иногда соглашалась на небольшие вольности в отношении себя.":
                 $ corruption = 200
+                $ biffCastingStage = 3
             "Моника избегала любых пикантных ситуаций":
                 $ corruption = 100
+                $ biffCastingStage = 0
         help "Сколько денег Монике удалось скопить?"
         menu:
             "$ 50":
