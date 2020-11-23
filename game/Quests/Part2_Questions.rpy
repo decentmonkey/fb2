@@ -650,7 +650,7 @@ label part2_questions_process(new_game_started):
 
         $ ep22_questions_answered_count += 1
 
-    if juliaQuestMonicaRefusedFred == False or juliaQuestRefused == False:
+    if juliaQuestMonicaRefusedFred == True or juliaQuestRefused == True:
         $ char_info["Julia"]["level"] = 1
         $ char_info["Julia"]["current_progress"] = 0
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
