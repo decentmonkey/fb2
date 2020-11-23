@@ -352,7 +352,8 @@ label part2_questions_init_loadgame:
     $ monica_tint = [1.0, 1.0, 1.0]
     $ bettyOffendedBardieKitchen = True
 
-    $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
+    if monicaEarnedWeeklyMoney == False:
+        $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
 
     $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
 
