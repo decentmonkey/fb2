@@ -246,6 +246,7 @@ label dialogue_doublephoto_1:
     with fade
     bardie "Вы на сегодня свободны. Можете идти."
     $ monicaMadeDoublePhotoBetty = True
+    $ questHelp("house_25", True)
     $ questHelp("house_26")
     return
 

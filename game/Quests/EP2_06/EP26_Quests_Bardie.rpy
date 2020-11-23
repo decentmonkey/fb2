@@ -13,6 +13,7 @@ label ep26_quests_bardie1:
         return
 
     # Барди шантажирует Бетти. Может быть я могу использовать это?
+    $ questHelp("house_17", skipIfExists=True)
     $ questLog(44, True)
     $ add_hook("Bardie_Life_day", "Bardie_Life_Day6", scene="global", label="bardie_day_street_yard") # Барди днем все время во дворе
     $ add_hook("before_open", "ep26_quests_bardie2", scene="bedroom_bardie") # Разговор с Барди в комнате

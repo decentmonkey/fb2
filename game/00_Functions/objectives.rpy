@@ -122,11 +122,21 @@ init python:
             questHelpUpdatedDay = day
         return
 
+    def questHelpRemove(questName):
+        global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day
+        for questCategory in questHelpData:
+            for idx in range(len(questHelpData[questCategory])-1, -1, -1):
+                if questHelpData[questCategory][idx][0] == questName:
+                    del questHelpData[questCategory][idx]
+        return
+
+
     def questHelpDesc(*args): #questHelpDescriptionName, True/False, либо нет аргумента, значит True
         global questHelpDataCategoriesDescriptions, questHelpDataCategoriesDescriptionsData
         questHelpDescriptionName = args[0]
         if len(args) > 1:
-            if isinstance(args[1], str) == True:
+            if isinstance(args[1], (int, float)) == False:
+#            if isinstance(args[1], str) == True:
                 questHelpDesc(args[0], False)
                 questHelpDesc(args[1], True)
                 return

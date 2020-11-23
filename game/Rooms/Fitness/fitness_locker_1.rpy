@@ -52,6 +52,7 @@ label fitness_locker_1_environment:
             if questHelpFlag11 == False:
                 $ questHelpFlag11 = True
                 $ questHelp("fitness_1", True)
+                $ questHelp("fitness_1a")
                 $ questHelp("house_11")
                 $ questHelpDesc("house_desc3", "house_desc7")
                 $ questHelpDesc("fitness_desc1")
@@ -65,6 +66,7 @@ label fitness_locker_1_environment:
             if questHelpFlag11 == False:
                 $ questHelpFlag11 = True
                 $ questHelp("fitness_1", True)
+                $ questHelp("fitness_1a")
                 $ questHelp("house_11")
                 $ questHelpDesc("house_desc3", "house_desc7")
                 $ questHelpDesc("fitness_desc1")
@@ -80,6 +82,7 @@ label fitness_locker_1_environment:
             if questHelpFlag11 == False:
                 $ questHelpFlag11 = True
                 $ questHelp("fitness_1", True)
+                $ questHelp("fitness_1a")
                 $ questHelp("house_11")
                 $ questHelpDesc("house_desc3", "house_desc7")
                 $ questHelpDesc("fitness_desc1")

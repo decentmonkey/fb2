@@ -18,6 +18,7 @@ label ep24_quests_bardie1:
     call ep24_dialogues1_bardie() from _call_ep24_dialogues1_bardie
     if _return == False:
         $ add_hook("Bardie", "ep24_quests_bardie2", scene="bedroom_bardie")
+        $ questHelp("house_11", False)
     else:
         $ questLog(34, True)
         $ questHelp("house_12")
@@ -156,6 +157,10 @@ label ep24_quests_bardie9:
     $ remove_hook(label="bardie_fitness")
     $ add_hook("Bardie", "ep24_quests_bardie9a", scene="bedroom_bardie", label="bardie_fitness")
     call ep24_dialogues4_bardie1() from _call_ep24_dialogues4_bardie1
+    $ questHelp("house_9", True)
+#    if melanieDisappeared == False:
+#        $ questHelp("house_9a")
+
     $ bettyBardieFitnessStage += 1
     $ add_char_progress("Bardie", 25, "bardie_fitness" + str(bettyBardieFitnessStage))
     if bettyBardieFitnessStage == 4:

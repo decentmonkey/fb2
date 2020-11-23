@@ -14,7 +14,7 @@ label ep28_betty_college_init:
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     call change_scene("floor2", "Fade_long") from _call_change_scene_390
-    $ questHelp("house_20")
+    $ questHelp("house_20", True)
     $ questHelp("college_1")
     $ add_hook("change_time_day", "ep28_betty_college2", scene="global", label="ep28_betty_college2", priority=99)
     return
@@ -354,6 +354,7 @@ label ep28_betty_college2_teacher_day3c:
     img black_screen
     with diss
     pause 2.5
+    $ questHelp("house_24", True)
     $ hudDaySkipToEveningEnabled = True
     $ cloth = "Governess"
     $ cloth_type = "Governess"

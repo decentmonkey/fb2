@@ -12,13 +12,15 @@ label ep23_quests_melanie1: # Моника подходит первый раз 
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_95
         return False
-    $ questHelp("office_17")
+#    $ questHelp("office_17")
     $ questHelpDesc("melanie_desc1", "melanie_desc2")
     $ questHelp("melanie_1", True)
 
     $ monicaNeedToAskMelanieForHelp = False
     if monicaOutfitsEnabled[3] == False:
         $ melanieWaitingOpenedOutfits = True #Если костюм еще не открыт, то запускаем открытие по достижению костюма 4
+        $ questHelp("melanie_1", True)
+        $ questHelp("melanie_1a")
     else:
         $ monicaOutfitsEnabled[4] = True # Открываем фотосессию с Мелани
         $ questHelp("photoshoot_4")
@@ -185,6 +187,7 @@ label ep23_quests_melanie_disappeared2:
         $ questLog(29, False)
         $ questLog(27, True)
         $ melanieDisappeared = True
+        $ questHelp("house_9a", True)
         $ questHelp("photoshoot_5", skipIfExists=True)
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
         call ep24_quests_steve1() from _call_ep24_quests_steve1_2 # Планируем приход Стива

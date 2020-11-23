@@ -647,9 +647,9 @@ label cleaning2_bardie_comment1:
                 call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-                if questHelpFlag2 == False:
-                    $ questHelpFlag2 = True
-                    $ questHelp("house_17")
+#                if questHelpFlag2 == False:
+#                    $ questHelpFlag2 = True
+#                    $ questHelp("house_17")
 #    music Pyro_Flow high
     # Моника
     $ restore_music()
@@ -745,9 +745,9 @@ label cleaning2_bardie_comment2:
                 call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2_1 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-                if questHelpFlag2 == False:
-                    $ questHelpFlag2 = True
-                    $ questHelp("house_17")
+#                if questHelpFlag2 == False:
+#                    $ questHelpFlag2 = True
+#                    $ questHelp("house_17")
 #    music Pyro_Flow
 #    music Marty_Gots_a_Plan high
     $ restore_music()
@@ -847,9 +847,9 @@ label cleaning2_bardie_comment3:
                 call ep24_dialogues4_bardie2() from _call_ep24_dialogues4_bardie2_2 # замечание
             else:
                 bardie "Молодец, гувернантка. Ты соблюдаешь правила дома."
-                if questHelpFlag2 == False:
-                    $ questHelpFlag2 = True
-                    $ questHelp("house_17")
+#                if questHelpFlag2 == False:
+#                    $ questHelpFlag2 = True
+#                    $ questHelp("house_17")
 #    music Pyro_Flow high
 #    $ add_corruption(bardieCleaning2UpskirtCorruption, "bardie_monica_upskirt_corruption_day_" + str(day))
     $ restore_music()

@@ -84,6 +84,7 @@ label bettyProgressLevelUp1:
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
         $ char_data["show_caption_diabled"] = True
+        $ questHelp("fitness_1a", True)
 #        $ char_data["caption_diabled"] = t_("Work in progress...")
         call ep24_quests_bardie1b() from _call_ep24_quests_bardie1b
 
@@ -94,8 +95,10 @@ label bettyProgressLevelUp1:
             $ char_data["caption_diabled"] = t_("Ожидание дальнейшего прогресса сюжета игры...")
             $ char_data["show_caption_diabled"] = True
             return
+        $ questHelp("house_15", True)
         call ep24_quests_betty5() from _call_ep24_quests_betty5
     if char_data["level"] == 6:
+        $ questHelpDesc("house_desc12", False)
         $ char_data["enabled"] = False
         $ char_data["show_caption_diabled"] = False
         $ char_data["caption_diabled"] = t_("Work in progress...")
