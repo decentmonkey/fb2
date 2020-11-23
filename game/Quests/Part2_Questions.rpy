@@ -239,7 +239,7 @@ label part2_questions_init_loadgame:
     $ monicaMustNotWearPanties = True
 
     # Office
-    $ monicaEarnedWeeklyMoney = True
+#    $ monicaEarnedWeeklyMoney = True
     $ monicaOfficeBiffMelanie = False
     $ monicaOutfitsEnabled[7] = True
     $ monicaOutfitsEnabled[8] = True

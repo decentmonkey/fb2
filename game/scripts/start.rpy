@@ -266,7 +266,7 @@ label start:
     $ monicaMustNotWearPanties = True
 
     # Office
-    $ monicaEarnedWeeklyMoney = True
+#    $ monicaEarnedWeeklyMoney = True
     $ monicaOfficeBiffMelanie = False
     $ monicaOutfitsEnabled[7] = True
     $ monicaOutfitsEnabled[8] = True
