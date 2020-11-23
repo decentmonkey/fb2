@@ -10,6 +10,8 @@ default ep212_quests_alex_cummed_area = -1
 label ep212_quests_melanie_check: # Проверка на приход Мелани во время работы
     if ep212_quests_melanie_inited == True:
         return
+    if ep27_melanie_refused_victoria_friendship == True:
+        return
     if ep211_quests_publicevent2_completed != True or ep29_quests_victoria_event_completed != True:
         return
     $ ep212_quests_melanie_inited = True

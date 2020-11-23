@@ -301,7 +301,12 @@ label start:
     $ monicaNeedToAskMelanieForHelp = False
 
     $ biffLevel3Opened = True
-    
+
+    $ ep29_quests_melanie_started = True
+    $ ep212_quests_melanie_inited = True
+    $ ep213_quests_victoria1_init_flag = True
+    $ ep27_melanie_visited_victoria = True
+    $ ep27_melanie_refused_victoria_friendship = False
 
     #escort
     $ ep215_quests_escort_completed_day = 10

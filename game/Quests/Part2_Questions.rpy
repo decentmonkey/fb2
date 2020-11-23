@@ -276,6 +276,10 @@ label part2_questions_init_loadgame:
 
     $ biffLevel3Opened = True
 
+    $ ep29_quests_melanie_started = True
+    $ ep212_quests_melanie_inited = True
+    $ ep213_quests_victoria1_init_flag = True
+
     #escort
     if ep215_quests_escort_completed_day == 0:
         $ ep215_quests_escort_completed_day = 10
@@ -491,11 +495,15 @@ label part2_questions_process(new_game_started):
                 $ ep27_melanie_visited_victoria = True
 
             "Мелани не стала общаться с ней.":
-                $ ep27_melanie_going_to_victoria = False
-                $ ep27_melanie_visited_victoria = False
-                $ del map_objects["Teleport_VictoriaHome"]
-                $ char_info["DickSecretary"]["caption"] = t_("Виктория ждет свои деньги еженедельно.")
+                $ ep27_melanie_refused_victoria_friendship = True
         $ ep22_questions_answered_count += 1
+
+    if ep27_melanie_refused_victoria_friendship == True:
+        $ ep27_melanie_visited_victoria = False
+        $ ep27_melanie_going_to_victoria = False
+        if map_objects.has_key("Teleport_VictoriaHome"):
+            $ del map_objects["Teleport_VictoriaHome"]
+        $ char_info["DickSecretary"]["caption"] = t_("Виктория ждет свои деньги еженедельно.")
 
     if ep27_melanie_going_to_victoria == True:
         if new_game_started == True or ep216_victoria_visit_day1 == False:
