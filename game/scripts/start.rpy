@@ -56,6 +56,12 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
 
+#########
+
+#    call ep217_dialogues1_escort_10() # квартира Кэндис, девичник
+
+#########
+
 
     call intro_questions() from _call_intro_questions
     $ ralphAskedAboutPayment = False

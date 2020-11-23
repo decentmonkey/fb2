@@ -215,3 +215,7 @@ define charlotte = Character(t_("Шарлотт"), who_color=c_red)
 define mia = Character(t_("Мия"), who_color=c_pink)
 
 define stranger = Character(t_("Незнакомец"), who_color=c_green) #stranger с веб-кам
+
+define adriano = Character(t_("Адриано"), who_color=c_blue)  # Адриано
+define candice = Character(t_("Кэндис"), who_color=c_green)  # girl_3 - шатенка с хвостом
+define abby = Character(t_("Эбби"), who_color=c_pink)  # girl_2 - рыжая с каре
