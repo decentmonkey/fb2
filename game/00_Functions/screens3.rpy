@@ -177,7 +177,8 @@ screen questhelp_screen():
                         # выводим квесты
                         # Сначала жирные или активные
 
-                        for idx in range(0, len(questHelpData[questHelpCurrentCategory])):
+#                        for idx in range(0, len(questHelpData[questHelpCurrentCategory])):
+                        for idx in range(len(questHelpData[questHelpCurrentCategory])-1, -1, -1):
                             $ questData = questHelpData[questHelpCurrentCategory][idx]
                             if questData[1] == 0 or (questHelpDataLastQuestsBold.has_key(questData[0]) == True and questHelpDataLastQuestsBold[questData[0]] == True): # если квест не жирный (не только что)
                                 python:

@@ -72,7 +72,7 @@ label ep28_monica_bardie_eric_meeting: # Знакомство с Эриком (�
     else:
         $ questHelp("house_26", False)
 
-        call ep28_monica_bardie_eric_college_init() from _call_ep28_monica_bardie_eric_college_init
+    call ep28_monica_bardie_eric_college_init() from _call_ep28_monica_bardie_eric_college_init
     call refresh_scene_fade() from _call_refresh_scene_fade_185
     return False
 
@@ -252,8 +252,6 @@ label ep28_monica_bardie_eric_college4_visit1_teacher:
         $ add_hook("enter_scene", "dialogue_classmate_5_1a", scene="street_college", once=True)
         $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_refuse", scene="floor2", label="bardie_eric_quest_day1b")
     else:
-        $ questHelp("college_5", True)
-        $ questHelp("college_6")
         $ questHelpDesc("college_desc2", "college_desc3")
         $ add_hook("enter_scene", "dialogue_classmate_5_1", scene="street_college", once=True)
         $ add_hook("Teleport_BedroomBardie", "ep28_monica_bardie_eric_college4_visit1_bardie_completed", scene="floor2", label="bardie_eric_quest_day1b")
@@ -296,12 +294,14 @@ label ep28_monica_bardie_eric_college4_visit1_bardie_completed: # Моника �
 #    return
     $ remove_hook()
     call dialogue_classmate_6() from _call_dialogue_classmate_6
+    $ questHelp("college_5", True)
+    $ questHelp("college_6")
+#    $ questHelp("house_28", skipIfExists=True)
     $ streetCollegeMonicaSuffix = 1
     $ ep28_monica_bardie_eric_college4_visit1_data = day
     $ remove_hook(label="bardie_eric_quest_day1block")
     $ add_hook("enter_scene", "dialogue_classmate_7", scene="street_college", once=True)
     $ add_hook("College", "ep28_monica_bardie_eric_college4_visit2", scene="street_college", label="bardie_eric_quest_day1") # снова активируем колледж день1
-    $ add_hook("Teleport_BedroomBardie", "ep28_monica_college_bardie_betty_lesbian_scene", scene="floor2", label="monica_betty_lesbian")
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
     $ remove_objective("go_to_bardie")
     $ autorun_to_object("dialogue_classmate_6a", scene="floor2")
@@ -326,8 +326,9 @@ label ep28_monica_college_bardie_betty_lesbian_scene: # Лесби сцена Б
     $ remove_hook()
     call dialogue_4_classmate_lesbian_1() from _call_dialogue_4_classmate_lesbian_1
 
-    $ questHelp("house_29")
+#    $ questHelp("house_29")
 
+    $ questHelp("house_28", True)
     $ add_hook("Teleport_BedroomBardie", "dialogue_classmate_1_1", scene="floor2", label=["evening_time_temp", "bardie_eric_quest_day1block"])
     $ autorun_to_object("dialogue_4_classmate_lesbian_1a", scene="floor2")
     $ monicaBettyLesbian = True

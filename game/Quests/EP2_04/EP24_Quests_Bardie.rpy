@@ -242,6 +242,7 @@ label ep24_quests_bardie15:
     call ep24_dialogues4_bardie4() from _call_ep24_dialogues4_bardie4
 
     $ questHelp("house_16b", True)
+    $ questHelpDesc("house_desc11", False)
 
     if _return != False:
         $ basement_bedroom2_MonicaSuffix = 2

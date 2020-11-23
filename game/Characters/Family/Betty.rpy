@@ -104,4 +104,7 @@ label bettyProgressLevelUp1:
         $ char_data["caption_diabled"] = t_("Work in progress...")
         help "Уровень Бетти максимален для этой версии игры. Ожидайте обновлений!"
 
+        if char_info["Bardie"]["level"] >= 6:
+            $ questHelp("house_16", True)
+
     return

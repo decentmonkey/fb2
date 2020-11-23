@@ -153,7 +153,7 @@ label ep26_quests_bardie6:
                 if _return == 3:
                     $ add_hook("change_time_day", "ep26_quests_bardie8", scene="global", label="day_time_temp") # Планируем наказание Бетти вечером
                     $ questHelpFlag3 = True
-                    $ questHelp("house_23")
+                    $ questHelp("house_23", skipIfExists=True)
                 call change_scene("floor2", "Fade_long") from _call_change_scene_354
                 return False
     return
@@ -166,6 +166,7 @@ label ep26_quests_bardie7:
     $ remove_objective("call_betty")
     if questHelpFlag3 == True:
         $ questHelpFlag3 = False
+        $ questHelp("house_21", True)
         $ questHelp("house_23", True)
     call refresh_scene_fade() from _call_refresh_scene_fade_155
     return

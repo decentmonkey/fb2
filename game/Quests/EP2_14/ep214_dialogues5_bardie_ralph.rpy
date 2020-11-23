@@ -1735,6 +1735,7 @@ label ep214_dialogues5_bardie_ralph_12:
                     pass
             music2 stop
             fadeblack 1.5
+            $ questHelp("house_38", True)
             $ add_corruption(monicaRalphScene4Corruption, "monica_ralph_scene4")
             $ monicaBettyRalphSeduction7 = True # Моника и Ральф занялись сексом
             pass

@@ -26,6 +26,7 @@ label ep215_quests_betty1_init1:
     call ep215_dialogues2_betty_3() from _rcall_ep215_dialogues2_betty_3
     if _return == False:
         $ ep215_quests_betty_refused = True
+        $ questHelp("house_42", False)
         return
     call ep215_dialogues2_betty_4() from _rcall_ep215_dialogues2_betty_4
 
@@ -79,9 +80,11 @@ label ep215_quests_betty2_talk_neighbour:
     if _return == False:
         $ ep215_quests_betty_refused = True
         $ questHelp("house_44", False)
+        $ questHelp("house_43", False)
     else:
         # планируем второй приход
         $ add_hook("change_time_day", "ep215_quests_betty3_init", scene="global", label="ep215_quests_betty1_init1", priority=1)
+        $ questHelp("house_43", True)
         $ questHelp("house_44")
 
     $ ep215_quests_betty_visit1_day = day

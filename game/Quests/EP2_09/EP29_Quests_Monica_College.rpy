@@ -42,8 +42,6 @@ label ep29_quests_monica_college_visit2_teacher:
 
     else:
         # сходила успешно
-        $ questHelp("college_6", True)
-        $ questHelp("college_7")
         $ add_hook("enter_scene", "dialogue_classmate_8_1", scene="street_college", once=True)
         $ add_hook("change_time_evening", "ep29_quests_monica_college_mansfield_visit1", scene="global", once=True)
         $ monice_college_teacher_refused = False
@@ -71,6 +69,8 @@ label ep29_quests_monica_college_visit2_success_bardie:
         return
     $ remove_hook()
     call dialogue_classmate_9_1() from _call_dialogue_classmate_9_1
+    $ questHelp("college_6", True)
+    $ questHelp("college_7")
     $ remove_objective("go_to_bardie")
     $ add_hook("College", "ep29_quests_monica_college_visit3", scene="street_college", label=["bardie_eric_quest_college", "bardie_eric_quest_day3"])
     $ add_hook("Teacher", "ep29_quests_monica_college_visit3_teacher", scene="college_class", label=["bardie_eric_quest_college_teacher", "bardie_eric_quest_day3"])
@@ -117,8 +117,6 @@ label ep29_quests_monica_college_visit3_teacher: #учитель, третье �
         $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit3_refuse_bardie", scene="floor2", label=["bardie_eric_quest_college", "ep29_quests_monica_college_visit3_refuse_bardie"]) # Разблокируем комнату Барди на след.день
     else:
         # успешно
-        $ questHelp("college_7", True)
-        $ questHelp("house_28")
         $ questHelpDesc("college_desc3", "college_desc4")
         $ add_hook("enter_scene", "dialogue_classmate_11_1", scene="street_college", once=True)
         $ remove_objective("check_teacher")
@@ -140,8 +138,11 @@ label ep29_quests_monica_college_visit3_success_bardie:
         return
     $ remove_hook()
     call dialogue_classmate_9_2() from _call_dialogue_classmate_9_2
+    $ questHelp("college_7", True)
+    $ questHelp("house_28")
     $ autorun_to_object("dialogue_classmate_15a", scene="floor2")
     $ remove_objective("go_to_bardie")
+    $ add_hook("Teleport_BedroomBardie", "ep28_monica_college_bardie_betty_lesbian_scene", scene="floor2", label="monica_betty_lesbian")
     $ add_hook("change_time_day", "ep29_quests_monica_college_visit4_init", scene="global", label="bardie_eric_visit4_init_planned")
     call refresh_scene_fade() from _call_refresh_scene_fade_205
     return False
@@ -161,8 +162,10 @@ label ep29_quests_monica_college_visit4_init:
     $ ep29_quests_monica_college_visit4_init_days_countdown -= 1
     if ep29_quests_monica_college_visit4_init_days_countdown > 0:
         return
+    $ questHelp("house_29")
     $ remove_hook()
     $ add_hook("enter_scene", "ep29_quests_monica_college_visit4_init_bardie1", scene="basement_bedroom2", label="bardie_eric_visit4_init_planned_b")
+    $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit4_init_bardie2", scene="floor2", label="monica_bardie_visit4_init", priority = 100)
     return
 
 label ep29_quests_monica_college_visit4_init_bardie1:
@@ -184,7 +187,8 @@ label ep29_quests_monica_college_visit4_init_bardie1:
     $ add_hook("Teleport_Basement_Side", "dialogue_classmate_1c", scene="basement_hole", label="monica_bardie_eric_meeting_block")
     $ add_hook("Teleport_Street", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_eric_meeting_block")
     $ add_hook("Teleport_Kitchen", "dialogue_classmate_1c", scene="floor1", label="monica_bardie_eric_meeting_block")
-    $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit4_init_bardie2", scene="floor2", label="monica_bardie_visit4_init", priority = 100)
+
+#    $ add_hook("Teleport_BedroomBardie", "ep29_quests_monica_college_visit4_init_bardie2", scene="floor2", label="monica_bardie_visit4_init", priority = 100)
     $ ep29_quests_monica_college_visit4_block = True
     $ monicaLastCleaningOfferedDay = day
     call refresh_scene_fade() from _call_refresh_scene_fade_206
@@ -193,6 +197,7 @@ label ep29_quests_monica_college_visit4_init_bardie1:
 label ep29_quests_monica_college_visit4_init_bardie2:
     if day_time != "evening":
         return
+    $ remove_hook(label="bardie_eric_visit4_init_planned_b")
     if ep29_quests_monica_college_visit4_block == True:
         $ ep29_quests_monica_college_visit4_block = False
         $ remove_hook(label="monica_bardie_eric_meeting_block")
@@ -207,6 +212,7 @@ label ep29_quests_monica_college_visit4_init_bardie2:
         return False
     # Моника согласилась
 
+    $ questHelp("house_29", True)
     $ questHelp("college_8")
     $ questHelpDesc("college_desc4", "college_desc5")
 

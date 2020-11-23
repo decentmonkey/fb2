@@ -1296,7 +1296,7 @@ label ep26_dialogues1_bardie7:
     # На каждое 5-ое посещение дома, Бетти начинает козлить и идет переход на ep26_dialogues1_bardie8
     if monicaBettyKitchenEatedCount % 4 == 0 and bardieForcedBettyToFeedMonica != True:
         call ep26_dialogues1_bardie8() from _call_ep26_dialogues1_bardie8
-        $ questHelp("house_22")
+        $ questHelp("house_22", skipIfExists=True)
         return 1
     img 13148
     betty "!!!"
@@ -1807,7 +1807,7 @@ label ep26_dialogues1_bardie10:
     $ bardieCalledBettyForPunishment = True
     $ add_objective("call_betty", t_("Позвать Бетти к Барди."), c_blue, 35)
     $ notif(t_("Позвать Бетти к Барди."))
-    $ questHelp("house_23")
+    $ questHelp("house_23", skipIfExists=True)
 #    help "Позвать Бетти к Барди." # setobjective
 
     return 3

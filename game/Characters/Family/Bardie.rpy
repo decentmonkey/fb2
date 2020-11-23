@@ -131,6 +131,8 @@ label bardieProgressLevelUp1:
         $ char_data["show_caption_diabled"] = False
         $ char_data["caption_diabled"] = t_("Work in progress...")
         help "Уровень Барди максимален для этой версии игры. Ожидайте обновлений!"
+        if char_info["Betty"]["level"] >= 6:
+            $ questHelp("house_16", True)
     return
 
 label bardieProgressApplyAfterCleaning:

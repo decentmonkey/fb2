@@ -1158,6 +1158,8 @@ label dialogue_classmate_3_1:
             call dialogue_classmate_3_1_7() from _call_dialogue_classmate_3_1_7
             $ questHelp("shop_7", True)
             $ questHelp("shop_7a", False)
+            $ questHelp("college_5")
+            $ questHelpDesc("shop_desc2", "shop_desc3")
             img black_screen
             with diss
             sound highheels_short_walk
@@ -1354,6 +1356,8 @@ label dialogue_classmate_3_1:
     # Моника забирает покупку
     $ questHelp("shop_7", True)
     $ questHelp("shop_7a", True)
+    $ questHelp("college_5")
+    $ questHelpDesc("shop_desc2", "shop_desc3")
     $ monicaBoughtSchoolOutfitByLicking = True
     return 4
 
