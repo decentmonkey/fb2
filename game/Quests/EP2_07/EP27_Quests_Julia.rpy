@@ -57,9 +57,12 @@ label ep27_quests_julia1_relationships:
 
 label ep27_quests_julia2: # Проверка на первый приход Фреда
 #    if juliaOfficeOffended1 == False or juliaOfficeOffended2 == False: # Если Моника хорошо общается с Юлией, то Фред не приходит
+
     if juliaOfficeOffended1 == False and juliaOfficeOffended2 == False: # Если Моника хорошо общается с Юлией, то Фред не приходит
         return
     if juliaOfficeOffendedDay == day: # Ждем следующего дня
+        return
+    if juliaQuestStarted == True:
         return
     $ remove_hook()
     # Фред приходит!

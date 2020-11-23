@@ -60,7 +60,6 @@ label part2_questions_init_loadgame:
             "Teleport_Slums_Apartments" : {"text" : t_("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"},
             "Teleport_VictoriaHome" : {"text" : t_("АПАРТАМЕНТЫ ВИКТОРИИ"), "xpos" : 1403, "ypos" : 260, "base" : "map_marker", "state" : "visible"}
     }
-
     call characters_init()
     call characters_pub_init()
     call characters_pub_init2()
@@ -275,6 +274,7 @@ label part2_questions_init_loadgame:
 
     #Юлия
 #    $ monica_living_at_juliahome = True
+    $ juliaQuestStarted = True
     $ ep210_julia_not_at_work = False
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
@@ -624,19 +624,24 @@ label part2_questions_process(new_game_started):
                     $ ep210_monica_julia_massage_count = 1
             "Моника поставила Юлию на место и Юлия боится Монику.":
 #                $ juliaQuestMonicaRefusedFred = True
-                $ del map_objects["Teleport_JuliaHome"]
-                $ char_info["Julia"]["level"] = 1
-                $ char_info["Julia"]["current_progress"] = 0
-                $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
-                $ minimapJuliaGenerateEnabled = False
-                $ questLog(64, False)
-                $ questLog(73, False)
-                $ questLog(74, False)
-                $ monica_living_at_juliahome = False
-                $ clear_hooks("Julia", scene="working_office_cabinet")
-                $ add_hook("Julia", "ep26_quests_office7", scene="working_office_cabinet")
+                $ juliaQuestRefused = True
 
         $ ep22_questions_answered_count += 1
+
+    if juliaQuestMonicaRefusedFred == False or juliaQuestRefused == False:
+        $ char_info["Julia"]["level"] = 1
+        $ char_info["Julia"]["current_progress"] = 0
+        $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
+        $ minimapJuliaGenerateEnabled = False
+        $ clear_hooks("Julia", scene="working_office_cabinet")
+        $ add_hook("Julia", "ep26_quests_office7", scene="working_office_cabinet")
+        $ monica_living_at_juliahome = False
+        $ questLog(64, False)
+        $ questLog(73, False)
+        $ questLog(74, False)
+        if map_objects.has_key("Teleport_JuliaHome"):
+            $ del map_objects["Teleport_JuliaHome"]
+            $ set_active("Teleport_JuliaHome", False, scene="street_corner")
 
     if new_game_started == True or marcus_visit1_completed == False:
         call part2_questions_loadgame_comment()

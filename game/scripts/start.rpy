@@ -299,6 +299,7 @@ label start:
     $ ep212_escort3_completed = True
 
     #Юлия
+    $ juliaQuestStarted = True
     $ ep210_julia_not_at_work = False
     #    $ monica_living_at_juliahome = True
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
