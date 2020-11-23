@@ -144,7 +144,7 @@ label show_scene_loop:
         if interact_data[0] == "show_questlog":
             call show_questlog() from _rcall_sprites_action5
         if interact_data[0] == "show_questhelp":
-            call show_questhelp()
+            call show_questhelp() from _rcall_show_questhelp
         if interact_data[0] == "question_helper_call":
             call question_helper_call() from _rcall_sprites_action6
         if interact_data[0] == "map_show":

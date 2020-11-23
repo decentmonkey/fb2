@@ -1,5 +1,5 @@
 label process_afterload:
-    call questHelp_init()
+    call questHelp_init() from _rcall_questHelp_init
     
     if monicaWorkingAtBiffOffice == False and monicaOutfitsEnabled[6] == True:
         $ remove_hook(label="biff_work_dialogue1")

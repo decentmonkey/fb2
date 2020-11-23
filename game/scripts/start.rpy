@@ -270,7 +270,7 @@ label start_game:
     $ ep216_quests_load_init_flag = True
 
     # quest help
-    call questHelp_init()
+    call questHelp_init() from _rcall_questHelp_init_2
     python:
         questHelp("other1")
         questHelp("house_1")

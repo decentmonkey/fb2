@@ -237,6 +237,11 @@ screen questhelp_screen():
                                             action [
                                                 Return(["quest_click", questData[0]])
                                             ]
+        fixed:
+            xpos getRes(381)
+            ypos getRes(85 + 852-85 - 52)
+
+            add "gui/frame6_overlay" + res.suffix + ".png"
 
 
 #        vbar value YScrollValue("questhelp_viewport_events"):

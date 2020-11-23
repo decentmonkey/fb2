@@ -2030,7 +2030,7 @@ label show_questlog:
 
 label show_questhelp:
     $ questHelpJustUpdated = False
-    call questHelp_init()
+    call questHelp_init() from _rcall_questHelp_init_1
 
     python:
         questHelpDataLastCategoryMemory = {}
