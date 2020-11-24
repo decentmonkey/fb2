@@ -341,7 +341,7 @@ label ep25_quests_steve18:
             call ep26_dialogues2_steve5() from _call_ep26_dialogues2_steve5
             $ questHelp("steve_16", True)
             $ questHelp("house_44a", True)
-            $ questHelp("office_30", skipIfExists=True)
+#            $ questHelp("office_30", skipIfExists=True)
             if _return == False:
                 $ noMoney = True
         else:

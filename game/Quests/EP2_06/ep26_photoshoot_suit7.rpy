@@ -1176,14 +1176,15 @@ label ep26_photoshoot_suit7_end:
 
     if questHelpFlag23 == False:
         $ questHelpFlag23 = True
-        $ questHelpDesc("photoshoot_desc6", "photoshoot_desc12")
+#        $ questHelpDesc("photoshoot_desc6", "photoshoot_desc12")
 
 #    $ questHelp("office_22", skipIfExists=True)
+    $ questHelp("photoshoot_6", True)
     $ questHelp("photoshoot_12", skipIfExists=True)
     $ shotsAmountCompleted = len(list(set(PS7_shoots_array)))
     if shotsAmountCompleted >= shotsTotalAmount:
         $ questHelp("photoshoot_12", True)
-        $ questHelpDesc("photoshoot_desc12", False)
+#        $ questHelpDesc("photoshoot_desc12", False)
 #    $ shotsTotalAmount
 
     music Groove2_85

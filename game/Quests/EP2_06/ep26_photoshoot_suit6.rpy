@@ -923,12 +923,13 @@ label ep26_photoshoot_suit6_end:
 
     if questHelpFlag22 == False:
         $ questHelpFlag22 = True
-        $ questHelpDesc("photoshoot_desc5", "photoshoot_desc11")
+#        $ questHelpDesc("photoshoot_desc5", "photoshoot_desc11")
 
 
     $ shotsAmountCompleted = len(list(set(PS6_shoots_array)))
 #    $ shotsTotalAmount
 #    $ questHelp("office_20", skipIfExists=True)
+    $ questHelp("photoshoot_5", True)
     $ questHelp("photoshoot_11", skipIfExists=True)
     if shotsAmountCompleted >= shotsTotalAmount:
         $ questHelp("photoshoot_11", True)

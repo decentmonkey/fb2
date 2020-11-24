@@ -418,7 +418,7 @@ label ep24_quests_steve23:
     $ questHelp("steve_3c", True)
     $ questHelp("steve_4")
     $ questHelp("steve_5")
-    $ questHelp("office_23")
+#    $ questHelp("office_23")
 
     call refresh_scene_fade_long() from _call_refresh_scene_fade_long_1
     return

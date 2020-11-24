@@ -7,6 +7,7 @@ label ep26_quests_biff1:
 #        $ remove_hook(label="biff_work_dialogue1")
         return
     # Инициализируем разговор о работе в офисе
+    $ questHelp("office_24", skipIfExists=True)
     $ add_hook("Biff", "ep26_quests_biff2", scene="monica_office_cabinet_table", label="biff_work_dialogue1")
     $ ep26_quests_biff1_Flag = True
     return

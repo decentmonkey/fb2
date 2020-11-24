@@ -359,7 +359,7 @@ label ep25_quests_shop15:
     $ questHelp("shop_6", True)
 #    $ questHelp("steve_8")
     $ questHelp("steve_7")
-    $ questHelp("office_24")
+#    $ questHelp("office_24")
     $ questHelpDesc("shop_desc1", "shop_desc2")
     $ monicaHasCasualDress1 = True
     $ questHelp("steve_7")
