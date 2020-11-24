@@ -93,7 +93,6 @@ label ep27_quests_office6_return_reports_teleport: # Перехват возвр
     call ep27_dialogues4_biff8() from _call_ep27_dialogues4_biff8
     call ep27_quests_office4_reset_reports() from _call_ep27_quests_office4_reset_reports_1 # Сбрасываем отчеты
     call change_scene("monica_office_secretary") from _call_change_scene_375
-    $ questHelp("office_31", True)
     $ remove_objective("reports_to_biff")
     $ add_objective("reports_to_biff", t_("Биф просил зайти к нему после сдачи отчетов."), c_orange, 20)
     return False
@@ -106,6 +105,7 @@ label ep27_quests_office7_biff: # Разговор с Бифом после сд
         return
     if monicaWorkFlashCardQuestReportsNeedTalkBiff == False: # Нет необходимости общаться по отчетам
         return
+    $ questHelp("office_31", True)
     if monicaWorkFlashCardQuestReportsCollectedBySelf == True:
         call ep27_dialogues4_biff5() from _call_ep27_dialogues4_biff5 # Хороший отчет
         $ monicaWorkFlashCardQuestGoodReportsCount += 1

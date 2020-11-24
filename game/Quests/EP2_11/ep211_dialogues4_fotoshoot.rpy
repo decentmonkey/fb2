@@ -1376,7 +1376,13 @@ label ep211_photoshoot_suit9_end:
         mt "Мне нужно переодеться и идти к Бифу."
         mt "Нужно узнать, что решил этот мерзкий Мистер Кэмпбелл..."
         $ questHelp("photoshoot_13", True)
+        $ questHelp("photoshoot_13a", skipIfExists=True)
+        $ questHelp("office_45a")
+
         $ questHelp("office_43", skipIfExists=True)
+    $ shotsAmountCompleted = len(list(set(PS9_shoots_array)))
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_13a", True)
 #    $ log1 = t_("Пойти в кабиент к Бифу и узнать, что решил инвестор.")
     return 1
 

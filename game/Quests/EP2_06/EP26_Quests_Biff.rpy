@@ -1,6 +1,7 @@
 default monicaKissedBiff = False
 
 default ep26_quests_biff1_Flag = False
+default ep26_quest_work_start_day = 0
 
 label ep26_quests_biff1:
     if ep26_quests_biff1_Flag != False or monicaWorkingAtBiffOffice == True:
@@ -32,11 +33,15 @@ label ep26_quests_biff2:
         call change_scene("monica_office_secretary") from _call_change_scene_320
         return False
     $ questHelp("office_24", True)
+    $ questHelp("melanie_6b", True)
     $ questHelp("melanie_7")
     $ questHelp("office_25")
+    $ questHelpDesc("melanie_desc6a", False)
     $ questHelpDesc("melanie_desc6", "melanie_desc7")
     # Начинаем подготовку к работе
     # Моника идет к секретарше
+
+    $ ep26_quest_work_start_day = day
 
     $ remove_hook(label="biff_work_dialogue1")
 

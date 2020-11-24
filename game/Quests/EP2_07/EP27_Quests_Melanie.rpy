@@ -19,7 +19,7 @@ label ep27_quests_melanie2_dialogue: # Диалог с Мелани
         $ ep27_melanie_refused_victoria_meeting = True
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_22
         return False
-    $ questHelp("melanie_7", True)
+    $ questHelp("melanie_7a", True)
     $ questHelp("melanie_8")
     $ questHelpDesc("melanie_desc7", "melanie_desc8")
     $ remove_hook(label="melanie_returned_dialogue2")

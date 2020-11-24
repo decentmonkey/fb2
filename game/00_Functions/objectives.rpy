@@ -130,6 +130,11 @@ init python:
                     del questHelpData[questCategory][idx]
         return
 
+    def questsFailByCategory(questCategory):
+        for idx in range(len(questHelpData[questCategory])-1, -1, -1):
+            if questHelpData[questCategory][idx][1] == 0:
+                questHelpData[questCategory][idx][1] = -1
+
 
     def questHelpDesc(*args): #questHelpDescriptionName, True/False, либо нет аргумента, значит True
         global questHelpDataCategoriesDescriptions, questHelpDataCategoriesDescriptionsData

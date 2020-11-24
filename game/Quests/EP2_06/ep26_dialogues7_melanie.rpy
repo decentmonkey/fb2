@@ -72,6 +72,8 @@ label ep26_dialogues7_melanie1:
             mt "Она что, обманула меня и не ходила к нему?!"
 
             $ monicaOfficeMakeupRoomSkipMusicOneTime = True
+            $ questHelp("melanie_7", True)
+            $ questHelp("melanie_7a", skipIfExists=True)
 
         "Посмотреть на Мелани." if ep26_dialogues7_melanie1_flag1 == True:
             music stop

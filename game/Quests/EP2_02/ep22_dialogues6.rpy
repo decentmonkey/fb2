@@ -421,7 +421,7 @@ label ep22_dialogue6_3:
                     "КОГДА Я ВЕРНУ СВОЕ МЕСТО НАЗАД?!?!"
                 return False
     # Проверка на то что Моника мало работала эти дни
-    if monicaWorkingAtBiffOffice == True and get_office_working_status(6) < 1:
+    if monicaWorkingAtBiffOffice == True and get_office_working_status(6) < 1 and ep26_quest_work_start_day != day:
         img 12781
         with fade
         biff "Нет, цыпочка!"

@@ -1030,15 +1030,16 @@ label ep27_photoshoot_suit8_end:
 
     if questHelpFlag24 == False:
         $ questHelpFlag24 = True
-        $ questHelpDesc("photoshoot_desc7", "photoshoot_desc8")
+#        $ questHelpDesc("photoshoot_desc7", "photoshoot_desc8")
 
+    $ questHelp("photoshoot_7", True)
     $ questHelp("photoshoot_8", skipIfExists=True)
     $ shotsAmountCompleted = len(list(set(PS8_shoots_array)))
     if shotsAmountCompleted >= shotsTotalAmount:
-        $ questHelpDesc("photoshoot_desc8", False)
+#        $ questHelpDesc("photoshoot_desc8", False)
         $ questHelp("photoshoot_8", True)
 
-    $ questHelp("office_35", skipIfExists=True)
+#    $ questHelp("office_35", skipIfExists=True)
     # думает
     img 20594
     with fadelong

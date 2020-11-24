@@ -82,6 +82,7 @@ label ep26_quests_office6:
     $ questHelp("office_26", True)
     $ questHelp("office_27")
     $ questHelp("office_29")
+    $ questHelp("office_32", skipIfExists=True)
 
     $ set_active("MonicaChair", True, scene="working_office_cabinet")
     $ set_active("MonicaTable", True, scene="working_office_cabinet")

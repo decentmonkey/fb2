@@ -6,6 +6,8 @@ default ep29_melanie_talk_victoria_stage = 0
 default ep29_quests_melanie_monica_stage=1
 default ep29_quests_victoria_event_completed = False
 
+default ep29_melanie_needs_photoshoot = False
+
 default melaniePhotoShootOutfitIdx = -1
 
 label ep29_quests_melanie_check:
@@ -20,6 +22,8 @@ label ep29_quests_melanie_check:
     $ add_hook("before_open", "ep29_quests_melanie_monica_come_melanie", scene="melanie_home", label="ep29_quests_melanie")
     $ remove_hook(label="melanie_home_restrict")
     $ add_objective("go_to_melanie", t_("Пойти вечером к Мелани домой на встречу с 'другом'"), c_red, 95)
+    $ questHelp("victoria_2", True)
+    $ questHelp("victoria_2a")
     return
 
 label ep29_quests_melanie_init1:
@@ -58,6 +62,8 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
     if _return == False:
         # Мелани отказалась от посещения Виктории
         $ questHelp("victoria_2", False)
+        $ questHelp("victoria_2a", False)
+        $ questHelpDesc("victoria_desc2", False)
         $ ep29_melanie_refused_visit_victoria = True
         $ remove_objective("go_to_melanie_dress")
         $ remove_objective("go_to_melanie")
@@ -71,6 +77,7 @@ label ep29_quests_melanie_monica_come_melanie: # Моника приходит �
         call change_scene("working_office_cabinet", "Fade_long", "highheels_run2") from _call_change_scene_423
         return False
     # Переход на управление Мелани
+    $ questHelp("victoria_2a", True)
     $ questHelp("melanie_10")
     call melanie_home_init2() from _call_melanie_home_init2 # инициализируем апартаменты Мелани
     $ day_time = "day"
@@ -125,6 +132,11 @@ label ep29_quests_melanie_alex2: # фотосессия
         call ep29_dialogues3_melanie_monica_victoria_5a1() from _call_ep29_dialogues3_melanie_monica_victoria_5a1
         call  ep29_photoshoot_melanie1() from _call_ep29_photoshoot_melanie1
         call ep29_dialogues3_melanie_monica_victoria_5a0() from _call_ep29_dialogues3_melanie_monica_victoria_5a0
+
+    $ ep29_melanie_needs_photoshoot = False
+    $ questHelp("melanie_13", True)
+    $ questHelp("melanie_14")
+
     $ remove_objective("go_photoshoot")
     $ add_objective("go_home", t_("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
     $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6", scene="monica_office_makeup_room", owner="Melanie", label="melanie_popup_messages", once=True)
@@ -167,17 +179,19 @@ label ep29_quests_melanie_biff2: # клик на Бифа рядом
         return False
     # диалог с Бифом
     call ep29_dialogues3_melanie_monica_victoria_4() from _call_ep29_dialogues3_melanie_monica_victoria_4
+    $ questHelp("melanie_12", True)
     if _return == False:
         pass
         $ add_objective("go_home", t_("Нужно ехать домой. Скоро придет Виктория"), c_pink, 95)
         $ add_hook("enter_scene", "ep29_dialogues3_melanie_monica_victoria_6", scene="monica_office_cabinet", owner="Melanie", label="melanie_popup_messages", once=True)
         $ questHelp("melanie_13", False)
+        $ questHelp("melanie_14")
     else:
+        $ ep29_melanie_needs_photoshoot = True
         $ add_objective("go_photoshoot", t_("Провести фотосессию"), c_green, 85)
         $ add_hook("AlexPhotograph", "ep29_quests_melanie_alex2", scene="monica_office_photostudio", owner="Melanie", label=["melanie_dialogues", "melanie_photoshoot"])
-        $ questHelp("melanie_13", True)
+        $ questHelp("melanie_13")
 
-    $ questHelp("melanie_14")
     $ remove_objective("go_to_biff")
     $ add_hook("Biff", "ep29_dialogues3_melanie_monica_victoria_1ss", scene="monica_office_cabinet", owner="Melanie", label="melanie_biff_block1")
     call change_scene("monica_office_cabinet") from _call_change_scene_426
@@ -265,6 +279,10 @@ label ep29_quests_melanie_home1_chair: # старт сцены с Виктори
         return
     call ep29_dialogues3_melanie_monica_victoria_1ll() from _call_ep29_dialogues3_melanie_monica_victoria_1ll
     call ep29_dialogues4_lesbian_threesome_victoria_1a() from _call_ep29_dialogues4_lesbian_threesome_victoria_1a # сцена
+
+    if ep29_melanie_needs_photoshoot == True:
+        $ questHelp("melanie_13", False)
+    $ questHelp("melanie_14", True)
     $ questHelp("melanie_15")
     $ remove_objective("go_home")
     $ remove_hook(label="melanie_popup_messages")

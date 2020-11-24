@@ -72,6 +72,7 @@ label ep211_quests_publicevent2_3_alex:
     call locations_init_public_event2() from _rcall_locations_init_public_event2
     $ questHelp("office_36", True)
     $ questHelp("office_37")
+    $ questHelp("office_38")
     $ set_active("Investor1", False, scene="public_event2")
     $ set_active("PublicGuest7", False, scene="public_event2")
     $ set_active("PublicGuest8", False, scene="public_event2")
@@ -92,6 +93,11 @@ label ep211_quests_publicevent2_3_alex:
     $ add_objective("talk_people", t_("Пообщаться с гостями ([ep211_quests_guests_progress_cur]/9)."), c_orange, 95)
     return False
 
+label ep211_quests_publicevent2_3_checkquesthelp:
+    if ep211_quests_publicevent2_3_guest1_flag == True and ep211_quests_publicevent2_3_guest2_flag == True and ep211_quests_publicevent2_3_guest3_flag == True and ep211_quests_publicevent2_3_guest4_flag == True and ep211_quests_publicevent2_3_guest56_flag == True:
+        $ questHelp("office_37", True)
+    return
+
 label ep211_quests_publicevent2_3_guest1:
     if act=="l":
         return
@@ -104,6 +110,7 @@ label ep211_quests_publicevent2_3_guest1:
         $ ep211_quests_publicevent2_3_guest1_flag = True
         if "PublicGuest1" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest1")
+        call ep211_quests_publicevent2_3_checkquesthelp()
         call refresh_scene_fade() from _rcall_refresh_scene_fade_14
         return False
     call ep211_dialogues2_public_event_10() from _rcall_ep211_dialogues2_public_event_10
@@ -120,6 +127,7 @@ label ep211_quests_publicevent2_3_guest2:
         $ ep211_quests_publicevent2_3_guest2_flag = True
         if "PublicGuest2" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest2")
+        call ep211_quests_publicevent2_3_checkquesthelp()
         call refresh_scene_fade() from _rcall_refresh_scene_fade_15
         return False
     call ep211_dialogues2_public_event_13() from _rcall_ep211_dialogues2_public_event_13
@@ -136,6 +144,7 @@ label ep211_quests_publicevent2_3_guest3:
         if "PublicGuest3" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest3")
         $ autorun_to_object("ep211_dialogues2_public_event_15b", scene="public_event2")
+        call ep211_quests_publicevent2_3_checkquesthelp()
         call refresh_scene_fade() from _rcall_refresh_scene_fade_16
         return False
     call ep211_dialogues2_public_event_16() from _rcall_ep211_dialogues2_public_event_16
@@ -152,6 +161,7 @@ label ep211_quests_publicevent2_3_guest4:
         if "PublicGuest4" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest4")
         $ autorun_to_object("ep211_dialogues2_public_event_18b", scene="public_event2")
+        call ep211_quests_publicevent2_3_checkquesthelp()
         call refresh_scene_fade() from _rcall_refresh_scene_fade_17
         return False
     call ep211_dialogues2_public_event_19() from _rcall_ep211_dialogues2_public_event_19
@@ -172,6 +182,7 @@ label ep211_quests_publicevent2_3_guest56:
             $ ep211_quests_guests_progress.remove("PublicGuest5")
         if "PublicGuest6" in ep211_quests_guests_progress:
             $ ep211_quests_guests_progress.remove("PublicGuest6")
+        call ep211_quests_publicevent2_3_checkquesthelp()
         $ autorun_to_object("ep211_dialogues2_public_event_21b", scene="public_event2")
         call refresh_scene_fade() from _rcall_refresh_scene_fade_18
         return False
@@ -211,6 +222,7 @@ label ep211_quests_publicevent2_3_guest_girlfriends:
     if ep211_quests_publicevent2_3_guest_girlfriends_stage == 2: # уже поговорили со звездой
         hide screen Reporters_Shoots_Screen4_low
         music2 stop
+        $ questHelp("office_38", True)
         $ remove_objective("talk_girlfriends")
         call ep211_dialogues2_public_event_30() from _rcall_ep211_dialogues2_public_event_30
         if "Girlfriends" in ep211_quests_guests_progress:
@@ -231,6 +243,7 @@ label ep211_quests_publicevent2_3_guest8: #звезда
         music2 stop
         call ep211_dialogues2_public_event_28() from _rcall_ep211_dialogues2_public_event_28
         $ questHelp("office_39", True)
+        $ questHelp("office_38")
         $ questHelp("office_40", skipIfExists=True)
         $ remove_objective("talk_terner")
         $ add_objective("talk_girlfriends", t_("Вернуться к Ребекке и Стефани."), c_pink, 105)
@@ -251,6 +264,7 @@ label ep211_quests_publicevent2_3_investor1:
     call ep211_dialogues2_public_event_35() from _rcall_ep211_dialogues2_public_event_35
     $ questHelp("office_41", True)
     $ questHelp("office_42", skipIfExists=True)
+    $ questHelp("photoshoot_13")
     $ remove_objective("talk_people")
     music2 stop
     $ renpy.music.set_volume(1.0, 0.0, 'music2')
@@ -323,7 +337,7 @@ label ep211_quests_publicevent2_photoshoot2: # Моника одела плат�
     $ questHelp("office_42", True)
     $ questHelp("photoshoot_13")
     $ questHelpDesc("photoshoot_desc13")
-    
+
     call change_scene("monica_office_cabinet_table") from _rcall_change_scene_23
     jump ep211_quests_publicevent2_photoshoot3
 #    return False
@@ -377,6 +391,9 @@ label ep211_quests_publicevent2_photoshoot3: # Фотосессия
         $ remove_hook(label="photoshoot_alex")
         $ remove_objective("reports_to_biff")
         call putoff_work_clothes() from _rcall_putoff_work_clothes_5
+        $ questsFailByCategory(t_("ФОТОСЕССИИ"))
+        $ questsFailByCategory(t_("ОФИС"))
+
         $ questLog(64, False)
         $ questLog(63, False)
         $ questLog(47, False)
