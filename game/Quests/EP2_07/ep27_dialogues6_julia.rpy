@@ -1,6 +1,6 @@
 label ep27_dialogues6_julia0:
     menu:
-        "Отношения с Юлией..." if juliaQuestLastDay != day and e210_quests_julia_aborted == False and juliaQuestMonicaRefusedFred == False:
+        "Отношения с Юлией..." if juliaQuestLastDay != day and e210_quests_julia_aborted == False and juliaQuestMonicaRefusedFred == False and juliaQuestRefused == False:
             return 3
         "Отношения с Юлией... (disabled)" if (juliaQuestLastDay == day and juliaQuestStage0_Progress > 0):
             pass

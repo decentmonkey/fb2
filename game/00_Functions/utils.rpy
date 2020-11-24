@@ -48,8 +48,9 @@ init python:
             return
 
     def storeImagesList(img_path):
-        with open('c:/debug/images_list.lst','ab') as f:
-            f.write(img_path + "\n")
+        if debugMode == True and 1==2:
+            with open('c:/debug/images_list.lst','ab') as f:
+                f.write(img_path + "\n")
         return
 
     profileTime = time.time()
