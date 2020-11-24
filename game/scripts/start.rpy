@@ -58,7 +58,22 @@ label start:
 
 #########
 
-#    call ep217_dialogues1_escort_10() # квартира Кэндис, девичник
+
+
+
+#    call ep217_dialogues2_shiny_hole_7() # Эшли наехала на Молли, Моника обвинила Молли в том, что та на нее напала
+#    call ep217_dialogues2_shiny_hole_8() # Эшли наехала на Молли, Молли должна попросить у Моники прощения
+#    call ep217_dialogues2_shiny_hole_9() # Моника выдвинула свои условия Молли
+#    call ep217_dialogues2_shiny_hole_10() # Молли согласилась на приват с Джо в присутствии Моники
+#    call ep217_dialogues2_shiny_hole_11() # Моника сказала Джо что бы он шел в подсобку
+#    call ep217_dialogues2_shiny_hole_13() # секс Джо с Молли в присутствии Моники
+
+
+#    call ep217_dialogues3_betty_1() # Бетти пошла к соседу забирать свой утюг
+#    call ep217_dialogues3_betty_2() # Бетти секс с Фредом и соседом
+
+#    call ep217_dialogues5_phillip_1() # гостиная в доме Филиппа
+#    call ep217_dialogues5_phillip_2() # БДСМ-комната
 
 #########
 

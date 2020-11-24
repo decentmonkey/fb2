@@ -1,13 +1,9 @@
-default monicaBettyLiamFred1 = False # Бетти пошла к соседу забирать свой утюг
-default monicaBettyLiamFred2 = False # Бетти согласилась помочь соседу с утюгом
-default monicaBettyLiamFred3 = False # Бетти согласилась на секс с соседом (DP с Фредом)
-
-
+default monicaBettyLiamFred1 = 0 # Бетти пошла к соседу забирать свой утюг
+default monicaBettyLiamFred2 = 0 # Бетти согласилась помочь соседу с утюгом
+default monicaBettyLiamFred3 = 0 # Бетти согласилась на секс с соседом (DP с Фредом)
 
 #call ep217_dialogues3_betty_1() # Бетти пошла к соседу забирать свой утюг
 #call ep217_dialogues3_betty_2() # Бетти секс с Фредом и соседом
-
-
 
 
 # при условии, что Бетти уже помогла соседу
@@ -18,8 +14,7 @@ label ep217_dialogues3_betty_1:
     # Бетти стоит у зеркала и смотрит на себя
     scene black_screen
     with Dissolve(1)
-    stop music fadeout 1.0
-    from _rcall_textonblack_60
+    music stop
     call textonblack(t_("Тем временем..."))
     scene black_screen
     with Dissolve(1)
@@ -45,10 +40,10 @@ label ep217_dialogues3_betty_1:
     betty_t "Теперь мне приходится тратить на это свое время!"
     menu:
         "Сходить к соседу за утюгом.":
-            $ monicaBettyLiamFred1 = True # Бетти пошла к соседу забирать свой утюг
+            $ monicaBettyLiamFred1 = day # Бетти пошла к соседу забирать свой утюг
             pass
         "Не ходить. (прерывание квеста)":
-            img 32873
+            imgd 32873
             betty_t "Хотя..."
             betty_t "Достаточно того, что я уже ему помогла!"
             betty_t "Пусть сам принесет мне мой утюг!"
@@ -57,7 +52,7 @@ label ep217_dialogues3_betty_1:
     # Бетти выходит из комнаты
     # затемнение
     # Бетти выходит во двор, и с деловым видом идет в сторону ворот
-    fadeblack 2.0
+    fadeblack
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
@@ -68,6 +63,7 @@ label ep217_dialogues3_betty_1:
     betty "Здравствуй, Фред."
     # Бетти проходит мимо него
     imgd 32876
+    w
     # Фред за ней наблюдает, смотрит ей вслед, многозначительно улыбаясь
     return
 
@@ -79,25 +75,17 @@ label ep217_dialogues3_betty_2:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    sound ahhh12
-    pause 1.0
     music Groove2_85
     imgfl 32877
     w
     sound snd_door_knock
     imgf 32878
     w
-    fadeblack 1.0
+    fadeblack
     sound man_steps
     pause 2.0
     sound snd_door_open1
     pause 1.5
-    sound snd_door_locked1
-    pause 1.0
-    sound wow
-    pause 1.0
-    sound snd_whistle1
-    pause 1.0
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
@@ -105,15 +93,17 @@ label ep217_dialogues3_betty_2:
     w
     imgf 32880
     liam "Мэм, рад вас видеть!"
+    music Hidden_Agenda
     imgd 19262
     betty "Лиам, здравствуйте."
     betty "Я в прошлый раз так торопилась, что..."
     betty "Забыла у вас утюг."
     # он делает удивленный вид
-    imgf 32881
+    img 32881
     liam "Правда, Мэм?"
     liam "Я даже не обратил внимания на это..."
     # Бетти с соседом смотрят на стол, на нем расстелены штаны и рядом стоит утюг, продукты со стола, которые мешают, можно убрать. Остальные оставить
+    sound Jump2
     imgd 32882
     w
     imgf 32883
@@ -121,6 +111,7 @@ label ep217_dialogues3_betty_2:
     liam "Да, Мэм..."
     liam "Я даже не знаю, как просить вас об этом..."
     liam "Но мне снова нужна ваша помощь, Мэм..."
+    music Groove2_85
     imgd 32884
     betty "Какая еще помощь?"
     liam "Мне нужно погладить штаны, а я забыл, как пользоваться этим сложным механизмом..."
@@ -132,16 +123,19 @@ label ep217_dialogues3_betty_2:
     liam "Если Мэм мне напомнит, я ей буду очень благодарен за помощь."
     menu:
         "Помочь Лиаму.":
-            $ monicaBettyLiamFred2 = True # Бетти согласилась помочь соседу с утюгом
+            $ monicaBettyLiamFred2 = day # Бетти согласилась помочь соседу с утюгом
             pass
         "Сам разберется! (прерывание квеста)":
             imgd 32886
             betty "Там нет ничего сложного, поэтому вы сами сможете разобраться!"
             liam "Хорошо, я попробую, Мэм..."
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
             # Бетти разворачивается и уходит, а он смотрит ей вслед
             return False
     # Бетти задумчиво
-    imgf 32887
+    imgd 32887
     betty_t "Если я сейчас откажу ему, это будет грубостью с моей стороны..."
     betty_t "Ведь в прошлый раз я помогла ему."
     betty_t "По-соседски."
@@ -153,20 +147,21 @@ label ep217_dialogues3_betty_2:
     imgf 32888
     betty "Включаете утюг..."
     betty "Потом эту кнопку поворачиваете сюда..."
+    sound switch_steve
     betty "А потом нажимаете вот сюда."
     # сосед подходит к ней сзади и прижимается
     sound man_steps
-    pause 2.0
-    music Loved_up
     imgd 32889
     w
+    music Hidden_Agenda
     imgf 32890
     liam "Ох, Мэм..."
     liam "Я готов вечно смотреть на ваши волшебные ручки."
     liam "Как ловко вы ими управляете."
     liam "И вы такая добрая и отзывчивая, Мэм..."
     # Бетти делает вид, что не замечает его прикосновений
-    imgf 19254
+    music Groove2_85
+    imgd 19254
     betty "Да, Лиам, я знаю..."
     betty "Я хорошая хозяйка и у меня всегда все получается."
     betty "За что бы я ни бралась..."
@@ -182,7 +177,7 @@ label ep217_dialogues3_betty_2:
     sound Jump1
     img 32891 hpunch
     w
-    sound Jump1
+    sound Jump2
     img 32892 vpunch
     liam "Мне перестали сниться кошмары по ночам."
     liam "И я чувствую себя немного увернее, но..."
@@ -190,30 +185,30 @@ label ep217_dialogues3_betty_2:
     imgf 32893
     betty "Что?"
     liam "Я тут подумал, а вдруг это была простая случайность?"
+    music2 stop
     sound plastinka1b
-    pause 2.0
-    music Hidden_Agenda
-    imgd 32894
+    img 32894 hpunch
     betty_t "Какая еще случайность?"
+    music Groove2_85
     betty_t "Что он несет?"
-    imgf 32893
+    imgd 32893
     betty "Случайность?"
     liam "Да..."
+    music Hidden_Agenda
     liam "Ведь вполне может быть, что..."
     liam "Мой член всего один раз был такой твердый..."
     imgd 19256
     liam "И больше такого не повторится."
     liam "Я теперь очень переживаю из-за этого."
     # Бетти поворачивает голову и смотрит на него подозрительно, не отстраняется
+    music Groove2_85
     imgf 32894
     betty_t "На что это он намекает?"
     betty_t "Он что, хочет, чтобы я снова ему помогала?"
-    sound Jump1
-    pause 2.0
-    music Groove2_85
     imgd 32895
     betty "Уверена, что это была не случайность, Лиам."
     betty "Ваш член был очень твердый. Это не может быть случайностью..."
+    music Hidden_Agenda
     liam "Все же эти навязчивые мысли мешают мне..."
     liam "Если вы, Мэм, как моя хорошая и добрая соседка еще раз мне поможете..."
     imgf 32896
@@ -229,26 +224,31 @@ label ep217_dialogues3_betty_2:
     liam "Что скажете, Мэм?"
     menu:
         "Я верная жена!":
-            $ monicaBettyLiamFred3 = True # Бетти согласилась на секс с соседом (DP с Фредом)
+            $ monicaBettyLiamFred3 = day # Бетти согласилась на секс с соседом (DP с Фредом)
             pass
         "Нет! Я не буду этого делать! (прерывание квеста)":
             # Бетти отстраняется от него, встает руки в боки, возмущенно
-            music Power_Bots_Loop
+            music Groove2_85
             imgf 32898
             betty "Как вы можете мне предлагать подобные вещи?!"
             betty "Я верная жена и порядочная женщина!"
             betty "Вы придумали сами себе какую-то нелепую проблему!"
             betty "Вот сами с этим и разбирайтесь!"
-            # Бетти разворачивается и уходит возмущенно, а он смотрит ей вслед
             imgd 32886
+            w
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
+            # Бетти разворачивается и уходит возмущенно, а он смотрит ей вслед
             return False
     # Бетти поворачивается к нему, начинает ломаться
-    music Hidden_Agenda
+    music Groove2_85
     imgf 19257
     betty "Лиам..."
     imgd 32899
     betty "Я верная жена и порядочная женщина..."
     betty "А вы просите меня о подобном..."
+    music Hidden_Agenda
     liam "Мэм, у вас поистине целебные ручки."
     liam "Я был под таким впечатлением от них, что долго не мог прийти в себя..."
     imgf 32900
@@ -269,6 +269,7 @@ label ep217_dialogues3_betty_2:
     liam "На самом деле, я думаю, что у меня вряд ли получится..."
     # Бетти 'отлипает' от его стояка, как бы приходит в себя
     # пытается возмущаться
+    music Groove2_85
     imgd 32905
     betty "Лиам, я не собраюсь делать этого!"
     betty "Мой дом буквально в двух шагах отсюда!"
@@ -276,9 +277,7 @@ label ep217_dialogues3_betty_2:
     betty "Тем более, мой водитель чуть не увидел нас в прошлый раз!"
     # берет в руку его член и продолжает ломаться
     sound Jump1
-    pause 1.0
-    music Hidden_Agenda
-    imgf 32906
+    img 32906 vpunch
     w
     imgd 32907
     betty "Я еще раз вам повторяю, что я верная жена!"
@@ -291,38 +290,49 @@ label ep217_dialogues3_betty_2:
     liam "Мэм, ваша помощь - это не измена."
     liam "Вы просто очень хорошая соседка. Поэтому и помогаете мне."
     # Бетти начинает водить рукой по его члену
-    music2 drkanje5
+    sound drkanje5
     imgd 32906
     w
-    imgf 32909
+    sound drkanje5
+    imgd 32909
     w
+    sound drkanje5
     imgd 32906
     w
-    imgf 32909
+    sound drkanje5
+    imgd 32909
     w
+    sound drkanje5
     imgd 32906
     w
-    imgf 32909
-    music2 stop
+    sound drkanje5
+    imgd 32909
     w
+    sound Jump2
     imgd 32910
     w
     imgf 32907
     betty "Он твердый, как и в прошлый раз!"
     betty "Я уверена, что не нужно ничего больше проверять!"
+    music Hidden_Agenda
     liam "Я ведь сосвем чуть-чуть, Мэм..."
     liam "Просто чтобы проверить..."
-    imgf 32911
+    imgd 32911
     liam "И сразу уберу его."
+    music Groove2_85
     betty "Нет, я не собираюсь делать этого, Лиам!"
     betty "Вы злоупотребляете тем, что у вас такая хорошая соседка!"
     # Бетти идет к дивану, держа соседа за член и ведя таким образом за собой
     # сосед садится на диван, Бетти наклоняется над ним и приближает лицо к его члену
-    imgd 32912
+    sound highheels_short_walk
+    imgf 32912
     w
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
     imgf 32913
     w
-    music Loved_up
     imgd 32914
     betty_t "Я просто прикоснусь к нему немного..."
     betty_t "Хоть мне это и не нравится."
@@ -340,13 +350,13 @@ label ep217_dialogues3_betty_2:
     betty "Я никогда не делаю подобного с дургими мужчинами, кроме своего мужа!"
     betty "И вы, Лиам, не исключение!"
     # берет его член в рот, начинает водить голвоой вверх-вниз
+    sound hlup25
     imgd 32918
     w
-    sound chpok6
     imgd 32919
     w
-    sound chpok12
-    imgd 32920
+    sound chpok6
+    img 32920 hpunch
     w
     imgf 32921
     liam "Мээээммммм..."
@@ -359,31 +369,32 @@ label ep217_dialogues3_betty_2:
     # Бетти отстраняется, встает
     imgf 32925
     w
+    music Groove2_85
     imgd 32926
     betty "Думаю, что этого будет достаточно!"
-    imgf 32927
+    img 32927
     liam "Но Мэм..."
     liam "А как же..."
-    music Loved_up2
     imgd 32928
     w
     # пока Лиам мямлит, шуршание одежды, кадр на пол, там лежит платье Бетти
     sound put_dress
     imgf 32929
     w
+    music Loved_Up
     imgd 32930
     betty_t "Отказывать в помощи соседу, когда он так нуждается в ней - это не по-соседски..."
     betty_t "Я быстренько помогу ему и пойду домой."
     betty_t "Мне еще нужно приготовить Ральфу обед..."
-    imgf 32931
+    imgd 32931
     betty "Лиам, только совсем чуть-чуть!"
     betty "И быстро!"
     liam "Да, Мэм... Я только попробую, как в прошлый раз!"
     # Бетти сама лезет на соседа, раскорячивается над ним и садится на его член
     # начинает двигаться
-    imgd 32932
+    imgf 32932
     w
-    imgf 32933
+    imgd 32933
     w
     imgd 32934
     w
@@ -409,14 +420,16 @@ label ep217_dialogues3_betty_2:
     liam "О да, Мэм! Ему очень повезло с такой женой, как вы..."
     liam "Оооо, еще!!"
     imgd 32941
+    w
     # в самый разгар секса затемнение
     # звук скрип двери
     # смена кадра - в дверь заходит Фред со своей профессиональной улыбочкой
     # Лиам Фреда увидел сразу и самодовольно улыбается ему
     # sound snd_back1
-    sound snd_folder_drop
+    sound snd_door_open1
     imgf 32942
     w
+    sound man_steps
     imgd 32943
     liam "..."
     fred "..."
@@ -425,34 +438,42 @@ label ep217_dialogues3_betty_2:
     imgf 32944
     betty "Мммм..."
     betty "Ох..."
-    sound snd_found_dress
+    sound snd_zip
     imgd 32946
     w
-    imgf 32945
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
+    imgfl 32945
     betty "Я думаю, что эта проверка..."
     betty "Пройдет успешно... Оооо..."
     # Фред подходит к Бетти
-    imgd 32947
+    imgf 32947
     # Лиам приподнимает Бетти за бедра, она прогибается в спине и Фреду открывается доступ к попе
     sound Jump1
-    imgf 32948
+    imgd 32948
     w
-    sound Jump2
-    imgd 32949
+    sound chpok6
+    img 32949 hpunch
+    w
     # Фред пристраивает член к попе Бетти и вводит его немного
     # Бетти останавливается
-    img 32950 hpunch
+    music stop
+    sound plastinka1b
+    img 32950 vpunch
     betty "АЙ!!! ЧТО ЭТО?!"
     betty "!!!"
     # Бетти возмущенно оглядывается
-    imgf 32951
+    music Pyro_Flow
+    img 32951
     betty "Фред! Что ты делаешь?!! Не смей!!!"
     betty "Быстро убери из меня ЭТО!!!"
     # Фред вводит член и спокойно говорит, улыбаясь
-    sound Jump1
+    music Groove2_85
     imgd 32949
     w
-    sound Jump2
+    sound hlup25
     img 32952 hpunch
     w
     imgd 32953
@@ -460,11 +481,13 @@ label ep217_dialogues3_betty_2:
     fred "Я как ответственный работник..."
     fred "Нахожу своей профессиональной обязанностью..."
     fred "Не допустить того, чтобы моя хозяйка осталась неудовлетворенной..."
-    imgf 32954
+    music Pyro_Flow
+    img 32954
     betty "Нет!!! Не смей!!!"
     betty "Не трогай меня!!!"
     betty "Твоя хозяйка тебе приказывает!"
     # Фреду по фиг
+    music Groove2_85
     imgd 32955
     fred "Миссис Робертс, сначала я выполню свои профессиональные обязанности."
     fred "А потом, с чувством выполненного профессионального долга, покину это помещение."
@@ -473,17 +496,31 @@ label ep217_dialogues3_betty_2:
     # она плывет от этого
     imgf 32956
     w
+    sound drkanje5
     imgd 32957
     w
-    sound ahhh6
-    imgf 32958
+    sound drkanje5
+    imgd 32958
     w
-    sound ahhh8
-    imgd 32959
+    sound drkanje5
+    imgd 32957
+    w
+    sound drkanje5
+    imgd 32958
+    w
+    sound drkanje5
+    imgd 32957
+    w
+    sound drkanje5
+    imgd 32958
+    w
+    music Loved_Up2
+    imgf 32959
     betty "Ооох..."
     betty "Ааах, перестань, Фред!"
     # уже менее уверенно говорит Фреду
-    imgf 32960
+    sound ahhh6
+    imgd 32960
     betty "Фред, я приказываю тебе..."
     betty "Мммм..."
     betty "Иди... Оооох..."
@@ -523,11 +560,11 @@ label ep217_dialogues3_betty_2:
     betty "Яяяаааа... Кончу сейчааааас!!!"
     # Бетти кончает
     img 32959
-    sound woman_moan14
     show screen photoshot_screen()
     with hpunch
     pause 0.7
     hide screen photoshot_screen
+    sound woman_moan14
     betty "Ааааах!!!"
     betty "АААААХ!!!"
     betty "АААААААА!!!"
@@ -537,35 +574,42 @@ label ep217_dialogues3_betty_2:
             imgf 32970
             liam "Я тоже..."
             liam "Кончаааааю!!!"
-            imgd 32974
-            w
-            sound bulk1
-            pause 0.7
+            img 32974
             sound bulk1
             show screen photoshot_screen()
             with hpunch
             pause 0.7
             hide screen photoshot_screen
-            imgd 32973
+            w
+            img 32973
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan18
             liam "ААА!"
             liam "АААААА!!"
-            imgd 32975
-            w
+            img 32975
             sound bulk1
+            show screen photoshot_screen()
+            with hpunch
             pause 0.7
+            hide screen photoshot_screen
+            w
+            img 32971
             sound bulk1
             show screen photoshot_screen()
             with hpunch
             pause 0.7
             hide screen photoshot_screen
             sound man_moan3
-            pause 0.7
-            sound man_moan8
-            imgd 32971
             fred "МММММММ!!!"
-            imgd 32969
+            imgf 32969
             w
+            sound hlup25
             imgd 32972
+            w
             pass
         "Кончить на Бетти.":
             # Фред и Лиам кончают на киску и на попу Бетти
@@ -574,39 +618,38 @@ label ep217_dialogues3_betty_2:
             liam "Кончаааааю!!!"
             imgd 32974
             w
-            sound bulk1
-            pause 0.7
-            sound bulk1
-            show screen photoshot_screen()
-            with hpunch
-            pause 0.7
-            hide screen photoshot_screen
+            sound man_moan18
             img 32973
             liam "ААА!"
             liam "АААААА!!"
             imgd 32975
             w
-            sound bulk1
-            pause 0.7
+            sound man_moan3
+            imgd 32971
+            fred "МММММММ!!!"
+            img 32976
             sound bulk1
             show screen photoshot_screen()
             with hpunch
             pause 0.7
             hide screen photoshot_screen
             sound man_moan3
-            pause 0.7
-            sound man_moan8
-            img 32971
-            fred "МММММММ!!!"
-            imgd 32976
             w
-            imgа 32977
+            img 32977
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan18
+            w
             pass
     # затемнение, шуршание одежды
     # голая Бетти лежит на диване в гостиной у соседа в отключке
     # Фред и Лиам стоят уже одетые
-    fadeblack 2.0
-    sound  snd_fabric1
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
     music Groove2_85
     imgfl 32978
     w
@@ -617,24 +660,29 @@ label ep217_dialogues3_betty_2:
     liam "А почему ты называешь ее хозяйкой?"
     liam "Раньше ведь была другая..."
     # если Моника закатила соседу иск
-    imgf 32981
+#    if neighborOffendedSueBig == True:  ##########проставить if
+    $ notif(_("Моника хотела закатить соседу иск на $ 100 000."))
+    imgd 32981
     liam "Какая-то стерва, которая мне закатила огромный иск за царапину на заборе."
+    #
     liam "Как ее там звали? Бакфетт что-ли?"
     # Фред усмехается
-    imgd 32982
+    imgf 32982
     fred "Да. Миссис Бакфетт."
     liam "А где она?"
     # если Моника закатила соседу иск
+#    if neighborOffendedSueBig == True:  ##########проставить if
     liam "Из-за нее у меня чуть не отняли мой дом!"
     #
     fred "О, Лиам."
-    imgf 32983
+    imgd 32983
     fred "Это очень интересная история..."
     fred "Как-нибудь я тебе расскажу ее..."
     # затемнение, спустя несколько минут
     # Бетти, Фред и Лиам стоят в гостиной соседа, Бетти уже в одежде
-    fadeblack 2.0
-    sound snd_found_dress
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
     music Groove2_85
     imgfl 32984
     w
@@ -653,26 +701,30 @@ label ep217_dialogues3_betty_2:
     # она подходит к столу и тянет руку к утюгу
     # крупным планом показываем, как рука Фреда ложится на ее руку, не давая взять утюг
     imgd 32988
-    w
     sound highheels_short_walk
+    w
     imgf 32989
     w
     sound Jump1
-    imgd 32990
+    img 32990 hpunch
     w
-    imgf 32991
+    music Hidden_Agenda
+    img 32991
     fred "Миссис Робертс, я думаю, что вам нужно оставить это здесь..."
     # Бетти непонимающе на него смотрит
     betty "Зачем?"
     fred "Вашему соседу в любой момент может понадобится ваша помощь..."
     fred "Ведь он совсем не умеет гладить этим утюгом..."
     # Бетти косится на фреда, на соседа (они улыбаются), а потом смущенно опускает глаза, убирая руку от утюга
-    imgd 32992
+    imgf 32992
     betty "Я..."
     fred "Да, Мэм?"
     betty "Нет, ничего! Мне пора готовить обед для своего мужа!"
+    imgd 32993
+    w
+    fadeblack
     sound highheels_run2
-    imgf 32993
+    pause 2.0
     # выбегает из гостиной
     return
 

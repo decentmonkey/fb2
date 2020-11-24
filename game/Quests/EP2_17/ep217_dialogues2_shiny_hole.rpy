@@ -1,10 +1,10 @@
-default monicaJoeMollyClare1 = False # Моника попыталась отговорить Джо от увольнения Клэр
-default monicaJoeMollyClare2 = False # Моника подбросила Молли деньги, выставив ее перед Эшли воровкой
-default monicaJoeMollyClare3 = False # Моника обвинила Молли в том, что та на нее напала
-default monicaJoeMollyClare4 = False # Молли должна попросить у Моники прощения
-default monicaJoeMollyClare5 = False # Моника выдвинула свои условия для прощения Молли
-default monicaJoeMollyClare6 = False # Молли согласилась на приват с Джо в присутствии Моники
-default monicaJoeMollyClare7 = False # Моника простила Молли
+default monicaJoeMollyClare1 = 0 # Моника попыталась отговорить Джо от увольнения Клэр
+default monicaJoeMollyClare2 = 0 # Моника подбросила Молли деньги, выставив ее перед Эшли воровкой
+default monicaJoeMollyClare3 = 0 # Моника обвинила Молли в том, что та на нее напала
+default monicaJoeMollyClare4 = 0 # Молли должна попросить у Моники прощения
+default monicaJoeMollyClare5 = 0 # Моника выдвинула свои условия для прощения Молли
+default monicaJoeMollyClare6 = 0 # Молли согласилась на приват с Джо в присутствии Моники
+default monicaJoeMollyClare7 = 0 # Моника простила Молли
 
 
 #call ep217_dialogues2_shiny_hole_1() # Моника узначет что Клэр увольняется и общается с Джо
@@ -49,16 +49,16 @@ label ep217_dialogues2_shiny_hole_1:
     clare "Моника, привет!"
     clare "Хорошо, что ты пришла."
     clare "Я хотела увидеться с тобой..."
-    music Hidden_Agenda
+#    music Hidden_Agenda
     imgd 16143
     mt "Какая-то она странная..."
     imgf 41018
     m "Привет, Клэр."
-    music Groove2_85
+#    music Groove2_85
     clare "Моника, я хотела сказать тебе, что ты была мне хорошим другом."
     clare "Я привязалась к тебе за это время и..."
     clare "И я действительно буду скучать по тебе."
-    music Hidden_Agenda
+#    music Hidden_Agenda
     imgd 16144
     m "В смысле?"
     m "Клэр, почему ты говоришь так, как-будто мы видимся в последний раз?"
@@ -86,15 +86,15 @@ label ep217_dialogues2_shiny_hole_1:
     clare "Я сказала Эшли, что я подумаю..."
     clare "Но она дала мне понять, что в случае моего отказа, я больше не смогу выходить на сцену Shiny Hole."
     clare "Поэтому, скорее всего, мы с тобой больше не увидимся. По крайней мере, не здесь..."
-    music Pyro_Flow
-    imgf 40725
+    imgd 40725
     m "Клэр... Подожди."
     m "Может, получится договориться с Эшли..."
     m "И вообще, какое она имеет право ставить тебе подобные условия?!"
     m "?!?!?!"
-    imgd 16165
+    imgf 16165
     clare "Как я поняла, Моника, это произошло с подачи Джо..."
-    img 40726 vpunch
+    music Pyro_Flow
+    img 40726
     m "Джо?!"
     m "Этот мерзкий подкаблучник?!"
     m "!!!"
@@ -104,7 +104,7 @@ label ep217_dialogues2_shiny_hole_1:
     clare "Он неоднократно подкатывал ко мне, но я всегда отказывала ему."
     clare "Думаю, что он это подстроил."
     music Pyro_Flow
-    imgf 40728
+    img 40728
     m "Вот сволочь!!!"
     m "!!!"
     m "А Эшли?! Как она могла так глупо повестись на его манипуляции?!"
@@ -119,20 +119,21 @@ label ep217_dialogues2_shiny_hole_1:
     sound highheels_short_walk
     pause 2.0
     music Pyro_Flow
+    music2 pub_noise1_low
     imgfl 40730
     m "Эшли, я сейчас разговаривала с Клэр."
     m "Какого черта происходит?!"
     m "С какой стати ты ставишь Клэр подобные условия?!"
     # Эшли похотливо подмигивает ей
+    music Loved_Up
     imgf 40731
     w
-    #music Groove2_85
-    music Funk_loop8
+    #music Loved_Up
     imgd 22705
     ashley "[monica_pub_name], мне нравится, когда ты злишься..."
     ashley "Ты такая горячая штучка. Так и хочется забраться к тебе в трусики..."
     music Pyro_Flow
-    imgf 40732
+    img 40732
     mt "Гребаная извращенка!"
     mt "!!!"
     imgd 40733
@@ -149,60 +150,65 @@ label ep217_dialogues2_shiny_hole_1:
     ashley "Он себя ведет хорошо в последнее время, поэтому я разрешила ему заниматься этим вопросом."
     imgd 40737
     m "Где Джо?!"
-    imgf 22705
+    imgd 22705
     ashley "В подсобке."
-    music Funk_loop8
+#    music Loved_Up
+    music Loved_Up
     ashley "И не вздумай заигрывать с ним. Иначе я тебя отшлепаю по твоей королевской попке."
     # снова пошло подмигивает
     music Pyro_Flow
-    img 40738 hpunch
+    img 40738
     mt "ААААА!!!"
     mt "Бесит!!!"
     mt "!!!"
+    music2 stop
     # затемнение
     # смена кадра, подсобка барменов, Джо протирает стол или просто сидит на диване, либо стоит где-то за диваном и разглядывает номера
     # заходит злая Моника
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Pyro_Flow
+    music Groove2_85
     imgfl 40739
     m "Джо!"
     joe "А, [monica_pub_name], это ты..."
     # если Моника терлась киской о Джо
+#    if monicaPubSecondPrivatDanceJoe3 == True:   #########проставить if
     #
     $ notif(_("Моника была на привате с Джо и терлась об него."))
     #
     imgf 40740
     joe "Хочешь снова повторить нашу встречу на этом столе?" # подмигивает
     sound Jump1
-    imgd 40741
+    img 40741
     joe "Я не против. Даже готов заплатить тебе пару баксов за это. Хи-хи!"
+    music Power_Bots_Loop
     img 40742 vpunch
     m "Фу! Нет, ни за что!"
     m "У тебя вообще-то есть жена!"
     m "И она находится в двух шагах отсюда!"
     m "Как ты можешь предлагать подобное?!"
     music Groove2_85
-    imgd 40743
+    imgf 40743
     joe "Ну, в прошлый раз тебе это не помешало, [monica_pub_name]..."
-    music Pyro_Flow
-    imgf 40744
+#    music Pyro_Flow
+    img 40744
     m "!!!"
     m "Я с тобой пришла разговаривать, а не заниматься всякими гадкими непотребствами!"
     imgd 40745
     mt "Мерзавец!"
+    #
+    music Groove2_85
     imgf 40746
     joe "Чего ты хотела?"
     m "Зачем ты надоумил Эшли так сказать Клэр?!"
     m "Она теперь собирается покинуть это место!"
-    music Groove2_85
     #music Hidden_Agenda
     imgd 40747
     joe "Я?! Чуть что, сразу Джо во всем виноват!"
     joe "Я ничего не говорил!"
     music Pyro_Flow
-    imgf 40748
+    img 40748
     m "Заткнись, Джо! Хватит лгать!"
     m "Я знаю, что ты хотел подкатить к Клэр, а она тебе отказала!"
     m "Теперь ты ей таким образом решил отомстить?!"
@@ -210,13 +216,12 @@ label ep217_dialogues2_shiny_hole_1:
     m "Я все расскажу твоей жене!"
     music stop
     sound plastinka1b
-    pause 1.0
-    music Groove2_85
     img 40749 hpunch
     joe "Подожди-подожди! [monica_pub_name], зачем же сразу идти к Эшли?"
+    music Hidden_Agenda
     joe "Мы же взрослые люди. Давай договоримся, а?"
     music Pyro_Flow
-    imgf 40750
+    imgd 40750
     m "Мне не о чем с тобой договариваться!"
     m "И вообще!"
     m "С чего ты решил, что можешь приставать ко всем девочкам?!"
@@ -224,26 +229,27 @@ label ep217_dialogues2_shiny_hole_1:
     m "И ты решил что и все остальные будут вести себя так же?"
     # Джо недовольно
     music Groove2_85
-    imgd 40751
+    imgf 40751
     joe "Нет."
     m "Что 'нет'?!"
     joe "Молли мне тоже постоянно отказывает..."
-    imgf 40752
+    imgd 40752
     m "Да неужели?! Эта шлюха никому никогда не отказывает!"
     m "Она ради денег готова сделать все!"
     m "Падшая особа!"
-    imgd 40753
+    imgf 40753
     joe "Нууу... Она мне сказала, что у нее достаточно богатых клиентов..."
     joe "И что она была бы не против со мной за деньги, но..."
     joe "Ей нужна эта работа."
-    imgf 40754
+    imgd 40754
     joe "Поэтому она не собирается рисковать отношенями с Эшли из-за меня..."
     joe "А если Эшли что-то заподозрит..."
     joe "В общем, она мне отказала."
     imgd 40755
     m "..."
     # Джо снова пытается подкатить к Монике
-    sound Jump1
+    music Hidden_Agenda
+    sound2 Jump1
     img 40756 hpunch
     joe "Но ты ведь не боишься Эшли, [monica_pub_name]?"
     joe "Может, все-таки уединимся как-нибудь, а?"
@@ -251,30 +257,30 @@ label ep217_dialogues2_shiny_hole_1:
     joe "И Эшли ничего не узнает. Я позабочусь об этом."
     joe "И я скажу Эшли, чтобы Клэр оставалась и танцевала одетой!"
     music Pyro_Flow
-    imgd 40758
+    img 40758
     m "Нет, Джо!"
     sound Jump2
     img 40759 vpunch
     m "Не смей мне предлагать подобные гадости!"
-    imgf 40760
+    imgd 40760
     m "Я здесь королева, а не проститутка какая-нибудь!"
     music Groove2_85
-    imgd 40761
+    imgf 40761
     joe "Ну, тогда у меня не остается вариантов, [monica_pub_name]..."
     joe "Клэр уйдет, а на ее место я найду другую, более сговорчивую девочку."
-    imgf 40762
+    imgd 40762
     joe "С которой у меня не будет возникать подобных проблем..."
     sound Jump1
     imgd 40763
     joe "У меня уже есть кое-кто на примете!" # подмигивает
-    music Pyro_Flow
+#    music Pyro_Flow
     imgf 40764
     mt "Джо сволочь!"
     mt "Мерзкий грязный извращенец!"
     mt "Ненавижу!!!"
     mt "!!!"
     # Моника выходит из подсобки
-    $ monicaJoeMollyClare1 = True # Моника попыталась отговорить Джо от увольнения Клэр
+    $ monicaJoeMollyClare1 = day # Моника попыталась отговорить Джо от увольнения Клэр
     return
 
 # Моника возвращается в гримерку, Клэр сидит на своем месте
@@ -283,7 +289,7 @@ label ep217_dialogues2_shiny_hole_2:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Pyro_Flow
+    music Groove2_85
     imgfl 40765
     mt "Черт!"
     mt "Что ж теперь делать, Моника?"
@@ -292,22 +298,20 @@ label ep217_dialogues2_shiny_hole_2:
     #
     $ notif(_("Клэр пришла на приват к Мистеру Беркельбауху по просьбе Моники."))
     #
-    music Stealth_Groover
     imgf 40766
     mt "Но ведь Клэр ради меня переступила через свои принципы и пришла на приват к тому никчемному банкиришке..."
     mt "..."
     mt "Я ведь хорошая и я с ней дружу..."
     mt "А хорошие друзья должны помогать в такой ситуации..."
+    music Stealth_Groover
     mt "Странно, почему я не чувствую что что-то кому-то должна..."
     mt "Наверное потому, что я самая сильная и умная среди всех?.."
-    music Stealth_Groover
     imgd 40767
     mt "С другой стороны, если Клэр уйдет отсюда, то я останусь одна против всех здешних извращенцев..."
     mt "А это место приносит какие-то деньги мне..."
     mt "Понятно, что это никчемное место нужно мне ненадолго..."
     mt "Ровно до момента, когда я решу небольшое недоразумение, которое случилось со мной..."
     mt "Поэтому я должна помочь Клэр, но..."
-    music Pyro_Flow
     imgf 40768
     mt "Но я не готова делать это таким образом."
     mt "Я, Моника Бакфетт, не собираюсь пренебрегать своими принципами!"
@@ -320,14 +324,13 @@ label ep217_dialogues2_shiny_hole_2:
     mt "Так, Моника, думай... Думай-думай..."
     music stop
     sound plastinka1b
-    pause 1.0
-    music Hidden_Agenda
     mt "Стоп! Молли..."
+    music Hidden_Agenda
     mt "Эта сучка подставила меня перед Эшли и выставила воровкой!"
     #
     $ notif(_("Молли подбросила Монике деньги и обвинила ее в краже."))
     #
-    imgf 40769
+    imgd 40769
     mt "А я не воровка! Я никогда не воровала деньги!"
     #
     $ notif(_("Моника брала деньги из банки с чаевыми Молли."))
@@ -336,8 +339,8 @@ label ep217_dialogues2_shiny_hole_2:
     mt "Тот случай, когда я брала деньги - не в счет!"
     mt "Это была компенсация за моральный вред, причиненный мне сучкой Молли!"
     mt "!!!"
-    mt "И вообще! Эта дрянь постоянно меня провоцировала!"
     music Stealth_Groover
+    mt "И вообще! Эта дрянь постоянно меня провоцировала!"
     mt "Точно, Моника! Это гениально!"
     imgf 40771
     mt "Это отличный план!"
@@ -350,15 +353,12 @@ label ep217_dialogues2_shiny_hole_2:
 # гримерка, повторный клик на Клэр после разговора о ее увольнении с паба
 label ep217_dialogues2_shiny_hole_3:
     fadeblack
-    sound highheels_short_walk
-    pause 2.0
     music Groove2_85
-    imgfl 16141
+    imgf 16141
     clare "Я еще не приняла окончательного решения, Моника."
     clare "Но, скорее всего, я уйду отсюда."
     clare "Я творческая личность и не могу работать в подобных условиях..."
-    music Pyro_Flow
-    imgf 16143
+    imgd 16143
     mt "Черт!"
     mt "Мне нужно помочь ей!"
     return
@@ -369,7 +369,7 @@ label ep217_dialogues2_shiny_hole_4:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Hidden_Agenda
+    music Stealth_Groover
     imgfl 16131
     w
     imgf 40772
@@ -379,7 +379,7 @@ label ep217_dialogues2_shiny_hole_4:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Pyro_Flow
+    music Stealth_Groover
     imgfl 22672
     m "А почему ты не здороваешься со своей королевой?!"
     m "С какой стати я должна тратить свое время на то, чтобы делать тебе подобные замечания?!"
@@ -387,10 +387,10 @@ label ep217_dialogues2_shiny_hole_4:
     imgf 40773
     molly "Так не трать..."
     # отворачивается
-    sound vjuh2
+#    sound vjuh3
     imgd 40774
     w
-    imgf 40775
+    img 40775
     m "!!!"
     m "Если ты не будешь проявлять должного почтения своей королеве..."
     m "Эшли об этом узнает!"
@@ -401,7 +401,7 @@ label ep217_dialogues2_shiny_hole_4:
     molly "Отвали!"
     molly "Тоже мне королева!"
     # Моника продолжает придираться
-    imgf 16138
+    img 16138
     m "Ах так?! То есть ты считаешь, что я не королева Shiny Hole?!"
     # Молли зло
     imgd 16136
@@ -409,7 +409,7 @@ label ep217_dialogues2_shiny_hole_4:
     molly "Вали на сцену! Тебя там давно уже ждут!"
     molly "Королева шлюх!"
     # Монику бомбит
-    imgf 40776
+    img 40776
     m "!!!"
     menu:
         "Обвинить Молли в воровстве.": # при условии, что у Моники есть 100 баксов
@@ -425,12 +425,14 @@ label ep217_dialogues2_shiny_hole_4:
             m "!!!"
             return False
     # Моника, отвернувшись от Молли, стоит со злым лицом
+    music Pyro_Flow
     imgd 40778
     mt "Вот тварь!!!"
     mt "Она еще смеет мне грубить!"
     mt "МНЕ! Королеве Shiny Hole!"
     mt "!!!"
     mt "Я ей этого просто так не оставлю!"
+    music Hidden_Agenda
     mt "Хмм..."
     mt "Она в прошлый раз выставила меня воровкой перед Эшли..."
     #
@@ -464,7 +466,7 @@ label ep217_dialogues2_shiny_hole_5:
     imgf 18210
     mt "Отлично! А теперь к Эшли..."
     mt "Сейчас я продемонстрирую ей свою гениальную актерскую игру..."
-    $ monicaJoeMollyClare2 = True # Моника подбросила Молли деньги, выставив ее перед Эшли воровкой
+    $ monicaJoeMollyClare2 = day # Моника подбросила Молли деньги, выставив ее перед Эшли воровкой
     $ log1 = _("Сказать Эшли, что Молли украла у Моники чаевые.")
     return
 
@@ -476,9 +478,10 @@ label ep217_dialogues2_shiny_hole_6:
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
+    music2 pub_noise1_low
     imgfl 40731
     w
-    music Funk_loop8
+    music Loved_Up
     imgf 22705
     ashley "[monica_pub_name], ты сегодня была на высоте!"
     ashley "Я не могла глаз оторвать от твоей королевской попки!"
@@ -487,8 +490,8 @@ label ep217_dialogues2_shiny_hole_6:
     m "Я всегда на высоте!"
     imgf 40783
     ashley "О да, [monica_pub_name]..."
+    music Groove2_85
     ashley "Как насчет твоих королевских обязанностей?"
-    music Pyro_Flow
     m "Какие к черту обязанности?!"
     m "Если меня тут некоторые особы даже королевой не признают!!"
     m "Где эта дрянь Молли?!"
@@ -496,13 +499,14 @@ label ep217_dialogues2_shiny_hole_6:
     ashley "Уже ушла домой. А зачем она тебе?"
     ashley "Снова собрались устраивать битву сучек?" # строго
     music Pyro_Flow
-    imgf 40784
+    img 40784
     m "Эта овца украла мои деньги!"
     # Эшли подозрительно
+    music Groove2_85
     imgd 40785
     ashley "От кого-то я уже слышала подобное..."
     ashley "Прямо дежа-вю какое-то!"
-    imgf 40786
+    imgd 40786
     m "Какое еще дежа-вю! Ты сама-то хоть знаешь значение этого слова?!"
     m "Эта дрянь дождалась, когда я пойду на сцену и украла у меня 100 долларов!"
     m "Они лежали у меня в кармане, а сейчас их там нет!"
@@ -535,28 +539,29 @@ label ep217_dialogues2_shiny_hole_6:
             $ mollyStoleMoney = 100
     music Pyro_Flow
     #music Power_Bots_Loop
-    imgf 40791
+    imgd 40791
     m "Она украла у меня [mollyStoleMoney] долларов!"
     m "!!!"
     music Groove2_85
     imgd 40792
     ashley "Я поговорю с ней, [monica_pub_name]."
-    music Funk_loop8
+    music Loved_Up
     ashley "А теперь иди."
     ashley "С нетерпением жду снова увидеть твою королевскую попку на сцене."
-    music Pyro_Flow
+    music Groove2_85
     imgf 40738
     mt "Долбанная извращенка!"
     mt "К тому же еще и дура!"
     mt "Но мне это на руку..."
-    #if
-    #music Hidden_Agenda
+    #if mollyStoleMoney == 200:  ##########проставить if
+    music Hidden_Agenda
     imgd 40793
     mt "Я не только подставила рыжую сучку Молли, но еще и заработаю на этом 100 долларов!"
     #
     imgf 40793
     mt "Моника, это была гениальная акретская игра!"
     mt "!!!"
+    music2 stop
     return
 
 # Моника приходит на работу в следующий рабочий день Молли
@@ -567,32 +572,33 @@ label ep217_dialogues2_shiny_hole_7:
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
-    imgfl 40794
+    imgf 40794
     ashley "Еще раз такое повторится, я лишу тебя чаевых!"
     ashley "Будешь отдавать все заработанные деньги мне!"
     ashley "Устроила здесь непонятно что!"
     ashley "Ты должна думать о том, как трясти больше денег с клиентов, а не воровать!"
     molly "Я не брала никаких денег!"
     sound vjuh2
-    imgf 40795
+    img 40795
     w
     # Молли зло смотрит на Монику, та злорадствует
+    music Hidden_Agenda
     imgd 40796
     m "Эшли, она украла у меня [mollyStoleMoney] долларов."
     m "А теперь притворяется перед тобой невинной овечкой."
     m "Она ненавидит меня за то, что я королева Shiny Hole."
     m "И мстит мне за это."
-    sound highheels_short_walk
+    music Pyro_Flow
     img 40797 hpunch
     molly "Ты что несешь, сучка?!"
     molly "Эшли, она подставила меня! Она все врет!"
-    imgd 40798
+    img 40798
     ashley "Все! Хватит!" # рявкает на Молли
     # Эшли подходит к Монике
-    fadeblack 2.0
+    fadeblack
     sound man_steps
     pause 2.0
-    music Pyro_Flow
+    music Loved_Up
     imgfl 40799
     ashley "Я не вижу смысла [monica_pub_name] обманывать меня..."
     # кладет свою ладонь на попу Монике, и засовывает ей под шорты
@@ -600,10 +606,11 @@ label ep217_dialogues2_shiny_hole_7:
     img 40800 vpunch
     ashley "Она здесь королева, а ты просто завидуешь, Молли."
     ashley "Поэтому ты сейчас же отдашь ей [mollyStoleMoney] баксов, которые ты у нее украла!"
-    imgf 40801
+    music Pyro_Flow
+    imgd 40801
     ashley "Отдавай деньги! Быстро!"
     # рука так же на попе
-    imgd 40802
+    img 40802
     molly "!!!"
     # Молли берет купюры и отдает их Монике
     # у Моники + 200 баксов или +100
@@ -613,24 +620,26 @@ label ep217_dialogues2_shiny_hole_7:
     w
     imgd 40804
     w
+    sound vjuh3
     imgf 40805
     w
     imgd 40806
     w
-    imgf 40807
+    img 40807
     w
     imgd 40808
     ashley "Все, закрыли этот вопрос!"
     ashley "И, Молли, я тебя предупреждаю!"
     ashley "Если повторится что-то подобное - я тебя накажу!"
     ashley "Ты все поняла?!"
-    imgd 40809
+    img 40809
     molly "ДА!"
     # Эшли хлопает Монику по попе, подмигивает ей и выходит из гримерки
     # Моника злорадствует
+    music Loved_Up
     imgd 40810
     w
-    sound Jump2
+    sound snd_slap1
     img 40811 hpunch
     w
     imgf 40812
@@ -649,33 +658,35 @@ label ep217_dialogues2_shiny_hole_7:
         mt "Я не только самая красивая, но и самая умная среди всех этих ничтожеств!"
 
     # Молли в бешенстве подходит к Монике
-    sound highheels_short_walk
+    fadeblack
+    sound highheels_run2
+    pause 2.0
     music Pyro_Flow
-    imgd 40815
+    img 40815 hpunch
     molly "Ах ты дрянь!"
     molly "Отдай мне мои деньги обратно!!!"
-    imgf 40816
+    img 40816
     m "Еще чего!"
     m "Эти деньги МОИ!"
     # Моника разворачивается и идет к вешалке
     # Молли хватает ее за руку
     music stop
     sound plastinka1b
-    imgd 40817
+    img 40817 vpunch
     molly "Слышишь ты, королева шлюха!"
-    # music Pyro_Flow
     music Pyro_Flow
-    img 40818 vpunch
+    img 40818
     molly "Что за цирк ты тут устроила?!"
     molly "Думаешь, тебе все просто так сойдет с рук?!"
     # Моника картинно смотрит на руку Моли, которой она вцепилась в Монику
-    imgf 40819
+    music Stealth_Groover
+    imgd 40819
     m "Ты всего лишь дешевая подстилка в какой-то занюханной дыре!"
-    imgd 40820
+    img 40820
     m "Не смей прикасаться ко мне своими грязными руками!"
-    imgf 40821
+    imgd 40821
     molly "Что ты сказала?!"
-    imgd 40822
+    img 40822
     m "Что ты дешевая подстилка!"
     m "И что ты мне сделаешь?!"
     m "Ударишь?! Ну! Давай же!"
@@ -686,14 +697,17 @@ label ep217_dialogues2_shiny_hole_7:
     imgd 40824
     w
     music Power_Bots_Loop
-    imgf 40825
+    img 40825 hpunch
     molly "Ненавижу тебя!"
     molly "Какая же ты сука!"
     molly "!!!"
     # Моника злорадно ухмыляется
+    music Stealth_Groover
     imgd 40826
     m "!!!"
-    imgf 40828
+    sound highheels_short_walk
+    imgf 40827
+    w
     menu:
         "Сказать Эшли, что Молли напала на Монику.":
             pass
@@ -702,7 +716,7 @@ label ep217_dialogues2_shiny_hole_7:
     mt "А вот и очередной повод..."
     mt "Эту тупую дуру не пришлось даже провоцировать!"
     mt "!!!"
-    $ monicaJoeMollyClare3 = True # Моника обвинила Молли в том, что та на нее напала
+    $ monicaJoeMollyClare3 = day # Моника обвинила Молли в том, что та на нее напала
     $ log1 = _("Сказать Эшли, что Молли напала на Монику.")
     return
 
@@ -719,6 +733,7 @@ label ep217_dialogues2_shiny_hole_8:
     sound highheels_run2
     pause 2.0
     music Power_Bots_Loop
+    music2 pub_noise1_low
     imgfl 40829
     m "Эшли!"
     m "Я не могу работать в таких условиях!"
@@ -730,35 +745,35 @@ label ep217_dialogues2_shiny_hole_8:
     imgf 40830
     ashley "Что?!" # Эшли приближается к Монике и запускает руку в шорты спереди
     music Loved_up
-    pause 2.0
-    sound Jump1
     imgd 40831
+    sound Jump1
     ashley "Ударила?!"
     # Моника терпит это, подается плечами назад и продолжает жаловаться на Молли, стервозно
-    sound ahhh11
-    imgf 40832
+#    sound ahhh11
+    music Pyro_Flow
+    img 40832
     m "Да!!!"
     m "Я помню, что ты запрещала нам драться и Я не стала отвечать ей тем же!"
     imgd 40833
     m "А ей совершенно наплевать на то, что ты сделала предупреждение!"
     m "Она била меня и хватала за..."
-    imgf 40834
+    imgd 40834
     ashley "Хватала за что?"
     sound Jump2
-    imgd 40835
+    img 40835
     m "В общем, хватала за все!"
-    music Pyro_Flow
-    imgf 40836
+    imgd 40836
     ashley "А ну-ка пошли со мной!"
     ashley "Сейчас я ей устрою!"
     # Эшли выходит из-за барной стойки и направляется в сторону гримерки
     # Моника довольная собой смотрит ей вслед
     music Hidden_Agenda
-    imgd 40837
+    imgf 40837
     mt "Моника, ты это сделала!"
     mt "Эти жалкие людишки даже не догадываются, как легко ими управлять."
     mt "Они никогда не сравнятся с такой умной женщиной, как Я!"
     mt "!!!"
+    music2 stop
     # затемнение, звук каблуков
     # смена кадра, гримерка
     # Эшли орет на Молли
@@ -766,7 +781,7 @@ label ep217_dialogues2_shiny_hole_8:
     sound highheels_run2
     pause 2.0
     music Pyro_Flow
-    imgfl 40838
+    imgf 40838
     ashley "МОЛЛИ!!!"
     ashley "Я тебе запретила устраивать битву сучек!"
     ashley "Я тебе сделала предупреждение!"
@@ -778,19 +793,19 @@ label ep217_dialogues2_shiny_hole_8:
     imgd 40840
     ashley "С какой стати [monica_pub_name] будет мне врать?!"
     ashley "Она королева! И я ей верю!"
-    sound oooh5
+#    sound oooh5
     img 40841 hpunch
     molly "Она обманщица!!!"
-    imgd 40842
+    img 40842
     ashley "МОЛЧАТЬ!"
     ashley "Теперь ты будешь все свои чаевые отдавать мне!"
-    imgf 40843
+    imgd 40843
     molly "!!!"
     # Эшли подходит к Монике и заигрывает с ней, гладит ее по бедру
-    music Funk_loop8
-    pause 2.0
+#    music Loved_Up
+    music Loved_Up
+    imgf 40844
     sound Jump1
-    imgd 40844
     ashley "[monica_pub_name]..."
     ashley "Ты же хорошая королева?"
     m "..."
@@ -798,16 +813,16 @@ label ep217_dialogues2_shiny_hole_8:
         "Подыграть Эшли.":
             pass
     music Hidden_Agenda
-    imgf 40845
+    imgd 40845
     mt "Как же мне отвратительны прикосновения этой грязной извращенки Эшли!"
     mt "Какую же мерзость мне приходится терпеть!"
     mt "Еще и подыгравать!"
     mt "!!!"
     # Моника смотрит на руку Эшли, потом зло на Молли
-    music Pyro_Flow
+#    music Pyro_Flow
     imgd 40846
     w
-    imgf 40847
+    imgd 40847
     w
     imgd 40848
     m "Да... Я хорошая королева."
@@ -816,7 +831,7 @@ label ep217_dialogues2_shiny_hole_8:
     sound Jump1
     imgd 40850
     w
-    music Groove2_85
+    music Loved_Up
     imgf 40851
     ashley "Хорошая королева [monica_pub_name] помнит про свои короевские обязанности?"
     music Hidden_Agenda
@@ -825,64 +840,63 @@ label ep217_dialogues2_shiny_hole_8:
     mt "Что за бред она несет?!"
     mt "У королевы могут быть только права!"
     mt "!!!"
-    imgf 40853
+    imgd 40853
     m "Да. А как насчет королевских привилегий?"
     # рука Эшли гладит через шортики киску Моники
-    music Groove2_85
-    pause 2.0
-    sound Jump2
+    music Loved_Up
     img 40854 hpunch
+    sound Jump2
     ashley "У королевы Shiny Hole есть масса привилегий..."
     ashley "Что ты хочешь, [monica_pub_name]?"
-    imgd 40855
-    music Pyro_Flow
+    music Hidden_Agenda
+    imgf 40855
     m "Я хочу, чтобы Молли попросила у меня прощения..."
     m "За то, что украла у меня [mollyStoleMoney] долларов..."
     m "А потом ударила меня!"
+    music Pyro_Flow
     img 40856 vpunch
     molly "Я ЭТОГО НЕ ДЕЛАЛА!!!"
     # Эшли рявкает на Молли
-    imgd 40857
+    img 40857
     ashley "Тихо!!!"
     ashley "Слышала, что сказала [monica_pub_name]?!"
     ashley "Проси у нее прощения!"
-    imgf 40858
+    imgd 40858
     molly "НЕТ!"
     molly "Ни за что!!!"
     imgd 40840
     ashley "Значит так!"
     ashley "Ты будешь отдавать мне все свои чаевые до тех пор, пока [monica_pub_name] не простит тебя!"
     ashley "Понятно?!"
-    sound oooh5
-    img 40841 vpunch
+#    sound oooh5
+    img 40841
     molly "ЧТО?! НЕТ!!!"
     molly "Эшли, только не это! Ты ведь знаешь как мне нужны эти деньги!"
     molly "Ты ведь знаешь на что я коплю их!"
     imgd 40859
     ashley "Я все сказала! Пока королева Shiny Hole не простит тебя!"
-    imgf 40860
+    imgd 40860
     molly "..." # Молли очень расстроена, как же так
     # Эшли поворачивается к Монике, подмигивает ей и уходит
     music Groove2_85
-    imgd 40812
+    imgf 40812
     ashley "Тебе пора идти на сцену и порадовать наших клиентов своей шикарной попкой."
     ashley "Я тоже с удовольствием на нее посмотрю."
     # Молли злая выходит из гримерки вслед за Эшли
     sound man_steps
-    imgf 40813
+    imgd 40813
     w
+    fadeblack 2.0
     music Pyro_Flow
-    imgd 40861
+    imgfl 40861
     molly "Ненавижу тебя, подлая сучка!"
     # Моника остается одна в гримерке
-    fadeblack 1.5
-    sound highheels_short_walk
-    pause  1.5
     music Hidden_Agenda
     imgf 40862
+    sound highheels_short_walk
     mt "Можешь меня ненавидеть, но теперь тебе некуда будет деваться, дрянь!"
     mt "!!!"
-    $ monicaJoeMollyClare4 = True # Молли должна попросить у Моники прощения
+    $ monicaJoeMollyClare4 = day # Молли должна попросить у Моники прощения
     return
 
 # при условии, что Молли должна просить прощения у Моники
@@ -893,7 +907,7 @@ label ep217_dialogues2_shiny_hole_9:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Hidden_Agenda
+    music Stealth_Groover
     imgfl 40863
     mt "О, бывшая королева собственной персоной!"
     mt "Мерзкая высокомерная стерва!"
@@ -901,8 +915,6 @@ label ep217_dialogues2_shiny_hole_9:
     mt "!!!"
     # Молли подходит к Монике
     sound highheels_short_walk
-    pause 2.0
-    music Groove2_85
     imgf 40864
     molly "[monica_pub_name], нам надо поговорить с тобой..."
     # Моника разговаривает с ней язвительно
@@ -910,7 +922,7 @@ label ep217_dialogues2_shiny_hole_9:
     m "Неужели?"
     m "И о чем же?"
     m "Хочешь попросить прощения у своей королевы?"
-    imgf 40866
+    img 40866
     molly "О каком прощении ты говоришь?"
     molly "Я ведь ничего тебе не сделала."
     molly "Я не нападала на тебя и ничего у тебя не крала."
@@ -940,7 +952,7 @@ label ep217_dialogues2_shiny_hole_9:
     molly "Я не могу собрать деньги на взнос агенту в срок!"
     molly "Потому что отдаю все Эшли!"
     # Моника зло стебется над ней
-    music Pyro_Flow
+    music Stealth_Groover
     imgf 40872
     m "А что, он отказался взять твою задницу вместо денег?!"
     m "Наверняка ты ему предлагала это!"
@@ -950,7 +962,7 @@ label ep217_dialogues2_shiny_hole_9:
     imgd 40873
     molly "Он не знает о том, каким способом я сейчас зарабатываю деньги."
     m "А зря! Может, не пришлось бы тогда платить ему!"
-    imgf 40874
+    img 40874
     molly "!!!" # зло смотрит на Монику
     molly "Что ты хочешь от меня?!"
     molly "Что мне сделать, чтобы ты сказала Эшли, что я прощена?"
@@ -974,9 +986,10 @@ label ep217_dialogues2_shiny_hole_9:
         "Ты признаешь, что Я - королева Shiny Hole.":
             pass
     # Моника с нескрываемым злорадством
+    music Stealth_Groover
     imgd 40877
     m "Первое условие: ты признаешь, что Я - королева Shiny Hole."
-    imgf 40878
+    img 40878
     molly "..." # Молли злится, но сдерживает эмоции
     imgd 40879
     m "Я не скажу Эшли, что простила тебя, если ты не подтвердишь мой статус!"
@@ -989,7 +1002,7 @@ label ep217_dialogues2_shiny_hole_9:
     imgd 40881
     m "Ну надо же!"
     m "Ты это сказала!"
-    imgf 40882
+    img 40882
     molly "!!!"
     molly "Все? Пошли к Эшли!"
     music Hidden_Agenda
@@ -999,13 +1012,13 @@ label ep217_dialogues2_shiny_hole_9:
     menu:
         "Из нас двоих сучка ТЫ, а не я!":
             pass
+    music Stealth_Groover
     imgd 40883
     m "Мое второе условие: из нас двоих сучка ТЫ, а не я. И ты это признаешь."
-    music Pyro_Flow
     molly "Ты издеваешься?!"
     m "Нет..."
     m "Хочешь моего прощения - говори, что ты сучка..."
-    imgf 40884
+    img 40884
     molly "!!!"
     molly "Хорошо. Из нас двоих сучка я, а не ты!"
     molly "Довольна?"
@@ -1029,11 +1042,11 @@ label ep217_dialogues2_shiny_hole_9:
     sound highheels_short_walk
     imgf 40888
     w
-    sound highheels_short_walk
+    music Stealth_Groover
     imgd 40889
     m "Мое третье условие для прощения..."
     m "Ты сейчас поцелуешь мой каблук, сучка."
-    imgf 40890
+    imgd 40890
     mt "Никогда бы не подумала, что буду повторять за белобрысой стервой Викторией!"
     mt "Но никто, кроме этой мелкой сикалявки, не может придумать столь гадких унижений!"
     mt "!!!"
@@ -1042,34 +1055,31 @@ label ep217_dialogues2_shiny_hole_9:
     #
     # Молли бомбит
     music stop
-    pause 1.0
     sound plastinka1b
-    pause 3.0
-    music Pyro_Flow
     img 40891 hpunch
     molly "Чтооо?!"
+    music Pyro_Flow
     molly "Целовать твои каблуки?"
     molly "Ты что, совсем с ума сошла?! Что за бред?"
     # Моника грозно
-    music Power_Bots_Loop
-    imgd 40892
+    music Stealth_Groover
+    img 40892
     m "Ты как разговариваешь со своей королевой, сучка?!"
     m "Быстро закрыла свой рот и делай, как тебе говорю Я!"
     m "Иначе никакого прощения! Будешь бесплатно обслуживать местных пьяниц!"
     m "!!!"
-    music Pyro_Flow
-    imgf 40893
+    imgd 40893
     molly "Если я это сделаю сейчас, мы пойдем к Эшли и ты ей скажешь, что простила меня."
     imgd 40894
-    music Power_Bots_Loop
     m "Условия здесь ставлю Я!"
     m "И Я решаю, когда мы пойдем к Эшли!"
     m "Выполняй приказ своей королевы!"
-    imgf 40895
+    img 40895
     molly "!!!"
     # Молли наклоняется
+    fadeblack 1.5
     music Pyro_Flow
-    imgd 40896
+    imgfl 40896
     w
     imgf 40897
     w
@@ -1079,22 +1089,23 @@ label ep217_dialogues2_shiny_hole_9:
     w
     imgd 40900
     w
-    imgf 40901
+    img 40901
     molly "Ты ответишь за это! Я отомщу тебе!"
-    imgd 40902
+    imgf 40902
     w
-    imgf 40903
+    imgd 40903
     w
     sound kiss2
     imgd 40904
     w
     imgf 40905
-    sound snd_woman_laugh2
+#    sound snd_woman_laugh2
     w
     imgd 40906
+    w
     #прикасается губами к каблуку Молли
     # при этом смотрит на нее с ненавистью
-    fadeblack 1.5
+    fadeblack
     sound highheels_short_walk
     pause 1.5
     music Groove2_85
@@ -1105,6 +1116,7 @@ label ep217_dialogues2_shiny_hole_9:
     menu:
         "Заставить Молли пойти на приват с Джо.":
             pass
+    music Stealth_Groover
     imgd 40909
     m "Ты еще не прощена!"
     m "Последнее мое условие..."
@@ -1114,31 +1126,26 @@ label ep217_dialogues2_shiny_hole_9:
     molly "..."
     m "А потом удовлетворишь его!"
     # Молли в шоке, начинает орать
-    music stop
-    pause 1.0
-    sound plastinka2
-    pause 3.0
     music Pyro_Flow
     img 40910 hpunch
     molly "ЧТООО?!"
-    imgf 40911
+    imgd 40911
     m "Что слышала, сучка!"
-    imgd 40912
+    img 40912
     molly "Какого хрена?!"
     molly "Чтобы я и Джо?!"
-    imgf 40913
+    imgd 40913
     m "Да, это мое последнее условие."
     m "Хочешь здесь зарабатывать - сделаешь это."
-    imgd 40914
+    img 40914
     molly "Ах ты дрянь! Стерва!"
     molly "Я сейчас все расскажу Эшли!"
     # Молли выбегает из гримерки, Моника удивленно смотрит ей вслед
-    fadeblack 1.5
     sound highheels_run2
-    img 40915 vpunch
+    imgf 40915
     w
     music Power_Bots_Loop
-    imgf 40916
+    imgd 40916
     mt "Черт! Вот идиотка!"
     mt "Какого дьявола она пошла рассказывать все Эшли?!"
     mt "Этого в моих планах не было!"
@@ -1153,6 +1160,7 @@ label ep217_dialogues2_shiny_hole_9:
     sound highheels_run2
     pause 2.0
     music Groove2_85
+    music2 pub_noise1_low
     imgfl 32827
     w
     imgf 32828
@@ -1173,44 +1181,42 @@ label ep217_dialogues2_shiny_hole_9:
     mt "Так, Моника, спокойно!"
     mt "Нужно просто заставить Эшли поверить МНЕ, а не этой дуре Молли!"
     # Моника говорит брезгливо
-    music Groove2_85
     imgd 32832
     m "Нет, конечно."
     m "Она все врет."
     m "Она меня ненавидит и специально на меня наговаривает."
     # Эшли подходит к Монике и проводит рукой по низу живота над трусиками
-    sound man_steps
+    music Groove2_85
     imgf 32833
+    sound man_steps
     w
     imgd 32834
     w
-    imgf 32835
+    img 32835
     mt "!!!"
     mt "Черт!"
     # Эшли запускает руку ей в трусики и трогает киску
     sound Jump1
     imgd 32836
     w
-    music Pyro_Flow
     img 32837 vpunch
     mt "Какая же эта Эшли мерзкая!!!"
     mt "Они все здесь мерзкие! И никчемные!!!"
     imgd 32838
     mt "Как она смеет лезть ко мне в трусики и трогать меня?!"
     mt "!!!"
-    imgf 32839
+    imgd 32839
     mt "С другой стороны... Эта тупица Эшли снова поверила МНЕ!"
     mt "Мне просто придется притвориться, что я не против..."
     mt "Придет тот день, когда я отомщу и этой противной извращенке Эшли!"
     mt "Я им всем укажу на их место!"
     mt "!!!"
-    music Groove2_85
-    imgd 32840
+    imgf 32840
     ashley "Когда же вы уже прекратите этот цирк, м?"
     m "Когда Молли перестанет наговаривать на меня всякую чушь..."
     ashley "Молли, ты слышала?!"
     # сама орудует рукой у Моники в трусиках
-    imgf 32836
+    imgd 32836
     w
     imgd 32841
     ashley "Еще хоть одно слово твоего вранья и я тебе вообще запрещу обслуживать клиентов!"
@@ -1230,10 +1236,10 @@ label ep217_dialogues2_shiny_hole_9:
     ashley "[monica_pub_name], нам надо найти время, чтобы остаться с тобой наедине..."
     ashley "Мы могли бы уединиться в подсобке, пока Джо будет за барной стойкой..."
     ashley "Что скажешь?"
-    imgf 32836
+    imgd 32836
     w
     music Pyro_Flow
-    imgd 32835
+    img 32835
     mt "Твою мать!"
     mt "Этого мне еще не хватало!"
     # мимо в сторону выхода проходит психованная Молли в своей одежде (топ, джинсы)
@@ -1245,26 +1251,25 @@ label ep217_dialogues2_shiny_hole_9:
     imgd 32844
     ashley "Не забывай, что у твоей королевской попки есть не только привилегии..."
     ashley "Но и определенные обязанности..."
-    music Pyro_Flow
-    imgf 32835
+    music Groove2_85
+    imgd 32835
     mt "Как же меня достала эта семейка извращенцев!"
     mt "Что муж, что жена - два озабоченных придурка!"
     mt "!!!"
     # Моника отстраняется от Эшли
-    music Groove2_85
-    imgd 32846
+    imgf 32846
     m "Моей королевской попе пора на сцену!"
     ashley "Хорошо, [monica_pub_name]..."
     ashley "Я буду смотреть на тебя и представлять, что ты танцуешь только для меня..."
     music Pyro_Flow
-    pause  2.0
-    sound highheels_short_walk
     imgf 32847
+    sound highheels_short_walk
     mt "Дура!"
     mt "!!!"
+    music2 stop
     # затемнение
     # смена кадра, гримерка
-    $ monicaJoeMollyClare5 = True # Моника выдвинула свои условия для прощения Молли
+    $ monicaJoeMollyClare5 = day # Моника выдвинула свои условия для прощения Молли
     return
 
 # при условии, что Моника выдвинула свои условия для прощения Молли
@@ -1274,8 +1279,8 @@ label ep217_dialogues2_shiny_hole_9:
 label ep217_dialogues2_shiny_hole_10:
     fadeblack
     sound highheels_short_walk
-    pause  2.0
-    music Hidden_Agenda
+    pause 2.0
+    music Stealth_Groover
     imgfl 40917
     w
     imgf 40918
@@ -1284,10 +1289,10 @@ label ep217_dialogues2_shiny_hole_10:
     mt "Я не могу позволить плести этому неудачнику интриги против Клэр!"
     mt "Она единственный адекватный человек в этом гребаном баре... Кроме меня, конечно."
     # Моника подходит к Молли
-    fadeblack 1.5
+    fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Groove2_85
+    music Stealth_Groover
     imgfl 31924
     m "Ну что, сучка, ты собираешься заслуживать прощение своей королевы?"
     molly "Хватит меня так называть!!!"
@@ -1301,32 +1306,31 @@ label ep217_dialogues2_shiny_hole_10:
     m "Ну хорошо, раз тебя все устраивает, продолжай и дальше работать бесплатно..."
     # Моника разворачивается, чтобы уйти
     # Молли зло смотрит на нее
-    sound highheels_short_walk
-    pause 2.0
     music Pyro_Flow
     imgf 32848
     molly "Я сделаю это!"
     mt "!!!" # смотрит на Молли, обернувшись
     imgd 31929
     m "Сделаешь?"
-    imgf 32848
+    img 32848
     molly "Да!" # зло
     molly "Но только, чтобы Эшли об этом не узнала!"
     # Моника самодовольно поворачивается
-    imgd 32849
+    music Stealth_Groover
+    imgf 32849
     m "Эшли не узнает..."
     m "Я сейчас скажу Джо, чтобы после моего выступления он ждал нас в подсобке."
-    imgf 32850
+    imgd 32850
     molly "В смысле нас?!"
     molly "У меня будет приватный танец для Джо!"
     imgd 32851
     m "Не только танец."
     m "Мое условие в том, что ты удовлетворишь его!"
     m "Поэтому я буду вынуждена проконтролировать это!"
-    sound Jump2
+    music Power_Bots_Loop
     img 32852 vpunch
     molly "Ты совсем охренела, стерва?!"
-    music Power_Bots_Loop
+    music Stealth_Groover
     m "Тише-тише. Не забывай, что ты разговариваешь со своей королевой..."
     m "И королева тебя еще не простила!"
     m "И вообще! Ты просишь прощения у меня, а не у Джо! Поэтому я буду смотреть!"
@@ -1335,7 +1339,7 @@ label ep217_dialogues2_shiny_hole_10:
     m "Готовься к привату с Джо, сучка..."
     m "Я пока договорюсь с ним."
     # Моника выходит из гримерки
-    $ monicaJoeMollyClare6 = True # Молли согласилась на приват с Джо в присутствии Моники
+    $ monicaJoeMollyClare6 = day # Молли согласилась на приват с Джо в присутствии Моники
     return
 
 # Моника возле сцены, Джо стоит рядом с ней (где Клэр угрожала Джо хлыстом)
@@ -1351,24 +1355,23 @@ label ep217_dialogues2_shiny_hole_11:
     mt "Я представляю, как этот неудачник сейчас обрадуется!"
     mt "Мерзкий слизняк!"
     mt "!!!"
-    #music Groove2_85
-    music ZigZag
     imgd 32821
     m "Джо..."
+    music Groove2_85
     joe "[monica_pub_name], о чем ты хотела со мной поговорить?"
     joe "Ты подумала над моим предложением уединиться?" # пошло подмигивает
     m "После моего выступления на сцене ты должен быть в подсобке."
-    imgf 32822
+    imgd 32822
     joe "Приватный танец? Ты решила потрясти своей попкой передо мной и клиентом?"
     joe "Тебе это так понравилсь?"
     #
     $ notif(_("У Моники были приватные танцы перед клиентами в присутствии Джо."))
     #
-    imgd 32823
+    imgf 32823
     m "Приватный танец... И не только танец..."
     m "Для тебя..."
     m "Согласен?"
-    imgf 32824
+    img 32824
     joe "Приват для меня?!"
     joe "Оооо!!! Конечно, согласен!"
     m "После моего выступления будь в подсобке!"
@@ -1376,13 +1379,13 @@ label ep217_dialogues2_shiny_hole_11:
     joe "Понял! Я все сделаю!" # с довольной физиономией
     # Джо уходит
     music Stealth_Groover
-    imgd 32825
+    imgf 32825
     mt "Моника, тебе пришлось разыграть целый спектакль..."
     mt "Ради того, чтобы Клэр не уволилась."
     mt "И ты с этим великолепно справилась!"
     mt "Какая же я хорошая и добрая! Я настоящий друг для Клэр!"
     mt "Хотя..."
-    imgf 32826
+    imgd 32826
     mt "Все эти игры с обитателями этой дыры доставили мне немалое удовольствие..."
     mt "Особенно что касается Молли..."
     mt "После выступления на сцене я посмотрю результат своих трудов!"
@@ -1394,14 +1397,17 @@ label ep217_dialogues2_shiny_hole_11:
 # после выступления на сцене
 # Моника стоит в гримерке в сценическом костюме в жилете
 label ep217_dialogues2_shiny_hole_12:
+    fadeblack 1.5
+    music Hidden_Agenda
     mt "Сначала мне нужно пойти к Эшли..."
     mt "Нужно что-то придумать, чтобы она не пришла в подсобку, пока мы будем там находиться."
     # затемнение, звук каблуков
     # Моника стоит возле барной стойки, Эшли за стойкой одна
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Groove2_85
+    music2 pub_noise1_low
     imgfl 40789
     m "Эшли..."
     imgf 40792
@@ -1419,7 +1425,7 @@ label ep217_dialogues2_shiny_hole_12:
     ashley "Чего ему стесняться? У него не как у всех что-ли?"
     ashley "Мне даже интересно теперь стало. Хи-хи-хи..."
     ashley "А если я немного подгляну? Он даже не заметит ничего."
-    imgd 22708
+    img 22708
     mt "Черт!"
     mt "!!!"
     music Hidden_Agenda
@@ -1432,18 +1438,19 @@ label ep217_dialogues2_shiny_hole_12:
     ashley "Ну ладно, [monica_pub_name]. Но только ради тебя."
     ashley "И вообще, мне не до этого сейчас."
     ashley "У меня тут куча работы. Ты же не работаешь официанткой сегодня."
-    imgf 20962
+    imgd 20962
     ashley "Еще этот сволочь Джо сказал что ему надо в туалет и куда-то пропал."
     ashley "Небось играется там сам с собой, ну да ладно."
     ashley "Поэтому можешь не переживать за своего стеснительного клиента. Хи-хи."
     music Hidden_Agenda
-    imgd 22694
+    imgf 22694
     mt "Надеюсь, она не захочет подсмотреть, что происходит в подсобке..."
     mt "Надо было придумать что-то другое."
     mt "Но откуда я могла знать, что эту извращенку заинтересует какой-то клиент?"
     mt "Я ведь леди, а леди не может предугадать логику таких провинциалок, как Эшли..."
     mt "..."
     # Моника уходит
+    music2 stop
     return
 
 label ep217_dialogues2_shiny_hole_12a: # попытка переодеться
@@ -1455,10 +1462,8 @@ label ep217_dialogues2_shiny_hole_12a: # попытка переодеться
 label ep217_dialogues2_shiny_hole_13:
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Groove2_85
-    pause  2.0
-    sound wow
     # Моника заходит в подсобку
     # Джо довольный сидит на диване
     imgfl 32717
@@ -1470,23 +1475,24 @@ label ep217_dialogues2_shiny_hole_13:
     joe "Иди скорее ко мне, крошка!"
     joe "Поверить не могу, что я должался этого момента!"
     imgf 32721
+    w
     # Моника с видом большого басса
-    fadeblack 1.5
+    fadeblack
     sound highheels_short_walk
-    pause  2.0
-    music Loved_up
+    pause 2.0
+    music Hidden_Agenda
     imgfl 32719
     w
     imgf 32722
     m "Подожди, Джо..."
     m "У меня для тебя сюрприз."
     # Моника щелкает пальцами
-    sound snd_slap1
+    music Stealth_Groover
     imgd 32723
     m "Заходи!"
     # заходит Молли, в одних трусиках
-    sound highheels_short_walk
-    imgf 32724
+    sound snd_slap1
+    img 32724
     w
     imgd 32725
     joe "Оооо!!!"
@@ -1496,16 +1502,13 @@ label ep217_dialogues2_shiny_hole_13:
     m "А я контролирую, Джо..."
     m "Чтобы все прошло, как надо... Как мы с тобой договаривались."
     # Джо растерян
-    music stop
-    sound plastinka1b
-    pause 2.0
     music Groove2_85
     imgd 32726
     joe "Но..."
     m "Или ты хочешь все отменить, Джо?"
     m "Нам с Молли уйти?"
     # Джо торопливо
-    imgf 32728
+    img 32728
     joe "Нет-нет! Не надо уходить!"
     joe "[monica_pub_name], спасибо, что решила этот вопрос!"
     joe "Ты даже не представляешь, как я хотел этого!"
@@ -1513,11 +1516,10 @@ label ep217_dialogues2_shiny_hole_13:
     joe "Две попки Shiny Hole будут танцевать для меня!"
     m "Джо, хватит об этом!"
     m "Я тебе уже все сказала!"
-    sound Jump1
     imgd 32729
     joe "Ну хорошо... Но если ты передумаешь..." # подмигивает
     m "Джо!!!"
-    imgf 32730
+    img 32730
     mt "Ублюдок!"
     mt "!!!"
     imgd 32731
@@ -1526,14 +1528,17 @@ label ep217_dialogues2_shiny_hole_13:
     joe "Да-да! Я скажу Эшли, чтоб она не трогала Клэр."
     imgf 32732
     molly "А Клэр здесь вообще причем?"
-    imgd 32733
+    music Stealth_Groover
+    img 32733
     m "Это тебя не касается. Это наше с Джо дело."
     m "Твое дело - выполнить условие."
     m "И заслужить тем самым прощение королевы Shiny Hole."
     m "Так что не теряй времени, приступай!"
     # Моника приказывает Молли
+    sound highheels_short_walk
     imgf 32734
     m "Можешь начинать."
+    music Groove2_85
     joe "Да, начинай скорее, Молли!"
     joe "Мне не терпится увидеть твою горячую киску! И попробовать ее!"
     # Молли неприязненно смотрит на Джо, потом спрашивает у Моники
@@ -1545,25 +1550,25 @@ label ep217_dialogues2_shiny_hole_13:
     # Моника встает ближе к входу в подсобку
     imgf 32736
     molly "Ладно. Давай быстрее!"
-    imgd 32737
+    img 32737
     m "Нет, не быстрее!"
     m "У тебя приват, а Джо твой клиент! Работай как следует!"
     joe "Да-да, горячая штучка Молли!"
     joe "Поработай для меня как ты умеешь!"
-    imgf 32738
+    imgd 32738
     joe "Давай, я уже заждался!" # показательно держит свою ширинку
     molly "!!!"
     # Молли лезет на стол и начинает танцевать
     # Джо пускает на нее слюни
-    music Loved_up
-    imgd 32739
+    music Road_Trip
+    imgf 32739
     w
     sound highheels_short_walk
-    imgf 32740
+    imgd 32740
     w
-    imgd 32741
+    imgf 32741
     w
-    imgf 32742
+    imgd 32742
     w
     imgd 32743
     joe "Ооооо!"
@@ -1592,7 +1597,7 @@ label ep217_dialogues2_shiny_hole_13:
     w
     # кадр на Монику, она оценивающе рассматривает голую Молли
     # music Pyro_Flow
-    music Groove2_85
+    music Stealth_Groover
     imgf 32754
     mt "Все-таки у меня попа намного лучше, чем у этой шлюхи!"
     imgd 32755
@@ -1606,7 +1611,7 @@ label ep217_dialogues2_shiny_hole_13:
     mt "Какая-то провинциалка с мечтами об актерской карьере!"
     mt "И с непомерно завышенной самооценкой! Фи!"
     # кадр на Джо, он уже спустил штаны и достал свой стояк
-    music Loved_up
+    music Groove2_85
     imgf 32757
     joe "А теперь иди ко мне!"
     joe "Смотри, какой он твердый!"
@@ -1615,10 +1620,7 @@ label ep217_dialogues2_shiny_hole_13:
     # Молли оборачивается на Монику
     imgd 32758
     w
-    music Pyro_Flow
-    pause 2.0
-    sound vjuh1
-    imgf 32759
+    img 32759
     m "Клиент тебе озвучил свое желание..."
     m "И ты должна его удовлетворить."
     m "Делай, что тебе говорит клиент!"
@@ -1627,25 +1629,26 @@ label ep217_dialogues2_shiny_hole_13:
     m "Давай работай!"
     # Молли спускается со столика и садится сверху на Джо
     # рукой вставляет его член в свою киску и начинает двигаться, лицо недовольное
-    sound Jump1
-    imgd 32760
+    imgf 32760
     w
-    imgf 32761
+    imgd 32761
     w
-    imgd 32762
+    music Loved_Up
+    imgf 32762
     w
-    imgf 32763
+    imgd 32763
     w
-    music Loved_up
-    imgd 32764
+    imgf 32764
     w
-    imgf 32765
+    imgd 32765
     w
+    fadeblack 1.5
+    music Loved_Up
+    imgfl 32767
     sound man_moan5
-    imgd 32767
     joe "Даааа..."
-    sound ahhh6
     imgf 32766
+    sound ahhh6
     w
     imgd 32768
     w
@@ -1660,13 +1663,25 @@ label ep217_dialogues2_shiny_hole_13:
     sound man_moan5
     imgf 32776
     w
-    sound ahhh6
+    sound drkanje5
     imgd 32777
     w
-    sound man_moan5
-    imgf 32776
+    sound drkanje5
+    imgd 32776
     w
-    sound ahhh6
+    sound drkanje5
+    imgd 32777
+    w
+    sound drkanje5
+    imgd 32776
+    w
+    sound drkanje5
+    imgd 32777
+    w
+    sound drkanje5
+    imgd 32776
+    w
+    sound drkanje5
     imgd 32777
     w
     imgf 32771
@@ -1705,19 +1720,19 @@ label ep217_dialogues2_shiny_hole_13:
     sound ahhh6
     imgf 32776
     w
-    sound man_moan5
+    sound drkanje5
     imgd 32777
     w
-    sound ahhh6
-    imgf 32776
+    sound drkanje5
+    imgd 32776
     w
-    sound man_moan5
+    sound drkanje5
     imgd 32777
     w
-    sound ahhh6
-    imgf 32776
+    sound drkanje5
+    imgd 32776
     w
-    sound man_moan5
+    sound drkanje5
     imgd 32777
     joe "Оооооо..."
     sound ahhh6
@@ -1743,56 +1758,73 @@ label ep217_dialogues2_shiny_hole_13:
         "Кончить на киску Молли.":
             imgf 32776
             w
+            sound drkanje5
             imgd 32777
             w
-            imgf 32782
-            w
+            img 32782
             sound bulk1
             show screen photoshot_screen()
             with hpunch
-            imgd 32783
-            joe "Оооох..."
+            pause 0.7
+            hide screen photoshot_screen
+            w
+            img 32783
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
             hide screen photoshot_screen
             sound man_moan5
+            joe "Оооох..."
             imgd 32784
+            sound man_moan5
             joe "Ммммммм..."
             pass
         "Кончить внутрь Молли.":
             imgf 32776
             w
+            sound drkanje5
             imgd 32777
             w
-            imgf 32782
-            w
+            img 32782
             sound bulk1
             show screen photoshot_screen()
             with hpunch
-            imgd 32780
-            joe "Оооох..."
+            pause 0.7
             hide screen photoshot_screen
+            w
+            img 32780
             sound bulk1
-            pause 1.0
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             sound man_moan5
+            joe "Оооох..."
             imgd 32781
+            sound man_moan5
             joe "Ммммммм..."
             pass
     # прямо в тот момент, когда Джо кончает
     # из-за двери слышен голос Эшли, она ищет Джо и идет в подсобку
+    fadeblack
+    sound man_steps
+    pause 2.0
     music Groove2_85
     imgf 32785
+    sound snd_door_knock
     w
-    sound oooh5
     imgd 32786
     ashley "Джо!"
-    imgf 32787
+    img 32787 hpunch
     ashley "Ты куда делся, бездельник?!"
-    #sound oooh1
+    sound oooh5
     imgd 32788
     ashley "Я проверила, в туалете тебя нет!"
     ashley "Снова валяешься на диване, пока я работаю?!"
     # все в шоке
-    music Indo_Rock
-    imgf 32788
+    music Turbo_Tornado
+    img 32788
     m "!!!"
     m "!!!!!"
     m "Вот дьявол!"
@@ -1802,19 +1834,17 @@ label ep217_dialogues2_shiny_hole_13:
     sound highheels_run2
     imgd 32789
     molly "Где мне спрятаться?!"
-    imgf 32790
+    imgd 32790
     molly "Она найдет меня!"
     molly "Это конец!"
-    sound vjuh2
-    pause 1.5
     sound highheels_run2
     imgd 32791
     m "Закрой рот и спрячься за диван!"
     molly "!!!"
     # Молли прячется за диван, Джо стоит уже в штанах
     # заходит Эшли
-    fadeblack 1.5
-    sound man_steps
+    fadeblack
+    sound highheels_run2
     pause 2.0
     music Pyro_Flow
     imgf 32792
@@ -1826,58 +1856,60 @@ label ep217_dialogues2_shiny_hole_13:
     w
     imgf 32794
     ashley "Или ты к королеве Shiny Hole пристаешь, кобель?!"
-    imgd 32795
+    img 32795
     joe "Ну о чем ты?! Как ты можешь такое обо мне говорить?!"
     joe "Что бы я к кому-то приставал!!!"
     joe "Никогда такого не было!!!"
     # Моника говорит Эшли
-    music Groove2_85
+    music Hidden_Agenda
     imgf 32796
     m "Эшли, я только закончила приват со своим клиентом..."
     m "Джо зашел, чтобы проверить, все ли в порядке. И прибраться тут после привата."
     joe "Да!"
     joe "Вообще-то, я тут работаю!"
     # Эшли ворчит на Джо
+    music Pyro_Flow
     imgd 32797
     ashley "Работает он тут!"
     ashley "Болтается по всему бару, лишь бы не стоять за стойкой!"
     ashley "Бездельник!"
-    imgf 32798
+    imgd 32798
     ashley "Почему я должна за тебя работать?!"
     ashley "Ищешь себе занятия поближе к шлюхам!"
+    music Turbo_Tornado
     ashley "Быстро иди за стойку!"
     # Эшли пинками его выгоняет из подсобки
-    pause 2.0
-    music Turbo_Tornado
-    sound Jump2
-    imgd 32799
+    sound snd_kick_fred1
+    img 32799 hpunch
     ashley "Козел!!!" # пинок
     joe "АЙ!!!"
-    sound Jump2
-    imgd 32800
+    sound snd_kick_fred1
+    img 32800 hpunch
     ashley "Бездельник!!!" # пинок
     ashley "Лентяй!"
-    img 32801
+    sound running
+    imgd 32801
     ashley "Дармоед!!!"
     joe "Да больно же!!!"
-    sound Jump2
-    imgd 32802
+    sound snd_kick_fred1
+    img 32802 hpunch
     ashley "Мерзавец!!!" # пинок
     joe "АЙ!!!"
     ashley "Вот козел!"
     ashley "!!!"
     # Джо выбегает из подсобки, Эшли за ним
     # Моника с Молли остаются одни, Моника с облегчением
-    music Pyro_Flow
+    fadeblack
+    sound snd_runaway
+    pause 2.0
+    music Groove2_85
     imgf 32803
     mt "Если бы Эшли увидела сучку Молли, это был бы провал!"
     mt "И нужно было ей искать Джо именно сейчас!"
     mt "!!!"
     # Молли испуганно выглядывает из-за дивана
-    music Groove2_85
-    pause 2.0
-    sound vjuh4
-    imgd 32804
+    sound Jump2
+    img 32804 vpunch
     molly "Ушли?"
     m "Да, выходи."
     # Молли подходит к Монике, злобно шипит на нее
@@ -1889,6 +1921,7 @@ label ep217_dialogues2_shiny_hole_13:
     molly "Ты вообще представляешь, что Эшли устроила бы нам всем, если увидела бы нас?!"
     molly "И во всем была бы виновата ты!!"
     molly "Вместе со своими глупыми условиями!!!"
+    music Stealth_Groover
     m "Ой, все! Хватит мне тут читать нравоучения!"
     molly "Я выполнила все твои условия!"
     molly "Теперь ты скажешь Эшли, что простила меня?"
@@ -1897,13 +1930,15 @@ label ep217_dialogues2_shiny_hole_13:
     molly "Что?! Ты же сказала, что это последнее условие!"
     molly "О чем тут думать?!"
     m "Моим условием было удовлетворить Джо. Как ты думаешь, он остался удовлетворен?"
-    imgd 32808
+    img 32808
     molly "!!!"
     m "Ну ладно... Так уж и быть..."
     m "Королева сегодня добрая и готова даровать тебе свое прощение..."
     m "Но я буду внимательно следить за твоим дальнейшим поведением!"
     # Молли с психом отворачивается от нее и тянется за своей одеждой
+    sound highheels_short_walk
     imgf 32809
+    w
     # Моника злорадно на нее смотрит
     # затемнение
     return
@@ -1913,11 +1948,9 @@ label ep217_dialogues2_shiny_hole_13:
 label ep217_dialogues2_shiny_hole_14:
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Groove2_85
     music2 pub_noise1_low
-    pause  2.0
-    #sound wow
     imgfl 31974
     w
     imgf 31978
@@ -1928,18 +1961,18 @@ label ep217_dialogues2_shiny_hole_14:
     imgd 31979
     m "Да. Теперь можешь снять с нее наказание."
     m "Но если мне что-то не понравится в ее поведении..."
-    imgf 31980
+    imgd 31980
     ashley "Сразу говори мне об этом."
     ashley "Я помогу твоей королевской попке и не дам ее в обиду Молли."
     # Моника уходит
     music Stealth_Groover
-    imgd 31981
+    imgf 31981
     mt "Семейка идиотов!"
     mt "Как же они меня все бесят!"
     mt "Жалкие никчемные людишки!"
     mt "!!!"
     stop music2
-    $ monicaJoeMollyClare7 = True # Моника простила Молли
+    $ monicaJoeMollyClare7 = day # Моника простила Молли
     return
 
 # на другой рабочий день Моники, после привата Джо и Молли
@@ -1947,7 +1980,7 @@ label ep217_dialogues2_shiny_hole_14:
 label ep217_dialogues2_shiny_hole_15:
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Groove2_85
     music2 pub_noise1_low
     imgfl 32810
@@ -1956,23 +1989,23 @@ label ep217_dialogues2_shiny_hole_15:
     joe "А это ты, [monica_pub_name]..."
     joe "Как насчет того, чтобы повторить приват, а?"
     joe "Только не с Молли, а с тобой?"
-    imgd 32812
+    img 32812
     mt "Козел!"
     mt "!!!"
-    imgf 32811
+    imgd 32811
     m "Джо, ты помнишь, о чем мы с тобой договаривались?"
     m "Ты получил, что хотел."
     m "Теперь ты отстанешь от Клэр?"
     joe "Я к ней и не приставал... В последнее время."
     music Pyro_Flow
-    imgd 32813
+    img 32813
     m "Джо! Ты издеваешься?!"
-    imgf 32814
+    imgd 32814
     joe "Ладно, ладно!"
     joe "Я разрешил ей не снимать маску на сцене, но раздеться она обязана."
     # Моника возмущается
     sound anger2
-    imgd 32815
+    img 32815
     m "Что?!"
     m "!!!"
     m "Какого черта, Джо?!"
@@ -2011,7 +2044,7 @@ label ep217_dialogues2_shiny_hole_16:
     # при клике на Клэр
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Stealth_Groover
     #music Groove2_85
     imgfl 32857
@@ -2078,7 +2111,7 @@ label ep217_dialogues2_shiny_hole_16:
     mt "Она действительно видит меня в этой роли?"
     mt "Меня, Монику Бакфетт, хозяйкой какой-то грязной дыры в трущобах?!"
     mt "Хотя..."
-    imgf 32871
+    imgd 32871
     mt "А почему я сама раньше об этом не задумывалась?!"
     mt "Ведь я могла бы на этом получать неплохие деньги..."
     mt "Не миллионы, конечно, а какие-то жалкие копейки, но все же..."
@@ -2092,11 +2125,12 @@ label ep217_dialogues2_shiny_hole_16:
 label ep217_dialogues2_shiny_hole_17:
     fadeblack
     sound highheels_short_walk
-    pause  2.0
+    pause 2.0
     music Groove2_85
     imgfl 16135
     molly "Чего тебе снова от меня надо?"
     molly "Я сделала все, что ты мне говорила!"
+    music Stealth_Groover
     imgf 16138
     m "Просто хочу услышать, что ты сучка, а я Королева!"
     m "Скажи мне это, раз ты выполняешь мои условия."
