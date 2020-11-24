@@ -674,8 +674,10 @@ label ep22_casting:
             "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                 pass
             "Раздеться и сесть на стол.":
-                $ menu_corruption = [biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
+                $ menu_corruption = [0, biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
                 menu:
+                    "Назад.":
+                        jump ep22_dialogue6_6_loop1
                     "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                         $ store_music()
                         call ep212_dialogues7_biff1() from _rcall_ep212_dialogues7_biff1
@@ -730,10 +732,10 @@ label ep22_casting:
                         pass
                     "Сесть на стол, достать член Бифа и вставить его в анальное отверстие. (disabled)":
                         pass
-                    "Назад.":
-                        jump ep22_dialogue6_6_loop1
             "Раздеться и сесть на Бифа.":
                 menu:
+                    "Назад.":
+                        jump ep22_dialogue6_6_loop1
                     "Сесть к Бифу на коленки лицом к нему. (disabled)":
                         pass
                     "Сесть к Бифу на коленки спиной. (disabled)":
@@ -748,11 +750,11 @@ label ep22_casting:
                         pass
                     "Полизать папочке зад. (disabled)":
                         pass
-                    "Назад.":
-                        jump ep22_dialogue6_6_loop1
             "Позвать секретаршу.":
                 label ep22_dialogue6_6_loop2:
                     menu:
+                        "Назад.":
+                            jump ep22_dialogue6_6_loop1
                         "Поцеловать секретаршу. (disabled)":
                             pass
                         "Полизать секретарше грудь. (disabled)":
@@ -769,6 +771,4 @@ label ep22_casting:
                             pass
 #                        "Назад.":
 #                                jump ep22_dialogue6_6_loop2
-                        "Назад.":
-                            jump ep22_dialogue6_6_loop1
     return

@@ -356,8 +356,10 @@ label ep27_dialogues4_biff5:
                     "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
                         pass
                     "Раздеться и сесть на стол." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
-                        $ menu_corruption = [biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
+                        $ menu_corruption = [0, biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
                         menu:
+                            "Назад.":
+                                jump ep27_dialogues4_biff5_loop1
                             "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                                 $ store_music()
                                 call ep212_dialogues7_biff1() from _rcall_ep212_dialogues7_biff1_1
@@ -405,8 +407,6 @@ label ep27_dialogues4_biff5:
                                     $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
                             "Сесть на стол, достать член Бифа и взять его в рот. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 6 or monicaOutfitsEnabled[9] != True:
                                 pass
-                            "Назад.":
-                                jump ep27_dialogues4_biff5_loop1
                     "Ничего.":
                         img 12789
                         with fade

@@ -962,8 +962,10 @@ label ep213_dialogues4_biff_12:
         "Раздеться и лечь на пол раздвинув ноги. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 2:
             pass
         "Раздеться и сесть на стол." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
-            $ menu_corruption = [biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
+            $ menu_corruption = [0, biffCastingOneLegOnTheTable, biffCastingTableLegsOpen, biffCastingTableBack, biffCastingTableBlowjob]
             menu:
+                "Назад.":
+                    jump ep213_dialogues4_biff_12
                 "Поставить на стол одну ногу." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 3:
                     $ store_music()
                     call ep212_dialogues7_biff1() from _rcall_ep212_dialogues7_biff1_2
