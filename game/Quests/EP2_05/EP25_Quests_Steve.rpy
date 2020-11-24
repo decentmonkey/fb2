@@ -58,6 +58,7 @@ label ep25_quests_steve4:
         return
     $ remove_hook(label="jane_dialogue1")
     call ep25_dialogues2_steve1() from _call_ep25_dialogues2_steve1
+    $ questHelp("steve_7", True)
     $ questHelp("steve_8", True)
     $ questHelp("steve_9")
     $ questHelpDesc("steve_desc4")
@@ -120,8 +121,8 @@ label ep25_quests_steve9:
     if monicaHasSexWithSteveBasement == True: # У Моники был секс со Стивом
         call ep25_dialogues2_steve4() from _call_ep25_dialogues2_steve4
         $ questHelp("steve_9", True)
-        $ questHelp("steve_10")
-        $ questHelp("steve_17")
+#        $ questHelp("steve_10")
+#        $ questHelp("steve_17")
         $ questHelpDesc("steve_desc4", "steve_desc5")
 
         $ move_object("Steve", "steve_office_office_table")
@@ -140,8 +141,8 @@ label ep25_quests_steve9:
 
 
         $ questHelp("steve_9", True)
-        $ questHelp("steve_10")
-        $ questHelp("steve_17")
+        $ questHelp("steve_10", skipIfExists=True)
+        $ questHelp("steve_17", skipIfExists=True)
         $ questHelpDesc("steve_desc4", "steve_desc5")
         $ questLog(40, False)
         $ questLog(42, True)
@@ -162,6 +163,9 @@ label ep25_quests_steve10:
     call ep25_dialogues2_steve4a() from _call_ep25_dialogues2_steve4a
     if _return == False:
         # Моника не делала минет. Добилась денег угрозой
+        $ questHelp("steve_9b", True)
+        $ questHelp("steve_10")
+        $ questHelp("steve_17")
         $ questLog(40, False)
         $ questLog(42, True)
         $ notif(t_("Стив перевел деньги Виктории."))
@@ -177,6 +181,7 @@ label ep25_quests_steve10:
         return False
     else:
         # Моника сделала минет, но Стив деньги не послал
+        $ questHelp("steve_9c")
         $ autorun_to_object("ep25_dialogues2_steve5", scene="street_steve_office")
         call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_284
         $ add_hook("Teleport_Building", "ep25_dialogues2_steve5a", scene="street_steve_office", label="need_check_steve_money1") # Блокируем вход в здание пока не проверили деньги
@@ -191,8 +196,8 @@ label ep25_quests_steve11:
     $ remove_hook(label="need_check_steve_money1") # Разблокируем вход к Стиву
     $ add_hook("Jane", "ep25_quests_steve12", scene="steve_office_secretary", label="jane_dialogue4")
     $ add_hook("Teleport_Steve_Office_Office", "ep25_quests_steve12", scene="steve_office_secretary", label="jane_dialogue4")
-    $ questHelp("steve_6", True)
-    $ questHelp("steve_7")
+    $ questHelp("steve_9c", True)
+    $ questHelp("steve_9d")
     $ questHelpDesc("steve_desc2", "steve_desc3")
     return False
 
@@ -202,6 +207,8 @@ label ep25_quests_steve12:
         return
     $ remove_hook(label="need_check_steve_money_victoria1") # Убираем у Виктории вопрос про деньги
     $ add_hook("change_time_day", "ep25_quests_steve13", scene="global") # Пятый приход Моники (инициализация с утра)
+    $ questHelp("steve_9d", True)
+    $ questHelp("steve_9e")
     call ep25_dialogues2_steve7() from _call_ep25_dialogues2_steve7
     return False
 
@@ -220,11 +227,11 @@ label ep25_quests_steve14:
     $ remove_hook(label="jane_dialogue5")
     call ep25_dialogues2_steve8() from _call_ep25_dialogues2_steve8
     if _return == True:
+        $ monicaSteveCumDealActive = True
         $ autorun_to_object("ep25_dialogues2_steve9", scene="street_steve_office")
     call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_285
     $ add_hook("Teleport_Building", "ep25_quests_steve15", scene="street_steve_office", label="steve_office_blocked_today") # Блокируем вход в здание на сегодня
     $ add_hook("change_time_day", "ep25_quests_steve16", scene="global") # Релуярный приход Моники (инициализация с утра)
-    $ monicaSteveCumDealActive = True
     $ questLog(40, False)
     $ questLog(41, True)
 
@@ -287,11 +294,14 @@ label ep25_quests_steve18:
         return False
     if _return == 1: # Моника закрывает cum сделку
         call ep25_dialogues3_steve1b() from _call_ep25_dialogues3_steve1b
+        $ questHelp("steve_10", skipIfExists=True)
+        $ questHelp("steve_17", skipIfExists=True)
         if _return == False:
             call ep25_quests_steve19() from _call_ep25_quests_steve19 # Блокируем офис на сегодня (день)
             call change_scene("street_steve_office", "Fade_long", "snd_lift") from _call_change_scene_290
             return False
 
+        $ questHelp("steve_9b", True)
         $ monicaSteveCumDealActive = False
         $ monicaSteveCumDealCompleted = True
         $ notif(t_("Стив перевел деньги Виктории."))
@@ -330,6 +340,7 @@ label ep25_quests_steve18:
             $ bettyVisitedSteve = True
             call ep26_dialogues2_steve5() from _call_ep26_dialogues2_steve5
             $ questHelp("steve_16", True)
+            $ questHelp("house_44a", True)
             $ questHelp("office_30", skipIfExists=True)
             if _return == False:
                 $ noMoney = True
@@ -359,6 +370,7 @@ label ep25_quests_steve18:
                 call ep25_dialogues3_steve4c() from _call_ep25_dialogues3_steve4c
                 $ questHelp("steve_15", True)
                 $ questHelp("steve_16", skipIfExists=True)
+                $ questHelp("house_44a", skipIfExists=True)
 
 #        if monicaSteveBlowjobDealCount > 5:
 #            # random

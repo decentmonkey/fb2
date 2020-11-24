@@ -956,6 +956,7 @@ label ep25_dialogues1_shop9:
             $ questHelp("shop_2", True)
             $ questHelp("shop_3", False)
             $ questHelp("shop_4", False)
+            $ questHelp("shop_6", False)
             $ add_money(-250.0)
             return 1
 

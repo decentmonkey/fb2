@@ -641,6 +641,7 @@ label ep25_dialogues2_steve4a:
     img 11424
     with diss
     steve "Есть еще один вариант..."
+    $ questHelp("steve_9a", False)
 # Моника делает выбор:
     menu:
         "Мне не нужны никакие варианты, мерзавец!":
@@ -1114,6 +1115,12 @@ label ep25_dialogues2_steve8:
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ questHelp("steve_9e", True)
+            $ questHelp("steve_10")
+            $ questHelp("steve_17")
+            $ questHelp("steve_9b", False)
+            $ monicaSteveCumDealRejected = True
+            $ monicaSteveCumDealActive = False
             return False
         "Как нам закрыть эту чертову сделку?!":
 # Либо: Как нам закрыть эту чертову сделку?!
@@ -1147,6 +1154,8 @@ label ep25_dialogues2_steve8:
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ questHelp("steve_9b")
+            $ questHelp("steve_9e", True)
             return True
     return
 
@@ -1218,6 +1227,9 @@ label ep25_dialogues2_steve10:
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
             m "!!!"
+            $ questHelp("steve_10", False)
+            $ questHelp("steve_17", False)
+            $ questHelp("steve_9a", False)
             return False
         "Заключить сделку.":
             pass
@@ -1296,6 +1308,9 @@ label ep25_dialogues2_steve10:
             m "Это слишком маленькие деньги, Стив! Я даже не буду это обсуждать..."
             steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
             steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
+            $ questHelp("steve_10", False)
+            $ questHelp("steve_17", False)
+            $ questHelp("steve_9a", False)
             return False
         "Мне нужно хотя бы $ 10.000, Стив!":
             pass
@@ -1584,6 +1599,12 @@ label ep25_dialogues2_steve10_loop1:
     m "Только попробуй не перевести деньги, мерзавец!"
     steve "Моника, если вдруг ты захочешь заключить еще сделку, то приходи!"
     steve "Я добропорядочный бизнесмен и всегда рад хорошей сделке!"
+
+
+    $ questHelp("steve_10")
+    $ questHelp("steve_17")
+    $ questHelp("steve_9a", True)
+
     return True
 
 

@@ -24,7 +24,7 @@ label ep23_quests_melanie1: # Моника подходит первый раз 
     else:
         $ monicaOutfitsEnabled[4] = True # Открываем фотосессию с Мелани
         $ questHelp("photoshoot_4")
-        $ questHelpDesc("photoshoot_desc4")
+#        $ questHelpDesc("photoshoot_desc4")
     $ add_hook("Melanie", "ep23_quests_melanie2", scene="monica_office_photostudio")
 
     $ add_object_to_scene("Teleport_Monica_Office_MakeupRoom", {"type":3, "text" : t_("ГРИМЕРНАЯ КОМНАТА"), "larrow" : "arrow_left_2", "base":"empty", "click" : "monica_office_photostudio_teleport", "xpos" : 276, "ypos" : 983, "zorder":12, "teleport":True})
@@ -71,6 +71,7 @@ label ep23_quests_melanie4: #Моника говорит с Мелани пос�
     $ questLog(25, True)
     $ questHelp("melanie_2", True)
     $ questHelp("dick_4")
+    $ questHelpDesc("melanie_desc1", False)
     $ questHelpDesc("melanie_desc2", "melanie_desc3")
     $ questHelpDesc("dick_desc5", "dick_desc6")
     $ move_object("Melanie", "empty")
@@ -147,8 +148,9 @@ label ep23_quests_melanie10:
     if _return == False:
         call refresh_scene_fade() from _call_refresh_scene_fade_101
         return False
+    $ questHelp("melanie_4", True)
     $ remove_hook()
-    $ questHelpDesc("melanie_desc5")
+    $ questHelpDesc("melanie_desc4", False)
     if monicaMelanieCastingPlanned == False: #Мелани помогает без кастинга
         $ remove_hook(label="melanie_makeuproom_life")
         $ questLog(26, False)
@@ -158,6 +160,7 @@ label ep23_quests_melanie10:
         call refresh_scene_fade() from _call_refresh_scene_fade_102
         return False
 
+    $ questHelpDesc("melanie_desc5")
     $ questHelp("melanie_5")
     $ questLog(26, False)
     $ questLog(29, True)
@@ -189,6 +192,12 @@ label ep23_quests_melanie_disappeared2:
         $ melanieDisappeared = True
         $ questHelp("house_9a", True)
         $ questHelp("photoshoot_5", skipIfExists=True)
+        $ questHelp("melanie_6b", skipIfExists=True)
+        $ questHelp("melanie_6", True)
+        $ questHelpDesc("melanie_desc6", False)
+        $ questHelpDesc("melanie_desc6a", True)
+        $ questHelp("steve_1")
+
         $ monicaOutfitsEnabled[5] = True # Открываем следующий костюм
         call ep24_quests_steve1() from _call_ep24_quests_steve1_2 # Планируем приход Стива
         $ autorun_to_object("ep26_dialogues5_office1_1", scene="monica_office_cabinet_table")
@@ -231,8 +240,8 @@ label ep23_quests_melanie13: # Диалог с Мелани после каст�
         return
     call ep23_dialogue9_4() from _call_ep23_dialogue9_4
     $ questLog(28, True)
-    $ questHelp("steve_1")
-    $ questHelp("melanie_6b")
+#    $ questHelp("steve_1")
+#    $ questHelp("melanie_6b")
     $ questHelpDesc("melanie_desc5", "melanie_desc6")
     call ep23_quests_melanie_disappeared() from _call_ep23_quests_melanie_disappeared_1
     $ remove_hook(label="melanie_exit")

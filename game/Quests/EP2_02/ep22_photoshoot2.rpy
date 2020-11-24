@@ -597,7 +597,8 @@ label ep22_photoshoot2_end:
 
     if questHelpFlag19 == False:
         $ questHelpFlag19 = True
-        $ questHelpDesc("photoshoot_desc2", "photoshoot_desc9")
+#        $ questHelpDesc("photoshoot_desc2", "photoshoot_desc9")
+        $ questHelpDesc("office_desc7", "office_desc8")
     $ questHelp("photoshoot_9", skipIfExists=True)
     if shotsAmountCompleted >= shotsTotalAmount:
         $ questHelp("photoshoot_9", True)

@@ -761,6 +761,13 @@ label ep22_photoshoot5_end:
     hide screen photoshoot_no_next2
     hide screen photoshoot
 
+    if questHelpFlag8Melanie == False:
+        $ questHelpFlag8Melanie = True
+        $ questHelp("melanie_2")
+#        $ questHelp("office_18")
+        $ questHelp("photoshoot_4", True)
+#        $ questHelpDesc("photoshoot_desc4", False)
+
     music Stealth_Groover
     img 8745
     with fadelong

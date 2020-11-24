@@ -102,7 +102,7 @@ label ep25_quests_shop3:
     call ep25_dialogues1_shop2() from _call_ep25_dialogues1_shop2
     if _return == False:
         $ clothShopUsualDayVisitorsAmount = 0 # В магазине никого нет
-        $ questHelp("shop_5")
+        $ questHelp("shop_4")
         $ add_hook("Cashier", "ep25_quests_shop6", scene="cloth_shop_cashier", label=["cloth_shop_quests", "steal_dress"]) # Теперь платье можно и украсть
         $ add_hook("open", "ep25_quests_shop5", scene="cloth_shop_view1", label=["cloth_shop_quests", "steal_dress"])
         $ add_hook("Teleport_Cloth_Shop_Entrance", "ep25_quests_shop4a", scene="street_cloth_shop", label=["cloth_shop_enter2", "cloth_shop_quests"]) # блокируем вход в магазин
@@ -113,6 +113,7 @@ label ep25_quests_shop3:
 
     $ monicaHasCasualDress1 = True
     $ monicaBoughtCasualDress1 = True
+    $ questHelp("steve_7")
     $ remove_objective("find_casual_dress")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
@@ -168,12 +169,13 @@ label ep25_quests_shop6:
     # Говорим о том чтобы купить платье
     call ep25_dialogues1_shop2() from _call_ep25_dialogues1_shop2_1
     if _return == False:
-        $ questHelp("shop_5")
+        $ questHelp("shop_4")
         call change_scene("street_cloth_shop") from _call_change_scene_257
         return False
 
     $ monicaHasCasualDress1 = True
     $ monicaBoughtCasualDress1 = True
+    $ questHelp("steve_7")
     $ remove_objective("find_casual_dress")
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
@@ -187,7 +189,7 @@ label ep25_quests_shop6:
 
 label ep25_quests_shop7:
     # Воруем платье
-    $ questHelp("shop_5", True)
+    $ questHelp("shop_4", True)
     call ep25_dialogues1_shop6() from _call_ep25_dialogues1_shop6
 
     if _return == False:
@@ -197,6 +199,7 @@ label ep25_quests_shop7:
         $ questHelp("shop_4", False)
         $ monicaHasCasualDress1 = True
         $ monicaBoughtCasualDress1 = True
+        $ questHelp("steve_7")
         $ remove_objective("find_casual_dress")
         $ cloth = "CasualDress1"
         $ cloth_type = "CasualDress"
@@ -252,6 +255,7 @@ label ep25_quests_shop8:
         call question_helper_disable() from _call_question_helper_disable
         $ monicaHasCasualDress1 = True
         $ monicaBoughtCasualDress1 = True
+        $ questHelp("steve_7")
         $ remove_objective("find_casual_dress")
         $ cloth = "CasualDress1"
         $ cloth_type = "CasualDress"
@@ -353,10 +357,12 @@ label ep25_quests_shop15:
     $ autorun_to_object("ep25_dialogues1_shop12a", scene="street_cloth_shop")
 
     $ questHelp("shop_6", True)
-    $ questHelp("steve_8")
+#    $ questHelp("steve_8")
+    $ questHelp("steve_7")
     $ questHelp("office_24")
     $ questHelpDesc("shop_desc1", "shop_desc2")
     $ monicaHasCasualDress1 = True
+    $ questHelp("steve_7")
     $ remove_objective("find_casual_dress")
     call ep25_quests2() from _call_ep25_quests2_4
     $ cloth = "CasualDress1"

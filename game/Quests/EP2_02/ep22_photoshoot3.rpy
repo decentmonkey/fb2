@@ -752,10 +752,12 @@ label ep22_photoshoot3_end:
 #    $ shotsTotalAmount
     if questHelpFlag20 == False:
         $ questHelpFlag20 = True
-        $ questHelpDesc("photoshoot_desc3", "photoshoot_desc10")
+#        $ questHelpDesc("photoshoot_desc3", "photoshoot_desc10")
+
 #    $ questHelp("office_16", skipIfExists=True)
     $ questHelp("photoshoot_10", skipIfExists=True)
     $ questHelp("photoshoot_3", True)
+    $ questHelp("photoshoot_3a", skipIfExists=True)
     if shotsAmountCompleted >= shotsTotalAmount:
         $ questHelp("photoshoot_10", True)
 

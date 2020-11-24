@@ -131,6 +131,12 @@ screen questhelp_screen():
                                     action [
                                         Return(["category_click", category])
                                     ]
+        fixed:
+            xpos 0
+            ypos getRes(85 + 852-85 - 52)
+
+            add "gui/frame6_overlay" + res.suffix + ".png":
+                size (getRes(381-15), getRes(52))
 
         viewport id "questhelp_viewport_events":
 #            xpos getRes(377+10)

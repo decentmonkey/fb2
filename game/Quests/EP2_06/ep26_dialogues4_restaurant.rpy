@@ -258,6 +258,7 @@ label ep26_dialogues4_restaurant3:
         m "Я оплачу этим сертификатом"
         $ questHelp("steve_18", True)
         $ remove_inventory("legrand_certificate", 1, True)
+        $ questHelp("steve_18", True)
         sound snd_take_paper
     else:
         $ add_money(-menu_price_money[choose_var-1])

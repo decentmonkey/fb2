@@ -90,13 +90,15 @@ label ep22_quests_office4_l1:
         if questHelpFlag7Worker == False:
             $ questHelpFlag7Worker = True
             $ questHelp("photoshoot_3", True)
-            $ questHelp("office_16")
+#            $ questHelp("office_16")
     if monicaPhotoShootOutfitIdx == 4:
         call ep22_photoshoot4() from _call_ep22_photoshoot4
         call ep22_photoshoot4_end() from _call_ep22_photoshoot4_end
         if melanieWaitingOpenedOutfits == True:
             $ monicaOutfitsEnabled[4] = True # Открываем следующий костюм (Мелани)
             $ melanieWaitingOpenedOutfits = False
+            $ questHelp("melanie_1a", True)
+            $ questHelp("photoshoot_4")
         $ photoshoot4_count += 1
     if monicaPhotoShootOutfitIdx == 5:
         call ep23_dialogues5_3() from _call_ep23_dialogues5_3

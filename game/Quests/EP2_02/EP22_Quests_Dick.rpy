@@ -69,6 +69,7 @@ label ep22_quests_Dick5:
 
     $ questHelp("dick_3", True)
     $ questHelp("victoria_1")
+    $ questHelp("victoria_1a")
     $ questHelp("office_13")
     $ questHelp("melanie_1")
     $ questHelpDesc("melanie_desc1")
@@ -139,6 +140,7 @@ label ep22_quests_Dick8: #регулярный разговор с Виктор�
     if monicaVictoriaPunishmentPlanned == True: #наказание
         $ monicaVictoriaPunishmentPlanned = False
         call ep22_dialogues5_12() from _call_ep22_dialogues5_12
+        $ questHelp("victoria_1a", True)
         call refresh_scene_fade() from _call_refresh_scene_fade_54
         return False
 
@@ -159,6 +161,7 @@ label ep22_quests_Dick8a:
     if monicaVictoriaPunishmentPlanned == True: #наказание
         $ monicaVictoriaPunishmentPlanned = False
         call ep22_dialogues5_12() from _call_ep22_dialogues5_12_1
+        $ questHelp("victoria_1a", True)
         call refresh_scene_fade() from _call_refresh_scene_fade_57
         return False
     $ menuName = "DickSecretary_Dialogue1_Menu"

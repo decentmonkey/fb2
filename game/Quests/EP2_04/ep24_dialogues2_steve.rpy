@@ -1942,6 +1942,7 @@ label ep24_dialogues3_steve10g:
             steve "Хорошо, Моника!"
             steve "Но, если передумаешь, приходи ко мне в офис!"
             $ questHelp("steve_6", False)
+            $ questHelp("steve_4", False)
             $ questHelp("steve_5", True)
             $ questHelp("steve_7")
             return False
@@ -1978,6 +1979,7 @@ label ep24_dialogues3_steve10g:
             steve "Но, если передумаешь, приходи ко мне в офис!"
 #            m "Хорошо, Моника. Подумай! Я наведаюсь как-нибудь еще!"
             $ questHelp("steve_6", False)
+            $ questHelp("steve_4", False)
             $ questHelp("steve_5", True)
             $ questHelp("steve_7")
             return False
@@ -2175,12 +2177,14 @@ label ep24_dialogues3_steve10g:
             steve "Хорошо, Моника!"
             steve "Но, если передумаешь, приходи ко мне в офис!"
             $ questHelp("steve_6", False)
+            $ questHelp("steve_4", False)
             $ questHelp("steve_5", True)
             $ questHelp("steve_7")
             return False
         "Мне нужно хотя бы $ 10.000, Стив!":
             pass
     $ questHelp("steve_4", True)
+    $ questHelp("steve_5", False)
     $ questHelp("steve_6")
     $ questHelpDesc("steve_desc1", "steve_desc2")
     img 10086

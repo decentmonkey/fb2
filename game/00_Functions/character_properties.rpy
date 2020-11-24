@@ -57,7 +57,7 @@ init python:
             if char_info[char_name].has_key("show_caption_diabled") and char_info[char_name]["show_caption_diabled"] == True:
                 notif(t__(char_info[char_name]["name_orig"]) + ". " + t__(char_info[char_name]["caption_diabled"]))
                 return
-            notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс максимален, ждите следующих обновлений игры!"))
+#            notif(t__(char_info[char_name]["name_orig"]) + " " + t__("прогресс максимален, ждите следующих обновлений игры!"))
             return
         char_progress_stored[char_name][progress_name] = char_progress_stored[char_name][progress_name] + 1
         char_info[char_name]["current_progress"] = char_info[char_name]["current_progress"] + progress_value

@@ -793,8 +793,6 @@ label ep26_dialogues2_steve3:
     img 12651
     m "Я жду сертификат на ланч в ресторане."
 
-    $ questHelp("steve_17", True)
-    $ questHelp("steve_18", skipIfExists=True)
 
     # Стив кладет сертивикат
     sound snd_folder_drop
@@ -814,6 +812,8 @@ label ep26_dialogues2_steve3:
     with fadelong
     m "Не забывай при каких обстоятельствах это происходило!"
     m "Ты еще ответишь за все, что сделал!"
+    $ questHelp("steve_17", True)
+    $ questHelp("steve_18", skipIfExists=True)
     return True
 
 

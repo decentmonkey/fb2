@@ -2,6 +2,7 @@ default steveVisit1PlannedComplete = False
 default steveVisit1Skip = False
 default steveVisit1DayShowed0 = False
 default steveVisit1DayShowed = False
+default steveVisit1Day = 0
 default steveVisit2Day = 0
 default monicaAskedVictoriaAboutSteveMoney = False
 
@@ -40,6 +41,9 @@ label ep24_quests_steve2:
     $ basementBedSkipUntilFridayEnabled = False
     $ skipDaysInterrupted = True
     call ep24_dialogues2_steve3() from _call_ep24_dialogues2_steve3
+    $ questHelp("steve_1", True)
+    $ questHelp("steve_1a")
+    $ steveVisit1Day = day
     $ cloth = "Governess"
     $ cloth_type = "Governess"
     call change_scene("floor1", "Fade_long", False) from _call_change_scene_193
@@ -94,8 +98,8 @@ label ep24_quests_steve6:
 label ep24_quests_steve6b:
     # Срабатывание продолжения дня первого застолья
     call ep24_dialogues2_steve5a() from _call_ep24_dialogues2_steve5a
-    $ questHelp("steve_1", True)
-    $ questHelp("steve_2")
+#    $ questHelp("steve_1", True)
+#    $ questHelp("steve_2")
     $ questHelpDesc("steve_desc1")
     $ move_object("Betty", scene="living_room")
     $ move_object("Ralph", scene="living_room")
@@ -107,9 +111,6 @@ label ep24_quests_steve7:
     $ remove_hook(label = "steve_visit1")
     if steveVisit1DayShowed == False:
         call ep24_dialogues2_steve5a() from _call_ep24_dialogues2_steve5a_1
-        $ questHelp("steve_1", True)
-        $ questHelp("steve_2")
-        $ questHelpDesc("steve_desc1")
 
     call ep24_dialogues2_steve6() from _call_ep24_dialogues2_steve6 # вечер первого застолья
 
@@ -125,6 +126,11 @@ label ep24_quests_steve7:
     $ skipDaysInterrupted = False
     $ rooms_clean_list_exclude = []
     $ questLog(31, True)
+
+    $ questHelp("steve_1", True)
+    $ questHelp("steve_2")
+    $ questHelp("steve_1a", True)
+    $ questHelpDesc("steve_desc1")
 
     $ basementBedSkipUntilFridayEnabled = True
     $ add_hook("Ralph", "ep24_quests_steve34", scene="living_room", label="steve_ralph_visit2")
@@ -229,6 +235,10 @@ label ep24_quests_steve13:
     $ add_hook("Teleport_LivingRoom", "ep24_dialogues3_steve10_enter_room2", scene="floor1", label="steve_visit2")
     $ add_hook("Teleport_LivingRoom", "ep24_dialogues3_steve10_enter_room1", scene="floor1", label="steve_visit2", priority=300)
 
+    $ questHelp("steve_3", True)
+    $ questHelp("steve_3a")
+
+
     $ add_hook("open", "ep24_quests_steve15", scene="floor1", label="steve_visit2a")
     $ add_hook("enter_scene", "ep24_quests_steve16", scene="floor1", label="steve_visit2a")
     $ add_hook("basement_monica_before_nap", "ep24_quests_steve18", scene="global", label="steve_visit2_nap") # В пятницу вечером также запускаем сцену с Бетти о приходе Стива
@@ -281,7 +291,8 @@ label ep24_quests_steve17:
     $ add_hook("enter_scene", "ep24_quests_steve20", scene="kitchen", label="steve_visit2b")
     $ add_hook("enter_scene", "ep24_quests_steve20", scene="kitchen2", label="steve_visit2b")
 
-
+    $ questHelp("steve_3a", True)
+    $ questHelp("steve_3b")
     call refresh_scene_fade() from _call_refresh_scene_fade_59
     return False
 
@@ -369,11 +380,10 @@ label ep24_quests_steve22:
     $ remove_hook(label="steve_visit2c")
     call ep24_dialogues3_steve10e() from _call_ep24_dialogues3_steve10e
 
-    $ questHelp("steve_3", True)
-    $ questHelp("steve_4")
-    $ questHelp("steve_5")
-    $ questHelp("office_23")
-    
+    $ questHelp("steve_3b", True)
+    $ questHelp("steve_3c")
+
+
     $ remove_hook(label="steve_visit2_nap")
     $ add_hook("change_time_evening", "ep24_quests_steve23", scene="global", priority = 200)
     $ add_hook("Panties_Box", "ep24_dialogues3_steve10e3", scene="basement_laundry", label="steve_visit2")
@@ -404,6 +414,12 @@ label ep24_quests_steve23:
     $ add_hook("before_open", "ep24_quests_steve24", scene="basement_pool", label="steve_catch1")
 
     $ add_hook("basement_monica_before_sleep", "ep24_quests_steve18", scene="global", label="steve_visit2")
+
+    $ questHelp("steve_3c", True)
+    $ questHelp("steve_4")
+    $ questHelp("steve_5")
+    $ questHelp("office_23")
+
     call refresh_scene_fade_long() from _call_refresh_scene_fade_long_1
     return
 # rooms_clean_list_exclude = []
@@ -483,6 +499,9 @@ label ep24_quests_steve28:
     if monicaAskedVictoriaAboutSteveMoney == False:
         $ questLog(32, False)
         $ questLog(33, True)
+        $ questHelp("steve_6", True)
+        $ questHelpDesc("steve_desc2", "steve_desc3")
+        $ questHelp("steve_7")
 
     $ monicaAskedVictoriaAboutSteveMoney = True
     call refresh_scene_fade() from _call_refresh_scene_fade_62
