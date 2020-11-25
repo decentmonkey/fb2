@@ -75,8 +75,10 @@ label ep27_quests_julia2: # Проверка на первый приход Фр
         $ juliaQuestStarted = True
         call characters_init_julia() from _call_characters_init_julia
     else:
+        $ questHelp("office_27", False)
         $ questHelp("julia_1", False)
         $ questHelp("office_28", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ juliaQuestRefused = True
         $ remove_hook(label="ep29_quests_julia3_workers")
 

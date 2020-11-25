@@ -33,6 +33,7 @@ label ep212_quests_julia2_fred_catch: # Фред перехватывает Мо
     $ questHelp("julia_29", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
         $ char_info["Julia"]["level"] = 1
         $ remove_objective("find_julia_panties_color")
@@ -60,6 +61,7 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
     $ remove_hook(label="julia_third_date")
     call ep212_dialogues5_julia_3() from _rcall_ep212_dialogues5_julia_3 # Встречаются, Юлия уходит в ванную
     if _return == False:
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ juliaQuestMonicaRefusedFred = True
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
         $ char_info["Julia"]["level"] = 1
@@ -76,6 +78,7 @@ label ep212_quests_julia3_third_date_start: # Начало свидания
     $ questHelp("julia_32", True)
     if _return == False:
         $ juliaQuestMonicaRefusedFred = True
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ char_info["Julia"]["caption"] = t_("Юлия боится Монику")
         $ char_info["Julia"]["level"] = 1
         $ remove_hook(label="julia_dating_regular")

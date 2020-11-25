@@ -16,10 +16,12 @@ label ep28_quests_julia_fred_catch1: # Фред ловит Монику на в�
         $ remove_hook(label="ep29_quests_julia3_workers")
         $ questHelp("julia_10", True)
         $ questHelp("julia_11", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
     else:
         $ juliaQuestStage1_Progress = 1
         $ questHelp("julia_10", True)
         $ questHelp("julia_11", skipIfExists=True)
+        $ questHelp("julia_11a", skipIfExists=True)
     $ move_object("Melanie", "empty")
     call change_scene("monica_office_makeup_room") from _call_change_scene_385
     $ add_hook("enter_scene", "ep27_dialogues6_julia10a", scene="monica_office_makeup_room", once=True)
@@ -34,7 +36,7 @@ label ep28_quests_julia_panties_menu:
         $ juliaQuestLastDay = day
         if _return == True:
             $ juliaQuestStage1_Progress = 2
-            $ questHelp("julia_11", True)
+            $ questHelp("julia_11a", True)
             $ questHelp("julia_12", skipIfExists=True)
         $ workingOfficeCabinetMonicaSuffix = 2
         call refresh_scene_fade() from _call_refresh_scene_fade_176
@@ -104,6 +106,7 @@ label ep28_quests_julia_fred_catch2: # Фред ловит Монику на в�
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
         $ questHelp("julia_14", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
     else:
         $ juliaQuestStage1_Progress = 3
         $ questHelp("julia_14", skipIfExists=True)
@@ -131,6 +134,7 @@ label ep28_quests_julia_fred_catch3: # Фред ловит Монику на в�
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
         $ questHelp("julia_16", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
     else:
         $ juliaQuestStage1_Progress = 4
         $ questHelp("julia_16", skipIfExists=True)
@@ -156,6 +160,7 @@ label ep28_quests_julia_fred_catch4: # Фред ловит Монику на в�
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
         $ questHelp("julia_18", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
     else:
         $ juliaQuestStage1_Progress = 5
         $ questHelp("julia_18", skipIfExists=True)

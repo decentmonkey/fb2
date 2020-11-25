@@ -3203,7 +3203,11 @@ label ep213_dialogues5_julia_10b:
     music Groove2_85
     imgf 30948
     $ questHelp("julia_53", True)
-    $ questHelp("julia_54", skipIfExists=True)
+    if game.extra == True:
+        $ questHelp("julia_54", skipIfExists=True)
+    else:
+        $ questHelp("julia_54", False, skipIfExists=True)
+
     $ questHelp("julia_55", skipIfExists=True)
     julia "Я услышала, что Вы в душе и решила присоединиться к Вам."
     julia "Вы же не будете против?" # смущенно

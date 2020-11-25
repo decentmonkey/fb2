@@ -74,6 +74,7 @@ label ep211_quests_julia4_talk:
     if _return == False:
         $ remove_hook(label="julia_date2")
         $ ep211_julia_second_date_aborted = True
+        $ questsFailByCategory(t_("ЮЛИЯ"))
 #        $ ep211_julia_second_date_inited = False # Позволяем сходить на свидание вновь
         $ e210_quests_julia_aborted = True
         $ remove_hook(label="julia_dating_regular")
@@ -101,8 +102,6 @@ label ep211_quests_julia5_panties_not_found:
     $ remove_hook()
     call ep211_dialogues4_julia_6() from _rcall_ep211_dialogues4_julia_6
     $ remove_objective("search_panties")
-    $ questHelp("julia_28", True)
-    $ questHelp("julia_29", skipIfExists=True)
     $ add_hook("Julia", "ep211_quests_julia6_talk", scene="juliahome_livingroom", label="julia_date2")
     $ add_objective("return_julia", t_("Вернуться к Юлии."), c_orange, 105)
     call refresh_scene_fade() from _rcall_refresh_scene_fade_9
@@ -127,6 +126,8 @@ label ep211_quests_julia7_end:
     $ remove_hook()
     $ ep211_julia_second_date_completed = True
     $ ep211_julia_second_date_completed_day = day
+    $ questHelp("julia_28", True)
+    $ questHelp("julia_29", skipIfExists=True)
     $ add_char_progress("Julia", 100, "julia_second_date")
     $ add_hook("before_open", "ep212_quests_julia2_fred_catch", scene="working_office", recursive=True, label="ep212_quests_julia2_fred_catch", priority=1000)
     $ add_hook("before_open", "ep212_quests_julia2_fred_catch", scene="working_office_cabinet", recursive=True, label="ep212_quests_julia2_fred_catch", priority=1000)

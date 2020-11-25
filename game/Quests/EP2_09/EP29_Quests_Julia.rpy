@@ -25,6 +25,7 @@ label ep29_quests_julia_fred_catch1:
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")
         $ questHelp("julia_20", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
     else:
         $ juliaQuestStage1_Progress = 6
         $ questHelp("julia_20", skipIfExists=True)
@@ -129,6 +130,8 @@ label ep29_quests_julia3d:
         return
     $ remove_hook(label="ep29_quests_julia3d")
     call ep29_dialogues1_julia_10() from _call_ep29_dialogues1_julia_10
+    $ questHelp("julia_22", True)
+    $ questHelp("julia_22a")
     $ juliaQuestStage1_workers_progress = 3
     $ juliaQuestStage1_workers_progress_day = day
     call ep210_quests_julia_init() from _rcall_ep210_quests_julia_init

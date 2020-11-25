@@ -19,8 +19,9 @@ label ep210_quests_julia1: # Разговор после атаки офисны
         return
     $ remove_hook()
     call ep210_dialogues5_julia_1() from _call_ep210_dialogues5_julia_1
-    $ questHelp("julia_22", True)
+    $ questHelp("julia_22a", True)
     if _return == False:
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ e210_quests_julia_aborted = True
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
@@ -88,6 +89,7 @@ label ep210_quests_julia2_cafe: # Клик на кафе
     if _return == False:
         $ e210_quests_julia_aborted = True
         $ questHelp("julia_24", False)
+        $ questsFailByCategory(t_("ЮЛИЯ"))
         $ questLog(47, False)
         $ remove_objective("find_julia_panties_color")
         $ remove_hook(label="ep29_quests_julia3_workers")

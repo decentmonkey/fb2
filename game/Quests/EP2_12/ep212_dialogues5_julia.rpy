@@ -746,6 +746,8 @@ label ep212_dialogues5_julia_4:
     img 30396
     with fade
     mt "Черные?!"
+    $ questHelp("julia_11", True)
+    $ questHelpDesc("julia_desc2", False)
     mt "..."
     mt "Просто черные трусики!"
     mt "И почему я не догадалась назвать Фреду черный цвет?!"
