@@ -127,6 +127,7 @@ label ep22_quests_Dick7:
         $ notif(t_("Виктория потратила деньги Моники на шоппинг. Она ждет деньги снова до следующей пятницы."))
         $ add_char_progress("DickSecretary", monicaVictoriaEarnedWeeklyMoneyProgress, "monicaVictoriaEarnedWeeklyMoneyProgress " + str(day))
         $ add_objective("money_for_victoria", t_("Заработать $ 5000 для Виктории до Пятницы!"), c_pink, 10)
+        $ questHelp("victoria_1", True)
     else:
         #если деньги не заработаны
         $ monicaVictoriaPunishmentPlanned = True # Моника заслужила наказание

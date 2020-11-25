@@ -37,6 +37,8 @@ label ep215_quests_escort2:
         $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_3", scene="street_monica_office", label=["evening_time_temp", "ep215_dialogues3_escort_3"])
         $ add_hook("Teleport_Inside", "ep215_quests_escort2_repeat", scene="street_monica_office", label="ep215_quests_escort2_repeat")
         $ add_hook("enter_scene", "ep215_quests_escort2_repeat_comment", scene="street_monica_office", label="ep215_quests_escort2_repeat_comment")
+        $ questHelp("office_45", False)
+        $ questHelp("escort_10", False)
         $ ep215_quests_escort_repeat1_day = day
         call putoff_work_clothes() from _rcall_putoff_work_clothes_10
         call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_169
@@ -73,6 +75,8 @@ label ep215_quests_escort2_repeat: # повторный приход к Бифу
         $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_3", scene="street_monica_office", label=["evening_time_temp", "ep215_dialogues3_escort_3"])
 #        $ add_hook("Teleport_Inside", "ep215_quests_escort2_repeat", scene="street_monica_office", label="ep215_quests_escort2_repeat")
         $ add_hook("enter_scene", "ep215_quests_escort2_repeat_comment", scene="street_monica_office", label="ep215_quests_escort2_repeat_comment")
+        $ questHelp("office_45", False)
+        $ questHelp("escort_10", False)
         $ ep215_quests_escort_repeat1_day = day
         call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_170
         return False
@@ -89,11 +93,14 @@ label ep215_quests_escort3_dating: # свидание
     if _return == 1:
         # Моника вынудила инвестора дать согласие на инвестирование при его жене
         $ questHelp("office_50", True)
+        $ questHelp("office_51", False)
         $ questHelp("office_52")
-        $ questHelp("escort_10", False)
-        $ questHelp("escort_12", False)
+        if monica_escort_service_started == True:
+            $ questHelp("escort_10", False)
+            $ questHelp("escort_12", False)
         pass
     else:
+        $ questHelp("office_51", True)
         $ questHelp("office_50", False)
         $ questHelp("office_52")
 
@@ -107,12 +114,14 @@ label ep215_quests_escort3_dating: # свидание
         call ep215_dialogues3_escort_14() from _rcall_ep215_dialogues3_escort_14
         if _return == 1: #отыграться на Линде
             call ep215_dialogues3_linda_punishment() from _rcall_ep215_dialogues3_linda_punishment
-            $ questHelp("escort_10", True)
+            if monica_escort_service_started == True:
+                $ questHelp("escort_10", True)
             if questHelpFlag13 == False:
                 $ questHelpFlag13 = True
                 $ questHelpDesc("escort_desc3", "escort_desc5")
         else:
-            $ questHelp("escort_10", False)
+            if monica_escort_service_started == True:
+                $ questHelp("escort_10", False)
 
         $ questHelp("escort_12", True)
         $ questHelp("office_52", skipIfExists=True)

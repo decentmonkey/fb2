@@ -8,8 +8,8 @@ screen questhelp_screen():
 
 #    $ rowOffset = getRes(22) #244x137
 
-    layer "master"
-    zorder 60
+#    layer "master"
+    zorder 110
     modal True
     button:
         xfill True

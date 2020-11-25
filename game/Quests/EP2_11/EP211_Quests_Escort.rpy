@@ -43,6 +43,19 @@ label ep211_quests_escort1:
         $ char_info["ReceptionGirl"]["enabled"] = True
         $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
 
+    if monicaEscortClientHotel5 == True:
+        $ questHelp("escort_6", skipIfExists=True)
+    if monicaEscortClientHotel7 == True:
+        $ questHelp("escort_7", skipIfExists=True)
+    if monicaEscortClientHotel9 == True and monicaHotelStaffEscort2 == True:
+        $ questHelp("escort_9", skipIfExists=True)
+    if monicaEscortClientHotel8 == True and monicaEscortClientHotel9 == True:
+        $ questHelp("escort_11", skipIfExists=True)
+    if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True:
+        $ questHelp("escort_13", skipIfExists=True)
+
+
+
     music stop
     img black_screen
     with diss
@@ -80,6 +93,18 @@ label ep211_quests_escort2_exit_dialogue:
     return False
 
 label ep211_quests_escort2_end_day:
+    if ep212_escort_monica_fired == False:
+        if monicaEscortClientHotel5 == True:
+            $ questHelp("escort_6", skipIfExists=True)
+        if monicaEscortClientHotel7 == True:
+            $ questHelp("escort_7", skipIfExists=True)
+        if monicaEscortClientHotel9 == True and monicaHotelStaffEscort2 == True:
+            $ questHelp("escort_9", skipIfExists=True)
+        if monicaEscortClientHotel8 == True and monicaEscortClientHotel9 == True:
+            $ questHelp("escort_11", skipIfExists=True)
+        if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True:
+            $ questHelp("escort_13", skipIfExists=True)
+
     $ remove_hook(quest="work_escort")
     $ remove_hook(quest="work_escort")
     $ remove_hook(label="escort_scene1")
@@ -337,6 +362,7 @@ label ep211_quests_escort6_scene2c: # сцена
     call ep211_escort_scene2_3a() from _rcall_ep211_escort_scene2_3a # сцена
     call ep211_escort_scene2_4() from _rcall_ep211_escort_scene2_4
     call ep211_escort_scene2_5() from _rcall_ep211_escort_scene2_5
+    $ questHelp("escort_6", skipIfExists=True)
     if _return == False: # отказалась совсем
         call ep211_escort_scene2_14(0) from _rcall_ep211_escort_scene2_14
         $ monicaEscortFailedScenesCount += 1
@@ -348,7 +374,6 @@ label ep211_quests_escort6_scene2c: # сцена
     call ep211_escort_scene2_7() from _rcall_ep211_escort_scene2_7
     call ep211_escort_scene2_8() from _rcall_ep211_escort_scene2_8
     $ questHelp("escort_5", True)
-    $ questHelp("escort_6", skipIfExists=True)
     if _return == False: # отказалась со 2-ым
         call ep211_escort_scene2_14(-1) from _rcall_ep211_escort_scene2_14_1
         $ monicaEscortFailedScenesCount += 1

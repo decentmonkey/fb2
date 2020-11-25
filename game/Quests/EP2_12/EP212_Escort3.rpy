@@ -49,6 +49,7 @@ label ep212_escort3_2: # сцена
         call ep212_dialogues3_escort_hotel_5_1() from _rcall_ep212_dialogues3_escort_hotel_5_1
         $ ep212_escort_monica_fired = True
         $ ep212_escort3_monica_fired = True
+        $ questsFailByCategory(t_("ВИП-ЭСКОРТ"))
         $ add_hook("Teleport_Rich_Hotel_Reception", "ep212_dialogues3_escort_hotel_7_2", scene="street_rich_hotel", priority = 500) # Блокируем вход в отель
         $ autorun_to_object("ep212_dialogues3_escort_hotel_7_1", scene="street_rich_hotel")
 #        call change_scene("street_rich_hotel", "Fade_long")
@@ -66,7 +67,9 @@ label ep212_escort3_2: # сцена
     $ questHelp("escort_6", True)
     $ questHelp("escort_7", skipIfExists=True)
     $ questHelp("escort_8", skipIfExists=True)
-    $ questHelpDesc("escort_desc2")
+    $ questHelpDesc("escort_desc1", "escort_desc2")
+#    $ questHelp("escort_8", skipIfExists=True)
+#    $ questHelpDesc("escort_desc2")
 
     call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_7
     call change_scene("street_rich_hotel", "Fade_long") from _rcall_change_scene_78

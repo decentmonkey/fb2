@@ -894,6 +894,7 @@ label ep22_dialogue6_7:
             img 12794
         biff "Цыпочке купить такой же сертификат как обычно?"
         m "Да..."
+        $ questHelp("office_15", True)
 
     $ questHelp("office_13", True)
 

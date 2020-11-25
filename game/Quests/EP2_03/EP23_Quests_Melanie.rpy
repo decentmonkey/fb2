@@ -70,7 +70,7 @@ label ep23_quests_melanie4: #Моника говорит с Мелани пос�
     $ questLog(24, False)
     $ questLog(25, True)
     $ questHelp("melanie_2", True)
-    $ questHelp("dick_4")
+#    $ questHelp("dick_4")
     $ questHelpDesc("melanie_desc1", False)
     $ questHelpDesc("melanie_desc2", "melanie_desc3")
     $ questHelpDesc("dick_desc5", "dick_desc6")
@@ -103,7 +103,7 @@ label ep23_quests_melanie6: #Мелани идет к Дику
     $ add_hook("Melanie_Life_day", "Melanie_Life_day2", scene="global", label="melanie_makeuproom_life")
 
     $ questHelp("melanie_3")
-    $ questHelp("dick_4", True)
+#    $ questHelp("dick_4", True)
 
     return
 

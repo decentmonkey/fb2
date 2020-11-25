@@ -62,7 +62,7 @@ label ep212_quests_melanie2_enter_melanie_home: # приход к Мелани
     if _return == False:
         $ ep212_quests_melanie_refused1 = True
         $ ep212_quests_melanie_refused2 = True
-        $ questHelp("melanie_17", False)
+        $ questHelp("melanie_17", True)
         $ questHelp("melanie_18", False)
         $ questHelp("victoria_2", False)
         $ remove_hook(label="ep212_quests_melanie")

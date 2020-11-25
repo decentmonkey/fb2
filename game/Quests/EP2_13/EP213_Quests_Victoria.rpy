@@ -52,6 +52,7 @@ label ep213_quests_victoria3_loop2:
     call ep213_dialogues1_victoria_14() from _rcall_ep213_dialogues1_victoria_14
     $ questHelp("victoria_6", True)
     $ questHelp("melanie_19")
+    $ questHelp("victoria_9")
     call put_work_clothes() from _rcall_put_work_clothes
     call change_scene("working_office_cabinet2", "Fade_long") from _rcall_change_scene_121
     $ add_hook("change_time_day", "ep213_quests_victoria4_checknext", scene="global", label="ep213_quests_victoria4_checknext")

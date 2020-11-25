@@ -277,8 +277,6 @@ label ep210_quests_escort1_reception: # Разговор с рецепшин о 
         return False
 
     $ questHelp("escort_3", True)
-    $ questHelp("escort_4")
-    $ questHelpDesc("escort_desc1")
 
     # Старт эскорта
     $ monica_escort_service_started = True
