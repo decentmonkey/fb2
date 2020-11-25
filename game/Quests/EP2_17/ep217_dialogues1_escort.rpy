@@ -4,11 +4,13 @@ default monicaAdrianoEscortHotel3 = 0 # Моника притворилась э
 default monicaAdrianoEscortHotel4 = 0 # Моника согласилась на тройничок с Адриано
 default monicaAdrianoEscortHotel5 = 0 # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
 
-
 default ep217_dialogues1_escort_10menu1 = False
 default ep217_dialogues1_escort_10menu2 = False
 default ep217_dialogues1_escort_10menu3 = False
 
+define monicaAdrianoEscortCorruptionRequired1 = 650 # Моника солгала Адриано, сказав что футфетишист сумасшедший
+define monicaAdrianoEscortCorruptionRequired2 = 680 # Моника притворилась перед Адриано эскортницей
+define monicaAdrianoEscortCorruptionRequired3 = 730 # Моника согласилась на тройничок с Адриано и Кэндис
 
 #call ep217_dialogues1_escort_1() # Моника сидит за столиком в ресторане, разговор с официанткой
 #call ep217_dialogues1_escort_2() # Моника пришла на ресепшн, потом служебный коридор, сцена с админом и эскортницей
@@ -604,6 +606,7 @@ label ep217_dialogues1_escort_4:
     imgd 41013
     mt "Что мне сказать?"
     mt "???"
+    $ menu_corruption = [monicaAdrianoEscortCorruptionRequired1, 0]
     menu:
         "Это был какой-то сумасшедший...":
             $ monicaAdrianoEscortHotel2 = day # Моника попыталась выкрутиться из ситуации, солгав Адриано, что футфетишист псих
@@ -678,6 +681,7 @@ label ep217_dialogues1_escort_4:
     reception "[monica_hotel_name]..."
     reception "Почему ты здесь, а не в номере со своим клиентом?"
     m "Я..."
+    $ menu_corruption = [monicaAdrianoEscortCorruptionRequired2, 0]
     menu:
         "Я подумала, что нужна моя помощь.":
             pass
@@ -976,6 +980,7 @@ label ep217_dialogues1_escort_4:
     mt "Все до единого!"
     mt "Они поплатятся за все мои унижения!"
     mt "!!!"
+    $ menu_corruption = [monicaAdrianoEscortCorruptionRequired3, 0]
     menu:
         "Раздеться.":
             $ monicaAdrianoEscortHotel4 = day # Моника согласилась на тройничок с Адриано
