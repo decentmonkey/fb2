@@ -336,7 +336,7 @@ label ep211_quests_publicevent2_photoshoot2: # Моника одела плат�
         return False
     $ questHelp("office_42", True)
     $ questHelp("photoshoot_13")
-    $ questHelpDesc("photoshoot_desc13")
+#    $ questHelpDesc("photoshoot_desc13")
 
     call change_scene("monica_office_cabinet_table") from _rcall_change_scene_23
     jump ep211_quests_publicevent2_photoshoot3

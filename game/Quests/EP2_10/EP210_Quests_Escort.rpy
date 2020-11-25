@@ -37,10 +37,14 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
         $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_4", scene="street_rich_hotel")
         $ move_object("Philip", "rich_hotel_reception")
         $ add_hook("Philip", "ep210_quests_escort1_philip2", scene="rich_hotel_reception", label="ep210_quests_escort1_philip2")
+        $ questHelp("escort_1", False)
+        $ questHelp("philip_3", False)
+        $ questHelp("philip_4", False)
         $ ep210_quests_escort_stage = -1
         call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_475
         return
 
+    $ questHelp("philip_3", True)
     # Секс в туалете
     music stop
     img black_screen
@@ -51,6 +55,7 @@ label ep210_quests_escort1_philip1: # Первая встреча с Филип�
         $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_4", scene="street_rich_hotel")
         $ move_object("Philip", "rich_hotel_reception")
         $ add_hook("Philip", "ep210_quests_escort1_philip2", scene="rich_hotel_reception", label="ep210_quests_escort1_philip2")
+        $ questHelp("philip_4", False)
         $ ep210_quests_escort_stage = -1
         call change_scene("rich_hotel_reception", "Fade_long") from _call_change_scene_476
         return
@@ -221,6 +226,7 @@ label ep210_quests_escort1_hotel_staff1: # К Монике подходит со
         $ move_object("HotelStaff", "rich_hotel_reception")
         $ add_hook("HotelStaff", "ep210_quests_escort1_hotel_staff2", scene="rich_hotel_reception", label="ep210_quests_escort1_hotel_staff2")
         $ ep210_quests_escort_staff_refused = True
+        $ questHelp("escort_1", False)
         call change_scene("street_rich_hotel", "Fade_long", "snd_door_bell1") from _call_change_scene_480
         return
 

@@ -1287,4 +1287,8 @@ label ep213_photoshoot_suit10_pose15:
     hide screen photoshoot_camera_icon
     hide screen photoshoot2
 
+    $ shotsAmountCompleted = len(list(set(PS10_shoots_array)))
+    if shotsAmountCompleted >= shotsTotalAmount:
+        $ questHelp("photoshoot_14a", True)
+
     return True

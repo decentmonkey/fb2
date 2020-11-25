@@ -588,8 +588,8 @@ label ep22_photoshoot2_end:
     $ monicaOutfitsEnabled[2] = True # Открываем следующий костюм
 
     $ questHelp("photoshoot_3", skipIfExists=True)
-    if questHelpFlag7Worker == False:
-        $ questHelpDesc("photoshoot_desc3")
+#    if questHelpFlag7Worker == False:
+#        $ questHelpDesc("photoshoot_desc3")
 
     $ shotsAmountCompleted = len(list(set(PS2_shoots_array)))
     $ questHelp("photoshoot_2", True)

@@ -166,6 +166,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         pause 2.0
         call ep211_escort_scene1_1() from _rcall_ep211_escort_scene1_1
         if _return == False:
+            $ questHelp("escort_4", False)
             call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_2
             return False
         $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)

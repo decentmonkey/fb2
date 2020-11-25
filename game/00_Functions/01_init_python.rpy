@@ -176,15 +176,16 @@ python early:
         if keyPressed[pygame.K_SLASH]:
             return
 
-        what = re.sub(r'(\n\s*)', " ", what)
-        what = t__(what)
-        what = what.replace(" ", " ")
-        what = re.sub("\!\s{1,}", "!\n", what)
-        what = re.sub("\?\s{1,}", "?\n", what)
-        what = re.sub("\.\s{1,}", ".\n", what)
-        what = re.sub("Mr\.\\n", "Mr. ", what)
-        what = re.sub("Mrs\.\\n", "Mrs. ", what)
-        what = re.sub("Ms\.\\n", "Ms. ", what)
+        what = t___(what)
+#        what = re.sub(r'(\n\s*)', " ", what)
+#        what = t__(what)
+#        what = what.replace(" ", " ")
+#        what = re.sub("\!\s{1,}", "!\n", what)
+#        what = re.sub("\?\s{1,}", "?\n", what)
+#        what = re.sub("\.\s{1,}", ".\n", what)
+#        what = re.sub("Mr\.\\n", "Mr. ", what)
+#        what = re.sub("Mrs\.\\n", "Mrs. ", what)
+#        what = re.sub("Ms\.\\n", "Ms. ", what)
 
         if persistent.auto_clipboard == True:
             copy_what = re.sub("\!\s{1,}", "!\n", what)

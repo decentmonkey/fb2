@@ -282,4 +282,4 @@ screen questhelp_screen():
                 padding (getRes(10), getRes(10))
                 vbox:
                     if questHelpCurrentQuest != False and questHelpDataQuests.has_key(questHelpCurrentQuest) and len(questHelpDataQuests[questHelpCurrentQuest]) > 2:
-                        text t__(questHelpDataQuests[questHelpCurrentQuest][2]) style "questhelp_quest_description_text"
+                        text t___(questHelpDataQuests[questHelpCurrentQuest][2]) style "questhelp_quest_description_text"

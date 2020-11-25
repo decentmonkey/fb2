@@ -4,6 +4,7 @@ default ep213_presentation2_completed_day = 0
 label ep213_quests_biff1_init: # инициализация второй презентации
     call ep213_dialogues4_biff_1() from _rcall_ep213_dialogues4_biff_1
     if _return == False:
+        $ questHelp("office_43", False)
         $ questHelp("office_44", False)
 #        $ autorun_to_object("ep213_dialogues4_biff_13", scene="street_monica_office")
 #        call change_scene("street_monica_office", "Fade_long")
@@ -31,7 +32,7 @@ label ep213_quests_biff3_presentation:
     call ep213_dialogues4_biff_3() from _rcall_ep213_dialogues4_biff_3
     $ questHelp("office_44", True)
     $ questHelp("photoshoot_14")
-    $ questHelpDesc("photoshoot_desc14")
+#    $ questHelpDesc("photoshoot_desc14")
     $ add_hook("Teleport_Monica_Office_Cabinet", "ep213_dialogues4_biff_4", scene="monica_office_secretary", label="presentation2_block")
     $ add_hook("Teleport_Monica_Office_Entrance", "ep213_dialogues4_biff_4", scene="monica_office_secretary", label="presentation2_block")
     $ miniMapEnabledOnly = ["Office_PhotoStudio", "Office_Monica_Secretary"]
@@ -58,6 +59,7 @@ label ep213_quests_biff5_makeup_room:
         $ remove_hook(label="monica_presentation2")
         $ remove_hook(label="presentation2_block")
         $ remove_objective("go_photostudio")
+        $ questHelp("photoshoot_14", False)
         $ add_hook("Biff", "ep213_quests_biff6_biff_repeat", scene="monica_office_cabinet_table", label="monica_presentation2") # Повторный разговор с Бифом о работе
         $ autorun_to_object("ep213_dialogues4_biff_13", scene="street_monica_office")
         call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_90
@@ -68,6 +70,7 @@ label ep213_quests_biff5_makeup_room:
         $ remove_hook(label="monica_presentation2")
         $ remove_hook(label="presentation2_block")
         $ remove_objective("go_photostudio")
+        $ questHelp("photoshoot_14", False)
         $ add_hook("Biff", "ep213_quests_biff8_repeat2", scene="monica_office_cabinet_table", label="monica_presentation2")
         $ miniMapEnabledOnly = []
         call putoff_work_clothes() from _rcall_putoff_work_clothes_7
@@ -79,7 +82,11 @@ label ep213_quests_biff5_makeup_room:
 label ep213_quests_biff5_makeup_room_photoshoot_completed:
 #    $ miniMapEnabledOnly = []
     $ ep213_presentation2_completed_day = day
-    $ questHelp("office_45a", skipIfExists=True)
+    $ questHelp("photoshoot_14", True)
+    $ questHelp("photoshoot_14a", skipIfExists=True)
+    $ questHelp("office_45b", skipIfExists=True)
+    $ questHelp("office_45", skipIfExists=True)
+#    $ questHelp("office_45a", skipIfExists=True)
     $ monicaOutfitsEnabled[9] = True # активируем регулярную фотосессию
     call ep215_quests_workers1_init() from _rcall_ep215_quests_workers1_init
     $ remove_hook(label="monica_presentation2")

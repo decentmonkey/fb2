@@ -87,7 +87,8 @@ init python:
         else:
             status = 0
 
-
+        if questHelpDataQuests.has_key(questHelpName) == False:
+            return
         questCategory = questHelpDataQuests[questHelpName][0]
         if questHelpData.has_key(questCategory) == False:
             questHelpData[questCategory] = []
