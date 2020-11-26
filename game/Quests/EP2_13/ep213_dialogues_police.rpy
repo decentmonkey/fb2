@@ -284,9 +284,6 @@ label ep213_dialogues_police2b:
     detective "Не так, как было с предыдущей заключенной, которую я забрал вчера."
     overseer "Мистер Детектив, меня никто не предупреждал, потому я... а..."
 
-    $ questHelp("marcus_11", True)
-    $ questHelp("marcus_12")
-
     # полицейские идут от камеры
     fadeblack
     sound snd_jail_door
@@ -479,9 +476,6 @@ label ep213_dialogues_police7:
             imgf 18479
             mt "Я не верю... Я не верю в то, что прошу подселить ко мне какого-то заключенного..."
             mt "Это кошмар... Это сон..."
-            $ questHelp("marcus_12", True)
-            $ questHelp("marcus_13")
-            $ questHelp("marcus_14")
             imgd 18480
             m "Мммистер... Боб..."
             overseer "Да?!"
@@ -536,7 +530,6 @@ label ep213_dialogues_police7:
             imgf 18478
             prisoner1 "Ладно, ладно..." # испуганно
             prisoner1 "Это совершенно необязательно..."
-            $ questHelp("marcus_12", False)
             $ questHelp("marcus_13", False)
 
             # разговор об одежде
@@ -648,6 +641,7 @@ label ep213_dialogues_police7:
     overseer "Сидите здесь!"
     overseer "И чтобы не шуметь!"
     overseer "На сегодня отбой!"
+    $ questHelp("marcus_13")
 
     # затемнение
     # заключенный перед Моникой
@@ -699,6 +693,7 @@ label ep213_dialogues_police8:
         "Поставить его на место!":
             # Моника толкает заключенного и тот падает на землю
             # Моника ставит ногу на его шею
+            $ questHelp("marcus_13", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended
             return False
     music Malicious
@@ -721,6 +716,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether4 = True # Моника попросила разрешения показать свою грудь
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_13", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_1
             return False
 
@@ -739,6 +735,7 @@ label ep213_dialogues_police8:
             $ monicaPrisonerLiveTogether5 = True # Моника попросила разрешения показать свою грудь и сказала, что она шлюха
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_13", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_2
             return False
     fadeblack
@@ -762,7 +759,6 @@ label ep213_dialogues_police8:
             pass
         "Поставить его на место!":
             $ questHelp("marcus_13", False)
-            $ questHelp("marcus_16", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_3
             return False
 
@@ -796,7 +792,6 @@ label ep213_dialogues_police8:
     imgf 18527
     w
     $ questHelp("marcus_13", True)
-    $ questHelp("marcus_16")
     # Заключенный убегает на другую кровать.
     return
 
@@ -902,6 +897,7 @@ label ep213_dialogues_police10c:
     imgfl 31188
     w
     if ep213_quests_prisoner == False or ep213_quests_prisoner1_offended == True:
+        $ questHelp("marcus_15a", False)
         return
     # затемнение
 # Ложится спать, просыпается от того, что заключенный собирается на нее писать.
@@ -939,6 +935,7 @@ label ep213_dialogues_police10c:
             $ monicaPrisonerLiveTogether7 = True # Моника помогла заключенному пописать
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_15a", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_4
             return False
     fadeblack
@@ -981,6 +978,7 @@ label ep213_dialogues_police10c:
             $ monicaPrisonerLiveTogether8 = True # Моника сказала Бобу, что помогает писать заключенному
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_15a", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_5
             return False
     fadeblack 1.5
@@ -1064,6 +1062,7 @@ label ep213_dialogues_police10d:
             $ monicaPrisonerLiveTogether9 = True # Моника легла к заключенному
             pass
         "Поставить его на место!":
+            $ questHelp("marcus_15a", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_6
             return False
     imgf 31214
@@ -1101,6 +1100,7 @@ label ep213_dialogues_police10d:
     imgf 31219
     mt "Боже! Я не знаю, как мне вынести все это!"
     mt "Скорее бы настал завтрашний день!"
+    $ questHelp("marcus_15a", True)
     # затемнение
     return
 
@@ -1145,7 +1145,6 @@ label ep213_dialogues_police11:
             $ monicaPrisonerLiveTogether10 = True # Моника сказала Бобу, что все ок, когда заключенный заставил делать минет
             pass
         "Поставить его на место!":
-            $ questHelp("marcus_16", True)
             $ questHelp("marcus_18", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_7
             return False
@@ -1153,9 +1152,6 @@ label ep213_dialogues_police11:
     imgf 18565
     m "!!!"
     m "Мистер Боб, здесь все в порядке..."
-
-    $ questHelp("marcus_16", True)
-    $ questHelp("marcus_18")
 
     music Groove2_85
     imgd 18566
@@ -1231,9 +1227,11 @@ label ep213_dialogues_police12a:
             music Power_Bots_Loop
             imgf 18556
             m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
+            $ questHelp("marcus_18", True)
             return True
 
         "Поставить его на место!":
+            $ questHelp("marcus_18", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_8
             return False
     if game.extra == True:
@@ -1414,6 +1412,7 @@ label ep213_dialogues_police12a:
         music Power_Bots_Loop
         imgd 18556
         m "Завтра я выйду отсюда и больше никогда не увижу твою мерзкую морду!"
+        $ questHelp("marcus_18", True)
         # затемнение
     return
 
@@ -1522,7 +1521,7 @@ label ep213_dialogues_police13:
             $ monicaPrisonerLiveTogether12 = True # Моника попросила заключенного о сексе
             pass
         "Поставить его на место!":
-            $ questHelp("marcus_18", False)
+            $ questHelp("marcus_19a", False)
             call ep213_dialogues_prisoner1_offended() from _rcall_ep213_dialogues_prisoner1_offended_9
             return False
 
@@ -1566,8 +1565,6 @@ label ep213_dialogues_police13:
     imgd 31249
     m "Боб услышит..."
     m "Или увидит следы..."
-
-    $ questHelp("marcus_18", True)
 
     imgf 31250
     prisoner1 "Я не буду в этот раз кончать на тебя, шлюха!"
@@ -1815,6 +1812,7 @@ label ep213_dialogues_police13:
     overseer "Быстро одевайся!"
     overseer "Мистер Маркус ждет тебя!"
     m "Да сэр... Конечно..."
+    $ questHelp("marcus_19a", True)
     return
 
 # Моника писает
