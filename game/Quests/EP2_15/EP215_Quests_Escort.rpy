@@ -149,7 +149,7 @@ label ep215_quests_escort3_dating: # свидание
                         $ autorun_to_object("ep215_dialogues3_escort_16", scene="street_monica_office")
     $ ep215_quests_escort_completed_day = day
     $ questHelp("office_52", True)
-    $ questHelp("office_53")
+#    $ questHelp("office_53")
     $ add_hook("Teleport_Inside", "ep215_dialogues3_escort_24_block", scene="street_monica_office", label="evening_time_temp")
     call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_171
     return False

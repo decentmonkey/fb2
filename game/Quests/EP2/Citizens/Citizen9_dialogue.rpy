@@ -314,7 +314,7 @@ label citizen9_dialogue_pilon:
             if _return != False:
                 if citizen9BoobsNakedDancedCount >= 3:
                     $ questHelp("work_slums_43", True)
-                    $ questHelp("work_slums_52", skipIfExists=True)
+#                    $ questHelp("work_slums_52", skipIfExists=True)
                 $ citizen9BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

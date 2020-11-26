@@ -147,7 +147,7 @@ label ep215_quests_betty3_enter_door:
     else:
         $ ep215_quests_betty_visit2_completed_day = day
         $ questHelp("house_44", True)
-        $ questHelp("house_45")
+#        $ questHelp("house_45")
 
     # Бетти возвращается к Ральфу
     call ep215_dialogues2_betty_7() from _rcall_ep215_dialogues2_betty_7

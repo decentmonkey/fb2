@@ -111,7 +111,7 @@ label ep215_quests_pub3_molly3:
         $ monica_shiny_hole_queen_day = day
         call ep215_dialogues1_pub_11() from _rcall_ep215_dialogues1_pub_11
         $ questHelp("shinyhole_49", True)
-        $ questHelp("shinyhole_50")
+#        $ questHelp("shinyhole_50")
         $ questHelpDesc("shinyhole_desc12a", "shinyhole_desc16")
         $ set_active("Picture", False, scene="pub_makeuproom") # убираем старую картину
         call pub_makeuproom_init5() from _rcall_pub_makeuproom_init5 # инициализируем картину

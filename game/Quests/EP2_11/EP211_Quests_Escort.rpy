@@ -406,7 +406,7 @@ label ep211_quests_escort6_scene7:
     $ set_active("Visitor3", True, scene="rich_hotel_restaurant")
     call ep216_dialogues2_escort_2() from _rcall_ep216_dialogues2_escort_2
     $ questHelp("escort_13", True)
-    $ questHelp("escort_14", skipIfExists=True)
+#    $ questHelp("escort_14", skipIfExists=True)
     call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_17
 
     return False
