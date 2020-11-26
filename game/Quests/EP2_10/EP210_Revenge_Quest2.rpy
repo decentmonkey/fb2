@@ -45,15 +45,7 @@ label ep210_revenge_quest3_morning_comment:
     $ remove_hook()
     call ep210_dialogues6_gun_monica_fred_1b() from _call_ep210_dialogues6_gun_monica_fred_1b
 
-    python:
-        for category in questHelpData:
-            for idx in range(0, questHelpData[category]):
-                if questHelpData[category][idx][1] == 0:
-                    questHelpData[category][idx][1] = -1
-
-    $ questHelp("revenge_1", True)
-    $ questHelp("revenge_2", True)
-    $ questHelp("revenge_3", True)
+    $ questHelp("revenge_3a", True)
     $ questHelp("revenge_4")
     $ questHelpDesc("revenge_desc1")
 

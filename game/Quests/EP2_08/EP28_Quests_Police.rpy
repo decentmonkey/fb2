@@ -273,6 +273,7 @@ label ep28_quests_police_final_home:
     $ rain = False
     $ lightning = False
     $ ep28_quests_completed_day = day
+    $ questHelp("revenge_1")
     call ep29_revenge_quest1_init() from _call_ep29_revenge_quest1_init_1 # Запускаем проверку на revenge quest
     call basement_bedroom2_init2() from _call_basement_bedroom2_init2_1 # Оставляем в basement_bedroom2 анальную пробку
     sound chpok2

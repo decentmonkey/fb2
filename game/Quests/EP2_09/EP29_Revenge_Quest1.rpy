@@ -35,13 +35,14 @@ label ep29_revenge_quest1_check:
         call change_scene("basement_pool", "Fade_long", False) from _call_change_scene_470
         return
     if _return == 1: # Моника убежала
+        $ questHelp("revenge_1", False)
         $ ep29_revenge_quest_blocked = True # Блокируем квест
         $ questHelp("revenge_1", False)
         $ add_hook("enter_scene", "dialogue_classmate_15a", scene="basement_pool", once=True)
         call change_scene("basement_pool", "Fade_long", False) from _call_change_scene_471
         return
     $ questHelp("revenge_1", True)
-    $ questHelp("revenge_2")
+    $ questHelp("revenge_1a")
     $ ep29_revenge_quest_started = True
     $ add_hook("ButtPlug", "ep29_revenge_quest1_buttplug", scene="basement_bedroom2", label="revenge_quest_buttplug", quest="revenge_quest")
     return
@@ -50,7 +51,9 @@ label ep29_revenge_quest1_buttplug:
     if act=="l":
         return
     $ remove_hook()
+    $ questHelp("revenge_1a", True)
     call ep29_dialogues5_gun_monica_2() from _call_ep29_dialogues5_gun_monica_2
+    $ questHelp("revenge_2")
     $ add_objective("find_key", t_("Найти ключ от прикроватной тумбочки"), c_green, 120)
     # Инициализируем среду поиска ключа и открытого стола
     call locations_init_laundry_wash_machine() from _call_locations_init_laundry_wash_machine
@@ -176,8 +179,16 @@ label ep29_revenge_quest1_table_gun:
         return
     call ep29_dialogues5_gun_monica_10b() from _call_ep29_dialogues5_gun_monica_10b
     if _return == False:
+        $ questHelp("revenge_3", False)
         call refresh_scene_fade() from _call_refresh_scene_fade_232
         return False
+    python:
+        for categoryName in questHelpData:
+            if categoryName != t_("ПУТЬ МЕСТИ"):
+                questsFailByCategory(categoryName)
+    $ basementBedSkipUntilFridayEnabled = False
+    $ questHelp("revenge_3", True)
+    $ questHelp("revenge_3a")
     call ep210_revenge_quest2() from _rcall_ep210_revenge_quest2
     return False
 
@@ -185,6 +196,7 @@ label ep29_revenge_quest1_exit_nap: # Выход из квеста, через �
     call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a
     if _return == True:
         return False
+    $ questsFailByCategory(t_("ПУТЬ МЕСТИ"))
     $ remove_hook(quest="revenge_quest")
     $ remove_objective("find_key")
     $ remove_objective("open_table")
@@ -207,6 +219,7 @@ label ep29_revenge_quest1_exit_outside:
     call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_1
     if _return == True:
         return False
+    $ questsFailByCategory(t_("ПУТЬ МЕСТИ"))
     $ remove_hook(quest="revenge_quest")
     $ remove_objective("find_key")
     $ remove_objective("open_table")
@@ -229,6 +242,7 @@ label ep29_revenge_quest1_exit_map:
         call ep29_dialogues5_gun_monica_4a() from _call_ep29_dialogues5_gun_monica_4a_2
         if _return == True:
             return False
+        $ questsFailByCategory(t_("ПУТЬ МЕСТИ"))
         $ remove_hook(quest="revenge_quest")
         $ remove_objective("find_key")
         $ remove_objective("open_table")
