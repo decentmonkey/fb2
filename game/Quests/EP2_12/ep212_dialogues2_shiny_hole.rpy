@@ -1002,6 +1002,7 @@ label ep212_dialogues2_shiny_hole_2:
 # если Моника в другой день работает официанткой и подходит к этому клиенту и приват с ним уже был
 label ep212_dialogues2_shiny_hole_3:
     # использовать имеющиеся арты
+    $ questHelp("shinyhole_58a", True)
     music Hidden_Agenda
     sound highheels_short_walk
     img 14261

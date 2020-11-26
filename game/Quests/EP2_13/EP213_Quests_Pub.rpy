@@ -224,5 +224,6 @@ label ep213_quests_pub_private2_1:
     $ pubPrivate2Count += 1
 
     $ customer9_after_private = True
+    $ questHelp("shinyhole_58b", skipIfExists=True)
     call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_19
     return

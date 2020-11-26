@@ -105,6 +105,7 @@ label ep215_quests_pub3_molly3:
             call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_21
             return False
 
+        $ questsFailByCategory(t_("SHINY HOLE"))
         $ questHelp("shinyhole_48", True)
         $ questHelp("shinyhole_49", skipIfExists=True)
         $ ep215_quests_vest_only_active = False

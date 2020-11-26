@@ -61,6 +61,7 @@ label ep212_quests_pub_private1_1: # Приват 1
         $ questHelpDesc("shinyhole_desc10a", "shinyhole_desc10b")
 
     $ customer3_after_private = True
+    $ questHelp("shinyhole_58a", skipIfExists=True)
     call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_16
     return
 
