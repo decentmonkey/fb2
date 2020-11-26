@@ -122,6 +122,8 @@ label ep215_quests_pub3_molly3:
         $ questHelpDesc("shinyhole_desc8", False)
         $ questHelpDesc("shinyhole_desc10b", False)
 
+        $ questHelp("shinyhole_58")
+
         $ set_active("Picture", False, scene="pub_makeuproom") # убираем старую картину
         call pub_makeuproom_init5() from _rcall_pub_makeuproom_init5 # инициализируем картину
         $ remove_objective("go_dance")

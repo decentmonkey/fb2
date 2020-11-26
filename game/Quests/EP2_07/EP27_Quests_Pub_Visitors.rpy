@@ -11,6 +11,8 @@ default pubQueenCustomer10Count = 0
 default pubQueenCustomer11Count = 0
 default pubQueenCustomer12Count = 0
 
+default pubCustomersQueenList = []
+
 label ep27_pub_visitors_init:
     if get_pub_visitor_visits("Pub_Visitor9") > 0:
         $ pubVisitor9Suffix = "_Food"
@@ -37,6 +39,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer1_afterbattle() from _rcall_customer1_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_1")
                 if _return == True:
                     $ pubVisitor1Suffix = "_Food"
             else:
@@ -52,6 +55,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer2_afterbattle() from _rcall_customer2_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_2")
                 $ pubVisitor2Suffix = "_Food"
             else:
                 call customer2_serve1() from _call_customer2_serve1
@@ -61,6 +65,7 @@ label ep27_pub_visitors_click:
     if obj_name == "Pub_Visitor3":
         if monica_shiny_hole_queen_day > 0:
             call customer3_afterbattle() from _rcall_customer3_afterbattle
+            $ pubCustomersQueenList.append("shinyhole_58_3")
             $ pubVisitor3Suffix = "_Food"
         else:
             if customer3_after_private == True:
@@ -87,6 +92,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer4_afterbattle() from _rcall_customer4_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_4")
                 $ pubVisitor4Suffix = "_Food"
             else:
                 call customer4_serve1() from _call_customer4_serve1
@@ -100,6 +106,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer5_afterbattle() from _rcall_customer5_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_5")
                 $ pubVisitor5Suffix = "_Food"
             else:
                 call customer5_serve1() from _call_customer5_serve1
@@ -119,6 +126,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer78_afterbattle() from _rcall_customer78_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_7")
                 $ pubVisitor7Suffix = "_Food"
                 $ pubVisitor8Suffix = "_Food"
             else:
@@ -134,6 +142,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer9_afterbattle() from _rcall_customer9_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_9")
                 $ autorun_to_object("customer9_afterserve2", scene=scene_name)
             else:
                 call customer9_serve1() from _call_customer9_serve1
@@ -149,6 +158,7 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer10_afterbattle() from _rcall_customer10_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_10")
 #                $ pubVisitor10Suffix = "_Food"
             else:
                 call customer10_serve1() from _call_customer10_serve1
@@ -157,6 +167,7 @@ label ep27_pub_visitors_click:
     if obj_name == "Pub_Visitor11":
         if monica_shiny_hole_queen_day > 0:
             call customer11_afterbattle() from _rcall_customer11_afterbattle
+            $ pubCustomersQueenList.append("shinyhole_58_11")
             if _return != False:
                 $ pubVisitor11Suffix = "_Food"
         else:
@@ -168,12 +179,16 @@ label ep27_pub_visitors_click:
         if visitsCount > 0:
             if monica_shiny_hole_queen_day > 0:
                 call customer12_afterbattle() from _rcall_customer12_afterbattle
+                $ pubCustomersQueenList.append("shinyhole_58_12")
             else:
                 call customer12_serve1() from _call_customer12_serve1
             $ pubVisitor12Suffix = "_Food"
         $ autorun_to_object("customer12_afterserve1", scene=scene_name)
         pass
 
+    $ pubCustomersQueenList = set(pubCustomersQueenList)
+    if len(pubCustomersQueenList) >= 10:
+        $ questHelp("shinyhole_58", True)
     $ pubMonicaWaitressVisitorsServed.append(obj_name)
     $ increment_pub_visitor_visits(obj_name)
     $ pubMonicaWaitressServedCustomersToday += 1
