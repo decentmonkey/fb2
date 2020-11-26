@@ -2124,6 +2124,7 @@ label dialogue_5_dance_strip_22:
         with fade
         ashley "Завтра приходи работать еще."
 
+    $ questHelp("shinyhole_19", True)
 #    if ep211_quests_pub_dialogue1_planned == True:
 #        call ep211_quests_pub5()
 #        $ ep211_quests_pub_dialogue1_planned = False
@@ -2350,7 +2351,7 @@ label dialogue_5_dance_strip_29:
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
+        "Костюм для сцены (без жилета)" if stage_dance_nude_planned == True and ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
             if pubDanceCount < monicaDanceAmountToTopless or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
@@ -2369,7 +2370,7 @@ label dialogue_5_dance_strip_29b:
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
+        "Костюм для сцены (без жилета)" if stage_dance_nude_planned == True and ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
             if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."

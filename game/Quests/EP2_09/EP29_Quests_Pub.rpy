@@ -17,6 +17,16 @@ label ep29_quests_pub1_dance_agree:
         call refresh_scene_fade() from _call_refresh_scene_fade_212
         return
 
+    $ questsFailByCategory(t_("SHINY HOLE"))
+    $ questHelp("shinyhole_9", True)
+    $ questHelp("shinyhole_10")
+    $ questHelpDesc("shinyhole_desc1", False)
+    $ questHelpDesc("shinyhole_desc2", False)
+    $ questHelpDesc("shinyhole_desc3", False)
+    $ questHelpDesc("shinyhole_desc4", False)
+    $ questHelpDesc("shinyhole_desc5", False)
+    $ questHelpDesc("shinyhole_desc6", False)
+    $ questHelpDesc("shinyhole_desc7")
     $ monica_strip_forgiveness_money_left = 500
     $ add_objective("go_to_makeuproom", t_("Идти в гримерку, чтобы подготовиться к выступлению на сцене."), c_orange, 100)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
@@ -170,9 +180,6 @@ label ep29_quests_pub1_day2_ashley2: # Эшли встречает Монику,
     if _return == 0:
         call refresh_scene_fade() from _call_refresh_scene_fade_220
         return False
-    $ questHelp("shinyhole_9", True)
-    $ questHelp("shinyhole_10")
-    $ questHelpDesc("shinyhole_desc7")
     $ add_objective("go_to_makeuproom", t_("Идти в гримерку, чтобы подготовиться к выступлению на сцене."), c_orange, 110)
     $ add_hook("Bartender", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
     $ add_hook("Bartender_Waitress", "dialogue_5_dance_strip_4na", scene="pub", label="monica_dance_block", quest="monica_dance_forgiveness")
@@ -309,7 +316,7 @@ label ep29_quests_pub1_day2_ashley4: # Эшли забирает у Моники
             $ questHelp("shinyhole_17", True)
             $ questHelp("shinyhole_19", skipIfExists=True)
             $ questHelpDesc("shinyhole_desc7", "shinyhole_desc10")
-            
+
             $ ep29_quests_pub_forgiveness_dancing_enabled = False
             $ ep29_quests_pub_forgiveness_dancing_quest_in_progress = False
             $ monica_shared_tips_with_ashley_last_day = day

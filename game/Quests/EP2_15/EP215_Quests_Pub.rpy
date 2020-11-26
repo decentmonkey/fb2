@@ -50,6 +50,7 @@ label ep215_quests_pub3_molly2:
     call ep215_dialogues1_pub_3() from _rcall_ep215_dialogues1_pub_3 # предложение баттла
     if _return == False:
         $ pub_makeuproom_monica_suffix = 2
+        $ questHelp("shinyhole_46", False)
         return False
     # баттл
     $ remove_hook()
@@ -78,30 +79,34 @@ label ep215_quests_pub3_molly3:
         return
     call ep215_dialogues1_pub_9() from _rcall_ep215_dialogues1_pub_9
     if _return == False:
+        $ questHelp("shinyhole_47", False)
         return
     # драка
     $ ep215_quests_molly_monica_fight_day = day
     call ep215_dialogues1_pub_9_loop1() from _rcall_ep215_dialogues1_pub_9_loop1
     if _return == 0: # уйти
+        $ questHelp("shinyhole_47", False)
         return
+    $ questHelp("shinyhole_47", True)
     if _return == -2: # Моника отказалась на второй баттл
+        $ questHelp("shinyhole_48", False)
         sound snd_fabric1
         fadeblack 2.0
         $ move_object("Pub_StripteaseGirl1", "empty")
         return
     if _return == 1: # второй баттл
-        $ questHelp("shinyhole_47", True)
-        $ questHelp("shinyhole_48")
         $ monicaDancedLastDay = day
         $ move_object("Pub_StripteaseGirl1", "empty")
-        $ questHelp("shinyhole_48", True)
-        $ questHelp("shinyhole_49", skipIfExists=True)
         call ep215_dialogues1_pub_10() from _rcall_ep215_dialogues1_pub_10
+        $ questHelp("shinyhole_48", True)
         if _return == False:
+            $ questHelp("shinyhole_49", False)
             $ pub_makeuproom_monica_suffix = 2
             call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_21
             return False
 
+        $ questHelp("shinyhole_48", True)
+        $ questHelp("shinyhole_49", skipIfExists=True)
         $ ep215_quests_vest_only_active = False
         $ remove_hook(label="ep215_quests_pub3_molly3")
         # Моника королева Shiny Hole
@@ -111,8 +116,12 @@ label ep215_quests_pub3_molly3:
         $ monica_shiny_hole_queen_day = day
         call ep215_dialogues1_pub_11() from _rcall_ep215_dialogues1_pub_11
         $ questHelp("shinyhole_49", True)
+        $ questHelp("shinyhole_49a")
 #        $ questHelp("shinyhole_50")
         $ questHelpDesc("shinyhole_desc12a", "shinyhole_desc16")
+        $ questHelpDesc("shinyhole_desc8", False)
+        $ questHelpDesc("shinyhole_desc10b", False)
+
         $ set_active("Picture", False, scene="pub_makeuproom") # убираем старую картину
         call pub_makeuproom_init5() from _rcall_pub_makeuproom_init5 # инициализируем картину
         $ remove_objective("go_dance")
@@ -133,6 +142,7 @@ label ep215_quests_pub4_claire:
         $ cloth = "Whore"
         $ cloth_type = "Whore"
     call ep215_dialogues1_pub_13() from _rcall_ep215_dialogues1_pub_13
+    $ questHelp("shinyhole_49a", True)
     return False
 
 

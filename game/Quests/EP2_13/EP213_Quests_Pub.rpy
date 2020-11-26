@@ -10,6 +10,7 @@ default ep213_quests_pub10_molly_complete = False
 
 label ep213_quests_pub1:
     if ep29_quests_dancing_with_claire_last_day > 0 and pubPrivate1Count > 0: # при условии, что были приваты перед банкиром и клиентом паба и Моника хотя бы раз станцевала в паре с Клэр
+        $ questHelp("shinyhole_32", skipIfExists=True)
         $ add_hook("before_open", "ep213_quests_pub2", scene="pub_makeuproom", label="ep213_pub")
         $ ep213_quests_pub1_inited = True
     return
@@ -30,6 +31,7 @@ label ep213_quests_pub2: # Моника приходит на работу в п
         return False
     $ questHelp("shinyhole_32", True)
     $ questHelp("shinyhole_34", skipIfExists=True)
+    $ questHelpDesc("shinyhole_desc12", False)
     $ remove_hook(label="ep213_pub")
     $ add_hook("Pub_StripteaseGirl1", "ep213_quests_pub3_molly_refuse", scene="pub_makeuproom", label="ep213_pub")
     $ add_hook("Teleport_Pub", "ep213_quests_pub4", scene="pub_makeuproom", label="ep213_pub")
@@ -52,6 +54,7 @@ label ep213_quests_pub4: # гримерка, в этот же день посл�
         return
     call ep213_dialogues3_pub_3() from _rcall_ep213_dialogues3_pub_3
     if _return == False:
+        $ questHelp("shinyhole_34", False)
         return
     $ remove_hook(label="ep213_pub")
     call pub_makeuproom_init4() from _rcall_pub_makeuproom_init4 # инициализируем чаевые
@@ -65,6 +68,8 @@ label ep213_quests_pub5_tips:
     if act=="l":
         call ep213_dialogues3_pub_3a() from _rcall_ep213_dialogues3_pub_3a
         return False
+    $ questHelp("shinyhole_34", True)
+    $ questHelp("shinyhole_34a", skipIfExists=True)
     $ ep213_quests_stole_tips_count +=1
     if ep213_quests_stole_tips_count == 1: # воруем первый раз
         $ remove_hook(label="ep213_pub_block")
@@ -77,6 +82,8 @@ label ep213_quests_pub5_tips:
         call change_scene("pub_makeuproom") from _rcall_change_scene_119
         return False
     if ep213_quests_stole_tips_count == 2:
+        $ questHelp("shinyhole_34a", True)
+        $ questHelp("shinyhole_36", skipIfExists=True)
         if cloth_type != "Whore":
             sound snd_fabric1
             fadeblack 2.0
@@ -101,7 +108,6 @@ label ep213_quests_pub5_tips:
             call refresh_scene_fade() from _rcall_refresh_scene_fade_89
             return False
 
-        $ questHelp("shinyhole_34", True)
         $ questHelp("shinyhole_36", True)
         $ questHelp("shinyhole_43", skipIfExists=True)
 
@@ -136,6 +142,7 @@ label ep213_quests_pub7_molly_punishment: # Моника разговарива�
         return
     call ep213_dialogues3_pub_6() from _rcall_ep213_dialogues3_pub_6
     if _return == 0: # отказалась мириться
+        $ questHelp("shinyhole_43", False)
         call refresh_scene_fade() from _rcall_refresh_scene_fade_92
         return False
     if _return == 1: # увольнение
@@ -166,6 +173,11 @@ label ep213_quests_pub9_claire: # разговор с Клэр после тан
     $ remove_hook()
     call ep213_dialogues3_pub_13() from _rcall_ep213_dialogues3_pub_13
     $ ep213_quests_pub9_claire_complete = True
+    $ questHelp("shinyhole_44c", True)
+    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0 or ep213_quests_pub10_molly_complete == False or ep213_quests_pub9_claire_complete == False:
+        pass
+    else:
+        $ questHelp("shinyhole_37", skipIfExists=True)
     $ add_char_progress("Pub_StripteaseGirl2", 25, "molly_punishment_nude_claire_help_offer")
     call refresh_scene_fade() from _rcall_refresh_scene_fade_94
     return False
@@ -176,6 +188,12 @@ label ep213_quests_pub10_molly: # разговор с Молли после та
     $ remove_hook()
     call ep213_dialogues3_pub_14() from _rcall_ep213_dialogues3_pub_14
     $ ep213_quests_pub10_molly_complete = True
+    $ questHelp("shinyhole_44b", True)
+    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0 or ep213_quests_pub10_molly_complete == False or ep213_quests_pub9_claire_complete == False:
+        pass
+    else:
+        $ questHelp("shinyhole_37", skipIfExists=True)
+        $ ep214_quests_activated_alt_day = day
     if _return == False: # увольнение
         call ep211_quests_pub3_fired() from _rcall_ep211_quests_pub3_fired_5
         return False
@@ -197,6 +215,12 @@ label ep213_quests_pub_private2_1:
         call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_18
         return
     $ questHelp("shinyhole_35", True)
+
+    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0 or ep213_quests_pub10_molly_complete == False or ep213_quests_pub9_claire_complete == False:
+        pass
+    else:
+        $ questHelp("shinyhole_37", skipIfExists=True)
+        $ ep214_quests_activated_alt_day = day
     $ pubPrivate2Count += 1
 
     $ customer9_after_private = True

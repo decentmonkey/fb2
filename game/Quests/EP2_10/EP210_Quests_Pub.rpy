@@ -118,6 +118,7 @@ label ep210_quests_pub4_molly_photo2: # Действие с фото Молли
 
             call ep210_dialogues4_dance_strip_5() from _call_ep210_dialogues4_dance_strip_5
             if _return == False:
+                $ questHelp("shinyhole_25", False)
                 return False
             $ questHelp("shinyhole_25", True)
 
@@ -199,6 +200,7 @@ label ep210_quests_pub6_ashley: # Эшли встречает Монику по�
     if cloth == "Whore":
         $ remove_hook()
         call ep210_dialogues4_dance_strip_10() from _call_ep210_dialogues4_dance_strip_10
+        $ questHelpDesc("shinyhole_desc11", False)
         $ ep29_quests_monica_molly_fine = False
         $ ep29_quests_monica_molly_was_fine = True
         $ monica_shared_tips_with_ashley_last_day = day

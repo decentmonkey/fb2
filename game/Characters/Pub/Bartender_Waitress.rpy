@@ -2,7 +2,7 @@ label bartenderWaitressProgressLevelUp:
     $ char_data["level"] = char_data["level"] + 1
     if char_data["level"] == 2:
         $ questHelp("shinyhole_2", True)
-        $ questHelp("shinyhole_4")
+        $ questHelp("shinyhole_4", skipIfExists=True)
         $ questHelpDesc("shinyhole_desc1", False)
         $ questHelpDesc("shinyhole_desc2")
         $ char_data["caption"] = t_("Жена бармена. Лапает меня, пока Джо не видит.")

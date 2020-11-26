@@ -25,6 +25,7 @@ label ep22_quests_pub_punishment_joe:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_355
             return False
         $ pubMonicaWaitressTipsPunishmentJoeStage = 1
+        $ questHelp("shinyhole_8", True)
         $ add_char_progress("Bartender", monicaTipsPunishmentJoeProgress, "monicaTipsPunishmentJoeProgress1")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive
         call ep27_dialogues7_pub14() from _call_ep27_dialogues7_pub14
@@ -35,6 +36,7 @@ label ep22_quests_pub_punishment_joe:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_356
             return False
+        $ questHelp("shinyhole_8a", True)
         $ pubMonicaWaitressTipsPunishmentJoeStage = 2
         $ add_char_progress("Bartender", monicaTipsPunishmentJoeProgress, "monicaTipsPunishmentJoeProgress2")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_1
@@ -46,7 +48,7 @@ label ep22_quests_pub_punishment_joe:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_357
             return False
-        $ questHelp("shinyhole_8", True)
+        $ questHelp("shinyhole_8b", True)
         $ pubMonicaWaitressTipsPunishmentJoeStage = 3
         $ add_char_progress("Bartender", monicaTipsPunishmentJoeProgress, "monicaTipsPunishmentJoeProgress3")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_2
@@ -58,6 +60,7 @@ label ep22_quests_pub_punishment_joe:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_358
             return False
+        $ questHelp("shinyhole_8c", True)
         $ pubMonicaWaitressTipsPunishmentJoeStage = 4
         $ add_char_progress("Bartender", monicaTipsPunishmentJoeProgress, "monicaTipsPunishmentJoeProgress4")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_3
@@ -92,6 +95,7 @@ label ep22_quests_pub_punishment_ashley:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_359
             return False
+        $ questHelp("shinyhole_7", True)
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 1
         $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress1")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_4
@@ -103,6 +107,7 @@ label ep22_quests_pub_punishment_ashley:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_360
             return False
+        $ questHelp("shinyhole_7a", True)
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 2
         $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress2")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_5
@@ -114,7 +119,7 @@ label ep22_quests_pub_punishment_ashley:
         if _return == False:
             call change_scene("hostel_street", "Fade_long") from _call_change_scene_361
             return False
-        $ questHelp("shinyhole_7")
+        $ questHelp("shinyhole_7b", True)
         $ pubMonicaWaitressTipsPunishmentAshleyStage = 3
         $ add_char_progress("Bartender_Waitress", monicaTipsPunishmentAshleyProgress, "monicaTipsPunishmentAshleyProgress3")
         call ep27_quests_pub_work7_tips_punishment_forgive() from _call_ep27_quests_pub_work7_tips_punishment_forgive_6

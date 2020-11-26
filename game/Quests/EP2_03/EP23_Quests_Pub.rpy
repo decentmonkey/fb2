@@ -156,7 +156,6 @@ label ep23_quests_pub6_dishes_bartender_waitress: # Клик на Барменш
     call pub_bar1_environment() from _call_pub_bar1_environment_1
     call ep23_dialogues1_4a2() from _call_ep23_dialogues1_4a2_2
     call ep23_dialogues1_4c() from _call_ep23_dialogues1_4c
-    $ questHelp("shinyhole_2", True)
     
     call ep23_dialogues1_5() from _call_ep23_dialogues1_5_2
     call monicaEat() from _call_monicaEat_10

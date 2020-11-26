@@ -23,6 +23,7 @@ label ep212_quests_pub_menu_private: # Меню приватов
         $ pub_makeuproom_monica_suffix = 2
         call ep212_dialogues2_shiny_hole_1() from _rcall_ep212_dialogues2_shiny_hole_1
         if _return == False:
+            $ questHelp("shinyhole_33", False, skipIfTrue=True)
             return
         $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)
         $ add_hook("Teleport_Pub", "ep212_quests_pub_private1_1", scene="pub_makeuproom", label="pub_private_dance1", priority = 10001)
@@ -32,6 +33,7 @@ label ep212_quests_pub_menu_private: # Меню приватов
         $ pub_makeuproom_monica_suffix = 2
         call ep213_dialogues3_pub_15() from _rcall_ep213_dialogues3_pub_15
         if _return == False:
+            $ questHelp("shinyhole_35", False, skipIfTrue=True)
             return
         $ pub_makeuproom_monica_suffix = 2
         $ add_objective("go_dance_private", t_("Идти в подсобку барменов и станцевать приват."), c_orange, 105)

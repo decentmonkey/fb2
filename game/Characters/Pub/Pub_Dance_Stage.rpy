@@ -696,7 +696,10 @@ label pub_dance1_stage_start1_topless:
     $ questHelp("shinyhole_44", True)
     if questHelpFlag15 == False:
         $ questHelpFlag15 = True
-        $ questHelp("shinyhole_42")
+#        $ questHelp("shinyhole_42")
+        $ questHelp("shinyhole_44a", skipIfExists=True)
+        $ questHelp("shinyhole_44b")
+        $ questHelp("shinyhole_44c")
         $ questHelpDesc("shinyhole_desc12", "shinyhole_desc12a")
 
     $ stage_dance_nude_last_day = day
@@ -1135,12 +1138,12 @@ label pub_dance1_stage_end:
         for movement in stage_achievements_list:
             check_achievement(movement)
 
-    if len(list(set(shootsArr))) >= 27:
+    if len(list(set(stage_Monica_shoots_array))) >= 27:
         $ questHelp("shinyhole_16", True)
         $ questHelp("shinyhole_23", skipIfExists=True)
-    if len(list(set(shootsArr))) >= 51:
+    if len(list(set(stage_Monica_shoots_array))) >= 51:
         $ questHelp("shinyhole_24", True)
-    if len(list(set(shootsArr))) >= 76:
+    if len(list(set(stage_Monica_shoots_array))) >= 76:
         $ questHelp("shinyhole_44a", True)
     pause 1.0
     $ stage_Monica_last_shoots_array = stage_Monica_shoots_array_current

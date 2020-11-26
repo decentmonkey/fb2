@@ -18,7 +18,7 @@ label ep27_quests_pub_work1: # Моника спрашивает о повыше
     call ep27_dialogues7_pub1() from _call_ep27_dialogues7_pub1
     music2 stop
     if _return == False or _return == -1:
-        $ questHelp("shinyhole_4", False)
+#        $ questHelp("shinyhole_4", False)
         call change_scene("hostel_street", "Fade_long") from _call_change_scene_366
         return False
     # Моника принята на работу официанткой
@@ -84,6 +84,21 @@ label ep27_quests_pub_work3_exit: # Моника пытается выйти и�
         $ autorun_to_object("ep27_dialogues7_pub6a", scene="hostel_street")
     $ questHelp("shinyhole_6", True)
 
+    if pubMonicaWaitressTipsPunishmentJoeStage == 0:
+        $ questHelp("shinyhole_8", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentJoeStage == 1:
+        $ questHelp("shinyhole_8", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentJoeStage == 2:
+        $ questHelp("shinyhole_8", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentJoeStage == 3:
+        $ questHelp("shinyhole_8", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentAshleyStage == 0:
+        $ questHelp("shinyhole_7", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentAshleyStage == 1:
+        $ questHelp("shinyhole_7a", skipIfExists=True)
+    if pubMonicaWaitressTipsPunishmentAshleyStage == 2:
+        $ questHelp("shinyhole_7b", skipIfExists=True)
+
     $ add_hook("Teleport_Hostel_Pub", "ep27_dialogues7_pub6a", scene="hostel_street", label="evening_time_temp")
     $ add_hook("Bartender", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
     $ add_hook("Bartender_Waitress", "ep27_quests_pub_work6_tips_punishment", scene="pub", label="working_waitress_tips_punishment1")
@@ -116,7 +131,6 @@ label ep27_quests_pub_work4: # Клик на барменов
 label ep27_quests_pub_work5:
     $ questHelp("shinyhole_5", True)
     $ questHelp("shinyhole_6", skipIfExists=True)
-    $ questHelp("flat_slums_1", skipIfExists=True)
 
     # Заканчиваем работу
     $ pubMonicaWorkingWaitressShiftInProgress = False

@@ -3,9 +3,11 @@ default ep214_quests_poster_day = 0
 default ep214_quests_claire_visited_monica_office1_day = 0
 default ep214_quests_claire_show1_day = 0
 default ep214_quests_claire_talkafter_show1_day = 0
+default ep214_quests_activated_alt_day = 0
+
 label ep214_quests_pub1_check_init:
     # проверка на инициализацию
-    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0:
+    if pubPrivate2Count < 1 or ep214_quests_pub1_check_inited_flag == True or dancePrivateLastDay == day or monicaDancedLastDay == day or ep211_quests_photoshot8_opened_day == 0 or ep213_quests_pub10_molly_complete == False or ep213_quests_pub9_claire_complete == False or ep214_quests_activated_alt_day == day:
         return
     $ ep214_quests_pub1_check_inited_flag = True
     call ep214_quests_pub2_enter_scene() from _rcall_ep214_quests_pub2_enter_scene
@@ -22,6 +24,8 @@ label ep214_quests_pub2_enter_scene:
     $ add_hook("Poster1", "ep214_dialogues1_pub_1a", scene="pub", label="pub_poster1")
     $ move_object("Bartender_Waitress", "empty")
     $ add_hook("before_open", "ep214_quests_pub3_makeuproom", scene="pub_makeuproom", label="pub_poster1", priority=10000)
+    $ questHelp("shinyhole_37", True)
+    $ questHelp("shinyhole_37a")
     $ ep214_quests_poster_day = day
 #    call pub_dance_start_direct()
     $ set_active("Teleport_Pub_MakeupRoom", True, scene="pub")
@@ -40,7 +44,7 @@ label ep214_quests_pub3_makeuproom: # разговор с Эшли в гриме
     $ add_talk("Pub_StripteaseGirl2", "ep214_quests_pub4_claire", scene="pub_makeuproom", label="pub_poster1")
     $ add_objective("talk_claire", t_("Поговорить с Клэр о требовании Эшли"), c_orange, 125)
     call ep214_dialogues1_pub_2() from _rcall_ep214_dialogues1_pub_2
-    $ questHelp("shinyhole_37", True)
+    $ questHelp("shinyhole_37a", True)
     $ questHelp("shinyhole_38")
     call change_scene("pub", "Fade_long") from _rcall_change_scene_136
     return
@@ -121,6 +125,8 @@ label ep214_quests_pub8:
         return False
     $ questHelp("shinyhole_40", True)
     $ questHelp("shinyhole_41", True)
+    $ questHelp("shinyhole_41a", skipIfTrue=True)
+    $ questHelp("shinyhole_42", skipIfTrue=True)
     $ ep214_quests_claire_show1_day = day
 
     $ enter_scene("ep214_dialogues1_pub_16", label="pub_poster1", once=True)
@@ -138,6 +144,7 @@ label ep214_quests_pub9_claire: # разговор с Клэр после сце
         $ cloth = "Whore"
         $ cloth_type = "Whore"
     call ep214_dialogues1_pub_15() from _rcall_ep214_dialogues1_pub_15
+    $ questHelp("shinyhole_41a", True)
     $ ep214_quests_claire_talkafter_show1_day = day
     return False
 

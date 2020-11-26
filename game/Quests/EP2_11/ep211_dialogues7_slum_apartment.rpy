@@ -60,6 +60,7 @@ label check_skip_scene(skip_scene_check_name):
 # улица Хостела, рядом с пабом, после работы
 label ep211_dialogues6_slum_apartment_1:
     # Моника стоит на улице
+    $ questHelp("flat_slums_1", skipIfExists=True)
     mt "Каждый раз, когда прихожу сюда..."
     mt "Боюсь, что встречу ту кошмарную лесбиянку."
     mt "Как вспомню этот ужас в хостеле..."
