@@ -99,6 +99,18 @@ init python:
                     if questHelpData[questCategory][idx][0] == questHelpName:
                         return
 
+        if kwargs.has_key("skipIfTrue"):
+            if kwargs["skipIfTrue"] == True:
+                for idx in range(0, len(questHelpData[questCategory])):
+                    if questHelpData[questCategory][idx][0] == questHelpName and questHelpData[questCategory][idx][0] == 1:
+                        return
+
+        if kwargs.has_key("skipIfFalse"):
+            if kwargs["skipIfFalse"] == True:
+                for idx in range(0, len(questHelpData[questCategory])):
+                    if questHelpData[questCategory][idx][0] == questHelpName and questHelpData[questCategory][idx][0] == -1:
+                        return
+
         for idx in range(0, len(questHelpData[questCategory])):
             if questHelpData[questCategory][idx][0] == questHelpName:
                 if day > 0 and questHelpData[questCategory][idx][1] != status:
@@ -130,6 +142,11 @@ init python:
                 if questHelpData[questCategory][idx][0] == questName:
                     del questHelpData[questCategory][idx]
         return
+
+    def questsCompleteByCategory(questCategory):
+        for idx in range(len(questHelpData[questCategory])-1, -1, -1):
+            if questHelpData[questCategory][idx][1] == 0:
+                questHelpData[questCategory][idx][1] = 1
 
     def questsFailByCategory(questCategory):
         for idx in range(len(questHelpData[questCategory])-1, -1, -1):

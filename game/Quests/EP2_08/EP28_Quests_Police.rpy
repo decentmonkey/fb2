@@ -15,6 +15,7 @@ default moneyStored = 0
 label ep28_quests_police1:
     # Инициализация
     call ep28_dialogues_jail1() from _call_ep28_dialogues_jail1
+    $ questHelp("marcus_4")
     $ moneyStored = money
     $ money = 0 # отбираем деньги
     $ add_hook("Sortir", "ep28_quests_police1_sortir", scene="police_cell1", label="cell_sortir") # туалет
@@ -85,11 +86,13 @@ label ep28_quests_police_day1_bed2: # Моника ложится спать д�
     if _return == False:
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_29
         return False
+    $ questHelp("marcus_4", True)
     call ep28_dialogues_jail6() from _call_ep28_dialogues_jail6
     call ep28_dialogues_jail7() from _call_ep28_dialogues_jail7
     $ day = day + 1
     $ remove_hook(label="cage_day1")
     $ remove_hook(label="cell_bed_day1")
+    $ questHelp("marcus_5")
 
     $ add_hook("cage_interact", "ep28_quests_police_day2_cage1", scene="police", label="cage_day2")
     call change_scene("police_cell1", "Fade_long", False) from _call_change_scene_415
@@ -140,8 +143,10 @@ label ep28_quests_police_day2_bed2: # Кровать день2, после за�
         call refresh_scene_fade_long() from _call_refresh_scene_fade_long_31
         return False
 
+    $ questHelp("marcus_5", True)
     call ep28_dialogues_jail10() from _call_ep28_dialogues_jail10
 
+    $ questHelp("marcus_7")
     $ day = day + 1
     call ep28_dialogues_jail11() from _call_ep28_dialogues_jail11
     $ remove_hook(label="cage_day2")
@@ -193,9 +198,12 @@ label ep28_quests_police_day3_bed1: # Ден3, кровать, приход за
 label ep28_quests_police_day3_bed2: #День3, кровать, сон
     if act=="l":
         return
+    $ questHelp("marcus_7", True)
     call ep28_dialogues_jail15() from _call_ep28_dialogues_jail15
     $ day = day + 1
     call ep28_dialogues_jail16() from _call_ep28_dialogues_jail16
+    $ questHelp("marcus_9")
+    $ questHelp("marcus_10")
     $ remove_hook(label="cage_day3")
     $ add_hook("cage_interact", "ep28_quests_police_day4_cage1", scene="police", label="cage_day3")
     call change_scene("police_cell2", "Fade_long") from _call_change_scene_421
@@ -219,11 +227,7 @@ label ep28_quests_police_final: # Завершение тюремного кве
     # Разговор с Маркусом
     call ep28_dialogues_jail2_marcus1() from _call_ep28_dialogues_jail2_marcus1
     call ep28_dialogues_jail2_marcus2() from _call_ep28_dialogues_jail2_marcus2
-    $ questHelp("marcus_10", True)
-    $ questHelp("marcus_11")
-    $ questHelp("revenge_1")
-    $ questHelpDesc("marcus_desc2", "marcus_desc3")
-    
+
     $ cloth = "CasualDress1"
     $ cloth_type = "CasualDress"
     $ changeDayTime("evening")
@@ -236,6 +240,14 @@ label ep28_quests_police_final: # Завершение тюремного кве
 
     $ add_money(moneyStored)
     $ define_inventory_object("butt_plug", {"description" : t_("Анальная пробка"), "label_suffix" : "_use_butt_plug", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/butt_plug" + res.suffix + ".png"})
+
+    $ questsCompleteByCategory(t_("МАРКУС"))
+    $ questHelp("marcus_1", True)
+    $ questHelp("marcus_9", True)
+    $ questHelp("marcus_10", True)
+    $ questHelp("marcus_11")
+    $ questHelpDesc("marcus_desc2", "marcus_desc3")
+
     $ questLog(54, False)
     $ questLog(56, True)
     $ add_inventory("butt_plug", 1, True)
@@ -244,6 +256,7 @@ label ep28_quests_police_final: # Завершение тюремного кве
 
     if monicaWorkFlashCardQuestActive == True:
         $ add_inventory("flash_card", 1, True)
+
 
 
     music stop

@@ -437,9 +437,7 @@ label ep28_dialogues_jail4:
 # Если поставить на место, то Моника говорит чтобы они заткнулись!
 # Они сами нарушают правила тем, что заключают сделки с надзирателем.
 # Гуляют здесь без разрешения администрации.
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners
             return False
 
@@ -561,9 +559,7 @@ label ep28_dialogues_jail4:
         "Извиниться перед заключенными.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_1
             return False
 
@@ -638,9 +634,7 @@ label ep28_dialogues_jail4:
         "Показать грудь.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_2
             return False
 
@@ -709,9 +703,7 @@ label ep28_dialogues_jail4:
         "Показать свою киску.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_3
             return False
 
@@ -778,9 +770,7 @@ label ep28_dialogues_jail4:
         "Попросить разрешение показать свою попу.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_4
             return False
 
@@ -971,9 +961,7 @@ label ep28_dialogues_jail4:
         "Подойти к заключенным.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_5
             return False
 
@@ -1035,9 +1023,7 @@ label ep28_dialogues_jail4:
             m "Только попробуйте еще раз приблизиться ко мне, ничтожества!"
             m "И я оторву ваши яйца и заставлю сожрать их!!!"
             $ ep28_quests_monica_kicked_prisoners = True
-            $ questHelp("marcus_4", True)
-            $ questHelp("marcus_6", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_4a", False)
             return False
         "Если я буду сопротивляться, то они расскажут Маркусу про меня...":
             pass
@@ -1121,9 +1107,7 @@ label ep28_dialogues_jail4:
     img 21401
     with fade
     mt "Я... чувстую как каждый сантиметр моей кожи лапают эти грязные руки..."
-    $ questHelp("marcus_4", True)
-    $ questHelp("marcus_5")
-    $ questHelp("marcus_6")
+    $ questHelp("marcus_4a", True)
 
 # Кто-то кричит Боб! Боб идет!
 # Быстро в камеры, ребята!
@@ -1231,8 +1215,6 @@ label ep28_dialogues_jail8:
     overseer "Я могу дать тебе поесть, если хочешь."
     overseer "Либо не шуми больше!"
     m "Да, Мистер Боб... Дайте, пожалуйста, мне поесть..."
-    $ questHelp("marcus_5", True)
-    $ questHelp("marcus_7")
     #Боб уходит и приносит еду.
 # Итак, завтра! Завтра я встречусь с Мистером Маркусом и этот кошмар закончится, я уверена!
     music stop
@@ -1313,9 +1295,7 @@ label ep28_dialogues_jail9:
         "Притворяться шлюхой.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_6
             return False
 
@@ -1395,9 +1375,7 @@ label ep28_dialogues_jail9:
         "Сделать как велят заключенные.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_7
             return False
 
@@ -1421,9 +1399,7 @@ label ep28_dialogues_jail9:
         "Сесть ближе к заключенным.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_8
             return False
 # Моника встает на колени, голой попой к заключенным.
@@ -1486,9 +1462,7 @@ label ep28_dialogues_jail9:
         "Сказать, что Моника шлюха и что ее задница принадлежит заключенным.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_9
             return False
 
@@ -1532,9 +1506,7 @@ label ep28_dialogues_jail9:
         "Положить палец на свою киску и раздвинуть ее.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_10
             return False
     music stop
@@ -1570,9 +1542,7 @@ label ep28_dialogues_jail9:
         "Сказать, что попа Моники всегда к услугам заключенных.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_11
             return False
 
@@ -1689,9 +1659,7 @@ label ep28_dialogues_jail9:
         "Сказать, что Моника ждет члены заключенных в своей попе.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_12
             return False
 
@@ -1821,9 +1789,7 @@ label ep28_dialogues_jail9:
         "Сказать, что завтра Моника будет сосать члены заключенных.":
             pass
         "Поставить их на место!":
-            $ questHelp("marcus_6", True)
-            $ questHelp("marcus_8", False)
-            $ questHelp("marcus_9")
+            $ questHelp("marcus_6", False)
 
             call ep28_dialogues_monica_offending_prisoners() from _call_ep28_dialogues_monica_offending_prisoners_13
             return False
@@ -1864,6 +1830,7 @@ label ep28_dialogues_jail9:
     with diss
     prisoner1 "Шлюха может отдыхать на сегодня! Да!"
     prisoners "Мы придем к шлюхе завтра! Да!"
+    $ questHelp("marcus_6", True)
     #sound заключенные уходят (топают)
     sound steps_jail
 
@@ -1953,8 +1920,6 @@ label ep28_dialogues_jail12:
     m "МИСТЕР МАРКУС ДОЛЖЕН МЕНЯ СЕГОДНЯ ПРИНЯТЬ!"
     m "ПОЖАЛУЙСТА!!!"
     m "МИСТЕР БОБ!!!"
-    $ questHelp("marcus_7", True)
-    $ questHelp("marcus_9")
 
 # Мистер Маркус сказал что примет тебя завтра!
 # Подожди еще один день!
@@ -3045,8 +3010,6 @@ label ep28_dialogues_jail17:
     m "Ура! Наконец-то!"
     mt "Наконец-то, я покину это жуткое место!"
     mt "Наконец-то!"
-    $ questHelp("marcus_9", True)
-    $ questHelp("marcus_10")
     return
 # Моника идет вдоль заключенных. Они кричат хорошая шлюха (или молчат)
     # идет если поставила заключенных на место

@@ -14,6 +14,9 @@ label ep27_police2_enter: #вход в здание полиции
         return False
     call ep27_dialogues_marcus1_1a() from _call_ep27_dialogues_marcus1_1a
     if _return == False:
+        $ questHelp("marcus_1", False)
+        $ questHelp("marcus_2", False)
+
         return False
     $ autorun_to_object("ep27_dialogues_marcus1_1", scene="police_entrance")
     $ add_hook("Reception", "ep27_police2_reception_dialogue", scene="police_entrance", label="police_entrance_dialogue1")
@@ -27,6 +30,8 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
         return
     call ep27_dialogues_marcus1_2() from _call_ep27_dialogues_marcus1_2 # Приходит Детектив
     if _return == False:
+        $ questHelp("marcus_1", False)
+        $ questHelp("marcus_2", False)
         $ autorun_to_object("ep27_dialogues_marcus1_1d", scene="street_police")
         call change_scene("street_police", "Fade_long") from _call_change_scene_380
         return False
@@ -58,7 +63,6 @@ label ep27_police2_reception_dialogue: # Разговор в проходной 
 label ep27_police3_interact_cage1:
     call ep27_dialogues_marcus1_9() from _call_ep27_dialogues_marcus1_9
     $ questHelp("marcus_3", True)
-    $ questHelp("marcus_4")
     music stop
     img black_screen
     with diss
