@@ -316,6 +316,7 @@ label start_game:
 #    $ _dismiss_pause = True
     call sleep_scene1() from _call_sleep_scene1
 
+    $ questHelpActivated = True
     $ episode = 2
     jump show_scene
 

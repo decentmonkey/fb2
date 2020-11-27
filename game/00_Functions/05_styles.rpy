@@ -449,3 +449,6 @@ style questhelp_quest_description_text:
     size 22
     color "#C0C0C0"
     line_spacing 5
+
+style questhelp_disabled_text:
+    outlines [(0, "#18181A", 5, 5)]

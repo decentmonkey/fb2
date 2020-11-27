@@ -41,6 +41,8 @@ default questHelpFlag24 = False
 default questHelpFlag25 = 0
 default questHelpFlag26 = False
 
+default questHelpActivated = False
+
 init python:
     def add_objective(objective_id, objective_name, objective_color="#ffffff", objective_priority=0):
         global objectives_list
@@ -81,7 +83,7 @@ init python:
         return
 
     def questHelp(*args, **kwargs): # questHelp(questHelpName, True/False) #True - пройден, False - провален, без второго аргумента - просто новый квест (желтенький)
-        global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day
+        global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day, questHelpActivated
         questHelpName = args[0]
         if len(args) > 1:
             status = 1 if args[1] == True else -1
@@ -114,7 +116,7 @@ init python:
 
         for idx in range(0, len(questHelpData[questCategory])):
             if questHelpData[questCategory][idx][0] == questHelpName:
-                if day > 0 and questHelpData[questCategory][idx][1] != status:
+                if day > 0 and questHelpData[questCategory][idx][1] != status and questHelpActivated == True:
                     notif(t__("Список событий обновлен"))
                     questHelpJustUpdated = True
                     questHelpUpdatedDay = day
@@ -130,7 +132,7 @@ init python:
         questHelpCategoriesHistory.append(questCategory)
         if questCategory not in questHelpCategoriesHistoryStatic: questHelpCategoriesHistoryStatic.append(questCategory)
         questHelpData[questCategory].append([questHelpName, status])
-        if day > 0:
+        if day > 0 and questHelpActivated == True:
             notif(t__("Список событий обновлен"))
             questHelpJustUpdated = True
             questHelpUpdatedDay = day
