@@ -11,9 +11,11 @@ label ep215_slums1_dialogue_citizen15:
         return False
     if _return == -2: # отказалась вести на квартиру
         fadeblack 2.5
+        $ questHelp("work_slums_50", False, skipIfTrue=True)
         call change_scene("hostel_edge_1_a", "Fade_long") from _rcall_change_scene_192
         return False
 
+    $ questHelp("work_slums_50", True)
     $ set_active("Citizen_15", False, scene="all")
     $ citizen15BlockedByDay = day + 3
     $ ep215_slums1_citizen15_last_day = day
@@ -91,7 +93,7 @@ label ep215_slums1_dialogue_citizen13:
     call ep216_dialogues3_citizens_4() from _rcall_ep216_dialogues3_citizens_4
     if _return == False:
         return False
-
+    $ questHelp("work_slums_51", True)
     if _return == -1:
         fadeblack 2.5
         call change_scene("hostel_edge_1_a", "Fade_long") from _rcall_change_scene_201

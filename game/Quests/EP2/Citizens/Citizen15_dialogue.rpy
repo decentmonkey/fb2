@@ -2,6 +2,8 @@ default citizen15BoobsNakesShowedLastDay = 0
 default citizen15BoobsNakedDancedLastDay = 0
 default citizen15BoobsNakesShowedCount = -1
 default citizen15BoobsNakedDancedCount = -1
+default citizen15BoobsNakesShowedCount1 = 0
+default citizen15BoobsNakedDancedCount1 = 0
 default pylonpart2startsCompleted = False
 default pylonpart3startsCompleted = False
 default pylonpart4startsCompleted = False
@@ -93,6 +95,8 @@ label citizen15_dialogue_pilon:
         jump ep214_quests_citizens_regular
     label citizen15_dialogue_pilon_loop15:
     call pylonController(1, 1) from _call_pylonController_176
+    if (pylonpart4startsCompleted == True and citizen15BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen15BoobsNakesShowedCount>=0:
+        $ questHelp("work_slums_45", skipIfExists=True)
     menu:
         "Покажи сиськи.":
             call pylonController(3, 1) from _call_pylonController_177
@@ -166,11 +170,10 @@ label citizen15_dialogue_pilon:
             call pylonController(4, 6) from _call_pylonController_189
             with fade
             m "Хорошо, только не долго."
-            mt "Только потому, что ты заплатишь."
-            $ citizen15DanceCloth =+ 1
+            m "Только потому, что ты заплатишь."
+            $ citizen15DanceCloth += 1
             if citizen15DanceCloth >= 3:
                 $ questHelp("work_slums_23", True)
-                $ questHelp("work_slums_35", skipIfExists=True)
 
             call showRandomImages(pylonClothDanceImages2, 4) from _call_showRandomImages_47
 #            call pylonController(4, 5)
@@ -200,9 +203,9 @@ label citizen15_dialogue_pilon:
                     call cit15_naked_boobs_variant2() from _call_cit15_naked_boobs_variant2
                 $ citizen15BoobsNakesShowedCount += 1
             if _return != False:
-                if citizen15BoobsNakesShowedCount >= 3:
+                $ citizen15BoobsNakesShowedCount1 = citizen15BoobsNakesShowedCount + 1
+                if citizen15BoobsNakesShowedCount1 >= 3:
                     $ questHelp("work_slums_35", True)
-                    $ questHelp("work_slums_45", skipIfExists=True)
 
                 $ citizen15BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
@@ -219,7 +222,7 @@ label citizen15_dialogue_pilon:
             $ store_music()
             if citizen15BoobsNakedDancedCount == -1:
                 call cit15_naked_boobs_dance_1st() from _call_cit15_naked_boobs_dance_1st
-                if _return == False:
+                if _return != False:
                     $ citizen15BoobsNakedDancedCount += 1
             else:
                 if citizen15BoobsNakedDancedCount%2 == 0:
@@ -234,9 +237,10 @@ label citizen15_dialogue_pilon:
                         return False # Заканчиваем евент
                 $ citizen15BoobsNakedDancedCount += 1
             if _return != False:
-                if citizen15BoobsNakedDancedCount >= 3:
+                $ citizen15BoobsNakedDancedCount1 = citizen15BoobsNakedDancedCount + 1
+                if citizen15BoobsNakedDancedCount1 >= 3:
                     $ questHelp("work_slums_45", True)
-                    $ questHelp("work_slums_50", skipIfExists=True)
+#                    $ questHelp("work_slums_50", skipIfExists=True)
                 $ citizen15BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

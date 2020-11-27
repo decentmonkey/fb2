@@ -2,6 +2,8 @@ default citizen9BoobsNakesShowedLastDay = 0
 default citizen9BoobsNakedDancedLastDay = 0
 default citizen9BoobsNakesShowedCount = -1
 default citizen9BoobsNakedDancedCount = -1
+default citizen9BoobsNakesShowedCount1 = 0
+default citizen9BoobsNakedDancedCount1 = 0
 default citizen9DanceCloth = 0
 
 default citizen9BoobsNakesEvent1 = False
@@ -134,6 +136,8 @@ label citizen9_dialogue_pilon:
         jump ep214_quests_citizens_regular
     label citizen9_dialogue_pilon_loop9:
     call pylonController(1, 1) from _call_pylonController_124
+    if (pylonpart4startsCompleted == True and citizen9BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen9BoobsNakesShowedCount>=0:
+        $ questHelp("work_slums_43", skipIfExists=True)
     menu:
         "Покажи сиськи.":
             call pylonController(3, 1) from _call_pylonController_125
@@ -213,7 +217,6 @@ label citizen9_dialogue_pilon:
             $ citizen9DanceCloth += 1
             if citizen9DanceCloth >= 3:
                 $ questHelp("work_slums_21", True)
-                $ questHelp("work_slums_33", skipIfExists=True)
 
             call showRandomImages(pylonClothDanceImages8, 4) from _call_showRandomImages_38
 #            call pylonController(4, 5)
@@ -249,9 +252,9 @@ label citizen9_dialogue_pilon:
                 sound snd_runaway
                 return False
             if _return != False:
-                if citizen9BoobsNakesShowedCount >= 3:
+                $ citizen9BoobsNakesShowedCount1 = citizen9BoobsNakesShowedCount + 1
+                if citizen9BoobsNakesShowedCount1 >= 3:
                     $ questHelp("work_slums_33", True)
-                    $ questHelp("work_slums_43", skipIfExists=True)
                 $ citizen9BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -312,7 +315,8 @@ label citizen9_dialogue_pilon:
                     call cit9_naked_boobs_dance_variant2() from _call_cit9_naked_boobs_dance_variant2
                 $ citizen9BoobsNakedDancedCount += 1
             if _return != False:
-                if citizen9BoobsNakedDancedCount >= 3:
+                $ citizen9BoobsNakedDancedCount1 = citizen9BoobsNakedDancedCount + 1
+                if citizen9BoobsNakedDancedCount1 >= 3:
                     $ questHelp("work_slums_43", True)
 #                    $ questHelp("work_slums_52", skipIfExists=True)
                 $ citizen9BoobsNakedDancedLastDay = day

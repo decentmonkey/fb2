@@ -69,8 +69,10 @@ label ep214_quests_citizens_regular_loop1:
 label ep214_quests_citizen1_2a: # пригласить к себе (панки)
     call ep214_dialogues2_citizens_16() from _rcall_ep214_dialogues2_citizens_16
     if _return == False:
+        $ questHelp("work_slums_47", False, skipIfTrue=True)
         $ autorun_to_object("ep214_dialogues2_citizens_17b", scene="hostel_edge_1_a")
         return
+    $ questHelp("work_slums_47", True)
     call change_scene("street_monicahome", "Fade_long") from _rcall_change_scene_132
     call ep214_dialogues2_citizens_17() from _rcall_ep214_dialogues2_citizens_17 # апартаменты Моники в трущобах
     if _return == False:
@@ -87,8 +89,10 @@ label ep214_quests_citizen1_2a: # пригласить к себе (панки)
 label ep214_quests_citizen7a: # работа натурщицой
     call ep214_dialogues2_citizens_18() from _rcall_ep214_dialogues2_citizens_18
     if _return == -1:
+        $ questHelp("work_slums_48", False, skipIfTrue=True)
         $ autorun_to_object("ep214_dialogues2_citizens_17c", scene="hostel_edge_1_a")
         return
+    $ questHelp("work_slums_48", True)
     if _return == -2:
         $ autorun_to_object("ep214_dialogues2_citizens_17d", scene="hostel_edge_1_a")
         return

@@ -58,6 +58,13 @@ default ep214_citizens1_2_cumzone2 = 0
 # подворотня, где пилон
 label ep214_dialogues2_citizens_1:
     # Моника стоит у пилона, ситизен напротив нее
+    help "Этот выбор ведет к прерыванию действий с остальными жителями улицы."
+    menu:
+        "Продолжить.":
+            pass
+        "Назад.":
+            return -1
+
     fadeblack 2.0
     music Groove2_85
     imgfl 19038
@@ -238,6 +245,7 @@ label ep214_dialogues2_citizens_1:
             citizen4 "СУКАААААА!!!"
             citizen4 "ААААААААААААА!!!"
             # Моника убегает
+            $ questHelp("work_slums_46", False)
             $ monicaPerryMommyDebt2 = True # Моника укусила ситизена и убежала
             return -2
         "Продолжить минет.":
@@ -615,6 +623,7 @@ label ep214_dialogues2_citizens_1b:
     mt "Что за бред?!"
     mt "Я никогда не соглашусь на такое!!!"
     mt "НИ-КОГ-ДА!!!"
+    $ questHelp("work_slums_46", True)
 #    $ log1 = _("Теперь мне нужно каждую неделю приносить гребаной Перри деньги в счет оплаты долга. Черт!") # квест-лог
     return 1
 
@@ -1028,6 +1037,7 @@ label ep214_dialogues2_citizens_8:
                     $ ep214_slums_monnica_licked_perry_last_day = day
                     $ ep214_slums_monica_rent_hostel_last_day = day
                     $ ep214_slums_monica_paid_money_this_week = True
+                    $ questHelp("hostel_2", True)
                     menu:
                         "Идти в номер хостела.":
                             music Groove2_85
@@ -1282,6 +1292,7 @@ label ep214_dialogues2_citizens_8:
             $ ep214_slums_monnica_licked_perry_last_day = day
             $ ep214_slums_monica_rent_hostel_last_day = day
             $ ep214_slums_monica_paid_money_this_week = True
+            $ questHelp("hostel_2", True)
             return -3
             pass
         "Уйти!":
@@ -1315,6 +1326,7 @@ label ep214_dialogues2_citizens_8:
             imgd 19136
             mt "Гребаная извращенка!"
             $ monicaPerryMommyDebt5 = True # Моника отказалась давать деньги или отрабатывать у Перри
+            $ questHelp("hostel_2", False, skipIfTrue=True)
             # Моника уходит
             return -2
     return

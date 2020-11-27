@@ -3,6 +3,8 @@ default citizen13BoobsNakedDancedLastDay = 0
 default citizen13BoobsNakesShowedCount = -1
 default citizen13BoobsNakedDancedCount = -1
 default citizen13BoobsNakedDancedEvent1Count = 0
+default citizen13BoobsNakesShowedCount1 = 0
+default citizen13BoobsNakedDancedCount1 = 0
 default citizen13DanceCloth = 0
 
 label citizen13_dialogue:
@@ -98,6 +100,8 @@ label citizen13_dialogue_pilon:
         jump ep214_quests_citizens_regular
     label citizen13_dialogue_pilon_loop13:
     call pylonController(1, 1) from _call_pylonController_95
+    if (pylonpart4startsCompleted == True and citizen13BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen13BoobsNakesShowedCount>=0:
+        $ questHelp("work_slums_44", skipIfExists=True)
     menu:
         "Покажи сиськи.":
             call pylonController(3, 1) from _call_pylonController_96
@@ -200,7 +204,6 @@ label citizen13_dialogue_pilon:
             $ citizen13DanceCloth += 1
             if citizen13DanceCloth >= 3:
                 $ questHelp("work_slums_22", True)
-                $ questHelp("work_slums_34", skipIfExists=True)
 
             call showRandomImages(pylonClothDanceImages1, 4) from _call_showRandomImages_20
 #            call pylonController(4, 5)
@@ -229,9 +232,9 @@ label citizen13_dialogue_pilon:
                     call cit13_naked_boobs_variant2() from _call_cit13_naked_boobs_variant2
                 $ citizen13BoobsNakesShowedCount += 1
             if _return != False:
-                if citizen13BoobsNakesShowedCount >= 3:
+                $ citizen13BoobsNakesShowedCount1 = citizen13BoobsNakesShowedCount + 1
+                if citizen13BoobsNakesShowedCount1 >= 3:
                     $ questHelp("work_slums_34", True)
-                    $ questHelp("work_slums_44", skipIfExists=True)
                 $ citizen13BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -286,9 +289,10 @@ label citizen13_dialogue_pilon:
                     call cit13_naked_boobs_dance_variant2() from _call_cit13_naked_boobs_dance_variant2
                 $ citizen13BoobsNakedDancedCount += 1
             if _return != False:
-                if citizen13BoobsNakedDancedCount >= 3:
+                $ citizen13BoobsNakedDancedCount1 = citizen13BoobsNakedDancedCount + 1
+                if citizen13BoobsNakedDancedCount1 >= 3:
                     $ questHelp("work_slums_44", True)
-                    $ questHelp("work_slums_51", skipIfExists=True)
+#                    $ questHelp("work_slums_51", skipIfExists=True)
                 $ citizen13BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
                 $ add_corruption(monicaWhoringClothNakedBoobsDanceCorruptionProgress, "monicaWhoringClothNakedBoobsDanceCorruptionProgress_day_" + str(day) + "_citizen" + str(citizenId))

@@ -2,6 +2,9 @@ default citizen5BoobsNakesShowedLastDay = 0
 default citizen5BoobsNakedDancedLastDay = 0
 default citizen5BoobsNakesShowedCount = -1
 default citizen5BoobsNakedDancedCount = -1
+default citizen5BoobsNakesShowedCount1 = 0
+default citizen5BoobsNakedDancedCount1 = 0
+
 default citizen5DanceCloth = 0
 label citizen5_dialogue:
     imgl Dial_Monica_Sandwich_0
@@ -74,6 +77,8 @@ label citizen5_dialogue_pilon:
         jump ep214_quests_citizens_regular
     label citizen5_dialogue_pilon_loop5:
     call pylonController(1, 1) from _call_pylonController_195
+    if (pylonpart4startsCompleted == True and citizen5BoobsNakedDancedLastDay != day) and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired and citizen5BoobsNakesShowedCount>=0:
+        $ questHelp("work_slums_39", skipIfExists=True)
     menu:
         "Покажи сиськи.":
             call pylonController(3, 1) from _call_pylonController_196
@@ -152,7 +157,6 @@ label citizen5_dialogue_pilon:
             $ citizen5DanceCloth += 1
             if citizen5DanceCloth >= 3:
                 $ questHelp("work_slums_18", True)
-                $ questHelp("work_slums_29", skipIfExists=True)
 
 
 
@@ -189,9 +193,9 @@ label citizen5_dialogue_pilon:
                     call cit5_naked_boobs_variant2() from _call_cit5_naked_boobs_variant2
                 $ citizen5BoobsNakesShowedCount += 1
             if _return != False:
-                if citizen5BoobsNakesShowedCount >= 3:
+                $ citizen5BoobsNakesShowedCount1 = citizen5BoobsNakesShowedCount + 1
+                if citizen5BoobsNakesShowedCount1 >= 3:
                     $ questHelp("work_slums_29", True)
-                    $ questHelp("work_slums_39", skipIfExists=True)
                 $ citizen5BoobsNakesShowedLastDay = day
                 $ showedNakedBoobs = True
                 $ add_corruption(monicaWhoringClothNakedBoobsCorruptionProgress, "monicaWhoringClothNakedBoobsCorruption_day_" + str(day) + "_citizen" + str(citizenId))
@@ -240,7 +244,8 @@ label citizen5_dialogue_pilon:
                     call cit5_naked_boobs_dance_variant2() from _call_cit5_naked_boobs_dance_variant2
                 $ citizen5BoobsNakedDancedCount += 1
             if _return != False:
-                if citizen5BoobsNakedDancedCount >= 3:
+                $ citizen5BoobsNakedDancedCount1 = citizen5BoobsNakedDancedCount + 1
+                if citizen5BoobsNakedDancedCount1 >= 3:
                     $ questHelp("work_slums_39", True)
 #                    $ questHelp("work_slums_53", skipIfExists=True)
                 $ citizen5BoobsNakedDancedLastDay = day

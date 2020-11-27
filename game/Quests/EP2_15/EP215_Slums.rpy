@@ -4,12 +4,15 @@ label ep215_slums1_dialogue_alcoholic:
     # Алкоголик подзывает Монику
     call ep215_dialogues6_citizens_1() from _rcall_ep215_dialogues6_citizens_1
     if _return == 0:
+        $ questHelp("work_slums_49", False, skipIfTrue=True)
         call refresh_scene_fade() from _rcall_refresh_scene_fade_114
         return False
     $ move_object("Citizen_14", "empty")
     if _return == -1: # отказалась вести домой
+        $ questHelp("work_slums_49", False, skipIfTrue=True)
         call change_scene("hostel_edge_1_a", "Fade_long") from _rcall_change_scene_176
         return False
+    $ questHelp("work_slums_49", True)
     $ citizen14BlockedByDay = day + 3
     if _return == -2:# отказалась пить
         $ autorun_to_object("ep215_dialogues6_citizens_1c", scene="street_monicahome")

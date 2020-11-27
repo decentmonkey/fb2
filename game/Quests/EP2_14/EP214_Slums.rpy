@@ -61,14 +61,12 @@ label ep214_slums3_start_fp_part2: # Начало новой части квес
     $ questLog(82, True)
 
     # феилим все оставшиеся квесты в трущобах
-    if questHelpData.has_key(t_("РАБОТА НА УЛИЦЕ")):
-        python:
-            for idx in range(0, len(questHelpData[questCategory])):
-                if questHelpData[questCategory][idx][1] == 0:
-                    questHelpData[questCategory][idx][1] = -1
-
+    $ questsFailByCategory(t_("РАБОТА НА УЛИЦЕ"))
     $ questHelp("work_slums_47")
     $ questHelp("work_slums_48")
+    if game.extra == False:
+        $ questHelp("work_slums_48", False)
+
     $ questHelp("work_slums_49")
     $ questHelp("work_slums_50")
     $ questHelp("work_slums_51")
@@ -211,6 +209,7 @@ label ep214_slums10_mommy:
         return False
     $ enter_scene("ep214_dialogues2_citizens_22", once=True)
     call change_scene("whores_place_street1", "Fade_long") from _rcall_change_scene_155
+    $ questHelp("hostel_1", True)
     $ ep214_monica_talked_mommy_last_day = day
     $ ep214_monica_talked_mommy = True
     return False

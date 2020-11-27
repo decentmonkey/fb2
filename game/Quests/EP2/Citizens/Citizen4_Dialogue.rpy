@@ -5,6 +5,7 @@ default citizen4BoobsNakesShowedLastDay = 0
 default citizen4BoobsNakedDancedLastDay = 0
 default citizen4NakedBoobsRefuseFlag = False
 default citizen4BoobsNakedDancedCount = -1
+default citizen4BoobsNakedDancedCount1a = 0
 
 default citizen4BoobsNakedDancedCount1 = 0
 default citizen4BoobsNakedDancedCount2 = 0
@@ -83,6 +84,8 @@ label citizen4_dialogue_pilon:
         jump ep214_quests_citizens_regular
     label citizen4_dialogue_pilon_loop4:
     call pylonController(1, 1) from _call_pylonController_37
+    if ep214_slums_offer_activated == False and fallingPathGetCitizenData("visits") >= monicaWhoringNakedBoobsDanceVisitsRequired + 1 and ep214_slums_offer_day != day:
+        $ questHelp("work_slums_46", skipIfExists=True)
     menu:
         "Покажи сиськи.":
             call pylonController(3, 1) from _call_pylonController_38
@@ -296,9 +299,9 @@ label citizen4_dialogue_pilon:
                     call cit4_naked_boobs_dance_variant2() from _call_cit4_naked_boobs_dance_variant2
                 $ citizen4BoobsNakedDancedCount += 1
             if _return != False:
-                if citizen4BoobsNakedDancedCount >= 3:
+                $ citizen4BoobsNakedDancedCount1a = citizen4BoobsNakedDancedCount + 1
+                if citizen4BoobsNakedDancedCount1a >= 3:
                     $ questHelp("work_slums_36", True)
-                    $ questHelp("work_slums_46", skipIfExists=True)
 
                 $ citizen4BoobsNakedDancedLastDay = day
                 $ showedNakedBoobsDance = True
@@ -661,6 +664,17 @@ label citizen4_dialogue_after_boobs_second_time:
     mt "Так что мне нечего стесняться."
     mt "Мне это глубоко противно, но я отношусь к этому с хладнокровием."
     mt "В конце концов, это ненадолго."
+    $ questHelp("work_slums_27", skipIfExists=True)
+    $ questHelp("work_slums_28", skipIfExists=True)
+    $ questHelp("work_slums_29", skipIfExists=True)
+    $ questHelp("work_slums_30", skipIfExists=True)
+    $ questHelp("work_slums_31", skipIfExists=True)
+    $ questHelp("work_slums_32", skipIfExists=True)
+    $ questHelp("work_slums_33", skipIfExists=True)
+    $ questHelp("work_slums_34", skipIfExists=True)
+    $ questHelp("work_slums_35", skipIfExists=True)
+
+
     $ pylonpart4startsCompleted = True
 #    help "Будет доступно в следующем обновлении игры. Следите за новостями!"
     return

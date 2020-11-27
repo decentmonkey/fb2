@@ -945,6 +945,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
                         "Согласиться.": #corruption
                             $ monicaShawarmaApartment6 = True # Моника согласилась сделать минет за скидку в 10 процентов
                             # переход к лейблу ep211_dialogues6_slum_apartment_11
+                            $ questHelp("flat_slums_3", True)
                             return 2
                         "Ни за что!!!":
                             music Power_Bots_Loop
@@ -970,6 +971,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
                             with fade
                             shawarma "Тогда Мадаме платить Джеку $ 300."
                             # jump на первоначальное меню
+                            $ questHelp("flat_slums_3", False, skipIfTrue=True)
                             jump ep211_dialogues6_slum_apartment_10_loop1
                     return
                 "Скидка 20 процентов." if 1==2: #corruption
@@ -1072,6 +1074,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
             mt "Животное!"
             mt "Как хорошо, что я его целую неделю теперь не увижу!"
             $ monicaShawarmaApartment8 = True # Моника заплатила $ 300 за квартиру (без скидки)
+            $ questHelp("flat_slums_3", False, skipIfTrue=True)
             return 1
         "У меня нет денег.":
             # Моника нерешительно
@@ -1101,6 +1104,7 @@ label ep211_dialogues6_slum_apartment_10_loop1:
             shawarma "Но он вынужден выселять прекрасный леди прямо сейчас!"
             # затемнение экрана. Моника оказывается на улице (переход к лейблу ep211_dialogues6_slum_apartment_13)
             $ monicaShawarmaApartment9 = True # Джек выселил Монику за неуплату
+            $ questHelp("flat_slums_3", False, skipIfTrue=True)
             return -1
     return
 
