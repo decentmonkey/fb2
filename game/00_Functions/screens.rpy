@@ -538,6 +538,9 @@ screen screen_sprites(data):
                                             focus_mask True
                                             action Return(["process_object_click", data[i]["click"], i, data[i]])
 
+    key "e" action [
+        Return(["show_questhelp"]),
+    ]
 
 screen hover_text_sprite(spriteImageStr, maskImageStr, disableSprite, brightness_adjustment, saturation_adjustment, contrast_adjustment, tint_adjustment, data, canvas_offset, i=""):
     layer "master"

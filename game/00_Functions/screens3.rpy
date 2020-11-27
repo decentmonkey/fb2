@@ -293,3 +293,7 @@ screen questhelp_screen():
                 xpos 0.5
                 ypos 0.4
                 xanchor 0.5
+
+    key "e" action [
+        Return(False)
+    ]
