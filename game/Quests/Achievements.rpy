@@ -361,9 +361,9 @@ init python:
             ["20578", "", "gallery_ep27_photoshoot_suit8_pose8"],
             ["22608", "", "gallery_ep29_photoshoot_melanie1"],
             ["23224", "", "gallery_ep211_dialogues3_photoshoot_7"],
-            ["23274", "", "gallery_ep211_photoshoot_suit9_pose11"],
+            ["23274", "", "gallery_ep211_photoshoot_suit9_pose10a"],
             ["24236", "", "gallery_ep213_photoshoot10"],
-            ["24328", "", "gallery_ep213_photoshoot_suit10_pose14"]
+            ["24328", "", "gallery_ep213_photoshoot_suit10_pose13"]
 
         ],
         "BiffCastings": [

@@ -3263,6 +3263,7 @@ label gallery_31177:
     customer9 "Спасибо, детка..."
     customer9 "Скоро увидимся в привате!" # подмигивает
     mt "!!!"
+    music2 stop
     return
 
 label gallery_31412:

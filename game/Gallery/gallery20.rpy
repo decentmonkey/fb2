@@ -1166,6 +1166,7 @@ label gallery_32301:
                     imgf 14386
                     mt "Фу! Мерзость! И эти ужасы я должна терпеть!"
                     mt "!!!"
+                    music2 stop
 #                    $ pubQueenCustomer11Day = day
                     return
                 "Нисколько!":
@@ -1182,6 +1183,7 @@ label gallery_32301:
                     customer11 "Проваливай! Грубиянка!"
                     customer11 "Не порть мне вечер!"
                     customer11 "Пошла вон!"
+                    music2 stop
                     return
         "Уберите свои руки!":
             pass
@@ -3002,7 +3004,7 @@ label gallery_19155:
 
 label gallery_24340:
     # Моника заходит в душевую
-    mt "А вот и душ."
+#    mt "А вот и душ."
     music snd_shower2
     if day_time == "day":
         imgf 24339

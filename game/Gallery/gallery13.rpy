@@ -692,6 +692,7 @@ label gallery_23863:
     $ arrowDown = True
 
     # поза 1
+    music Molten_Alloy
     img 23856
     with fadelong
     alex_photograph "Отличная поза, Мелани."
