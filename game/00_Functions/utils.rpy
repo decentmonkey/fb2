@@ -48,7 +48,7 @@ init python:
             return
 
     def storeImagesList(img_path):
-        if debugMode == True and 1==2:
+        if debugMode == True:
             with open('c:/debug/images_list.lst','ab') as f:
                 f.write(img_path + "\n")
         return
