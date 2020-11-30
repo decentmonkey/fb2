@@ -58,8 +58,6 @@ label start:
 
 #########
 
-#    call ep217_dialogues5_phillip_2() # БДСМ-комната
-
 #########
 
 
