@@ -413,6 +413,7 @@ label ep217_dialogues2_shiny_hole_4:
     img 40776
     m "!!!"
     $ menu_corruption = [monicaMollyHumiliationCorruptionRequired1, 0]
+    $ menu_price = [100, 0]
     menu:
         "Обвинить Молли в воровстве.": # при условии, что у Моники есть 100 баксов
             pass
@@ -464,6 +465,7 @@ label ep217_dialogues2_shiny_hole_5:
     mt "Думаю, ста долларов будет достаточно..."
     mt "Большую сумму я не готова положить в эту банку."
     # наклоняется, Jump - положила купюру
+    $ add_money(-100)
     sound fx_coins
     imgf 18210
     mt "Отлично! А теперь к Эшли..."

@@ -11,6 +11,7 @@ default ep217_dialogues1_escort_10menu3 = False
 define monicaAdrianoEscortCorruptionRequired1 = 650 # Моника солгала Адриано, сказав что футфетишист сумасшедший
 define monicaAdrianoEscortCorruptionRequired2 = 680 # Моника притворилась перед Адриано эскортницей
 define monicaAdrianoEscortCorruptionRequired3 = 730 # Моника согласилась на тройничок с Адриано и Кэндис
+define monicaAdrianoEscortCorruptionRequired4 = 790 # Моника проглотила сперму Адриано
 
 #call ep217_dialogues1_escort_1() # Моника сидит за столиком в ресторане, разговор с официанткой
 #call ep217_dialogues1_escort_2() # Моника пришла на ресепшн, потом служебный коридор, сцена с админом и эскортницей
@@ -1609,6 +1610,7 @@ label ep217_dialogues1_escort_4:
             sound man_moan3
             mt "..."
             adriano "Теперь глотай..."
+            $ menu_corruption = [0, monicaAdrianoEscortCorruptionRequired4]
             menu:
                 "Выплюнуть!":
                     # Моника выплевывает сперму на пол
