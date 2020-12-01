@@ -219,3 +219,5 @@ define stranger = Character(t_("Незнакомец"), who_color=c_green) #stra
 define adriano = Character(t_("Адриано"), who_color=c_blue)  # Адриано
 define candice = Character(t_("Кэндис"), who_color=c_green)  # girl_3 - шатенка с хвостом
 define abby = Character(t_("Эбби"), who_color=c_pink)  # girl_2 - рыжая с каре
+
+define citizen9_t = Character(t_("Найджел"), who_color=c_green)

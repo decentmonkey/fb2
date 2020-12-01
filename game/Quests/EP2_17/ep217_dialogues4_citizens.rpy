@@ -106,75 +106,75 @@ label ep217_dialogues4_citizens_1:
     citizen9 "Еще и на улице - неправильно!!" # Найджел подмигивает Моника указывая двумя указательными пальцами в её сторону
     imgd 33407
     mt "?!?!?!"  # Моника в недоумении приподнимает бровь
-#    if monicaCitizensPunksBlowjob1 == True:
-    # если Моника приводила домой панков
-    imgf 12244
-    citizen9 "Так что я вспомнил, как мои кореша..."
-    citizen9 "Рассказывали, что у дамочки есть сутенерская хата..."
-    citizen9 "На которой она всем сосет!"
-    citizen9 "Хы-хы!"
-    # У Моники офигевшее лицо
-    #
-    $ notif(_("Моника приводила в свои апартаменты в трущобах Тима и Тома."))
-    #
-    music Power_Bots_Loop
-    img 40333 hpunch
-    mt "ЧТОООООО?!"
-    mt "Эти идиоты уже всем рассказали?!"
-    mt "Твою мать!!!"
-    mt "Придурки!!!"
-    mt "Кретины!!!"
-    music Marty_Gots_a_Plan
-    imgd 12268
-    citizen9 "Поэтому я хочу пойти твою сутенерскую квартирку!"
-    citizen9 "И курнуть там этот жирный косяк. Хы-хы!"
-    citizen9 "Ну что скажешь?"
-    imgd 33408
-    citizen9 "Отличное предложение?" # Найджел подмигивает Монике с ухмылкой
-    music Groove2_85
-    img 12269
-    m "Скажу что ты придурок, а твои кореша ИДИОТЫ !!!"
-    m "Эта квартира не сутенерская!!!"
-    m "И я не со... Не делала того, что они говорят!"
-    # Найджел отпрыгивает
-    imgd 33409
-    citizen9 "Оу-оу-оу! Да ладно тебе!"
-    citizen9 "Я дам тебе $ 20!"
-    citizen9 "Вот, смотри дамочка!"  # Найджел трясет купюрой перед Моникой
-    #
-#    else:
-    # если не приводила панков
-    music Groove2_85
-    imgd 33409
-    citizen9 "Так что я подумал, может у дамочки есть местечко, где можно курнуть?"
-    citizen9 "Я бы щедро заплатил!"
-    citizen9 "Вот $ 20!"  # Найджел трясет купюрой перед Моникой
-    citizen9 "Отличное предложение от отличного парня - Найджела!!!"
-    citizen9 "Еееее!!!"
-    #
+    if monicaCitizensPunksBlowjob1 == True:
+        # если Моника приводила домой панков
+        imgf 12244
+        citizen9 "Так что я вспомнил, как мои кореша..."
+        citizen9 "Рассказывали, что у дамочки есть сутенерская хата..."
+        citizen9 "На которой она всем сосет!"
+        citizen9 "Хы-хы!"
+        # У Моники офигевшее лицо
+        #
+        $ notif(_("Моника приводила в свои апартаменты в трущобах Тима и Тома."))
+        #
+        music Power_Bots_Loop
+        img 40333 hpunch
+        mt "ЧТОООООО?!"
+        mt "Эти идиоты уже всем рассказали?!"
+        mt "Твою мать!!!"
+        mt "Придурки!!!"
+        mt "Кретины!!!"
+        music Marty_Gots_a_Plan
+        imgd 12268
+        citizen9 "Поэтому я хочу пойти твою сутенерскую квартирку!"
+        citizen9 "И курнуть там этот жирный косяк. Хы-хы!"
+        citizen9 "Ну что скажешь?"
+        imgd 33408
+        citizen9 "Отличное предложение?" # Найджел подмигивает Монике с ухмылкой
+        music Groove2_85
+        img 12269
+        m "Скажу что ты придурок, а твои кореша ИДИОТЫ !!!"
+        m "Эта квартира не сутенерская!!!"
+        m "И я не со... Не делала того, что они говорят!"
+        # Найджел отпрыгивает
+        imgd 33409
+        citizen9 "Оу-оу-оу! Да ладно тебе!"
+        citizen9 "Я дам тебе $ 20!"
+        citizen9 "Вот, смотри дамочка!"  # Найджел трясет купюрой перед Моникой
+        #
+    else:
+        # если не приводила панков
+        music Marty_Gots_a_Plan
+        imgd 33409
+        citizen9 "Так что я подумал, может у дамочки есть местечко, где можно курнуть?"
+        citizen9 "Я бы щедро заплатил!"
+        citizen9 "Вот $ 20!"  # Найджел трясет купюрой перед Моникой
+        citizen9 "Отличное предложение от отличного парня - Найджела!!!"
+        citizen9 "Еееее!!!"
+        #
     m "..."
     $ menu_corruption = [monicaCitizens9CorruptionRequired1, 0]
     menu:
         "Согласиться.":
             # если Моника не арендует квартиру у Джека
-#            if slumsApartmentsRentActive == False:
-            imgf 40334
-            mt "Хммм..."
-            mt "Деньги за место, где он может просто покурить..."
-            mt "Я могу заработать на этом болване $ 20."
-            mt "Мне даже не нужно для этого делать какие-нибудь мерзости."
-            mt "Черт! Но у меня нет такого места!"
-            #
-            $ notif(t_("Монике некуда вести клиентов."))
-            #
-            imgd 12288
-            m "Мне некуда тебя вести!"
-            citizen9 "Уууууу, дамочка!"
-            citizen9 "Ты упускаешь такой шанс!"
-            citizen9 "Обращайся, как появится место..."
-            imgf 33408
-            citizen9 "Сможешь немного подзаработать..."  # Найджел подмигивает
-            return False
+            if slumsApartmentsRentActive == False:
+                imgf 40334
+                mt "Хммм..."
+                mt "Деньги за место, где он может просто покурить..."
+                mt "Я могу заработать на этом болване $ 20."
+                mt "Мне даже не нужно для этого делать какие-нибудь мерзости."
+                mt "Черт! Но у меня нет такого места!"
+                #
+                $ notif(t_("Монике некуда вести клиентов."))
+                #
+                imgd 12288
+                m "Мне некуда тебя вести!"
+                citizen9 "Уууууу, дамочка!"
+                citizen9 "Ты упускаешь такой шанс!"
+                citizen9 "Обращайся, как появится место..."
+                imgf 33408
+                citizen9 "Сможешь немного подзаработать..."  # Найджел подмигивает
+                return False
             # если арендует квартиру у Джека
             $ monicaCitizens9Slums1 = day # Моника согласилась сдать апартаменты в аренду для курения Найджелу
             pass
@@ -226,21 +226,20 @@ label ep217_dialogues4_citizens_1:
     mt "Неужели у нее нет других дел, кроме как следить за мной!"
     imgd 24344
     w
-#    if ep214_perry_debt > 0:
-    #
-    $ notif(_("Моника должна выплачивать Перри долг в размере."))
-    imgd 19174
-    mt "Я должна выплачивать долг этой мерзкой извращенке Перри!"
-    #
-    #
+    if ep214_perry_debt > 0:
+        #
+        $ notif(_("Моника должна выплачивать Перри долг."))
+        imgd 19174
+        mt "Я должна выплачивать долг этой мерзкой извращенке Перри!"
+        #
     # если Монику выгнали с эскорта
-#    if ep212_escort_monica_fired == True:
-    #
-    $ notif(_("Моника больше не работает в ВИП-эскорте."))
-    #
-    imgd 40334
-    mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
-    #
+    if ep212_escort_monica_fired == True:
+        #
+        $ notif(_("Моника больше не работает в ВИП-эскорте."))
+        #
+        imgd 40334
+        mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
+        #
     music Groove2_85
     imgf 12244
     m "..."
@@ -342,7 +341,6 @@ label ep217_dialogues4_citizens_1:
     mt "За $ 10!"
     mt "!!!"
     $ menu_corruption = [0, monicaCitizens9CorruptionRequired2]
-    #$ menu_price = [0, 500]
     menu:
         "Отказаться!":
             music Stealth_Groover
@@ -388,13 +386,13 @@ label ep217_dialogues4_citizens_1:
     citizen9 "Ха! Договорились, дамочка!"
     citizen9 "Да хоть $ 110!"
     citizen9 "У тебя нет шансов, Найджел никогда не проигрывает дуэль на дури, хы-хы!"
-#    $ add_money(30.0)
+    $ add_money(30.0)
     imgd 33199
     citizen9 "Повеселимся! Йоу!"
     imgf 33200
     w
     sound Jump2
-    img 33201
+    img 33201 hpunch
     citizen9 "Ты можешь приступать, дамочка..."
     # приспускает штаны
     # Моника с отвращением опускается на колени перед ним
@@ -478,13 +476,14 @@ label ep217_dialogues4_citizens_1:
     imgd 33220
     citizen9 "Хыыыы..."
     $ blur_effect = 2
-    imgd 33221
+    sound Jump2
+    img 33221 vpunch
     w
     sound snd_bodyfall
     img 33223 hpunch
     w
-    imgd 33222
     $ blur_effect = 0
+    imgd 33222
     w
     imgd 33224
     w
@@ -696,13 +695,13 @@ label ep217_dialogues4_citizens_1:
     citizen6 "Или можем его... Ну того..." # делает жест рукой, как-будто пилит
     imgf 33261
     w
-    sound swish
+    sound vjuh3
     imgd 33262
     w
-    sound swish
+    sound vjuh3
     imgd 33261
     w
-    sound swish
+    sound vjuh3
     imgd 33262
     citizen6 "На кусочки..."
     imgd 33263
@@ -790,15 +789,15 @@ label ep217_dialogues4_citizens_1:
             sound vjuh3
             img 33277
             citizen6 "Окей... Я должен это проверить!"
-            $ blur_effect = 1
+            sound snd_sniff1
             imgf 33278
             w
             $ blur_effect = 2
             imgd 33279
             w
+            $ blur_effect = 0
             sound snd_bodyfall
             img 33280 hpunch
-            $ blur_effect = 0
             w
             # затягивается и отрубается падая на Найджела
             pass
@@ -852,12 +851,13 @@ label ep217_dialogues4_citizens_1:
             sound highheels_short_walk
             pause 2.0
             music Groove2_85
-            imgfl 33335
+            imgf 33335
             m "А ты точно мне поможешь?"
             citizen6 "Конечно, помогу! Только сначала благодарность!"
-            music Loved_Up
-            imgf 33336
+            sound Jump2
+            img 33336 vpunch
             m "!!!"
+            music Loved_Up
             imgd 33337
             w
             imgd 33338
@@ -869,14 +869,14 @@ label ep217_dialogues4_citizens_1:
             w
             music Marty_Gots_a_Plan
             imgd 33293
-            $ blur_effect = 1
             citizen9_t "Вот меня вштырило! Йоу!"
             citizen9_t "Вот это дурь!"
             citizen9_t "Что это у меня перед глазами?"
-            $ blur_effect = 2
+            $ blur_effect = 1
             imgd 33292
             citizen9_t "Какие-то полосы..."
             citizen9_t "Черная... Коричневая..."
+            $ blur_effect = 2
             citizen9_t "Еще какие-то паутинки..."
             citizen9_t "Это такой глюк?"
             citizen9_t "Круто! Ееееее!!!"
@@ -1099,19 +1099,21 @@ label ep217_dialogues4_citizens_1:
             w
             music Marty_Gots_a_Plan
             imgf 33293
-            $ blur_effect = 1
             w
+            $ blur_effect = 1
             imgd 33292
             citizen9_t "Коричневая... Черная..."
             citizen9_t "Круууууть!"
             # на фоне слышит
-            $ blur_effect = 2
+            $ blur_effect = 0
             imgf 33378
             citizen6 "Оооох... Даааа!!!"
             citizen6 "Какая кискаааа!!!"
+            $ blur_effect = 2
             citizen9_t "Ни хрена себе меня вштырило!"
             citizen9_t "В этом глюке кто-то шпилится! Еееее!!"
             citizen9_t "Вот это дурь!!!"
+            $ blur_effect = 0
             # снова на фоне
             imgd 33379
             citizen6 "Аааа!!!"
@@ -1123,6 +1125,7 @@ label ep217_dialogues4_citizens_1:
             imgd 33380
             w
             sound Jump1
+            $ blur_effect = 2
             img 33413
             citizen9_t "Это кто?"
             citizen9_t "Где я?"
@@ -1135,6 +1138,7 @@ label ep217_dialogues4_citizens_1:
             $ blur_effect = 1
             imgf 33382
             w
+            $ blur_effect = 2
             imgd 33383
             citizen9_t "Это что, не глюк?"
             citizen9_t "Кто это тут трахается?"
@@ -1196,7 +1200,7 @@ label ep217_dialogues4_citizens_1:
             citizen9 "Давай, чувак, отходи!"
             citizen9 "Теперь очередь Найджела оттрахать эту дамочку!"
             # Моника в шоке соскакивает с кровати
-            fadeblack 1.5
+            fadeblack 0.5
             music Power_Bots_Loop
             img 33394 hpunch
             m "ТЫ ЧТО?!"
@@ -1206,6 +1210,7 @@ label ep217_dialogues4_citizens_1:
             citizen6 "Аха-ха-ха!!!"
             sound male_laugh4
             citizen6 "А твой жмурик то не совсем дохлым оказался, милочка!"
+            music Marty_Gots_a_Plan
             citizen9 "Ээээй! Кто дохлый?!"
             citizen9 "Вы еще не знаете Найджела!"
             imgd 33395
@@ -1236,7 +1241,7 @@ label ep217_dialogues4_citizens_1:
             m "ЗАТКНИСЬ!!!"
             # Моника выталкивает их из апартаментов, возможно дает поджопники обоим
             ## возможно через затемнение - чтобы они оделись
-            fadeblack 1.5
+            fadeblack 0.5
             music Power_Bots_Loop
             imgf 33329
             m "ПОШЛИ!"
@@ -1282,9 +1287,9 @@ label ep217_dialogues4_citizens_1:
     m "ХВАТИТ ДОХНУТЬ В МОИХ АПАРТАМЕНТАХ!!!"
     # садится на кровать перед ними и хватается в ужасе за голову
     fadeblack
-    sound highheels_short_walk
+    sound highheels_run2
     pause 2.0
-    music Groove2_85
+    music Stealth_Groover
     imgf 33286
     w
     imgd 33287
@@ -1416,7 +1421,7 @@ label ep217_dialogues4_citizens_1:
     music Groove2_85
     mt "Этот урод жив!!!"
     # подбегает к Филу
-    soud highheels_short_walk
+    sound highheels_short_walk
     imgd 33309
     mt "!!!"
     $ menu_corruption = [monicaCitizens9CorruptionRequired5, 0]
@@ -1483,6 +1488,7 @@ label ep217_dialogues4_citizens_1:
             music Groove2_85
             imgf 33320
             w
+            sound Jump2
             imgd 33321
             mt "Фу! Грязный вонючий отросток!"
             mt "!!!"
@@ -1519,7 +1525,7 @@ label ep217_dialogues4_citizens_1:
             m "Выметайся отсюда!!!"
             m "Пошли вон! Оба!!!"
             # Моника выталкивает их из апартаментов, возможно дает поджопники обоим
-            fadeblack 1.5
+            fadeblack 0.5
             music Power_Bots_Loop
             img 33329 hpunch
             m "ПОШЛИ!"
@@ -1619,22 +1625,22 @@ label ep217_dialogues4_citizens_2:
     menu:
         "Согласиться.":
             # если Моника не арендует квартиру у Джека
-#            if slumsApartmentsRentActive == False:
-            imgf 40344
-            mt "Может этот болван ничего не знает."
-            mt "А я зря трачу свое время"
-            mt "С другой стороны, он сказал, что все равно заплатит."
-            mt "..."
-            mt "Черт! Но мне некуда его вести!"
-            #
-            $ notif(t_("Монике некуда вести клиентов."))
-            #
-            imgd 13314
-            m "Мне некуда тебя вести!"
-            m "А раздеваться здесь для тебя я не буду!"
-            imgd 13311
-            citizen5 "Прекрасные Фудзиямы скрывают холодный сердце..."
-            return False
+            if slumsApartmentsRentActive == False:
+                imgf 40344
+                mt "Может этот болван ничего не знает."
+                mt "А я зря трачу свое время"
+                mt "С другой стороны, он сказал, что все равно заплатит."
+                mt "..."
+                mt "Черт! Но мне некуда его вести!"
+                #
+                $ notif(t_("Монике некуда вести клиентов."))
+                #
+                imgd 13314
+                m "Мне некуда тебя вести!"
+                m "А раздеваться здесь для тебя я не буду!"
+                imgd 13311
+                citizen5 "Прекрасные Фудзиямы скрывают холодный сердце..."
+                return False
             # если арендует квартиру у Джека
             $ monicaCitizens5Slums1 = day # Моника согласилась пойти Акирой саном в свои апартаменты
             pass
@@ -1663,6 +1669,7 @@ label ep217_dialogues4_citizens_2:
     img 24343 vpunch
     mt "И эта старая карга следит за мной..."
     imgd 24344
+    w
     if ep214_perry_debt > 0:
         #
         $ notif(_("Моника должна выплачивать Перри долг."))
