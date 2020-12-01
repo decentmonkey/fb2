@@ -2,7 +2,8 @@ default monicaAdrianoEscortHotel1 = 0 # Моника пошла в номер к
 default monicaAdrianoEscortHotel2 = 0 # Моника попыталась выкрутиться из ситуации, солгав Адриано, что футфетишист псих
 default monicaAdrianoEscortHotel3 = 0 # Моника притворилась эскортницей перед Адриано
 default monicaAdrianoEscortHotel4 = 0 # Моника согласилась на тройничок с Адриано
-default monicaAdrianoEscortHotel5 = 0 # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
+default monicaAdrianoEscortHotel5 = 0 # Моника пришла к Кэндис и Эбби на девичник
+default monicaAdrianoEscortHotel6 = 0 # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
 
 default ep217_dialogues1_escort_10menu1 = False
 default ep217_dialogues1_escort_10menu2 = False
@@ -1974,6 +1975,7 @@ label ep217_dialogues1_escort_10:
     # затемнение, стук в дверь, каблуки
     # Моника заходит в квартиру к эскортнице
     # ее встречает Кэндис, шатенка с хвостом
+    $ monicaAdrianoEscortHotel5 = day # Моника пришла к Кэндис и Эбби на девичник
     fadeblack
     sound snd_door_knock
     pause 1.5
@@ -2897,7 +2899,7 @@ label ep217_dialogues1_escort_10:
     m "..."
     menu:
         "Залезть на стол и танцевать.": # пункт доступен при количестве выпитого виски не меньше 7
-            $ monicaAdrianoEscortHotel5 = day # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
+            $ monicaAdrianoEscortHotel6 = day # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
             pass
         "Отказаться и уйти.":
             music Stealth_Groover
@@ -3003,7 +3005,7 @@ label ep217_dialogues1_escort_11:
     mt "Мне не следовало пить это жуткое дешевое пойло!"
     mt "Такая леди, как Я, не привыкла к такому!"
     # если танцевала и ударилась головой
-    if monicaAdrianoEscortHotel5 == day:
+    if monicaAdrianoEscortHotel6 == day:
         mt "Может, голова болит не от виски? Я же ударилась!"
         mt "Точно! Какой кошмар, Моника!"
         mt "Какого черта ты полезла к ним на стол?!"
