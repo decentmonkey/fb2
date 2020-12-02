@@ -427,7 +427,7 @@ label part2_questions_init_loadgame:
     call change_scene("street_house_outside")
     call process_change_map_location("House")
     call refresh_scene_fade_long()
-    jump show_scene
+    jump start_game_EP22
 
 label part2_questions_process(new_game_started):
     if 1==2:

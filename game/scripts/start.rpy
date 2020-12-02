@@ -444,7 +444,9 @@ label start:
 
     call change_scene("street_house_outside")
     call process_change_map_location("House")
+label start_game_EP22:
 #    call refresh_scene_fade_long()
+    call ep217_quests()
     jump show_scene
 
 #########
@@ -470,7 +472,6 @@ label start:
     $ ep214_quests_load_init_flag = True
     $ ep215_quests_load_init_flag = True
     $ ep216_quests_load_init_flag = True
-
     call start_game() from _call_start_game
     return
 
