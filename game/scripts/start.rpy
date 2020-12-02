@@ -448,8 +448,11 @@ label start:
     call process_change_map_location("House")
 label start_game_EP22:
     $ questHelpActivated = True
+    call questHelp_init()
+
 #    call refresh_scene_fade_long()
     call ep217_quests()
+    $ questHelp("house_45")
     jump show_scene
 
 #########

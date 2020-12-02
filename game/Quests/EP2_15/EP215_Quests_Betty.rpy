@@ -141,7 +141,7 @@ label ep215_quests_betty3_enter_door:
     # Бетти возвращается к Ральфу
     call ep215_dialogues2_betty_7() from _rcall_ep215_dialogues2_betty_7
     call change_owner("Monica") from _rcall_change_owner_3
-    $ set_active("Teleport_House_Outside_Neighbour", False, "street_house_outside")
+    $ set_active("Teleport_House_Outside_Neighbour", False, scene="street_house_outside")
     $ miniMapEnabledOnly = ep215_stored_vars["miniMapEnabledOnly"]
     $ hudDaySkipToEveningEnabled = ep215_stored_vars["hudDaySkipToEveningEnabled"]
     $ move_object("Betty", "empty")

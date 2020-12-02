@@ -1,7 +1,7 @@
 python early:
     language_dict = json.loads(renpy.file("language_dict.json").read())
 #    language_dict = renpy.file("language_dict.json").read()
-    language_fields = {None:1, "english":2, "german":3, "spain":4, "chinese":5, "french":6, "turkish":7}
+    language_fields = {None:1, "english":2, "german":3, "spain":4, "chinese":5, "french":6, "turkish":7, "italian":8}
 
 #    open(config.basedir + "/game/update_data.json", "wb").write(str)
     def parse_tstr(str1):
@@ -63,3 +63,28 @@ python early:
                     st = s
             st = st.split("#")[0]
         return parse_tstr(st)
+
+    def t___(s):
+        global _preferences, language_fields, language_dict
+        s = re.sub(r'(\n\s*)', " ", s)
+        lang = _preferences.language
+        if language_fields.has_key(lang) == False:
+            lang = "english"
+        st = s
+        if language_dict.has_key(s):
+            st = language_dict[s][language_fields[lang]]
+            if st == "":
+                st = language_dict[s][language_fields["english"]]
+                if st == "":
+                    st = s
+            st = st.split("#")[0]
+
+        st = parse_tstr(st)
+        st = st.replace(" ", " ")
+        st = re.sub("\!\s{1,}", "!\n", st)
+        st = re.sub("\?\s{1,}", "?\n", st)
+        st = re.sub("\.\s{1,}", ".\n", st)
+        st = re.sub("Mr\.\\n", "Mr. ", st)
+        st = re.sub("Mrs\.\\n", "Mrs. ", st)
+        st = re.sub("Ms\.\\n", "Ms. ", st)
+        return st

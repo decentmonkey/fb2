@@ -102,6 +102,8 @@ label ep214_quests_ralph4:
     $ add_hook("before_open", "ep214_quests_ralph5_bardie", scene="bedroom_bardie", label="Monica_Ralph_Quest")
     $ cloth = ep214_stored_cloth
     $ cloth_type = ep214_stored_cloth_type
+    call process_hooks("fitness_end", "global")
+
     sound highheels_short_walk
     img black_screen
     with Dissolve(0.5)
@@ -187,6 +189,7 @@ label ep214_quests_ralph8_meeting_regular_end:
     pause 3.0
     $ cloth = ep214_stored_cloth
     $ cloth_type = ep214_stored_cloth_type
+    call process_hooks("fitness_end", "global")
     sound highheels_short_walk
     img black_screen
     with Dissolve(0.5)
