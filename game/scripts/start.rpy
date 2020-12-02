@@ -43,6 +43,8 @@ default episode2part = 1
 default episode2part2_initialized = False
 default episode2full = False
 
+default questLogGlobalEnabled = False
+
 label start:
     #new game
     $ after_load_ready_to_render = True
@@ -445,6 +447,7 @@ label start:
     call change_scene("street_house_outside")
     call process_change_map_location("House")
 label start_game_EP22:
+    $ questHelpActivated = True
 #    call refresh_scene_fade_long()
     call ep217_quests()
     jump show_scene
