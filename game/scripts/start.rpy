@@ -447,6 +447,10 @@ label start:
 #    call refresh_scene_fade_long()
     jump show_scene
 
+#########
+
+#########
+
 
     call intro_questions() from _call_intro_questions
 
