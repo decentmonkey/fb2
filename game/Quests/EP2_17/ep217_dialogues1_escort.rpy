@@ -1237,7 +1237,9 @@ label ep217_dialogues1_escort_4:
             imgf 41144
             w
             pass
-        "Минет.":
+        "Минет. (Extra Version) (disabled)" if game.extra != True:
+            pass
+        "Минет." if game.extra == True:
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             fadeblack 1.5
             music Loved_Up
@@ -1835,6 +1837,7 @@ label ep217_dialogues1_escort_4:
     m "Мистер, а вы посещаете все модные мероприятия этого города?"
     sound chpok6
     img 41212 vpunch
+    m "Ай!"
     adriano "Оооо..."
     # начинает двигаться в ней
     music Loved_Up2
