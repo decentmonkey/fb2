@@ -12,6 +12,8 @@ default monicaEscortScene3Day = 0
 default monicaEscortScene4Day = 0
 default monicaEscortScene5Day = 0
 default monicaEscortScene6Day = 0
+default monicaEscortScene7Day = 0
+default monicaEscortScene8Day = 0
 
 default monicaEscortScenesCount = 0
 default monicaEscortFailedScenesCount = 0
@@ -84,6 +86,7 @@ label ep211_quests_escort2_end_day:
     $ remove_hook(quest="work_escort")
     $ remove_hook(label="escort_scene1")
     $ remove_hook(label="escort_scene2")
+    $ remove_hook(label="escort_scene8")
     $ remove_objective("go_administrator")
     $ cloth = ep211_quests_stored_cloth
     $ cloth_type = ep211_quests_stored_cloth_type
@@ -218,7 +221,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
             $ monicaEscortSceneDay = day
             $ monicaEscortScenesCount += 1
     if _return == 7:
-        $ monicaEscortScene1Day = day
+        $ monicaEscortScene7Day = day
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
         music stop
@@ -233,6 +236,20 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ add_hook("MonicaTable", "ep216_dialogues2_escort_3a", scene="rich_hotel_restaurant", label="escort_scene7")
         $ set_active("Visitor2", False, scene="rich_hotel_restaurant")
         $ set_active("Visitor3", False, scene="rich_hotel_restaurant")
+
+    if _return == 8: # сцена с Адриано
+        $ monicaEscortScene8Day = day
+        $ monicaEscortSceneDay = day
+        $ monicaEscortScenesCount += 1
+        call ep217_dialogues1_escort_1()
+        $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)
+        $ add_hook("MonicaTable", "ep211_escort_scene1_17", scene="rich_hotel_restaurant", label="escort_scene8")
+        $ add_hook("Teleport_Lift", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene8_block_lift")
+        $ add_hook("Teleport_Restaurant", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene8")
+        $ add_hook("Teleport_Street_Rich_Hotel", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene8")
+        $ add_hook("enter_scene", "ep217_quests_escort1", scene="rich_hotel_reception", label="escort_scene8", once=True)
+        $ autorun_to_object("ep211_escort_scene1_17", scene="rich_hotel_restaurant")
+        call refresh_scene_fade()
 
 
     return False
