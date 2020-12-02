@@ -242,6 +242,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
         call ep217_dialogues1_escort_1()
+        $ move_object("ReceptionGirl", "empty")
         $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)
         $ add_hook("MonicaTable", "ep211_escort_scene1_17", scene="rich_hotel_restaurant", label="escort_scene8")
         $ add_hook("Teleport_Lift", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene8_block_lift")

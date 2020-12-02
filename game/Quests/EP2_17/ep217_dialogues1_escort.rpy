@@ -16,6 +16,12 @@ define monicaAdrianoEscortCorruptionRequired4 = 790 # Моника прогло�
 
 default ep217_escortscene8_cumzone = 0
 
+default v_Monica_Adriano_Titjob1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Monica_Adriano_Blowjob1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Monica_Adriano_Visitor1_Sex1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Monica_Adriano_Visitor1_Sex2_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Monica_Adriano_Visitor1_Sex3_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+
 #call ep217_dialogues1_escort_1() # Моника сидит за столиком в ресторане, разговор с официанткой
 #call ep217_dialogues1_escort_2() # Моника пришла на ресепшн, потом служебный коридор, сцена с админом и эскортницей
 #call ep217_dialogues1_escort_3() # у лифта, в номере с клиентом, мечты
@@ -240,7 +246,7 @@ label ep217_dialogues1_escort_2a:
 label ep217_dialogues1_escort_3a:
     client "[monica_hotel_name]! Добрый вечер, моя леди!"
     client "Наконец-то, мы снова с вами встретились!"
-    return
+    return False
 
 label ep217_dialogues1_escort_3b:
     mt "Меня снова ждет у лифта этот чертов извращенец."
@@ -279,7 +285,7 @@ label ep217_dialogues1_escort_3:
     sound plastinka1b
     img 40945 hpunch
     mt "!!!"
-    music Pyro_Flow
+    music Malicious
     mt "!!!!!!"
     mt "Адриано!!!"
     mt "Это ОН?!"
@@ -474,7 +480,7 @@ label ep217_dialogues1_escort_4:
     girl_3 "И не смогла прийти на встречу с Вами..."
     girl_3 "Я постараюсь сделать так, чтобы Вам все понравилось..."
 #    music Pyro_Flow
-    img 40988
+    img 40988 vpunch
     adriano "Я уже ничего не хочу!"
     adriano "У меня нет времени ждать, когда ты сделаешь свою работу!"
     adriano "Я тороплюсь!!!"
@@ -534,7 +540,7 @@ label ep217_dialogues1_escort_4:
     sound2 man_steps
     pause 2.0
     music Groove2_85
-    imgf 40998
+    img 40998 vpunch
     client "[monica_hotel_name]!"
     client "Я ведь уже заплатил за вечер с тобой!"
     client "Почему ты убежала к другому клиенту?!"
@@ -613,8 +619,9 @@ label ep217_dialogues1_escort_4:
     mt "Что мне теперь делать?!"
     mt "?!?!?!"
     # Адриано в полнейшем ступоре смотрит на нее
+    fadeblack 1.5
     music Groove2_85
-    imgd 41012
+    imgf 41012
     adriano "М-моника..."
     adriano "Я... Я ничего не понимаю..."
     adriano "Что это было?!"
@@ -735,6 +742,7 @@ label ep217_dialogues1_escort_4:
     mt "Гребаный эскорт!"
     mt "!!!"
     mt "Думай, Моника! Думай!"
+    fadeblack 1.5
     music Hidden_Agenda
     imgf 41033
     mt "Хм..."
@@ -951,6 +959,7 @@ label ep217_dialogues1_escort_4:
     imgd 41075
     m "..."
     # он отстраняется от Моники, на лице тоска сменяется высокомерием
+    fadeblack 2.0
     music Groove2_85
     imgf 41076
     adriano "Говоришь, хотела помочь своей коллеге?"
@@ -1037,6 +1046,7 @@ label ep217_dialogues1_escort_4:
     # Адриано подходит к кровати
     # затемнение
     # кадр на кровать, Адриано сидит на краю кровати, Моника и эскортница стоят возле него в нижнем белье
+    $ add_corruption(10, "escort_scene8_1")
     fadeblack
     sound snd_fabric1
     pause 1.5
@@ -1056,10 +1066,14 @@ label ep217_dialogues1_escort_4:
     m "..."
     imgf 41120
     adriano "А ты..." # указывает рукой на эскортницу
+    adriano "Ты будешь Элизабет!"
     adriano "Сядь на кровать и ласкай себя!"
     adriano "И развинь ноги пошире. Я хочу видеть все!"
     imgd 41121
     girl_3 "Да, Мистер..."
+    img 41119 vpunch
+    mt "Какая еще у него там Элизабет?!"
+    mt "Он должен был любить только меня!"
     # эскортница садится на кровать и начинает ласкать себя
     fadeblack
     sound highheels_short_walk
@@ -1088,12 +1102,6 @@ label ep217_dialogues1_escort_4:
     sound drkanje5
     imgd 41126
     w
-    sound drkanje5
-    imgd 41125
-    w
-    sound drkanje5
-    imgd 41126
-    w
     sound hlup25
     img 41127 vpunch
     w
@@ -1105,6 +1113,8 @@ label ep217_dialogues1_escort_4:
         "Ласкать Адриано грудями.":
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             # он трогает груди Моники
+            fadeblack 1.5
+            music Loved_Up
             imgf 41130
             w
             imgd 41131
@@ -1130,12 +1140,56 @@ label ep217_dialogues1_escort_4:
             m "Да, Мистер..."
             # Моника обхватывает грудями член Адриано
             # начинает водить ими по члену туда-сюда
+
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Adriano_Titjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_1= Movie(play="video/v_Monica_Adriano_Titjob1_1.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41149
             adriano "Ммммм, Моника!"
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_2= Movie(play="video/v_Monica_Adriano_Titjob1_2.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_2
+            with fade
             adriano "О твоей восхитительной груди мечтает любой мужчина..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 41150
             adriano "А ты ласкаешь ею мой член..."
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_3= Movie(play="video/v_Monica_Adriano_Titjob1_3.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_3
+            with fade
             adriano "Моя Моника никогда бы на такое не согласилась."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41151
             adriano "Ммммм..."
             adriano "О такой шикарной женщине, как она, можно только мечтать!"
@@ -1149,23 +1203,35 @@ label ep217_dialogues1_escort_4:
             w
             sound drkanje5
             imgd 41153
-            w
-            sound drkanje5
-            imgd 41152
-            w
-            sound drkanje5
-            imgd 41153
-            w
-            sound drkanje5
-            imgd 41152
-            w
-            sound drkanje5
-            imgd 41153
             adriano "А такую, как ты, можно купить и трахнуть."
             imgf 41154
             adriano "Оооо..."
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_4= Movie(play="video/v_Monica_Adriano_Titjob1_4.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_4
+            with fade
             adriano "И представлять, что ты - это ОНА!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_5= Movie(play="video/v_Monica_Adriano_Titjob1_5.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_5
+            with fade
             adriano "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
             imgd 41148
             w
             imgf 41144
@@ -1173,6 +1239,8 @@ label ep217_dialogues1_escort_4:
             pass
         "Минет.":
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
+            fadeblack 1.5
+            music Loved_Up
             imgf 41130
             w
             imgd 41131
@@ -1207,17 +1275,13 @@ label ep217_dialogues1_escort_4:
             sound drkanje5
             imgd 41135
             w
+            fadeblack 1.5
+            music Loved_Up
+            imgd 41137
+            w
             imgf 41136
             adriano "Моя Моника никогда бы на такое не согласилась."
             adriano "Ммммм..."
-            imgd 41137
-            w
-            sound lick3
-            imgd 41138
-            w
-            sound lick3
-            imgd 41137
-            w
             sound lick3
             imgd 41138
             w
@@ -1235,15 +1299,147 @@ label ep217_dialogues1_escort_4:
             w
             imgd 41139
             adriano "О такой шикарной женщине, как она, можно только мечтать!"
+            adriano "Но ты - не она, потому заканчивай играться возьми мой член в рот как следует!"
             sound chpok6
             img 41140 hpunch
             adriano "Даааа..."
+
+
+            #1
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Adriano_Blowjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_1= Movie(play="video/v_Monica_Adriano_Blowjob1_1.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_1
+            with fade
             adriano "А такую, как ты, можно купить и трахнуть."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
+
             imgf 41141
+            w
+
+            #2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_2= Movie(play="video/v_Monica_Adriano_Blowjob1_2.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_2
+            with fade
             adriano "Оооо..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #3
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_3= Movie(play="video/v_Monica_Adriano_Blowjob1_3.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_3
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #4
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_4= Movie(play="video/v_Monica_Adriano_Blowjob1_4.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_4
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 41142
+            w
+
+            #5
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_5= Movie(play="video/v_Monica_Adriano_Blowjob1_5.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_5
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #6
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_6= Movie(play="video/v_Monica_Adriano_Blowjob1_6.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_6
+            with fade
             adriano "И представлять, что ты - это ОНА!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #7
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_7= Movie(play="video/v_Monica_Adriano_Blowjob1_7.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_7
+            with fade
             adriano "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #8
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_8= Movie(play="video/v_Monica_Adriano_Blowjob1_8.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_8
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #9
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_9= Movie(play="video/v_Monica_Adriano_Blowjob1_9.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_9
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41143
             w
             imgd 41144
@@ -1255,7 +1451,8 @@ label ep217_dialogues1_escort_4:
     music Loved_Up
     imgfl 41155
     adriano "Мммм... Моника..."
-    imgf 41156
+    sound Jump1
+    imgd 41156
     w
     imgd 41157
     w
@@ -1295,7 +1492,7 @@ label ep217_dialogues1_escort_4:
     imgd 41164
     adriano "Шире..."
     # раздвигает шире
-    sound Jump2
+    sound Jump1
     imgd 41165
     adriano "Да, так..."
     imgf 41166
@@ -1370,20 +1567,166 @@ label ep217_dialogues1_escort_4:
     # входит в нее, та продолжает отлизывать у Моники
     imgd 41181
     adriano "А потом я овладею тобой..."
-    imgd 41182
+    img 41182
     mt "Фу! Какая мерзость!"
     # трахает эскортницу, а сам смотрит на Монику
+    fadeblack 1.5
+    music Loved_Up2
     sound chpok6
     img 41183 vpunch
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_1
+    with fade
     adriano "Сколько бессоных ночей я провел, мечтая о моей снежной королеве!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41184
+    w
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_3
+    with fade
     adriano "Я знаю, она никогда не согласилась бы на подобные вещи..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_5
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41185
+    w
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_6.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_6
+    with fade
     adriano "Она неприступна и столь желанна!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41186
+    w
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_8
+    with fade
     adriano "Мне повезло, что я встретил эскортницу так похожую на нее!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 41187
+    w
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_9= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_9.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_9
+    with fade
     adriano "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_10= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_10.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_10
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgf 41188
     adriano "Все достаточно!"
     sound snd_slap1
@@ -1395,7 +1738,9 @@ label ep217_dialogues1_escort_4:
     fadeblack 2.0
     music Groove2_85
     imgfl 41191
-    adriano "Продолжай ласкать себя..."
+#    adriano "Продолжай ласкать себя..."
+    adriano "А теперь, Элизабет, ты хорошенько вылижешь мой зад."
+    adriano "Жаль что я не могу сказать это настоящей Элизабет, но сойдет и так."
     imgf 41192
     adriano "А ты, Моника, иди ко мне..."
     # Моника смотрит на него и не двигается
@@ -1448,7 +1793,9 @@ label ep217_dialogues1_escort_4:
     imgd 41204
     adriano "А почему ты этим интересуешься?"
     adriano "Ты, наверное, хочешь вертеться вокруг меня, как все остальные шлюхи?"
-    img 41205
+
+    music Groove2_85
+    img 41205 vpunch
     m "..."
     mt "Грубиян!"
     menu:
@@ -1458,6 +1805,9 @@ label ep217_dialogues1_escort_4:
     mt "Думаю, лучше всего сделать так, чтобы он ко мне еще раз сюда пришел..."
     mt "А я его встречу в ресторане как Моника Бакфетт."
     mt "Или перед отелем... Будто бы случайно..."
+
+    fadeblack 1.5
+    music Loved_Up
     imgd 41208
     m "А вы часто ужинаете в ресторане отеля Ле Гранд?"
     imgf 41206
@@ -1468,6 +1818,7 @@ label ep217_dialogues1_escort_4:
     adriano "Моей Монике."
     # он укладывает Монику на спину и раздвигает ей ноги
     # пристраивает член к ее киске
+    music Groove2_85
     img 41209
     mt "Твою мать!"
     menu:
@@ -1478,35 +1829,161 @@ label ep217_dialogues1_escort_4:
     mt "Я должна с ним встретиться, не в роли [monica_hotel_name]."
     mt "Я должна с ним поговорить!"
     # он вводит в нее член
+    fadeblack 1.5
+    music Loved_Up
     imgf 41211
     m "Мистер, а вы посещаете все модные мероприятия этого города?"
     sound chpok6
     img 41212 vpunch
     adriano "Оооо..."
     # начинает двигаться в ней
+    music Loved_Up2
     imgf 41213
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_1
+    with fade
     adriano "Не все... У меня нет столько свободного времени..."
     adriano "Ооо, как же хорошо!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgd 41214
     adriano "Ты слишком много болтаешь..."
     adriano "И отвлекаешь меня..."
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_2
+    with fade
     adriano "Помолчи, я хочу представлять, что я занимаюсь любовью с Моникой..."
     adriano "А не трахаю болтливую шлюху, которая похожа на нее."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 41215
     mt "Вот скотина!"
     mt "!!!"
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_3
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41216
+    w
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_4
+    with fade
     adriano "Дааа, Моника!!!"
     adriano "Оооо!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41217
+    adriano "Элизабет, лижи мою задницу поактивнее!"
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_5
+    with fade
+    adriano "Моника!"
     adriano "Моя снежная королева!"
     adriano "Я не верю, что я, наконец-то, овладел твоим прекрасным телом!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41218
     adriano "Я так мечтал об этом!"
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_6.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_6
+    with fade
     adriano "Моя Моника!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41219
+    w
+
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_7
+    with fade
     adriano "Самая прекрасная женщина на свете!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_8
+    with fade
     adriano "Ммммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     # он выходит из нее
     # ложится на спину, а Монику тянет на себя
     imgd 41220
@@ -1520,7 +1997,9 @@ label ep217_dialogues1_escort_4:
     adriano "Хочу видеть твое лицо."
     # Моника садится сверху него, пытается засунуть в себя его член, у нее не получается
     imgd 41223
-    w
+    menu:
+        "Сесть на член Адриано.":
+            pass
     fadeblack 2.0
     music Loved_Up
     imgfl 41224
@@ -1544,21 +2023,181 @@ label ep217_dialogues1_escort_4:
     img 41231 vpunch
     adriano "Да, вот так!"
     imgf 41232
-    w
+    adriano "Давай, Элизабет! Ласкай себя!"
+    adriano "Покажи как ты меня хочешь!"
     imgd 41233
     adriano "Двигайся..."
     # Моника начинает двигаться на нем
+
+    fadeblack 1.5
     music Loved_up2
     imgf 41234
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex3_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_2
+    with fade
+    girl_3 "О, Мистер! Как же я хочу вас!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_3
+    with fade
     adriano "Еще-еще..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41235
+    w
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_4
+    with fade
     adriano "Какая ты красивая!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_5
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 41236
+    w
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_6
+    with fade
     adriano "Хочу запомнить этот момент..."
-    imgd 41237
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_7
+    with fade
     adriano "Оооох..."
-    imgd 41238
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 41237
+    w
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_9= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_9.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_9
+    with fade
+    girl_3 "О, Мистер! Как же я хочу вас!"
+    girl_3 "Как же я вас хочу!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_10= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_10.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_10
+    with fade
     adriano "Ммммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 41238
+    girl_3 "Мистер, я изнемогаю как хочу вас!"
+    girl_3 "Вы не можете себе этого представить!"
+
+    #11
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_11= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_11.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_11
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41239
     adriano "О, Моооника..."
     adriano "Кончаааюю..."
@@ -1606,7 +2245,7 @@ label ep217_dialogues1_escort_4:
             pass
         "Кончить в рот Моники.":
             $ ep217_escortscene8_cumzone = 3
-            imgd 41239
+#            imgd 41239
             adriano "Возьми мой член в рот!"
             adriano "Быстро!!!"
             # Моника выполняет, он кончает
@@ -1641,9 +2280,15 @@ label ep217_dialogues1_escort_4:
                     pass
                 "Проглотить.":
                     # Моника проглатывает
-                    $ add_corruption(10, "escort8_spermgulp")
                     imgf 41249
+                    w
                     sound snd_gulp
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
+                    w
+                    $ add_corruption(10, "escort8_spermgulp")
                     mt "ФУУУУ!"
                     mt "Отвратительно!!"
                     mt "Меня сейчас стошнит!!!"
@@ -1651,7 +2296,7 @@ label ep217_dialogues1_escort_4:
                     pass
         "Кончить на лицо Моники.":
             $ ep217_escortscene8_cumzone = 4
-            imgd 41239
+#            imgd 41239
             adriano "Подставь свое лицо!"
             adriano "Быстро!!!"
             # Моника выполняет, он кончает
@@ -1681,7 +2326,7 @@ label ep217_dialogues1_escort_4:
     pass
     # затемнение, шуршание одежды
     # Адриано и девочки стоят одетые возле кровати
-    fadeblack
+    fadeblack 1.5
     sound snd_fabric1
     pause 2.0
     music Groove2_85
@@ -1780,7 +2425,7 @@ label ep217_dialogues1_escort_4:
     candice "Ага. Теперь я тебя буду звать Моника. Хи-хи..."
     music stop
     sound plastinka1b
-    img 41104
+    img 41104 vpunch
     m "!!!"
     m "Нет! Я [monica_hotel_name]. Это мое имя!"
     m "Не называй меня Моникой!"
@@ -1949,6 +2594,7 @@ label ep217_dialogues1_escort_6:
         imgd 30112
         # дает Монике деньги
         $ add_money(350.0)
+        w
         imgf 30113
         reception "Он сказал, что обязательно вернется снова."
         reception "И что именно ты ему очень понравилась."
