@@ -4,6 +4,7 @@ default monicaAdrianoEscortHotel3 = 0 # Моника притворилась э
 default monicaAdrianoEscortHotel4 = 0 # Моника согласилась на тройничок с Адриано
 default monicaAdrianoEscortHotel5 = 0 # Моника пришла к Кэндис и Эбби на девичник
 default monicaAdrianoEscortHotel6 = 0 # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
+default ep217_monica_ask_tips = False
 
 default ep217_dialogues1_escort_10menu1 = False
 default ep217_dialogues1_escort_10menu2 = False
@@ -2344,6 +2345,7 @@ label ep217_dialogues1_escort_4:
     mt "Он обязан заплатить за это вдвое больше чаевых!"
     menu:
         "Попросить у клиента дополнительные чаевые.":
+            $ ep217_monica_ask_tips = True
             imgf 41089
             m "Мистер..."
             m "Раз я на кого-то похожа... И вам все понравилось..."
@@ -2629,7 +2631,7 @@ label ep217_dialogues1_escort_7:
     mt "Эти никчемные эскортницы-проститутки придумали план, как вышвырнуть сучку администраторшу с ее места."
     mt "Моника, ты не можешь пропустить такое!"
     mt "Ты должна все узнать!"
-    $ log1 = _("АПАРТАМЕНТЫ КЭНДИС")
+#    $ log1 = _("АПАРТАМЕНТЫ КЭНДИС")
     return
 
 # если хочет пойти к эскортнице в любой другой одежде, кроме красного платья
@@ -2646,13 +2648,21 @@ label ep217_dialogues1_escort_9:
     mt "Интересно, что эти две бесполезные особы придумали?"
     return
 
+label ep217_dialogues1_escort_9b:
+    mt "Не думаю что мне стоит сейчас идти к Кэндис."
+    mt "Вдруг это закончится снова нелепым девичником..."
+    mt "А леди такого высокого положения как Я, не подобает участвовать в подобных мероприятиях с дамами легкого поведения."
+    return
+
 # квартира Кэндис
 label ep217_dialogues1_escort_10:
     # затемнение, стук в дверь, каблуки
     # Моника заходит в квартиру к эскортнице
     # ее встречает Кэндис, шатенка с хвостом
     $ monicaAdrianoEscortHotel5 = day # Моника пришла к Кэндис и Эбби на девичник
-    fadeblack
+    fadeblack 1.0
+    sound highheels_run2
+    fadeblack 2.0
     sound snd_door_knock
     pause 1.5
     sound highheels_short_walk
@@ -2774,6 +2784,7 @@ label ep217_dialogues1_escort_10:
     menu:
         "Выпить виски.":
             pass
+    $ ep217_party_whiskey_counter_list.append(1)
     imgd 41277
     m "Только совсем немного..."
     # затемнение, каблуки, льется алкоголь в бокал
@@ -2849,6 +2860,7 @@ label ep217_dialogues1_escort_10:
             mt "Что за гадость?!"
             mt "И я доджна пить это низкосортное пойло?!"
             mt "Какой кошмар!"
+            $ ep217_party_whiskey_counter_list.append(2)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2954,8 +2966,17 @@ label ep217_dialogues1_escort_10:
             imgd 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(3)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3018,8 +3039,17 @@ label ep217_dialogues1_escort_10:
             imgf 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(4)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3034,6 +3064,7 @@ label ep217_dialogues1_escort_10:
     imgfl 41325
     abby "Ой, достали эти гребанные колготки"
     imgf 41326
+    sound snd_fabric1
     abby "Минутку, девочки. Я их подтяну."
     imgd 41327
     w
@@ -3121,8 +3152,17 @@ label ep217_dialogues1_escort_10:
             imgf 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(5)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3158,12 +3198,15 @@ label ep217_dialogues1_escort_10:
             imgf 41295
             sound bottle1
             w
+            $ drinked = False
             menu:
                 "Выпить еще немного виски.": # счетчик виски + 1
                     # Моника морщится
                     imgd 41297
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
+                    $ ep217_party_whiskey_counter_list.append(6)
+                    $ drinked = True
                     pass
                 "Не пить.":
                     music Hidden_Agenda
@@ -3175,8 +3218,16 @@ label ep217_dialogues1_escort_10:
             imgf 41346
             sound snd_drinking_water
             w
-            imgd 41347
-            w
+            if drinked == True:
+                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                imgd 41347
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41347
+                w
             $ ep217_dialogues1_escort_10menu1 = True
             jump ep217_dialogues1_escort_10_loop1
         "А как он выглядит?":
@@ -3203,12 +3254,15 @@ label ep217_dialogues1_escort_10:
             imgf 41314
             sound bottle1
             w
+            $ drinked = False
             menu:
                 "Выпить еще немного виски.": # счетчик виски + 1
                     # Моника морщится
                     imgd 41352
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
+                    $ ep217_party_whiskey_counter_list.append(7)
+                    $ drinked = True
                     pass
                 "Не пить.":
                     music Hidden_Agenda
@@ -3220,8 +3274,17 @@ label ep217_dialogues1_escort_10:
             imgf 41353
             sound snd_drinking_water
             w
-            imgd 41354
-            w
+            if drinked == True:
+                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                imgd 41354
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+
+                imgd 41354
+                w
             $ ep217_dialogues1_escort_10menu3 = True
             jump ep217_dialogues1_escort_10_loop1
         "Как вы планируете рассказать ему правду, если даже не знаете его?" if ep217_dialogues1_escort_10menu1 == True and ep217_dialogues1_escort_10menu2 == True and ep217_dialogues1_escort_10menu3 == True:
@@ -3229,7 +3292,11 @@ label ep217_dialogues1_escort_10:
     music Groove2_85
     imgf 41355
     m "Как вы планируете рассказать ему правду, если даже не знаете его?"
+    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+    with diss
     abby "Хороший вопрос... Ик! Я еще не придумала, как, но я это сделаю!"
+    $ blur_effect = 0
+    with diss
     abby "Кэндис, есть еще виски?"
     candice "Да, сейчас..."
     menu:
@@ -3242,11 +3309,15 @@ label ep217_dialogues1_escort_10:
             imgf 41321
             sound snd_drinking_water
             w
+            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41322
             mt "Черт! Кажется, он был лишним..."
             mt "Какая-то путанница в голове..."
             mt "И голова кружится..."
+            $ blur_effect = 0
+            with diss
             mt "..."
+            $ ep217_party_whiskey_counter_list.append(8)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3283,6 +3354,7 @@ label ep217_dialogues1_escort_10:
     imgf 41360
     candice "Давайте еще виски?"
     abby "Давай!"
+    $ drinked = False
     menu:
         "Выпить еще немного виски.": # счетчик виски + 1
             # Моника морщится
@@ -3291,6 +3363,8 @@ label ep217_dialogues1_escort_10:
             mt "О Боже, ну сколько можно?!"
             mt "В меня уже не лезет эта гадость!!!"
             mt "!!!"
+            $ drinked = True
+            $ ep217_party_whiskey_counter_list.append(9)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3302,8 +3376,11 @@ label ep217_dialogues1_escort_10:
     imgf 41362
     sound snd_drinking_water
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41363
     w
+    $ blur_effect = 0
     fadeblack 1.5
     music Groove2_85
     imgfl 41364
@@ -3325,6 +3402,7 @@ label ep217_dialogues1_escort_10:
     mt "..."
     menu:
         "Рассказать про семейную пару.":
+            $ candisePartyStory = 1
             music Groove2_85
             imgf 41367
             m "Однажды администраторша отправила меня в номер к клиенту."
@@ -3340,12 +3418,17 @@ label ep217_dialogues1_escort_10:
             m "Это постоянный клиент этой... Как ее? Миранды!"
             m "Она тогда сказала его жене-истеричке, что он мой клиент."
             m "Ненавижу ее! Ик!"
+            $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41370
+            w
+            $ blur_effect = 0
+            with diss
             abby "Вот сука!"
             abby "Она и Линда - две змеи!"
             abby "Я тоже ненавижу этих гадюк!"
             pass
         "Рассказать про футфетишиста.":
+            $ candisePartyStory = 2
             music Groove2_85
             imgf 41367
             m "Как-то администраторша решила дать мне самого проблемного клиента эскорта."
@@ -3374,6 +3457,7 @@ label ep217_dialogues1_escort_10:
             candice "Вот извращенец! Хи-хи-хи!"
             pass
         "Рассказать про выезд к клиенту Нэду.":
+            $ candisePartyStory = 3
             music Groove2_85
             imgf 41367
             m "У меня был всего один выезд к клиенту..."
@@ -3391,7 +3475,7 @@ label ep217_dialogues1_escort_10:
             m "Да, в итоге он выиграл спор. Никто не догадался из его друзей..."
             m "Но потом он им все рассказал..."
             # если Моника занималась сексом с Дэниелем, Марти и Нэдом
-            if monicaEscortNed2 == True:
+            if monicaEscortNed2 == True or 1==1:
                 imgd 41369
                 m "И мне пришлось работать с ними."
                 m "Притом администраторша сказала им, что чем больше клиентов я обслужу..."
@@ -3405,19 +3489,25 @@ label ep217_dialogues1_escort_10:
                 m "Не сразу, по очереди..."
                 imgf 41376
                 abby "А сколько их было?"
+
                 menu:
                     "Сказать правду.":
+                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Трое..."
+                        $ blur_effect = 0
                         imgf 41378
                         candice "Ну это еще нормально..."
                         candice "Тебе повезло, что их было всего трое..."
                         candice "А не шестеро, как у меня однажды."
+                        $ ep217_party_answerTrue = 1
                         pass
                     "Соврать.":
                         music Hidden_Agenda
+                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Десять!"
+                        $ blur_effect = 0
                         img 41379
                         candice "Серьезно?!"
                         abby "Охренеть! И ты со всеми отработала?!"
@@ -3428,13 +3518,18 @@ label ep217_dialogues1_escort_10:
                         mt "Ужас какой!"
                         mt "Что за чушь ты несешь, Моника?!"
                         mt "!!!"
+                        $ ep217_party_answerTrue = -1
                         pass
                         #
             pass
     # уже пьяная Кэндис задумчиво
     fadeblack 1.5
     music Groove2_85
+    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
     imgfl 41380
+    w
+    $ blur_effect = 0
+    with diss
     candice "Да, девочки..."
     candice "Нелегкая у нас с вами работа..."
     abby "Это точно, подруга!"
@@ -3450,15 +3545,21 @@ label ep217_dialogues1_escort_10:
     abby "К тому козлу, который трахнул меня бутылкой, отправлю Миранду!"
     abby "А Линду к тому, который трахается в женской одежде!"
     abby "Наливай! Выпьем за это! Скоро все изменится, девочки!"
+    $ drinked = False
     menu:
         "Выпить еще немного виски.": # счетчик виски + 1
             # Моника морщится
+            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             sound pour_wine
             imgd 41384
             m "Ик!"
             mt "Не такое уж это пойло и гадкое..."
             mt "Достаточно приятный вкус..."
+            $ blur_effect = 0
+            with diss
             mt "..."
+            $ ep217_party_whiskey_counter_list.append(10)
+            $ drinked = True
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -3470,7 +3571,12 @@ label ep217_dialogues1_escort_10:
     sound snd_drinking_water
     imgf 41346
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41347
+    w
+    $ blur_effect = 0
+    with diss
     w
     music Groove2_85
     imgf 41316
@@ -3501,7 +3607,10 @@ label ep217_dialogues1_escort_10:
     imgd 41387
     m "Нет!"
     abby "Спорим?"
+    if drinked == True:
+        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
     m "Ик!"
+    $ blur_effect = 0
     fadeblack 1.5
     music Road_Trip
     imgfl 41388
@@ -3525,8 +3634,12 @@ label ep217_dialogues1_escort_10:
     w
     imgf 41395
     candice "Эбби, нет! Надо не так танцевать стриптиз!"
+    if drinked == True:
+        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+        with diss
     candice "Я сейчас тебе покажу, как надо!"
     candice "Подвинься!"
+    $ blur_effect = 0
     # Кэндис тоже танцует и раздевается
     # Моника пьяная смотрит на все это и офигевает
     imgd 41396
@@ -3541,14 +3654,19 @@ label ep217_dialogues1_escort_10:
     w
     imgf 41400
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41401
     m "Ик!"
+    $ blur_effect = 0
+    with diss
     m "..."
+    w
     imgf 41402
     mt "Твою мать, что они тут устроили?!"
     mt "Двигаются, как два бревна!"
     # если Моника работает или работала стриптизершей в пабе
-    if ep29_quests_pub_forgiveness_dancing_quest_in_progress == True:
+    if ep29_quests_pub_forgiveness_dancing_quest_in_progress == True or monica_shiny_hole_queen_day > 0:
         #
         $ notif(_("Моника танцевала стриптиз в Shiny Hole."))
         #
@@ -3561,7 +3679,12 @@ label ep217_dialogues1_escort_10:
     mt "Моника, до чего ты докатилась!"
     mt "Пришла в гости к проституткам, пьешь с ними, притворяешься такой же, как они!"
     mt "Ты еще танцевать стриптиз их научи!"
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        with diss
     mt "Ик! Черт! Мне не следовало пить виски на голодный желудок..."
+    $ blur_effect = 0
+    with diss
     mt "..."
     # девочки в это время раздеваются догола и зовут Монику приоединиться к ним
     music Road_Trip
@@ -3570,11 +3693,17 @@ label ep217_dialogues1_escort_10:
     candice "Тут для тебя хватит места!"
     abby "Да, пойдем!"
     abby "Покажи, как ты танцуешь!"
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41405
     m "Ик!"
+    $ blur_effect = 0
+    with diss
     m "..."
     menu:
-        "Залезть на стол и танцевать.": # пункт доступен при количестве выпитого виски не меньше 7
+        "Залезть на стол и танцевать. (Моника слишком трезвая) (disabled)" if len(list(set(ep217_party_whiskey_counter_list))) < 10:
+            pass
+        "Залезть на стол и танцевать." if len(list(set(ep217_party_whiskey_counter_list))) >= 10: # пункт доступен при количестве выпитого виски не меньше 7
             $ monicaAdrianoEscortHotel6 = day # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
             pass
         "Отказаться и уйти.":
@@ -3610,7 +3739,7 @@ label ep217_dialogues1_escort_10:
     imgd 41406
     mt "Надо показать этим пьяным дурам, что такое настоящий стриптиз!"
     # если Моника стала королевой в пабе
-    if monicaMollyBattle4 == True:
+    if monica_shiny_hole_queen_day > 0:
         #
         $ notif(_("Моника выиграла баттл с Молли и стала Королевой Shiny Hole."))
         #
@@ -3624,9 +3753,13 @@ label ep217_dialogues1_escort_10:
     mt "Они будут в шоке от меня!"
     mt "!!!"
     # Моника встает, пьяная лезет на стол
-    music Road_Trip
+    music Turbo_Tornado
+    $ blur_effect = 2
     imgf 41411
     m "Подвиньтесь!"
+    $ blur_effect = 0
+    with diss
+    w
     imgd 41412
     candice "Давай, [monica_hotel_name]! Танцуй!"
     abby "Дааа!!!"
@@ -3645,11 +3778,12 @@ label ep217_dialogues1_escort_10:
     img 41418 vpunch
     w
     img 41419
-    abby "Ой, кажется разбила!"
-    fadeblack
     sound snd_bottle_break
+    abby "Ой, кажется разбила!"
+    img black_screen
+    with diss
     pause 2.0
-    music Road_Trip
+#    music Turbo_Tornado
     # начинают танцевать вместе
     # Моника скидывает с себя платье, делает какое-нибудь движение из танца
     # и после этого, распрямляясь, ударяется головой об плафон, который висит над столом
@@ -3657,28 +3791,45 @@ label ep217_dialogues1_escort_10:
     w
     sound snd_far_hit
     img 41421 hpunch
+    w
+    img black_screen
+    stop music
+    music stop
+    sound down9
     m "ЧЕЕЕЕРТ!!!"
     m "Гребаная лампа!"
     # гаснет свет
-    fadeblack
-    sound down9
-    pause 1.5
+#    pause 1.5
     candice "Ой, девочки! Кажется, предохранитель сработал..."
     sound snd_bodyfall
     pause 1.5
     abby "Твою же мать! Ничего не вижу!"
     sound snd_bottle_break
     pause 2.0
+    sound snd_folder_drop
+    pause 1.0
+    sound snd_heavy_papers_drop
+    pause 1.5
+    sound snd_bottle_break
+    pause 2.0
+    sound snd_bodyfall
+    pause 2.0
     # грохот, кто-то упал со стола, возня
     # занавес
-    return
+    return True
 
 # после девичника у Кэндис затемнение
 # Моника стоит на улице, мысли (глазик)
+label ep217_dialogues1_escort_11a:
+    mt "Кандис сказала что девочки собираются [вечером]."
+    return
 label ep217_dialogues1_escort_11:
     ## не рендерить!!
-    mt "Как же болит голова!"
-    mt "Мне не следовало пить это жуткое дешевое пойло!"
+    if len(list(set(ep217_party_whiskey_counter_list))) >= 6:
+        $ blur_effect = 1
+        mt "Как же болит голова!"
+        mt "Мне не следовало пить это жуткое дешевое пойло!"
+        $ blur_effect = 0
     mt "Такая леди, как Я, не привыкла к такому!"
     # если танцевала и ударилась головой
     if monicaAdrianoEscortHotel6 == day:
@@ -3766,12 +3917,14 @@ label ep217_dialogues1_escort_12a:
 
 # клик на админшу, если был девичник
 label ep217_dialogues1_escort_13:
-    mt "Хм... Теперь я знаю, что эта сучка-администраторша..."
-    mt "Всего лишь бывшая шлюха!"
-    mt "К тому же обманщица!"
-    mt "Я найду способ поставить ее на место!"
-    mt "Мерзкая стерва!"
-    mt "Ненавижу ее!"
-    mt "Всех ненавижу!"
-    mt "!!!"
+    if act=="l":
+        mt "Хм... Теперь я знаю, что эта сучка-администраторша..."
+        mt "Всего лишь бывшая шлюха!"
+        mt "К тому же обманщица!"
+        mt "Я найду способ поставить ее на место!"
+        mt "Мерзкая стерва!"
+        mt "Ненавижу ее!"
+        mt "Всех ненавижу!"
+        mt "!!!"
+        return False
     return

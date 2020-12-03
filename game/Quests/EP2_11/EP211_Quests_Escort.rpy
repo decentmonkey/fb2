@@ -118,6 +118,17 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
         call ep215_dialogues3_escort_22() from _rcall_ep215_dialogues3_escort_22
         call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_163
         return False
+    if monicaCandiseHotelMeetingPlanned == True:
+        $ monicaCandiseHotelMeetingPlanned = False
+        call ep217_dialogues1_escort_12()
+        call change_scene("rich_hotel_restaurant", "Fade_long")
+        return False
+    if monicaAbbyHotelMeetingPlanned == True:
+        $ monicaAbbyHotelMeetingPlanned = False
+        call ep217_dialogues1_escort_12a()
+        call change_scene("rich_hotel_restaurant", "Fade_long")
+        return False
+
     if ep214_dialogues3_escort_10_flag1 == True:
         $ ep214_dialogues3_escort_10_flag1 = False
         call ep214_dialogues3_escort_10() from _rcall_ep214_dialogues3_escort_10
@@ -136,10 +147,16 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
             call ep212_dialogues3_escort_hotel_7_3() from _rcall_ep212_dialogues3_escort_hotel_7_3
         else:
             call ep210_dialogues7_escort_hotel_8a2() from _rcall_ep210_dialogues7_escort_hotel_8a2
-    if rnd1 == 2:
-        call ep210_dialogues7_escort_hotel_8b() from _rcall_ep210_dialogues7_escort_hotel_8b
-    if rnd1 == 3:
-        call ep210_dialogues7_escort_hotel_8c() from _rcall_ep210_dialogues7_escort_hotel_8c
+    if rnd1 == 2: # abby
+        if monicaKnowsCandise == True:
+            call ep217_dialogues1_escort_12a()
+        else:
+            call ep210_dialogues7_escort_hotel_8b() from _rcall_ep210_dialogues7_escort_hotel_8b
+    if rnd1 == 3: # candise
+        if monicaKnowsCandise == True:
+            call ep217_dialogues1_escort_12()
+        else:
+            call ep210_dialogues7_escort_hotel_8c() from _rcall_ep210_dialogues7_escort_hotel_8c
     if rnd1 == 4:
         if ep215_quests_linda_restaurant_dialogue_day > 0:
             call ep215_dialogues3_escort_22()

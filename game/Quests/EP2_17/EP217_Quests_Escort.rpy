@@ -1,4 +1,9 @@
 default ep217_quests_escort2_check_start_party_flag = False
+default candiseApartmentsStage = 0
+default ep217_party_day = 0
+default ep217_party_monica_danced = False
+default ep217_party_whiskey_counter_list = []
+default monicaKnowsCandise = False
 
 label ep217_quests_escort1:
     call ep217_dialogues1_escort_2()
@@ -52,7 +57,6 @@ label ep217_quests_escort1a:
         $ questHelp("escort_15", True)
         $ questHelp("escort_16", True)
         if ep217_quests_escort2_check_start_party_flag == False:
-            $ autorun_to_object("ep217_dialogues1_escort_7", scene="street_rich_hotel")
             call ep217_quests_escort2_init_party()
 #            $ enter_scene("ep217_quests_escort2_check_start_party")
         call ep217_dialogues1_escort_5a()
@@ -77,8 +81,60 @@ label ep217_quests_escort2_init_party:
     if ep217_quests_escort2_check_start_party_flag == True:
         return
     $ ep217_quests_escort2_check_start_party_flag = True
-    m "init party!"
+    $ autorun_to_object("ep217_dialogues1_escort_7", scene="street_rich_hotel")
+    $ map_objects["Teleport_Candise_Apartments"] = {"text" : t_("АПАРТАМЕНТЫ КЭНДИС"), "xpos" : 897, "ypos" : 965, "base" : "map_marker", "state" : "visible"}
+
 #    "Пойти на девичник к Кэндис и Эбби."
     $ questHelp("escort_17", skipIfTrue=True)
-    $ remove_hook()
+    $ candiseApartmentsStage = 0
+    $ add_hook("map_teleport", "ep217_quests_escort3_teleport_candise", scene="global", label="escort_candise_teleport")
     return
+
+label ep217_quests_escort3_teleport_candise:
+    if obj_name != "Teleport_Candise_Apartments":
+        return
+    if candiseApartmentsStage == 0:
+        if cloth != "CasualDress1":
+            call ep217_dialogues1_escort_8()
+            return False
+        if day_time != "evening":
+            call ep217_dialogues1_escort_11a()
+            return False
+
+        $ ep217_party_whiskey_counter_list = []
+        call ep217_dialogues1_escort_9()
+        call ep217_dialogues1_escort_10()
+        if _return == False:
+            pass
+        else:
+            $ ep217_party_monica_danced = True
+
+        $ add_hook("Visitor1", "ep217_quests_escort4_candice_after", scene="rich_hotel_restaurant", label="candise_after_candise")
+        $ add_hook("Visitor4", "ep217_quests_escort5_abby_after", scene="rich_hotel_restaurant", label="abby_after_candise")
+
+        $ questHelp("escort_17", True)
+        $ autorun_to_object("ep217_dialogues1_escort_11", scene="street_house_outside")
+        $ ep217_party_day = day
+        $ candiseApartmentsStage = 1
+        $ monicaKnowsCandise = True
+        $ monicaCandiseHotelMeetingPlanned = True
+        $ monicaAbbyHotelMeetingPlanned = True
+        $ add_hook("ReceptionGirl", "ep217_dialogues1_escort_13", scene="rich_hotel_reception", label="reception_administrator_after_candise")
+        $ map_source_scene = "street_house_outside"
+        call map_close()
+        fadeblack 3.0
+        call process_change_map_location("House")
+        call change_scene("street_house_outside", "Fade_long")
+        return False
+    if candiseApartmentsStage == 1:
+        call ep217_dialogues1_escort_9b()
+        return False
+    return False
+
+label ep217_quests_escort4_candice_after:
+    call ep217_dialogues1_escort_12()
+    return False
+
+label ep217_quests_escort5_abby_after:
+    call ep217_dialogues1_escort_12a()
+    return False
