@@ -4,9 +4,9 @@ default monicaBettyLiamFred3 = 0 # Бетти согласилась на сек
 
 default monicaBettyLiamVisit3_cumzone1 = 0
 
-default v_Betty_Neighbour_Blowjob2_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Betty_Neighbour_Sex2_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Betty_Neighbour_Fred_Sex1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Betty_Neighbour_Blowjob2_1_sound_name = "v_Betty_Neighbour_Blowjob2_1"
+default v_Betty_Neighbour_Sex2_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+default v_Betty_Neighbour_Fred_Sex1_1_sound_name = "v_Betty_Neighbour_Fred_Sex1_1"
 
 #call ep217_dialogues3_betty_1() # Бетти пошла к соседу забирать свой утюг
 #call ep217_dialogues3_betty_2() # Бетти секс с Фредом и соседом

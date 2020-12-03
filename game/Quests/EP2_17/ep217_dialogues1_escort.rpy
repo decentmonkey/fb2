@@ -17,11 +17,11 @@ define monicaAdrianoEscortCorruptionRequired4 = 790 # Моника прогло�
 
 default ep217_escortscene8_cumzone = 0
 
-default v_Monica_Adriano_Titjob1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Monica_Adriano_Blowjob1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Monica_Adriano_Visitor1_Sex1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Monica_Adriano_Visitor1_Sex2_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-default v_Monica_Adriano_Visitor1_Sex3_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+default v_Monica_Adriano_Titjob1_1_sound_name = "v_Monica_Adriano_Titjob1_1"
+default v_Monica_Adriano_Blowjob1_1_sound_name = "v_Monica_Adriano_Blowjob1_1"
+default v_Monica_Adriano_Visitor1_Sex1_1_sound_name = "v_Monica_Adriano_Visitor1_Sex1_1"
+default v_Monica_Adriano_Visitor1_Sex2_1_sound_name = "v_Monica_Adriano_Visitor1_Sex2_1"
+default v_Monica_Adriano_Visitor1_Sex3_1_sound_name = "v_Monica_Adriano_Visitor1_Sex3_1"
 
 #call ep217_dialogues1_escort_1() # Моника сидит за столиком в ресторане, разговор с официанткой
 #call ep217_dialogues1_escort_2() # Моника пришла на ресепшн, потом служебный коридор, сцена с админом и эскортницей
@@ -2120,7 +2120,7 @@ label ep217_dialogues1_escort_4:
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
     play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_Adriano_Visitor1_Sex3_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_5.mkv", fps=30)
+    image videov_Monica_Adriano_Visitor1_Sex3_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_6.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex3_6
     with fade
     adriano "Хочу запомнить этот момент..."
