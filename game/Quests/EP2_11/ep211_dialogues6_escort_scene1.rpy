@@ -55,6 +55,8 @@ label ep211_escort_scene1_1a_loop1:
                     return 6
                 "Отношения в коллективе (Начало)." if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True:
                     return 7
+                "Неожиданная встреча." if ep215_quests_escort_completed_day > 0:
+                    return 8
                 "Назад.":
                     jump ep211_escort_scene1_1a_loop1
             return
