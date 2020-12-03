@@ -7,6 +7,9 @@ default monicaBiffInvestorsPhilip5 = 0 # Моника смотрела, как �
 
 default ep217_dialogues5_phillip_cumzone = 0
 
+define v_Monica_Philip_Anal1_1_sound_name = "v_Monica_Adriano_Titjob1_1"
+define v_Monica_Philip_Anal2_sound_name = "v_Monica_Adriano_Titjob1_1"
+
 #call ep217_dialogues5_phillip_1() # гостиная в доме Филиппа
 #call ep217_dialogues5_phillip_2() # БДСМ-комната
 #call ep217_dialogues5_phillip_3() # после сцены Моника стоит возле дома Филиппа, мысли
@@ -64,7 +67,7 @@ label ep217_dialogues5_phillip_1:
     mt "В костюме с вырезом на попе!"
     mt "Кошмар!!!"
     # если администраторша говорила Монике, что она будет работать с девочками для важных гостей
-    if monicaBiffInvestorsLeGrand3 == day:
+    if monica_escort_service_started == True:
         imgd 33002
         mt "И эта гребаная администраторша!"
         mt "Я была так близка к провалу!!!"
@@ -170,7 +173,7 @@ label ep217_dialogues5_phillip_1:
     philip "Работая шлюхой в ВИП-эскорте..."
     # Моника возмущенно
     music Power_Bots_Loop
-    img 33016
+    img 33016 vpunch
     m "!!!"
     m "ЧТО?!"
     m "Я!"
@@ -257,7 +260,7 @@ label ep217_dialogues5_phillip_2:
     music Master_Disorder
     imgfl 33027
     w
-    imgf 33028
+    img 33028 vpunch
     w
     imgd 33029
     philip "Проходите, Миссис Бакфетт."
@@ -265,9 +268,9 @@ label ep217_dialogues5_phillip_2:
     # Моника с отвращением оглядывается
     imgf 33169
     w
-    imgd 33031
+    img 33031 vpunch
     mt "!!!"
-    img 33032
+    img 33032 vpunch
     mt "!!!!"
     imgd 33033
     mt "Что это за ужасное место?!"
@@ -277,6 +280,7 @@ label ep217_dialogues5_phillip_2:
     mt "Какие-то кошмарные механизмы!"
     mt "Он больной на всю голову извращенец!"
     mt "Моника, он опасен!!!"
+    fadeblack 1.5
     music Groove2_85
     imgf 33034
     philip "Миссис Бакфетт, я вижу замешательство на вашем лице."
@@ -297,13 +301,15 @@ label ep217_dialogues5_phillip_2:
     w
     # из клетки на четвереньках выползает серая мышь, которая проводила кастинг перед Мелани
     # она подползает к ногам Филиппа и встает на колени перед ним, голова опущена, руки за спину, взгляд в пол
-    fadeblack
+    sound snd_jail_door
+    fadeblack 2.0
     sound man_steps
     pause 2.0
     music Groove2_85
     imgfl 33038
     w
     imgf 33170
+    sound barefoot_walk2
     w
     imgd 33171
     w
@@ -347,6 +353,7 @@ label ep217_dialogues5_phillip_2:
     mt "Я ничего не понимаю!!!"
     mt "!!!"
     # Филипп обращается к серой мыши
+    fadeblack 1.5
     music Groove2_85
     imgf 33044
     philip "Оно сейчас поползет к своей миске."
@@ -372,17 +379,19 @@ label ep217_dialogues5_phillip_2:
     model1 "!!!"
     m "!!!"
     # Филипп это видит и рявкает на нее
-    img 33049
+    music Power_Bots_Loop
+    img 33049 hpunch
     philip "Оно должно смотреть в пол!"
     philip "Оно ослушалось приказа Мастера!"
     philip "После того, как уйдет наш гость, оно будет высечено плетью!"
     # мышь быстро опускает голову
     # Моника с ужасом наблюдает за этим
-    music Power_Bots_Loop
+#    music Power_Bots_Loop
     img 33051 hpunch
     mt "Он садист!!!"
     mt "!!!"
     # Филипп обращается к мыши
+    fadeblack 1.5
     music Groove2_85
     imgd 33050
     philip "Теперь Мастер позволяет ему ползти к миске."
@@ -396,7 +405,7 @@ label ep217_dialogues5_phillip_2:
     imgd 33055
     w
     music Power_Bots_Loop
-    img 33052
+    img 33052 vpunch
     mt "О Боже!"
     mt "Она что, будет есть корм для животных?!"
     mt "Фууу!"
@@ -498,7 +507,7 @@ label ep217_dialogues5_phillip_2:
     philip "Да, Миссис Бакфетт, вы сейчас разденетесь и залезете на это..." # показывает рукой на штуку, где будет пялить Монику
     philip "И отработаете деньги, которые я за вас заплатил."
     m "..."
-    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired1, 0]
+#    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired1, 0]
     menu:
         "Согласиться.":
             $ monicaBiffInvestorsPhilip2 = day # Моника согласилась отработать в БДСМ-ной комнате у Филиппа
@@ -589,7 +598,7 @@ label ep217_dialogues5_phillip_2:
     # тот видит ее замешательство и ехидно улыбается
     imgd 33088
     w
-    img 33089
+    imgd 33089
     w
     imgf 33090
     philip "Прошу..." # жест рукой в сторону штуки
@@ -629,7 +638,8 @@ label ep217_dialogues5_phillip_2:
     fadeblack
     sound snd_fabric1
     pause 1.5
-    music Loved_Up
+#    music Loved_Up
+    music Master_Disorder
     imgfl 33099
     philip "Миссис Бакфетт, леди из высшего общества..."
     imgf 33100
@@ -658,23 +668,30 @@ label ep217_dialogues5_phillip_2:
     mt "!!!" # шок, испуг
     imgf 33100
     philip "Попробую ваш великосветский зад!"
-    imgd 33108
+    img 33108
     w
-    img 33107
+    fadeblack 1.5
+    music Power_Bots_Loop
+    img 33107 hpunch
+    m "ЧТО?!"
     m "НЕТ!"
     m "Филипп, не надо!"
     imgd 33109
     philip "О, как же хорошо вас распялить, Миссис Бакфетт!"
     philip "Я не мог не воспользоваться шансом!"
+    fadeblack 1.5
+    music Master_Disorder
     # начинает медленно вводить головку члена, Моника в ужасе
     imgf 33110
     w
     imgd 33111
     w
+    music Power_Bots_Loop
     img 33107 hpunch
     m "Нет-нет!"
     m "Я никогда такого не делала!"
     # он игнорирует ее и вводит головку члена еще чуть-чуть
+    music Master_Disorder
     imgf 33111
     w
     sound hlup25
@@ -711,7 +728,9 @@ label ep217_dialogues5_phillip_2:
     sound chpok6
     img 33114 hpunch
     w
-    img 33117
+    fadeblack 1.5
+    music Power_Bots_Loop
+    img 33117 hpunch
     m "ААА!!!"
     m "Прекрати! Мне больно!!!"
     imgf 33118
@@ -741,6 +760,8 @@ label ep217_dialogues5_phillip_2:
 label ep217_dialogues5_phillip2_loop1:
     menu:
         "Не надо!!!":
+            fadeblack 1.5
+            music Power_Bots_Loop
             imgd 33120
             m "Филипп, не делай этого! Мне больно!"
             philip "Скажите, что вы не хотите Миссис Бакфетт."
@@ -768,13 +789,16 @@ label ep217_dialogues5_phillip2_loop1:
                             jump ep217_dialogues5_phillip2_loop1
     # Филипп снова подходит и начинает медленно вводить головку в анус
     fadeblack 2.0
-    music Loved_Up
+#    music Loved_Up
+    music Master_Disorder
     imgf 33110
     w
     sound hlup25
     img 33111 hpunch
     w
-    img 33107
+    fadeblack 1.5
+    music Power_Bots_Loop
+    img 33107 hpunch
     m "Нет, Филипп, не надо!"
     m "Я не хочу!"
     m "Мне больно!!!"
@@ -788,6 +812,8 @@ label ep217_dialogues5_phillip2_loop1:
     sound chpok6
     img 33114 hpunch
     w
+    fadeblack 1.5
+    music Master_Disorder
     imgf 33116
     philip "Вы уверены, Миссис Бакфетт?!"
     philip "Ммммм..."
@@ -797,7 +823,9 @@ label ep217_dialogues5_phillip2_loop1:
     sound hlup25
     imgd 33123 hpunch
     w
-    img 33125
+    fadeblack 1.5
+    music Power_Bots_Loop
+    img 33125 vpunch
     m "АААА!!!"
     m "Не надо меня насиловать!!!"
     # вводит его еще чуть-чуть, входит не до конца
@@ -811,6 +839,7 @@ label ep217_dialogues5_phillip2_loop1:
     philip "Вы сами ко мне приехали..."
     philip "Сами сюда залезли..."
     philip "Сами согласились отрабатывать уплаченные за вас деньги."
+    with hpunch
     m "Нет! Мне больно!"
     m "Прекрати сейчас же!!!"
     # Филипп вытаскивает из нее свой член и снова отходит на шаг, как в прошлый раз
@@ -828,17 +857,21 @@ label ep217_dialogues5_phillip2_loop1:
 label ep217_dialogues5_phillip2_loop2:
     menu:
         "Филипп, я не давала согласия на подобное!":
+            music Power_Bots_Loop
             imgd 33120
             m "Филипп..."
             m "Я не соглашалась на подобное!"
             philip "Вы сами согласились поехать ко мне домой, Миссис Бакфетт."
             jump ep217_dialogues5_phillip2_loop2
         "Филипп, джентельмены так не ведут себя!":
+            music Power_Bots_Loop
             imgd 33121
             m "Филипп, джентельмены так не ведут себя!"
             philip "С меня достаточно одного джентельменского поступка..."
             philip "Теперь леди благодарит меня за это."
             philip "Ну что скажете, Миссис Бакфетт?"
+            fadeblack 1.5
+            music Master_Disorder
             imgd 33100
             philip "Вы попросите не вставлять мой член в вашу великосветскую задницу?"
             menu:
@@ -846,6 +879,7 @@ label ep217_dialogues5_phillip2_loop2:
                     pass
                 "Мне больно!":
                     $ ep217_dialogues5_phillip2_loop2 = True
+                    music Power_Bots_Loop
                     imgf 33119
                     m "Филипп, мне больно!"
                     philip "Вы сами согласились на это, Миссис Бакфетт."
@@ -854,10 +888,10 @@ label ep217_dialogues5_phillip2_loop2:
     # мышь, пользуясь тем, что Мастер на нее не обращает внимания, вовсю пялится на их секс
     # на лице злорадство над Моникой
     # Филипп снова медленно вводит головку
+    fadeblack 2.0
+    music Master_Disorder
     imgf 33127
     w
-    fadeblack 2.0
-    music Loved_Up
     imgf 33110
     w
     imgd 33111
@@ -865,7 +899,9 @@ label ep217_dialogues5_phillip2_loop2:
     sound hlup25
     img 33112 hpunch
     w
-    img 33107
+    fadeblack 1.5
+    music Power_Bots_Loop
+    img 33107 hpunch
     m "Прекрати!"
     m "Я дам тебе денег! Только не делай этого!"
     imgf 33109
@@ -877,8 +913,10 @@ label ep217_dialogues5_phillip2_loop2:
     sound chpok6
     img 33114 hpunch
     w
-    img 33117
+    img 33117 vpunch
     m "НЕЕЕЕТ!"
+    fadeblack 1.5
+    music Master_Disorder
     imgf 33118
     philip "У вас совсем ничего нет!"
     philip "Кроме этого девственного великосветского зада."
@@ -904,33 +942,207 @@ label ep217_dialogues5_phillip2_loop2:
     # вводит член до основания
     imgd 33124
     w
+    fadeblack 1.5
+    music Gearhead
     sound chpok6
     img 33130 hpunch
     w
-    imgd 33131
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Philip_Anal1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_1= Movie(play="video/v_Monica_Philip_Anal1_1.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_1
+    with fade
     philip "Вот так..."
-    img 33132
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 33131
+    w
+    img 33132 hpunch
     m "АААА!!!"
     m "!!!"
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_2= Movie(play="video/v_Monica_Philip_Anal1_2.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_2
+    with fade
     m "!!!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     # Филипп начинает жарить ее
-    music Loved_Up2
+
+
+
     imgf 33133
     philip "Даааа..."
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_3= Movie(play="video/v_Monica_Philip_Anal1_3.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_3
+    with fade
     philip "Вот это я понимаю..."
     philip "Благодарность леди..."
-    m "Нееет!!!"
+    m "Нееет!!!" with hpunch
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgd 33134
     philip "Ммммм..."
     philip "Один поступок джентельмена..."
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_4= Movie(play="video/v_Monica_Philip_Anal1_4.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_4
+    with fade
     philip "И девственная задница леди в подарок..."
+    with hpunch
     m "Хватиииит!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_5= Movie(play="video/v_Monica_Philip_Anal1_5.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_5
+    with fade
+    model1 "!!!"
+    m "!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_6= Movie(play="video/v_Monica_Philip_Anal1_6.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_6
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 33131
     philip "Оооо..."
-    img 33120
+
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_7= Movie(play="video/v_Monica_Philip_Anal1_7.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_8= Movie(play="video/v_Monica_Philip_Anal1_8.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_9= Movie(play="video/v_Monica_Philip_Anal1_9.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_9
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 33120 hpunch
     m "ААААА!!!"
     m "Прекрати!!!"
     m "!!!"
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_10= Movie(play="video/v_Monica_Philip_Anal1_10.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_10
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #11
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_11= Movie(play="video/v_Monica_Philip_Anal1_11.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_11
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #12
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Philip_Anal1_12= Movie(play="video/v_Monica_Philip_Anal1_12.mkv", fps=30)
+    show videov_Monica_Philip_Anal1_12
+    with fade
+    model1 "..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     menu:
         "Кончить внутрь Моники.":
             $ ep217_dialogues5_phillip_cumzone = 1
@@ -958,8 +1170,15 @@ label ep217_dialogues5_phillip2_loop2:
             imgd 33138
             sound hlup25
             philip "ААААААА!!!"
-            imgf 33141
-            w
+            fadeblack 1.5
+#            imgf 33141
+#            w
+            scene black
+            sound v_Monica_Philip_Anal2_sound_name
+            image videov_Monica_Philip_Anal2 = Movie(play="video/v_Monica_Philip_Anal2.mkv", fps=30, loop=False, image="/images/Slides/v_Monica_Philip_Anal2_end.jpg")
+            show videov_Monica_Philip_Anal2
+            pause 2.0
+            wclean
             # кадр на анус Моники, сперма вытекает из нее
             pass
         "Кончить на попу Моники.":
@@ -1005,7 +1224,7 @@ label ep217_dialogues5_phillip2_loop2:
     # Моника остается висеть, Филипп все еще со спущенными штанами идет в сторону мыши
     imgf 33145
     mt "..."
-    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired2, 0]
+#    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired2, 0]
     menu:
         "Смотреть на Филиппа и его рабыню.": # corruption
             # та, видя внимание Мастера, быстро принимает свою стандартную позу
@@ -1072,7 +1291,7 @@ label ep217_dialogues5_phillip2_loop2:
             #sound Groove2_85
             imgd 33156
             mt "Я не могу смотреть на эти извращения!"
-            sound snd_piss
+#            sound snd_piss
             mt "Это мерзко!"
             mt "Отвратительно!"
             mt "Как подобное может нравится нормальному человеку?!"
@@ -1124,7 +1343,7 @@ label ep217_dialogues5_phillip2_loop2:
     philip "За то же самое."
     philip "Что скажете?"
     music Power_Bots_Loop
-    img 33164
+    img 33164 vpunch
     m "В смысле что я скажу?! Это еще что!?"
     philip "Это предложение, Миссис Бакфетт."
     mt "..."
@@ -1139,17 +1358,19 @@ label ep217_dialogues5_phillip2_loop2:
     mt "!!!"
     mt "Пошел к черту этот гребаный садист!!!"
     mt "Мерзкое животное!!!"
+    fadeblack 1.5
+    music Groove2_85
     img 33166
     m "Нет!"
     m "Я не готова терпеть подобные унижения ни за какие деньги!!!"
     m "!!!"
     # Филипп продолжает мерзко улыбаться
-    music Groove2_85
+#    music Groove2_85
     imgf 33071
     philip "Я вам дам немного времени подумать, Миссис Бакфетт."
     philip "И в следующий раз мы вернемся к этому вопросу."
     imgd 33167
-    mt "Никакого следующего раза не будет!!!"
+    m "Никакого следующего раза не будет!!!"
     mt "Отвратительный мерзкий извращенец!!!"
     mt "Гребаный садист!!!"
     imgf 33168

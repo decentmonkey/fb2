@@ -177,6 +177,7 @@ define girl_3 = Character(t_("Девочка по вызову"), who_color=c_gr
 define girl_4 = Character(t_("Девочка по вызову"), who_color=c_pink)
 
 define linda = Character(t_("Линда"), who_color=c_pink)
+define miranda = Character(t_("Миранда"), who_color=c_pink)
 
 define cafe_visitor1 = Character(t_("Посетитель кафе"), who_color=c_blue)
 define cafe_visitor2 = Character(t_("Посетитель кафе"), who_color=c_red)

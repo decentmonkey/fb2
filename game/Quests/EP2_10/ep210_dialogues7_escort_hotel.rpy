@@ -1264,6 +1264,10 @@ label ep210_dialogues7_escort_hotel_7c:
     mt "Администратор сказала приходить завтра."
     return False
 
+label ep210_dialogues7_escort_hotel_7c1:
+    mt "Я не хочу больше возвращаться туда! Не сегодня."
+    return False
+
 label ep210_dialogues7_escort_hotel_7d:
     mt "Я не хочу больше возвращаться туда! Не сегодня."
     return

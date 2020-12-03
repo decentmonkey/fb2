@@ -31,7 +31,6 @@ label ep211_quests_escort1:
     $ richHotelLiftMonicaSuffix = 1
     $ richHotelLiftSceneSuffix = "_Closed"
 
-    call ep210_dialogues7_escort_hotel_8a() from _rcall_ep210_dialogues7_escort_hotel_8a
     $ ep211_quests_stored_cloth = cloth
     $ ep211_quests_stored_cloth_type = cloth_type
     $ cloth = "EscortDress1"
@@ -44,6 +43,11 @@ label ep211_quests_escort1:
     if char_info["ReceptionGirl"]["level"] == 1:
         $ char_info["ReceptionGirl"]["enabled"] = True
         $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
+
+    call process_hooks("escort_start_day", "global")
+    if _return == False:
+        return
+    call ep210_dialogues7_escort_hotel_8a() from _rcall_ep210_dialogues7_escort_hotel_8a
 
     music stop
     img black_screen

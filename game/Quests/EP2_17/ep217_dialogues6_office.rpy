@@ -993,6 +993,7 @@ label ep217_dialogues6_office_6:
     mt "Ненавижу скотину Бифа!!!"
     mt "!!!"
     # на экране график schedule3
+    fadeblack 1.5
     music Groove2_85
     imgf 41575
     m "Добрый вечер, господа."
@@ -1013,6 +1014,7 @@ label ep217_dialogues6_office_6:
 #    music Groove2_85
     imgf 41578
     sound applause1
+    w
     m "Сегодня мы собрали вас, чтобы..."
     m "Продемонтировать вам... Промежуточные отчеты..."
     m "Предоставленные нашим аналитическим отделом."
@@ -1169,7 +1171,7 @@ label ep217_dialogues6_office_6:
     imgd 41648
     m "Да..."
     sound camera_lens1
-    imgf 41649
+    imgd 41649
     m "Итого, уже трое инвесторов сделали выгодное вложение..."
     imgd 41611
     m "И мы надеемся на положительное решение остальных господ..."
@@ -1199,10 +1201,11 @@ label ep217_dialogues6_office_6:
     img 41618 vpunch
     w
     music Villainous_Treachery
-    img 41619
+    img 41619 vpunch
     m "БИФ!!!"
     m "!!!"
     # Биф смотрит на экран, потом на инвесторов
+    fadeblack 1.5
     music Groove2_85
     imgd 41620
     biff "Господа, Миссис Бакфетт хотела, чтобы этот прекрасный кадр был сюрпризом для вас..."
@@ -1253,6 +1256,7 @@ label ep217_dialogues6_office_6:
     mt "Я хочу поскорее завершить этот цирк и уйти отсюда!!!"
     mt "!!!"
     # Биф подходит к пуфу
+    fadeblack 1.5
     music Groove2_85
     imgf 41629
     biff "Если вам удобно, Миссис Бакфетт, можете использовать это."
@@ -1432,21 +1436,35 @@ label ep217_dialogues6_office_6:
     biff "Здравствуйте, дамы!"
     biff "Проходите, мы вас уже ждем!"
     imgf 41663
-    w
+    reception "???"
     sound highheels_short_walk
     imgd 41664
-    w
+    m "!!!"
+
+    if monicaAdrianoEscortHotel5 > 0:
+        $ girl_1 = candice
+        $ girl_2 = linda
+        $ girl_3 = miranda
+        $ girl_4 = abby
+
     imgf 41665
-    w
+    if monica_escort_service_started == True:
+        linda "!!!"
+        girl_3 "!!!"
+    else:
+        w
+
     #добавить арты где она здоровается с девочкой если была вечеринка
-    if monicaAdrianoEscortHotel5 == day:
+    if monicaAdrianoEscortHotel5 > 0:
         $ notif(t_("Моника была в гостях у Кэндис"))
         music Hidden_Agenda
         imgd 41666
-        girl_3 "Привет, ты уже здесь?"
-        girl_3 "Самых вкусных клиентов ловишь? Хи-хи-хи!"
+        candice "Привет, ты уже здесь?"
+        sound snd_woman_laugh2
+        candice "Самых вкусных клиентов ловишь? Хи-хи-хи!"
         imgd 41667
-        girl_2 "Привет, [monica_hotel_name]. Повеселимся сегодня с этими денежными мешками? Ха-ха!"
+        sound snd_woman_laugh4
+        abby "Привет, [monica_hotel_name]. Повеселимся сегодня с этими денежными мешками? Ха-ха!"
         m "П-привет... Д-да..."
         mt "Черт!!!"
         mt "!!!"
@@ -1485,7 +1503,7 @@ label ep217_dialogues6_office_6:
 
     # админша видит Стива и очень удивляется (без агрессии, заискивающе)
     music Hidden_Agenda
-    imgd 41672
+    img 41672 vpunch
     reception "???" # удивленный взгляд на Стива
     # Стив в ответ улыбается своей улыбочкой (лыбится)
     imgd 41673
@@ -1508,6 +1526,7 @@ label ep217_dialogues6_office_6:
     # он обнимает ее, а сам косится на Монику
     sound highheels_short_walk
     imgd 41677
+    sound snd_kiss2
     linda "Я так по тебе скучала..."
     imgf 41678
     w
@@ -1516,10 +1535,10 @@ label ep217_dialogues6_office_6:
     # рыжая растерянно смотрит на него, потом идет к Кэмпбеллу
     sound highheels_short_walk
     imgd 41679
-    w
+    girl_4 "..."
 #    sound vjuh2
     imgd 41680
-    w
+    philip "!!!"
     sound vjuh3
     img 41681
     w
@@ -1534,20 +1553,20 @@ label ep217_dialogues6_office_6:
     w
     imgf 41683
 #    sound man_steps
-    w
+    girl_4 "???"
     imgd 41684
     w
     sound highheels_short_walk
     imgf 41685
     music Loved_Up
-    girl_2 "Ну привет..."
-    girl_2 "Мне сегодня повезло..."
-    girl_2 "Такой солидный и брутальный мужчина..."
+    girl_4 "Ну привет..."
+    girl_4 "Мне сегодня повезло..."
+    girl_4 "Такой солидный и брутальный мужчина..."
     # он хлопает по подлокотнику
     imgd 41686
     campbell "Присаживайся здесь... Выпьешь со мной немного?"
     imgd 41687
-    girl_2 "С удовольствием..."
+    girl_4 "С удовольствием..."
     # Филипп подходит к админше
     music Groove2_85
     imgf 41688
@@ -1573,10 +1592,10 @@ label ep217_dialogues6_office_6:
     fadeblack 1.5
     music Loved_Up
     imgfl 41691
-    girl_3 "Мистер, позволите мне скрасить ваш вечер?"
+    girl_1 "Мистер, позволите мне скрасить ваш вечер?"
     imgf 41692
     investor4 "Иди сюда, детка..." # усаживает ее к себе на колени, хватает за зад
-    sound Jump2
+    sound Jump1
     img 41693 vpunch
     w
     # смена кадра на админшу и Филиппа
@@ -1590,9 +1609,9 @@ label ep217_dialogues6_office_6:
     # показываем, как другая девочка (брюнетка с каре - girl_1) идет к Стиву, садится на подлокотник его кресла
     music Loved_Up
     imgf 41695
-    girl_1 "Привет, красавчик..."
+    girl_3 "Привет, красавчик..."
     # тот довольно пялится на ее грудь
-    girl_1 "Давай с тобой сегодня развлечемся?"
+    girl_3 "Давай с тобой сегодня развлечемся?"
     imgd 41696
     steve "О, да, дорогуша..."
     steve "Развлечемся, не сомневайся!"
@@ -1673,13 +1692,13 @@ label ep217_dialogues6_office_6:
     img 41713
     steve "Попка готова порадовать меня?"
     imgd 41714
-    girl_1 "Конечно, Мистер! Хи-хи-хи!"
+    girl_3 "Конечно, Мистер! Хи-хи-хи!"
     # рыжая с короткой стрижкой пьют с Кэмбеллом
     imgf 41715
     campbell "Вот теперь можно немного и расслабиться..."
     imgd 41716
     campbell "Что ты мне готова предложить, милочка?"
-    girl_2 "Все, что вам будет угодно, Мистер..."
+    girl_4 "Все, что вам будет угодно, Мистер..."
     sound Jump1
     imgd 41717
     w
@@ -1695,7 +1714,7 @@ label ep217_dialogues6_office_6:
     imgd 41721
     # шатенка с хвостом сидит уже с задранным платьем, негр лапает ее, она хихикает
     w
-    sound snd_woman_laugh2
+    sound snd_woman_laugh4
     imgf 41722
     w
     imgd 41723
@@ -1718,7 +1737,7 @@ label ep217_dialogues6_office_6:
     w
     sound snd_woman_laugh2
     imgd 41728
-    girl_3 "Хи-хи-хи!"
+    girl_1 "Хи-хи-хи!"
     sound ahhh1
     imgf 41729
     w
@@ -1786,65 +1805,66 @@ label ep217_dialogues6_office_7:
     music Groove2_85
     imgf 41437
     m "Я принесу в следующий раз..."
-    imgd 18009
-    reception "Какие услуги ты оказывала гостю, который забрал тебя?"
-    $ menu_corruption = [monicaPrivatePresentationCorruptionRequired2, 0]
-    menu:
-        "Сказать как приказал Филипп.":
-            $ monicaBiffInvestorsLeGrand4 = 1
-            music Pyro_Flow
-            imgf 41438
-            m "Я..."
-            m "Я только полизала ему яички..."
-            m "Я даже не успела сделать минет..."
-            m "И он кончил..."
-            music Groove2_85
-            imgd 41439
-            reception "Ты плохо работаешь, [monica_hotel_name]!"
-            reception "Клиент уже сообщил об этом и попросил вернуть часть денег!"
-            reception "Ты должна была сделать так, чтобы оказать весь спектр услуг до того, как клиент будет удовлетворен!"
-            imgd 40982
-            reception "Богатым клиентам в конференц-зале тоже пригодилось бы твое внимание!"
-            reception "Однако, ты предпочла уехать и даже не заработала денег!"
-            reception "Тебе за эту встречу ничего не полагается, [monica_hotel_name]!"
-        "Сказать правду.":
-            $ monicaBiffInvestorsLeGrand4 = 2
-            music Pyro_Flow
-            imgf 41438
-            m "Этот клиент!"
-            m "Он отвел меня в свой жуткий подвал, полный отвратительных конструкций для извращений!"
-            m "Он пристегнул меня к одной из них и сделал это в..."
-            music Groove2_85
-            imgd 41440
-            reception "Куда?"
-            m "В мой..."
-            reception "Ну, говори!"
-            m "В мой зад..."
-            imgf 18010
-            reception "Это твоя работа, [monica_hotel_name]!"
-            reception "Анальный секс ценится дороже, поэтому ты должна предлагать его чаще!"
-            music Power_Bots_Loop
-            img 41441
-            m "Нет! Я не буду больше этого делать!"
-            music Groove2_85
-            imgf 30111
-            w
-            sound vjuh3
-            imgd 30112
-            reception "Возьми свои деньги, [monica_hotel_name]. Клиент остался доволен тобой."
-            $ add_money(800.0)
-            imgf 41439
-            reception "Только этим местом ты можешь заработать такую сумму!"
-            reception "Да, помни что у тебя специальный тариф."
-            reception "Если ты предложишь свое анальное отверстие одновременно двум мужчинам..."
-            imgd 40982
-            reception "То это будет стоить дешевле. У второго мужчины будет скидка 30 процентов."
-            reception "Это выгодный маркетинговый ход, поэтому используй его для того, чтобы заработать больше на количестве клиентов."
-            reception "Ты здесь для того, чтобы зарабатывать деньги для отеля!"
-            reception "Помни это!"
-            music Power_Bots_Loop
-            img 41442
-            m "Нет! Я никогда на это не пойду!!!"
+    if ep217_quests_philip_refused == 0:
+        imgd 18009
+        reception "Какие услуги ты оказывала гостю, который забрал тебя?"
+        $ menu_corruption = [monicaPrivatePresentationCorruptionRequired2, 0]
+        menu:
+            "Сказать как приказал Филипп.":
+                $ monicaBiffInvestorsLeGrand4 = 1
+                music Hidden_Agenda
+                imgf 41438
+                m "Я..."
+                m "Я только полизала ему яички..."
+                m "Я даже не успела сделать минет..."
+                m "И он кончил..."
+                music Groove2_85
+                imgd 41439
+                reception "Ты плохо работаешь, [monica_hotel_name]!"
+                reception "Клиент уже сообщил об этом и попросил вернуть часть денег!"
+                reception "Ты должна была сделать так, чтобы оказать весь спектр услуг до того, как клиент будет удовлетворен!"
+                imgd 40982
+                reception "Богатым клиентам в конференц-зале тоже пригодилось бы твое внимание!"
+                reception "Однако, ты предпочла уехать и даже не заработала денег!"
+                reception "Тебе за эту встречу ничего не полагается, [monica_hotel_name]!"
+            "Сказать правду.":
+                $ monicaBiffInvestorsLeGrand4 = 2
+                music Pyro_Flow
+                imgf 41438
+                m "Этот клиент!"
+                m "Он отвел меня в свой жуткий подвал, полный отвратительных конструкций для извращений!"
+                m "Он пристегнул меня к одной из них и сделал это в..."
+                music Groove2_85
+                imgd 41440
+                reception "Куда?"
+                m "В мой..."
+                reception "Ну, говори!"
+                m "В мой зад..."
+                imgf 18010
+                reception "Это твоя работа, [monica_hotel_name]!"
+                reception "Анальный секс ценится дороже, поэтому ты должна предлагать его чаще!"
+                music Power_Bots_Loop
+                img 41441
+                m "Нет! Я не буду больше этого делать!"
+                music Groove2_85
+                imgf 30111
+                w
+                sound vjuh3
+                imgd 30112
+                reception "Возьми свои деньги, [monica_hotel_name]. Клиент остался доволен тобой."
+                $ add_money(800.0)
+                imgf 41439
+                reception "Только этим местом ты можешь заработать такую сумму!"
+                reception "Да, помни что у тебя специальный тариф."
+                reception "Если ты предложишь свое анальное отверстие одновременно двум мужчинам..."
+                imgd 40982
+                reception "То это будет стоить дешевле. У второго мужчины будет скидка 30 процентов."
+                reception "Это выгодный маркетинговый ход, поэтому используй его для того, чтобы заработать больше на количестве клиентов."
+                reception "Ты здесь для того, чтобы зарабатывать деньги для отеля!"
+                reception "Помни это!"
+                music Power_Bots_Loop
+                img 41442
+                m "Нет! Я никогда на это не пойду!!!"
     music Groove2_85
     imgf 40983
     reception "Все, хватит болтать!"
