@@ -4,8 +4,6 @@ default monicaBiffInvestorsPhilip3 = 0 # Моника отказалась бы�
 default monicaBiffInvestorsPhilip4 = 0 # Моника согласилась, что Филипп поступил как джентельмен
 default monicaBiffInvestorsPhilip5 = 0 # Моника смотрела, как Филипп унижает мышь (писсинг)
 
-define monicaPhilipBDSMCorruptionRequired1 = 900 # Моника согласилась отработать у Филиппа в БДСМ-комнате
-define monicaPhilipBDSMCorruptionRequired2 = 930 # Моника смотрела как Филипп унижает рабыню
 
 default ep217_dialogues5_phillip_cumzone = 0
 

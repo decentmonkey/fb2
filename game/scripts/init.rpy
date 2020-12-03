@@ -1,3 +1,24 @@
+#v0.17
+define monicaAdrianoEscortCorruptionRequired1 = 650 # Моника солгала Адриано, сказав что футфетишист сумасшедший
+define monicaAdrianoEscortCorruptionRequired2 = 680 # Моника притворилась перед Адриано эскортницей
+define monicaAdrianoEscortCorruptionRequired3 = 730 # Моника согласилась на тройничок с Адриано и Кэндис
+define monicaAdrianoEscortCorruptionRequired4 = 790 # Моника проглотила сперму Адриано
+define monicaMollyHumiliationCorruptionRequired1 = 870 # Моника обвиняет Молли в воровстве с целью отправить на приват с Джо
+define monicaCitizens9CorruptionRequired1 = 350 # Моника согласилась привести Найджела к себе в квартиру
+define monicaCitizens9CorruptionRequired2 = 450 # Моника согласилась на то, чтобы сделать минет и участвовать в состязании
+define monicaCitizens9CorruptionRequired3 = 500 # Моника начала делать минет Найджелу
+define monicaCitizens9CorruptionRequired4 = 590 # Моника согласилась на секс с Филом
+define monicaCitizens9CorruptionRequired5 = 550 # Моника наступила каблуком на член Фила
+define monicaCitizens5CorruptionRequired1 = 350 # Моника согласилась привести Акира Сан к себе в квартиру
+define monicaCitizens5CorruptionRequired2 = 400 # Моника согласилась, чтобы Акира нацепил на ее грудь зажимы
+define monicaCitizens5CorruptionRequired3 = 450 # Моника согласилась, чтобы Акира нацепил на вторую грудь зажимы
+define monicaCitizens5CorruptionRequired4 = 500 # Моника согласилась, чтобы Акира нацепил на ее киску зажимы
+define monicaPhilipBDSMCorruptionRequired1 = 900 # Моника согласилась отработать у Филиппа в БДСМ-комнате
+define monicaPhilipBDSMCorruptionRequired2 = 930 # Моника смотрела как Филипп унижает рабыню
+define monicaPrivatePresentationCorruptionRequired1 = 500 # Моника согласилась на приватную презентацию
+define monicaPrivatePresentationCorruptionRequired2 = 700 # Моника сказала администраторше как приказал Филлип
+
+
 #v0.16
 define slumsCitizen15Option1 = 350 # Согласиться привести в квартиру
 define slumsCitizen15Option2 = 370 # Моника сказала, что ей нравится парень в синей куртке при его подруге

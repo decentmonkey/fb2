@@ -6,8 +6,6 @@ default monicaJoeMollyClare5 = 0 # Моника выдвинула свои ус
 default monicaJoeMollyClare6 = 0 # Молли согласилась на приват с Джо в присутствии Моники
 default monicaJoeMollyClare7 = 0 # Моника простила Молли
 
-define monicaMollyHumiliationCorruptionRequired1 = 870 # Моника обвиняет Молли в воровстве с целью отправить на приват с Джо
-
 
 #call ep217_dialogues2_shiny_hole_1() # Моника узначет что Клэр увольняется и общается с Джо
 #call ep217_dialogues2_shiny_hole_2() # Моника вспоминает что Клэр помогала ей и решает придумать план

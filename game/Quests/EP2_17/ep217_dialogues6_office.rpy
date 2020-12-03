@@ -12,9 +12,6 @@ default monicaBiffInvestorsLeGrand4 = 0 # Моника сказала правд
 #call ep217_dialogues6_office_7() # Моника пришла на работу в эскорт после презентации ресепшн
 #call ep217_dialogues6_office_9() # разговор с Бифом после презентации
 
-define monicaPrivatePresentationCorruptionRequired1 = 500 # Моника согласилась на приватную презентацию
-define monicaPrivatePresentationCorruptionRequired2 = 700 # Моника сказала администраторше как приказал Филлип
-
 
 # при условии, что было свидание с Олафом и он уже стал инвестором
 # через неделю после свидания с ним

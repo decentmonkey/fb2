@@ -1003,13 +1003,13 @@ label part2_questions_process(new_game_started):
         help "Пожалуйста, укажите развращенность Моники."
         menu:
             "Монике это не нравится, но тело - это самый главный инструмент для решения ее проблем.":
-                $ corruption = 800
+                $ corruption = 950
                 $ biffCastingStage = 7
             "Моника периодически позволяла использовать свое тело для достижения целей.":
-                $ corruption = 500
+                $ corruption = 600
                 $ biffCastingStage = 5
             "Моника лишь иногда соглашалась на небольшие вольности в отношении себя.":
-                $ corruption = 200
+                $ corruption = 300
                 $ biffCastingStage = 3
             "Моника избегала любых пикантных ситуаций":
                 $ corruption = 100
