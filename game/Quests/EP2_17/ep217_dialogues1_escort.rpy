@@ -1111,7 +1111,9 @@ label ep217_dialogues1_escort_4:
     imgd 41129
     m "..."
     menu:
-        "Ласкать Адриано грудями.":
+        "Ласкать Адриано грудями. (Extra Version) (disabled)" if game.extra != True:
+            pass
+        "Ласкать Адриано грудями." if game.extra == True:
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             # он трогает груди Моники
             fadeblack 1.5
@@ -1238,9 +1240,7 @@ label ep217_dialogues1_escort_4:
             imgf 41144
             w
             pass
-        "Минет. (Extra Version) (disabled)" if game.extra != True:
-            pass
-        "Минет." if game.extra == True:
+        "Минет.":
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             fadeblack 1.5
             music Loved_Up
