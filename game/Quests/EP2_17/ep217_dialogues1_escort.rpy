@@ -3380,7 +3380,10 @@ label ep217_dialogues1_escort_10:
         $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41363
     w
-    $ blur_effect = 0
+    if drinked == True:
+        $ blur_effect = 0
+        with diss
+        w
     fadeblack 1.5
     music Groove2_85
     imgfl 41364
@@ -3496,6 +3499,8 @@ label ep217_dialogues1_escort_10:
                         imgd 41377
                         m "Ик! Трое..."
                         $ blur_effect = 0
+                        with diss
+                        w
                         imgf 41378
                         candice "Ну это еще нормально..."
                         candice "Тебе повезло, что их было всего трое..."
@@ -3508,6 +3513,8 @@ label ep217_dialogues1_escort_10:
                         imgd 41377
                         m "Ик! Десять!"
                         $ blur_effect = 0
+                        with diss
+                        w
                         img 41379
                         candice "Серьезно?!"
                         abby "Охренеть! И ты со всеми отработала?!"
@@ -3611,6 +3618,8 @@ label ep217_dialogues1_escort_10:
         $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
     m "Ик!"
     $ blur_effect = 0
+    with diss
+    w
     fadeblack 1.5
     music Road_Trip
     imgfl 41388
@@ -3808,10 +3817,18 @@ label ep217_dialogues1_escort_10:
     pause 2.0
     sound snd_folder_drop
     pause 1.0
-    sound snd_heavy_papers_drop
-    pause 1.5
+    m "Эбби, не хватай меня за задницу!"
+    abby "Я не трогаю тебя за задницу, [monica_hotel_name]!"
+    abby "Я нащупала бутылку!"
     sound snd_bottle_break
     pause 2.0
+    candice "Ой, [monica_hotel_name], кажется это я нечаянно тебя схватила!"
+    m "Отпусти меня!"
+    sound snd_heavy_papers_drop
+    abby "[monica_hotel_name], это ты села на меня своей попой?"
+    m "Ой! Эбби, это ты? Ик!"
+    candice "Ик! Девочки! Я, кажется, сейчас упаду!"
+    pause 1.5
     sound snd_bodyfall
     pause 2.0
     # грохот, кто-то упал со стола, возня
