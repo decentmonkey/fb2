@@ -21,6 +21,8 @@ label ep22_quests_office1: #регулярный разговор с Бифом 
         call change_scene("monica_office_cabinet") from _call_change_scene_207
 #        call refresh_scene_fade()
         return
+    if _return == -1:
+        return False
     # Инициализируем фотосессию
     $ move_object("AlexPhotograph", "monica_office_photostudio")
     $ add_hook("Teleport_Monica_Office_Entrance", "monica_office_secretary_dialogue6", scene="monica_office_secretary", label="photoshoot") #Блокируем выход пока идет фотосессия

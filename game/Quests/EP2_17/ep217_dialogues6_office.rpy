@@ -394,7 +394,7 @@ label ep217_dialogues6_office_1:
     imgd 15864
     m "..."
     $ log1 = _("Идти в отель Ле Гранд для проведения приватной презентации.") # появляется на след. день после этого разговора
-    return
+    return 1
 
 # мысли Моники, если отказалась и стоит на улице возле офиса
 label ep217_dialogues6_office_2:
@@ -410,6 +410,8 @@ label ep217_dialogues6_office_2:
 # мысли Моники, если отказалась и стоит на улице возле офиса, хочет снова зайти к Бифу, чтобы согласиться
 label ep217_dialogues6_office_2a:
     # не рендерить!!
+    if ep217_quests_office1_last_day == day:
+        return
     mt "Я должна иметь доступ в СВОЙ офис!"
     mt "Я должна быть в курсе того, что творит здесь этот придурок Биф!"
     mt "И это важнее, чем какая-то гребаная приватная презентация!"
@@ -457,7 +459,7 @@ label ep217_dialogues6_office_3:
             mt "Да пошел ты!"
             mt "Я найду другой способ зарабатывать деньги!"
             # Моника уходит. В след. визит к Бифу разговор возобновляется (Биф не дает ей фотосессии)
-            return
+            return -1
     # music Power_Bots_Loop
     music Pyro_Flow
     imgd 12792
@@ -529,13 +531,17 @@ label ep217_dialogues6_office_3:
     mt "Мерзавец!"
     mt "!!!"
     $ log1 = _("Идти в отель Ле Гранд для проведения приватной презентации.") # появляется на след. день после этого разговора
-    return
+    return 1
 
 # на следующий день, мысли если согласилась на презентацию в отеле
 label ep217_dialogues6_office_4:
     # не рендерить!!
     mt "Мне нужно идти в Ле Гранд и провести эту чертову презентацию!"
     return
+
+label ep217_dialogues6_office_4a:
+    mt "Мне нужно идти в Ле Гранд и провести эту чертову презентацию!"
+    return False
 
 # Ле Гранд, ресепшн
 # Моника пришла на презентацию
@@ -596,7 +602,7 @@ label ep217_dialogues6_office_5:
     imgf 20391
     w
     # Если Моника уволилась из эскорта:
-    if ep212_escort_monica_fired == True:
+    if ep212_escort_monica_fired == True or ep212_escort3_monica_fired == True or ep212_escort5_monica_fired == True:
         music Groove2_85
         imgd 20417
         reception "[monica_hotel_name], кто этот Мистер?"
@@ -643,7 +649,7 @@ label ep217_dialogues6_office_5:
         mt "Пошла она к черту со своими гребаными правилами ВИП-эскорта!"
         #
     # если Моника работает в эскорте
-    if monicaHotelAdminAgreement3 == True and ep212_escort_monica_fired == False:
+    if monicaHotelAdminAgreement3 == True and (ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False):
         music Groove2_85
         imgd 20417
         reception "[monica_hotel_name], кто этот Мистер?"
@@ -692,6 +698,9 @@ label ep217_dialogues6_office_5:
         mt "Никчемное, бесполезное создание!"
         mt "!!!"
     # затемнение, звук лифта, каблуки
+    fadeblack 1.0
+    sound snd_lift
+    fadeblack 1.5
     return
 
 # локация видео-рум
@@ -1380,7 +1389,7 @@ label ep217_dialogues6_office_6:
     mt "?!?!?!"
     music Pyro_Flow
     # если Моника раньше работала в эскорте и уволилась
-    if monicaHotelAdminAgreement3 == True:
+    if monica_escort_service_started == True:
         imgd 41659
         mt "АААА!!!"
         mt "НЕТ!!!"
@@ -1390,7 +1399,7 @@ label ep217_dialogues6_office_6:
         mt "Беги, отсюда! Быстро!!!"
         mt "!!!"
     # если Моника не работала в эскорте
-    if monicaHotelAdminAgreement3 == False:
+    if monica_escort_service_started == False:
         imgd 41659
         mt "Этот идиот Биф совсем охренел?!"
         mt "Я не собираюсь принимать участия в этом!!!"
@@ -1434,6 +1443,7 @@ label ep217_dialogues6_office_6:
     w
     #добавить арты где она здоровается с девочкой если была вечеринка
     if monicaAdrianoEscortHotel5 == day:
+        $ notif(t_("Моника была в гостях у Кэндис"))
         music Hidden_Agenda
         imgd 41666
         girl_3 "Привет, ты уже здесь?"
@@ -1459,7 +1469,7 @@ label ep217_dialogues6_office_6:
     mt "Я не могу остаться здесь!!!"
 
     # если Моника никогда не работала в эскорте
-    if monicaHotelAdminAgreement3 == False:
+    if monica_escort_service_started == False:
         menu:
             "Беги отсюда, Моника!!!":
                 music Stealth_Groover
@@ -1745,7 +1755,7 @@ label ep217_dialogues6_office_6:
     sound snd_car_door
     $ renpy.pause (2.0, hard=True)
     # jump на ep217_dialogues5_phillip_1
-    return
+    return 1
 
 # Моника приходит на работу в эскорт после презентации
 # ресепшн
@@ -1864,7 +1874,7 @@ label ep217_dialogues6_office_8:
     mt "Еще в этом ужасном костюме!!!"
     mt "Какой кошмар, Моника!!!"
     mt "!!!"
-    return
+    return False
 
 # разговор с Бифом после презентации
 label ep217_dialogues6_office_9:

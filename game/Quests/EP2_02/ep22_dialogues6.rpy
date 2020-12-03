@@ -307,6 +307,9 @@ label ep22_dialogue6_3:
         m "Спасибо за комплимент."
 
     menu:
+        "Приватная презентация" if ep217_quests_office_menu_enabled == True:
+            call ep217_quests_office1()
+            return -1
         "Спросить о работе":
             pass
         "Биф, ты не видел Мелани?" if melanieDisappeared == True:

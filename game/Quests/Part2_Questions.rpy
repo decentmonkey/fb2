@@ -483,8 +483,10 @@ label part2_questions_process(new_game_started):
         menu:
             "Моника прошла унизительный кастинг c Мелани.":
                 $ monicaMelanieCastingPlanned = True
+                $ monicaMelanieCastingLickedDildo = True
             "Моника была в хороших отношениях с Мелани и попросила помочь ей без кастинга.":
                 $ monicaMelanieCastingPlanned = False
+                $ monicaMelanieCastingLickedDildo = False
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or ep27_melanie_going_to_victoria == False:
@@ -817,6 +819,7 @@ label part2_questions_process(new_game_started):
             help "Работает-ли Моника субботней шлюхой номер 2 у Филиппа?"
             menu:
                 "Моника посещает Филиппа.":
+                    $ monica_philip_visits = 5
                     $ monica_philip_visited_last_day = 210
                     $ monica_philip_visits_blowjobs = 5
                     $ monica_philip_visits_sex = 5
@@ -837,10 +840,14 @@ label part2_questions_process(new_game_started):
         help "Работает-ли Моника в ВИП-Эскорте?"
         menu:
             "Моника работает в эскорте.":
+                $ monicaHotelAdminAgreement3 = True
                 $ monica_escort_service_started = True
                 $ monica_escort_service_started_day = 210
+                $ monicaEscortLindaTable1 = True
                 $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
             "Моника работала в эскорте, но уволилась.":
+                $ monicaEscortLindaTable1 = True
+                $ monicaHotelAdminAgreement3 = True
                 $ monica_escort_service_started = True
                 $ monica_escort_service_started_day = 210
                 $ ep212_escort_monica_fired = True
@@ -850,6 +857,7 @@ label part2_questions_process(new_game_started):
                 $ questLog(62, False)
                 $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
             "Моника никогда не работала в эскорте.":
+                $ monicaHotelAdminAgreement3 = False
                 $ monica_escort_service_started = False
                 $ monica_escort_service_started_day = 0
                 $ clear_hooks("ReceptionGirl", scene="rich_hotel_reception")
@@ -906,11 +914,13 @@ label part2_questions_process(new_game_started):
                 $ monicaBiffInvestorDate2 = False
                 $ monicaBiffInvestorDate5 = False
                 $ monicaBiffInvestorDate8 = True
+                $ monicaBiffInvestorDate4 = True
                 $ ep215_quests_linda_restaurant_dialogue_planned = True
             "Моника конфликтует с Линдой, но не унижала ее.":
                 $ monicaBiffInvestorDate2 = False
                 $ monicaBiffInvestorDate5 = True
                 $ monicaBiffInvestorDate8 = False
+                $ monicaBiffInvestorDate4 = True
             "Моника не ездила в номер с инвестором, заставив пообещать инвестировать при его жене.":
                 $ monicaBiffInvestorDate2 = True
                 $ monicaBiffInvestorDate5 = False
