@@ -51,6 +51,8 @@ label citizen5_dialogue:
 
     # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen5_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep214_quests_citizens_regular
     imgl Dial_begin35_17
     imgr Dial_Citizen_5_1
     m "Привет! Я могу тебе предложить одну вещь."
@@ -69,8 +71,6 @@ label citizen5_dialogue_pilon:
     $ showedDance = False
     $ showedNakedBoobs = False
     $ showedNakedBoobsDance = False
-    if ep214_quests_citizens_stage2 == True:
-        jump ep214_quests_citizens_regular
     label citizen5_dialogue_pilon_loop5:
     call pylonController(1, 1) from _call_pylonController_195
     menu:

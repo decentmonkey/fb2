@@ -1,6 +1,9 @@
 default ep214_quests_citizens_stage2 = False
 
 label ep214_quests_citizens_regular:
+    if citizenId == 5:
+        call ep217_quests_slums1()
+        return False
     call ep214_dialogues2_citizens_23() from _rcall_ep214_dialogues2_citizens_23
 
 label ep214_quests_citizens_regular_loop1:

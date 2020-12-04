@@ -1600,7 +1600,7 @@ label ep217_dialogues4_citizens_2:
             citizen5 "Глупый сиськи..."
             citizen5 "Мистер знает страшный тайн..."
             citizen5 "Приходи, когда будешь готова!"
-            return False
+            return -1
     # стоят у пилона
     fadeblack
     sound highheels_short_walk
@@ -1644,7 +1644,7 @@ label ep217_dialogues4_citizens_2:
                 m "А раздеваться здесь для тебя я не буду!"
                 imgd 13311
                 citizen5 "Прекрасные Фудзиямы скрывают холодный сердце..."
-                return False
+                return -2
             # если арендует квартиру у Джека
             $ monicaCitizens5Slums1 = day # Моника согласилась пойти Акирой саном в свои апартаменты
             pass
@@ -1661,7 +1661,7 @@ label ep217_dialogues4_citizens_2:
             imgf 13307
             citizen5 "Хм..."
             citizen5 "Мистер разочарован!"
-            return False
+            return -2
     # Моника в сомнениях
     music Groove2_85
     imgf 40334
@@ -1918,7 +1918,7 @@ label ep217_dialogues4_citizens_2:
                             mt "Я сравняю эти гребаные трущобы с землей!"
                             mt "Вместо со всеми ее бесполезными обитателями!"
                             mt "!!!"
-                            return
+                            return -3
                         "Согласиться.":
                             music Groove2_85
                             $ monicaCitizens5Slums3 = day # Моника согласилась, чтобы Акира нацепил зажимы на ее киску
@@ -2053,4 +2053,4 @@ label ep217_dialogues4_citizens_2:
     mt "Я сравняю эти гребаные трущобы с землей!"
     mt "Вместо со всеми ее бесполезными обитателями!"
     mt "!!!"
-    return
+    return -3

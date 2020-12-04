@@ -290,11 +290,22 @@ label citizens_init_day:
         if ep214_quests_citizens_stage2 == True:
             if "Citizen_7" not in citizensDayList:
                 citizensDayList.append("Citizen_7")
+        if citizen5BForced == True:
+            if "Citizen_5" not in citizensDayList:
+                citizensDayList.append("Citizen_5")
+        if citizen9BForced == True:
+            if "Citizen_9" not in citizensDayList:
+                citizensDayList.append("Citizen_9")
+
 
         if day <= citizen14BlockedByDay and "Citizen_14" in citizensDayList:
             citizensDayList.remove("Citizen_14")
         if day <= citizen15BlockedByDay and "Citizen_15" in citizensDayList:
             citizensDayList.remove("Citizen_15")
+        if day <= citizen5BlockedByDay and "Citizen_5" in citizensDayList:
+            citizensDayList.remove("Citizen_5")
+        if day <= citizen9BlockedByDay and "Citizen_9" in citizensDayList:
+            citizensDayList.remove("Citizen_9")
         if ep214_quests_citizens_stage2 == True and ep215_slums1_citizen15_last_day == 0 and "Citizen_15" not in citizensDayList:
             citizensDayList.append("Citizen_15")
 
