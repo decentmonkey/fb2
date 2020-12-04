@@ -876,14 +876,14 @@ label part2_questions_process(new_game_started):
         # если работает или работала
         imgf 16328
         help "Какой Моника выбрала творческий псевдоним для работы в эскорте?"
-        $ monica_hotel_name = t_("Снежанна")
+        $ monica_hotel_name = t__("Снежанна")
         if renpy.android == True:
             call screen input_softkeyboard
             $ monica_hotel_name = _return
         else:
             $ monica_hotel_name = renpy.input(t__("Меня зовут... (enter для ввода)"), monica_hotel_name)
         if monica_hotel_name == False:
-            $ monica_hotel_name = t_("Снежанна")
+            $ monica_hotel_name = t__("Снежанна")
 
     if (new_game_started == True and monica_escort_service_started == True and ep212_escort_monica_fired == False) or (monica_escort_service_started == True and monicaEscortScene6Day == 0 and ep212_escort_monica_fired == False):
         call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_19

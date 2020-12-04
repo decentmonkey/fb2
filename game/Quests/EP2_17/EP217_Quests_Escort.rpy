@@ -4,6 +4,8 @@ default ep217_party_day = 0
 default ep217_party_monica_danced = False
 default ep217_party_whiskey_counter_list = []
 default monicaKnowsCandise = False
+default monicaCandiseHotelMeetingPlanned = False
+default monicaAbbyHotelMeetingPlanned = False
 
 label ep217_quests_escort1:
     call ep217_dialogues1_escort_2() from _rcall_ep217_dialogues1_escort_2

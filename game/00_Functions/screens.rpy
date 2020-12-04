@@ -2560,6 +2560,7 @@ screen preferences():
                     label t_("Language")
                     textbutton "English" action Language("english")
                     textbutton "German" action Language("german")
+                    textbutton "French" action Language("french")
                     textbutton "Russian" action Language(None)
 
                 vbox:
