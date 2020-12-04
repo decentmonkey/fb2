@@ -128,7 +128,7 @@ label ep210_quests_escort1_philip4_enter: # Вход к Филиппу домо�
             $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_4", scene="street_philiphome")
             $ add_hook("Teleport_Building", "ep210_dialogues2_escort_start_Phillip_19", scene="street_philiphome", label=["philip_restict_day", "evening_time_temp"]) # Блок на вход к Филиппу в этот день
             $ streetPhilipHomeMonicaSuffix = 2
-            call refresh_scene_fade_long()
+            call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_5
             return False
         if _return == -2:
 #            $ autorun_to_object("ep210_dialogues2_escort_start_Phillip_13b", scene="street_philiphome")

@@ -5,7 +5,7 @@ label part2_questions_start_new_game:
 
 #        $ del(map_objects["Teleport_Slums_Apartments"])
 #    $ map_objects["Teleport_Hostel2"]["state"] = "visible"
-    call part2_questions_process(True)
+    call part2_questions_process(True) from _rcall_part2_questions_process
     return
 
 label part2_questions_init_loadgame:
@@ -19,7 +19,7 @@ label part2_questions_init_loadgame:
 #    $ episode = 2
 #    $ debugMode = True
     if owner != "Monia":
-        call change_owner("Monica")
+        call change_owner("Monica") from _rcall_change_owner_6
 
 #    $ day = 231
     $ scenes_data = {"objects": {}, "substs" : {}, "autorun": {}, "hooks": {}}
@@ -60,10 +60,10 @@ label part2_questions_init_loadgame:
             "Teleport_Slums_Apartments" : {"text" : t_("ДОМ В ТРУЩОБАХ"), "xpos" : 408, "ypos" : 728, "base" : "map_marker", "state" : "visible"},
             "Teleport_VictoriaHome" : {"text" : t_("АПАРТАМЕНТЫ ВИКТОРИИ"), "xpos" : 1403, "ypos" : 260, "base" : "map_marker", "state" : "visible"}
     }
-    call characters_init()
-    call characters_pub_init()
-    call characters_pub_init2()
-    call characters_init_julia()
+    call characters_init() from _rcall_characters_init
+    call characters_pub_init() from _rcall_characters_pub_init_1
+    call characters_pub_init2() from _rcall_characters_pub_init2_1
+    call characters_init_julia() from _rcall_characters_init_julia
     $ char_info["Pub_StripteaseGirl1"]["name"] = t_("Молли")
     $ char_info["Pub_StripteaseGirl2"]["name"] = t_("Клэр")
     $ char_info["Rebecca"]["enabled"] = True
@@ -174,8 +174,8 @@ label part2_questions_init_loadgame:
         char_info["Mommy"]["enabled"] = True
 
 
-    call define_hudpresets()
-    call questLog_init()
+    call define_hudpresets() from _rcall_define_hudpresets_1
+    call questLog_init() from _rcall_questLog_init_1
     $ day_stored = day
     $ day = 0
     # обнуляем квестлог
@@ -293,7 +293,7 @@ label part2_questions_init_loadgame:
     $ ep210_julia_not_at_work = False
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
-    call ep213_quests_julia2_req_init()
+    call ep213_quests_julia2_req_init() from _rcall_ep213_quests_julia2_req_init_2
 
     # Блок Маркуса
     $ add_hook("Building", "ep213_dialogues_police19", scene="street_police", label="ep2_part2_block_marcus")
@@ -358,7 +358,7 @@ label part2_questions_init_loadgame:
 
     $ define_inventory_object("food_package", {"description" : t_("Еда"), "label_suffix" : "_use_food", "default_label" : False, "default_nolabel" : "cant_use", "icon" : "Inventory/food_package" + res.suffix + ".png"})
 
-    call food_basement_room_init()
+    call food_basement_room_init() from _rcall_food_basement_room_init
 
     $ basementBedSkipUntilFridayEnabled = True
     $ monicaCasualDressWearFirstTimeWardrobe = False
@@ -387,9 +387,9 @@ label part2_questions_init_loadgame:
 #    $ episode2part2_initialized = True
     img black_screen
 #    m "part2 init!"
-    call part2_questions_process(False)
+    call part2_questions_process(False) from _rcall_part2_questions_process_1
 
-    call monica_cheats_init()
+    call monica_cheats_init() from _rcall_monica_cheats_init_2
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
     $ ep27_quests_initialized = True
@@ -410,23 +410,23 @@ label part2_questions_init_loadgame:
     $ cloth_type = "CasualDress"
     $ changeDayTime("day")
 
-    call citizens_init_day()
-    call Bardie_Life_day()
-    call Betty_Life_day()
-    call Ralph_Life_day()
-    call Fred_Life_day()
-    call Biff_Life_day()
-    call Melanie_Life_day()
-    call Dick_Life_day()
-    call Pub_Life_day()
+    call citizens_init_day() from _rcall_citizens_init_day
+    call Bardie_Life_day() from _rcall_Bardie_Life_day
+    call Betty_Life_day() from _rcall_Betty_Life_day
+    call Ralph_Life_day() from _rcall_Ralph_Life_day
+    call Fred_Life_day() from _rcall_Fred_Life_day
+    call Biff_Life_day() from _rcall_Biff_Life_day
+    call Melanie_Life_day() from _rcall_Melanie_Life_day
+    call Dick_Life_day() from _rcall_Dick_Life_day
+    call Pub_Life_day() from _rcall_Pub_Life_day
     $ set_active(False, group="workers", scene="working_office")
     $ set_active(False, group="workers", scene="working_office2")
-    call office_life_day()
-    call Steve_Life_day()
+    call office_life_day() from _rcall_office_life_day
+    call Steve_Life_day() from _rcall_Steve_Life_day
 
-    call change_scene("street_house_outside")
-    call process_change_map_location("House")
-    call refresh_scene_fade_long()
+    call change_scene("street_house_outside") from _rcall_change_scene_219
+    call process_change_map_location("House") from _rcall_process_change_map_location_9
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_28
     jump start_game_EP22
 
 label part2_questions_process(new_game_started):
@@ -444,7 +444,7 @@ label part2_questions_process(new_game_started):
     music Groove2_85
 
     if new_game_started == True:
-        call intro_questions()
+        call intro_questions() from _rcall_intro_questions
         help "Действия во втором эпизоде."
     imgf 32167
     help "Где закончилась часть 1?"
@@ -457,7 +457,7 @@ label part2_questions_process(new_game_started):
             pass
 
     if new_game_started == True or ep2p2_flag1 != True:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment
         imgf 7992
         help "Показывала-ли Моника Виктории грудь для фото?"
         menu:
@@ -477,7 +477,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or melanieDisappearedAndReturned == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_1
         imgf 9195
         help "Моника проходила кастинг с Мелани?"
         menu:
@@ -490,7 +490,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or ep27_melanie_going_to_victoria == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_2
         imgf 13965
         help "Пошла-ли Мелани на встречу к Виктории? (линия квестов с Викторией)"
         menu:
@@ -511,7 +511,7 @@ label part2_questions_process(new_game_started):
 
     if ep27_melanie_going_to_victoria == True:
         if new_game_started == True or ep216_victoria_visit_day1 == False:
-            call part2_questions_loadgame_comment()
+            call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_3
             imgf 40604
             help "Моника согласилась с Викторией, что Мелани поступила неправильно, пытаясь показать видео Дику?"
             menu:
@@ -523,7 +523,7 @@ label part2_questions_process(new_game_started):
 
 
     if new_game_started == True or monica_ralph_relationships_type == 0:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_4
         imgf 31561
         help "Моника вступила в отношения с Ральфом с целью вернуть свой дом?"
         menu:
@@ -553,7 +553,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or bardieHeardAboutMarcus != True:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_5
         imgf 7249
         help "Был-ли у Бетти секс со Фредом?"
         menu:
@@ -568,7 +568,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if bettyFredLaundryHasSex == True and (new_game_started == True or ep215_quests_betty_stage == 0 or ep215_quests_betty_visit2_completed_day == 0):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_6
         $ ep215_quests_betty_stage = 1
         imgf 19262
         help "Согласилась-ли Бетти помочь своему соседу в решении его проблемы?"
@@ -582,7 +582,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or (monicaAgreedToSellDress == False and monicaBoughtCasualDress1 == False and monicaKickedVivianForDress == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_7
         imgf 10646
         help "Как Моника получила красивое платье?"
         $ remove_hook(label="cloth_shop_enter_refuse")
@@ -623,7 +623,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if (new_game_started == True or monicaHasSchoolOutfit1Day == 0) and monicaKickedVivianForDress == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_8
         imgf 22254
         help "Получила-ли Моника скидку на одежду для колледжа?"
         $ monicaHasSchoolOutfit1Day = 210
@@ -635,7 +635,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or (juliaQuestMonicaRefusedFred == False and juliaQuestRefused == False and monica_living_at_juliahome == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_9
         imgf 23099
         help "Состоит-ли Моника в отношениях с Юлией и живет вместе с ней?"
         menu:
@@ -669,7 +669,7 @@ label part2_questions_process(new_game_started):
             $ set_active("Teleport_JuliaHome", False, scene="street_corner")
 
     if new_game_started == True or marcus_visit1_completed == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_10
         imgf 18418
         help "Была-ли Моника у Маркуса?"
         menu:
@@ -690,7 +690,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or monica_pub_name == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_11
         imgf 9600
         help "Как Моника назвалась в Shiny Hole?"
         $ monica_pub_name = t__("Мэрилин")
@@ -705,7 +705,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or (monicaPubFiredTips1 == False and monica_shiny_hole_queen_day == 0):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_12
         imgf 31928
         help "Стала-ли Моника королевой Shiny Hole или уволилась?"
         menu:
@@ -734,7 +734,7 @@ label part2_questions_process(new_game_started):
         $ clear_hooks("exit_scene", scene="pub_makeuproom")
 
     if new_game_started == True or (fallingPathServedCustomersTotal == 0 and fallingPathStarted == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_13
         imgf 13195
         help "Моника обслуживает клиентов в трущобах?"
         menu:
@@ -768,7 +768,7 @@ label part2_questions_process(new_game_started):
             $ questLog(71, False)
     else:
         if new_game_started == True or slumsApartmentsMonicaKnow == False:
-            call part2_questions_loadgame_comment()
+            call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_14
             $ slumsApartmentsMonicaKnow = True
             $ slumsApartmentsRentStarted = True
             $ slumsApartmentsShawarmaTraderDialogue1Active = True
@@ -797,7 +797,7 @@ label part2_questions_process(new_game_started):
             $ ep22_questions_answered_count += 1
 
     if new_game_started == True or charityEventCompleted == False:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_15
         $ charityEventCompleted = True
         imgf 6757
         help "Согласилась Моника на предложение Филиппа или пообещала Бифу быть хорошей цыпочкой?"
@@ -814,7 +814,7 @@ label part2_questions_process(new_game_started):
 
     if monicaPhillipHotelKick == False:
         if new_game_started == True or monica_philip_visits == 0:
-            call part2_questions_loadgame_comment()
+            call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_16
             imgf 16381
             help "Работает-ли Моника субботней шлюхой номер 2 у Филиппа?"
             menu:
@@ -835,7 +835,7 @@ label part2_questions_process(new_game_started):
 
     $ char_info["ReceptionGirl"]["enabled"] = True
     if new_game_started == True or (monica_escort_service_started == False and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_17
         imgf 16339
         help "Работает-ли Моника в ВИП-Эскорте?"
         menu:
@@ -872,7 +872,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if (new_game_started == True and monica_escort_service_started == True) or (monica_escort_service_started == True and monica_hotel_name == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_18
         # если работает или работала
         imgf 16328
         help "Какой Моника выбрала творческий псевдоним для работы в эскорте?"
@@ -886,7 +886,7 @@ label part2_questions_process(new_game_started):
             $ monica_hotel_name = t_("Снежанна")
 
     if (new_game_started == True and monica_escort_service_started == True and ep212_escort_monica_fired == False) or (monica_escort_service_started == True and monicaEscortScene6Day == 0 and ep212_escort_monica_fired == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_19
         imgf 18798
         help "Стала-ли Моника мстить Миранде в присутствии постоянного клиента в номере отеля?"
         menu:
@@ -905,7 +905,7 @@ label part2_questions_process(new_game_started):
 
 
     if (new_game_started == True and monica_escort_service_started == True and ep212_escort_monica_fired == False) or (monica_escort_service_started == True and monicaBiffInvestorDate1 == False and ep212_escort_monica_fired == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_20
         $ monicaBiffInvestorDate1 = True
         imgf 40128
         help "Стала-ли Моника мстить Линде?"
@@ -928,7 +928,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or steveVisit2Day == 0:
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_21
         imgf 9953
         help "Моника угрожала Стиву вилкой?"
         menu:
@@ -940,7 +940,7 @@ label part2_questions_process(new_game_started):
 
 
     if new_game_started == True or (monicaMadeBlowjobForSteveChair == False and monicaSteveCumDealRejected == False and monicaSteveCumDealCompleted == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_22
         imgf 11430
         help "Моника заключала контракты со Стивом?"
         menu:
@@ -986,7 +986,7 @@ label part2_questions_process(new_game_started):
         $ ep22_questions_answered_count += 1
 
     if new_game_started == True or (fredKickedByMonicaToBalls == False and fredKickedByMonicaToFace == False):
-        call part2_questions_loadgame_comment()
+        call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_23
         imgf 8643
         help "Моника ударила Фреда в раздевалке?"
         menu:

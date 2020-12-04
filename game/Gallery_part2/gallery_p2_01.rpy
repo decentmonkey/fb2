@@ -3000,7 +3000,7 @@ label gallery_33215:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_14
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -4409,7 +4409,7 @@ label gallery_41489:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_15
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1

@@ -6,8 +6,8 @@ default ep217_party_whiskey_counter_list = []
 default monicaKnowsCandise = False
 
 label ep217_quests_escort1:
-    call ep217_dialogues1_escort_2()
-    call ep217_dialogues1_escort_2a()
+    call ep217_dialogues1_escort_2() from _rcall_ep217_dialogues1_escort_2
+    call ep217_dialogues1_escort_2a() from _rcall_ep217_dialogues1_escort_2a
     $ remove_objective("go_administrator")
     $ add_objective("go_customer", t_("Пойти к клиенту, который ждет Монику у лифта."), c_blue, 105)
     $ move_object("EscortCustomer1", "rich_hotel_lift")
@@ -27,15 +27,15 @@ label ep217_quests_escort1:
     $ add_hook("EscortCustomer1", "ep217_dialogues1_escort_3a", scene="rich_hotel_lift", label="escort_scene8")
     $ add_talk("EscortCustomer1", "ep217_quests_escort1a", scene="rich_hotel_lift", label="escort_scene8")
     $ autorun_to_object("ep217_dialogues1_escort_3b", scene="rich_hotel_reception")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_125
     return
 
 label ep217_quests_escort1a:
-    call ep217_dialogues1_escort_3()
+    call ep217_dialogues1_escort_3() from _rcall_ep217_dialogues1_escort_3
     $ questHelp("escort_15", skipIfExists=True)
     $ questHelp("escort_16", skipIfExists=True)
     $ questHelp("escort_17", skipIfExists=True)
-    call ep217_dialogues1_escort_4()
+    call ep217_dialogues1_escort_4() from _rcall_ep217_dialogues1_escort_4
     if _return == -1: # Моника убежала
         $ questHelp("escort_14", False, skipIfTrue=True)
         $ questHelp("escort_15", False, skipIfTrue=True)
@@ -57,12 +57,12 @@ label ep217_quests_escort1a:
         $ questHelp("escort_15", True)
         $ questHelp("escort_16", True)
         if ep217_quests_escort2_check_start_party_flag == False:
-            call ep217_quests_escort2_init_party()
+            call ep217_quests_escort2_init_party() from _rcall_ep217_quests_escort2_init_party
 #            $ enter_scene("ep217_quests_escort2_check_start_party")
-        call ep217_dialogues1_escort_5a()
+        call ep217_dialogues1_escort_5a() from _rcall_ep217_dialogues1_escort_5a
 
 
-    call ep217_dialogues1_escort_6() # разговор с админом
+    call ep217_dialogues1_escort_6() from _rcall_ep217_dialogues1_escort_6 # разговор с админом
 
     $ move_object("ReceptionGirl", "rich_hotel_reception")
     $ remove_hook(label="escort_scene8")
@@ -70,8 +70,8 @@ label ep217_quests_escort1a:
     $ richHotelLiftMonicaSuffix = 1
     $ richHotelLiftSceneSuffix = "_Closed"
     $ move_object("EscortCustomer1", "empty")
-    call ep211_quests_escort2_end_day()
-    call change_scene("street_rich_hotel", "Fade_long", "snd_lift")
+    call ep211_quests_escort2_end_day() from _rcall_ep211_quests_escort2_end_day_18
+    call change_scene("street_rich_hotel", "Fade_long", "snd_lift") from _rcall_change_scene_207
 
 
     return False
@@ -95,15 +95,15 @@ label ep217_quests_escort3_teleport_candise:
         return
     if candiseApartmentsStage == 0:
         if cloth != "CasualDress1":
-            call ep217_dialogues1_escort_8()
+            call ep217_dialogues1_escort_8() from _rcall_ep217_dialogues1_escort_8
             return False
         if day_time != "evening":
-            call ep217_dialogues1_escort_11a()
+            call ep217_dialogues1_escort_11a() from _rcall_ep217_dialogues1_escort_11a
             return False
 
         $ ep217_party_whiskey_counter_list = []
-        call ep217_dialogues1_escort_9()
-        call ep217_dialogues1_escort_10()
+        call ep217_dialogues1_escort_9() from _rcall_ep217_dialogues1_escort_9
+        call ep217_dialogues1_escort_10() from _rcall_ep217_dialogues1_escort_10
         if _return == False:
             pass
         else:
@@ -121,20 +121,20 @@ label ep217_quests_escort3_teleport_candise:
         $ monicaAbbyHotelMeetingPlanned = True
         $ add_hook("ReceptionGirl", "ep217_dialogues1_escort_13", scene="rich_hotel_reception", label="reception_administrator_after_candise")
         $ map_source_scene = "street_house_outside"
-        call map_close()
+        call map_close() from _rcall_map_close
         fadeblack 3.0
-        call process_change_map_location("House")
-        call change_scene("street_house_outside", "Fade_long")
+        call process_change_map_location("House") from _rcall_process_change_map_location_5
+        call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_208
         return False
     if candiseApartmentsStage == 1:
-        call ep217_dialogues1_escort_9b()
+        call ep217_dialogues1_escort_9b() from _rcall_ep217_dialogues1_escort_9b
         return False
     return False
 
 label ep217_quests_escort4_candice_after:
-    call ep217_dialogues1_escort_12()
+    call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12_2
     return False
 
 label ep217_quests_escort5_abby_after:
-    call ep217_dialogues1_escort_12a()
+    call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a_2
     return False

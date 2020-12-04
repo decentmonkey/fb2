@@ -574,7 +574,7 @@ label ep217_dialogues2_shiny_hole_6:
         "200!":
             $ mollyStoleMoney = 200
             imgd 40783
-            call bitch(5, "molly_tips_punishment1")
+            call bitch(5, "molly_tips_punishment1") from _rcall_bitch_20
             m "200!"
             ashley "Ты же говорила, что сто... Я ослышалась?"
             # Моника упрямо
@@ -1543,7 +1543,7 @@ label ep217_dialogues2_shiny_hole_13:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("5 минут спустя..."))
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_16
     sound highheels_short_walk
     img black_screen
     with Dissolve(2.0)
@@ -2369,5 +2369,5 @@ label ep217_dialogues2_shiny_hole_18:
     #imgf 16241
     mt "Интересно, почему она так боится, что кто-то увидит ее лицо?"
     mt "Что она скрывает?"
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_124
     return False

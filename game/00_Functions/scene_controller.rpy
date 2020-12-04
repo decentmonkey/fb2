@@ -275,7 +275,7 @@ label after_load():
     $ imagesSizesCache = {}
     if episode2part2_initialized == False:
         jump part2_questions_init_loadgame
-    call process_afterload_part2()
+    call process_afterload_part2() from _rcall_process_afterload_part2
     return
 
     if patch32applied == False:

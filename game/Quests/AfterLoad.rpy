@@ -20,6 +20,6 @@ label process_afterload:
 label process_afterload_part2:
     if scenes_data.has_key("misc") == False or scenes_data["misc"].has_key("list_type") == False:
         $ scenes_data["misc"] = {"list_type": ["item1", "item2"]}
-    call questLog_init()
-    call questHelp_init()
+    call questLog_init() from _rcall_questLog_init
+    call questHelp_init() from _rcall_questHelp_init
     return

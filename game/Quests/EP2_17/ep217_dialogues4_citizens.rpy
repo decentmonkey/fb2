@@ -255,7 +255,7 @@ label ep217_dialogues4_citizens_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_18
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -1702,7 +1702,7 @@ label ep217_dialogues4_citizens_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_19
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1

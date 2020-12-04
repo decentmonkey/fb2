@@ -44,7 +44,7 @@ label ep211_quests_escort1:
         $ char_info["ReceptionGirl"]["enabled"] = True
         $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
 
-    call process_hooks("escort_start_day", "global")
+    call process_hooks("escort_start_day", "global") from _rcall_process_hooks_56
     if _return == False:
         return
     call ep210_dialogues7_escort_hotel_8a() from _rcall_ep210_dialogues7_escort_hotel_8a
@@ -124,13 +124,13 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
         return False
     if monicaCandiseHotelMeetingPlanned == True:
         $ monicaCandiseHotelMeetingPlanned = False
-        call ep217_dialogues1_escort_12()
-        call change_scene("rich_hotel_restaurant", "Fade_long")
+        call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12
+        call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_203
         return False
     if monicaAbbyHotelMeetingPlanned == True:
         $ monicaAbbyHotelMeetingPlanned = False
-        call ep217_dialogues1_escort_12a()
-        call change_scene("rich_hotel_restaurant", "Fade_long")
+        call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a
+        call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_204
         return False
 
     if ep214_dialogues3_escort_10_flag1 == True:
@@ -153,17 +153,17 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
             call ep210_dialogues7_escort_hotel_8a2() from _rcall_ep210_dialogues7_escort_hotel_8a2
     if rnd1 == 2: # abby
         if monicaKnowsCandise == True:
-            call ep217_dialogues1_escort_12a()
+            call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a_1
         else:
             call ep210_dialogues7_escort_hotel_8b() from _rcall_ep210_dialogues7_escort_hotel_8b
     if rnd1 == 3: # candise
         if monicaKnowsCandise == True:
-            call ep217_dialogues1_escort_12()
+            call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12_1
         else:
             call ep210_dialogues7_escort_hotel_8c() from _rcall_ep210_dialogues7_escort_hotel_8c
     if rnd1 == 4:
         if ep215_quests_linda_restaurant_dialogue_day > 0:
-            call ep215_dialogues3_escort_22()
+            call ep215_dialogues3_escort_22() from _rcall_ep215_dialogues3_escort_22_1
         else:
             call ep210_dialogues7_escort_hotel_8d() from _rcall_ep210_dialogues7_escort_hotel_8d
     call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_10
@@ -262,7 +262,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ monicaEscortScene8Day = day
         $ monicaEscortSceneDay = day
         $ monicaEscortScenesCount += 1
-        call ep217_dialogues1_escort_1()
+        call ep217_dialogues1_escort_1() from _rcall_ep217_dialogues1_escort_1
         $ move_object("ReceptionGirl", "empty")
         $ add_objective("go_administrator", t_("Пойти на ресепшн к администратору."), c_orange, 105)
         $ add_hook("MonicaTable", "ep211_escort_scene1_17", scene="rich_hotel_restaurant", label="escort_scene8")
@@ -271,7 +271,7 @@ label ep211_quests_escort5_restaurant_wait_customer:
         $ add_hook("Teleport_Street_Rich_Hotel", "ep211_escort_scene1_17", scene="rich_hotel_reception", label="escort_scene8")
         $ add_hook("enter_scene", "ep217_quests_escort1", scene="rich_hotel_reception", label="escort_scene8", once=True)
         $ autorun_to_object("ep211_escort_scene1_17", scene="rich_hotel_restaurant")
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_123
 
 
     return False

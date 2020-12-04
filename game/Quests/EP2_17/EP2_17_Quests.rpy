@@ -11,5 +11,5 @@ label ep217_quests:
 
     if monica_shiny_hole_queen_day > 0:
         $ questHelp("shinyhole_50")
-        call ep217_quests_shinyhole1_init()
+        call ep217_quests_shinyhole1_init() from _rcall_ep217_quests_shinyhole1_init
     return

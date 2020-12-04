@@ -1919,7 +1919,7 @@ label ep213_dialogues_police19:
         "Продолжить квест Маркуса.":
             pass
         "Бежать отсюда!":
-            call map_show()
+            call map_show() from _rcall_map_show_2
             return False
     help "Квест Маркуса можно будет продолжить в одном из следующих апдейтов!"
     help "Следите за новостями игры!"

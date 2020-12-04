@@ -1714,7 +1714,7 @@ label ep215_dialogues1_pub_14:
 
     if ep217_quests_ashley_tips_dialogue_planned == True:
         $ ep217_quests_ashley_tips_dialogue_planned = False
-        call ep217_dialogues2_shiny_hole_14()
+        call ep217_dialogues2_shiny_hole_14() from _rcall_ep217_dialogues2_shiny_hole_14
         music2 stop
         return
 
