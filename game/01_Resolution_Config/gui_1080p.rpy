@@ -592,3 +592,9 @@ define gui.credits.timeout = 170.0
 define gui.text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
 define gui.name_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
 define gui.interface_text_font_chinese = "fonts/NotoSerifCJKsc-Regular.otf"
+
+style main_menu_credits_text:
+    size 20
+    color "#ffffff"
+#    outlines [(0, "#0f0f0f", 2, 2), (0, "#0f0f0f", 2, -2), (0, "#0f0f0f", -2, 2), (0, "#0f0f0f", -2, -2)]
+    outlines [(3, "#0f0f0f", 0, 0)]

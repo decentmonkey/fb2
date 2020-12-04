@@ -215,9 +215,3 @@ transform blur(child):
         alpha 0.2 yoffset 30
 #translate german python:
 #    objectivesFont = "fonts/OpenSans-Regular.ttf"
-
-style main_menu_credits_text:
-    size 20
-    color "#ffffff"
-#    outlines [(0, "#0f0f0f", 2, 2), (0, "#0f0f0f", 2, -2), (0, "#0f0f0f", -2, 2), (0, "#0f0f0f", -2, -2)]
-    outlines [(3, "#0f0f0f", 0, 0)]
