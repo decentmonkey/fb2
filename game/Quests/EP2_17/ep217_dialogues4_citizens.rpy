@@ -17,6 +17,10 @@ define monicaCitizens5CorruptionRequired2 = 400 # Моника согласил�
 define monicaCitizens5CorruptionRequired3 = 450 # Моника согласилась, чтобы Акира нацепил на вторую грудь зажимы
 define monicaCitizens5CorruptionRequired4 = 500 # Моника согласилась, чтобы Акира нацепил на ее киску зажимы
 
+default v_Monica_Citizen6_Blowjob1_1_sound_name = "v_Monica_Citizen6_Blowjob1_1"
+default v_Monica_Citizen9_Blowjob1_1_sound_name = "v_Monica_Citizen9_Blowjob1_1"
+default v_Monica_Citizen6_Sex1_1_sound_name = "v_Monica_Citizen6_Sex1_1"
+
 #call ep217_dialogues4_citizens_1() # при клике на упоротого чувака в парке
 #call ep217_dialogues4_citizens_2() # при клике на азиата у ресторана (Akira San)
 
@@ -255,7 +259,7 @@ label ep217_dialogues4_citizens_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_18
+    call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -1702,7 +1706,7 @@ label ep217_dialogues4_citizens_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_19
+    call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1

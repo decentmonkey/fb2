@@ -7,8 +7,8 @@ default monicaBiffInvestorsPhilip5 = 0 # Моника смотрела, как �
 
 default ep217_dialogues5_phillip_cumzone = 0
 
-define v_Monica_Philip_Anal1_1_sound_name = "v_Monica_Adriano_Titjob1_1"
-define v_Monica_Philip_Anal2_sound_name = "v_Monica_Adriano_Titjob1_1"
+define v_Monica_Philip_Anal1_1_sound_name = "v_Monica_Philip_Anal1_1"
+define v_Monica_Philip_Anal2_sound_name = "v_Monica_Philip_Anal2"
 
 #call ep217_dialogues5_phillip_1() # гостиная в доме Филиппа
 #call ep217_dialogues5_phillip_2() # БДСМ-комната
