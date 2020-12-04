@@ -103,6 +103,15 @@ define gui.questhelp.quest.top_margin = 20
 define gui.questhelp.quest.top_padding = 5
 define gui.questhelp.quest.bottom_padding = 7
 
+define gui.resolution.main_menu.lang.padding = 25
+define gui.resolution.main_menu.font_size1 = 34
+define gui.resolution.main_menu.font_size2 = 30
+
+#720
+#define gui.resolution.main_menu.lang.padding = 20
+#define gui.resolution.main_menu.font_size1 = 22
+#define gui.resolution.main_menu.font_size2 = 18
+
 define res.suffix = "" #"", "_720p"
 
 define notifyLineOffset = 50 #ep22
