@@ -1761,7 +1761,7 @@ screen choice(items):
                 if imenu.action:
                     str1 = imenu.caption
                     button_obj = {"priority": priority, "native":True, "caption":str1, "action":imenu.action, "active":True}
-                    if " (disabled)" in imenu.caption:
+                    if " (disabled)" in imenu.caption or " (deaktiviert)" in imenu.caption or " (déactivé)" in imenu.caption or " (devredışı)" in imenu.caption or " (disabilitato)" in imenu.caption:
                         str1 = t__(imenu.caption)
                         str1 = str1.replace(" (disabled)", "")
                         button_obj["caption"] = str1
