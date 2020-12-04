@@ -102,6 +102,15 @@ init python:
                     if questHelpData[questCategory][idx][0] == questHelpName:
                         return
 
+        if kwargs.has_key("skipIfNonExists"):
+            if kwargs["skipIfNonExists"] == True:
+                exists = False
+                for idx in range(0, len(questHelpData[questCategory])):
+                    if questHelpData[questCategory][idx][0] == questHelpName:
+                        exists = True
+                if exists == False:
+                    return
+
         if kwargs.has_key("skipIfTrue"):
             if kwargs["skipIfTrue"] == True:
                 for idx in range(0, len(questHelpData[questCategory])):

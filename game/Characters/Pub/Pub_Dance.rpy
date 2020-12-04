@@ -190,7 +190,6 @@ label pub_dance_ashley_tips1:
     return
 
 label pub_dance_exit_check: # проверка на выход из бара
-
     if monicaDancingInProgress == True:
         # Закрываем танцы
         $ monicaDancingInProgress = False

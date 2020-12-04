@@ -1711,6 +1711,13 @@ label ep215_dialogues1_pub_14:
     ashley "Но не забывай про свои королевские обязанности..."
     m "..."
     # подмигивает Монике и уходит
+
+    if ep217_quests_ashley_tips_dialogue_planned == True:
+        $ ep217_quests_ashley_tips_dialogue_planned = False
+        call ep217_dialogues2_shiny_hole_14()
+        music2 stop
+        return
+
     music Stealth_Groover
     imgf 31981
     mt "Извращенка!"

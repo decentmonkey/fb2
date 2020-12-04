@@ -8,4 +8,8 @@ label ep217_quests:
 
     $ ep217_quests_office_menu_enabled = True
     $ questHelp("office_53")
+
+    if monica_shiny_hole_queen_day > 0:
+        $ questHelp("shinyhole_50")
+        call ep217_quests_shinyhole1_init()
     return

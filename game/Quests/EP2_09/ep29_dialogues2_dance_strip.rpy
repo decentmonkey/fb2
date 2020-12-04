@@ -256,6 +256,8 @@ label dialogue_5_dance_strip_4na:
     if act=="l":
         return
     mt "Мне нужно идти в гримерную комнату..."
+    if monicaDancedLastDay != day:
+        mt "Я еще сегодня не танцевала на сцене."
     return False
 
 label dialogue_5_dance_strip_4nb:

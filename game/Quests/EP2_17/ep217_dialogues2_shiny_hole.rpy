@@ -6,6 +6,9 @@ default monicaJoeMollyClare5 = 0 # Моника выдвинула свои ус
 default monicaJoeMollyClare6 = 0 # Молли согласилась на приват с Джо в присутствии Моники
 default monicaJoeMollyClare7 = 0 # Моника простила Молли
 
+default mollyJoePrivate1_cumzone = 0
+
+default v_Bartender_Molly_Sex1_1_sound_name = "v_Bartender_Molly_Sex1_1"
 
 #call ep217_dialogues2_shiny_hole_1() # Моника узначет что Клэр увольняется и общается с Джо
 #call ep217_dialogues2_shiny_hole_2() # Моника вспоминает что Клэр помогала ей и решает придумать план
@@ -108,6 +111,11 @@ label ep217_dialogues2_shiny_hole_1:
     m "Вот сволочь!!!"
     m "!!!"
     m "А Эшли?! Как она могла так глупо повестись на его манипуляции?!"
+    menu:
+        "Заступиться за Клэр.":
+            pass
+        "Уйти.":
+            return False
     imgd 40729
     m "Не зря я всегда подозревала, что она особа недалекого ума!"
     m "Я поговорю с ней, Клэр!"
@@ -148,7 +156,7 @@ label ep217_dialogues2_shiny_hole_1:
     ashley "[monica_pub_name], насчет Клэр иди разговаривай с Джо."
     ashley "Веселить всяких извращенцев, предоставляя им приваты с девочками - это его работа."
     ashley "Он себя ведет хорошо в последнее время, поэтому я разрешила ему заниматься этим вопросом."
-    imgd 40737
+    img 40737
     m "Где Джо?!"
     imgd 22705
     ashley "В подсобке."
@@ -161,6 +169,11 @@ label ep217_dialogues2_shiny_hole_1:
     mt "ААААА!!!"
     mt "Бесит!!!"
     mt "!!!"
+    menu:
+        "Идти к Джо.":
+            pass
+        "Уйти.":
+            return False
     music2 stop
     # затемнение
     # смена кадра, подсобка барменов, Джо протирает стол или просто сидит на диване, либо стоит где-то за диваном и разглядывает номера
@@ -280,7 +293,7 @@ label ep217_dialogues2_shiny_hole_1:
     mt "!!!"
     # Моника выходит из подсобки
     $ monicaJoeMollyClare1 = day # Моника попыталась отговорить Джо от увольнения Клэр
-    return
+    return True
 
 # Моника возвращается в гримерку, Клэр сидит на своем месте
 label ep217_dialogues2_shiny_hole_2:
@@ -411,7 +424,6 @@ label ep217_dialogues2_shiny_hole_4:
     img 40776
     m "!!!"
     $ menu_corruption = [monicaMollyHumiliationCorruptionRequired1, 0]
-    $ menu_price = [100, 0]
     menu:
         "Обвинить Молли в воровстве.": # при условии, что у Моники есть 100 баксов
             pass
@@ -451,6 +463,18 @@ label ep217_dialogues2_shiny_hole_4:
 label ep217_dialogues2_shiny_hole_5:
     # при клике на столик Молли
     # Моника подходит к нему
+    $ menu_price = [100, 0]
+    menu:
+        "Подбросить деньги в банку чаевых.":
+            pass
+        "Уйти.":
+            return False
+
+    if cloth != "Whore":
+        sound snd_fabric1
+        fadeblack 2.0
+        $ cloth = "Whore"
+        $ cloth_type = "Whore"
     fadeblack
     sound highheels_short_walk
     pause 2.0
@@ -469,8 +493,24 @@ label ep217_dialogues2_shiny_hole_5:
     mt "Отлично! А теперь к Эшли..."
     mt "Сейчас я продемонстрирую ей свою гениальную актерскую игру..."
     $ monicaJoeMollyClare2 = day # Моника подбросила Молли деньги, выставив ее перед Эшли воровкой
-    $ log1 = _("Сказать Эшли, что Молли украла у Моники чаевые.")
-    return
+#    $ log1 = _("Сказать Эшли, что Молли украла у Моники чаевые.")
+    return True
+
+label ep217_dialogues2_shiny_hole_5a2:
+    mt "Отлично! А теперь к Эшли..."
+    mt "Сейчас я продемонстрирую ей свою гениальную актерскую игру..."
+    return False
+
+label ep217_dialogues2_shiny_hole_5a:
+    menu:
+        "Забрать чаевые назад.":
+            pass
+        "Уйти.":
+            return False
+    mt "Я заберу назад эти деньги."
+    mt "Они для меня не лишние, чтобы я разбрасывалась ими!"
+    return True
+
 
 # Моника в одежде шлюхи подходит к барной стойке
 # при клике на Эшли (вместо регулярного диалога)
@@ -534,6 +574,7 @@ label ep217_dialogues2_shiny_hole_6:
         "200!":
             $ mollyStoleMoney = 200
             imgd 40783
+            call bitch(5, "molly_tips_punishment1")
             m "200!"
             ashley "Ты же говорила, что сто... Я ослышалась?"
             # Моника упрямо
@@ -622,9 +663,10 @@ label ep217_dialogues2_shiny_hole_7:
     imgf 40803
     w
     imgd 40804
+    sound snd_take_paper
     w
     imgf 40805
-    sound vjuh3
+    sound2 vjuh3
     w
     imgd 40806
     w
@@ -647,6 +689,7 @@ label ep217_dialogues2_shiny_hole_7:
     img 40811 hpunch
     w
     imgd 40812
+    sound Jump1
     w
     imgf 40813
     w
@@ -720,7 +763,7 @@ label ep217_dialogues2_shiny_hole_7:
     mt "Эту тупую дуру не пришлось даже провоцировать!"
     mt "!!!"
     $ monicaJoeMollyClare3 = day # Моника обвинила Молли в том, что та на нее напала
-    $ log1 = _("Сказать Эшли, что Молли напала на Монику.")
+#    $ log1 = _("Сказать Эшли, что Молли напала на Монику.")
     return
 
 label ep217_dialogues2_shiny_hole_7a: #клик на гардероб, либо выход на улицу
@@ -785,7 +828,7 @@ label ep217_dialogues2_shiny_hole_8:
     sound highheels_short_walk
     pause 2.0
     music Pyro_Flow
-    imgf 40838
+    img 40838 vpunch
     ashley "МОЛЛИ!!!"
     ashley "Я тебе запретила устраивать битву сучек!"
     ashley "Я тебе сделала предупреждение!"
@@ -956,16 +999,20 @@ label ep217_dialogues2_shiny_hole_9:
     molly "Я не могу собрать деньги на взнос агенту в срок!"
     molly "Потому что отдаю все Эшли!"
     # Моника зло стебется над ней
-    music Stealth_Groover
-    imgf 40872
-    m "А что, он отказался взять твою задницу вместо денег?!"
-    m "Наверняка ты ему предлагала это!"
-    m "Или, может, приглашала его на приват сюда?"
-    m "Что молчишь?"
+    if monicaBitch == True:
+        $ notif_monica()
+        music Stealth_Groover
+        imgf 40872
+        m "А что, он отказался взять твою задницу вместо денег?!"
+        m "Наверняка ты ему предлагала это!"
+        m "Или, может, приглашала его на приват сюда?"
+        m "Что молчишь?"
     # Молли обреченно
     imgd 40873
     molly "Он не знает о том, каким способом я сейчас зарабатываю деньги."
-    m "А зря! Может, не пришлось бы тогда платить ему!"
+    if monicaBitch == True:
+        $ notif_monica()
+        m "А зря! Может, не пришлось бы тогда платить ему!"
     img 40874
     molly "!!!" # зло смотрит на Монику
     molly "Что ты хочешь от меня?!"
@@ -999,6 +1046,7 @@ label ep217_dialogues2_shiny_hole_9:
     m "Я не скажу Эшли, что простила тебя, если ты не подтвердишь мой статус!"
     m "Так что хорошо подумай, прежде чем дать ответ!"
     # отворачивая лицо
+    fadeblack 1.5
     music Groove2_85
     imgf 40880
     molly "..."
@@ -1028,7 +1076,9 @@ label ep217_dialogues2_shiny_hole_9:
     molly "Довольна?"
     molly "Теперь мы можем пойти к Эшли?!"
     imgd 40885
-    m "Подожди, сучка... Да, теперь я будут называть тебя так!"
+    if monicaBitch == True:
+        $ notif_monica()
+        m "Подожди, сучка... Да, теперь я будут называть тебя так!"
     m "Это еще не все..."
     # Моника задумчиво
     music Hidden_Agenda
@@ -1083,7 +1133,7 @@ label ep217_dialogues2_shiny_hole_9:
     molly "!!!"
     # Молли наклоняется
     fadeblack 1.5
-    music Pyro_Flow
+    music Loved_Up
     imgfl 40896
     w
     imgf 40897
@@ -1094,19 +1144,21 @@ label ep217_dialogues2_shiny_hole_9:
     w
     imgd 40900
     w
-    img 40901
+    imgd 40901
     molly "Ты ответишь за это! Я отомщу тебе!"
     imgf 40902
     w
     imgd 40903
     w
-    sound kiss2
     imgd 40904
+    w
+    sound kiss2
     w
     imgf 40905
 #    sound snd_woman_laugh2
     w
     imgd 40906
+    sound kiss2
     w
     #прикасается губами к каблуку Молли
     # при этом смотрит на нее с ненавистью
@@ -1149,6 +1201,9 @@ label ep217_dialogues2_shiny_hole_9:
     sound highheels_run2
     imgf 40915
     w
+    sound highheels_run2
+    fadeblack 1.5
+    music Hidden_Agenda
     imgd 40916
     mt "Черт! Вот идиотка!"
     mt "Какого дьявола она пошла рассказывать все Эшли?!"
@@ -1167,7 +1222,7 @@ label ep217_dialogues2_shiny_hole_9:
     music2 pub_noise1_low
     imgfl 32827
     w
-    imgf 32828
+    img 32828 vpunch
     molly "Эшли!"
     molly "Ты представляешь, что эта сука от меня требует!"
     molly "Она потребовала, чтобы я переспала с твоим мужем!"
@@ -1283,6 +1338,12 @@ label ep217_dialogues2_shiny_hole_9:
 # Моника приходит на работу на следующий рабочий день Молли
 # гримерка, Молли на своем месте
 # Моника в костюме для выступления
+
+label ep217_dialogues2_shiny_hole_10a:
+    mt "Мне нужно заставить эту рыжую сучку выполнить мое условие!"
+    mt "Она должна пойти на приват к Джо!"
+    return False
+
 label ep217_dialogues2_shiny_hole_10:
     fadeblack
     sound highheels_short_walk
@@ -1313,8 +1374,9 @@ label ep217_dialogues2_shiny_hole_10:
     m "Ну хорошо, раз тебя все устраивает, продолжай и дальше работать бесплатно..."
     # Моника разворачивается, чтобы уйти
     # Молли зло смотрит на нее
+    fadeblack 1.5
     music Pyro_Flow
-    imgd 32848
+    img 32848 hpunch
     molly "Я сделаю это!"
     mt "!!!" # смотрит на Молли, обернувшись
     imgd 31929
@@ -1374,6 +1436,8 @@ label ep217_dialogues2_shiny_hole_11:
     #
     $ notif(_("У Моники были приватные танцы перед клиентами в присутствии Джо."))
     #
+    fadeblack 1.5
+    music Road_Trip
     imgf 32823
     m "Приватный танец... И не только танец..."
     m "Для тебя..."
@@ -1385,29 +1449,38 @@ label ep217_dialogues2_shiny_hole_11:
     m "И сделай так, чтобы Эшли ничего не заподозрила!"
     joe "Понял! Я все сделаю!" # с довольной физиономией
     # Джо уходит
+    fadeblack 1.5
     music Stealth_Groover
     imgf 32825
     mt "Моника, тебе пришлось разыграть целый спектакль..."
     mt "Ради того, чтобы Клэр не уволилась."
     mt "И ты с этим великолепно справилась!"
     mt "Какая же я хорошая и добрая! Я настоящий друг для Клэр!"
-    mt "Хотя..."
-    imgd 32826
-    mt "Все эти игры с обитателями этой дыры доставили мне немалое удовольствие..."
-    mt "Особенно что касается Молли..."
-    mt "После выступления на сцене я посмотрю результат своих трудов!"
-    mt "Представляю, как рыжая сучка Молли бесится сейчас!!"
-    mt "!!!"
+    if monicaBitch == True:
+        $ notif_monica()
+        mt "Хотя..."
+        imgd 32826
+        mt "Все эти игры с обитателями этой дыры доставили мне немалое удовольствие..."
+        mt "Особенно что касается Молли..."
+        mt "После выступления на сцене я посмотрю результат своих трудов!"
+        mt "Представляю, как рыжая сучка Молли бесится сейчас!!"
+        mt "!!!"
     music2 stop
     return
 
 # после выступления на сцене
 # Моника стоит в гримерке в сценическом костюме в жилете
-label ep217_dialogues2_shiny_hole_12:
-    fadeblack 1.5
-    music Hidden_Agenda
+label ep217_dialogues2_shiny_hole_12b:
     mt "Сначала мне нужно пойти к Эшли..."
     mt "Нужно что-то придумать, чтобы она не пришла в подсобку, пока мы будем там находиться."
+    return False
+
+label ep217_dialogues2_shiny_hole_12:
+#    fadeblack 1.5
+#    music Hidden_Agenda
+#    mt "Сначала мне нужно пойти к Эшли..."
+#    mt "Нужно что-то придумать, чтобы она не пришла в подсобку, пока мы будем там находиться."
+
     # затемнение, звук каблуков
     # Моника стоит возле барной стойки, Эшли за стойкой одна
     fadeblack
@@ -1467,9 +1540,13 @@ label ep217_dialogues2_shiny_hole_12a: # попытка переодеться
 
 # подсобка барменов
 label ep217_dialogues2_shiny_hole_13:
-    fadeblack
+    music stop
+    img black_screen
+    with Dissolve(2.0)
+    call textonblack(t_("5 минут спустя..."))
     sound highheels_short_walk
-    pause 2.0
+    img black_screen
+    with Dissolve(2.0)
     music Groove2_85
     # Моника заходит в подсобку
     # Джо довольный сидит на диване
@@ -1568,6 +1645,7 @@ label ep217_dialogues2_shiny_hole_13:
     molly "!!!"
     # Молли лезет на стол и начинает танцевать
     # Джо пускает на нее слюни
+    fadeblack 1.5
     music Road_Trip
     imgf 32739
     w
@@ -1605,6 +1683,7 @@ label ep217_dialogues2_shiny_hole_13:
     w
     # кадр на Монику, она оценивающе рассматривает голую Молли
     # music Pyro_Flow
+    fadeblack 1.5
     music Stealth_Groover
     imgf 32754
     mt "Все-таки у меня попа намного лучше, чем у этой шлюхи!"
@@ -1628,7 +1707,7 @@ label ep217_dialogues2_shiny_hole_13:
     # Молли оборачивается на Монику
     imgd 32758
     w
-    img 32759
+    imgd 32759
     m "Клиент тебе озвучил свое желание..."
     m "И ты должна его удовлетворить."
     m "Делай, что тебе говорит клиент!"
@@ -1641,6 +1720,7 @@ label ep217_dialogues2_shiny_hole_13:
     w
     imgd 32761
     w
+    fadeblack 1.5
     music Loved_Up
     imgf 32762
     w
@@ -1652,8 +1732,10 @@ label ep217_dialogues2_shiny_hole_13:
     w
     fadeblack 1.5
     music Loved_Up
-    imgfl 32767
-    sound man_moan5
+    sound hlup25
+    img 32767 vpunch
+
+    sound2 man_moan5
     joe "Даааа..."
     imgf 32766
     sound ahhh6
@@ -1666,8 +1748,39 @@ label ep217_dialogues2_shiny_hole_13:
     imgd 32770
     joe "Я хочу, чтоб это длилось как можно дольше, крошка Молли!"
     joe "Аааа..."
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Bartender_Molly_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_1= Movie(play="video/v_Bartender_Molly_Sex1_1.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_2= Movie(play="video/v_Bartender_Molly_Sex1_2.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_2
+    with fade
     joe "Тебе нравится чувствовать мой член внутри себя, крошка Молли?"
     joe "Почему ты такая молчаливая?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     sound man_moan5
     imgf 32776
     w
@@ -1677,21 +1790,8 @@ label ep217_dialogues2_shiny_hole_13:
     sound drkanje5
     imgd 32776
     w
-    sound drkanje5
-    imgd 32777
-    w
-    sound drkanje5
-    imgd 32776
-    w
-    sound drkanje5
-    imgd 32777
-    w
-    sound drkanje5
-    imgd 32776
-    w
-    sound drkanje5
-    imgd 32777
-    w
+    fadeblack 1.5
+    music Groove2_85
     imgf 32771
     joe "Я же знаю, как ты любишь разговаривать со своими клиентами на приватах..."
     joe "Ты делаешь это для того, чтобы клиенты тебя еще больше хотели."
@@ -1703,20 +1803,67 @@ label ep217_dialogues2_shiny_hole_13:
     m "Молли! Джо сегодня твой клиент!"
     m "Работай с клиентом, как следует!!!"
     molly "!!!"
+    fadeblack 1.5
     music Loved_up2
     imgd 32770
     joe "Да, крошка Молли!"
     joe "Работай, как следует!"
     joe "Представь, что я особо важный клиент!"
-    imgf 32771
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_3= Movie(play="video/v_Bartender_Molly_Sex1_3.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_3
+    with fade
+    wclean
     molly "Ооооо!!!"
     molly "Даа! Какой огромный и горячий у тебя член!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32771
     joe "Да, так! Говори еще!"
+    w
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_4= Movie(play="video/v_Bartender_Molly_Sex1_4.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 32773
     joe "Еще..."
 #    joe "Я так давно мечтал о тебе!"
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_5= Movie(play="video/v_Bartender_Molly_Sex1_5.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_5
+    with fade
+    wclean
     molly "Да! Заполни меня всю, так хочу тебя!"
+    wclean
     molly "ОООО!!! Обожаю твой член!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 32772
     molly "Джо, может ты поторопишься?"
     molly "Нас в любой момент может застукать твоя жена!"
@@ -1736,34 +1883,86 @@ label ep217_dialogues2_shiny_hole_13:
     w
     sound drkanje5
     imgd 32777
-    w
-    sound drkanje5
-    imgd 32776
-    w
-    sound drkanje5
-    imgd 32777
     joe "Оооооо..."
     sound ahhh6
     imgf 32856
+    w
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_6= Movie(play="video/v_Bartender_Molly_Sex1_6.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_6
+    with fade
+    wclean
     molly "Какой же твой член клевый!"
     molly "Такой твердый, дааа!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_7= Movie(play="video/v_Bartender_Molly_Sex1_7.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_7
+    with fade
     molly "Оооо!"
     molly "Кончай быстрее!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     sound ahhh6
     imgd 32778
+    w
+
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_8= Movie(play="video/v_Bartender_Molly_Sex1_8.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_8
+    with fade
     molly "О, да!!! Еще! Еще!"
     molly "Мой зверь! Мой тигр!"
     molly "Ааааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 32754
     mt "Твоя жена тебя не видит!"
     mt "Мерзкий кобель!"
     mt "!!!"
     imgd 32779
-    molly "О, я кончаю!"
+    w
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Bartender_Molly_Sex1_9= Movie(play="video/v_Bartender_Molly_Sex1_9.mkv", fps=30)
+    show videov_Bartender_Molly_Sex1_9
+    with fade
+    joe "О, я кончаю!"
     molly "ОООООО!!!"
     joe "Дааааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "Кончить на киску Молли.":
+            $ mollyJoePrivate1_cumzone = 1
             imgf 32776
             w
             sound drkanje5
@@ -1789,6 +1988,7 @@ label ep217_dialogues2_shiny_hole_13:
             joe "Ммммммм..."
             pass
         "Кончить внутрь Молли.":
+            $ mollyJoePrivate1_cumzone = 2
             imgf 32776
             w
             sound drkanje5
@@ -1848,6 +2048,7 @@ label ep217_dialogues2_shiny_hole_13:
     sound highheels_run2
     imgd 32791
     m "Закрой рот и спрячься за диван!"
+    m "Когда там прячешься, тебя не видно!"
     molly "!!!"
     # Молли прячется за диван, Джо стоит уже в штанах
     # заходит Эшли
@@ -1938,7 +2139,7 @@ label ep217_dialogues2_shiny_hole_13:
     molly "Что?! Ты же сказала, что это последнее условие!"
     molly "О чем тут думать?!"
     m "Моим условием было удовлетворить Джо. Как ты думаешь, он остался удовлетворен?"
-    img 32808
+    img 32808 vpunch
     molly "!!!"
     m "Ну ладно... Так уж и быть..."
     m "Королева сегодня добрая и готова даровать тебе свое прощение..."
@@ -2013,7 +2214,7 @@ label ep217_dialogues2_shiny_hole_15:
     joe "Я разрешил ей не снимать маску на сцене, но раздеться она обязана."
     # Моника возмущается
     sound anger2
-    img 32815
+    img 32815 hpunch
     m "Что?!"
     m "!!!"
     m "Какого черта, Джо?!"
@@ -2156,6 +2357,8 @@ label ep217_dialogues2_shiny_hole_17:
 # после прощения Молли и разговора с Клэр, при клике на Клэр
 # регулярный диалог
 label ep217_dialogues2_shiny_hole_18:
+    if cloth != "Whore":
+        return
     fadeblack
     music Groove2_85
     imgfl 16142
@@ -2166,4 +2369,5 @@ label ep217_dialogues2_shiny_hole_18:
     #imgf 16241
     mt "Интересно, почему она так боится, что кто-то увидит ее лицо?"
     mt "Что она скрывает?"
-    return
+    call refresh_scene_fade()
+    return False
