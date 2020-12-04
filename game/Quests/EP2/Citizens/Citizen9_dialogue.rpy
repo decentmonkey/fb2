@@ -107,6 +107,9 @@ label Citizen_9_use_joint:
 
     # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen9_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep214_quests_citizens_regular
+
     imgl Dial_begin35_17
     imgr Dial_Citizen_9_1
     m "Привет! Ты ведь покупал кое что у Джека?"

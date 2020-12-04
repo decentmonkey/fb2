@@ -21,6 +21,9 @@ default v_Monica_Citizen6_Blowjob1_1_sound_name = "v_Monica_Citizen6_Blowjob1_1"
 default v_Monica_Citizen9_Blowjob1_1_sound_name = "v_Monica_Citizen9_Blowjob1_1"
 default v_Monica_Citizen6_Sex1_1_sound_name = "v_Monica_Citizen6_Sex1_1"
 
+default ep217_dialogues4_citizens_cumzone = 0
+
+default monicaMadeBlowjobNigel = False
 #call ep217_dialogues4_citizens_1() # при клике на упоротого чувака в парке
 #call ep217_dialogues4_citizens_2() # при клике на азиата у ресторана (Akira San)
 
@@ -80,7 +83,7 @@ label ep217_dialogues4_citizens_1:
             imgl Dial_begin35_16
             mt "Укуренный придурок!"
             mt "!!!"
-            return False
+            return -1
     # рендерить отсюда!!
     # стоят у пилона
     fadeblack
@@ -201,7 +204,7 @@ label ep217_dialogues4_citizens_1:
             sound snd_runaway
             img 33412
             # Найджел убегает
-            return False
+            return -2
     # Моника задумчиво
     music Groove2_85
     imgf 40333
@@ -255,6 +258,9 @@ label ep217_dialogues4_citizens_1:
     # Моника и Найджел стоят в гостиной в апартаментах
     # он оглядывается
     fadeblack 1.5
+return
+
+label ep217_dialogues4_citizens_1a:
 #    call ep211_quests_slums_apartments2_check_enter_forced()
     scene black_screen
     with Dissolve(1)
@@ -363,7 +369,7 @@ label ep217_dialogues4_citizens_1:
             fadeblack
             sound snd_door_close1
             pause 2.0
-            return False
+            return -1
         "Видимо этот укуренный кретин не отстанет от меня...":
             $ monicaCitizens9Slums2 = day # Моника согласилась на минет и косяк
             pass
@@ -424,28 +430,124 @@ label ep217_dialogues4_citizens_1:
             # Моника начинает делать минет
             imgf 33208
             w
+            fadeblack 1.5
             music Loved_Up
-            imgd 33209
             sound chpok6
+            img 33209 vpunch
             w
+
+            #1
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Citizen9_Blowjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_1= Movie(play="video/v_Monica_Citizen9_Blowjob1_1.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33207
             w
+
+            #2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_2= Movie(play="video/v_Monica_Citizen9_Blowjob1_2.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33210
+            w
+
+            #3
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_3= Movie(play="video/v_Monica_Citizen9_Blowjob1_3.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_3
+            with fade
             citizen9 "Еееее..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33211
             w
             imgd 33212
+            w
+
+            #4
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_4= Movie(play="video/v_Monica_Citizen9_Blowjob1_4.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_4
+            with fade
             citizen9 "Каааайф!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # пока Моника делает минет, он подносит к своему лицу косяк и смотрит на него
             imgf 33213
             citizen9 "А Найджел пока попробует дурь..."
             citizen9 "Для разогрева перед нашим с тобой спором. Хы!"
-            sound swish
+
+            # 5
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_5= Movie(play="video/v_Monica_Citizen9_Blowjob1_5.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_5
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33214
             w
-            sound snd_sniff1
+            sound swish
+            w
+
+            #6
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen9_Blowjob1_6= Movie(play="video/v_Monica_Citizen9_Blowjob1_6.mkv", fps=30)
+            show videov_Monica_Citizen9_Blowjob1_6
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33215
             w
+            sound snd_sniff1
+            w
+
+            $ monicaMadeBlowjobNigel = True
             # Моника перестает сосать и смотрит на него
             pass
         "Попытаться тянуть время.":
@@ -525,6 +627,7 @@ label ep217_dialogues4_citizens_1:
     imgd 33231
     mt "О Боже! Он не реагирует!"
     mt "Он что?"
+    with hpunch
     mt "УМЕР?!"
     mt "?!?!?!"
     # вскакивает, мечется по квартире
@@ -667,7 +770,7 @@ label ep217_dialogues4_citizens_1:
     citizen6 "Зови копов. Зачем меня притащила?"
     # у Моники снова паника
     music Power_Bots_Loop
-    img 33253
+    img 33253 vpunch
     m "НЕТ! НЕТ!"
     m "Я НЕ МОГУ КОПОВ!!!"
     m "НЕЛЬЗЯ КОПОВ!!!"
@@ -716,8 +819,8 @@ label ep217_dialogues4_citizens_1:
     citizen6 "Не переживай, милочка. Все сделаем."
     music Hidden_Agenda
     citizen6 "А сейчас давай перейдем к награде. Хе-хе!"
-    citizen6 "Можешь сейчас же отблагодарить меня своей киской."
     imgd 33265
+    citizen6 "Можешь сейчас же отблагодарить меня своей киской."
     citizen6 "Дело-то рисковое!"
     citizen6 "Поэтому сначала награда, потом я займусь трупом!"
     mt "Черт!"
@@ -851,6 +954,7 @@ label ep217_dialogues4_citizens_1:
                     pass
             # Моника встает на колени
             # Фил резко засовывает свой член Монике в рот
+            $ add_corruption(10, "ep217_nigel2")
             fadeblack
             sound highheels_short_walk
             pause 2.0
@@ -858,14 +962,48 @@ label ep217_dialogues4_citizens_1:
             imgf 33335
             m "А ты точно мне поможешь?"
             citizen6 "Конечно, помогу! Только сначала благодарность!"
+            fadeblack 1.5
             sound Jump2
             img 33336 vpunch
             m "!!!"
             music Loved_Up
             imgd 33337
             w
+
+            #1
+            $ localSoundVolume = 0.7
+            $ localSoundName = v_Monica_Citizen6_Blowjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_1= Movie(play="video/v_Monica_Citizen6_Blowjob1_1.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33338
             w
+
+            #2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_2= Movie(play="video/v_Monica_Citizen6_Blowjob1_2.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # кадр на Найджела, на него никто не смотрит и не видит, что он жив
             # он открывает глаза, лежа на полу, голова вниз
             # Смотрит в пол глазами в упор
@@ -877,14 +1015,26 @@ label ep217_dialogues4_citizens_1:
             citizen9_t "Вот это дурь!"
             citizen9_t "Что это у меня перед глазами?"
             $ blur_effect = 1
-            imgd 33292
-            citizen9_t "Какие-то полосы..."
-            citizen9_t "Черная... Коричневая..."
-            $ blur_effect = 2
-            citizen9_t "Еще какие-то паутинки..."
-            citizen9_t "Это такой глюк?"
-            citizen9_t "Круто! Ееееее!!!"
+            w
             $ blur_effect = 0
+
+            music Loved_Up
+            #3
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_3= Movie(play="video/v_Monica_Citizen6_Blowjob1_3.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_3
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
+
             # кадр на Монику и Фила
             # Моника делает минет упираясь руками (отталкивая Фила)
             music Loved_Up2
@@ -892,22 +1042,109 @@ label ep217_dialogues4_citizens_1:
             citizen6 "Оооо! Даааа!"
             imgd 33341
             citizen6 "Хорошая сделка!"
+            #4
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_4= Movie(play="video/v_Monica_Citizen6_Blowjob1_4.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_4
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33342
             citizen6 "Постарайся, милочка, чтобы я не передумал тебе помогать!"
             imgd 33343
             citizen6 "Даааа!"
+
+            $ blur_effect = 2
+            imgd 33292
+            w
+            $ blur_effect = 0
+            with diss
+            citizen9_t "Какие-то полосы..."
+            citizen9_t "Черная... Коричневая..."
+
+            #5
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_5= Movie(play="video/v_Monica_Citizen6_Blowjob1_5.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_5
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33345
             citizen6 "Давай, бери его глубже!"
+
             imgd 33346
             citizen6 "Я помогу тебе!"
+
+            #6
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_6= Movie(play="video/v_Monica_Citizen6_Blowjob1_6.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_6
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33344
             citizen6 "Ммммм..."
+
+            #7
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_7= Movie(play="video/v_Monica_Citizen6_Blowjob1_7.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_7
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgd 33292
+            citizen9_t "Еще какие-то паутинки..."
+            $ blur_effect = 2
+            with diss
+            citizen9_t "Это такой глюк?"
+            citizen9_t "Круто! Ееееее!!!"
+            $ blur_effect = 0
+
             imgd 33347
             citizen6 "ДАААА!"
             citizen6 "Какая ты усердная!"
             citizen6 "Тебе, похоже, и самой нравится это!"
+
+            #8
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Blowjob1_8= Movie(play="video/v_Monica_Citizen6_Blowjob1_8.mkv", fps=30)
+            show videov_Monica_Citizen6_Blowjob1_8
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             menu:
                 "Кончить в рот Моники.":
+                    $ ep217_dialogues4_citizens_cumzone = 1
                     # кончает Монике в рот
                     imgf 33348
                     w
@@ -933,6 +1170,7 @@ label ep217_dialogues4_citizens_1:
                     mt "!!!"
                     pass
                 "Кончить на лицо Моники.":
+                    $ ep217_dialogues4_citizens_cumzone = 2
                     # кончает Монике на лицо
                     imgf 33348
                     w
@@ -959,6 +1197,7 @@ label ep217_dialogues4_citizens_1:
                     mt "!!!"
                     pass
                 "Кончить на грудь Моники.":
+                    $ ep217_dialogues4_citizens_cumzone = 3
                     # кончает Монике на грудь
                     imgf 33348
                     w
@@ -1047,6 +1286,7 @@ label ep217_dialogues4_citizens_1:
             citizen6 "Попроси у меня разрешения засунуть мой огромный член в себя!"
             music stop
             sound plastinka1b
+            with vpunch
             # Моника недоумевает
             m "Что?!"
             m "Что ты вообще несешь?!"
@@ -1080,6 +1320,8 @@ label ep217_dialogues4_citizens_1:
                 "Вставить член Фила в киску.":
                     pass
             # Моника берет в руку его член и вставляет в себя
+            $ add_corruption(20, "ep217_nigel3")
+            fadeblack 1.5
             music Loved_Up
             imgf 33370
             citizen6 "Дааа, милочка!"
@@ -1089,92 +1331,288 @@ label ep217_dialogues4_citizens_1:
             img 33372 hpunch
             citizen6 "Какая же ты горячая!"
             # Фил начинает двигаться в Монике
-            imgf 33373
+            sound snd_monica_ahh
+            img 33373 vpunch
             w
+
+            #1
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Citizen6_Sex1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_1= Movie(play="video/v_Monica_Citizen6_Sex1_1.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_1
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33374
             citizen6 "Аааа... Да-да!"
+
+            #2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_2= Movie(play="video/v_Monica_Citizen6_Sex1_2.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_2
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
             imgf 33375
+            w
+
+            #3
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_3= Movie(play="video/v_Monica_Citizen6_Sex1_3.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_3
+            with fade
             citizen6 "Как у тебя тепло и узко внутри!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33376
+            w
+
+            #4
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_4= Movie(play="video/v_Monica_Citizen6_Sex1_4.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_4
+            with fade
             citizen6 "Ммммммм...."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # Фил жарит Монику, стоят задом к Найджелу, не видят его
             # Найджел снова открывает глаза и рассматривает пол
             imgd 33377
             w
+
+            #5
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_5= Movie(play="video/v_Monica_Citizen6_Sex1_5.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_5
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #
+            fadeblack 1.5
             music Marty_Gots_a_Plan
             imgf 33293
             w
             $ blur_effect = 1
+            with diss
+            w
             imgd 33292
             citizen9_t "Коричневая... Черная..."
             citizen9_t "Круууууть!"
             # на фоне слышит
             $ blur_effect = 0
+            with diss
+            w
+
+
             imgf 33378
             citizen6 "Оооох... Даааа!!!"
             citizen6 "Какая кискаааа!!!"
             $ blur_effect = 2
+            with diss
             citizen9_t "Ни хрена себе меня вштырило!"
             citizen9_t "В этом глюке кто-то шпилится! Еееее!!"
             citizen9_t "Вот это дурь!!!"
             $ blur_effect = 0
+            with diss
+            w
+
             # снова на фоне
             imgd 33379
+            w
+
             citizen6 "Аааа!!!"
             citizen6 "Я скоро кончууу!!"
+
             citizen6 "Мммм..."
             citizen9_t "???"
+
+            fadeblack 1.5
+            music Loved_Up2
+            #6
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_6= Movie(play="video/v_Monica_Citizen6_Sex1_6.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_6
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
             # Найджел поворачавает голову в бок и смотрит на голый зал Фила, который шпилит Монику
-            $ blur_effect = 1
+            fadeblack 1.5
+            music Marty_Gots_a_Plan
+            $ blur_effect = 0
             imgd 33380
             w
             sound Jump1
+            imgd 33413
+            w
             $ blur_effect = 2
-            img 33413
+            with diss
             citizen9_t "Это кто?"
             citizen9_t "Где я?"
+            $ blur_effect = 0
+            fadeblack 1.5
+
+            music Loved_Up2
+            #7
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_7= Movie(play="video/v_Monica_Citizen6_Sex1_7.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_7
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # поднимается сначала на четвереньках, потом еле встает
             # Найджел стоит сзади и смотрит на то, как Фил жарит Монику
             # с интересом и не понимая
-            $ blur_effect = 0
+            fadeblack 1.5
+            music Marty_Gots_a_Plan
+            $ blur_effect = 1
             imgd 33381
             w
-            $ blur_effect = 1
+            $ blur_effect = 0
+            with diss
+            w
             imgf 33382
             w
             $ blur_effect = 2
+            with diss
+            w
             imgd 33383
             citizen9_t "Это что, не глюк?"
+            $ blur_effect = 0
+            with diss
             citizen9_t "Кто это тут трахается?"
             citizen9_t "Или меня еще не отпустило?"
             $ blur_effect = 0
             # Фил продолжает двигаться в Монике
             music Loved_up2
+            #8
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_8= Movie(play="video/v_Monica_Citizen6_Sex1_8.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_8
+            with fade
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 33384
             w
             imgd 33385
             w
+            #
+
             imgf 33386
             citizen6 "Тебе нравится благодарить Фила за помощь, да?!"
+
+            #9
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_9= Movie(play="video/v_Monica_Citizen6_Sex1_9.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_9
+            with fade
             citizen6 "Ты только поэтому попадаешь во всякие передряги?!"
             citizen6 "Все лишь для того, чтобы Фил трахнул тебя!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 33368
             mt "Что этот придурок вообще несет?!"
+
+            imgf 33387
             mt "Недоумок!"
             mt "!!!"
-            imgf 33387
+
+            #10
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_10= Movie(play="video/v_Monica_Citizen6_Sex1_10.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_10
+            with fade
             citizen6 "Дааааа!"
             citizen6 "Аааа!"
             citizen6 "Давай скажи, что хочешь, чтобы я в тебя кончил!"
             m "ЧТО?!"
             m "НЕТ!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
             imgd 33388
             citizen6 "Ну же!"
             citizen6 "Или я уйду!!!"
             img 33389
+            m "!!!"
+
+            #11
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.0) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Citizen6_Sex1_11= Movie(play="video/v_Monica_Citizen6_Sex1_11.mkv", fps=30)
+            show videov_Monica_Citizen6_Sex1_11
+            with fade
             mt "Чертов извращенец!"
             mt "!!!"
             m "Кончи в... В меня..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # он кончает в Монику
             img 33390
             sound bulk1
@@ -1267,10 +1705,10 @@ label ep217_dialogues4_citizens_1:
             mt "Никому не нужные!"
             mt "Никчемные!"
             mt "!!!"
-            return False
+            return 1
     # Моника офигевшая и в еще большей панике
     music Turbo_Tornado
-    imgd 33281
+    img 33281 vpunch
     m "ААААААААА!!!"
     m "НЕЕЕТ!!!"
     m "!!!"
@@ -1428,7 +1866,7 @@ label ep217_dialogues4_citizens_1:
     sound highheels_short_walk
     imgd 33309
     mt "!!!"
-    $ menu_corruption = [monicaCitizens9CorruptionRequired5, 0]
+    $ menu_corruption = [0, monicaCitizens9CorruptionRequired5]
     menu:
         "Наступить каблуком на его член!":
             # Моника злобно смотрит на него, заносит над ним ногу и придавливает каблуком его член
@@ -1439,6 +1877,7 @@ label ep217_dialogues4_citizens_1:
             imgd 33319
             w
             imgd 33310
+            call bitch(10, "ep217_nigel_heel")
             m "Хватит здесь валяться посреди моего дома!"
             sound Jump2
             img 33311 hpunch
@@ -1494,6 +1933,7 @@ label ep217_dialogues4_citizens_1:
             w
             sound Jump2
             imgd 33321
+            $ add_corruption(10, "ep217_nigel1")
             mt "Фу! Грязный вонючий отросток!"
             mt "!!!"
             # Фил очухивается
@@ -1503,8 +1943,8 @@ label ep217_dialogues4_citizens_1:
             citizen6 "Что это было?"
             citizen6 "Где я?"
             # оглядывается, смотрит на Монику, потом на ее руку на члене
-            imgd 33323
             $ blur_effect = 0
+            imgd 33323
             w
             img 33324
             citizen6 "Аааа, милочка!"
@@ -1554,6 +1994,10 @@ label ep217_dialogues4_citizens_1:
     mt "Никому не нужные!"
     mt "Никчемные!"
     mt "!!!"
+    return 2
+
+label ep217_dialogues4_citizens_1b:
+    mt "Придурок!!!"
     return
 
 # при клике на азиата у ресторана (Akira San)

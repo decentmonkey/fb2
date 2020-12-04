@@ -4,6 +4,9 @@ label ep214_quests_citizens_regular:
     if citizenId == 5:
         call ep217_quests_slums1()
         return False
+    if citizenId == 9:
+        call ep217_quests_slums2()
+        return False
     call ep214_dialogues2_citizens_23() from _rcall_ep214_dialogues2_citizens_23
 
 label ep214_quests_citizens_regular_loop1:
