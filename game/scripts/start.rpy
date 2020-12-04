@@ -452,7 +452,6 @@ label start_game_EP22:
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests
-    $ questHelp("house_45")
     jump show_scene
 
 #########
