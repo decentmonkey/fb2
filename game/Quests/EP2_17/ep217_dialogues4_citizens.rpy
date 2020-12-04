@@ -449,6 +449,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen9_Blowjob1_1= Movie(play="video/v_Monica_Citizen9_Blowjob1_1.mkv", fps=30)
             show videov_Monica_Citizen9_Blowjob1_1
             with fade
+            citizen9 "Крууууть!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -465,6 +466,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen9_Blowjob1_2= Movie(play="video/v_Monica_Citizen9_Blowjob1_2.mkv", fps=30)
             show videov_Monica_Citizen9_Blowjob1_2
             with fade
+            citizen9 "Как дамочка охренительно умеет сосать!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -519,6 +521,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen9_Blowjob1_5= Movie(play="video/v_Monica_Citizen9_Blowjob1_5.mkv", fps=30)
             show videov_Monica_Citizen9_Blowjob1_5
             with fade
+            citizen9 "О, дааа!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -537,6 +540,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen9_Blowjob1_6= Movie(play="video/v_Monica_Citizen9_Blowjob1_6.mkv", fps=30)
             show videov_Monica_Citizen9_Blowjob1_6
             with fade
+            citizen9 "Сегодня у Найджела отличный день! Йоу!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -983,6 +987,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_1= Movie(play="video/v_Monica_Citizen6_Blowjob1_1.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_1
             with fade
+            citizen6 "Дааа! Как офигенно!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -999,6 +1004,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_2= Movie(play="video/v_Monica_Citizen6_Blowjob1_2.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_2
             with fade
+            citizen6 "Глубже! Ааааа... Да!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1027,6 +1033,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_3= Movie(play="video/v_Monica_Citizen6_Blowjob1_3.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_3
             with fade
+            citizen6 "Оооо!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1095,6 +1102,9 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_6= Movie(play="video/v_Monica_Citizen6_Blowjob1_6.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_6
             with fade
+            citizen6 "Вот так! Дааа!"
+            with hpunch
+            m "!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1111,6 +1121,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_7= Movie(play="video/v_Monica_Citizen6_Blowjob1_7.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_7
             with fade
+            citizen6 "Еще глубже! Мммм..."
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1137,6 +1148,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Blowjob1_8= Movie(play="video/v_Monica_Citizen6_Blowjob1_8.mkv", fps=30)
             show videov_Monica_Citizen6_Blowjob1_8
             with fade
+            citizen6 "ДАААА!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1348,6 +1360,8 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Sex1_1= Movie(play="video/v_Monica_Citizen6_Sex1_1.mkv", fps=30)
             show videov_Monica_Citizen6_Sex1_1
             with fade
+            citizen6 "Оооох... Круто!"
+            m "!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1364,6 +1378,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Sex1_2= Movie(play="video/v_Monica_Citizen6_Sex1_2.mkv", fps=30)
             show videov_Monica_Citizen6_Sex1_2
             with fade
+            citizen6 "Какая горячая киска! Аааа!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1415,6 +1430,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Sex1_5= Movie(play="video/v_Monica_Citizen6_Sex1_5.mkv", fps=30)
             show videov_Monica_Citizen6_Sex1_5
             with fade
+            citizen6 "Оооо!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1469,6 +1485,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Sex1_6= Movie(play="video/v_Monica_Citizen6_Sex1_6.mkv", fps=30)
             show videov_Monica_Citizen6_Sex1_6
             with fade
+            citizen6 "Еще немного! Аааа!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1500,6 +1517,7 @@ label ep217_dialogues4_citizens_1a:
             image videov_Monica_Citizen6_Sex1_7= Movie(play="video/v_Monica_Citizen6_Sex1_7.mkv", fps=30)
             show videov_Monica_Citizen6_Sex1_7
             with fade
+            citizen6 "О, как же здорово! Да!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
