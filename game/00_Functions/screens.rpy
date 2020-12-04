@@ -2096,9 +2096,10 @@ screen main_menu():
             ypos get_resolution_y(440)
 
         frame:
-            pos (get_resolution_x(1580), get_resolution_y(650))
+#            pos (get_resolution_x(1570), get_resolution_y(650))
+            pos (get_resolution_x(1475), get_resolution_y(650))
             padding (gui.resolution.main_menu.lang.padding,gui.resolution.main_menu.lang.padding)
-            xysize (get_resolution_x(280), get_resolution_y(270))
+            xysize (get_resolution_x(gui.resolution.main_menu.lang.width), get_resolution_y(gui.resolution.main_menu.lang.height))
             anchor (0,0)
             background Frame("gui/frame_lang.png", left=0, top=0, right=5, bottom=0)
             vbox:
@@ -2115,6 +2116,15 @@ screen main_menu():
                     text_size gui.resolution.main_menu.font_size2
                 textbutton "Russian" action Language(None):
                     text_size gui.resolution.main_menu.font_size2
+
+        if language_credits.has_key(str(_preferences.language)):
+            $ print get_resolution_y(650) + get_resolution_y(gui.resolution.main_menu.lang.height) + getRes(20)
+            frame:
+                pos (get_resolution_x(1475) + getRes(20), get_resolution_y(650) + get_resolution_y(gui.resolution.main_menu.lang.height) + getRes(10))
+                anchor (0, 0)
+                background None
+                text t__(language_credits[str(_preferences.language)]) style "main_menu_credits_text"
+
 
     ## This empty frame darkens the main menu.
     frame:
