@@ -1156,6 +1156,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Titjob1_1= Movie(play="video/v_Monica_Adriano_Titjob1_1.mkv", fps=30)
             show videov_Monica_Adriano_Titjob1_1
             with fade
+            adriano "Оооо... Дааа!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1355,6 +1356,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Blowjob1_3= Movie(play="video/v_Monica_Adriano_Blowjob1_3.mkv", fps=30)
             show videov_Monica_Adriano_Blowjob1_3
             with fade
+            adriano "Я представляю, что сама Моника ласкает меня. Оооо, даааа! Моя Моника!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1368,6 +1370,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Blowjob1_4= Movie(play="video/v_Monica_Adriano_Blowjob1_4.mkv", fps=30)
             show videov_Monica_Adriano_Blowjob1_4
             with fade
+            adriano "Как же здорово купить шлюху, похожую на мою Монику..."
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1384,6 +1387,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Blowjob1_5= Movie(play="video/v_Monica_Adriano_Blowjob1_5.mkv", fps=30)
             show videov_Monica_Adriano_Blowjob1_5
             with fade
+            m "!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1425,6 +1429,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Blowjob1_8= Movie(play="video/v_Monica_Adriano_Blowjob1_8.mkv", fps=30)
             show videov_Monica_Adriano_Blowjob1_8
             with fade
+            adriano "О, дааа..."
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1438,6 +1443,7 @@ label ep217_dialogues1_escort_4:
             image videov_Monica_Adriano_Blowjob1_9= Movie(play="video/v_Monica_Adriano_Blowjob1_9.mkv", fps=30)
             show videov_Monica_Adriano_Blowjob1_9
             with fade
+            m "!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1607,6 +1613,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex1_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_2.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex1_2
     with fade
+    adriano "Такой красивой и такой недоступной для меня..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1637,6 +1644,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex1_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_4.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex1_4
     with fade
+    adriano "Она не позволяла даже прикоснуться к себе..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1650,6 +1658,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex1_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_5.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex1_5
     with fade
+    adriano "Оооох... Мммм..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1897,6 +1906,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex2_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_3.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex2_3
     with fade
+    adriano "Ооо, как же хорошо!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -2051,6 +2061,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex3_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_1.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex3_1
     with fade
+    adriano "Моя Моника! Моя снежная королева! Дааа!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -2109,6 +2120,7 @@ label ep217_dialogues1_escort_4:
     image videov_Monica_Adriano_Visitor1_Sex3_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_5.mkv", fps=30)
     show videov_Monica_Adriano_Visitor1_Sex3_5
     with fade
+    adriano "Оооо!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")

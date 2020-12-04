@@ -380,6 +380,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_1= Movie(play="video/v_Betty_Neighbour_Blowjob2_1.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_1
     with fade
+    liam "О, дааа! Мэээм!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -413,6 +414,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_3= Movie(play="video/v_Betty_Neighbour_Blowjob2_3.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_3
     with fade
+    liam "Какая же вы замечательная соседка... Мммм..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -428,6 +430,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_4= Movie(play="video/v_Betty_Neighbour_Blowjob2_4.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_4
     with fade
+    liam "Ооох... Еще!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -446,6 +449,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_5= Movie(play="video/v_Betty_Neighbour_Blowjob2_5.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_5
     with fade
+    liam "Вот так... Да... Не останавливайтесь, Мэм..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -461,6 +465,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_6= Movie(play="video/v_Betty_Neighbour_Blowjob2_6.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_6
     with fade
+    liam "Возьмите его немного глубже... Ооооо..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -496,6 +501,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Blowjob2_8= Movie(play="video/v_Betty_Neighbour_Blowjob2_8.mkv", fps=25)
     show videov_Betty_Neighbour_Blowjob2_8
     with fade
+    liam "Быстрее, Мэм! Еще-еще! Дааа!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -556,6 +562,7 @@ label ep217_dialogues3_betty_2:
     image videov_Betty_Neighbour_Sex2_1= Movie(play="video/v_Betty_Neighbour_Sex2_1.mkv", fps=30)
     show videov_Betty_Neighbour_Sex2_1
     with fade
+    betty "Аааах! Дааа..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")

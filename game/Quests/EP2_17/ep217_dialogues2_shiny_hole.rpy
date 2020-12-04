@@ -1747,7 +1747,7 @@ label ep217_dialogues2_shiny_hole_13:
     molly "Ты же можешь кончить быстро?"
     imgd 32770
     joe "Я хочу, чтоб это длилось как можно дольше, крошка Молли!"
-    joe "Аааа..."
+
 
     #1
     $ localSoundVolume = 1.0
@@ -1762,6 +1762,7 @@ label ep217_dialogues2_shiny_hole_13:
     image videov_Bartender_Molly_Sex1_1= Movie(play="video/v_Bartender_Molly_Sex1_1.mkv", fps=30)
     show videov_Bartender_Molly_Sex1_1
     with fade
+    joe "Аааа..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1838,6 +1839,7 @@ label ep217_dialogues2_shiny_hole_13:
     image videov_Bartender_Molly_Sex1_4= Movie(play="video/v_Bartender_Molly_Sex1_4.mkv", fps=30)
     show videov_Bartender_Molly_Sex1_4
     with fade
+    molly "Трахай меня! Еще! Оооо!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")

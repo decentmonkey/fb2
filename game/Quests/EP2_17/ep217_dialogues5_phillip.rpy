@@ -1052,6 +1052,9 @@ label ep217_dialogues5_phillip2_loop2:
     image videov_Monica_Philip_Anal1_6= Movie(play="video/v_Monica_Philip_Anal1_6.mkv", fps=30)
     show videov_Monica_Philip_Anal1_6
     with fade
+    philip "Еще ни один член не бывал в этой заднице... Да, я первый... Да..."
+    with hpunch
+    m "Нееет! Мне больно!!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1068,6 +1071,7 @@ label ep217_dialogues5_phillip2_loop2:
     image videov_Monica_Philip_Anal1_7= Movie(play="video/v_Monica_Philip_Anal1_7.mkv", fps=30)
     show videov_Monica_Philip_Anal1_7
     with fade
+    philip "Мммммм... Как же здорово, Миссис Бакфетт..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1081,6 +1085,9 @@ label ep217_dialogues5_phillip2_loop2:
     image videov_Monica_Philip_Anal1_8= Movie(play="video/v_Monica_Philip_Anal1_8.mkv", fps=30)
     show videov_Monica_Philip_Anal1_8
     with fade
+    philip "О дааа..."
+    with hpunch
+    m "Прекрати сейчас же!!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1112,6 +1119,7 @@ label ep217_dialogues5_phillip2_loop2:
     image videov_Monica_Philip_Anal1_10= Movie(play="video/v_Monica_Philip_Anal1_10.mkv", fps=30)
     show videov_Monica_Philip_Anal1_10
     with fade
+    philip "Какая тугая у вас дырочка, Миссис Бакфетт... Как же хорошо, да..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1125,6 +1133,9 @@ label ep217_dialogues5_phillip2_loop2:
     image videov_Monica_Philip_Anal1_11= Movie(play="video/v_Monica_Philip_Anal1_11.mkv", fps=30)
     show videov_Monica_Philip_Anal1_11
     with fade
+    philip "Оооо! Охренительно! Ааааа!!!"
+    with hpunch
+    m "!!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
