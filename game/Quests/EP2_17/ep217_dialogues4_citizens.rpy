@@ -265,7 +265,7 @@ label ep217_dialogues4_citizens_1a:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_18
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -1877,7 +1877,7 @@ label ep217_dialogues4_citizens_1a:
             imgd 33319
             w
             imgd 33310
-            call bitch(10, "ep217_nigel_heel")
+            call bitch(10, "ep217_nigel_heel") from _rcall_bitch_21
             m "Хватит здесь валяться посреди моего дома!"
             sound Jump2
             img 33311 hpunch
@@ -2150,7 +2150,7 @@ label ep217_dialogues4_citizens_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_19
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
