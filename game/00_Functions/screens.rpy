@@ -2118,7 +2118,6 @@ screen main_menu():
                     text_size gui.resolution.main_menu.font_size2
 
         if language_credits.has_key(str(_preferences.language)):
-            $ print get_resolution_y(650) + get_resolution_y(gui.resolution.main_menu.lang.height) + getRes(20)
             frame:
                 pos (get_resolution_x(1475) + getRes(20), get_resolution_y(650) + get_resolution_y(gui.resolution.main_menu.lang.height) + getRes(10))
                 anchor (0, 0)
