@@ -798,7 +798,10 @@ label gallery_41618:
                 # Моника быстро идет к двери, пока на нее никто не смотрит
                 # затемнение, бег на каблуках
                 return
+    return
 
+label gallery_41700:
+    fadeblack 1.5
     # админша видит Стива и очень удивляется (без агрессии, заискивающе)
     music Hidden_Agenda
     img 41672 vpunch
@@ -812,7 +815,7 @@ label gallery_41618:
     reception "Приступайте к работе!"
     # девочки быстро разбредаются по инвесторам
     # Линда идет к своему (к investor3), садится к нему на колени и приобнимает его
-    label gallery_41678:
+#    label gallery_41678:
     fadeblack
     sound highheels_short_walk
     pause 2.0
@@ -917,7 +920,6 @@ label gallery_41618:
     # смена кадра на админшу и Филиппа
     # их диалог Биф не слышит
 #    fadeblack 1.5
-    label gallery_41700:
     music Groove2_85
     imgf 41697
     reception "Как пожелаете, Мистер."
