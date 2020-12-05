@@ -30,7 +30,7 @@ label gallery_40948:
     sound plastinka1b
     img 40945 hpunch
     mt "!!!"
-    music Pyro_Flow
+    music Malicious
     mt "!!!!!!"
     mt "Адриано!!!"
     mt "Это ОН?!"
@@ -223,7 +223,7 @@ label gallery_41184:
     girl_3 "И не смогла прийти на встречу с Вами..."
     girl_3 "Я постараюсь сделать так, чтобы Вам все понравилось..."
 #    music Pyro_Flow
-    img 40988
+    img 40988 vpunch
     adriano "Я уже ничего не хочу!"
     adriano "У меня нет времени ждать, когда ты сделаешь свою работу!"
     adriano "Я тороплюсь!!!"
@@ -283,7 +283,7 @@ label gallery_41184:
     sound2 man_steps
     pause 2.0
     music Groove2_85
-    imgf 40998
+    img 40998 vpunch
     client "[monica_hotel_name]!"
     client "Я ведь уже заплатил за вечер с тобой!"
     client "Почему ты убежала к другому клиенту?!"
@@ -362,8 +362,9 @@ label gallery_41184:
     mt "Что мне теперь делать?!"
     mt "?!?!?!"
     # Адриано в полнейшем ступоре смотрит на нее
+    fadeblack 1.5
     music Groove2_85
-    imgd 41012
+    imgf 41012
     adriano "М-моника..."
     adriano "Я... Я ничего не понимаю..."
     adriano "Что это было?!"
@@ -485,6 +486,7 @@ label gallery_41184:
     mt "Гребаный эскорт!"
     mt "!!!"
     mt "Думай, Моника! Думай!"
+    fadeblack 1.5
     music Hidden_Agenda
     imgf 41033
     mt "Хм..."
@@ -701,6 +703,7 @@ label gallery_41184:
     imgd 41075
     m "..."
     # он отстраняется от Моники, на лице тоска сменяется высокомерием
+    fadeblack 2.0
     music Groove2_85
     imgf 41076
     adriano "Говоришь, хотела помочь своей коллеге?"
@@ -787,6 +790,7 @@ label gallery_41184:
     # Адриано подходит к кровати
     # затемнение
     # кадр на кровать, Адриано сидит на краю кровати, Моника и эскортница стоят возле него в нижнем белье
+#    $ add_corruption(10, "escort_scene8_1")
     fadeblack
     sound snd_fabric1
     pause 1.5
@@ -806,10 +810,14 @@ label gallery_41184:
     m "..."
     imgf 41120
     adriano "А ты..." # указывает рукой на эскортницу
+    adriano "Ты будешь Элизабет!"
     adriano "Сядь на кровать и ласкай себя!"
     adriano "И развинь ноги пошире. Я хочу видеть все!"
     imgd 41121
     girl_3 "Да, Мистер..."
+    img 41119 vpunch
+    mt "Какая еще у него там Элизабет?!"
+    mt "Он должен был любить только меня!"
     # эскортница садится на кровать и начинает ласкать себя
     fadeblack
     sound highheels_short_walk
@@ -838,12 +846,6 @@ label gallery_41184:
     sound drkanje5
     imgd 41126
     w
-    sound drkanje5
-    imgd 41125
-    w
-    sound drkanje5
-    imgd 41126
-    w
     sound hlup25
     img 41127 vpunch
     w
@@ -852,10 +854,13 @@ label gallery_41184:
     imgd 41129
     m "..."
     menu:
-        "Ласкать Адриано грудями.":
+        "Ласкать Адриано грудями. (Extra Version) (disabled)" if game.extra != True:
+            pass
+        "Ласкать Адриано грудями." if game.extra == True:
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             # он трогает груди Моники
             label gallery_41152:
+            fadeblack 1.5
             music Loved_Up
             imgf 41130
             w
@@ -882,12 +887,57 @@ label gallery_41184:
             m "Да, Мистер..."
             # Моника обхватывает грудями член Адриано
             # начинает водить ими по члену туда-сюда
+
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Adriano_Titjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_1= Movie(play="video/v_Monica_Adriano_Titjob1_1.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_1
+            with fade
+            adriano "Оооо... Дааа!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41149
             adriano "Ммммм, Моника!"
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_2= Movie(play="video/v_Monica_Adriano_Titjob1_2.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_2
+            with fade
             adriano "О твоей восхитительной груди мечтает любой мужчина..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 41150
             adriano "А ты ласкаешь ею мой член..."
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_3= Movie(play="video/v_Monica_Adriano_Titjob1_3.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_3
+            with fade
             adriano "Моя Моника никогда бы на такое не согласилась."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41151
             adriano "Ммммм..."
             adriano "О такой шикарной женщине, как она, можно только мечтать!"
@@ -901,23 +951,35 @@ label gallery_41184:
             w
             sound drkanje5
             imgd 41153
-            w
-            sound drkanje5
-            imgd 41152
-            w
-            sound drkanje5
-            imgd 41153
-            w
-            sound drkanje5
-            imgd 41152
-            w
-            sound drkanje5
-            imgd 41153
             adriano "А такую, как ты, можно купить и трахнуть."
             imgf 41154
             adriano "Оооо..."
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_4= Movie(play="video/v_Monica_Adriano_Titjob1_4.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_4
+            with fade
             adriano "И представлять, что ты - это ОНА!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Titjob1_5= Movie(play="video/v_Monica_Adriano_Titjob1_5.mkv", fps=30)
+            show videov_Monica_Adriano_Titjob1_5
+            with fade
             adriano "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
             imgd 41148
             w
             imgf 41144
@@ -926,6 +988,7 @@ label gallery_41184:
         "Минет.":
             # Моника опускается на колени перед Адриано, который сидит на краю кровати
             label gallery_41136:
+            fadeblack 1.5
             music Loved_Up
             imgf 41130
             w
@@ -961,17 +1024,13 @@ label gallery_41184:
             sound drkanje5
             imgd 41135
             w
+            fadeblack 1.5
+            music Loved_Up
+            imgd 41137
+            w
             imgf 41136
             adriano "Моя Моника никогда бы на такое не согласилась."
             adriano "Ммммм..."
-            imgd 41137
-            w
-            sound lick3
-            imgd 41138
-            w
-            sound lick3
-            imgd 41137
-            w
             sound lick3
             imgd 41138
             w
@@ -989,15 +1048,152 @@ label gallery_41184:
             w
             imgd 41139
             adriano "О такой шикарной женщине, как она, можно только мечтать!"
+            adriano "Но ты - не она, потому заканчивай играться возьми мой член в рот как следует!"
             sound chpok6
             img 41140 hpunch
             adriano "Даааа..."
+
+
+            #1
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Adriano_Blowjob1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_1= Movie(play="video/v_Monica_Adriano_Blowjob1_1.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_1
+            with fade
             adriano "А такую, как ты, можно купить и трахнуть."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
+
             imgf 41141
+            w
+
+            #2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_2= Movie(play="video/v_Monica_Adriano_Blowjob1_2.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_2
+            with fade
             adriano "Оооо..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #3
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_3= Movie(play="video/v_Monica_Adriano_Blowjob1_3.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_3
+            with fade
+            adriano "Я представляю, что сама Моника ласкает меня. Оооо, даааа! Моя Моника!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #4
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_4= Movie(play="video/v_Monica_Adriano_Blowjob1_4.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_4
+            with fade
+            adriano "Как же здорово купить шлюху, похожую на мою Монику..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgd 41142
+            w
+
+            #5
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_5= Movie(play="video/v_Monica_Adriano_Blowjob1_5.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_5
+            with fade
+            m "!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #6
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_6= Movie(play="video/v_Monica_Adriano_Blowjob1_6.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_6
+            with fade
             adriano "И представлять, что ты - это ОНА!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #7
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_7= Movie(play="video/v_Monica_Adriano_Blowjob1_7.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_7
+            with fade
             adriano "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #8
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_8= Movie(play="video/v_Monica_Adriano_Blowjob1_8.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_8
+            with fade
+            adriano "О, дааа..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #9
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Adriano_Blowjob1_9= Movie(play="video/v_Monica_Adriano_Blowjob1_9.mkv", fps=30)
+            show videov_Monica_Adriano_Blowjob1_9
+            with fade
+            m "!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 41143
             w
             imgd 41144
@@ -1009,7 +1205,8 @@ label gallery_41184:
     music Loved_Up
     imgfl 41155
     adriano "Мммм... Моника..."
-    imgf 41156
+    sound Jump1
+    imgd 41156
     w
     imgd 41157
     w
@@ -1049,7 +1246,7 @@ label gallery_41184:
     imgd 41164
     adriano "Шире..."
     # раздвигает шире
-    sound Jump2
+    sound Jump1
     imgd 41165
     adriano "Да, так..."
     imgf 41166
@@ -1124,20 +1321,169 @@ label gallery_41184:
     # входит в нее, та продолжает отлизывать у Моники
     imgd 41181
     adriano "А потом я овладею тобой..."
-    imgd 41182
+    img 41182
     mt "Фу! Какая мерзость!"
     # трахает эскортницу, а сам смотрит на Монику
+    fadeblack 1.5
+    music Loved_Up2
     sound chpok6
     img 41183 vpunch
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_1
+    with fade
     adriano "Сколько бессоных ночей я провел, мечтая о моей снежной королеве!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_2
+    with fade
+    adriano "Такой красивой и такой недоступной для меня..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41184
+    w
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_3
+    with fade
     adriano "Я знаю, она никогда не согласилась бы на подобные вещи..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_4
+    with fade
+    adriano "Она не позволяла даже прикоснуться к себе..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_5
+    with fade
+    adriano "Оооох... Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41185
+    w
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_6.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_6
+    with fade
     adriano "Она неприступна и столь желанна!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41186
+    w
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_8
+    with fade
     adriano "Мне повезло, что я встретил эскортницу так похожую на нее!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 41187
+    w
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_9= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_9.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_9
+    with fade
     adriano "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex1_10= Movie(play="video/v_Monica_Adriano_Visitor1_Sex1_10.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex1_10
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgf 41188
     adriano "Все достаточно!"
     sound snd_slap1
@@ -1149,7 +1495,9 @@ label gallery_41184:
     fadeblack 2.0
     music Groove2_85
     imgfl 41191
-    adriano "Продолжай ласкать себя..."
+#    adriano "Продолжай ласкать себя..."
+    adriano "А теперь, Элизабет, ты хорошенько вылижешь мой зад."
+    adriano "Жаль что я не могу сказать это настоящей Элизабет, но сойдет и так."
     imgf 41192
     adriano "А ты, Моника, иди ко мне..."
     # Моника смотрит на него и не двигается
@@ -1202,7 +1550,9 @@ label gallery_41184:
     imgd 41204
     adriano "А почему ты этим интересуешься?"
     adriano "Ты, наверное, хочешь вертеться вокруг меня, как все остальные шлюхи?"
-    img 41205
+
+    music Groove2_85
+    img 41205 vpunch
     m "..."
     mt "Грубиян!"
     menu:
@@ -1212,6 +1562,9 @@ label gallery_41184:
     mt "Думаю, лучше всего сделать так, чтобы он ко мне еще раз сюда пришел..."
     mt "А я его встречу в ресторане как Моника Бакфетт."
     mt "Или перед отелем... Будто бы случайно..."
+
+    fadeblack 1.5
+    music Loved_Up
     imgd 41208
     m "А вы часто ужинаете в ресторане отеля Ле Гранд?"
     imgf 41206
@@ -1222,6 +1575,7 @@ label gallery_41184:
     adriano "Моей Монике."
     # он укладывает Монику на спину и раздвигает ей ноги
     # пристраивает член к ее киске
+    music Groove2_85
     img 41209
     mt "Твою мать!"
     menu:
@@ -1232,35 +1586,163 @@ label gallery_41184:
     mt "Я должна с ним встретиться, не в роли [monica_hotel_name]."
     mt "Я должна с ним поговорить!"
     # он вводит в нее член
+    fadeblack 1.5
+    music Loved_Up
     imgf 41211
     m "Мистер, а вы посещаете все модные мероприятия этого города?"
     sound chpok6
     img 41212 vpunch
+    m "Ай!"
     adriano "Оооо..."
     # начинает двигаться в ней
+    music Loved_Up2
     imgf 41213
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_1
+    with fade
     adriano "Не все... У меня нет столько свободного времени..."
     adriano "Ооо, как же хорошо!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     imgd 41214
     adriano "Ты слишком много болтаешь..."
     adriano "И отвлекаешь меня..."
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_2
+    with fade
     adriano "Помолчи, я хочу представлять, что я занимаюсь любовью с Моникой..."
     adriano "А не трахаю болтливую шлюху, которая похожа на нее."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 41215
     mt "Вот скотина!"
     mt "!!!"
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_3
+    with fade
+    adriano "Ооо, как же хорошо!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41216
+    w
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_4
+    with fade
     adriano "Дааа, Моника!!!"
     adriano "Оооо!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41217
+    adriano "Элизабет, лижи мою задницу поактивнее!"
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_5
+    with fade
+    adriano "Моника!"
     adriano "Моя снежная королева!"
     adriano "Я не верю, что я, наконец-то, овладел твоим прекрасным телом!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41218
     adriano "Я так мечтал об этом!"
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_6.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_6
+    with fade
     adriano "Моя Моника!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 41219
+    w
+
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_7
+    with fade
     adriano "Самая прекрасная женщина на свете!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex2_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex2_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex2_8
+    with fade
     adriano "Ммммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     # он выходит из нее
     # ложится на спину, а Монику тянет на себя
     imgd 41220
@@ -1274,7 +1756,9 @@ label gallery_41184:
     adriano "Хочу видеть твое лицо."
     # Моника садится сверху него, пытается засунуть в себя его член, у нее не получается
     imgd 41223
-    w
+    menu:
+        "Сесть на член Адриано.":
+            pass
     fadeblack 2.0
     music Loved_Up
     imgfl 41224
@@ -1298,27 +1782,190 @@ label gallery_41184:
     img 41231 vpunch
     adriano "Да, вот так!"
     imgf 41232
-    w
+    adriano "Давай, Элизабет! Ласкай себя!"
+    adriano "Покажи как ты меня хочешь!"
     imgd 41233
     adriano "Двигайся..."
     # Моника начинает двигаться на нем
+
+    fadeblack 1.5
     music Loved_up2
     imgf 41234
+    w
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Adriano_Visitor1_Sex3_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_1= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_1.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_1
+    with fade
+    adriano "Моя Моника! Моя снежная королева! Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_2= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_2.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_2
+    with fade
+    girl_3 "О, Мистер! Как же я хочу вас!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_3= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_3.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_3
+    with fade
     adriano "Еще-еще..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41235
+    w
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_4= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_4.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_4
+    with fade
     adriano "Какая ты красивая!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_5= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_5.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_5
+    with fade
+    adriano "Оооо!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 41236
+    w
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_6= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_6.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_6
+    with fade
     adriano "Хочу запомнить этот момент..."
-    imgd 41237
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_7= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_7.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_7
+    with fade
     adriano "Оооох..."
-    imgd 41238
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_8= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_8.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 41237
+    w
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_9= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_9.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_9
+    with fade
+    girl_3 "О, Мистер! Как же я хочу вас!"
+    girl_3 "Как же я вас хочу!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_10= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_10.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_10
+    with fade
     adriano "Ммммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 41238
+    girl_3 "Мистер, я изнемогаю как хочу вас!"
+    girl_3 "Вы не можете себе этого представить!"
+
+    #11
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Adriano_Visitor1_Sex3_11= Movie(play="video/v_Monica_Adriano_Visitor1_Sex3_11.mkv", fps=30)
+    show videov_Monica_Adriano_Visitor1_Sex3_11
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 41239
     adriano "О, Моооника..."
     adriano "Кончаааюю..."
     menu:
         "Кончить на киску Моники.":
             # Моника приподнимается и Адриано кончает на ее киску
+#            $ ep217_escortscene8_cumzone = 1
             img 41240
             sound bulk1
             show screen photoshot_screen()
@@ -1339,6 +1986,7 @@ label gallery_41184:
             mt "!!!"
             pass
         "Кончить внутрь Моники.":
+#            $ ep217_escortscene8_cumzone = 2
             img 41240
             sound bulk1
             show screen photoshot_screen()
@@ -1357,7 +2005,8 @@ label gallery_41184:
             mt "!!!"
             pass
         "Кончить в рот Моники.":
-            imgd 41239
+#            $ ep217_escortscene8_cumzone = 3
+#            imgd 41239
             adriano "Возьми мой член в рот!"
             adriano "Быстро!!!"
             # Моника выполняет, он кончает
@@ -1393,14 +2042,22 @@ label gallery_41184:
                 "Проглотить.":
                     # Моника проглатывает
                     imgf 41249
+                    w
                     sound snd_gulp
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
+                    w
+#                    $ add_corruption(10, "escort8_spermgulp")
                     mt "ФУУУУ!"
                     mt "Отвратительно!!"
                     mt "Меня сейчас стошнит!!!"
                     mt "!!!!!"
                     pass
         "Кончить на лицо Моники.":
-            imgd 41239
+#            $ ep217_escortscene8_cumzone = 4
+#            imgd 41239
             adriano "Подставь свое лицо!"
             adriano "Быстро!!!"
             # Моника выполняет, он кончает
@@ -1430,7 +2087,7 @@ label gallery_41184:
     pass
     # затемнение, шуршание одежды
     # Адриано и девочки стоят одетые возле кровати
-    fadeblack
+    fadeblack 1.5
     sound snd_fabric1
     pause 2.0
     music Groove2_85
@@ -1445,35 +2102,37 @@ label gallery_41184:
     mt "Он обязан заплатить за это вдвое больше чаевых!"
     menu:
         "Попросить у клиента дополнительные чаевые.":
-            pass
-    imgf 41089
-    m "Мистер..."
-    m "Раз я на кого-то похожа... И вам все понравилось..."
-    m "Оставите мне побольше чаевых?"
-    imgd 41090
-    adriano "Обычно я не одобряю попрошайничество чаевых."
-    adriano "Но я дам их тебе."
-    adriano "Только за то, что ты похожа на мою Монику."
-    sound vjuh3
-    imgd 41091
-    adriano "И я еще навещу тебя, когда буду в этом городе."
-    adriano "Вот деньги."
-#    $ add_money(200.0)
-    imgf 41092
-    adriano "Все, у меня нет времени!"
-    adriano "Мне нельзя опаздывать!"
-    fadeblack
-    sound man_steps
-    pause 2.0
-    sound snd_door_close1
-    pause 1.5
-    music Stealth_Groover
-    # он оставляет Монике 200 баксов и убегает
-    # Моника остается с эскортницей в номере вдвоем
-    # Моника стоит злая
-    imgfl 41093
-    mt "Двести долларов?!"
-    mt "!!!"
+#            $ ep217_monica_ask_tips = True
+            imgf 41089
+            m "Мистер..."
+            m "Раз я на кого-то похожа... И вам все понравилось..."
+            m "Оставите мне побольше чаевых?"
+            imgd 41090
+            adriano "Обычно я не одобряю попрошайничество чаевых."
+            adriano "Но я дам их тебе."
+            adriano "Только за то, что ты похожа на мою Монику."
+            sound vjuh3
+            imgd 41091
+            adriano "И я еще навещу тебя, когда буду в этом городе."
+            adriano "Вот деньги."
+#            $ add_money(200.0)
+            imgf 41092
+            adriano "Все, у меня нет времени!"
+            adriano "Мне нельзя опаздывать!"
+            fadeblack
+            sound man_steps
+            pause 2.0
+            sound snd_door_close1
+            pause 1.5
+            music Stealth_Groover
+            # он оставляет Монике 200 баксов и убегает
+            # Моника остается с эскортницей в номере вдвоем
+            # Моника стоит злая
+            imgfl 41093
+            mt "Двести долларов?!"
+            mt "!!!"
+        "Не делать этого.":
+            imgfl 41093
     mt "Жалкий слизняк!"
     mt "Ничтожество!"
     mt "Я обязательно его использую!"
@@ -1528,7 +2187,7 @@ label gallery_41184:
     candice "Ага. Теперь я тебя буду звать Моника. Хи-хи..."
     music stop
     sound plastinka1b
-    img 41104
+    img 41104 vpunch
     m "!!!"
     m "Нет! Я [monica_hotel_name]. Это мое имя!"
     m "Не называй меня Моникой!"
@@ -1554,13 +2213,16 @@ label gallery_41184:
     pause 1.5
     music Stealth_Groover
     # она подмигивает Монике и выходит из номера
-    imgfl 41110
-    mt "У меня аллергия на слово 'девичник'!"
-    #
-    $ notif(_("Моника была на девичнике, который устраивала Виктория."))
-    #
-    imgf 41110
-    mt "Все из-за гребаной сучки Виктории!"
+    if ep27_melanie_going_to_victoria == True:
+        imgfl 41110
+        mt "У меня аллергия на слово 'девичник'!"
+        #
+        $ notif(_("Моника была на девичнике, который устраивала Виктория."))
+        #
+        imgf 41110
+        mt "Все из-за гребаной сучки Виктории!"
+    else:
+        imgf 41110
     mt "Так..."
     mt "..."
     mt "Это было неожиданно..."
@@ -1584,7 +2246,9 @@ label gallery_41324:
     # Моника заходит в квартиру к эскортнице
     # ее встречает Кэндис, шатенка с хвостом
 #    $ monicaAdrianoEscortHotel5 = day # Моника пришла к Кэндис и Эбби на девичник
-    fadeblack
+    fadeblack 1.0
+    sound highheels_run2
+    fadeblack 2.0
     sound snd_door_knock
     pause 1.5
     sound highheels_short_walk
@@ -1706,6 +2370,7 @@ label gallery_41324:
     menu:
         "Выпить виски.":
             pass
+    $ ep217_party_whiskey_counter_list.append(1)
     imgd 41277
     m "Только совсем немного..."
     # затемнение, каблуки, льется алкоголь в бокал
@@ -1781,6 +2446,7 @@ label gallery_41324:
             mt "Что за гадость?!"
             mt "И я доджна пить это низкосортное пойло?!"
             mt "Какой кошмар!"
+            $ ep217_party_whiskey_counter_list.append(2)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -1886,8 +2552,17 @@ label gallery_41324:
             imgd 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(3)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -1950,8 +2625,17 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(4)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -1966,6 +2650,7 @@ label gallery_41324:
     imgfl 41325
     abby "Ой, достали эти гребанные колготки"
     imgf 41326
+    sound snd_fabric1
     abby "Минутку, девочки. Я их подтяну."
     imgd 41327
     w
@@ -2053,8 +2738,17 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
-            imgd 41322
-            w
+            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+                $ blur_effect = 1
+                imgd 41322
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41322
+                w
+            $ ep217_party_whiskey_counter_list.append(5)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2090,12 +2784,15 @@ label gallery_41324:
             imgf 41295
             sound bottle1
             w
+            $ drinked = False
             menu:
                 "Выпить еще немного виски.": # счетчик виски + 1
                     # Моника морщится
                     imgd 41297
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
+                    $ ep217_party_whiskey_counter_list.append(6)
+                    $ drinked = True
                     pass
                 "Не пить.":
                     music Hidden_Agenda
@@ -2107,8 +2804,16 @@ label gallery_41324:
             imgf 41346
             sound snd_drinking_water
             w
-            imgd 41347
-            w
+            if drinked == True:
+                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                imgd 41347
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+                imgd 41347
+                w
 #            $ ep217_dialogues1_escort_10menu1 = True
             jump gallery_ep217_dialogues1_escort_10_loop1
         "А как он выглядит?":
@@ -2135,12 +2840,15 @@ label gallery_41324:
             imgf 41314
             sound bottle1
             w
+            $ drinked = False
             menu:
                 "Выпить еще немного виски.": # счетчик виски + 1
                     # Моника морщится
                     imgd 41352
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
+                    $ ep217_party_whiskey_counter_list.append(7)
+                    $ drinked = True
                     pass
                 "Не пить.":
                     music Hidden_Agenda
@@ -2152,8 +2860,17 @@ label gallery_41324:
             imgf 41353
             sound snd_drinking_water
             w
-            imgd 41354
-            w
+            if drinked == True:
+                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                imgd 41354
+                w
+                $ blur_effect = 0
+                with diss
+                w
+            else:
+
+                imgd 41354
+                w
 #            $ ep217_dialogues1_escort_10menu3 = True
             jump gallery_ep217_dialogues1_escort_10_loop1
         "Как вы планируете рассказать ему правду, если даже не знаете его?": # if ep217_dialogues1_escort_10menu1 == True and ep217_dialogues1_escort_10menu2 == True and ep217_dialogues1_escort_10menu3 == True:
@@ -2161,7 +2878,11 @@ label gallery_41324:
     music Groove2_85
     imgf 41355
     m "Как вы планируете рассказать ему правду, если даже не знаете его?"
+    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+    with diss
     abby "Хороший вопрос... Ик! Я еще не придумала, как, но я это сделаю!"
+    $ blur_effect = 0
+    with diss
     abby "Кэндис, есть еще виски?"
     candice "Да, сейчас..."
     menu:
@@ -2174,11 +2895,15 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
+            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41322
             mt "Черт! Кажется, он был лишним..."
             mt "Какая-то путанница в голове..."
             mt "И голова кружится..."
+            $ blur_effect = 0
+            with diss
             mt "..."
+            $ ep217_party_whiskey_counter_list.append(8)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2215,6 +2940,7 @@ label gallery_41324:
     imgf 41360
     candice "Давайте еще виски?"
     abby "Давай!"
+    $ drinked = False
     menu:
         "Выпить еще немного виски.": # счетчик виски + 1
             # Моника морщится
@@ -2223,6 +2949,8 @@ label gallery_41324:
             mt "О Боже, ну сколько можно?!"
             mt "В меня уже не лезет эта гадость!!!"
             mt "!!!"
+            $ drinked = True
+            $ ep217_party_whiskey_counter_list.append(9)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2234,8 +2962,14 @@ label gallery_41324:
     imgf 41362
     sound snd_drinking_water
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41363
     w
+    if drinked == True:
+        $ blur_effect = 0
+        with diss
+        w
     fadeblack 1.5
     music Groove2_85
     imgfl 41364
@@ -2257,6 +2991,7 @@ label gallery_41324:
     mt "..."
     menu:
         "Рассказать про семейную пару.":
+#            $ candisePartyStory = 1
             music Groove2_85
             imgf 41367
             m "Однажды администраторша отправила меня в номер к клиенту."
@@ -2272,12 +3007,17 @@ label gallery_41324:
             m "Это постоянный клиент этой... Как ее? Миранды!"
             m "Она тогда сказала его жене-истеричке, что он мой клиент."
             m "Ненавижу ее! Ик!"
+            $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41370
+            w
+            $ blur_effect = 0
+            with diss
             abby "Вот сука!"
             abby "Она и Линда - две змеи!"
             abby "Я тоже ненавижу этих гадюк!"
             pass
         "Рассказать про футфетишиста.":
+#            $ candisePartyStory = 2
             music Groove2_85
             imgf 41367
             m "Как-то администраторша решила дать мне самого проблемного клиента эскорта."
@@ -2306,6 +3046,7 @@ label gallery_41324:
             candice "Вот извращенец! Хи-хи-хи!"
             pass
         "Рассказать про выезд к клиенту Нэду.":
+#            $ candisePartyStory = 3
             music Groove2_85
             imgf 41367
             m "У меня был всего один выезд к клиенту..."
@@ -2323,7 +3064,7 @@ label gallery_41324:
             m "Да, в итоге он выиграл спор. Никто не догадался из его друзей..."
             m "Но потом он им все рассказал..."
             # если Моника занималась сексом с Дэниелем, Марти и Нэдом
-            if monicaEscortNed2 == True:
+            if monicaEscortNed2 == True or 1==1:
                 imgd 41369
                 m "И мне пришлось работать с ними."
                 m "Притом администраторша сказала им, что чем больше клиентов я обслужу..."
@@ -2337,19 +3078,29 @@ label gallery_41324:
                 m "Не сразу, по очереди..."
                 imgf 41376
                 abby "А сколько их было?"
+
                 menu:
                     "Сказать правду.":
+                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Трое..."
+                        $ blur_effect = 0
+                        with diss
+                        w
                         imgf 41378
                         candice "Ну это еще нормально..."
                         candice "Тебе повезло, что их было всего трое..."
                         candice "А не шестеро, как у меня однажды."
+#                        $ ep217_party_answerTrue = 1
                         pass
                     "Соврать.":
                         music Hidden_Agenda
+                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Десять!"
+                        $ blur_effect = 0
+                        with diss
+                        w
                         img 41379
                         candice "Серьезно?!"
                         abby "Охренеть! И ты со всеми отработала?!"
@@ -2360,13 +3111,18 @@ label gallery_41324:
                         mt "Ужас какой!"
                         mt "Что за чушь ты несешь, Моника?!"
                         mt "!!!"
+#                        $ ep217_party_answerTrue = -1
                         pass
                         #
             pass
     # уже пьяная Кэндис задумчиво
     fadeblack 1.5
     music Groove2_85
+    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
     imgfl 41380
+    w
+    $ blur_effect = 0
+    with diss
     candice "Да, девочки..."
     candice "Нелегкая у нас с вами работа..."
     abby "Это точно, подруга!"
@@ -2382,15 +3138,21 @@ label gallery_41324:
     abby "К тому козлу, который трахнул меня бутылкой, отправлю Миранду!"
     abby "А Линду к тому, который трахается в женской одежде!"
     abby "Наливай! Выпьем за это! Скоро все изменится, девочки!"
+    $ drinked = False
     menu:
         "Выпить еще немного виски.": # счетчик виски + 1
             # Моника морщится
+            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
             sound pour_wine
             imgd 41384
             m "Ик!"
             mt "Не такое уж это пойло и гадкое..."
             mt "Достаточно приятный вкус..."
+            $ blur_effect = 0
+            with diss
             mt "..."
+            $ ep217_party_whiskey_counter_list.append(10)
+            $ drinked = True
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2402,7 +3164,12 @@ label gallery_41324:
     sound snd_drinking_water
     imgf 41346
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41347
+    w
+    $ blur_effect = 0
+    with diss
     w
     music Groove2_85
     imgf 41316
@@ -2433,7 +3200,12 @@ label gallery_41324:
     imgd 41387
     m "Нет!"
     abby "Спорим?"
+    if drinked == True:
+        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
     m "Ик!"
+    $ blur_effect = 0
+    with diss
+    w
     fadeblack 1.5
     music Road_Trip
     imgfl 41388
@@ -2457,8 +3229,12 @@ label gallery_41324:
     w
     imgf 41395
     candice "Эбби, нет! Надо не так танцевать стриптиз!"
+    if drinked == True:
+        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+        with diss
     candice "Я сейчас тебе покажу, как надо!"
     candice "Подвинься!"
+    $ blur_effect = 0
     # Кэндис тоже танцует и раздевается
     # Моника пьяная смотрит на все это и офигевает
     imgd 41396
@@ -2473,14 +3249,19 @@ label gallery_41324:
     w
     imgf 41400
     w
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41401
     m "Ик!"
+    $ blur_effect = 0
+    with diss
     m "..."
+    w
     imgf 41402
     mt "Твою мать, что они тут устроили?!"
     mt "Двигаются, как два бревна!"
     # если Моника работает или работала стриптизершей в пабе
-    if ep29_quests_pub_forgiveness_dancing_quest_in_progress == True:
+    if ep29_quests_pub_forgiveness_dancing_quest_in_progress == True or monica_shiny_hole_queen_day > 0:
         #
         $ notif(_("Моника танцевала стриптиз в Shiny Hole."))
         #
@@ -2493,7 +3274,12 @@ label gallery_41324:
     mt "Моника, до чего ты докатилась!"
     mt "Пришла в гости к проституткам, пьешь с ними, притворяешься такой же, как они!"
     mt "Ты еще танцевать стриптиз их научи!"
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        with diss
     mt "Ик! Черт! Мне не следовало пить виски на голодный желудок..."
+    $ blur_effect = 0
+    with diss
     mt "..."
     # девочки в это время раздеваются догола и зовут Монику приоединиться к ним
     music Road_Trip
@@ -2502,11 +3288,17 @@ label gallery_41324:
     candice "Тут для тебя хватит места!"
     abby "Да, пойдем!"
     abby "Покажи, как ты танцуешь!"
+    if drinked == True:
+        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41405
     m "Ик!"
+    $ blur_effect = 0
+    with diss
     m "..."
     menu:
-        "Залезть на стол и танцевать.": # пункт доступен при количестве выпитого виски не меньше 7
+        "Залезть на стол и танцевать. (Моника слишком трезвая) (disabled)" if len(list(set(ep217_party_whiskey_counter_list))) < 10:
+            pass
+        "Залезть на стол и танцевать." if len(list(set(ep217_party_whiskey_counter_list))) >= 10: # пункт доступен при количестве выпитого виски не меньше 7
 #            $ monicaAdrianoEscortHotel6 = day # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
             pass
         "Отказаться и уйти.":
@@ -2544,7 +3336,7 @@ label gallery_41324:
     imgd 41406
     mt "Надо показать этим пьяным дурам, что такое настоящий стриптиз!"
     # если Моника стала королевой в пабе
-    if monicaMollyBattle4 == True:
+    if monica_shiny_hole_queen_day > 0:
         #
         $ notif(_("Моника выиграла баттл с Молли и стала Королевой Shiny Hole."))
         #
@@ -2558,9 +3350,13 @@ label gallery_41324:
     mt "Они будут в шоке от меня!"
     mt "!!!"
     # Моника встает, пьяная лезет на стол
-    music Road_Trip
+    music Turbo_Tornado
+    $ blur_effect = 2
     imgf 41411
     m "Подвиньтесь!"
+    $ blur_effect = 0
+    with diss
+    w
     imgd 41412
     candice "Давай, [monica_hotel_name]! Танцуй!"
     abby "Дааа!!!"
@@ -2579,11 +3375,12 @@ label gallery_41324:
     img 41418 vpunch
     w
     img 41419
-    abby "Ой, кажется разбила!"
-    fadeblack
     sound snd_bottle_break
+    abby "Ой, кажется разбила!"
+    img black_screen
+    with diss
     pause 2.0
-    music Road_Trip
+#    music Turbo_Tornado
     # начинают танцевать вместе
     # Моника скидывает с себя платье, делает какое-нибудь движение из танца
     # и после этого, распрямляясь, ударяется головой об плафон, который висит над столом
@@ -2591,946 +3388,1192 @@ label gallery_41324:
     w
     sound snd_far_hit
     img 41421 hpunch
+    w
+    img black_screen
+    stop music
+    music stop
+    sound down9
     m "ЧЕЕЕЕРТ!!!"
     m "Гребаная лампа!"
     # гаснет свет
-    fadeblack
-    sound down9
-    pause 1.5
+#    pause 1.5
     candice "Ой, девочки! Кажется, предохранитель сработал..."
     sound snd_bodyfall
     pause 1.5
     abby "Твою же мать! Ничего не вижу!"
     sound snd_bottle_break
     pause 2.0
+    sound snd_folder_drop
+    pause 1.0
+    m "Эбби, не хватай меня за задницу!"
+    abby "Я не трогаю тебя за задницу, [monica_hotel_name]!"
+    abby "Я нащупала бутылку!"
+    sound snd_bottle_break
+    pause 2.0
+    candice "Ой, [monica_hotel_name], кажется это я нечаянно тебя схватила!"
+    m "Отпусти меня!"
+    sound snd_heavy_papers_drop
+    abby "[monica_hotel_name], это ты села на меня своей попой?"
+    m "Ой! Эбби, это ты? Ик!"
+    candice "Ик! Девочки! Я, кажется, сейчас упаду!"
+    pause 1.5
+    sound snd_bodyfall
+    pause 2.0
     # грохот, кто-то упал со стола, возня
     # занавес
     return
 
-label gallery_33039:
-    # Моника с Филиппом заходят в комнату
-    # серая мышь сидит в клетке
-    # Моника сначала ее не замечает
+label gallery_32915:
+    # затемнение, стук в верь, звук двери, шаги
+    # Бетти и Лиам стоят в его гостиной
+    # сосед удивлен ее визиту
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    music Master_Disorder
-    imgfl 33027
-    w
-    imgf 33028
-    w
-    imgd 33029
-    philip "Проходите, Миссис Бакфетт."
-    philip "Я давно уже задумывался о том, чтобы показать вам подвал своего дома."
-    # Моника с отвращением оглядывается
-    imgf 33169
-    w
-    imgd 33031
-    mt "!!!"
-    img 33032
-    mt "!!!!"
-    imgd 33033
-    mt "Что это за ужасное место?!"
-    mt "Это... Это что, место для извращений?!"
-    mt "О Боги!!!"
-    imgd 33030
-    mt "Какие-то кошмарные механизмы!"
-    mt "Он больной на всю голову извращенец!"
-    mt "Моника, он опасен!!!"
     music Groove2_85
-    imgf 33034
-    philip "Миссис Бакфетт, я вижу замешательство на вашем лице."
-    philip "Вам совершенно не о чем беспокоиться."
-    img 33035
-    mt "Неужели?!"
-    mt "!!!"
-    imgd 33036
-    philip "Для начала я хочу познакомить вас с этим..."
-    philip "Уверен, вы будете заинтересованы, Миссис Бакфетт."
-    # он подходит к клетке и открывает ее
+    imgfl 32877
+    w
+    imgf 32878
+    sound snd_door_knock
+    w
     fadeblack
     sound man_steps
     pause 2.0
-    music Groove2_85
-    imgfl 33037
-    sound snd_jail_door_locked
-    w
-    # из клетки на четвереньках выползает серая мышь, которая проводила кастинг перед Мелани
-    # она подползает к ногам Филиппа и встает на колени перед ним, голова опущена, руки за спину, взгляд в пол
-    fadeblack
-    sound man_steps
-    pause 2.0
-    music Groove2_85
-    imgfl 33038
-    w
-    imgf 33170
-    w
-    imgd 33171
-    w
-    # добавить мысли Моники "Я ее знаю!"
-    sound snd_barefoot3
-#    sound snd_walk_barefoot
-    imgf 33039
-    w
-    imgd 33040
-    w
-    imgf 33041
-    model1 "Этот раб готов выполнять приказы Мастера."
-    # Моника смотрит на нее в потрясении
-    music stop
-    sound plastinka1b
-    img 33042 hpunch
-    mt "О БОЖЕ!!!"
-    mt "!!!"
-    music Power_Bots_Loop
-    mt "Я ее знаю!"
-    # если был кастинг с серой мышью перед Мелани
-    if monicaMelanieCastingLickedDildo == True:
-        #
-        $ notif(_("Моника проходила кастинг перед серой мышью и Мелани."))
-        #
-        imgd 33043
-        mt "Это та мерзкая серая мышь!"
-        mt "Она унизила меня перед Мелани!"
-        mt "Гребаная мартышка!!!"
-        mt "Ненавижу ее!!!"
-    # если кастинга с Мелани не было
-    else:
-        #
-        $ notif(_("Моника проводила кастинг для моделей журнала."))
-        #
-        imgd 33042
-        mt "Это же одна из мартышек, которые приходили на кастинг в мой журнал!!!"
-        #
-    mt "Какого черта она тут делает?!"
-    mt "Почему она в таком виде?!"
-    mt "Я ничего не понимаю!!!"
-    mt "!!!"
-    # Филипп обращается к серой мыши
-    music Groove2_85
-    imgf 33044
-    philip "Оно сейчас поползет к своей миске."
-    philip "Мастер разрешает ему поесть..."
-    model1 "Этот слуга рад исполнить волю Мастера."
-    philip "Оно будет молчать, пока Мастер не разрешит ему говорить."
-    philip "Если оно все поняло, пусть оно кивнет."
-    # мышь кивает, глядя в пол
-    imgd 33045
-    w
-    img 33046
-    w
-    img 33045
-    w
-    imgd 33047
-    philip "Выполняй приказ Мастера."
-    philip "Когда оно поест, пусть ждет возле миски."
-    philip "Мастер позовет его, когда сочтет нужным."
-    # мышь на коленях ползет к миске с едой (кошачей-?)
-    # при этом смотрит не в пол, а бросает взгляд на Монику
-    sound snd_barefoot3
-    imgf 33048
-    model1 "!!!"
-    m "!!!"
-    # Филипп это видит и рявкает на нее
-    img 33049
-    philip "Оно должно смотреть в пол!"
-    philip "Оно ослушалось приказа Мастера!"
-    philip "После того, как уйдет наш гость, оно будет высечено плетью!"
-    # мышь быстро опускает голову
-    # Моника с ужасом наблюдает за этим
-    music Power_Bots_Loop
-    img 33051 hpunch
-    mt "Он садист!!!"
-    mt "!!!"
-    # Филипп обращается к мыши
-    music Groove2_85
-    imgd 33050
-    philip "Теперь Мастер позволяет ему ползти к миске."
-    # мышь встает на четвереньки, ползет к миске и начинает есть
-    sound snd_barefoot3
-    imgf 33053
-    w
-    imgd 33054
-    sound cat_eating
-    w
-    imgd 33055
-    w
-    music Power_Bots_Loop
-    img 33052
-    mt "О Боже!"
-    mt "Она что, будет есть корм для животных?!"
-    mt "Фууу!"
-    # Филипп подходит к Монике
-    fadeblack
-    sound man_steps
-    pause 2.0
-    music Groove2_85
-    imgf 33056
-    philip "Миссис Бакфетт, на вас лица нет."
-    philip "Вы хорошо себя чувствуете?"
-    m "Д-да..."
-    imgd 33057
-    philip "Я немного отвлекся от нашего с вами разговора, Миссис Бакфетт."
-    m "Д-да..."
-    # Филипп отходит к той штуке, на которой потом распнет Монику
-    sound man_steps
-    imgf 33058
-    w
-    imgd 33059
-    philip "Подойдите ко мне, Миссис Бакфетт."
-    menu:
-        "Подойти к Филиппу.":
-            pass
-    sound highheels_short_walk
-    imgf 33060
-    m "..."
-    imgd 33061
-    philip "Вы знаете, я был приятно удивлен..."
-    philip "Что вы приготовили такой приятный презент для ваших инвесторов."
-    philip "В число которых я тоже могу войти..."
-    imgf 33062
-    philip "Вернее, не вы приготовили, а Биф."
-    philip "Думаю, что вы, Миссис Бакфетт, были удивлены не меньше остальных, услышав об этом?"
-    m "..."
-    imgd 33063
-    philip "Полагаю, что этот номер журнала, вышедший ограниченным тиражом..."
-    philip "Будет весьма интересен."
-    philip "И не только мне..."
-    m "!!!"
-    imgf 33064
-    philip "Я подумал, что если размещу этот номер в публичный доступ..."
-    philip "То смогу получить от этого много удовольствия."
-    philip "Пикантные фотографии леди Миссис Бакфетт."
-    imgd 33065
-    philip "Как вы считаете, хороший заголовок?"
-    philip "Под такую публикацию даже можно создать свой журнал."
-    philip "Он мигом наберет популярность на весь мир..."
-    music Power_Bots_Loop
-    img 33066
-    mt "О, нет!!!"
-    mt "Вот сволочь!!!"
-    mt "Я должна отговорить его!"
-    mt "Нельзя допустить, чтобы мои фотографии..."
-    mt "Чтобы ТАКИЕ мои фотографии увидела общественность!"
-    mt "!!!"
-    menu:
-        "Попытаться отговорить Филиппа.":
-            pass
-    music Groove2_85
-    imgd 33067
-    m "..."
-    m "Филипп, я хотела бы попросить вас не делать этого..."
-    philip "Да?"
-    philip "Почему же?"
-    m "Эти фотографии..."
-    m "Они только для ограниченного круга людей."
-    m "И не предназначены для общественности."
-    imgf 33068
-    philip "Сама Миссис Моника Бакфетт меня просит об одолжении?"
-    m "Да, Филипп."
-    philip "Хммм... Как же поступить?"
-    philip "Я потратил сегодня немаленькую сумму, чтобы спасти вас..."
-    philip "И увезти из отеля."
-    imgd 33069
-    philip "А я не сторонник бесполезного разбрасывания деньгами, Миссис Бакфетт."
-    philip "Вы ведь знаете, что не стоите столько, сколько я сегодня за вас заплатил."
-    m "!!!"
-    imgf 33070
-    philip "Я мог бы компенсировать потраченные деньги удовольствием от публикации ваших фотографий..."
-    philip "Но раз вы меня просите не делать этого."
-    philip "А я джентельмен. Я не смею отказывать просьбе такой леди, как вы."
-    philip "Так что же мне делать?"
-    imgd 33071
-    philip "Может, мне стоит вернуть вас в отель?"
-    philip "И пусть все узнают, кто вы на самом деле."
-    philip "И где работаете..."
-    # Моника с ужасом смотрит на него
-    img 33072
-    w
-    imgd 33073
-    philip "Вечеринка там в самом разгаре, Миссис Бакфетт."
-    philip "И вы присоединитесь к ней..."
-    music Master_Disorder
-    philip "Либо вам придется отработать потраченные мною деньги."
-    m "Отработать?!"
-    m "?!"
-    imgd 33074
-    philip "Да, Миссис Бакфетт, вы сейчас разденетесь и залезете на это..." # показывает рукой на штуку, где будет пялить Монику
-    philip "И отработаете деньги, которые я за вас заплатил."
-    m "..."
-#    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired1, 0]
-    menu:
-        "Согласиться.":
-#            $ monicaBiffInvestorsPhilip2 = day # Моника согласилась отработать в БДСМ-ной комнате у Филиппа
-            pass
-        "Убежать! (Филипп запомнит это)":
-            label gallery_33076:
-            music Master_Disorder
-            imgd 33066
-            mt "Я не собираюсь тут оставаться ни секунды!"
-            mt "И ни в какой отель он меня не повезет обратно!"
-            mt "Пошел к черту этот гребаный садист!!!"
-            mt "Мерзкое животное!!!"
-            music Pyro_Flow
-            imgf 33075
-            m "Нет! Я не буду делать этого!!!"
-            m "Только попробуй сделать это и я убью тебя, клянусь!"
-            img 33076
-            philip "Аха-ха!"
-            philip "Хорошо, Миссис Бакфетт, я не буду делать этого..."
-            philip "Прямо сейчас..."
-            m "!!!"
-            fadeblack
-            sound highheels_run2
-            pause 2.0
-            # Моника убегает, затемнение
-            return
-    # Моника в растерянности
-    imgd 33077
-    mt "Залезть на эту штуку?!"
-    mt "Чтобя Я, Моника Бакфетт, леди из высшего общества..."
-    mt "Отрабатывала деньги какого-то жалкого жадного извращенца?!"
-    # бросает взгляд на мышь, та уже поела и сидит возле миски на коленях, сложив руки за спину, голова вниз
-    imgf 33078
-    mt "Он что, совсем ненормальный?!"
-    mt "Как он это себе представляет?!"
-    mt "?!?!?!"
-    mt "Черт..."
-    imgd 33079
-    mt "А вдруг он не блефует и правда увезет меня обратно в отель, если я откажусь сейчас?"
-    mt "Заведет в номер, где Биф и инвесторы развлекаются с этими проститутками..."
-    mt "И скажет им, что купил МЕНЯ!!!"
-    mt "Что обо мне тогда подумают эти никчемные инвесторы?!"
-    mt "!!!"
-    img 33066
-    mt "Я не могу допустить этого!"
-    music Groove2_85
-    imgf 33080
-    m "Филипп, я..."
-    philip "Полагаю, вы согласны, Миссис Бакфетт?"
-    m "Я не готова лезть на эту... эту штуку."
-    m "Может, есть какой-то другой способ?"
-    philip "Есть, Миссис Бакфетт."
-    imgd 33081
-    philip "Вы можете не делать этого..."
-    philip "Но в таком случае ваши фотографии увидит общественность..."
-    m "!!!"
-    # Филипп снова указывает рукой на эту штуку
-    music Master_Disorder
-    imgd 33082
-    philip "Прошу вас, Миссис Бакфетт..."
-    philip "Для начала вам нужно снять ваше платье."
-    menu:
-        "Раздеться.":
-            pass
-    # Моника зло
-    imgd 33083
-    mt "Дьявол!"
-    mt "Я не могу допустить, чтобы эти фотографии увидели все!"
-    mt "И ни в коем случае нельзя допустить, чтобы инвесторы и Биф узнали..."
-    mt "Что я имею отношение к ВИП-эскорту!"
-    mt "В таком случае, мою репутацию ничего не спасет!"
-    mt "!!!"
-    # затемнение, шуршание одежды
-    # Моника голая, в одних каблуках, стоит возле Филиппа
-    # косится на мышь, которая продолжает стоять возле миски
-    fadeblack
-    sound snd_fabric1
-    pause 2.0
-    music Groove2_85
-    imgfl 33084
-    w
-    imgf 33086
-    w
-    imgd 33085
-    w
-    imgf 33087
-    mt "Эта серая мышь будет смотреть на меня?!"
-    mt "?!?!?!"
-    # вопросительно смотрит на мышь, потом на Филиппа
-    # тот видит ее замешательство и ехидно улыбается
-    imgd 33088
-    w
-    img 33089
-    w
-    imgf 33090
-    philip "Прошу..." # жест рукой в сторону штуки
-    # Моника кладет руку на штуку, куда ее просит залезть Филипп, и ставит на нее ногу
-    # залезает
-    fadeblack 1.5
-    music Master_Disorder
-    imgf 33091
-    w
-    imgd 33092
-    w
-    fadeblack
-    sound swish
-    pause 2.0
-    music Master_Disorder
-    imgfl 33093
-    sound metal_slide
-    philip "Руку сюда..." # закрепляет
-    imgf 33094
-    sound metal_slide
-    philip "Теперь ваши ножки..." # закрепляет
-    fadeblack 1.5
-    music Master_Disorder
-    imgfl 33095
-    philip "Отлично, Миссис Бакфетт."
-    # Моника раскоряченная, на лице страх
-    mt "Боже, это какой-то кошмарный сон!"
-    imgf 33096
-    mt "Не верю, что это все происходит наяву!"
-    imgd 33097
-    mt "Скоро я проснусь в своей кровати и сон развеется!"
-    mt "!!!"
-    # Филипп приспускает штаны и подхоит к Монике сзади
-    # нацеливает член на ее киску
-    imgf 33098
-    w
-    label gallery_33129:
-    fadeblack
-    sound snd_fabric1
+    sound snd_door_open1
     pause 1.5
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 32879
+    w
+    imgf 32880
+    liam "Мэм, рад вас видеть!"
+    music Hidden_Agenda
+    imgd 19262
+    betty "Лиам, здравствуйте."
+    betty "Я в прошлый раз так торопилась, что..."
+    betty "Забыла у вас утюг."
+    # он делает удивленный вид
+    img 32881
+    liam "Правда, Мэм?"
+    liam "Я даже не обратил внимания на это..."
+    # Бетти с соседом смотрят на стол, на нем расстелены штаны и рядом стоит утюг, продукты со стола, которые мешают, можно убрать. Остальные оставить
+    sound Jump2
+    imgd 32882
+    w
+    imgf 32883
+    betty "Не обратил внимания?"
+    liam "Да, Мэм..."
+    liam "Я даже не знаю, как просить вас об этом..."
+    liam "Но мне снова нужна ваша помощь, Мэм..."
+    music Groove2_85
+    imgd 32884
+    betty "Какая еще помощь?"
+    liam "Мне нужно погладить штаны, а я забыл, как пользоваться этим сложным механизмом..."
+    liam "Со множеством кнопок..."
+    liam "Вы же знаете, я бы предпочел одну большую кнопку для управления всеми функциями."
+    imgf 32885
+    betty "Лиам, я же вам все показала в прошлый раз..."
+    betty "Там нет ничего сложного."
+    liam "Если Мэм мне напомнит, я ей буду очень благодарен за помощь."
+    menu:
+        "Помочь Лиаму.":
+            $ monicaBettyLiamFred2 = day # Бетти согласилась помочь соседу с утюгом
+            pass
+        "Сам разберется! (прерывание квеста)":
+            imgd 32886
+            betty "Там нет ничего сложного, поэтому вы сами сможете разобраться!"
+            liam "Хорошо, я попробую, Мэм..."
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
+            # Бетти разворачивается и уходит, а он смотрит ей вслед
+            return
+    # Бетти задумчиво
+    imgd 32887
+    betty_t "Если я сейчас откажу ему, это будет грубостью с моей стороны..."
+    betty_t "Ведь в прошлый раз я помогла ему."
+    betty_t "По-соседски."
+    imgd 19279
+    betty "Да, Лиам, я помогу вам."
+    # Бетти идет в сторону стола, берет в руку утюг
+    # Бетти стоит спиной к нему и объясняет как пользоваться утюгом
+    sound highheels_short_walk
+    imgf 32888
+    betty "Включаете утюг..."
+    sound switch_steve
+    betty "Потом эту кнопку поворачиваете сюда..."
+    betty "А потом нажимаете вот сюда."
+    # сосед подходит к ней сзади и прижимается
+    sound man_steps
+    imgd 32889
+    w
+    music Hidden_Agenda
+    imgf 32890
+    liam "Ох, Мэм..."
+    liam "Я готов вечно смотреть на ваши волшебные ручки."
+    liam "Как ловко вы ими управляете."
+    liam "И вы такая добрая и отзывчивая, Мэм..."
+    # Бетти делает вид, что не замечает его прикосновений
+    music Groove2_85
+    imgd 19254
+    betty "Да, Лиам, я знаю..."
+    betty "Я хорошая хозяйка и у меня всегда все получается."
+    betty "За что бы я ни бралась..."
+    imgd 19255
+    liam "Да, Мэм, я заметил это в прошлый раз..."
+    liam "Вы мне очень помогли не только с утюгом."
+    #
+    $ notif(_("Бетти помогла соседу, проверив, достаточно ли твердый у него член."))
+    #
+    betty "Да?"
+    liam "Это правда, Мэм..."
+    # он проводит руками по ее попе, талии
+    sound Jump1
+    img 32891 hpunch
+    w
+    sound Jump2
+    img 32892 vpunch
+    liam "Мне перестали сниться кошмары по ночам."
+    liam "И я чувствую себя немного увернее, но..."
+#    sound ahhh9
+    imgf 32893
+    betty "Что?"
+    liam "Я тут подумал, а вдруг это была простая случайность?"
+    music2 stop
+    sound plastinka1b
+    img 32894 hpunch
+    betty_t "Какая еще случайность?"
+    music Groove2_85
+    betty_t "Что он несет?"
+    imgd 32893
+    betty "Случайность?"
+    liam "Да..."
+    music Hidden_Agenda
+    liam "Ведь вполне может быть, что..."
+    liam "Мой член всего один раз был такой твердый..."
+    imgd 19256
+    liam "И больше такого не повторится."
+    liam "Я теперь очень переживаю из-за этого."
+    # Бетти поворачивает голову и смотрит на него подозрительно, не отстраняется
+    music Groove2_85
+    imgf 32894
+    betty_t "На что это он намекает?"
+    betty_t "Он что, хочет, чтобы я снова ему помогала?"
+    imgd 32895
+    betty "Уверена, что это была не случайность, Лиам."
+    betty "Ваш член был очень твердый. Это не может быть случайностью..."
+    music Hidden_Agenda
+    liam "Все же эти навязчивые мысли мешают мне..."
+    liam "Если вы, Мэм, как моя хорошая и добрая соседка еще раз мне поможете..."
+    imgf 32896
+    liam "И я смогу убедиться, что это была не случайность..."
+    liam "Тогда я буду самым счастливым мучиной на свете!"
+    betty "Помочь еще раз?!"
+    liam "Да. Это как прийти к врачу после выздоровления."
+    liam "Чтобы убедиться, что ты выздоровел."
+    imgd 32897
+    liam "Вы же не бросите меня, терзающегося в сомнениях соседа?"
+    liam "Ведь я ни к кому больше не могу обратиться с этой проблемой..."
+    liam "Я доверился вам одной..."
+    liam "Что скажете, Мэм?"
+    menu:
+        "Я верная жена!":
+#            $ monicaBettyLiamFred3 = day # Бетти согласилась на секс с соседом (DP с Фредом)
+            pass
+        "Нет! Я не буду этого делать! (прерывание квеста)":
+            # Бетти отстраняется от него, встает руки в боки, возмущенно
+            music Groove2_85
+            imgf 32898
+            betty "Как вы можете мне предлагать подобные вещи?!"
+            betty "Я верная жена и порядочная женщина!"
+            betty "Вы придумали сами себе какую-то нелепую проблему!"
+            betty "Вот сами с этим и разбирайтесь!"
+            imgd 32886
+            w
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
+            # Бетти разворачивается и уходит возмущенно, а он смотрит ей вслед
+            return
+    # Бетти поворачивается к нему, начинает ломаться
+    music Groove2_85
+    imgf 19257
+    betty "Лиам..."
+    imgd 32899
+    betty "Я верная жена и порядочная женщина..."
+    betty "А вы просите меня о подобном..."
+    music Hidden_Agenda
+    liam "Мэм, у вас поистине целебные ручки."
+    liam "Я был под таким впечатлением от них, что долго не мог прийти в себя..."
+    imgf 32900
+    liam "Теперь Мэм мне снится каждую ночь."
+    betty "Правда? Я вам снюсь?"
+    # достает свой стояк
+    # Бетти снова на него залипает
+    imgd 32901
+    w
+    sound Jump2
+    img 32902 vpunch
+    w
+    imgd 32903
+    betty "Но... На вид он достаточно упругий и твердый..."
+    betty "Не думаю, что нужна моя помощь..."
+    imgf 32904
+    liam "Он только кажется таким, Мэм."
+    liam "На самом деле, я думаю, что у меня вряд ли получится..."
+    # Бетти 'отлипает' от его стояка, как бы приходит в себя
+    # пытается возмущаться
+    music Groove2_85
+    imgd 32905
+    betty "Лиам, я не собраюсь делать этого!"
+    betty "Мой дом буквально в двух шагах отсюда!"
+    betty "И меня ждет мой муж!"
+    betty "Тем более, мой водитель чуть не увидел нас в прошлый раз!"
+    # берет в руку его член и продолжает ломаться
+    sound Jump1
+    img 32906 vpunch
+    w
+    imgd 32907
+    betty "Я еще раз вам повторяю, что я верная жена!"
+    liam "Вашему мужу очень повезло с такой красивой и верной женой, Мэм!"
+    liam "Я искренне ему завидую!"
+    liam "У вас такой богатый дом!"
+    imgf 32908
+    betty "Да! Я хозяйка богатого дома!"
+    betty "И я не собираюсь ему изменять!"
+    liam "Мэм, ваша помощь - это не измена."
+    liam "Вы просто очень хорошая соседка. Поэтому и помогаете мне."
+    # Бетти начинает водить рукой по его члену
+    sound drkanje5
+    imgd 32906
+    w
+    sound drkanje5
+    imgd 32909
+    w
+    sound drkanje5
+    imgd 32906
+    w
+    sound drkanje5
+    imgd 32909
+    w
+    sound drkanje5
+    imgd 32906
+    w
+    sound drkanje5
+    imgd 32909
+    w
+    sound Jump1
+    imgd 32910
+    w
+    imgf 32907
+    betty "Он твердый, как и в прошлый раз!"
+    betty "Я уверена, что не нужно ничего больше проверять!"
+    music Hidden_Agenda
+    liam "Я ведь сосвем чуть-чуть, Мэм..."
+    liam "Просто чтобы проверить..."
+    imgd 32911
+    liam "И сразу уберу его."
+    music Groove2_85
+    betty "Нет, я не собираюсь делать этого, Лиам!"
+    betty "Вы злоупотребляете тем, что у вас такая хорошая соседка!"
+    # Бетти идет к дивану, держа соседа за член и ведя таким образом за собой
+    # сосед садится на диван, Бетти наклоняется над ним и приближает лицо к его члену
+    sound highheels_short_walk
+    imgf 32912
+    w
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
     music Loved_Up
-    imgfl 33099
-    philip "Миссис Бакфетт, леди из высшего общества..."
-    imgf 33100
-    philip "Любой из ваших инвесторов хотел бы оказаться сейчас на моем месте."
-    # Филипп водит членом туда-отсюда
-    imgd 33101
+    imgf 32913
     w
+    imgd 32914
+    betty_t "Я просто прикоснусь к нему немного..."
+    betty_t "Хоть мне это и не нравится."
+    betty_t "Но прикосновение - это не измена..."
+    imgf 32915
+    w
+    imgd 32916
+    betty "Не вижу необходимости какой-либо проверки!"
+    # проводит языком по члену
     sound lick3
-    imgd 33102
+    imgf 32917
     w
-    imgd 33103
-    w
-    sound lick3
-    imgd 33104
-    w
-    imgd 33101
-    w
-    imgf 33105
-    philip "Миссис Бакфетт, о как же прекрасно вы смотритесь!"
-    philip "Знаете, вы хорошо вписываетесь в интерьер этой комнаты."
-    philip "Помните, я говорил, что не использую одну и ту же женщину повторно?"
-    imgd 33106
-    philip "Вы удостоились великой чести, Миссис Бакфетт..."
-    philip "И сегодня я...."
-    # а потом хоп и нацеливается на анус
-    mt "!!!" # шок, испуг
-    imgf 33100
-    philip "Попробую ваш великосветский зад!"
-    imgd 33108
-    w
-    img 33107
-    m "НЕТ!"
-    m "Филипп, не надо!"
-    imgd 33109
-    philip "О, как же хорошо вас распялить, Миссис Бакфетт!"
-    philip "Я не мог не воспользоваться шансом!"
-    # начинает медленно вводить головку члена, Моника в ужасе
-    imgf 33110
-    w
-    imgd 33111
-    w
-    img 33107 hpunch
-    m "Нет-нет!"
-    m "Я никогда такого не делала!"
-    # он игнорирует ее и вводит головку члена еще чуть-чуть
-    imgf 33111
-    w
+    imgd 32916
+    betty "И вообще!"
+    betty "Я никогда не делаю подобного с дургими мужчинами, кроме своего мужа!"
+    betty "И вы, Лиам, не исключение!"
+    # берет его член в рот, начинает водить голвоой вверх-вниз
     sound hlup25
-    imgd 33112
+    imgd 32918
     w
-    imgf 33115
-    philip "Какая тугая у вас дырочка, Миссис Бакфетт..."
-    philip "Ммммм..."
-    philip "Мне приятно лишать вас анальной девственности."
-    m "Филипп, не надо!!!"
-    m "!!!"
-    imgd 33100
-    philip "Получается, я первый, кто это сделает..."
-    # и еще чуть-чуть
-    imgf 33112
-    w
-    sound hlup25
-    img 33113 hpunch
-    w
-    imgf 33116
-    philip "Мммм..."
-    philip "А помните, когда вы только начали работать над своим журналом..."
-    philip "Я подходил к вам на одном из модных показов?"
-    philip "Я тогда искренне был заинтересован в вашей персоне, Миссис Бакфетт."
-    imgd 33106
-    philip "Это было так давно..."
-    philip "Но вы мне ответили грубостью и высокомерием."
-    philip "Даже не захотели разговаривать со мной."
-    m "Я не помню!"
-    m "Вы меня с кем-то путаете!"
-    # головка вошла со чпоком, дальше не вводит
-    imgf 33113
+    imgd 32919
     w
     sound chpok6
-    img 33114 hpunch
+    img 32920 hpunch
     w
-    img 33117
-    m "ААА!!!"
-    m "Прекрати! Мне больно!!!"
-    imgf 33118
-    philip "Зато я все отлично помню, Миссис Бакфетт..."
-    philip "Ммммм..."
-    m "Филипп, я отменяю нашу сделку!"
-    m "Вытащи из меня ЭТО!!!"
-    philip "Тогда поедем обратно в отель, Миссис Бакфетт..."
-    imgd 33172
+
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Blowjob2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_1= Movie(play="video/v_Betty_Neighbour_Blowjob2_1.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_1
+    with fade
+    liam "О, дааа! Мэээм!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_2= Movie(play="video/v_Betty_Neighbour_Blowjob2_2.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32921
+    liam "Мээээммммм..."
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_3= Movie(play="video/v_Betty_Neighbour_Blowjob2_3.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_3
+    with fade
+    liam "Какая же вы замечательная соседка... Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_4= Movie(play="video/v_Betty_Neighbour_Blowjob2_4.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_4
+    with fade
+    liam "Ооох... Еще!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 32922
     w
-    imgd 33173
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_5= Movie(play="video/v_Betty_Neighbour_Blowjob2_5.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_5
+    with fade
+    liam "Вот так... Да... Не останавливайтесь, Мэм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_6= Movie(play="video/v_Betty_Neighbour_Blowjob2_6.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_6
+    with fade
+    liam "Возьмите его немного глубже... Ооооо..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32923
     w
-    # он вынимает полностью член из нее и отходит на шаг назад
-    # рассматривает ее голый зад
-    imgf 33114
+    imgd 32924
+    liam "Мммммм..."
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_7= Movie(play="video/v_Betty_Neighbour_Blowjob2_7.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Blowjob2_8= Movie(play="video/v_Betty_Neighbour_Blowjob2_8.mkv", fps=25)
+    show videov_Betty_Neighbour_Blowjob2_8
+    with fade
+    liam "Быстрее, Мэм! Еще-еще! Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    fadeblack 1.5
+    # Бетти отстраняется, встает
+    imgf 32925
     w
-    sound chpok6
-    img 33110 hpunch
+    music Groove2_85
+    imgd 32926
+    betty "Думаю, что этого будет достаточно!"
+    img 32927
+    liam "Но Мэм..."
+    liam "А как же..."
+    imgd 32928
+    w
+    # пока Лиам мямлит, шуршание одежды, кадр на пол, там лежит платье Бетти
+    sound put_dress
+    imgf 32929
+    w
+    music Loved_Up
+    imgd 32930
+    betty_t "Отказывать в помощи соседу, когда он так нуждается в ней - это не по-соседски..."
+    betty_t "Я быстренько помогу ему и пойду домой."
+    betty_t "Мне еще нужно приготовить Ральфу обед..."
+    imgd 32931
+    betty "Лиам, только совсем чуть-чуть!"
+    betty "И быстро!"
+    liam "Да, Мэм... Я только попробую, как в прошлый раз!"
+    # Бетти сама лезет на соседа, раскорячивается над ним и садится на его член
+    # начинает двигаться
+    imgf 32932
+    w
+    imgd 32933
+    w
+    imgd 32934
     w
     fadeblack 1.5
-    music Master_Disorder
-    imgf 33119
-    philip "Скажите мне, что не хотите..."
-    philip "Просто скажите..."
-    # меню с зацикливанием
-#    $ gallery_ep217_dialogues5_phillip2_loop1_flag = False
-    label gallery_ep217_dialogues5_phillip2_loop1:
-    menu:
-        "Не надо!!!":
-            imgd 33120
-            m "Филипп, не делай этого! Мне больно!"
-            philip "Скажите, что вы не хотите Миссис Бакфетт."
-            philip "И я не буду делать этого."
-            menu:
-                "Филипп, отпусти меня!":
-                    imgf 33121
-                    m "Филипп, отпусти меня!"
-                    philip "Тогда я буду вынужден отвезти вас обратно в отель..."
-                    philip "Пусть все узнают, что вы обычная шлюха, Миссис Бакфетт."
-                    jump gallery_ep217_dialogues5_phillip2_loop1
-                "У меня болит попа!":
-                    imgf 33122
-                    m "Филипп, у меня болит попа!"
-                    philip "Я сегодня спас эту попу от позорного разоблачения."
-                    philip "Ей бы пришлось намного хуже, если бы не мой поступок."
-                    menu:
-                        "Промолчать": # if gallery_ep217_dialogues5_phillip2_loop1_flag == True:
-                            pass
-                        "Мне больно!":
-#                            $ gallery_ep217_dialogues5_phillip2_loop1_flag = True
-                            imgd 33119
-                            m "Филипп, мне больно!"
-                            philip "Вы сами согласились на это, Миссис Бакфетт."
-                            jump gallery_ep217_dialogues5_phillip2_loop1
-    # Филипп снова подходит и начинает медленно вводить головку в анус
-    fadeblack 2.0
     music Loved_Up
-    imgf 33110
+    sound ahhh6
+    img 32935 vpunch
     w
-    sound hlup25
-    img 33111 hpunch
+    sound ahhh8
+    imgf 32936
+    liam "Оооо, как же хорошо у вас внутри, Мэм..."
+
+
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_1= Movie(play="video/v_Betty_Neighbour_Sex2_1.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_1
+    with fade
+    betty "Аааах! Дааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_2= Movie(play="video/v_Betty_Neighbour_Sex2_2.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_2
+    with fade
+    liam "Мне так нравится быть с вами!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_3= Movie(play="video/v_Betty_Neighbour_Sex2_3.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_3
+    with fade
+    liam "Как же мне повезло, что у меня такая соседка!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_4= Movie(play="video/v_Betty_Neighbour_Sex2_4.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 32937
+    sound ahhh6
+    betty "Хорошая и порядочная..."
     w
-    img 33107
-    m "Нет, Филипп, не надо!"
-    m "Я не хочу!"
-    m "Мне больно!!!"
-    imgf 33115
-    philip "Инвесторам будет очень интересно увидеть ваше истинное лицо."
-    m "Я отменяю сделку! Мне все равно!"
-    m "Вези меня обратно в отель!"
-    # вводит головку
-    imgd 33112
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_5= Movie(play="video/v_Betty_Neighbour_Sex2_5.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_5
+    with fade
+    wclean
+    liam "Да..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_6= Movie(play="video/v_Betty_Neighbour_Sex2_6.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_6
+    with fade
+    liam "Еще и хорошая хозяйка..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32938
     w
-    sound chpok6
-    img 33114 hpunch
+    imgd 32939
+    sound ahhh6
     w
-    imgf 33116
-    philip "Вы уверены, Миссис Бакфетт?!"
-    philip "Ммммм..."
-    # проталкивает член немного дальше, чем в первый раз, но не до конца
-    imgd 33114
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_7= Movie(play="video/v_Betty_Neighbour_Sex2_7.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_8= Movie(play="video/v_Betty_Neighbour_Sex2_8.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_8
+    with fade
+    betty "Да... И верная жена своего мужа..."
+    betty "Поэтому не позволяйте при мне всякие пошлости!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32940
+    sound ahhh8
     w
-    sound hlup25
-    imgd 33123 hpunch
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_9= Movie(play="video/v_Betty_Neighbour_Sex2_9.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_9
+    with fade
+    wclean
+    liam "О да, Мэм! Ему очень повезло с такой женой, как вы..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    imgd 32941
+    sound ahhh8
     w
-    img 33125
-    m "АААА!!!"
-    m "Не надо меня насиловать!!!"
-    # вводит его еще чуть-чуть, входит не до конца
-    imgf 33123
-    w
-    sound hlup25
-    img 33124 hpunch
-    w
-    imgf 33125
-    philip "А я вас и не насилую, Миссис Бакфетт."
-    philip "Вы сами ко мне приехали..."
-    philip "Сами сюда залезли..."
-    philip "Сами согласились отрабатывать уплаченные за вас деньги."
-    m "Нет! Мне больно!"
-    m "Прекрати сейчас же!!!"
-    # Филипп вытаскивает из нее свой член и снова отходит на шаг, как в прошлый раз
-    imgd 33124
-    w
-    sound chpok6
-    img 33110 hpunch
-    w
-    fadeblack 1.5
-    music Master_Disorder
-    imgf 33119
-    philip "Миссис Бакфетт, попросите меня не вставлять член в ваш зад..."
-    philip "Просто скажите это и я не буду делать этого..."
-#    $ gallery_ep217_dialogues5_phillip2_loop2 = False
-    label gallery_ep217_dialogues5_phillip2_loop2:
-    menu:
-        "Филипп, я не давала согласия на подобное!":
-            imgd 33120
-            m "Филипп..."
-            m "Я не соглашалась на подобное!"
-            philip "Вы сами согласились поехать ко мне домой, Миссис Бакфетт."
-            jump gallery_ep217_dialogues5_phillip2_loop2
-        "Филипп, джентельмены так не ведут себя!":
-            imgd 33121
-            m "Филипп, джентельмены так не ведут себя!"
-            philip "С меня достаточно одного джентельменского поступка..."
-            philip "Теперь леди благодарит меня за это."
-            philip "Ну что скажете, Миссис Бакфетт?"
-            imgd 33100
-            philip "Вы попросите не вставлять мой член в вашу великосветскую задницу?"
-            menu:
-                "Промолчать": # if gallery_ep217_dialogues5_phillip2_loop2 == True:
-                    pass
-                "Мне больно!":
-#                    $ gallery_ep217_dialogues5_phillip2_loop2 = True
-                    imgf 33119
-                    m "Филипп, мне больно!"
-                    philip "Вы сами согласились на это, Миссис Бакфетт."
-                    jump gallery_ep217_dialogues5_phillip2_loop2
-    # Филипп снова подходит к Монике и пристраивает к ее попе член
-    # мышь, пользуясь тем, что Мастер на нее не обращает внимания, вовсю пялится на их секс
-    # на лице злорадство над Моникой
-    # Филипп снова медленно вводит головку
-    imgf 33127
-    w
-    fadeblack 2.0
-    music Loved_Up
-    imgf 33110
-    w
-    imgd 33111
-    w
-    sound hlup25
-    img 33112 hpunch
-    w
-    img 33107
-    m "Прекрати!"
-    m "Я дам тебе денег! Только не делай этого!"
-    imgf 33109
-    philip "Откуда у вас деньги, Миссис Бакфетт?"
-    philip "Я прекрасно осведомлен о вашем истинном положении..."
-    # головка вошла - чпок
-    imgd 33113
-    w
-    sound chpok6
-    img 33114 hpunch
-    w
-    img 33117
-    m "НЕЕЕЕТ!"
-    imgf 33118
-    philip "У вас совсем ничего нет!"
-    philip "Кроме этого девственного великосветского зада."
-    # медленно проталкивается понемногу
-    imgd 33114
-    w
-    sound hlup25
-    img 33123 hpunch
-    w
-    imgf 33129
-    philip "Ммммм..."
-    philip "Какая тугая дырочка..."
-    m "ААААА!!!"
-    # проталкивается еще дальше
-    imgd 33123
-    w
-    sound hlup25
-    img 33124 hpunch
-    w
-    imgf 33128
-    philip "Как же приятно трахать зад такой леди, как вы..."
-    philip "Даааа..."
-    # вводит член до основания
-    imgd 33124
-    w
-    sound chpok6
-    img 33130 hpunch
-    w
-    imgd 33131
-    philip "Вот так..."
-    img 33132
-    m "АААА!!!"
-    m "!!!"
-    m "!!!!!"
-    # Филипп начинает жарить ее
-    music Loved_Up2
-    imgf 33133
-    philip "Даааа..."
-    philip "Вот это я понимаю..."
-    philip "Благодарность леди..."
-    m "Нееет!!!"
-    imgd 33134
-    philip "Ммммм..."
-    philip "Один поступок джентельмена..."
-    philip "И девственная задница леди в подарок..."
-    m "Хватиииит!!!"
-    imgf 33131
-    philip "Оооо..."
-    img 33120
-    m "ААААА!!!"
-    m "Прекрати!!!"
-    m "!!!"
-    menu:
-        "Кончить внутрь Моники.":
-            imgf 33135
-            w
-            imgd 33136
-            philip "Аааа..."
-            imgd 33135
-            w
-            img 33136
-            sound bulk1
-            show screen photoshot_screen()
-            with hpunch
-            pause 0.7
-            hide screen photoshot_screen
-            w
-            img 33137
-            sound bulk1
-            show screen photoshot_screen()
-            with hpunch
-            pause 0.7
-            hide screen photoshot_screen
-            sound man_moan18
-            philip "Аааааааа..."
-            imgd 33138
-            sound hlup25
-            philip "ААААААА!!!"
-            imgf 33141
-            w
-            # кадр на анус Моники, сперма вытекает из нее
-            pass
-        "Кончить на попу Моники.":
-            imgf 33135
-            w
-            imgd 33136
-            philip "Аааа..."
-            imgd 33135
-            w
-            img 33136
-            sound bulk1
-            show screen photoshot_screen()
-            with hpunch
-            pause 0.7
-            hide screen photoshot_screen
-            w
-            img 33139
-            sound bulk1
-            show screen photoshot_screen()
-            with hpunch
-            pause 0.7
-            hide screen photoshot_screen
-            sound man_moan18
-            philip "Аааааааа..."
-            imgd 33140
-            philip "ААААААА!!!"
-            pass
-    # затемнение
-    # Моника, распятая висит на штуке, она в шоке от произошедшего
-    fadeblack 2.0
-    music Master_Disorder
-    imgfl 33142
+
+
+    # в самый разгар секса затемнение
+    # звук скрип двери
+    # смена кадра - в дверь заходит Фред со своей профессиональной улыбочкой
+    # Лиам Фреда увидел сразу и самодовольно улыбается ему
+    # sound snd_back1
+    sound snd_door_open1
+    imgf 32942
     w
     sound man_steps
-    imgf 33143
+    imgd 32943
+    liam "..."
+    fred "..."
+    # Фред наблюдает с улыбочкой за Бетти и расстегивает штаны
+    # Бетти его не замечает и продолжает скакать на Лиаме
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_10= Movie(play="video/v_Betty_Neighbour_Sex2_10.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_10
+    with fade
+    betty "Оооо, еще!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    imgf 32944
     w
-    imgd 33144
-    mt "..."
-    mt "ОН БУДЕТ ПЕРВЫМ."
-    mt "КОГО Я УБЬЮ!"
-    mt "!!!"
-    # Моника остается висеть, Филипп все еще со спущенными штанами идет в сторону мыши
-    imgf 33145
-    mt "..."
-#    $ menu_corruption = [monicaPhilipBDSMCorruptionRequired2, 0]
+
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex2_11= Movie(play="video/v_Betty_Neighbour_Sex2_11.mkv", fps=30)
+    show videov_Betty_Neighbour_Sex2_11
+    with fade
+    betty "Мммм..."
+    betty "Ох..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    sound snd_zip
+    imgd 32946
+    w
+    label gallery_32951:
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Loved_Up
+    imgfl 32945
+    betty "Я думаю, что эта проверка..."
+    betty "Пройдет успешно... Оооо..."
+    # Фред подходит к Бетти
+    imgf 32947
+    w
+    # Лиам приподнимает Бетти за бедра, она прогибается в спине и Фреду открывается доступ к попе
+    sound Jump1
+    imgd 32948
+    w
+    sound chpok6
+    img 32949 hpunch
+    w
+    # Фред пристраивает член к попе Бетти и вводит его немного
+    # Бетти останавливается
+    music stop
+    sound plastinka1b
+    img 32950 vpunch
+    betty "АЙ!!! ЧТО ЭТО?!"
+    betty "!!!"
+    # Бетти возмущенно оглядывается
+    music Pyro_Flow
+    img 32951 hpunch
+    betty "Фред! Что ты делаешь?!! Не смей!!!"
+    betty "Быстро убери из меня ЭТО!!!"
+    # Фред вводит член и спокойно говорит, улыбаясь
+    music Groove2_85
+    imgd 32949
+    w
+    sound hlup25
+    img 32952 hpunch
+    w
+    imgd 32953
+    fred "Миссис Робертс..."
+    fred "Я как ответственный работник..."
+    fred "Нахожу своей профессиональной обязанностью..."
+    fred "Не допустить того, чтобы моя хозяйка осталась неудовлетворенной..."
+    music Pyro_Flow
+    img 32954
+    betty "Нет!!! Не смей!!!"
+    betty "Не трогай меня!!!"
+    betty "Твоя хозяйка тебе приказывает!"
+    # Фреду по фиг
+    music Groove2_85
+    imgd 32955
+    fred "Миссис Робертс, сначала я выполню свои профессиональные обязанности."
+    fred "А потом, с чувством выполненного профессионального долга, покину это помещение."
+    fred "Уверен, Лиам не против того, чтобы я проявил свой профессионализм и помог ему..."
+    # Лиам молча улыбается и делает несколько движений бедрами, двигаясь в Бетти
+    # она плывет от этого
+    imgf 32956
+    w
+    sound drkanje5
+    imgd 32957
+    w
+    sound drkanje5
+    imgd 32958
+    w
+    music Loved_Up2
+    imgf 32959
+    betty "Ооох..."
+    betty "Ааах, перестань, Фред!"
+    # уже менее уверенно говорит Фреду
+
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Fred_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_1= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_1.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    sound ahhh6
+    imgd 32960
+    betty "Фред, я приказываю тебе..."
+
+#2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_2= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_2.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_2
+    with fade
+    betty "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+#3
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_3= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_3.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_3
+    with fade
+    betty "Иди... Оооох..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # Фред уже пялит ее
+    imgd 32961
+    betty "Нееет... Не надоооо..."
+    betty "Я не собираюсь делать этогоооо..."
+
+    imgf 32962
+    liam "Все в порядке, Мэм..."
+    liam "Вам понравится..."
+
+    #4
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_4= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_4.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_4
+    with fade
+    fred "Я ведь профессионал..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #1
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_5= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_5.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_5
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_6= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_6.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_6
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 32963
+    betty "Фред, не смей! Ооооо!!!"
+
+    #5
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_7= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_7.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_7
+    with fade
+    betty "ОООООО!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_8= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_8.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_8
+    with fade
+    betty "Я не разрешалаааааа..."
+    betty "ААААА!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #7
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_9= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_9.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_9
+    with fade
+    betty "Я приказываю!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 32964
+    fred "Мэм, мне его вынуть из вас?"
+
+    #8
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_10= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_10.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_10
+    with fade
+    betty "Что? Нет, не надо вынимать! АААААА!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #9
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_11= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_11.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_11
+    with fade
+    liam "О, Мэээм..."
+    liam "Это чертовски охренительно, Мэээм!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 32965
+    w
+    imgf 32966
+    fred "Дааа, черт!"
+    fred "Мммм..."
+
+    #10
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_12= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_12.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_12
+    with fade
+    betty "Ооооох!!!"
+    betty "ОООООО!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 32967
+    w
+    imgf 32960
+    betty "Я так долго не смогууу!!!"
+
+    #11
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_13= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_13.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_13
+    with fade
+    fred "Кончайте, Миссис Робертс!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 32968
+    liam "Да!"
+
+    #12
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_14= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_14.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_14
+    with fade
+    betty "Яяяаааа... Кончу сейчааааас!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    #13
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Fred_Sex1_15= Movie(play="video/v_Betty_Neighbour_Fred_Sex1_15.mkv", fps=30)
+    show videov_Betty_Neighbour_Fred_Sex1_15
+    with fade
+    betty "Ааааах!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    fadeblack 1.5
+    music Loved_Up2
+    # Бетти кончает
+    img 32959
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound woman_moan14
+    betty "Ааааах!!!"
+    betty "АААААХ!!!"
+    betty "АААААААА!!!"
     menu:
-        "Смотреть на Филиппа и его рабыню.": # corruption
-            # та, видя внимание Мастера, быстро принимает свою стандартную позу
-            # Моника поворачивает голову в их сторону, взгляд полон ярости
-            imgd 33146
+        "Кончить внутрь Бетти.":
+            # Фред и Лиам кончают внутрь Бетти
+#            $ monicaBettyLiamVisit3_cumzone1 = 1
+            imgf 32970
+            liam "Я тоже..."
+            liam "Кончаааааю!!!"
+            img 32974
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             w
-            label gallery_33152:
-            music Groove2_85
-            imgf 33147
-            philip "Оно поело?"
-            philip "Отвечай. Мастер разрешает ему говорить."
-            model1 "Этот раб благодарит Мастера за еду."
-            menu:
-                "Продолжить смотреть на рабыню (экстремальный контент, Extra version) (disabled)." if game.extra == False:
-                    pass
-                "Продолжить смотреть на рабыню (экстремальный контент)." if game.extra == True:
-#                    $ monicaBiffInvestorsPhilip5 = day # Моника смотрела, как Филипп унижает мышь (писсинг)
-                    imgd 33148
-                    philip "Время пить..."
-                    philip "Оно не получало сегодня питье."
-                    # мышь поднимает голову и открывает рот
-                    imgd 33149
-                    w
-                    # Филипп нацеливается членом и начинает писать ей в рот
-                    sound snd_shower
-                    img 33150 vpunch
-                    w
-                    sound snd_piss
-                    imgd 33151
-                    w
-                    # Моника в шоке смотрит на это зрелище
-                    sound snd_piss
-                    imgd 33152
-                    w
-                    # после того как Филипп помочился на мышь
-                    imgf 33153
-                    w
-                    imgd 33154
-                    sound snd_gulp
-                    w
-                    # Мышь глотает
-                    imgf 33155
-                    philip "Оно все выпило?"
-                    model1 "Да, Мастер."
-                    model1 "Этот раб благодарит Мастера."
-                    philip "Оно может ползти в клетку и ждать Мастера для прохождения наказания."
-                    philip "Мастер скоро вернется к нему."
-                    pass
-                "Отвернуться.":
-                    # Показать как Моника отвернулась вблизи
-                    # звук льющейся жидкости, глотание
-                    sound snd_piss
-                    imgd 33156
-                    mt "Я не могу смотреть на эти извращения!"
-                    mt "Это мерзко!"
-                    mt "Отвратительно!"
-                    mt "Как подобное может нравится нормальному человеку?!"
-                    sound snd_gulp
-                    mt "Он больной!!!"
-                    mt "!!!"
-                    # Моника поворачивает голову в сторону Филиппа
-                    pass
-        "Отвернуться.":
-            # Показать как Моника отвернулась вблизи
-            #sound Groove2_85
-            imgd 33156
-            mt "Я не могу смотреть на эти извращения!"
-            sound snd_piss
-            mt "Это мерзко!"
-            mt "Отвратительно!"
-            mt "Как подобное может нравится нормальному человеку?!"
-            mt "Он больной!!!"
-            sound snd_gulp
-            mt "!!!"
-            # Моника поворачивает голову в сторону Филиппа
+            img 32973
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan18
+            liam "ААА!"
+            liam "АААААА!!"
+            img 32975
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            w
+            img 32971
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan3
+            fred "МММММММ!!!"
+            imgf 32969
+            w
+            sound hlup25
+            imgd 32972
+            w
             pass
-    # Филипп смотрит на Монику и мерзко улыбается
-    # мышь сидит возле его ног в своей стандартной позе
-    music Master_Disorder
-    imgf 33157
-    m "?!"
-    m "?!?!"
-    m "?!?!?!"
+        "Кончить на Бетти.":
+            # Фред и Лиам кончают на киску и на попу Бетти
+#            $ monicaBettyLiamVisit3_cumzone1 = 2
+            imgf 32970
+            liam "Я тоже..."
+            liam "Кончаааааю!!!"
+            imgd 32974
+            w
+            sound man_moan18
+            img 32973
+            liam "ААА!"
+            liam "АААААА!!"
+            imgd 32975
+            w
+            sound man_moan3
+            imgd 32971
+            fred "МММММММ!!!"
+            img 32976
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan3
+            w
+            img 32977
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan18
+            w
+            pass
     # затемнение, шуршание одежды
-    # Моника с Филиппом стоят в той же комнате, Моника одета
+    # голая Бетти лежит на диване в гостиной у соседа в отключке
+    # Фред и Лиам стоят уже одетые
     fadeblack
     sound snd_fabric1
     pause 2.0
     music Groove2_85
-    imgfl 33158
+    imgfl 32978
     w
-    imgf 33159
-    philip "Миссис Бакфетт..."
-    philip "Я рад, что наша с вами сделка прошла так успешно."
-    philip "Вам понравилось?"
-    m "!!!" # зло смотрит на него
-    # потом переводит взгляд на мышь, она сидит в клетке
-    music Power_Bots_Loop
-    imgd 33160
-    m "Ей это нравится?"
-    m "Как человек может терпеть такие унижения?"
-    # он ей отвечает, улыбаясь
+    imgf 32979
+    liam "А она горячая штучка..."
+    fred "Да, горячая. Это точно."
+    imgd 32980
+    liam "А почему ты называешь ее хозяйкой?"
+    liam "Раньше ведь была другая..."
+    # если Моника закатила соседу иск
+    if neighborOffendedSueBig == True:
+        $ notif(_("Моника хотела закатить соседу иск на $ 100 000."))
+        imgd 32981
+        liam "Какая-то стерва, которая мне закатила огромный иск за царапину на заборе."
+        #
+    liam "Как ее там звали? Бакфетт что-ли?"
+    # Фред усмехается
+    imgf 32982
+    fred "Да. Миссис Бакфетт."
+    liam "А где она?"
+    # если Моника закатила соседу иск
+    if neighborOffendedSueBig == True:
+        liam "Из-за нее у меня чуть не отняли мой дом!"
+        #
+    fred "О, Лиам."
+    imgd 32983
+    fred "Это очень интересная история..."
+    fred "Как-нибудь я тебе расскажу ее..."
+    # затемнение, спустя несколько минут
+    # Бетти, Фред и Лиам стоят в гостиной соседа, Бетти уже в одежде
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
     music Groove2_85
-    imgf 33161
-    philip "Деньги, Миссис Бакфетт..."
-    philip "Этому существу нравятся деньги..."
-    philip "Также как и вам..."
-    m "..."
-    imgd 33162
-    philip "Она заработает $ 10 000 за неделю."
-    m "Десять тысяч?!"
-    m "?!"
-    philip "Да, Миссис Бакфетт."
-    imgf 33163
-    philip "Но для вас я готов сделать исключение. Ведь я джентельмен."
-    philip "Вам я готов заплатить $ 30 000 за неделю."
-    philip "За то же самое."
-    philip "Что скажете?"
-    music Power_Bots_Loop
-    img 33164
-    m "В смысле что я скажу?! Это еще что!?"
-    philip "Это предложение, Миссис Бакфетт."
-    mt "..."
-    menu:
-        "Отказаться!":
-#            $ monicaBiffInvestorsPhilip3 = day # Моника отказалась быть рабыней у Филиппа
-            pass
-    # Моника зло
-    imgd 33165
-    mt "Тридцать тысяч?! За подобное унижение?!"
-    mt "Нет! Ни за что!!!"
-    mt "!!!"
-    mt "Пошел к черту этот гребаный садист!!!"
-    mt "Мерзкое животное!!!"
-    img 33166
-    m "Нет!"
-    m "Я не готова терпеть подобные унижения ни за какие деньги!!!"
-    m "!!!"
-    # Филипп продолжает мерзко улыбаться
-    music Groove2_85
-    imgf 33071
-    philip "Я вам дам немного времени подумать, Миссис Бакфетт."
-    philip "И в следующий раз мы вернемся к этому вопросу."
-    imgd 33167
-    mt "Никакого следующего раза не будет!!!"
-    mt "Отвратительный мерзкий извращенец!!!"
-    mt "Гребаный садист!!!"
-    imgf 33168
-    philip "Только прежде, чем отказать мне, Миссис Бакфетт..."
-    philip "Учтите, что я без этого не буду инвестировать в ваш журнал."
-    music stop
-    sound plastinka1b
-    img 33072 hpunch
-    mt "ЧТО?!"
-    mt "!!!"
-    music Master_Disorder
-    imgd 33161
-    philip "Это условие моей инвестиции."
-    philip "До скорой встречи, Миссис Бакфетт."
-    philip "Да, и скажите администратору эскорта что вы только полизали мои яички."
-    philip "Я хочу заплатить за эту встречу по минимальному тарифу."
-    m "Мерзавец!"
+    imgfl 32984
+    w
+    imgf 32985
+    betty "Фред! Лиам!"
+    fred "Да, Миссис Робертс?"
+    betty "Фред, ты все не так понял, Я не изменяю своему мужу!"
+    imgd 32986
+    fred "Ну разве это измена, Миссис Робертс?"
+    fred "Вы просто немного отдыхаете от домашних забот..."
+    fred "Вы настолько хорошая хозяйка, что у вас совсем нет времени на отдых."
+    # Бетти надменно
+    imgf 32987
+    betty "Да, это так! Я хорошая хозяйка и порядочная женщина!"
+    betty "И вообще, я пришла сюда, чтобы забрать мой утюг!"
+    # она подходит к столу и тянет руку к утюгу
+    # крупным планом показываем, как рука Фреда ложится на ее руку, не давая взять утюг
+    imgd 32988
+    sound highheels_short_walk
+    w
+    imgf 32989
+    w
+    sound Jump1
+    img 32990 hpunch
+    w
+    music Hidden_Agenda
+    img 32991
+    fred "Миссис Робертс, я думаю, что вам нужно оставить это здесь..."
+    # Бетти непонимающе на него смотрит
+    betty "Зачем?"
+    fred "Вашему соседу в любой момент может понадобится ваша помощь..."
+    fred "Ведь он совсем не умеет гладить этим утюгом..."
+    # Бетти косится на фреда, на соседа (они улыбаются), а потом смущенно опускает глаза, убирая руку от утюга
+    imgf 32992
+    betty "Я..."
+    fred "Да, Мэм?"
+    betty "Нет, ничего! Мне пора готовить обед для своего мужа!"
+    imgd 32993
+    w
     fadeblack
     sound highheels_run2
     pause 2.0
-    # затемнение, каблуки, дверь
+    # выбегает из гостиной
     return
