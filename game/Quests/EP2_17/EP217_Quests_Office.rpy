@@ -43,7 +43,7 @@ label ep217_quests_office3_after_sleep:
     $ add_objective("go_hotel", t_("Идти в отель Ле Гранд для проведения приватной презентации."), c_white, 55)
     $ questHelp("office_53a", True)
     $ questHelp("office_54", skipIfExists=True)
-    $ add_hook("Teleport_Rich_Hotel_Reception", "ep217_quests_office4_enter_hotel", scene="street_rich_hotel", label="private_presentation1")
+    $ add_hook("Teleport_Rich_Hotel_Reception", "ep217_quests_office4_enter_hotel", scene="street_rich_hotel", label="private_presentation1", priority = 501)
     return
 
 label ep217_quests_office4_enter_hotel:
