@@ -2246,6 +2246,7 @@ label gallery_41324:
     # Моника заходит в квартиру к эскортнице
     # ее встречает Кэндис, шатенка с хвостом
 #    $ monicaAdrianoEscortHotel5 = day # Моника пришла к Кэндис и Эбби на девичник
+    $ gallery_ep217_party_whiskey_counter_list = []
     fadeblack 1.0
     sound highheels_run2
     fadeblack 2.0
@@ -2370,7 +2371,7 @@ label gallery_41324:
     menu:
         "Выпить виски.":
             pass
-    $ ep217_party_whiskey_counter_list.append(1)
+    $ gallery_ep217_party_whiskey_counter_list.append(1)
     imgd 41277
     m "Только совсем немного..."
     # затемнение, каблуки, льется алкоголь в бокал
@@ -2446,7 +2447,7 @@ label gallery_41324:
             mt "Что за гадость?!"
             mt "И я доджна пить это низкосортное пойло?!"
             mt "Какой кошмар!"
-            $ ep217_party_whiskey_counter_list.append(2)
+            $ gallery_ep217_party_whiskey_counter_list.append(2)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2552,7 +2553,7 @@ label gallery_41324:
             imgd 41321
             sound snd_drinking_water
             w
-            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+            if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 1:
                 $ blur_effect = 1
                 imgd 41322
                 w
@@ -2562,7 +2563,7 @@ label gallery_41324:
             else:
                 imgd 41322
                 w
-            $ ep217_party_whiskey_counter_list.append(3)
+            $ gallery_ep217_party_whiskey_counter_list.append(3)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2625,7 +2626,7 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
-            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+            if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 1:
                 $ blur_effect = 1
                 imgd 41322
                 w
@@ -2635,7 +2636,7 @@ label gallery_41324:
             else:
                 imgd 41322
                 w
-            $ ep217_party_whiskey_counter_list.append(4)
+            $ gallery_ep217_party_whiskey_counter_list.append(4)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2738,7 +2739,7 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
-            if len(list(set(ep217_party_whiskey_counter_list))) > 1:
+            if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 1:
                 $ blur_effect = 1
                 imgd 41322
                 w
@@ -2748,7 +2749,7 @@ label gallery_41324:
             else:
                 imgd 41322
                 w
-            $ ep217_party_whiskey_counter_list.append(5)
+            $ gallery_ep217_party_whiskey_counter_list.append(5)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2791,7 +2792,7 @@ label gallery_41324:
                     imgd 41297
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
-                    $ ep217_party_whiskey_counter_list.append(6)
+                    $ gallery_ep217_party_whiskey_counter_list.append(6)
                     $ drinked = True
                     pass
                 "Не пить.":
@@ -2805,7 +2806,7 @@ label gallery_41324:
             sound snd_drinking_water
             w
             if drinked == True:
-                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
                 imgd 41347
                 w
                 $ blur_effect = 0
@@ -2847,7 +2848,7 @@ label gallery_41324:
                     imgd 41352
                     mt "Еще чуть-чуть выпью и больше не буду..."
                     mt "..."
-                    $ ep217_party_whiskey_counter_list.append(7)
+                    $ gallery_ep217_party_whiskey_counter_list.append(7)
                     $ drinked = True
                     pass
                 "Не пить.":
@@ -2861,7 +2862,7 @@ label gallery_41324:
             sound snd_drinking_water
             w
             if drinked == True:
-                $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+                $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
                 imgd 41354
                 w
                 $ blur_effect = 0
@@ -2878,7 +2879,7 @@ label gallery_41324:
     music Groove2_85
     imgf 41355
     m "Как вы планируете рассказать ему правду, если даже не знаете его?"
-    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+    $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
     with diss
     abby "Хороший вопрос... Ик! Я еще не придумала, как, но я это сделаю!"
     $ blur_effect = 0
@@ -2895,7 +2896,7 @@ label gallery_41324:
             imgf 41321
             sound snd_drinking_water
             w
-            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+            $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41322
             mt "Черт! Кажется, он был лишним..."
             mt "Какая-то путанница в голове..."
@@ -2903,7 +2904,7 @@ label gallery_41324:
             $ blur_effect = 0
             with diss
             mt "..."
-            $ ep217_party_whiskey_counter_list.append(8)
+            $ gallery_ep217_party_whiskey_counter_list.append(8)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2950,7 +2951,7 @@ label gallery_41324:
             mt "В меня уже не лезет эта гадость!!!"
             mt "!!!"
             $ drinked = True
-            $ ep217_party_whiskey_counter_list.append(9)
+            $ gallery_ep217_party_whiskey_counter_list.append(9)
             pass
         "Не пить.":
             music Hidden_Agenda
@@ -2963,7 +2964,7 @@ label gallery_41324:
     sound snd_drinking_water
     w
     if drinked == True:
-        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41363
     w
     if drinked == True:
@@ -3007,7 +3008,7 @@ label gallery_41324:
             m "Это постоянный клиент этой... Как ее? Миранды!"
             m "Она тогда сказала его жене-истеричке, что он мой клиент."
             m "Ненавижу ее! Ик!"
-            $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+            $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
             imgd 41370
             w
             $ blur_effect = 0
@@ -3081,7 +3082,7 @@ label gallery_41324:
 
                 menu:
                     "Сказать правду.":
-                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+                        $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Трое..."
                         $ blur_effect = 0
@@ -3095,7 +3096,7 @@ label gallery_41324:
                         pass
                     "Соврать.":
                         music Hidden_Agenda
-                        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+                        $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 0
                         imgd 41377
                         m "Ик! Десять!"
                         $ blur_effect = 0
@@ -3118,7 +3119,7 @@ label gallery_41324:
     # уже пьяная Кэндис задумчиво
     fadeblack 1.5
     music Groove2_85
-    $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+    $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 0
     imgfl 41380
     w
     $ blur_effect = 0
@@ -3142,7 +3143,7 @@ label gallery_41324:
     menu:
         "Выпить еще немного виски.": # счетчик виски + 1
             # Моника морщится
-            $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+            $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
             sound pour_wine
             imgd 41384
             m "Ик!"
@@ -3151,7 +3152,7 @@ label gallery_41324:
             $ blur_effect = 0
             with diss
             mt "..."
-            $ ep217_party_whiskey_counter_list.append(10)
+            $ gallery_ep217_party_whiskey_counter_list.append(10)
             $ drinked = True
             pass
         "Не пить.":
@@ -3165,7 +3166,7 @@ label gallery_41324:
     imgf 41346
     w
     if drinked == True:
-        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41347
     w
     $ blur_effect = 0
@@ -3201,7 +3202,7 @@ label gallery_41324:
     m "Нет!"
     abby "Спорим?"
     if drinked == True:
-        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+        $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 0
     m "Ик!"
     $ blur_effect = 0
     with diss
@@ -3230,7 +3231,7 @@ label gallery_41324:
     imgf 41395
     candice "Эбби, нет! Надо не так танцевать стриптиз!"
     if drinked == True:
-        $ blur_effect = 1 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 0
+        $ blur_effect = 1 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 0
         with diss
     candice "Я сейчас тебе покажу, как надо!"
     candice "Подвинься!"
@@ -3250,7 +3251,7 @@ label gallery_41324:
     imgf 41400
     w
     if drinked == True:
-        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41401
     m "Ик!"
     $ blur_effect = 0
@@ -3275,7 +3276,7 @@ label gallery_41324:
     mt "Пришла в гости к проституткам, пьешь с ними, притворяешься такой же, как они!"
     mt "Ты еще танцевать стриптиз их научи!"
     if drinked == True:
-        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
         with diss
     mt "Ик! Черт! Мне не следовало пить виски на голодный желудок..."
     $ blur_effect = 0
@@ -3289,16 +3290,16 @@ label gallery_41324:
     abby "Да, пойдем!"
     abby "Покажи, как ты танцуешь!"
     if drinked == True:
-        $ blur_effect = 2 if len(list(set(ep217_party_whiskey_counter_list))) > 3 else 1
+        $ blur_effect = 2 if len(list(set(gallery_ep217_party_whiskey_counter_list))) > 3 else 1
     imgd 41405
     m "Ик!"
     $ blur_effect = 0
     with diss
     m "..."
     menu:
-        "Залезть на стол и танцевать. (Моника слишком трезвая) (disabled)" if len(list(set(ep217_party_whiskey_counter_list))) < 10:
+        "Залезть на стол и танцевать. (Моника слишком трезвая) (disabled)" if len(list(set(gallery_ep217_party_whiskey_counter_list))) < 10:
             pass
-        "Залезть на стол и танцевать." if len(list(set(ep217_party_whiskey_counter_list))) >= 10: # пункт доступен при количестве выпитого виски не меньше 7
+        "Залезть на стол и танцевать." if len(list(set(gallery_ep217_party_whiskey_counter_list))) >= 10: # пункт доступен при количестве выпитого виски не меньше 7
 #            $ monicaAdrianoEscortHotel6 = day # Моника танцевала стриптиз с Кэндис и Эбби на девичнике
             pass
         "Отказаться и уйти.":
