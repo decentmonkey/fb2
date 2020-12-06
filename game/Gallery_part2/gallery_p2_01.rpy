@@ -1636,7 +1636,7 @@ label gallery_32762:
     music stop
     img black_screen
     with Dissolve(2.0)
-    call textonblack(t_("5 минут спустя..."))
+    call textonblack(t_("5 минут спустя...")) from _rcall_textonblack_14
     sound highheels_short_walk
     img black_screen
     with Dissolve(2.0)
@@ -2503,7 +2503,7 @@ label gallery_33215:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_15
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
@@ -4365,7 +4365,7 @@ label gallery_41489:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_20
     scene black_screen
     with Dissolve(1)
     sound snd_door_open1
