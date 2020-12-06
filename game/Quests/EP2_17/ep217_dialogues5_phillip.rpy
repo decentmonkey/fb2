@@ -757,6 +757,7 @@ label ep217_dialogues5_phillip_2:
     philip "Просто скажите..."
     # меню с зацикливанием
     $ ep217_dialogues5_phillip2_loop1_flag = False
+    $ ep217_dialogues5_phillip2_loop1b_flag = False
 label ep217_dialogues5_phillip2_loop1:
     menu:
         "Не надо!!!":
@@ -772,6 +773,7 @@ label ep217_dialogues5_phillip2_loop1:
                     m "Филипп, отпусти меня!"
                     philip "Тогда я буду вынужден отвезти вас обратно в отель..."
                     philip "Пусть все узнают, что вы обычная шлюха, Миссис Бакфетт."
+                    $ ep217_dialogues5_phillip2_loop1b_flag = True
                     jump ep217_dialogues5_phillip2_loop1
                 "У меня болит попа!":
                     imgf 33122
@@ -787,6 +789,8 @@ label ep217_dialogues5_phillip2_loop1:
                             m "Филипп, мне больно!"
                             philip "Вы сами согласились на это, Миссис Бакфетт."
                             jump ep217_dialogues5_phillip2_loop1
+                "Промолчать" if ep217_dialogues5_phillip2_loop1_flag == True:
+                    pass
     # Филипп снова подходит и начинает медленно вводить головку в анус
     fadeblack 2.0
 #    music Loved_Up
@@ -854,6 +858,7 @@ label ep217_dialogues5_phillip2_loop1:
     philip "Миссис Бакфетт, попросите меня не вставлять член в ваш зад..."
     philip "Просто скажите это и я не буду делать этого..."
     $ ep217_dialogues5_phillip2_loop2 = False
+    $ ep217_dialogues5_phillip2_loop2b = False
 label ep217_dialogues5_phillip2_loop2:
     menu:
         "Филипп, я не давала согласия на подобное!":
@@ -862,6 +867,7 @@ label ep217_dialogues5_phillip2_loop2:
             m "Филипп..."
             m "Я не соглашалась на подобное!"
             philip "Вы сами согласились поехать ко мне домой, Миссис Бакфетт."
+            $ ep217_dialogues5_phillip2_loop2b = True
             jump ep217_dialogues5_phillip2_loop2
         "Филипп, джентельмены так не ведут себя!":
             music Power_Bots_Loop
@@ -884,6 +890,8 @@ label ep217_dialogues5_phillip2_loop2:
                     m "Филипп, мне больно!"
                     philip "Вы сами согласились на это, Миссис Бакфетт."
                     jump ep217_dialogues5_phillip2_loop2
+        "Промолчать" if ep217_dialogues5_phillip2_loop2 == True:
+            pass
     # Филипп снова подходит к Монике и пристраивает к ее попе член
     # мышь, пользуясь тем, что Мастер на нее не обращает внимания, вовсю пялится на их секс
     # на лице злорадство над Моникой
