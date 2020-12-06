@@ -269,6 +269,7 @@ label start:
 
     # Office
 #    $ monicaEarnedWeeklyMoney = True
+    $ monicaAskBiffGiftCertificateFirstTime = False
     $ monicaOfficeBiffMelanie = False
     $ monicaOutfitsEnabled[7] = True
     $ monicaOutfitsEnabled[8] = True
