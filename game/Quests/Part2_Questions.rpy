@@ -15,6 +15,10 @@ label part2_questions_init_loadgame:
 
     $ after_load_ready_to_render = True
     $ refresh_list_files_forced()
+
+    hide screen questhelp_screen
+    hide screen achievements_screen
+    hide screen questlog_screen
     music2 stop
 #    $ episode = 2
 #    $ debugMode = True

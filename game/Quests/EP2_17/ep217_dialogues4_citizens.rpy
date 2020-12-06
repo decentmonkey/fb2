@@ -975,7 +975,7 @@ label ep217_dialogues4_citizens_1a:
             w
 
             #1
-            $ localSoundVolume = 0.7
+            $ localSoundVolume = 1.0
             $ localSoundName = v_Monica_Citizen6_Blowjob1_1_sound_name
             img black_screen
             with diss
