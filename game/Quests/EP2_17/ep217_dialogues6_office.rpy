@@ -1941,3 +1941,7 @@ label ep217_dialogues6_office_9:
     mt "!!!"
     # меню кастинга, кастинг.
     return
+
+label ep217_dialogues6_office_9a:
+    mt "Я еще не сошла с ума, чтобы идти в такой дорогой отель одетой в ЭТО!!!"
+    return

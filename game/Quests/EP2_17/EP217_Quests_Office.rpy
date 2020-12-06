@@ -49,6 +49,9 @@ label ep217_quests_office3_after_sleep:
 label ep217_quests_office4_enter_hotel:
     if act=="l":
         return
+    if cloth != "CasualDress1":
+        call ep217_dialogues6_office_9a()
+        return False
     # презентация
     $ questHelp("office_54", True)
     $ remove_objective("go_hotel")

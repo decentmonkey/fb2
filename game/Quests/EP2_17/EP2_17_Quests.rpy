@@ -5,6 +5,8 @@ label ep217_quests:
 
     if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False:
         $ questHelp("escort_14", skipIfExists=True)
+        $ questHelp("escort_15", skipIfExists=True)
+
 
     $ ep217_quests_office_menu_enabled = True
     $ questHelp("office_53")
