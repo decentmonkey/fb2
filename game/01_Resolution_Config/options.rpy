@@ -96,6 +96,14 @@ The big Dog
 
 Kurt
 
+mi
+
+mrboom90
+
+Emroz
+
+Juha Salmelin
+
 for great support!
 
 Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade for English correction
