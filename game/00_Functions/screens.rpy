@@ -2102,7 +2102,7 @@ screen main_menu():
 
         frame:
 #            pos (get_resolution_x(1570), get_resolution_y(650))
-            pos (get_resolution_x(1475), get_resolution_y(650))
+            pos (gui.resolution.main_menu.lang.left, get_resolution_y(650))
             padding (gui.resolution.main_menu.lang.padding,gui.resolution.main_menu.lang.padding)
             xysize (get_resolution_x(gui.resolution.main_menu.lang.width), get_resolution_y(gui.resolution.main_menu.lang.height))
             anchor (0,0)
