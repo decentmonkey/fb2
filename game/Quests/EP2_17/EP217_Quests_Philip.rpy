@@ -9,7 +9,8 @@ label ep217_quests_philip1: # едут к Филиппу
         call process_change_map_location("PhilipHome") from _rcall_process_change_map_location_6
         $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_7c1", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
         $ add_hook("escort_start_day", "ep217_quests_philip2_escort", scene="global", label="philip_anal1_escort")
-        $ questHelp("escort_18")
+        if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False:
+            $ questHelp("escort_18")
         $ ep217_quests_philip_refused = 1
         $ questHelp("philip_10", False)
         $ autorun_to_object("ep217_dialogues5_phillip_6", scene="street_philiphome")
@@ -23,7 +24,8 @@ label ep217_quests_philip1: # едут к Филиппу
         call process_change_map_location("PhilipHome") from _rcall_process_change_map_location_7
         $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_7c1", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
         $ add_hook("escort_start_day", "ep217_quests_philip2_escort", scene="global", label="philip_anal1_escort")
-        $ questHelp("escort_18")
+        if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False:
+            $ questHelp("escort_18")
         $ ep217_quests_philip_refused = 2
         $ questHelp("philip_10", False)
         $ autorun_to_object("ep217_dialogues5_phillip_6", scene="street_philiphome")
@@ -35,7 +37,8 @@ label ep217_quests_philip1: # едут к Филиппу
 
     call process_change_map_location("PhilipHome") from _rcall_process_change_map_location_8
     $ add_hook("Teleport_Rich_Hotel_Reception", "ep210_dialogues7_escort_hotel_7c1", scene="street_rich_hotel", label=["hotel_restrict_today", "evening_time_temp"]) # Блокируем отель на сегодня
-    $ questHelp("escort_18")
+    if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False:
+        $ questHelp("escort_18")
 
     $ add_hook("escort_start_day", "ep217_quests_philip2_escort", scene="global", label="philip_anal1_escort")
 
