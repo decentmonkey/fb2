@@ -717,6 +717,7 @@ label part2_questions_process(new_game_started):
             "Моника стала королевой Shiny Hole!":
                 $ monica_shiny_hole_queen_day = 210
             "Моника уволилась из паба.":
+                $ monica_shiny_hole_queen_day = 0
                 $ monicaPubFiredTips1 = True
         $ ep22_questions_answered_count += 1
     if monicaPubFiredTips1 == True:
