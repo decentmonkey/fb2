@@ -448,6 +448,7 @@ label start:
     call change_scene("street_house_outside") from _rcall_change_scene_220
     call process_change_map_location("House") from _rcall_process_change_map_location_10
 label start_game_EP22:
+    $ ep217_quests_bugfix1_initialized = True
     $ questHelpActivated = True
     call questHelp_init() from _rcall_questHelp_init_2
 

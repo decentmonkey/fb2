@@ -22,4 +22,5 @@ label process_afterload_part2:
         $ scenes_data["misc"] = {"list_type": ["item1", "item2"]}
     call questLog_init() from _rcall_questLog_init
     call questHelp_init() from _rcall_questHelp_init
+    call ep217_quests_bugfix1()
     return
