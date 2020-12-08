@@ -96,6 +96,12 @@
 # https://evermotion.org/shop/show_product/scene-6-ae35-archexteriors/16088
 
 
+# Ассеты даз
+# Эбби полотенце
+# Эбби бритва
+# Арендодатель (молодой, красивый чувак, одет просто, но модно)
+
+
 # Делаем (v18)
 # Подземный паркинг
 # https://gfx-hub.org/3d-models/collections/36180-evermotion-archmodels-vol-218.html
