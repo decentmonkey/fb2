@@ -222,3 +222,8 @@ define candice = Character(t_("Кэндис"), who_color=c_green)  # girl_3 - ш
 define abby = Character(t_("Эбби"), who_color=c_pink)  # girl_2 - рыжая с каре
 
 define citizen9_t = Character(t_("Найджел"), who_color=c_green)
+
+define salesman3 = Character(_("Продавец"), who_color=c_blue)
+define salesman2 = Character(_("Продавец"), who_color=c_green)
+define salesman = Character(_("Продавец"), who_color=c_orange)
+define robby = Character(_("Робби"), who_color=c_orange)

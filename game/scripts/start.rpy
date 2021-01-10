@@ -100,6 +100,18 @@ label start:
     $ char_info["Rebecca"]["enabled"] = True
     $ char_info["Stephanie"]["enabled"] = True
 
+#########
+#    call ep218_dialogues4_betty_1() # Бетти разговаривает с Ральфом перед поездкой на рынок
+#    call ep218_dialogues4_betty_1a1() # Бетти и Фред в авто, едут на рынок
+#    call ep218_dialogues4_betty_1a() # на парковке перед посещением рынка
+#    call ep218_dialogues4_betty_2() # Бетти на рынке
+#    call ep218_dialogues4_betty_3() # на парковке после рынка
+#    call ep218_dialogues4_betty_4() # во дворе дома соседа
+#    call ep218_dialogues4_betty_5() # у соседа в гостиной, секс
+#    call ep218_dialogues4_betty_6() # к соседу пришел Ральф
+#########
+
+
     python:
         # Betty
         char_info["Betty"]["level"] = 6
@@ -456,9 +468,7 @@ label start_game_EP22:
     call ep217_quests() from _rcall_ep217_quests
     jump show_scene
 
-#########
 
-#########
 
 
     call intro_questions() from _call_intro_questions
