@@ -32,6 +32,20 @@ label part2_questions_init_loadgame:
     $ inventory_objects = {}
     $ inventory = []
     $ owner = "Monica"
+    $ questHelpJustUpdated = False
+    $ questHelpUpdatedDay = 0
+    $ questHelpData = {}
+    $ questHelpDataQuests = {}
+    $ questHelpDataCategoriesDescriptions = {}
+    $ questHelpDataCategoriesDescriptionsData = {}
+    $ questHelpDataLastMemory = {}
+    $ questHelpDataLastQuestsBold = {}
+    $ questHelpDataCategoriesBold = {}
+    $ questHelpCurrentCategory = False
+    $ questHelpCurrentQuest = False
+    $ questHelpCategoriesHistory = []
+    $ questHelpCategoriesHistoryStatic = []
+
 #    call game_init()
 
     $ ep2p2_flag1 = check_hook("ep22_quests_Dick7", scene="global_week_day")
