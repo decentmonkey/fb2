@@ -100,6 +100,13 @@ label start:
     $ char_info["Rebecca"]["enabled"] = True
     $ char_info["Stephanie"]["enabled"] = True
 
+#########
+
+#    call ep218_dialogues3_escort_1() # Моника и Кэндис разговаривают в ресторане
+
+#########
+
+
     python:
         # Betty
         char_info["Betty"]["level"] = 6
@@ -456,9 +463,7 @@ label start_game_EP22:
     call ep217_quests() from _rcall_ep217_quests
     jump show_scene
 
-#########
 
-#########
 
 
     call intro_questions() from _call_intro_questions
