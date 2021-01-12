@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -456,6 +456,7 @@ label start:
     call process_change_map_location("House") from _rcall_process_change_map_location_10
 label start_game_EP22:
     $ ep217_quests_bugfix1_initialized = True
+    $ ep218_quests_load_init_flag = True
     $ questHelpActivated = True
     call questHelp_init() from _rcall_questHelp_init_2
 

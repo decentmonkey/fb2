@@ -4,6 +4,10 @@ default monicaBettyLiamFredMarket3 = 0 # Бетти согласилась на 
 
 default monicaBettyLiamRobbyFred_cumzone = 0
 
+default v_Betty_Neighbour_Sex3_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+default v_Betty_Neighbour_Sex4_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+default v_Betty_Neighbour_Sex5_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+
 #call ep218_dialogues4_betty_1() # Бетти разговаривает с Ральфом перед поездкой на рынок
 #call ep218_dialogues4_betty_1a1() # Бетти и Фред в авто, едут на рынок
 #call ep218_dialogues4_betty_1a() # на парковке перед посещением рынка
@@ -22,7 +26,7 @@ label ep218_dialogues4_betty_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Утро..."))
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -32,11 +36,11 @@ label ep218_dialogues4_betty_1:
     betty "Ральф!"
     betty "Ты же знаешь, что я не доверяю этой нерадивой гувернантке ведение хозяйства!"
     ralph "Да, но..."
-    imgf 42215
+    img 42215
     betty "Ты что, хочешь, чтобы я дала ей денег и отправила за фруктами?!"
     imgd 42216
     ralph "Ну, конечно, дорогая..."
-    imgd 42217
+    img 42217
     betty "Нет! Уверена, что эта дурацкая гувернантка не способна отличить свежие фрукты от плохих."
     betty "А я хорошая хозяйка и заботливая жена!"
     betty "И не могу допустить, чтобы мой муж употреблял в пищу какие-нибудь второсортные и несвежие фрукты."
@@ -115,7 +119,7 @@ label ep218_dialogues4_betty_1:
     $ renpy.pause (1.0, hard=True)
     sound snd_car_turn_on
     $ renpy.pause (1.0, hard=True)
-    img scene_Map_Evening
+    img scene_Map
     with fade
     sound snd_car_engine
     $ renpy.pause(6.0, hard=True)
@@ -128,9 +132,9 @@ label ep218_dialogues4_betty_1:
 # в салоне авто, Бетти сидит сзади
 label ep218_dialogues4_betty_1a1:
     # Бетти ворчит, как когда-то Моника
-    fadeblack
-    sound snd_car_engine
-    pause 1.5
+#    fadeblack
+#    sound snd_car_engine
+#    pause 1.5
     music Stealth_Groover
     imgfl 42230
     betty "Фред, веди осторожнее!"
@@ -153,7 +157,7 @@ label ep218_dialogues4_betty_1a1:
     imgf 42236
     fred "Мы почти приехали, Мэм!"
     fadeblack
-    img scene_Map_Evening
+    img scene_Map
     with fade
     sound snd_car_engine
     $ renpy.pause(6.0, hard=True)
@@ -651,7 +655,7 @@ label ep218_dialogues4_betty_3:
     $ renpy.pause (1.0, hard=True)
     sound snd_car_turn_on
     $ renpy.pause (1.0, hard=True)
-    img scene_Map_Evening
+    img scene_Map
     with fade
     sound snd_car_engine
     $ renpy.pause(1.0, hard=True)
@@ -712,7 +716,7 @@ label ep218_dialogues4_betty_3:
     imgf 42236
     w
     fadeblack
-    img scene_Map_Evening
+    img scene_Map
     with fade
     sound snd_car_engine
     $ renpy.pause(6.0, hard=True)
@@ -1134,27 +1138,157 @@ label ep218_dialogues4_betty_5:
     # Бетти начинает кайфовать и откидывается спиной на грудь соседа (поза, как с Фредом в спальне)
     sound Jump2
     imgd 33498
+    w
+    # video
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Sex3_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_1= Movie(play="video/v_Betty_Neighbour_Sex3_1.mkv")
+    show videov_Betty_Neighbour_Sex3_1
+    with fade
     betty "Ооох!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_2= Movie(play="video/v_Betty_Neighbour_Sex3_2.mkv")
+    show videov_Betty_Neighbour_Sex3_2
+    with fade
     liam "Вы чувствуете, какой мой член твердый?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_3= Movie(play="video/v_Betty_Neighbour_Sex3_3.mkv",)
+    show videov_Betty_Neighbour_Sex3_3
+    with fade
     betty "Дааа... Он очень твердый..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound ahhh9
     imgf 33499
+    w
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_4= Movie(play="video/v_Betty_Neighbour_Sex3_4.mkv")
+    show videov_Betty_Neighbour_Sex3_4
+    with fade
     liam "Вам нравится ощущать его в своей упругой попке?"
     betty "Оооох! Дааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_5= Movie(play="video/v_Betty_Neighbour_Sex3_5.mkv")
+    show videov_Betty_Neighbour_Sex3_5
+    with fade
     betty "Но я... Я не разрешала... В мою попу..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_6= Movie(play="video/v_Betty_Neighbour_Sex3_6.mkv")
+    show videov_Betty_Neighbour_Sex3_6
+    with fade
     betty "Ааах!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 33500
+    w
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_7= Movie(play="video/v_Betty_Neighbour_Sex3_7.mkv")
+    show videov_Betty_Neighbour_Sex3_7
+    with fade
     liam "Мне остановиться, Мэм?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex3_8= Movie(play="video/v_Betty_Neighbour_Sex3_8.mkv")
+    show videov_Betty_Neighbour_Sex3_8
+    with fade
     betty "Не вздумай! Ааах!"
     liam "Ммммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound ahhh6
     imgf 33501
-    w
-    sound hlup25
-    imgd 33502
-    w
-    sound hlup25
-    imgd 33501
     w
     sound hlup25
     imgd 33502
@@ -1243,6 +1377,7 @@ label ep218_dialogues4_betty_5:
     w
     # Бетти зло смотрит на друга соседа
     imgf 33515
+    betty "Это не то что вы подумали!"
     betty "Я порядочная женщина!"
     betty "Аааах..."
     betty "Не смотрите на меня! Отвернитесь!"
@@ -1307,7 +1442,8 @@ label ep218_dialogues4_betty_5:
     pause 2.0
     music Loved_Up2
     imgfl 33525
-    w
+    betty "Что вы собираетесь делать?!"
+    betty "Я не это имела ввиду!"
     # нацеливает член на ее киску
     # вводит
     imgf 33526
@@ -1319,35 +1455,200 @@ label ep218_dialogues4_betty_5:
     img 33528
     betty "Аааааа!!!"
     betty "Какой большой... Аааа..."
-    imgf 33529
+    # video
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Sex4_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_1= Movie(play="video/v_Betty_Neighbour_Sex4_1.mkv")
+    show videov_Betty_Neighbour_Sex4_1
+    with fade
     robby "Да, это была большая скидка, Мэм... "
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 33529
+    w
     # начинают пялить ее вдвоем
     imgd 33530
+    w
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_2= Movie(play="video/v_Betty_Neighbour_Sex4_2.mkv")
+    show videov_Betty_Neighbour_Sex4_2
+    with fade
     robby "Я готов предоставлять вам эту скидку хоть каждый день..."
     robby "Да..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_3= Movie(play="video/v_Betty_Neighbour_Sex4_3.mkv")
+    show videov_Betty_Neighbour_Sex4_3
+    with fade
     robby "Вы ведь довольны покупкой, Мэм?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 33531
     betty "Дааа... Очень!"
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_4= Movie(play="video/v_Betty_Neighbour_Sex4_4.mkv")
+    show videov_Betty_Neighbour_Sex4_4
+    with fade
     robby "Мой босс просит оценить работу продавца."
-    imgd 33532
     robby "Вы же довольны остались моим сервисом, Мэм?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 33532
+    w
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_5= Movie(play="video/v_Betty_Neighbour_Sex4_5.mkv")
+    show videov_Betty_Neighbour_Sex4_5
+    with fade
     betty "Оооо, даааа! Мне очень понравился ваш сервис!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     sound ahhh9
     imgf 33528
     liam "Мэм, спросите у Робби, достаточно ли вы его отблагодарили за скидку?"
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_6= Movie(play="video/v_Betty_Neighbour_Sex4_6.mkv")
+    show videov_Betty_Neighbour_Sex4_6
+    with fade
     betty "Достаточно ли я вас отблагодарила? Ооох..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_7= Movie(play="video/v_Betty_Neighbour_Sex4_7.mkv")
+    show videov_Betty_Neighbour_Sex4_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 33533
     robby "О, дааа! Мне нравится, как Мэм благодарит меня за скидку!"
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_8= Movie(play="video/v_Betty_Neighbour_Sex4_8.mkv")
+    show videov_Betty_Neighbour_Sex4_8
+    with fade
     robby "Приходите за рыбой, когда захотите... Мммм..."
     robby "Для вас всегда будет самая свежая рыба, Мэм!"
     betty "Оооох..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 33534
     liam "Я же говорил, Мэм, что Робби хороший парень... Да..."
+
+    #9
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_9= Movie(play="video/v_Betty_Neighbour_Sex4_9.mkv")
+    show videov_Betty_Neighbour_Sex4_9
+    with fade
     liam "А постоянным своим покупательницам он делает просто огромные скидки..."
-    liam "Аааа..."
+    liam "И почти ничего не просит взамен!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex4_10= Movie(play="video/v_Betty_Neighbour_Sex4_10.mkv")
+    show videov_Betty_Neighbour_Sex4_10
+    with fade
     betty "Огромные... Да..."
     robby "Да, Мэээм..."
     robby "Вас ждет просто огромная скидкааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # со стороны входной двери возникает силуэт Фреда
     sound man_steps
     imgf 33535
@@ -1377,31 +1678,128 @@ label ep218_dialogues4_betty_5:
     sound vjuh3
     img 33541
     fred "Я пришел исполнить свой профессиональный долг."
+
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Neighbour_Sex5_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_1= Movie(play="video/v_Betty_Neighbour_Sex5_1.mkv")
+    show videov_Betty_Neighbour_Sex5_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # она открывает глаза, взгляд расфокусированный
-    imgd 33542
+    img 33542 vpunch
     betty "Фреееед..."
     betty "Уйди!"
     betty "Ооох..."
     betty "Дааа..."
     sound ahhh6
     imgd 33543
-    betty "Еще!"
+#    betty "Еще!"
     betty "Фред, это не то что ты думаешь!"
     betty "Ооо!!!"
     # во время Ооо!!! Фред вставляет свой член ей в рот
     sound chpok6
     img 33544 vpunch
+    betty "Нет!"
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_2= Movie(play="video/v_Betty_Neighbour_Sex5_2.mkv")
+    show videov_Betty_Neighbour_Sex5_2
+    with fade
     betty "Я вефная фена сффоего муффа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_3= Movie(play="video/v_Betty_Neighbour_Sex5_3.mkv")
+    show videov_Betty_Neighbour_Sex5_3
+    with fade
     betty "Мпфхмммм!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 33545
     fred "О да, Миссис Робертс!"
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_4= Movie(play="video/v_Betty_Neighbour_Sex5_4.mkv")
+    show videov_Betty_Neighbour_Sex5_4
+    with fade
     fred "Мне так нравится, когда ваш ротик занят моим членом..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 33546
     robby "Ооо, я в следующий раз тоже так сделаю!"
     robby "Да..."
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_5= Movie(play="video/v_Betty_Neighbour_Sex5_5.mkv")
+    show videov_Betty_Neighbour_Sex5_5
+    with fade
     betty "Ммммм!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_6= Movie(play="video/v_Betty_Neighbour_Sex5_6.mkv")
+    show videov_Betty_Neighbour_Sex5_6
+    with fade
     fred "Тише-тише, Миссис Робертс..."
     fred "Не отвлекайтесь..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 33547
     fred "Возьмите его поглубже, Миссис Робертс."
     sound hlup25
@@ -1423,19 +1821,101 @@ label ep218_dialogues4_betty_5:
     imgd 33547
     fred "Отлично!"
     sound hlup25
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_7= Movie(play="video/v_Betty_Neighbour_Sex5_7.mkv")
+    show videov_Betty_Neighbour_Sex5_7
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 33548
     w
     imgf 33549
     w
     imgd 33550
     robby "В следующий раз Мэм будет благодарить меня с моим членом во рту... Мммм..."
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_8= Movie(play="video/v_Betty_Neighbour_Sex5_8.mkv")
+    show videov_Betty_Neighbour_Sex5_8
+    with fade
     fred "Или с двумя членами во рту. Да, Миссис Робертс?"
     fred "Вам же это нравится, да?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 33551
     liam "Дааа, Мэм любит это делать..."
+
+    #9
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_9= Movie(play="video/v_Betty_Neighbour_Sex5_9.mkv")
+    show videov_Betty_Neighbour_Sex5_9
+    with fade
     liam "Какая же у меня хорошая соседка... Ааааа..."
-    imgd 33552
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #10
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_10= Movie(play="video/v_Betty_Neighbour_Sex5_10.mkv")
+    show videov_Betty_Neighbour_Sex5_10
+    with fade
+    liam "Не думал что богатые люди могут быть такими заботливыми..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #11
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(1,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Neighbour_Sex5_11= Movie(play="video/v_Betty_Neighbour_Sex5_11.mkv")
+    show videov_Betty_Neighbour_Sex5_11
+    with fade
+    wclean
     fred "Кончайте, Миссис Робертс!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 33552
+    w
     imgf 33553
     liam "Да, давайте, Мэм!"
     robby "Я тоже! Тоже сейчас кончу!"
@@ -1460,11 +1940,15 @@ label ep218_dialogues4_betty_5:
     imgf 33557
     ralph "Бетти, дорогая, ты здесь?"
     # Бетти в ужасе открывает глаза
+    music stop
+    sound plastinka1b
     imgd 33554
     w
     img 33556 vpunch
     betty_t "ЧТОООО?!"
     betty_t "?!?!?!"
+    music Loved_Up2
+    with fade
     # в этот момент кончают мужчины
     menu:
         "Кончить внутрь Бетти.":
@@ -1592,7 +2076,8 @@ label ep218_dialogues4_betty_5:
     ## или
 #    img 33568
     # затемнение
-    fadeblack
+    sound snd_fabric1
+    fadeblack 2.0
     sound snd_door_knock
     pause 2.0
     return
