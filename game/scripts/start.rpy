@@ -102,7 +102,7 @@ label start:
 
 #########
 
-#    call ep218_dialogues3_escort_1() # Моника и Кэндис разговаривают в ресторане
+#    call ep218_dialogues5_julia_3() # парк
 
 #########
 

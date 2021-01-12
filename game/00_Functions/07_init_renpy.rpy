@@ -230,3 +230,6 @@ define robby = Character(_("Робби"), who_color=c_orange) # 3-й прода�
 
 define rent_man = Character(_("Арендодатель"), who_color=c_green) # арендодатель Кэндис, Гарри
 define harry = Character(_("Гарри"), who_color=c_green) # арендодатель Кэндис, Гарри
+
+define citizen16 = Character(_("Прохожий"), who_color=c_blue) # гопник1 в трущобном парке
+define citizen17 = Character(_("Прохожий"), who_color=c_green) # гопник2 в трущобном парке
