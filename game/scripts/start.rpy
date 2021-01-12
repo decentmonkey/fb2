@@ -101,7 +101,9 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-#    call ep218_dialogues4_betty_6() # к соседу пришел Ральф
+
+    #call ep218_dialogues4_betty_5() # у соседа в гостиной, секс
+
 #########
 
 

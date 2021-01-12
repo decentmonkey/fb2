@@ -360,7 +360,7 @@ label ep218_dialogues4_betty_2:
     salesman "Мисс, я готов сделать вам скидку хоть в 10 долларов!"
     # Бетти с баклажаном в руке надменно смотрит на него
 #    music stop
-    sound plastinka1b
+#    sound plastinka1b
     imgd 42300
     betty "Вообще-то не мисс, а миссис!"
     betty "Я замужняя женщина!"
@@ -744,10 +744,10 @@ label ep218_dialogues4_betty_4:
     fred "Да, Миссис Робертс..."
     liam "Пойдемте, Мэм."
     fadeblack
-    sound snd_car_turn_on
-    pause 3.0
     sound man_steps
     pause 2.0
+    sound snd_car_turn_on
+    pause 3.0
     music Groove2_85
     # затемнение, звук шагов
     ## не только звук шагов, но и звук авто (Фред уедет на машине)
@@ -814,7 +814,7 @@ label ep218_dialogues4_betty_5:
     sound Jump1
     imgd 33432
     liam "Позвольте, я помогу вам?"
-    music Groove2_85
+    music Pyro_Flow
     imgd 33433
     betty_t "Что он собрался делать?!"
     betty_t "Я ему не позволю больше никаких вольностей!"
@@ -824,8 +824,8 @@ label ep218_dialogues4_betty_5:
         "Отдать ему рыбу.":
             pass
         "Не отдавать рыбу! (прерывание квеста)":
-            sound vjuh3
-            img 33434
+            sound Jump2
+            img 33434 vpunch
             betty "Нет!"
             betty "Мне нужно идти домой и приготовить обед для моего мужа!"
             sound highheels_short_walk
@@ -833,6 +833,11 @@ label ep218_dialogues4_betty_5:
             betty "У меня нет времени на всякие глупости!"
             betty "Надеюсь, завтра вы принесете мне мой утюг!"
             liam "Да, Мэм, конечно!"
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
+            sound snd_door_close1
+            pause 2.0
             # Бетти уходит с гордым видом и с рыбой в руках
             return False
     imgf 33436
@@ -840,17 +845,17 @@ label ep218_dialogues4_betty_5:
     betty "Если вы пообщаете мне, что это не закончится, как..."
     betty "Как в прошлый раз."
     # он забирает у Бетти рыбу и кладет на стол, на котором стоит утюг
+    music Hidden_Agenda
     imgd 33437
     liam "Мэм, ну о чем вы говорите?"
     liam "Конечно, нет!"
     betty "..."
     imgf 33438
-    sound down
     w
+    sound down
     imgd 33439
     w
     # подходит к Бетти
-    music Hidden_Agenda
     imgf 33440
     liam "Я хотел вам сказать по секрету, что моя проблема решена с вашей помощью."
     #
@@ -892,7 +897,7 @@ label ep218_dialogues4_betty_5:
     liam "Я никак не могу забыть нашу прошлую встречу..."
     liam "Это было настолько потрясающе, Мэм!"
     # Бетти строго
-    music Power_Bots_Loop
+    music Groove2_85
     img 33451
     betty "Лиам! Давайте не будем говорить об этом!"
     betty "Я не изменяю своему мужу!"
@@ -971,10 +976,10 @@ label ep218_dialogues4_betty_5:
             pass
         "Отдайте мне мою рыбу! (прерывание квеста)":
             # Бетти отстраняется от Лиама
-            sound Jump2
+            music Pyro_Flow
+            sound2 Jump2
             img 33465 vpunch
             betty "Лиам, нет!"
-            music Groove2_85
             betty "Мне нужно идти домой и приготовить обед для моего мужа!"
             betty "У меня нет времени на всякие глупости!"
             imgd 33466
@@ -983,6 +988,11 @@ label ep218_dialogues4_betty_5:
             sound highheels_short_walk
             imgf 33435
             w
+            fadeblack
+            sound highheels_short_walk
+            pause 2.0
+            sound snd_door_close1
+            pause 2.0
             # он отдает ей рыбу и Бетти уходит с гордым видом
             return False
     # Бетти пытается сдерживаться из последних сил
@@ -1174,6 +1184,7 @@ label ep218_dialogues4_betty_5:
     sound ahhh6
     imgd 33505
     w
+    sound wow
     imgd 33506
     w
     music stop
