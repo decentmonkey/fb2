@@ -294,7 +294,7 @@ label ep218_dialogues5_julia_1:
     mt "То есть от трущоб?!"
     mt "Она меня зовет пойти в какой-то трущобный парк?!"
     mt "Фи!"
-    return
+    return True
 
 # парк
 # music2 - щебет птиц, шум городского парка
@@ -418,7 +418,7 @@ label ep218_dialogues5_julia_3:
     # она тоже замечает взгляд Моники
     # улыбается и подмигивает ей
     # если Моника работала в магазине одежды и была сцена с питоном
-    if monicaAgreedToSellDress == True and monicaCitizens15Slums1 == True:
+    if monicaAgreedToSellDress == True and shopVisitorStage10 == 3:
         #
         $ notif(_("Моника работала манекеном в магазине одежды."))
         #
@@ -431,7 +431,7 @@ label ep218_dialogues5_julia_3:
     # Моника презрительно
     music Stealth_Groover
     # если Моника работала в магазине одежды и была сцена с питоном
-    if monicaAgreedToSellDress == True and monicaCitizens15Slums1 == True:
+    if monicaAgreedToSellDress == True and shopVisitorStage10 == 3:
         imgd 33659
         mt "!!!"
         mt "Какого черта эта овца тут делает?!"
@@ -682,12 +682,12 @@ label ep218_dialogues5_julia_3:
     julia "У вас, наверняка, будет дорогое дизайнерское платье..."
     julia "Из какой-нибудь последней коллекции..."
     # если была фотосессия перед Кэмпбеллом
-    if monicaBiffPhotoshootInvestor1 == True or monicaBiffPhotoshootInvestor2 == True:
-        imgd 33695
-        mt "Ну да... От Кэмпбелла, например!"
-        mt "Платья от Кэмпбелла 'сногсшибательны'. С этим не поспоришь..."
-        mt "Ужас!"
-        #
+#    if monicaBiffPhotoshootInvestor1 == True or monicaBiffPhotoshootInvestor2 == True:
+    imgd 33695
+    mt "Ну да... От Кэмпбелла, например!"
+    mt "Платья от Кэмпбелла 'сногсшибательны'. С этим не поспоришь..."
+    mt "Ужас!"
+    #
     # Юлия продолжает трындеть
     imgd 33691
     julia "Вот... И я не хочу на вашем фоне выглядеть как-то бледно..."
@@ -1162,7 +1162,7 @@ label ep218_dialogues5_julia_3:
     mt "..."
     mt "Может, и правда меня не будет видно из-за скамейки?.."
     mt "..."
-    $ menu_corruption = [0, monicaJuliaSlumsParkCorruptionRequired3]
+    $ menu_corruption = [monicaJuliaSlumsParkCorruptionRequired3, 0]
     menu:
         "Пойти за скамейку.":
             pass
@@ -2043,8 +2043,9 @@ label ep218_dialogues5_julia_3:
     sound2 snd_drinking_water
     w
     music2 stop
+    fadeblack 2.0
     # и уходит вдоль по дорожке, Юлия следом
-    return
+    return True
 
 # при условии, что были ласки за деревом в парке
 # мысли Моники

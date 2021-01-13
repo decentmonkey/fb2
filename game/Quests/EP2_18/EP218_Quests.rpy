@@ -11,4 +11,5 @@ label ep218_quests_load_init:
             if monicaAbbyHotelMeetingPlanned == True:
                 $ questHelp("escort_20")
             call ep218_quests_escort_check1()
+        call ep218_quests_julia_init()
     return

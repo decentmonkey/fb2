@@ -686,6 +686,9 @@ label part2_questions_process(new_game_started):
         if map_objects.has_key("Teleport_JuliaHome"):
             $ del map_objects["Teleport_JuliaHome"]
             $ set_active("Teleport_JuliaHome", False, scene="street_corner")
+    else:
+        call ep218_quests_julia_init()
+
 
     if new_game_started == True or marcus_visit1_completed == False:
         call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_10
