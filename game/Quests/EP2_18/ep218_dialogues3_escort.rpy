@@ -508,6 +508,11 @@ label ep218_dialogues3_escort_2:
     mt "Общение с этими отбросами плохо на меня влияет..."
     return
 
+label ep218_dialogues3_escort_2a:
+    mt "Мне надо идти в апартаменты Кэндис."
+    mt "Я согласилась помочь ей."
+    return False
+
 # Моника заходит в апартаменты Кэндис
 label ep218_dialogues3_escort_3:
     # Арендодатель сидит на стуле за столом (ближе к входу) и пьет алкоголь
@@ -901,7 +906,7 @@ label ep218_dialogues3_escort_3:
     harry "Зачетная задница у цыпы!" # хлопок по попе
     img 41958
     w
-    imgd 41959
+    img 41959 vpunch
     mt "БЕСИТ!"
     mt "!!!"
     imgf 41960
@@ -1108,6 +1113,7 @@ label ep218_dialogues3_escort_3:
             hide screen photoshot_screen
             sound man_moan8
             w
+            sound hlup10
             imgd 41991
             w
             imgf 41995
@@ -1136,6 +1142,7 @@ label ep218_dialogues3_escort_3:
             hide screen photoshot_screen
             sound man_moan8
             w
+            sound hlup10
             imgd 41993
             w
             imgf 41994
@@ -1145,7 +1152,7 @@ label ep218_dialogues3_escort_3:
             pass
     # затемнение
     # Моника сидит на краю стола с возмущеной моськой, готовая уйти
-    fadeblack
+    fadeblack 1.0
     sound snd_fabric1
     pause 2.0
     music Groove2_85
@@ -1477,7 +1484,8 @@ label ep218_dialogues3_escort_3:
             hide screen photoshot_screen
             sound man_moan8
             harry "Ееее, цыпа!"
-            imgf 42053
+            sound2 hlup10
+            imgd 42053
             w
             pass
     ### на живот
@@ -1500,7 +1508,8 @@ label ep218_dialogues3_escort_3:
             hide screen photoshot_screen
             sound man_moan8
             harry "Ееее, цыпа!"
-            imgf 42055
+            sound2 hlup10
+            imgd 42055
             w
             pass
     # злой взгляд Моники
@@ -1511,7 +1520,7 @@ label ep218_dialogues3_escort_3:
     mt "!!!"
     # Гарри отходит от стола и берет свою одежду, Моника продолжает лежать распластанная
     fadeblack 2.0
-    music Pyro_Flow
+    music Groove2_85
     imgfl 42057
     mt "Боже!"
     mt "Что только что произошло?!"
@@ -1784,6 +1793,7 @@ label ep218_dialogues3_escort_5:
     # Эбби с подозрением смотрит на Монику
     imgd 42102
     abby "Я была занята..."
+    abby "..."
     abby "Ну окей..."
     abby "Раз ты все уладила, [monica_hotel_name]."
     imgd 42103
@@ -1936,7 +1946,7 @@ label ep218_dialogues3_escort_5a:
     imgd 42152
     m "Правда?!"
     # если Моника обслуживает клиентов в трущобах
-    if monicaPerryMommyDebt1 == True:
+    if fallingPathStarted == True:
         #
         $ notif(_("Моника зарабатывает деньги, обслуживая клиентов в трущобах."))
         #
@@ -2239,6 +2249,7 @@ label ep218_dialogues3_escort_5a:
     sound highheels_short_walk
     imgf 42213
     w
+    fadeblack 2.0
     # они выходят из комнаты
     return
 
@@ -2320,6 +2331,7 @@ label ep218_dialogues3_escort_6:
                     m "А почему только $ 50?"
                     candice "[monica_hotel_name], дорого наши услуги стоят только для клиентов ВИП-эскорта..."
                     candice "А между нами, девочками, расценки несколько иные..."
+                    candice "По себестоимости..."
                     m "..."
                     # Моника берет эти деньги, с недовольным лицом
             pass

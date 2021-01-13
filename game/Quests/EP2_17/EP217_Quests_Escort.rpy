@@ -133,6 +133,10 @@ label ep217_quests_escort3_teleport_candise:
     if candiseApartmentsStage == 1:
         call ep217_dialogues1_escort_9b() from _rcall_ep217_dialogues1_escort_9b
         return False
+    if candiseApartmentsStage == 2:
+        call ep218_quests_escort5_candise_apartments()
+        return False
+
     return False
 
 label ep217_quests_escort4_candice_after:

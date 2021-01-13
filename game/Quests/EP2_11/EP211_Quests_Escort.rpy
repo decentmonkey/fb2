@@ -116,8 +116,12 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     with diss
     pause 1.5
     $ rnd1 = rand(1,4)
+    if ep218_quests_meeting2_planned == True:
+        call ep218_quests_escort6_candise_after()
+        return False
     if ep218_quests_meeting1_planned == True:
-        call 
+        call ep218_quests_escort2_meeting()
+        return False
     if ep215_quests_linda_restaurant_dialogue_planned == True:
         $ ep215_quests_linda_restaurant_dialogue_planned = False # встреча с Линдой после того как ее унизили
         $ ep215_quests_linda_restaurant_dialogue_day = day

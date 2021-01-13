@@ -23,4 +23,5 @@ label process_afterload_part2:
     call questLog_init() from _rcall_questLog_init
     call questHelp_init() from _rcall_questHelp_init
     call ep217_quests_bugfix1()
+    call ep218_quests_load_init()
     return
