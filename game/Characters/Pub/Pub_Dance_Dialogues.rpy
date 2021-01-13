@@ -328,3 +328,13 @@ label pub_dance_battle_dialogues_applause(applauseSound):
         $ idx = rand(1,3)
         $ applauseSound = "snd_applause" + str(idx)
         sound applauseSound
+    return
+
+label pub_dance_claire2_dialogues_react(amount):
+    $ stage_Monica_Excitement_Last = stage_Claire_Excitement_Current
+    $ stage_Claire_Excitement_Last = stage_Claire_Excitement_Current
+    $ stage_Claire_Excitement_Current += amount
+    $ stage_Monica_Excitement_Current = stage_Claire_Excitement_Current
+    show screen love_bar_screen(stage_Claire_Excitement_Last, stage_Claire_Excitement_Current)
+    call pub_dance_dialogues_excitement_tips()
+    return

@@ -23,6 +23,7 @@ label street_fitness_init:
 label street_fitness_teleport2:
     if obj_name == "Teleport_Inside":
         if obj_data["action"] == "l":
+            call pub_dance2_claire_dance2() # debug!!!
             mt "Фитнес зал."
             "Я не хочу туда идти."
             "Меньше всего мне хотелось бы наткнуться на Стефани или Ребекку!"
