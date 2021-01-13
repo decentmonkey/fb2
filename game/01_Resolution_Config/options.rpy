@@ -3,7 +3,7 @@
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
-
+define config.gl2 = True
 define build.include_update = True
 ## Basics ######################################################################
 
