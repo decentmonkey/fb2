@@ -121,6 +121,8 @@ label ep217_quests_escort3_teleport_candise:
         $ monicaKnowsCandise = True
         $ monicaCandiseHotelMeetingPlanned = True
         $ monicaAbbyHotelMeetingPlanned = True
+        $ questHelp("escort_19")
+        $ questHelp("escort_20")
         $ add_hook("ReceptionGirl", "ep217_dialogues1_escort_13", scene="rich_hotel_reception", label="reception_administrator_after_candise")
         $ map_source_scene = "street_house_outside"
         call map_close() from _rcall_map_close
@@ -134,9 +136,15 @@ label ep217_quests_escort3_teleport_candise:
     return False
 
 label ep217_quests_escort4_candice_after:
+    $ monicaCandiseHotelMeetingPlanned = False
+    $ questHelp("escort_19", True)
     call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12_2
+    call ep218_quests_escort_check1()
     return False
 
 label ep217_quests_escort5_abby_after:
+    $ monicaAbbyHotelMeetingPlanned = False
+    $ questHelp("escort_20", True)
     call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a_2
+    call ep218_quests_escort_check1()
     return False
