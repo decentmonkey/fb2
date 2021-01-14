@@ -978,7 +978,7 @@ label ep218_dialogues5_julia_3:
     julia "Ну вот здесь..." # указывает рукой на дыру в скамейке
     julia "То сможете приласкать мою киску и этого никто не заметит."
     julia "Скажите, здорово я придумала, да?"
-    sound snd_woman_laugh3
+    sound snd_woman_laugh4a
     imgd 33732
     julia "Хи-хи-хи!"
     m "Но, милая..."
@@ -1070,7 +1070,7 @@ label ep218_dialogues5_julia_3:
     julia "Не нашли..."
     m "Черт!"
     m "Юлия... Я не смогу дотянуться до твоей... До твоей..."
-    sound snd_woman_laugh3
+    sound snd_woman_laugh4a
     julia "Еще четь-чуть, Миссис Бакфетт..."
     julia "Вы почти попали... Хи-хи-хи!"
     # через несколько попыток натыкается на нее и начинает трогать пальцами
@@ -1120,7 +1120,7 @@ label ep218_dialogues5_julia_3:
     imgd 33732
     m "Сделать что?!"
     m "?!?!"
-    sound snd_woman_laugh3
+    sound snd_woman_laugh4a
     julia "Приласкать мою киску своими пальчиками. Хи-хи-хи!"
     m "Здесь?! Как ты себе это представляешь?!"
     m "Милая..."
@@ -1998,7 +1998,7 @@ label ep218_dialogues5_julia_3:
     imgd 33897
     julia "Миссис Бакфетт, как вы думаете..."
     julia "Он все видел?"
-    sound snd_woman_laugh3
+    sound snd_woman_laugh4a
     julia "Хи-хи-хи!"
     # Моника зло на нее смотрит
     music Stealth_Groover
