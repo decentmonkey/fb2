@@ -59,7 +59,6 @@ label start:
     $ inventory = []
     $ owner = "Monica"
     call game_init()
- from _rcall_game_init
 
     $ episode2part2_initialized = True
     $ scenes_data = json.loads(renpy.file("ep2_part2_init_data.json").read())
@@ -90,14 +89,10 @@ label start:
             "Teleport_VictoriaHome" : {"text" : t_("АПАРТАМЕНТЫ ВИКТОРИИ"), "xpos" : 1403, "ypos" : 260, "base" : "map_marker", "state" : "visible"}
     }
 
-    call characters_init()
- from _rcall_characters_init_1
-    call characters_pub_init()
- from _rcall_characters_pub_init_2
-    call characters_pub_init2()
- from _rcall_characters_pub_init2_2
-    call characters_init_julia()
- from _rcall_characters_init_julia_1
+    call characters_init() from _rcall_characters_init_1
+    call characters_pub_init() from _rcall_characters_pub_init_2
+    call characters_pub_init2() from _rcall_characters_pub_init2_2
+    call characters_init_julia() from _rcall_characters_init_julia_1
     $ char_info["ReceptionGirl"]["enabled"] = True
     $ char_info["ReceptionGirl"]["caption"] = t_("Сутенерша в Le Grand.")
     $ char_info["Pub_StripteaseGirl1"]["name"] = t_("Молли")
@@ -215,10 +210,8 @@ label start:
         char_info["Mommy"]["enabled"] = True
 
 
-    call define_hudpresets()
- from _rcall_define_hudpresets_2
-    call questLog_init()
- from _rcall_questLog_init_2
+    call define_hudpresets() from _rcall_define_hudpresets_2
+    call questLog_init() from _rcall_questLog_init_2
     $ day_stored = day
     $ day = 0
     # обнуляем квестлог
@@ -335,8 +328,7 @@ label start:
     #    $ monica_living_at_juliahome = True
     $ juliaHomeLivingRoomJuliaCloth = "JuliaCloth1"
     $ minimapJuliaGenerateEnabled = True
-    call ep213_quests_julia2_req_init()
- from _rcall_ep213_quests_julia2_req_init_3
+    call ep213_quests_julia2_req_init() from _rcall_ep213_quests_julia2_req_init_3
 
     # Блок Маркуса
     $ add_hook("Building", "ep213_dialogues_police19", scene="street_police", label="ep2_part2_block_marcus")
@@ -438,8 +430,7 @@ label start:
 
     $ set_active(False, group="workers", scene="working_office")
     $ set_active(False, group="workers", scene="working_office2")
-    call office_life_day()
- from _rcall_office_life_day_1
+    call office_life_day() from _rcall_office_life_day_1
 
 
 
@@ -453,28 +444,22 @@ label start:
     $ scene_sound = False
     $ scene_transition = "Fade_long"
 
-    call food_basement_room_init()
- from _rcall_food_basement_room_init_1
+    call food_basement_room_init() from _rcall_food_basement_room_init_1
 
-    call part2_questions_start_new_game()
- from _rcall_part2_questions_start_new_game
+    call part2_questions_start_new_game() from _rcall_part2_questions_start_new_game
 
     $ changeDayTime("day")
 
-    call change_scene("street_house_outside")
- from _rcall_change_scene_220
-    call process_change_map_location("House")
- from _rcall_process_change_map_location_10
+    call change_scene("street_house_outside") from _rcall_change_scene_220
+    call process_change_map_location("House") from _rcall_process_change_map_location_10
 label start_game_EP22:
     $ ep217_quests_bugfix1_initialized = True
     $ ep218_quests_load_init_flag = True
     $ questHelpActivated = True
-    call questHelp_init()
- from _rcall_questHelp_init_2
+    call questHelp_init() from _rcall_questHelp_init_2
 
 #    call refresh_scene_fade_long()
-    call ep217_quests()
- from _rcall_ep217_quests
+    call ep217_quests() from _rcall_ep217_quests
     call ep218_quests_victoria_init()
     jump show_scene
 
@@ -487,8 +472,7 @@ label start_game_EP22:
     $ add_objective("ask_ralph", t_("Узнать у Ральфа по поводу оплаты"), c_orange, 13)
     $ add_objective("freedom", t_("Избежать наказания"), c_red, 0)
 
-    call monica_cheats_init()
- from _rcall_monica_cheats_init_3
+    call monica_cheats_init() from _rcall_monica_cheats_init_3
     $ ep24_quests_initialized = True
     $ ep26_quests_initialized = True
     $ ep27_quests_initialized = True

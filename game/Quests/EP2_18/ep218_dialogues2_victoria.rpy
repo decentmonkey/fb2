@@ -51,7 +51,7 @@ label ep218_dialogues2_victoria_1:
     mt "Девичник?!"
     mt "Дьявол! Только не это!"
     # если у Моники отношения с Юлией
-    if monicaJuliaLoveStory8 == True:
+    if juliaQuestMonicaRefusedFred != True and juliaQuestRefused != True:
         #
         $ notif(_("Моника состоит с Юлией в отношениях."))
         #
@@ -178,6 +178,7 @@ label ep218_dialogues2_victoria_2:
     # на столике стоит бутылка вина и четыре бокала
     scene black_screen
     with Dissolve(1)
+    music2 stop
     music stop
     call textonblack(t_("Тем временем..."))
     scene black_screen
@@ -791,13 +792,15 @@ label ep218_dialogues2_victoria_2:
     w
     # если Моника осудила Мелани и воткнула ей розу
     if melanieVictoriaMonicaTable1 == True:
+        $ notif(t_("Моника согласилась с Викторией что Мелани была неправа."))
         imgf 41743
         mt "Почему она на меня так смотрит?"
         mt "Она что, думает, что Я привела сюда этих куриц, чтобы познакомить их с Викторией?!"
         mt "Может, она еще думает, что я хочу подружиться с этой белобрысой дрянью?!"
         #
     # если Моника попыталась оправдать Мелани
-    if melanieVictoriaMonicaTable2 == True:
+    if melanieVictoriaMonicaTable1 != True:
+        $ notif(t_("Моника попыталась оправдать Мелани."))
         imgf 41743
         mt "Мелани так смотрит на меня..."
         mt "Она, наверное, также как и я не может предположить, чего еще ожидать от этой сучки."
@@ -1380,7 +1383,7 @@ label ep218_dialogues2_victoria_2:
     victoria "Да, и еще..."
     victoria "Я хотела тебе сказать, что..."
     # если Моника пыталась оправдать Мелани
-    if melanieVictoriaMonicaTable2 == True:
+    if melanieVictoriaMonicaTable1 != True:
         imgd 42368
         victoria "Я весьма огорчена решением моей подружки Моники на прошлом девичнике."
         victoria "Я ожидала, что подружка Моника подыграет мне..."
@@ -1590,7 +1593,7 @@ label ep218_dialogues2_victoria_2:
     melanie "Что?!"
     music Master_Disorder
     # если Моника пыталась оправдать Мелани
-    if melanieVictoriaMonicaTable2 == True:
+    if melanieVictoriaMonicaTable1 != True:
         imgd 42389
         victoria "Она решила поменяться с тобой местами и сказала, что розу надо было воткнуть на место..."
         #
@@ -1721,7 +1724,7 @@ label ep218_dialogues2_victoria_2:
     $ menu_corruption = [0, monicaVictoriaGirlsPartyCorruptionRequired2]
     menu:
         "Остаться.":
-            $ menu_corruption = [monicaVictoriaGirlsPartyCorruptionRequired3, monicaVictoriaGirlsPartyCorruptionRequired3, 0]
+            $ menu_corruption = [monicaVictoriaGirlsPartyCorruptionRequired3, 0]
             menu:
                 "Согласиться, чтобы Виктория промыла рот Монике (экстремальный контент, Extra version) (disabled)." if game.extra == False:  # коррапшн
                     pass
@@ -1797,7 +1800,7 @@ label ep218_dialogues2_victoria_2:
                     victoria "Подойди поближе ко мне."
                     imgd 42417
                     m "..."
-                    $ menu_corruption = [monicaVictoriaGirlsPartyCorruptionRequired3, monicaVictoriaGirlsPartyCorruptionRequired3, 0]
+                    $ menu_corruption = [monicaVictoriaGirlsPartyCorruptionRequired3, 0]
                     menu:
                         "Согласиться, чтобы Виктория промыла рот Монике (экстремальный контент, Extra version) (disabled)." if game.extra == False:  # коррапшн
                             pass
@@ -1973,6 +1976,7 @@ label ep218_dialogues2_victoria_2_1:
             mt "Отвратительно!!"
             mt "Меня сейчас стошнит!!!"
             mt "!!!!!"
+            $ add_corruption(20, "gulp_victoria_piss1")
             sound snd_woman_laugh3
             imgd 33924
             victoria "Хи-хи-хи!"
@@ -2383,7 +2387,7 @@ label ep218_dialogues2_victoria_3:
     imgd 42462
     m "!!!"
     # если Моника пыталась оправдать Мелани
-    if melanieVictoriaMonicaTable2 == True:
+    if melanieVictoriaMonicaTable1 != True:
         imgf 42463
         victoria "Подружка Моника считает, что розу надо было воткнуть на место..."
         #
@@ -2881,6 +2885,12 @@ label ep218_dialogues2_victoria_6:
     mt "Вот стерва!!!"
     mt "!!!"
     return
+
+label ep218_dialogues2_victoria_6a:
+    melanie "Миссис Бакфетт, я не хочу разговаривать с вами!"
+    melanie "Ни сейчас, ни в ближайшее время!"
+    melanie "Оставьте меня!"
+    return False
 
 # мысли Моники, если делала писсинг
 label ep218_dialogues2_victoria_7:
