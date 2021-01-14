@@ -462,6 +462,7 @@ label start_game_EP22:
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests
+    call ep218_quests_victoria_init()
     jump show_scene
 
 

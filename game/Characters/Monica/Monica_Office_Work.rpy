@@ -242,6 +242,16 @@ label office_work_begin1:
     call refresh_scene_fade() from _call_refresh_scene_fade_146
     return
 
+label office_work_begin1_end:
+    $ monicaOfficeWorkedToday = True
+    if ep210_julia_evening_at_work == False:
+        $ move_object("Julia", "empty") # Юлия уходит с работы (обычный день)
+    $ changeDayTime("evening")
+    $ rand1 = random.choice([2,3,4,5])
+    $ workingOfficeCabinetMonicaSuffix = rand1
+    return
+
+
 label office_work_begin2:
     # Рабочий день с приказами Юлии
     call process_hooks("office_work_process", "global") from _call_process_hooks_64
