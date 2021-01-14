@@ -446,6 +446,7 @@ label start:
 
     call food_basement_room_init() from _rcall_food_basement_room_init_1
 
+    call questHelp_init()
     call part2_questions_start_new_game() from _rcall_part2_questions_start_new_game
 
     $ changeDayTime("day")

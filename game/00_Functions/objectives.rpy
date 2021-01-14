@@ -89,7 +89,6 @@ init python:
             status = 1 if args[1] == True else -1
         else:
             status = 0
-
         if questHelpDataQuests.has_key(questHelpName) == False:
             return
         questCategory = questHelpDataQuests[questHelpName][0]
