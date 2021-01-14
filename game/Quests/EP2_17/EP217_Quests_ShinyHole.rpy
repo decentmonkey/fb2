@@ -3,6 +3,8 @@ default ep217_quests_shinyhole10_molly_day = 0
 default ep217_quests_shinyhole9_ashley_day = 0
 default ep217_quests_shinyhole16_molly_after_private_flag = False
 default ep217_quests_ashley_tips_dialogue_planned = False
+default ep217_quests_shinyhole15_claire_after_private_day = 0
+default ep217_quests_shinyhole16_molly_after_private_day = 0
 
 label ep217_quests_shinyhole1_init:
     $ add_talk("Pub_StripteaseGirl2", "ep217_quests_shinyhole2_claire", scene="pub_makeuproom", label="shinyhole_quest1", quest="molly_joe_private1")
@@ -278,9 +280,11 @@ label ep217_quests_shinyhole15_claire_after_private:
         $ cloth_type = "StripOutfit"
     call ep217_dialogues2_shiny_hole_16() from _rcall_ep217_dialogues2_shiny_hole_16
     $ pub_makeuproom_monica_suffix = 2
+    $ ep217_quests_shinyhole15_claire_after_private_day = day
     $ questHelp("shinyhole_57", True)
     $ add_char_progress("Pub_StripteaseGirl2", 50, "ep217_quests_shinyhole15_claire_after_private")
     $ add_talk("Pub_StripteaseGirl2", "ep217_dialogues2_shiny_hole_18", scene="pub_makeuproom", label="molly_joe_private1_after")
+    call ep218_quests_shinyhole_check()
     call refresh_scene_fade() from _rcall_refresh_scene_fade_136
     return False
 
@@ -293,9 +297,11 @@ label ep217_quests_shinyhole16_molly_after_private:
     if cloth != "Whore":
         return
     $ ep217_quests_shinyhole16_molly_after_private_flag = True
+    $ ep217_quests_shinyhole16_molly_after_private_day = day
     call ep217_dialogues2_shiny_hole_17() from _rcall_ep217_dialogues2_shiny_hole_17
     $ add_char_progress("Pub_StripteaseGirl1", 50, "ep217_quests_shinyhole16_molly_after_private")
     $ questHelp("shinyhole_57a", True)
+    call ep218_quests_shinyhole_check()
     call refresh_scene_fade() from _rcall_refresh_scene_fade_137
     return False
 

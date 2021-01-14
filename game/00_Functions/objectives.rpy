@@ -154,6 +154,18 @@ init python:
                     del questHelpData[questCategory][idx]
         return
 
+    def questHelpGetStatus(questHelpName):
+        global questHelpDataQuests, questHelpData, questHelpJustUpdated, questHelpUpdatedDay, day, questHelpActivated
+        if questHelpDataQuests.has_key(questHelpName) == False:
+            return False
+        questCategory = questHelpDataQuests[questHelpName][0]
+        if questHelpData.has_key(questCategory) == False:
+            return False
+        for idx in range(0, len(questHelpData[questCategory])):
+            if questHelpData[questCategory][idx][0] == questHelpName:
+                return questHelpData[questCategory][idx][1]
+        return False
+
     def questsCompleteByCategory(questCategory):
         if questHelpData.has_key(questCategory) == True:
             for idx in range(len(questHelpData[questCategory])-1, -1, -1):

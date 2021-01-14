@@ -51,7 +51,7 @@ init:
         on hover:
 #            alpha 0.0
 #            linear 0.2 alpha 1.0
-            pause 0.02
+            pause 0.01
             alpha 1.0
 #        function init_idle_transform
 
