@@ -2114,6 +2114,7 @@ label ep218_dialogues2_victoria_2_2:
     w
     # Моника начинает лизать
     music Loved_up
+    music2 v_VictoriaHome_Melanie_Licking1_1
     imgf 42443
     victoria "Ой, подружка Моника..."
     victoria "Как старательно ты вылизываешь свое прощение."
@@ -2123,6 +2124,7 @@ label ep218_dialogues2_victoria_2_2:
     victoria "Тебе придется постараться и вылизывать поглубже."
     imgd 42445
     mt "!!!"
+    music2 stop
     menu:
         "Засунуть кончик языка в попу Виктории.":
             pass
@@ -2151,6 +2153,7 @@ label ep218_dialogues2_victoria_2_2:
     imgd 42447
     mt "Ненавижу!"
     imgf 42448
+    music2 v_VictoriaHome_Melanie_Licking1_1
     victoria "Подружка, я тут подумала..."
     victoria "Ты познакомила меня со своими сотрудниками в офисе..."
     victoria "А почему не познакомила со своим боссом?"
@@ -2162,6 +2165,7 @@ label ep218_dialogues2_victoria_2_2:
     victoria "И представить меня ему."
     imgf 42451
     victoria "Еще глубже, подружка... Ты недостаточно глубоко вылизываешь свое прощение."
+    music2 stop
     menu:
         "Засунуть еще глуюже язык в попу Виктории.":
             pass
@@ -2170,6 +2174,7 @@ label ep218_dialogues2_victoria_2_2:
     sound Jump1
     img 42453
     w
+    music2 v_VictoriaHome_Melanie_Licking1_1
     imgf 42761
     w
     imgd 42454
@@ -2181,6 +2186,7 @@ label ep218_dialogues2_victoria_2_2:
         "Согласиться.":
             pass
     # Моника зло
+    music2 stop
     imgf 42456
     m "Сделаю!"
     victoria "Хи-хи-хи!"
@@ -2691,10 +2697,12 @@ label ep218_dialogues2_victoria_3:
             sound lick3
             imgd 42506
             w
+            music2 v_VictoriaHome_Melanie_Licking1_1
             imgf 42504
             victoria "Сразу видно, что подружка соскучилась по ней. Хи-хи-хи!"
             victoria "А теперь поцелуй мою попу, подружка."
             victoria "Ты ведь хочешь снова стать хорошей подружкой?"
+            music2 stop
             imgd 42507
             melanie "Да..."
             menu:
@@ -2707,6 +2715,7 @@ label ep218_dialogues2_victoria_3:
             victoria "Подружка Мелани..."
             victoria "Как дела у Алекса? Он мною не интересовался?"
             melanie "..."
+            music2 v_VictoriaHome_Melanie_Licking1_1
             imgf 42510
             victoria "Нет? Жаль..."
             victoria "Я так хочу ему понравится... Может, ты мне дашь какой-то совет?"
@@ -2728,6 +2737,7 @@ label ep218_dialogues2_victoria_3:
             w
             imgd 42764
             victoria "Все, подружка Мелани, достаточно."
+            music2 stop
             # Виктория отстраняется от Мелани, Мелани недовольно вытирает рот и с ненавистью смотрит на Монику
             # затемнение
             fadeblack 2.0
