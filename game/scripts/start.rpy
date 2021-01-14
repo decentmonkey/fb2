@@ -102,7 +102,7 @@ label start:
 
 #########
 
-#    call ep218_dialogues5_julia_3() # парк
+    #call ep218_dialogues2_victoria_1() # кабинет Моники, разговор с Юлией
 
 #########
 
