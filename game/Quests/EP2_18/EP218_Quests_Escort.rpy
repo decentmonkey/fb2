@@ -2,6 +2,7 @@ default ep218_quests_escort_inited = False
 default ep218_quests_meeting1_planned = False
 default ep218_quests_meeting2_planned = False
 default ep218_quests_meeting1_day = 0
+default ep218_quests_meeting2_day = 0
 default ep218_quests_escort_completed_day = 0
 
 label ep218_quests_escort_check1:
@@ -60,6 +61,8 @@ label ep218_quests_escort5_candise_apartments:
     return
 
 label ep218_quests_escort6_candise_after:
+    $ ep218_quests_meeting2_planned = False
+    $ ep218_quests_meeting2_day = day
     if monicaAbbyRentHelp3 > 0: # согласилась на секс
         call ep218_dialogues3_escort_6()
     else:
