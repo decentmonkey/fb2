@@ -1,12 +1,20 @@
 label pub_dance2_claire_dance2: # Танец с Клэр
+    fadeblack 2.0
+
     $ stageMusicControlEnabled = True
     if stage_low_tips == True:
         $ pub_dance_dialogues_tips_list = 1
     else:
         $ pub_dance_dialogues_tips_list = 0
-    music stop
     music2 stop
+    music Road_Trip
+    sound2 highheels_short_walk
+    imgfl 34194
     call dialogue_5_dance_strip_scene_menu() # выбор музыки
+    sound2 highheels_short_walk
+    w
+    imgf 34192
+    w
 
     python:
         musicList = [
@@ -35,6 +43,7 @@ label pub_dance2_claire_dance2: # Танец с Клэр
     with diss
     pause 2.0
     music stageCurrentMusicIntro
+    imgd 34193
 
 
     $ stage_Claire_Excitement_Last = 0
@@ -60,9 +69,12 @@ label pub_dance2_claire_dance2_move1:
     hide screen poledance_shoot
     hide screen poledance_coins
     if loopCnt == 1: # первый цикл
-        fadeblack 1.5
-        music stageCurrentMusicLoop
-        pause 0.5
+        img black_screen
+        with fade
+        pause 1.0
+#        fadeblack 1.5
+#        music stageCurrentMusicIntro
+#        pause 0.5
     if result == "up":
         scene black
         image videov_Claire_Strip_1A = Movie(play="video/v_Claire_Strip_1A.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_1A_end.jpg")
@@ -73,7 +85,8 @@ label pub_dance2_claire_dance2_move1:
         wclean
         call pub_dance_claire2_dialogues_react(5)
         call pub_dance_battle_dialogues_applause("std")
-        customers4 "Какая у нас здесь красотка!"
+        customers1 "Еееее, какая горячая штучка!"
+        customers3 "Вау!"
     if result == "side":
         scene black
         image videov_Claire_Strip_1B = Movie(play="video/v_Claire_Strip_1B.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_1B_end.jpg")
@@ -86,6 +99,8 @@ label pub_dance2_claire_dance2_move1:
         call pub_dance_battle_dialogues_applause("std")
         customers3 "Посмотрите на ее движения!"
         customers3 "Я хочу увидеть их без одежды!"
+        customers2 "Твою мать! Когда же я доберусь до ее сисек?!"
+
     if result == "down":
         scene black
         image videov_Claire_Strip_1C = Movie(play="video/v_Claire_Strip_1C.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_1C_end.jpg")
@@ -96,9 +111,11 @@ label pub_dance2_claire_dance2_move1:
         wclean
         call pub_dance_claire2_dialogues_react(5)
         call pub_dance_battle_dialogues_applause("std")
+        customers4 "Иди сюда, детка!"
         customers1 "Снимай трусики!"
         customers1 "Разденься для нас!"
-        customers5 "Я ее знаю, это Клэр! Она не раздевается!"
+        if monicaStripNudeClare1 == 0:
+            customers5 "Я ее знаю, это Клэр! Она не раздевается!"
 
     if arrowUp == True or arrowSide == True or arrowDown == True:
         jump pub_dance2_claire_dance2_move1
@@ -124,7 +141,7 @@ label pub_dance2_claire_dance2_move2:
     hide screen poledance_coins
     if loopCnt == 1: # первый цикл
         fadeblack 1.5
-        music stageCurrentMusicIntro
+        music stageCurrentMusicLoop
         pause 0.5
     if result == "up":
         scene black
@@ -137,6 +154,7 @@ label pub_dance2_claire_dance2_move2:
         call pub_dance_claire2_dialogues_react(10)
         call pub_dance_battle_dialogues_applause("std")
         customers1 "ОГО!! ВОТ ЭТО ДА!!!"
+        customers5 "Снимай с себя все скорее!"
     if result == "side":
         scene black
         image videov_Claire_Strip_2B = Movie(play="video/v_Claire_Strip_2B.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_2B_end.jpg")
@@ -148,6 +166,8 @@ label pub_dance2_claire_dance2_move2:
         call pub_dance_claire2_dialogues_react(10)
         call pub_dance_battle_dialogues_applause("std")
         customers1 "ОНА ИХ СНИМАЕТ, ОНА СНИМАЕТ ИХ!!!"
+        customers3 "Дааа! Давай раздевайся!"
+        customers2 "Хочу увидеть твою киску!"
     if result == "down":
         scene black
         image videov_Claire_Strip_2C = Movie(play="video/v_Claire_Strip_2C.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_2C_end.jpg")
@@ -162,6 +182,21 @@ label pub_dance2_claire_dance2_move2:
 
     if arrowUp == True or arrowSide == True or arrowDown == True:
         jump pub_dance2_claire_dance2_move2
+
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+
+    img black_screen
+    with diss
+    pause 1.5
+    sound Jump2
+    img 34180 vpunch
+    sound2 wow
+    customers3 "ООООО! ОХРЕНЕТЬ!"
+    customers4 "ДА, КЛЭР! ДАВАЙ, ДЕТКА!"
 
     $ arrowUp = True
     $ arrowSide = True
@@ -182,9 +217,12 @@ label pub_dance2_claire_dance2_move3:
     hide screen poledance_shoot
     hide screen poledance_coins
     if loopCnt == 1: # первый цикл
-        fadeblack 1.5
-        music stageCurrentMusicLoop
-        pause 0.5
+        img black_screen
+        with diss
+        pause 1.0
+#        fadeblack 1.5
+#        music stageCurrentMusicLoop
+#        pause 0.5
     if result == "up":
         scene black
         image videov_Claire_Strip_3A = Movie(play="video/v_Claire_Strip_3A.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_3A_end.jpg")
@@ -260,6 +298,7 @@ label pub_dance2_claire_dance2_move4:
         call pub_dance_claire2_dialogues_react(10)
         call pub_dance_battle_dialogues_applause("std")
         customers2 "Какая задница! Я ее такой себе и представлял!"
+        customers5 "Раздвинь ножки шире, красотка! Хочу разглядеть твою киску!"
     if result == "side":
         scene black
         image videov_Claire_Strip_4B = Movie(play="video/v_Claire_Strip_4B.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_4B_end.jpg")
@@ -270,6 +309,7 @@ label pub_dance2_claire_dance2_move4:
         wclean
         call pub_dance_claire2_dialogues_react(10)
         call pub_dance_battle_dialogues_applause("std")
+        customers1 "ЕЕЕЕ! Давай-давай!"
         customers5 "Я тащусь от этой крошки!"
     if result == "down":
         scene black
@@ -283,9 +323,58 @@ label pub_dance2_claire_dance2_move4:
         call pub_dance_battle_dialogues_applause("std")
         customers2 "Вот это задница, наконец-то!"
         customers3 "Я не могу, я сейчас кончу! ААААА!!!"
+        customers2 "Приласкай свою киску! Покажи, как ты делаешь это!"
 
     if arrowUp == True or arrowSide == True or arrowDown == True:
         jump pub_dance2_claire_dance2_move4
+
+    hide screen poledance
+    hide screen poledance_camera_icon
+    hide screen love_bar_screen
+    hide screen poledance_shoot
+    hide screen poledance_coins
+    fadeblack 1.5
+    music stageCurrentMusicIntro
+    # Клэр, когда во время танца поворачивается спиной к залу, поднимает руку к маске, снимает ее, но к залу не поворачивается
+    imgf 34184
+    w
+    imgd 34185
+    w
+    imgd 34186
+    w
+    sound vjuh3
+    img 34187 hpunch
+    w
+    # видно, что ей по кайфу, она проводит рукой по своей груди, прикрывая глаза
+    imgf 34188
+    w
+    sound wow
+    img 34189 vpunch
+    w
+
+
+
+    # потом медлит, не поворачиваясь и как-будто очнувшись снова надевает маску, поворачивается к залу и продолжает танец
+    imgf 34187
+    w
+    imgd 34190
+    w
+    sound vjuh3
+    img 34186 hpunch
+    w
+    imgd 34185
+    w
+    # один из посетителей пробирается к сцене в тот момент, когда она бросила трусики на сцену
+    # его рука тянется к трусикам, хватет их и его силуэт быстро смывается оттуда
+    imgf 34181
+    w
+    imgd 34182
+    w
+    sound Jump1
+    img 34183 hpunch
+    w
+    imgf 34191
+
 
     $ arrowUp = True
     $ arrowSide = True
@@ -305,10 +394,10 @@ label pub_dance2_claire_dance2_move5:
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
-#    if loopCnt == 1: # первый цикл
-#        fadeblack 1.5
-#        music stageCurrentMusicLoop
-#        pause 0.5
+    if loopCnt == 1: # первый цикл
+        fadeblack 1.5
+        music stageCurrentMusicLoop
+        pause 0.5
     if result == "up":
         scene black
         image videov_Claire_Strip_5A = Movie(play="video/v_Claire_Strip_5A.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_5A_end.jpg")
@@ -353,6 +442,7 @@ label pub_dance2_claire_dance2_move5:
     if arrowUp == True or arrowSide == True or arrowDown == True:
         jump pub_dance2_claire_dance2_move5
 
+
     $ arrowUp = True
     $ arrowSide = True
     $ arrowDown = True
@@ -371,10 +461,10 @@ label pub_dance2_claire_dance2_move6:
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
-    if loopCnt == 1: # первый цикл
-        fadeblack 1.5
-        music stageCurrentMusicLoop
-        pause 0.5
+#    if loopCnt == 1: # первый цикл
+#        fadeblack 1.5
+#        music stageCurrentMusicLoop
+#        pause 0.5
     if result == "up":
         scene black
         image videov_Claire_Strip_6A = Movie(play="video/v_Claire_Strip_6A.mkv", fps=25, loop=False, image="/images/Slides/v_Claire_Strip_6A_end.jpg")
@@ -386,6 +476,7 @@ label pub_dance2_claire_dance2_move6:
         call pub_dance_claire2_dialogues_react(10)
 #        call pub_dance_battle_dialogues_applause("std")
         sound3 men_scream5
+        customers1 "Ты чертовски охренительна, крошка!"
         customers2 "Я покупаю ее! Ведите ее в приват, скорее!"
         customers3 "Нет, мы все хотим видеть задницу Клэр! Танцуй еще!"
 
@@ -402,6 +493,7 @@ label pub_dance2_claire_dance2_move6:
         sound3 men_scream2
         customers5 "Смотрите как она танцует! Она профессионал!"
         customers3 "На члене! Я хочу чтобы она вертелась также на моем члене!"
+        customers4 "Я сейчас кончу!!!"
 
     if result == "down":
         scene black
@@ -413,6 +505,7 @@ label pub_dance2_claire_dance2_move6:
         wclean
         call pub_dance_claire2_dialogues_react(10)
         call pub_dance_battle_dialogues_applause("std")
+        customers4 "О, даааа!"
         customers5 "Эта Клэр! Она бесподобна!"
         customers3 "Клянусь мой член будет у нее между ног!"
         customers1 "Эта детка сделала мой день!"
@@ -425,9 +518,21 @@ label pub_dance2_claire_dance2_move6:
     hide screen love_bar_screen
     hide screen poledance_shoot
     hide screen poledance_coins
+    fadeblack 2.0
+    music Road_Trip
 
     $ money = tmpMoney
-    m "here"
+
+    sound wow
+    imgd 34195
+    w
+    imgf 34183
+    w
+#    fadeblack 2.0
+#    music Road_Trip
+    imgfl 34196
+    sound highheels_short_walk
+    w
 
     return
 
