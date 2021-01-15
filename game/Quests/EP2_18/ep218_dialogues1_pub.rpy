@@ -1628,6 +1628,27 @@ label ep218_dialogues1_pub_6a:
             sound snd_door_open1
             pause 1.5
             # уходит
+            scene black_screen
+            with Dissolve(1)
+            music stop
+            call textonblack(t_("Некоторое время спустя..."))
+            scene black_screen
+            with Dissolve(1)
+            music Pyro_Flow
+            music2 pub_noise1_low
+            imgf 31333
+            w
+            img 31334 vpunch
+            ashley "Джо, какого черта ты шляешься по бару без дела?!"
+            ashley "Быстро вымыл все бокалы, бездельник!"
+            joe "Эшли, я..."
+            # толкает его ногой
+            sound Jump2
+            img 31336 hpunch
+            ashley "Заткнись, лентяй!"
+            ashley "Пошел работать!"
+            music2 stop
+            # затемнение
             return False
     imgf 34153
     banker "Боюсь, Эшли, наши переговоры зашли в тупик..."
