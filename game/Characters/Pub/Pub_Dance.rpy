@@ -142,7 +142,6 @@ label pub_dance1: # Обычные танцы
     return
 
 label pub_dance_end1: # Обычное завершение танцев
-    $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True, label="dialogue_5_dance_strip_18")
     call pub_dance_remove_stage_visitors() from _rcall_pub_dance_remove_stage_visitors
     if monicaAshleyTalkedAboutSharingTips == False: # Эшли говорила Монике о том, что та должна отдавать ей часть чаевых (танцы по желанию)
         $ monicaAshleyTalkedAboutSharingTips = True
@@ -178,6 +177,10 @@ label pub_dance_end1: # Обычное завершение танцев
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ pubDanceGirlsBlockedDay = day
     $ pub_makeuproom_monica_suffix = 2
+    call process_hooks("end_dance_event", "global")
+    if _return == False:
+        return False
+    $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True, label="dialogue_5_dance_strip_18")
     call change_scene("pub_makeuproom", "Fade_long") from _rcall_change_scene_76
     return False
 

@@ -395,11 +395,11 @@ label ep218_dialogues1_pub_4:
     imgd 33956
     ashley "Иначе я стану сомневаться, что ты, [monica_pub_name], достойна своей короны!"
     ashley "С Молли таких проблем никогда не было!"
-    m "Вот только не надо сравнивать ее и МЕНЯ!"
-    m "Она воровка и обманщица!"
     #
     $ notif(_("Моника подбросила Молли деньги и обвинила ее в воровстве."))
     #
+    m "Вот только не надо сравнивать ее и МЕНЯ!"
+    m "Она воровка и обманщица!"
     img 33957 vpunch
     ashley "[monica_pub_name], все, хватит!"
     ashley "Нельзя заставять долго ждать уважаемого Мистера Беркельбауха!"
@@ -476,7 +476,7 @@ label ep218_dialogues1_pub_4:
     ashley "Иначе я отшлепаю тебя по твоей королевской попке!" # подмигивает
     mt "Да пошла ты! Мерзкая извращенка!"
     mt "!!!"
-    return
+#    return
 
 # подсобка барменов
 # банкир сидит на диване, Эшли и Моника заходят в подсобку
@@ -656,7 +656,7 @@ label ep218_dialogues1_pub_5:
     menu:
         "Сделать, как говорит Эшли.":  # коррапшн
             # Моника поворачивается и смотрит на Эшли с возмущением
-            music Pyro_Flow
+            music Groove2_85
             img 34003 vpunch
             m "Эшли!"
             ashley "[monica_pub_name]!!!"
@@ -827,6 +827,7 @@ label ep218_dialogues1_pub_5:
                             hide screen photoshot_screen
                             sound man_moan18
                             banker "Ммммммм..."
+                            sound hlup10
                             imgd 34036
                             w
                             pass
@@ -856,6 +857,7 @@ label ep218_dialogues1_pub_5:
                             hide screen photoshot_screen
                             sound man_moan18
                             banker "Ммммммм..."
+                            sound2 hlup10
                             imgd 34038
                             w
                             pass
@@ -926,8 +928,8 @@ label ep218_dialogues1_pub_5:
                     imgf 34043
                     mt "Отвратительный!"
                     # потом вторую ногу
-                    sound Jump2
-                    img 34044 vpunch
+#                    sound Jump2
+                    imgd 34044
                     mt "Никчемный!"
                     # потом нависает попой над его членом
                     imgd 34045
@@ -937,6 +939,7 @@ label ep218_dialogues1_pub_5:
                     banker "Ммммм... Ну давай же..."
                     mt "Грязный извращенец!!!"
                     # села и начинает двигаться
+                    fadeblack 1.5
                     music Loved_up
                     sound2 chpok6
                     img 34047 hpunch
@@ -1037,6 +1040,7 @@ label ep218_dialogues1_pub_5:
                             hide screen photoshot_screen
                             sound man_moan18
                             banker "Оооох..."
+                            sound hlup10
                             imgd 34064
                             banker "Ммммммм..."
                             imgf 34065
@@ -1141,8 +1145,10 @@ label ep218_dialogues1_pub_5:
     music Pyro_Flow
     mt "Ненавижу этого банкиришку!"
     mt "И извращенку Эшли ненавижу!"
-    mt "Мерзкие жалкие людишки!"
-    mt "Они у меня все до единого поплатятся за то, что мне приходится терпеть!"
+    if monicaBitch == True:
+        $ notif_monica()
+        mt "Мерзкие жалкие людишки!"
+        mt "Они у меня все до единого поплатятся за то, что мне приходится терпеть!"
     mt "!!!"
     # затемнение
     fadeblack
@@ -1150,7 +1156,7 @@ label ep218_dialogues1_pub_5:
     pause 2.0
     sound highheels_short_walk
     pause 1.5
-    return
+    return True
 
 # подсобка барменов
 # спустя несколько минут
@@ -1216,6 +1222,8 @@ label ep218_dialogues1_pub_6a:
     banker "За неимением лучшего, Эшли, я готов это потерпеть."
     banker "Поэтому лезь на стол, не теряй времени..."
     # Эшли уже ставит одну ногу на стол, но продолжает отнекиваться
+    fadeblack 1.5
+    music Groove2_85
     sound heel1
     imgf 34084
     w
@@ -1269,7 +1277,7 @@ label ep218_dialogues1_pub_6a:
     # Эшли начинает двигаться
     # банкир смотрит, как она танцует и раздевается, комментируя
     fadeblack 1.5
-    music m80s_Things
+    music All_Stars_Loop
     imgfl 34093
     w
     imgf 34094
@@ -1283,7 +1291,7 @@ label ep218_dialogues1_pub_6a:
     fadeblack
     sound snd_fabric1
     pause 2.0
-    music m80s_Things
+    music Indo_Rock
     imgf 34097
     banker "Сейчас я буду производить комплексную оценку для обеспечения нового кредита, Эшли."
     banker "Поэтому старайся еще лучше..."
@@ -1390,13 +1398,13 @@ label ep218_dialogues1_pub_6a:
     w
     imgf 34121
     w
-    sound Jump1
+    sound hlup2
     imgd 34122
     w
-    sound Jump1
+    sound hlup2
     imgd 34123
     w
-    sound Jump2
+    sound chpok2
     imgd 34124
     w
     imgf 34120
@@ -1420,6 +1428,8 @@ label ep218_dialogues1_pub_6a:
     banker "Ну, смелее, Эшли."
     ashley "..."
     # Эшли вбирает в себя член банкира и начинает водить головой вверх-вниз
+    fadeblack 1.5
+    music Loved_up
     sound chpok6
     img 34128 vpunch
     w
@@ -1618,7 +1628,7 @@ label ep218_dialogues1_pub_6a:
             sound snd_door_open1
             pause 1.5
             # уходит
-            return
+            return False
     imgf 34153
     banker "Боюсь, Эшли, наши переговоры зашли в тупик..."
     banker "Банк выдвинул тебе свои условия, Эшли."
@@ -1721,6 +1731,7 @@ label ep218_dialogues1_pub_6a:
             hide screen photoshot_screen
             sound man_moan18
             banker "Ммммммм..."
+            sound hlup10
             imgd 34174
             w
             imgf 34175
@@ -1801,7 +1812,7 @@ label ep218_dialogues1_pub_6a:
     ashley "Пошел работать!"
     music2 stop
     # затемнение
-    return
+    return False
 
 # разговор Моники и Эшли, если минет банкиру делала Эшли (Моника ушла с привата)
 # возле барной стойки, Джо нет рядом
@@ -1850,6 +1861,7 @@ label ep218_dialogues1_pub_7:
     mt "Глупые и ничего не значащие!"
     mt "!!!"
     music2 stop
+    fadeblack 2.0
     return
 
 # разговор Моники и Эшли, если минет банкиру делала Моника
@@ -1900,4 +1912,5 @@ label ep218_dialogues1_pub_8:
     mt "Только королевские привилегии!"
     mt "Ведь я это заслужила!"
     music2 stop
+    fadeblack 2.0
     return

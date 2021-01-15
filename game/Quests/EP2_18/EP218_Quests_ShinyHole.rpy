@@ -1,5 +1,8 @@
 default ep218_quests_shinyhole_init_flag = False
 default ep218_quests_claire_danced_nude_last_day = 0
+default ep218_quests_monica_queen_job1_day = 0
+default ep218_quests_monica_queen_job1_completed_day = 0
+default ep218_quests_ashley_creditline_job1_completed_day = 0
 
 label ep218_quests_shinyhole_check:
     if ep218_quests_shinyhole_init_flag == True:
@@ -7,7 +10,10 @@ label ep218_quests_shinyhole_check:
     if ep217_quests_shinyhole16_molly_after_private_flag == True and questHelpGetStatus("shinyhole_57a") == 1 and questHelpGetStatus("shinyhole_57") == 1:
         $ ep218_quests_shinyhole_init_flag = True
         $ questHelp("shinyhole_59")
+        $ questHelp("shinyhole_60")
+        $ questHelp("shinyhole_61")
         $ add_talk("Pub_StripteaseGirl2", "ep218_quests_shinyhole1_claire", scene="pub_makeuproom", label="ep218_claire")
+        $ add_hook("end_dance_event", "ep218_quests_shinyhole3_private", scene="global", label="ep218_quests_shinyhole3_private")
 
     return
 
@@ -36,9 +42,32 @@ label ep218_quests_shinyhole1_claire:
     return False
 
 
+label ep218_quests_shinyhole3_private: # приходит Эшли и требует приват с банкиром
+    $ remove_hook()
+    $ ep218_quests_monica_queen_job1_day = day
+    call ep218_dialogues1_pub_4()
+    if _return == True:
+        $ ep218_quests_monica_queen_job1_completed_day = day
+        $ questHelp("shinyhole_60", True)
+        $ questHelp("shinyhole_61", False)
+    else:
+        $ ep218_quests_ashley_creditline_job1_completed_day = day
+        $ questHelp("shinyhole_60", False)
+        $ questHelp("shinyhole_61", True)
 
+    $ cloth = "Whore"
+    $ cloth_type = "Whore"
+    $ pub_makeuproom_monica_suffix = 2
+    call change_scene("pub_makeuproom", "Fade_long")
+    $ add_hook("before_open", "ep218_quests_shinyhole4_afterprivate", scene="pub", label="ep218_quests_shinyhole4_afterprivate", once=True)
+    return False
 
-
+label ep218_quests_shinyhole4_afterprivate:
+    if ep218_quests_monica_queen_job1_completed_day > 0:
+        call ep218_dialogues1_pub_8()
+    if ep218_quests_ashley_creditline_job1_completed_day > 0:
+        call ep218_dialogues1_pub_7()
+    return
 
 
 
