@@ -14,4 +14,7 @@ label ep218_quests_load_init:
         call ep218_quests_julia_init()
         call ep218_quests_victoria_init()
         call ep218_quests_shinyhole_check()
+        $ questHelp("other1")
+        $ questHelp("other2")
+
     return

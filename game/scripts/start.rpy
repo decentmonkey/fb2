@@ -462,6 +462,8 @@ label start_game_EP22:
     $ ep218_quests_load_init_flag = True
     $ questHelpActivated = True
     call questHelp_init() from _rcall_questHelp_init_2
+    $ questHelp("other1")
+    $ questHelp("other2")
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests

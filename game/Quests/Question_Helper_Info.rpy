@@ -1904,7 +1904,8 @@ label questHelp_init:
 
 
         #прочее
-        "other1" : [t_("ПРОЧЕЕ"), t_("Найти чит меню"), t_("Кликнуть на картину в бывшей спальне Моники. Оно поможет ускорить события, если вам не терпится узнать что будет дальше! ;)")]
+        "other1" : [t_("ПРОЧЕЕ"), t_("Найти чит меню"), t_("Кликнуть на картину в бывшей спальне Моники. Оно поможет ускорить события, если вам не терпится узнать что будет дальше! ;)")],
+        "other2" : [t_("ПРОЧЕЕ"), t_("Кликни на меня!"), t_("При выборе квеста, справа появляется подсказка для его выполнения! ;)")]
     }
 
 
@@ -2173,6 +2174,8 @@ label show_questhelp_loop:
 
         if interact_data_questhelp[0] == "quest_click":
             $ questHelpCurrentQuest = interact_data_questhelp[1]
+            if questHelpCurrentQuest == "other2":
+                $ questHelp("other2", True)
             sound keyboard
             jump show_questhelp_loop
 

@@ -11,6 +11,7 @@ label monica_cheats_init:
 label monica_cheats:
     if act=="l":
         return
+    $ questHelp("other1", True)
     menu:
         "Добавить $ 100.":
             $ add_money(100)
