@@ -45,6 +45,7 @@ label part2_questions_init_loadgame:
     $ questHelpCurrentQuest = False
     $ questHelpCategoriesHistory = []
     $ questHelpCategoriesHistoryStatic = []
+    call questHelp_init()
 
 #    call game_init()
 
