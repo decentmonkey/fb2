@@ -175,7 +175,7 @@ label ep22_dialogue6_2:
         "Дорогуша, ты не видела Мелани?" if melanieDisappeared == True:
             call ep23_dialogue9_5b() from _call_ep23_dialogue9_5b
 
-        "Заставить секретаршу показать грудь в трущобах. (bitchiness)" if game.extra == True and ep27_quests_secretary1_show_boobs_active == True and pylonpart4startsCompleted == True and monicaWorkingAtBiffOffice == True:
+        "Заставить секретаршу показать грудь в трущобах. (bitchiness)" if 1==2 and game.extra == True and ep27_quests_secretary1_show_boobs_active == True and pylonpart4startsCompleted == True and monicaWorkingAtBiffOffice == True:
             call ep27_quests_secretary1() from _call_ep27_quests_secretary1
             if _return == False:
                 return False
