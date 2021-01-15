@@ -23,99 +23,66 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2.2-v17-Extra"
+define config.version = "EP2.2-v18-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("""
-Thanks to:
-
-Ragnaroekr
-
-Keks
-
-Londo Mollari
-
-razor
-
-Abelardo
-
-aIMissRyu23
-
-ArminG
-
-Bill Lee
-
-Binnoc9
-
-DJ96
-
-edison123
-
-Ferdixxy
-
-Hazer Hazersen
-
-Jaewon Kang
-
-Jetvoice
-
-Just
-
-Joe Swenson
-
-Joshua Ashbaugh
-
-Lee kanghoon
-
-Miguel
-
-Olli P.
-
-onstant
-
-Prometheus
-
-Ronny schönherr
-
-rui zhang
-
-Ryan
-
-SimonLee
-
-Stefan Kemske
-
-Taylor Fox
-
-The big Dog
-
-Виталий Рябоконь
-
-Kurt
-
-mi
-
-mrboom90
-
-Emroz
-
-Juha Salmelin
-
-for great support!
-
-Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade for English correction
-
-Ragnaroekr, Londo Mollari, Keks and BruceLee73
-for German translation
-
-renpytom (Tom Rothamel) for the Ren'Py Game Engine
-
-This game made under the inspiration of Terebonkoff Studio creations.
-
-""")
+define gui.about = ("
+Thanks to:\n
+\n
+Ragnaroekr\n
+Keks\n
+Londo Mollari\n
+razor\n
+Abelardo\n
+aIMissRyu23\n
+ArminG\n
+Bill Lee\n
+Binnoc9\n
+DJ96\n
+edison123\n
+Ferdixxy\n
+Hazer Hazersen\n
+Jaewon Kang\n
+Jetvoice\n
+Just\n
+Joe Swenson\n
+Joshua Ashbaugh\n
+Lee kanghoon\n
+Miguel\n
+Olli P.\n
+onstant\n
+Prometheus\n
+Ronny schönherr\n
+rui zhang\n
+Ryan\n
+SimonLee\n
+Stefan Kemske\n
+Taylor Fox\n
+The big Dog\n
+Виталий Рябоконь\n
+Kurt\n
+mi\n
+mrboom90\n
+Emroz\n
+Juha Salmelin\n
+for great support!\n
+\n
+Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction\n
+\n
+Ragnaroekr, Londo Mollari, Keks and BruceLee73\nfor German translation\n
+\n
+YoyoRTx\nfor French translation\n
+\n
+5n4k3\nfor Italian translation\n
+\n
+renpytom (Tom Rothamel)\nfor the Ren'Py Game Engine\n
+\n
+This game made under the inspiration of Terebonkoff Studio creations.\n
+\n
+")
 #ColdBlade
 
 
