@@ -105,9 +105,9 @@ define gui.questhelp.quest.bottom_padding = 7
 
 define gui.resolution.main_menu.lang.left = 1475
 define gui.resolution.main_menu.lang.padding1 = 25
-define gui.resolution.main_menu.lang.padding2 = 25
-define gui.resolution.main_menu.font_size1 = 34
-define gui.resolution.main_menu.font_size2 = 30
+define gui.resolution.main_menu.lang.padding2 = 22
+define gui.resolution.main_menu.font_size1 = 28
+define gui.resolution.main_menu.font_size2 = 25
 define gui.resolution.main_menu.lang.width = 280
 define gui.resolution.main_menu.lang.height = 280
 #720
