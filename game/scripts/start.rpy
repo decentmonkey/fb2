@@ -101,7 +101,6 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-
 #########
 
 
