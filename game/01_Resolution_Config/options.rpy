@@ -68,6 +68,8 @@ mi\n
 mrboom90\n
 Emroz\n
 Juha Salmelin\n
+longyu\n
+David Wilson\n
 for great support!\n
 \n
 Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction\n
