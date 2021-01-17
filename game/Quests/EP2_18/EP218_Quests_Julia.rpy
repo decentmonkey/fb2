@@ -6,7 +6,7 @@ default ep218_quests_julia_completed_last_day = 0
 label ep218_quests_julia_init:
     if ep218_quests_julia_init_flag == True:
         return
-    if monicaJuliaLoveStory7 == True and juliaQuestMonicaRefusedFred == False and juliaQuestRefused == False:
+    if monica_living_at_juliahome == True and juliaQuestMonicaRefusedFred == False and juliaQuestRefused == False:
         $ ep218_quests_julia_init_flag = True
         $ questHelp("julia_56")
         $ ep218_quests_julia_active = True
