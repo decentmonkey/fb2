@@ -14,11 +14,11 @@ define monicaAshleyBerkelbauchCorruptionRequired3 = 790 # Моника согл�
 define monicaAshleyBerkelbauchCorruptionRequired4 = 790 # Моника согласилась на минет банкиру
 define monicaAshleyBerkelbauchCorruptionRequired5 = 850 # Моника согласилась на секс с банкиром
 
-define v_Monica_Banker_Blowjob1_1_sound_name = "v_Betty_Neighbour_Sex2_1"
-define v_Monica_Banker_Sex1_1_sound_name = "v_Betty_Neighbour_Sex2_1"
-define v_Monica_Banker_Sex1_1b_sound_name = "v_Betty_Neighbour_Sex2_1"
-define v_Ashley_Banker_Blowjob1_1_sound_name = "v_Betty_Neighbour_Sex2_1"
-define v_Ashley_Banker_Sex1_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+define v_Monica_Banker_Blowjob1_1_sound_name = "v_Monica_Banker_Blowjob1_1"
+define v_Monica_Banker_Sex1_1_sound_name = "v_Monica_Banker_Sex1_1"
+define v_Monica_Banker_Sex1_1b_sound_name = "v_Monica_Banker_Sex1_2"
+define v_Ashley_Banker_Blowjob1_1_sound_name = "v_Ashley_Banker_Blowjob1_1"
+define v_Ashley_Banker_Sex1_1_sound_name = "v_Ashley_Banker_Sex1_1"
 
 #call ep218_dialogues1_pub_1() # разговор с Клэр в гримерке до ее выступления
 #call ep218_dialogues1_pub_2() # танец Клэр

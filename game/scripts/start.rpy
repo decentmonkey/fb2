@@ -101,7 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-    # jump test
+    # jump video_test
 #########
 
 

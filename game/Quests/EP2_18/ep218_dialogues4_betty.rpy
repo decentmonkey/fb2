@@ -4,9 +4,9 @@ default monicaBettyLiamFredMarket3 = 0 # Бетти согласилась на 
 
 default monicaBettyLiamRobbyFred_cumzone = 0
 
-default v_Betty_Neighbour_Sex3_1_sound_name = "v_Betty_Neighbour_Sex2_1"
-default v_Betty_Neighbour_Sex4_1_sound_name = "v_Betty_Neighbour_Sex2_1"
-default v_Betty_Neighbour_Sex5_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+default v_Betty_Neighbour_Sex3_1_sound_name = "v_Betty_Neighbour_Sex3_1"
+default v_Betty_Neighbour_Sex4_1_sound_name = "v_Betty_Neighbour_Sex4_1"
+default v_Betty_Neighbour_Sex5_1_sound_name = "v_Betty_Neighbour_Sex5_1"
 
 #call ep218_dialogues4_betty_1() # Бетти разговаривает с Ральфом перед поездкой на рынок
 #call ep218_dialogues4_betty_1a1() # Бетти и Фред в авто, едут на рынок

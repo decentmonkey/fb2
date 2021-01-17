@@ -15,7 +15,8 @@ default ep218_dialogues3_escort_3menu1 = False
 default ep218_dialogues3_escort_3menu2 = False
 default ep218_dialogues3_escort_3menu3 = False
 
-define v_Monica_CandiseApartments_Blowjob1_1_sound_name = "v_Betty_Neighbour_Sex2_1"
+define v_Monica_CandiseApartments_Blowjob1_1_sound_name = "v_Monica_CandiseApartments_Blowjob1_1"
+define v_Monica_CandiseApartments_Sex_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
 
 define monicaEscortRentmanHarryCorruptionRequired1 = 550 # Моника согласилась помочь Кэндис и пойти к ней домой
 define monicaEscortRentmanHarryCorruptionRequired2 = 670 # Моника согласилась сделать Гарри минет
@@ -980,7 +981,6 @@ label ep218_dialogues3_escort_3:
             pass
     # Моника лежит и открывает рот с недовольной моськой, типо давай уже начинай
     # он засовывает член в рот Моники, но не полностью
-    label test:
     music Loved_Up
     imgf 41969
     w
