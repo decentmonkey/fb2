@@ -2342,11 +2342,15 @@ label dialogue_5_dance_strip_28:
 # Моника переодевается, кликнув на вешалку рядом со столиком Клэр
 label dialogue_5_dance_strip_29:
     mt "Мне нужно переодеться. Что мне надеть?"
-    $ menu_corruption = [0, monicaPutStripClothTopless]
+    $ withoutVestEnabled = True if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False) else False
+    if withoutVestEnabled == True:
+        $ menu_corruption = [0, monicaPutStripClothTopless]
+    else:
+        $ menu_corruption = [0, 0]
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
+        "Костюм для сцены (без жилета)" if withoutVestEnabled == True:
             if pubDanceCount < monicaDanceAmountToTopless or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
@@ -2361,11 +2365,15 @@ label dialogue_5_dance_strip_29:
     return
 
 label dialogue_5_dance_strip_29b:
-    $ menu_corruption = [0, monicaPutStripClothTopless]
+    $ withoutVestEnabled = True if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False) else False
+    if withoutVestEnabled == True:
+        $ menu_corruption = [0, monicaPutStripClothTopless]
+    else:
+        $ menu_corruption = [0, 0]
     menu:
         "Костюм для сцены (с жилетом)":
             return 0
-        "Костюм для сцены (без жилета)" if ep215_quests_vest_only_active == False or (ep215_quests_vest_only_active == True and get_active_objects("Pub_StripteaseGirl1", scene="pub_makeuproom") == False):
+        "Костюм для сцены (без жилета)" if withoutVestEnabled == True:
             if pubDanceCount < 4 or len(list(set(stage_Monica_shoots_array))) < monicaPosesOpenedToStage2:
                 m "Я не выйду на сцену с голой грудью!!!"
                 help "У Моники мало опыта работы танцовщицей."
