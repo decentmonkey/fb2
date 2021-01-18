@@ -7,6 +7,7 @@ python early:
         "english": "Thanks for the English translation to\n[Aesthetic Dialectic] & [Razor Edge6]",
         "german": "Thanks for the German translation to\n[Ragnaroekr] & [Londo Mollari]",
         "french": "Thanks for the French translation to\n[YoyoRTx]",
+        "italian": "Thanks for the Italian translation to\n[5n4k3]",
         "None": "Thanks for the Russian proofread to\n[Ms. Mansfield] & [Evka]"
     }
 
