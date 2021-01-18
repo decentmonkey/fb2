@@ -3079,12 +3079,50 @@ label gallery_33991:
                     imgd 34025
                     banker "Да, Эшли. Мммм..."
                     # Моника двигает головой вверх-вниз
+                    # video
                     sound hlup25
                     imgd 34026
                     w
                     sound hlup25
                     imgd 34027
+                    w
+
+                    #1
+                    $ localSoundVolume = 1.0
+                    $ localSoundName = v_Monica_Banker_Blowjob1_1_sound_name
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_1= Movie(play="video/v_Monica_Banker_Blowjob1_1.mkv")
+                    show videov_Monica_Banker_Blowjob1_1
+                    with fade
                     banker "Вот тааак... Хорошо, да..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+                    #2
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_2= Movie(play="video/v_Monica_Banker_Blowjob1_2.mkv")
+                    show videov_Monica_Banker_Blowjob1_2
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     sound hlup25
                     imgd 34026
                     w
@@ -3092,18 +3130,90 @@ label gallery_33991:
                     imgd 34025
                     w
                     imgf 34028
+                    w
+
+                    #3
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_3= Movie(play="video/v_Monica_Banker_Blowjob1_3.mkv")
+                    show videov_Monica_Banker_Blowjob1_3
+                    with fade
                     banker "Оценка проходит вполне успешно, Эшли..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     imgd 34029
+                    w
+
+                    #4
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_4= Movie(play="video/v_Monica_Banker_Blowjob1_4.mkv")
+                    show videov_Monica_Banker_Blowjob1_4
+                    with fade
                     banker "Ммммм..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     music Loved_up2
                     imgf 34030
                     banker "Еще-еще! Ааааа..."
                     imgd 34031
+                    w
+
+                    #5
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_5= Movie(play="video/v_Monica_Banker_Blowjob1_5.mkv")
+                    show videov_Monica_Banker_Blowjob1_5
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+                    #6
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_6= Movie(play="video/v_Monica_Banker_Blowjob1_6.mkv")
+                    show videov_Monica_Banker_Blowjob1_6
+                    with fade
                     banker "Оценка почти завершена! Оооо..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     imgd 34032
                     banker "Еще немного!"
                     imgf 34023
                     w
+
+
                     sound hlup25
                     imgd 34019
                     banker "Быстрее! Давай!"
@@ -3114,14 +3224,25 @@ label gallery_33991:
                     imgd 34019
                     w
                     sound hlup25
-                    imgd 34023
-                    w
-                    sound hlup25
-                    imgd 34019
-                    w
-                    sound hlup25
                     img 34023
+                    w
+
+                    #7
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Blowjob1_7= Movie(play="video/v_Monica_Banker_Blowjob1_7.mkv")
+                    show videov_Monica_Banker_Blowjob1_7
+                    with fade
                     banker "Дааааа..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
                     menu:
                         "Кончить на лицо Моники.":
                             #$ monicaAshleySexBerkelbauch_cumzone = 1
@@ -3266,6 +3387,27 @@ label gallery_33991:
                     banker "Да, тааак..."
                     mt "Ненавижу!!!"
                     # со злым лицом прыгает на его члене
+
+                    # video
+                    #1
+                    $ localSoundVolume = 1.0
+                    $ localSoundName = v_Monica_Banker_Sex1_1_sound_name
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_1= Movie(play="video/v_Monica_Banker_Sex1_1.mkv")
+                    show videov_Monica_Banker_Sex1_1
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
                     imgf 34048
                     w
                     imgd 34049
@@ -3275,6 +3417,22 @@ label gallery_33991:
                     banker "Покажи мне, как тебе нравится чувствовать мой член!"
                     m "..."
                     # Эшли прикривает на Монику
+                    #2
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_2= Movie(play="video/v_Monica_Banker_Sex1_2.mkv")
+                    show videov_Monica_Banker_Sex1_2
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     imgd 34051
                     ashley "[monica_pub_name]!"
                     ashley "Исполняй свои обязанности как полагается!"
@@ -3288,6 +3446,25 @@ label gallery_33991:
                     sound ahhh4
                     m "Оооо..."
                     banker "Вот теперь вижу, что тебе нравится... Мммм..."
+
+                    #3
+                    $ localSoundVolume = 1.0
+                    $ localSoundName = v_Monica_Banker_Sex1_1b_sound_name
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_3= Movie(play="video/v_Monica_Banker_Sex1_3.mkv")
+                    show videov_Monica_Banker_Sex1_3
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     sound hlup25
                     imgd 34053
                     w
@@ -3296,44 +3473,156 @@ label gallery_33991:
                     m "Аааа..."
                     imgd 34055
                     banker "Старайся лучше! Быстрее!"
+
+                    #4
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_4= Movie(play="video/v_Monica_Banker_Sex1_4.mkv")
+                    show videov_Monica_Banker_Sex1_4
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+                    #5
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_5= Movie(play="video/v_Monica_Banker_Sex1_5.mkv")
+                    show videov_Monica_Banker_Sex1_5
+                    with fade
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     imgf 34056
                     w
                     sound ahhh3
                     imgd 34054
                     m "Оооох..."
                     imgd 34057
+                    w
+
+                    #6
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_6= Movie(play="video/v_Monica_Banker_Sex1_6.mkv")
+                    show videov_Monica_Banker_Sex1_6
+                    with fade
                     mt "Когда же этот кретин уже кончит?!"
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     music Loved_up
                     sound2 ahhh5
                     imgf 34058
+                    w
+
+                    #7
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_7= Movie(play="video/v_Monica_Banker_Sex1_7.mkv")
+                    show videov_Monica_Banker_Sex1_7
+                    with fade
                     banker "Еще-еще! Ааааа..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     imgd 34059
                     banker "Оценка почти завершена! Оооо..."
+
+                    #8
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_8= Movie(play="video/v_Monica_Banker_Sex1_8.mkv")
+                    show videov_Monica_Banker_Sex1_8
+                    with fade
                     banker "Еще немного!"
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+
                     sound ahhh3
                     imgd 34052
                     m "АААА!!!"
                     imgd 34053
                     w
-                    sound hlup25
-                    imgd 34060
+
+                    #9
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_9= Movie(play="video/v_Monica_Banker_Sex1_9.mkv")
+                    show videov_Monica_Banker_Sex1_9
+                    with fade
                     banker "Быстрее! Давай!"
-                    imgd 34053
-                    w
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     sound hlup25
                     imgd 34060
                     w
-                    sound hlup25
                     imgd 34053
+                    w
+
+                    #10
+                    img black_screen
+                    with diss
+                    stop music2
+                    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+                    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+                    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+                    scene black
+                    image videov_Monica_Banker_Sex1_10= Movie(play="video/v_Monica_Banker_Sex1_10.mkv")
+                    show videov_Monica_Banker_Sex1_10
+                    with fade
                     banker "Дааааа..."
+                    wclean
+                    stop music2
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+                    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
                     sound hlup25
-                    imgd 34060
-                    w
-                    sound hlup25
-                    imgd 34053
-                    w
-                    sound hlup25
-                    img 34060
+                    img 34060 vpunch
                     m "ААААААА!!!"
                     menu:
                         "Кончить на киску Моники.":
@@ -3717,35 +4006,165 @@ label gallery_34102:
     img 34128 vpunch
     w
     imgd 34129
+    w
+
+    #video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Ashley_Banker_Blowjob1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_1= Movie(play="video/v_Ashley_Banker_Blowjob1_1.mkv")
+    show videov_Ashley_Banker_Blowjob1_1
+    with fade
     banker "Вот тааак... Хорошо, да..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 34130
     w
     imgd 34131
-    banker "Оценка проходит вполне успешно, Эшли..."
+    w
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_2= Movie(play="video/v_Ashley_Banker_Blowjob1_2.mkv")
+    show videov_Ashley_Banker_Blowjob1_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 34132
-    ashley "Мпфхмхпф..."
+    w
+
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_3= Movie(play="video/v_Ashley_Banker_Blowjob1_3.mkv")
+    show videov_Ashley_Banker_Blowjob1_3
+    with fade
+    banker "Оценка проходит вполне успешно, Эшли..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34133
     w
     imgf 34134
     w
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_4= Movie(play="video/v_Ashley_Banker_Blowjob1_4.mkv")
+    show videov_Ashley_Banker_Blowjob1_4
+    with fade
+    ashley "Мпфхмхпф..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34135
+    w
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_5= Movie(play="video/v_Ashley_Banker_Blowjob1_5.mkv")
+    show videov_Ashley_Banker_Blowjob1_5
+    with fade
     banker "Не отвлекай меня от моей работы своей болтовней."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_6= Movie(play="video/v_Ashley_Banker_Blowjob1_6.mkv")
+    show videov_Ashley_Banker_Blowjob1_6
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34136
     w
     imgf 34137
+    w
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_7= Movie(play="video/v_Ashley_Banker_Blowjob1_7.mkv")
+    show videov_Ashley_Banker_Blowjob1_7
+    with fade
     banker "Занимайся своим делом, активнее!"
-    sound hlup25
-    imgd 34138
-    w
-    sound hlup25
-    imgd 34137
-    w
-    sound hlup25
-    imgd 34138
-    w
-    sound hlup25
-    imgd 34137
-    w
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Blowjob1_8= Movie(play="video/v_Ashley_Banker_Blowjob1_8.mkv")
+    show videov_Ashley_Banker_Blowjob1_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     sound hlup25
     imgd 34138
     w
@@ -3844,7 +4263,6 @@ label gallery_34102:
     banker "Да, Эшли, твой муж ушел. Хе-хе!"
     banker "Возвращайся на свою прежнюю позицию."
     # Эшли подходит к нему, неуверенно
-    label gallery_34160:
     fadeblack
     sound man_steps
     pause 2.0
@@ -3959,26 +4377,152 @@ label gallery_34102:
     imgfl 34156
     banker "Ну вот. Другое дело, Эшли..."
     # он вставляет в нее свой член
+
+    #video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Ashley_Banker_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_1= Movie(play="video/v_Ashley_Banker_Sex1_1.mkv")
+    show videov_Ashley_Banker_Sex1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 34157
     w
     imgd 34158
+    w
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_2= Movie(play="video/v_Ashley_Banker_Sex1_2.mkv")
+    show videov_Ashley_Banker_Sex1_2
+    with fade
     banker "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 34159
+    w
+
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_3= Movie(play="video/v_Ashley_Banker_Sex1_3.mkv")
+    show videov_Ashley_Banker_Sex1_3
+    with fade
     banker "Я знал, что такая умная и деловая женщина, как ты..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgd 34160
     banker "Не упустит свой шанс..."
+
     imgf 34161
     banker "Оооо..."
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_4= Movie(play="video/v_Ashley_Banker_Sex1_4.mkv")
+    show videov_Ashley_Banker_Sex1_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34162
+    w
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_5= Movie(play="video/v_Ashley_Banker_Sex1_5.mkv")
+    show videov_Ashley_Banker_Sex1_5
+    with fade
     banker "Двигай своей попой по-активнее..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34163
     banker "От нее сейчас зависит решение банка."
+
     imgd 34164
+    w
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_6= Movie(play="video/v_Ashley_Banker_Sex1_6.mkv")
+    show videov_Ashley_Banker_Sex1_6
+    with fade
     banker "Да, тааак..."
     banker "Ааааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     imgf 34165
+    w
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_7= Movie(play="video/v_Ashley_Banker_Sex1_7.mkv")
+    show videov_Ashley_Banker_Sex1_7
+    with fade
     banker "Старайся лучше, Эшли!"
     banker "Давай!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     music Loved_up2
     imgd 34166
     w
@@ -3991,18 +4535,23 @@ label gallery_34102:
     sound hlup25
     imgd 34167
     w
-    sound hlup25
-    imgd 34166
-    w
-    sound hlup25
-    imgd 34167
-    w
-    sound hlup25
-    imgd 34166
-    w
-    sound hlup25
-    imgd 34167
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.166666666666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Ashley_Banker_Sex1_8= Movie(play="video/v_Ashley_Banker_Sex1_8.mkv")
+    show videov_Ashley_Banker_Sex1_8
+    with fade
     banker "Оценка почти завершена! Оооо..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     sound hlup25
     imgd 34166
     w

@@ -16,7 +16,7 @@ default ep218_dialogues3_escort_3menu2 = False
 default ep218_dialogues3_escort_3menu3 = False
 
 define v_Monica_CandiseApartments_Blowjob1_1_sound_name = "v_Monica_CandiseApartments_Blowjob1_1"
-define v_Monica_CandiseApartments_Sex_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Monica_CandiseApartments_Sex1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
 
 define monicaEscortRentmanHarryCorruptionRequired1 = 550 # Моника согласилась помочь Кэндис и пойти к ней домой
 define monicaEscortRentmanHarryCorruptionRequired2 = 670 # Моника согласилась сделать Гарри минет
@@ -1504,26 +1504,81 @@ label ep218_dialogues3_escort_3:
     mt "!!!"
     mt "Может, стоит воспользоваться моментом и узнать у этого кретина про аренду?"
     mt "..."
+    # video
+
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_CandiseApartments_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_1= Movie(play="video/v_Monica_CandiseApartments_Sex1_1.mkv")
+    show videov_Monica_CandiseApartments_Sex1_1
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     menu:
         "Ты правда сдаешь эту комнату Кэндис без документов?":
             pass
     imgf 42033
     m "Гарри?"
-    harry "Оооо... Как же охренительно!"
     harry "Что, цыпа?"
     harry "Хочешь мне сказать, как ты тащишься от меня, а?"
     m "..."
     m "Ты правда сдаешь эту комнату Кэндис без документов?"
-    imgd 42034
+
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_2= Movie(play="video/v_Monica_CandiseApartments_Sex1_2.mkv")
+    show videov_Monica_CandiseApartments_Sex1_2
+    with fade
+    harry "Оооо... Как же охренительно!"
     harry "Мммм... Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgd 42034
     harry "Кому интересны какие-то там документы..."
     harry "Оооо..."
     harry "Мои предки думают, что я сдаю все апартаменты целиком."
     imgd 42035
-    harry "Мммм..."
     harry "Но я сдаю их по комнатам, чтобы было больше денег."
     harry "И не хочу светить это перед предками..."
     mt "..."
+
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_3= Movie(play="video/v_Monica_CandiseApartments_Sex1_3.mkv")
+    show videov_Monica_CandiseApartments_Sex1_3
+    with fade
+    harry "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "За сколько ты сдаешь апартаменты?":
             pass
@@ -1554,19 +1609,104 @@ label ep218_dialogues3_escort_3:
             pass
     # Гарри все это время пялит Монику без остановки
     imgf 42041
+    w
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_4= Movie(play="video/v_Monica_CandiseApartments_Sex1_4.mkv")
+    show videov_Monica_CandiseApartments_Sex1_4
+    with fade
     harry "Тебе нравится, когда тебя трахают?"
     harry "Да?"
     harry "Ееее!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 42042
     m "..."
     harry "Оооо!!!"
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_5= Movie(play="video/v_Monica_CandiseApartments_Sex1_5.mkv")
+    show videov_Monica_CandiseApartments_Sex1_5
+    with fade
     harry "Как хорошо, что именно ты пришла..."
     harry "Мне так нравится быть в тебе..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgf 42043
+    w
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_6= Movie(play="video/v_Monica_CandiseApartments_Sex1_6.mkv")
+    show videov_Monica_CandiseApartments_Sex1_6
+    with fade
     harry "Так бы и трахал тебя! Постоянно! Даааа!"
     harry "Мммм..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_7= Movie(play="video/v_Monica_CandiseApartments_Sex1_7.mkv")
+    show videov_Monica_CandiseApartments_Sex1_7
+    with fade
     harry "Тебе нравится, как жестко Я веду переговоры?"
     harry "М, цыпа?"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_8= Movie(play="video/v_Monica_CandiseApartments_Sex1_8.mkv")
+    show videov_Monica_CandiseApartments_Sex1_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 42044
     m "!!!"
     harry "Даааа...."
@@ -1578,12 +1718,47 @@ label ep218_dialogues3_escort_3:
     music Loved_Up2
     imgf 42046
     harry "Мммм..."
+
+    #9
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_9= Movie(play="video/v_Monica_CandiseApartments_Sex1_9.mkv")
+    show videov_Monica_CandiseApartments_Sex1_9
+    with fade
     harry "Сейчас я тебя заполню, цыпа!"
     harry "Ааааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 42047
+    w
+
+    #10
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_CandiseApartments_Sex1_10= Movie(play="video/v_Monica_CandiseApartments_Sex1_10.mkv")
+    show videov_Monica_CandiseApartments_Sex1_10
+    with fade
     harry "Сейчас! Еще немного! Дааа!"
     harry "Аааа!!!"
+    wclean
     harry "Кончааааю!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "Кончить внутрь Моники.":
             $ monicaEscortRentmanHarry_cumzone = 4
