@@ -4263,6 +4263,7 @@ label gallery_34102:
     banker "Да, Эшли, твой муж ушел. Хе-хе!"
     banker "Возвращайся на свою прежнюю позицию."
     # Эшли подходит к нему, неуверенно
+    label gallery_34160:
     fadeblack
     sound man_steps
     pause 2.0
@@ -4333,7 +4334,7 @@ label gallery_34102:
             scene black_screen
             with Dissolve(1)
             music stop
-            call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_21
+            call textonblack(t_("Некоторое время спустя..."))
             scene black_screen
             with Dissolve(1)
             music Pyro_Flow
@@ -4648,7 +4649,7 @@ label gallery_34102:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_22
+    call textonblack(t_("Некоторое время спустя..."))
     scene black_screen
     with Dissolve(1)
     music Pyro_Flow
