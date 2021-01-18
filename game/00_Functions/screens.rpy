@@ -1765,8 +1765,34 @@ screen choice(items):
                 if imenu.action:
                     str1 = imenu.caption
                     button_obj = {"priority": priority, "native":True, "caption":str1, "action":imenu.action, "active":True}
+                    str1 = t__(imenu.caption)
+                    if corruptionListLen>idx:
+                        # corruption
+                        if menu_corruption[idx] >0:
+                            if corruption >= menu_corruption[idx]:
+#                                str1 = t__(imenu.caption)
+                                str1 = str1 + "{color=#31e8b1}" + t__(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
+                                button_obj["caption"] = str1
+                            else:
+#                                str1 = t__(imenu.caption)
+                                str1 = str1 + t__(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
+                                button_obj["caption"] = str1
+                                button_obj["active"] = False
+                    if priceListLen>idx:
+                        # price
+                        if menu_price[idx] >0:
+                            if money >= menu_price[idx]:
+#                                str1 = t__(imenu.caption)
+                                str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
+                                button_obj["caption"] = str1
+                            else:
+#                                str1 = t__(imenu.caption)
+                                str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
+                                button_obj["caption"] = str1
+                                button_obj["active"] = False
+
                     if " (disabled)" in imenu.caption or " (deaktiviert)" in imenu.caption or " (déactivé)" in imenu.caption or " (devredışı)" in imenu.caption or " (disabilitato)" in imenu.caption or " (Disabled)" in imenu.caption or " (Deaktiviert)" in imenu.caption or " (Déactivé)" in imenu.caption or " (Devredışı)" in imenu.caption or " (Disabilitato)" in imenu.caption:
-                        str1 = t__(imenu.caption)
+#                        str1 = t__(imenu.caption)
                         str1 = str1.replace(" (disabled)", "")
                         str1 = str1.replace(" (deaktiviert)", "")
                         str1 = str1.replace(" (déactivé)", "")
@@ -1779,30 +1805,6 @@ screen choice(items):
                         str1 = str1.replace(" (Disabilitato)", "")
                         button_obj["caption"] = str1
                         button_obj["active"] = False
-                    if corruptionListLen>idx:
-                        # corruption
-                        if menu_corruption[idx] >0:
-                            if corruption >= menu_corruption[idx]:
-                                str1 = t__(imenu.caption)
-                                str1 = str1 + "{color=#31e8b1}" + t__(" (corruption: ") + str(menu_corruption[idx]) + "){/color}"
-                                button_obj["caption"] = str1
-                            else:
-                                str1 = t__(imenu.caption)
-                                str1 = str1 + t__(" (low corruption, required ") + str(menu_corruption[idx]) + ")"
-                                button_obj["caption"] = str1
-                                button_obj["active"] = False
-                    if priceListLen>idx:
-                        # price
-                        if menu_price[idx] >0:
-                            if money >= menu_price[idx]:
-                                str1 = t__(imenu.caption)
-                                str1 = str1 + "  {color=#31e8b1}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
-                                button_obj["caption"] = str1
-                            else:
-                                str1 = t__(imenu.caption)
-                                str1 = str1 + "  {color=#880000}$ " + '{:5,.2f}'.format(menu_price[idx]) + "{/color}"
-                                button_obj["caption"] = str1
-                                button_obj["active"] = False
 
                     if menuName != False and menu_required.has_key(menuName) and menu_required[menuName].has_key(imenu.caption):
                         menuCellData = menu_required[menuName][imenu.caption]
