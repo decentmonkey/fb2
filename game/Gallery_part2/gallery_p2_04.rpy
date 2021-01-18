@@ -1285,7 +1285,7 @@ label gallery_42180:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_23
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

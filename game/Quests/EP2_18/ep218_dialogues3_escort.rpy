@@ -2154,7 +2154,7 @@ label ep218_dialogues3_escort_5a:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_28
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

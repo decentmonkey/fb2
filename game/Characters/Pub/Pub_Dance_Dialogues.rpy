@@ -336,5 +336,5 @@ label pub_dance_claire2_dialogues_react(amount):
     $ stage_Claire_Excitement_Current += amount
     $ stage_Monica_Excitement_Current = stage_Claire_Excitement_Current
     show screen love_bar_screen(stage_Claire_Excitement_Last, stage_Claire_Excitement_Current)
-    call pub_dance_dialogues_excitement_tips()
+    call pub_dance_dialogues_excitement_tips() from _rcall_pub_dance_dialogues_excitement_tips_4
     return

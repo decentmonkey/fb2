@@ -180,7 +180,7 @@ label ep218_dialogues2_victoria_2:
     with Dissolve(1)
     music2 stop
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_27
     scene black_screen
     with Dissolve(1)
     music Groove2_85

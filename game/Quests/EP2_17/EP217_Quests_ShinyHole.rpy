@@ -284,7 +284,7 @@ label ep217_quests_shinyhole15_claire_after_private:
     $ questHelp("shinyhole_57", True)
     $ add_char_progress("Pub_StripteaseGirl2", 50, "ep217_quests_shinyhole15_claire_after_private")
     $ add_talk("Pub_StripteaseGirl2", "ep217_dialogues2_shiny_hole_18", scene="pub_makeuproom", label="molly_joe_private1_after")
-    call ep218_quests_shinyhole_check()
+    call ep218_quests_shinyhole_check() from _rcall_ep218_quests_shinyhole_check
     call refresh_scene_fade() from _rcall_refresh_scene_fade_136
     return False
 
@@ -301,7 +301,7 @@ label ep217_quests_shinyhole16_molly_after_private:
     call ep217_dialogues2_shiny_hole_17() from _rcall_ep217_dialogues2_shiny_hole_17
     $ add_char_progress("Pub_StripteaseGirl1", 50, "ep217_quests_shinyhole16_molly_after_private")
     $ questHelp("shinyhole_57a", True)
-    call ep218_quests_shinyhole_check()
+    call ep218_quests_shinyhole_check() from _rcall_ep218_quests_shinyhole_check_1
     call refresh_scene_fade() from _rcall_refresh_scene_fade_137
     return False
 

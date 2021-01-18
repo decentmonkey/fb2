@@ -24,24 +24,24 @@ label ep218_quests_betty1_check:
 label ep218_quests_betty2_begin:
     $ remove_hook()
     $ ep218_quests_betty_day = day
-    call ep218_dialogues4_betty_1()
+    call ep218_dialogues4_betty_1() from _rcall_ep218_dialogues4_betty_1
     if _return == False:
         $ questHelp("house_46", False)
         return
 
-    call ep218_dialogues4_betty_1a1()
-    call ep218_dialogues4_betty_1a()
-    call ep218_dialogues4_betty_2()
+    call ep218_dialogues4_betty_1a1() from _rcall_ep218_dialogues4_betty_1a1
+    call ep218_dialogues4_betty_1a() from _rcall_ep218_dialogues4_betty_1a
+    call ep218_dialogues4_betty_2() from _rcall_ep218_dialogues4_betty_2
     if _return == False:
         $ questHelp("house_46", False)
         return
-    call ep218_dialogues4_betty_3()
-    call ep218_dialogues4_betty_4() # дом соседа
-    call ep218_dialogues4_betty_5()
+    call ep218_dialogues4_betty_3() from _rcall_ep218_dialogues4_betty_3
+    call ep218_dialogues4_betty_4() from _rcall_ep218_dialogues4_betty_4 # дом соседа
+    call ep218_dialogues4_betty_5() from _rcall_ep218_dialogues4_betty_5
     if _return == False:
         $ questHelp("house_46", False)
         return
-    call ep218_dialogues4_betty_6() # заходит Ральф
+    call ep218_dialogues4_betty_6() from _rcall_ep218_dialogues4_betty_6 # заходит Ральф
     $ ep218_quests_betty_completed_day = day
     $ questHelp("house_46", True)
     return

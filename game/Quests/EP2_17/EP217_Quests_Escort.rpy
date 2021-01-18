@@ -134,7 +134,7 @@ label ep217_quests_escort3_teleport_candise:
         call ep217_dialogues1_escort_9b() from _rcall_ep217_dialogues1_escort_9b
         return False
     if candiseApartmentsStage == 2:
-        call ep218_quests_escort5_candise_apartments()
+        call ep218_quests_escort5_candise_apartments() from _rcall_ep218_quests_escort5_candise_apartments
         return False
 
     return False
@@ -143,12 +143,12 @@ label ep217_quests_escort4_candice_after:
     $ monicaCandiseHotelMeetingPlanned = False
     $ questHelp("escort_19", True)
     call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12_2
-    call ep218_quests_escort_check1()
+    call ep218_quests_escort_check1() from _rcall_ep218_quests_escort_check1_2
     return False
 
 label ep217_quests_escort5_abby_after:
     $ monicaAbbyHotelMeetingPlanned = False
     $ questHelp("escort_20", True)
     call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a_2
-    call ep218_quests_escort_check1()
+    call ep218_quests_escort_check1() from _rcall_ep218_quests_escort_check1_3
     return False

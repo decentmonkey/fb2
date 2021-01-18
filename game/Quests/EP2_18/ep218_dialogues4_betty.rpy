@@ -26,7 +26,7 @@ label ep218_dialogues4_betty_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_29
     scene black_screen
     with Dissolve(1)
     music Groove2_85

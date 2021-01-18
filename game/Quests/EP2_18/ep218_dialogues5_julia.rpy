@@ -304,7 +304,7 @@ label ep218_dialogues5_julia_3:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_30
     scene black_screen
     with Dissolve(1)
     music Groove2_85

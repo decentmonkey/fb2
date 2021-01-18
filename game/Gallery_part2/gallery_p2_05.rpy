@@ -6,7 +6,7 @@ label gallery_33720:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_24
     scene black_screen
     with Dissolve(1)
     music Groove2_85

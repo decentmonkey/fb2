@@ -2055,7 +2055,7 @@ label ep218_dialogues1_pub_6a:
             scene black_screen
             with Dissolve(1)
             music stop
-            call textonblack(t_("Некоторое время спустя..."))
+            call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_25
             scene black_screen
             with Dissolve(1)
             music Pyro_Flow
@@ -2370,7 +2370,7 @@ label ep218_dialogues1_pub_6a:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_26
     scene black_screen
     with Dissolve(1)
     music Pyro_Flow

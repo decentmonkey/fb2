@@ -14,25 +14,25 @@ label ep218_quests_julia_init:
 
 label ep218_quests_julia1: # разговор с Юлией в воскресенье днем
     $ ep218_quests_julia_last_day = day
-    call ep218_dialogues5_julia_1()
+    call ep218_dialogues5_julia_1() from _rcall_ep218_dialogues5_julia_1
     if _return == False:
         $ cloth = monica_juliahome_outside_cloth
         $ cloth_type = monica_juliahome_outside_cloth_type
         $ juliaQuestRefused = True
-        call ep218_quests_abort_julia()
-        call bitch(20, "abort_julia")
+        call ep218_quests_abort_julia() from _rcall_ep218_quests_abort_julia
+        call bitch(20, "abort_julia") from _rcall_bitch_22
         $ autorun_to_object("ep218_dialogues5_julia_4b", scene="street_house_outside")
-        call process_change_map_location("House")
-        call change_scene("street_house_outside", "Fade_long")
+        call process_change_map_location("House") from _rcall_process_change_map_location_11
+        call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_230
         return False
-    call ep218_dialogues5_julia_3()
+    call ep218_dialogues5_julia_3() from _rcall_ep218_dialogues5_julia_3
     if _return == False:
         $ questHelp("julia_56", False, skipIfTrue = True)
         $ cloth = monica_juliahome_outside_cloth
         $ cloth_type = monica_juliahome_outside_cloth_type
         $ autorun_to_object("ep218_dialogues5_julia_4b", scene="street_juliahome")
         music2 stop
-        call change_scene("street_juliahome", "Fade_long")
+        call change_scene("street_juliahome", "Fade_long") from _rcall_change_scene_231
         return False
     $ cloth = monica_juliahome_outside_cloth
     $ cloth_type = monica_juliahome_outside_cloth_type
@@ -42,7 +42,7 @@ label ep218_quests_julia1: # разговор с Юлией в воскресе�
     $ char_info["Julia"]["caption"] = t_("Юлия любит Монику и подумывает о свадьбе с ней.")
     $ questHelp("julia_56", True)
     music2 stop
-    call change_scene("street_juliahome", "Fade_long")
+    call change_scene("street_juliahome", "Fade_long") from _rcall_change_scene_232
     return False
 
 label ep218_quests_abort_julia:

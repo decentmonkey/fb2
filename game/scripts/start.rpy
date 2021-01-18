@@ -58,7 +58,7 @@ label start:
     $ inventory_objects = {}
     $ inventory = []
     $ owner = "Monica"
-    call game_init()
+    call game_init() from _rcall_game_init
 
     $ episode2part2_initialized = True
     $ scenes_data = json.loads(renpy.file("ep2_part2_init_data.json").read())
@@ -446,7 +446,7 @@ label start:
 
     call food_basement_room_init() from _rcall_food_basement_room_init_1
 
-    call questHelp_init()
+    call questHelp_init() from _rcall_questHelp_init_4
     call part2_questions_start_new_game() from _rcall_part2_questions_start_new_game
 
     $ changeDayTime("day")
@@ -467,7 +467,7 @@ label start_game_EP22:
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests
-    call ep218_quests_victoria_init()
+    call ep218_quests_victoria_init() from _rcall_ep218_quests_victoria_init_1
     jump show_scene
 
 

@@ -117,10 +117,10 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     pause 1.5
     $ rnd1 = rand(1,4)
     if ep218_quests_meeting2_planned == True:
-        call ep218_quests_escort6_candise_after()
+        call ep218_quests_escort6_candise_after() from _rcall_ep218_quests_escort6_candise_after
         return False
     if ep218_quests_meeting1_planned == True:
-        call ep218_quests_escort2_meeting()
+        call ep218_quests_escort2_meeting() from _rcall_ep218_quests_escort2_meeting
         return False
     if ep215_quests_linda_restaurant_dialogue_planned == True:
         $ ep215_quests_linda_restaurant_dialogue_planned = False # встреча с Линдой после того как ее унизили
@@ -131,14 +131,14 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     if monicaCandiseHotelMeetingPlanned == True:
         $ monicaCandiseHotelMeetingPlanned = False
         $ questHelp("escort_19", True)
-        call ep218_quests_escort_check1()
+        call ep218_quests_escort_check1() from _rcall_ep218_quests_escort_check1
         call ep217_dialogues1_escort_12() from _rcall_ep217_dialogues1_escort_12
         call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_203
         return False
     if monicaAbbyHotelMeetingPlanned == True:
         $ monicaAbbyHotelMeetingPlanned = False
         $ questHelp("escort_20", True)
-        call ep218_quests_escort_check1()
+        call ep218_quests_escort_check1() from _rcall_ep218_quests_escort_check1_1
         call ep217_dialogues1_escort_12a() from _rcall_ep217_dialogues1_escort_12a
         call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_204
         return False

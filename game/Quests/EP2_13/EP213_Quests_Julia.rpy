@@ -190,7 +190,7 @@ label ep213_quests_julia5_exit_street: # Моника выходит на ули
                 call ep213_dialogues5_julia_13() from _rcall_ep213_dialogues5_julia_13
             else:
                 if ep218_quests_julia_active == True and ep218_quests_julia_last_day != day and ep218_quests_julia_last_day == 0:
-                    call ep218_quests_julia1()
+                    call ep218_quests_julia1() from _rcall_ep218_quests_julia1
                     return False
                 call ep213_dialogues5_julia_13a() from _rcall_ep213_dialogues5_julia_13a
             $ ep213_dialogues5_julia_13_day = day
@@ -339,7 +339,7 @@ label ep213_quests_julia11_julia: # регулярный разговор с Ю�
 
     if scene_name == "juliahome_livingroom" and juliaHomeLivingRoomJuliaSuffix == 3 and week_day == 7 and day_time != "evening":
         if ep218_quests_julia_active == True and ep218_quests_julia_last_day != day:
-            call ep218_quests_julia1()
+            call ep218_quests_julia1() from _rcall_ep218_quests_julia1_1
             return False
         call ep213_dialogues5_julia_12a() from _rcall_ep213_dialogues5_julia_12a
         $ move_object("Julia", "empty")

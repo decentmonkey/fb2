@@ -12,7 +12,7 @@ label ep218_quests_victoria_init:
 
 label ep218_quests_victoria1_start:
     $ remove_hook()
-    call ep218_dialogues2_victoria_1()
+    call ep218_dialogues2_victoria_1() from _rcall_ep218_dialogues2_victoria_1
     $ monicaOfficeWorkedToday = True
     $ add_objective("go_victoria", t_("Идти к Виктории."), c_red, 125)
 
@@ -53,29 +53,29 @@ label ep218_quests_victoria1_start:
         add_hook("VictoriaHome_Enter", "ep218_quests_victoria2_enter", scene="street_victoriahome", label="ep218_victoria_visit_day1")
         add_hook("enter_scene", "ep216_quests_victoria3_street2", scene="street_victoriahome", label="ep218_victoria_visit_day1", once=True)
         autorun_to_object("ep216_dialogues5_victoria_12b", scene="working_office_cabinet")
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_140
     return False
 
 label ep218_quests_victoria2_enter:
     if act=="l":
         return
     if cloth != "CasualDress1":
-        call ep216_dialogues5_victoria_8a()
+        call ep216_dialogues5_victoria_8a() from _rcall_ep216_dialogues5_victoria_8a_2
         return False
     $ remove_hook()
     $ remove_hook(label="ep218_victoria_block")
     $ remove_hook(label="ep216_victoria_visit_day1")
-    call ep218_dialogues2_victoria_2()
+    call ep218_dialogues2_victoria_2() from _rcall_ep218_dialogues2_victoria_2
     if melanieVictoriaMonicaGirlsParty9 > 0:
         # если Моника подставила Мелани и присутствовала при ее наказании
-        call ep218_dialogues2_victoria_6()
+        call ep218_dialogues2_victoria_6() from _rcall_ep218_dialogues2_victoria_6
         $ add_talk("Melanie", "ep218_dialogues2_victoria_6a", scene="monica_office_makeup_room", label="ep218_victoria_afterpiss")
     if melanieVictoriaMonicaGirlsParty4 > 0:
         # мысли Моники, если делала писсинг
-        call ep218_dialogues2_victoria_7()
+        call ep218_dialogues2_victoria_7() from _rcall_ep218_dialogues2_victoria_7
     if melanieVictoriaMonicaGirlsParty5 > 0:
         # мысли Моники, если делала ликинг
-        call ep218_dialogues2_victoria_8()
+        call ep218_dialogues2_victoria_8() from _rcall_ep218_dialogues2_victoria_8
 
     $ fitness_gym_state = 2
     $ hudDaySkipToEveningEnabled = True
@@ -85,5 +85,5 @@ label ep218_quests_victoria2_enter:
     $ ep218_victoria_visit_day1 = day
     $ remove_objective("go_victoria")
     $ questHelp("victoria_17", True)
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_30
     return False

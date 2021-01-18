@@ -10,7 +10,7 @@ label pub_dance2_claire_dance2: # Танец с Клэр
     music Road_Trip
     sound2 highheels_short_walk
     imgfl 34194
-    call dialogue_5_dance_strip_scene_menu() # выбор музыки
+    call dialogue_5_dance_strip_scene_menu() from _rcall_dialogue_5_dance_strip_scene_menu_1 # выбор музыки
     sound2 highheels_short_walk
     w
     imgf 34192
@@ -83,8 +83,8 @@ label pub_dance2_claire_dance2_move1:
         hide videov_Claire_Strip_1A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_1A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(5)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(5) from _rcall_pub_dance_claire2_dialogues_react
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_48
         customers1 "Еееее, какая горячая штучка!"
         customers3 "Вау!"
     if result == "side":
@@ -95,8 +95,8 @@ label pub_dance2_claire_dance2_move1:
         hide videov_Claire_Strip_1B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_1B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(5)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(5) from _rcall_pub_dance_claire2_dialogues_react_1
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_49
         customers3 "Посмотрите на ее движения!"
         customers3 "Я хочу увидеть их без одежды!"
         customers2 "Твою мать! Когда же я доберусь до ее сисек?!"
@@ -109,8 +109,8 @@ label pub_dance2_claire_dance2_move1:
         hide videov_Claire_Strip_1C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_1C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(5)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(5) from _rcall_pub_dance_claire2_dialogues_react_2
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_50
         customers4 "Иди сюда, детка!"
         customers1 "Снимай трусики!"
         customers1 "Разденься для нас!"
@@ -151,8 +151,8 @@ label pub_dance2_claire_dance2_move2:
         hide videov_Claire_Strip_2A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_2A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_3
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_51
         customers1 "ОГО!! ВОТ ЭТО ДА!!!"
         customers5 "Снимай с себя все скорее!"
     if result == "side":
@@ -163,8 +163,8 @@ label pub_dance2_claire_dance2_move2:
         hide videov_Claire_Strip_2B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_2B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_4
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_52
         customers1 "ОНА ИХ СНИМАЕТ, ОНА СНИМАЕТ ИХ!!!"
         customers3 "Дааа! Давай раздевайся!"
         customers2 "Хочу увидеть твою киску!"
@@ -176,8 +176,8 @@ label pub_dance2_claire_dance2_move2:
         hide videov_Claire_Strip_2C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_2C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_5
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_53
         customers4 "Снимай их скорее и дай рассмотреть свою задницу!"
 
     if arrowUp == True or arrowSide == True or arrowDown == True:
@@ -231,10 +231,10 @@ label pub_dance2_claire_dance2_move3:
         hide videov_Claire_Strip_3A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_3A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_6
         sound3 men_scream5
 
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_54
         customers1 "Вот это да! Она разделась, разделась!"
     if result == "side":
         scene black
@@ -244,7 +244,7 @@ label pub_dance2_claire_dance2_move3:
         hide videov_Claire_Strip_3B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_3B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_7
 #        call pub_dance_battle_dialogues_applause("std")
         sound3 men_scream2
         customers2 "Задери ножку повыше! Мне плохо видно!"
@@ -256,7 +256,7 @@ label pub_dance2_claire_dance2_move3:
         hide videov_Claire_Strip_3C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_3C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_8
 #        call pub_dance_battle_dialogues_applause("std")
         sound3 men_scream4
         customers5 "Эта красотка дает разглядеть себя хорошенько!"
@@ -295,8 +295,8 @@ label pub_dance2_claire_dance2_move4:
         hide videov_Claire_Strip_4A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_4A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_9
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_55
         customers2 "Какая задница! Я ее такой себе и представлял!"
         customers5 "Раздвинь ножки шире, красотка! Хочу разглядеть твою киску!"
     if result == "side":
@@ -307,8 +307,8 @@ label pub_dance2_claire_dance2_move4:
         hide videov_Claire_Strip_4B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_4B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_10
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_56
         customers1 "ЕЕЕЕ! Давай-давай!"
         customers5 "Я тащусь от этой крошки!"
     if result == "down":
@@ -319,8 +319,8 @@ label pub_dance2_claire_dance2_move4:
         hide videov_Claire_Strip_4C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_4C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_11
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_57
         customers2 "Вот это задница, наконец-то!"
         customers3 "Я не могу, я сейчас кончу! ААААА!!!"
         customers2 "Приласкай свою киску! Покажи, как ты делаешь это!"
@@ -406,11 +406,11 @@ label pub_dance2_claire_dance2_move5:
         hide videov_Claire_Strip_5A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_5A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_12
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_58
         customers4 "Клэр! Наконец-то я увидел ее голой!"
         customers2 "Не толкайтесь, мне надо сделать фото!"
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_12
         w
 
     if result == "side":
@@ -421,8 +421,8 @@ label pub_dance2_claire_dance2_move5:
         hide videov_Claire_Strip_5B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_5B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_13
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_59
         customers5 "Детка, снимай маску! Будь как те остальные развратные шлюхи!"
         customers1 "Снимай маску, ДА!"
         customers2 "Снимай маску и покажи нам мастерство танца Клэр!"
@@ -434,8 +434,8 @@ label pub_dance2_claire_dance2_move5:
         hide videov_Claire_Strip_5C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_5C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_14
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_60
         customers2 "Она танцует чуть-ли не лучше всех!"
         customers1 "Маска, маска!"
         customers5 "Сними маску и сядь на шпагат, крошка!"
@@ -473,7 +473,7 @@ label pub_dance2_claire_dance2_move6:
         hide videov_Claire_Strip_6A
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_6A_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_15
 #        call pub_dance_battle_dialogues_applause("std")
         sound3 men_scream5
         customers1 "Ты чертовски охренительна, крошка!"
@@ -488,7 +488,7 @@ label pub_dance2_claire_dance2_move6:
         hide videov_Claire_Strip_6B
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_6B_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_16
 #        call pub_dance_battle_dialogues_applause("std")
         sound3 men_scream2
         customers5 "Смотрите как она танцует! Она профессионал!"
@@ -503,8 +503,8 @@ label pub_dance2_claire_dance2_move6:
         hide videov_Claire_Strip_6C
         show screen poledance_shoot("/images/Slides/v_Claire_Strip_6C_end.jpg")
         wclean
-        call pub_dance_claire2_dialogues_react(10)
-        call pub_dance_battle_dialogues_applause("std")
+        call pub_dance_claire2_dialogues_react(10) from _rcall_pub_dance_claire2_dialogues_react_17
+        call pub_dance_battle_dialogues_applause("std") from _rcall_pub_dance_battle_dialogues_applause_61
         customers4 "О, даааа!"
         customers5 "Эта Клэр! Она бесподобна!"
         customers3 "Клянусь мой член будет у нее между ног!"

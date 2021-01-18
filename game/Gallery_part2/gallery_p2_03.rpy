@@ -4333,7 +4333,7 @@ label gallery_34102:
             scene black_screen
             with Dissolve(1)
             music stop
-            call textonblack(t_("Некоторое время спустя..."))
+            call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_21
             scene black_screen
             with Dissolve(1)
             music Pyro_Flow
@@ -4648,7 +4648,7 @@ label gallery_34102:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_22
     scene black_screen
     with Dissolve(1)
     music Pyro_Flow

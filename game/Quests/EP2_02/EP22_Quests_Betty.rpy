@@ -126,7 +126,7 @@ label EP22_Quests_Betty5b:
         if fitness_gym_state == 1:
             call ep23_dialogues3_2() from _call_ep23_dialogues3_2
         if fitness_gym_state == 2:
-            call ep218_dialogues2_victoria_9()
+            call ep218_dialogues2_victoria_9() from _rcall_ep218_dialogues2_victoria_9
 
     $ move_object("Betty", "fitness_locker_2")
     $ move_object("Stephanie", "fitness_locker_2")

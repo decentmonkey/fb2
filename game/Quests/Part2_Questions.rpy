@@ -45,7 +45,7 @@ label part2_questions_init_loadgame:
     $ questHelpCurrentQuest = False
     $ questHelpCategoriesHistory = []
     $ questHelpCategoriesHistoryStatic = []
-    call questHelp_init()
+    call questHelp_init() from _rcall_questHelp_init_3
 
 #    call game_init()
 
@@ -688,7 +688,7 @@ label part2_questions_process(new_game_started):
             $ del map_objects["Teleport_JuliaHome"]
             $ set_active("Teleport_JuliaHome", False, scene="street_corner")
     else:
-        call ep218_quests_julia_init()
+        call ep218_quests_julia_init() from _rcall_ep218_quests_julia_init_1
 
 
     if new_game_started == True or marcus_visit1_completed == False:

@@ -177,7 +177,7 @@ label pub_dance_end1: # Обычное завершение танцев
     $ move_object("Pub_StripteaseGirl1", "empty")
     $ pubDanceGirlsBlockedDay = day
     $ pub_makeuproom_monica_suffix = 2
-    call process_hooks("end_dance_event", "global")
+    call process_hooks("end_dance_event", "global") from _rcall_process_hooks_59
     if _return == False:
         return False
     $ add_hook("enter_scene", "dialogue_5_dance_strip_18", scene="pub_makeuproom", once=True, label="dialogue_5_dance_strip_18")
