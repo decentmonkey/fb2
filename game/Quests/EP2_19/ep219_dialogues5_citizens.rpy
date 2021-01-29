@@ -7,7 +7,7 @@ default monicaCitizen4SlumsApartment6 = 0 # Моника согласилась 
 
 # при условии, что Моника ранее соглашалась на минет незнакомцу
 # при клике на него на улице
-label ep219_dialogues5_citizens_1a:
+label ep219_dialogues5_citizens_1b:
     citizen4 "Эй, детка!"
     citizen4 "Ты не хочешь доделать свою работу?"
     m "Какую еще работу?!"
