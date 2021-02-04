@@ -761,6 +761,8 @@ label ep219_dialogues5_citizens_1a:
             img 42941
             citizen4 "Да, детка."
             citizen4 "Хорошо, да..."
+            img 42949
+            w
             img 42942
             citizen4 "Сейчас он встанет!"
             img 42943
