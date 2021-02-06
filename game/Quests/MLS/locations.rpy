@@ -29,7 +29,7 @@
         # кабинет английского языка и литературы
         # кабинет изо:
             # https://evermotion.org/shop/show_product/scene-9-ai21-archinteriors/5938
-            # https://www.cgmodelx.com/model/details/32345.html
+            # + https://www.cgmodelx.com/model/details/32345.html
             # https://www.cgmodelx.com/model/details/20208.html
         # кабинет алгебры и геометрии
         # кабинет физики
@@ -41,15 +41,15 @@
         # учительская
         # школьная библиотека:
             # https://www.cgmodelx.com/model/details/38535.html
-            # https://www.cgmodelx.com/model/details/50359.html
+            # ? https://www.cgmodelx.com/model/details/50359.html
             # https://www.cgmodelx.com/model/details/11032.html
         # хоз. помещения (н-р, спорт. инвентарь)
     # крыша школы
 
 
 # вид на город сверху:
-    # https://www.cgmodelx.com/model/details/43181.html
-    # https://www.cgmodelx.com/model/details/11213.html
+    # ? https://www.cgmodelx.com/model/details/43181.html
+    # ? https://www.cgmodelx.com/model/details/11213.html
     # https://www.cgmodelx.com/model/details/54416.html
     # https://www.rayvatengineering.com/essential_grid/photodropping-of-3d-building-in-drone-map-photograph-finland/
     # https://www.rayvatengineering.com/essential_grid/14-aerial-view-of-land-parcel-arizona/
