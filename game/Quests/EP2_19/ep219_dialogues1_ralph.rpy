@@ -7,6 +7,12 @@ default monicaBettySexRalph_cumzone = 0
 
 define monicaRalphAnalCorruptionRequired1 = 850 # Моника согласилась на анал с Ральфом
 
+#call ep219_dialogues1_ralph_1() # Бетти обламывает Ральфа
+#call ep219_dialogues1_ralph_2() # секс Бетти и Ральфа
+#call ep219_dialogues1_ralph_3() # новый пункт "Анальный секс."
+#call ep219_dialogues1_ralph_4() # если Моника взяла у Ральфа деньги, мысли
+#call ep219_dialogues1_ralph_5() # если Моника намекнула Ральфу на его с Бетти развод, мысли
+
 # при условии, что у Бетти была групповуха
 # вечером в бывшей спальне Моники
 label ep219_dialogues1_ralph_1:

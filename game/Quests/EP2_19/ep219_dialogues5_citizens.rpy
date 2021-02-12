@@ -5,12 +5,30 @@ default monicaCitizen4SlumsApartment4 = 0 # Моника согласилась 
 default monicaCitizen4SlumsApartment5 = 0 # клик на незнакомца на улице, квест активирован
 default monicaCitizen4SlumsApartment6 = 0 # Моника согласилась на секс с незнакомцем
 
+default monicaCitizen4Sex_cumzone = 0
+
+define monicaCitizen4SexCorruptionRequired1 = 400 # Моника согласилась на предложение незнакомца и пошла с ним к себе домой
+define monicaCitizen4SexCorruptionRequired2 = 450 # Моника согласилась сделать минет незнакомцу
+define monicaCitizen4SexCorruptionRequired3 = 550 # Моника согласилась на секс с незнакомцем
+define monicaCitizen4SexCorruptionRequired4 = 500 # Моника согласилась на ликинг с незнакомцем
+
+
+#call ep219_dialogues5_citizens_1b() # при клике на незнакомца на улице
+#call ep219_dialogues5_citizens_1() # сцена в подъезде с незнакомцем
+#call ep219_dialogues5_citizens_1a() # с незнакомцем в квартире Моники
+#call ep219_dialogues5_citizens_2() # разговор с незнакомцем на улице, если отказала в подъезде
+#call ep219_dialogues5_citizens_3() # мысли Моники, если отказала незнакомцу в подъезде или выгнала из квартиры
+
+
 # при условии, что Моника ранее соглашалась на минет незнакомцу
 # при клике на него на улице
 label ep219_dialogues5_citizens_1b:
     # не рендерить!
+    music Groove2_85
+    imgr Dial_Citizen_4_3
     citizen4 "Эй, детка!"
     citizen4 "Ты не хочешь доделать свою работу?"
+    imgl Dial_begin35_22
     m "Какую еще работу?!"
     citizen4 "Которую прервала та двинутая баба в красном платье!"
     #
@@ -20,7 +38,9 @@ label ep219_dialogues5_citizens_1b:
     citizen4 "Условия нашей сделки те же: отсасываешь у меня - получаешь $ 100."
     citizen4 "Ну что? Пошли!"
     # нагло берет ее за руку и тянет за собой
-    m "Эй! Ты что делаешь?!"
+    music Stealth_Groover
+    imgl Dial_begin35_16
+#    m "Эй! Ты что делаешь?!"
     m "Я никуда с тобой не пойду!"
     m "!!!"
     # Моника резко выдергивает свою руку
@@ -28,10 +48,14 @@ label ep219_dialogues5_citizens_1b:
     mt "Я не могу себе этого позволить!"
     mt "Я еще не настолько опустилась!"
     mt "И, надеюсь, этого не произойдет НИКОГДА!"
-    m "НЕТ!!!"
+    imgl Dial_begin35_17
+#    m "НЕТ!!!"
     m "Я не собираюсь заключать никакие сделки!!!"
     m "Тем более, с тобой!!!"
     m "Чертов извращенец!"
+    music Groove2_85
+    imgl Dial_begin35_16
+    imgr Dial_Citizen_4_4
     citizen4 "Ну и пошла ты!"
     citizen4 "Видимо, не так уж тебе нужны эти сто баксов..."
     # он уходит
@@ -125,6 +149,7 @@ label ep219_dialogues5_citizens_1:
     m "Черт!"
     m "!!!"
     # corruption
+    $ menu_corruption = [monicaCitizen4SexCorruptionRequired1, 0]
     menu:
         "Согласиться на его предложением.":
             $ monicaCitizen4SlumsApartment1 = day # Моника в подъезде согласилась привести к себе незнакомца
@@ -183,44 +208,55 @@ label ep219_dialogues5_citizens_1a:
     # смена кадра
     # апартаменты Моники
     # незнакомец стоит один в гостиной
-    img 42797
+    fadeblack
+    sound snd_door_open1
+    pause 1.5
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 42797
     citizen4 "Эй, детка! Ты где?"
     citizen4 "Мне долго еще ждать?!"
     # в гостиную заходит недовольная Моника в домашнем аутфите
-    img 42798
+    sound snd_walk_barefoot
+    imgf 42798
     m "Я здесь!"
     m "И незачем так орать! Это неприлично!"
-    img 42799
+    imgd 42799
     citizen4 "О, нормальный прикид."
-    img 42800
+    imgd 42800
     citizen4 "А то всегда вижу тебя в одном и том же."
     # расстегивает штаны и достает свой стояк
-    img 42801
+    imgf 42801
     w
-    img 42802
+    sound vjuh3
+    imgd 42802
     citizen4 "Сосать будешь с голыми сиськами."
-    img 42803
+    imgd 42803
     citizen4 "Иначе уменьшу оплату."
     # Моника бесится
-    img 42804
+    music Pyro_Flow
+    img 42804 vpunch
     m "Ты!.."
     m "Да кто ты такой, чтобы разговаривать со мной в подобном тоне?!"
     m "И еще указывать, что мне делать и как?!"
     # он смотрит на нее как на дуру
-    img 42805
+    music Groove2_85
+    imgd 42805
     citizen4 "Слышь, детка. Давай обойдемся без этих реверансов."
     citizen4 "На самом деле все просто. Ты работаешь, я плачу деньги."
     citizen4 "Не хочешь работать - я найду себе другую шлюху."
     citizen4 "А ты останешься без 130 баксов в кармане."
-    img 42806
+    img 42806 hpunch
     m "!!!"
-    img 42807
+    imgd 42807
     citizen4 "Все, хорош болать!"
     # он указывает на свой член
+    sound Jump1
     img 42808
     citizen4 "Давай, используй свой рот по назначению!"
     # Моника медлит
-    img 42809
+    imgf 42809
     mt "Черт!"
     mt "..."
     menu:
@@ -228,62 +264,79 @@ label ep219_dialogues5_citizens_1a:
             pass
         "Отказаться!":
             # Моника зло на него смотрит
-            img 42810
+            music Pyro_Flow
+            imgd 42810
             mt "Я не могу себе этого позволить!"
             mt "Я еще не настолько опустилась!"
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             # Моника выгоняет его из квартиры
-            img 42811
+            imgd 42811
             m "НЕТ!!!"
             m "Я не собираюсь делать это!!!"
             m "Тем более, с тобой!!!"
-            img 42812
+            sound Jump2
+            img 42812 vpunch
             m "Пошел вон отсюда!" # толкает его в дверь
             m "Еще раз увижу тебя в своем подъезде - позвоню в полицию!"
-            img 42813
+            sound anger2
+            img 42813 hpunch
             m "Чертов извращенец!"
-            return
+            fadeblack
+            sound snd_door_open1
+            pause 1.5
+            return False
     # Моника в замешательстве
-    img 42814
+    music Groove2_85
+    imgd 42814
     m "Ты точно мне заплатишь $ 130?"
-    img 42815
+    sound Jump2
+    imgd 42815
     citizen4 "Ага. Вот они." # показывает купюры
-    img 42816
+    imgf 42816
     citizen4 "Оголяй сиськи и соси!"
-    citizen4 "Достала меня уже своей болтовней!"\
+    citizen4 "Достала меня уже своей болтовней!"
+    music Power_Bots_Loop
     img 42817
     mt "Мерзкий! Невоспитанный! Бесполезный и никчемный подонок!"
     mt "!!!"
     # коррапшн
+    $ menu_corruption = [monicaCitizen4SexCorruptionRequired2, 0]
     menu:
         "Оголить грудь и сделать минет.":
             $ monicaCitizen4SlumsApartment2 = day # Моника согласилась оголить грудь и сделать минет незнакомцу
             pass
         "Отказаться!":
             # Моника зло на него смотрит
-            img 42810
+            music Pyro_Flow
+            imgd 42810
             mt "Я не могу себе этого позволить!"
             mt "Я еще не настолько опустилась!"
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             # Моника выгоняет его из квартиры
-            img 42811
+            imgd 42811
             m "НЕТ!!!"
             m "Я не собираюсь делать это!!!"
             m "Тем более, с тобой!!!"
-            img 42812
+            sound Jump2
+            img 42812 vpunch
             m "Пошел вон отсюда!" # толкает его в дверь
-            img 42813
+            sound anger2
+            img 42813 hpunch
             m "Еще раз увижу тебя в своем подъезде - позвоню в полицию!"
             m "Чертов извращенец!"
-            return
+            fadeblack
+            sound snd_door_open1
+            pause 1.5
+            return False
     # Моника не торопится, думает
-    img 42818
+    music Groove2_85
+    imgf 42818
     mt "Мне нужны эти деньги!"
     mt "В конце концов, мне важен каждый цент в достижении моей цели!"
     mt "Я верну себе свою роскошную жизнь!"
     mt "И забуду все, что со мной происходит сейчас, как страшный сон!"
     # незнакомец вырывает ее из ее мыслей
-    img 42819
+    imgd 42819
     citizen4 "Эй, детка! Ты всегда такая тормознутая?"
     citizen4 "Снимай свою майку!"
     img 42820
@@ -292,11 +345,12 @@ label ep219_dialogues5_citizens_1a:
         "Оголить грудь."
             pass
     # Моника снимает топ, либо приспускает лямки, оголяя грудь
-    img 42821
+    imgf 42821
     w
-    img 42822
+    sound vjuh3
+    imgd 42822
     w
-    img 42823
+    imgf 42823
     citizen4 "Ну наконец-то!"
     citizen4 "А теперь займись делом!"
     citizen4 "Давай быстрее!"
@@ -304,165 +358,223 @@ label ep219_dialogues5_citizens_1a:
         "Сделать минет."
             pass
     # Моника опускает перед ним на колени, бросая злые взгляды на него
-    img 42824
+    fadeblack
+    sound snd_walk_barefoot
+    pause 2.0
+    music Groove2_85
+    imgf 42824
     citizen4 "Давай-давай!"
     citizen4 "Открывай свой рот!"
     citizen4 "И доделывай до конца, а не как в прошлый раз!"
     citizen4 "Иначе не заплачу ни цента!"
-    img 42825
+    imgd 42825
     mt "Как все это мерзко!"
     mt "Грязно!"
     mt "Отвратительно!!!"
     mt "!!!"
     # Моника открывает рот и вбирает в себя его член
-    img 42826
+    music Loved_Up
+    sound2 chpok6
+    imgf 42826
     citizen4 "Ммммм..."
-    img 42827
+    imgd 42827
     citizen4 "Даааа..."
     citizen4 "Хорошо..."
-    img 42828
+    imgd 42828
     citizen4 "Аааа..."
     citizen4 "Наконец-то ты доделаешь начатое..."
-    img 42829
+    imgf 42829
     citizen4 "И нам никто не помешает..."
     citizen4 "Не как в тот раз..."
-    img 42830
+    imgd 42830
+    w
     # незнакомец довольно закрывает глаза
     # тут вспышка, типа его воспоминание
     # кадр из встречи с Перри, когда она застукала Монику за минетом
+    $ blur_effect = 2
+    music Power_Bots_Loop
     img 19089
+    $ blur_effect = 0
     perry "Я эту сучку везде ищу!"
     perry "А она тут развлекается с мужиками!"
     # он испуганно открывает глаза
-    img 42831
+    music stop
+    sound plastinka1b
+    img 42831 hpunch
     citizen4 "Черт!!!"
+    music Turbo_Tornado
     citizen4 "Снова она мне мерещится!"
     citizen4 "Твою мать! Как отсос, так теперь эта дура у меня перед глазами!"
     # Моника выпускает его член изо рта
-    img 42832
+    imgd 42832
     m "Кого ты назвал дурой?!"
     # он раздраженно берет ее за голову и снова запихивает член ей в рот
-    img 42833
+    sound Jump1
+    imgd 42833
     citizen4 "Да не тебя! Черт!"
-    img 42834
+    music Loved_Up
+    sound2 Jump2
+    img 42834 vpunch
     citizen4 "Давай соси!"
-    img 42835
+    imgd 42835
     citizen4 "И глубже бери!"
     # даваит на ее затылок, толкаясь глубже ей в рот
-    img 42836
+    sound chavc6
+    img 42836 vpunch
     citizen4 "Еще глубже!"
     citizen4 "Давай-давай!"
     # Моника давится
     m "!!!"
-    img 42837
+    imgf 42837
     m "ХПФМММ!"
     m "ММПППХХХФФФФ!!!"
-    img 42838
+    imgd 42838
     citizen4 "Дааа... Хорошо!"
     citizen4 "Оооо..."
-    img 42839
+    imgd 42839
     citizen4 "Двигай своей головой быстрее!"
     citizen4 "Еще! Еще!"
     # начинает кайфовать
-    img 42840
+    imgf 42840
     citizen4 "Мммм..."
-    img 42841
+    imgd 42841
+    w
     # снова закрывает глаза от удовольствия
     # новая вспышка - опять Перри, только уже якобы она в квартире Моники и стоит рядом с ним
     # Перри орет возмущенно
-    img 42842
+    $ blur_effect = 1
+    music Power_Bots_Loop
+    imgd 42842
+    $ blur_effect = 0
     perry "130 баксов?!"
     perry "Эта проститутка сосет за 130 баксов?!"
-    img 42843
+    sound men_scream5
+    img 42843 vpunch
     perry "И не отдает мне МОИ деньги!!!"
+    music Turbo_Tornado
     citizen4 "Сукааа!"
     img 42844
     citizen4 "Да хватит уже преследовать меня!"
     citizen4 "Уйди! Уйди отсюда!"
-    img 42845
+    sound men_scream5
+    imgd 42845
     citizen4 "Аааа!!!"
-    img 42844
+    sound Jump1
+    img 42844 hpunch
+    w
     # он испуганно оглядывается
     # Моника выпускает его член изо рта, тот грустно повисает, стояка как ни бывало
     # Моника смотрит в недоумении на упавший член
-    img 42846
+    sound vjuh3
+    imgd 42846
     w
-    img 42847
+    imgd 42847
     w
-    img 42848
+    imgf 42848
     m "?!"
     # потом поднимает глаза на психующего незнакомца
-    img 42849
+    music Groove2_85
+    imgd 42849
     m "?!?!?!"
     m "У тебя что, галлюцинации?"
     img 42850
     citizen4 "Не твое дело!!!"
-    img 42851
+    imgf 42851
     m "Ты какого черта не предупредил меня, что ты больной?!"
     m "На всю голову притом!"
     # он психует
-    img 42852
+    imgd 42852
     citizen4 "Хватит задавать вопросы!"
     citizen4 "Работай давай!"
     # Моника многозначительно смотрит на его упавший член
-    img 42853
+    imgd 42853
     m "..."
     citizen4 "Чего ты смотришь?!"
     citizen4 "Поднимай его!"
     # Моника берет уго упавший член в рот
-    img 42854
+    fadeblack 1.5
+    music Loved_Up
+    imgf 42854
     citizen4 "Да..."
-    img 42855
+    imgd 42855
     w
-    img 42856
+    sound lick3
+    imgd 42856
     w
-    img 42857
+    sound lick3
+    imgd 42855
+    w
+    sound lick3
+    imgd 42856
+    w
+    sound lick3
+    imgd 42855
+    w
+    sound lick3
+    imgd 42856
+    w
+    sound chpok6
+    imgd 42857
     citizen4 "Соси старательнее..."
     citizen4 "Сейчас встанет, да... Сейчас... Вот уже..."
-    img 42858
+    imgf 42858
     citizen4 "О, да..."
-    img 42859
+    imgd 42859
     citizen4 "Молодец, детка!"
     citizen4 "Давай, глубже!"
-    img 42860
+    imgf 42860
     citizen4 "Ты же знаешь, как мне нравится это."
-    img 42861
+    imgd 42861
     citizen4 "Вот так, да..."
     # снова закрывает глаза, кайфуя
     # вспышка - Перри сидит на куштке у Моники в апартаментах, м.б. задрав платье и раздвинув ноги, и довольно говорит
-    img 42862
+    $ blur_effect = 2
+    imgd 42862
+    $ blur_effect = 0
     perry "Теперь ты от меня никуда не денешься!"
     # незнакомец начинает орать и отталкивает Монику от себя
     # член снова висит
-    img 42863
+    music Turbo_Tornado
+    sound2 men_scream5
+    img 42863 hpunch
     citizen4 "Аааа!!!"
+    sound Jump1
     img 42864
     citizen4 "Нет-нет-нет!"
     # ситизен машет руками, как-будто отгоняет кого-то невидимого
-    img 42865
+    imgd 42865
     citizen4 "Я не хочу так!"
+    sound Jump2
     img 42866
     citizen4 "Не надо!"
     # Моника смотрит на него как на идиота
-    img 42867
+    music Groove2_85
+    imgf 42867
     mt "Может, он обкурился?"
     # если Моника водила к себе Найджела
-    img 42867
-    mt "Не хватало еще одного укурка в моем доме!"
-    mt "!!!"
+    if monicaCitizens9Slums2 > 0:
+        imgd 42867
+        mt "Не хватало еще одного укурка в моем доме!"
+        mt "!!!"
     # Моника встает руки в боки
-    img 42868
+    music Power_Bots_Loop
+    sound2 men_scream5
+    img 42868 hpunch
     m "Эй, ты! Хватит орать!"
     m "Если ты так не хочешь, можешь валить отсюда!"
     # он немного подуспокоился и смотрит на Монику, потом на свой член
-    img 42869
+    sound Jump2
+    imgd 42870
+    w
+    music Groove2_85
+    imgd 42869
     w
     img 42870
     citizen4 "Поднимай его!"
-    img 42871
+    imgd 42871
     m "Ты издеваешься?!"
     m "Сколько можно?!"
-    img 42872
+    imgd 42872
     citizen4 "Шлюхе рот нужен не для того, чтобы возмущаться!"
     citizen4 "А для того, чтобы сосать!"
     citizen4 "Давай работай!!!"
@@ -475,79 +587,112 @@ label ep219_dialogues5_citizens_1a:
         "Делать минет.":
             pass
     # Моника берет уго упавший член в рот
-    img 42874
+    fadeblack 1.5
+    music Loved_Up
+    imgf 42874
     w
-    img 42875
+    imgd 42875
     w
-    img 42876
+    imgf 42876
     w
-    img 42877
+    sound lick3
+    imgd 42877
     w
-    img 42878
+    sound lick3
+    imgd 42876
+    w
+    sound lick3
+    imgd 42877
+    w
+    sound lick3
+    imgd 42876
+    w
+    sound lick3
+    imgd 42877
+    w
+    sound chpok6
+    imgd 42878
     citizen4 "Да..."
-    img 42879
+    imgf 42879
     citizen4 "Cтарайся лучше..."
     # у него не встает
-    img 42880
+    imgd 42880
     citizen4 "Давай активнее!"
     citizen4 "Ты что, член ни разу не поднимала?"
     # Моника отстраняется и зло на него смотрит
-    img 42881
+    img 42881 vpunch
     mt "!!!"
     menu:
         "Делать минет еще усерднее.":
-            img 42882
+            music Hidden_Agenda
+            imgd 42882
             mt "Черт с ним!"
             mt "Это делает не Моника Бакфетт!"
-            mt "Пусть это будет [monica_pub_name]!" # если работает или работала в пабе
-            mt "Или [monica_hotel_name]!" # если работает или работала в эскорте
+            if monica_shiny_hole_queen_day == 210:
+                mt "Пусть это будет [monica_pub_name]!" # если работает или работала в пабе
+            if monica_escort_service_started == True:
+                mt "Или [monica_hotel_name]!" # если работает или работала в эскорте
             mt "Зато у меня станет на $ 130 больше!"
             # она снова берет в рот его член и начинает делать минет быстрее
-            img 42886
+            music Loved_Up
+            sound2 chpok6
+            imgf 42886
             citizen4 "Быстрее!!!"
             citizen4 "Сейчас встанет! Сейчас!.."
-            img 42887
+            imgd 42887
             citizen4 "О, да..."
             citizen4 "Еще-еще!"
-            img 42888
+            imgd 42888
             citizen4 "Оооо!"
-            img 42889
+            imgf 42889
             citizen4 "Дааа!!!"
             # у него встал
             # он торопливо, испуганно оглядываясь
+            sound hlup10
             img 42890
             w
-            img 42891
+            music Turbo_Tornado
+            sound2 Jump1
+            imgd 42891
+            w
+            img 42892
             citizen4 "А теперь раздевайся и ложись на кровать!"
             citizen4 "Сейчас я буду тебя трахать!"
             citizen4 "Снимай свои тряпки!"
-            img 42892
+            imgd 42893
             citizen4 "Ложись и раздвинь ноги!"
             citizen4 "Давай быстрее! Шевелись!"
-            img 42893
             mt "!!!"
             # коррапшн
+            $ menu_corruption = [monicaCitizen4SexCorruptionRequired3, 0]
             menu:
                 "Сделать, как он говорит.":
                     $ monicaCitizen4SlumsApartment6 = day # Моника согласилась на секс с незнакомцем
                     pass
                 "Отказаться!":
                     # Моника зло на него смотрит
-                    img 42894
+                    music Pyro_Flow
+                    imgf 42894
                     mt "Я еще не настолько опустилась!"
                     mt "И, надеюсь, этого не произойдет НИКОГДА!"
                     # Моника выгоняет его из квартиры
-                    img 42883
+                    img 42883 hpunch
                     m "НЕТ!!!"
                     m "Я не собираюсь делать это!!!"
-                    img 42884
+                    sound Jump2
+                    imgd 42884
                     m "Пошел вон отсюда!" # толкает его в дверь
                     m "Еще раз увижу тебя в своем подъезде - позвоню в полицию!"
-                    img 42885
+                    sound anger2
+                    img 42885 vpunch
                     m "Чертов извращенец!"
-                    return
+                    fadeblack
+                    sound snd_door_open1
+                    pause 1.5
+                    return False
             # Моника не торопится, думает
-            img 42894
+            music Pyro_Flow
+            imgf 42894
             mt "Это все, конечно, грязно и отвратительно!"
             mt "Я ни за что не поверила бы, что способна согласиться на такое!"
             mt "Но все же... 130 долларов..."
@@ -558,114 +703,171 @@ label ep219_dialogues5_citizens_1a:
                     pass
             # Моника снимает трусики
             # незнакомец стоит и дрочит
-            img 42895
+            fadeblack
+            sound snd_fabric1
+            pause 2.0
+            music Groove2_85
+            imgfl 42895
             citizen4 "Дьявол!!!"
-            img 42896
+            imgf 42896
             citizen4 "Давай быстрее, пока не упал!"
-            img 42897
+            sound drkanje5
+            imgd 42897
             citizen4 "Давай-давай!"
             # Моника идет к кушетке, ложится на нее, сдвинув ноги
             # незнакомец подходит ближе
-            img 42898
+            sound vjuh3
+            img 42898 vpunch
             w
-            img 42899
+            sound vjuh3
+            img 42899 vpunch
             w
-            img 42900
+            fadeblack
+            sound snd_walk_barefoot
+            pause 2.0
+            music Groove2_85
+            imgfl 42900
             citizen4 "И?!"
-            img 42901
+            imgf 42901
             citizen4 "Чего ты ждешь?"
             citizen4 "Покажи мне, что там у тебя!"
             menu:
                 "Раздвинуть ноги.":
                     pass
             # Моника зло на него смотрит
-            img 42902
+            imgd 42902
             mt "Никчемный, бесполезный придурок!"
             mt "Псих!"
-            img 42903
+            imgf 42903
             w
+            sound Jump1
             img 42904
             # раздвигает ноги
             # он лезет к ней на кушетку
             # хватает ее за щиколотки и задирает ее ноги
             # входит в нее
-            img 42905
+            imgf 42905
             citizen4 "Ооо... Твою мать!"
             citizen4 "Охренительно!"
-            img 42906
+            imgd 42906
             mt "Омерзительно!!!"
             # задирает ноги Моники так, что они практически у ее лица, она почти складывается поплам
-            img 42907
+            music Loved_Up
+            imgf 42907
             citizen4 "Давно я не трахал такую аппетитную шлюху!"
-            img 42908
+            sound Jump2
+            imgd 42908 hpunch
             w
-            img 42909
+            imgd 42909
             mt "Сволочь! Когда он уже от меня отстанет?!"
             mt "Зачем я вообще согласилась на такое?!"
             mt "Разве $ 130 стоят таких унижений, Моника?!"
             mt "Ты притащила к себе домой какого-то шизанутого хмыря!"
-            img 42910
+            imgd 42910
             mt "Теперь лежишь на кушетке с его грязным отростком внутри тебя!"
             mt "Моника, как ты могла допустить подобное?"
             mt "Да что с тобой творится?!"
             mt "Неужели для тебя ЭТО становится нормой?!"
             mt "!!!"
-            img 42911
+            imgf 42911
             citizen4 "Буду заходить к тебе почаще теперь, детка!"
             citizen4 "Мммм..."
-            img 42912
+            imgd 42912
             citizen4 "К черту отсосы! Мне гораздно приятнее трахать тебя в твою дырку!"
             citizen4 "Аааа! Круто как!"
-            img 42913
+            imgd 42913
             citizen4 "За такое и $ 130 не жалко дать тебе!"
             citizen4 "Оооо..."
-            img 42914
+            imgf 42914
             citizen4 "В следующий раз готовь свою задницу, детка! Да!!"
             citizen4 "Я трахну тебя так, что ты ходить не сможешь несколько дней!"
-            img 42915
+            imgd 42915
             mt "!!!"
             citizen4 "Я буду твоим самым щедрым клиентом!"
             citizen4 "А значит, самым желанным. Ха!"
             citizen4 "И никакая баба в красном платье мне не помешает больше!"
-            img 42916
+            music Loved_Up2
+            imgf 42916
             citizen4 "Ааааа!"
             citizen4 "Я скоро кончу!"
             citizen4 "Какая же охренительная у меня сегодня шлюха!"
             mt "!!!"
-            img 42917
+            imgd 42917
             citizen4 "Дааа!"
             citizen4 "Еще немного!"
-            img 42918
+            imgd 42918
             citizen4 "Быстрее! Давай!"
             citizen4 "Дааааа..."
             menu:
                 "Кончить на киску Моники.":
+                    $ monicaCitizen4Sex_cumzone = 1
                     img 42919
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
                     citizen4 "Ааааа!!!"
                     img 42920
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
+                    sound man_moan18
                     citizen4 "АААААА!!!"
-                    img 42921
+                    sound hlup10
+                    imgd 42921
+                    w
                     pass
                 "Кончить внутрь Моники.":
+                    $ monicaCitizen4Sex_cumzone = 2
                     img 42919
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
                     citizen4 "Ааааа!!!"
                     img 42923
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
+                    sound man_moan18
                     citizen4 "АААААА!!!"
                     pass
                 "Кончить на грудь Моники.":
+                    $ monicaCitizen4Sex_cumzone = 3
                     img 42919
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
                     citizen4 "Ааааа!!!"
                     img 42920
+                    sound bulk1
+                    show screen photoshot_screen()
+                    with hpunch
+                    pause 0.7
+                    hide screen photoshot_screen
+                    sound man_moan18
                     citizen4 "АААААА!!!"
-                    img 42922
+                    sound hlup10
+                    imgd 42922
                     pass
             # незнакомец довольно садится на кушетке
-            img 42924
+            fadeblack 1.5
+            music Groove2_85
+            imgfl 42924
             citizen4 "Кайф!"
-            img 42925
+            imgf 42925
             citizen4 "Считай, что наша сегодняшняя сделка закрыта."
             # Моника с ненавистью смотрит на него
-            img 42926
+            music Pyro_Flow
+            imgd 42926
             mt "Никчемный мешок дерьма!"
             mt "Моника, больше чтоб ноги его не было в твоем доме!"
             mt "Жалкий трущобный отброс общества!"
@@ -674,11 +876,12 @@ label ep219_dialogues5_citizens_1a:
             pass
         "Нет, хватит!":
             # Моника возмущенно
-            img 42927
+            music Pyro_Flow
+            img 42927 hpunch
             m "Да сколько можно?!"
             m "Ты что, не видишь, что это бесполезно?!"
             # он психует
-            img 42928
+            imgd 42928
             citizen4 "Черт с тобой!"
             citizen4 "Больше никаких отсосов!"
             citizen4 "Давай, раздевайся!"
@@ -689,38 +892,49 @@ label ep219_dialogues5_citizens_1a:
             m "Вот этим?!" # указывает пальцем
             m "Или мне снова нужно поднимать его?"
             # он испуганно оглядываясь
-            img 42930
+            music Turbo_Tornado
+            sound2 Jump2
+            img 42930 hpunch
             citizen4 "Нет! Никаких отсосов больше!"
             citizen4 "Не прикасайся ко мне своим ртом!"
             # хватается за свой член и начинает яростно надрачивать
-            img 42931
+            imgd 42931
             citizen4 "Снимай свои тряпки!"
             citizen4 "Сядь на кушетку и раздвинь ноги!"
             citizen4 "Давай быстрее! Шевелись!"
-            img 42932
+            #music Groove2_85
+            imgd 42932
             mt "!!!"
             # коррапшн
+            $ menu_corruption = [monicaCitizen4SexCorruptionRequired4, 0]
             menu:
                 "Сделать, как он говорит.":
                     $ monicaCitizen4SlumsApartment3 = day # Моника согласилась раздеться и раздвинуть ноги для незнакомца
                     pass
                 "Отказаться!":
                     # Моника зло на него смотрит
-                    img 42933
+                    music Pyro_Flow
+                    imgf 42933
                     mt "Я еще не настолько опустилась!"
                     mt "И, надеюсь, этого не произойдет НИКОГДА!"
                     # Моника выгоняет его из квартиры
-                    img 42883
+                    imgd 42883
                     m "НЕТ!!!"
                     m "Я не собираюсь делать это!!!"
-                    img 42884
+                    sound Jump2
+                    img 42884 vpunch
                     m "Пошел вон отсюда!" # толкает его в дверь
                     m "Еще раз увижу тебя в своем подъезде - позвоню в полицию!"
-                    img 42885
+                    sound anger2
+                    img 42885 vpunch
                     m "Чертов извращенец!"
-                    return
+                    fadeblack
+                    sound snd_door_open1
+                    pause 1.5
+                    return False
             # Моника не торопится, думает
-            img 42933
+            music Pyro_Flow
+            imgf 42933
             mt "Это все, конечно, грязно и отвратительно!"
             mt "Я ни за что не поверила бы, что способна согласиться на такое!"
             mt "Но все же... 130 долларов..."
@@ -731,19 +945,31 @@ label ep219_dialogues5_citizens_1a:
                     pass
             # Моника снимает трусики
             # незнакомец стоит и продолжает дрочить, но стояка все нет
-            img 42934
+            fadeblack
+            sound snd_fabric1
+            pause 2.0
+            music Groove2_85
+            imgfl 42934
             citizen4 "Дьявол!!!"
             citizen4 "Сядь и раздвинь ноги!"
-            img 42935
+            imgf 42935
             citizen4 "Давай-давай!"
-            img 42936
+            sound drkanje5
+            imgd 42936
+            w
             # Моника идет к кушетке, садится на нее, сдвинув ноги
             # незнакомец подходит ближе
-            img 42898
+            sound vjuh3
+            img 42898 hpunch
             w
-            img 42899
+            sound vjuh3
+            img 42899 hpunch
             w
-            img 42937
+            fadeblack
+            sound snd_walk_barefoot
+            pause 2.0
+            music Groove2_85
+            imgf 42937
             citizen4 "И?!"
             citizen4 "Чего ты ждешь?"
             citizen4 "Покажи мне, что там у тебя!"
@@ -751,44 +977,72 @@ label ep219_dialogues5_citizens_1a:
                 "Раздвинуть ноги.":
                     pass
             # Моника зло на него смотрит
-            img 42938
+            imgd 42938
             mt "Никчемный, бесполезный придурок!"
             mt "Псих!"
-            img 42939
+            imgd 42939
             w
+            sound Jump2
             img 42940
+            w
             # раздвигает ноги
-            img 42941
+            music Loved_Up
+            imgf 42941
             citizen4 "Да, детка."
             citizen4 "Хорошо, да..."
-            img 42949
+            imgd 42949
             w
-            img 42942
+            imgf 42942
             citizen4 "Сейчас он встанет!"
-            img 42943
+            sound drkanje5
+            imgd 42943
+            w
+            sound drkanje5
+            imgd 42942
+            w
+            sound drkanje5
+            imgd 42943
             citizen4 "Еще немного и встанет!"
+            sound drkanje5
+            imgd 42942
+            w
+            sound drkanje5
+            imgd 42943
+            w
             # дрочит-дрочит, а эффекта ноль
             # он психует еще больше
-            img 42944
+            scene black_screen
+            with Dissolve(1)
+            music stop
+            call textonblack(t_("Несколько минут спустя..."))
+            scene black_screen
+            with Dissolve(1)
+            music Groove2_85
+            imgf 42944
             w
-            img 42945
+            imgd 42945
             citizen4 "Сейчас я вставлю его и все получится!"
             # пытается тыкнуться в Монику своим вялым членом, но у него ничего не получается
-            img 42946
+            fadeblack 1.5
+            music Groove2_85
+            imgf 42946
             citizen4 "Твою мать!"
-            img 42947
+            sound hlup10
+            imgd 42947
             citizen4 "Чертова баба в красном платье!"
-            img 42948
+            imgd 42948
             citizen4 "Это все из-за нее! Тварь!"
             # Моника удивленно на него смотрит
-            img 42950
+            imgf 42950
             citizen4 "Да сколько можно!"
             citizen4 "Черт! Давай, хоть отлижу у тебя!"
             # он продолжает дрочить и резко присасывается к киске Моники губами
-            img 42951
+            music Turbo_Tornado
+            sound2 Jump1
+            img 42951 vpunch
             m "Ай! Что ты делаешь?!"
             # она пытается оттолкнуть его голову, но он присосался намертво
-            img 42952
+            imgd 42952
             citizen4 "Ммммм..."
             m "Мы так не договаривались!!!"
             # от отрывается от ее киски, чтобы сказать
@@ -797,63 +1051,96 @@ label ep219_dialogues5_citizens_1a:
             citizen4 "Я у тебя отлижу, ты заработаешь $ 130."
             citizen4 "А сейчас закрой свой рот и не мешай мне!"
             # и снова присасывается
-            img 42954
+            music Loved_Up
+            imgf 42954
             citizen4 "Мммм..."
             # Моника в недоумении смотрит на него, сидя на кушетке и широко раздвинув ноги
-            img 42955
+            imgd 42955
             mt "Ему что, действительно так нравится делать это с моей киской?!"
             mt "Это же... Гадко!"
             mt "Фу!"
-            img 42956
+            imgd 42956
             mt "Это удивительно, что вокруг меня столько извращенцев..."
             mt "Еще попадаются и больные на голову, как этот кретин!"
             # он усердно лижет ее киску и продолжает дрочить
             # член встает
-            img 42957
+            sound lick3
+            imgf 42957
             citizen4 "Мпфааа!!!"
-            img 42955
+            imgd 42955
             citizen4 "Дааа..."
+            sound vjuh3
             img 42959
             citizen4 "Это сработало!" # радостно
             # снова присасывается и дрочит себе
-            img 42960
+            imgd 42960
             w
-            img 42961
+            sound drkanje5
+            imgd 42961
             w
-            img 42962
+            sound drkanje5
+            imgd 42960
+            w
+            sound drkanje5
+            imgd 42961
+            w
+            sound drkanje5
+            imgd 42960
+            w
+            sound drkanje5
+            imgd 42961
+            w
+            imgf 42962
             citizen4 "Вот так тебе, сучка в красном платье!"
             citizen4 "Пошла ты!"
             mt "?!"
-            img 42963
+            imgd 42963
             citizen4 "Я все равно кончу, слышишь?!"
             citizen4 "И ни хрена ты мне не помешаешь, шлюшка!"
-            img 42964
+            imgf 42964
             mt "Боже, он совсем не в адеквате!"
             mt "Надо заканчивать с этим быстрее!"
             mt "И выгонять его!"
-            img 42965
+            imgd 42965
             mt "Черт знает, что ему еще померещится!"
             mt "Не хватало мне с ним проблем!"
             mt "!!!"
             # он лижет и приговаривает
-            img 42966
+            music Loved_Up2
+            imgf 42966
             citizen4 "Оооо..."
             citizen4 "Дааа!"
-            img 42967
+            imgd 42967
             citizen4 "Я кончу совсем скоро! Наконец-то!"
             citizen4 "Мммм!!!"
             # дрочит, а потом кончает, не переставая присасываться к киске Моники
-            img 42966
+            imgd 42966
             citizen4 "Я кончаю! Кончаю!"
             citizen4 "Мммпфф!!!"
             img 42969
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             citizen4 "Мпфхфпфф!!!"
             img 42970
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
             citizen4 "МПФААА!!!"
             # кончает себе на руку
             img 42971
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan18
             citizen4 "Охренительно!!!"
-            img 42972
+            imgd 42972
             mt "Омерзительно!!!"
             mt "Дебил!"
             mt "Моника, вытряхивай скорее этого никчемного психа со своей квартиры!"
@@ -862,21 +1149,31 @@ label ep219_dialogues5_citizens_1a:
     # затемнение
     # они оба стоят одетые
     # незнакомец доволен, как слон
-    img 42973
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Groove2_85
+    imgfl 42973
     citizen4 "Детка, ты хорошо поработала."
     m "Давай мне мои деньги!"
-    img 42974
+    imgf 42974
     citizen4 "Держи свои 130 баксов, как договаривались."
     citizen4 "Мне понравилось."
     citizen4 "Я еще приду к тебе."
-    img 42817
+    $ add_money(130.0)
+    imgd 42817
     mt "Нет!"
     mt "Это был первый и последний раз!"
     mt "!!!"
-    img 42975
+    imgf 42975
+    w
+    fadeblack
+    sound snd_door_open1
+    pause 1.5
+    music Pyro_Flow
     # он разворачивается и уходит
     # Моника стоит недвольная
-    img 42976
+    imgf 42976
     mt "Моника, в твоем кармане стало на $ 130 больше."
     mt "Но каким путем?!"
     mt "?!?!?!"
@@ -884,7 +1181,7 @@ label ep219_dialogues5_citizens_1a:
     mt "Если ты не прекратишь водить к себе домой всяких трущобных отбросов!.."
     mt "Я боюсь, что тебе будет все тяжелее и тяжелее оставаться нормальным адекватным человеком!"
     mt "И ты превратишься в одну из тех падших женщин, которые стоят рядом со старой грымзой на улице!"
-    img 42977
+    imgd 42977
     mt "О, Боги! Нет-нет!"
     mt "Не хочу даже думать об этом!!!"
     mt "Моника Бакфетт никогда не опустится до такого дна!!!"
@@ -895,32 +1192,42 @@ label ep219_dialogues5_citizens_1a:
 # если Моника отказала незнакомцу в подъезде
 # при клике на него на улице
 label ep219_dialogues5_citizens_2:
-    img 19038
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 19038
     citizen4 "Эй, детка!"
     citizen4 "Ты решила воспользоваться моим предложением и доделать свою работу?"
     m "!!!" # молчит зло
-    img 13371
+    imgf 13371
     citizen4 "Условия нашей сделки те же: отсасываешь у меня - получаешь $ 100."
-    img 42978
+    sound Jump2
+    img 42978 hpunch
     citizen4 "Ну что? Пошли!"
     # нагло берет ее за руку и тянет за собой
+    music Pyro_Flow
     img 42979
     m "Эй! Ты что делаешь?!"
     m "!!!"
     # Моника выдергивает свою руку
-    img 429780
+    sound Jump1
+    img 42980 vpunch
     m "Я никуда с тобой не собираюсь идти за сто баксов!"
-    img 10579
+    music Groove2_85
+    imgd 10579
     citizen4 "Окей. 130 баксов и ты мне отсасываешь."
     img 10580
     m "Черт!"
     m "!!!"
     # corruption
+    $ menu_corruption = [monicaCitizen4SexCorruptionRequired1, 0]
     menu:
         "Согласиться на его предложение.":
             # если Моника не арендует квартиру у Джека
             if slumsApartmentsRentActive == False:
-                img 40334
+                music Groove2_85
+                imgf 40334
                 mt "Хммм..."
                 mt "Я могу заработать на этом никчемном придурке $ 130."
                 mt "Но мне некуда его вести! А здесь я это делать не собираюсь!"
@@ -929,10 +1236,10 @@ label ep219_dialogues5_citizens_2:
                 $ notif(t_("Монике некуда вести клиентов."))
                 #
                 # Моника резко выдергивает свою руку
-                img 10578
+                imgd 10578
                 m "Нет!"
                 m "Мне некуда тебя вести!"
-                img 13378
+                imgd 13378
                 citizen4 "Видимо, не так уж тебе нужны эти деньги..."
                 citizen4 "Окей, найду себе более сговорчивую шлюху!"
                 return False
@@ -941,32 +1248,36 @@ label ep219_dialogues5_citizens_2:
             pass
         "Отказаться!":
             # Моника зло на него смотрит
-            img 40344
+            music Pyro_Flow
+            imgf 40344
             mt "Я не могу себе этого позволить!"
             mt "Я еще не настолько опустилась!"
             mt "И, надеюсь, этого не произойдет НИКОГДА!"
             # Моника резко выдергивает свою руку
-            img 10572
+            imgd 10572
             m "НЕТ!!!"
             m "Я не собираюсь заключать никакие сделки!!!"
             m "Тем более, с тобой!!!"
             m "Чертов извращенец!"
-            img 10579
+            music Groove2_85
+            imgd 10579
             citizen4 "Видимо, не так уж тебе нужны эти деньги..."
             citizen4 "Окей, найду себе более сговорчивую шлюху!"
             return False
     # Моника в сомнениях смотрит на него
-    img 40334
+    music Pyro_Flow
+    imgf 40334
     mt "Вот дьявол!"
     mt "Если я ему откажу сейчас, то вообще ничего не заработаю..."
     mt "А мне нужны деньги..."
     #
     $ notif(_("Моника должна выплачивать Перри долг."))
-    img 19174
+    imgd 19174
     mt "Еще я должна выплачивать долг этой мерзкой извращенке Перри!"
     #
     # выглядывает мамочка
-    img 24343
+    music Master_Disorder
+    img 24343 vpunch
     mt "И эта старая карга следит за мной..."
     img 24344
     #
@@ -975,16 +1286,17 @@ label ep219_dialogues5_citizens_2:
         #
         $ notif(_("Моника больше не работает в ВИП-эскорте."))
         #
-        img 40333
+        imgd 40333
         mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
         #
-    img 40333
+    music Groove2_85
+    imgf 40333
     mt "Моника, что же делать?"
     mt "Этот кретин сказал, что он заплатит $ 130..."
     mt "Хммм..."
     mt "В прошлый раз гребаная Перри застукала меня с этим никчемным неудачником..."
     mt "И я ничего не заработала из-за нее!"
-    img 42981
+    imgd 42981
     mt "Хотя мне пришлось брать его отвратительный член в свой рот!"
     mt "!!!"
     mt "Если я соглашусь сейчас на его предложение, то никто не сможет мне помешать сделать ему..."
@@ -993,12 +1305,14 @@ label ep219_dialogues5_citizens_2:
     ## может строчку где она говорит отпусти меня убрать, так как ранее был
     ## комментрарий, что она выдергивает руку в начале и я там уже сделала это
     ## и поэтому здесь он ее уже не держит
-    img 19039
-    m "Отпусти меня!"
+    music Stealth_Groover
+    imgd 19039
+    m "Не смей больше прикасаться ко мне!"
     m "С проститутками в борделе будешь так обращаться!"
     m "Я тебе не какая-то там падшая особа!"
     # он смотрит на нее, еходно улыбаясь
-    img 10575
+    music Groove2_85
+    imgf 10575
     citizen4 "Да? Ха-ха!"
     citizen4 "Ну окей, как скажешь."
     citizen4 "Только пошли уже скорее!"
@@ -1006,11 +1320,11 @@ label ep219_dialogues5_citizens_2:
     jump ep219_dialogues5_citizens_1a
 
 
-
 # мысли Моники, если отказала незнакомцу в подъезде или выгнала его из своего дома
 label ep219_dialogues5_citizens_3:
     # Моника стоит злая у себя в апартаментах
-    img 42976
+    music Pyro_Flow
+    imgf 42976
     mt "Какой кошмар!"
     mt "Этот никчемный отброс общества сказал, что все знают о моем способе заработка!!!"
     mt "Черт! Этого быть не может!"
@@ -1018,7 +1332,7 @@ label ep219_dialogues5_citizens_3:
     mt "Если и дальше так пойдет, ты про тебя будут думать как про одну из тех падших женщин!.."
     mt "Которые стоят рядом со старой грымзой на улице!!!"
     mt "..."
-    img 42977
+    imgd 42977
     mt "Но нет, такого никогда не будет!"
     mt "Никто так не посмеет подумать!"
     mt "Любой видит что перед ним стоит Леди, а не какая-то шлюха!"
