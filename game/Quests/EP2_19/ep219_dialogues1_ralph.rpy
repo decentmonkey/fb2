@@ -24,7 +24,7 @@ label ep219_dialogues1_ralph_1:
     call textonblack(t_("Тем временем..."))
     scene black_screen
     with Dissolve(1)
-    music Hidden_Agenda
+    music Groove2_85
     imgfl 34198
     w
     imgf 34197
@@ -33,14 +33,14 @@ label ep219_dialogues1_ralph_1:
     w
     imgf 34200
     w
-    sound vjuh3
+    sound Jump2
     img 34203 hpunch
     ralph "Бетти, дорогая, я так по тебе соскучился."
     # кладет руку ей на грудь и лезет целоваться
     # Бетти, не отрываясь от журнала
     imgf 34201
     w
-    sound Jump2
+    sound Jump1
     img 34202 vpunch
     w
     imgd 34204
@@ -57,7 +57,6 @@ label ep219_dialogues1_ralph_1:
     img 34206
     ralph "Ну, Бетти. Давай по-быстренькому."
     # она скидывает его руки со своей груди
-    music Groove2_85
     imgd 34207
     betty "Ральф, перестань! Ты мне мешаешь!"
     ralph "Дорогая, ну оторвись от своего журнала."
@@ -188,8 +187,8 @@ label ep219_dialogues1_ralph_2:
     imgd 34235
     betty "Ральф, ты снова за свое!"
     # он продолжает ее целовать, говорит игриво
-    sound kiss1
     imgf 34236
+    sound kiss1
     w
     imgd 34235
     ralph "Мммм... Я так хочу тебя, Бетти."
@@ -197,6 +196,7 @@ label ep219_dialogues1_ralph_2:
     ralph "Ты ведь не откажешь своему любимому мужу, как вчера?"
     ralph "Ты же не хочешь меня расстраивать?" # целует
     imgd 34236
+    sound kiss1
     w
     menu:
         "Согласиться на секс с Ральфом.":
@@ -205,7 +205,7 @@ label ep219_dialogues1_ralph_2:
         "Отказать ему!":
             # Бетти раздраженно
             music Groove2_85
-            snd_paper2
+            sound snd_paper2
             imgf 34238
             betty "Не сегодня, Ральф!"
             betty "Я слишком устала и у меня опять болит голова!"
@@ -272,10 +272,8 @@ label ep219_dialogues1_ralph_2:
     sound kiss1
     imgf 34253
     ralph "Так люблю целовать тебя..."
-    music stop
-    sound plastinka1b
-    imgd 34254
     music Stealth_Groover
+    imgd 34254
     betty "Да! И ты должен ценить это, Ральф!"
     ## трусиков же изначально нет. Наверно он скажет, что хочет поцеловать ее там
 #    ralph "Дай, я сниму с тебя трусики, дорогая."
@@ -297,7 +295,7 @@ label ep219_dialogues1_ralph_2:
     imgd 34258
     w
     menu:
-        "Позволить Ральфу снять трусики с Бетти.":
+        "Раздвинуть ноги.":
             pass
     # Бетти раздвигает ноги, продолжая ворчать, а Ральф целует ее между ног
     imgf 34259
@@ -462,11 +460,10 @@ label ep219_dialogues1_ralph_2:
     betty "Тебе так повезло иметь такую замечательную жену, как Я!"
     betty "Я снимаю с тебя абсолютно все вопросы по хозяйству!"
     betty "И обеспечиваю тебе регулярную интимную жизнь!"
-    if dialogue_betty_teacher_1_flag == True or 1==1:
-        imgd 34294
-        betty "И еще я слежу за успеваемостью этого мелкого сопляка, твоего сына, в колледже!"
-        betty "Хотя это твоя прямая обязанность, Ральф!"
-        betty "Которую выполняю Я!"
+    imgd 34294
+    betty "И еще я слежу за успеваемостью этого мелкого сопляка, твоего сына, в колледже!"
+    betty "Хотя это твоя прямая обязанность, Ральф!"
+    betty "Которую выполняю Я!"
     imgf 34295
     betty "А ты еще чем-то недоволен?!"
     betty "Это неблагодарность с твоей стороны, Ральф!"
@@ -577,10 +574,10 @@ label ep219_dialogues1_ralph_3:
     # целует губы, потом грудь
     imgf 34315
     w
-    sound kiss1
+    sound kiss2
     imgd 34316
     w
-    sound kiss2
+    sound kiss1
     imgd 34317
     w
     imgf 34314
@@ -697,7 +694,7 @@ label ep219_dialogues1_ralph_3:
         ralph "В этом нет ничего страшного, Бетти."
         ralph "Совсем скоро твоя попа привыкнет и перестанет болеть."
         ralph "Я буду очень-очень аккуратен с твоей попкой сегодня."
-    if monicaBettyRalphAnal4 = 0:
+    if monicaBettyRalphAnal4 == 0:
         imgd 34336
         m "Просто я... Я никогда не делала этого..."
         imgd 34337
@@ -772,7 +769,7 @@ label ep219_dialogues1_ralph_3:
             #
         imgf 34348
         ralph "Я тебе заплачу на целых сто долларов больше, Бетти!"
-        music Power_Bots_Loop
+        music Pyro_Flow
         img 34336
         mt "Сто долларов?!"
         mt "Он что, издевается?!"
@@ -913,7 +910,7 @@ label ep219_dialogues1_ralph_3:
     sound hlup10
     img 34368 hpunch
     ralph "Мммм..."
-    if monicaBettyRalphAnal4 = 0:
+    if monicaBettyRalphAnal4 == 0:
         imgd 34367
         w
         sound hlup10
@@ -957,7 +954,7 @@ label ep219_dialogues1_ralph_3:
     w
     imgf 34379
     ralph "Оооо!"
-    if monicaBettyRalphAnal4 = 0:
+    if monicaBettyRalphAnal4 == 0:
         ralph "Сразу видно, что в ней до меня никто не бывал!"
     if monicaBettyRalphAnal4 > 0:
         ralph "Сразу видно, что в ней бывает только член хозяина этого дома!"
@@ -1107,7 +1104,7 @@ label ep219_dialogues1_ralph_3:
     imgd 34407
     w
     sound drkanje5
-    img 34408
+    imgd 34408
     ralph "Я сейчас кончу, Бетти!"
     imgd 34409
     ralph "Ааааа!"
@@ -1208,7 +1205,7 @@ label ep219_dialogues1_ralph_3:
         m "Мистер Робертс..."
         ralph "Да, Бетти?"
         m "Я же порадовала вас сегодня своим согласием..."
-        if monicaBettyRalphAnal4 = 0:
+        if monicaBettyRalphAnal4 == 0:
             m "И это было у меня впервые."
         m "Мне было очень страшно, Мистер Робертс."
         m "Но ради вас я пошла на этот шаг..."
@@ -1240,7 +1237,7 @@ label ep219_dialogues1_ralph_3:
         m "Мистер Робертс..."
         ralph "Да, Бетти?"
         m "Я же порадовала вас сегодня своим согласием..."
-        if monicaBettyRalphAnal4 = 0:
+        if monicaBettyRalphAnal4 == 0:
             m "И это было у меня впервые."
         m "Мне было очень страшно, Мистер Робертс."
         m "Но ради вас я пошла на этот шаг..."
@@ -1267,7 +1264,7 @@ label ep219_dialogues1_ralph_3:
         m "Я хочу, чтобы вы были только со мной."
         ralph "Бетти..."
         sound Jump2
-        img 34417
+        img 34417 hpunch
         m "Не торопитесь мне сейчас давать ответ, Мистер Робертс."
         m "Но помните, что я страдаю каждый раз, когда вижу вас с вашей женой."
         m "И мечтаю быть на ее месте..."
@@ -1284,8 +1281,8 @@ label ep219_dialogues1_ralph_3:
         mt "Скоро, Моника! Совсем скоро!"
         mt "Ты сможешь вернуть свой дом!"
         mt "!!!"
-        sound kiss1
         imgf 31590
+        sound kiss2
         w
         # Моника радостно тянется к нему, целует
     $ monicaBettyRalphAnal4 = day # у Моники и Ральфа состоялся первый анал

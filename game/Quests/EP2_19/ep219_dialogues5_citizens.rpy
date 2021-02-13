@@ -183,7 +183,6 @@ label ep219_dialogues5_citizens_1:
         #
         mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
         #
-
     mt "Моника, что же делать?"
     mt "Этот кретин сказал, что он заплатит $ 130..."
     mt "Хммм..."
@@ -342,7 +341,7 @@ label ep219_dialogues5_citizens_1a:
     img 42820
     mt "!!!"
     menu:
-        "Оголить грудь."
+        "Оголить грудь.":
             pass
     # Моника снимает топ, либо приспускает лямки, оголяя грудь
     imgf 42821
@@ -355,7 +354,7 @@ label ep219_dialogues5_citizens_1a:
     citizen4 "А теперь займись делом!"
     citizen4 "Давай быстрее!"
     menu:
-        "Сделать минет."
+        "Сделать минет.":
             pass
     # Моника опускает перед ним на колени, бросая злые взгляды на него
     fadeblack
@@ -373,9 +372,10 @@ label ep219_dialogues5_citizens_1a:
     mt "Отвратительно!!!"
     mt "!!!"
     # Моника открывает рот и вбирает в себя его член
+    fadeblack 1.5
     music Loved_Up
     sound2 chpok6
-    imgf 42826
+    img 42826 hpunch
     citizen4 "Ммммм..."
     imgd 42827
     citizen4 "Даааа..."
@@ -391,10 +391,12 @@ label ep219_dialogues5_citizens_1a:
     # незнакомец довольно закрывает глаза
     # тут вспышка, типа его воспоминание
     # кадр из встречи с Перри, когда она застукала Монику за минетом
-    $ blur_effect = 2
+#    pause 0.7
+#    hide screen photoshot_screen
     music Power_Bots_Loop
     img 19089
-    $ blur_effect = 0
+    show screen photoshot_screen()
+    with hpunch
     perry "Я эту сучку везде ищу!"
     perry "А она тут развлекается с мужиками!"
     # он испуганно открывает глаза
@@ -442,10 +444,12 @@ label ep219_dialogues5_citizens_1a:
     # снова закрывает глаза от удовольствия
     # новая вспышка - опять Перри, только уже якобы она в квартире Моники и стоит рядом с ним
     # Перри орет возмущенно
-    $ blur_effect = 1
+#    pause 0.7
+#    hide screen photoshot_screen
     music Power_Bots_Loop
+    show screen photoshot_screen()
     imgd 42842
-    $ blur_effect = 0
+    with hpunch
     perry "130 баксов?!"
     perry "Эта проститутка сосет за 130 баксов?!"
     sound men_scream5
@@ -528,9 +532,11 @@ label ep219_dialogues5_citizens_1a:
     citizen4 "Вот так, да..."
     # снова закрывает глаза, кайфуя
     # вспышка - Перри сидит на куштке у Моники в апартаментах, м.б. задрав платье и раздвинув ноги, и довольно говорит
-    $ blur_effect = 2
+#    pause 0.7
+#    hide screen photoshot_screen
+    show screen photoshot_screen()
     imgd 42862
-    $ blur_effect = 0
+    with hpunch
     perry "Теперь ты от меня никуда не денешься!"
     # незнакомец начинает орать и отталкивает Монику от себя
     # член снова висит
@@ -551,6 +557,7 @@ label ep219_dialogues5_citizens_1a:
     music Groove2_85
     imgf 42867
     mt "Может, он обкурился?"
+    sound men_scream5
     # если Моника водила к себе Найджела
     if monicaCitizens9Slums2 > 0:
         imgd 42867
@@ -558,7 +565,7 @@ label ep219_dialogues5_citizens_1a:
         mt "!!!"
     # Моника встает руки в боки
     music Power_Bots_Loop
-    sound2 men_scream5
+    sound2 vjuh3
     img 42868 hpunch
     m "Эй, ты! Хватит орать!"
     m "Если ты так не хочешь, можешь валить отсюда!"
@@ -634,9 +641,10 @@ label ep219_dialogues5_citizens_1a:
                 mt "Или [monica_hotel_name]!" # если работает или работала в эскорте
             mt "Зато у меня станет на $ 130 больше!"
             # она снова берет в рот его член и начинает делать минет быстрее
+            fadeblack 1.5
             music Loved_Up
-            sound2 chpok6
             imgf 42886
+            sound2 chpok6
             citizen4 "Быстрее!!!"
             citizen4 "Сейчас встанет! Сейчас!.."
             imgd 42887
@@ -651,7 +659,7 @@ label ep219_dialogues5_citizens_1a:
             sound hlup10
             img 42890
             w
-            music Turbo_Tornado
+            music Groove2_85
             sound2 Jump1
             imgd 42891
             w
@@ -752,6 +760,7 @@ label ep219_dialogues5_citizens_1a:
             imgd 42906
             mt "Омерзительно!!!"
             # задирает ноги Моники так, что они практически у ее лица, она почти складывается поплам
+            fadeblack 1.5
             music Loved_Up
             imgf 42907
             citizen4 "Давно я не трахал такую аппетитную шлюху!"
@@ -877,6 +886,7 @@ label ep219_dialogues5_citizens_1a:
         "Нет, хватит!":
             # Моника возмущенно
             music Pyro_Flow
+            sound2 vjuh3
             img 42927 hpunch
             m "Да сколько можно?!"
             m "Ты что, не видишь, что это бесполезно?!"
@@ -892,7 +902,7 @@ label ep219_dialogues5_citizens_1a:
             m "Вот этим?!" # указывает пальцем
             m "Или мне снова нужно поднимать его?"
             # он испуганно оглядываясь
-            music Turbo_Tornado
+            music Groove2_85
             sound2 Jump2
             img 42930 hpunch
             citizen4 "Нет! Никаких отсосов больше!"
@@ -1013,7 +1023,7 @@ label ep219_dialogues5_citizens_1a:
             # он психует еще больше
             scene black_screen
             with Dissolve(1)
-            music stop
+            music drkanje5
             call textonblack(t_("Несколько минут спустя..."))
             scene black_screen
             with Dissolve(1)
@@ -1281,6 +1291,7 @@ label ep219_dialogues5_citizens_2:
     mt "И эта старая карга следит за мной..."
     img 24344
     #
+    music Groove2_85
     # если Монику выгнали с эскорта
     if ep212_escort_monica_fired == True:
         #
@@ -1289,7 +1300,6 @@ label ep219_dialogues5_citizens_2:
         imgd 40333
         mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
         #
-    music Groove2_85
     imgf 40333
     mt "Моника, что же делать?"
     mt "Этот кретин сказал, что он заплатит $ 130..."
