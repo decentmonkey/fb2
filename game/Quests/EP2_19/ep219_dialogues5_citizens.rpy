@@ -924,7 +924,7 @@ label ep219_dialogues5_citizens_1a:
             mt "ДНО!!!"
             mt "!!!"
             pass
-        "Нет, хватит!":
+        "Нет, хватит!": # в экстру
             # Моника возмущенно
             music Pyro_Flow
             sound2 vjuh3
