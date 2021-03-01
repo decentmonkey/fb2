@@ -23,69 +23,73 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "EP2.2-v18-Extra"
+define config.version = "EP2.2-v3-Extra"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = ("
-Thanks to:\n
-\n
-Ragnaroekr\n
+define gui.about = ("""
+Thanks to:
+Ragnaroekr
 Keks\n
-Londo Mollari\n
-razor\n
-Abelardo\n
-aIMissRyu23\n
-ArminG\n
-Bill Lee\n
-Binnoc9\n
-DJ96\n
-edison123\n
-Emroz\n
-Ferdixxy\n
-Hazer Hazersen\n
-Jaewon Kang\n
-Jetvoice\n
-Just\n
-Joe Swenson\n
-Joshua Ashbaugh\n
-Lee kanghoon\n
-Miguel\n
-Olli P.\n
-onstant\n
-Prometheus\n
-Ronny schönherr\n
-rui zhang\n
-Ryan\n
-SimonLee\n
-Stefan Kemske\n
-Taylor Fox\n
-The big Dog\n
-Виталий Рябоконь\n
-Kurt\n
-mi\n
-mrboom90\n
-Emroz\n
-Juha Salmelin\n
-longyu\n
-David Wilson\n
-for great support!\n
+Londo Mollari
+bambam
+YoyoRTx
+5n4k3
+EraRamp
+razor
+
+Abelardo
+aIMissRyu23
+ArminG
+Bill Lee
+Binnoc9
+DJ96
+edison123
+Emroz
+Ferdixxy
+Hazer Hazersen
+Jaewon Kang
+Jetvoice
+Just
+Joe Swenson
+Joshua Ashbaugh
+Lee kanghoon
+Miguel
+Olli P.
+onstant
+Prometheus
+Ronny schönherr
+rui zhang
+Ryan
+SimonLee
+Stefan Kemske
+Taylor Fox
+The big Dog
+Виталий Рябоконь
+Kurt
+mi
+mrboom90
+Emroz
+Juha Salmelin
+longyu
+David Wilson
+for great support!
 \n
-Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction\n
+Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction
 \n
-Ragnaroekr, Londo Mollari, Keks and BruceLee73\nfor German translation\n
+Ragnaroekr, Londo Mollari, Keks and BruceLee73\nfor German translation
 \n
-YoyoRTx\nfor French translation\n
+YoyoRTx\nfor French translation
 \n
-5n4k3\nfor Italian translation\n
+5n4k3\nfor Italian translation
 \n
-renpytom (Tom Rothamel)\nfor the Ren'Py Game Engine\n
+renpytom (Tom Rothamel)\nfor the Ren'Py Game Engine
 \n
-This game made under the inspiration of Terebonkoff Studio creations.\n
+This game made under the inspiration of Terebonkoff Studio creations.
 \n
-")
+""")
 #ColdBlade
 
 
