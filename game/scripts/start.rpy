@@ -101,7 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-#    call ep219_dialogues6_biff_1()
+#    jump video_test
 #########
 
 
