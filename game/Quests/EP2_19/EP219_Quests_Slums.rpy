@@ -5,6 +5,7 @@ default ep219_quest_slums_last_day = 0
 
 label ep219_quest_slums1:
     if ep219_quest_slums_stage == 0:
+        music2 stop
         call ep219_dialogues5_citizens_1b()
         $ citizen4BForced = False
         $ move_object("Citizen_4", "empty")
@@ -14,12 +15,22 @@ label ep219_quest_slums1:
         # регулярная встреча
         call ep219_dialogues5_citizens_2()
         if _return == False:
-            return
+            return False
+        call ep219_dialogues5_citizens_1a()
+        if _return == False:
+            $ questHelp("work_slums_54", False, skipIfTrue=True)
+            call change_scene("street_monicahome")
+            $ changeDayTime("evening")
+            call process_object_click_forced("HomeEnter", "w")
+            return False
+
+        $ questHelp("work_slums_54", True)
         $ ep219_quest_slums_last_day = day
         $ move_object("Citizen_4", "empty")
         $ citizen4BlockedByDay = day + 3 # блокируем на 3 дня
         call change_scene("street_monicahome")
         $ changeDayTime("evening")
+        call process_object_click_forced("HomeEnter", "w")
     return
 
 label ep219_quest_slums2_enterhome:
@@ -35,7 +46,7 @@ label ep219_quest_slums2_enterhome:
         return
     $ ep219_quest_slums_last_day = day
     $ questHelp("work_slums_54", True)
-    if ep219_quest_slums_stage = 0:
+    if ep219_quest_slums_stage == 0:
         $ ep219_quest_slums_stage = 1
     $ changeDayTime("evening")
     return

@@ -1151,6 +1151,7 @@ label ep219_dialogues5_citizens_1a:
                     citizen4 "АААААА!!!"
                     sound hlup10
                     imgd 42922
+                    w
                     pass
             # незнакомец довольно садится на кушетке
             fadeblack 1.5
@@ -1727,7 +1728,8 @@ label ep219_dialogues5_citizens_2:
     citizen4 "Ну окей, как скажешь."
     citizen4 "Только пошли уже скорее!"
     citizen4 "У меня уже яйца пухнут!"
-    jump ep219_dialogues5_citizens_1a
+    return True
+#    jump ep219_dialogues5_citizens_1a
 
 
 # мысли Моники, если отказала незнакомцу в подъезде или выгнала его из своего дома

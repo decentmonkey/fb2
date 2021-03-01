@@ -59,7 +59,7 @@ label citizen4_dialogue:
 
     # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen4_dialogue_pilon:
-    if ep214_quests_citizens_stage2 == True:
+    if ep214_quests_citizens_stage2 == True and ep219_quest_slums_stage == 0:
         jump ep219_quest_slums1
     imgl Dial_begin35_17
     imgr Dial_Citizen_4_1
@@ -79,6 +79,8 @@ label citizen4_dialogue_pilon:
     $ showedNakedBoobs = False
     $ showedNakedBoobsDance = False
     $ earnedMoney = 0
+    if ep214_quests_citizens_stage2 == True and ep219_quest_slums_stage == 1:
+        jump ep219_quest_slums1
     if ep214_quests_citizens_stage2 == True:
         jump ep214_quests_citizens_regular
     label citizen4_dialogue_pilon_loop4:
