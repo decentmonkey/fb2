@@ -726,6 +726,15 @@ label ep22_casting:
                             $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
                     "Сесть на стол, достать член Бифа и взять его в рот. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 6 or monicaOutfitsEnabled[9] != True:
                         pass
+                    "Сесть на стол. достать член Бифа и возить им по киске." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 7 and monicaOutfitsEnabled[9] == True:
+                        $ store_music()
+                        call ep219_dialogues6_biff_1()
+                        $ restore_music()
+                        if _return == True:
+                            if biffCastingStage < 8:
+                                $ biffCastingStage = 8
+                            if char_info["Biff"]["level"] <= 4:
+                                $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
                     "Сесть на стол. достать член Бифа и возить им по киске. (disabled)":
                         pass
                     "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)":

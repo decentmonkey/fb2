@@ -261,7 +261,7 @@ label ep219_dialogues6_biff_1:
             pause 2.0
             sound highheels_run2
             pause 2.0
-            return
+            return False
     # Моника раздвигает ноги, придвигается ближе к Бифу и рукой направляет его член к своей киске
     music Hidden_Agenda
     imgf 34445
@@ -412,6 +412,7 @@ label ep219_dialogues6_biff_1:
     biff "Cкажи, тебе понравился член папочки?"
     imgd 34469
     mt "Мерзавец! Это отвратительно!"
+    $ menu_corruption = [biffCastingTablePussyOption1, 0]
     menu:
         "Сказать что член папочки понравился.":
 #            fadeblack 1.5
@@ -435,4 +436,4 @@ label ep219_dialogues6_biff_1:
     pause 2.0
     sound highheels_short_walk
     pause 2.0
-    return
+    return True

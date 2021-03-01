@@ -55,7 +55,8 @@ label biffProgressLevelUp1:
         $ char_data["caption"] = t_("Цыпочке надо развлекать папочку, чтобы он продолжал давать ей работу.")
         $ char_data["enabled"] = True
 
-    if char_data["level"] == 4:
+    if char_data["level"] == 5:
+        $ questHelp("office_58", True)
         $ char_data["enabled"] = False
         $ char_data["caption_diabled"] = t_("Work in progress...")
     return

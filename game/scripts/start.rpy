@@ -1,4 +1,4 @@
-define debugMode = False
+define debugMode = True
 
 default gameStage = 0
 default gameSubStage = 0
@@ -460,10 +460,12 @@ label start_game_EP22:
 
     $ ep217_quests_bugfix1_initialized = True
     $ ep218_quests_load_init_flag = True
+    $ ep219_quests_load_init_flag = True
     $ questHelpActivated = True
     call questHelp_init() from _rcall_questHelp_init_2
     $ questHelp("other1")
     $ questHelp("other2")
+    $ questHelp("office_58")
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests
