@@ -1829,6 +1829,8 @@ label ep219_dialogues3_escort_5_loop:
                     # потом Миранда опускается на колени перед Линдой и лижет у нее
                     img 34793
                     w
+                    img 34844
+                    w
                     img 34806
                     w
                     img 34807
@@ -1877,6 +1879,12 @@ label ep219_dialogues3_escort_5_loop:
                     img 34815
                     w
                     img 34816
+                    w
+                    img 34841
+                    w
+                    img 34842
+                    w
+                    img 34843
                     w
                     img 34817
                     w
