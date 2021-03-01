@@ -4,6 +4,7 @@ default stored_map_objects = False
 default ep214_ralph_blowjob_day = 0
 default ep214_ralph_last_regular_meeting_day = 0
 default ep214_ralph_last_regular_meeting_count = 0
+default ep214_ralph_regular_noend_dialogue_day = 0
 default monica_ralph_relationships_type = 0
 label ep214_quests_ralph1:
     call ep214_dialogues5_bardie_ralph_1() from _rcall_ep214_dialogues5_bardie_ralph_1
@@ -163,12 +164,13 @@ label ep214_quests_ralph8_meeting_regular: # регулярные встречи
             $ questLog(80, False)
             $ questLog(81, True)
     if ep214_ralph_last_regular_meeting_day > 0 and monica_ralph_relationships_type == 1:
-        call ep214_dialogues5_bardie_ralph_13a() from _rcall_ep214_dialogues5_bardie_ralph_13a
+        if ep214_ralph_regular_noend_dialogue_day != day:
+            call ep214_dialogues5_bardie_ralph_13a() from _rcall_ep214_dialogues5_bardie_ralph_13a
     if monica_ralph_relationships_type == 2:
         if char_info["Ralph"]["level"] == 1:
             $ char_info["Ralph"]["enabled"] = True
             $ add_char_progress("Ralph", monicaRalphRegularProgress, "monicaRalphRegularProgress" + str(day))
-        if ep214_ralph_last_regular_meeting_day > 0:
+        if ep214_ralph_last_regular_meeting_day > 0 and ep214_ralph_regular_noend_dialogue_day != day:
             call ep214_dialogues5_bardie_ralph_16() from _rcall_ep214_dialogues5_bardie_ralph_16
     $ ep214_ralph_last_regular_meeting_day = day
     $ ep214_ralph_last_regular_meeting_count += 1
@@ -178,10 +180,11 @@ label ep214_quests_ralph8_meeting_regular: # регулярные встречи
 
 label ep214_quests_ralph8_meeting_regular_end:
     $ remove_hook(label="Monica_Ralph_Quest")
-    if monica_ralph_relationships_type == 1:
-        call ep214_dialogues5_bardie_ralph_14() from _rcall_ep214_dialogues5_bardie_ralph_14
-    if monica_ralph_relationships_type == 2:
-        call ep214_dialogues5_bardie_ralph_15() from _rcall_ep214_dialogues5_bardie_ralph_15
+    if ep214_ralph_regular_noend_dialogue_day != day:
+        if monica_ralph_relationships_type == 1:
+            call ep214_dialogues5_bardie_ralph_14() from _rcall_ep214_dialogues5_bardie_ralph_14
+        if monica_ralph_relationships_type == 2:
+            call ep214_dialogues5_bardie_ralph_15() from _rcall_ep214_dialogues5_bardie_ralph_15
 
     $ miniMapEnabledOnly = []
     imgf scene_Map

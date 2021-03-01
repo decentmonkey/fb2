@@ -44,6 +44,7 @@ label ep218_quests_betty2_begin:
     call ep218_dialogues4_betty_6() from _rcall_ep218_dialogues4_betty_6 # заходит Ральф
     $ ep218_quests_betty_completed_day = day
     $ questHelp("house_46", True)
+    call ep219_quests_ralph_init1()
     return
 
 
