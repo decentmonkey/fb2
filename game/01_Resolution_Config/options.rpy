@@ -3,8 +3,9 @@
 ## Lines beginning with two '#' marks are comments, and you shouldn't uncomment
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
-define config.gl2 = True
+#define config.gl2 = True
 define build.include_update = True
+define build.include_i686 = False
 ## Basics ######################################################################
 
 ## A human-readable name of the game. This is used to set the default window

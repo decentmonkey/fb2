@@ -735,7 +735,7 @@ label ep22_casting:
                                 $ biffCastingStage = 8
                             if char_info["Biff"]["level"] <= 4:
                                 $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
-                    "Сесть на стол. достать член Бифа и возить им по киске. (disabled)":
+                    "Сесть на стол. достать член Бифа и возить им по киске. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 7 or monicaOutfitsEnabled[9] != True:
                         pass
                     "Сесть на стол, достать член Бифа и вставить его в свою киску. (disabled)":
                         pass

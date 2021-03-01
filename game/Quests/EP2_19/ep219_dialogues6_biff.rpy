@@ -14,7 +14,7 @@ label ep219_dialogues6_biff_1:
     imgfl 22908
     m "Биф, мне обязательно это делать?"
     biff "Ага. Чем сегодня ты порадуешь папочку?"
-    imgf 22909
+    img 22909
     mt "Сволочь!"
     imgd 24354
     m "Биф, что ты хочешь чтобы я снова сделала?!"
@@ -48,7 +48,7 @@ label ep219_dialogues6_biff_1:
         "Поднять ноги.":
             pass
     fadeblack 1.5
-    music Pyro_Flow
+    music Loved_Up
     imgf 34420
     w
     imgd 34421
@@ -189,6 +189,7 @@ label ep219_dialogues6_biff_1:
     menu:
         "Двигать рукой быстрее.":
             pass
+    music Loved_Up
     # Моника выполняет
     imgf 34446
     w
@@ -220,6 +221,7 @@ label ep219_dialogues6_biff_1:
     biff "Уже намного лучше, цыпочка..."
     biff "Еще немного и папочка будет очень доволен."
     biff "А теперь поводи членом папочки по своей киске, цыпочка."
+    music Groove2_85
     img 34450
     m "Что?!"
     biff "Что слышала!"
@@ -254,7 +256,7 @@ label ep219_dialogues6_biff_1:
             m "И я не буду ничего говорить!"
             img 34444 vpunch
             biff "Ты плохая цыпочка!"
-            biff "Я запрещаю тебе появляться в офисе две недели!"
+#            biff "Я запрещаю тебе появляться в офисе две недели!"
             biff "Пошла вон!"
             fadeblack
             sound snd_fabric1
