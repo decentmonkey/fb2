@@ -7,9 +7,9 @@ default monicaBettySexRalph_cumzone = 0
 
 define monicaRalphAnalCorruptionRequired1 = 850 # Моника согласилась на анал с Ральфом
 
-define v_Betty_Ralph_Sex1_1_sound_name = "v_Betty_Ralph_Sex1_1"
-define v_Monica_Ralph_Anal1_1_sound_name = "v_Monica_Ralph_Anal1_1"
-define v_Monica_Ralph_Anal2_1_25_sound_name = "v_Monica_Ralph_Anal2_1_25"
+define v_Betty_Ralph_Sex1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Monica_Ralph_Anal1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Monica_Ralph_Anal2_1_25_sound_name = "v_Monica_CandiseApartments_Sex1_1"
 
 #call ep219_dialogues1_ralph_1() # Бетти обламывает Ральфа
 #call ep219_dialogues1_ralph_2() # секс Бетти и Ральфа
@@ -396,7 +396,6 @@ label ep219_dialogues1_ralph_2:
     # затемнение
     # Бетти стоит в коленно-локтевой, подперев лицо ладонями, лицо скучающее
     # Ральф в это время вводит свой член в ее киску, стоя сзади нее, тиская ее за ягодицы
-#    label video_test:
 
     fadeblack 2.0
     music Loved_Up
@@ -462,7 +461,7 @@ label ep219_dialogues1_ralph_2:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    img 34275
+    imgf 34275
     betty "Что значит 'был бы', Ральф?!"
     # Ральф шлепает ее по ягодице
     # Бетти раздраженно
@@ -476,7 +475,7 @@ label ep219_dialogues1_ralph_2:
     img 34292
     betty "Эй, полегче там! Обращайся со мной нежнее!"
     betty "Что за мужланские замашки?! Кошмар!"
-    imgd 34288
+    imgf 34288
     betty "Я еще раз повторяю свой вопрос, Ральф!"
     betty "Что значит 'был бы самым счастливым'?!"
     betty "Тебе что-то не нравится?!"
@@ -512,7 +511,9 @@ label ep219_dialogues1_ralph_2:
     image videov_Betty_Ralph_Sex1_3= Movie(play="video/v_Betty_Ralph_Sex1_3.mkv")
     show videov_Betty_Ralph_Sex1_3
     with fade
-    ralph "Дааа..."
+    betty "Тебе так повезло иметь такую замечательную жену, как Я!"
+    betty "Я снимаю с тебя абсолютно все вопросы по хозяйству!"
+    betty "И обеспечиваю тебе регулярную интимную жизнь!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -520,19 +521,12 @@ label ep219_dialogues1_ralph_2:
 
     # Бетти продолжает клевать мозг
     imgf 34293
-    betty "Тебе так повезло иметь такую замечательную жену, как Я!"
-    betty "Я снимаю с тебя абсолютно все вопросы по хозяйству!"
-    betty "И обеспечиваю тебе регулярную интимную жизнь!"
+    ralph "Дааа..."
     imgd 34294
     betty "И еще я слежу за успеваемостью этого мелкого сопляка, твоего сына, в колледже!"
     betty "Хотя это твоя прямая обязанность, Ральф!"
     betty "Которую выполняю Я!"
     imgf 34295
-    betty "А ты еще чем-то недоволен?!"
-    betty "Это неблагодарность с твоей стороны, Ральф!"
-    betty "Ты совсем не ценишь того, что имеешь!"
-    sound drkanje5
-    imgd 34295
     w
 
     #4
@@ -546,17 +540,17 @@ label ep219_dialogues1_ralph_2:
     image videov_Betty_Ralph_Sex1_4= Movie(play="video/v_Betty_Ralph_Sex1_4.mkv")
     show videov_Betty_Ralph_Sex1_4
     with fade
-    ralph "Я ценю тебя, дорогая..."
+    betty "А ты еще чем-то недоволен?!"
+    betty "Это неблагодарность с твоей стороны, Ральф!"
+    betty "Ты совсем не ценишь того, что имеешь!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    sound drkanje5
+#    sound drkanje5
     imgd 34296
-    ralph "Дааа..."
-    sound drkanje5
-    imgd 34295
+    ralph "Я ценю тебя, дорогая..."
     w
 
     #5
@@ -570,15 +564,12 @@ label ep219_dialogues1_ralph_2:
     image videov_Betty_Ralph_Sex1_5= Movie(play="video/v_Betty_Ralph_Sex1_5.mkv")
     show videov_Betty_Ralph_Sex1_5
     with fade
-    ralph "Очень ценю! Особенно твою попу!"
+    ralph "Ммммм..."
+    ralph "Дааа..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    sound drkanje5
-    imgd 34296
-    w
 
     #6
     img black_screen
@@ -591,7 +582,7 @@ label ep219_dialogues1_ralph_2:
     image videov_Betty_Ralph_Sex1_6= Movie(play="video/v_Betty_Ralph_Sex1_6.mkv")
     show videov_Betty_Ralph_Sex1_6
     with fade
-    ralph "Ммммм..."
+    ralph "Очень ценю! Особенно твою попу!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -972,6 +963,8 @@ label ep219_dialogues1_ralph_3:
     mt "!!!"
     # трусики Моники падают на пол
     # довольный Ральф тянет к ней руку
+#    label video_test:
+
     music Loved_Up
     imgf 34357
     ralph "Я так соскучился по своей гувернантке Бетти..."
@@ -1004,6 +997,7 @@ label ep219_dialogues1_ralph_3:
     sound kiss1
     imgf 34362
     w
+    sound kiss1
     imgd 34363
     ralph "Какая сладкая попка у моей гувернантки Бетти..."
     ralph "Да, такая гладкая и упругая."
@@ -1051,9 +1045,10 @@ label ep219_dialogues1_ralph_3:
     imgd 34370
     w
     imgd 34371
-    m "Ой, мне больно!"
+    w
     sound chpok6
     img 34372 vpunch
+    m "Ой, мне больно!"
     m "Ай-яй-яй!"
     img 34374
     m "Мистер Робертс! Может, не надо?"
@@ -1066,7 +1061,28 @@ label ep219_dialogues1_ralph_3:
     imgf 34376
     w
     imgd 34377
+    w
+
+    # video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Ralph_Anal1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_1= Movie(play="video/v_Monica_Ralph_Anal1_1.mkv")
+    show videov_Monica_Ralph_Anal1_1
+    with fade
     ralph "О, какая же тугая дырочка!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     imgd 34378
     w
     imgf 34379
@@ -1099,32 +1115,11 @@ label ep219_dialogues1_ralph_3:
     imgd 34381
     m "Мистер Робертс!"
     m "Это очень больно!"
-
-    # video
-    #1
-    $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_Ralph_Anal1_1_sound_name
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_Ralph_Anal1_1= Movie(play="video/v_Monica_Ralph_Anal1_1.mkv")
-    show videov_Monica_Ralph_Anal1_1
-    with fade
-    ralph "Сейчас пройдет, моя Бетти."
-    ralph "Потерпи немного."
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
     # Ральф начинает медленно двигаться вперед-назад
     # у Моники на лице гримаса боли периодически сменяется злостью
-    imgf 34378
-    w
+#    imgf 34378
+#    w
+
     #2
     img black_screen
     with diss
@@ -1136,13 +1131,15 @@ label ep219_dialogues1_ralph_3:
     image videov_Monica_Ralph_Anal1_2= Movie(play="video/v_Monica_Ralph_Anal1_2.mkv")
     show videov_Monica_Ralph_Anal1_2
     with fade
-    ralph "Мммм... Как же здорово!"
+    ralph "Сейчас пройдет, моя Бетти."
+    ralph "Потерпи немного."
     wclean
+    ralph "Мммм... Как же здорово!"
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    sound drkanje5
+#    sound drkanje5
     img 34382 vpunch
     w
     imgd 34383
@@ -1159,14 +1156,14 @@ label ep219_dialogues1_ralph_3:
     image videov_Monica_Ralph_Anal1_3= Movie(play="video/v_Monica_Ralph_Anal1_3.mkv")
     show videov_Monica_Ralph_Anal1_3
     with fade
-    mt "Когда же это все уже прекратится?!"
-    mt "Это отвратительно!!!"
+    mt "Моя попа!!!"
+    mt "!!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    sound drkanje5
+#    sound drkanje5
     img 34384 vpunch
     w
 
@@ -1181,8 +1178,7 @@ label ep219_dialogues1_ralph_3:
     image videov_Monica_Ralph_Anal1_4= Movie(play="video/v_Monica_Ralph_Anal1_4.mkv")
     show videov_Monica_Ralph_Anal1_4
     with fade
-    mt "Моя попа!!!"
-    mt "!!!"
+    ralph "Обожаю твою попку!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1190,8 +1186,7 @@ label ep219_dialogues1_ralph_3:
 
     # Ральф кайфует
     imgf 34385
-    ralph "Мммм..."
-    w
+    ralph "Моя Бетти! Оооо!"
 
     #5
     img black_screen
@@ -1204,7 +1199,8 @@ label ep219_dialogues1_ralph_3:
     image videov_Monica_Ralph_Anal1_5= Movie(play="video/v_Monica_Ralph_Anal1_5.mkv")
     show videov_Monica_Ralph_Anal1_5
     with fade
-    ralph "Моя Бетти! Оооо!"
+    ralph "Мммм..."
+    ralph "Даааа..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1221,8 +1217,8 @@ label ep219_dialogues1_ralph_3:
     image videov_Monica_Ralph_Anal1_6= Movie(play="video/v_Monica_Ralph_Anal1_6.mkv")
     show videov_Monica_Ralph_Anal1_6
     with fade
-    ralph "Обожаю твою попку!"
-    ralph "Даааа..."
+    mt "Когда же это все уже прекратится?!"
+    mt "Это отвратительно!!!"
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
