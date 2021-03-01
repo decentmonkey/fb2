@@ -59,6 +59,8 @@ label citizen4_dialogue:
 
     # диалог доступен только когда моника не работает на раздаче флаеров
 label citizen4_dialogue_pilon:
+    if ep214_quests_citizens_stage2 == True:
+        jump ep219_quest_slums1
     imgl Dial_begin35_17
     imgr Dial_Citizen_4_1
     m "Привет! Помню, ты хотел познакомиться поближе?"

@@ -1168,10 +1168,9 @@ label ep219_dialogues5_citizens_1a:
             mt "ДНО!!!"
             mt "!!!"
             pass
-
-        "Нет, хватит! (in Extra version) (disabled)." if game.extra == False:
+        "Нет, хватит! (Extra version) (disabled)" if game.extra == False:
             pass
-        "Нет, хватит!" if game.extra == True:
+        "Нет, хватит!" if game.extra == True: # в экстру
             # Моника возмущенно
             music Pyro_Flow
             sound2 vjuh3
@@ -1597,7 +1596,7 @@ label ep219_dialogues5_citizens_1a:
     mt "Не хочу даже думать об этом!!!"
     mt "Моника Бакфетт никогда не опустится до такого дна!!!"
     mt "!!!"
-    return
+    return True
 
 
 # если Моника отказала незнакомцу в подъезде

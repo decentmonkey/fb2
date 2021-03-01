@@ -297,6 +297,13 @@ label citizens_init_day:
             if "Citizen_9" not in citizensDayList:
                 citizensDayList.append("Citizen_9")
 
+        if citizen4BForced == True:
+            if "Citizen_4" not in citizensDayList:
+                citizensDayList.append("Citizen_4")
+
+
+        if day <= citizen4BlockedByDay and "Citizen_4" in citizensDayList:
+            citizensDayList.remove("Citizen_4")
 
         if day <= citizen14BlockedByDay and "Citizen_14" in citizensDayList:
             citizensDayList.remove("Citizen_14")

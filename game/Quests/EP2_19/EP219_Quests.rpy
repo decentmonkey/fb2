@@ -17,4 +17,7 @@ label ep219_quests_load_init:
                     if monicaBettyRalphSeduction7 == True: # если открыты все действия с Ральфом
                         call ep219_quests_ralph_init1()
 
+        if fallingPathStarted == True:
+            $ questHelp("work_slums_54")
+            $ citizen4BForced = True
     return

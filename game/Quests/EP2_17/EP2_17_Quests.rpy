@@ -21,8 +21,10 @@ label ep217_quests:
     if fallingPathStarted == True:
         $ citizen5BForced = True
         $ citizen9BForced = True
+        $ citizen4BForced = True
         $ questHelp("work_slums_52")
         $ questHelp("work_slums_53")
+        $ questHelp("work_slums_54")
     return
 
 label ep217_quests_bugfix1:
