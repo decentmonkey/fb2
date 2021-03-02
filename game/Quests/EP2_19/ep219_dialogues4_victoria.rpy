@@ -375,6 +375,7 @@ label ep219_dialogues4_victoria_1:
     stephanie "Спрашивала?"
     victoria "Да, Стефани."
     victoria "Я на твоем месте без сомнений согласилась бы!"
+    fadeblack 1.5
     music Groove2_85
     # Стефани задумчиво
     imgd 43012
@@ -722,6 +723,7 @@ label ep219_dialogues4_victoria_4:
     alex_photograph "..."
     # затемнение
     $ melanieVictoriaStephanieSwingerParty2 = day # Мелани пообещала Алексу стать его женой
+    fadeblack 3.0
     return
 
 
@@ -817,7 +819,7 @@ label ep219_dialogues4_victoria_5:
     stephanie "Что это за жалкий офисный планктон?!"
     stephanie "Какой-то клерк из самого малозначимого отдела в офисе Моники?!"
     victoria "Стефани..."
-    img 43096
+    img 43096 vpunch
     stephanie "Как вообще Мелани может понравится ЭТО?!"
     stephanie "Она сразу выгонит этого неудачника из своего дома!"
     stephanie "И ты еще хочешь, чтобы Я с ним куда-то пошла?!"
@@ -1036,6 +1038,7 @@ label ep219_dialogues4_victoria_6:
     melanie "..."
     # Мелани задумчиво смотрит ей вслед
     # потом переводит взгляд на камеру
+    fadeblack 2.0
     return
 
 # апартаменты Мелани, гостиная
@@ -1156,7 +1159,7 @@ label ep219_dialogues4_victoria_7:
     fadeblack
     sound snd_door_open1
     pause 1.5
-    music Groove2_85
+    music DarxieLand
     #music Hidden_Agenda
     imgf 43203
     w5 "Ой, Мисс Мелани! Здравствуйте!"
@@ -1524,7 +1527,8 @@ label ep219_dialogues4_victoria_7:
     music ZigZag
     imgfl 43287
     melanie "Что скажете?"
-    imgf 43288
+    img 43288
+    sound oooh5
     w
     imgd 43289
     w
@@ -2804,6 +2808,43 @@ label ep219_dialogues4_victoria_7:
         "Достаточно! Выключить камеру!":
             $ melanieVictoriaStephanieSwingerParty5 = day # Мелани выключила камеру и не стала садиться на лицо Стефани
             # Мелани недовольно смотрит на Стефани с Алексом и Джоном
+            music Loved_up2
+            #8
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_FitnessStephanie_Alex_OfficeWorker5_Sex1_8= Movie(play="video/v_FitnessStephanie_Alex_OfficeWorker5_Sex1_8.mkv")
+            show videov_FitnessStephanie_Alex_OfficeWorker5_Sex1_8
+            with fade
+            stephanie "Быстрее!!! Еще!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #9
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_FitnessStephanie_Alex_OfficeWorker5_Sex1_9= Movie(play="video/v_FitnessStephanie_Alex_OfficeWorker5_Sex1_9.mkv")
+            show videov_FitnessStephanie_Alex_OfficeWorker5_Sex1_9
+            with fade
+            stephanie "Оооо!!! Да!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            fadeblack 1.5
+
             music ZigZag
             imgf 43477
             melanie "..."
@@ -2818,8 +2859,13 @@ label ep219_dialogues4_victoria_7:
             # Виктория смотрит на темный монитор
             music Master_Disorder
             imgf 43479
-            victoria "Ах, так?!" # со злостью
-            victoria "Подружка Мелани решила, что может не следовать моим советам?!"
+            w
+#            victoria "Ах, так?!" # со злостью
+#            victoria "Подружка Мелани решила, что может не следовать моим советам?!"
+            imgd 43505
+            sound snd_woman_laugh3
+            victoria "Отлично справилась, подружка Мелани!"
+            victoria "Хи-хи-хи!"
             fadeblack 2.0
             # затемнение
             return False
