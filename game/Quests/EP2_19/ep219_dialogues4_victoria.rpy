@@ -640,7 +640,7 @@ label ep219_dialogues4_victoria_4:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Утро..."))
     scene black_screen
     with Dissolve(1)
     music Loved_Up

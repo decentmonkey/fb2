@@ -85,5 +85,6 @@ label ep218_quests_victoria2_enter:
     $ ep218_victoria_visit_day1 = day
     $ remove_objective("go_victoria")
     $ questHelp("victoria_17", True)
+    call ep219_quests_victoria1_init()
     call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_30
     return False

@@ -21,4 +21,6 @@ label ep219_quests_load_init:
         if fallingPathStarted == True:
             $ questHelp("work_slums_54")
             $ citizen4BForced = True
+        if ep218_victoria_visit_day1 > 0:
+            call ep219_quests_victoria1_init()
     return
