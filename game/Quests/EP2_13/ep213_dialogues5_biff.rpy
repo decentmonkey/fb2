@@ -1018,6 +1018,7 @@ label ep213_dialogues4_biff_12:
                             $ biffCastingStage = 8
                         if char_info["Biff"]["level"] <= 4:
                             $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
+                            $ questHelp("office_58", True)
                 "Сесть на стол. достать член Бифа и возить им по киске. (disabled)" if char_info["Biff"]["level"] < 2 or biffCastingStage < 7 or monicaOutfitsEnabled[9] != True:
                     pass
     return

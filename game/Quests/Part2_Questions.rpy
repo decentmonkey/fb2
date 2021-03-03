@@ -542,7 +542,7 @@ label part2_questions_process(new_game_started):
             $ ep22_questions_answered_count += 1
 
 
-    if new_game_started == True or monica_ralph_relationships_type == 0:
+    if new_game_started == True or (monica_ralph_relationships_type == 0 and ep214_ralph_blowjob_day == 0):
         call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment_4
         imgf 31561
         help "Моника вступила в отношения с Ральфом с целью вернуть свой дом?"

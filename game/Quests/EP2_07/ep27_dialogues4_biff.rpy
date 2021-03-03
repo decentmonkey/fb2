@@ -416,6 +416,7 @@ label ep27_dialogues4_biff5:
                                         $ biffCastingStage = 8
                                     if char_info["Biff"]["level"] <= 4:
                                         $ add_char_progress("Biff", 50, "ep216_dialogues0_biff2" + str(day))
+                                        $ questHelp("office_58", True)
                                 else:
                                     call change_scene("monica_office_secretary", "Fade_long")
                                     return
