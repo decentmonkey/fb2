@@ -243,6 +243,10 @@ label locations_init_victoriahome1:
     $ add_location("street_victoriahome", caption=t_("АПАРТАМЕНТЫ ВИКТОРИИ"), label="street_victoriahome", init_label="street_victoriahome_init", parent="World")
     return
 
+label locations_init_linda_apartments:
+    $ add_location("linda_apartments_street", caption=t_("АПАРТАМЕНТЫ ЛИНДЫ"), label="linda_apartments_street", init_label="linda_apartments_street_init", parent="World")
+    return
+
 
 label world:
     return

@@ -53,7 +53,7 @@ label ep211_escort_scene1_1a_loop1:
                 "Смена ролей." if monicaEscortClientHotel8 == True and monicaEscortClientHotel9 == True and 1==2:
                     $ monicaEscortClientHotel10 = True
                     return 6
-                "Отношения в коллективе (Начало)." if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True:
+                "Отношения в коллективе (Начало)." if ep215_quests_escort_completed_day > 0 and monicaEscortRevengeGirl2 == True and ep219_quests_linda_angry_blocked == 0:
                     return 7
                 "Неожиданная встреча." if ep215_quests_escort_completed_day > 0:
                     return 8

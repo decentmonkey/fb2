@@ -92,7 +92,9 @@ label ep217_quests_office5_biff_after_presentation:
 
     $ ep217_quests_presentation_completed2_day = day
     $ ep217_quests_office_menu_enabled = False
+
     $ questHelp("office_57", True)
+    call ep219_quests_escort1_init()
     call change_scene("monica_office_secretary", "Fade_long") from _rcall_change_scene_212
     return False
 

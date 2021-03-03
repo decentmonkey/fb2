@@ -18,6 +18,7 @@ define monicaLindaMirandaFriendshipCorruptionRequired3 = 640 # Моника за
 define monicaLindaMirandaFriendshipCorruptionRequired4 = 660 # Моника заставила Линду и Миранду облизывать ей ноги
 define monicaLindaMirandaFriendshipCorruptionRequired5 = 680 # Моника заставила Линду и Миранду деласть ей ликинг
 
+default ep219_dialogues3_escort_5_loop_count = 0
 #call ep219_dialogues3_escort_1() # офис, кастинг Линды
 #call ep219_dialogues3_escort_2() # отель, разговор с Линдой
 #call ep219_dialogues3_escort_3() # отель, перед походом в гости к Линде
@@ -564,7 +565,7 @@ label ep219_dialogues3_escort_1:
     # Моника никак не реагирует и молча выходит
     mt "Да пошел ты!"
     mt "Никчемный человечишко!"
-    return
+    return True
 
 # если была встреча с Мэйсоном и Линдой в кабинете Бифа и Моника идет работать в эскорт
 # Моника заходит в ресторан, на входе ее перехватывает Линда
@@ -661,7 +662,7 @@ label ep219_dialogues3_escort_3:
     mt "Не делать же мне этого в отеле!"
     mt "Мне ни к чему лишние свидетели!"
     mt "Да, я именно так и сделаю!"
-    return
+    return True
 
 # если Моника в первый раз не пошла к Линде
 # при клике на Линду
@@ -1101,9 +1102,10 @@ label ep219_dialogues3_escort_5:
     # Линда продолжает с воодушевлением
     linda "Да, [monica_hotel_name]!"
     linda "Эти две стервы постоянно говорят про тебя всякие гадости!"
-    #
-    $ notif(_("Кэндис и Эбби являются 'подругами' Моники."))
-    #
+    if ep218_quests_escort_completed_day > 0:
+        #
+        $ notif(_("Кэндис и Эбби являются 'подругами' Моники."))
+        #
     linda "Они мне сказали, что ты всех ненавидишь и считаешь себя лучше других!"
     linda "Называли тебя высокомерной сучкой и лгуньей!"
     m "..."
@@ -1225,12 +1227,13 @@ label ep219_dialogues3_escort_5:
     miranda "Мы планировали, что сместим администраторшу с ее насиженного места..."
     miranda "И что Линда станет главной в ВИП-эскорте!"
     # Моника удивленно смотрит на них
-    img 34625 vpunch
-    mt "У меня дежавю?"
-    #
-    $ notif(_("Кэндис и Эбби тоже хотят сместить администраторшу. Эбби планирует занять ее место."))
-    #
-    mt "?!"
+    if ep218_quests_escort_completed_day > 0:
+        img 34625 vpunch
+        mt "У меня дежавю?"
+        #
+        $ notif(_("Кэндис и Эбби тоже хотят сместить администраторшу. Эбби планирует занять ее место."))
+        #
+        mt "?!"
     imgf 34663
     m "Вы хотите сместить администраторшу?!"
     linda "Да, хотим."
@@ -1303,18 +1306,19 @@ label ep219_dialogues3_escort_5:
     mt "!!!"
     imgd 34673
     mt "Так, нужно подумать..."
-    mt "Мне не удалось узнать от Кэндис и Эбби подробностей плана по смещению администраторши..."
-    mt "Возможно, они мне все расскажут скоро..."
-    mt "Также возможно, что у них получится воплотить свой план в реальность раньше, чем это сделают Линда с Мирандой."
-    mt "Тогда дружба с Линдой и Мирандой будет мне мешать."
-    mt "..."
-    imgf 34674
-    mt "Но также вероятен другой исход..."
-    mt "Линда и Миранда, эти две змеи, вышвырнут администраторшу быстрее..."
-    mt "Тогда мне невыгодно будет оставаться подружкой Кэндис и Эбби..."
-    mt "Черт!"
-    mt "Как все непросто, Моника!"
-    mt "Нужно принять какое-то решение!"
+    if ep218_quests_escort_completed_day > 0:
+        mt "Мне не удалось узнать от Кэндис и Эбби подробностей плана по смещению администраторши..."
+        mt "Возможно, они мне все расскажут скоро..."
+        mt "Также возможно, что у них получится воплотить свой план в реальность раньше, чем это сделают Линда с Мирандой."
+        mt "Тогда дружба с Линдой и Мирандой будет мне мешать."
+        mt "..."
+        imgf 34674
+        mt "Но также вероятен другой исход..."
+        mt "Линда и Миранда, эти две змеи, вышвырнут администраторшу быстрее..."
+        mt "Тогда мне невыгодно будет оставаться подружкой Кэндис и Эбби..."
+        mt "Черт!"
+        mt "Как все непросто, Моника!"
+        mt "Нужно принять какое-то решение!"
     mt "Хммм..."
 #    music Hidden_Agenda
     imgd 34631
@@ -1373,10 +1377,10 @@ label ep219_dialogues3_escort_5:
             return
         "Согласиться помочь Линде. (Моника недостаточно приличная) (disabled)" if monicaBitch == True:
             pass
-        "Мне нужно время, чтобы подумать..." if monicaBitch == True:
+        "Мне нужно время, чтобы подумать...":
             pass
-        "Мне нужно время, чтобы подумать... (Моника слишком приличная) (disabled)" if monicaBitch == False:
-            pass
+#        "Мне нужно время, чтобы подумать... (Моника слишком приличная) (disabled)" if monicaBitch == False:
+#            pass
     # Моника делает вид, что сомневается
     music Stealth_Groover
     imgf 34675
@@ -1402,7 +1406,7 @@ label ep219_dialogues3_escort_5:
     imgd 34668
     miranda "Мы, как твои подруги, тебя поддержим, [monica_hotel_name]."
     miranda "Я познакомлю тебя с парочкой богатых клиентов."
-
+    $ ep219_dialogues3_escort_5_loop_count = 0
 label ep219_dialogues3_escort_5_loop:
     # Моника снова изображает сомнение
 #    label video_test:
@@ -1655,6 +1659,9 @@ label ep219_dialogues3_escort_5_loop:
                     linda "Ну что, [monica_hotel_name], ты приняла решение?"
                     m "..."
                     pass
+                    $ ep219_dialogues3_escort_5_loop_count += 1
+                    if ep219_dialogues3_escort_5_loop_count < 2:
+                        jump ep219_dialogues3_escort_5_loop
                 "Отказаться.":
                     imgd 34689
                     m "Хмм... Пожалуй, нет..."
@@ -1814,15 +1821,19 @@ label ep219_dialogues3_escort_5_loop:
                     linda "Ну что, [monica_hotel_name], ты приняла решение?"
                     m "..."
                     pass
+                    $ ep219_dialogues3_escort_5_loop_count += 1
+                    if ep219_dialogues3_escort_5_loop_count < 2:
+                        jump ep219_dialogues3_escort_5_loop
                 "Отказаться.":
                     imgd 34689
                     m "Хмм... Пожалуй, нет..."
                     jump ep219_dialogues3_escort_5_loop
             pass
 
-        "Я помню, как Линда обманула меня с чаевыми клиента Олафа. (disabled)" if monicaBiffInvestorDate6 == False: # если это не было
+        "Я помню, как Линда обманула меня с чаевыми клиента Олафа. (disabled)" if monicaBiffInvestorDate5 == False and monicaBiffInvestorDate8 == False: # если это не было
             pass
-        "Я помню, как Линда обманула меня с чаевыми клиента Олафа." if monicaBiffInvestorDate6 == True: # если это было
+        "Я помню, как Линда обманула меня с чаевыми клиента Олафа." if monicaBiffInvestorDate5 == True or monicaBiffInvestorDate8 == True:
+        #if monicaBiffInvestorDate6 == True: # если это было
             # Моника злорадно
             imgd 34684
             mt "Сейчас я этим сучкам припомню!.."
@@ -1977,15 +1988,19 @@ label ep219_dialogues3_escort_5_loop:
                     linda "Ну что, [monica_hotel_name], ты приняла решение?"
                     m "..."
                     pass
+                    $ ep219_dialogues3_escort_5_loop_count += 1
+                    if ep219_dialogues3_escort_5_loop_count < 2:
+                        jump ep219_dialogues3_escort_5_loop
                 "Отказаться.":
                     imgd 34689
                     m "Хмм... Пожалуй, нет..."
                     jump ep219_dialogues3_escort_5_loop
             pass
 
-        "Я помню, как Миранда подставила меня перед женой своего клиента. (disabled)" if monicaEscortAngryWife1 == False: # если это не было
-            pass
-        "Я помню, как Миранда подставила меня перед женой своего клиента." if monicaEscortAngryWife1 == True: # если это было
+#        "Я помню, как Миранда подставила меня перед женой своего клиента. (disabled)" if monicaEscortAngryWife1 == False: # если это не было
+#            pass
+        "Я помню, как Миранда подставила меня перед женой своего клиента.":
+        #if monicaEscortAngryWife1 == True: # если это было
             # Моника злорадно
             imgd 34684
             mt "Сейчас я этим сучкам припомню!.."
@@ -2176,6 +2191,9 @@ label ep219_dialogues3_escort_5_loop:
                     linda "Ну что, [monica_hotel_name], ты приняла решение?"
                     m "..."
                     pass
+                    $ ep219_dialogues3_escort_5_loop_count += 1
+                    if ep219_dialogues3_escort_5_loop_count < 2:
+                        jump ep219_dialogues3_escort_5_loop
                 "Отказаться.":
                     imgd 34689
                     m "Хмм... Пожалуй, нет..."
@@ -2506,6 +2524,9 @@ label ep219_dialogues3_escort_5_loop:
                     linda "Ну что, [monica_hotel_name], ты приняла решение?"
                     m "..."
                     pass
+                    $ ep219_dialogues3_escort_5_loop_count += 1
+                    if ep219_dialogues3_escort_5_loop_count < 2:
+                        jump ep219_dialogues3_escort_5_loop
                 "Отказаться.":
                     imgd 34689
                     m "Хмм... Пожалуй, нет..."
@@ -2573,7 +2594,8 @@ label ep219_dialogues3_escort_6:
     music Stealth_Groover
     imgd 34572
     mt "Боже! Сколько лицемерия! Фу!"
-    mt "Надеюсь, Кэндис и Эбби не заподозрят ничего!"
+    if ep218_quests_escort_completed_day > 0:
+        mt "Надеюсь, Кэндис и Эбби не заподозрят ничего!"
     mt "!!!"
     # Моника притворно улыбается
     imgf 34573

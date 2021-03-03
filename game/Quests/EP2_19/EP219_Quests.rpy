@@ -23,4 +23,6 @@ label ep219_quests_load_init:
             $ citizen4BForced = True
         if ep218_victoria_visit_day1 > 0:
             call ep219_quests_victoria1_init()
+        if ep217_quests_presentation_completed2_day > 0:
+            call ep219_quests_escort1_init()
     return
