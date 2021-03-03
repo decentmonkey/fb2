@@ -1405,7 +1405,7 @@ label ep219_dialogues3_escort_5:
 
 label ep219_dialogues3_escort_5_loop:
     # Моника снова изображает сомнение
-    label video_test:
+#    label video_test:
     music Stealth_Groover
     imgf 34683
     m "Все равно мне нужно еще подумать..."
