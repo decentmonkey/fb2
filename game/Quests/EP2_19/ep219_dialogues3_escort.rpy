@@ -326,10 +326,10 @@ label ep219_dialogues3_escort_1:
         sound plastinka1b
         img 34517 vpunch
         w
+        music Power_Bots_Loop
         img 34518 vpunch
         linda "!!!"
         # у Моники шок
-        music Power_Bots_Loop
         imgd 34519
         m "!!!"
         mt "НЕЕЕТ!"
@@ -825,7 +825,7 @@ label ep219_dialogues3_escort_5:
     ## вставить фразы Линды, что она сходит на кухню за вином и бокалами
     imgd 34607
     sound highheels_short_walk
-    linda "Ну хорошо, тогда я принесу свое любимое вино."
+    linda "Я принесу свое любимое вино."
     linda "Сейчас я схожу за ним. Подожди минутку."
     imgd 34606
     mt "Что ей от меня нужно?!"
@@ -1316,7 +1316,7 @@ label ep219_dialogues3_escort_5:
     mt "Как все непросто, Моника!"
     mt "Нужно принять какое-то решение!"
     mt "Хммм..."
-    music Hidden_Agenda
+#    music Hidden_Agenda
     imgd 34631
     mt "А что, если?.."
     mt "..."
@@ -1405,6 +1405,7 @@ label ep219_dialogues3_escort_5:
 
 label ep219_dialogues3_escort_5_loop:
     # Моника снова изображает сомнение
+    label video_test:
     music Stealth_Groover
     imgf 34683
     m "Все равно мне нужно еще подумать..."
@@ -2014,7 +2015,9 @@ label ep219_dialogues3_escort_5_loop:
             # коррапшн
             $ menu_corruption = [monicaLindaMirandaFriendshipCorruptionRequired4, 0]
             menu:
-                "Согласиться.":
+                "Согласиться. (Extra version) (disabled)" if game.extra == False:
+                    pass
+                "Согласиться." if game.extra == True: # в экстру
                     $ monicaLindaMirandaFriendship9 = day # Моника заставила Линду и Миранду облизывать ей ноги в обмен на свое согласие
                     music Stealth_Groover
                     imgf 34689
@@ -2095,6 +2098,9 @@ label ep219_dialogues3_escort_5_loop:
                     sound kiss1
                     imgd 34771
                     w
+                    sound kiss1
+                    imgd 34772
+                    w
                     sound lick3
                     imgd 34773
                     w
@@ -2106,7 +2112,13 @@ label ep219_dialogues3_escort_5_loop:
                     sound2 kiss1
                     imgd 34776
                     w
-                    sound lick3
+                    imgd 34775
+                    sound kiss1
+                    w
+                    imgd 34776
+                    sound kiss1
+                    w
+                    sound2 lick3
                     imgd 34777
                     miranda "Тебе нравится, [monica_hotel_name]?"
                     imgf 34779
@@ -2139,9 +2151,10 @@ label ep219_dialogues3_escort_5_loop:
                     imgd 34784
                     m "Мммм..."
                     imgf 34785
+                    sound lick3
                     w
-                    sound kiss1
                     imgd 34786
+                    sound kiss1
                     w
                     imgf 34787
                     m "Достаточно!"
@@ -2299,7 +2312,7 @@ label ep219_dialogues3_escort_5_loop:
                     # потом Миранда опускается на колени перед Линдой и лижет у нее
                     #fadeblack 1.5
                     #music Loved_Up
-                    sound kiss1
+                    sound vjuh3
                     imgf 34793
                     w
                     sound lick3

@@ -12,9 +12,9 @@ define monicaCitizen4SexCorruptionRequired2 = 450 # Моника согласи�
 define monicaCitizen4SexCorruptionRequired3 = 550 # Моника согласилась на секс с незнакомцем
 define monicaCitizen4SexCorruptionRequired4 = 500 # Моника согласилась на ликинг с незнакомцем
 
-define v_Monica_Citizen4_Blowjob2_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_Monica_Citizen4_Licking1_1_25_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_Monica_Citizen4_Sex1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Monica_Citizen4_Blowjob2_1_sound_name = "v_Monica_Citizen4_Blowjob2_1"
+define v_Monica_Citizen4_Licking1_1_25_sound_name = "v_Monica_Citizen4_Licking1_1"
+define v_Monica_Citizen4_Sex1_1_sound_name = "v_Monica_Citizen4_Sex1_1"
 
 #call ep219_dialogues5_citizens_1b() # при клике на незнакомца на улице
 #call ep219_dialogues5_citizens_1() # сцена в подъезде с незнакомцем

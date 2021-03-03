@@ -6,10 +6,10 @@ default melanieVictoriaStephanieSwingerParty5 = 0  # Мелани выключи
 
 default melanieStephanieAlexJohn_cumzone = 0
 
-define v_Melanie_OfficeWorker5_Anal1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_FitnessStephanie_Alex_Sex1_1_25_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_FitnessStephanie_Alex_OfficeWorker5_Sex1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_FitnessStephanie_Alex_OfficeWorker5_Sex2_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Melanie_OfficeWorker5_Anal1_1_sound_name = "v_Melanie_OfficeWorker5_Anal1_1"
+define v_FitnessStephanie_Alex_Sex1_1_25_sound_name = "v_FitnessStephanie_Alex_Sex1_1"
+define v_FitnessStephanie_Alex_OfficeWorker5_Sex1_1_sound_name = "v_FitnessStephanie_Alex_OfficeWorker5_Sex1_1"
+define v_FitnessStephanie_Alex_OfficeWorker5_Sex2_1_sound_name = "v_FitnessStephanie_Alex_OfficeWorker5_Sex2_1"
 
 #call ep219_dialogues4_victoria_1() # апартаменты Виктории, Стефани и Виктория
 #call ep219_dialogues4_victoria_2() # в отделе отчетов Виктория разговаривает с Джоном

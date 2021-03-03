@@ -7,9 +7,9 @@ default monicaBettySexRalph_cumzone = 0
 
 define monicaRalphAnalCorruptionRequired1 = 850 # Моника согласилась на анал с Ральфом
 
-define v_Betty_Ralph_Sex1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_Monica_Ralph_Anal1_1_sound_name = "v_Monica_CandiseApartments_Sex1_1"
-define v_Monica_Ralph_Anal2_1_25_sound_name = "v_Monica_CandiseApartments_Sex1_1"
+define v_Betty_Ralph_Sex1_1_sound_name = "v_Betty_Ralph_Sex1_1"
+define v_Monica_Ralph_Anal1_1_sound_name = "v_Monica_Ralph_Anal1_1"
+define v_Monica_Ralph_Anal2_1_25_sound_name = "v_Monica_Ralph_Anal2_1"
 
 #call ep219_dialogues1_ralph_1() # Бетти обламывает Ральфа
 #call ep219_dialogues1_ralph_2() # секс Бетти и Ральфа
@@ -398,7 +398,6 @@ label ep219_dialogues1_ralph_2:
     # затемнение
     # Бетти стоит в коленно-локтевой, подперев лицо ладонями, лицо скучающее
     # Ральф в это время вводит свой член в ее киску, стоя сзади нее, тиская ее за ягодицы
-
     fadeblack 2.0
     music Loved_Up
     imgfl 34275
@@ -970,7 +969,6 @@ label ep219_dialogues1_ralph_3:
     # трусики Моники падают на пол
     # довольный Ральф тянет к ней руку
 #    label video_test:
-
     music Loved_Up
     imgf 34357
     ralph "Я так соскучился по своей гувернантке Бетти..."
