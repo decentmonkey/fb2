@@ -1753,3 +1753,2915 @@ label gallery_33720:
     fadeblack 2.0
     # и уходит вдоль по дорожке, Юлия следом
     return
+
+
+################### V 3 ###################
+
+label gallery_34281:
+    fadeblack 2.0
+    music Groove2_85
+    imgfl 34227
+    w
+    imgf 34228
+    w
+    imgd 34229
+    w
+    imgf 34230
+    w
+    music Hidden_Agenda
+    sound2 Jump2
+    img 34231 vpunch
+    ralph "Дорогая, мне так нравится, когда на тебе это белье."
+    # проводит рукой по ее груди, потом опускает руку ниже, к трусикам (которых нет)
+    imgf 34232
+    ralph "Ты такая красивая... Такая сексуальная."
+    sound Jump1
+    imgd 34233
+    ralph "Мне так повезло, что у меня такая замечательная жена..."
+    # целует ее в щеку, а она в это время не перестает глазет в журнал
+    imgf 34234
+    w
+    imgd 34235
+    betty "Ральф, ты снова за свое!"
+    # он продолжает ее целовать, говорит игриво
+    imgf 34236
+    sound kiss1
+    w
+    imgd 34235
+    ralph "Мммм... Я так хочу тебя, Бетти."
+    imgf 34237
+    ralph "Ты ведь не откажешь своему любимому мужу, как вчера?"
+    ralph "Ты же не хочешь меня расстраивать?" # целует
+    imgd 34236
+    sound kiss1
+    w
+    menu:
+        "Согласиться на секс с Ральфом.":
+#            $ monicaBettyRalphAnal2 = day # Бетти согласилась на секс с Ральфом
+            pass
+        "Отказать ему!":
+            # Бетти раздраженно
+            music Groove2_85
+            sound snd_paper2
+            imgf 34238
+            betty "Не сегодня, Ральф!"
+            betty "Я слишком устала и у меня опять болит голова!"
+            imgd 34239
+            ralph "Но дорогая..."
+            betty "Все, Ральф, хватит! Я хочу спать!"
+            imgd 34240
+            w
+            imgf 34241
+            w
+            # Бетти откладывает журнал, Ральф разочарованно смотрит на свой стояк, потом на попу Бетти
+            # звук выключателя, гаснет свет
+            fadeblack 2.0
+            return
+    # Бетти отворачивает лицо в сторону, закатывает глаза
+    music Groove2_85
+    imgf 34242
+    betty_t "Если я сейчас опять откажу ему, он завтра ко мне снова будет лезть!"
+    betty_t "Зато, если я сейчас соглашусь, то он отстанет от меня на целую неделю."
+    betty_t "Думаю, стоит потерпеть..."
+    betty_t "Черт! Как же нелегко быть хорошей женой!"
+    # Бетти откладывает журнал и снисходительно говорит Ральфу
+    imgd 34238
+    betty "Ральф, я не откажу тебе сегодня."
+    betty "Но ты должен пообещать мне, что будешь чаще помогать мне по хозяйству!"
+    # довольный Ральф чмокает ее в губы, кладет руку на ее грудь
+    music Loved_Up
+    imgf 34243
+    sound kiss1
+    w
+    imgd 34244
+    ralph "Конечно, дорогая! Я сделаю все, как ты скажешь!"
+    ralph "Снимай скорее это с себя!"
+    ralph "Мне не терпится поцеловать твою прекрасную грудь!"
+    menu:
+        "Снять бюстгальтер с Бетти.":
+            pass
+    # Бетти снимает с себя бюстгальтер, лежит в одних трусиках с недовольным видом
+    # Ральф ласкает ее грудь, целует, а Бетти ворчит в это время
+    imgf 34245
+    w
+    sound vjuh3
+    imgd 34246
+    w
+    sound snd_paper2
+    img 34247 vpunch
+    w
+    fadeblack
+    sound snd_fabric1
+    pause 1.5
+    music Loved_Up
+    imgfl 34248
+    w
+    imgf 34249
+    w
+    sound kiss1
+    imgd 34250
+    betty "Ты же сам должен понимать, Ральф, как непросто уследить за всем в таком большом доме."
+    betty "У меня за целый день нет ни минуты отдыха!"
+    sound lick3
+    imgf 34251
+    ralph "Да, Бетти. Ты такая замечательная хозяйка..."
+    imgd 34252
+    w
+    sound kiss1
+    imgf 34253
+    ralph "Так люблю целовать тебя..."
+    music Stealth_Groover
+    imgd 34254
+    betty "Да! И ты должен ценить это, Ральф!"
+    ## трусиков же изначально нет. Наверно он скажет, что хочет поцеловать ее там
+#    ralph "Дай, я сниму с тебя трусики, дорогая."
+    # Бетти недовольно смотрит, как Ральф стягивает трусики с нее, бросает на пол
+    imgd 34255
+    betty "!!!"
+    ralph "Конечно, дорогая..."
+    # Ральф тем временем наклоняется и целует ее киску
+    fadeblack 1.5
+    music Loved_Up
+    sound2 lick3
+    imgfl 34256
+    w
+    imgf 34257
+    w
+    imgd 34254
+    ralph "Бетти, дорогая, раздвинь ножки."
+    ralph "Я хочу приласкать твою киску."
+    imgd 34258
+    w
+    menu:
+        "Раздвинуть ноги.":
+            pass
+    # Бетти раздвигает ноги, продолжая ворчать, а Ральф целует ее между ног
+    imgf 34259
+    w
+    sound lick3
+    imgd 34260
+    w
+    sound lick3
+    imgf 34261
+    w
+    imgd 34262
+    betty "Такую хорошую жену, как Я, еще поискать надо!"
+    betty "А ты ведешь себя эгоистично, требуя исполнения супружеского долга когда тебе вздумается!"
+    # Ральф отвечает между поцелуями
+    imgd 34263
+    ralph "Всего лишь раз в неделю, дорогая. Это же так редко."
+    ralph "Может быть будем делать это чаще?"
+    betty "Куда еще чаще, Ральф?!"
+    ralph "Но Бетти..."
+    img 34264
+    betty "Ты должен радоваться, что у нас регулярная интимная жизнь!"
+    betty "И что я тебе не отказываю раз в неделю!"
+    betty "Я и так слишком многое для тебя делаю!"
+    imgf 34265
+    w
+    sound lick3
+    imgd 34266
+    w
+    sound lick3
+    imgd 34265
+    w
+    sound lick3
+    imgd 34266
+    w
+    sound lick3
+    imgd 34265
+    w
+    sound lick3
+    imgd 34266
+    w
+    sound lick3
+    imgd 34265
+    w
+    sound lick3
+    imgd 34266
+    w
+    imgf 34263
+    ralph "Да, Бетти. Мне очень повезло, что у меня такая замечательная жена."
+    ralph "К тому же еще и красивая."
+    imgd 34267
+    w
+    sound lick3
+    imgd 34268
+    w
+    sound lick3
+    imgd 34267
+    w
+    sound lick3
+    imgd 34268
+    w
+    sound lick3
+    imgd 34267
+    w
+    sound lick3
+    imgd 34268
+    w
+    sound lick3
+    imgd 34267
+    w
+    sound lick3
+    imgd 34268
+    w
+    imgf 34263
+    betty "И еще хозяйственная!"
+    ralph "Да..."
+    imgd 34269
+    sound lick3
+    betty "И порядочная!"
+    ralph "Да, дорогая."
+    imgf 34270
+    ralph "Ты у меня самая лучшая, Бетти... Я хочу взять тебя сзади, повернись ко мне спиной."
+    # Бетти возводит глаза к потолку, типа как он меня задолбал
+    imgd 34271
+    w
+    imgd 34272
+    betty "Ральф, давай уже так, по-быстрому!"
+    ralph "Ну дорогая!"
+    imgd 34273
+    betty_t "Кто придумал этот дурацкий супружеский долг?!"
+    betty "!!!"
+    menu:
+        "Сделать, как просит Ральф.":
+            pass
+    # затемнение
+    # Бетти стоит в коленно-локтевой, подперев лицо ладонями, лицо скучающее
+    # Ральф в это время вводит свой член в ее киску, стоя сзади нее, тиская ее за ягодицы
+    fadeblack 2.0
+    music Loved_Up
+    imgfl 34275
+    w
+    imgf 34274
+    w
+    imgd 34276
+    ralph "Ооооо!!!"
+    imgf 34277
+    w
+    imgd 34278
+    w
+    imgd 34279
+    w
+    imgd 34280
+    ralph "Как же здорово, Бетти!"
+    # Бетти продолжает ворчать во время секса
+    imgf 34281
+    betty "Ральф, аккуратнее!"
+    betty "Из-за тебя у меня на попе будут синяки!"
+    ralph "Оооох, дорогая."
+    imgd 34282
+    ralph "Я просто так соскучился, что еле сдерживаю себя!"
+    betty "Ты во время интима со мной, должен думать не только о себе, Ральф!"
+    betty "В первую очередь, ты должен думать о моем удовольствии!"
+    imgd 34275
+    betty "А ты тискаешь меня, как какую-то непорядочную девицу!"
+    betty "Думаешь, что мне это доставляет удовольствие, Ральф?!"
+    imgf 34283
+    ralph "Хорошо, дорогая. Я постараюсь."
+    betty "Постарайся, Ральф!"
+    # Ральф продолжает ее пялить
+    imgd 34284
+    w
+    sound chpok6
+    img 34285 hpunch
+    w
+    imgf 34286
+    ralph "Так тепло у тебя внутри. Мммм..."
+    ralph "Вот бы каждый день проникать в твою киску, Бетти!"
+    imgd 34287
+    w
+    #video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Betty_Ralph_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_1= Movie(play="video/v_Betty_Ralph_Sex1_1.mkv")
+    show videov_Betty_Ralph_Sex1_1
+    with fade
+    ralph "Дааа, это было бы замечательно!"
+    ralph "Я тогда был бы самым счастливым мужем на свете!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgf 34275
+    betty "Что значит 'был бы', Ральф?!"
+    # Ральф шлепает ее по ягодице
+    # Бетти раздраженно
+    imgd 34289
+    w
+    sound snd_slap1
+    img 34290 hpunch
+    w
+    img 34291
+    w
+    img 34292
+    betty "Эй, полегче там! Обращайся со мной нежнее!"
+    betty "Что за мужланские замашки?! Кошмар!"
+    imgf 34288
+    betty "Я еще раз повторяю свой вопрос, Ральф!"
+    betty "Что значит 'был бы самым счастливым'?!"
+    betty "Тебе что-то не нравится?!"
+#    w
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_2= Movie(play="video/v_Betty_Ralph_Sex1_2.mkv")
+    show videov_Betty_Ralph_Sex1_2
+    with fade
+    ralph "Ммммм..."
+    ralph "Мне все нравится, дорогая."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_3= Movie(play="video/v_Betty_Ralph_Sex1_3.mkv")
+    show videov_Betty_Ralph_Sex1_3
+    with fade
+    betty "Тебе так повезло иметь такую замечательную жену, как Я!"
+    betty "Я снимаю с тебя абсолютно все вопросы по хозяйству!"
+    betty "И обеспечиваю тебе регулярную интимную жизнь!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    # Бетти продолжает клевать мозг
+    imgf 34293
+    ralph "Дааа..."
+    imgd 34294
+    betty "И еще я слежу за успеваемостью этого мелкого сопляка, твоего сына, в колледже!"
+    betty "Хотя это твоя прямая обязанность, Ральф!"
+    betty "Которую выполняю Я!"
+    imgf 34295
+    w
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_4= Movie(play="video/v_Betty_Ralph_Sex1_4.mkv")
+    show videov_Betty_Ralph_Sex1_4
+    with fade
+    betty "А ты еще чем-то недоволен?!"
+    betty "Это неблагодарность с твоей стороны, Ральф!"
+    betty "Ты совсем не ценишь того, что имеешь!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+#    sound drkanje5
+    imgd 34296
+    ralph "Я ценю тебя, дорогая..."
+    w
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_5= Movie(play="video/v_Betty_Ralph_Sex1_5.mkv")
+    show videov_Betty_Ralph_Sex1_5
+    with fade
+    ralph "Ммммм..."
+    ralph "Дааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Betty_Ralph_Sex1_6= Movie(play="video/v_Betty_Ralph_Sex1_6.mkv")
+    show videov_Betty_Ralph_Sex1_6
+    with fade
+    ralph "Очень ценю! Особенно твою попу!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgf 34288
+    betty "Ральф, в первую очередь..."
+    # он перебивает ее, говорит ей возбужденно
+    ralph "Бетти!"
+#    ralph "Знаешь, чем ты можешь осчастливить сейчас своего любимого мужа?"
+    ralph "Милая, давай попробуем что-то новое? Я очень давно этого хотел!"
+    # Бетти подозрительно косится на него, немая пауза
+    img 34297 vpunch
+    betty "?!"
+    # Ральф, не дожидаясь ее ответа, выходит из ее киски
+    imgf 34280
+    w
+    sound chpok6
+    img 34279
+    w
+    imgd 34298
+    betty "Что ты делаешь, Ральф?"
+    betty "Что ты задумал?"
+    ralph "Мммм... Тебе понравится, дорогая..."
+    # потом направляет свой член в ее анус и пытается тыкнуться в него
+    imgf 34279
+    w
+    sound Jump1
+    imgd 34299
+    w
+    img 34300
+    betty "ЭЙ!!!"
+    # Бетти резко вскакивает, повернувшись лицом к нему
+    # Ральф продолжает плотоядно пялиться на нее
+    sound Jump2
+    img 34301 vpunch
+    w
+    imgd 34302
+    ralph "Бетти..."
+    ralph "Какая же ты у меня красивая, дорогая!"
+    # Бетти начинает возмущаться
+    music Pyro_Flow
+    img 34303 hpunch
+    betty "РАЛЬФ! КАК ТЫ МОГ?!?!?!"
+    betty "!!!"
+    imgd 34304
+    betty "Как ты посмел?!?!?!"
+    betty "Ты за кого меня принимаешь, Ральф?!"
+    # Ральф растерян, член падает
+    imgd 34305
+    ralph "Дорогая..."
+    betty "Я твоя жена! И Я порядочная женщина!"
+    betty "А то, что ты хотел сделать!.. Это!.."
+    img 34306
+    betty "Это аморально, Ральф!"
+    betty "Никогда! Слышишь?! Никогда не смей предлагать мне подобной гадости!!!"
+    # она с негодованием вскакивает и идет в сторону выхода из спальни
+    # Ральф ей вслед
+    imgf 34307
+    w
+    sound snd_walk_barefoot
+    imgd 34308
+    w
+    img 34309
+    ralph "Но Бетти!"
+    ralph "Куда же ты?!"
+    ralph "Я ведь еще не кончил!"
+    # она пренебрежительно машет на него рукой
+    imgd 34310
+    betty "Все, Ральф!!!"
+    betty "С меня довольно!"
+    betty "Ты унизил меня своим поступком! МЕНЯ, свою жену!!!"
+    betty "Я не хочу больше с тобой разговаривать!"
+    imgd 34311
+    w
+    # она возмущенно уходит
+    # Ральф разочарованно смотрит ей вслед
+    fadeblack 2.0
+    return
+
+label gallery_34375:
+    # Ральф смотрит на Монику пошло
+    fadeblack 2.0
+    music Groove2_85
+    imgfl 34333
+    w
+    imgf 34334
+    ralph "Ну что, гувернантка Бетти?"
+    ralph "Давай мне скорее свою аппетитную попку."
+    # Моника медлит, начинает ломаться
+    music Hidden_Agenda
+    imgd 34335
+    m "Мистер Робертс, ваша гувернантка очень хотела бы порадовать вас..."
+    m "Но..."
+    ralph "Что, Бетти?"
+    if monicaBettyRalphAnal4 > 0:
+        imgd 34336
+        m "Моя попа... Она так болит после прошлого раза..."
+        imgd 34337
+        ralph "В этом нет ничего страшного, Бетти."
+        ralph "Совсем скоро твоя попа привыкнет и перестанет болеть."
+        ralph "Я буду очень-очень аккуратен с твоей попкой сегодня."
+    if monicaBettyRalphAnal4 == 0:
+        imgd 34336
+        m "Просто я... Я никогда не делала этого..."
+        imgd 34337
+        ralph "Правда? Я буду первым?"
+        imgf 34338
+        mt "Что значит буду первым?!"
+        imgd 34337
+        ralph "В этом нет ничего страшного, Бетти."
+        ralph "Я буду очень-очень аккуратен с твоей девственной попкой."
+    imgf 34339
+    m "Но я боюсь..."
+    ralph "Ты не представляешь, как я хочу сделать это!"
+    ralph "Ну не отказывай мне, Бетти!"
+    ralph "Моя первая Бетти не согласилась на это."
+    ralph "Не поступай со мной также, как она!"
+    imgd 34341
+    ralph "Я очень оценю, если ты сейчас согласишься!"
+    music Groove2_85
+    imgd 34342
+    mt "Хмм..."
+    mt "Эта дурацкая провинциалка отказала ему?"
+    # если Моника видела секс Бетти и Стива в офисе Стива
+    if bettySteveOfficeSteveSex == True:
+        #
+        $ notif(_("Моника видела, что у Бетти был анальный секс со Стивом."))
+        #
+        img 34343
+        mt "Она что, притворяется перед ним невинной овечкой?"
+        mt "А сама с готовностью подставляет свой провинциальный зад Стиву!"
+        mt "Вот стерва!"
+        #
+    imgf 34340
+    mt "Это немного меняет дело..."
+    mt "Если я сейчас соглашусь на эту извращенскую гадость..."
+    mt "То он будет тянуться ко мне еще больше."
+    mt "А провинциалка Бетти отойдет на второй план!"
+    # если Моника сказала Ральфу, что ей нужны деньги
+    if monicaBettyRalphSeduction8 == True:
+        #
+        $ notif(_("Моника встречается с Ральфом за деньги."))
+        #
+        music Hidden_Agenda
+        imgd 34344
+        ralph "Я готов за это дать тебе намного больше денег, чем обычно."
+        ralph "В качестве компенсации за твои переживания."
+        m "Правда?"
+        ralph "Конечно, Бетти!"
+        ralph "Мне для тебя не жалко никаких денег!"
+        imgf 34345
+        mt "Хммм..."
+        mt "Мне нужны эти деньги..."
+        # если Монику выгнали с эскорта
+        if ep212_escort_monica_fired == True:
+            #
+            $ notif(_("Моника больше не работает в ВИП-эскорте."))
+            #
+            imgd 34346
+            mt "Я могла бы заработать в ВИП-эскорте, но меня туда больше не пустят..."
+            #
+        # если должна Перри
+        if ep214_perry_debt > 0:
+            $ notif(_("Моника должна выплачивать Перри долг."))
+            imgd 34347
+            mt "Мне еще выплачивать долг мерзкой Перри!"
+        # если арендует апартаменты у Джека
+        if slumsApartmentsRentActive == True:
+            #
+            $ notif(t_("Моника арендует апартаменты в трущобах."))
+            #
+            imgd 34347
+            mt "Я должна оплачивать ту грязную дыру, которую мне сдает Джек!"
+            #
+        imgf 34348
+        ralph "Я тебе заплачу на целых сто долларов больше, Бетти!"
+        music Pyro_Flow
+        img 34336
+        mt "Сто долларов?!"
+        mt "Он что, издевается?!"
+        mt "Он оценивает мою попу в сто долларов?!"
+        mt "Мерзкий! Жадный! Отвратительный неудачник!"
+        music Groove2_85
+        imgd 34343
+        mt "Черт! С другой стороны..."
+        mt "Я могу сейчас заработать целых $ 300!"
+        #
+    # если Моника говорила Ральфу, что любит его
+    else:
+        #
+        $ notif(_("Моника говорила Ральфу, что влюблена в него."))
+        #
+        music Stealth_Groover
+        imgd 34345
+        mt "Позволить ему сделать эту гадость с моей попой - это немыслимая жертва с моей стороны!"
+        mt "!!!"
+        mt "Но мне выгодно играть перед ним влюбленную дурочку! Этот жалкий кретин должен оставаться у меня на крючке!"
+        imgd 34338
+        mt "Моя цель - заполучить мой дом обратно и стать вновь его хозяйкой! Законной хозяйкой!"
+        mt "И я сделаю для этого ВСЕ!"
+        #
+    music Groove2_85
+    imgf 34341
+    mt "!!!"
+    ralph "Бетти, иди ко мне..."
+    # коррапшн
+#    $ menu_corruption = [monicaRalphAnalCorruptionRequired1, 0]
+    menu:
+        "Согласиться на анальный секс.":
+#            $ monicaBettyRalphAnal3 = day # Моника согласилась на анальный секс с Ральфом впервые
+            pass
+        "Отказаться!":
+            # Моника зло
+            label gallery_34351:
+            music Pyro_Flow
+            imgd 34342
+            mt "Нет! Не таким образом!"
+            mt "Этот мерзкий старикашка хочет сделать ЭТО в мою попу!"
+            mt "Я пока не готова к таким жертвам со своей стороны!"
+            mt "Гребаный извращенец!"
+            imgd 34349
+            mt "Я ни за что не позволю ему этого!"
+            mt "!!!"
+            mt "Мне нужно как-то отвлечь этого никчемного идиота от моей попы!"
+            # Моника притворно улыбается ему
+            music Hidden_Agenda
+            imgf 34350
+            m "..."
+            m "Мистер Робертс..."
+            m "У вашей плохой гувернантки Бетти сегодня настроение для кое-чего другого..."
+            sound lick3
+            imgd 34351
+            m "Уверена, хозяину дома это очень понравится."
+            # Ральф ведется, игриво спрашивает Монику
+            ralph "Да?"
+            ralph "Звучит заманчиво..."
+            imgd 34352
+            ralph "Что же ты хочешь предложить мне, Бетти?"
+            # jump на начало меню с доступом ко всем пунктам (футджоб, титсджоб, минет, секс), кроме анала
+            return
+    ## сделал немного подругому, потому что изначально они уже были в кровати и Моника раздета
+    # Моника подходит к Ральфу
+    fadeblack 1.5
+    music Loved_Up
+    imgfl 34353
+    w
+    imgf 34354
+    w
+    music Stealth_Groover
+    imgd 34355
+    mt "Не могу поверить, что я добровольно иду на ЭТО!"
+    mt "Это все нереально! Какой-то сюр!"
+    mt "На какие только жертвы тебе не приходится идти, Моника!"
+    mt "!!!"
+    imgd 34356
+    mt "Но помни - все это временно!"
+    mt "Настанет тот момент, когда все до единого ответят за свои грязные поступки!"
+    mt "В том числе и этот мерзкий старикашка Ральф!"
+    mt "Ненавижу! Всех! До единого!"
+    mt "!!!"
+    # трусики Моники падают на пол
+    # довольный Ральф тянет к ней руку
+#    label video_test:
+    music Loved_Up
+    imgf 34357
+    ralph "Я так соскучился по своей гувернантке Бетти..."
+    ralph "А ты скучала по мне?"
+    # Моника тянет руку ему навстречу и притворно говорит
+    m "Конечно, Мистер Робертс."
+    # Моника садится на кровать рядом с Ральфом
+    # он лезет к ней с поцелуями, она отвечает
+    imgd 34358
+    ralph "Мммм... Моя Бетти..."
+    ## поменять фразу, так как она уже лиежит к нему попой
+#    ralph "Повернись ко мне своей попкой."
+    m "..."
+    m "Все-таки я переживаю, Мистер Робертс..."
+    m "А вдруг что-то пойдет не так?"
+    imgd 34359
+    ralph "Ничего не бойся, Бетти, я буду очень аккуратен."
+    mt "Черт!"
+    mt "!!!"
+    # Моника встает в коленно-локтевую, Ральф сзади, целует ее ягодицы
+    imgf 34360
+    sound kiss1
+    w
+    imgd 34361
+    w
+    sound kiss1
+    imgf 34362
+    w
+    sound kiss1
+    imgd 34363
+    ralph "Какая сладкая попка у моей гувернантки Бетти..."
+    ralph "Да, такая гладкая и упругая."
+    img 34364
+    mt "Гребаный извращенец!"
+    mt "!!!"
+    # Ральф наклоянется и рассматривает ее анус
+    # потом тянет руку и засовывает в попу Монике палец, водит им туда-сюда и смотрит
+    imgf 34365
+    w
+    imgd 34366
+    w
+    sound hlup10
+    imgd 34367
+    w
+    img 34369
+    m "Ай!"
+    ralph "Тсс, Бетти. Это всего лишь мой палец. Пока что..."
+    imgf 34367
+    w
+    sound hlup10
+    img 34368 hpunch
+    ralph "Мммм..."
+    if monicaBettyRalphAnal4 == 0:
+        imgd 34367
+        w
+        sound hlup10
+        imgd 34368
+        ralph "Какая тугая девственная дырочка у моей Бетти..."
+    if monicaBettyRalphAnal4 > 0:
+        imgd 34367
+        w
+        sound hlup10
+        imgd 34368
+        ralph "Мне так нравится ласкать твою дырочку."
+    imgf 34358
+    ralph "Сейчас хозяин этого дома попробует ее своим членом."
+    # Ральф вытаскивает из попы Моники палец и пристраивает к ее анусу свой член
+    imgd 34370
+    w
+    img 34373
+    mt "Черт! Черт!! Черт!!!"
+    mt "!!!"
+    # Ральф медленно начинает входить в ее анус
+    imgd 34370
+    w
+    imgd 34371
+    w
+    sound chpok6
+    img 34372 vpunch
+    m "Ой, мне больно!"
+    m "Ай-яй-яй!"
+    img 34374
+    m "Мистер Робертс! Может, не надо?"
+    # он приостанавливает свое проникновение, но не выходит, гладит ее по ягодице
+    imgd 34375
+    ralph "Тише-тише, моя Бетти."
+    ralph "Все хорошо, еще немного потерпи."
+    ralph "Потом тебе понравится, вот увидишь."
+    # снова начинает протискивать свой член в анус Моники
+    imgf 34376
+    w
+    imgd 34377
+    w
+    # video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Ralph_Anal1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_1= Movie(play="video/v_Monica_Ralph_Anal1_1.mkv")
+    show videov_Monica_Ralph_Anal1_1
+    with fade
+    ralph "О, какая же тугая дырочка!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34378
+    w
+    imgf 34379
+    ralph "Оооо!"
+    if monicaBettyRalphAnal4 == 0:
+        ralph "Сразу видно, что в ней до меня никто не бывал!"
+    if monicaBettyRalphAnal4 > 0:
+        ralph "Сразу видно, что в ней бывает только член хозяина этого дома!"
+    # если был анал с Филиппом
+    if monicaBiffInvestorsPhilip2 > 0:
+        #
+        $ notif(_("У Моники был анальный секс с Филиппом."))
+        #
+        imgd 34379
+        mt "Придурок!"
+        mt "Видел бы ты, что со мной сделал гад Филипп в своем кошмарном подвале!"
+        # если Моника сука
+        if monicaBitch == True:
+            $ notif_monica()
+            imgd 34379
+            mt "Сначала я оторву яйца ему, а потом и тебе, старикашка!"
+            mt "!!!"
+            #
+    # Ральф вводит член в Монику до основания
+    imgd 34376
+    w
+    sound drkanje5
+    img 34380 vpunch
+    m "АААА!!!"
+    imgd 34381
+    m "Мистер Робертс!"
+    m "Это очень больно!"
+    # Ральф начинает медленно двигаться вперед-назад
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_2= Movie(play="video/v_Monica_Ralph_Anal1_2.mkv")
+    show videov_Monica_Ralph_Anal1_2
+    with fade
+    ralph "Сейчас пройдет, моя Бетти."
+    ralph "Потерпи немного."
+    wclean
+    ralph "Мммм... Как же здорово!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+#    sound drkanje5
+    img 34382 vpunch
+    w
+    imgd 34383
+    w
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_3= Movie(play="video/v_Monica_Ralph_Anal1_3.mkv")
+    show videov_Monica_Ralph_Anal1_3
+    with fade
+    mt "Моя попа!!!"
+    mt "!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+#    sound drkanje5
+    img 34384 vpunch
+    w
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_4= Movie(play="video/v_Monica_Ralph_Anal1_4.mkv")
+    show videov_Monica_Ralph_Anal1_4
+    with fade
+    ralph "Обожаю твою попку!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    # Ральф кайфует
+    imgf 34385
+    ralph "Моя Бетти! Оооо!"
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_5= Movie(play="video/v_Monica_Ralph_Anal1_5.mkv")
+    show videov_Monica_Ralph_Anal1_5
+    with fade
+    ralph "Мммм..."
+    ralph "Даааа..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_6= Movie(play="video/v_Monica_Ralph_Anal1_6.mkv")
+    show videov_Monica_Ralph_Anal1_6
+    with fade
+    mt "Когда же это все уже прекратится?!"
+    mt "Это отвратительно!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34386
+    w
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_7= Movie(play="video/v_Monica_Ralph_Anal1_7.mkv")
+    show videov_Monica_Ralph_Anal1_7
+    with fade
+    ralph "Моя гувернантка Бетти радует хозяина этого дома все больше и больше!"
+    ralph "Ты не стала меня расстраивать отказом."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal1_8= Movie(play="video/v_Monica_Ralph_Anal1_8.mkv")
+    show videov_Monica_Ralph_Anal1_8
+    with fade
+    ralph "Ты самая лучшая, моя Бетти!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    # если Моника сказала Ральфу, что ей нужны деньги
+    if monicaBettyRalphSeduction8 == True:
+        imgd 34387
+        mt "Да, жадный старикашка!"
+        mt "Я сделаю так, чтобы ты готов был отдать мне все свои деньги!"
+        mt "Хватит с меня сомнительных источников дохода!"
+    # если Моника сказала Ральфу, что любит его
+    else:
+        imgd 34387
+        mt "Да, мерзкий старикашка!"
+        mt "Я сделаю все, чтобы вышвырнуть эту тупую провинциалку и вернуть свой дом!"
+        mt "А следом за ней я вышвырну отсюда и тебя вместе с твоим противным малявкой!"
+    #
+    # Ральф выходит из Моники
+    imgf 34372
+    w
+    sound chpok6
+    img 34370
+    w
+    imgf 34353
+    ralph "Садись на меня сверху, Бетти."
+    ralph "Я войду в твою тугую дырочку..."
+    ralph "И буду смотреть на твое прекрасное личико."
+    imgd 34355
+    mt "Твою мать!"
+    mt "Он еще растягивает удовольствие!"
+    mt "Придурок!"
+    mt "!!!"
+    menu:
+        "Сделать, как просит Ральф.":
+            pass
+    imgd 34357
+    m "Конечно, Мистер Робертс..."
+    # Ральф ложится на кровать, Моника садится сверху него
+    # член Ральфа вводит в анус
+    # при этом Моника морщится от боли, а Ральф балдеет
+    label gallery_34399:
+    fadeblack 2.0
+    music Loved_Up
+    imgfl 34388
+    w
+    imgf 34389
+    w
+    imgd 34390
+    w
+    imgd 34391
+    w
+    imgf 34392
+    w
+    sound chpok6
+    img 34393 vpunch
+    ralph "Ммммм..."
+    imgd 34394
+    ralph "Оооох, Бетти!"
+    imgf 34395
+    ralph "Какая твоя попка упругая! Да!"
+    # Моника смотрит на него с притворной игривостью
+    imgd 34396
+    mt "Мне надоело с ним возиться!"
+    mt "Нужно сделать так, чтобы этот идиот скорее кончил и отстал от меня!"
+    imgf 34397
+    w
+    imgd 34398
+    mt "И от моей попы!"
+    mt "!!!"
+    imgf 34399
+    w
+    # video
+    #1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_Ralph_Anal2_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_1_25= Movie(play="video/v_Monica_Ralph_Anal2_1_25.mkv")
+    show videov_Monica_Ralph_Anal2_1_25
+    with fade
+    m "Вам нравится, Мистер Робертс?"
+    wclean
+    ralph "Ммммм, даааа..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    music Loved_Up2
+    imgd 34400
+    ralph "Оооох..."
+    #2
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_2_25= Movie(play="video/v_Monica_Ralph_Anal2_2_25.mkv")
+    show videov_Monica_Ralph_Anal2_2_25
+    with fade
+    ralph "О, Беттииии..."
+    ralph "Ты самая лучшая!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34401
+    ralph "Я хочу заниматься этим каждый день!"
+    imgf 34402
+    w
+    #3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_3_25= Movie(play="video/v_Monica_Ralph_Anal2_3_25.mkv")
+    show videov_Monica_Ralph_Anal2_3_25
+    with fade
+    ralph "Какая горячая и тугая дырочка! Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34403
+    w
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_4_25= Movie(play="video/v_Monica_Ralph_Anal2_4_25.mkv")
+    show videov_Monica_Ralph_Anal2_4_25
+    with fade
+    ralph "И трахать свою плохую гувернантку..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34404
+    w
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_5_25= Movie(play="video/v_Monica_Ralph_Anal2_5_25.mkv")
+    show videov_Monica_Ralph_Anal2_5_25
+    with fade
+    ralph "Во все ее дырочки!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgf 34405
+    w
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_6_25= Movie(play="video/v_Monica_Ralph_Anal2_6_25.mkv")
+    show videov_Monica_Ralph_Anal2_6_25
+    with fade
+    ralph "Я вижу, как тебе нравится, когда член хозяина дома в твоей попке, Бетти!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34407
+    ralph "Дааа!"
+    ralph "Как же здорово!!! Ооооо!"
+    imgd 34408
+    w
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_7_25= Movie(play="video/v_Monica_Ralph_Anal2_7_25.mkv")
+    show videov_Monica_Ralph_Anal2_7_25
+    with fade
+    ralph "Оооо!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgd 34409
+    w
+    #8
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_Ralph_Anal2_8_25= Movie(play="video/v_Monica_Ralph_Anal2_8_25.mkv")
+    show videov_Monica_Ralph_Anal2_8_25
+    with fade
+    ralph "Ааааа!"
+    ralph "АААА!!!"
+    wclean
+    ralph "Я сейчас кончу, Бетти!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    menu:
+        "Кончить на киску Моники.":
+#            $ monicaBettySexRalph_cumzone = 1
+            # Моника приподнимается и Ральф кончает на ее киску
+            imgf 34407
+            w
+            sound drkanje5
+            img 34408 vpunch
+            ralph "Бетти!"
+            img 31688
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
+            ralph "Ооооо!!"
+            img 31689
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
+            ralph "ООООООООО!!!"
+            # Моника смотрит на Ральфа
+            # он прибалдевший смотрит на нее
+            imgd 34410
+            mt "!!!"
+            pass
+        "Кончить в попу Моники.":
+#            $ monicaBettySexRalph_cumzone = 2
+            imgf 34407
+            w
+            sound drkanje5
+            img 34408 vpunch
+            ralph "Бетти!"
+            img 34407
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
+            w
+            img 34406
+            sound bulk1
+            show screen photoshot_screen()
+            with hpunch
+            pause 0.7
+            hide screen photoshot_screen
+            sound man_moan1
+            ralph "Ооооо!!"
+            sound chpok6
+            imgd 34411
+            ralph "ООООООООО!!!"
+            # Моника смотрит на Ральфа
+            # он прибалдевший смотрит на нее
+            imgd 34410
+            mt "!!!"
+            pass
+    # затемнение
+    # Моника с Ральфом лежат в обнмку в постели
+    fadeblack 2.0
+    music Groove2_85
+    imgfl 31584
+    w
+    imgf 34412
+    ralph "Бетти, это было восхитительно!"
+    ralph "Тебе понравилось?"
+    imgd 31581
+    mt "Кошмарно!!!"
+    mt "!!!"
+    # Моника притворно
+    imgd 34412
+    m "Мне очень понравилось, Мистер Робертс..."
+    ralph "Как себя чувствует твоя попка?"
+    imgd 31581
+    mt "Дьявол! Моя попа горит!"
+    imgf 31582
+    m "Мне больно... Но совсем немного..."
+    ralph "В следующий раз будет не так больно, Бетти."
+    music Stealth_Groover
+    imgd 34413
+    mt "!!!"
+    mt "Так, Моника. Пока этот мешок с костями лежит в эйфории..."
+    mt "Тебе нужно использовать этот момент!"
+    # если Моника сказала Ральфу, что ей нужны деньги
+    if monicaBettyRalphSeduction8 == True:
+        imgd 34414
+        mt "Возможно, я смогу сделать так, что он заплатит мне не $ 300, а намного больше..."
+        music Hidden_Agenda
+        imgf 31585
+        m "Мистер Робертс..."
+        ralph "Да, Бетти?"
+        m "Я же порадовала вас сегодня своим согласием..."
+        if monicaBettyRalphAnal4 == 0:
+            m "И это было у меня впервые."
+        m "Мне было очень страшно, Мистер Робертс."
+        m "Но ради вас я пошла на этот шаг..."
+        imgd 31589
+        ralph "Да, Бетти. Я очень ценю это..."
+        ralph "Ты хотела что-то попросить у меня?"
+        ralph "Я дам тебе, как обычно, $ 200 и добавлю еще сто, как и обещал."
+        ralph "Вот твои $ 300, Бетти."
+#        $ add_money(300.0)
+        menu:
+            "Попросить у Ральфа еще денег.":
+                pass
+        imgf 31587
+        m "Может быть, Мистер Робертс даст мне еще немного денег?"
+        ralph "Обещаю, что в следующий раз я тебе тоже доплачу за это."
+        ralph "Несмотря на то, что это будет не в первый раз для нас..."
+        # чмокает ее в щечку, Моника притворно улыбается ему
+        music Pyro_Flow
+        img 31588
+        mt "Мерзкий жадный старикашка!"
+        mt "!!!"
+        #
+    # если Моника сказала Ральфу, что любит его
+    else: # может, сделать это пунктом меню из лейбла ep214_dialogues5_bardie_ralph_16 - "Предложить Ральфу узаконить наши отношения"-?
+        imgd 34414
+        mt "Нужно сделать так, чтобы этот мерзкий Ральф понял, что я лучше его провинциалки!"
+        music Hidden_Agenda
+        imgf 31585
+        m "Мистер Робертс..."
+        ralph "Да, Бетти?"
+        m "Я же порадовала вас сегодня своим согласием..."
+        if monicaBettyRalphAnal4 == 0:
+            m "И это было у меня впервые."
+        m "Мне было очень страшно, Мистер Робертс."
+        m "Но ради вас я пошла на этот шаг..."
+        imgd 31589
+        ralph "Да, Бетти. Я очень ценю это..."
+        m "Мистер Робертс, вы сказали, что я самая лучшая... Вы правда так думаете?"
+        ralph "Да, Бетти. Мне очень нравится проводить с тобой время."
+        # Моника притворно огорчается
+        imgf 34415
+        m "Мне тоже с вами очень нравится. Жаль, что мы не можем быть с вами каждый день..."
+        m "Как было бы хорошо ни от кого не прятатся и не скрывать наши с вами чувства, Мистер Робертс..."
+        m "Мы могли бы целоваться и обниматься в любой момент и в любом месте..."
+        imgd 34416
+        m "И не только целоваться и обниматься..."
+        m "Я хотела бы делать ЭТО с вами везде, а не только в этой спальне."
+        m "В этом доме есть столько интересных мест, Мистер Робертс." # игриво
+        ralph "Звучит очень заманчиво, Бетти."
+        ralph "Ты знаешь, я тоже хотел бы этого."
+        imgf 31587
+        m "Возможно, я могла бы быть для вас первой Бетти, Мистер Робертс..."
+        # Ральф задумчиво чешет лысину и смотрит на Монику
+        ralph "Хммм..."
+        m "Я вас люблю, Мистер Робертс. И не хочу делить ни с кем..."
+        m "Я хочу, чтобы вы были только со мной."
+        ralph "Бетти..."
+        sound Jump2
+        img 34417 hpunch
+        m "Не торопитесь мне сейчас давать ответ, Мистер Робертс."
+        m "Но помните, что я страдаю каждый раз, когда вижу вас с вашей женой."
+        m "И мечтаю быть на ее месте..."
+        imgd 34418
+        ralph "Моя Бетти, я подумаю, как нам дальше быть..."
+        m "Обещаете, Мистер Робертс?"
+        ralph "..."
+        m "..."
+        ralph "Да, Бетти. Обещаю."
+        # Моника радостно смотрит на него
+        music Stealth_Groover
+        imgd 34419
+        mt "Да, мерзкий старикашка! Ты попался!!!"
+        mt "Скоро, Моника! Совсем скоро!"
+        mt "Ты сможешь вернуть свой дом!"
+        mt "!!!"
+        imgf 31590
+        sound kiss2
+        w
+        # Моника радостно тянется к нему, целует
+#    $ monicaBettyRalphAnal4 = day # у Моники и Ральфа состоялся первый анал
+    return
+
+label gallery_34432:
+    # Моника стоит голая перед Бифом (по возможности использовать имеющиеся арты)
+    music stop
+    img black_screen
+    with diss
+    sound snd_fabric1
+    pause 1.5
+    music Groove2_85
+    imgfl 22908
+    m "Биф, мне обязательно это делать?"
+    biff "Ага. Чем сегодня ты порадуешь папочку?"
+    img 22909
+    mt "Сволочь!"
+    imgd 24354
+    m "Биф, что ты хочешь чтобы я снова сделала?!"
+    biff "Это не моя задача придумывать, чем развлекать папочку, цыпочка!"
+    biff "Залезь на стол, сделай что-нибудь новое."
+    biff "Цыпочка должна развлекать папочку! Папочке скучно!"
+    menu:
+        "Залезть на стол Моники.":
+            pass
+    # Моника лезет на стол и садится перед Бифом
+    sound snd_walk_barefoot
+    imgf 24355
+    mt "Ненавижу! Ненавижу!"
+    # зло смотрит на него
+    fadeblack 1.5
+    music Groove2_85
+    imgf 24356
+    w
+    imgd 24358
+    m "Все, Биф?"
+    m "Я могу идти?"
+    imgf 24357
+    biff "Нет, конечно, цыпочка!"
+    biff "Сядь так, чтобы папочке было видно все, что у его хорошей цыпочки есть между ног!"
+    img 24359 hpunch
+    m "Биф!"
+    imgd 24360
+    biff "Если цыпочка хорошая, то она сейчас высоко поднимет свои ноги!"
+    biff "И ничего не будет прятать от папочки!"
+    menu:
+        "Поднять ноги.":
+            pass
+    fadeblack 1.5
+    music Loved_Up
+    imgf 34420
+    w
+    imgd 34421
+    mt "Какой кошмар, Моника!"
+    mt "Ты сидишь полностью обнаженная перед мерзавцем Бифом!"
+    mt "Сидишь на свом рабочем столе!"
+    mt "И показываешь ему свою... Всю себя!"
+    mt "!!!"
+    music Groove2_85
+    imgf 34422
+    biff "Уже лучше, цыпочка..."
+    biff "Но папочка все еще не очень тобой доволен..."
+    m "Что еще от меня нужно, Биф?!"
+    imgd 34423
+    m "Я итак исполняю все твои прихоти!"
+    m "!!!"
+    imgd 34425
+    biff "Мне показалось или ты сейчас пытаешься спорить со мной?!"
+    biff "Не забывай, что тут один Босс. Это Я!!!"
+    biff "А ты, кукла, должна делать все для того, чтобы твой Босс был доволен!"
+    # Моника негодует про себя, но продолжает сидеть на столе
+    music Power_Bots_Loop
+    img 34424 hpunch
+    mt "Этот Биф издевается надо мной все больше и больше!"
+    mt "А мне приходится делать вид, что я играю по его правилам!"
+    imgd 34426
+    mt "С каждым разом мне все труднее сдержаться от того..."
+    mt "Чтобы не долбануть по его безмозглой голове чем-нибудь потяжеее!"
+    mt "!!!"
+    music Groove2_85
+    imgf 34425
+    biff "Ну? Чем дальше цыпочка будет радовать своего Босса?"
+    m "Я..."
+    imgd 34424
+    mt "Черт!"
+    mt "Что сделать, чтобы этот мерзавец отстал от меня?!"
+    # Биф откидывается на спинку кресла
+    imgf 34427
+    biff "Смотри, цыпочка, что у меня для тебя есть."
+    # кивает головой на свою ширинку
+    sound Jump2
+    img 34428
+    mt "Фу!"
+    mt "Нет!!!"
+    imgd 34429
+    biff "Для начала достань член своего Босса и потрогай его."
+    biff "Ты же должна расслабить меня после трудного рабочего дня?"
+    biff "Хорошие цыпочки именно так и делают."
+    imgf 34430
+    m "Биф, мы можем обойтись без этого?!"
+    m "Я..."
+    biff "Скажи мне, ты хорошая цыпочка?"
+    menu:
+        "Сказать Бифу что Моника хорошая цыпочка.":
+            pass
+    imgd 34430
+    mt "Твою мать!"
+    mt "Как этот кретин меня бесит!"
+    music Hidden_Agenda
+    mt "..."
+    imgd 34431
+    m "Да... Я хорошая цыпочка..."
+    music Groove2_85
+    imgf 34432
+    biff "Тогда протяни руку и сделай так, как говорю тебе Я!"
+    biff "Не заставляй папочку ждать!"
+    menu:
+        "Достать член Бифа.":
+            pass
+    img 34428 vpunch
+    mt "!!!"
+    # Моника протягивает руку и дотает его член
+    # потом убирает руку
+    label gallery_34455:
+    fadeblack 1.5
+    music Groove2_85
+    imgfl 34433
+    w
+    imgf 34434
+    w
+    imgd 34435
+    w
+    fadeblack
+    sound snd_zip
+    pause 2.0
+    music Groove2_85
+    imgf 24443
+    w
+    imgd 24445
+    biff "Эй, цыпочка!"
+    biff "Ты чего, член первый раз в жизни видишь?"
+    biff "Давай, потрогай его немного своей рукой."
+    biff "Папочка хочет немного расслабиться с помощью своей цыпочки..."
+    # Моника едлит
+    imgd 34436
+    m "Биф, я что?.. Я должна взять его в руку?"
+    biff "Ага!"
+    m "!!!"
+    menu:
+        "Взять член Бифа в руку.":
+            pass
+    # Моника со злым лицом протягивает руку и берется за член Бифа
+    fadeblack 1.5
+    music Groove2_85
+    imgf 34437
+    w
+    imgd 34438
+    w
+    imgd 34439
+    w
+    imgd 34440
+    w
+    imgf 34441
+    biff "Можешь обхватить его сильнее, цыпочка..."
+    biff "Папочке это понравится."
+    biff "И вообще! Я что-то не пойму!"
+    biff "Я что, сейчас учу опытную двадцатидолларовую шлюху, как надо дрочить?!"
+    biff "За что только тебе деньги платили твои клиены на улице?!"
+    # Моника продолжая держаться за член Бифа
+    img 34442 hpunch
+    m "Биф, хватит называть меня этим словом!"
+    biff "Я говорю, как есть на самом деле!"
+    biff "Хочешь буду называть тебя сучка Бакфетт?! Ха-ха!"
+    m "!!!"
+    imgf 34443
+    biff "Давай активнее двигай своей рукой!"
+    biff "Сучка Бакфетт! Ха-ха-ха!"
+    m "Прекрати, Биф!"
+    imgd 34444
+    biff "Тогда нечего указывать папочке, как тебя называть!"
+    biff "Здесь только я решаю!"
+    biff "Поняла?!"
+    img 34445
+    m "!!!"
+    m "Да..."
+    mt "Сволочь!"
+    biff "Двигай рукой активнее!"
+    biff "Сколько раз я должен говорить?!"
+    menu:
+        "Двигать рукой быстрее.":
+            pass
+    music Loved_Up
+    # Моника выполняет
+    imgf 34446
+    w
+    sound drkanje5
+    imgd 34447
+    w
+    sound drkanje5
+    imgd 34446
+    w
+    sound drkanje5
+    imgd 34447
+    w
+    sound drkanje5
+    imgd 34446
+    w
+    sound drkanje5
+    imgd 34447
+    w
+    sound drkanje5
+    imgd 34446
+    w
+    sound drkanje5
+    imgd 34447
+    w
+    imgf 34448
+    mt "!!!"
+    imgd 34449
+    biff "Дааа..."
+    biff "Уже намного лучше, цыпочка..."
+    biff "Еще немного и папочка будет очень доволен."
+    biff "А теперь поводи членом папочки по своей киске, цыпочка."
+    music Groove2_85
+    img 34450
+    m "Что?!"
+    biff "Что слышала!"
+    biff "Только не начинай своих глупых споров!"
+    biff "Иначе я расстроюсь и выгоню тебя!"
+    biff "Станешь плохой цыпочкой!"
+    imgf 34451
+    biff "А плохие цыпочки не получают денежку от папочки! И работу тоже не получают!"
+    biff "Так что хорошенько подумай, прежде чем открыть свой рот и начинать говорить им слова!"
+    m "Биф!.."
+    m "Я!.."
+    imgd 34449
+    biff "Ты уверена, что хорошо подумала?!"
+    music Pyro_Flow
+    imgd 34452
+    mt "Дьявол! Чувствую себя отвратительно!"
+    mt "Грязный извращенец!"
+    mt "Как и все, кто меня окружает!!!"
+    mt "!!!"
+    music Groove2_85
+    imgd 34444
+    biff "Так что там хотела цыпочка мне сказать? Что она хорошая?"
+    m "Я..."
+#    $ menu_corruption = [biffCastingTablePussyOption1, 0]
+    menu:
+        "Возить членом Бифа по киске.":
+            pass
+        "Убежать...":
+            music Power_Bots_Loop
+            imgd 34440
+            m "Нет! Я не буду этого делать!"
+            m "И я не буду ничего говорить!"
+            img 34444 vpunch
+            biff "Ты плохая цыпочка!"
+#            biff "Я запрещаю тебе появляться в офисе две недели!"
+            biff "Пошла вон!"
+            fadeblack
+            sound snd_fabric1
+            pause 2.0
+            sound highheels_run2
+            pause 2.0
+            return
+    # Моника раздвигает ноги, придвигается ближе к Бифу и рукой направляет его член к своей киске
+    music Hidden_Agenda
+    imgf 34445
+    m "Да... Я хорошая цыпочка..."
+    m "!!!"
+    fadeblack 1.5
+    music Loved_Up
+    imgfl 34454
+    w
+    imgf 34453
+    w
+    imgd 34455
+    w
+    imgd 34456
+    mt "Какая мерзость!"
+    mt "Не могу поверить, что я делаю это!"
+    mt "И, самое главное, для КОГО!"
+    mt "Для этого ничтожества Бифа!!!"
+    mt "!!!"
+    # водит членом по киске туда-сюда, не вводя во внутрь
+    # Биф болтает во время этого
+    imgf 34455
+    w
+    sound Jump2
+    img 34457 vpunch
+    biff "Даа... Хорошо..."
+    biff "Цыпочка старается сделать папочке приятное."
+    sound hlup10
+    imgd 34458
+    biff "Какая бархатная киска у нее."
+    biff "Мне нравится..."
+    sound hlup10
+    img 34459
+    biff "Была бы ты еще настоящей сучкой Бакфетт... Мммм..."
+    biff "Папочке было бы приятно вдвойне!"
+    sound hlup10
+    imgd 34455
+    w
+    img 34456
+    mt "ИДИОТ!"
+    mt "!!!"
+    imgf 34460
+    biff "Интересно, много членов повидала киска настоящей Бакфетт? Говорили, что она холодна со всеми, как лед."
+    biff "Твоя-то понятно, что сотни членов пропустила через себя."
+    biff "Кстати, если ты сосала за $ 20 баксов, за сколько ты раздвигала ноги?"
+    biff "$ 25? $ 30?"
+    biff "А был какой-то бонус дя постоянных клиентов?"
+    imgd 34461
+    mt "!!!"
+    biff "Давай быстрее, цыпочка!"
+    music Loved_Up2
+    imgf 34457
+    w
+    sound hlup10
+    imgd 34458
+    w
+    sound hlup10
+    imgd 34459
+    w
+    sound hlup10
+    imgd 34455
+    w
+    sound hlup10
+    imgd 34457
+    w
+    sound hlup10
+    imgd 34458
+    w
+    sound hlup10
+    img 34459
+    w
+    sound hlup10
+    imgd 34455
+    w
+    imgf 34462
+    biff "Папочка уже скоро!.."
+    biff "Старайся лучше, цыпочка!"
+    imgd 34458
+    w
+    sound hlup10
+    imgd 34459
+    w
+    sound hlup10
+    imgd 34455
+    w
+    imgd 34463
+    biff "Еще-еще!"
+    biff "Вот тааак!"
+    biff "Даааа!"
+    # Биф кончает на киску Моники
+    imgd 34455
+    w
+    sound hlup10
+    imgd 34457
+    w
+    sound hlup10
+    imgd 34458
+    w
+    sound hlup10
+    imgd 34459
+    w
+    sound hlup10
+    imgd 34455
+    biff "Папочка кончааает!!!"
+    img 34464
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    biff "Аааа!!!"
+    img 34465
+    sound bulk1
+    show screen photoshot_screen()
+    with hpunch
+    pause 0.7
+    hide screen photoshot_screen
+    sound man_moan1
+    w
+    sound squelch9
+    biff "Мммм!!!"
+    # Биф довольно рассматривает свою сперму на киске
+    imgf 34466
+    biff "Дааа..."
+    biff "Вот теперь папочка доволен тобой."
+    biff "Папочке нравятся такие старательные цыпочки."
+    # у Моники отвращение
+    music Pyro_Flow
+    imgd 34467
+    mt "Боже! Меня сейчас стошнит от омерзения!"
+    mt "Он сделал это прямо на мою... Мне между ног! Фууу!!!"
+    mt "Как это ужасно!!!"
+    mt "!!!"
+    # Моника сдвигает ноги и слезает со стола
+    fadeblack
+    sound snd_walk_barefoot
+    pause 1.5
+    music Hidden_Agenda
+    imgf 34468
+    m "Биф, я могу одеться и идти?"
+    imgd 34469
+    m "Я достаточно развлекла папочку?!"
+    # Биф с довольной ухмылкой застугивает штаны
+    sound snd_zip
+    imgf 24512
+    biff "Цыпочка развеселила папочку и цыпочка может идти!"
+    biff "Надеюсь, в следующий раз цыпочка придумает еще что-нибудь интересное..."
+    biff "Cкажи, тебе понравился член папочки?"
+    imgd 34469
+    mt "Мерзавец! Это отвратительно!"
+#    $ menu_corruption = [biffCastingTablePussyOption1, 0]
+    menu:
+        "Сказать что член папочки понравился.":
+#            fadeblack 1.5
+            music Hidden_Agenda
+            imgf 34468
+            m "Да... Папочка... Мне понравился твой член..."
+            music Groove2_85
+            imgd 24515
+            biff "Хорошо, цыпочка!"
+            biff "Ты можешь идти."
+            biff "Папочка скоро снова нагуляет аппетит."
+            biff "Цыпочка должна не забыть развлечь его!"
+        "Уйти.":
+            pass
+    music Power_Bots_Loop
+    img 34470
+    m "..."
+    mt "Ненавижу этого придурка!"
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    sound highheels_short_walk
+    pause 2.0
+    return
+
+label gallery_60019:
+    # спустя некоторое время Моника с Бифом заходят в конференц-зал Кэмпбелла
+    # к ним с важным видом подходит  ассистентка Кэмпбелла, она в очках, в руках папка
+    pause 1.5
+    sound snd_door_open1
+    pause 1.5
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 60001
+    w
+    imgf 60000
+    beatrice "Добрый день! Миссис Бакфетт, полагаю?"
+    # Биф, жадно пожирая ее глазами
+    imgd 60002
+    w
+    imgd 60003
+    biff "Добрый день, Мисс!"
+    biff "Передайте Мистеру Кэмпбеллу, что прибыла Миссис Бакфетт и Мистер Биф..."
+    # секретарша продолжает важно
+    music ZigZag
+    imgf 60004
+    beatrice "Я Беатрис. Являюсь ассистентом Мистера Кэмпбелла."
+    imgd 60005
+    beatrice "Я тоже буду присутствовать на сегоднящней фотосессии." # она неприязненно смотрит на Монику
+    sound highheels_short_walk
+    imgf 60006
+    # Беатрис разворачивается и говорит на ходу
+    beatrice "Пойдемте за мной. Я проведу вас."
+    sound Jump2
+    img 60007 vpunch
+    mt "!!!"
+    mt "А ей какого черта нужно присутствовать?!"
+    mt "Может, вообще весь коллектив соберется?!"
+    mt "Что за бред?!"
+    # Биф смотрит на ее попу и шепчет Монике
+    sound highheels_short_walk
+    imgd 60008
+    biff "Вот это ассистентка!"
+    biff "Вот бы мне такую! На место Сиськи, например..."
+    music Power_Bots_Loop
+    img 60009
+    m "Биф!"
+    mt "Похотливое животное!"
+    mt "!!!"
+    # Биф смотрит на Монику
+    music Groove2_85
+    sound2 Jump1
+    imgd 60010
+    biff "Пошли, цыпочка."
+    biff "И я тебя предупреждаю сразу! Никаких глупостей!"
+    biff "Эта фотосессия должна пройти без накладок!"
+    biff "Если ты сделаешь что-то не так и сорвешь ее..."
+    biff "Дорогу в мой офис можешь забыть!"
+    biff "Поняла меня?!"
+    m "..."
+    menu:
+        "Да.":
+            m "Да..."
+            pass
+        "Промолчать.":
+            mt "Да пошел ты, придурок!"
+            m "..."
+            pass
+    sound man_steps
+    imgf 60011
+    biff "Все, пошли!"
+    # затемнение
+    # они идут вслед за Беатрис
+    # затемнение, звук шагов
+    # смена кадра на сцену
+    # Беатрис, Моника и Биф выходят на сцену, где их стоят и ждут Кэмпбелл и фотограф Райен (Guest4 с паблик ивента)
+    # на сцене уже все готово для фотосессии, в т.ч. рама
+    # Моника в недоумении оглядывается
+    # Беатрис с важным видом подходит к Кэмпбеллу
+    # возле сцены
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 60012
+    w
+    imgf 60013
+    beatrice "Мистер Кэмпбелл, они прибыли..."
+    campbell "Спасибо, Беатрис."
+    # Биф, следом Моника тоже подходят к нему
+    imgd 60014
+    biff "Здравствуйте, Мистер Кэмпбелл!"
+    biff "Очень рад встрече с вами и..."
+    music Hidden_Agenda
+    sound2 Jump1
+    img 60015
+    # пялясь на Беатрис
+    biff "И вашими сотрудниками!"
+    music Groove2_85
+    imgf 60016
+    campbell "Здравствуйте, Мистер Биф."
+    campbell "Миссис Бакфетт, рад, что вы согласились на эту фотосессию."
+    # Кэмпбелл делает жест рукой в сторону Райена
+    sound Jump2
+    imgd 60017
+    campbell "Сегодня мы будем сотрудничать с одним из лучших фотографов нашего города."
+    campbell "Знакомтесь, Мистер Райен."
+    sound man_steps
+    imgf 60018
+    ryan "Добрый день, Миссис Бакфетт."
+    ryan "Рад встрече с вами."
+    m "Здравствуй, Райен..."
+    ryan "Давно мечтал поработать с вами, Миссис Бакфетт."
+    music Stealth_Groover
+    imgd 60019
+    mt "Вот черт!"
+    mt "Этот никчемный Райен будет проводить фотосессию?!"
+    mt "В прошлый раз он взял на себя наглость критиковать работу Алекса!"
+    #
+    $ notif(_("Моника разговаривала с Райеном на мероприятии в клубе Кэмпбелла."))
+    #
+    mt "А потом говорил, что видел мои снимки с закрытой фотосессии!!"
+    mt "Самодовольный индюк!"
+    music Groove2_85
+    imgf 60020
+    # Кэмпбелл говорит Райену
+    campbell "Райен, можете приступать к работе."
+    campbell "Мы с Мистером Бифом и Беатрис будем наблюдать за процессом с зала." # показывает на кресла в первом ряду перед сценой
+    # потом поворачивается к Монике
+    fadeblack
+    sound man_steps
+    pause 2.0
+    music Groove2_85
+    imgfl 60021
+    w
+    imgf 60022
+    campbell "Миссис Бакфетт, скорее всего, Мистер Биф рассказал вам, какого рода снимки мне нужны..."
+    campbell "Но я уточню, что это..." # показывает рукой на раму
+    imgd 60023
+    campbell "Это очень дорогая дизайнерская рама для картины."
+    imgf 60024
+    campbell "Мои лучшие дизайнеры провели тщательную и кропотливую работу..."
+    campbell "Чтобы сделать ее неповторимой и потрясающе прекрасной."
+    campbell "Это ваш реквизит для съемок, Миссис Бакфетт."
+    # Моника с недоумением смотрит на раму
+    music Stealth_Groover
+    imgd 60025
+    mt "Обычная рама... Не вижу в ней ничего потрясающего и неповторимого."
+    mt "И еще этот Райен! Он меня раздражает!"
+    mt "Одно дело работать с Алексом. Ему можно сказать, чтобы он не брал какие-то определенные ракурсы..."
+    mt "Может, у меня получится также руководить и этим Райеном?.."
+    imgd 60026
+    mt "Моника Бакфетт снимается для рекламы дурацкой рамы!"
+    mt "Какой-то идиотизм!"
+    # Кэмпбелл прерывает ее мысли
+    music Groove2_85
+    imgf 60027
+    campbell "Можете приготовиться к съемке, Миссис Бакфетт..."
+    m "А где я могу переодеться и где костюм для съемки?"
+    campbell "Мистер Биф не сказал вам?"
+    campbell "Рама - единственный ваш реквизит. Никакой одежды."
+    music Power_Bots_Loop
+    img 60028 vpunch
+    m "?!"
+    m "В смысле?"
+    music Groove2_85
+    imgd 60029
+    campbell "Миссис Бакфетт, это реклама рамы, а не одежды."
+    campbell "Любая одежда будет только отвлекать от изысканного дизайна рамы."
+    m "!!!"
+    imgd 60030
+    campbell "Готовьтесь к съемке, Миссис Бакфетт. Мы скоро начинаем."
+    campbell "Пойдем, Беатрис. Мистер Биф, присоединяйтесь к нам в зале."
+    biff "Одну минуту, Мистер Кэмпбелл..."
+    # Кэмпбелл идет к выходу со сцены, чтобы сесть в зрительном зале
+    # Беатрис говорит Монике
+    music ZigZag
+    sound2 highheels_short_walk
+    imgf 60031
+    beatrice "И поаккуратнее с реквизитом, Миссис Бакфетт!"
+    beatrice "Эта рама стоит целое состояние!"
+    m "!!!"
+    # потом с гордым видом идет вслед за Кэмпбеллом
+    # Моника все еще пребывает в шоке, смотрит им вслед
+    # Райен отходит к оборудованию и реквизиту, подготавливая камеру
+    # Биф подбегает к Монике, они разговаривают в стороне от всех, так что их никто не слышит
+    # затемнение
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgf 60032
+    biff "Так, цыпочка!"
+    biff "Ты все слышала."
+    biff "Давай, раздевайся и за работу! Не заставляй папочку и Мистера Кэмбелла ждать!"
+    music Pyro_Flow
+    img 60033 vpunch
+    m "Раздеваться?!"
+    m "Какого черта, Биф, я узнаю об этом здесь?!"
+    m "?!"
+    sound Jump1
+    img 60034
+    biff "Это твоя работа! Ты получаешь за это немаленькие деньги!"
+    biff "А если будешь спорить!.."
+    biff "Я не заплачу тебе ни цента!"
+    biff "Так что не порть папочке настроение!"
+    imgd 60035
+    biff "Если хочешь и дальше зарабатывать неоправданно большие деньги..."
+    biff "Только за то, что кривляешься перед камерой!"
+    biff "То закрой свой рот и будь хорошей цыпочкой!"
+    biff "Сорвешь съемку - сразу же позвоню охране в мой офис и тебя туда больше не пустят!"
+    biff "Поняла меня?"
+##### с этого момента начинается сцена, если Моника сорвала съемку в первый раз + # некоторое время спустя
+#    music Groove2_85
+    imgd 60036
+    biff "Раздевайся! Тебя все ждут!"
+    m "!!!"
+    #corruption
+#    $ menu_corruption = [monicaPhotoshootFrameCorruptionRequired2, 0]
+    menu:
+        "Провести фотосессию.":
+#            $ monicaCampbellOfficePhotoshoot3 = day # Моника согласилась на фотосессию в раме
+            pass
+        "Отказаться!":
+            label gallery_60037:
+            fadeblack
+            sound highheels_run2
+            pause 1.5
+            music Pyro_Flow
+            img 60037 vpunch
+            m "Биф, я не буду фотографироваться голой!"
+            m "Да еще в присутствии этого инвестора и этого фотографа!"
+            m "И этой жирной коровы!"
+            m "Я не хочу, чтобы они на меня пялились!"
+            m "И указывали мне, что делать!"
+            biff "Ты не получишь никакую другую работу..."
+            biff "Пока не проведешь эту фотосессию!"
+            biff "Кукла безмозглая!"
+            biff "Если будешь и дальше спорить со мной..."
+            biff "Я заставлю тебя фотографироваться с членом во рту!"
+            # Моника идет к выходу
+            m "Да пошел ты!!!"
+            m "!!!"
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            # Моника оказывается на улице
+            # Биф не дает ей работу, пока она не сделает эту фотосессию
+            return
+    # Моника зло смотрит на него
+    mt "Гребаный Биф!"
+    mt "Убью его!"
+    mt "!!!"
+    imgf 60038
+    mt "Я, Моника Бакфетт, буду сниматься обнаженной!"
+    mt "В какой-то безвкусной, отвратительной раме!!!"
+    mt "Что делать, Моника?!"
+    mt "Сволочь Биф сказал, что не пустит меня в офис!"
+    mt "Черт-черт-черт!!!"
+    mt "!!!"
+    # задумчиво смотрит на раму
+    music Hidden_Agenda
+    imgd 60039
+    mt "Может, я смогу принимать такие позы, в которых из-за чертовой рамы ничего не будет видно?.."
+    mt "И попрошу этого придурка Райена делать соответствующие кадры..."
+    mt "..."
+    imgd 60040
+    mt "Я не могу из-за какой-то фотосессии сорвать свой план!"
+    music Stealth_Groover
+    mt "Мне нужно вернуть себе все, что у меня отняли!"
+    mt "А для этого необходимо мое присутствие в моем офисе!"
+    mt "В конце концов, это МОЙ офис и МОЙ журнал!"
+    mt "!!!"
+    imgf 60041
+    # Моника зло говорит Бифу
+    m "Я проведу эту фотосессию!"
+    music Groove2_85
+    # Биф радостно
+    biff "Отлично, цыпочка!"
+    imgd 60042
+    biff "Папочка рад, что у тебя хватило мозгов не сорвать съемку!"
+    biff "Раздевайся и лезь в эту дизайнерскую хреновину!"
+    # Биф уходит, Моника с ненавистью смотрит ему вслед
+    # затемнение, звук одежды
+    # смена кадра
+    # Моника стоит на сцене, на съемочной площадке голая, прикрываясь руками
+    # Биф с самодовольной миной смотрит на нее из зала, сидя рядом с Кэмпбеллом
+    # Кэмпбелл сидит в центре, сбоку Биф, со второго боку - Беатрис
+    # Беатрис смотрит на Монику с неприязнью
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Groove2_85
+    imgfl 60043
+    w
+    imgf 60044
+    mt "Боже! Чувствую себя отвратительно!"
+    mt "!!!"
+    # if если танцевала на сцене паба голой
+    if ep29_quests_pub_forgiveness_dancing_quest_in_progress == True or monica_shiny_hole_queen_day > 0:
+        #
+        $ notif(_("Моника танцевала стриптиз в Shiny Hole."))
+        #
+        mt "Конечно, мне не впервые находиться на сцене без одежды..."
+        mt "Но в этой грязной дыре, которую извращенка Эшли называет баром..."
+        mt "Никто не знает, кто я такая на самом деле."
+        mt "А здесь!.."
+        #
+    imgd 60045
+    mt "Так, Моника, соберись! Возьми себя в руки!"
+    mt "Ты профессионал! Ты справишься!"
+    # Райен держит камеру в руках, с улыбкой
+    imgf 60046
+    ryan "Миссис Бакфетт, начнем?"
+    ryan "Сначала сделаем кадр, как-будто вы..."
+    # Моника перебивает его
+    m "Райен..."
+    menu:
+        "Попросить фотографа не делать откровенных кадров.":
+            pass
+    ryan "Да, Миссис Бакфетт?"
+    music Hidden_Agenda
+    imgd 60047
+    m "Я хотела бы попрочить тебя..."
+    m "Не брать крупных ракурсов и..."
+    # теперь он ее перебивает
+    music Groove2_85
+    img 60048
+    ryan "Миссис Бакфетт, я чувствую, что вы нервничаете."
+    ryan "Вы ведете себя скованно и это будет усложнять процесс съемки."
+    ryan "Мои снимки шедевральны, Миссис Бакфетт. Это искусство."
+    ryan "Вы не найдете в моей работе никакой пошлости, не переживайте."
+    imgd 60049
+    m "Ты уверен, Райен?"
+    m "Ничего лишнего не будет видно?"
+    ryan "Я абсолютно уверен."
+    m "..."
+    imgd 60050
+    ryan "Приступим?"
+    menu:
+        "Да.":
+            pass
+        "Отказаться!":
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            music Pyro_Flow
+            img 60037 vpunch
+            m "Биф, я не буду фотографироваться голой!"
+            m "Да еще в присутствии этого инвестора и этого фотографа!"
+            m "И этой жирной коровы!"
+            m "Я не хочу, чтобы они на меня пялились!"
+            m "И указывали мне, что делать!"
+            biff "Ты не получишь никакую другую работу..."
+            biff "Пока не проведешь эту фотосессию!"
+            biff "Кукла безмозглая!"
+            biff "Если будешь и дальше спорить со мной..."
+            biff "Я заставлю тебя фотографироваться с членом во рту!"
+            # Моника идет к выходу
+            m "Да пошел ты!!!"
+            m "!!!"
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            # Моника оказывается на улице
+            # Биф не дает ей работу, пока она не сделает эту фотосессию
+            return
+    mt "Черт!"
+    m "Да..."
+
+    # 1-й кадр (поза № 1 со ссылки https://www.daz3d.com/z-framed--prop-and-poses-for-genesis-3-and-8-female) +
+    # Моника принимает позу, Райен делает кадры
+    music Stealth_Groover
+    imgf 60051
+    ryan "Миссис Бакфетт, первый кадр."
+    ryan "Присядьте позади рамы, придеживайте ее руками и повернитесь ко мне немного боком."
+    m "Райен, я боюсь, что так будет видно мою..."
+    ryan "Нет, все в порядке, Миссис Бакфетт."
+    ryan "Ничего лишнего в кадре не будет видно."
+    #up
+    img 60052
+    w
+    #side
+    img 60053
+    ryan "Потрясающе!"
+    #down
+    img 60054
+    ryan "Я завидую Алексу, что он работает с вами!"
+    ryan "Хотел бы я оказаться на его месте..."
+
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    fadeblack 1.5
+    music Groove2_85
+    imgfl 60055
+    beatrice "Мистер Кэмпбелл, эта модель закрывает своей рукой часть рамы!"
+    campbell "Все в порядке, Беатрис."
+    campbell "Это всего лишь небольшой фрагмент рамы."
+    # кадр на съемочную площадку
+
+    # 2-й кадр (поза № 2) +
+    # Моника встает в нужную позу
+    music Stealth_Groover
+    imgf 60056
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Встаньте на колени."
+    # Райен делает снимки с разных ракурсов
+    #up
+    img 60057
+    w
+    #side
+    img 60058
+    ryan "Миссис Бакфетт, кадры получаются шикарные!"
+    ryan "Расслабтесь немного, я чувствую ваше напряжение."
+    #down
+    img 60059
+    mt "Посмотрела бы я на тебя, кретин, если бы тебя голого поставили в эту дурацкую рамку!"
+
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    fadeblack 1.5
+    music Groove2_85
+    imgf 60060
+    campbell "Мистер Биф, надеюсь, что фотосессия пройдет успешно и..."
+    campbell "Мы подберем подходящие кадры для моей рекламной компании."
+    biff "Да, Мистер Кэмпбелл, не сомневайтесь."
+    biff "Миссис Бакфетт профессионал, она знает, что делать на съемочной площадке."
+    imgd 60061
+    # Беатрис недовольно
+    beatrice "Главное, чтобы она не повредила раму!"
+    campbell "Да, Беатрис, безусловно. Мы доверили Миссис Бакфетт очень ценную вещь."
+    # кадр на съемочную площадку
+
+    # 3-й кадр (поза № 3)  +
+    music Stealth_Groover
+    imgf 60062
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Одной рукой придерживайте раму, а второй обопритесь о пол по другую сторону."
+    # Моника принимает позу, Райен делает кадры
+    #up
+    img 60063
+    ryan "Отлично!"
+    m "Райен, не нужно так близко брать..."
+    #side
+    img 60064
+    ryan "Я фотограф и я вижу, как будет лучше, Миссис Бакфетт."
+    ryan "Еще пара кадров..."
+    #down
+    img 60065
+    mt "Сволочь!"
+    mt "!!!"
+
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    label gallery_60071:
+    fadeblack 1.5
+    music Groove2_85
+    imgf 60066
+    beatrice "Мистер Кэмпбелл, она бросает тень на раму!"
+    beatrice "Из-за этого становися не виден потрясающий рельеф рамы!"
+    campbell "Беатрис, не переживай."
+    campbell "Мы выберем те кадры, которые лучше всего передадут изяществ рамы."
+    beatrice "Хорошо, Мистер Кэмпбелл."
+    # кадр на съемочную площадку
+
+
+    # 4-й кадр (поза № 4) +
+    music Stealth_Groover
+    imgf 60067
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Теперь вам нужно лечь на бок и взять раму обеими руками."
+    # Моника принимает позу, Райен делает кадры
+    #up
+    img 60068
+    ryan "Хорошо, Миссис Бакфетт..."
+    ryan "Вы просто созданы быть моделью!"
+    #side
+    img 60069
+    ryan "Камера любит вас!"
+    ryan "Еще пара кадров..."
+    img 60070
+    w
+    #down
+    img 60071
+    mt "Я создана быть Большим Боссом и миллионером, придурок!"
+    mt "!!!"
+
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    label gallery_60079:
+    fadeblack 1.5
+    music Groove2_85
+    imgf 60072
+    campbell "Мистер Биф, после того, как мы с Беатрис подберем подходящие нам кадры..."
+    campbell "Оставшиеся вы можете использовать для журнала Миссис Бакфетт."
+    campbell "Но только после запуска моей рекламной компании, иначе ее эффективность значительно снизиться."
+    biff "Мы с удовольствием опубликуем эти кадры, Мистер Кэмпбелл!"
+    # Беатрис недовольно смотрит на Монику
+    # кадр на съемочную площадку
+
+    # 5-й кадр (поза № 5) +
+    music Stealth_Groover
+    imgf 60073
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Поставьте ноги по другую сторону и закиньте одну ногу на другую."
+    # Моника принимает позу
+    m "Но так будет видно всю мою!.."
+    ryan "Миссис Бакфетт, все в порядке."
+    ryan "Видно только ваши шикарные ноги, ничего более."
+    # corruption!
+#    $ menu_corruption = [monicaPhotoshootFrameCorruptionRequired3, 0]
+    menu:
+        "Позировать.":
+            pass
+        "Отказаться!":
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            music Pyro_Flow
+            img 60037 vpunch
+            m "Биф, я не буду так фотографироваться!"
+            m "Да еще в присутствии этого инвестора и этого фотографа!"
+            m "И этой жирной коровы!"
+            m "Я не хочу, чтобы они на меня пялились!"
+            m "И указывали мне, что делать!"
+            biff "Ты не получишь никакую другую работу..."
+            biff "Пока не проведешь эту фотосессию!"
+            biff "Кукла безмозглая!"
+            biff "Если будешь и дальше спорить со мной..."
+            biff "Я заставлю тебя фотографироваться с членом во рту!"
+            # Моника идет к выходу
+            m "Да пошел ты!!!"
+            m "!!!"
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            # Моника оказывается на улице
+            # Биф не дает ей работу, пока она не сделает эту фотосессию
+            return
+    mt "Черт!"
+    # Райен фотографирует
+    imgf 60073
+    w
+    #up
+    img 60074
+    ryan "Превосходно!"
+    #side
+    img 60075
+    ryan "Теперь с этого ракурса..."
+    img 60076
+    w
+    img 60077
+    w
+    #down
+    img 60078
+    w
+    img 60079
+    m "Ты уверен, что ничего не видно, Райен?"
+    ryan "Да, Миссис Бакфетт..."
+    img 60080
+    w
+
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    fadeblack 1.5
+    music Groove2_85
+    imgf 60081
+    biff "А когда планируется запуск вашей рекламы, Мистер Кэмпбелл?"
+    campbell "На днях."
+    campbell "Я проведу презентацию этой рамы перед полным залом."
+    biff "Здесь? В этом зале?"
+    campbell "Да, все верно, в этом зале."
+    imgd 60082
+    campbell "Я буду выступать на сцене, а кадры будут транслироваться на экране позади меня."
+    beatrice "Да, это будет отличная презентация нашего дизайнерского шедевра."
+    campbell "Да, Беатрис. Я не сомневаюсь в успехе нашей рекламной компании."
+    # кадр на съемочную площадку
+
+    # 6-й кадр (поза № 8) +
+    label gallery_60095:
+    music Stealth_Groover
+    imgf 60083
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Садитесь так, чтобы ноги были по разные стороны рамы."
+    # Моника принимает позу, пяткой упирается в раму
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    # Бетрис снова недовольно смотрит на Монику
+    music Power_Bots_Loop
+    sound2 oooh1
+    img 60085 hpunch
+    beatrice "Эта модель своей ступней опирается на нашу раму!"
+    beatrice "Она испортит ее!"
+    beatrice "Как можно настолько небрежно обращаться с таким ценным реквизитом?!"
+    # кадр на съемочную площадку
+    fadeblack 1.5
+    music Stealth_Groover
+    imgf 60084
+    m "Райен, вся моя... Я ВСЯ видна!"
+    ryan "Миссис Бакфетт, я сделаю так, что вашу прекрасную грудь, как и все остальное, не будет видно."
+    ryan "Хотя, честно признаться, мне не хотелось бы этого делать..."
+    m "Райен!.."
+    ryan "Хорошо, но только ради вас, Миссис Бакфетт..."
+    # Беатрис встает со своего места и идет к Монике
+    music Pyro_Flow
+    sound2 vjuh3
+    img 60086 vpunch
+    beatrice "Я подойду и скажу ей, чтоб так не делала, Мистер Кэмпбелл!"
+    # затемнение
+    sound highheels_run2
+    imgf 60087
+    ryan "Бетрис, что ты?.."
+    beatrice "Одну секунду, Райен..."
+    # она говорит Монике, наклонившись к ней
+    sound Jump2
+    imgd 60088
+    beatrice "Буду признательна, если вы не будете упираться в раму своими ногами!"
+    imgd 60089
+    beatrice "Уберите ногу с рамы!"
+    beatrice "Вы хоть представляете, сколько она стоит?!"
+    img 60090
+    beatrice "Вы делаете снимки для рекламы этого шедевра!"
+    beatrice "А не для рекламы себя!"
+    # Моника в афиге
+    img 60091 vpunch
+    m "!!!"
+    m "Что?!"
+    m "Да ты!..."
+    # та недослушав Монику. уже более вежливо обращается к Райену
+    music Groove2_85
+    imgf 60092
+    beatrice "Можешь работать дальше, Райен."
+    beatrice "И, пожалуйста, следи, чтобы эта модель не заляпала раму и не закрывала собой ее."
+    imgd 60093
+    ryan "Конечно, Беатрис, без проблем." # улыбается
+    imgd 60094
+    beatrice "А я буду рядом, чтобы контролировать процесс!"
+    beatrice "Все-таки это съемка для рекламной компании Мистера Кэмпбелла!"
+    # Беатрис остается рядом со съемочной площакой, стоит в стороне
+    music Pyro_Flow
+    mt "Вот сучка!!!"
+    mt "Как она, какая-то ничтожная секретарша, смеет так разговаривать со МНОЙ?!"
+    sound Jump2
+    img 60095 hpunch
+    m "Следи за своим языком, корова!!!"
+    m "!!!"
+    imgd 60096
+    ryan "Миссис Бакфетт, уберите, пожалуйста, вашу ногу с рамы."
+    ryan "И продолжим."
+    sound anger2
+    mt "!!!"
+    mt "!!!!"
+    mt "!!!!!!"
+    # Моника немного сдвигает ногу
+
+    # Райен фотографирует
+    music Stealth_Groover
+    imgf 60097
+    w
+    #up
+    img 60097
+    w
+    #side
+    img 60098
+    ryan "Прекрасные кадры!"
+    img 60099
+    w
+    #down
+    img 60100
+    w
+    img 60101
+    ryan "Еще один снимок..."
+    img 60102
+    w
+
+    # 7-й кадр (поза № 10) +
+    imgf 60103
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Поставьте ноги по другую сторону рамы."
+    # Беатрис продолжает прожигать Монику взглядом
+    sound Jump2
+    img 60139 vpunch
+    beatrice "И попрошу быть аккуратнее с реквизитом!"
+    beatrice "!!!"
+    music Power_Bots_Loop
+    imgd 60140
+    # Моника зло на нее смотрит
+    mt "Твою мать! Я что, должна слушать приказы какой-то никчемной секретарши?!"
+    mt "Какого черта она тут корчит из себя начальника?!"
+    mt "Дура!"
+    # кадр на зал, где сидит Биф с Кэмпбеллом
+    fadeblack 1.5
+    music Groove2_85
+    imgf 60141
+    campbell "Мистер Биф, все хотел поинтересоваться у вас..."
+    campbell "Миссис Бакфетт принимает участие в откровенных фотосъемках своего журнала..."
+    biff "Да."
+    imgd 60142
+    campbell "Ей это действительно нравится?"
+    campbell "Или это выгодно ей в финансовом плане, так как значительно возрастают продажи?"
+    campbell "Думаю, вы, как ее личный ассистент в курсе этого..."
+    imgd 60143
+    biff "Миссис Бакфетт мне говорила, что получает от съемок огромное удовольствие..."
+    imgf 60144
+    campbell "Интересно, а согласилась бы Миссис Бакфетт на съемку полностью обнаженной..."
+    campbell "Без присутствия на съемочной площадке реквизитов, подобных раме, которая частично прикрывает ее наготу..."
+    biff "У вас имеются какие-либо идеи по поводу будущих фотосессий с Миссис Бакфетт?"
+    imgd 60145
+    campbell "Да, я тут обдумываю один проект..."
+    campbell "Вполне возможно, что я снова обращусь к вам, Мистер Биф, чтобы договориться о фотосессии."
+    imgd 60146
+    biff "Всегда рад сотрудничеству с вами, Мистер Кэмпбелл!"
+    imgf 60147
+    campbell "Да, я тоже. Как показала практика, это сотрудничество весьма взаимовыгодно..."
+    imgd 60148
+    w
+
+    # кадр на съемочную площадку
+    # Райен фотографирует
+    music Stealth_Groover
+    imgf 60103
+    w
+    #up
+    img 60104
+    w
+    img 60105
+    w
+
+    imgf 60149
+    ryan "Беатрис, вы попадаете в кадр. Не могли бы вы отойти?"
+    music ZigZag
+    imgd 60150
+    beatrice "Ну и что такого, что я попала в кадр, Райен?!"
+    ryan "Нууу..."
+    img 60151
+    mt "Меня бесит эта дурацкая секретарша!!!"
+    mt "!!!"
+    imgd 60152
+    beatrice "Ладно, Райен, я отойду..." # недовольно
+    beatrice "Не буду в кадре отвлекать собой внимание от шедевра..."
+    # звук шагов, затемнение
+    fadeblack
+    sound highheels_short_walk
+    pause 1.5
+    music Stealth_Groover
+    imgf 60153
+    ryan "Продолжим, Миссис Бакфетт."
+
+    #side
+    img 60106
+    ryan "Вы шикарно смотритесь, Миссис Бакфетт."
+    img 60107
+    mt "Я всегда великолепна в кадре!"
+    mt "!!!"
+    #down
+    img 60108
+    ryan "Миссис Бакфетт, кадры будут шедевральными."
+
+    # 8-й кадр (поза № 11) +
+    imgf 60109
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Миссис Бакфетт, теперь вы как-будто выглядываете из рамы."
+    # Моника принимает позу
+    # Беатрис недовольно прикрикивает
+    music Pyro_Flow
+    img 60154 hpunch
+    beatrice "Да аккуратнее же с реквизитом!"
+    imgd 60155
+    m "Я ничего не делаю с вашим реквизитом!!!"
+    imgd 60156
+    beatrice "И не закрывайте рукой рельеф рамы! Сколько можно говорить об этом?! Вы портите кадр!"
+    # Моника бесится
+    img 60157 vpunch
+    m "Это Я порчу кадр?!"
+    m "Здесь только одна особа все портит - это ТЫ!!!"
+    mt "Сучка!!!"
+    mt "!!!"
+
+    # кадр на съемочную площадку, Райен фотографирует
+    music Stealth_Groover
+    imgf 60109
+    w
+    #up
+    img 60110
+    ryan "Восхитительно!"
+    #side
+    img 60111
+    ryan "Еще пара кадров..."
+    img 60112
+    w
+    #down
+    img 60113
+    ryan "Прекрасно!"
+
+    # 9-й кадр (поза № 12) +
+    imgf 60114
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Повернитесь ко мне боком..."
+    # Моника принимает позу
+    m "Райен, мою грудь не будет видно?"
+    ryan "Нет-нет, Миссис Бакфетт."
+    ryan "Все в порядке."
+    # кадр на злую Беатрис и Бифа, который сидит и истекает слюной на Беатрис
+    imgd 60158
+    beatrice "Модель, вы сейчас уроните раму!!!"
+    beatrice "Если на этом шедевре появится хоть малейшая царапина!.."
+    beatrice "Вы всю жизнь потом будете расплачиваться за него!"
+    imgf 60159
+    beatrice "Выполняйте свою работу как следует!"
+    mt "Как можно так цепляться из-за какой-то дурацкой рамы!"
+    mt "Жирная корова!"
+    mt "!!!"
+
+    # кадр на съемочную площадку, Райен фотографирует
+    imgf 60114
+    w
+    #up
+    img 60115
+    w
+    img 60116
+    ryan "Отлично!"
+    #side
+    img 60117
+    w
+    img 60118
+    ryan "Восхитительные кадры, Миссис Бакфетт!"
+    #down
+    img 60119
+    ryan "Еще немного..."
+    img 60120
+    w
+
+    # 10-й кадр (поза № 20) +
+    imgf 60121
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Сядь красиво за рамой и удерживайте ее руками."
+    # Моника принимает позу
+    #up
+    img 60122
+    ryan "Еще пару кадров, Миссис Бакфетт..."
+    #side
+    img 60123
+    w
+    #down
+    img 60124
+    ryan "Прекрасно!"
+
+    music Groove2_85
+    imgf 60160
+    m "Райен, ты..."
+    img 60161
+    ryan "Я помню, Миссис Бакфетт. Вашу грудь не будет видно... Почти..."
+    imgd 60162
+    mt "Мерзавец!"
+    mt "Говорит одно, а делает по-своему!"
+    mt "Такой же обманщик, как Алекс!"
+    mt "Все эти фотографы такие извращенцы?!"
+
+    # 11-й кадр (поза № 18) +
+    music Stealth_Groover
+    imgf 60125
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Вы почти полностью выбираетесь из рамы."
+
+    # Моника принимает позу
+    imgd 60163
+    ryan "Ноги немного шире, Миссис Бакфетт."
+    m "Но..."
+    ryan "Никаких пошлых кадров. Помню-помню..."
+    img 60164
+    mt "Сволочь!"
+    # Моника раздвигает ноги пошире
+    music Pyro_Flow
+    sound2 oooh1
+    imgd 60165
+    beatrice "Мистер Кэмпбелл, эта модель закрыла собой почти половину рамы!"
+    # кадр на возмущенную Беатрис, которая подходит к краю сцены и говорит Кэмпбеллу, указывая рукой на Монику
+    img 60166 vpunch
+    m "ЧТО?!"
+    m "!!!"
+    imgd 60167
+    beatrice "Она что, совсем не понимает, что делает?"
+    beatrice "Как можно показывать такой непрофессионализм?!"
+    beatrice "Над этим потрясающим рельефом работали лучшие ваши дизайнеры, а она что делает?!"
+    # кадр на Бифа и Кэмпбелла
+    music Groove2_85
+    imgf 60168
+    campbell "Беатрис, все хорошо."
+    campbell "Мы возьмем не все кадры, а только те, на которых отчетливо видна наша рама."
+    beatrice "Хорошо, Мистер Кэмпбелл..."
+    # Беатрис идет обратно к съемочной площадке
+    imgd 60169
+    beatrice "Модель, продолжайте свою работу!"
+    mt "Я с тобой позже разберусь, дрянь!"
+    mt "!!!"
+
+    # кадр на съемочную площадку
+    # Райен фотографирует
+    music Stealth_Groover
+    imgf 60125
+    w
+    #up
+    img 60126
+    ryan "Отличные кадры, Миссис Бакфетт!"
+    #side
+    img 60127
+    ryan "Думаю, это будет одна из моих лучших работ!"
+    img 60128
+    m "С такой моделью, как Я, иначе быть не может, Райен!"
+    #down
+    img 60129
+    w
+    img 60130
+    w
+
+    imgf 60170
+    m "Райен, если я увижу на снимках, что ты меня обманываешь..."
+    m "Когда говоришь, что ничего пошлого не будет на них..."
+    m "Я с тобой больше никогда не соглашусь работать!"
+    sound Jump1
+    img 60171 hpunch
+    m "И всем буду говорить, что ты отвратительный фотограф!"
+    imgf 60172
+    ryan "Уверен, вам понравится моя работа!"
+    ryan "Вы захотите со мной работать снова. Я в этом не сомневаюсь!"
+    img 60173
+    mt "Какая самоуверенность!!!"
+    mt "!!!"
+
+    # 12-й кадр (поза № 25) +
+    label gallery_60136:
+    music Stealth_Groover
+    imgf 60174
+    ryan "Следующий кадр, Миссис Бакфетт."
+    ryan "Вам нужно встать в полный рост..."
+    music Power_Bots_Loop
+    m "Нет, Райен!"
+    img 60175
+    m "Вообще-то, я обнажена!"
+    m "Как ты себе это представляешь?!"
+    m "Я не буду делать этого!"
+    music Groove2_85
+    imgd 60176
+    ryan "Но, Миссис Бакфетт, это будут последние кадры..."
+    ryan "Я возьму такие ракурсы, что..."
+    music Power_Bots_Loop
+    img 60177 hpunch
+    m "Я сказала НЕТ!"
+    m "!!!"
+    music Groove2_85
+    imgf 60179
+    campbell "Мне кажется или возникли какие-то сложности, Мистер Биф?.."
+    imgd 60178
+    biff "Одну минуту, Мистер Кэмпбелл..."
+    # Райен растерянно оглядывается на Бифа, затемнение, шаги
+    # тот вскакивает со своего места и идет к Монике, шепчет ей зло, наклонившись
+    fadeblack
+    sound man_steps
+    pause 2.0
+    music Groove2_85
+    imgf 60180
+    biff "Слышишь ты, кукла безмозглая!"
+    biff "Что еще за капризы ты тут показываешь?!"
+    biff "Быстро встала и сделала так, как тебе говорит Райен!"
+    imgd 60181
+    biff "Не заставляй меня нервничать!"
+    biff "Не хочешь в полный рост - не оплачу эту съемку и выгоню с моего офиса на улицу!"
+    biff "Будешь снова сосать члены прохожим за 20 баксов, шлюха, как ты это привыкла делать!"
+    music Stealth_Groover
+    imgf 60182
+    mt "Черт!!!"
+    mt "Я что, терпела всю эту кошмарную фотосессию..."
+    mt "Чтобы из-за одного кадра лишиться денег за нее?!"
+    mt "Моника, это будет неумный поступок с твоей стороны!"
+#    mt "..."
+    imgd 60183
+    mt "А с мерзавцем Бифом ты разберешься! Ты заставишь его отвечать за все эти унижения!"
+    mt "Только нужно набраться терпения и делать вид, что слушаешься его!"
+    mt "!!!"
+    # коррапшн
+#    $ menu_corruption = [monicaPhotoshootFrameCorruptionRequired4, 0]
+    menu:
+        "Принять позу, которую просит фотограф.":
+            pass
+        "Отказаться!":
+            # затемнение
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            music Pyro_Flow
+            img 60037 vpunch
+            m "Биф, я не буду фотографироваться голой!"
+            m "Да еще в присутствии этого инвестора и этого фотографа!"
+            m "И этой жирной коровы!"
+            m "Я не хочу, чтобы они на меня пялились!"
+            m "И указывали мне, что делать!"
+            biff "Ты не получишь никакую другую работу..."
+            biff "Пока не проведешь эту фотосессию!"
+            biff "Кукла безмозглая!"
+            biff "Если будешь и дальше спорить со мной..."
+            biff "Я заставлю тебя фотографироваться с членом во рту!"
+            # Моника идет к выходу
+            m "Да пошел ты!!!"
+            m "!!!"
+            fadeblack
+            sound highheels_run2
+            pause 2.0
+            # Моника оказывается на улице
+            # Биф не дает ей работу, пока она не сделает эту фотосессию
+            return
+    # затемнение
+    # Моника принимает нужную позу, Биф отходит в сторону
+
+    # Райен делает снимки
+    music Stealth_Groover
+    imgf 60131
+    w
+    #up
+    img 60132
+    w
+    #side
+    img 60133
+    ryan "Да, отлично!"
+    img 60134
+    ryan "О, Миссис Бакфетт, вы великолепны!"
+    img 60135
+    w
+    #down
+    img 60136
+    ryan "Теперь с этого ракурса..."
+    img 60137
+    ryan "Шикарный кадр!"
+    img 60138
+    w
+
+    # после последнего отснятого кадра
+    music Groove2_85
+    imgf 60184
+    ryan "Съемка окончена!"
+    m "Наконец-то!!!"
+    # Моника прикрывается руками
+    sound Jump2
+    img 60185 vpunch
+    ryan "Миссис Бакфетт, приятно было с вами поработать..."
+    ryan "Это была одна из лучших моих фотосессий, Миссис Бакфетт!"
+    ryan "Надеюсь, что это не последняя наша совместная работа."
+    # Моника недовольно молчит
+    m "!!!"
+
+
+    # затемнение
+    # звук одежды, шаги
+    # смена кадра
+    # на сцене стоят одетая Моника, фотограф, Кэмпбелл, Беатрис и Биф
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Groove2_85
+    imgfl 60186
+    campbell "Миссис Бакфетт, благодарю вас за сегодняшнюю фотосессию."
+    mt "Ужасная фотосессия в какой-то дурацкой рамке!"
+    mt "Носятся с ней, как с какой-то ценностью..."
+    imgf 60187
+    mt "Кому эта рамка вообще нужна?! Хлам!"
+    mt "Идиоты!"
+    mt "!!!"
+    imgd 60188
+    campbell "Вы прекрасно справились с работой."
+    campbell "Уверен, что это будут отличные кадры."
+    beatrice "Далеко не все..." # Беатрис с ухмылкой
+    music Power_Bots_Loop
+    img 60189 vpunch
+    mt "Тебя забыли спросить, никчемная секретарша!"
+    mt "!!!"
+    music Groove2_85
+    imgf 60190
+    campbell "Мы с Беатрис отберем наиболее подходящие для нашей рекламной компании снимки..."
+    campbell "Остальные Райен пришлет вам для публикации в вашем журнале, Миссис Бакфетт."
+    m "Я..."
+    img 60191
+    # Биф перебивает
+    biff "Спасибо вам больше, Мистер Кэмпбелл. Будем ждать с нетерпением!"
+    biff "Надеюсь ваша рекламная компания пройдет успешно!"
+    campbell "Я думаю, что успех гарантирован..."
+    # он и Беатрис с восхищением смотрят на рамку, Биф с Млникой с недоумением
+    imgd 60192
+    campbell "Вы только посмотрите на этот восхитительный дизайн!"
+    campbell "Только человек, не обладающий вкусом и не разбирающийся в искусстве..."
+    campbell "Не увидит в этой прекрасной дизайнерской раме ничего необычного."
+    imgf 60193
+    campbell "Вы согласны со мной, Миссис Бакфетт?"
+    campbell "Вы, как творческий человек, должны были оценить эту вещь по достоинству."
+    m "Мммм... Да..."
+    music Hidden_Agenda
+    imgd 60194
+    m "Уверена, что любой коллекционер изящных дизайнерских предметов..."
+    m "Мечтал бы заполучить ее, Мистер Кэмпбелл."
+    campbell "Я знал, что вам понравится, Миссис Бакфетт."
+    imgf 60195
+    mt "Хмм... А что, если забрать эту дурацкую раму? Интересно, за сколько ее можно продать?"
+    mt "Какая-нибудь провинциалка, вроде Бетти, с радостью ее купит..."
+    # если работает в пабе
+    if monica_shiny_hole_queen_day > 0:
+        mt "Или извращенка Эшли... Пусть повесит в эту раму какой-нибудь плакат с рекламой своего дряного пива."
+        #
+    imgd 60196
+    m "Мистер Кэмпбелл, возможно, я смогу получить одну из ваших дизайнерских рам..."
+    m "За участие в фотосессии для вашей рекламной компании?"
+    m "Я в таком восхищении... перед этим шедевром..."
+    music Groove2_85
+    img 60197 vpunch
+    beatrice "ЧТО?! Нашу раму?!"
+    beatrice "Конечно, нет!!!"
+    campbell "Миссис Бакфетт, я был бы рад подарить вам эту раму..."
+    campbell "Но на данный момент эта рама - единственный наш экземпляр. Она эксклюзивна."
+    imgd 60198
+    mt "Черт!"
+    mt "Это была отличная идея..."
+    imgf 60199
+    campbell "А сейчас я вынужден вас покинуть, к сожалению."
+    campbell "Я уже опаздываю на важную встречу."
+    biff "До свидания, Мистер Кэмпбелл."
+    music Loved_Up
+    imgd 60200
+    biff "Мисс Беатрис..." # целует ей руку и жадно ее рассматривает
+    biff "Надеюсь, до скорой встречи."
+    # они уходят
+    fadeblack
+    sound highheels_run2
+    pause 1.5
+    return
