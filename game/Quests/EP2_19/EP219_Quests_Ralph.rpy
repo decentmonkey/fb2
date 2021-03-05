@@ -14,14 +14,14 @@ label ep219_quests_ralph_init1:
 label ep219_quests_ralph2_betty:
     if ep219_quests_ralph1_day == 0:
         $ ep219_quests_ralph1_day = day
-        call ep219_dialogues1_ralph_1()
+        call ep219_dialogues1_ralph_1() from _rcall_ep219_dialogues1_ralph_1
         $ ep219_quests_ralph1_day = day
         $ questHelp("house_47", True)
         $ questHelp("house_47a")
         return
     if ep219_quests_ralph2_skip_day > day:
         return
-    call ep219_dialogues1_ralph_2()
+    call ep219_dialogues1_ralph_2() from _rcall_ep219_dialogues1_ralph_2
     if _return == False:
         $ ep219_quests_ralph2_skip_day = day + 3
         return
@@ -33,7 +33,7 @@ label ep219_quests_ralph2_betty:
     return
 
 label ep219_quests_ralph3:
-    call ep219_dialogues1_ralph_3() # анал с Ральфом
+    call ep219_dialogues1_ralph_3() from _rcall_ep219_dialogues1_ralph_3 # анал с Ральфом
     if _return == False:
 #        $ questHelp("house_48", False)
         return False
@@ -48,7 +48,7 @@ label ep219_quests_ralph3:
 
 label ep219_quests_ralph4_comment_after:
     if monicaBettyRalphSeduction8 == True:
-        call ep219_dialogues1_ralph_4()
+        call ep219_dialogues1_ralph_4() from _rcall_ep219_dialogues1_ralph_4
     else:
-        call ep219_dialogues1_ralph_5()
+        call ep219_dialogues1_ralph_5() from _rcall_ep219_dialogues1_ralph_5
     return

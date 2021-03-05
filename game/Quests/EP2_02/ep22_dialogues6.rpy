@@ -311,7 +311,7 @@ label ep22_dialogue6_3:
             call ep217_quests_office1() from _rcall_ep217_quests_office1
             return -1
         "Продвижение дизайна Кэмбелла" if ep219_quests_photoshoot10_biff_talk_enabled == True:
-            call ep219_quests_photoshoot2_biff()
+            call ep219_quests_photoshoot2_biff() from _rcall_ep219_quests_photoshoot2_biff
             return -1
         "Спросить о работе" if ep219_quests_work_enabled == True:
             pass

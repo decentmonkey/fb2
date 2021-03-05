@@ -25,7 +25,7 @@ label ep219_dialogues1_ralph_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_32
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -164,7 +164,7 @@ label ep219_dialogues1_ralph_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_33
     scene black_screen
     with Dissolve(1)
     music Groove2_85

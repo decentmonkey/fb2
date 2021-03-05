@@ -140,7 +140,7 @@ label ep22_quests_office4_l1:
         $ photoshoot10_count += 1
 
     if monicaPhotoShootOutfitIdx == 11:
-        call ep219_quests_photoshoot5_regular()
+        call ep219_quests_photoshoot5_regular() from _rcall_ep219_quests_photoshoot5_regular
         if _return == False:
             $ monicaPhotoShootInProgress = False
             $ monicaOutfitsAltEnabled = False
@@ -148,8 +148,8 @@ label ep22_quests_office4_l1:
             $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
             $ remove_hook(label="photoshoot")
             $ remove_hook(label="photoshoot_alex")
-            call putoff_work_clothes()
-            call change_scene("street_monica_office", "Fade_long", False)
+            call putoff_work_clothes() from _rcall_putoff_work_clothes_15
+            call change_scene("street_monica_office", "Fade_long", False) from _rcall_change_scene_235
             return False
         $ photoshoot11_count += 1
     if ep216_office_blocked_day >= day:

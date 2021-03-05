@@ -1011,7 +1011,7 @@ label ep213_dialogues4_biff_12:
                     pass
                 "Сесть на стол. достать член Бифа и возить им по киске." if char_info["Biff"]["level"] >= 2 and biffCastingStage >= 7 and monicaOutfitsEnabled[9] == True:
                     $ store_music()
-                    call ep219_dialogues6_biff_1()
+                    call ep219_dialogues6_biff_1() from _rcall_ep219_dialogues6_biff_1_2
                     $ restore_music()
                     if _return == True:
                         if biffCastingStage < 8:

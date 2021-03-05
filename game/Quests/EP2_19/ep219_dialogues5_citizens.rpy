@@ -1312,7 +1312,7 @@ label ep219_dialogues5_citizens_1a:
             scene black_screen
             with Dissolve(1)
             music drkanje5
-            call textonblack(t_("Несколько минут спустя..."))
+            call textonblack(t_("Несколько минут спустя...")) from _rcall_textonblack_82
             scene black_screen
             with Dissolve(1)
             music Groove2_85

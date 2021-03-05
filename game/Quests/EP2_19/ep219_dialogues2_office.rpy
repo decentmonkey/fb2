@@ -799,7 +799,7 @@ label ep219_dialogues2_office_3_photoshoot_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_33
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -810,7 +810,7 @@ label ep219_dialogues2_office_3_photoshoot_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_34
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Потрясающе!"
@@ -822,7 +822,7 @@ label ep219_dialogues2_office_3_photoshoot_pose1:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_35
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Я завидую Алексу, что он работает с вами!"
@@ -890,7 +890,7 @@ label ep219_dialogues2_office_3_photoshoot_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_36
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -904,7 +904,7 @@ label ep219_dialogues2_office_3_photoshoot_pose2:
         ryan "Миссис Бакфетт, кадры получаются шикарные!"
         ryan "Расслабтесь немного, я чувствую ваше напряжение."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_37
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -915,7 +915,7 @@ label ep219_dialogues2_office_3_photoshoot_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_38
         $ PS11_shoots_array.append(photoImage)
         w
         mt "Посмотрела бы я на тебя, кретин, если бы тебя голого поставили в эту дурацкую рамку!"
@@ -979,7 +979,7 @@ label ep219_dialogues2_office_3_photoshoot_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_39
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Отлично!"
@@ -995,7 +995,7 @@ label ep219_dialogues2_office_3_photoshoot_pose3:
         ryan "Я фотограф и я вижу, как будет лучше, Миссис Бакфетт."
         ryan "Еще пара кадров..."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_40
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1006,7 +1006,7 @@ label ep219_dialogues2_office_3_photoshoot_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_41
         $ PS11_shoots_array.append(photoImage)
         w
         mt "Сволочь!"
@@ -1109,7 +1109,7 @@ label ep219_dialogues2_office_3_photoshoot_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_42
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Хорошо, Миссис Бакфетт..."
@@ -1124,14 +1124,14 @@ label ep219_dialogues2_office_3_photoshoot_pose4:
         ryan "Камера любит вас!"
         ryan "Еще пара кадров..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_13
         w
         sound camera_lens1
         $ photoImage = 60070
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_43
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1142,7 +1142,7 @@ label ep219_dialogues2_office_3_photoshoot_pose4:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_44
         $ PS11_shoots_array.append(photoImage)
         w
         mt "Я создана быть Большим Боссом и миллионером, придурок!"
@@ -1293,7 +1293,7 @@ label ep219_dialogues2_office_3_photoshoot_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_45
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Превосходно!"
@@ -1306,20 +1306,20 @@ label ep219_dialogues2_office_3_photoshoot_pose5:
         w
         ryan "Теперь с этого ракурса..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_14
         w
         sound camera_lens1
         img 60076
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_15
         w
         sound camera_lens1
         $ photoImage = 60077
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_46
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1328,12 +1328,12 @@ label ep219_dialogues2_office_3_photoshoot_pose5:
         img 60078
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_16
         w
         img 60079
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_17
         w
         m "Ты уверен, что ничего не видно, Райен?"
         ryan "Да, Миссис Бакфетт..."
@@ -1342,7 +1342,7 @@ label ep219_dialogues2_office_3_photoshoot_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_47
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1440,7 +1440,7 @@ label ep219_dialogues2_office_3_photoshoot_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_48
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1452,7 +1452,7 @@ label ep219_dialogues2_office_3_photoshoot_pose6:
         with Dissolve(0.2)
         ryan "Теперь с этого ракурса..."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_49
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1462,13 +1462,13 @@ label ep219_dialogues2_office_3_photoshoot_pose6:
         img 60100
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_18
         w
         sound camera_lens1
         img 60101
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_19
         w
         ryan "Еще один снимок..."
         sound camera_lens1
@@ -1476,7 +1476,7 @@ label ep219_dialogues2_office_3_photoshoot_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_50
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1548,7 +1548,7 @@ label ep219_dialogues2_office_3_photoshoot_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_51
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1592,7 +1592,7 @@ label ep219_dialogues2_office_3_photoshoot_pose7:
         w
         ryan "Вы шикарно смотритесь, Миссис Бакфетт."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_20
         w
 
         sound camera_lens1
@@ -1600,7 +1600,7 @@ label ep219_dialogues2_office_3_photoshoot_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_52
         $ PS11_shoots_array.append(photoImage)
         w
         mt "Я всегда великолепна в кадре!"
@@ -1613,7 +1613,7 @@ label ep219_dialogues2_office_3_photoshoot_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_53
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Миссис Бакфетт, кадры будут шедевральными."
@@ -1685,7 +1685,7 @@ label ep219_dialogues2_office_3_photoshoot_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_54
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Восхитительно!"
@@ -1698,14 +1698,14 @@ label ep219_dialogues2_office_3_photoshoot_pose8:
         w
         ryan "Еще пара кадров..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_21
         w
         sound camera_lens1
         $ photoImage = 60112
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_55
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1716,7 +1716,7 @@ label ep219_dialogues2_office_3_photoshoot_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_56
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Прекрасно!"
@@ -1774,14 +1774,14 @@ label ep219_dialogues2_office_3_photoshoot_pose9:
         img 60115
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_22
         w
         sound camera_lens1
         $ photoImage = 60116
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_57
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Отлично!"
@@ -1792,14 +1792,14 @@ label ep219_dialogues2_office_3_photoshoot_pose9:
         img 60117
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_23
         w
         sound camera_lens1
         $ photoImage = 60118
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_58
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Восхитительные кадры, Миссис Бакфетт!"
@@ -1812,14 +1812,14 @@ label ep219_dialogues2_office_3_photoshoot_pose9:
         w
         ryan "Еще немного..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_24
         w
         sound camera_lens1
         $ photoImage = 60120
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_59
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1893,7 +1893,7 @@ label ep219_dialogues2_office_3_photoshoot_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_60
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Еще пару кадров, Миссис Бакфетт..."
@@ -1905,7 +1905,7 @@ label ep219_dialogues2_office_3_photoshoot_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_61
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -1916,7 +1916,7 @@ label ep219_dialogues2_office_3_photoshoot_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_62
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Прекрасно!"
@@ -2067,7 +2067,7 @@ label ep219_dialogues2_office_3_photoshoot_pose11:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_63
         $ PS11_shoots_array.append(photoImage)
         w
         ryan "Отличные кадры, Миссис Бакфетт!"
@@ -2078,7 +2078,7 @@ label ep219_dialogues2_office_3_photoshoot_pose11:
         img 60127
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_25
         w
         sound camera_lens1
         $ photoImage = 60128
@@ -2086,7 +2086,7 @@ label ep219_dialogues2_office_3_photoshoot_pose11:
         with Dissolve(0.2)
         ryan "Думаю, это будет одна из моих лучших работ!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_64
         $ PS11_shoots_array.append(photoImage)
         w
         m "С такой моделью, как Я, иначе быть не может, Райен!"
@@ -2097,14 +2097,14 @@ label ep219_dialogues2_office_3_photoshoot_pose11:
         img 60129
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_26
         w
         sound camera_lens1
         $ photoImage = 60130
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_65
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -2138,7 +2138,7 @@ label ep219_dialogues2_office_3_photoshoot_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_66
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel
@@ -2148,7 +2148,7 @@ label ep219_dialogues2_office_3_photoshoot_pose12:
         img 60133
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_27
         w
         ryan "Да, отлично!"
         w
@@ -2158,14 +2158,14 @@ label ep219_dialogues2_office_3_photoshoot_pose12:
         w
         ryan "О, Миссис Бакфетт, вы великолепны!"
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_28
         w
         sound camera_lens1
         $ photoImage = 60135
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_67
         $ PS11_shoots_array.append(photoImage)
         w
         m "С такой моделью, как Я, иначе быть не может, Райен!"
@@ -2178,13 +2178,13 @@ label ep219_dialogues2_office_3_photoshoot_pose12:
         w
         ryan "Теперь с этого ракурса..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_29
         w
         sound camera_lens1
         img 60137
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_30
         w
         ryan "Шикарный кадр!"
         w
@@ -2193,7 +2193,7 @@ label ep219_dialogues2_office_3_photoshoot_pose12:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_68
         $ PS11_shoots_array.append(photoImage)
         w
         jump expression photoPoseLabel

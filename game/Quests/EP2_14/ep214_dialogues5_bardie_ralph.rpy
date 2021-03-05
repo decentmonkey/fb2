@@ -1741,12 +1741,12 @@ label ralph_menu_loop:
             $ monicaBettyRalphSeduction7 = True # Моника и Ральф занялись сексом
             if bettyFredLaundryHasSex == False or ep215_quests_betty_refused == True or ep217_quests_betty_refused == True or (ep218_quests_betty_day > 0 and ep218_quests_betty_completed_day == 0):
                 # если с Бетти была отмена, инициализируем ее сцену с отказом Ральфу
-                call ep219_quests_ralph_init1()
+                call ep219_quests_ralph_init1() from _rcall_ep219_quests_ralph_init1
 
 
         "Безотказная гувернантка" if monicaBettyRalphSeduction7 == True and ep219_quests_ralph2_day > 0:
             # Если открыта возможность и была сцена с отказом Бетти анала
-            call ep219_quests_ralph3()
+            call ep219_quests_ralph3() from _rcall_ep219_quests_ralph3
             if _return == False:
                 jump ralph_menu_loop
             music2 stop

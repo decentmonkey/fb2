@@ -28,7 +28,7 @@ label ep219_dialogues4_victoria_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_77
     scene black_screen
     with Dissolve(1)
     sound snd_lift
@@ -573,7 +573,7 @@ label ep219_dialogues4_victoria_3:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_78
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -641,7 +641,7 @@ label ep219_dialogues4_victoria_4:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_79
     scene black_screen
     with Dissolve(1)
     music Loved_Up
@@ -733,7 +733,7 @@ label ep219_dialogues4_victoria_5:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_80
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -907,7 +907,7 @@ label ep219_dialogues4_victoria_6:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_81
     scene black_screen
     with Dissolve(1)
     music Groove2_85

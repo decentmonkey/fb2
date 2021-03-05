@@ -20,11 +20,11 @@ label ep219_quests_escort1_init:
 label ep219_quests_escort2_biff: # разговор у Бифа, приходит Линда
     if day == ep217_quests_presentation_completed2_day:
         return
-    call ep219_dialogues3_escort_1()
+    call ep219_dialogues3_escort_1() from _rcall_ep219_dialogues3_escort_1
     if _return == False:
         $ questHelp("office_59", False)
-        call putoff_work_clothes() # уходим из офиса
-        call change_scene("street_monica_office", "Fade_long")
+        call putoff_work_clothes() from _rcall_putoff_work_clothes_16 # уходим из офиса
+        call change_scene("street_monica_office", "Fade_long") from _rcall_change_scene_237
         return False
 
 
@@ -32,11 +32,11 @@ label ep219_quests_escort2_biff: # разговор у Бифа, приходи�
     if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False:
         $ questHelp("escort_24")
         $ add_hook("before_open", "ep219_quests_escort3_linda", scene="rich_hotel_reception", label="ep219_quests_escort3_linda")
-    call ep219_quests_photoshoot1_init()
+    call ep219_quests_photoshoot1_init() from _rcall_ep219_quests_photoshoot1_init
     $ remove_hook(label="ep219_quests_escort2_biff")
     $ ep219_quests_escort2_biff_day = day
     $ ep219_quests_linda_angry_blocked = day
-    call change_scene("monica_office_secretary", "Fade_long")
+    call change_scene("monica_office_secretary", "Fade_long") from _rcall_change_scene_238
 
     return False
 
@@ -44,7 +44,7 @@ label ep219_quests_escort3_linda: # Линда встречает Монику �
     if cloth != "CasualDress1":
         return
     $ remove_hook()
-    call ep219_dialogues3_escort_2()
+    call ep219_dialogues3_escort_2() from _rcall_ep219_dialogues3_escort_2
     $ questHelp("escort_24", True)
     $ questHelp("escort_25")
     $ add_hook("before_open", "ep219_quests_escort4_choose", scene="street_rich_hotel", label="ep219_quests_escort4_choose")
@@ -58,15 +58,15 @@ label ep219_quests_escort4_choose: # выбор идти-ли к Линде
     $ add_hook("Visitor2", "ep219_quests_escort4_lindarepeat", scene="rich_hotel_restaurant", label="ep219_quests_escort4_lindarepeat")
 #    call locations_init_linda_apartments()
 #    $ add_hook("before_open", "ep219_quests_escort5_lindahome", scene="linda_apartments_street", label="ep219_quests_escort5_lindahome")
-    call ep219_dialogues3_escort_3()
+    call ep219_dialogues3_escort_3() from _rcall_ep219_dialogues3_escort_3
     if _return == True:
-        call map_show()
+        call map_show() from _rcall_map_show_3
     else:
         $ questHelp("escort_25", False)
     return
 
 label ep219_quests_escort4_lindarepeat:
-    call ep219_dialogues3_escort_3a()
+    call ep219_dialogues3_escort_3a() from _rcall_ep219_dialogues3_escort_3a
     return False
 
 label ep219_quests_escort5_lindahome:
@@ -76,8 +76,8 @@ label ep219_quests_escort5_lindahome:
         if day_time != "evening":
             $ changeDayTime("evening")
         $ remove_hook(label="ep219_quests_escort4_lindarepeat")
-        call ep219_dialogues3_escort_4()
-        call ep219_dialogues3_escort_5()
+        call ep219_dialogues3_escort_4() from _rcall_ep219_dialogues3_escort_4
+        call ep219_dialogues3_escort_5() from _rcall_ep219_dialogues3_escort_5
         $ add_hook("before_open", "ep219_quests_escort6_hotel_after", scene="rich_hotel_reception", label="ep219_quests_escort6_linda_hotel")
         $ ep219_quests_linda_visit_day = day
         $ lindaApartmentsStage = 1
@@ -86,12 +86,12 @@ label ep219_quests_escort5_lindahome:
         $ questHelp("escort_25", True)
         $ questHelp("escort_26")
         fadeblack 2.0
-        call process_change_map_location("House")
+        call process_change_map_location("House") from _rcall_process_change_map_location_12
         $ map_source_scene = "street_house_outside"
 #        call change_scene("street_house_outside", "Fade_long")
         return False
     if lindaApartmentsStage == 1:
-        call ep25_dialogues1_shop3()
+        call ep25_dialogues1_shop3() from _rcall_ep25_dialogues1_shop3
         return False
     return False
 
@@ -99,7 +99,7 @@ label ep219_quests_escort6_hotel_after: # встреча с Линдой при 
     if cloth != "CasualDress1":
         return
     if ep219_quests_linda_after_stage == 0:
-        call ep219_dialogues3_escort_6()
+        call ep219_dialogues3_escort_6() from _rcall_ep219_dialogues3_escort_6
         $ ep219_quests_linda_after_stage = 1
         $ ep219_quests_linda_after_stage_day = day
         $ questHelp("escort_26", True)
@@ -107,7 +107,7 @@ label ep219_quests_escort6_hotel_after: # встреча с Линдой при 
         return
 
     if ep219_quests_linda_after_stage == 1 and ep219_quests_linda_after_stage_day != day:
-        call ep219_dialogues3_escort_7()
+        call ep219_dialogues3_escort_7() from _rcall_ep219_dialogues3_escort_7
         $ ep219_quests_linda_after_stage = 2
         $ ep219_quests_linda_after_stage_day = day
         $ questHelp("escort_27", True)

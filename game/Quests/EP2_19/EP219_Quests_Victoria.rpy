@@ -12,7 +12,7 @@ label ep219_quests_victoria2_stephanie: # приход Стефани к Вик�
 #    if day - ep218_victoria_visit_day1 < 2:
 #        return # не прошло 2 дня
     $ remove_hook()
-    call ep219_dialogues4_victoria_1()
+    call ep219_dialogues4_victoria_1() from _rcall_ep219_dialogues4_victoria_1
     $ questHelp("victoria_18a", True)
     $ questHelp("victoria_18b")
     $ add_hook("before_open", "ep219_quests_victoria3_office", scene="working_office", label="ep219_quests_victoria3_office")
@@ -24,7 +24,7 @@ label ep219_quests_victoria3_office:
         return
     # Моника в офисе встречает Викторию
     $ remove_hook(label="ep219_quests_victoria3_office")
-    call ep219_dialogues4_victoria_2()
+    call ep219_dialogues4_victoria_2() from _rcall_ep219_dialogues4_victoria_2
     $ questHelp("victoria_18b", True)
     $ questHelp("victoria_18c")
     $ add_hook("change_time_evening", "ep219_quests_victoria4_melanie", scene="global", label="ep219_quests_victoria4_melanie", priority = 1)
@@ -34,7 +34,7 @@ label ep219_quests_victoria3_office:
 label ep219_quests_victoria4_melanie:
     # Разговор Виктории и Мелани о шоппинге
     $ remove_hook()
-    call ep219_dialogues4_victoria_3()
+    call ep219_dialogues4_victoria_3() from _rcall_ep219_dialogues4_victoria_3
     $ move_object("Melanie", "empty")
     $ move_object("DickSecretary", "empty")
     $ questHelp("victoria_18c", True)
@@ -46,7 +46,7 @@ label ep219_quests_victoria4_melanie:
 label ep219_quests_victoria5_melanie_alex:
     # разговор Мелани и Алекса
     $ remove_hook()
-    call ep219_dialogues4_victoria_4()
+    call ep219_dialogues4_victoria_4() from _rcall_ep219_dialogues4_victoria_4
     $ questHelp("victoria_18d", True)
     $ questHelp("victoria_18e")
     $ move_object("DickSecretary", "dick_office_secretary")
@@ -60,7 +60,7 @@ label ep219_quests_victoria6_officeworker5: # Разговор Виктории,
     if day_time == "evening" or week_day == 7:
         return
     $ remove_hook(label="ep219_quests_victoria3_office")
-    call ep219_dialogues4_victoria_5()
+    call ep219_dialogues4_victoria_5() from _rcall_ep219_dialogues4_victoria_5
     $ set_active("Worker5", True, scene="working_office")
     $ questHelp("victoria_18e", True)
     $ questHelp("victoria_18f")
@@ -69,7 +69,7 @@ label ep219_quests_victoria6_officeworker5: # Разговор Виктории,
 
 label ep219_quests_victoria7_melanie_victoria: # разговор Виктории и Мелани перед вечеринкой
     $ remove_hook()
-    call ep219_dialogues4_victoria_6()
+    call ep219_dialogues4_victoria_6() from _rcall_ep219_dialogues4_victoria_6
     $ questHelp("victoria_18f", True)
     $ questHelp("victoria_18g")
     $ add_hook("before_open", "ep219_quests_victoria8_party", scene="street_monica_office", label="ep219_quests_victoria8_party")
@@ -84,7 +84,7 @@ label ep219_quests_victoria7b: # убираем Мелани и Алекса
 
 label ep219_quests_victoria8_party:
     $ remove_hook()
-    call ep219_dialogues4_victoria_7()
+    call ep219_dialogues4_victoria_7() from _rcall_ep219_dialogues4_victoria_7
     $ add_hook("change_time_day", "ep219_quests_victoria9_partyafter", scene="global", label="ep219_quests_victoria9_partyafter", priority=1, once=True)
     $ ep219_quests_victoria_party_day = day
     $ questHelp("victoria_18g", True)

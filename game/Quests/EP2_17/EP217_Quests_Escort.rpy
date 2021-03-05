@@ -117,7 +117,7 @@ label ep217_quests_escort3_teleport_candise:
         $ questHelp("escort_17", True)
         $ autorun_to_object("ep217_dialogues1_escort_11", scene="street_house_outside")
         $ ep217_party_day = day
-        call ep219_quests_escort1_init()
+        call ep219_quests_escort1_init() from _rcall_ep219_quests_escort1_init
 
         $ candiseApartmentsStage = 1
         $ monicaKnowsCandise = True
