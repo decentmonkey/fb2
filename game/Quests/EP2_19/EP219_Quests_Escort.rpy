@@ -9,7 +9,7 @@ default ep219_quests_linda_after_stage_day = 0
 label ep219_quests_escort1_init:
     if ep219_quests_escort1_init_flag > 0:
         return
-    if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False and ep218_quests_escort_completed_day == 0:
+    if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False and ep217_party_day == 0:
         return # есть эскорт, но квест не пройден
     $ ep219_quests_escort1_init_flag = day
     $ add_talk("Biff", "ep219_quests_escort2_biff", scene="monica_office_cabinet_table", label="ep219_quests_escort2_biff")

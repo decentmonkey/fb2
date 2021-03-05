@@ -51,7 +51,6 @@ label ep218_quests_escort5_candise_apartments:
     $ questHelp("escort_23")
     $ map_objects["Teleport_Candise_Apartments"] = {"text" : t_("КЭНДИС И ЭББИ"), "xpos" : 897, "ypos" : 965, "base" : "map_marker", "state" : "visible"}
     $ ep218_quests_escort_completed_day = day
-    call ep219_quests_escort1_init()
     $ candiseApartmentsStage = 1
     $ ep218_quests_meeting2_planned = True
     $ remove_hook(label="ep218_quests_escort")

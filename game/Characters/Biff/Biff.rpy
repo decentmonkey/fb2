@@ -37,6 +37,8 @@ define PS9_shots_amount = 22
 default PS9_shoots_array = []
 define PS10_shots_amount = 28
 default PS10_shoots_array = []
+define PS11_shots_amount = 36
+default PS11_shoots_array = []
 
 define PS_Melanie_1_shots_amount = 24
 default PS_Melanie_1_shoots_array = []
@@ -62,7 +64,7 @@ label biffProgressLevelUp1:
     return
 
 label biffInitOutfitIcons:
-    $ monicaOutfitsIcons2 = ["/Icons2/Photoshoot1_Icon", "/Icons2/Photoshoot2_Icon", "/Icons2/Photoshoot3_Icon", "/Icons2/Photoshoot4_Icon", "/Icons2/Photoshoot5_Icon", "/Icons2/Photoshoot6_Icon", "/Icons2/Photoshoot7_Icon", "/Icons2/Photoshoot8_Icon", "/Icons2/Photoshoot9_Icon", "/Icons2/Photoshoot10_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
+    $ monicaOutfitsIcons2 = ["/Icons2/Photoshoot1_Icon", "/Icons2/Photoshoot2_Icon", "/Icons2/Photoshoot3_Icon", "/Icons2/Photoshoot4_Icon", "/Icons2/Photoshoot5_Icon", "/Icons2/Photoshoot6_Icon", "/Icons2/Photoshoot7_Icon", "/Icons2/Photoshoot8_Icon", "/Icons2/Photoshoot9_Icon", "/Icons2/Photoshoot10_Icon", "/Icons2/Photoshoot11_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon", "/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon","/Icons2/Photoshoot_Empty_Icon"]
     return
 
 label biffInitMelanieOutfitIcons:

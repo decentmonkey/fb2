@@ -64,7 +64,8 @@ label ep22_quests_office4: # Алекс стартует фотосессию
         sound click1
         hide screen choose_photoshoot_outfit_EP2p2
 
-    call ep22_dialogue6_5a() from _call_ep22_dialogue6_5a
+    if monicaPhotoShootOutfitIdx != 11:
+        call ep22_dialogue6_5a() from _call_ep22_dialogue6_5a
 
 label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 1:
@@ -137,6 +138,20 @@ label ep22_quests_office4_l1:
     if monicaPhotoShootOutfitIdx == 10:
         call ep213_photoshoot10() from _rcall_ep213_photoshoot10
         $ photoshoot10_count += 1
+
+    if monicaPhotoShootOutfitIdx == 11:
+        call ep219_quests_photoshoot5_regular()
+        if _return == False:
+            $ monicaPhotoShootInProgress = False
+            $ monicaOutfitsAltEnabled = False
+            $ miniMapEnabledOnly = []
+            $ autorun_to_object("ep211_dialogues3_photoshoot_4b", scene="street_monica_office")
+            $ remove_hook(label="photoshoot")
+            $ remove_hook(label="photoshoot_alex")
+            call putoff_work_clothes()
+            call change_scene("street_monica_office", "Fade_long", False)
+            return False
+        $ photoshoot11_count += 1
     if ep216_office_blocked_day >= day:
         return False
     #конец фотосессии
