@@ -52,7 +52,7 @@ label ep219_quests_photoshoot4_campbell: # офис Кэмпбелла
         call putoff_work_clothes() from _rcall_putoff_work_clothes_18
         call process_change_map_location("House") from _rcall_process_change_map_location_14
         call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_242
-
+        return False
 
     $ shotsAmountCompleted = len(list(set(PS11_shoots_array)))
     if shotsAmountCompleted >= shotsTotalAmount:
