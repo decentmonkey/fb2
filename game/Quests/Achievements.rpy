@@ -38,10 +38,10 @@ init python:
 
         "Photoshoots" : [
             ["60019", "", "gallery_60019"],
-            ["60071", "", "gallery_60071"],
-            ["60079", "", "gallery_60079"],
-            ["60095", "", "gallery_60095"],
-            ["60136", "", "gallery_60136"],
+            ["60071", "", "gallery_ep219_dialogues2_office_3a"],
+            ["60079", "", "gallery_ep219_dialogues2_office_3a"],
+            ["60095", "", "gallery_ep219_dialogues2_office_3a"],
+            ["60136", "", "gallery_ep219_dialogues2_office_3a"],
             ["60037", "", "gallery_60037"]
         ],
 
