@@ -9,7 +9,7 @@ default ep219_quests_linda_after_stage_day = 0
 label ep219_quests_escort1_init:
     if ep219_quests_escort1_init_flag > 0:
         return
-    if ep217_quests_presentation_completed2_day > 0:
+    if ep217_quests_presentation_completed2_day == 0:
         return
     if monica_escort_service_started == True and ep212_escort_monica_fired == False and ep212_escort3_monica_fired == False and ep212_escort5_monica_fired == False and ep217_party_day == 0:
         return # есть эскорт, но квест не пройден
