@@ -4,7 +4,7 @@ python early:
     language_fields = {None:1, "english":2, "german":3, "spain":4, "chinese":5, "french":6, "turkish":7, "italian":8}
 
     language_credits = {
-        "english": "Thanks for the English translation to\n[Aesthetic Dialectic] & [Razor Edge6]",
+        "english": "Thanks for the English translation to\n[Aesthetic Dialectic] & [bambam]",
         "german": "Thanks for the German translation to\n[Ragnaroekr] & [Londo Mollari]",
         "french": "Thanks for the French translation to\n[YoyoRTx]",
         "italian": "Thanks for the Italian translation to\n[5n4k3]",

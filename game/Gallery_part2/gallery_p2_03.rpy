@@ -2106,7 +2106,7 @@ label gallery_33546:
     image videov_Betty_Neighbour_Sex4_1= Movie(play="video/v_Betty_Neighbour_Sex4_1.mkv")
     show videov_Betty_Neighbour_Sex4_1
     with fade
-    robby "Да, это была большая скидка, Мэм... "
+    robby "Да, это была большая скидка, Мэм..."
     wclean
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
