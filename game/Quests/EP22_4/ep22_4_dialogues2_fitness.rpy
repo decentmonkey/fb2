@@ -245,38 +245,144 @@ label ep22_4_dialogues2_fitness_2:
     w
     img 43630
     w
-    
+    img 43631
+    w
+    img 43632
+    w
+    img 43633
+    w
+    img 43634
+    w
+    img 43635
+    w
+    img 43636
+    w
+    img 43637
+    w
+    img 43638
+    w
+    img 43639
+    w
+    img 43640
+    w
+    img 43641
     fitness_instructor "Делай вот так, Виктория, выгибай ногу сильнее."
     victoria "Вот так?"
+    w
+    img 43642
     fitness_instructor "Да, так. Еще сильнее."
     fitness_instructor "Я помогу тебе, надо только немного поддержать..."
+    img 43643
     victoria "Ой, мне так больно!"
+    img 43644
     fitness_instructor "Терпи, сейчас все пройдет. Я желаю, чтобы ты добилась результатов."
     fitness_instructor "Доверься мне, Виктория."
-    ###Тут нужно будет заменить эти 3 фразы, так как сделала что она упала
+    ###Тут нужно будет добавить фразы, так как сделала что она упала
+    img 43645
+    w
+    img 43646
+    w
+    img 43647
+    w
+    img 43648
+    w
+    img 43649
+    w
+    img 43650
+    w
+    img 43651
+    w
+    img 43652
     victoria "Теперь получается?"
     fitness_instructor "Да, Виктория, ты молодец."
     fitness_instructor "Я вижу в тебе потенциал."
+    img 43653
+    w
+    img 43654
+    w
+    img 43655
+    w
+    img 43656
+    w
+    img 43657
+    w
+    img 43658
     # к Ребекке
+    img 43659
+    w
+    img 43660
+    w
+    img 43661
     fitness_instructor "Ребекка, тебе надо держать корпус ровнее..."
     rebecca "Так?"
+    img 43662
     fitness_instructor "Еще немного..."
+    img 43663
     rebecca "Так лучше?"
     fitness_instructor "Да, у тебя с каждым разом получается все лучше."
     fitness_instructor "Теперь расслабься..."
+    img 43664
     fitness_instructor "Вот так, молодец."
+    w
+    img 43665
+    w
+    img 43666
+    w
+    img 43667
+    w
+    img 43668
+    w
+    img 43669
+    w
+    img 43670
+    w
+    img 43671
+    w
+    img 43672
     # к Стефани (Виктория посматривает на них подозрительно)
+    img 43673
+    w
+    img 43674
+    w
+    img 43675
+    w
+    img 43676
+    w
+    img 43677
+    w
+    img 43678
+    w
+    img 43679
+    w
+    img 43680
     fitness_instructor "Хорошо, молодец, Стефани."
     fitness_instructor "У тебя отлично получается."
     stephanie "Да, я стараюсь."
+    img 43681
     fitness_instructor "Постарайся больше выгибать спинку, Стефани..."
     stephanie "Вот так?"
+    img 43682
     fitness_instructor "Умничка. Теперь еще немного... Еще-еще..."
     fitness_instructor "Давай я тебе помогу."
     stephanie "Да, хорошо."
+    img 43683
+    w
+    img 43684
     fitness_instructor "Молодец, Стефани."
     fitness_instructor "Продолжай в том же духе. Я пока помогу другим девочкам."
+    img 43685
+    w
+    img 43686
+    w
+    img 43687
+    w
+    img 43688
+    w
+    img 43689
     # к Мелани (на них все пялятся, а он пожирает взглядом прелести Мелани)
+    img 43690
+    w
+    
     fitness_instructor "Мелани, ты слишком напряжена, ты чувствуешь это?"
     fitness_instructor "Тебе надо расслабиться. Я помогу."
     fitness_instructor "Вот так. Молодец, Мелани."
