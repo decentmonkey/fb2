@@ -5,7 +5,7 @@
     # 1-й этаж:
         # школьный двор:
             # двор и фасад здания школы
-            # + https://www.cgmodelx.com/model/details/39293.html
+            # + https://www.cgmodelx.com/model/details/39293.html +
             # https://www.cgmodelx.com/model/details/40287.html
         # вход в школу
         # коридор
@@ -17,7 +17,7 @@
         # туалет для мальчиков
         # туалет для девочек
         # бассейн:
-            # https://www.cgmodelx.com/model/details/38465.html
+            # https://www.cgmodelx.com/model/details/38465.html +++
         # спорт. зал
         # раздевалка для девочек
         # раздевалка для мальчиков
@@ -30,7 +30,7 @@
         # кабинет английского языка и литературы
         # кабинет изо:
             # https://evermotion.org/shop/show_product/scene-9-ai21-archinteriors/5938
-            # + https://www.cgmodelx.com/model/details/32345.html
+            # + https://www.cgmodelx.com/model/details/32345.html +++
             # https://www.cgmodelx.com/model/details/20208.html (мольберты)
         # кабинет алгебры и геометрии
         # кабинет физики
@@ -43,7 +43,7 @@
         # школьная библиотека:
             # https://www.cgmodelx.com/model/details/38535.html
             # ? https://www.cgmodelx.com/model/details/50359.html
-            # + https://www.cgmodelx.com/model/details/11032.html (убрать зеленые стены, убрать панорамные окна, убрать диваны, поставить вместо них столы со стульями)
+            # + https://www.cgmodelx.com/model/details/11032.html (убрать зеленые стены, убрать панорамные окна, убрать диваны, поставить вместо них столы со стульями) +++
         # хоз. помещения (н-р, спорт. инвентарь)
     # крыша школы:
         # - https://evermotion.org/shop/show_product/rubble-55-am165-archmodels/12830
@@ -62,17 +62,17 @@
                 # https://evermotion.org/shop/show_product/scene-2-ai35-archinteriors/11615 =>
                 # или https://evermotion.org/shop/show_product/ai48-scene-9/14316
             # комната старшей сестры:
-                # + https://www.cgmodelx.com/model/details/35833.html (мебель сделать цветную, постельное тоже цветным + вид за окном)
+                # + https://www.cgmodelx.com/model/details/35833.html (мебель сделать цветную, постельное тоже цветным + вид за окном) +++
             # комната младшей сестры:
                 # взять за основу комнату старшей сестры и перенести в нее предметы из:
                 # + https://evermotion.org/shop/show_product/scene-4-ai3-archinteriors/239
                 # цвет изменить на детский
             # комната Барди:
-                # https://www.cgmodelx.com/model/details/52649.html =>
+                # https://www.cgmodelx.com/model/details/52649.html => (на будущее)
                 # + https://evermotion.org/shop/show_product/scene-9-ai35-archinteriors/11622 (дерево крыши чуть потемнее, стены светло-серые/светло-корчневые, одеяло инвертировать(полоски,чтобы было темнее), мартрац сделать серым под цвет темных полосок одеяла)
                 # + https://evermotion.org/shop/show_product/baby-bedroom-props-9-am189-archmodels/14192 (старые вещи в комнату Барди)
-                # + https://www.cgmodelx.com/model/details/32177.html (пробки на стену)
-                # + https://www.cgmodelx.com/model/details/52227.html (на стену что-то можно взять отсюда)
+                # + https://www.cgmodelx.com/model/details/32177.html (пробки на стену) +++
+                # + https://www.cgmodelx.com/model/details/52227.html (на стену что-то можно взять отсюда) +++
             # туалет, ванная:
                 # + https://evermotion.org/files/model_images/Cam_014_PP.jpg (добавить душ)
                 # https://www.cgmodelx.com/model/details/36070.html
@@ -101,14 +101,14 @@
                 # или https://evermotion.org/shop/show_product/scene-4-ai51-archinteriors/14956
             # спальня:
                 # https://www.cgmodelx.com/model/details/51856.html
-                # + https://www.cgmodelx.com/model/details/39066.html
+                # + https://www.cgmodelx.com/model/details/39066.html +++
             # комната двоюродной сестры Барди:
                 # https://www.cgmodelx.com/model/details/53428.html
-                # + https://www.cgmodelx.com/model/details/36436.html
+                # + https://www.cgmodelx.com/model/details/36436.html +++
                 # https://evermotion.org/shop/show_product/scene-7-ai6-archinteriors/272
             # туалет, ванная комната:
                 # https://evermotion.org/shop/show_product/scene-3-ai4-archinteriors/248
-                # + https://www.cgmodelx.com/model/details/53247.html
+                # + https://www.cgmodelx.com/model/details/53247.html +++
 
 # ДОМ ДРУГА БАРДИ (два этажа) (день/ночь):
     # дом друга:
@@ -119,9 +119,9 @@
                 # + https://evermotion.org/shop/show_product/scene-4-ai50-archinteriors/14540
             # комната друга:
                 # https://evermotion.org/shop/show_product/scene-9-ai37-archinteriors/11710
-                # + https://www.cgmodelx.com/model/details/54159.html
+                # + https://www.cgmodelx.com/model/details/54159.html +++
             # спальня родителей:
-                # + https://www.cgmodelx.com/model/details/30232.html
+                # + https://www.cgmodelx.com/model/details/30232.html +++
             # туалет, ванная комната:
                 # + https://evermotion.org/shop/show_product/scene-4-ai39-archinteriors/11936
 
@@ -131,9 +131,9 @@
             # кухня и гостиная:
                 # + https://evermotion.org/shop/show_product/scene-4-ai54-archinteriors/15922
             # комната одноклассницы:
-                # + https://www.cgmodelx.com/model/details/29324.html
+                # + https://www.cgmodelx.com/model/details/29324.html +++
             # спальня родителей:
-                # + https://www.cgmodelx.com/model/details/36028.html
+                # + https://www.cgmodelx.com/model/details/36028.html +++
             # туалет, ванная комната:
                 # + https://evermotion.org/shop/show_product/scene-8-ai39-archinteriors/11940
 
@@ -143,11 +143,11 @@
             # кухня:
                 # + https://evermotion.org/shop/show_product/scene-10-ai1-archinteriors/225
             # гостиная:
-                # + https://www.cgmodelx.com/model/details/34124.html
+                # + https://www.cgmodelx.com/model/details/34124.html +++
             # спальня:
-                # + https://www.cgmodelx.com/model/details/27846.html
+                # + https://www.cgmodelx.com/model/details/27846.html +++
             # туалет, ванная комната:
-                # + https://www.cgmodelx.com/model/details/36466.html
+                # + https://www.cgmodelx.com/model/details/36466.html +++
 
 # ДОМ ДИРЕКТОРА ШКОЛЫ:
     # дом директора (день/ночь улица, внутри ночь):
@@ -155,7 +155,7 @@
             # кухня:
                 # + https://evermotion.org/shop/show_product/scene-10-ai22-archinteriors/6348
             # гостиная:
-                # + https://www.cgmodelx.com/model/details/10606.html
+                # + https://www.cgmodelx.com/model/details/10606.html +++
             # спальня:
                 # + https://evermotion.org/shop/show_product/scene-4-ai35-archinteriors/11617
             # туалет, ванная комната:
@@ -168,7 +168,7 @@
             # кухня:
                 # + https://evermotion.org/shop/show_product/scene-1-ai1-for-mental-ray-archinteriors/2574
             # спальня:
-                # + https://www.cgmodelx.com/model/details/54040.html
+                # + https://www.cgmodelx.com/model/details/54040.html +++
             # туалет, ванная комната:
                 # + https://evermotion.org/shop/show_product/scene-10-ai7-archinteriors/285
 
@@ -179,7 +179,7 @@
                 # https://evermotion.org/shop/show_product/scene-5-ai30-archinteriors/10474 (
                 # + https://evermotion.org/shop/show_product/scene-2-ai10-archinteriors/307
             # туалет, ванная комната:
-                # + https://www.cgmodelx.com/model/details/52622.html
+                # + https://www.cgmodelx.com/model/details/52622.html +++
 
 
 
@@ -200,7 +200,7 @@
     # + https://evermotion.org/shop/show_product/scene-3-ae24-archexteriors/11490
     # https://evermotion.org/shop/show_product/scene-4-ae12-archexteriors/3825
     # https://evermotion.org/shop/show_product/archinteriors-vol-16/80
-    # + https://www.cgmodelx.com/model/details/41391.html
+    # + https://www.cgmodelx.com/model/details/41391.html - не дает скачать, ошибка
     # https://evermotion.org/shop/show_product/scene-9-ae11-archexteriors/2897
     # https://evermotion.org/shop/show_product/scene-9-ae19-archexteriors/10573
     # https://evermotion.org/shop/show_product/scene-8-ae33-archexteriors/15440
@@ -210,38 +210,38 @@
 
 # ТОРГОВЫЙ ЦЕНТР (:
     # + https://evermotion.org/shop/show_product/scene-1-ae28-archexteriors/12885 (убрать городские постройки вокруг, нужен 2-этажный торговый центр по центру)
-    # + https://www.cgmodelx.com/model/details/39303.html
+    # + https://www.cgmodelx.com/model/details/39303.html +++
         # продукты (здесь работает парень ст. сестры Барди):
             # https://www.cgmodelx.com/model/details/52012.html
-            # + https://www.cgmodelx.com/model/details/54117.html
+            # + https://www.cgmodelx.com/model/details/54117.html +++
             # https://www.cgmodelx.com/model/details/51507.html
             # https://www.cgmodelx.com/model/details/30855.html
             # https://www.cgmodelx.com/model/details/29983.html
             # https://www.cgmodelx.com/model/details/20989.html
             # https://www.cgmodelx.com/model/details/11472.html
         # вещи (итемсы):
-            # + https://www.cgmodelx.com/model/details/51097.html
+            # + https://www.cgmodelx.com/model/details/51097.html +++
             # https://www.cgmodelx.com/model/details/30548.html
         # тетин интернет-магазин, пункт выдачи заказов:
             # https://www.cgmodelx.com/model/details/30074.html
             # https://www.cgmodelx.com/model/details/34866.html
-            # + https://www.cgmodelx.com/model/details/21170.html
+            # + https://www.cgmodelx.com/model/details/21170.html +++
         # одежда:
-            # + https://www.cgmodelx.com/model/details/52514.html
+            # + https://www.cgmodelx.com/model/details/52514.html +++
             # https://www.cgmodelx.com/model/details/16575.html
             # https://www.cgmodelx.com/model/details/29176.html
             # https://www.cgmodelx.com/model/details/17051.html
             # https://www.cgmodelx.com/model/details/34726.html
         # салон красоты в ТЦ:
-            # + https://www.cgmodelx.com/model/details/14119.html
+            # + https://www.cgmodelx.com/model/details/14119.html +++
         # туалет:
-            # + https://www.cgmodelx.com/model/details/34193.html
+            # + https://www.cgmodelx.com/model/details/34193.html +++
         # кинозал:
             # -https://www.cgmodelx.com/model/details/19503.html
             # -https://www.cgmodelx.com/model/details/11246.html
             # -https://www.cgmodelx.com/model/details/34668.html
         # парковка:
-            # + https://www.cgmodelx.com/model/details/10738.html
+            # + https://www.cgmodelx.com/model/details/10738.html +++
             # https://www.cgmodelx.com/model/details/52031.html
 
 
@@ -265,7 +265,7 @@
         # холл, ресепшн:
             # https://evermotion.org/shop/show_product/scene-4-ai44-archinteriors/12610
             # https://www.cgmodelx.com/model/details/43269.html
-            # + https://www.cgmodelx.com/model/details/11103.html
+            # + https://www.cgmodelx.com/model/details/11103.html +++
         # лестница наверх:
             # -https://evermotion.org/shop/show_product/scene-6-ai9-archinteriors/301
             # -https://www.cgmodelx.com/model/details/33157.html
@@ -273,24 +273,24 @@
             # -https://www.cgmodelx.com/model/details/11459.html
         # лифт:
             # https://www.cgmodelx.com/model/details/35572.html
-            # + https://www.cgmodelx.com/model/details/42523.html
+            # + https://www.cgmodelx.com/model/details/42523.html +++
             # https://www.cgmodelx.com/model/details/17333.html
-            # + https://www.cgmodelx.com/model/details/11096.html
+            # + https://www.cgmodelx.com/model/details/11096.html +++
         # коридор на этажах с номерами:
             # https://www.cgmodelx.com/model/details/32782.html
-            # + https://www.cgmodelx.com/model/details/50332.html
+            # + https://www.cgmodelx.com/model/details/50332.html +++
             # https://www.cgmodelx.com/model/details/50309.html
             # https://www.cgmodelx.com/model/details/19128.html
         # номер как минимум пока один:
             # https://www.cgmodelx.com/model/details/48929.html
-            # +https://www.cgmodelx.com/model/details/51066.html
-            # +https://www.cgmodelx.com/model/details/53573.html
+            # +https://www.cgmodelx.com/model/details/51066.html +++
+            # +https://www.cgmodelx.com/model/details/53573.html  - докачать
             # https://www.cgmodelx.com/model/details/51171.html
             # https://www.cgmodelx.com/model/details/53329.html
             # https://www.cgmodelx.com/model/details/35424.html
             # https://www.cgmodelx.com/model/details/20236.html
         # прачечная:
-            # +https://www.cgmodelx.com/model/details/28390.html
+            # +https://www.cgmodelx.com/model/details/28390.html +++
         # тележка для разноса вещей по номерам:
             # +https://evermotion.org/shop/show_product/hospital-equipment-39-am70-archmodels/2938 (ассет)
 
