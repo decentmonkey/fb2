@@ -7,10 +7,17 @@ default monicaAbbyNoEscortClient3 = 0 # Моника согласилась на
 default monicaAbbyNoEscortClient4 = 0 # Моника не оставила Эбби процент, забрала все деньги
 default monicaAbbyNoEscortClient5 = 0 # Моника оставила Эбби процент
 
+define v_Monica_AbbyCustomer_Blowjob1_1_15_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
+define v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
+define v_Monica_AbbyCustomer_Sex1_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+define v_Monica_AbbyCustomer_Sex1_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+define v_Monica_AbbyCustomer_Sex2_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+define v_Monica_AbbyCustomer_Sex2_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+
 # при условии, если Моника была в гостях у Эбби
 # ресторан отеля Ле Гранд
 label ep22_4_dialogues5_escort_1:
-	# у входа в ресторан, перед столиками Моника видит Эбби
+    # у входа в ресторан, перед столиками Моника видит Эбби
     img 30003
     w
     img 30005
@@ -86,7 +93,7 @@ label ep22_4_dialogues5_escort_1:
             m "Возможно, в следующий раз..."
             img 41425
             abby "Окей. Как знаешь."
-			abby "Если что - обращайся."
+            abby "Если что - обращайся."
             # Эбби отходит от Моники
             return
     # если Моника в первый раз отказалась работать с клиенами Эбби
@@ -98,58 +105,58 @@ label ep22_4_dialogues5_escort_1:
     m "!!!"
     img 30006
     abby "Я про своих клиентов вне ВИП-эскорта..."
-	abby "Может, ты передумала и хочешь, чтобы я поделилась с тобой ими?"
-	m "..."
-	menu:
-		"Отказаться!":
+    abby "Может, ты передумала и хочешь, чтобы я поделилась с тобой ими?"
+    m "..."
+    menu:
+        "Отказаться!":
             # Моника задумчиво
             img 35047
-			mt "Она предлагает мне обслуживать каких-то нищебродов за гроши?!"
-			mt "А сама хочет занять место на ресепшене?!"
-			mt "Хитрая дешевая подстилка!"
-			mt "!!!"
-			mt "Это Я стану главной и буду решать, когда и под кого ты будешь ложиться!"
-			mt "Сучка!!!"
-			# Моника притворно улыбается
+            mt "Она предлагает мне обслуживать каких-то нищебродов за гроши?!"
+            mt "А сама хочет занять место на ресепшене?!"
+            mt "Хитрая дешевая подстилка!"
+            mt "!!!"
+            mt "Это Я стану главной и буду решать, когда и под кого ты будешь ложиться!"
+            mt "Сучка!!!"
+            # Моника притворно улыбается
             img 41426
-			m "Мне хватает того, что я зарабатываю в отеле..."
-			m "А когда ты станешь... Кхм... Главной..."
-			m "Я буду зарабатывать еще лучше."
-			m "Спасибо, что предложила."
+            m "Мне хватает того, что я зарабатываю в отеле..."
+            m "А когда ты станешь... Кхм... Главной..."
+            m "Я буду зарабатывать еще лучше."
+            m "Спасибо, что предложила."
             img 41425
-			m "Если я по какой-то причине изменю свое решение, я дам тебе знать."
-			abby "Окей. Как знаешь."
-			abby "Если что - обращайся."
+            m "Если я по какой-то причине изменю свое решение, я дам тебе знать."
+            abby "Окей. Как знаешь."
+            abby "Если что - обращайся."
             # Эбби отходит от Моники
             img 30007
             mt "Не хватало мне еще возиться с каким-то жалким отребьем!"
             mt "Я найду способ заработать деньги без этой гадости!"
             mt "!!!"
-			return
-		"Согласиться.":
-			$ monicaAbbyNoEscortClient2 = day # Моника изменила свое решение и согласилась работать с клиентами Эбби
+            return
+        "Согласиться.":
+            $ monicaAbbyNoEscortClient2 = day # Моника изменила свое решение и согласилась работать с клиентами Эбби
             img 35047
-			mt "Черт!"
-			mt "Я должна каждую неделю отдавать этой мерзкой сикалявке Виктории $ 5 000!"
-			# если должна Перри
-			mt "И еще выплачивать долг мерзкой Перри!"
-			# если арендует апартаменты у Джека
-			mt "И платить за грязную дыру, которую мне сдает Джек!"
-			#
+            mt "Черт!"
+            mt "Я должна каждую неделю отдавать этой мерзкой сикалявке Виктории $ 5 000!"
+            # если должна Перри
+            mt "И еще выплачивать долг мерзкой Перри!"
+            # если арендует апартаменты у Джека
+            mt "И платить за грязную дыру, которую мне сдает Джек!"
+            #
             img 41429
-			mt "Мне нужны эти деньги!"
-			mt "Но, Моника, неужели ты ради денег..."
-			mt "Будешь обслуживать каких-то жалких, никчемных отбросов от Эбби?!"
-			mt "Ты готова пойти на это?!"
-			mt "?!?!?!"
-			mt "Черт!!!"
+            mt "Мне нужны эти деньги!"
+            mt "Но, Моника, неужели ты ради денег..."
+            mt "Будешь обслуживать каких-то жалких, никчемных отбросов от Эбби?!"
+            mt "Ты готова пойти на это?!"
+            mt "?!?!?!"
+            mt "Черт!!!"
             img 41426
-			m "Я... Я думаю, что..."
-			m "Что я попробую..."
+            m "Я... Я думаю, что..."
+            m "Что я попробую..."
             img 41425
-			abby "Окей!"
-			abby "Ты приняла верное решение, [monica_hotel_name]."
-			jump ep22_4_dialogues5_escort_1a
+            abby "Окей!"
+            abby "Ты приняла верное решение, [monica_hotel_name]."
+            jump ep22_4_dialogues5_escort_1a
     label ep22_4_dialogues5_escort_1b:
     # Моника задумчиво
     img 35048
@@ -217,7 +224,7 @@ label ep22_4_dialogues5_escort_1:
 # если Моника отказалась поехать к клиенту Эбби
 # при клике на Эбби
 label ep22_4_dialogues5_escort_2:
-	# у входа в ресторан, перед столиками
+    # у входа в ресторан, перед столиками
     img 35058
     w
     img 35059
@@ -246,14 +253,14 @@ label ep22_4_dialogues5_escort_2:
             m "Нет, Эбби! На сегодня у меня другие планы!"
             m "Возможно, в следующий раз..."
             abby "Окей. Как знаешь."
-			abby "Если что - обращайся."
+            abby "Если что - обращайся."
             # Эбби отходит от Моники
             return
     return
 
 # мысли Моники перед домом Эбби, до встречи с клиентом
 label ep22_4_dialogues5_escort_3:
-	# не рендерить!!
+    # не рендерить!!
     mt "Моника, ты понимаешь, что сейчас происходит?"
     mt "Ты сейчас пойдешь обслуживать какого-то отброса вместо проститутки Эбби!"
     mt "Ты действительно пойдешь на ЭТО?!"
@@ -263,13 +270,13 @@ label ep22_4_dialogues5_escort_3:
 
 # комната Эбби
 label ep22_4_dialogues5_escort_4:
-	# Моника заходит с отвращением на лице
+    # Моника заходит с отвращением на лице
     img 35063
     w
     img 35064
     mt "Детская комната!.."
     mt "В которой гребаная Эбби обслуживает своих гребаных клиентов!"
-	mt "И теперь ты, Моника, будешь делать то же самое! Кошмар!"
+    mt "И теперь ты, Моника, будешь делать то же самое! Кошмар!"
     mt "Зачем я только согласилась на это безумие?!"
     mt "!!!"
     img 35065
@@ -725,23 +732,136 @@ label ep22_4_dialogues5_escort_4:
     img 35182
     w
     img 35183
+    w
+
+    # video
+    #1 -25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_AbbyCustomer_Sex1_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_1_25= Movie(play="video/v_Monica_AbbyCustomer_Sex1_1_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_1_25
+    with fade
     brian "О, какая бархатная киска у шлюшки [monica_hotel_name]!"
+    wclean
     brian "Еееее!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # начинает пялить ее, жестко
     img 35184
+    w
+
+    #2 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_2_25= Movie(play="video/v_Monica_AbbyCustomer_Sex1_2_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_2_25
+    with fade
     brian "Не будь ты шлюшкой, я всегда бы тебя трахал!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35185
     brian "Дааа!"
     img 35186
+    w
+
+    #3 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_3_25= Movie(play="video/v_Monica_AbbyCustomer_Sex1_3_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_3_25
+    with fade
     brian "Теперь я твой постоянный клиент!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35187
+    w
+
+    # video
+    #4
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_AbbyCustomer_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_4= Movie(play="video/v_Monica_AbbyCustomer_Sex1_4.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_4
+    with fade
     brian "Буду покупать тебя и трахать!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35188
+    w
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_5= Movie(play="video/v_Monica_AbbyCustomer_Sex1_5.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_5
+    with fade
     brian "Трахать-трахать!"
-    img 35189
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex1_6= Movie(play="video/v_Monica_AbbyCustomer_Sex1_6.mkv")
+    show videov_Monica_AbbyCustomer_Sex1_6
+    with fade
     brian "Аааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # хватает ее за волосы на затылке (как у товарища ICSTOR'a)
     # продолжает пялить и держать за волосы
+    img 35189
+    w
     img 35190
     w
     img 35251
@@ -753,10 +873,49 @@ label ep22_4_dialogues5_escort_4:
     brian "Аааа!!!"
     brian "Кааайф!"
     img 35193
-    brian "Поверещи еще, шлюшка [monica_hotel_name]! Меня это заводит еще больше!"
+    w
+
+    # video
+    #1 -25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_AbbyCustomer_Sex2_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_1_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_1_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_1_25
+    with fade
     m "Хватит! Ааай!!!"
+    wclean
+    brian "Поверещи еще, шлюшка [monica_hotel_name]! Меня это заводит еще больше!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35194
+    w
+
+    #2 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_2_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_2_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_2_25
+    with fade
     brian "ДАА!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35195
     w
     img 35196
@@ -764,7 +923,25 @@ label ep22_4_dialogues5_escort_4:
     img 35197
     w
     img 35198
+    w
+
+    #3 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_3_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_3_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_3_25
+    with fade
     brian "Чертовски охренительно!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35199
     mt "Грязная скотина!"
     mt "Чертов садист!"
@@ -772,18 +949,91 @@ label ep22_4_dialogues5_escort_4:
     mt "!!!"
     # внезапно в дверь раздается громкий стук
     img 35200
+    w
+
+    #4 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_4_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_4_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_4_25
+    with fade
     mt "!!!!"
+    wclean
     mt "!!!!!"
-    img 35245
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_5_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_5_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_5_25
+    with fade
     neighbor2 "Развели тут бордель!"
+    wclean
+    mt "!!!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 35245
     neighbor2 "Устроили проститутошную!"
     img 35246
     neighbor2 "Хватит так скрипеть кроватью!"
+
+    #6 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_6_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_6_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_6_25
+    with fade
+    brian "Ееее!"
+    wclean
     neighbor2 "На весь этаж вас слышно, бесстыдники!"
+    mt "!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35201
-    m "Чеееерт!!!"
+    w
+
     $ ep22_4_dialogues5_escort_4_loop1_flag = False
 label ep22_4_dialogues5_escort_4_loop1:
+
+    #7 -25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Sex2_7_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_7_25.mkv")
+    show videov_Monica_AbbyCustomer_Sex2_7_25
+    with fade
+    m "Чеееерт!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "Уйди вон!":
             img 35202
@@ -807,14 +1057,70 @@ label ep22_4_dialogues5_escort_4_loop1:
         "Ты меня достал! Отвали!":
             $ ep22_4_dialogues5_escort_4_loop1_flag = True
             img 35203
+            w
+
+            #8 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_8_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_8_25.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_8_25
+            with fade
+            brian "ДАА!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #9 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_9_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_9_25.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_9_25
+            with fade
             m "Ты меня достал! Отвали!"
-            img 35250
+            wclean
             neighbor2 "Окаянная шлюха!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            img 35250
             neighbor2 "Весь этаж слышит, что ты тут устроила!"
             jump ep22_4_dialogues5_escort_4_loop1
         "Пошел на хрен отсюда! Трахаюсь, с кем хочу!" if ep22_4_dialogues5_escort_4_loop1_flag == True:
             img 35204
+            w
+
+            # video
+            #10
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_AbbyCustomer_Sex2_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_10= Movie(play="video/v_Monica_AbbyCustomer_Sex2_10.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_10
+            with fade
             m "Пошел на хрен отсюда! Трахаюсь, с кем хочу!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             pass
     # стук замолкает
     img 35199
@@ -861,17 +1167,150 @@ label ep22_4_dialogues5_escort_4_loop1:
     brian "Ееее! Каааайф!"
     img 35215
     w
-    img 35216
+
+    # video
+    #1 -15
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_AbbyCustomer_Blowjob1_1_15_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_1_15= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_1_15.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_1_15
+    with fade
     brian "Давай, работай!"
-    img 35217
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 35216
+    w
+
+    #2 -15
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_2_15= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_2_15.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_2_15
+    with fade
+    brian "Ооо, какая шлюшкааа!"
+    wclean
+    brian "Дааа!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # video
+    #3 -25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_3_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_3_25.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_3_25
+    with fade
     brian "Оооо, какая ты клевая!"
+    wclean
+    brian "Ммммм..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 35217
+    w
+
+    #4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_4_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_4_25.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_4_25
+    with fade
+    brian "Каааайф!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    #5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_5_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_5_25.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_5_25
+    with fade
+    brian "Давай, шлюшка, соси старательнее!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35213
     w
     img 35214
-    brian "Дааа!"
+    w
+
+    #6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_6_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_6_25.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_6_25
+    with fade
+    brian "Вижу, как ты тащишься от моего огромного члена!"
+    wclean
     m "Мпфхфпфф!!!"
+    brian "Дааа!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 35218
+    w
+
+    #7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Monica_AbbyCustomer_Blowjob1_7_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_7_25.mkv")
+    show videov_Monica_AbbyCustomer_Blowjob1_7_25
+    with fade
     brian "Еще немного!!! Ооооо!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "Кончить в рот Моники.":
             img 35217
@@ -989,7 +1428,7 @@ label ep22_4_dialogues5_escort_4_loop1:
 
 # мысли Моники после встречи с клиентом Эбби, если забрала все деньги
 label ep22_4_dialogues5_escort_5:
-	# не рендерить!!
+    # не рендерить!!
     mt "Я считаю, что поступила правильно, забрав все деньги!"
     mt "Мне пришлось терпеть этого мерзкого клиента!"
     mt "И я не обязана делиться ни с кем этим заработком!"
@@ -999,7 +1438,7 @@ label ep22_4_dialogues5_escort_5:
 
 # мысли Моники после встречи с клиентом Эбби, если оставила треть денег Эбби
 label ep22_4_dialogues5_escort_5a:
-	# не рендерить!!
+    # не рендерить!!
     mt "Черт! Может, нужно было забрать все деньги?"
     mt "Наврала бы гребаной Эбби, что клиент не заплатил..."
     mt "..."
@@ -1010,7 +1449,7 @@ label ep22_4_dialogues5_escort_5a:
 
 # мысли Моники после встречи с клиентом Эбби, если выгнала его и не стала с ним работать
 label ep22_4_dialogues5_escort_6:
-	# не рендерить!!
+    # не рендерить!!
     mt "Это было омерзительно!!!"
     mt "Гадко!!!"
     mt "Ненавижу, тварь!"
@@ -1020,13 +1459,13 @@ label ep22_4_dialogues5_escort_6:
 
 # мысли Моники после встречи с клиентом Эбби, хочет вернуться или пришла в любой другой день
 label ep22_4_dialogues5_escort_7:
-	# не рендерить!!
+    # не рендерить!!
     mt "Мне нечего здесь делать сейчас..."
     return
 
 # Моника пришла в эскорт после того, как отработала с клиентом Эбби
 label ep22_4_dialogues5_escort_8:
-	# Эбби встречает ее на входе в ресторан
+    # Эбби встречает ее на входе в ресторан
     img 35058
     w
     img 35059

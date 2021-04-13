@@ -4,6 +4,10 @@ default monicaJuliaPlayfulGoverness3 = 0 # Моника заставила Юл�
 default monicaJuliaPlayfulGoverness4 = 0 # Моника засунула в Юлию дилдо, когда та оттирала пятно
 default monicaJuliaPlayfulGoverness5 = 0 # Моника согласилась снять трусики и оттирать пятно с голой попой
 
+define v_Julia_Monica_Licking1_1_15_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+define v_Julia_Monica_Licking1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+define v_Monica_Julia_Dildo1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+define v_Monica_Julia_Dildo1_1_25_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
 
 # при условии, что было свидание в парке
 # апартаменты Юлии в трущобах
@@ -453,6 +457,27 @@ label ep22_4_dialogues3_julia_1a:
             # Юлия целует попу Моники между половинок, а потом начинает лизать
             img 34934
             w
+
+            #video
+            #1 -15
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Julia_Monica_Licking1_1_15_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Julia_Monica_Licking1_1_15= Movie(play="video/v_Julia_Monica_Licking1_1_15.mkv")
+            show videov_Julia_Monica_Licking1_1_15
+            with fade
+            julia "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 34935
             w
             img 34936
@@ -461,6 +486,24 @@ label ep22_4_dialogues3_julia_1a:
             w
             img 34938
             w
+
+            #2 -15
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Julia_Monica_Licking1_2_15= Movie(play="video/v_Julia_Monica_Licking1_2_15.mkv")
+            show videov_Julia_Monica_Licking1_2_15
+            with fade
+            julia "Ммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 34939
             w
             img 34940
@@ -485,7 +528,27 @@ label ep22_4_dialogues3_julia_1a:
             img 34947
             w
             img 34946
+            w
+
+            #3
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Julia_Monica_Licking1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Julia_Monica_Licking1_3= Movie(play="video/v_Julia_Monica_Licking1_3.mkv")
+            show videov_Julia_Monica_Licking1_3
+            with fade
             julia "Мммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 34945
             julia "Еще разочек..."
             img 34947
@@ -493,12 +556,49 @@ label ep22_4_dialogues3_julia_1a:
             img 34946
             w
             img 34933
+            w
+
+            #4
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Julia_Monica_Licking1_4= Movie(play="video/v_Julia_Monica_Licking1_4.mkv")
+            show videov_Julia_Monica_Licking1_4
+            with fade
             julia "А теперь немного глубже..."
+            wclean
+            julia "Вот так... Да..."
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # сама продолжает орудовать рукой у себя в шортах
             img 34942
             julia "Ооох!"
             img 34949
             w
+
+            #5
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Julia_Monica_Licking1_5= Movie(play="video/v_Julia_Monica_Licking1_5.mkv")
+            show videov_Julia_Monica_Licking1_5
+            with fade
+            julia "Оооо!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 34950
             w
             img 34948
@@ -869,26 +969,139 @@ label ep22_4_dialogues3_julia_1a:
             img 35022
             w
             img 35023
-            julia "Как офигительнооо!!!"
+            w
             # Моника начинает двигать дилдо в ней, жестко
+
+            #video
+            #1 -25
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Julia_Dildo1_1_25_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_1_25= Movie(play="video/v_Monica_Julia_Dildo1_1_25.mkv")
+            show videov_Monica_Julia_Dildo1_1_25
+            with fade
+            julia "Как офигительнооо!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 35024
             julia "Ааааа..."
             img 35025
             julia "Еще!!"
             img 35026
+            w
+
+            #2 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_2_25= Movie(play="video/v_Monica_Julia_Dildo1_2_25.mkv")
+            show videov_Monica_Julia_Dildo1_2_25
+            with fade
             julia "Немного глубже! Да, так! Оооо!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 35027
+            w
+
+            #3 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_3_25= Movie(play="video/v_Monica_Julia_Dildo1_3_25.mkv")
+            show videov_Monica_Julia_Dildo1_3_25
+            with fade
             julia "Ооох, быстрее!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #video
+            #4
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_Julia_Dildo1_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_4= Movie(play="video/v_Monica_Julia_Dildo1_4.mkv")
+            show videov_Monica_Julia_Dildo1_4
+            with fade
+            julia "Ооо, даааа!!!"
+            wclean
+            julia "Еще!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 35028
             w
             img 35029
-            julia "Ооо, даааа!!!"
+            w
+
+            #5
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_5= Movie(play="video/v_Monica_Julia_Dildo1_5.mkv")
+            show videov_Monica_Julia_Dildo1_5
+            with fade
             julia "Еще чуть-чуть, Миссиииис Бакфеееетт!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 35030
+            w
+
+            #6
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_Julia_Dildo1_6= Movie(play="video/v_Monica_Julia_Dildo1_6.mkv")
+            show videov_Monica_Julia_Dildo1_6
+            with fade
             julia "Я сейчас коооончуууу!!!"
+            wclean
+            julia "ААА!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             # Юлия бурно кончает
             img 35031
-            julia "ААА!"
             julia "ААААА!!!"
             img 35032
             julia "АААААААА!!!!"
