@@ -1956,16 +1956,16 @@ label ep22_4_dialogues4_office_6_loop1:
     # video
     #1 -15
     $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_RichRestaurant_Blowjob1_1_15_sound_name
+    $ localSoundName = v_Monica_RichRestaurant_Blowjob1_1_25_sound_name
     img black_screen
     with diss
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Blowjob1_1_15= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_1_15.mkv")
-    show videov_Monica_RichRestaurant_Blowjob1_1_15
+    image videov_Monica_RichRestaurant_Blowjob1_1_25= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_1_25.mkv")
+    show videov_Monica_RichRestaurant_Blowjob1_1_25
     with fade
     daniel "Ммммм, какая же ты охренительная, детка..."
     wclean
@@ -1982,10 +1982,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Blowjob1_2_15= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_2_15.mkv")
-    show videov_Monica_RichRestaurant_Blowjob1_2_15
+    image videov_Monica_RichRestaurant_Blowjob1_2_25= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_2_25.mkv")
+    show videov_Monica_RichRestaurant_Blowjob1_2_25
     with fade
     daniel "Даааа!"
     wclean
@@ -2002,10 +2002,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Blowjob1_3_15= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_3_15.mkv")
-    show videov_Monica_RichRestaurant_Blowjob1_3_15
+    image videov_Monica_RichRestaurant_Blowjob1_3_25= Movie(play="video/v_Monica_RichRestaurant_Blowjob1_3_25.mkv")
+    show videov_Monica_RichRestaurant_Blowjob1_3_25
     with fade
     daniel "Мммммм..."
     wclean
@@ -2016,8 +2016,6 @@ label ep22_4_dialogues4_office_6_loop1:
 
     # video
     #4 -25
-    $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_RichRestaurant_Blowjob1_1_25_sound_name
     img black_screen
     with diss
     stop music2

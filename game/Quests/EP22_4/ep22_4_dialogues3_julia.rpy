@@ -4,14 +4,12 @@ default monicaJuliaPlayfulGoverness3 = 0 # Моника заставила Юл�
 default monicaJuliaPlayfulGoverness4 = 0 # Моника засунула в Юлию дилдо, когда та оттирала пятно
 default monicaJuliaPlayfulGoverness5 = 0 # Моника согласилась снять трусики и оттирать пятно с голой попой
 
-define v_Julia_Monica_Licking1_1_15_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
 define v_Julia_Monica_Licking1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
 define v_Monica_Julia_Dildo1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
 define v_Monica_Julia_Dildo1_1_25_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
 
 define monicaJuliaPlayfulGovernessCorruptionRequired1 = 650 # Моника решила подыграть Юлии, соврав, что любит ее
-define monicaJuliaPlayfulGovernessCorruptionRequired2 = 670 # Моника согласилась сама оттирать пятно
-define monicaJuliaPlayfulGovernessCorruptionRequired3 = 690 # Моника заставила Юлию оттирать пятно
+define monicaJuliaPlayfulGovernessCorruptionRequired2 = 690 # Моника заставила Юлию оттирать пятно
 
 #call ep22_4_dialogues3_julia_1() # сцена с пятном в квартире Юлии
 #call ep22_4_dialogues3_julia_1a() # отсюда повтор, если уже была эта сцена
@@ -283,7 +281,7 @@ label ep22_4_dialogues3_julia_1a:
     julia "Ну вы же пообещали мне, Миссис Бакфетт..."
     mt "!!!"
     # коррапшн
-    $ menu_corruption = [monicaJuliaPlayfulGovernessCorruptionRequired2, monicaJuliaPlayfulGovernessCorruptionRequired3]
+    $ menu_corruption = [0, monicaJuliaPlayfulGovernessCorruptionRequired2]
     menu:
         "Оттирать пятно.":
             $ monicaJuliaPlayfulGoverness2 = day # Моника сама оттирала пятно у Юлии в квартире
@@ -542,18 +540,18 @@ label ep22_4_dialogues3_julia_1a:
             w
 
             #video
-            #1 -15
+            #1
             $ localSoundVolume = 1.0
-            $ localSoundName = v_Julia_Monica_Licking1_1_15_sound_name
+            $ localSoundName = v_Julia_Monica_Licking1_1_sound_name
             img black_screen
             with diss
             stop music2
             $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
             $ renpy.music.set_volume(0.2, 0.5, channel="music")
-            play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
             scene black
-            image videov_Julia_Monica_Licking1_1_15= Movie(play="video/v_Julia_Monica_Licking1_1_15.mkv")
-            show videov_Julia_Monica_Licking1_1_15
+            image videov_Julia_Monica_Licking1_1= Movie(play="video/v_Julia_Monica_Licking1_1.mkv")
+            show videov_Julia_Monica_Licking1_1
             with fade
             julia "Ммммм..."
             wclean
@@ -574,10 +572,10 @@ label ep22_4_dialogues3_julia_1a:
             stop music2
             $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
             $ renpy.music.set_volume(0.2, 0.5, channel="music")
-            play music2 "<from " + str(float(rand(0,4))*2.33333333) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
             scene black
-            image videov_Julia_Monica_Licking1_2_15= Movie(play="video/v_Julia_Monica_Licking1_2_15.mkv")
-            show videov_Julia_Monica_Licking1_2_15
+            image videov_Julia_Monica_Licking1_2= Movie(play="video/v_Julia_Monica_Licking1_2.mkv")
+            show videov_Julia_Monica_Licking1_2
             with fade
             julia "Ммммм..."
             wclean
@@ -624,8 +622,6 @@ label ep22_4_dialogues3_julia_1a:
             w
 
             #3
-            $ localSoundVolume = 1.0
-            $ localSoundName = v_Julia_Monica_Licking1_1_sound_name
             img black_screen
             with diss
             stop music2
@@ -649,8 +645,8 @@ label ep22_4_dialogues3_julia_1a:
             sound hlup19
             imgd 34946
             w
-            imgd 34933
-            w
+#            imgd 34933
+#            w
 
             #4
             img black_screen
@@ -703,6 +699,7 @@ label ep22_4_dialogues3_julia_1a:
             julia "Ооо, даааа!!!"
             imgd 34951
             julia "Еще чуть-чуть, Миссиииис Бакфеееетт!!!"
+            music Loved_Up2
             imgd 34952
             julia "Я сейчас коооончуууу!!!"
             imgf 34949
@@ -770,8 +767,8 @@ label ep22_4_dialogues3_julia_1a:
             m "Очень понравилось, милая."
             m "Это, наверное, от переизбытка чувств."
             # Юлия глупо хихикает
-            imgd 34960
             sound snd_woman_laugh4a
+            imgd 34960
             julia "Хи-хи-хи!"
             pass
         "Перехитрить Юлию и заставить ее оттирать пятно. (Моника не заставляла Юлию тереть пятно в доме) (disabled)" if juliaPunishedNone == True: # пункт доступен, если Моника заставляла Юлию оттирать пятно в своем бывшем доме + бичность
@@ -1145,7 +1142,7 @@ label ep22_4_dialogues3_julia_1a:
             # Моника вводит дилдо в киску Юлии
             imgf 35019
             w
-            sound hlup25
+            sound chpok6
             img 35020 hpunch
             w
             imgd 35021
@@ -1291,6 +1288,7 @@ label ep22_4_dialogues3_julia_1a:
             $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
             # Юлия бурно кончает
+            music Loved_Up2
             img 35031
             show screen photoshot_screen()
             with hpunch
@@ -1332,8 +1330,8 @@ label ep22_4_dialogues3_julia_1a:
             m "Сегодня нет! Плохая гувернантка понесла наказание."
             m "И сегодня я в ее услугах больше не нуждаюсь."
             # Юлия глупо хихикает
-            imgd 35040
             sound snd_woman_laugh4a
+            imgd 35040
             julia "Хи-хи-хи!"
             pass
     # Моника выходит из комнаты

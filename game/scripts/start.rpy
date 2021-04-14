@@ -101,7 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-#    call ep22_4_dialogues3_julia_1() # сцена с пятном в квартире Юлии
+#    jump test_video
 #########
 
 
