@@ -1,18 +1,27 @@
 default monicaLiamBettyHousemaid1 = 0 # Бетти психанула и пошла забирать утюг у Лиама
 default monicaLiamBettyHousemaid2 = 0 # Бетти согласилась переодеться в фартук
 
+#call ep22_4_dialogues1_betty_1() # прачечная, Бетти собирается к соседу
+#call ep22_4_dialogues1_betty_2() # дом соседа, уборка
 
 # бывший дом Моники, прачечная
 # после сцены с Ральфом в спальне, на другой день
 label ep22_4_dialogues1_betty_1:
     # Бетти стоит недовольная, смотрит на гладильную доску
-    img 35252
+    scene black_screen
+    with Dissolve(1)
+    music stop
+    call textonblack(t_("Тем временем..."))
+    scene black_screen
+    with Dissolve(1)
+    music Groove2_85
+    imgfl 35252
     w
-    img 35253
+    imgf 35253
     betty_t "Мне это надоело!"
     betty_t "Почему я не могу в собственном доме погладить вещи?!"
     betty_t "И все из-за какого-то дурацкого соседа!!!"
-    img 35254
+    imgd 35254
     betty_t "С чего он вообще взял, что может просто так взять и завладеть МОЕЙ вещью?!"
     betty_t "Что это вообще за глупости?!"
     betty_t "!!!"
