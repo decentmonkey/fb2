@@ -227,13 +227,13 @@ label ep22_4_dialogues4_office_1:
     mt "Иди в жопу, Биф!"
     mt "!!!"
     $ log1 = _("Пойти в гримерную комнату в фотостудии") # название лейбла "мне надо идти в фотостудию" при попытке выйти
-    return
+    return True
 
 # мысли Моники
 # при попытке выйти на другую локацию, кроме фотостудии
 label ep22_4_dialogues4_office_1a:
     mt "Мне надо идти в фотостудию..."
-    return
+    return False
 
 # мысли Моники
 # вышла из офиса, отказавшись от свидания с Мэйсоном
@@ -318,7 +318,7 @@ label ep22_4_dialogues4_office_4:
     mt "Иди в жопу, Биф!"
     mt "!!!"
     $ log1 = _("Пойти в гримерную комнату в фотостудии")
-    return
+    return True
 
 # гримерка в фотостудии
 label ep22_4_dialogues4_office_5:
@@ -2560,10 +2560,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_1_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_1_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_1_25
+    image videov_Monica_RichRestaurant_Sex2_1= Movie(play="video/v_Monica_RichRestaurant_Sex2_1.mkv")
+    show videov_Monica_RichRestaurant_Sex2_1
     with fade
     george "О да!"
     wclean
@@ -2580,10 +2580,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_2_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_2_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_2_25
+    image videov_Monica_RichRestaurant_Sex2_2= Movie(play="video/v_Monica_RichRestaurant_Sex2_2.mkv")
+    show videov_Monica_RichRestaurant_Sex2_2
     with fade
     george "Как же я хочу тебя!"
     wclean
@@ -2601,10 +2601,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_3_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_3_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_3_25
+    image videov_Monica_RichRestaurant_Sex2_3= Movie(play="video/v_Monica_RichRestaurant_Sex2_3.mkv")
+    show videov_Monica_RichRestaurant_Sex2_3
     with fade
     george "Дааа!!! Я тоже!"
     wclean
@@ -2618,10 +2618,10 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_4_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_4_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_4_25
+    image videov_Monica_RichRestaurant_Sex2_4= Movie(play="video/v_Monica_RichRestaurant_Sex2_4.mkv")
+    show videov_Monica_RichRestaurant_Sex2_4
     with fade
     daniel "Мммммм..."
     wclean
@@ -2637,8 +2637,8 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
     play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_5_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_5_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_5_25
+    image videov_Monica_RichRestaurant_Sex2_5= Movie(play="video/v_Monica_RichRestaurant_Sex2_5.mkv")
+    show videov_Monica_RichRestaurant_Sex2_5
     with fade
     george "О, какая же она охренительная!!!"
     wclean
@@ -2657,8 +2657,8 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(0.2, 0.5, channel="music")
     play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
     scene black
-    image videov_Monica_RichRestaurant_Sex2_6_25= Movie(play="video/v_Monica_RichRestaurant_Sex2_6_25.mkv")
-    show videov_Monica_RichRestaurant_Sex2_6_25
+    image videov_Monica_RichRestaurant_Sex2_6= Movie(play="video/v_Monica_RichRestaurant_Sex2_6.mkv")
+    show videov_Monica_RichRestaurant_Sex2_6
     with fade
     daniel "Да, а какая у нее охренительная задница!"
     wclean
@@ -3092,6 +3092,8 @@ label ep22_4_dialogues4_office_7:
     sound highheels_short_walk
     pause 2.0
     music Groove2_85
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
+    music2 fireplace1_1
     imgfl 43753
     mason "Миссис Бакфетт, вот моя скромная холостяцкая берлога."
     mason "Проходите. Чувствуйте себя, как дома..."
@@ -3214,10 +3216,13 @@ label ep22_4_dialogues4_office_7:
     sound Jump2
     imgd 43777
     mason "Кхм..."
+    #fire
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     imgf 43778
     mason "Мне так не хочется отпускать вас сегодня..."
     mason "Хочется, чтобы этот чудесный вечер не заканчивался никогда!"
     mt "Начинается!.."
+    $ renpy.music.set_volume(0.2, 0.5, channel="music2")
     imgd 43779
     mason "Я помню, что дал вам слово джентельмена."
     mason "Поэтому я просто задам вам вопрос и будет именно так, как пожелаете вы."
@@ -3392,12 +3397,17 @@ label ep22_4_dialogues4_office_7:
     sound highheels_short_walk
     imgf 43813
     w
+    music2 stop
     fadeblack
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     sound snd_door_open1
     pause 2.0
     # Моника выходит
-    return
+    return True
 
+label ep22_4_dialogues4_office_8a:
+    mt "Уже поздно. Офис закрыт."
+    return False
 
 # после встречи с Мэйсоном, на следующий рабочий день
 # кабинет Бифа
@@ -3508,6 +3518,7 @@ label ep22_4_dialogues4_office_11:
     mt "Отвратительный мерзкий тип!"
     mt "Ненавижу его!"
     mt "Мне нужно что-то придумать, чтобы не соглашаться на этот кошмар!"
+    mt "И еще Стив... Черт..."
     mt "!!!"
     return
 

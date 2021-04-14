@@ -65,6 +65,7 @@ label ep219_quests_photoshoot4_campbell: # офис Кэмпбелла
     $ autorun_to_object("ep219_dialogues2_office_4", scene="street_monica_office")
     $ questHelp("office_60", True)
     $ ep219_quests_photoshoot10_day = day
+    call ep224_quests_office_init()
     return
 
 label ep219_quests_photoshoot5_regular:
