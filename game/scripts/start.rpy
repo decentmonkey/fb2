@@ -101,8 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-#    call ep22_4_dialogues5_escort_4() # комната Эбби, встреча с клиентом
-
+#    call ep22_4_dialogues2_fitness_2()
 #########
 
 

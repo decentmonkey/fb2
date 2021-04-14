@@ -1,45 +1,57 @@
 default melanieVictoriaFitness1 = 0  # Мелани и Виктория посетили первое занятие в фитнес-зале
 
+#call ep22_4_dialogues2_fitness_1() # разговор Мелани и Виктории на улице перед фитнес-залом
+#call ep22_4_dialogues2_fitness_2() # фитнес
+#call ep22_4_dialogues2_fitness_3() # разговор Мелани и Виктории на улице после фитнеса
 
 # при условии, что секс-вечеринка у Мелани уже была
 # перед входом в фитнес, у здания
 # Мелани и Виктория
 # Мелани в голубых шортах и желтой рубашке, Виктория в своем рабочем платье
 label ep22_4_dialogues2_fitness_1:
-    img 43547
+    scene black_screen
+    with Dissolve(1)
+    music stop
+    call textonblack(t_("Тем временем..."))
+    scene black_screen
+    with Dissolve(1)
+    music Groove2_85
+    imgfl 43547
     victoria "Ой, подружка Мелани, я так рада, что мы с тобой вместе идем на фитнес!"
     victoria "Хорошие подружки должны все делать вместе."
     victoria "Не только встречаться на девичниках, но и устраивать совместный шоппинг..."
     victoria "Как мы с тобой сделали, чтобы выбрать тебе костюм."
-    img 43548
+    imgf 43548
     victoria "И на фитнес вместе теперь будем ходить!"
     victoria "Ты рада этому, подружка?"
-    img 43549
+    imgd 43549
     melanie "Очень..."
-    img 43550
+    imgf 43550
     victoria "Я знала, что тебе будет приятно заниматься спортом вместе со мной."
     victoria "И вместе с нашими новыми подружками."
     victoria "Кстати, ты, подружка, отлично справилась с выполнением моей просьбы..."
     victoria "На той вечеринке, когда Стефани была у тебя в гостях."
     victoria "Скоро Стефани тоже станет моей лучшей подружкой. Хи-хи-хи!"
     # если Мелани выключила камеру в самом начале сцены со Стефани
-    img 43551
-    victoria "Кстати, подружка Мелани... Хотела сказать тебе..."
-    victoria "Подружка Мелани сделала не очень хорошо, выключив камеру."
-    victoria "Хоть я и осталась довольна, что она сняла для меня достаточно материала."
-    #
-    img 43552
+    if melanieVictoriaStephanieSwingerParty4 > 0:
+        imgd 43551
+        victoria "Кстати, подружка Мелани... Хотела сказать тебе..."
+        victoria "Подружка Мелани сделала не очень хорошо, выключив камеру."
+        victoria "Хоть я и осталась довольна, что она сняла для меня достаточно материала."
+        #
+    imgd 43552
     melanie "..."
-    img 43553
+    imgf 43553
     victoria "Я знаю, что ты не будешь ревновать меня к ней."
     victoria "Ты же хорошая подружка?"
     melanie "Я не буду ревновать..."
     melanie "Потому что я хорошая подружка."
-    img 43554
+    sound snd_woman_laugh3
+    imgd 43554
     victoria "Хи-хи-хи!"
     victoria "Ну пошли скорее!"
     victoria "Занятие скоро начнется, а нам с тобой еще нужно переодеться."
-    img 43555
+    imgd 43555
     melanie "..."
     return
 
@@ -47,39 +59,49 @@ label ep22_4_dialogues2_fitness_1:
 # Мелани и Виктория заходят, их встречает тренер
 label ep22_4_dialogues2_fitness_2:
     # он жадно осматривает Мелани с головы до ног, Викторию как-будто и не замечает
-    img 43560
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 43560
     fitness_instructor "Добрый день, девочки!"
     fitness_instructor "Я ваш фитнес-инструктор."
     # Мелани равнодушно смотрит на него
     melanie "Добрый день."
-    img 43561
+    imgf 43561
     fitness_instructor "Добро пожаловать на наше занятие!"
     fitness_instructor "Надеюсь, вам понравится и вы хорошо и с пользой проведете время."
-    img 43562
+    imgd 43562
     fitness_instructor "И обязательно вернетесь к нам! И не один раз!"
     # Виктория любезничает с ним
-    img 43563
+    music Hidden_Agenda
+    imgd 43563
     victoria "Ой, приятно с вами познакомиться!"
     victoria "Я уверена, что мы станем вашими постоянными клиентками!"
     victoria "Меня зовут Виктория."
-    img 43564
+    imgd 43564
     victoria "А это моя подружка Мелани."
     # тренер пожирает Мелани глазами, она равнодушно смотрит в сторону
-    img 43565
+    music Groove2_85
+    imgf 43565
     fitness_instructor "Мне очень приятно!"
     melanie "Взаимно..."
-    img 43566
+    sound vjuh3
+    imgd 43566
     fitness_instructor "Девочки, проходите в раздевалку."
     fitness_instructor "Она находится вон там." # указывает рукой
     fitness_instructor "И через 10 минут я жду вас в этом зале."
     # Виктория, флиртуя
-    img 43567
+    sound highheels_short_walk
+    imgf 43567
     victoria "Хорошо. Мы скоро вернемся. Хи-хи-хи!"
     # он смотрит на Мелани, игноря попытки Виктории
     # она это видит и недовольно косится на Мелани
-    img 43568
+    music ZigZag
+    imgd 43568
+    sound2 wow
     w
-    img 43569
+    imgd 43569
     w
     img 43570
     victoria "!!!"
@@ -88,113 +110,151 @@ label ep22_4_dialogues2_fitness_2:
     # смена кадра на раздевалку
     # там, как обычно, тусят Стефани и Ребекка, они переодеваются
     # Виктория подбегает к ним
-    img 43571
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Groove2_85
+    imgfl 43571
     victoria "Девочки, мы пришли!"
     # чмокает их в щечку по очереди
-    img 43572
+    sound highheels_short_walk
+    imgf 43572
     rebecca "Привет, Виктория!" # дружелюбно
-    img 43573
+    imgd 43573
+    sound kiss1
     w
-    img 43574
+    sound highheels_short_walk
+    imgf 43574
+    sound2 kiss1
     stephanie "Привет..." # прохладно
-    img 43575
+    imgd 43575
     victoria "Я так рада, что мы снова встретились!"
     victoria "Так здорово, что мы теперь будем ходить на занятия вместе! Правда?!"
     rebecca "Да, это будет прикольно!"
     # к ним подходит Мелани
     # Стефани сама идет к Мелани и чмокает ее в щечку
-    img 43576
+    sound highheels_short_walk
+    imgf 43576
     w
-    img 43577
+    imgd 43577
     stephanie "Мелани, привет!"
-    img 43578
+    imgf 43578
+    sound kiss1
+    w
     # отстранясь, смотрит на ее губы и улыбается
-    img 43579
+    imgd 43579
     stephanie "Рада видеть тебя..."
+    victoria "!!!"
     # Мелани, как всегда, с равнодушным видом
-    img 43580
+    imgd 43580
     melanie "Привет."
     # Виктория пристально смотрит на то, как Стефани любезничает с Мелани
     ##Можно поставить пожалуйста эмоции Виктории чуть выше
     ## после фразы Стефани "Рада видеть тебя"
-    victoria "!!!"
     # Ребекка встревает в разговор и Стефани отходит от Мелани
-    img 43582
+    imgf 43582
     rebecca "Привет! Здорово, что вы теперь с нами!"
     rebecca "Будет веселее! Да, Стефани?"
     stephanie "Да, Ребекка."
-    img 43581
+    imgd 43581
+    sound kiss1
     w
-    img 43583
+    imgf 43583
     rebecca "Переодевайтесь, девочки! Занятие скоро начнется!"
     # Мелани и Виктория отходят к шкафчикам
     # Мелани начинает раздеваться с непроницаемым выражением лица
     # Виктория ехидно на нее оглядывает и тоже начинает снимать платье
-    img 43584
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
+    music Hidden_Agenda
+    imgfl 43584
     victoria "Подружка Мелани, хорошо, что мы купили тебе костюм для фитнеса."
     victoria "Мне кажется, что тебе в нем будет очень удобно заниматься."
-    img 43585
+    music Master_Disorder
+    imgf 43585
     melanie "Да... Очень..."
-    img 43586
+    music Groove2_85
+    sound2 vjuh3
+    imgd 43586
     victoria "Я, как твоя лучшая подружка, тебе посоветовала самый лучший вариант."
     melanie "Да, подружка."
     victoria "Мне нравится ходить с тобой на шоппинг и выбирать тебе костюмы."
     victoria "Думаю, из меня получился бы отличный стилист. Да, подружка?"
-    img 43587
+    imgd 43587
     melanie "Да."
-    img 43588
+    imgf 43588
     victoria "Заодно и у меня появляются обновки. Хи-хи-хи!"
-    img 43589
+    music Master_Disorder
+    imgd 43589
     melanie "!!!"
     # затемнение, шуршание одежды
     # Мелани и Виктория переоделись
     # Стефани и Ребекка в афиге смотрят на костюм Мелани
-    img 43590
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music ZigZag
+    imgfl 43590
     w
-    img 43591
+    imgf 43591
+    sound oooh4
     w
-    img 43592
+    sound2 oooh1
+    imgd 43592
     rebecca "Ого! Круто!!"
     # Стефани смотрит скорее с вожделением
-    img 43593
+    imgf 43593
     stephanie "Мелани, ты, как всегда, на высоте."
-    img 43594
+    imgd 43594
     stephanie "Потрясно!"
-    img 43595
-    # Виктория ехидно улыбается
-    img 43596
-    victoria "Девочки, прикольный костюм я посоветовала купить Медани?"
-    img 43597
-    rebecca "О да! Отпад!"
-    img 43598
+    sound oooh4
+    imgd 43595
     w
-    img 43599
+    # Виктория ехидно улыбается
+    imgf 43596
+    victoria "Девочки, прикольный костюм я посоветовала купить Медани?"
+    imgd 43597
+    rebecca "О да! Отпад!"
+    imgf 43598
+    w
+    sound snd_woman_laugh3
+    imgd 43599
     victoria "Хи-хи-хи!"
     # затемнение
     # девочки выходят в зал
     # тренер смотрит на Мелани, не замечая никого, у него шок
-    img 43600
+    fadeblack
+    sound snd_walk_barefoot
+    pause 1.5
+    music Groove2_85
+    imgfl 43600
     w
-    img 43601
+    imgf 43601
     w
-    img 43602
+    sound wow
+    img 43602 hpunch
     fitness_instructor "Оооо!"
-    img 43603
+    imgd 43603
     fitness_instructor "Я..."
-    img 43604
+#    sound wow
+    img 43604 vpunch
     fitness_instructor "Кхм..."
     # Мелани с каменным лицом проходит мимо него, Виктория следом с ехидной улыбочкой
-    img 43605
+    imgf 43605
     melanie "..."
+    imgd 43607
+    w
     # Стефани смотрит на тренера, прищурившись, ревниво
+    music stop
+    sound plastinka1b
+    img 43608 hpunch
+    w
     img 43606
     stephanie "!!!"
     # он замечает это и перестает пялиться на Мелани
-    img 43607
-    w
-    img 43608
-    w
-    img 43609
+    music Groove2_85
+    imgf 43609
     fitness_instructor "Девочки, занимайте свои места..."
     fitness_instructor "Начинаем!"
     # Мелани занимается в переднем ряду рядом со Стефани (Мелани на месте Моники)
@@ -203,281 +263,327 @@ label ep22_4_dialogues2_fitness_2:
     # показываем немного, как каждая из девочек занимается
     # тренер к ним по очереди подходит
     # к Виктории (помогая ей, бросает взгляды на попу Мелани)
-    img 43610
+    fadeblack
+    sound snd_walk_barefoot
+    pause 1.5
+    music Ready_and_Waiting
+    imgfl 43610
     w
-    img 43611
+    imgf 43611
     w
-    img 43612
+    imgd 43612
     w
-    img 43613
+    imgf 43613
     w
-    img 43614
+    imgd 43614
     w
-    img 43615
+    imgf 43615
     w
-    img 43616
+    imgd 43616
     w
-    img 43617
+    imgf 43617
     w
-    img 43618
+    imgd 43618
     w
-    img 43619
+    imgd 43619
     w
-    img 43620
+    imgf 43620
     w
-    img 43621
+    imgd 43621
     w
-    img 43622
+    imgf 43622
     w
-    img 43623
+    imgd 43623
     w
-    img 43624
+    imgd 43624
     w
-    img 43625
+    imgf 43625
     w
-    img 43626
+    imgd 43626
     w
-    img 43627
+    imgf 43627
+    sound wow
     w
-    img 43628
+    imgd 43628
     w
-    img 43629
+    imgd 43629
     w
-    img 43630
+    imgd 43630
     w
-    img 43631
+    imgf 43631
     w
-    img 43632
+    imgd 43632
     w
-    img 43633
+    imgd 43633
     w
-    img 43634
+    imgf 43634
     w
-    img 43635
+    imgd 43635
     w
-    img 43636
+    imgf 43636
     w
-    img 43637
+    imgd 43637
     w
-    img 43638
+    imgd 43638
     w
-    img 43639
+    imgf 43639
     w
-    img 43640
+    imgd 43640
     w
-    img 43641
+    sound man_steps
+    imgf 43641
     fitness_instructor "Делай вот так, Виктория, выгибай ногу сильнее."
     victoria "Вот так?"
-    w
+    sound Jump1
     img 43642
     fitness_instructor "Да, так. Еще сильнее."
     fitness_instructor "Я помогу тебе, надо только немного поддержать..."
-    img 43643
+    imgd 43643
     victoria "Ой, мне так больно!"
-    img 43644
+    imgf 43644
     fitness_instructor "Терпи, сейчас все пройдет. Я желаю, чтобы ты добилась результатов."
     fitness_instructor "Доверься мне, Виктория."
     ###Тут нужно будет добавить фразы, так как сделала что она упала
-    img 43645
+    sound snd_bodyfall
+    img 43645 hpunch
+    sound2 snd_woman_pain1
+    victoria "Ай! Как больно!"
+    music stop
+    sound plastinka1b
+    img 43646 vpunch
+    fitness_instructor "!!!"
+    music Groove2_85
+    fitness_instructor "Виктория, ты в порядке?"
+    fitness_instructor "Давай, я тебе помогу."
+    imgf 43647
+    stephanie "Она что, на ногах устоять не может?"
+    stephanie "Какого черта она вообще сюда пришла тогда?!"
+    imgd 43648
+    melanie "..."
+    imgf 43649
+    fitness_instructor "Виктория, я приношу свои извинения..."
+    imgd 43650
+    victoria "Ой, не беспокойтесь! Все хорошо! Я просто потеряла равновесие..."
+    imgd 43649
+    fitness_instructor "Это все из-за вашей растяжки... Над ней нужно еще поработать."
+    fitness_instructor "Несколько занятий и все будет в порядке."
+    fitness_instructor "Ну что? Продолжим?"
+    victoria "С удовольствием!"
+    fadeblack 1.5
+    music Ready_and_Waiting
+    imgf 43651
     w
-    img 43646
-    w
-    img 43647
-    w
-    img 43648
-    w
-    img 43649
-    w
-    img 43650
-    w
-    img 43651
-    w
-    img 43652
+    imgd 43652
     victoria "Теперь получается?"
     fitness_instructor "Да, Виктория, ты молодец."
     fitness_instructor "Я вижу в тебе потенциал."
-    img 43653
+    imgf 43653
     w
-    img 43654
+    imgd 43654
     w
-    img 43655
+    imgf 43655
     w
-    img 43656
+    imgd 43656
     w
-    img 43657
+    imgf 43657
     w
-    img 43658
+    imgd 43658
+    w
     # к Ребекке
-    img 43659
+    imgf 43659
     w
-    img 43660
+    imgd 43660
     w
-    img 43661
+    imgf 43661
     fitness_instructor "Ребекка, тебе надо держать корпус ровнее..."
     rebecca "Так?"
-    img 43662
+    imgd 43662
     fitness_instructor "Еще немного..."
-    img 43663
+    sound Jump1
+    imgd 43663
     rebecca "Так лучше?"
     fitness_instructor "Да, у тебя с каждым разом получается все лучше."
-    fitness_instructor "Теперь расслабься..."
-    img 43664
-    fitness_instructor "Вот так, молодец."
+#    fitness_instructor "Теперь расслабься..."
+    imgd 43664
+    fitness_instructor "Вот так... Молодец!"
+    imgf 43665
     w
-    img 43665
+    imgd 43666
     w
-    img 43666
+    imgf 43667
     w
-    img 43667
+    imgd 43668
     w
-    img 43668
+    imgf 43669
     w
-    img 43669
+    imgd 43670
     w
-    img 43670
+    imgd 43671
     w
-    img 43671
+    imgd 43672
     w
-    img 43672
     # к Стефани (Виктория посматривает на них подозрительно)
-    img 43673
+    imgf 43673
     w
-    img 43674
+    imgd 43674
     w
-    img 43675
+    imgd 43675
     w
-    img 43676
+    imgf 43676
     w
-    img 43677
+    imgd 43677
     w
-    img 43678
+    imgf 43678
     w
-    img 43679
+    imgd 43679
     w
-    img 43680
+    imgf 43680
     fitness_instructor "Хорошо, молодец, Стефани."
     fitness_instructor "У тебя отлично получается."
     stephanie "Да, я стараюсь."
-    img 43681
+    imgd 43681
     fitness_instructor "Постарайся больше выгибать спинку, Стефани..."
     stephanie "Вот так?"
-    img 43682
+    imgf 43682
     fitness_instructor "Умничка. Теперь еще немного... Еще-еще..."
     fitness_instructor "Давай я тебе помогу."
     stephanie "Да, хорошо."
-    img 43683
+    imgd 43683
     w
-    img 43684
+    imgd 43684
     fitness_instructor "Молодец, Стефани."
     fitness_instructor "Продолжай в том же духе. Я пока помогу другим девочкам."
-    img 43685
+    imgf 43685
     w
-    img 43686
+    imgd 43686
     w
-    img 43687
+    imgf 43687
     w
-    img 43688
+    imgd 43688
     w
-    img 43689
+    imgd 43689
+    w
     # к Мелани (на них все пялятся, а он пожирает взглядом прелести Мелани)
-    img 43690
+    imgf 43690
     w
-    img 43691
+    imgd 43691
     fitness_instructor "Мелани, ты слишком напряжена, ты чувствуешь это?"
     fitness_instructor "Тебе надо расслабиться. Я помогу."
-    img 43692
+    sound Jump2
+    img 43692 vpunch
     fitness_instructor "Вот так. Молодец, Мелани."
     melanie "..."
-    img 43693
+    imgd 43693
     fitness_instructor "Теперь тяни ножку, тяни сильнее..."
+    sound Jump1
     img 43694
     fitness_instructor "Тебе не больно?"
     melanie "Немного."
-    img 43695
+    imgf 43695
     fitness_instructor "Я помогу тебе, Мелани..."
     fitness_instructor "У тебя получается, ты чувствуешь?"
     melanie "Да, чувствую."
-    img 43696
+    imgd 43696
     fitness_instructor "Теперь тянись, тянись как можешь..."
-    img 43697
+    imgf 43697
     w
-    img 43698
+    imgd 43698
     fitness_instructor "Вот так, хорошо..."
-    img 43699
+    imgd 43699
     fitness_instructor "Давай, Мелани, ты можешь еще, я знаю."
-    img 43700
+    imgf 43700
+    w
     # Виктория ехидно смотрит на Стефани, та ревниво на тренера, который помогает Мелани
     # Виктория ехидно улыбается
     # затемнение
-    img 43701
+    fadeblack 1.5
+    music Groove2_85
+    imgf 43701
     fitness_instructor "Девочки, на сегодня все!"
     # Ребекка и Виктория улыбаются ему, Мелани равнодушна, Стефани прситально на него смотрит
     fitness_instructor "Вы все молодцы!"
     fitness_instructor "Я очень доволен вашими результатами!"
-    img 43702
+    imgd 43702
     fitness_instructor "В следующий раз мы выполним упражнения посложнее."
-    img 43703
+    sound snd_walk_barefoot
+    imgf 43703
+    w
     # все девочки идут в раздевалку, Стефани позади них и немного задерживается возле тренера, смотрит на него, флиртуя
-    img 43704
+    imgd 43704
     stephanie "..."
     # Виктория в это время, пока ее никто не видит, с любопытством выглядывает в зал
-    img 43705
+    sound vjuh3
+    img 43705 vpunch
     victoria "???"
-    # if (у Стефани с тренером секс):
-    #
-    $ notif(_("Фитнес-тренер любовник Стефани."))
-    #
-    img 43706
-    fitness_instructor "Стефани, я так соскучился по тебе..."
-    stephanie "Тихо ты! Нас могут услышать!"
-    img 43707
-    fitness_instructor "Ну и пусть! Твой Тигр готов провести для тебя персональную тренировку!"
-    # он трогает Стефани за попу
-    stephanie "Ну хватит! Я не хочу, чтобы кто-то знал!"
-    # Виктория злорадно
-    img 43708
-    victoria "Ага! Вот я и узнала твой секретик, подружка Стефани!"
-    victoria "Хи-хи-хи!"
-    img 43709
-    fitness_instructor "Ты останешься?"
-    stephanie "Да. А сейчас убери руки!"
-    img 43710
-    fitness_instructor "Я жду тебя здесь. Рррр!"
-    img 43711
-    stephanie "Ха-ха! Я приду, когда девочки уйдут."
-    img 43714
-    #
-    # else:
-    #
-    $ notif(_("Стефани флиртует с фитнес-тренером."))
-    #
-    img 43706
-    fitness_instructor "Стефани, ты такая красивая..."
-    stephanie "Без тебя знаю!"
-    img 43712
-    fitness_instructor "Задержишься, когда все уйдут?"
-    fitness_instructor "Я хочу провести для тебя персональную тренировку!"
-    # он прикасается к руке Стефани или кладет руку ей на талию
-    img 43713
-    stephanie "Убери руку!"
-    stephanie "Никаких персональных тренировок! Пока что... Я еще думаю..."
-    # Виктория злорадно
-    img 43708
-    victoria "Ага! Вот я и узнала твой секретик, подружка Стефани!"
-    victoria "Хи-хи-хи!"
-    img 43714
-    fitness_instructor "Я готов ждать тебя столько, сколько нужно!"
-    img 43715
-    fitness_instructor "Тебе понравятся мои персональные тренировки, Стефани!"
-    img 43716
-    stephanie "Ха-ха-ха!"
-    #
+    # если у Стефани с тренером секс
+    if stephanieFitnessJustSex == True:
+        #
+        $ notif(_("Фитнес-тренер любовник Стефани."))
+        #
+        music Loved_Up
+        imgf 43706
+        fitness_instructor "Стефани, я так соскучился по тебе..."
+        stephanie "Тихо ты! Нас могут услышать!"
+        sound Jump2
+        img 43707 hpunch
+        fitness_instructor "Ну и пусть! Твой Тигр готов провести для тебя персональную тренировку!"
+        # он трогает Стефани за попу
+        stephanie "Ну хватит! Я не хочу, чтобы кто-то знал!"
+        # Виктория злорадно
+        music Master_Disorder
+        imgf 43708
+        victoria "Ага! Вот я и узнала твой секретик, подружка Стефани!"
+        victoria "Хи-хи-хи!"
+        music Loved_Up
+        imgd 43709
+        fitness_instructor "Ты останешься?"
+        stephanie "Да. А сейчас убери руки!"
+        imgf 43710
+        fitness_instructor "Я жду тебя здесь. Рррр!"
+        imgd 43711
+        stephanie "Ха-ха! Я приду, когда девочки уйдут."
+        sound snd_walk_barefoot
+        imgf 43714
+        w
+        #
+    else:
+        #
+        $ notif(_("Стефани флиртует с фитнес-тренером."))
+        #
+        music Loved_Up
+        imgf 43706
+        fitness_instructor "Стефани, ты такая красивая..."
+        stephanie "Без тебя знаю!"
+        sound Jump2
+        img 43712 hpunch
+        fitness_instructor "Задержишься, когда все уйдут?"
+        fitness_instructor "Я хочу провести для тебя персональную тренировку!"
+        # он прикасается к руке Стефани или кладет руку ей на талию
+        imgd 43713
+        stephanie "Убери руку!"
+        stephanie "Никаких персональных тренировок! Пока что... Я еще думаю..."
+        # Виктория злорадно
+        music Master_Disorder
+        imgd 43708
+        victoria "Ага! Вот я и узнала твой секретик, подружка Стефани!"
+        victoria "Хи-хи-хи!"
+        music Loved_Up
+        imgf 43714
+        sound2 snd_walk_barefoot
+        fitness_instructor "Я готов ждать тебя столько, сколько нужно!"
+        imgd 43715
+        fitness_instructor "Тебе понравятся мои персональные тренировки, Стефани!"
+        imgd 43716
+        stephanie "Ха-ха-ха!"
+        #
+    fadeblack 1.5
+    music Groove2_85
     # Виктория прячется обратно в раздевалку, чтоб Стефани ее не заметила
     # Стефани уходит в раздевалку
     # затемнение
     # все девочки стоят в раздевалке
     # Виктория восторженно
-    img 43717
+    imgf 43717
     victoria "Ой, девочки!"
     victoria "Такое волшебное чувство! Я так расслабилась!"
     victoria "Такая легкость во всем теле!"
@@ -485,90 +591,117 @@ label ep22_4_dialogues2_fitness_2:
     img 43718
     victoria "Да! Я в восторге, девочки!"
     victoria "Обязательно приду снова!"
-    img 43719
+    imgf 43719
     stephanie "А тебе понравилось, Мелани?"
-    img 43720
+    imgd 43720
     melanie "Да, это действительно расслабляет..."
-    img 43721
+    music Hidden_Agenda
+    imgf 43721
     victoria "Еще немного и мы с подружкой Мелани станем спортивными и подтянутыми, как вы, девочки!"
     victoria "Ой, не могу! Вы такие красотки!"
-    img 43722
+    imgd 43722
     rebecca "Спасибо, Виктория. Ты такая милая!"
     # Стефани бросает на Виктория недружелюбный взгляд
     stephanie "..."
     # потом обращается к Мелани
-    img 43723
+    music Groove2_85
+    imgf 43723
     stephanie "Мелани, будет круто, если ты продолжишь заниматься с нами."
-    img 43724
+    imgd 43724
     melanie "Я приду, почему нет?"
     melanie "По крайней мере, здесь нет сумасшедших поклонников и папарацци..."
-    img 43725
     stephanie "Да, именно поэтому в этот зал просто так не попадают..."
+    sound Jump1
+    img 43725
     stephanie "Посторонние люди..." # смотрит недовольно на Викторию
     # Виктория это видит, но стоит и мило ей улыбается
-    img 43726
+    music Hidden_Agenda
+    imgd 43726
     victoria "Стефани, я так рада, что ты смогла пригласить меня и мою подружку Мелани!"
     victoria "Теперь мы будем заниматься все вместе!"
     victoria "Так здорово!!!"
-    img 43727
+    imgf 43727
     stephanie "Да. Прикольно."
     rebecca "Я тоже очень рада!"
     # затемнение, шуршание одежды
     # они все переоделись, чмокают друг друга в щечку на прощание
-    img 43728
+    fadeblack
+    sound snd_fabric1
+    pause 2.0
+    music Groove2_85
+    imgf 43728
     rebecca "Нам нужно будет как-нибудь встретиться всем вместе!"
     rebecca "Мне так понравилось у тебя на девичнике, Виктория!"
     img 43729
     melanie "!!!" # зло
     victoria "Обязательно встретимся, девочки!"
     victoria "Совсем скоро! И мою лучшую подружку Монику обязательно пригласим!"
-    img 43730
+    sound highheels_short_walk
+    imgf 43730
+    sound2 kiss1
     victoria "Пока, подружки! До встречи!"
-    img 43731
+    imgd 43731
+    sound kiss1
     w
-    img 43732
+    imgf 43732
+    sound kiss1
     stephanie "Пока, девочки."
-    img 43733
+    imgd 43733
+    sound kiss1
     rebecca "Пока-пока! Скоро увидимся!"
     melanie "Пока..."
-    img 43734
+    sound highheels_short_walk
+    imgf 43734
+    w
     # затемнение, каблуки
     # Мелани и Виктория идут мимо тренера на выход из зала
     # он пялится на Мелани
-    img 43735
+    fadeblack 1.5
+    music Groove2_85
+    imgf 43735
     fitness_instructor "Девочки, вы молодцы!"
     fitness_instructor "Жду вас на следующем занятии!"
     victoria "Мы обязательно придем! Я просто в восторге!"
-    img 43736
+    music Hidden_Agenda
+    imgd 43736
     victoria "Вы так здорово проводите тренировку!"
     victoria "Сразу видно - настоящий мастер своего дела!"
-    img 43737
+    music Groove2_85
+    imgd 43737
     fitness_instructor "Спасибо, Виктория."
     fitness_instructor "Пока, девочки!"
-    img 43738
+    imgf 43738
+    sound highheels_short_walk
     victoria "До свидания!"
     melanie "До встречи..."
-    img 43739
+    sound2 wow
+    imgd 43739
+    w
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
     # они выходят, тренер смотрит Мелани вслед
     $ melanieVictoriaFitness1 = day # Мелани и Виктория посетили первое занятие в фитнес-зале
     return
 
 # Мелани и Виктория вышли из фитнес-зала и стоят у здания
 label ep22_4_dialogues2_fitness_3:
-    img 43556
+    music Groove2_85
+    imgfl 43556
     victoria "Тебе понравилось занятие, подружка Мелани?"
     melanie "..."
     melanie "Да, неплохо..."
     victoria "А тренер тебе понравился?"
     melanie "Нет."
     # Виктория с фальшивой озабоченностью
-    img 43557
+    music Hidden_Agenda
+    imgf 43557
     victoria "Странно..."
     victoria "Я была уверена, что тебе понравится такой мужчина, как тренер..."
     # Мелани подозрительно смотрит на нее
     melanie "Почему ты меня об этом спрашиваешь?"
     # Виктория ехидно
-    img 43558
+    imgd 43558
     victoria "Я немного позже все тебе расскажу, подружка Мелани."
     victoria "Пусть пока это останется моим маленьким секретиком!"
     victoria "Хи-хи-хи!"
