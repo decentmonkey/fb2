@@ -101,16 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-    #call ep22_4_dialogues4_office_1() # разговор с Бифом, отправляет на свидание с Мэйсоном
-    #call ep22_4_dialogues4_office_4() # повторный разговор с Бифои, если отказалась от свидания с Мэйсоном, но потом передумала
-    #call ep22_4_dialogues4_office_5() # гримерка в фотостудии
-    #call ep22_4_dialogues4_office_6() # ресторан, свидание
-    #call ep22_4_dialogues4_office_6a() # Мэйсон приглашает к себе, сцены в туалете не было
-    #call ep22_4_dialogues4_office_6b() # Мэйсон приглашает к себе после сцены в туалете
-    #call ep22_4_dialogues4_office_7() # дома у Мэйсона
-    #call ep22_4_dialogues4_office_8() # разговор с Бифом на след. день после свидания
-    #call ep22_4_dialogues4_office_12() # Моника приходит на работу, сотрудники сплетничают
-
+#    call ep22_4_dialogues3_julia_1() # сцена с пятном в квартире Юлии
 #########
 
 

@@ -77,12 +77,12 @@ label ep22_4_dialogues4_office_1:
     biff "Иди переодевайся в свой костюм для свидания с денежными мешками."
     biff "Потом зайди к папочке, он тебе скажет, что нужно делать."
     # Моника недовольно
-    music Stealth_Groover
+#    music Stealth_Groover
     imgd 13904
     m "Что за глупости, Биф?!"
     m "Я никуда не пойду переодеваться, пока ты мне не скажешь, зачем это нужно!"
     # Биф раздраженно
-    music Groove2_85
+#    music Groove2_85
     img 13910
     biff "Так! Ты опять за свое?!"
     biff "Цыпочка должна быть хорошей и во всем папочку слушаться!"
@@ -146,7 +146,7 @@ label ep22_4_dialogues4_office_1:
     biff "Я тебя, двадцатидолларовая шлюха, УВОЛЮ!"
     biff "Ушла в гримерку! Быстро!!!"
     # коррапшн
-    #$ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired1, 0]
+    $ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired1, 0]
     menu:
         "Сделать, как говорит Биф.":
             $ monicaInvestorMasonDate1 = day # Моника сразу согласилась пойти на свидание с Мэйсоном
@@ -173,7 +173,7 @@ label ep22_4_dialogues4_office_1:
             pause 1.5
             return False
     # Моника злобно
-    music Pyro_Flow
+    music Power_Bots_Loop
     imgf 15869
     mt "Дьявол!!!"
     mt "Моника, неужели тебе придется сделать это?!"
@@ -189,11 +189,11 @@ label ep22_4_dialogues4_office_1:
     mt "И никчемный Биф будет думать, что я послушалась его приказа..."
     mt "А на самом деле я обрету в лице Мэйсона поддержку и настрою его против Бифа."
     # если был секс с Олафом
-    if monicaBiffInvestorDate2 == False or 1==1:
+    if monicaBiffInvestorDate2 == False:
         #
         $ notif(_("Свидание Моники с инвестором Олафом закончилось в постели."))
         #
-        imgd 13895
+        imgd 15889
         mt "Только нельзя допустить той оплошности, которая произошла с тюфяком Олафом..."
         mt "В этот раз я буду более холодна и расчетлива."
         #
@@ -223,6 +223,7 @@ label ep22_4_dialogues4_office_1:
     biff "Не забудь потом прийти к папочке и рассказать, как все прошло!"
     biff "Если сделаешь что-то не так, то папочка расстроится!"
     biff "И не даст тебе больше работать в своем офисе!"
+    sound highheels_short_walk
     imgf 12817
     mt "Иди в жопу, Биф!"
     mt "!!!"
@@ -281,7 +282,7 @@ label ep22_4_dialogues4_office_4:
     mt "Какой же он идиот!"
     mt "!!!"
     # коррапшн
-    #$ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired1, 0]
+    $ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired1, 0]
     menu:
         "Пойти в гримерную комнату и переодеться.":
             $ monicaInvestorMasonDate2 = day # Моника со 2-го раза согласилась пойти на свидание с Мэйсоном
@@ -313,6 +314,7 @@ label ep22_4_dialogues4_office_4:
     biff "Не забудь потом прийти к папочке и рассказать, как все прошло!"
     biff "Если сделаешь что-то не так, то папочка расстроится!"
     biff "И не даст тебе больше работать в своем офисе!"
+    sound highheels_short_walk
     imgf 12817
     mt "Иди в жопу, Биф!"
     mt "!!!"
@@ -379,7 +381,8 @@ label ep22_4_dialogues4_office_6:
     mt "Надеюсь, этого Олафа с его грымзой женой не будет сегодня здесь!"
     mt "..."
     mt "Хотя... Лучше сюда, чем в ресторан Ле Гранд..."
-    mt "Но было бы забавно посмотреть на лицо лицемерки Линды, если бы она увидела меня с Мэйсоном."
+    if monica_escort_service_started == True:
+        mt "Но было бы забавно посмотреть на лицо лицемерки Линды, если бы она увидела меня с Мэйсоном."
     # инвестор лебезит перед ней, она ведет себя надменно
     imgd 43954
     mason "Миссис Бакфетт, я выбрал самый лучший ресторан города!"
@@ -405,8 +408,8 @@ label ep22_4_dialogues4_office_6:
     mason "Извините, если оскорбил вас, Миссис Бакфетт."
     mason "Я не хотел... Я..."
     # Моника жестом прерывает его и говорит нетерпеливо
-    sound Jump1
-    img 43958
+    sound Jump2
+    img 43958 vpunch
     m "Мистер Мэйсон, я утомилась от этих разговоров..."
     m "Пойдемте за столик, раз уж мы сюда приехали..."
     imgd 43959
@@ -449,7 +452,7 @@ label ep22_4_dialogues4_office_6:
     w
     # он уходит
     fadeblack 1.5
-    music Poppers_and_Prosecco
+    music Groove2_85
     imgf 43968
     m "Райен, что там со снимками с той дурацкой рамой Кэмпбелла?"
     ryan "Миссис Бакфетт, эти снимки - настоящее искусство!"
@@ -460,18 +463,18 @@ label ep22_4_dialogues4_office_6:
     imgd 43970
     ryan "Один из последних кадров, где вы позировали в полный рост, Миссис Бакфетт."
     music Pyro_Flow
-    img 43971
-    mt "Вот черт!"
     img 43972 hpunch
     m "Райен, на этом снимке видна вся моя!.. Моя попа!!!"
     m "!!!"
-    music Poppers_and_Prosecco
+    img 43971
+    mt "Вот черт!"
+    music Groove2_85
     imgd 43973
     ryan "И не только на этом снимке, Миссис Бакфетт." # подмигивает и улыбается
     sound Jump2
     img 43974
     w
-    imgd 43975
+    img 43975
     m "Райен!"
     m "Ты же обещал мне не делать откровенных кадров!"
     imgd 43976
@@ -498,6 +501,7 @@ label ep22_4_dialogues4_office_6:
     # Мэйсон здоровается с мужчинами рукопожатием
     fadeblack 1.5
     music Poppers_and_Prosecco
+    sound2 man_steps
     imgfl 43994
     w
     imgf 43995
@@ -562,9 +566,9 @@ label ep22_4_dialogues4_office_6:
     ryan "Честно признаться, я несколько удивлен..."
     ryan "Вы хотите сделать это в менее официальной обстановке, Миссис Бакфетт?" # с улыбочкой
     m "Да. И что тут такого?!"
+    music Groove2_85
     img 43987
     mt "Придурок, мне просто не нужны свидетели..."
-    music Groove2_85
     imgd 43988
     ryan "Я буду рад вашему визиту, Миссис Бакфетт."
     imgd 43989
@@ -579,8 +583,8 @@ label ep22_4_dialogues4_office_6:
     sound snd_kiss2
     w
     # Райен идет к выходу, Моника зло смотрит ему вслед
+    sound2 man_steps
     imgf 43992
-    sound man_steps
     w
     music Stealth_Groover
     imgd 43993
@@ -588,11 +592,13 @@ label ep22_4_dialogues4_office_6:
     mt "Если этот никчемный фотограф кому-нибудь проболтается!.."
     mt "Убью его!"
     mt "!!!"
+    fadeblack 1.5
+    music Groove2_85
     # Моника оглядывается
-    imgf 44002
+    imgfl 44002
     mt "Где этот жалкий неудачник Мэйсон?"
     # он один сидит за столиком и ждет Монику
-    imgd 44003
+    imgf 44003
     w
     imgd 44004
     w
@@ -603,7 +609,7 @@ label ep22_4_dialogues4_office_6:
     # на заднем плане Дэниел изумленно провожает ее взглядом, его жена Эмма ее пока не видит
     fadeblack 1.5
     music Poppers_and_Prosecco
-    if monica_escort_service_started == True or 1==1:
+    if monica_escort_service_started == True:
         sound2 highheels_short_walk
         imgf 44006
         w
@@ -649,13 +655,16 @@ label ep22_4_dialogues4_office_6:
     $ notif(_("Моника грубо отказала любовнице Мэйсона на кастинге."))
     #
     # если Моника работает в эскорте и у нее завязалась 'дружба' с Линдой
-    if monica_escort_service_started == True or 1==1:
+    if monica_escort_service_started == True:
+        music Stealth_Groover
         imgf 19800
+        mt "Линда..."
         mt "Эта лицемерная дрянь готова идти по головам ради своей цели..."
         mt "Демонстрируя абсолютное отсутствие каких-либо моральных принципов."
         mt "Ненавижу эту сучку!"
     # если не работает в эскорте и отношений с Линдой нет
     else:
+        music Stealth_Groover
         imgf 19800
         mt "Привел ко мне какую-то посредственность и надеялся на мое положительное решение?"
         mt "Какой же идиот!"
@@ -664,10 +673,11 @@ label ep22_4_dialogues4_office_6:
     imgd 44015
     m "Она ваша любовница, Мистер Мэйсон?"
     # он в неловком положении
+    music Poppers_and_Prosecco
     imgd 44016
     mason "Н-нет, Миссис Бакфетт! Как вы могли так подумать?!"
     # если Моника работала реквизитом Линды в отеле
-    if monicaEscortLindaTable1 == True or 1==1:
+    if monicaEscortLindaTable1 == True:
         #
         $ notif(_("Линда говорила Мэйсону, что влюблена в него."))
         #
@@ -679,31 +689,31 @@ label ep22_4_dialogues4_office_6:
     mason "Да, конечно!"
     m "Не смешите меня... Не может же такой умный мужчина, как вы, быть настолько наивным."
     mason "Я с вами абсолютно честен в данный момент, Миссис Бакфетт."
-    music Loved_Up
-    imgd 44019
+#    music Loved_Up
+    imgf 44019
     mason "Я желаю быть лишь с одной женщиной..."
     mason "И она сейчас передо мной..."
     # Моника самодовольно улыбается
     mason "Я готов сделать все..."
-    music stop
-    sound plastinka1b
-    img 44020
+    imgd 44020
     daniel "Мистер Мэйсон!.."
     # его слова прерывает появление у столика Дэниела
-    if monica_escort_service_started == False or 1==1:
+    if monica_escort_service_started == True:
+        # Моника видит его и у нее шок
+        music stop
+        sound plastinka1b
+        img 44022 hpunch
+        mt "ЧТО?!?!?!"
+        music Pyro_Flow
+        mt "?!?!?!"
+        mt "Только не ЭТО!!!"
+        mt "!!!"
+    else:
         music Stealth_Groover
         # Моника недовольно смотрит на него
         imgd 44021
         mt "Это еще что за клерк?"
         mt "Как он смеет прерывать наш ужин своим появлением?"
-    else:
-        # Моника видит его и у нее шок
-        music Pyro_Flow
-        img 44022 hpunch
-        mt "ЧТО?!?!?!"
-        mt "?!?!?!"
-        mt "Только не ЭТО!!!"
-        mt "!!!"
     # Дэниел говорит Мэйсону
     music Groove2_85
     imgf 44023
@@ -711,7 +721,7 @@ label ep22_4_dialogues4_office_6:
     daniel "У меня вопрос относительно ваших предстоящих деловых переговоров."
     mason "Да, Дэниел. Только быстро."
     # Дэниел наклоняется к нему и что-то спрашивает
-    if monica_escort_service_started == True or 1==1:
+    if monica_escort_service_started == True:
         # Моника в шоке смотрит на них
         imgd 44024
         mt "Какого дьявола этот неудачник тут делает?!"
@@ -733,7 +743,7 @@ label ep22_4_dialogues4_office_6:
     mason "Да, простите, что я отвлекся. Работа, сами понимаете..."
     mason "Это Дэниел, он работает начальником юридического отдела в моей компании."
     m "Здравствуй, Дэниел."
-    if monica_escort_service_started == False or 1==1:
+    if monica_escort_service_started == False:
         music Groove2_85
         imgd 44028
         daniel "Добрый вечер, Мисс."
@@ -756,7 +766,7 @@ label ep22_4_dialogues4_office_6:
         # спустя некоторое время
         scene black_screen
         with Dissolve(1)
-        stop music fadeout 1.0
+        music stop
         call textonblack(t_("Некоторое время спустя..."))
         scene black_screen
         with Dissolve(1)
@@ -787,7 +797,7 @@ label ep22_4_dialogues4_office_6:
     mt "Нужно что-то предпринять, чтобы он не сделал этого!"
     mt "Даже боюсь подумать о последствиях, если Мэйсон узнает!"
     # если был секс с Мэйсоном
-    if monicaEscortLindaTable6 == True or 1==1:
+    if monicaEscortLindaTable6 == True:
         #
         $ notif(_("У Мэйсона и Моники был секс, но Мэйсон принял ее за эскортницу."))
         #
@@ -892,7 +902,7 @@ label ep22_4_dialogues4_office_6:
     m "!!!"
     # бичность
     menu:
-        "Попросить Дэниела вежливо." if monicaBitch == False or 1==1: # низкая бичность
+        "Попросить Дэниела вежливо." if monicaBitch == False: # низкая бичность
             music Hidden_Agenda
             imgf 44049
             m "Дэниел..."
@@ -1053,7 +1063,7 @@ label ep22_4_dialogues4_office_6_loop1:
             imgd 19800
             mt "Хорошо... Я запомню это его обещание..."
             # если не убежала от Филиппа после презентации и пошла с ним в БДСМ подвал
-            if monicaBiffInvestorsPhilip1 > 0 or 1==1:
+            if monicaBiffInvestorsPhilip1 > 0:
                 mt "Уф... Меня воротит от этого словосочетания!"
                 mt "Сразу вспоминается этот гад Филипп со своим фальшивым джентельменством!"
                 mt "!!!"
@@ -1093,7 +1103,7 @@ label ep22_4_dialogues4_office_6_loop1:
     mason "За вас, Миссис Бакфетт!"
     imgd 44074
     m "..."
-    if monica_escort_service_started == False: # or 1==1
+    if monica_escort_service_started == False:
         jump ep22_4_dialogues4_office_6a
     # к нему подходит Дэниел и Джордж
     sound man_steps
@@ -1161,7 +1171,7 @@ label ep22_4_dialogues4_office_6_loop1:
     m "Да как ты посмел?!"
     m "Ты!.."
     # если угрожала
-    if monicaInvestorMasonDate3 > 0: # or 1==1
+    if monicaInvestorMasonDate3 > 0:
         img 44088
         m "Я же тебе сказала, никому не говорить!"
         music Groove2_85
@@ -1215,7 +1225,8 @@ label ep22_4_dialogues4_office_6_loop1:
         daniel "Думай, Юлия, я скоро вернусь. Ха-ха!"
     # звук каблуков
     # подходит Эмма с женой Джорджа
-    sound highheels_short_walk
+    music Poppers_and_Prosecco
+    sound2 highheels_short_walk
     imgf 44094
     emma "Дэниел, дорогой. Мы с Лили отошли всего на пять минут..."
     emma "А вы уже отвлекаете Мистера Мэйсона и Луизу от их важной деловой встречи?"
@@ -1250,7 +1261,7 @@ label ep22_4_dialogues4_office_6_loop1:
     emma "А как там Нэд? Ты же еще встречаешься с ним?"
     imgd 44102
     m "Мммм... Да, мы встречаемся. У него все отлично..."
-    music Groove2_85
+    music Poppers_and_Prosecco
     imgd 44103
     daniel "Эмма, дорогая. Давай не будем отвлекать Луизу..."
     daniel "У нее важная встреча с Мистером Мэйсоном."
@@ -1268,9 +1279,10 @@ label ep22_4_dialogues4_office_6_loop1:
     lily "Пока! Надеюсь, что скоро увидимся."
     daniel "Все-все, девочки. Расходимся!"
     # обращаясь к Монике
-    imgf 44107
     sound highheels_short_walk
+    imgf 44107
     w
+    music Groove2_85
     imgd 44108
     daniel "Луиза... Я скоро подойду снова к Мистеру Мэйсону."
     sound Jump1
@@ -1296,8 +1308,10 @@ label ep22_4_dialogues4_office_6_loop1:
     mt "!!!"
     # Моника смотрит на Мэйсона, от него отходит Джордж
     # Джордж, пока Мэйсон этого не видит и машет рукой Монике, подзывая ее, пошло ей улыбается и подмигивает
+    fadeblack
+    sound highheels_short_walk
+    pause 2.0
     music Poppers_and_Prosecco
-    sound2 highheels_short_walk
     imgf 44112
     w
     imgd 44113
@@ -1368,7 +1382,7 @@ label ep22_4_dialogues4_office_6_loop1:
     mason "Это действительно важно? Или мне отказать Дэниелу и запретить тревожить вас?"
     # бичность
     menu:
-        "Запретить Дэниелу тревожить Монику." if monicaBitch == False or 1==1: # низкая бичность
+        "Запретить Дэниелу тревожить Монику." if monicaBitch == False: # низкая бичность
             $ monicaInvestorMasonDate4 = day # Моника не стала дальше разговаривать с Дэниелем и Мэйсон запретил ему подходить к Монике
             music Groove2_85
             imgf 44129
@@ -1439,7 +1453,7 @@ label ep22_4_dialogues4_office_6_loop1:
                 mt "Мне противно смотреть на него!"
                 #
             # если был секс с Олафом
-            if monicaBiffInvestorDate5 = True:
+            if monicaBiffInvestorDate5 == True:
                 mt "Если я сейчас поеду с ним, я рискую закончить свидание с Мэйсоном также, как произошло с Олафом."
             # если не было секса
             else:
@@ -1452,13 +1466,6 @@ label ep22_4_dialogues4_office_6_loop1:
             if monica_escort_service_started == True:
                 imgd 44083
                 mt "Я больше рискую, оставаясь здесь, в нескольких метрах от никчемного Дэниела."
-            if monicaInvestorMasonDate4 == 0:
-                imgd 44083
-                mt "Этот мерзавец хочет заставить меня делать какие-то извращенские гадости!"
-                mt "В мужском туалете! И их будет двое!!!"
-                mt "И все это буквально за спиной у Мэйсона!"
-                mt "Какой кошмар!!!"
-                mt "Моника, без сомнения, уехать с Мэйсоном - это самый лучший вариант!"
             menu:
                 "Поехать домой к инвестору.":
                     $ monicaInvestorMasonDate5 = day # Моника не пошла с Дэниелем в туалет и уехала с инвестором
@@ -1527,7 +1534,7 @@ label ep22_4_dialogues4_office_6_loop1:
     imgd 44051
     daniel "Зайдешь в мужской туалет ровно через 10 минут."
     daniel "Мэйсону скажешь, что отойдешь в дамскую комнату."
-    daniel "Мы с Джорджем будем ждать тебя в одной из кабинок."
+    daniel "Мы с Джорджем будем ждать тебя там."
     daniel "Ровно через 10 минут, поняла?"
     music Power_Bots_Loop
     img 44127 vpunch
@@ -1570,7 +1577,7 @@ label ep22_4_dialogues4_office_6_loop1:
     mt "Но что я еще могу предпринять?!"
     mt "!!!"
     # коррапшн
-    #$ menu_corruption = [0, monicaRichRestaurantMasonDateCorruptionRequired2]
+    $ menu_corruption = [0, monicaRichRestaurantMasonDateCorruptionRequired2]
     menu:
         "Сказать Мэйсону, что Моника устала находиться здесь.":
             # Моника задумчиво
@@ -1613,8 +1620,8 @@ label ep22_4_dialogues4_office_6_loop1:
     imgd 44069
     mason "Конечно, Леди Бакфетт."
     mason "Буду ждать вас с нетерпением!"
-    sound highheels_short_walk
     imgf 44146
+    sound highheels_short_walk
     w
     fadeblack
     sound highheels_short_walk
@@ -1678,7 +1685,7 @@ label ep22_4_dialogues4_office_6_loop1:
     imgd 43821
     m "!!!"
     # коррапшн
-    #$ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired3, monicaRichRestaurantMasonDateCorruptionRequired4, 0]
+    $ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired3, monicaRichRestaurantMasonDateCorruptionRequired4, 0]
     menu:
         "300 долларов!":
             $ monicaInvestorMasonDate6 = day # Дэниел заплатил Монике за секс в туалете
@@ -1943,6 +1950,8 @@ label ep22_4_dialogues4_office_6_loop1:
     w
     imgf 43873
     daniel "Вот тааак!"
+    imgd 43874
+    w
 
     # video
     #1 -15
@@ -1964,9 +1973,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    imgf 43874
-    w
-    imgd 43875
+    imgf 43879
     w
 
     #2 -15
@@ -2027,6 +2034,9 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
+    imgf 43877
+    w
+
     #5 -25
     img black_screen
     with diss
@@ -2044,7 +2054,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    imgf 43877
+    imgf 43878
     w
 
     #6 -25
@@ -2064,6 +2074,9 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
+    imgf 43875
+    w
+
     #7 -25
     img black_screen
     with diss
@@ -2080,11 +2093,6 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43878
-    w
-    imgd 43879
-    w
 
     #8 -25
     img black_screen
@@ -2168,12 +2176,14 @@ label ep22_4_dialogues4_office_6_loop1:
     daniel "Да неважно!"
     daniel "Наклоняйся, детка! И бери член Джорджа в свой ротик!"
     fadeblack 1.5
-    music Loved_Up
+    music Groove2_85
     imgf 43891
     daniel "Давай, поторопись!"
-    img 43892
+    imgd 43892
     m "!!!"
     # Моника наклоняется и Джордж пытается засунуть свой член в ее рот
+    fadeblack 1.5
+    music Loved_Up
     imgf 43893
     george "Наклонись еще немного!"
     george "Ох, еще немного..."
@@ -2254,7 +2264,7 @@ label ep22_4_dialogues4_office_6_loop1:
     img 43907
     w
     sound hlup25
-    imgd 43908
+    img 43908
     w
     sound drkanje5
     imgd 43909
@@ -2276,7 +2286,7 @@ label ep22_4_dialogues4_office_6_loop1:
     img 43911 vpunch
     w
     # Дэниел проталкивает в киску Моники свой член
-    imgf 43914
+    imgf 43915
     w
 
     # video
@@ -2300,7 +2310,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    imgf 43915
+    imgf 43914
     w
 
     #2 -25
@@ -2338,7 +2348,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     # начинает ее пялить
-    imgf 43916
+    imgf 43919
     w
 
     #4 -25
@@ -2376,8 +2386,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-
-    imgf 43917
+    imgf 43916
     w
 
     #6 -25
@@ -2397,9 +2406,6 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43919
-    w
 
     #7 -25
     img black_screen
@@ -2461,6 +2467,9 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 43917
+    w
 
     #10
     img black_screen
@@ -2543,9 +2552,7 @@ label ep22_4_dialogues4_office_6_loop1:
     imgf 43930
     george "Сейчас я тебя трахну!"
     # вводит
-    sound chpok6
-    img 43931 vpunch
-    w
+
 
     # video
     #1 -25
@@ -2588,6 +2595,9 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
+    imgf 43934
+    w
+
     #3 -25
     img black_screen
     with diss
@@ -2604,9 +2614,6 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43933
-    w
 
     #4 -25
     img black_screen
@@ -2642,7 +2649,7 @@ label ep22_4_dialogues4_office_6_loop1:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    imgf 43934
+    imgf 43933
     w
 
     #6 -25
@@ -2662,6 +2669,9 @@ label ep22_4_dialogues4_office_6_loop1:
     stop music2
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    imgf 43931
+    w
 
     #7
     $ localSoundVolume = 1.0
@@ -2814,9 +2824,11 @@ label ep22_4_dialogues4_office_6_loop1:
             sound2 hlup25
             w
             # Дэниел вытаскивает изо рта Моники член
+            fadeblack 1.5
+            music Groove2_85
             imgf 43945
             daniel "А теперь проглоти это!"
-            #$ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired5, 0]
+            $ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired5, 0]
             menu:
                 "Проглотить.":
                     imgd 43946
@@ -2892,9 +2904,11 @@ label ep22_4_dialogues4_office_6_loop1:
             sound2 hlup25
             w
             # Дэниел вытаскивает изо рта Моники член
+            fadeblack 1.5
+            music Groove2_85
             imgf 43945
             daniel "А теперь проглоти это!"
-            #$ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired5, 0]
+            $ menu_corruption = [monicaRichRestaurantMasonDateCorruptionRequired5, 0]
             menu:
                 "Проглотить.":
                     imgd 43946
@@ -2958,7 +2972,7 @@ label ep22_4_dialogues4_office_6_loop1:
         daniel "На двадцатку ты отлично отрботала! Ха-ха-ха!"
         daniel "Скажи спасибо, что вообще даю тебе деньги, детка!"
         daniel "Я оплачиваю твои услуги своим молчанием!"
-        #$ add_money(20.0)
+        $ add_money(20.0)
         img 43854
         m "Мерзавец!"
         m "!!!"
@@ -3093,7 +3107,7 @@ label ep22_4_dialogues4_office_7:
     mt "Конечно, если сравнивать с моим домом, которым завладела эта дурацкая провинциалка..."
     mt "То мой дом на порядок богаче и роскошнее."
     # если арендует квартиру у Джека
-    if slumsApartmentsRentActive == True or 1==1:
+    if slumsApartmentsRentActive == True:
         imgd 43756
         mt "А если сравнить с той дырой, которую я арендую у животного по имени Джек..."
         mt "Здесь, несомненно, намного лучше."
@@ -3174,7 +3188,7 @@ label ep22_4_dialogues4_office_7:
         mt "Главное, чтобы этот кретин Адриано не рассказал Мэйсону, что в эскорте работает [monica_hotel_name]."
         mt "Которая является двойником Моники Бакфетт!"
     # если был секс с Мэйсоном, когда Моника работала реквизитом Линды
-    if monicaEscortLindaTable6 == True or 1==1:
+    if monicaEscortLindaTable6 == True:
         #
         $ notif(_("У Мэйсона и Моники был секс, но Мэйсон не узнал ее."))
         #
@@ -3271,7 +3285,7 @@ label ep22_4_dialogues4_office_7:
     imgf 43793
     m "Вы настоящий джентельмен, Мистер Мэйсон!"
     # если были сцены с Филиппом у него дома
-    if monicaBiffInvestorsPhilip1 > 0 or 1==1:
+    if monicaBiffInvestorsPhilip1 > 0:
         mt "В отличие от некоторых мерзавцев!"
         #
     mason "Благодарю, Леди Бакфетт!"
@@ -3340,7 +3354,7 @@ label ep22_4_dialogues4_office_7:
     mt "..."
     # бичность
     menu:
-        "Попросить у него денег." if monicaBitch == True or 1==1: # высокая бичность
+        "Попросить у него денег." if monicaBitch == True: # высокая бичность
             $ monicaInvestorMasonDate9 = day # Моника после свидания попросила у Мэйсона деньги
             music Hidden_Agenda
             imgf 43807
@@ -3362,7 +3376,7 @@ label ep22_4_dialogues4_office_7:
             mason "У меня $ 100, меньше купюр нет."
             # протягивает ей деньги
             m "Спасибо, Мистер Мэйсон."
-            #$ add_money(100.0)
+            $ add_money(100.0)
             pass
         "Попросить у него денег. (Моника слишком приличная) (disabled)" if monicaBitch == False:
             pass
@@ -3459,7 +3473,7 @@ label ep22_4_dialogues4_office_9:
     mt "С двумя мерзавцами! В мужском туалете!!!"
     mt "Буквально за спиной у Мэйсона!"
     # если Дэниел заплатил ей 20 баксов
-    if monicaInvestorMasonDate6 > 0 or 1==1:
+    if monicaInvestorMasonDate6 > 0:
         mt "За 20 долларов!!!"
         #
     mt "Какой кошмар, Моника!"
