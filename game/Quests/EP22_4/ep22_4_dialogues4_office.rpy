@@ -19,7 +19,6 @@ default ep22_4_dialogues4_office_6_menu1 = False
 default ep22_4_dialogues4_office_6_menu2 = False
 default ep22_4_dialogues4_office_6_menu3 = False
 
-define v_Monica_RichRestaurant_Blowjob1_1_15_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
 define v_Monica_RichRestaurant_Blowjob1_1_25_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
 define v_Monica_RichRestaurant_Sex1_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
 define v_Monica_RichRestaurant_Sex1_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
