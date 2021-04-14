@@ -38,6 +38,7 @@ label ep218_quests_julia1: # разговор с Юлией в воскресе�
     $ cloth_type = monica_juliahome_outside_cloth_type
     $ autorun_to_object("ep218_dialogues5_julia_4", scene="street_juliahome")
     $ ep218_quests_julia_completed_last_day = day
+    call ep224_quests_julia_init()
     $ add_char_progress("Julia", 30, "julia_dating_park1")
     $ char_info["Julia"]["caption"] = t_("Юлия любит Монику и подумывает о свадьбе с ней.")
     $ questHelp("julia_56", True)

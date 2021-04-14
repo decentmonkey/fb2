@@ -25,4 +25,5 @@ label process_afterload_part2:
     call ep217_quests_bugfix1() from _rcall_ep217_quests_bugfix1
     call ep218_quests_load_init() from _rcall_ep218_quests_load_init
     call ep219_quests_load_init() from _rcall_ep219_quests_load_init
+    call ep224_quests_load_init()
     return

@@ -41,6 +41,10 @@ label juliahome_livingroom_init:
 #                            $ saturation_adjustment = 1.07
 #                            $ contrast_adjustment = 1.3
 
+label juliahome_livingroom_init2:
+    $ add_object_to_scene("Stain", {"type" : 2, "base" : "JuliaHome_LivingRoom_Stain", "click" : "juliahome_livingroom_environment", "actions" : "lh", "zorder":0, "b":0.15, "group":"environment"}, scene="juliahome_livingroom")
+    return
+
 label juliahome_livingroom_teleport:
     if obj_name == "Teleport_Kitchen":
         call change_scene("juliahome_kitchen") from _rcall_change_scene_71

@@ -430,11 +430,11 @@ label ep22_4_dialogues3_julia_1a:
                     imgf 34909
                     mt "Никчемная глупая Юлия!!!"
                     mt "!!!"
-                    return
+                    return -1
                 "Снять трусики.":
                     $ monicaJuliaPlayfulGoverness5 = day # Моника согласилась снять трусики и оттирать пятно с голой попой
                     pass
-            music Pyro_Flow
+            music Groove2_85
             imgf 34906
             mt "Черт!"
             mt "Почему Я должна выполнять ее прихоти?!"
@@ -1045,7 +1045,7 @@ label ep22_4_dialogues3_julia_1a:
                     imgf 34998
                     mt "Никчемная глупая Юлия!!!"
                     mt "!!!"
-                    return
+                    return -1
                 "Ласкать Юлию.":
                     $ monicaJuliaPlayfulGoverness4 = day # Моника засунула в Юлию дилдо, когда та оттирала пятно
                     pass
@@ -1171,7 +1171,8 @@ label ep22_4_dialogues3_julia_1a:
             image videov_Monica_Julia_Dildo1_1_25= Movie(play="video/v_Monica_Julia_Dildo1_1_25.mkv")
             show videov_Monica_Julia_Dildo1_1_25
             with fade
-            julia "Как офигительнооо!!!"
+            mt "Получай, гребаная гувернантка!"
+#            julia "Как офигительнооо!!!"
             wclean
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
@@ -1216,6 +1217,7 @@ label ep22_4_dialogues3_julia_1a:
             image videov_Monica_Julia_Dildo1_3_25= Movie(play="video/v_Monica_Julia_Dildo1_3_25.mkv")
             show videov_Monica_Julia_Dildo1_3_25
             with fade
+            mt "На, сучка, получай по заслугам!"
             julia "Ооох, быстрее!"
             wclean
             stop music2
@@ -1236,6 +1238,7 @@ label ep22_4_dialogues3_julia_1a:
             image videov_Monica_Julia_Dildo1_4= Movie(play="video/v_Monica_Julia_Dildo1_4.mkv")
             show videov_Monica_Julia_Dildo1_4
             with fade
+            mt "Гребаная гувернантка, получай что заслужила!"
             julia "Ооо, даааа!!!"
             wclean
             julia "Еще!"
@@ -1280,6 +1283,7 @@ label ep22_4_dialogues3_julia_1a:
             image videov_Monica_Julia_Dildo1_6= Movie(play="video/v_Monica_Julia_Dildo1_6.mkv")
             show videov_Monica_Julia_Dildo1_6
             with fade
+            mt "На, гувернантка! Ты этого хотела?!"
             julia "Я сейчас коооончуууу!!!"
             wclean
             julia "ААА!"
@@ -1353,7 +1357,7 @@ label ep22_4_dialogues3_julia_1a:
     mt "Надеюсь, в следующий раз она не затеет эту глупую игру с пятном!"
     mt "И как такие бредовые идеи рождаются у нее в ее пустой голове?!"
     mt "!!!"
-    return
+    return True
 
 
 # мысли Моники, если отказалась и ушла
@@ -1362,4 +1366,13 @@ label ep22_4_dialogues3_julia_2:
     mt "Гребаная бывшая гувернантка!"
     mt "Я не собираюсь потакать ее глупым капризам!"
     mt "Пошла она к черту!!!"
+    return
+
+label ep22_4_dialogues3_julia_2a:
+    mt "Гребаное пятно!"
+    mt "Почему эти пятна меня везде преследуют?"
+    return
+
+label ep22_4_dialogues3_julia_2b:
+    mt "Я не собираюсь сегодня подходить к этому дурацкому пятну!"
     return
