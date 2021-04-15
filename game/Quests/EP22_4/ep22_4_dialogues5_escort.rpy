@@ -7,12 +7,11 @@ default monicaAbbyNoEscortClient3 = 0 # Моника согласилась на
 default monicaAbbyNoEscortClient4 = 0 # Моника не оставила Эбби процент, забрала все деньги
 default monicaAbbyNoEscortClient5 = 0 # Моника оставила Эбби процент
 
-define v_Monica_AbbyCustomer_Blowjob1_1_15_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
-define v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
-define v_Monica_AbbyCustomer_Sex1_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_AbbyCustomer_Sex1_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_AbbyCustomer_Sex2_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_AbbyCustomer_Sex2_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+define v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Monica_AbbyCustomer_Sex1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1_25"
+define v_Monica_AbbyCustomer_Sex1_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Monica_AbbyCustomer_Sex2_1_25_sound_name = "v_Monica_AbbyCustomer_Sex2_1_25"
+define v_Monica_AbbyCustomer_Sex2_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
 
 default ep22_4_abby_customer_monica_cum_zone = 0
 
@@ -852,6 +851,7 @@ label ep22_4_dialogues5_escort_4:
     mt "Думай о том, что скоро все это закончится..."
     mt "А в твоем кармане станет больше денег!"
     # Моника встает в коленно-локтевую, лицо злое
+
     fadeblack 1.5
     music Loved_Up
     imgfl 35170
@@ -1327,6 +1327,7 @@ label ep22_4_dialogues5_escort_4_loop1:
     sound chpok6
     img 35179 vpunch
     w
+
     fadeblack 1.5
     music Groove2_85
     imgf 35205
@@ -1347,178 +1348,234 @@ label ep22_4_dialogues5_escort_4_loop1:
     mt "Фууу!"
     brian "Бери его в рот! Выполняй!"
     menu:
-        "Сделать, как говорит клиент.":
+        "Сделать, как говорит клиент. (Extra animated version)" if game.extra == True:
+            # Моника открывает рот
+            fadeblack 1.5
+            music Loved_Up
+            imgfl 35212
+            brian "В глаза мне смотри, шлюшка [monica_hotel_name]!"
+            # Моника поднимает взгляд и с ненавистью смотрит на него
+            imgf 35210
+            brian "Вот тааак!"
+            # он резко и глубоко вводит свой член
+            # Моника давится
+            sound chpok6
+            img 35211 vpunch
+            m "Мммпфф!!!"
+            sound chavc6
+            img 35213 hpunch
+            w
+            imgd 35214
+            m "Мпфхфпфф!!!"
+            brian "Ееее! Каааайф!"
+            imgf 35215
+            w
+
+            # video
+            #1 -25
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_1_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_1_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_1_25
+            with fade
+            brian "Давай, работай!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 35216
+            w
+
+            #2 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_2_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_2_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_2_25
+            with fade
+            brian "Ооо, какая шлюшкааа!"
+            wclean
+            brian "Дааа!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 35217
+            w
+
+            # video
+            #3 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_3_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_3_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_3_25
+            with fade
+            brian "Оооо, какая ты клевая!"
+            wclean
+            brian "Ммммм..."
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #4
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_4_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_4_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_4_25
+            with fade
+            brian "Каааайф!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #5
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_5_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_5_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_5_25
+            with fade
+            brian "Давай, шлюшка, соси старательнее!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 35213
+            sound chavc6
+            w
+            imgd 35214
+            w
+            sound chpok6
+            imgd 35213
+            w
+            sound chpok6
+            imgd 35214
+            w
+
+            #6
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_6_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_6_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_6_25
+            with fade
+            brian "Вижу, как ты тащишься от моего огромного члена!"
+            wclean
+            m "Мпфхфпфф!!!"
+            brian "Дааа!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            music Loved_Up2
+            imgf 35218
+            w
+
+            #7
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Blowjob1_7_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_7_25.mkv")
+            show videov_Monica_AbbyCustomer_Blowjob1_7_25
+            with fade
+            brian "Еще немного!!! Ооооо!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        "Сделать, как говорит клиент." if game.extra == False:
+            # Моника открывает рот
+            fadeblack 1.5
+            music Loved_Up
+            imgfl 35212
+            brian "В глаза мне смотри, шлюшка [monica_hotel_name]!"
+            # Моника поднимает взгляд и с ненавистью смотрит на него
+            imgf 35210
+            brian "Вот тааак!"
+            # он резко и глубоко вводит свой член
+            # Моника давится
+            sound chpok6
+            img 35211 vpunch
+            m "Мммпфф!!!"
+            sound chavc6
+            img 35213 hpunch
+            w
+            imgd 35214
+            m "Мпфхфпфф!!!"
+            brian "Ееее! Каааайф!"
+            imgf 35215
+            brian "Давай, работай!"
+            imgd 35216
+            brian "Ооо, какая шлюшкааа!"
+            brian "Дааа!"
+            imgf 35217
+            brian "Оооо, какая ты клевая!"
+            brian "Каааайф!"
+            brian "Давай, шлюшка, соси старательнее!"
+            imgd 35213
+            sound chavc6
+            w
+            imgd 35214
+            w
+            sound chpok6
+            imgd 35213
+            w
+            sound chpok6
+            imgd 35214
+            brian "Вижу, как ты тащишься от моего огромного члена!"
+            sound chpok6
+            imgd 35213
+            w
+            sound chpok6
+            imgd 35214
+            m "Мпфхфпфф!!!"
+            sound chpok6
+            imgd 35213
+            w
+            sound chpok6
+            imgd 35214
+            brian "Дааа!"
+            music Loved_Up2
+            imgf 35218
+            brian "Еще немного!!! Ооооо!!!"
             pass
-    # Моника открывает рот
-    fadeblack 1.5
-    music Loved_Up
-    imgfl 35212
-    brian "В глаза мне смотри, шлюшка [monica_hotel_name]!"
-    # Моника поднимает взгляд и с ненавистью смотрит на него
-    imgf 35210
-    brian "Вот тааак!"
-    # он резко и глубоко вводит свой член
-    # Моника давится
-    sound chpok6
-    img 35211 vpunch
-    m "Мммпфф!!!"
-    sound chavc6
-    img 35213 hpunch
-    w
-    imgd 35214
-    m "Мпфхфпфф!!!"
-    brian "Ееее! Каааайф!"
-    imgf 35215
-    w
-
-    # video
-    #1 -25
-    $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_1_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_1_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_1_25
-    with fade
-    brian "Давай, работай!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 35216
-    w
-
-    #2 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_2_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_2_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_2_25
-    with fade
-    brian "Ооо, какая шлюшкааа!"
-    wclean
-    brian "Дааа!"
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 35217
-    w
-
-    # video
-    #3 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_3_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_3_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_3_25
-    with fade
-    brian "Оооо, какая ты клевая!"
-    wclean
-    brian "Ммммм..."
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #4
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_4_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_4_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_4_25
-    with fade
-    brian "Каааайф!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #5
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_5_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_5_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_5_25
-    with fade
-    brian "Давай, шлюшка, соси старательнее!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 35213
-    sound chavc6
-    w
-    imgd 35214
-    w
-    sound chpok6
-    imgd 35213
-    w
-    sound chpok6
-    imgd 35214
-    w
-
-    #6
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_6_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_6_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_6_25
-    with fade
-    brian "Вижу, как ты тащишься от моего огромного члена!"
-    wclean
-    m "Мпфхфпфф!!!"
-    brian "Дааа!"
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    music Loved_Up2
-    imgf 35218
-    w
-
-    #7
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Blowjob1_7_25= Movie(play="video/v_Monica_AbbyCustomer_Blowjob1_7_25.mkv")
-    show videov_Monica_AbbyCustomer_Blowjob1_7_25
-    with fade
-    brian "Еще немного!!! Ооооо!!!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
     menu:
         "Кончить в рот Моники.":

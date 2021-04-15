@@ -4,9 +4,9 @@ default monicaJuliaPlayfulGoverness3 = 0 # Моника заставила Юл�
 default monicaJuliaPlayfulGoverness4 = 0 # Моника засунула в Юлию дилдо, когда та оттирала пятно
 default monicaJuliaPlayfulGoverness5 = 0 # Моника согласилась снять трусики и оттирать пятно с голой попой
 
-define v_Julia_Monica_Licking1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-define v_Monica_Julia_Dildo1_1_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
-define v_Monica_Julia_Dildo1_1_25_sound_name = "v_VictoriaHome_Melanie_Licking1_1"
+define v_Julia_Monica_Licking1_1_sound_name = "v_Julia_Monica_Licking1_1"
+define v_Monica_Julia_Dildo1_1_sound_name = "v_Monica_Julia_Dildo1_1"
+define v_Monica_Julia_Dildo1_1_25_sound_name = "v_Monica_Julia_Dildo1_1_25"
 
 define monicaJuliaPlayfulGovernessCorruptionRequired1 = 650 # Моника решила подыграть Юлии, соврав, что любит ее
 define monicaJuliaPlayfulGovernessCorruptionRequired2 = 690 # Моника заставила Юлию оттирать пятно

@@ -19,11 +19,11 @@ default ep22_4_dialogues4_office_6_menu1 = False
 default ep22_4_dialogues4_office_6_menu2 = False
 default ep22_4_dialogues4_office_6_menu3 = False
 
-define v_Monica_RichRestaurant_Blowjob1_1_25_sound_name = "v_MonicaHome_Jack_Blowjob1_1"
-define v_Monica_RichRestaurant_Sex1_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_RichRestaurant_Sex1_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_RichRestaurant_Sex2_1_25_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
-define v_Monica_RichRestaurant_Sex2_1_sound_name = "v_Citizen15_ShopVisitor7_Sex2_1"
+define v_Monica_RichRestaurant_Blowjob1_1_25_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
+define v_Monica_RichRestaurant_Sex1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Monica_RichRestaurant_Sex1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1"
+#define v_Monica_RichRestaurant_Sex2_1_25_sound_name = "v_Monica_RichRestaurant_Sex2_1_25"
+define v_Monica_RichRestaurant_Sex2_1_sound_name = "v_Monica_RichRestaurant_Sex2_1"
 
 default ep22_4_mason_date_monica_cum_zone = 0
 
@@ -2512,6 +2512,7 @@ label ep22_4_dialogues4_office_6_loop1:
     img 43923
     w
     # Моника отстраняется от члена Джорджа
+
     fadeblack
     sound hlup19
     pause 1.5
@@ -2534,236 +2535,270 @@ label ep22_4_dialogues4_office_6_loop1:
     mt "Мразь!"
     mt "!!!"
     menu:
-        "Сделать, как говорит Дэниел.":
+        "Сделать, как говорит Дэниел. (Extra animated version)" if game.extra == True:
+            # Моника встает на колени и берет член Дэниела в рот
+            # тем временем Джордж пристраивается сзади нее, тоже стоя на коленях
+            # придерживая одну ее ногу, одводит ее в сторону и пристаивается к ее киске
+            fadeblack 1.5
+            music Loved_Up
+            imgf 43928
+            w
+            sound hlup21
+            imgd 43929
+            w
+            imgf 43930
+            george "Сейчас я тебя трахну!"
+            # вводит
+
+            # video
+            #1 -25
+            $ localSoundVolume = 1.0
+            $ localSoundName = v_Monica_RichRestaurant_Sex2_1_sound_name
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_1= Movie(play="video/v_Monica_RichRestaurant_Sex2_1.mkv")
+            show videov_Monica_RichRestaurant_Sex2_1
+            with fade
+            george "О да!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43932
+            w
+
+            #2 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_2= Movie(play="video/v_Monica_RichRestaurant_Sex2_2.mkv")
+            show videov_Monica_RichRestaurant_Sex2_2
+            with fade
+            george "Как же я хочу тебя!"
+            wclean
+            daniel "Дааа! Я бы трахал ее каждый день!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43934
+            w
+
+            #3 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_3= Movie(play="video/v_Monica_RichRestaurant_Sex2_3.mkv")
+            show videov_Monica_RichRestaurant_Sex2_3
+            with fade
+            george "Дааа!!! Я тоже!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #4 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_4= Movie(play="video/v_Monica_RichRestaurant_Sex2_4.mkv")
+            show videov_Monica_RichRestaurant_Sex2_4
+            with fade
+            daniel "Мммммм..."
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #5 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_5= Movie(play="video/v_Monica_RichRestaurant_Sex2_5.mkv")
+            show videov_Monica_RichRestaurant_Sex2_5
+            with fade
+            george "О, какая же она охренительная!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43933
+            w
+
+            #6 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_6= Movie(play="video/v_Monica_RichRestaurant_Sex2_6.mkv")
+            show videov_Monica_RichRestaurant_Sex2_6
+            with fade
+            daniel "Да, а какая у нее охренительная задница!"
+            wclean
+            george "Даааа!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43931
+            w
+
+            #7
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_7= Movie(play="video/v_Monica_RichRestaurant_Sex2_7.mkv")
+            show videov_Monica_RichRestaurant_Sex2_7
+            with fade
+            daniel "Когда-нибудь я куплю тебя на всю ночь, детка!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43935
+            w
+
+            #8
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_8= Movie(play="video/v_Monica_RichRestaurant_Sex2_8.mkv")
+            show videov_Monica_RichRestaurant_Sex2_8
+            with fade
+            daniel "И буду трахать тебя до утра!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #9
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_9= Movie(play="video/v_Monica_RichRestaurant_Sex2_9.mkv")
+            show videov_Monica_RichRestaurant_Sex2_9
+            with fade
+            george "Ааааа!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            #10
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_10= Movie(play="video/v_Monica_RichRestaurant_Sex2_10.mkv")
+            show videov_Monica_RichRestaurant_Sex2_10
+            with fade
+            george "Не могу больше! Кончу сейчас!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+            imgf 43936
+            w
+
+            #11
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_RichRestaurant_Sex2_11= Movie(play="video/v_Monica_RichRestaurant_Sex2_11.mkv")
+            show videov_Monica_RichRestaurant_Sex2_11
+            with fade
+            george "Аааа!!!"
+            wclean
+            daniel "Да! И я!"
+            daniel "Дааа!!!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             pass
-    # Моника встает на колени и берет член Дэниела в рот
-    # тем временем Джордж пристраивается сзади нее, тоже стоя на коленях
-    # придерживая одну ее ногу, одводит ее в сторону и пристаивается к ее киске
-    fadeblack 1.5
-    music Loved_Up
-    imgf 43928
-    w
-    sound hlup21
-    imgd 43929
-    w
-    imgf 43930
-    george "Сейчас я тебя трахну!"
-    # вводит
 
-
-    # video
-    #1 -25
-    $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_RichRestaurant_Sex2_1_25_sound_name
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_1= Movie(play="video/v_Monica_RichRestaurant_Sex2_1.mkv")
-    show videov_Monica_RichRestaurant_Sex2_1
-    with fade
-    george "О да!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43932
-    w
-
-    #2 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_2= Movie(play="video/v_Monica_RichRestaurant_Sex2_2.mkv")
-    show videov_Monica_RichRestaurant_Sex2_2
-    with fade
-    george "Как же я хочу тебя!"
-    wclean
-    daniel "Дааа! Я бы трахал ее каждый день!"
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43934
-    w
-
-    #3 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_3= Movie(play="video/v_Monica_RichRestaurant_Sex2_3.mkv")
-    show videov_Monica_RichRestaurant_Sex2_3
-    with fade
-    george "Дааа!!! Я тоже!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #4 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_4= Movie(play="video/v_Monica_RichRestaurant_Sex2_4.mkv")
-    show videov_Monica_RichRestaurant_Sex2_4
-    with fade
-    daniel "Мммммм..."
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #5 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_5= Movie(play="video/v_Monica_RichRestaurant_Sex2_5.mkv")
-    show videov_Monica_RichRestaurant_Sex2_5
-    with fade
-    george "О, какая же она охренительная!!!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43933
-    w
-
-    #6 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_6= Movie(play="video/v_Monica_RichRestaurant_Sex2_6.mkv")
-    show videov_Monica_RichRestaurant_Sex2_6
-    with fade
-    daniel "Да, а какая у нее охренительная задница!"
-    wclean
-    george "Даааа!"
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43931
-    w
-
-    #7
-    $ localSoundVolume = 1.0
-    $ localSoundName = v_Monica_RichRestaurant_Sex2_1_sound_name
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_7= Movie(play="video/v_Monica_RichRestaurant_Sex2_7.mkv")
-    show videov_Monica_RichRestaurant_Sex2_7
-    with fade
-    daniel "Когда-нибудь я куплю тебя на всю ночь, детка!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43935
-    w
-
-    #8
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_8= Movie(play="video/v_Monica_RichRestaurant_Sex2_8.mkv")
-    show videov_Monica_RichRestaurant_Sex2_8
-    with fade
-    daniel "И буду трахать тебя до утра!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #9
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_9= Movie(play="video/v_Monica_RichRestaurant_Sex2_9.mkv")
-    show videov_Monica_RichRestaurant_Sex2_9
-    with fade
-    george "Ааааа!!!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    #10
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_10= Movie(play="video/v_Monica_RichRestaurant_Sex2_10.mkv")
-    show videov_Monica_RichRestaurant_Sex2_10
-    with fade
-    george "Не могу больше! Кончу сейчас!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
-
-    imgf 43936
-    w
-
-    #11
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_RichRestaurant_Sex2_11= Movie(play="video/v_Monica_RichRestaurant_Sex2_11.mkv")
-    show videov_Monica_RichRestaurant_Sex2_11
-    with fade
-    george "Аааа!!!"
-    wclean
-    daniel "Да! И я!"
-    daniel "Дааа!!!"
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+        "Сделать, как говорит Дэниел." if game.extra == False:
+            fadeblack 1.5
+            music Loved_Up
+            imgf 43928
+            w
+            sound hlup21
+            imgd 43929
+            w
+            imgf 43930
+            george "Сейчас я тебя трахну!"
+            sound chpok6
+            img 43931 vpunch
+            w
+            # вводит
+            imgf 43932
+            george "О да!"
+            george "Как же я хочу тебя!"
+            imgd 43933
+            daniel "Дааа! Я бы трахал ее каждый день!"
+            imgf 43934
+            george "Дааа!!! Я тоже!"
+            george "О, какая же она охренительная!!!"
+            daniel "Мммммм..."
+            daniel "Да, а какая у нее охренительная задница!"
+            imgd 43935
+            george "Даааа!"
+            daniel "Когда-нибудь я куплю тебя на всю ночь, детка!"
+            daniel "И буду трахать тебя до утра!"
+            music Loved_Up2
+            imgf 43936
+            george "Ааааа!!!"
+            george "Не могу больше! Кончу сейчас!"
+            daniel "Да! И я!"
+            daniel "Дааа!!!"
+            pass
 
     menu:
         "Кончить внутрь Моники.":

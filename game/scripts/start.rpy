@@ -101,7 +101,7 @@ label start:
     $ char_info["Stephanie"]["enabled"] = True
 
 #########
-#    call ep22_4_dialogues2_fitness_2()
+#    jump test_video
 #########
 
 
