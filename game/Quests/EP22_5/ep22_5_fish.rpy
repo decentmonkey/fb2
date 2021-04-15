@@ -56,3 +56,9 @@
 # За то, чтобы он изъял обнаженные фото, приходится делать новые (какой-то аутфит)
 # Возможно blowjob, но не факт(?)
 # Внести предложения по этой сцене.
+
+
+# локации
+# студия Райана
+# https://evermotion.org/shop/show_product/scene-13-furniture-ai49-archinteriors/14487
+# https://www.cgmodelx.com/model/details/11521.html
