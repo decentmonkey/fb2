@@ -132,7 +132,7 @@ label ep22_4_dialogues5_escort_1:
                 fadeblack
                 sound highheels_short_walk
                 pause 2.0
-                return
+                return False
     # если Моника в первый раз отказалась работать с клиенами Эбби
     else:
         imgf 41422
@@ -178,7 +178,7 @@ label ep22_4_dialogues5_escort_1:
                 mt "Не хватало мне еще возиться с каким-то жалким отребьем!"
                 mt "Я найду способ заработать деньги без этой гадости!"
                 mt "!!!"
-                return
+                return False
             "Согласиться.":
                 $ monicaAbbyNoEscortClient2 = day # Моника изменила свое решение и согласилась работать с клиентами Эбби
                 music Pyro_Flow
@@ -277,7 +277,7 @@ label ep22_4_dialogues5_escort_1:
     sound highheels_short_walk
     pause 2.0
     # затемнение, каблуки
-    return
+    return True
 
 # ресторан отеля Ле Гранд
 # если Моника отказалась поехать к клиенту Эбби
@@ -324,7 +324,7 @@ label ep22_4_dialogues5_escort_2:
             sound highheels_short_walk
             pause 2.0
             # Эбби отходит от Моники
-            return
+            return False
     return
 
 # мысли Моники перед домом Эбби, до встречи с клиентом
@@ -736,7 +736,7 @@ label ep22_4_dialogues5_escort_4:
             fadeblack
             sound snd_door_close1
             pause 1.5
-            return
+            return False
     # клиент продолжает лапать Монику и ведет ее к кровати
     fadeblack 1.5
     music Groove2_85
@@ -837,7 +837,7 @@ label ep22_4_dialogues5_escort_4:
             fadeblack
             sound snd_door_close1
             pause 1.5
-            return
+            return False
     # Моника недовольно
     music Pyro_Flow
     imgf 35162
@@ -1762,7 +1762,7 @@ label ep22_4_dialogues5_escort_4_loop1:
     pause 2.0
     sound snd_door_close1
     pause 1.5
-    return
+    return True
 
 # мысли Моники после встречи с клиентом Эбби, если забрала все деньги
 label ep22_4_dialogues5_escort_5:
@@ -1801,6 +1801,11 @@ label ep22_4_dialogues5_escort_7:
     mt "Мне нечего здесь делать сейчас..."
     return
 
+label ep22_4_dialogues5_escort_7a:
+    mt "Мне нужно надеть свое красивое платье."
+    return
+
+
 # Моника пришла в эскорт после того, как отработала с клиентом Эбби
 label ep22_4_dialogues5_escort_8:
     # Эбби встречает ее на входе в ресторан
@@ -1816,6 +1821,7 @@ label ep22_4_dialogues5_escort_8:
     abby "Как ты отработала с Брайаном? Все окей?"
     # если Моника выгнала клиента и не стала с ним работать и если отработала и забрала все деньги себе
     if monicaAbbyNoEscortClient3 == 0 or monicaAbbyNoEscortClient4 > 0:
+#    if ep224_quests_monica_kicked_client == True:
         imgd 35060
         m "Ничего не окей!"
         m "Я этого мерзкого неотесанного типа выгнала!"

@@ -247,6 +247,10 @@ label locations_init_linda_apartments:
     $ add_location("linda_apartments_street", caption=t_("АПАРТАМЕНТЫ ЛИНДЫ"), label="linda_apartments_street", init_label="linda_apartments_street_init", parent="World")
     return
 
+label locations_init_candiseabby:
+    $ add_location("street_candise", caption=t_("КЭНДИС И ЭББИ"), label="street_candise", init_label="street_candise_init", parent="World")
+    return
+
 
 label world:
     return

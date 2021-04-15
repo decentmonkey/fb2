@@ -265,8 +265,8 @@ init python:
 #    config.keymap["button_select"] = ["mousedown_1"]
 
     config.keymap["hide_windows"] = []
-    config.keymap["rollback"] = []
-    config.keymap["rollforward"] = []
+#    config.keymap["rollback"] = []
+#    config.keymap["rollforward"] = []
 
     config.custom_text_tags["c"] = custom_tag1
 ## Set this to a string containing your Apple Developer ID Application to enable
@@ -294,8 +294,8 @@ define config.missing_image_callback = missing_filename_callback
 
 
 # define renpy.config.fix_rollback_without_choice = False
-define config.hard_rollback_limit = 0
-define config.rollback_enabled = False
+#define config.hard_rollback_limit = 0
+#define config.rollback_enabled = False
 define config.conditionswitch_predict_all = True
 #define config.predict_statements = 40
 define config.developer = "auto"
