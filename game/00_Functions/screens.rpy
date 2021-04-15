@@ -2085,6 +2085,8 @@ screen main_menu():
                     text_size gui.resolution.main_menu.font_size2
                 textbutton "Italian (beta)" action Language("italian"):
                     text_size gui.resolution.main_menu.font_size2
+#                textbutton "Spanish (beta)" action Language("spanish"):
+#                    text_size gui.resolution.main_menu.font_size2
                 textbutton "Russian" action Language(None):
                     text_size gui.resolution.main_menu.font_size2
 
@@ -2532,6 +2534,7 @@ screen preferences():
                     textbutton "German" action Language("german")
                     textbutton "French" action Language("french")
                     textbutton "Italian (beta)" action Language("italian")
+#                    textbutton "Spanish (beta)" action Language("spanish")
                     textbutton "Russian" action Language(None)
 
                 vbox:
