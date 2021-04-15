@@ -2512,7 +2512,6 @@ label ep22_4_dialogues4_office_6_loop1:
     img 43923
     w
     # Моника отстраняется от члена Джорджа
-
     fadeblack
     sound hlup19
     pause 1.5
@@ -2762,6 +2761,9 @@ label ep22_4_dialogues4_office_6_loop1:
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
             $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
+            pass
+
+        "Сделать, как говорит Дэниел. (animated scene in Extra version) (disabled)." if game.extra == False:
             pass
 
         "Сделать, как говорит Дэниел." if game.extra == False:

@@ -1327,7 +1327,6 @@ label ep22_4_dialogues5_escort_4_loop1:
     sound chpok6
     img 35179 vpunch
     w
-
     fadeblack 1.5
     music Groove2_85
     imgf 35205
@@ -1519,6 +1518,9 @@ label ep22_4_dialogues5_escort_4_loop1:
             stop music2
             $ renpy.music.set_volume(1.0, 0.5, channel="music2")
             $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+        "Сделать, как говорит клиент. (animated scene in Extra version) (disabled)." if game.extra == False:
+            pass
 
         "Сделать, как говорит клиент." if game.extra == False:
             # Моника открывает рот
