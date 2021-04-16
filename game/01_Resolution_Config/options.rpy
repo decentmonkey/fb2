@@ -77,6 +77,7 @@ Juha Salmelin
 longyu
 David Wilson
 InfiniteAntonym
+Vevalde
 for great support!
 \n
 Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction
