@@ -1049,7 +1049,8 @@ label ep22_4_dialogues5_escort_4:
     brian "Аааа!!!"
     brian "Кааайф!"
     imgf 35194
-    w
+    m "Отпусти мои волосы, придурок!"
+#    w
 
     # video
     #1 -25

@@ -11,4 +11,6 @@ label ep224_quests_load_init:
         call ep224_quests_escort_init() # инитим эскорт
     if ep218_quests_betty_completed_day > 0:
         call ep224_quests_betty_init()
+    if ep219_quests_victoria_party_day > 0:
+        call ep224_quests_victoria_init()
     return

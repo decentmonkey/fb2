@@ -87,11 +87,13 @@ label ep219_quests_victoria8_party:
     call ep219_dialogues4_victoria_7() from _rcall_ep219_dialogues4_victoria_7
     $ add_hook("change_time_day", "ep219_quests_victoria9_partyafter", scene="global", label="ep219_quests_victoria9_partyafter", priority=1, once=True)
     $ ep219_quests_victoria_party_day = day
+    call ep224_quests_victoria_init()
     $ questHelp("victoria_18g", True)
     return
 
 label ep219_quests_victoria9_partyafter:
     # возвращаем Алекса
+
     $ move_object("AlexPhotograph", "monica_office_photostudio")
     return
 
