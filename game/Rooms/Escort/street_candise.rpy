@@ -21,11 +21,11 @@ label street_candise_init:
 
 label street_candise_teleport:
     if obj_name == "Teleport_Street":
-        call map_show()
+        call map_show() from _rcall_map_show_4
         return
 
     if obj_name == "Teleport_Inside":
-        call ep22_4_dialogues5_escort_7()
+        call ep22_4_dialogues5_escort_7() from _rcall_ep22_4_dialogues5_escort_7
         return
     return
 label street_candise_environment:

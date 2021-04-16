@@ -45,7 +45,7 @@ label ep218_quests_betty2_begin:
     $ ep218_quests_betty_completed_day = day
     $ questHelp("house_46", True)
     call ep219_quests_ralph_init1() from _rcall_ep219_quests_ralph_init1_1
-    call ep224_quests_betty_init()
+    call ep224_quests_betty_init() from _rcall_ep224_quests_betty_init_1
     return
 
 

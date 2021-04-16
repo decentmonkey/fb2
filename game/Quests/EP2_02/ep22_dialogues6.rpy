@@ -314,7 +314,7 @@ label ep22_dialogue6_3:
             call ep219_quests_photoshoot2_biff() from _rcall_ep219_quests_photoshoot2_biff
             return -1
         "Свидание с инвестором Мэйсоном" if ep224_quests_office_biff_dialogue_enabled == True and day > ep219_quests_photoshoot10_day:
-            call ep224_quests_office1()
+            call ep224_quests_office1() from _rcall_ep224_quests_office1
             return -1
         "Спросить о работе" if ep219_quests_work_enabled == True:
             pass

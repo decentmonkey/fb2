@@ -12,7 +12,7 @@ label ep22_4_dialogues2_fitness_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_87
     scene black_screen
     with Dissolve(1)
     music Groove2_85

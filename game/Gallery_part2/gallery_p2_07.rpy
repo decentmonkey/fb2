@@ -2387,11 +2387,11 @@ label gallery_60019:
         #
 label gallery_ep219_dialogues2_office_3a:
     music Groove2_85
-    call ep219_dialogues2_office_3a()
+    call ep219_dialogues2_office_3a() from _rcall_ep219_dialogues2_office_3a_1
     if _return == False:
         return
     $ PS11_shoots_array_tmp = PS11_shoots_array
-    call ep219_dialogues2_office_3_photoshoot()
+    call ep219_dialogues2_office_3_photoshoot() from _rcall_ep219_dialogues2_office_3_photoshoot_2
     $ PS11_shoots_array = PS11_shoots_array_tmp
     $ PS11_shoots_array_tmp = False
     return
@@ -2401,7 +2401,7 @@ label gallery_35352:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_83
     scene black_screen
     with Dissolve(1)
     music Groove2_85

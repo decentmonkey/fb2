@@ -113,7 +113,7 @@ label ep219_quests_escort6_hotel_after: # встреча с Линдой при 
         $ ep219_quests_linda_after_stage = 2
         $ ep219_quests_linda_after_stage_day = day
         $ questHelp("escort_27", True)
-        call ep224_quests_escort_init()
+        call ep224_quests_escort_init() from _rcall_ep224_quests_escort_init_2
         return
     return
 

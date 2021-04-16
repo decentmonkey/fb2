@@ -12,9 +12,9 @@ label ep224_quests_victoria1_fitness:
     if week_day == 2 or week_day == 4:
         return
     $ remove_hook()
-    call ep22_4_dialogues2_fitness_1()
-    call ep22_4_dialogues2_fitness_2()
-    call ep22_4_dialogues2_fitness_3()
+    call ep22_4_dialogues2_fitness_1() from _rcall_ep22_4_dialogues2_fitness_1
+    call ep22_4_dialogues2_fitness_2() from _rcall_ep22_4_dialogues2_fitness_2
+    call ep22_4_dialogues2_fitness_3() from _rcall_ep22_4_dialogues2_fitness_3
     $ ep224_quests_victoria_completed_day = day
     $ questHelp("victoria_19", True)
     return

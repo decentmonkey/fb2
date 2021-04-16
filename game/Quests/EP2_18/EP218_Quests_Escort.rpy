@@ -69,7 +69,7 @@ label ep218_quests_escort6_candise_after:
         # отказала
         call ep218_dialogues3_escort_7() from _rcall_ep218_dialogues3_escort_7
     $ questHelp("escort_23", True)
-    call ep224_quests_escort_init()
+    call ep224_quests_escort_init() from _rcall_ep224_quests_escort_init_1
     call change_scene("rich_hotel_restaurant", "Fade_long") from _rcall_change_scene_229
     return
 

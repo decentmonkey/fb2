@@ -121,7 +121,7 @@ label gallery_44105:
         scene black_screen
         with Dissolve(1)
         music stop
-        call textonblack(t_("Некоторое время спустя..."))
+        call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_84
         scene black_screen
         with Dissolve(1)
         jump gallery_ep22_4_dialogues4_office_6_loop1

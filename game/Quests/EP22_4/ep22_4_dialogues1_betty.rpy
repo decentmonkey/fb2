@@ -11,7 +11,7 @@ label ep22_4_dialogues1_betty_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_85
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -212,7 +212,7 @@ label ep22_4_dialogues1_betty_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Утро..."))
+    call textonblack(t_("Утро...")) from _rcall_textonblack_86
     scene black_screen
     with Dissolve(1)
     music Groove2_85
