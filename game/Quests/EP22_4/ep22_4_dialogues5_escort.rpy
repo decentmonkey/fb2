@@ -851,7 +851,6 @@ label ep22_4_dialogues5_escort_4:
     mt "Думай о том, что скоро все это закончится..."
     mt "А в твоем кармане станет больше денег!"
     # Моника встает в коленно-локтевую, лицо злое
-
     fadeblack 1.5
     music Loved_Up
     imgfl 35170
@@ -1198,34 +1197,34 @@ label ep22_4_dialogues5_escort_4:
     $ renpy.music.set_volume(1.0, 0.5, channel="music2")
     $ renpy.music.set_volume(1.0, 0.5, channel="music")
 
-    imgf 35201
-    sound snd_door_knock
-    mt "!!!"
 
     $ ep22_4_dialogues5_escort_4_loop1_flag = False
 label ep22_4_dialogues5_escort_4_loop1:
 
     music Turbo_Tornado
-
-    #7 -25
-    img black_screen
-    with diss
-    stop music2
-    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
-    $ renpy.music.set_volume(0.2, 0.5, channel="music")
-    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
-    scene black
-    image videov_Monica_AbbyCustomer_Sex2_7_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_7_25.mkv")
-    show videov_Monica_AbbyCustomer_Sex2_7_25
-    with fade
-    m "Чеееерт!!!"
-    wclean
-    stop music2
-    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
-    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+    imgf 35201
+    sound snd_door_knock
+    mt "!!!"
 
     menu:
         "Уйди вон!":
+            #7 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_7_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_7_25.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_7_25
+            with fade
+            m "Чеееерт!!!"
+            wclean
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 35202
             sound snd_door_knock
             m "Уйди вон!"
@@ -1233,6 +1232,24 @@ label ep22_4_dialogues5_escort_4_loop1:
             neighbor2 "Я не уйду! Это возмутительно!"
             jump ep22_4_dialogues5_escort_4_loop1
         "Я сейчас полицию вызову!":
+            #5 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_5_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_5_25.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_5_25
+            with fade
+            neighbor2 "Развели тут бордель!"
+            wclean
+            mt "!!!!!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 35203
             sound snd_door_knock
             m "Я сейчас полицию вызову!"
@@ -1240,6 +1257,24 @@ label ep22_4_dialogues5_escort_4_loop1:
             neighbor2 "Я сам тебя в полицию сдам, проститутка окаянная!"
             jump ep22_4_dialogues5_escort_4_loop1
         "Отстань от меня, старый извращенец!":
+            #4 -25
+            img black_screen
+            with diss
+            stop music2
+            $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+            $ renpy.music.set_volume(0.2, 0.5, channel="music")
+            play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+            scene black
+            image videov_Monica_AbbyCustomer_Sex2_4_25= Movie(play="video/v_Monica_AbbyCustomer_Sex2_4_25.mkv")
+            show videov_Monica_AbbyCustomer_Sex2_4_25
+            with fade
+            mt "!!!!"
+            wclean
+            mt "!!!!!"
+            stop music2
+            $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+            $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             imgf 35202
             sound snd_door_knock
             m "Отстань от меня, старый извращенец!"
@@ -1613,6 +1648,7 @@ label ep22_4_dialogues5_escort_4_loop1:
                     mt "Фууу!"
                     imgd 35223
                     mt "Мерзость!!!"
+                    $ add_corruption(5, "monica_abby_customer_blowjob_sperm")
                     imgd 35224
                     mt "Меня сейчас стошнит!"
                 "Выплюнуть!":

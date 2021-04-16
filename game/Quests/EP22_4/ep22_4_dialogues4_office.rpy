@@ -2868,6 +2868,7 @@ label ep22_4_dialogues4_office_6_loop1:
                     imgd 43946
                     mt "Меня сейчас стошнит!"
                     mt "Фууу!"
+                    $ add_corruption(5, "monica_mason_date_blowjob_sperm")
                     imgf 43948
                     sound snd_gulp
                     w
@@ -2948,6 +2949,7 @@ label ep22_4_dialogues4_office_6_loop1:
                     imgd 43946
                     mt "Меня сейчас стошнит!"
                     mt "Фууу!"
+                    $ add_corruption(5, "monica_mason_date_blowjob_sperm")
                     imgf 43948
                     sound snd_gulp
                     w
