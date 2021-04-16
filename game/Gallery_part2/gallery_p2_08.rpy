@@ -307,6 +307,9 @@ label gallery_44105:
     mt "Хм... Первым делом, нужно будет уволить этого скотину Дэниела..."
     mt "..."
     mt "Так, с чего бы начать?"
+    default gallery_ep22_4_dialogues4_office_6_menu1 = False
+    default gallery_ep22_4_dialogues4_office_6_menu2 = False
+    default gallery_ep22_4_dialogues4_office_6_menu3 = False
 label gallery_ep22_4_dialogues4_office_6_loop1:
     music Groove2_85
     imgf 44060
