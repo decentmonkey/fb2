@@ -11,7 +11,7 @@ label ep22_4_dialogues1_betty_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Утро..."))
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -49,13 +49,17 @@ label ep22_4_dialogues1_betty_1:
             fadeblack
             sound highheels_short_walk
             pause 2.0
-            return
+            return False
     music Stealth_Groover
     imgf 35256
     betty_t "Я не допущу чтобы мною, хозякой богатого дома и порядочной женщиной!.."
     betty_t "Манипулировал какой-то там сосед, используя МОЙ утюг!"
     betty_t "Мне нужно прекратить весь этот цирк!"
+    return True
+label ep22_4_dialogues1_betty_1a:
     betty_t "Я простой пойду и заберу у него то, что принадлежит МНЕ!"
+    return True
+label ep22_4_dialogues1_betty_1b:
     # затемнение, смена кадра
     # Бетти стоит перед домом соседа и стучится в дверь
     # затемнение, звук двери, каблуки
@@ -208,7 +212,7 @@ label ep22_4_dialogues1_betty_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Утро..."))
     scene black_screen
     with Dissolve(1)
     music Groove2_85
@@ -303,7 +307,7 @@ label ep22_4_dialogues1_betty_2:
             sound highheels_short_walk
             pause 2.0
             # уходит
-            return
+            return False
     # Бетти сердито
     imgd 35291
     betty "Знаете что, Лиам?!"
