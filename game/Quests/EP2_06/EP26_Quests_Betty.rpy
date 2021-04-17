@@ -48,6 +48,7 @@ label ep26_quests_betty3:
     return False
 
 label ep26_quests_betty4:
+    return #remove bardie
     # Регулярное питание на кухне с голой грудью
     if get_active_objects("Betty", scene="House", recursive=True) == False:
         return
