@@ -10,7 +10,7 @@ define monicaCantSleepHungry2 = True
 default monicaWorkingAsDishwasher = False
 default monica_pub_name = False
 
-default monicaCleaningRoomsAmount = 2
+default monicaCleaningRoomsAmount = 1
 default monicaCleaningInProgress = False
 default monicaCleaningObject = ""
 

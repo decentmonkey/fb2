@@ -8,6 +8,8 @@ label floor2:
 
     $ scene_image = "scene_Floor2_Evening"
 
+    $ set_active("Teleport_BedroomBardie", False, scene="floor2")
+
     if floor2WashingSport == True:
         $ scene_image = "scene_Floor2_Evening_WashingSpot"
 

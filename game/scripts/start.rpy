@@ -467,6 +467,9 @@ label start_game_EP22:
     $ questHelp("other1")
     $ questHelp("other2")
     $ questHelp("office_58")
+    #remove bardie
+    $ remove_hook(label="menu_betty_panties_show_to_monica")
+    $ set_active("Panties_Box", False, scene="basement_laundry")
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests

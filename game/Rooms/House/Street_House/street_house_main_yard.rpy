@@ -6,6 +6,8 @@ label street_house_main_yard:
     $ miniMapData = []
     call miniMapHouseGenerate() from _call_miniMapHouseGenerate_8
 
+    $ move_object("Bardie", "empty")
+
     $ sceneIsStreet = True
     $ scene_image = "scene_Street_House[day_suffix]"
     $ driverOnHouseYard = True

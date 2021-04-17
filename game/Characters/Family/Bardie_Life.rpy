@@ -18,6 +18,8 @@ label Bardie_Life_day:
 
 label Bardie_Life_Day1:
 #    $ move_object("biff", "empty")
+    $ move_object("Bardie", "empty")
+    return
     if bardieStage == 0:
         $ rand1 = rand(1,2)
         if rand1 == 1:
@@ -33,15 +35,21 @@ label Bardie_Life_evening:
 
 label Bardie_Life_evening1:
 #    $ move_object("biff", "monica_office_cabinet")
+    $ move_object("Bardie", "empty")
+    return
     if bardieStage == 0:
         $ move_object("Bardie", "bedroom_bardie")
     return
 
 label Bardie_Life_evening2: #Барди вечером преследует Монику у лестницы
+    $ move_object("Bardie", "empty")
+    return False
     $ move_object("Bardie", "floor1_stairs")
     return False
 
 label Bardie_Life_Monica_Cleaning_Start:
+    $ move_object("Bardie", "empty")
+    return
     if bardieFollowMonicaDuringCleaning == True:
         if "bedroom_bardie" in rooms_dirty:
             $ move_object("Bardie", "bedroom_bardie")
@@ -72,13 +80,20 @@ label Bardie_Life_evening3:
     return False
 
 label Bardie_Life_day4:
+    $ move_object("Bardie", "empty")
+    return False
     $ move_object("Bardie", "bedroom_bardie")
     return False
 label Bardie_Life_evening4:
+    $ move_object("Bardie", "empty")
+    return False
     $ move_object("Bardie", "bedroom_bardie")
     return False
 
 label Bardie_Life_day5:
+    $ move_object("Bardie", "empty")
+    return False
+
     if bardieDayEmpty == True:
         $ move_object("Bardie", "empty")
         return False
@@ -92,6 +107,8 @@ label Bardie_Life_day5:
     return False
 
 label Bardie_Life_Day6: # Днем Барди все время во дворе
+    $ move_object("Bardie", "empty")
+    return False
     if bardieDayEmpty == True:
         $ move_object("Bardie", "empty")
         return False

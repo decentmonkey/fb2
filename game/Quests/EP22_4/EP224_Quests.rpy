@@ -13,4 +13,8 @@ label ep224_quests_load_init:
         call ep224_quests_betty_init() from _rcall_ep224_quests_betty_init
     if ep219_quests_victoria_party_day > 0:
         call ep224_quests_victoria_init() from _rcall_ep224_quests_victoria_init
+    $ monicaCleaningRoomsAmount = 1
+    $ move_object("Bardie", "empty")
+    $ remove_hook(label="menu_betty_panties_show_to_monica")
+    $ set_active("Panties_Box", False, scene="basement_laundry")
     return
