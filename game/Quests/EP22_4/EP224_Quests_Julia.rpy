@@ -20,6 +20,11 @@ label ep224_quests_julia1_start:
         $ cloth = monica_juliahome_outside_cloth
         $ cloth_type = monica_juliahome_outside_cloth_type
         $ juliaQuestRefused = True
+        if cloth != "CasualDress1":
+            sound snd_fabric1
+            fadeblack 2.0
+            $ cloth = "CasualDress1"
+            $ cloth_type = "CasualDress"
         call ep218_quests_abort_julia() from _rcall_ep218_quests_abort_julia_1
         call bitch(20, "abort_julia") from _rcall_bitch_23
         call process_change_map_location("House") from _rcall_process_change_map_location_15
