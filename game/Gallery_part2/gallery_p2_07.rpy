@@ -2401,7 +2401,7 @@ label gallery_35352:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем...")) from _rcall_textonblack_83
+    call textonblack(t_("Утро...")) from _rcall_textonblack_83
     scene black_screen
     with Dissolve(1)
     music Groove2_85
