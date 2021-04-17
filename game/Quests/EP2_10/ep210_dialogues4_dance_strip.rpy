@@ -1121,6 +1121,8 @@ label ep210_dialogues4_dance_strip_11:
 
 # Паб. Моника на сцене.
 label ep210_dialogues4_dance_strip_12:
+    if game.extra == False:
+        return
     music stageCurrentMusicLoop
     img 23182
     with fade
