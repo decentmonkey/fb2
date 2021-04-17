@@ -62,9 +62,13 @@ label ep219_quests_escort4_choose: # выбор идти-ли к Линде
 #    $ add_hook("before_open", "ep219_quests_escort5_lindahome", scene="linda_apartments_street", label="ep219_quests_escort5_lindahome")
     call ep219_dialogues3_escort_3() from _rcall_ep219_dialogues3_escort_3
     if _return == True:
+        $ map_enabled = True
+        $ sceneIsStreet = True
         call map_show() from _rcall_map_show_3
     else:
+        $ map_enabled = True
         $ questHelp("escort_25", False)
+        call refresh_scene_fade()
     return
 
 label ep219_quests_escort4_lindarepeat:
