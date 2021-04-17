@@ -12,6 +12,7 @@ label ep216_quests_bardie_check_init:
 
 
 label ep216_quests_bardie2_catch: # Барди перехватывает Монику
+    return
     if ep216_quests_bardie_catch_active == True:
         $ ep216_quests_bardie_catch_active = False
         if day_time != "day":
