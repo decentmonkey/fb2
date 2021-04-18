@@ -1999,9 +1999,9 @@ screen navigation():
 
             textbutton t_("Main Menu") action MainMenu()
 
-        textbutton t_("New Episodes") action OpenURL("http://decent-monkey.com/news/")
-        textbutton t_("Guide") action OpenURL("http://decent-monkey.com/the-guide-for-episode-2/")
-        textbutton ("Become Supporter") action OpenURL("http://www.patreon.com/decentmonkey/")
+        textbutton t_("New Episodes") action OpenURL("https://decent-monkey.com/news/")
+        textbutton t_("Guide") action OpenURL("https://wiki.decent-monkey.com/wiki/Walkthrough_Episode_2")
+        textbutton ("Become Supporter") action OpenURL("https://www.patreon.com/decentmonkey/")
         $ flag1 = False
         if game.extra == True and renpy.current_screen().screen_name[0] == "load":
             if check_saves_for_migration() == True:
