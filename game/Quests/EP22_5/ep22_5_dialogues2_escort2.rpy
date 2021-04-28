@@ -1,6 +1,5 @@
 define VIP_escort_chief = Character(_("Владелец ВИП-эскорта"), who_color=c_blue)
-# define maylie = Character(_("Мэйли"), who_color=c_pink) #Reception Administrator (Maylie)
-# имя администраторши - Maylie (Мэйли) -?
+define maylie = Character(_("Мэйли"), who_color=c_pink) #Reception Administrator (Maylie)
 
 default monicaVipEscortCasting1 = 0 # Моника проголосовала за Миранду
 default monicaVipEscortCasting2 = 0 # Моника проголосовала за Эбби
