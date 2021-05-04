@@ -1500,6 +1500,34 @@ screen intro_image(image_name):
     fixed:
         add get_image_filename(image_name)
 
+screen blink_screen1(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+    $ print "screen here!!!"
+    $ print blink_image
+    fixed:
+        add blink1:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
+
+screen blink_screen2(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+    fixed:
+        add blink1:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
+
+screen blink_screen3(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+    fixed:
+        add blink1:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
 
 ################################################################################
 ## In-game screens

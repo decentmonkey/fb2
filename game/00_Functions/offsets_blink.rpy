@@ -26,3 +26,8 @@ define blink_presets = {
 #        add blink1:
 #            xpos blink_offset[0]
 #            ypos blink_offset[1]
+
+init python:
+    blink_preset = False
+    blink_preset2 = False
+    blink_preset3 = False

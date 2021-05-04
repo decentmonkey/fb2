@@ -48,7 +48,7 @@ python early:
         return (l.simple_expression(), "fl")
 
     def img_exec(s_in):
-        global dialogue_active_flag, screenActionHappened, config
+        global dialogue_active_flag, screenActionHappened, config, blink_preset, blink_preset2, blink_preset3
 #        config.has_autosave = False
 #        config.autosave_on_choice = False
         s = s_in[0]
@@ -76,6 +76,32 @@ python early:
         storeImagesList(imagePath, s)
         renpy.scene()
         renpy.show_screen("show_image_screen_image", imagePath)
+
+        #blink controller
+        blinkBase = imagePathExt[1]
+        if offsets_blink.has_key(blinkBase):
+            blinkCharacterIdx = 0
+            for blink_character in offsets_blink[blinkBase]:
+                blink_data = offsets_blink[blinkBase][blink_character]
+                blinkImage = "images/Overlays/Blink/" + blinkBase + "_blink_" + blink_character + ".png"
+                blinkPresetId = blink_data[3]
+                if blinkCharacterIdx == 0:
+                    if blink_preset != False:
+                        blinkPresetId = blink_preset
+                        blink_preset = False
+                    renpy.show_screen("blink_screen1", blinkImage, blink_data, blink_presets[blinkPresetId])
+                if blinkCharacterIdx == 1:
+                    if blink_preset2 != False:
+                        blinkPresetId = blink_preset2
+                        blink_preset2 = False
+                    renpy.show_screen("blink_screen2", blinkImage, blink_data, blink_presets[blinkPresetId])
+                if blinkCharacterIdx == 2:
+                    if blink_preset3 != False:
+                        blinkPresetId = blink_preset3
+                        blink_preset3 = False
+                    renpy.show_screen("blink_screen3", blinkImage, blink_data, blink_presets[blinkPresetId])
+                blinkCharacterIdx += 1
+
         image_screen_scene_flag = False
         screenActionHappened = True
         if transition and transition != "":
