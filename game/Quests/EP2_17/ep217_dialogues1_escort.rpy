@@ -322,6 +322,10 @@ label ep217_dialogues1_escort_3:
     # смена кадра, показываем мечты Моники
     # она заходит в номер дизайнера вся такая уверенная в себе и красивая
     # он поворачивает голову в ее сторону
+#    label test_video:
+#        $ blink_preset = "3"
+#        img 20001
+#        w
     music stop
     img black_screen
     with Dissolve(1)
