@@ -3,7 +3,9 @@ define offsets_blink = {
     "megaimage" : {"monica":[10,20,10,30]},
     "megaimage2" : {"monica":[10,20,10,30]},
     "megaimage3" : {"monica":[10,20,10,30]},
-    "img_20001" : {"Monica":[588,380,5,"1"]}
+    "img_20001" : {"Monica":[588,380,5,"1"]},
+    "img_40974" : {"Monica":[482,298,5,"1"]},
+    "img_41083" : {"Monica":[480,160,5,"1"]}
 #offsets_blink_finish
 }
 
