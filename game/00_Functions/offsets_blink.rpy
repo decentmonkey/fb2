@@ -41,3 +41,6 @@ init python:
     blink_preset = False
     blink_preset2 = False
     blink_preset3 = False
+    blink_preset4 = False
+    blink_preset5 = False
+    blink_preset6 = False

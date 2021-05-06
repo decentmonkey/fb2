@@ -1503,29 +1503,96 @@ screen intro_image(image_name):
 screen blink_screen1(blink_image, blink_offset, blink_preset):
     layer "master"
     zorder 17
-    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
-    $ print "screen here!!!"
-    $ print blink_image
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
-        add blink1:
+        add image2:
             xpos blink_offset[0]
             ypos blink_offset[1]
 
 screen blink_screen2(blink_image, blink_offset, blink_preset):
     layer "master"
     zorder 17
-    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
-        add blink1:
+        add image2:
             xpos blink_offset[0]
             ypos blink_offset[1]
 
 screen blink_screen3(blink_image, blink_offset, blink_preset):
     layer "master"
     zorder 17
-    $ blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
-        add blink1:
+        add image2:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
+
+screen blink_screen4(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
+    fixed:
+        add image2:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
+
+screen blink_screen5(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
+    fixed:
+        add image2:
+            xpos blink_offset[0]
+            ypos blink_offset[1]
+
+screen blink_screen6(blink_image, blink_offset, blink_preset):
+    layer "master"
+    zorder 17
+    python:
+        blink1 = BlinkStrip(blink_image, blink_offset[2], blink_preset)
+        blur1 = Image("images/Overlays/Blink/blink_alpha.png")
+        imageSize = im.cache.get(Image(blink_image)).get_size()
+        imageSize2 = (256,256)
+        imageSizeRatio =(float(imageSize[0]/blink_offset[2]) / float(imageSize2[0]), float(imageSize[1]) / float(imageSize2[1]))
+        blur1Scaled = im.FactorScale(blur1, imageSizeRatio[0], height=imageSizeRatio[1])
+        image2 = AlphaMask(blink1, blur1Scaled)
+    fixed:
+        add image2:
             xpos blink_offset[0]
             ypos blink_offset[1]
 

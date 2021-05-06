@@ -100,6 +100,21 @@ python early:
                         blinkPresetId = blink_preset3
                         blink_preset3 = False
                     renpy.show_screen("blink_screen3", blinkImage, blink_data, blink_presets[blinkPresetId])
+                if blinkCharacterIdx == 3:
+                    if blink_preset4 != False:
+                        blinkPresetId = blink_preset4
+                        blink_preset4 = False
+                    renpy.show_screen("blink_screen4", blinkImage, blink_data, blink_presets[blinkPresetId])
+                if blinkCharacterIdx == 4:
+                    if blink_preset5 != False:
+                        blinkPresetId = blink_preset5
+                        blink_preset5 = False
+                    renpy.show_screen("blink_screen5", blinkImage, blink_data, blink_presets[blinkPresetId])
+                if blinkCharacterIdx == 5:
+                    if blink_preset6 != False:
+                        blinkPresetId = blink_preset6
+                        blink_preset6 = False
+                    renpy.show_screen("blink_screen6", blinkImage, blink_data, blink_presets[blinkPresetId])
                 blinkCharacterIdx += 1
 
         image_screen_scene_flag = False
