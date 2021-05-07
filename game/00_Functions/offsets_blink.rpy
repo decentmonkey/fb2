@@ -51,7 +51,8 @@ define offsets_blink = {
     "img_35138" : {"Monica":[810,334,5,"1"]},
     "img_40776" : {"Monica":[406,188,5,"1"]},
     "img_41276" : {"Monica":[336,266,5,"1"]},
-    "img_41309" : {"Monica":[360,240,5,"1"]}
+    "img_41309" : {"Monica":[360,240,5,"1"]},
+    "img_44245" : {"Monica":[949,185,5,"1"],"RichHotelReception":[210,180,5,"1"],"Visitor1":[530,170,5,"1"],"Visitor2":[1625,150,5,"1"],"Visitor3":[1315,145,5,"1"],"Visitor4":[810,125,5,"1"]}
 #offsets_blink_finish
 }
 
