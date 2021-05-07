@@ -46,6 +46,102 @@ default episode2full = False
 default questLogGlobalEnabled = False
 
 label start:
+    img 15869
+    w
+    img 32870
+    w
+    img 32872
+    w
+    img 32916
+    w
+    img 33004
+    w
+    img 33066
+    w
+    img 33120
+    w
+    img 33165
+    w
+    img 33191
+    w
+    img 33204
+    w
+    img 33265
+    w
+    img 33618
+    w
+    img 33684
+    w
+    img 33707
+    w
+    img 33732
+    w
+    img 33807
+    w
+    img 33818
+    w
+    img 33936
+    w
+    img 33958
+    w
+    img 34118
+    w
+    img 34326
+    w
+    img 34436
+    w
+    img 34445
+    w
+    img 34492
+    w
+    img 34505
+    w
+    img 34512
+    w
+    img 34565
+    w
+    img 34631
+    w
+    img 34688
+    w
+    img 34855
+    w
+    img 34866
+    w
+    img 34881
+    w
+    img 34905
+    w
+    img 34927
+    w
+    img 35066
+    w
+    img 35138
+    w
+    img 40776
+    w
+    img 40974
+    w
+    img 41013
+    w
+    img 41083
+    w
+    img 41088
+    w
+    img 41129
+    w
+    img 41163
+    w
+    img 41205
+    w
+    img 41223
+    w
+    img 41276
+    w
+    img 41309
+    w
+    img 41366
+    w
     #new game
     $ after_load_ready_to_render = True
     $ refresh_list_files_forced()
