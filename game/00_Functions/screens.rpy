@@ -1802,6 +1802,10 @@ screen choice(items):
             ]
 
     vbox:
+#        if renpy.get_screen("show_image_screen_image"):
+        if renpy.get_screen("blink_screen1"):
+            ypos 0.8
+            yanchor 1.0
         python:
             buttons_list = []
             priority = 100
