@@ -48,7 +48,7 @@ python early:
         return (l.simple_expression(), "fl")
 
     def img_exec(s_in):
-        global dialogue_active_flag, screenActionHappened, config, blink_preset, blink_preset2, blink_preset3
+        global dialogue_active_flag, screenActionHappened, config, blink_preset, blink_preset2, blink_preset3, blink_preset4, blink_preset5, blink_preset6
 #        config.has_autosave = False
 #        config.autosave_on_choice = False
         s = s_in[0]
