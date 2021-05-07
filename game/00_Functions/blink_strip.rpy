@@ -15,7 +15,7 @@ init python:
 
             for r in range(0, blinkAmount):
                 x = r * width
-                args.append(Transform(self.image, crop=(x, 0, width, height)))
+                args.append(Transform(self.image, crop=(x, 0, width-1, height)))
             self.frames = args
             self.index = 0
             self.stage = 0
