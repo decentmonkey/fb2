@@ -48,6 +48,8 @@ default questLogGlobalEnabled = False
 label start:
 
 #    jump test_video
+    img 44245
+    w
     img 15869
     w
     img 32870
