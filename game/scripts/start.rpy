@@ -48,130 +48,128 @@ default questLogGlobalEnabled = False
 label start:
 
 #    jump test_video
-    img 10580 #
+    img 10580 #+
     w
-    img 13900
+    img 13900 #+
     w
-    img 35046
+    img 35046 #+
     w
-    img 35048
+    img 35048 #+
     w
-    img 35201
+    img 35201 #+
     w
-    img 35209
+    img 35209 #+
     w
-    img 35242
+    img 35242 #+
     w
-    img 35296
+    img 35296 #+
     w
-    img 35369
+    img 35369 #+
     w
-    img 40276
+    img 40276 #+
     w
-    img 40291
+    img 40291 #+
     w
-    img 40738
+    img 40738 #+
     w
-    img 40844
+    img 40844 #+
     w
-    img 40869
+    img 40869 #+
     w
-    img 40882
+    img 40882 #+
     w
-    img 40886
+    img 40886 #+
     w
-    img 41434
+    img 41434 #+
     w
-    img 41466
+    img 41466 #+
     w
-    img 41485
+    img 41485 #+
     w
-    img 41493
+    img 41493 #+
     w
-    img 41569
+    img 41569 #+
     w
-    img 41659
+    img 41659 #+
     w
-    img 41762
+    img 41762 #+
     w
-    img 41789
+    img 41789 #+
     w
-    img 41864
+    img 41864 #+
     w
-    img 41882
+    img 41882 #+
     w
-    img 41964
+    img 41964 #+
     w
-    img 41968
+    img 41968 #+
     w
-    img 42080
+    img 42080 #+
     w
-    img 42111
+    img 42111 #+
     w
-    img 42124
+    img 42124 #+
     w
-    img 42151
+    img 42151 #+
     w
-    img 42195
+    img 42195 #+
     w
-    img 42331
+    img 42331 #+
     w
-    img 42371
+    img 42371 #+
     w
-    img 42396
+    img 42396 #+
     w
-    img 42402
+    img 42402 #+
     w
-    img 42413
+    img 42413 #+
     w
-    img 42476
+    img 42476 #+
     w
-    img 42528
+    img 42528 #+
     w
-    img 42685
+    img 42685 #+
     w
-    img 42809
+    img 42809 #+
     w
-    img 42817
+    img 42817 #+
     w
-    img 42825
+    img 42825 #+
     w
-    img 42881
+    img 42881 #+
     w
-    img 42894
+    img 42894 #+
     w
-    img 42910
+    img 42910 #+
     w
-    img 42933
+    img 42933 #+
     w
-    img 43074
+    img 43074 #+
     w
-    img 43412
+    img 43412 #+
     w
-    img 43476
+    img 43476 #+
     w
-    img 43539
+    img 43539 #+
     w
-    img 43821
+    img 43821 #+
     w
-    img 43847
+    img 43847 #+
     w
-    img 43927
+    img 43927 #+
     w
-    img 43953
+    img 43953 #+
     w
-    img 44042
+    img 44042 #+
     w
-    img 44048
+    img 44048 #+
     w
-    img 44056
+    img 44056 #+
     w
-    img 44072
+    img 44072 #+
     w
-    img 44129
+    img 44129 #+
     w
-
-######################## done
     img 44245 #+
     w
     img 15869 #+
