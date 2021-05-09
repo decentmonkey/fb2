@@ -58,6 +58,17 @@ label start:
     w
     img 43789
     w
+    img 60036
+    w
+    img 60040
+    w
+    img 60183
+    w
+    img 60195
+    w
+    img 35138 # добавлен клиент
+    w
+
 
 #    jump test_video
     img 10580 #+
