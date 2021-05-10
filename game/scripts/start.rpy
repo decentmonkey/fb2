@@ -46,30 +46,28 @@ default episode2full = False
 default questLogGlobalEnabled = False
 
 label start:
-    img 43953
+    img 43953 #+
     w
-    img 41435
+    img 41435 #+
     w
-    img 42677
+    img 42677 #+
     w
-    img 42771
+    img 42771 #+
     w
-    img 43115
+    img 43115 #+
     w
-    img 43789
+    img 43789 #+
     w
-    img 60036
+    img 60036 #+
     w
-    img 60040
+    img 60040 #+
     w
-    img 60183
+    img 60183 #+
     w
-    img 60195
+    img 60195 #+
     w
-    img 35138 # добавлен клиент
+    img 35138 # добавлен клиент +
     w
-
-
 #    jump test_video
     img 10580 #+
     w
