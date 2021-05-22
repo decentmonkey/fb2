@@ -1513,8 +1513,8 @@ screen blink_screen1(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 screen blink_screen2(blink_image, blink_offset, blink_preset):
     layer "master"
@@ -1529,8 +1529,8 @@ screen blink_screen2(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 screen blink_screen3(blink_image, blink_offset, blink_preset):
     layer "master"
@@ -1545,8 +1545,8 @@ screen blink_screen3(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 screen blink_screen4(blink_image, blink_offset, blink_preset):
     layer "master"
@@ -1561,8 +1561,8 @@ screen blink_screen4(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 screen blink_screen5(blink_image, blink_offset, blink_preset):
     layer "master"
@@ -1577,8 +1577,8 @@ screen blink_screen5(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 screen blink_screen6(blink_image, blink_offset, blink_preset):
     layer "master"
@@ -1593,8 +1593,8 @@ screen blink_screen6(blink_image, blink_offset, blink_preset):
         image2 = AlphaMask(blink1, blur1Scaled)
     fixed:
         add image2:
-            xpos blink_offset[0]
-            ypos blink_offset[1]
+            xpos getRes(blink_offset[0])
+            ypos getRes(blink_offset[1])
 
 ################################################################################
 ## In-game screens
