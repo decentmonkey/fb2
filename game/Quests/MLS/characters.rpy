@@ -61,15 +61,15 @@
 # учитель музыки (Teacher11) +
 # директора школы (Teacher2_principal) +
 # секретарь директора (Principal_secretary) +
-# зав.хоз (завхоз) +
+# зав.хоз (School_zavhoz) +
 
     ## Одноклассники ##
 
-# Шон - друг и одноклассник. он к нему может ходить в гости, общаться с его матерью (bardie_friend_black) +
+# Шон - друг и одноклассник. он к нему может ходить в гости, общаться с его матерью (Bardie_friend_black) +
 # парень из его класса - соперник, спортсмен, лидер в школе, Барди ненавидит его (school_hooligan) +
-# одноклассник в кепке (classmate1_cap) +
-# ботаник (classmate_nerd) +
-# одноклассник - фрик (classmate_frik) +
+# одноклассник в кепке (Classmate1_cap) +
+# ботаник (Classmate_nerd) +
+# одноклассник - фрик (Classmate_frik) +
 # еще 5 одноклассников невзрачных (Classmate2, Classmate3+, Classmate4, Classmate5, Classmate5a) +
 
 # зануда-отличница (Classmate6) +
@@ -88,6 +88,7 @@
 # секс с матерью друга , мать друга (bardie_friend_mother) +
 # продавщица (Saleswoman) +
 # соседка (Neighbor) +
+# father_friend +
 
     ## Родители одноклассников ##
 
