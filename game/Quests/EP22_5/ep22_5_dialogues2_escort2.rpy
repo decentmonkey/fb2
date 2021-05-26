@@ -16,6 +16,19 @@ default ep22_5_dialogues2_escort2_4_menu3 = False
 default ep22_5_dialogues2_escort2_4_menu4 = False
 default ep22_5_dialogues2_escort2_4_menu5 = False
 
+define v_Visitor3_Steve_Blowjob1_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Visitor3_Steve_Blowjob1_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Visitor3_Steve_Sex1_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Visitor3_Steve_Sex2_1_25_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Visitor3_Steve_Sex2_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Visitor4_Steve_Titjob1_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Visitor4_Steve_Titjob1_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Visitor4_Steve_Titjob2_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Visitor4_Steve_Sex1_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Visitor4_Steve_Sex1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Monica_Steve_Anal1_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+define v_Monica_Steve_Anal1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex2_1"
+
 
 # при условии, что был Escort1 и Моника не сбежала, также должна быть пройдена сцена с Линдой и Мирандой
 # Моника пришла в отель, перед тем, как подойти к ресепшну
@@ -1325,23 +1338,122 @@ label ep22_5_dialogues2_escort2_4:
 			# потом вбирает его в рот, помещается не весь, наполовину
 			img 44361
 			miranda "Мпфхфпфф..."
-			steve "Дааа, вот так..."
 			# пытается протолкнуть глубже
 			img 44362
+			w
+
+			# video
+			# 1
+			# v_Visitor3_Steve_Blowjob1_1
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Blowjob1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Blowjob1_1= Movie(play="video/v_Visitor3_Steve_Blowjob1_1.mkv")
+		    show videov_Visitor3_Steve_Blowjob1_1
+		    with fade
 			steve "Молодец, детка."
-			miranda "Мммпфф!!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 2
+			# v_Visitor3_Steve_Blowjob1_4_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Blowjob1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Blowjob1_4_25= Movie(play="video/v_Visitor3_Steve_Blowjob1_4_25.mkv")
+		    show videov_Visitor3_Steve_Blowjob1_4_25
+		    with fade
 			steve "Я вижу, как ты стараешься."
+		    wclean
 			steve "Это похвально. Твой Босс доволен. Хе-хе!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# Стив кладет свою руку ей на голову
-			steve "Я тебе помогу, детка..."
 			# насаживает ее голову, но до конца она все равно не может взять его член в свой рот, у нее закатываются глаза
             img 44363
+			steve "Я тебе помогу, детка..."
 			miranda "Мпфхфпфф!!!"
 			# она снимает свою голову с его члена
+
 			img 44364
+			w
+			# 3
+			# v_Visitor3_Steve_Blowjob1_5
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Blowjob1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Blowjob1_5= Movie(play="video/v_Visitor3_Steve_Blowjob1_5.mkv")
+		    show videov_Visitor3_Steve_Blowjob1_5
+		    with fade
 			miranda "Мпфааа..."
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44365
 			w
+
+			# 4
+			# v_Visitor3_Steve_Blowjob1_3_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Blowjob1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Blowjob1_3_25= Movie(play="video/v_Visitor3_Steve_Blowjob1_3_25.mkv")
+		    show videov_Visitor3_Steve_Blowjob1_3_25
+		    with fade
+			miranda "Мммпфф!!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 5
+			# v_Visitor3_Steve_Blowjob1_2_25
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Blowjob1_2_25= Movie(play="video/v_Visitor3_Steve_Blowjob1_2_25.mkv")
+		    show videov_Visitor3_Steve_Blowjob1_2_25
+		    with fade
+			steve "Дааа, вот так..."
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44366
 			# смотрит ему в глаза и сексуально улыбается
 			# потом встает и демонстративно проводит перед лицом Стива рукой по своей киске
@@ -1384,23 +1496,196 @@ label ep22_5_dialogues2_escort2_4:
 			w
 			img 44383
 			w
-			img 44384
+
+			# video
+			# 1
+			# v_Visitor3_Steve_Sex1_2
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Sex1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex1_2= Movie(play="video/v_Visitor3_Steve_Sex1_2.mkv")
+		    show videov_Visitor3_Steve_Sex1_2
+		    with fade
+			miranda "Какой же он огромный! Дааа!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 2
+			# v_Visitor3_Steve_Sex1_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex1_3= Movie(play="video/v_Visitor3_Steve_Sex1_3.mkv")
+		    show videov_Visitor3_Steve_Sex1_3
+		    with fade
 			miranda "Аааа... Как же круто!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 44384
+			w
+			# 3
+			# v_Visitor3_Steve_Sex1_4
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex1_4= Movie(play="video/v_Visitor3_Steve_Sex1_4.mkv")
+		    show videov_Visitor3_Steve_Sex1_4
+		    with fade
+		    miranda "Он заполняет меня всю! Как здорово!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# начинает двигаться вверх-вниз на его стояке
 			img 44385
 			w
+			# 4
+			# v_Visitor3_Steve_Sex1_1
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex1_1= Movie(play="video/v_Visitor3_Steve_Sex1_1.mkv")
+		    show videov_Visitor3_Steve_Sex1_1
+		    with fade
+		    miranda "О, дааа!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 5
+			# v_Visitor3_Steve_Sex1_5
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex1_5= Movie(play="video/v_Visitor3_Steve_Sex1_5.mkv")
+		    show videov_Visitor3_Steve_Sex1_5
+		    with fade
+		    miranda "Оооо!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44386
-			miranda "Какой же он огромный! Дааа!"
+			w
 			img 44387
+			w
+
+			# video
+			# 1
+			# v_Visitor3_Steve_Sex2_1_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Sex2_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex2_1_25= Movie(play="video/v_Visitor3_Steve_Sex2_1_25.mkv")
+		    show videov_Visitor3_Steve_Sex2_1_25
+		    with fade
 			miranda "Ооо!!! Вот это да!!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 2
+			# v_Visitor3_Steve_Sex2_2_25
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex2_2_25= Movie(play="video/v_Visitor3_Steve_Sex2_2_25.mkv")
+		    show videov_Visitor3_Steve_Sex2_2_25
+		    with fade
+		    miranda "Аааа!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44388
-			miranda "Он заполняет меня всю! Как здорово!"
-			img 44389
+			w
+			# 3
+			# v_Visitor3_Steve_Sex2_4
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor3_Steve_Sex2_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex2_4= Movie(play="video/v_Visitor3_Steve_Sex2_4.mkv")
+		    show videov_Visitor3_Steve_Sex2_4
+		    with fade
 			miranda "Я сейчас кончу, Босс! Кончу!"
-			img 44390
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 4
+			# v_Visitor3_Steve_Sex2_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor3_Steve_Sex2_3= Movie(play="video/v_Visitor3_Steve_Sex2_3.mkv")
+		    show videov_Visitor3_Steve_Sex2_3
+		    with fade
 			steve "Давай, сделай это для меня!"
-			img 44391
+		    wclean
 			steve "Твой Босс хочет, чтобы ты кончила, детка!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 44389
+			w
+			img 44390
+			w
+			img 44391
+			w
 			img 4439
 			miranda "Оооо!!!"
 			steve "Кончай!!!"
@@ -1458,11 +1743,87 @@ label ep22_5_dialogues2_escort2_4:
 			img 44408
 			abby "Ох, какой клевый стояк!"
 			img 44409
+			w
+
+			# video
+			# 1
+			# v_Visitor4_Steve_Titjob1_1_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Titjob1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob1_1_25= Movie(play="video/v_Visitor4_Steve_Titjob1_1_25.mkv")
+		    show videov_Visitor4_Steve_Titjob1_1_25
+		    with fade
 			abby "Дааа..."
-			img 44410
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 2
+			# v_Visitor4_Steve_Titjob1_2
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Titjob1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob1_2= Movie(play="video/v_Visitor4_Steve_Titjob1_2.mkv")
+		    show videov_Visitor4_Steve_Titjob1_2
+		    with fade
 			abby "Такая большая сочная головка!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 44410
+			w
+			# 3
+			# v_Visitor4_Steve_Titjob1_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob1_3= Movie(play="video/v_Visitor4_Steve_Titjob1_3.mkv")
+		    show videov_Visitor4_Steve_Titjob1_3
+		    with fade
 			abby "Я не могу удержаться, чтобы не попробовать ее..."
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 4
+			# v_Visitor4_Steve_Titjob1_4
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob1_4= Movie(play="video/v_Visitor4_Steve_Titjob1_4.mkv")
+		    show videov_Visitor4_Steve_Titjob1_4
+		    with fade
 			steve "Поробуй, детка, твой Босс тебе разрешает сделать это..."
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# продолжая водить грудями по члену, облизывает головку члена
 			img 44411
 			abby "Какой же он огромный!.."
@@ -1470,49 +1831,242 @@ label ep22_5_dialogues2_escort2_4:
 			abby "Это самый большой член, который я видела!"
 			steve "Да, он у меня такой! Хе-хе!"
 			# вбирает головку в рот, продолжая делать титсджоб
+
 			img 44413
+			w
+			# video
+			# 1
+			# v_Visitor4_Steve_Titjob2_4
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Titjob2_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob2_4= Movie(play="video/v_Visitor4_Steve_Titjob2_4.mkv")
+		    show videov_Visitor4_Steve_Titjob2_4
+		    with fade
 			abby "Мммм!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# отстраняется
 			img 44414
 			abby "Он еле помещается у меня во рту!"
 			abby "Офигенно!"
 			# снова вбирает в рот, делает титсджоб и минет одновременно
+
 			img 44415
+			w
+			# 2
+			# v_Visitor4_Steve_Titjob2_1
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob2_1= Movie(play="video/v_Visitor4_Steve_Titjob2_1.mkv")
+		    show videov_Visitor4_Steve_Titjob2_1
+		    with fade
 			abby "Мпфхфпфф!!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 3
+			# v_Visitor4_Steve_Titjob2_2
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob2_2= Movie(play="video/v_Visitor4_Steve_Titjob2_2.mkv")
+		    show videov_Visitor4_Steve_Titjob2_2
+		    with fade
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44416
+			w
+			# 4
+			# v_Visitor4_Steve_Titjob2_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Titjob2_3= Movie(play="video/v_Visitor4_Steve_Titjob2_3.mkv")
+		    show videov_Visitor4_Steve_Titjob2_3
+		    with fade
 			abby "Мпфхф..."
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# снимается с его члена
 			img 44417
 			abby "Я тащусь от вашего стояка, Босс!"
 			abby "Какой же он мощный!"
 			img 44418
 			# встает и, повернувшись спиной к нему, насаживается киской на его член
-            img 44419
-			abby "О, дааа!"
+
+			img 44419
+			w
+			# video
+			# 1
+			# v_Visitor4_Steve_Sex1_1
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Sex1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_1= Movie(play="video/v_Visitor4_Steve_Sex1_1.mkv")
+		    show videov_Visitor4_Steve_Sex1_1
+		    with fade
 			steve "Оооо... Давай, покажи, как ты хочешь занять место Мейли, детка!"
+		    wclean
+			abby "О, дааа!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
             img 44420
+			w
+			# 2
+			# v_Visitor4_Steve_Sex1_2_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Sex1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_2_25= Movie(play="video/v_Visitor4_Steve_Sex1_2_25.mkv")
+		    show videov_Visitor4_Steve_Sex1_2_25
+		    with fade
 			abby "Охренительно!"
+		    wclean
 			abby "Оооо, какой кайф!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44421
+			w
+			# 3
+			# v_Visitor4_Steve_Sex1_5
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Visitor4_Steve_Sex1_1_sound_name
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_5= Movie(play="video/v_Visitor4_Steve_Sex1_5.mkv")
+		    show videov_Visitor4_Steve_Sex1_5
+		    with fade
 			steve "Покажи настоящий класс!"
+		    wclean
 			abby "Я никогда не хочу слазить с этого клевого стояка!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44422
+			w
+			# 4
+			# v_Visitor4_Steve_Sex1_6
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_6= Movie(play="video/v_Visitor4_Steve_Sex1_6.mkv")
+		    show videov_Visitor4_Steve_Sex1_6
+		    with fade
 			abby "Даааа!!!"
 			abby "Я хочу, чтобы Босс всегда меня трахал своим членом!"
+		    wclean
 			steve "Дааа!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44423
+			w
+			# 5
+			# v_Visitor4_Steve_Sex1_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_3= Movie(play="video/v_Visitor4_Steve_Sex1_3.mkv")
+		    show videov_Visitor4_Steve_Sex1_3
+		    with fade
 			abby "Чтобы вытрахал меню всю!!!"
 			steve "И я трахну тебя, детка!"
+		    wclean
 			steve "Хочешь, я буду каждый день тебя трахать?!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44424
 			abby "Оооо!!!"
 			abby "О, дааа! Я хочу этого! Очень хочу!"
 			steve "Ух, какая ты горячая, детка!"
 			steve "Я люблю таких деток!"
+
 			img 44425
+			w
+			# 6
+			# v_Visitor4_Steve_Sex1_4
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Visitor4_Steve_Sex1_4= Movie(play="video/v_Visitor4_Steve_Sex1_4.mkv")
+		    show videov_Visitor4_Steve_Sex1_4
+		    with fade
 			abby "Еще глубже! Оооох!"
+		    wclean
 			abby "Да-да-да!!!"
 			abby "Еще немного!!!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# Эбби бурно кончает на Стиве, показывая мощный оргазм и выгибаясь
             img 44426
 			abby "Аааа! Как круто!"
@@ -1812,41 +2366,230 @@ label ep22_5_dialogues2_escort2_4:
 			m "!!!"
 			# входит до основания
 			img 44502
+			w
+
+			# video
+			# 1
+			# v_Monica_Steve_Anal1_4
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Monica_Steve_Anal1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_4= Movie(play="video/v_Monica_Steve_Anal1_4.mkv")
+		    show videov_Monica_Steve_Anal1_4
+		    with fade
 			steve "ДА!!!"
 			steve "Какая отличная попа!!!"
+		    wclean
 			steve "Ааа!!!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44503
+			w
+			# 2
+			# v_Monica_Steve_Anal1_9_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Monica_Steve_Anal1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_9_25= Movie(play="video/v_Monica_Steve_Anal1_9_25.mkv")
+		    show videov_Monica_Steve_Anal1_9_25
+		    with fade
 			steve "Давай, двигайся!"
-			# у Моники на лице гримаса боли
+		    wclean
 			m "Я не могу! Мне больно!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# у Моники на лице гримаса боли
 			# он шлепает ее по попе
 			img 44504
+			w
+			# 3
+			# v_Monica_Steve_Anal1_1
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Monica_Steve_Anal1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_1= Movie(play="video/v_Monica_Steve_Anal1_1.mkv")
+		    show videov_Monica_Steve_Anal1_1
+		    with fade
 			steve "Давай, покажи мне, как ты хочешь стать главной, [monica_hotel_name]!"
-			# она медленно поднимается на его члене, потом опускается
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 4
+			# v_Monica_Steve_Anal1_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_3= Movie(play="video/v_Monica_Steve_Anal1_3.mkv")
+		    show videov_Monica_Steve_Anal1_3
+		    with fade
 			m "Аааай!!!"
-			# потом еще раз
+		    wclean
 			m "Ой!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# она медленно поднимается на его члене, потом опускается
+			# потом еще раз
 			img 44505
+			w
+			# 5
+			# v_Monica_Steve_Anal1_8
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_8= Movie(play="video/v_Monica_Steve_Anal1_8.mkv")
+		    show videov_Monica_Steve_Anal1_8
+		    with fade
 			steve "Слишком медленно, [monica_hotel_name]..."
 			steve "Давай, быстрее!"
+		    wclean
 			m "Я не могу! Мне больно!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# Стив берет инициативу на себя и, держа Монику за бедра на одной высоте, начинает вдалбливаться в нее
             img 44506
+			w
+			# 6
+			# v_Monica_Steve_Anal1_6
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_6= Movie(play="video/v_Monica_Steve_Anal1_6.mkv")
+		    show videov_Monica_Steve_Anal1_6
+		    with fade
 			steve "Аааах!"
 			steve "О, да! Какая прелестная попа!"
+		    wclean
 			steve "Такая узкая, такая горячая!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 44507
-			steve "Дааа!"
+			w
+			# 7
+			# v_Monica_Steve_Anal1_7_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Monica_Steve_Anal1_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_7_25= Movie(play="video/v_Monica_Steve_Anal1_7_25.mkv")
+		    show videov_Monica_Steve_Anal1_7_25
+		    with fade
 			steve "Ооо! Я так хотел сделать это в твою упгругую попку, Мон... [monica_hotel_name]!"
-            img 44508
-			m "Больно!"
-			m "Ай-яй-яй!!!"
+		    wclean
+			steve "Дааа!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 44508
 			m "!!!"
+			# 8
+			# v_Monica_Steve_Anal1_2
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Monica_Steve_Anal1_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_2= Movie(play="video/v_Monica_Steve_Anal1_2.mkv")
+		    show videov_Monica_Steve_Anal1_2
+		    with fade
+			m "Больно!"
+		    wclean
+			m "Ай-яй-яй!!!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# Стив наращивает темп, двигается еще быстрее и кончает
 			img 44509
+			w
+			# 9
+			# v_Monica_Steve_Anal1_5
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_5= Movie(play="video/v_Monica_Steve_Anal1_5.mkv")
+		    show videov_Monica_Steve_Anal1_5
+		    with fade
 			steve "ОООО!!!"
 			steve "Какая шикарная попа!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 10
+			# v_Monica_Steve_Anal1_10
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Monica_Steve_Anal1_10= Movie(play="video/v_Monica_Steve_Anal1_10.mkv")
+		    show videov_Monica_Steve_Anal1_10
+		    with fade
 			steve "Я хочу кончить прямо в нее!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# кончает
 			img 44456
 			steve "ААААААААХХХ!"

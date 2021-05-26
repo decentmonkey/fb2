@@ -1,6 +1,15 @@
 default melanieVictoriaInstructorDate1 = 0  # Мелани увидела на руках Виктории шрамы
 default melanieVictoriaInstructorDate2 = 0  # у Мелани было DP с Алексом и фитнес-тренером
 
+define v_Melanie_FitnessTrainer_Sex1_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Melanie_FitnessTrainer_Sex1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex2_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Melanie_FitnessTrainer_Sex2_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1_25"
+define v_Melanie_FitnessTrainer_Sex3_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Melanie_FitnessTrainer_Sex3_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex4_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Melanie_FitnessTrainer_Sex4_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1_25"
+
 # апартаменты Виктории
 # Мелани и Виктория сидят на диванчике, на котором сидела Стефани
 label ep22_5_dialogues3_melanie_1:
@@ -548,21 +557,138 @@ label ep22_5_dialogues3_melanie_2:
     img 44680
     fitness_instructor "Ееее!"
     fitness_instructor "Тедди проник в киску модели Мелани!"
+
     img 44681
+    w
+    # video
+    # 1
+    # v_Melanie_FitnessTrainer_Sex1_1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_1= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_1.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_1
+    with fade
     fitness_instructor "Рррр!.. Охренительно!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44682
+    w
+    # 2
+    # v_Melanie_FitnessTrainer_Sex1_2_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex1_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_2_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_2_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_2_25
+    with fade
     fitness_instructor "Тебе нравится, Мелани, а?"
-    img 44683
-    fitness_instructor "Я буду твоим тигром!"
+    wclean
     melanie "Да."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 44683
+    w
+    # 3
+    # v_Melanie_FitnessTrainer_Sex1_6
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_6= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_6.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_6
+    with fade
+    fitness_instructor "Я буду твоим тигром!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # он начинает двигаться в ней, а Мелани смотрит в камеру
     img 44684
+    w
+    # 4
+    # v_Melanie_FitnessTrainer_Sex1_3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_3= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_3.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_3
+    with fade
     fitness_instructor "Мммм, кайфово-то как!"
+    wclean
     fitness_instructor "Меня так надолго не хватит, Мелани."
-    fitness_instructor "МММММ... Дааа!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44685
+    w
+    # 5
+    # v_Melanie_FitnessTrainer_Sex1_5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_5= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_5.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_5
+    with fade
+    fitness_instructor "МММММ... Дааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # 6
+    # v_Melanie_FitnessTrainer_Sex1_4_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex1_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex1_4_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex1_4_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex1_4_25
+    with fade
     fitness_instructor "Давай ты будешь сверху!"
+    wclean
     fitness_instructor "Хочу смотреть на тебя, Мелани!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # смена кадра
     # приемная в офисе Дика
     # Виктория сидит на своем рабочем месте и трогает свою киску
@@ -578,19 +704,139 @@ label ep22_5_dialogues3_melanie_2:
     # смена кадра на спальню Мелани
     # тренер лежит на спине, Мелани двигается на нем сверху
     # он тискает ее груди, лапает за бедра
+
     img 44686
+    w
+    # video
+    # 1
+    # v_Melanie_FitnessTrainer_Sex2_1_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_1_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_1_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_1_25
+    with fade
     fitness_instructor "Поверить не могу, что меня трахает модель с обложки журнала!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # 2
+    # v_Melanie_FitnessTrainer_Sex2_4
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_4= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_4.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_4
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44687
     w
     img 44688
     w
-    img 44689
+    # 3
+    # v_Melanie_FitnessTrainer_Sex2_3_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_3_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_3_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_3_25
+    with fade
     fitness_instructor "О, сделай так еще раз!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 44689
+    w
+    # 4
+    # v_Melanie_FitnessTrainer_Sex2_2
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_2= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_2.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_2
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44690
+    w
+    # 5
+    # v_Melanie_FitnessTrainer_Sex2_6_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_6_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_6_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_6_25
+    with fade
     fitness_instructor "Такая секс-бомба потекла по Тедди, да!"
-    img 44691
-    fitness_instructor "Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # 6
+    # v_Melanie_FitnessTrainer_Sex2_5
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex2_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex2_5= Movie(play="video/v_Melanie_FitnessTrainer_Sex2_5.mkv")
+    show videov_Melanie_FitnessTrainer_Sex2_5
+    with fade
     fitness_instructor "Она не могла не запасть на такого крутого тренера, как я, ха!"
+    wclean
+    fitness_instructor "Дааа!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 44691
+    w
     # раздается хлопок дверью, пришел Алекс
     # Мелани перестает двигаться и замирает на тренере, она в афиге
     img 44692
@@ -689,20 +935,101 @@ label ep22_5_dialogues3_melanie_2:
     # Мелани изображает возбуждение, прикрывая глаза и облизывая губы
     img 44712
     melanie "Мммм... Даа..."
-    melanie "Алекс, я так возбуждаюсь от мысли о том..."
+
     img 44713
+    w
+    # video
+    # 1
+    # v_Melanie_FitnessTrainer_Sex3_1_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex3_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex3_1_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex3_1_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex3_1_25
+    with fade
+    melanie "Алекс, я так возбуждаюсь от мысли о том..."
     melanie "Что ты сейчас войдешь в мою попу..."
+    wclean
     melanie "В то время как внутри моей киски член другого мужчины!.."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # тренер продолжает лапать Мелани и качает ее бедра на своем члене
     img 44715
+    w
+    # 2
+    # v_Melanie_FitnessTrainer_Sex3_2_25
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex3_2_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex3_2_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex3_2_25
+    with fade
     fitness_instructor "Ууууф, как круто!"
+    wclean
     fitness_instructor "Как ты возбуждена, Мелани..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44714
+    w
+    # 3
+    # v_Melanie_FitnessTrainer_Sex3_3
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex3_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex3_3= Movie(play="video/v_Melanie_FitnessTrainer_Sex3_3.mkv")
+    show videov_Melanie_FitnessTrainer_Sex3_3
+    with fade
     melanie "Да! Я так завожусь от этой мысли!"
+    wclean
     melanie "Так хочу этого!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
     # Алекс растерянно смотрит на происходящее
+
     img 44716
+    w
+    # 4
+    # v_Melanie_FitnessTrainer_Sex3_4_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex3_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex3_4_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex3_4_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex3_4_25
+    with fade
+    melanie "Алекс, иди сюда скорее!"
     alex_photograph "..."
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     # потом залипает взглядом на попе Мелани
     img 44717
     alex_photograph "..."
@@ -756,27 +1083,158 @@ label ep22_5_dialogues3_melanie_2:
     img 44730
     fitness_instructor "Ооо, кайф! Как же круто!"
     melanie "Мммммм!!!"
+
     img 44731
+    w
+    # video
+    # 1
+    # v_Melanie_FitnessTrainer_Sex4_2_25
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex4_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_2_25= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_2_25.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_2_25
+    with fade
     alex_photograph "Оооох..."
+    wclean
     melanie "Даааа... Продолжай таааак..."
-    img 44732
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # 2
+    # v_Melanie_FitnessTrainer_Sex4_1
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Melanie_FitnessTrainer_Sex4_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_1= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_1.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_1
+    with fade
     melanie "Аааах!!!"
+    wclean
     alex_photograph "Мммм..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    img 44732
+    w
     img 44733
+    w
+    # 3
+    # v_Melanie_FitnessTrainer_Sex4_5
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_5= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_5.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_5
+    with fade
     melanie "Мпфааа!!!"
+    wclean
     alex_photograph "Ааааа!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44734
+    w
+    # 4
+    # v_Melanie_FitnessTrainer_Sex4_6
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_6= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_6.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_6
+    with fade
     fitness_instructor "Вот это тренировка! Да!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
     # Мелани кончает первой (ну, или делает вид)
-    melanie "Я не могу больше сдерживаться!"
-    melanie "ОООООО!!!"
     img 44735
+    # 5
+    # v_Melanie_FitnessTrainer_Sex4_3
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_3= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_3.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_3
+    with fade
+    melanie "Я не могу больше сдерживаться!"
+    wclean
+    melanie "ОООООО!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+    # 6
+    # v_Melanie_FitnessTrainer_Sex4_4
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_4= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_4.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_4
+    with fade
     melanie "Кончаю!"
+    wclean
     melanie "ООООО!!!"
     melanie "ОООООООО!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     img 44736
+    w
+    # 7
+    # v_Melanie_FitnessTrainer_Sex4_7
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Melanie_FitnessTrainer_Sex4_7= Movie(play="video/v_Melanie_FitnessTrainer_Sex4_7.mkv")
+    show videov_Melanie_FitnessTrainer_Sex4_7
+    with fade
     alex_photograph "И я сейчас кончуууу!!!"
+    wclean
     fitness_instructor "Да-да! Я тоже!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
     menu:
         "Кончить внутрь Мелани.":
             img 44737

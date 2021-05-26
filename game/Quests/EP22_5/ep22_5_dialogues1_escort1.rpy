@@ -7,10 +7,21 @@ default monicaAbbyCandiceHarry4 = 0 # Моника переспала с сос�
 default monicaAbbyCandiceHarry5 = 0 # Моника согласилась на 20 баксов + инфа
 default monicaAbbyCandiceHarry6 = 0 # Моника не согласилась на 20 баксов и стала возмущаться
 
-# define v_Monica_AbbyCustomer_Blowjob1_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25" - анимация
+define v_Orgy1_Blowjob1_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Orgy1_Blowjob1_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Orgy1_Jerk1_1_25_sound_name = "v_Julia_Monica_Licking1_1"
+define v_Orgy1_Sex2_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Orgy1_Sex1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Orgy1_Sex3_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Orgy1_Sex3_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Orgy1_Sex4a_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Orgy1_Sex4b_1_25_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Orgy1_Sex4b_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
+define v_Orgy1_Sex5_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+define v_Orgy1_Sex5_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
+
 
 default ep22_5_abby_candice_monica_orgy_cum_zone = 0
-$ ep22_5_abby_candice_monica_orgy_cum_zone = 1
 
 define monicaAbbyCandiceOrgyCorruptionRequired1 = 820 # Моника согласилась помочь Эбби и Кэндис с соседом
 $ menu_corruption = [monicaAbbyCandiceOrgyCorruptionRequired1, 0]
@@ -1188,22 +1199,168 @@ label ep22_5_dialogues1_escort1_5:
 	w
 	img 35603
 	w
+
+	# video
+	# 1
+	# v_Orgy1_Blowjob1_1_25
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Blowjob1_1_25_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Blowjob1_1_25= Movie(play="video/v_Orgy1_Blowjob1_1_25.mkv")
+	show videov_Orgy1_Blowjob1_1_25
+	with fade
+	indenbach "Смотри, твои подружки-проститутки уже вовсю работают!"
+	m "!!!"
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35604
+	w
+
+	# 2
+	# v_Orgy1_Blowjob1_2
+    $ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Blowjob1_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Blowjob1_2= Movie(play="video/v_Orgy1_Blowjob1_2.mkv")
+    show videov_Orgy1_Blowjob1_2
+    with fade
 	brian "Давай, детка Эбби. Заглоти его еще глубже!"
+    wclean
+	abby "Мммм..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35630
 	w
 	img 35631
 	w
+
+	# 3
+	# v_Orgy1_Blowjob1_3_25
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Blowjob1_1_25_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Blowjob1_3_25= Movie(play="video/v_Orgy1_Blowjob1_3_25.mkv")
+	show videov_Orgy1_Blowjob1_3_25
+	with fade
+	brian "Да, давай!.."
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35632
+	w
+
+	# 4
+	# v_Orgy1_Blowjob1_4
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Blowjob1_1_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Blowjob1_4= Movie(play="video/v_Orgy1_Blowjob1_4.mkv")
+    show videov_Orgy1_Blowjob1_4
+    with fade
 	brian "Покажи мне, как ты хочешь мой член!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35633
 	w
 	img 35605
 	w
 	img 35629
+	w
+
+	# 5
+	# v_Orgy1_Blowjob1_5_25
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Blowjob1_1_25_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Blowjob1_5_25= Movie(play="video/v_Orgy1_Blowjob1_5_25.mkv")
+	show videov_Orgy1_Blowjob1_5_25
+	with fade
+	brian "Ееее!"
+	wclean
 	abby "Мпфхфпфф..."
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35606
 	w
+
+	# 6
+	# v_Orgy1_Blowjob1_6_25
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Blowjob1_6_25= Movie(play="video/v_Orgy1_Blowjob1_6_25.mkv")
+	show videov_Orgy1_Blowjob1_6_25
+	with fade
+	harry "Мммм..."
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 7
+	# v_Orgy1_Blowjob1_7_25
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Blowjob1_7_25= Movie(play="video/v_Orgy1_Blowjob1_7_25.mkv")
+	show videov_Orgy1_Blowjob1_7_25
+	with fade
+	harry "Кааайф..."
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35634
 	w
 	img 35635
@@ -1211,14 +1368,35 @@ label ep22_5_dialogues1_escort1_5:
 	img 35634
 	w
 	img 35636
-	harry "Мммм..."
+	w
 	img 35637
 	w
 	img 35638
 	w
 	img 35607
+	w
+
+	# 8
+	# v_Orgy1_Blowjob1_8
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Blowjob1_1_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Blowjob1_8= Movie(play="video/v_Orgy1_Blowjob1_8.mkv")
+    show videov_Orgy1_Blowjob1_8
+    with fade
 	harry "О, да. Так хорошо..."
-	candice "..."
+    wclean
+	candice "Мпфмм..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	# Моника с отвращением смотрит на соседа
 	img 35608
 	m "Сделать так же - это как?"
@@ -1286,10 +1464,32 @@ label ep22_5_dialogues1_escort1_5:
 	w
 	img 35625
 	w
+	img 35627
+	w
 	img 35626
 	w
-	img 35627
+
+	# video
+	# 1
+	# v_Orgy1_Jerk1_1_25
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Jerk1_1_25_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Jerk1_1_25= Movie(play="video/v_Orgy1_Jerk1_1_25.mkv")
+	show videov_Orgy1_Jerk1_1_25
+	with fade
 	indenbach "Вот тааак!"
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35672
 	# девочки продолжают смотреть на это
 	# Гарри в это время берет и щелкает по носу Кэндис своим стояком
@@ -1322,14 +1522,34 @@ label ep22_5_dialogues1_escort1_5:
 	w
 	img 35649
 	harry "Дааа!"
-	candice "Оооо, какой он большой, Гарри!"
 	img 35650
 	w
 	img 35651
+	harry "А теперь двигайся, цыпа!"
+	img 35652
+
+	# video
+	# 1
+	# v_Orgy1_Sex2_1
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Sex2_1_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Sex2_1= Movie(play="video/v_Orgy1_Sex2_1.mkv")
+	show videov_Orgy1_Sex2_1
+	with fade
 	candice "Мммм!"
 	candice "О, как клево!!!"
-	img 35652
-	harry "А теперь двигайся, цыпа!"
+	wclean
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35653
 	w
 	img 35654
@@ -1342,17 +1562,60 @@ label ep22_5_dialogues1_escort1_5:
 	w
 	img 35654
 	harry "Да! Так!"
-	img 35657
 	candice "Оооо, как офигенно!"
+	img 35657
+
+	# video
+	# 1
+	# v_Orgy1_Sex1_2_25
+	$ localSoundVolume = 1.0
+	$ localSoundName = v_Orgy1_Sex1_1_25_sound_name
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Sex1_2_25= Movie(play="video/v_Orgy1_Sex1_2_25.mkv")
+	show videov_Orgy1_Sex1_2_25
+	with fade
+	candice "Оооо, какой он большой, Гарри!"
+	wclean
+	harry "Дааа!"
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35658
-	harry "Еще!"
+	w
 	img 35648
-	candice "Аааа!"
+	w
 	# кадр на парочку Эбби-Брайан
 	# она смотрит теперь уже не на соседа с Моникой, а на Гарри
 	# Брайан хватает ее за волосы и поворачивает на себя
 	img 35659
 	w
+
+	# 2
+	# v_Orgy1_Sex1_1_25
+	img black_screen
+	with diss
+	stop music2
+	$ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+	$ renpy.music.set_volume(0.2, 0.5, channel="music")
+	play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+	scene black
+	image videov_Orgy1_Sex1_1_25= Movie(play="video/v_Orgy1_Sex1_1_25.mkv")
+	show videov_Orgy1_Sex1_1_25
+	with fade
+	harry "Еще!"
+	wclean
+	candice "Аааа!"
+	stop music2
+	$ renpy.music.set_volume(1.0, 0.5, channel="music2")
+	$ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35660
 	w
 	img 35661
@@ -1422,27 +1685,256 @@ label ep22_5_dialogues1_escort1_5:
 	abby "Как-нибудь я это проверю..."
 	indenbach "Несомненно, хе-хе!"
 	img 35679
+	w
+	# сосед убирает руку от киски Эбби, поворачивается и смотрит на Кэндис
 	## фразы экшена Брайана и Эбби
 	img 35716
-	w
+	brian "Ну что, ты готова почувствовать мой огромный член, детка Эбби?"
+	abby "Да, давай уже быстрее..."
+	abby "Я так соскучилась по нему!"
 	img 35717
-	w
+	abby "Оооо, да!!!"
 	img 35718
 	w
+
+	# video
+	# 1
+	# v_Orgy1_Sex3_1_25
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_1_25= Movie(play="video/v_Orgy1_Sex3_1_25.mkv")
+    show videov_Orgy1_Sex3_1_25
+    with fade
+    brian "Какая ты аппетитная, детка Эбби..."
+    wclean
+    abby "Ооо!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 2
+	# v_Orgy1_Sex3_5_25
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_5_25= Movie(play="video/v_Orgy1_Sex3_5_25.mkv")
+    show videov_Orgy1_Sex3_5_25
+    with fade
+    brian "Так бы и трахал тебя сутками напролет!"
+    wclean
+    brian "Еееее!!!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35719
 	w
 	img 35720
 	w
+
+	# 3
+	# v_Orgy1_Sex3_8_25
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_8_25= Movie(play="video/v_Orgy1_Sex3_8_25.mkv")
+    show videov_Orgy1_Sex3_8_25
+    with fade
+    brian "Ты такая горячая, детка!"
+    wclean
+    abby "Ооох!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35721
 	w
+	# 4
+	# v_Orgy1_Sex3_7
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_7= Movie(play="video/v_Orgy1_Sex3_7.mkv")
+    show videov_Orgy1_Sex3_7
+    with fade
+    brian "Такая кайфовая детка Эбби!"
+    wclean
+    abby "О, как хорошо! Еще!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35722
 	w
+
 	img 35723
 	w
+	# 5
+	# v_Orgy1_Sex3_2_25
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_25_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_2_25= Movie(play="video/v_Orgy1_Sex3_2_25.mkv")
+    show videov_Orgy1_Sex3_2_25
+    with fade
+    abby "Оооо!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35724
 	w
+	# 6
+	# v_Orgy1_Sex3_6
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_6= Movie(play="video/v_Orgy1_Sex3_6.mkv")
+    show videov_Orgy1_Sex3_6
+    with fade
+    brian "Твоя киска соскучилась по моему большому члену?"
+    wclean
+	abby "О, да! Она очень скучала!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+
+	# 7
+	# v_Orgy1_Sex3_10
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_10= Movie(play="video/v_Orgy1_Sex3_10.mkv")
+    show videov_Orgy1_Sex3_10
+    with fade
+    abby "Дааа!"
+    wclean
+	candice "О, Гарри! Как же здорово!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35725
-	# сосед убирает руку от киски Эбби, поворачивается и смотрит на Кэндис
+	w
+	# 8
+	# v_Orgy1_Sex3_9
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_9= Movie(play="video/v_Orgy1_Sex3_9.mkv")
+    show videov_Orgy1_Sex3_9
+    with fade
+    abby "Оооо!"
+    wclean
+	candice "Мммм!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 9
+	# v_Orgy1_Sex3_4_25
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_25_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_4_25= Movie(play="video/v_Orgy1_Sex3_4_25.mkv")
+    show videov_Orgy1_Sex3_4_25
+    with fade
+	brian "Еееее!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 10
+	# v_Orgy1_Sex3_3_25
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_3_25= Movie(play="video/v_Orgy1_Sex3_3_25.mkv")
+    show videov_Orgy1_Sex3_3_25
+    with fade
+    candice "Обожаю, когда ты меня трахаешь, Гарри!"
+    wclean
+    harry "О, даа!"
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 11
+	# v_Orgy1_Sex3_11
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex3_1_sound_name
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex3_11= Movie(play="video/v_Orgy1_Sex3_11.mkv")
+    show videov_Orgy1_Sex3_11
+    with fade
+    brian "Мммм..."
+	abby "Оооо!"
+    wclean
+	candice "Ооох..."
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35715
 	indenbach "А тут у нас что?"
 	candice "Оооо!"
@@ -1536,17 +2028,94 @@ label ep22_5_dialogues1_escort1_5:
 			img 35743
 			w
 			img 35744
+			w
+
+			# video
+			# 1
+			# v_Orgy1_Sex4a_4_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Orgy1_Sex4a_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4a_4_25= Movie(play="video/v_Orgy1_Sex4a_4_25.mkv")
+		    show videov_Orgy1_Sex4a_4_25
+		    with fade
 			candice "Мпфхфпфф!!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 3
+			# v_Orgy1_Sex4a_3_25
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4a_3_25= Movie(play="video/v_Orgy1_Sex4a_3_25.mkv")
+		    show videov_Orgy1_Sex4a_3_25
+		    with fade
+			indenbach "Какая старательная у меня соседка, хе-хе!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 35745
 			w
-			img 35746
+
+			# 2
+			# v_Orgy1_Sex4a_1_25
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4a_1_25= Movie(play="video/v_Orgy1_Sex4a_1_25.mkv")
+		    show videov_Orgy1_Sex4a_1_25
+		    with fade
 			indenbach "Охо-хо! Оооо!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 3
+			# v_Orgy1_Sex4a_2_25
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4a_2_25= Movie(play="video/v_Orgy1_Sex4a_2_25.mkv")
+		    show videov_Orgy1_Sex4a_2_25
+		    with fade
+			candice "Мпфааа!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 35746
+			w
 			img 35744
 			w
 			img 35747
 			w
 			img 35748
-			candice "Мпфааа!"
+			w
 			img 35743
 			# сосед делает несколько фрикций и выходит из ее рта
 			# она продолжает скакать на Гарри
@@ -1582,25 +2151,178 @@ label ep22_5_dialogues1_escort1_5:
 			w
 			img 35757
 			abby "Мпхфпф!"
-			img 35759
-			indenbach "Дааа!"
-			img 35757
-			w
+
+#			img 35757
+#			w
 			img 35758
 			w
-			img 35757
-			w
-			img 35758
+			#img 35757
+			#w
+			#img 35758
+
+			# video
+			# 1
+			# v_Orgy1_Sex4b_8_25
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Orgy1_Sex4b_1_25_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_8_25= Movie(play="video/v_Orgy1_Sex4b_8_25.mkv")
+		    show videov_Orgy1_Sex4b_8_25
+		    with fade
 			abby "Мпффф!!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 2
+			# v_Orgy1_Sex4b_2
+			$ localSoundVolume = 1.0
+		    $ localSoundName = v_Orgy1_Sex4b_1_sound_name
+		    img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_2= Movie(play="video/v_Orgy1_Sex4b_2.mkv")
+		    show videov_Orgy1_Sex4b_2
+		    with fade
+		    indenbach "Дааа!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 3
+			# v_Orgy1_Sex4b_3
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_3= Movie(play="video/v_Orgy1_Sex4b_3.mkv")
+		    show videov_Orgy1_Sex4b_3
+		    with fade
+		    indenbach "Ааа, как шлюшка хорошо сосет!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 4
+			# v_Orgy1_Sex4b_4
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_4= Movie(play="video/v_Orgy1_Sex4b_4.mkv")
+		    show videov_Orgy1_Sex4b_4
+		    with fade
+		    mt "Боже! Какой разврат!"
+		    wclean
+			mt "Моника, что ты тут делаешь?!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			img 35760
+			w
+			# 5
+			# v_Orgy1_Sex4b_1
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_1= Movie(play="video/v_Orgy1_Sex4b_1.mkv")
+		    show videov_Orgy1_Sex4b_1
+		    with fade
 			indenbach "Оооо!!!"
-			abby "Мммм!"
+		    wclean
+			stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 6
+			# v_Orgy1_Sex4b_5
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_5= Movie(play="video/v_Orgy1_Sex4b_5.mkv")
+		    show videov_Orgy1_Sex4b_5
+		    with fade
+		    abby "Мммм!"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			img 35759
+			w
+
+			# 7
+			# v_Orgy1_Sex4b_6
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_6= Movie(play="video/v_Orgy1_Sex4b_6.mkv")
+		    show videov_Orgy1_Sex4b_6
+		    with fade
+		    brian "Нравится тебе детка Эбби, мужик? Скажи, горячая штучка?"
+		    wclean
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+			# 8
+			# v_Orgy1_Sex4b_7
+			img black_screen
+		    with diss
+		    stop music2
+		    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+		    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+		    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+		    scene black
+		    image videov_Orgy1_Sex4b_7= Movie(play="video/v_Orgy1_Sex4b_7.mkv")
+		    show videov_Orgy1_Sex4b_7
+		    with fade
+		    indenbach "Горячая, да! Хе-хе!"
+		    wclean
+			abby "Мпфааа!!!"
+		    stop music2
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+		    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 			# сосед выходит из рта Эбби
 			img 35757
 			w
 			img 35756
-			abby "Мпфааа!!!"
+			indenbach "Настало время попробовать ту вредную проститутку в красном."
 			img 35761
+			w
 			pass
 	# сосед смотрит на Монику, та лежит на кровати, прикрыв грудь, с оскорбленным видом
 	# сосед лезет к Монике
@@ -1645,21 +2367,191 @@ label ep22_5_dialogues1_escort1_5:
 	img 35773
 	indenbach "ООООО!!!"
 	img 35774
+	w
+
+	# video
+	# 1
+	# v_Orgy1_Sex5_9
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex5_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_9= Movie(play="video/v_Orgy1_Sex5_9.mkv")
+    show videov_Orgy1_Sex5_9
+    with fade
 	indenbach "Здоровоооо!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35775
+	w
+	# 2
+	# v_Orgy1_Sex5_3
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_3= Movie(play="video/v_Orgy1_Sex5_3.mkv")
+    show videov_Orgy1_Sex5_3
+    with fade
 	indenbach "Наконец-то, я трахаюсь!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35776
+	w
+	# 3
+	# v_Orgy1_Sex5_1_25
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex5_1_25_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_1_25= Movie(play="video/v_Orgy1_Sex5_1_25.mkv")
+    show videov_Orgy1_Sex5_1_25
+    with fade
 	indenbach "Как же давно я хотел потрахаться! Даааа!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35777
+	w
+	# 4
+	# v_Orgy1_Sex5_2_25
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_2_25= Movie(play="video/v_Orgy1_Sex5_2_25.mkv")
+    show videov_Orgy1_Sex5_2_25
+    with fade
 	indenbach "Неужели это случилось?!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 5
+	# v_Orgy1_Sex5_4_25
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.4) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_4_25= Movie(play="video/v_Orgy1_Sex5_4_25.mkv")
+    show videov_Orgy1_Sex5_4_25
+    with fade
+	mt "!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35778
 	w
 	img 35779
+	w
+
+	# 6
+	# v_Orgy1_Sex5_5
+	$ localSoundVolume = 1.0
+    $ localSoundName = v_Orgy1_Sex5_1_sound_name
+    img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_5= Movie(play="video/v_Orgy1_Sex5_5.mkv")
+    show videov_Orgy1_Sex5_5
+    with fade
 	indenbach "Как охрененно! Оооо!!!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35780
+	w
+	# 7
+	# v_Orgy1_Sex5_7
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_7= Movie(play="video/v_Orgy1_Sex5_7.mkv")
+    show videov_Orgy1_Sex5_7
+    with fade
 	indenbach "Какая влажная и теплая дырка!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	img 35781
+	w
+	# 8
+	# v_Orgy1_Sex5_6
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_6= Movie(play="video/v_Orgy1_Sex5_6.mkv")
+    show videov_Orgy1_Sex5_6
+    with fade
 	indenbach "Какая офигенная проститутка! Дааа!"
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
+	# 9
+	# v_Orgy1_Sex5_8
+	img black_screen
+    with diss
+    stop music2
+    $ renpy.music.set_volume(localSoundVolume, 0.5, channel="music2")
+    $ renpy.music.set_volume(0.2, 0.5, channel="music")
+    play music2 "<from " + str(float(rand(0,4))*1.16666667) + " loop 0.0>Sounds/" + localSoundName + ".ogg"
+    scene black
+    image videov_Orgy1_Sex5_8= Movie(play="video/v_Orgy1_Sex5_8.mkv")
+    show videov_Orgy1_Sex5_8
+    with fade
+    wclean
+    stop music2
+    $ renpy.music.set_volume(1.0, 0.5, channel="music2")
+    $ renpy.music.set_volume(1.0, 0.5, channel="music")
+
 	# кадр на пару Брайан-Эбби
     brian "Ееее! Каааайф!"
     abby "Еще-еще!!!"
@@ -1673,6 +2565,7 @@ label ep22_5_dialogues1_escort1_5:
     brian "Еще немного!!! Ооооо!!!"
     menu:
         "Кончить внутрь Эбби.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 1
 			img 35723
             brian "Аааа! Сейчас я кончу в тебя, детка Эбби!"
 			img 35722
@@ -1690,6 +2583,7 @@ label ep22_5_dialogues1_escort1_5:
 			img 35785
             pass
         "Кончить на киску Эбби.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 2
 			img 35723
             brian "Аааа! Хочу обкончать твою киску, детка Эбби!"
 			img 35722
@@ -1709,6 +2603,7 @@ label ep22_5_dialogues1_escort1_5:
 			img 35790
             pass
         "Кончить на живот Эбби.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 3
 			img 35723
             brian "Аааа! Сейчас я обкрнчаю тебя, детка Эбби!"
 			img 35722
@@ -1740,6 +2635,7 @@ label ep22_5_dialogues1_escort1_5:
 	harry "ДААААА!"
 	menu:
 		"Кончить внутрь Кэндис.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 4
 			img 35653
 			candice "ОООО, Гарриии!"
 			img 35654
@@ -1757,6 +2653,7 @@ label ep22_5_dialogues1_escort1_5:
 			img 35796
 			pass
 		"Кончить на киску Кэндис.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 5
 			img 35653
 			candice "ОООО, Гарриии!"
 			img 35654
@@ -1774,6 +2671,7 @@ label ep22_5_dialogues1_escort1_5:
 			img 35796
 			pass
 		"Кончить на живот Кэндис.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 6
 			img 35653
 			candice "ОООО, Гарриии!"
 			img 35654
@@ -1805,6 +2703,7 @@ label ep22_5_dialogues1_escort1_5:
 	$ monicaAbbyCandiceHarry4 = day # Моника переспала с соседом Эбби
     menu:
         "Кончить внутрь Моники.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 7
 			img 35779
 			w
 			img 35778
@@ -1818,6 +2717,7 @@ label ep22_5_dialogues1_escort1_5:
             m "!!!"
             pass
         "Кончить на киску Моники.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 8
 			img 35779
 			w
 			img 35778
@@ -1830,6 +2730,7 @@ label ep22_5_dialogues1_escort1_5:
             m "!!!"
             pass
 		"Кончить на живот Моники.":
+			$ ep22_5_abby_candice_monica_orgy_cum_zone = 9
 			img 35779
 			w
 			img 35778
