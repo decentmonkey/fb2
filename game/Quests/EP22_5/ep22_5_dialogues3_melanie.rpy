@@ -1,14 +1,14 @@
 default melanieVictoriaInstructorDate1 = 0  # Мелани увидела на руках Виктории шрамы
 default melanieVictoriaInstructorDate2 = 0  # у Мелани было DP с Алексом и фитнес-тренером
 
-define v_Melanie_FitnessTrainer_Sex1_1_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
-define v_Melanie_FitnessTrainer_Sex1_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex2_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
-define v_Melanie_FitnessTrainer_Sex2_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1_25"
-define v_Melanie_FitnessTrainer_Sex3_1_sound_name = "v_Monica_AbbyCustomer_Blowjob1_1_25"
-define v_Melanie_FitnessTrainer_Sex3_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex4_1_25_sound_name = "v_Monica_AbbyCustomer_Sex1_1"
-define v_Melanie_FitnessTrainer_Sex4_1_sound_name = "v_Monica_AbbyCustomer_Sex2_1_25"
+define v_Melanie_FitnessTrainer_Sex1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex2_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex2_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex3_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex3_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex4_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex4_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
 
 # апартаменты Виктории
 # Мелани и Виктория сидят на диванчике, на котором сидела Стефани
@@ -1238,9 +1238,9 @@ label ep22_5_dialogues3_melanie_2:
     menu:
         "Кончить внутрь Мелани.":
             img 44737
-			fitness_instructor "Ррррр!"
-			fitness_instructor "Оооох..."
-			fitness_instructor "ДАААААА!!!"
+            fitness_instructor "Ррррр!"
+            fitness_instructor "Оооох..."
+            fitness_instructor "ДАААААА!!!"
             img 44738
             alex_photograph "ААА!"
             alex_photograph "АААААА!!"
@@ -1251,10 +1251,10 @@ label ep22_5_dialogues3_melanie_2:
             pass
         "Кончить на Мелани.":
             img 44737
-			fitness_instructor "Ррррр!"
-			fitness_instructor "Оооох..."
+            fitness_instructor "Ррррр!"
+            fitness_instructor "Оооох..."
             img 44743
-			fitness_instructor "ДАААААА!!!"
+            fitness_instructor "ДАААААА!!!"
             img 44744
             w
             img 44738
