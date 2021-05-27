@@ -116,6 +116,14 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     with diss
     pause 1.5
     $ rnd1 = rand(1,4)
+    if ep225_quests_meeting2_planned == True:
+        call change_scene("rich_hotel_restaurant", "Fade_long")
+        return False
+    if ep225_quests_meeting1_planned == True and ep224_quests_meeting2_day < day:
+        # Эбби и Кэндис говорят о проблемах с соседом
+        call ep225_quests_escort1_2_meet_abbycandise()
+        call change_scene("rich_hotel_restaurant", "Fade_long")
+        return False
     if ep224_quests_meeting2_planned == True:
         # встреча с Эбби после клиента у нее дома
         call ep224_quests_escort5_abby_meeting() from _rcall_ep224_quests_escort5_abby_meeting

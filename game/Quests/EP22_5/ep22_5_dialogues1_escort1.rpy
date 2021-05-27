@@ -256,7 +256,7 @@ label ep22_5_dialogues1_escort1_1:
             imgd 35412
             mt "Пусть сами решают свои проблемы!"
             mt "!!!"
-            return
+            return False
     # Моника задумчиво
     music Stealth_Groover
     imgd 35409
@@ -300,7 +300,7 @@ label ep22_5_dialogues1_escort1_1:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    return
+    return True
 
 # если Моника в первый раз отказалась помогать девочкам (if monicaAbbyCandiceHarry1 == 0 or monicaAbbyCandiceHarry2 == 0 or monicaAbbyCandiceHarry3 == 0)
 # при клике на Кэндис, которая сидит за столом с грустным видом
@@ -359,7 +359,7 @@ label ep22_5_dialogues1_escort1_2:
             imgd 35412
             mt "Пусть сами решают свои проблемы!"
             mt "!!!"
-            return
+            return False
     # Моника задумчиво
     music Stealth_Groover
     imgd 35409
@@ -401,7 +401,7 @@ label ep22_5_dialogues1_escort1_2:
     fadeblack
     sound highheels_short_walk
     pause 2.0
-    return
+    return True
 
 # выходит из отеля Ле Гранд в этот же вечер
 # мысли
@@ -906,7 +906,7 @@ label ep22_5_dialogues1_escort1_5:
             pause 1.5
             sound highheels_run2
             pause 2.0
-            return
+            return False
     # Моника в шоке
     music Pyro_Flow
     imgd 35516
@@ -1019,7 +1019,7 @@ label ep22_5_dialogues1_escort1_5:
             fadeblack
             sound highheels_short_walk
             pause 2.0
-            return
+            return False
     # Моника подозрительно смотрит на Эбби
     music Pyro_Flow
     imgd 35540
@@ -1283,8 +1283,8 @@ label ep22_5_dialogues1_escort1_5:
     music Groove2_85
     imgf 35600
     indenbach "Я любил трахать ее прямо между сисек. Хе-хе!"
-    mt "О, Боже!"
-    mt "Избавь меня от подробностей твоей никчемной жизни!"
+    m "О, Боже!"
+    m "Избавь меня от подробностей твоей никчемной жизни!"
     imgd 35601
     indenbach "Ну-ка, давай ты сейчас сделаешь так же!"
     # он суетливо оглядывается, смотрит на кровать
@@ -1608,6 +1608,7 @@ label ep22_5_dialogues1_escort1_5:
     harry "Хорош пялиться на них!"
     candice "Ой! Хи-хи-хи!"
     fadeblack 1.5
+    sound Jump1
     music Loved_Up
     imgfl 35641
     w
@@ -3490,7 +3491,7 @@ label ep22_5_dialogues1_escort1_5:
     fadeblack
     sound snd_door_close1
     pause 2.0
-    return
+    return True
 
 # возле дома Кэндис и Эбби, после встречи с соседом, если отказалась помогать и ушла
 # мысли

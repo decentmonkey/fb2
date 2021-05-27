@@ -85,6 +85,7 @@ label ep224_quests_escort5_abby_meeting:
         $ questHelp("escort_30", False)
     else:
         $ questHelp("escort_30", True)
+        call ep225_quests_escort1_1_init()
     return
 
 
