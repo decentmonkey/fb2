@@ -103,7 +103,8 @@ label start: #for blink here
 
 #########
 
-#    call ep22_5_dialogues1_escort1_5() # сцена в комнате Эбби
+#    call ep22_5_dialogues2_escort2_4() # сцена кастинга в конференц-зале перед Стивом
+
 #########
 
 
