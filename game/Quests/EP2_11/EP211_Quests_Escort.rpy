@@ -116,6 +116,10 @@ label ep211_quests_escort4_restaurant: # Вход в ресторан
     with diss
     pause 1.5
     $ rnd1 = rand(1,4)
+    if ep225_quests_escort2_1_planned == True:
+        call ep225_quests_escort2_2()
+        call change_scene("rich_hotel_restaurant", "Fade_long")
+        return False
     if ep225_quests_meeting2_planned == True:
         call change_scene("rich_hotel_restaurant", "Fade_long")
         return False

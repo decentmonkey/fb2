@@ -1211,7 +1211,7 @@ label ep22_5_dialogues3_melanie_2:
     # Алекс растерянно смотрит на происходящее
 
     imgf 44716
-    w
+    alex_photograph "Мелани, но ты мне никогда не разрешала делать это туда..."
     # 4
     # v_Melanie_FitnessTrainer_Sex3_4_25
     $ localSoundVolume = 1.0
@@ -1227,6 +1227,7 @@ label ep22_5_dialogues3_melanie_2:
     show videov_Melanie_FitnessTrainer_Sex3_4_25
     with fade
     melanie "Алекс, иди сюда скорее!"
+    melanie "Сегодня я хочу этого больше всего на свете!"
     alex_photograph "..."
     wclean
     stop music2
