@@ -238,16 +238,16 @@ label ep22_5_dialogues3_melanie_2:
     cafe_visitor1 "В-вы такая к-красивая!!! Спасибо!!!"
     # Мелани снова оглядывается, не обращая внимания на поклонника
     # из-за одного из столиков ей машет рукой фитнес-тренер, широко улыбаясь, он измазан кетчупом
-    img 44572
+    music stop
+    sound plastinka1b
+    img 44572 hpunch
     fitness_instructor "Я тут!"
     fitness_instructor "Иди сюда!"
     # Мелани смотрит на него, как на насекомое, медлит
-    music stop
-    sound plastinka1b
-    img 44573 hpunch
+    music ZigZag
+    imgd 44573
     melanie "!!!"
     melanie "!!!!"
-    music ZigZag
     imgf 44574
     sound2 wow
     w
@@ -285,7 +285,7 @@ label ep22_5_dialogues3_melanie_2:
     sound highheels_short_walk
     imgf 44582
     w
-    sound Jump2
+    sound vjuh3
     imgd 44583
     w
     imgf 44584
@@ -458,7 +458,7 @@ label ep22_5_dialogues3_melanie_2:
     melanie "Мне нужно успеть провести тренировку до... До вечера."
     # он торопливо встает из-за стола
     sound Jump1
-    img 44625
+    img 44625 vpunch
     fitness_instructor "Понял! Не дурак!"
     fitness_instructor "Я сейчас быстро расплачусь и поедем к тебе!"
     # уходит
@@ -575,8 +575,8 @@ label ep22_5_dialogues3_melanie_2:
     pause 2.0
     music Loved_Up
     imgf 44645
+    sound2 wow
     w
-    sound wow
     img 44646 vpunch
     w
     sound Jump2
@@ -591,9 +591,7 @@ label ep22_5_dialogues3_melanie_2:
     # смена кадра
     # приемная в офисе Дика
     # Виктория сидит на своем рабочем месте и смотрит в монитор, довольно хихикая
-    fadeblack 1.5
-    music Master_Disorder
-    sound2 snd_woman_laugh3
+    sound snd_woman_laugh3
     imgf 19023
     victoria "Хи-хи-хи!"
     # затемнение
@@ -619,7 +617,7 @@ label ep22_5_dialogues3_melanie_2:
     imgd 44654
     fitness_instructor "Я... А мне... Кхм!"
     sound vjuh3
-    img 44655
+    img 44655 vpunch
     w
     # Мелани соблазнительно ложится на живот, косится на камеру
     imgd 44656
@@ -697,11 +695,6 @@ label ep22_5_dialogues3_melanie_2:
     sound chpok5
     imgd 44672
     fitness_instructor "Сейчас мы поработаем с твоими мышцами, Мелани."
-    imgd 44670
-    w
-    sound chpok5
-    imgd 44672
-    w
     imgf 44673
     fitness_instructor "После этой тренировки ты почувствуешь легкость во всем теле."
     fitness_instructor "И тебе захочется повторять наши персональные тренировки снова и снова."
@@ -1066,7 +1059,7 @@ label ep22_5_dialogues3_melanie_2:
     # Алекс возмущенно
     fadeblack 1.5
     music Power_Bots_Loop
-    img 44697 hpunch
+    imgd 44697
     alex_photograph "Мелани, что ты творишь?!"
     alex_photograph "Зачем ты так поступаешь со мной?!"
     melanie "..."
@@ -1076,6 +1069,7 @@ label ep22_5_dialogues3_melanie_2:
     alex_photograph "Как ты себе представляешь это?!"
     imgd 44699
     w
+    sound vjuh3
     imgd 44700
     w
     # тренер теряет интерес к Алексу и водит рукой по бедру Мелани, рассматривает ее
@@ -1132,6 +1126,12 @@ label ep22_5_dialogues3_melanie_2:
     # Мелани делает движения бедрами на тренере
     imgf 44711
     fitness_instructor "Ооох, сделай так еще разочек, Мелани."
+    imgd 44708
+    w
+    sound Jump1
+    imgd 44709
+    melanie "Мммм..."
+    imgd 44708
     # она повторяет движение
     # тренер кладет руку ей на груди и мнет их
     fitness_instructor "Ееее..."
@@ -1540,7 +1540,9 @@ label ep22_5_dialogues3_melanie_2:
             melanie "Ммммм..."
             pass
     # Мелани, вся в сперме, смотрит на камеру
-    fadeblack 1.5
+    fadeblack
+    sound man_steps
+    pause 2.0
     music Master_Disorder
     imgfl 44745
     melanie "!!!"
@@ -1548,7 +1550,7 @@ label ep22_5_dialogues3_melanie_2:
     # смена кадра на приемную в офисе Дика
     # Виктория кончает
     music Loved_Up
-    img 19037
+    imgf 19037
     show screen photoshot_screen()
     with hpunch
     pause 0.7
