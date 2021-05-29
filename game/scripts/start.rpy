@@ -103,7 +103,7 @@ label start: #for blink here
 
 #########
 
-#    call ep22_5_dialogues5_pub_1() # разговор Клэр и Джо в гримерке, далее приват
+#    call ep22_5_dialogues4_rayan_3() # студия Райена
 
 #########
 
