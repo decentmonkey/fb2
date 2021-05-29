@@ -525,7 +525,9 @@ label ep22_5_dialogues5_pub_1:
     customer8 "Ты же тоже хочешь этого!"
     img 35982
     menu:
-        "Сделать, как просит клиент.":
+        "Сделать, как просит клиент. (Extra version) (disabled)" if game.extra == False:
+            pass
+        "Сделать, как просит клиент." if game.extra == True: # в экстру
             $ monicaStripClarePrivate2 = day # Клэр согласилась на просьбу клиента и прикоснулась к нему языком
             pass
         "Отказаться.":

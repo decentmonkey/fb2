@@ -2294,7 +2294,9 @@ label ep22_5_dialogues1_escort1_5:
 #			w
 #			img 35654
             pass
-        "Засунуть член в рот Эбби.":
+        "Засунуть член в рот Эбби. (Extra version) (disabled)" if game.extra == False:
+            pass
+        "Засунуть член в рот Эбби." if game.extra == True: # в экстру
             # суетливо слезает с кровати и встает над головой Эбби
             # Брайан ее жарит, задра ей ноги
             imgf 35750
