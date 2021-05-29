@@ -103,7 +103,7 @@ label start: #for blink here
 
 #########
 
-#    call ep22_5_dialogues4_rayan_3() # студия Райена
+#    call ep22_5_dialogues_revenge_quest1() # трущобы, разговор с мамочкой, потом полиция и Маркус
 
 #########
 
