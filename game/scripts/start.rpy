@@ -45,6 +45,8 @@ default episode2full = False
 
 default questLogGlobalEnabled = False
 
+default revengeQuestStarted = False
+
 label start: #for blink here
 
     #new game
@@ -467,13 +469,17 @@ label start_game_EP22:
     $ ep224_quests_load_init_flag = True
     $ ep225_quests_load_init_flag = True
     $ questHelpActivated = True
-    call questHelp_init() from _rcall_questHelp_init_2
-    $ questHelp("other1")
-    $ questHelp("other2")
-    $ questHelp("office_58")
     #remove bardie
     $ remove_hook(label="menu_betty_panties_show_to_monica")
     $ set_active("Panties_Box", False, scene="basement_laundry")
+
+    call questHelp_init() from _rcall_questHelp_init_2
+    if revengeQuestStarted == True:
+        call ep255_revenge_quest1()
+        jump show_scene
+    $ questHelp("other1")
+    $ questHelp("other2")
+    $ questHelp("office_58")
 
 #    call refresh_scene_fade_long()
     call ep217_quests() from _rcall_ep217_quests

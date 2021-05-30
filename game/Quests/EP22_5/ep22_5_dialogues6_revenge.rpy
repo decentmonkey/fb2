@@ -181,6 +181,7 @@ label ep22_5_dialogues_revenge_quest1:
                     mommy "Нет, девочка..."
                     mommy "Ты шла одна... По пустой дороге..."
                     music Master_Disorder
+                    imgf 60220
                     mommy "И за тобой была только тень..."
                     mommy "Твоя тень, девочка..."
                     sound vjuh3
@@ -197,6 +198,7 @@ label ep22_5_dialogues_revenge_quest1:
 
                 "Наставить пистолет на себя.": # правильный выбор
                     $ monicaRevengeQuestMarcusGun2 = day # Моника достала пистолет и наставила его на себя
+                    music I_Feel_You
                     imgf 60239
                     m "Я прошла... Очень многое..."
                     m "За последнее время..."
@@ -216,15 +218,17 @@ label ep22_5_dialogues_revenge_quest1:
                     imgd 60241
                     # Моника закрывает глаза, собираясь застрелиться
                     m "Никто не увидит Монику Бакфетт, поднявшую руки! Никто..."
+                    music Master_Disorder
                     mommy "Никого не было, девочка..."
-                    sound Jump2
+                    sound Jump1
                     img 60242 hpunch
                     # Моника открывает глаза
                     m "Что?"
-                    music Master_Disorder
-                    imgf 60243
+#                    music Master_Disorder
+                    imgf 60220
                     mommy "Никого не было за тобой..."
                     mommy "Никто за тобой не следил в тот день..."
+                    img 60243
                     m "Не может быть!"
                     m "Ты врешь!"
                     mommy "Девочка, я никогда не вру..."
@@ -381,11 +385,14 @@ label ep22_5_dialogues_revenge_quest1:
     music Gearhead
     img 60311 vpunch
     m "Мистер Маркус, позвольте Вас побеспокоить..."
+#    music Master_Disorder
     imgf 60312
     marcus "О, Миссис Бакфетт, какой сюрприз..."
     marcus "Я ждал вас..."
+#    music Gearhead
     imgd 60313
     m "Я тоже ждала... Долго..."
+#    music Master_Disorder
     imgf 60314
     marcus "Чего же вы ждали, Миссис Бакфетт?"
     marcus "И что привело Вас сюда сегодня?"
@@ -455,6 +462,10 @@ label ep22_5_dialogues_revenge_quest1:
             w
             sound snd_gun_charge
             w
+            sound snd_gun_charge
+            w
+            sound snd_gun_charge
+            w
             img 60341 hpunch
             # щелчок, осечка
             music Villainous_Treachery
@@ -463,7 +474,7 @@ label ep22_5_dialogues_revenge_quest1:
         "Опустить пистолет.":
             img 60326
             w
-            sound Jump2
+#            sound Jump2
             img 60334 vpunch
             music Villainous_Treachery
             m "Я... Я не могу сделать это..."
@@ -474,7 +485,75 @@ label ep22_5_dialogues_revenge_quest1:
 
     ## если отвечала мамочке неправильно
     if monicaRevengeQuestMarcusGun1 > 0 or monicaRevengeQuestMarcusGun3 > 0:
-        jump ep213_dialogues_marcus5
+        fadeblack 3.0
+        call textonblack(t_("Спустя некоторое время..."))
+        img black_screen
+        with Dissolve(1)
+        music dream
+        imgfl img_farm1
+        w
+        fadeblack 4.0
+        img black_screen
+        with fade
+        sound snd_woman_scream2
+        pause 1.5
+        sound2 snd_bodyfall
+        pause 1.0
+        music Gearhead
+        imgfl 24222
+        m "Нет!"
+        imgf 24223
+        w
+        imgd 24224
+        m "Нет!!"
+        imgf 24226
+        m "Нет!!!"
+        sound man_steps
+        imgd 24225
+        m "Неееет!!!!!!"
+        sound2 snd_ironing_2
+        img 24227
+        show screen photoshot_screen()
+        with hpunch
+        pause 0.7
+        hide screen photoshot_screen
+        sound snd_woman_scream2
+        m "ААААААААААААААААААААААААААА!!!!"
+        img 24228 hpunch
+        w
+        img 24229
+        show screen photoshot_screen()
+        pause 0.7
+        hide screen photoshot_screen
+        w
+
+        stop music
+        sound snd_cinematic_impact
+        img black_screen
+        $ renpy.pause(4.0, hard=True)
+        music Continue_Life
+        img black_screen
+        with Dissolve(2.0)
+        call textonblack("TO BE CONTINUED...")
+        img black_screen
+        with Dissolve(2.0)
+        $ renpy.pause(2.0, hard=True)
+        img black_screen
+        with Dissolve(0.5)
+        img Patreon_Game_Logo
+        with Dissolve(0.7)
+        $ renpy.pause(1.0, hard=True)
+    ##    pause 4.0
+        $ renpy.pause(4.0, hard=True)
+        img black_screen
+        with Dissolve(0.7)
+        $ renpy.pause(3.0, hard=True)
+    ##    pause 30.0
+    ##    music stop
+    ##    pause 1.0
+        call credits()
+        $ MainMenu(confirm=False)()
+
         # повтор сцены на ферме, где клеймят
     ## если сделала правильные выборы с мамочкой
     if monicaRevengeQuestMarcusGun2 > 0 or monicaRevengeQuestMarcusGun4 > 0:
@@ -519,7 +598,7 @@ label ep22_5_dialogues_revenge_quest1:
     marcus "Миссис Бакфетт..."
     marcus "Видимо я действительно не зря сделал исключение для вас..."
     marcus "Когда пошел против воли остальных членов нашего общества и позволил вам выйти на свободу..."
-    img 60265
+    imgd 60265
     m "Это Дик! Дик добился свободы для меня!"
     marcus "Не совсем..."
     marcus "Это Я позволил сработать его плану, но мог бы этого и не делать..."
@@ -558,11 +637,9 @@ label ep22_5_dialogues_revenge_quest1:
     marcus "Но вы теперь кое-что знаете про меня..."
     marcus "Что я, в какой-то мере, миллионер из трущоб..."
     marcus "Хотя деньги для меня уже давно ничего не значат, Миссис Бакфетт..."
+    imgd 60275
     marcus "Деньги - это... Это скучно..."
     marcus "Мои достижения весьма велики и связаны они... С другим..."
-    sound Jump2
-    img 60275 hpunch
-    w
     imgd 60276
     m "Хороший же сыночек, у которого мать работает сутенершей!"
     sound man_steps
@@ -611,7 +688,7 @@ label ep22_5_dialogues_revenge_quest1:
     w
     imgd 60288
     w
-    sound Jump2
+#    sound Jump2
     img 60289
     w
     music Master_Disorder
@@ -695,6 +772,7 @@ label ep22_5_dialogues_revenge_quest1:
     sound snd_cinematic_impact
     img black_screen
     $ renpy.pause(4.0, hard=True)
+    music Continue_Life
     img black_screen
     with Dissolve(2.0)
     call textonblack("TO BE CONTINUED...")
@@ -706,10 +784,14 @@ label ep22_5_dialogues_revenge_quest1:
     img Patreon_Game_Logo
     with Dissolve(0.7)
     $ renpy.pause(1.0, hard=True)
+##    pause 4.0
     $ renpy.pause(4.0, hard=True)
     img black_screen
     with Dissolve(0.7)
     $ renpy.pause(3.0, hard=True)
+##    pause 30.0
+##    music stop
+##    pause 1.0
     call credits()
     $ MainMenu(confirm=False)()
     return

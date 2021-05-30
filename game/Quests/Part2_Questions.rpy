@@ -407,7 +407,12 @@ label part2_questions_init_loadgame:
 #    $ episode2part2_initialized = True
     img black_screen
 #    m "part2 init!"
-    call part2_questions_process(False) from _rcall_part2_questions_process_1
+
+    if ep210_revenge_quest2_box_blocked_fred == True:
+        # запущен revenge quest!
+        $ revengeQuestStarted = True
+    else:
+        call part2_questions_process(False) from _rcall_part2_questions_process_1
 
     call monica_cheats_init() from _rcall_monica_cheats_init_2
     $ ep24_quests_initialized = True
@@ -473,8 +478,9 @@ label part2_questions_process(new_game_started):
             pass
         "Тренировка у Маркуса (продолжение квеста в следующих апдейтах) (disabled)":
             pass
-        "Путь мести (продолжение квеста в следующих апдейтах) (disabled)":
-            pass
+        "Путь мести.":
+            $ revengeQuestStarted = True
+            return
 
     if new_game_started == True or ep2p2_flag1 != True:
         call part2_questions_loadgame_comment() from _rcall_part2_questions_loadgame_comment
