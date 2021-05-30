@@ -57,6 +57,7 @@ init python:
     (0, ""),
     (2, "ENGLISH TRANSLATION"),
     (3, "Aesthetic Dialectic"),
+    (3, "bambam"),
     (3, "RazorEdge6"),
     (0, ""),
     (0, ""),
