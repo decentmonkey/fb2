@@ -58,6 +58,7 @@ label ep218_quests_shinyhole3_private: # приходит Эшли и требу
     $ cloth = "Whore"
     $ cloth_type = "Whore"
     $ pub_makeuproom_monica_suffix = 2
+    call ep255_quests_shinyhole1_init()
     call change_scene("pub_makeuproom", "Fade_long") from _rcall_change_scene_234
     $ add_hook("before_open", "ep218_quests_shinyhole4_afterprivate", scene="pub", label="ep218_quests_shinyhole4_afterprivate", once=True)
     return False

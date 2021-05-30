@@ -402,6 +402,7 @@ label ep22_5_dialogues5_pub_1:
     sound heel1
     img 35916 hpunch
     w
+    fadeblack 2.0
     music Road_Trip
     imgf 35917
     w
@@ -673,7 +674,7 @@ label ep22_5_dialogues5_pub_1:
     menu:
         "Сделать, как просит клиент. (Extra version) (disabled)" if game.extra == False:
             pass
-        "Сделать, как просит клиент." if game.extra == True: # в экстру
+        "Сделать, как просит клиент. (Extra version)" if game.extra == True: # в экстру
             $ monicaStripClarePrivate2 = day # Клэр согласилась на просьбу клиента и прикоснулась к нему языком
             pass
         "Отказаться.":
@@ -709,7 +710,7 @@ label ep22_5_dialogues5_pub_1:
             customer8 "В следующий раз ты это сделаешь, Клэр!"
             # она поворачивает к нему голову, загадочно улыбается и выходит
             clare "..."
-            return False
+            return True
     # шлепок стеком по члену
     music Loved_up
     imgf 35979
@@ -826,7 +827,7 @@ label ep22_5_dialogues5_pub_1:
     sound2 snd_woman_laugh2
     imgf 36002
     clare "..."
-    return
+    return True
 
 # после привата Клэр, Моника заходит в паб
 # гримерка, Моника в одежде шлюхи

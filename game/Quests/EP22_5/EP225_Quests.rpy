@@ -11,4 +11,6 @@ label ep225_quests_load_init:
         call ep225_quests_victoria_init()
     if ep224_quests_office_day3_completed > 0:
         call ep225_quests_rayan1_init()
+    if ep218_quests_monica_queen_job1_day > 0:
+        call ep255_quests_shinyhole1_init()
     return
