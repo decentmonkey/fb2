@@ -82,6 +82,7 @@ label ep224_quests_office5_biff:
     $ autorun_to_object("ep22_4_dialogues4_office_11", scene="monica_office_secretary")
     call change_scene("monica_office_secretary", "Fade_long") from _rcall_change_scene_255
     $ ep224_quests_office_day3_completed = day
+    call ep225_quests_rayan1_init()
     return False
 
 

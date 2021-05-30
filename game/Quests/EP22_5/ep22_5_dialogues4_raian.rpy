@@ -4,7 +4,8 @@ default monicaRyanStudioPhotoshoot3 = 0 # Моника согласилась н
 default monicaRyanStudioPhotoshoot4 = 0 # Моника пошла в студию Райена повторно после отказа от съемки
 
 default ep22_5_dialogues4_rayan_1_repeat = False
-
+default ep22_5_dialogues4_rayan_2_repeat = False
+default PS12_shoots_array = []
 define monicaPhotoshootRyanStudioCorruptionRequired1 = 700 # Моника согласилась сняться для коллекции Райена
 define monicaPhotoshootRyanStudioCorruptionRequired2 = 750 # Моника согласилась на откровенный кадр у Райена
 
@@ -44,19 +45,7 @@ label ep22_5_dialogues4_rayan_1:
         # вечером переход на фотосессию в студии Райена
         return
 
-    menu:
-        "Пойти в студию Райена.":
-            $ monicaRyanStudioPhotoshoot1 = day # Моника пошла в студию Райена
-            pass
-        "Не сегодня.":
-            music Stealth_Groover
-            imgd 21989
-            mt "Я обязательно схожу... Позже..."
-            mt "Этот жалкий фотограф в любом случае не посмеет ослушаться меня..."
-            mt "И будет ждать моего визита."
-            mt "Никуда он не денется."
-            mt "А у меня есть более важные дела сегодня."
-            return False
+
     # Моника сидит в кресле за своим рабочим столом с задумчивым видом
     music Groove2_85
     imgd 21989
@@ -175,6 +164,33 @@ label ep22_5_dialogues4_rayan_1:
     $ ep22_5_dialogues4_rayan_1_repeat = True
     return
 
+
+label ep22_5_dialogues4_rayan_1a:
+    menu:
+        "Пойти в студию Райена.":
+            $ monicaRyanStudioPhotoshoot1 = day # Моника пошла в студию Райена
+            pass
+        "Не сегодня.":
+#            music Stealth_Groover
+#            imgd 21989
+            mt "Я обязательно схожу... Позже..."
+            mt "Этот жалкий фотограф в любом случае не посмеет ослушаться меня..."
+            mt "И будет ждать моего визита."
+            mt "Никуда он не денется."
+            mt "А у меня есть более важные дела сегодня."
+            return False
+    return True
+
+label ep22_5_dialogues4_rayan_1b:
+    mt "Мне нужно как можно скорее забрать снимки у никчемного фотографа Райена."
+    mt "Если я этого не сделаю - он отправит их Бифу."
+    mt "Мне нельзя допустить этого!"
+    return
+
+label ep22_5_dialogues4_rayan_1c:
+    mt "Мне нечего здесь делать сейчас..."
+    return False
+
 # апартаменты Райена
 label ep22_5_dialogues4_rayan_3:
     scene black_screen
@@ -187,242 +203,245 @@ label ep22_5_dialogues4_rayan_3:
     pause 2.0
     sound highheels_short_walk
     pause 1.5
-    music Groove2_85
-    # звук лифта
-    # Моника заходит в его апартаменты
-    imgfl 44807
-    mt "Это что, его апартаменты?!"
-    mt "Какого черта?!"
-    mt "Я у этой никчемной помощницы просила узнать адрес студии, а не апартаментов!"
-    mt "Юлия - идиотка!"
-    mt "Ни на что не способная бывшая гувернантка!"
-    mt "!!!"
-    # Райен выходит навстречу Монике
-    sound man_steps
-    imgf 44808
-    ryan "Миссис Бакфетт, добрый вечер!"
-    # целует ей руку, как обычно
-    imgd 44809
-    ryan "Я несказанно рад вашему визиту!"
-    imgd 44810
-    sound snd_kiss2
-    ryan "Это честь для меня, принимать такого статусного гостя в моей скромной студии!"
-    # Моника с надменным видом
-    imgf 44811
-    m "Это твоя студия, Райен?"
-    m "Я решила, что это твой дом..."
-    # Райен улыбается
-    imgd 44812
-    ryan "Все верно, Миссис Бакфетт."
-    ryan "Моя студия находится в моих апартаментах."
-    ryan "Я здесь и живу, и занимаюсь творчеством."
-    # приглашает ее жестом войти
-    sound Jump1
-    imgd 44813
-    ryan "Проходите, Миссис Бакфетт."
-    ryan "Чай, кофе? Может, чего-то покрепче?"
-    # Моника высокомерно
-    music Stealth_Groover
-    imgf 44814
-    m "Нет, спасибо, Райен."
-    m "Ничего не нужно. Давай сразу перейдем к делу..."
-    m "У меня мало времени. Ты же понимаешь, что я очень занятая леди."
-    imgd 44815
-    ryan "Да, конечно, Миссис Бакфетт..."
-    # затемнение, каблуки
-    # они проходят в студию
-    # Моника осматривается со снобским выражением на лице
-    fadeblack
-    sound highheels_short_walk
-    pause 2.0
-    music Stealth_Groover
-    imgfl 44749
-    w
-    imgf 44750
-    w
-    imgd 44751
-    mt "Что это еще такое?"
-    mt "Это разве студия?!"
-    imgd 44752
-    mt "Какая-то непонятная каморка! Фи!"
-    mt "Как будто в каком-то подвале!"
-    mt "Другое дело - студия в офисе моего журнала!"
-    # Райен подходит к ней и загадочно улыбается
-    music Groove2_85
-    imgf 44753
-    ryan "Миссис Бакфетт..."
-    ryan "Не обращайте внимания, у меня тут всегда небольшой творческий беспорядок."
-    sound vjuh3
-    imgd 44754
-    ryan "Можете присесть вот на этот стул..."
-    # указывает рукой на реквизит для фотосъемки, стул стоит посреди полотна
-    imgf 44755
-    sound highheels_short_walk
-    m "..."
-    # Моника с важным видом садится на него
-    imgd 44756
-    w
-    fadeblack 1.5
-    music Groove2_85
-    imgf 44757
-    m "Райен, я хотела бы посмотреть снимки с рамой Кэмпбелла..."
-    m "У меня нет времени на светскую болтовню."
-    # Райен чешет затылок
-    imgd 44758
-    ryan "Кхм..."
-    ryan "Понимаете, в чем дело, Миссис Бакфетт..."
-    ryan "Я... Я сначала хотел бы рассказать вам о своем проекте."
-    music Stealth_Groover
-    imgd 44759
-    mt "Этот придурок думает, что меня это должно интересовать?!"
-    mt "Какое мне дело до его жалких делишек?!"
-    mt "Но, видимо, мне придется сделать заинтересованный вид..."
-    mt "Чтобы добраться, наконец, до этих чертовых снимков!"
-    # делает притворно-заинтересованное лицо
-    music Hidden_Agenda
-    imgd 44760
-    m "У тебя есть свой проект?"
-    m "Как интересно, Райен..."
-    # Райен улыбается
-    music Groove2_85
-    imgf 44761
-    ryan "Да, Миссис Бакфетт."
-    ryan "Я являюсь большим ценителем женской красоты."
-    ryan "И стараюсь отразить эту свою страсть в своих работах."
-    ryan "У меня есть уже целая коллекция работ, посвященных изяществу женского тела."
-    imgd 44762
-    ryan "И для завершения моей коллекции мне не хватает лишь одной..."
-    ryan "Которая станет вишенкой на торте, так сказать."
-    imgd 44763
-    w
-    img 44764
-    m "..."
-    imgf 44765
-    ryan "Совсем скоро у меня будет выставка..."
-    ryan "Она будет проходить не только в нашем городе, но и по всей стране."
-    ryan "Мои работы увидит весь мир, Миссис Бакфетт!"
-    imgd 44766
-    mt "А я тут при чем?!"
-    mt "Зачем мне вся эта лишняя информация?!"
-    mt "!!!"
-    # Райен пристально на нее смотрит и улыбается
-    imgd 44767
-    ryan "Вы, наверное, не понимаете, зачем я все это вам рассказываю?"
-    m "..."
-    m "Зачем же?.."
-    ryan "Вишенка на торте - это фотосессия с вашим участием, Миссис Бакфетт..."
-    music stop
-    sound plastinka1b
-    img 44768 hpunch
-    m "С моим?!"
-    m "?!"
-    music Groove2_85
-    imgd 44769
-    ryan "Да, Миссис Бакфетт."
-    ryan "Кто, как не глава журнала о моде..."
-    ryan "Которая не только поддерживает новый курс своего журнала, снимаясь в пикантных фотосессиях..."
-    ryan "Но также является самой красивой женщиной... И смелой... И притягательной..."
-    # Моника смотрит на него, подозрительноп прищурившись
-    imgd 44770
-    mt "Бред какой-то!"
-    mt "С какой стати я должна сниматься для его дурацкой выставки?!"
-    mt "Он что, думает, я получаю удовольствие от этих пошлых фотосессий?!"
-    mt "Такой же фотограф-извращенец, как и Алекс!"
-    mt "!!!"
-    # Моника принимает высокомерный вид
-    music Stealth_Groover
-    imgf 44771
-    m "Райен..."
-    m "Назови мне хотя бы одну причину..."
-    m "Из-за которой Я, Моника Бакфетт, глава известного журнала..."
-    m "Владелица многомиллионного бизнеса..."
-    m "И весьма занятая бизнес-леди..."
-    m "Должна дать согласие на съемку перед объективом твоей камеры."
-    # насмешливо приподнимает уголок губ в улыбке
-    imgd 44772
-    ryan "Причина есть."
-    ryan "Снимки с фотосессии в офисе Мистера Кэмпбелла..."
-    # Моника встакивает со стула
-    music Pyro_Flow
-    sound2 Jump2
-    img 44773 vpunch
-    m "Что?!"
-    m "Мы с тобой не так договаривались, Райен!!!"
-    m "Ты мне сказал, что..."
-    imgd 44774
-    ryan "Что буду рад вашему визиту в свою студию."
-    ryan "И, поверьте, это действительно так, Миссис Бакфетт."
-    img 44775 hpunch
-    m "Хватит заговаривать мне зубы!"
-    m "Меня интересуют только снимки! Никаких фотосессий!!!"
-    m "!!!"
-    # Райен абсолютно спокоен
-    music Groove2_85
-    imgf 44776
-    ryan "Вам совсем необязательно давать согласие именно сейчас, Миссис Бакфетт."
-    ryan "Я задержу снимки у себя еще на несколько дней и пока не буду посылать их в ваш журнал."
-    ryan "Но только на несколько дней, не больше."
-    ryan "Потом я буду вынужден их отправить, так как не смею нарушать приказ Мистера Кэмпбелла."
-    ryan "Все-таки он очень важный клиент, сами понимаете..."
-    music Power_Bots_Loop
-    img 44777 hpunch
-    m "Для тебя, Райен, нет более важного клиента, чем Я!"
-    m "!!!"
-    music Groove2_85
-    imgd 44778
-    ryan "Миссис Бакфетт, вы - модель."
-    ryan "Приглашенная модель для фотосессии, за которую Мистер Кэмпбелл весьма щедро заплатил мне."
-    ryan "Так что, повторюсь, его приказ я не могу нарушить."
-    ryan "Но я могу послать не все снимки, Миссис Бакфетт..."
-    ryan "А только те, которые отберете вы лично."
-    ryan "После того, как сниметесь в фотосессии для моей коллекции..."
-    imgf 44779
-    m "Это твое условие, Райен?"
-    ryan "Да, Миссис Бакфетт."
-    imgd 44780
-    mt "Черт!!!"
-    menu:
-        "Согласиться.":
-            pass
-        "Вот еще! Пошел он к черту!":
-            # Моника надменно
-            music Stealth_Groover
-            imgd 44781
-            mt "Этот никчемный жалкий фотограф решил ставить мне свои условия?!"
-            mt "МНЕ?! Монике Бакфетт?!"
-            mt "!!!"
-            imgf 44782
-            m "Я не собираюсь принимать участие ни в каких сомнительных фотосессиях!"
-            ryan "Тогда я буду вынужден отказать вам в отборе снимков..."
-            m "!!!"
-            imgd 44783
-            ryan "Притом, это не какая-нибудь сомнительная фотосессия, Миссис Бакфетт."
-            ryan "Эта коллекция вполне соответствует новому курсу вашего журнала."
-            img 44784
-            m "И что это значит?"
-            pass
-    # Моника смотрит на него подозрительно
-    music Groove2_85
-    imgf 44785
-    m "Как именно будет проходить эта фотосессия?"
-    # Райен рукой указывает на стул, на котором сидела Моника
-    ryan "Здесь, в моей студии, Миссис Бакфетт."
-    sound Jump1
-    imgd 44786
-    ryan "Реквизит, как видите, я уже подготовил."
-    m "Фотосессия со стулом?"
-    imgd 44787
-    ryan "Да, Миссис Бакфетт."
-    ryan "Это будут потрясающие кадры!"
-    ryan "Изящные очертания прекрасного обнаженного женского тела в приглушенном свете софитов..."
-    music stop
-    sound plastinka1b
-    img 44788 hpunch
-    m "Стоп!"
-    music Power_Bots_Loop
-    m "Обнаженного?!"
-    m "Ты что, с ума сошел?!"
-    m "Я не собираюсь раздеваться!.."
+    if ep22_5_dialogues4_rayan_2_repeat == False:
+        music Groove2_85
+        # звук лифта
+        # Моника заходит в его апартаменты
+        imgfl 44807
+        mt "Это что, его апартаменты?!"
+        mt "Какого черта?!"
+        mt "Я у этой никчемной помощницы просила узнать адрес студии, а не апартаментов!"
+        mt "Юлия - идиотка!"
+        mt "Ни на что не способная бывшая гувернантка!"
+        mt "!!!"
+        # Райен выходит навстречу Монике
+        sound man_steps
+        imgf 44808
+        ryan "Миссис Бакфетт, добрый вечер!"
+        # целует ей руку, как обычно
+        imgd 44809
+        ryan "Я несказанно рад вашему визиту!"
+        imgd 44810
+        sound snd_kiss2
+        ryan "Это честь для меня, принимать такого статусного гостя в моей скромной студии!"
+        # Моника с надменным видом
+        imgf 44811
+        m "Это твоя студия, Райен?"
+        m "Я решила, что это твой дом..."
+        # Райен улыбается
+        imgd 44812
+        ryan "Все верно, Миссис Бакфетт."
+        ryan "Моя студия находится в моих апартаментах."
+        ryan "Я здесь и живу, и занимаюсь творчеством."
+        # приглашает ее жестом войти
+        sound Jump1
+        imgd 44813
+        ryan "Проходите, Миссис Бакфетт."
+        ryan "Чай, кофе? Может, чего-то покрепче?"
+        # Моника высокомерно
+        music Stealth_Groover
+        imgf 44814
+        m "Нет, спасибо, Райен."
+        m "Ничего не нужно. Давай сразу перейдем к делу..."
+        m "У меня мало времени. Ты же понимаешь, что я очень занятая леди."
+        imgd 44815
+        ryan "Да, конечно, Миссис Бакфетт..."
+        # затемнение, каблуки
+        # они проходят в студию
+        # Моника осматривается со снобским выражением на лице
+        fadeblack
+        sound highheels_short_walk
+        pause 2.0
+        music Stealth_Groover
+        imgfl 44749
+        w
+        imgf 44750
+        w
+        imgd 44751
+        mt "Что это еще такое?"
+        mt "Это разве студия?!"
+        imgd 44752
+        mt "Какая-то непонятная каморка! Фи!"
+        mt "Как будто в каком-то подвале!"
+        mt "Другое дело - студия в офисе моего журнала!"
+        # Райен подходит к ней и загадочно улыбается
+        music Groove2_85
+        imgf 44753
+        ryan "Миссис Бакфетт..."
+        ryan "Не обращайте внимания, у меня тут всегда небольшой творческий беспорядок."
+        sound vjuh3
+        imgd 44754
+        ryan "Можете присесть вот на этот стул..."
+        # указывает рукой на реквизит для фотосъемки, стул стоит посреди полотна
+        imgf 44755
+        sound highheels_short_walk
+        m "..."
+        # Моника с важным видом садится на него
+        imgd 44756
+        w
+        fadeblack 1.5
+        music Groove2_85
+        imgf 44757
+        m "Райен, я хотела бы посмотреть снимки с рамой Кэмпбелла..."
+        m "У меня нет времени на светскую болтовню."
+        # Райен чешет затылок
+        imgd 44758
+        ryan "Кхм..."
+        ryan "Понимаете, в чем дело, Миссис Бакфетт..."
+        ryan "Я... Я сначала хотел бы рассказать вам о своем проекте."
+        music Stealth_Groover
+        imgd 44759
+        mt "Этот придурок думает, что меня это должно интересовать?!"
+        mt "Какое мне дело до его жалких делишек?!"
+        mt "Но, видимо, мне придется сделать заинтересованный вид..."
+        mt "Чтобы добраться, наконец, до этих чертовых снимков!"
+        # делает притворно-заинтересованное лицо
+        music Hidden_Agenda
+        imgd 44760
+        m "У тебя есть свой проект?"
+        m "Как интересно, Райен..."
+        # Райен улыбается
+        music Groove2_85
+        imgf 44761
+        ryan "Да, Миссис Бакфетт."
+        ryan "Я являюсь большим ценителем женской красоты."
+        ryan "И стараюсь отразить эту свою страсть в своих работах."
+        ryan "У меня есть уже целая коллекция работ, посвященных изяществу женского тела."
+        imgd 44762
+        ryan "И для завершения моей коллекции мне не хватает лишь одной..."
+        ryan "Которая станет вишенкой на торте, так сказать."
+        imgd 44763
+        w
+        img 44764
+        m "..."
+        imgf 44765
+        ryan "Совсем скоро у меня будет выставка..."
+        ryan "Она будет проходить не только в нашем городе, но и по всей стране."
+        ryan "Мои работы увидит весь мир, Миссис Бакфетт!"
+        imgd 44766
+        mt "А я тут при чем?!"
+        mt "Зачем мне вся эта лишняя информация?!"
+        mt "!!!"
+        # Райен пристально на нее смотрит и улыбается
+        imgd 44767
+        ryan "Вы, наверное, не понимаете, зачем я все это вам рассказываю?"
+        m "..."
+        m "Зачем же?.."
+        ryan "Вишенка на торте - это фотосессия с вашим участием, Миссис Бакфетт..."
+        music stop
+        sound plastinka1b
+        img 44768 hpunch
+        m "С моим?!"
+        m "?!"
+        music Groove2_85
+        imgd 44769
+        ryan "Да, Миссис Бакфетт."
+        ryan "Кто, как не глава журнала о моде..."
+        ryan "Которая не только поддерживает новый курс своего журнала, снимаясь в пикантных фотосессиях..."
+        ryan "Но также является самой красивой женщиной... И смелой... И притягательной..."
+        # Моника смотрит на него, подозрительноп прищурившись
+        imgd 44770
+        mt "Бред какой-то!"
+        mt "С какой стати я должна сниматься для его дурацкой выставки?!"
+        mt "Он что, думает, я получаю удовольствие от этих пошлых фотосессий?!"
+        mt "Такой же фотограф-извращенец, как и Алекс!"
+        mt "!!!"
+        # Моника принимает высокомерный вид
+        music Stealth_Groover
+        imgf 44771
+        m "Райен..."
+        m "Назови мне хотя бы одну причину..."
+        m "Из-за которой Я, Моника Бакфетт, глава известного журнала..."
+        m "Владелица многомиллионного бизнеса..."
+        m "И весьма занятая бизнес-леди..."
+        m "Должна дать согласие на съемку перед объективом твоей камеры."
+        # насмешливо приподнимает уголок губ в улыбке
+        imgd 44772
+        ryan "Причина есть."
+        ryan "Снимки с фотосессии в офисе Мистера Кэмпбелла..."
+        # Моника встакивает со стула
+        music Pyro_Flow
+        sound2 Jump2
+        img 44773 vpunch
+        m "Что?!"
+        m "Мы с тобой не так договаривались, Райен!!!"
+        m "Ты мне сказал, что..."
+        imgd 44774
+        ryan "Что буду рад вашему визиту в свою студию."
+        ryan "И, поверьте, это действительно так, Миссис Бакфетт."
+        img 44775 hpunch
+        m "Хватит заговаривать мне зубы!"
+        m "Меня интересуют только снимки! Никаких фотосессий!!!"
+        m "!!!"
+        # Райен абсолютно спокоен
+        music Groove2_85
+        imgf 44776
+        ryan "Вам совсем необязательно давать согласие именно сейчас, Миссис Бакфетт."
+        ryan "Я задержу снимки у себя еще на несколько дней и пока не буду посылать их в ваш журнал."
+        ryan "Но только на несколько дней, не больше."
+        ryan "Потом я буду вынужден их отправить, так как не смею нарушать приказ Мистера Кэмпбелла."
+        ryan "Все-таки он очень важный клиент, сами понимаете..."
+        music Power_Bots_Loop
+        img 44777 hpunch
+        m "Для тебя, Райен, нет более важного клиента, чем Я!"
+        m "!!!"
+        music Groove2_85
+        imgd 44778
+        ryan "Миссис Бакфетт, вы - модель."
+        ryan "Приглашенная модель для фотосессии, за которую Мистер Кэмпбелл весьма щедро заплатил мне."
+        ryan "Так что, повторюсь, его приказ я не могу нарушить."
+        ryan "Но я могу послать не все снимки, Миссис Бакфетт..."
+        ryan "А только те, которые отберете вы лично."
+        ryan "После того, как сниметесь в фотосессии для моей коллекции..."
+        imgf 44779
+        m "Это твое условие, Райен?"
+        ryan "Да, Миссис Бакфетт."
+        imgd 44780
+        mt "Черт!!!"
+        menu:
+            "Согласиться.":
+                pass
+            "Вот еще! Пошел он к черту!":
+                # Моника надменно
+                music Stealth_Groover
+                imgd 44781
+                mt "Этот никчемный жалкий фотограф решил ставить мне свои условия?!"
+                mt "МНЕ?! Монике Бакфетт?!"
+                mt "!!!"
+                imgf 44782
+                m "Я не собираюсь принимать участие ни в каких сомнительных фотосессиях!"
+                ryan "Тогда я буду вынужден отказать вам в отборе снимков..."
+                m "!!!"
+                imgd 44783
+                ryan "Притом, это не какая-нибудь сомнительная фотосессия, Миссис Бакфетт."
+                ryan "Эта коллекция вполне соответствует новому курсу вашего журнала."
+                img 44784
+                m "И что это значит?"
+                pass
+        # Моника смотрит на него подозрительно
+        music Groove2_85
+        imgf 44785
+        m "Как именно будет проходить эта фотосессия?"
+        # Райен рукой указывает на стул, на котором сидела Моника
+        ryan "Здесь, в моей студии, Миссис Бакфетт."
+        sound Jump1
+        imgd 44786
+        ryan "Реквизит, как видите, я уже подготовил."
+        m "Фотосессия со стулом?"
+        imgd 44787
+        ryan "Да, Миссис Бакфетт."
+        ryan "Это будут потрясающие кадры!"
+        ryan "Изящные очертания прекрасного обнаженного женского тела в приглушенном свете софитов..."
+        music stop
+        sound plastinka1b
+        img 44788 hpunch
+        m "Стоп!"
+        music Power_Bots_Loop
+        m "Обнаженного?!"
+        m "Ты что, с ума сошел?!"
+        m "Я не собираюсь раздеваться!.."
+        $ ep22_5_dialogues4_rayan_2_repeat = True
+
     ### если приходит повторно после того, как отказала - repeat отсюда
     music Groove2_85
     imgf 44789
@@ -469,7 +488,7 @@ label ep22_5_dialogues4_rayan_3:
             fadeblack
             sound highheels_short_walk
             pause 2.0
-            return
+            return False
     # Моника недовольно смотрит на него
     music Pyro_Flow
     imgd 44791
@@ -572,314 +591,904 @@ label ep22_5_dialogues4_rayan_3:
     imgd 44824
     ryan "Начнем, Миссис Бакфетт!"
     music Stealth_Groover
+    $ shotsAmount = 30
+    $ shotsTotalAmount = 30
+    $ shots = 3
+    $ arrowUp = True
+    $ arrowSide = True
+    $ arrowDown = True
 
-    #кадр
-    img 24529
+    fadeblack 2.0
+    imgfl 24529
     ryan "Миссис Бакфетт, первый кадр."
     ryan "Поставьте одну ногу на стул и откиньте назад голову."
-    #up
-    img 24530
-    m "Чтобы получше было видно мою грудь?!"
-    mt "Извращенец!"
-    mt "!!!"
-    #side
-    img 24531
-    ryan "Миссис Бакфетт, никто не будет знать, что это ваша грудь."
-    ryan "На вас маска, не переживайте."
-    #down
-    img 24532
-    ryan "Потрясающе!"
-    ryan "Этот приглушенный свет создает такую интимную атмосферу..."
-    ryan "И так выгодно подчеркивает вашу женственность!"
+label ep22_5_dialogues4_rayan_3_photoshoot_pose1:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose1"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose2"
+    #кадр
+    img 24529
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24533
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Встаньте на стул на колени и держитесь руками за спинку."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24530, 24531, 24532], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24530
+        img photoImage
+        with Dissolve(0.2)
+        w
+        m "Чтобы получше было видно мою грудь?!"
+        mt "Извращенец!"
+        mt "!!!"
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24531
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Миссис Бакфетт, никто не будет знать, что это ваша грудь."
+        ryan "На вас маска, не переживайте."
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 24532
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Потрясающе!"
+        ryan "Этот приглушенный свет создает такую интимную атмосферу..."
+        ryan "И так выгодно подчеркивает вашу женственность!"
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
     # 1-й кадр (Z MC 06 Genesis 3 Female)
     # Моника вредничает
     # Моника принимает позу, Райен делает кадры
 
+label ep22_5_dialogues4_rayan_3_photoshoot_pose2:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose2"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose3"
 
     #кадр
     img 24533
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Встаньте на стул на колени и держитесь руками за спинку."
-    #up
-    img 24534
-    mt "Я что, должна всю фотосессию смотреть, как он носится тут со своим торчащим отростком?!"
-    mt "Хоть бы прикрылся ради приличия, придурок!"
-    mt "!!!"
-    #side
-    img 24535
-    #down
-    img 24536
-    ryan "Шикарно, Миссис Бакфетт!"
-    ryan "Великолепные кадры!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24537
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Опустите одну ногу на пол."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24534, 24535, 24536], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24534
+        img photoImage
+        with Dissolve(0.2)
+        w
+        mt "Я что, должна всю фотосессию смотреть, как он носится тут со своим торчащим отростком?!"
+        mt "Хоть бы прикрылся ради приличия, придурок!"
+        mt "!!!"
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24535
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 24536
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Шикарно, Миссис Бакфетт!"
+        ryan "Великолепные кадры!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
     # 2-й кадр (Z MC 02 Genesis 3 Female)
     # Моника недовольно смотрит на его причиндалы
     # Райен фоткает ее со стояком
 
 
+label ep22_5_dialogues4_rayan_3_photoshoot_pose3:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose3"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose4"
     #кадр
     img 24537
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Опустите одну ногу на пол."
-    #up
-    img 24538
-    m "Райен, снимай так, чтобы мое лицо было в тени!"
-    m "Я не хочу, чтобы кто-то узнал меня!"
-    #side
-    img 24539
-    #down
-    img 24540
-    ryan "Конечно, Миссис Бакфетт!"
-    ryan "Вашего лица практически не различить в полумраке."
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24541
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Сядьте на стул, лицом к спинке стула. Ноги по сторонам от спинки и облокотитесь на нее."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24538, 24539, 24540], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24538
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        m "Райен, снимай так, чтобы мое лицо было в тени!"
+        m "Я не хочу, чтобы кто-то узнал меня!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24539
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 24540
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Конечно, Миссис Бакфетт!"
+        ryan "Вашего лица практически не различить в полумраке."
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
     # 3-й кадр (Z MC 09 Genesis 3 Female Mirror)
     # Моника ворчит
     # Райен фоткает
 
-
+label ep22_5_dialogues4_rayan_3_photoshoot_pose4:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose4"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose5"
     #кадр
     img 24541
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Сядьте на стул, лицом к спинке стула. Ноги по сторонам от спинки и облокотитесь на нее."
-    #up
-    img 24542
-    m "Ты что, хочешь чтобы я еще и ноги раздвинула?!"
-    m "Если ты не заметил, Райен, вообще-то, на мне нет трусиков!!!"
-    ryan "Ну все равно же никто не узнает, что это вы, Миссис Бакфетт..."
-    ryan "Тем более, я постараюсь не делать слишком откровенных ракурсов."
-    #side
-    img 24543
-    ryan "Все-таки я делаю работу для выставки..."
-    m "Постарайся, Райен!"
-    m "И не вздумай пялиться на мою!.. На меня!"
-    ryan "Конечно, Миссис Бакфетт..."
-    #down
-    img 24544
-    img 24545
-    # 4-й кадр (Z MC 03 Genesis 3 Female)
-    # Моника возмущенно
-    # Райен фоткает и иногда, пока Моника не видит, немного подрачивает себе
-    imgf 36003
-    ryan "Шедеврально!"
-    sound drkanje5
-    imgd 36004
-    sound2 camera_lens1
-    w
-    sound drkanje5
-    imgd 36003
-    ryan "Моей выставке гарантирован успех!"
-    sound drkanje5
-    imgd 36004
-    sound2 camera_lens1
-    ryan "Вы самая лучшая модель, с которой я когда-либо работал!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        music Loved_Up
+        imgf 36003
+        ryan "Шедеврально!"
+        sound drkanje5
+        imgd 36004
+        sound2 camera_lens1
+        w
+        sound drkanje5
+        imgd 36003
+        ryan "Моей выставке гарантирован успех!"
+        sound drkanje5
+        imgd 36004
+        sound2 camera_lens1
+        ryan "Вы самая лучшая модель, с которой я когда-либо работал!"
+        fadeblack 1.5
 
+        imgfl 24546
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Оставайтесь в этой же позе, но отклонитесь немного назад."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24542, 24543, 24545], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24542
+        img photoImage
+        with Dissolve(0.2)
+        w
+        m "Ты что, хочешь чтобы я еще и ноги раздвинула?!"
+        m "Если ты не заметил, Райен, вообще-то, на мне нет трусиков!!!"
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Ну все равно же никто не узнает, что это вы, Миссис Бакфетт..."
+        ryan "Тем более, я постараюсь не делать слишком откровенных ракурсов."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24543
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Все-таки я делаю работу для выставки..."
+        m "Постарайся, Райен!"
+        m "И не вздумай пялиться на мою!.. На меня!"
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Конечно, Миссис Бакфетт..."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 24544
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24545
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        # 4-й кадр (Z MC 03 Genesis 3 Female)
+        # Моника возмущенно
+        # Райен фоткает и иногда, пока Моника не видит, немного подрачивает себе
+
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+label ep22_5_dialogues4_rayan_3_photoshoot_pose5:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose5"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose6"
     #кадр
     img 24546
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Оставайтесь в этой же позе, но отклонитесь немного назад."
-    #up
-    img 24547
-    mt "А вдруг он мне наврал про выставку?.."
-    mt "..."
-    mt "Он тут бегает передо мной со своим торчащим отростком..."
-    mt "Значит, ему нравится сам процесс съемки..."
-    #side
-    img 24548
-    mt "Нет, он просто пялится на меня!"
-    mt "И затеял все только ради того, чтобы поглазеть на мою совершенную красоту!"
-    mt "Мерзкий извращенец, вот он кто!"
-    #down
-    img 24549
-    # 5-й кадр (Z MC 04 Genesis 3 Female)
-    # Моника ворчит про себя
-    # Райен фоткает и подрачивает
-    imgf 36005
-    ryan "Мммм..."
-    sound drkanje5
-    imgd 36006
-    sound2 camera_lens1
-    w
-    sound drkanje5
-    imgd 36005
-    w
-    sound drkanje5
-    imgd 36006
-    sound2 camera_lens1
-    ryan "Какие потрясающие кадры!.."
-    ryan "Великолепно!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        # Райен фоткает и подрачивает
+        music Loved_Up
+        imgf 36005
+        ryan "Мммм..."
+        sound drkanje5
+        imgd 36006
+        sound2 camera_lens1
+        w
+        sound drkanje5
+        imgd 36005
+        w
+        sound drkanje5
+        imgd 36006
+        sound2 camera_lens1
+        ryan "Какие потрясающие кадры!.."
+        ryan "Великолепно!"
+        fadeblack 1.5
 
+        imgfl 24550
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Оставайтесь в этой же позе, только руки держите над головой."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24547, 24548, 24549], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24547
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        mt "А вдруг он мне наврал про выставку?.."
+        mt "..."
+        mt "Он тут бегает передо мной со своим торчащим отростком..."
+        mt "Значит, ему нравится сам процесс съемки..."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24548
+        img photoImage
+        with Dissolve(0.2)
+        w
+        mt "Нет, он просто пялится на меня!"
+        mt "И затеял все только ради того, чтобы поглазеть на мою совершенную красоту!"
+        mt "Мерзкий извращенец, вот он кто!"
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 24549
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        # 5-й кадр (Z MC 04 Genesis 3 Female)
+        # Моника ворчит про себя
+
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+label ep22_5_dialogues4_rayan_3_photoshoot_pose6:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose6"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose7"
     #кадр
     img 24550
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Оставайтесь в этой же позе, только руки держите над головой."
-    #up
-    img 24551
-    m "Райен! Не вздумай рассматривать меня!!!"
-    m "Если я узнаю, что нет никакой выставки и ты меня обманул!.."
-    #side
-    img 24552
-    ryan "Выставка - это не моя выдумка, Миссис Бакфетт."
-    ryan "Хотите, я вас приглашу на нее, чтобы вы смогли в этом удостовериться?"
-    m "Нет! У меня нет на это времени!"
-    m "Тем более, не пристало такой популярной личности как Я, ходить по малоизвестным выставкам..."
-    mt "Не хватало еще, чтобы кто-то подумал, что я причастна к этой пошлой извращенской коллекции!"
-    #down
-    img 24553
-    ryan "Дааа..."
-    ryan "То, что надо..."
-    ryan "Прекрасно!"
-    # 6-й кадр (Z MC 05 Genesis 3 Female Mirror)
-    # грозно говорит Райену
-    # Райен торопливо
-    # Райен фоткает
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24554
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Сядьте, облокотившись спиной на спинку стула и немного прогнитесь."
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24551, 24552, 24553], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24551
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        m "Райен! Не вздумай рассматривать меня!!!"
+        m "Если я узнаю, что нет никакой выставки и ты меня обманул!.."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24552
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Выставка - это не моя выдумка, Миссис Бакфетт."
+        ryan "Хотите, я вас приглашу на нее, чтобы вы смогли в этом удостовериться?"
+        w
+        call photoshoot_flash_count()
+        w
+        m "Нет! У меня нет на это времени!"
+        m "Тем более, не пристало такой популярной личности как Я, ходить по малоизвестным выставкам..."
+        mt "Не хватало еще, чтобы кто-то подумал, что я причастна к этой пошлой извращенской коллекции!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        $ photoImage = 24553
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Дааа..."
+        ryan "То, что надо..."
+        ryan "Прекрасно!"
+        w
+        call photoshoot_flash_count()
+        w
+        # 6-й кадр (Z MC 05 Genesis 3 Female Mirror)
+        # грозно говорит Райену
+        # Райен торопливо
+        # Райен фоткает
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
 
 
+label ep22_5_dialogues4_rayan_3_photoshoot_pose7:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose7"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose8"
     #кадр
     img 24554
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Сядьте, облокотившись спиной на спинку стула и немного прогнитесь."
-    #up
-    img 24555
-    ryan "Ооох, я в восторге от этой работы, Миссис Бакфетт!"
-    m "По тебе заметно, Райен!" # недовольный взгляд Моники на его стояк
-    ryan "Мммм... Да, я так вдохновлен!"
-    #side
-    img 24556
-    #down
-    img 24557
-    img 24558
-    # 7-й кадр (Z MC 08 Genesis 3 Female)
-    # Райен фоткает
-    imgd 36007
-    m "Смотри, не переусердствуй с этим!"
-    m "Не хватало мне еще наблюдать твой творческий экстаз!"
-    m "!!!"
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24559
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Сидите также, спиной к спинке стула, но одну ногу вытяните в сторону."
+        m "Никаких крупных планов!"
+        m "И не вздумай направлять объектив камеры вниз!"
+        music stop
+        jump expression photoPoseNextLabel
 
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24555, 24556, 24558], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24555
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Ооох, я в восторге от этой работы, Миссис Бакфетт!"
+        m "По тебе заметно, Райен!" # недовольный взгляд Моники на его стояк
+        ryan "Мммм... Да, я так вдохновлен!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        $ photoImage = 24556
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 24557
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24558
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        # 7-й кадр (Z MC 08 Genesis 3 Female)
+        # Райен фоткает
+        imgd 36007
+        m "Смотри, не переусердствуй с этим!"
+        m "Не хватало мне еще наблюдать твой творческий экстаз!"
+        m "!!!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+label ep22_5_dialogues4_rayan_3_photoshoot_pose8:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose8"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose9"
     #кадр
     img 24559
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Сидите также, спиной к спинке стула, но одну ногу вытяните в сторону."
-    m "Никаких крупных планов!"
-    m "И не вздумай направлять объектив камеры вниз!"
-    #up
-    img 24560
-    ryan "Конечно, Миссис Бакфетт..."
-    ryan "Как скажете."
-    ryan "О, дааа..."
-    #side
-    img 24561
-    ryan "Такой интимный полумрак... И я в студии с такой прекрасной обнаженной женщиной..."
-    m "Райен!"
-    m "Прекрати намекать на всякие непристойности!"
-    m "Вообще-то, перед тобой леди!"
-    img 24562
-    #down
-    img 24563
-    ryan "Конечно, Миссис Бакфетт..."
-    ryan "Великолепные кадры!"
-    img 24564
-    # 8-й кадр (Z MC 11 Genesis 3 Female)
-    # Райен фоткает
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgfl 24565
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Ложитесь на стул, рукой держитесь за спинку и согните одну ногу."
+        m "Райен, мне так неудобно!"
+        m "Я сейчас упаду!"
+        music stop
+        jump expression photoPoseNextLabel
 
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24560, 24561, 24564], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        $ photoImage = 24560
+        img photoImage
+        with Dissolve(0.2)
+        w
+        ryan "Конечно, Миссис Бакфетт..."
+        ryan "Как скажете."
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "О, дааа..."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 24561
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        ryan "Такой интимный полумрак... И я в студии с такой прекрасной обнаженной женщиной..."
+        m "Райен!"
+        m "Прекрати намекать на всякие непристойности!"
+        m "Вообще-то, перед тобой леди!"
+        sound camera_lens1
+        $ photoImage = 24562
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 24563
+        with Dissolve(0.2)
+        w
+        ryan "Конечно, Миссис Бакфетт..."
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24564
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Великолепные кадры!"
+        # 8-й кадр (Z MC 11 Genesis 3 Female)
+        # Райен фоткает
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+label ep22_5_dialogues4_rayan_3_photoshoot_pose9:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose9"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose10"
 
     #кадр
     img 24565
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Ложитесь на стул, рукой держитесь за спинку и согните одну ногу."
-    m "Райен, мне так неудобно!"
-    m "Я сейчас упаду!"
-    #up
-    img 24566
-    ryan "Я быстро сделаю несколько кадров и мы сменим позу."
-    ryan "Вот так, да..."
-    img 24567
-    m "Райен, долго еще!?"
-    m "У меня рука затекла!"
-    #side
-    img 24568
-    img 24569
-    #down
-    img 24570
-    ryan "Еще немного..."
-    img 24571
-    ryan "Отлично!"
-    m "Наконец-то!"
-    img 24572
-    # 9-й кадр (Z MC 10 Genesis 3 Female)
-    # Райен фоткает
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        imgf 36008
+        ryan "Следующий кадр, Миссис Бакфетт."
+        ryan "Сядьте на стул, лицом к спинке стула. Ноги по сторонам от спинки. Облокотитесь одной рукой на спинку стула, а вторую держите у шляпы."
+        m "Райен!!!"
+        music Groove2_85
+        imgd 36009
+        m "Не вздумай фотографировать меня с этого ракурса!"
+        m "Так видно всю мою!.."
+        ryan "Но лица ведь не видно, Миссис Бакфетт..."
+        m "!!!"
+        # коррапшн
+        $ menu_corruption = [monicaPhotoshootRyanStudioCorruptionRequired2, 0]
+        menu:
+            "Продолжить фотосессию.":
+                $ monicaRyanStudioPhotoshoot3 = day # Моника согласилась на откровенный кадр у Райена
+                pass
+            "Уйти отсюда!":
+                # Моника зло
+                music Pyro_Flow
+                img 36010 hpunch
+                m "Нет, Райен!"
+                m "Вообще-то, я пришла сюда, чтобы воспрепятствовать публикации моих обнаженных фото..."
+                m "А не делать настолько откровенные кадры!"
+                m "Ты в своем уме?!"
+                # Моника идет к выходу, Райен ей вслед
+                sound highheels_short_walk
+                imgf 36011
+                ryan "Тогда я буду вынужден отказать вам в отборе снимков..."
+                m "Мне плевать!"
+                m "!!!"
+                ryan "Миссис Бакефтт, я дам вам на раздумье несколько дней."
+                ryan "Вы можете вернуться в любой момент."
+                m "НЕТ!"
+                # Моника уходит
+                fadeblack
+                sound snd_fabric1
+                pause 2.0
+                sound highheels_short_walk
+                pause 1.5
+                return False
+        # Моника возмущенно
+        music Stealth_Groover
+        imgf 24573
+        m "Ты говорил, что для выставки не нужны такие откровенные кадры!"
+        ryan "Я постараюсь сделать его не откровенным, а пикантным, Миссис Бакфетт..."
+        ryan "С налетом легкой эротики..."
+        m "!!!"
+        m "Постарайся, Райен!"
+        # Моника принимает позу, Райен фоткает, бросая пошлые взгляды на Монику
+        music stop
+        jump expression photoPoseNextLabel
+
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24567, 24569, 24572], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+
+    if result == "up":
+        #up
+        sound camera_lens1
+        img 24566
+        with Dissolve(0.2)
+        w
+        ryan "Я быстро сделаю несколько кадров и мы сменим позу."
+        w
+        call photoshop_flash()
+        w
+        ryan "Вот так, да..."
+
+        sound camera_lens1
+        $ photoImage = 24567
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        m "Райен, долго еще!?"
+        m "У меня рука затекла!"
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 24568
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24569
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 24570
+        with Dissolve(0.2)
+        w
+        ryan "Еще немного..."
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        img 24571
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24572
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "Отлично!"
+        m "Наконец-то!"
+        # 9-й кадр (Z MC 10 Genesis 3 Female)
+        # Райен фоткает
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
 
 
+label ep22_5_dialogues4_rayan_3_photoshoot_pose10:
+    $ photoPoseLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose10"
+    $ photoPoseNextLabel = "ep22_5_dialogues4_rayan_3_photoshoot_pose_end"
     #кадр
-    imgf 36008
-    ryan "Следующий кадр, Миссис Бакфетт."
-    ryan "Сядьте на стул, лицом к спинке стула. Ноги по сторонам от спинки. Облокотитесь одной рукой на спинку стула, а вторую держите у шляпы."
-    m "Райен!!!"
-    music Groove2_85
-    imgd 36009
-    m "Не вздумай фотографировать меня с этого ракурса!"
-    m "Так видно всю мою!.."
-    ryan "Но лица ведь не видно, Миссис Бакфетт..."
-    m "!!!"
-    # коррапшн
-    $ menu_corruption = [monicaPhotoshootRyanStudioCorruptionRequired2, 0]
-    menu:
-        "Продолжить фотосессию.":
-            $ monicaRyanStudioPhotoshoot3 = day # Моника согласилась на откровенный кадр у Райена
-            pass
-        "Уйти отсюда!":
-            # Моника зло
-            music Pyro_Flow
-            img 36010 hpunch
-            m "Нет, Райен!"
-            m "Вообще-то, я пришла сюда, чтобы воспрепятствовать публикации моих обнаженных фото..."
-            m "А не делать настолько откровенные кадры!"
-            m "Ты в своем уме?!"
-            # Моника идет к выходу, Райен ей вслед
-            sound highheels_short_walk
-            imgf 36011
-            ryan "Тогда я буду вынужден отказать вам в отборе снимков..."
-            m "Мне плевать!"
-            m "!!!"
-            ryan "Миссис Бакефтт, я дам вам на раздумье несколько дней."
-            ryan "Вы можете вернуться в любой момент."
-            m "НЕТ!"
-            # Моника уходит
-            fadeblack
-            sound snd_fabric1
-            pause 2.0
-            sound highheels_short_walk
-            pause 1.5
-            return
-    # Моника возмущенно
-    music Stealth_Groover
     img 24573
-    m "Ты говорил, что для выставки не нужны такие откровенные кадры!"
-    ryan "Я постараюсь сделать его не откровенным, а пикантным, Миссис Бакфетт..."
-    ryan "С налетом легкой эротики..."
-    m "!!!"
-    m "Постарайся, Райен!"
-    # Моника принимает позу, Райен фоткает, бросая пошлые взгляды на Монику
-    #up
-    img 24574
-    m "Не смотри ТУДА!"
-    ryan "Я и не смотрю, Миссис Бакфетт..."
-    ryan "Я подбираю наилучший ракурс."
-    m "!!!"
-    img 24575
-    #side
-    img 24576
-    ryan "О, вы просто сногсшибательно смотритесь, Миссис Бакфетт!"
-    m "Я всегда сногсшибательна, Райен! Если ты не заметил!"
-    ryan "О, даа! Я заметил..."
-    img 24577
-    #down
-    img 24578
-    ryan "Еще пара кадров..."
-    img 24579
-    ryan "Еще немного... Вот так, да..."
-    img 24580
-    ryan "Мммм..."
-    img 24581
-    # 10-й кадр (Z MC 01 Genesis 3 Female)
+    if shots == 0 or shotsAmount == 0:
+        $ shots = 3
+        $ arrowUp = True
+        $ arrowSide = True
+        $ arrowDown = True
+        hide screen photoshoot_camera_icon
+        hide screen photoshoot2
+        music stop
+        jump expression photoPoseNextLabel
 
+    show screen photoshoot_camera_icon(PS12_shoots_array)
+    show screen photoshoot2([24575, 24577, 24581], PS12_shoots_array)
+    $ result = ui.interact()
+    hide screen photoshoot2
+    if result == "next":
+        $ shots = 0
+        jump expression photoPoseLabel
+    if result == "up":
+        #up
+        sound camera_lens1
+        img 24574
+        with Dissolve(0.2)
+        w
+        m "Не смотри ТУДА!"
+        ryan "Я и не смотрю, Миссис Бакфетт..."
+        ryan "Я подбираю наилучший ракурс."
+        m "!!!"
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24575
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "side":
+        #side
+        sound camera_lens1
+        img 24576
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        ryan "О, вы просто сногсшибательно смотритесь, Миссис Бакфетт!"
+        m "Я всегда сногсшибательна, Райен! Если ты не заметил!"
+        sound camera_lens1
+        $ photoImage = 24577
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        ryan "О, даа! Я заметил..."
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+    if result == "down":
+        #down
+        sound camera_lens1
+        img 24578
+        with Dissolve(0.2)
+        w
+        ryan "Еще пара кадров..."
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        img 24579
+        with Dissolve(0.2)
+        w
+        call photoshop_flash()
+        w
+        ryan "Еще немного... Вот так, да..."
+        sound camera_lens1
+        img 24580
+        with Dissolve(0.2)
+        w
+        ryan "Мммм..."
+        w
+        call photoshop_flash()
+        w
+        sound camera_lens1
+        $ photoImage = 24581
+        img photoImage
+        with Dissolve(0.2)
+        w
+        call photoshoot_flash_count()
+        w
+        # 10-й кадр (Z MC 01 Genesis 3 Female)
+        $ PS12_shoots_array.append(photoImage)
+        jump expression photoPoseLabel
+
+label ep22_5_dialogues4_rayan_3_photoshoot_pose_end:
+    hide screen photoshoot_camera_icon
+    hide screen photoshoot2
     music Stealth_Groover
     imgf 44825
     ryan "Мы закончили, Миссис Бакфетт!"
@@ -937,7 +1546,7 @@ label ep22_5_dialogues4_rayan_3:
     fadeblack
     sound snd_fabric1
     pause 2.0
-    return
+    return True
 
 # если Моника отказалась от фотосессии у Райена, на следующий рабочий день, уходя из офиса вечером
 # мысли

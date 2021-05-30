@@ -18,6 +18,8 @@ init python:
 
     def unfocus_map():
         global map_objects, mapFocusedObjects
+        if len(mapFocusedObjects) == 0:
+            return
         for place_arr in mapFocusedObjects:
             place_name = place_arr[0]
             map_state = place_arr[1]
