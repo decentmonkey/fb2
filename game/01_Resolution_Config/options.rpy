@@ -78,6 +78,7 @@ longyu
 David Wilson
 InfiniteAntonym
 Vevalde
+Rivaavols
 for great support!
 \n
 Ragnaroekr, Meli_x3, Koskesh, GND53, razor and ColdBlade\nfor English correction

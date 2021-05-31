@@ -738,7 +738,7 @@ label ep22_5_dialogues_revenge_quest1:
     imgd 60304
     marcus "Для решения любых ваших просьб..."
     marcus "Я в вашем распоряжении, Миссис Бакфетт..."
-label testa1:
+#label testa1:
     sound Jump1
     img 60303
     m "Что это значит???"
