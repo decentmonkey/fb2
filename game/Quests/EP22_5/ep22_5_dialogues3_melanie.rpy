@@ -1,14 +1,14 @@
 default melanieVictoriaInstructorDate1 = 0  # Мелани увидела на руках Виктории шрамы
 default melanieVictoriaInstructorDate2 = 0  # у Мелани было DP с Алексом и фитнес-тренером
 
-define v_Melanie_FitnessTrainer_Sex1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex2_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex2_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex3_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex3_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex4_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Melanie_FitnessTrainer_Sex4_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex1_1_sound_name = "v_Melanie_FitnessTrainer_Sex1_1"
+define v_Melanie_FitnessTrainer_Sex1_1_25_sound_name = "v_Melanie_FitnessTrainer_Sex1_1_25"
+define v_Melanie_FitnessTrainer_Sex2_1_25_sound_name = "v_Melanie_FitnessTrainer_Sex2_1_25"
+define v_Melanie_FitnessTrainer_Sex2_1_sound_name = "v_Melanie_FitnessTrainer_Sex2_1"
+define v_Melanie_FitnessTrainer_Sex3_1_sound_name = "v_Melanie_FitnessTrainer_Sex3_1"
+define v_Melanie_FitnessTrainer_Sex3_1_25_sound_name = "v_Melanie_FitnessTrainer_Sex3_1_25"
+define v_Melanie_FitnessTrainer_Sex4_1_25_sound_name = "v_Melanie_FitnessTrainer_Sex4_1_25"
+define v_Melanie_FitnessTrainer_Sex4_1_sound_name = "v_Melanie_FitnessTrainer_Sex4_1"
 
 default melanieFitnessTrainerAlex_cumzone = 0
 
@@ -597,6 +597,7 @@ label ep22_5_dialogues3_melanie_2:
     # затемнение
     # смена кадра на спальню Мелани
     # она поворачивается к тренеру, тот стоит в шоке
+    #label video_test:
     fadeblack 1.5
     music Loved_Up
     imgf 44650

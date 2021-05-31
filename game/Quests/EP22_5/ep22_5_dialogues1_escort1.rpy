@@ -7,18 +7,18 @@ default monicaAbbyCandiceHarry4 = 0 # Моника переспала с сос�
 default monicaAbbyCandiceHarry5 = 0 # Моника согласилась на 20 баксов + инфа
 default monicaAbbyCandiceHarry6 = 0 # Моника не согласилась на 20 баксов и стала возмущаться
 
-define v_Orgy1_Blowjob1_1_25_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Orgy1_Blowjob1_1_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Orgy1_Jerk1_1_25_sound_name = "v_Julia_Monica_Licking1_1"
-define v_Orgy1_Sex2_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex3_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex3_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex4a_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex4b_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex4b_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex5_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Orgy1_Sex5_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Orgy1_Blowjob1_1_25_sound_name = "v_Orgy1_Blowjob1_1_25"
+define v_Orgy1_Blowjob1_1_sound_name = "v_Orgy1_Blowjob1_1"
+define v_Orgy1_Jerk1_1_25_sound_name = "v_Orgy1_Jerk1_1_25"
+define v_Orgy1_Sex2_1_sound_name = "v_Orgy1_Sex2_1"
+define v_Orgy1_Sex1_1_25_sound_name = "v_Orgy1_Sex1_1_25"
+define v_Orgy1_Sex3_1_25_sound_name = "v_Orgy1_Sex3_1_25"
+define v_Orgy1_Sex3_1_sound_name = "v_Orgy1_Sex3_1"
+define v_Orgy1_Sex4a_1_25_sound_name = "v_Orgy1_Sex4a_1_25"
+define v_Orgy1_Sex4b_1_25_sound_name = "v_Orgy1_Sex4b_1_25"
+define v_Orgy1_Sex4b_1_sound_name = "v_Orgy1_Sex4b_1"
+define v_Orgy1_Sex5_1_sound_name = "v_Orgy1_Sex5_1"
+define v_Orgy1_Sex5_1_25_sound_name = "v_Orgy1_Sex5_1_25"
 
 default ep22_5_abby_candice_monica_orgy_cum_zone = 0
 
@@ -1291,6 +1291,7 @@ label ep22_5_dialogues1_escort1_5:
     # там с одного края сидит Гарри, голая Кэндис делает ему минет, с другого края - Брайан и голая Эбби делает ему минет. крч, симметрия
     imgd 35602
     w
+#    label video_test:
     music Loved_Up
     imgf 35603
     w

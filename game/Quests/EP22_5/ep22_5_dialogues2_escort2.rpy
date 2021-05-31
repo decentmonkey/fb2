@@ -16,18 +16,18 @@ default ep22_5_dialogues2_escort2_4_menu3 = False
 default ep22_5_dialogues2_escort2_4_menu4 = False
 default ep22_5_dialogues2_escort2_4_menu5 = False
 
-define v_Visitor3_Steve_Blowjob1_1_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Visitor3_Steve_Blowjob1_1_25_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Visitor3_Steve_Sex1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Visitor3_Steve_Sex2_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Visitor3_Steve_Sex2_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Visitor4_Steve_Titjob1_1_25_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Visitor4_Steve_Titjob1_1_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Visitor4_Steve_Titjob2_1_sound_name = "v_Monica_RichRestaurant_Blowjob1_1_25"
-define v_Visitor4_Steve_Sex1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Visitor4_Steve_Sex1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Monica_Steve_Anal1_1_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
-define v_Monica_Steve_Anal1_1_25_sound_name = "v_Monica_RichRestaurant_Sex1_1_25"
+define v_Visitor3_Steve_Blowjob1_1_sound_name = "v_Visitor3_Steve_Blowjob1_1"
+define v_Visitor3_Steve_Blowjob1_1_25_sound_name = "v_Visitor3_Steve_Blowjob1_1_25"
+define v_Visitor3_Steve_Sex1_1_sound_name = "v_Visitor3_Steve_Sex1_1"
+define v_Visitor3_Steve_Sex2_1_25_sound_name = "v_Visitor3_Steve_Sex2_1_25"
+define v_Visitor3_Steve_Sex2_1_sound_name = "v_Visitor3_Steve_Sex2_1"
+define v_Visitor4_Steve_Titjob1_1_25_sound_name = "v_Visitor4_Steve_Titjob1_1_25"
+define v_Visitor4_Steve_Titjob1_1_sound_name = "v_Visitor4_Steve_Titjob1_1"
+define v_Visitor4_Steve_Titjob2_1_sound_name = "v_Visitor4_Steve_Titjob2_1"
+define v_Visitor4_Steve_Sex1_1_sound_name = "v_Visitor4_Steve_Sex1_1"
+define v_Visitor4_Steve_Sex1_1_25_sound_name = "v_Visitor4_Steve_Sex1_1_25"
+define v_Monica_Steve_Anal1_1_sound_name = "v_Monica_Steve_Anal1_1"
+define v_Monica_Steve_Anal1_1_25_sound_name = "v_Monica_Steve_Anal1_1_25"
 
 define monicaVipEscortCastingCorruptionRequired1 = 300 # Моника проголосовала за Миранду
 define monicaVipEscortCastingCorruptionRequired2 = 300 # Моника проголосовала за Эбби
@@ -663,6 +663,7 @@ label ep22_5_dialogues2_escort2_4:
                     # шлепает ее по попе, она соблазнительно ему улыбается и садится на колени перед ним
                     # Стив сидит в том же кресле в зале, вальяжно развалившись
                     # она наклоняется к его члену и проводит языком по стволу от основания до головки
+                    # label video_test:
                     fadeblack 1.5
                     music Loved_Up
                     imgfl 44354
@@ -1157,6 +1158,7 @@ label ep22_5_dialogues2_escort2_4:
                     steve "Хе-хе!"
                     # она встает на колени перед ним и засовывает ео член между своих грудей
                     # начинает медленно двигать ими
+                    #label video_test:
                     fadeblack 1.5
                     music Loved_Up
                     imgf 44408
@@ -3417,6 +3419,7 @@ label ep22_5_dialogues2_escort2_4:
             w
             imgf 44486
             w
+            #label video_test:
             fadeblack 1.5
             music Loved_Up
             imgf 44487
