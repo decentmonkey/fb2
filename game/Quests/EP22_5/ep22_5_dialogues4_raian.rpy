@@ -1329,7 +1329,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose9:
 
         sound camera_lens1
         $ photoImage = 24567
-        img photoImage
+        img 24567
         with Dissolve(0.2)
         w
         call photoshoot_flash_count()
