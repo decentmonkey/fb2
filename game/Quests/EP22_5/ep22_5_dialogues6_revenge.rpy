@@ -738,6 +738,7 @@ label ep22_5_dialogues_revenge_quest1:
     imgd 60304
     marcus "Для решения любых ваших просьб..."
     marcus "Я в вашем распоряжении, Миссис Бакфетт..."
+label testa1:
     sound Jump1
     img 60303
     m "Что это значит???"
@@ -762,7 +763,7 @@ label ep22_5_dialogues_revenge_quest1:
     # музыка, несолько кадров как Моника смотри на Маркуса
     imgf 60306
     w
-    music Gearhead
+    music vendetta
     imgd 60309
     m "Да, Мистер Маркус..."
     imgf 60310
