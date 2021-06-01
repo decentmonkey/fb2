@@ -11,7 +11,7 @@ label ep225_quests_victoria_init:
 
 label ep225_quests_victoria_2: # Диалог у Виктории дома
     if ep225_quests_victoria_stage == 0:
-        call ep22_5_dialogues3_melanie_1()
+        call ep22_5_dialogues3_melanie_1() from _rcall_ep22_5_dialogues3_melanie_1
         $ move_object("Melanie", "empty")
         $ Melanie_Life_evening2_skip_once = True
         $ ep225_quests_victoria_stage = 1
@@ -20,7 +20,7 @@ label ep225_quests_victoria_2: # Диалог у Виктории дома
         return
     if ep225_quests_victoria_stage == 1:
 #        $ remove_hook()
-        call ep22_5_dialogues3_melanie_2()
+        call ep22_5_dialogues3_melanie_2() from _rcall_ep22_5_dialogues3_melanie_2
         $ ep225_quests_victoria_completed_day = day
         $ ep225_quests_victoria_stage = 2
         $ Melanie_Life_evening2_skip_once = True

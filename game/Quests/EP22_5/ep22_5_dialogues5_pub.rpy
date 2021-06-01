@@ -14,7 +14,7 @@ label ep22_5_dialogues5_pub_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_98
     scene black_screen
     with Dissolve(1)
     music Groove2_85

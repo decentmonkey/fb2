@@ -13,7 +13,7 @@ label ep225_quests_rayan1_init:
 
 label ep225_quests_rayan2:
     $ remove_hook()
-    call ep22_5_dialogues4_rayan_1()
+    call ep22_5_dialogues4_rayan_1() from _rcall_ep22_5_dialogues4_rayan_1
     $ map_objects["Teleport_Rayan_Studio"] = {"text" : t_("СТУДИЯ РАЙАНА"), "xpos" : 1361, "ypos" : 926, "base" : "map_marker", "state" : "visible"}
     $ add_hook("enter_scene", "ep225_quests_rayan3", scene="street_monica_office", label="ep225_quests_rayan3")
     $ questHelp("office_62", True)
@@ -22,11 +22,11 @@ label ep225_quests_rayan2:
 
 label ep225_quests_rayan3:
     $ remove_hook()
-    call ep22_5_dialogues4_rayan_1a()
+    call ep22_5_dialogues4_rayan_1a() from _rcall_ep22_5_dialogues4_rayan_1a
     if _return == True:
         $ focus_map("Teleport_Rayan_Studio", "ep22_5_dialogues4_rayan_1b")
         $ hudDaySkipToEveningEnabled = False
-        call map_show()
+        call map_show() from _rcall_map_show_5
 
     $ add_hook("Teleport_Rayan_Studio", "ep22_5_dialogues4_rayan_1c", scene="map", label="ep22_5_dialogues4_rayan_1c")
     $ add_hook("Teleport_Rayan_Studio", "ep225_quests_rayan4", scene="map", label="ep225_quests_rayan4")
@@ -38,13 +38,13 @@ label ep225_quests_rayan4:
     $ ep225_quests_rayan_visit_day = day
     $ hudDaySkipToEveningEnabled = True
     $ unfocus_map()
-    call map_close()
+    call map_close() from _rcall_map_close_1
     if cloth != "CasualDress1":
         sound snd_fabric1
         fadeblack 2.0
         $ cloth = "CasualDress1"
         $ cloth_type = "CasualDress"
-    call ep22_5_dialogues4_rayan_3()
+    call ep22_5_dialogues4_rayan_3() from _rcall_ep22_5_dialogues4_rayan_3
     if _return == False:
         $ questHelp("office_63", False)
         $ add_hook("enter_scene", "ep225_quests_rayan5", scene="street_monica_office", label="ep225_quests_rayan5")
@@ -56,12 +56,12 @@ label ep225_quests_rayan4:
         $ remove_hook(label="ep225_quests_rayan4")
         $ autorun_to_object("ep22_5_dialogues4_rayan_6", scene="street_house_outside")
     fadeblack 2.0
-    call process_change_map_location("House")
-    call change_scene("street_house_outside", "Fade_long")
+    call process_change_map_location("House") from _rcall_process_change_map_location_18
+    call change_scene("street_house_outside", "Fade_long") from _rcall_change_scene_259
     return False
 
 label ep225_quests_rayan5:
     if day > ep225_quests_rayan_visit_day and day_time == "evening":
         $ remove_hook()
-        call ep22_5_dialogues4_rayan_4()
+        call ep22_5_dialogues4_rayan_4() from _rcall_ep22_5_dialogues4_rayan_4
     return

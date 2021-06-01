@@ -475,7 +475,7 @@ label start_game_EP22:
 
     call questHelp_init() from _rcall_questHelp_init_2
     if revengeQuestStarted == True:
-        call ep255_revenge_quest1()
+        call ep255_revenge_quest1() from _rcall_ep255_revenge_quest1
         jump show_scene
     $ questHelp("other1")
     $ questHelp("other2")

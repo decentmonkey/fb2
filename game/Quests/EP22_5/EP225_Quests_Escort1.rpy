@@ -13,22 +13,22 @@ label ep225_quests_escort1_1_init:
 
 label ep225_quests_escort1_2_meet_abbycandise:
     $ ep225_quests_meeting1_planned = False
-    call ep22_5_dialogues1_escort1_1()
+    call ep22_5_dialogues1_escort1_1() from _rcall_ep22_5_dialogues1_escort1_1
     if _return == False:
         $ add_hook("Visitor1", "ep225_quests_escort1_3_repeat", scene="rich_hotel_restaurant", label="ep225_quests_escort1_3_repeat")
         $ add_hook("Visitor4", "ep225_quests_escort1_3_repeat", scene="rich_hotel_restaurant", label="ep225_quests_escort1_3_repeat")
         $ questHelp("escort_31", False)
         return
-    call ep225_quests_escort1_4_init()
+    call ep225_quests_escort1_4_init() from _rcall_ep225_quests_escort1_4_init
     return
 
 label ep225_quests_escort1_3_repeat:
-    call ep22_5_dialogues1_escort1_2()
+    call ep22_5_dialogues1_escort1_2() from _rcall_ep22_5_dialogues1_escort1_2
     if _return == False:
         $ questHelp("escort_31", False)
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_141
         return False
-    call ep225_quests_escort1_4_init()
+    call ep225_quests_escort1_4_init() from _rcall_ep225_quests_escort1_4_init_1
     return False
 
 label ep225_quests_escort1_4_init:
@@ -47,7 +47,7 @@ label ep225_quests_escort1_4_init:
     return
 
 label ep225_quests_escort1_5_table_refuse:
-    call ep22_5_dialogues1_escort1_3()
+    call ep22_5_dialogues1_escort1_3() from _rcall_ep22_5_dialogues1_escort1_3
     return False
 
 label ep225_quests_escort1_6_enter_candiseabby:
@@ -58,24 +58,24 @@ label ep225_quests_escort1_6_enter_candiseabby:
     $ hudDaySkipToEveningEnabled = True
     $ ep225_quests_meeting2_planned = False
     $ unfocus_map()
-    call ep22_5_dialogues1_escort1_4()
+    call ep22_5_dialogues1_escort1_4() from _rcall_ep22_5_dialogues1_escort1_4
     if day_time != "evening":
         $ changeDayTime("evening")
 
-    call ep22_5_dialogues1_escort1_5()
+    call ep22_5_dialogues1_escort1_5() from _rcall_ep22_5_dialogues1_escort1_5
     if _return == False:
         $ questHelp("escort_32", False)
         $ add_hook("Visitor1", "ep225_quests_escort1_3_repeat", scene="rich_hotel_restaurant", label="ep225_quests_escort1_3_repeat")
         $ add_hook("Visitor4", "ep225_quests_escort1_3_repeat", scene="rich_hotel_restaurant", label="ep225_quests_escort1_3_repeat")
         $ autorun_to_object("ep22_5_dialogues1_escort1_6", scene="street_candise")
-        call refresh_scene_fade_long()
+        call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_32
         return False
 
     $ autorun_to_object("ep22_5_dialogues1_escort1_7", scene="street_candise")
     $ questHelp("escort_32", True)
     $ questHelp("escort_33")
     $ add_hook("enter_scene", "ep225_quests_escort2_init", scene="rich_hotel_reception", label="ep225_quests_escort2_init")
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_33
     return False
 
 #$ ep225_quests_meeting2_planned = False

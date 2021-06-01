@@ -17,5 +17,5 @@ label ep224_quests_victoria1_fitness:
     call ep22_4_dialogues2_fitness_3() from _rcall_ep22_4_dialogues2_fitness_3
     $ ep224_quests_victoria_completed_day = day
     $ questHelp("victoria_19", True)
-    call ep225_quests_victoria_init()
+    call ep225_quests_victoria_init() from _rcall_ep225_quests_victoria_init
     return

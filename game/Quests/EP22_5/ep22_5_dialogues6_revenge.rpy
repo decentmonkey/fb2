@@ -11,7 +11,7 @@ label ep22_5_dialogues_revenge_quest1:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_99
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -343,7 +343,7 @@ label ep22_5_dialogues_revenge_quest1:
     with Dissolve(1)
     stop music fadeout 1.0
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_100
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -486,7 +486,7 @@ label ep22_5_dialogues_revenge_quest1:
     ## если отвечала мамочке неправильно
     if monicaRevengeQuestMarcusGun1 > 0 or monicaRevengeQuestMarcusGun3 > 0:
         fadeblack 3.0
-        call textonblack(t_("Спустя некоторое время..."))
+        call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_101
         img black_screen
         with Dissolve(1)
         music dream
@@ -534,7 +534,7 @@ label ep22_5_dialogues_revenge_quest1:
         music Continue_Life
         img black_screen
         with Dissolve(2.0)
-        call textonblack("TO BE CONTINUED...")
+        call textonblack("TO BE CONTINUED...") from _rcall_textonblack_102
         img black_screen
         with Dissolve(2.0)
         $ renpy.pause(2.0, hard=True)
@@ -551,7 +551,7 @@ label ep22_5_dialogues_revenge_quest1:
     ##    pause 30.0
     ##    music stop
     ##    pause 1.0
-        call credits()
+        call credits() from _rcall_credits_3
         $ MainMenu(confirm=False)()
 
         # повтор сцены на ферме, где клеймят
@@ -776,7 +776,7 @@ label ep22_5_dialogues_revenge_quest1:
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED...")
+    call textonblack("TO BE CONTINUED...") from _rcall_textonblack_103
     img black_screen
     with Dissolve(2.0)
     $ renpy.pause(2.0, hard=True)
@@ -793,6 +793,6 @@ label ep22_5_dialogues_revenge_quest1:
 ##    pause 30.0
 ##    music stop
 ##    pause 1.0
-    call credits()
+    call credits() from _rcall_credits_4
     $ MainMenu(confirm=False)()
     return

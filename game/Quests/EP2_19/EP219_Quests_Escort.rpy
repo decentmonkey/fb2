@@ -68,7 +68,7 @@ label ep219_quests_escort4_choose: # выбор идти-ли к Линде
     else:
         $ map_enabled = True
         $ questHelp("escort_25", False)
-        call refresh_scene_fade()
+        call refresh_scene_fade() from _rcall_refresh_scene_fade_143
     return
 
 label ep219_quests_escort4_lindarepeat:

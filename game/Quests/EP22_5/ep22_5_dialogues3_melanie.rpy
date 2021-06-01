@@ -22,7 +22,7 @@ label ep22_5_dialogues3_melanie_1:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_95
     scene black_screen
     with Dissolve(1)
     sound snd_lift
@@ -194,7 +194,7 @@ label ep22_5_dialogues3_melanie_2:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(t_("Тем временем..."))
+    call textonblack(t_("Тем временем...")) from _rcall_textonblack_96
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk

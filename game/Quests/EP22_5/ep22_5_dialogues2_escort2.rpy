@@ -169,7 +169,7 @@ label ep22_5_dialogues2_escort2_3:
     mt "Я должна присутствовать на этом чертовом собрании проституток!"
     mt "Я, наконец-то, смогу узнать, кто является владельцем ВИП-эскорта!"
     mt "И кто знает, чем это собрание закончится?.."
-    call refresh_scene_fade()
+    call refresh_scene_fade() from _rcall_refresh_scene_fade_142
     return
 
 label ep22_5_dialogues2_escort2_3a:

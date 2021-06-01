@@ -2,7 +2,7 @@ label gallery_44814:
     scene black_screen
     with Dissolve(1)
     music stop
-    call textonblack(_("СТУДИЯ РАЙАНА..."))
+    call textonblack(_("СТУДИЯ РАЙАНА...")) from _rcall_textonblack_89
     scene black_screen
     with Dissolve(1)
     sound snd_lift
@@ -445,7 +445,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         mt "Извращенец!"
         mt "!!!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_69
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -459,7 +459,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         ryan "Миссис Бакфетт, никто не будет знать, что это ваша грудь."
         ryan "На вас маска, не переживайте."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_70
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -474,7 +474,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         ryan "Этот приглушенный свет создает такую интимную атмосферу..."
         ryan "И так выгодно подчеркивает вашу женственность!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_71
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -520,7 +520,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         mt "Хоть бы прикрылся ради приличия, придурок!"
         mt "!!!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_72
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -531,7 +531,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_73
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -542,7 +542,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_74
         w
         ryan "Шикарно, Миссис Бакфетт!"
         ryan "Великолепные кадры!"
@@ -586,7 +586,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_75
         w
         m "Райен, снимай так, чтобы мое лицо было в тени!"
         m "Я не хочу, чтобы кто-то узнал меня!"
@@ -599,7 +599,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_76
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -613,7 +613,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         ryan "Конечно, Миссис Бакфетт!"
         ryan "Вашего лица практически не различить в полумраке."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_77
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -673,7 +673,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         m "Ты что, хочешь чтобы я еще и ноги раздвинула?!"
         m "Если ты не заметил, Райен, вообще-то, на мне нет трусиков!!!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_78
         w
         ryan "Ну все равно же никто не узнает, что это вы, Миссис Бакфетт..."
         ryan "Тем более, я постараюсь не делать слишком откровенных ракурсов."
@@ -690,7 +690,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         m "Постарайся, Райен!"
         m "И не вздумай пялиться на мою!.. На меня!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_79
         w
         ryan "Конечно, Миссис Бакфетт..."
         #$ PS12_shoots_array.append(photoImage)
@@ -701,14 +701,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         img 24544
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_31
         w
         sound camera_lens1
         $ photoImage = 24545
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_80
         w
         # 4-й кадр (Z MC 03 Genesis 3 Female)
         # Моника возмущенно
@@ -769,7 +769,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_81
         w
         mt "А вдруг он мне наврал про выставку?.."
         mt "..."
@@ -788,7 +788,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         mt "И затеял все только ради того, чтобы поглазеть на мою совершенную красоту!"
         mt "Мерзкий извращенец, вот он кто!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_82
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -799,7 +799,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_83
         w
         # 5-й кадр (Z MC 04 Genesis 3 Female)
         # Моника ворчит про себя
@@ -840,7 +840,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_84
         w
         m "Райен! Не вздумай рассматривать меня!!!"
         m "Если я узнаю, что нет никакой выставки и ты меня обманул!.."
@@ -856,7 +856,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         ryan "Выставка - это не моя выдумка, Миссис Бакфетт."
         ryan "Хотите, я вас приглашу на нее, чтобы вы смогли в этом удостовериться?"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_85
         w
         m "Нет! У меня нет на это времени!"
         m "Тем более, не пристало такой популярной личности как Я, ходить по малоизвестным выставкам..."
@@ -874,7 +874,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         ryan "То, что надо..."
         ryan "Прекрасно!"
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_86
         w
         # 6-й кадр (Z MC 05 Genesis 3 Female Mirror)
         # грозно говорит Райену
@@ -919,7 +919,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_87
         w
         ryan "Ооох, я в восторге от этой работы, Миссис Бакфетт!"
         m "По тебе заметно, Райен!" # недовольный взгляд Моники на его стояк
@@ -933,7 +933,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_88
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -943,14 +943,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         img 24557
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_32
         w
         sound camera_lens1
         $ photoImage = 24558
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_89
         w
         # 7-й кадр (Z MC 08 Genesis 3 Female)
         # Райен фоткает
@@ -999,7 +999,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         ryan "Конечно, Миссис Бакфетт..."
         ryan "Как скажете."
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_90
         w
         ryan "О, дааа..."
         #$ PS12_shoots_array.append(photoImage)
@@ -1010,7 +1010,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         img 24561
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_33
         w
         ryan "Такой интимный полумрак... И я в студии с такой прекрасной обнаженной женщиной..."
         m "Райен!"
@@ -1021,7 +1021,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_91
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -1033,14 +1033,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         w
         ryan "Конечно, Миссис Бакфетт..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_34
         w
         sound camera_lens1
         $ photoImage = 24564
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_92
         w
         ryan "Великолепные кадры!"
         # 8-й кадр (Z MC 11 Genesis 3 Female)
@@ -1129,7 +1129,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         w
         ryan "Я быстро сделаю несколько кадров и мы сменим позу."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_35
         w
         ryan "Вот так, да..."
 
@@ -1138,7 +1138,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         img 24567
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_93
         w
         m "Райен, долго еще!?"
         m "У меня рука затекла!"
@@ -1150,14 +1150,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         img 24568
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_36
         w
         sound camera_lens1
         $ photoImage = 24569
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_94
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -1169,20 +1169,20 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         w
         ryan "Еще немного..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_37
         w
         sound camera_lens1
         img 24571
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_38
         w
         sound camera_lens1
         $ photoImage = 24572
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_95
         w
         ryan "Отлично!"
         m "Наконец-то!"
@@ -1225,14 +1225,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         ryan "Я подбираю наилучший ракурс."
         m "!!!"
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_39
         w
         sound camera_lens1
         $ photoImage = 24575
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_96
         w
         #$ PS12_shoots_array.append(photoImage)
         jump expression photoPoseLabel
@@ -1242,7 +1242,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         img 24576
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_40
         w
         ryan "О, вы просто сногсшибательно смотритесь, Миссис Бакфетт!"
         m "Я всегда сногсшибательна, Райен! Если ты не заметил!"
@@ -1251,7 +1251,7 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_97
         w
         ryan "О, даа! Я заметил..."
         #$ PS12_shoots_array.append(photoImage)
@@ -1264,13 +1264,13 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         w
         ryan "Еще пара кадров..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_41
         w
         sound camera_lens1
         img 24579
         with Dissolve(0.2)
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_42
         w
         ryan "Еще немного... Вот так, да..."
         sound camera_lens1
@@ -1279,14 +1279,14 @@ label gallery_ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         w
         ryan "Мммм..."
         w
-        call photoshop_flash()
+        call photoshop_flash() from _rcall_photoshop_flash_43
         w
         sound camera_lens1
         $ photoImage = 24581
         img photoImage
         with Dissolve(0.2)
         w
-        call photoshoot_flash_count()
+        call photoshoot_flash_count() from _rcall_photoshoot_flash_count_98
         w
         # 10-й кадр (Z MC 01 Genesis 3 Female)
         #$ PS12_shoots_array.append(photoImage)
@@ -2311,7 +2311,7 @@ label gallery_60203:
     scene black_screen
     with Dissolve(1)
     stop music fadeout 1.0
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_90
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -2647,7 +2647,7 @@ label gallery_60203:
     with Dissolve(1)
     stop music fadeout 1.0
     music stop
-    call textonblack(t_("Некоторое время спустя..."))
+    call textonblack(t_("Некоторое время спустя...")) from _rcall_textonblack_91
     scene black_screen
     with Dissolve(1)
     sound highheels_short_walk
@@ -2791,7 +2791,7 @@ label gallery_60203:
     ## если отвечала мамочке неправильно
     if monicaRevengeQuestMarcusGun1 > 0 or monicaRevengeQuestMarcusGun3 > 0:
         fadeblack 3.0
-        call textonblack(t_("Спустя некоторое время..."))
+        call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_92
         img black_screen
         with Dissolve(1)
         music dream
@@ -2839,7 +2839,7 @@ label gallery_60203:
         music Continue_Life
         img black_screen
         with Dissolve(2.0)
-        call textonblack("TO BE CONTINUED...")
+        call textonblack("TO BE CONTINUED...") from _rcall_textonblack_93
         img black_screen
         with Dissolve(2.0)
         return
@@ -3067,7 +3067,7 @@ label gallery_60203:
     music Continue_Life
     img black_screen
     with Dissolve(2.0)
-    call textonblack("TO BE CONTINUED...")
+    call textonblack("TO BE CONTINUED...") from _rcall_textonblack_94
     img black_screen
     with Dissolve(2.0)
     return

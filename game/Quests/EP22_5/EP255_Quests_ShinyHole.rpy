@@ -20,7 +20,7 @@ label ep255_quests_shinyhole3_pub:
     $ remove_hook(label="ep255_quests_shinyhole2_enter_pub")
     $ ep255_quests_shinyhole_claire_private1_day = day
     # предложение Клэр о привате
-    call ep22_5_dialogues5_pub_1()
+    call ep22_5_dialogues5_pub_1() from _rcall_ep22_5_dialogues5_pub_1
     if _return == False:
         $ move_object("Pub_StripteaseGirl2", "pub_makeuproom")
         $ questHelp("shinyhole_62", False)
@@ -34,12 +34,12 @@ label ep255_quests_shinyhole4_monica:
     if get_active_objects("Pub_StripteaseGirl2", scene="pub_makeuproom") == False:
         return
     $ remove_hook()
-    call ep22_5_dialogues5_pub_2()
+    call ep22_5_dialogues5_pub_2() from _rcall_ep22_5_dialogues5_pub_2
     $ ep255_quests_shinyhole_claire_private1_monica_day = day
     $ questHelp("shinyhole_62", True)
     $ add_char_progress("Pub_StripteaseGirl2", 25, "claire_private1_money")
 #    $ move_object("Pub_StripteaseGirl2", "empty")
-    call refresh_scene_fade_long()
+    call refresh_scene_fade_long() from _rcall_refresh_scene_fade_long_34
     return
 
 
