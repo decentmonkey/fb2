@@ -79,43 +79,83 @@ python early:
 
         #blink controller
         blinkBase = imagePathExt[1]
-        if offsets_blink.has_key(blinkBase):
-            blinkCharacterIdx = 0
-            for blink_character in offsets_blink[blinkBase]:
-                blink_data = offsets_blink[blinkBase][blink_character]
-                blinkImage = "images/Overlays/Blink/" + blinkBase + "_blink_" + blink_character + ".png"
-                blinkPresetId = blink_data[3]
-                if blinkCharacterIdx == 0:
-                    if blink_preset != False:
-                        blinkPresetId = blink_preset
-                        blink_preset = False
-                    renpy.show_screen("blink_screen1", blinkImage, blink_data, blink_presets[blinkPresetId])
-                if blinkCharacterIdx == 1:
-                    if blink_preset2 != False:
-                        blinkPresetId = blink_preset2
-                        blink_preset2 = False
-                    renpy.show_screen("blink_screen2", blinkImage, blink_data, blink_presets[blinkPresetId])
-                if blinkCharacterIdx == 2:
-                    if blink_preset3 != False:
-                        blinkPresetId = blink_preset3
-                        blink_preset3 = False
-                    renpy.show_screen("blink_screen3", blinkImage, blink_data, blink_presets[blinkPresetId])
-                if blinkCharacterIdx == 3:
-                    if blink_preset4 != False:
-                        blinkPresetId = blink_preset4
-                        blink_preset4 = False
-                    renpy.show_screen("blink_screen4", blinkImage, blink_data, blink_presets[blinkPresetId])
-                if blinkCharacterIdx == 4:
-                    if blink_preset5 != False:
-                        blinkPresetId = blink_preset5
-                        blink_preset5 = False
-                    renpy.show_screen("blink_screen5", blinkImage, blink_data, blink_presets[blinkPresetId])
-                if blinkCharacterIdx == 5:
-                    if blink_preset6 != False:
-                        blinkPresetId = blink_preset6
-                        blink_preset6 = False
-                    renpy.show_screen("blink_screen6", blinkImage, blink_data, blink_presets[blinkPresetId])
-                blinkCharacterIdx += 1
+        if gui.flag720 == False:
+            if offsets_blink.has_key(blinkBase):
+                blinkCharacterIdx = 0
+                for blink_character in offsets_blink[blinkBase]:
+                    blink_data = offsets_blink[blinkBase][blink_character]
+                    blinkImage = "images/Overlays/Blink/" + blinkBase + "_blink_" + blink_character + ".png"
+                    blinkPresetId = blink_data[3]
+                    if blinkCharacterIdx == 0:
+                        if blink_preset != False:
+                            blinkPresetId = blink_preset
+                            blink_preset = False
+                        renpy.show_screen("blink_screen1", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    if blinkCharacterIdx == 1:
+                        if blink_preset2 != False:
+                            blinkPresetId = blink_preset2
+                            blink_preset2 = False
+                        renpy.show_screen("blink_screen2", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    if blinkCharacterIdx == 2:
+                        if blink_preset3 != False:
+                            blinkPresetId = blink_preset3
+                            blink_preset3 = False
+                        renpy.show_screen("blink_screen3", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    if blinkCharacterIdx == 3:
+                        if blink_preset4 != False:
+                            blinkPresetId = blink_preset4
+                            blink_preset4 = False
+                        renpy.show_screen("blink_screen4", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    if blinkCharacterIdx == 4:
+                        if blink_preset5 != False:
+                            blinkPresetId = blink_preset5
+                            blink_preset5 = False
+                        renpy.show_screen("blink_screen5", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    if blinkCharacterIdx == 5:
+                        if blink_preset6 != False:
+                            blinkPresetId = blink_preset6
+                            blink_preset6 = False
+                        renpy.show_screen("blink_screen6", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    blinkCharacterIdx += 1
+        else:
+            if offsets_blink.has_key(blinkBase) and offsets_blink_720p.has_key(blinkBase):
+                blinkCharacterIdx = 0
+                for blink_character in offsets_blink_720p[blinkBase]:
+                    if offsets_blink[blinkBase].has_key(blink_character):
+                        blink_data = offsets_blink_720p[blinkBase][blink_character]
+                        blinkImage = "images/Overlays/Blink/" + blinkBase + "_blink_" + blink_character + ".png"
+                        blinkPresetId = offsets_blink[blinkBase][blink_character][3]
+                        if blinkCharacterIdx == 0:
+                            if blink_preset != False:
+                                blinkPresetId = blink_preset
+                                blink_preset = False
+                            renpy.show_screen("blink_screen1", blinkImage, blink_data, blink_presets[blinkPresetId])
+                        if blinkCharacterIdx == 1:
+                            if blink_preset2 != False:
+                                blinkPresetId = blink_preset2
+                                blink_preset2 = False
+                            renpy.show_screen("blink_screen2", blinkImage, blink_data, blink_presets[blinkPresetId])
+                        if blinkCharacterIdx == 2:
+                            if blink_preset3 != False:
+                                blinkPresetId = blink_preset3
+                                blink_preset3 = False
+                            renpy.show_screen("blink_screen3", blinkImage, blink_data, blink_presets[blinkPresetId])
+                        if blinkCharacterIdx == 3:
+                            if blink_preset4 != False:
+                                blinkPresetId = blink_preset4
+                                blink_preset4 = False
+                            renpy.show_screen("blink_screen4", blinkImage, blink_data, blink_presets[blinkPresetId])
+                        if blinkCharacterIdx == 4:
+                            if blink_preset5 != False:
+                                blinkPresetId = blink_preset5
+                                blink_preset5 = False
+                            renpy.show_screen("blink_screen5", blinkImage, blink_data, blink_presets[blinkPresetId])
+                        if blinkCharacterIdx == 5:
+                            if blink_preset6 != False:
+                                blinkPresetId = blink_preset6
+                                blink_preset6 = False
+                            renpy.show_screen("blink_screen6", blinkImage, blink_data, blink_presets[blinkPresetId])
+                    blinkCharacterIdx += 1
 
         image_screen_scene_flag = False
         screenActionHappened = True
