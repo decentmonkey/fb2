@@ -48,7 +48,6 @@ default questLogGlobalEnabled = False
 default revengeQuestStarted = False
 
 label start: #for blink here
-
     #new game
     $ after_load_ready_to_render = True
     $ refresh_list_files_forced()
