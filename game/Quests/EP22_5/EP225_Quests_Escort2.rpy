@@ -44,6 +44,7 @@ label ep225_quests_escort2_3_lift:
         $ questHelp("escort_35", True)
     if _return == -2:
         # Админша победила
+        call ep22_5_dialogues2_escort2_5()
         $ autorun_to_object("ep22_5_dialogues2_escort2_8", scene="street_house_outside")
         $ questHelp("escort_35", False)
     #monicaVipEscortCasting2 > 0 - Моника проголосовала за Эбби

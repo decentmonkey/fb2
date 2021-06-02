@@ -9,7 +9,7 @@ label ep225_quests_load_init:
         call ep225_quests_escort1_1_init() from _rcall_ep225_quests_escort1_1_init_1
     if ep224_quests_victoria_completed_day > 0:
         call ep225_quests_victoria_init() from _rcall_ep225_quests_victoria_init_1
-    if ep224_quests_office_day3_completed > 0:
+    if ep224_quests_office_day3_completed > 0 or ep224_quests_office_biff_dialogue_enabled == True:
         call ep225_quests_rayan1_init() from _rcall_ep225_quests_rayan1_init_1
     if ep218_quests_monica_queen_job1_day > 0:
         call ep255_quests_shinyhole1_init() from _rcall_ep255_quests_shinyhole1_init
