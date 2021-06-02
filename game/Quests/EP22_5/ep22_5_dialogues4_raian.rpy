@@ -632,7 +632,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         #up
         sound camera_lens1
         $ photoImage = 24530
-        img photoImage
+        img 24530
         with Dissolve(0.2)
         w
         m "Чтобы получше было видно мою грудь?!"
@@ -647,7 +647,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         #side
         sound camera_lens1
         $ photoImage = 24531
-        img photoImage
+        img 24531
         with Dissolve(0.2)
         w
         ryan "Миссис Бакфетт, никто не будет знать, что это ваша грудь."
@@ -661,7 +661,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose1:
         #down
         sound camera_lens1
         $ photoImage = 24532
-        img photoImage
+        img 24532
         with Dissolve(0.2)
         w
         ryan "Потрясающе!"
@@ -707,7 +707,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         #up
         sound camera_lens1
         $ photoImage = 24534
-        img photoImage
+        img 24534
         with Dissolve(0.2)
         w
         mt "Я что, должна всю фотосессию смотреть, как он носится тут со своим торчащим отростком?!"
@@ -722,7 +722,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         #side
         sound camera_lens1
         $ photoImage = 24535
-        img photoImage
+        img 24535
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_103
@@ -733,7 +733,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose2:
         #down
         sound camera_lens1
         $ photoImage = 24536
-        img photoImage
+        img 24536
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_104
@@ -777,7 +777,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         #up
         sound camera_lens1
         $ photoImage = 24538
-        img photoImage
+        img 24538
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_105
@@ -790,7 +790,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         #side
         sound camera_lens1
         $ photoImage = 24539
-        img photoImage
+        img 24539
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_106
@@ -801,7 +801,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose3:
         #down
         sound camera_lens1
         $ photoImage = 24540
-        img photoImage
+        img 24540
         with Dissolve(0.2)
         w
         ryan "Конечно, Миссис Бакфетт!"
@@ -861,7 +861,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         #up
         sound camera_lens1
         $ photoImage = 24542
-        img photoImage
+        img 24542
         with Dissolve(0.2)
         w
         m "Ты что, хочешь чтобы я еще и ноги раздвинула?!"
@@ -877,7 +877,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         #side
         sound camera_lens1
         $ photoImage = 24543
-        img photoImage
+        img 24543
         with Dissolve(0.2)
         w
         ryan "Все-таки я делаю работу для выставки..."
@@ -899,7 +899,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose4:
         w
         sound camera_lens1
         $ photoImage = 24545
-        img photoImage
+        img 24545
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_110
@@ -960,7 +960,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         #up
         sound camera_lens1
         $ photoImage = 24547
-        img photoImage
+        img 24547
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_111
@@ -975,7 +975,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         #side
         sound camera_lens1
         $ photoImage = 24548
-        img photoImage
+        img 24548
         with Dissolve(0.2)
         w
         mt "Нет, он просто пялится на меня!"
@@ -990,7 +990,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose5:
         #down
         sound camera_lens1
         $ photoImage = 24549
-        img photoImage
+        img 24549
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_113
@@ -1031,7 +1031,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         #up
         sound camera_lens1
         $ photoImage = 24551
-        img photoImage
+        img 24551
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_114
@@ -1044,7 +1044,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         #side
         sound camera_lens1
         $ photoImage = 24552
-        img photoImage
+        img 24552
         with Dissolve(0.2)
         w
         ryan "Выставка - это не моя выдумка, Миссис Бакфетт."
@@ -1061,7 +1061,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose6:
         #down
         sound camera_lens1
         $ photoImage = 24553
-        img photoImage
+        img 24553
         with Dissolve(0.2)
         w
         ryan "Дааа..."
@@ -1110,7 +1110,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         #up
         sound camera_lens1
         $ photoImage = 24555
-        img photoImage
+        img 24555
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_117
@@ -1124,7 +1124,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         #side
         sound camera_lens1
         $ photoImage = 24556
-        img photoImage
+        img 24556
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_118
@@ -1141,7 +1141,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose7:
         w
         sound camera_lens1
         $ photoImage = 24558
-        img photoImage
+        img 24558
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_119
@@ -1187,7 +1187,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         #up
         sound camera_lens1
         $ photoImage = 24560
-        img photoImage
+        img 24560
         with Dissolve(0.2)
         w
         ryan "Конечно, Миссис Бакфетт..."
@@ -1212,7 +1212,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         m "Вообще-то, перед тобой леди!"
         sound camera_lens1
         $ photoImage = 24562
-        img photoImage
+        img 24562
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_121
@@ -1231,7 +1231,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose8:
         w
         sound camera_lens1
         $ photoImage = 24564
-        img photoImage
+        img 24564
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_122
@@ -1348,7 +1348,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         w
         sound camera_lens1
         $ photoImage = 24569
-        img photoImage
+        img 24569
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_124
@@ -1373,7 +1373,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose9:
         w
         sound camera_lens1
         $ photoImage = 24572
-        img photoImage
+        img 24572
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_125
@@ -1423,7 +1423,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         w
         sound camera_lens1
         $ photoImage = 24575
-        img photoImage
+        img 24575
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_126
@@ -1442,7 +1442,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         m "Я всегда сногсшибательна, Райен! Если ты не заметил!"
         sound camera_lens1
         $ photoImage = 24577
-        img photoImage
+        img 24577
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_127
@@ -1477,7 +1477,7 @@ label ep22_5_dialogues4_rayan_3_photoshoot_pose10:
         w
         sound camera_lens1
         $ photoImage = 24581
-        img photoImage
+        img 24581
         with Dissolve(0.2)
         w
         call photoshoot_flash_count() from _rcall_photoshoot_flash_count_128
