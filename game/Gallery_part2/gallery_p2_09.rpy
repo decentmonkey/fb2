@@ -2305,6 +2305,10 @@ label gallery_35880:
     mt "Кто знает, может Клэр и правда настолько хорошо ко мне относится?.."
     # увеличение прогресса у Клэр
     return
+default gallery_monicaRevengeQuestMarcusGun1 = 0
+default gallery_monicaRevengeQuestMarcusGun2 = 0
+default gallery_monicaRevengeQuestMarcusGun3 = 0
+default gallery_monicaRevengeQuestMarcusGun4 = 0
 
 label gallery_60203:
     # трущобы. моника стоит и смотрит на мамочку, проститутку и на бывшую модель
@@ -2458,7 +2462,7 @@ label gallery_60203:
 
             menu:
                 "Наставить пистолет на мамочку.":
-                    #$ monicaRevengeQuestMarcusGun1 = day # Моника достала пистолет и наставила его на мамочку
+                    $ gallery_monicaRevengeQuestMarcusGun1 = day # Моника достала пистолет и наставила его на мамочку
                     label gallery_60230:
                     music Gearhead
                     sound2 vjuh4
@@ -2498,7 +2502,7 @@ label gallery_60203:
                     m "В этих трущобах одни идиоты!"
 
                 "Наставить пистолет на себя.": # правильный выбор
-                    #$ monicaRevengeQuestMarcusGun2 = day # Моника достала пистолет и наставила его на себя
+                    $ gallery_monicaRevengeQuestMarcusGun2 = day # Моника достала пистолет и наставила его на себя
                     label gallery_60242:
                     music I_Feel_You
                     imgf 60239
@@ -2549,7 +2553,7 @@ label gallery_60203:
         "Отказаться отдавать одежду." if monicaBitch == False: # низкая бичность
             menu:
                 "Поставить условие.":
-                    #$ monicaRevengeQuestMarcusGun3 = day # Моника не доставала пистолет, поставила условие мамочке
+                    $ gallery_monicaRevengeQuestMarcusGun3 = day # Моника не доставала пистолет, поставила условие мамочке
                     label gallery_60247:
                     music Pyro_Flow
                     imgf 60244
@@ -2585,7 +2589,7 @@ label gallery_60203:
                     m "Мне больше нечего делать здесь!"
 
                 "Заплакать.": # правильный ответ
-                    #$ monicaRevengeQuestMarcusGun4 = day # Моника не доставала пистолет, заплакала
+                    $ gallery_monicaRevengeQuestMarcusGun4 = day # Моника не доставала пистолет, заплакала
                     label gallery_60251:
                     music I_Feel_You
                     imgf 60250
@@ -2789,7 +2793,7 @@ label gallery_60203:
     marcus "Миссис Бакфетт, спасибо..."
 
     ## если отвечала мамочке неправильно
-    if monicaRevengeQuestMarcusGun1 > 0 or monicaRevengeQuestMarcusGun3 > 0:
+    if gallery_monicaRevengeQuestMarcusGun1 > 0 or gallery_monicaRevengeQuestMarcusGun3 > 0:
         fadeblack 3.0
         call textonblack(t_("Спустя некоторое время...")) from _rcall_textonblack_92
         img black_screen
@@ -2846,7 +2850,7 @@ label gallery_60203:
 
         # повтор сцены на ферме, где клеймят
     ## если сделала правильные выборы с мамочкой
-    if monicaRevengeQuestMarcusGun2 > 0 or monicaRevengeQuestMarcusGun4 > 0:
+    if gallery_monicaRevengeQuestMarcusGun2 > 0 or gallery_monicaRevengeQuestMarcusGun4 > 0:
         # звук двери
         # появляется мамочка mommmy
         music stop
